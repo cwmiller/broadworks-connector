@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ProtectionAction ERROR()
  * @method static ProtectionAction REDIRECT()
  * @method static ProtectionAction UNAVAILABLE()
- * @ValueType string
+ * @EnumValueType string
  */
 class ProtectionAction extends \MyCLabs\Enum\Enum
 {

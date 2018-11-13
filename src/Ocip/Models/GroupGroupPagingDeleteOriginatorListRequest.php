@@ -16,12 +16,15 @@ class GroupGroupPagingDeleteOriginatorListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName originatorUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $originatorUserId = array(
@@ -31,19 +34,17 @@ class GroupGroupPagingDeleteOriginatorListRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -53,20 +54,27 @@ class GroupGroupPagingDeleteOriginatorListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for originatorUserId
      *
-     * @ElementName originatorUserId
      * @return string[]
      */
     public function getOriginatorUserId()
     {
-        return $this->originatorUserId;
+        return $this->originatorUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatorUserId;
     }
 
     /**
      * Setter for originatorUserId
      *
-     * @ElementName originatorUserId
      * @param string[] $originatorUserId
      * @return $this
      */
@@ -77,15 +85,23 @@ class GroupGroupPagingDeleteOriginatorListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOriginatorUserId()
+    {
+        $this->originatorUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for originatorUserId
      *
-     * @ElementName originatorUserId
      * @param string $originatorUserId
      * @return $this
      */
     public function addOriginatorUserId(string $originatorUserId)
     {
-        $this->originatorUserId []= $originatorUserId;
+        $this->originatorUserId[] = $originatorUserId;
         return $this;
     }
 

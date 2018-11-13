@@ -12,6 +12,7 @@ class SearchCriteriaExactUserNetworkClassOfService extends SearchCriteria
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactUserNetworkClassOfService extends SearchCriteria
     /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
         return $this;
     }
 

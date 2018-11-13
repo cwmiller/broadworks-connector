@@ -16,12 +16,14 @@ class SystemClientSessionParametersModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName enableInactivityTimeout
+     * @Type bool
      * @var bool|null
      */
     private $enableInactivityTimeout = null;
 
     /**
      * @ElementName inactivityTimeoutMinutes
+     * @Type int
      * @var int|null
      */
     private $inactivityTimeoutMinutes = null;
@@ -29,19 +31,17 @@ class SystemClientSessionParametersModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for enableInactivityTimeout
      *
-     * @ElementName enableInactivityTimeout
-     * @return bool|null
+     * @return bool
      */
     public function getEnableInactivityTimeout()
     {
-        return $this->enableInactivityTimeout;
+        return $this->enableInactivityTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableInactivityTimeout;
     }
 
     /**
      * Setter for enableInactivityTimeout
      *
-     * @ElementName enableInactivityTimeout
-     * @param bool|null $enableInactivityTimeout
+     * @param bool $enableInactivityTimeout
      * @return $this
      */
     public function setEnableInactivityTimeout($enableInactivityTimeout)
@@ -51,26 +51,42 @@ class SystemClientSessionParametersModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableInactivityTimeout()
+    {
+        $this->enableInactivityTimeout = null;
+        return $this;
+    }
+
+    /**
      * Getter for inactivityTimeoutMinutes
      *
-     * @ElementName inactivityTimeoutMinutes
-     * @return int|null
+     * @return int
      */
     public function getInactivityTimeoutMinutes()
     {
-        return $this->inactivityTimeoutMinutes;
+        return $this->inactivityTimeoutMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->inactivityTimeoutMinutes;
     }
 
     /**
      * Setter for inactivityTimeoutMinutes
      *
-     * @ElementName inactivityTimeoutMinutes
-     * @param int|null $inactivityTimeoutMinutes
+     * @param int $inactivityTimeoutMinutes
      * @return $this
      */
     public function setInactivityTimeoutMinutes($inactivityTimeoutMinutes)
     {
         $this->inactivityTimeoutMinutes = $inactivityTimeoutMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInactivityTimeoutMinutes()
+    {
+        $this->inactivityTimeoutMinutes = null;
         return $this;
     }
 

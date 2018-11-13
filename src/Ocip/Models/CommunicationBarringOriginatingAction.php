@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CommunicationBarringOriginatingAction AUTHORIZATION_CODE_TIMED()
  * @method static CommunicationBarringOriginatingAction TREATMENT()
  * @method static CommunicationBarringOriginatingAction TRANSFER()
- * @ValueType string
+ * @EnumValueType string
  */
 class CommunicationBarringOriginatingAction extends \MyCLabs\Enum\Enum
 {

@@ -12,72 +12,84 @@ class PersonalAssistantMenuKeysReadEntry
 
     /**
      * @ElementName setPresenceToNone
+     * @Type string
      * @var string|null
      */
     private $setPresenceToNone = null;
 
     /**
      * @ElementName setPresenceToBusinessTrip
+     * @Type string
      * @var string|null
      */
     private $setPresenceToBusinessTrip = null;
 
     /**
      * @ElementName setPresenceToGoneForTheDay
+     * @Type string
      * @var string|null
      */
     private $setPresenceToGoneForTheDay = null;
 
     /**
      * @ElementName setPresenceToLunch
+     * @Type string
      * @var string|null
      */
     private $setPresenceToLunch = null;
 
     /**
      * @ElementName setPresenceToMeeting
+     * @Type string
      * @var string|null
      */
     private $setPresenceToMeeting = null;
 
     /**
      * @ElementName setPresenceToOutOfOffice
+     * @Type string
      * @var string|null
      */
     private $setPresenceToOutOfOffice = null;
 
     /**
      * @ElementName setPresenceToTemporarilyOut
+     * @Type string
      * @var string|null
      */
     private $setPresenceToTemporarilyOut = null;
 
     /**
      * @ElementName setPresenceToTraining
+     * @Type string
      * @var string|null
      */
     private $setPresenceToTraining = null;
 
     /**
      * @ElementName setPresenceToUnavailable
+     * @Type string
      * @var string|null
      */
     private $setPresenceToUnavailable = null;
 
     /**
      * @ElementName setPresenceToVacation
+     * @Type string
      * @var string|null
      */
     private $setPresenceToVacation = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -85,19 +97,17 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * Getter for setPresenceToNone
      *
-     * @ElementName setPresenceToNone
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToNone()
     {
-        return $this->setPresenceToNone;
+        return $this->setPresenceToNone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToNone;
     }
 
     /**
      * Setter for setPresenceToNone
      *
-     * @ElementName setPresenceToNone
-     * @param string|null $setPresenceToNone
+     * @param string $setPresenceToNone
      * @return $this
      */
     public function setSetPresenceToNone($setPresenceToNone)
@@ -107,21 +117,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToNone()
+    {
+        $this->setPresenceToNone = null;
+        return $this;
+    }
+
+    /**
      * Getter for setPresenceToBusinessTrip
      *
-     * @ElementName setPresenceToBusinessTrip
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToBusinessTrip()
     {
-        return $this->setPresenceToBusinessTrip;
+        return $this->setPresenceToBusinessTrip instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToBusinessTrip;
     }
 
     /**
      * Setter for setPresenceToBusinessTrip
      *
-     * @ElementName setPresenceToBusinessTrip
-     * @param string|null $setPresenceToBusinessTrip
+     * @param string $setPresenceToBusinessTrip
      * @return $this
      */
     public function setSetPresenceToBusinessTrip($setPresenceToBusinessTrip)
@@ -131,21 +148,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToBusinessTrip()
+    {
+        $this->setPresenceToBusinessTrip = null;
+        return $this;
+    }
+
+    /**
      * Getter for setPresenceToGoneForTheDay
      *
-     * @ElementName setPresenceToGoneForTheDay
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToGoneForTheDay()
     {
-        return $this->setPresenceToGoneForTheDay;
+        return $this->setPresenceToGoneForTheDay instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToGoneForTheDay;
     }
 
     /**
      * Setter for setPresenceToGoneForTheDay
      *
-     * @ElementName setPresenceToGoneForTheDay
-     * @param string|null $setPresenceToGoneForTheDay
+     * @param string $setPresenceToGoneForTheDay
      * @return $this
      */
     public function setSetPresenceToGoneForTheDay($setPresenceToGoneForTheDay)
@@ -155,21 +179,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToGoneForTheDay()
+    {
+        $this->setPresenceToGoneForTheDay = null;
+        return $this;
+    }
+
+    /**
      * Getter for setPresenceToLunch
      *
-     * @ElementName setPresenceToLunch
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToLunch()
     {
-        return $this->setPresenceToLunch;
+        return $this->setPresenceToLunch instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToLunch;
     }
 
     /**
      * Setter for setPresenceToLunch
      *
-     * @ElementName setPresenceToLunch
-     * @param string|null $setPresenceToLunch
+     * @param string $setPresenceToLunch
      * @return $this
      */
     public function setSetPresenceToLunch($setPresenceToLunch)
@@ -179,21 +210,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToLunch()
+    {
+        $this->setPresenceToLunch = null;
+        return $this;
+    }
+
+    /**
      * Getter for setPresenceToMeeting
      *
-     * @ElementName setPresenceToMeeting
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToMeeting()
     {
-        return $this->setPresenceToMeeting;
+        return $this->setPresenceToMeeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToMeeting;
     }
 
     /**
      * Setter for setPresenceToMeeting
      *
-     * @ElementName setPresenceToMeeting
-     * @param string|null $setPresenceToMeeting
+     * @param string $setPresenceToMeeting
      * @return $this
      */
     public function setSetPresenceToMeeting($setPresenceToMeeting)
@@ -203,21 +241,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToMeeting()
+    {
+        $this->setPresenceToMeeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for setPresenceToOutOfOffice
      *
-     * @ElementName setPresenceToOutOfOffice
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToOutOfOffice()
     {
-        return $this->setPresenceToOutOfOffice;
+        return $this->setPresenceToOutOfOffice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToOutOfOffice;
     }
 
     /**
      * Setter for setPresenceToOutOfOffice
      *
-     * @ElementName setPresenceToOutOfOffice
-     * @param string|null $setPresenceToOutOfOffice
+     * @param string $setPresenceToOutOfOffice
      * @return $this
      */
     public function setSetPresenceToOutOfOffice($setPresenceToOutOfOffice)
@@ -227,21 +272,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToOutOfOffice()
+    {
+        $this->setPresenceToOutOfOffice = null;
+        return $this;
+    }
+
+    /**
      * Getter for setPresenceToTemporarilyOut
      *
-     * @ElementName setPresenceToTemporarilyOut
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToTemporarilyOut()
     {
-        return $this->setPresenceToTemporarilyOut;
+        return $this->setPresenceToTemporarilyOut instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToTemporarilyOut;
     }
 
     /**
      * Setter for setPresenceToTemporarilyOut
      *
-     * @ElementName setPresenceToTemporarilyOut
-     * @param string|null $setPresenceToTemporarilyOut
+     * @param string $setPresenceToTemporarilyOut
      * @return $this
      */
     public function setSetPresenceToTemporarilyOut($setPresenceToTemporarilyOut)
@@ -251,21 +303,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToTemporarilyOut()
+    {
+        $this->setPresenceToTemporarilyOut = null;
+        return $this;
+    }
+
+    /**
      * Getter for setPresenceToTraining
      *
-     * @ElementName setPresenceToTraining
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToTraining()
     {
-        return $this->setPresenceToTraining;
+        return $this->setPresenceToTraining instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToTraining;
     }
 
     /**
      * Setter for setPresenceToTraining
      *
-     * @ElementName setPresenceToTraining
-     * @param string|null $setPresenceToTraining
+     * @param string $setPresenceToTraining
      * @return $this
      */
     public function setSetPresenceToTraining($setPresenceToTraining)
@@ -275,21 +334,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToTraining()
+    {
+        $this->setPresenceToTraining = null;
+        return $this;
+    }
+
+    /**
      * Getter for setPresenceToUnavailable
      *
-     * @ElementName setPresenceToUnavailable
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToUnavailable()
     {
-        return $this->setPresenceToUnavailable;
+        return $this->setPresenceToUnavailable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToUnavailable;
     }
 
     /**
      * Setter for setPresenceToUnavailable
      *
-     * @ElementName setPresenceToUnavailable
-     * @param string|null $setPresenceToUnavailable
+     * @param string $setPresenceToUnavailable
      * @return $this
      */
     public function setSetPresenceToUnavailable($setPresenceToUnavailable)
@@ -299,21 +365,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToUnavailable()
+    {
+        $this->setPresenceToUnavailable = null;
+        return $this;
+    }
+
+    /**
      * Getter for setPresenceToVacation
      *
-     * @ElementName setPresenceToVacation
-     * @return string|null
+     * @return string
      */
     public function getSetPresenceToVacation()
     {
-        return $this->setPresenceToVacation;
+        return $this->setPresenceToVacation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToVacation;
     }
 
     /**
      * Setter for setPresenceToVacation
      *
-     * @ElementName setPresenceToVacation
-     * @param string|null $setPresenceToVacation
+     * @param string $setPresenceToVacation
      * @return $this
      */
     public function setSetPresenceToVacation($setPresenceToVacation)
@@ -323,21 +396,28 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetPresenceToVacation()
+    {
+        $this->setPresenceToVacation = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -347,26 +427,42 @@ class PersonalAssistantMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

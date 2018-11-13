@@ -16,12 +16,14 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,12 +31,14 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName useChargeNumberForEnhancedTranslations
+     * @Type bool
      * @var bool|null
      */
     private $useChargeNumberForEnhancedTranslations = null;
 
     /**
      * @ElementName sendChargeNumberToNetwork
+     * @Type bool
      * @var bool|null
      */
     private $sendChargeNumberToNetwork = null;
@@ -42,19 +46,17 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -64,47 +66,63 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
+     * @param string|null $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
     {
-        $this->phoneNumber = $phoneNumber;
+        if ($phoneNumber === null) {
+            $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->phoneNumber = $phoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for useChargeNumberForEnhancedTranslations
      *
-     * @ElementName useChargeNumberForEnhancedTranslations
-     * @return bool|null
+     * @return bool
      */
     public function getUseChargeNumberForEnhancedTranslations()
     {
-        return $this->useChargeNumberForEnhancedTranslations;
+        return $this->useChargeNumberForEnhancedTranslations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useChargeNumberForEnhancedTranslations;
     }
 
     /**
      * Setter for useChargeNumberForEnhancedTranslations
      *
-     * @ElementName useChargeNumberForEnhancedTranslations
-     * @param bool|null $useChargeNumberForEnhancedTranslations
+     * @param bool $useChargeNumberForEnhancedTranslations
      * @return $this
      */
     public function setUseChargeNumberForEnhancedTranslations($useChargeNumberForEnhancedTranslations)
@@ -114,26 +132,42 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseChargeNumberForEnhancedTranslations()
+    {
+        $this->useChargeNumberForEnhancedTranslations = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendChargeNumberToNetwork
      *
-     * @ElementName sendChargeNumberToNetwork
-     * @return bool|null
+     * @return bool
      */
     public function getSendChargeNumberToNetwork()
     {
-        return $this->sendChargeNumberToNetwork;
+        return $this->sendChargeNumberToNetwork instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendChargeNumberToNetwork;
     }
 
     /**
      * Setter for sendChargeNumberToNetwork
      *
-     * @ElementName sendChargeNumberToNetwork
-     * @param bool|null $sendChargeNumberToNetwork
+     * @param bool $sendChargeNumberToNetwork
      * @return $this
      */
     public function setSendChargeNumberToNetwork($sendChargeNumberToNetwork)
     {
         $this->sendChargeNumberToNetwork = $sendChargeNumberToNetwork;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendChargeNumberToNetwork()
+    {
+        $this->sendChargeNumberToNetwork = null;
         return $this;
     }
 

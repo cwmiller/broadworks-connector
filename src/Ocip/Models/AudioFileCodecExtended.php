@@ -22,7 +22,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AudioFileCodecExtended EVRC0()
  * @method static AudioFileCodecExtended EVRCNW()
  * @method static AudioFileCodecExtended EVRCNW0()
- * @ValueType string
+ * @EnumValueType string
  */
 class AudioFileCodecExtended extends \MyCLabs\Enum\Enum
 {

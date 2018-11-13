@@ -14,108 +14,126 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
 
     /**
      * @ElementName businessHours
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $businessHours = null;
 
     /**
      * @ElementName forceNightService
+     * @Type bool
      * @var bool|null
      */
     private $forceNightService = null;
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $transferPhoneNumber = null;
 
     /**
      * @ElementName playAnnouncementBeforeAction
+     * @Type bool
      * @var bool|null
      */
     private $playAnnouncementBeforeAction = null;
 
     /**
      * @ElementName audioMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
     /**
      * @ElementName audioUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $audioUrlList = null;
 
     /**
      * @ElementName audioFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $audioFileList = null;
 
     /**
      * @ElementName videoMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
     /**
      * @ElementName videoUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $videoUrlList = null;
 
     /**
      * @ElementName videoFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $videoFileList = null;
 
     /**
      * @ElementName manualAnnouncementMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null
      */
     private $manualAnnouncementMode = null;
 
     /**
      * @ElementName manualAudioMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $manualAudioMessageSelection = null;
 
     /**
      * @ElementName manualAudioUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $manualAudioUrlList = null;
 
     /**
      * @ElementName manualAudioFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $manualAudioFileList = null;
 
     /**
      * @ElementName manualVideoMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $manualVideoMessageSelection = null;
 
     /**
      * @ElementName manualVideoUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $manualVideoUrlList = null;
 
     /**
      * @ElementName manualVideoFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $manualVideoFileList = null;
@@ -123,19 +141,17 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction $action)
@@ -145,21 +161,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for businessHours
      *
-     * @ElementName businessHours
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      */
     public function getBusinessHours()
     {
-        return $this->businessHours;
+        return $this->businessHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->businessHours;
     }
 
     /**
      * Setter for businessHours
      *
-     * @ElementName businessHours
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours
      * @return $this
      */
     public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
@@ -169,21 +192,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusinessHours()
+    {
+        $this->businessHours = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceNightService
      *
-     * @ElementName forceNightService
-     * @return bool|null
+     * @return bool
      */
     public function getForceNightService()
     {
-        return $this->forceNightService;
+        return $this->forceNightService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceNightService;
     }
 
     /**
      * Setter for forceNightService
      *
-     * @ElementName forceNightService
-     * @param bool|null $forceNightService
+     * @param bool $forceNightService
      * @return $this
      */
     public function setForceNightService($forceNightService)
@@ -193,21 +223,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForceNightService()
+    {
+        $this->forceNightService = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @param string $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
@@ -217,21 +254,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for playAnnouncementBeforeAction
      *
-     * @ElementName playAnnouncementBeforeAction
-     * @return bool|null
+     * @return bool
      */
     public function getPlayAnnouncementBeforeAction()
     {
-        return $this->playAnnouncementBeforeAction;
+        return $this->playAnnouncementBeforeAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playAnnouncementBeforeAction;
     }
 
     /**
      * Setter for playAnnouncementBeforeAction
      *
-     * @ElementName playAnnouncementBeforeAction
-     * @param bool|null $playAnnouncementBeforeAction
+     * @param bool $playAnnouncementBeforeAction
      * @return $this
      */
     public function setPlayAnnouncementBeforeAction($playAnnouncementBeforeAction)
@@ -241,21 +285,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayAnnouncementBeforeAction()
+    {
+        $this->playAnnouncementBeforeAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioMessageSelection()
     {
-        return $this->audioMessageSelection;
+        return $this->audioMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMessageSelection;
     }
 
     /**
      * Setter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection
      * @return $this
      */
     public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
@@ -265,21 +316,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMessageSelection()
+    {
+        $this->audioMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioUrlList
      *
-     * @ElementName audioUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      */
     public function getAudioUrlList()
     {
-        return $this->audioUrlList;
+        return $this->audioUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioUrlList;
     }
 
     /**
      * Setter for audioUrlList
      *
-     * @ElementName audioUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $audioUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $audioUrlList
      * @return $this
      */
     public function setAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $audioUrlList)
@@ -289,21 +347,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioUrlList()
+    {
+        $this->audioUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileList
      *
-     * @ElementName audioFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      */
     public function getAudioFileList()
     {
-        return $this->audioFileList;
+        return $this->audioFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileList;
     }
 
     /**
      * Setter for audioFileList
      *
-     * @ElementName audioFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null $audioFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $audioFileList
      * @return $this
      */
     public function setAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $audioFileList)
@@ -313,21 +378,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileList()
+    {
+        $this->audioFileList = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoMessageSelection()
     {
-        return $this->videoMessageSelection;
+        return $this->videoMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMessageSelection;
     }
 
     /**
      * Setter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection
      * @return $this
      */
     public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
@@ -337,21 +409,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoMessageSelection()
+    {
+        $this->videoMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoUrlList
      *
-     * @ElementName videoUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      */
     public function getVideoUrlList()
     {
-        return $this->videoUrlList;
+        return $this->videoUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoUrlList;
     }
 
     /**
      * Setter for videoUrlList
      *
-     * @ElementName videoUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $videoUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $videoUrlList
      * @return $this
      */
     public function setVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $videoUrlList)
@@ -361,21 +440,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoUrlList()
+    {
+        $this->videoUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileList
      *
-     * @ElementName videoFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      */
     public function getVideoFileList()
     {
-        return $this->videoFileList;
+        return $this->videoFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileList;
     }
 
     /**
      * Setter for videoFileList
      *
-     * @ElementName videoFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null $videoFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $videoFileList
      * @return $this
      */
     public function setVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $videoFileList)
@@ -385,21 +471,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFileList()
+    {
+        $this->videoFileList = null;
+        return $this;
+    }
+
+    /**
      * Getter for manualAnnouncementMode
      *
-     * @ElementName manualAnnouncementMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode
      */
     public function getManualAnnouncementMode()
     {
-        return $this->manualAnnouncementMode;
+        return $this->manualAnnouncementMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->manualAnnouncementMode;
     }
 
     /**
      * Setter for manualAnnouncementMode
      *
-     * @ElementName manualAnnouncementMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null $manualAnnouncementMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode $manualAnnouncementMode
      * @return $this
      */
     public function setManualAnnouncementMode(\CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode $manualAnnouncementMode)
@@ -409,21 +502,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetManualAnnouncementMode()
+    {
+        $this->manualAnnouncementMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for manualAudioMessageSelection
      *
-     * @ElementName manualAudioMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getManualAudioMessageSelection()
     {
-        return $this->manualAudioMessageSelection;
+        return $this->manualAudioMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->manualAudioMessageSelection;
     }
 
     /**
      * Setter for manualAudioMessageSelection
      *
-     * @ElementName manualAudioMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $manualAudioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $manualAudioMessageSelection
      * @return $this
      */
     public function setManualAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $manualAudioMessageSelection)
@@ -433,21 +533,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetManualAudioMessageSelection()
+    {
+        $this->manualAudioMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for manualAudioUrlList
      *
-     * @ElementName manualAudioUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      */
     public function getManualAudioUrlList()
     {
-        return $this->manualAudioUrlList;
+        return $this->manualAudioUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->manualAudioUrlList;
     }
 
     /**
      * Setter for manualAudioUrlList
      *
-     * @ElementName manualAudioUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $manualAudioUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $manualAudioUrlList
      * @return $this
      */
     public function setManualAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $manualAudioUrlList)
@@ -457,21 +564,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetManualAudioUrlList()
+    {
+        $this->manualAudioUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for manualAudioFileList
      *
-     * @ElementName manualAudioFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      */
     public function getManualAudioFileList()
     {
-        return $this->manualAudioFileList;
+        return $this->manualAudioFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->manualAudioFileList;
     }
 
     /**
      * Setter for manualAudioFileList
      *
-     * @ElementName manualAudioFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null $manualAudioFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $manualAudioFileList
      * @return $this
      */
     public function setManualAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $manualAudioFileList)
@@ -481,21 +595,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetManualAudioFileList()
+    {
+        $this->manualAudioFileList = null;
+        return $this;
+    }
+
+    /**
      * Getter for manualVideoMessageSelection
      *
-     * @ElementName manualVideoMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getManualVideoMessageSelection()
     {
-        return $this->manualVideoMessageSelection;
+        return $this->manualVideoMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->manualVideoMessageSelection;
     }
 
     /**
      * Setter for manualVideoMessageSelection
      *
-     * @ElementName manualVideoMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $manualVideoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $manualVideoMessageSelection
      * @return $this
      */
     public function setManualVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $manualVideoMessageSelection)
@@ -505,21 +626,28 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetManualVideoMessageSelection()
+    {
+        $this->manualVideoMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for manualVideoUrlList
      *
-     * @ElementName manualVideoUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      */
     public function getManualVideoUrlList()
     {
-        return $this->manualVideoUrlList;
+        return $this->manualVideoUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->manualVideoUrlList;
     }
 
     /**
      * Setter for manualVideoUrlList
      *
-     * @ElementName manualVideoUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $manualVideoUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $manualVideoUrlList
      * @return $this
      */
     public function setManualVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $manualVideoUrlList)
@@ -529,26 +657,42 @@ class GroupRoutePointNightServiceGetResponse20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetManualVideoUrlList()
+    {
+        $this->manualVideoUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for manualVideoFileList
      *
-     * @ElementName manualVideoFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      */
     public function getManualVideoFileList()
     {
-        return $this->manualVideoFileList;
+        return $this->manualVideoFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->manualVideoFileList;
     }
 
     /**
      * Setter for manualVideoFileList
      *
-     * @ElementName manualVideoFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null $manualVideoFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $manualVideoFileList
      * @return $this
      */
     public function setManualVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $manualVideoFileList)
     {
         $this->manualVideoFileList = $manualVideoFileList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetManualVideoFileList()
+    {
+        $this->manualVideoFileList = null;
         return $this;
     }
 

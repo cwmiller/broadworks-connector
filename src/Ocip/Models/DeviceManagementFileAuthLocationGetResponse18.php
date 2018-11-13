@@ -19,96 +19,112 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName fileRepositoryUserName
+     * @Type string
      * @var string|null
      */
     private $fileRepositoryUserName = null;
 
     /**
      * @ElementName fileRepositoryPassword
+     * @Type string
      * @var string|null
      */
     private $fileRepositoryPassword = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName remoteFileFormat
+     * @Type string
      * @var string|null
      */
     private $remoteFileFormat = null;
 
     /**
      * @ElementName portNumber
+     * @Type int
      * @var int|null
      */
     private $portNumber = null;
 
     /**
      * @ElementName rootDirectory
+     * @Type string
      * @var string|null
      */
     private $rootDirectory = null;
 
     /**
      * @ElementName cpeFileDirectory
+     * @Type string
      * @var string|null
      */
     private $cpeFileDirectory = null;
 
     /**
      * @ElementName secure
+     * @Type bool
      * @var bool|null
      */
     private $secure = null;
 
     /**
      * @ElementName macInNonRequestURI
+     * @Type bool
      * @var bool|null
      */
     private $macInNonRequestURI = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
+     * @Type string
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;
 
     /**
      * @ElementName useHttpDigestAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName completionNotification
+     * @Type bool
      * @var bool|null
      */
     private $completionNotification = null;
 
     /**
      * @ElementName fileCategory
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;
 
     /**
      * @ElementName enableCaching
+     * @Type bool
      * @var bool|null
      */
     private $enableCaching = null;
@@ -116,19 +132,17 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     /**
      * Getter for fileRepositoryUserName
      *
-     * @ElementName fileRepositoryUserName
-     * @return string|null
+     * @return string
      */
     public function getFileRepositoryUserName()
     {
-        return $this->fileRepositoryUserName;
+        return $this->fileRepositoryUserName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileRepositoryUserName;
     }
 
     /**
      * Setter for fileRepositoryUserName
      *
-     * @ElementName fileRepositoryUserName
-     * @param string|null $fileRepositoryUserName
+     * @param string $fileRepositoryUserName
      * @return $this
      */
     public function setFileRepositoryUserName($fileRepositoryUserName)
@@ -138,21 +152,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileRepositoryUserName()
+    {
+        $this->fileRepositoryUserName = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileRepositoryPassword
      *
-     * @ElementName fileRepositoryPassword
-     * @return string|null
+     * @return string
      */
     public function getFileRepositoryPassword()
     {
-        return $this->fileRepositoryPassword;
+        return $this->fileRepositoryPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileRepositoryPassword;
     }
 
     /**
      * Setter for fileRepositoryPassword
      *
-     * @ElementName fileRepositoryPassword
-     * @param string|null $fileRepositoryPassword
+     * @param string $fileRepositoryPassword
      * @return $this
      */
     public function setFileRepositoryPassword($fileRepositoryPassword)
@@ -162,21 +183,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileRepositoryPassword()
+    {
+        $this->fileRepositoryPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -186,21 +214,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for remoteFileFormat
      *
-     * @ElementName remoteFileFormat
-     * @return string|null
+     * @return string
      */
     public function getRemoteFileFormat()
     {
-        return $this->remoteFileFormat;
+        return $this->remoteFileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->remoteFileFormat;
     }
 
     /**
      * Setter for remoteFileFormat
      *
-     * @ElementName remoteFileFormat
-     * @param string|null $remoteFileFormat
+     * @param string $remoteFileFormat
      * @return $this
      */
     public function setRemoteFileFormat($remoteFileFormat)
@@ -210,21 +245,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRemoteFileFormat()
+    {
+        $this->remoteFileFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for portNumber
      *
-     * @ElementName portNumber
-     * @return int|null
+     * @return int
      */
     public function getPortNumber()
     {
-        return $this->portNumber;
+        return $this->portNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->portNumber;
     }
 
     /**
      * Setter for portNumber
      *
-     * @ElementName portNumber
-     * @param int|null $portNumber
+     * @param int $portNumber
      * @return $this
      */
     public function setPortNumber($portNumber)
@@ -234,21 +276,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPortNumber()
+    {
+        $this->portNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for rootDirectory
      *
-     * @ElementName rootDirectory
-     * @return string|null
+     * @return string
      */
     public function getRootDirectory()
     {
-        return $this->rootDirectory;
+        return $this->rootDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rootDirectory;
     }
 
     /**
      * Setter for rootDirectory
      *
-     * @ElementName rootDirectory
-     * @param string|null $rootDirectory
+     * @param string $rootDirectory
      * @return $this
      */
     public function setRootDirectory($rootDirectory)
@@ -258,21 +307,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRootDirectory()
+    {
+        $this->rootDirectory = null;
+        return $this;
+    }
+
+    /**
      * Getter for cpeFileDirectory
      *
-     * @ElementName cpeFileDirectory
-     * @return string|null
+     * @return string
      */
     public function getCpeFileDirectory()
     {
-        return $this->cpeFileDirectory;
+        return $this->cpeFileDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cpeFileDirectory;
     }
 
     /**
      * Setter for cpeFileDirectory
      *
-     * @ElementName cpeFileDirectory
-     * @param string|null $cpeFileDirectory
+     * @param string $cpeFileDirectory
      * @return $this
      */
     public function setCpeFileDirectory($cpeFileDirectory)
@@ -282,21 +338,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCpeFileDirectory()
+    {
+        $this->cpeFileDirectory = null;
+        return $this;
+    }
+
+    /**
      * Getter for secure
      *
-     * @ElementName secure
-     * @return bool|null
+     * @return bool
      */
     public function getSecure()
     {
-        return $this->secure;
+        return $this->secure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secure;
     }
 
     /**
      * Setter for secure
      *
-     * @ElementName secure
-     * @param bool|null $secure
+     * @param bool $secure
      * @return $this
      */
     public function setSecure($secure)
@@ -306,21 +369,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecure()
+    {
+        $this->secure = null;
+        return $this;
+    }
+
+    /**
      * Getter for macInNonRequestURI
      *
-     * @ElementName macInNonRequestURI
-     * @return bool|null
+     * @return bool
      */
     public function getMacInNonRequestURI()
     {
-        return $this->macInNonRequestURI;
+        return $this->macInNonRequestURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macInNonRequestURI;
     }
 
     /**
      * Setter for macInNonRequestURI
      *
-     * @ElementName macInNonRequestURI
-     * @param bool|null $macInNonRequestURI
+     * @param bool $macInNonRequestURI
      * @return $this
      */
     public function setMacInNonRequestURI($macInNonRequestURI)
@@ -330,21 +400,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacInNonRequestURI()
+    {
+        $this->macInNonRequestURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for macFormatInNonRequestURI
      *
-     * @ElementName macFormatInNonRequestURI
-     * @return string|null
+     * @return string
      */
     public function getMacFormatInNonRequestURI()
     {
-        return $this->macFormatInNonRequestURI;
+        return $this->macFormatInNonRequestURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macFormatInNonRequestURI;
     }
 
     /**
      * Setter for macFormatInNonRequestURI
      *
-     * @ElementName macFormatInNonRequestURI
-     * @param string|null $macFormatInNonRequestURI
+     * @param string $macFormatInNonRequestURI
      * @return $this
      */
     public function setMacFormatInNonRequestURI($macFormatInNonRequestURI)
@@ -354,21 +431,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacFormatInNonRequestURI()
+    {
+        $this->macFormatInNonRequestURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for useHttpDigestAuthentication
      *
-     * @ElementName useHttpDigestAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getUseHttpDigestAuthentication()
     {
-        return $this->useHttpDigestAuthentication;
+        return $this->useHttpDigestAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useHttpDigestAuthentication;
     }
 
     /**
      * Setter for useHttpDigestAuthentication
      *
-     * @ElementName useHttpDigestAuthentication
-     * @param bool|null $useHttpDigestAuthentication
+     * @param bool $useHttpDigestAuthentication
      * @return $this
      */
     public function setUseHttpDigestAuthentication($useHttpDigestAuthentication)
@@ -378,21 +462,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseHttpDigestAuthentication()
+    {
+        $this->useHttpDigestAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for macBasedFileAuthentication
      *
-     * @ElementName macBasedFileAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getMacBasedFileAuthentication()
     {
-        return $this->macBasedFileAuthentication;
+        return $this->macBasedFileAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macBasedFileAuthentication;
     }
 
     /**
      * Setter for macBasedFileAuthentication
      *
-     * @ElementName macBasedFileAuthentication
-     * @param bool|null $macBasedFileAuthentication
+     * @param bool $macBasedFileAuthentication
      * @return $this
      */
     public function setMacBasedFileAuthentication($macBasedFileAuthentication)
@@ -402,21 +493,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacBasedFileAuthentication()
+    {
+        $this->macBasedFileAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for userNamePasswordFileAuthentication
      *
-     * @ElementName userNamePasswordFileAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getUserNamePasswordFileAuthentication()
     {
-        return $this->userNamePasswordFileAuthentication;
+        return $this->userNamePasswordFileAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userNamePasswordFileAuthentication;
     }
 
     /**
      * Setter for userNamePasswordFileAuthentication
      *
-     * @ElementName userNamePasswordFileAuthentication
-     * @param bool|null $userNamePasswordFileAuthentication
+     * @param bool $userNamePasswordFileAuthentication
      * @return $this
      */
     public function setUserNamePasswordFileAuthentication($userNamePasswordFileAuthentication)
@@ -426,21 +524,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserNamePasswordFileAuthentication()
+    {
+        $this->userNamePasswordFileAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for completionNotification
      *
-     * @ElementName completionNotification
-     * @return bool|null
+     * @return bool
      */
     public function getCompletionNotification()
     {
-        return $this->completionNotification;
+        return $this->completionNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->completionNotification;
     }
 
     /**
      * Setter for completionNotification
      *
-     * @ElementName completionNotification
-     * @param bool|null $completionNotification
+     * @param bool $completionNotification
      * @return $this
      */
     public function setCompletionNotification($completionNotification)
@@ -450,21 +555,28 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCompletionNotification()
+    {
+        $this->completionNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileCategory
      *
-     * @ElementName fileCategory
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
      */
     public function getFileCategory()
     {
-        return $this->fileCategory;
+        return $this->fileCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileCategory;
     }
 
     /**
      * Setter for fileCategory
      *
-     * @ElementName fileCategory
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null $fileCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory $fileCategory
      * @return $this
      */
     public function setFileCategory(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory $fileCategory)
@@ -474,26 +586,42 @@ class DeviceManagementFileAuthLocationGetResponse18 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileCategory()
+    {
+        $this->fileCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCaching
      *
-     * @ElementName enableCaching
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCaching()
     {
-        return $this->enableCaching;
+        return $this->enableCaching instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCaching;
     }
 
     /**
      * Setter for enableCaching
      *
-     * @ElementName enableCaching
-     * @param bool|null $enableCaching
+     * @param bool $enableCaching
      * @return $this
      */
     public function setEnableCaching($enableCaching)
     {
         $this->enableCaching = $enableCaching;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableCaching()
+    {
+        $this->enableCaching = null;
         return $this;
     }
 

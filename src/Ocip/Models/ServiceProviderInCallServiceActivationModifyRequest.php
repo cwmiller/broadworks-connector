@@ -18,12 +18,14 @@ class ServiceProviderInCallServiceActivationModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName activationDigits
+     * @Type string
      * @var string|null
      */
     private $activationDigits = null;
@@ -31,19 +33,17 @@ class ServiceProviderInCallServiceActivationModifyRequest extends \CWM\BroadWork
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,26 +53,42 @@ class ServiceProviderInCallServiceActivationModifyRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for activationDigits
      *
-     * @ElementName activationDigits
-     * @return string|null
+     * @return string
      */
     public function getActivationDigits()
     {
-        return $this->activationDigits;
+        return $this->activationDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activationDigits;
     }
 
     /**
      * Setter for activationDigits
      *
-     * @ElementName activationDigits
-     * @param string|null $activationDigits
+     * @param string $activationDigits
      * @return $this
      */
     public function setActivationDigits($activationDigits)
     {
         $this->activationDigits = $activationDigits;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetActivationDigits()
+    {
+        $this->activationDigits = null;
         return $this;
     }
 

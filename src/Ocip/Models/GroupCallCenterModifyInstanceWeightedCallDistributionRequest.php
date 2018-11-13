@@ -16,12 +16,15 @@ class GroupCallCenterModifyInstanceWeightedCallDistributionRequest extends \CWM\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName agentWeight
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[]
      */
     private $agentWeight = array(
@@ -31,19 +34,17 @@ class GroupCallCenterModifyInstanceWeightedCallDistributionRequest extends \CWM\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -53,20 +54,27 @@ class GroupCallCenterModifyInstanceWeightedCallDistributionRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentWeight
      *
-     * @ElementName agentWeight
      * @return \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[]
      */
     public function getAgentWeight()
     {
-        return $this->agentWeight;
+        return $this->agentWeight instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentWeight;
     }
 
     /**
      * Setter for agentWeight
      *
-     * @ElementName agentWeight
      * @param \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[] $agentWeight
      * @return $this
      */
@@ -77,15 +85,23 @@ class GroupCallCenterModifyInstanceWeightedCallDistributionRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentWeight()
+    {
+        $this->agentWeight = null;
+        return $this;
+    }
+
+    /**
      * Adder for agentWeight
      *
-     * @ElementName agentWeight
      * @param \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight $agentWeight
      * @return $this
      */
     public function addAgentWeight($agentWeight)
     {
-        $this->agentWeight []= $agentWeight;
+        $this->agentWeight[] = $agentWeight;
         return $this;
     }
 

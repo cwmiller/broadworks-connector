@@ -19,6 +19,8 @@ class ReplacementConsolidatedUserServiceAssignmentList
 
     /**
      * @ElementName userServiceServiceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[]
      */
     private $userServiceServiceName = array(
@@ -28,18 +30,16 @@ class ReplacementConsolidatedUserServiceAssignmentList
     /**
      * Getter for userServiceServiceName
      *
-     * @ElementName userServiceServiceName
      * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[]
      */
     public function getUserServiceServiceName()
     {
-        return $this->userServiceServiceName;
+        return $this->userServiceServiceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServiceServiceName;
     }
 
     /**
      * Setter for userServiceServiceName
      *
-     * @ElementName userServiceServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[] $userServiceServiceName
      * @return $this
      */
@@ -50,15 +50,23 @@ class ReplacementConsolidatedUserServiceAssignmentList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserServiceServiceName()
+    {
+        $this->userServiceServiceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for userServiceServiceName
      *
-     * @ElementName userServiceServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment $userServiceServiceName
      * @return $this
      */
     public function addUserServiceServiceName($userServiceServiceName)
     {
-        $this->userServiceServiceName []= $userServiceServiceName;
+        $this->userServiceServiceName[] = $userServiceServiceName;
         return $this;
     }
 

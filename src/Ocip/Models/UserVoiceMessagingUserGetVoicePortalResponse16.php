@@ -14,24 +14,28 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName usePersonalizedName
+     * @Type bool
      * @var bool|null
      */
     private $usePersonalizedName = null;
 
     /**
      * @ElementName voicePortalAutoLogin
+     * @Type bool
      * @var bool|null
      */
     private $voicePortalAutoLogin = null;
 
     /**
      * @ElementName personalizedNameAudioFileDescription
+     * @Type string
      * @var string|null
      */
     private $personalizedNameAudioFileDescription = null;
 
     /**
      * @ElementName personalizedNameMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $personalizedNameMediaType = null;
@@ -39,19 +43,17 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
     /**
      * Getter for usePersonalizedName
      *
-     * @ElementName usePersonalizedName
-     * @return bool|null
+     * @return bool
      */
     public function getUsePersonalizedName()
     {
-        return $this->usePersonalizedName;
+        return $this->usePersonalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usePersonalizedName;
     }
 
     /**
      * Setter for usePersonalizedName
      *
-     * @ElementName usePersonalizedName
-     * @param bool|null $usePersonalizedName
+     * @param bool $usePersonalizedName
      * @return $this
      */
     public function setUsePersonalizedName($usePersonalizedName)
@@ -61,21 +63,28 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUsePersonalizedName()
+    {
+        $this->usePersonalizedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalAutoLogin
      *
-     * @ElementName voicePortalAutoLogin
-     * @return bool|null
+     * @return bool
      */
     public function getVoicePortalAutoLogin()
     {
-        return $this->voicePortalAutoLogin;
+        return $this->voicePortalAutoLogin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalAutoLogin;
     }
 
     /**
      * Setter for voicePortalAutoLogin
      *
-     * @ElementName voicePortalAutoLogin
-     * @param bool|null $voicePortalAutoLogin
+     * @param bool $voicePortalAutoLogin
      * @return $this
      */
     public function setVoicePortalAutoLogin($voicePortalAutoLogin)
@@ -85,21 +94,28 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalAutoLogin()
+    {
+        $this->voicePortalAutoLogin = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalizedNameAudioFileDescription
      *
-     * @ElementName personalizedNameAudioFileDescription
-     * @return string|null
+     * @return string
      */
     public function getPersonalizedNameAudioFileDescription()
     {
-        return $this->personalizedNameAudioFileDescription;
+        return $this->personalizedNameAudioFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedNameAudioFileDescription;
     }
 
     /**
      * Setter for personalizedNameAudioFileDescription
      *
-     * @ElementName personalizedNameAudioFileDescription
-     * @param string|null $personalizedNameAudioFileDescription
+     * @param string $personalizedNameAudioFileDescription
      * @return $this
      */
     public function setPersonalizedNameAudioFileDescription($personalizedNameAudioFileDescription)
@@ -109,26 +125,42 @@ class UserVoiceMessagingUserGetVoicePortalResponse16 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalizedNameAudioFileDescription()
+    {
+        $this->personalizedNameAudioFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalizedNameMediaType
      *
-     * @ElementName personalizedNameMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getPersonalizedNameMediaType()
     {
-        return $this->personalizedNameMediaType;
+        return $this->personalizedNameMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedNameMediaType;
     }
 
     /**
      * Setter for personalizedNameMediaType
      *
-     * @ElementName personalizedNameMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $personalizedNameMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $personalizedNameMediaType
      * @return $this
      */
     public function setPersonalizedNameMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $personalizedNameMediaType)
     {
         $this->personalizedNameMediaType = $personalizedNameMediaType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPersonalizedNameMediaType()
+    {
+        $this->personalizedNameMediaType = null;
         return $this;
     }
 

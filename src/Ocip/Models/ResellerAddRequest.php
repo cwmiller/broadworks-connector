@@ -16,12 +16,14 @@ class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
 
     /**
      * @ElementName resellerName
+     * @Type string
      * @var string|null
      */
     private $resellerName = null;
@@ -29,19 +31,17 @@ class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
@@ -51,26 +51,42 @@ class ResellerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
+        return $this;
+    }
+
+    /**
      * Getter for resellerName
      *
-     * @ElementName resellerName
-     * @return string|null
+     * @return string
      */
     public function getResellerName()
     {
-        return $this->resellerName;
+        return $this->resellerName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerName;
     }
 
     /**
      * Setter for resellerName
      *
-     * @ElementName resellerName
-     * @param string|null $resellerName
+     * @param string $resellerName
      * @return $this
      */
     public function setResellerName($resellerName)
     {
         $this->resellerName = $resellerName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerName()
+    {
+        $this->resellerName = null;
         return $this;
     }
 

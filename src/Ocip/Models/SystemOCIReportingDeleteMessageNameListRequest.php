@@ -17,18 +17,22 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName deleteAllMessageNames
+     * @Type bool
      * @var bool|null
      */
     private $deleteAllMessageNames = null;
 
     /**
      * @ElementName messageNameStartsWith
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $messageNameStartsWith = array(
@@ -38,19 +42,17 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
     /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -60,21 +62,28 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for deleteAllMessageNames
      *
-     * @ElementName deleteAllMessageNames
-     * @return bool|null
+     * @return bool
      */
     public function getDeleteAllMessageNames()
     {
-        return $this->deleteAllMessageNames;
+        return $this->deleteAllMessageNames instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteAllMessageNames;
     }
 
     /**
      * Setter for deleteAllMessageNames
      *
-     * @ElementName deleteAllMessageNames
-     * @param bool|null $deleteAllMessageNames
+     * @param bool $deleteAllMessageNames
      * @return $this
      */
     public function setDeleteAllMessageNames($deleteAllMessageNames)
@@ -84,20 +93,27 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeleteAllMessageNames()
+    {
+        $this->deleteAllMessageNames = null;
+        return $this;
+    }
+
+    /**
      * Getter for messageNameStartsWith
      *
-     * @ElementName messageNameStartsWith
      * @return string[]
      */
     public function getMessageNameStartsWith()
     {
-        return $this->messageNameStartsWith;
+        return $this->messageNameStartsWith instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->messageNameStartsWith;
     }
 
     /**
      * Setter for messageNameStartsWith
      *
-     * @ElementName messageNameStartsWith
      * @param string[] $messageNameStartsWith
      * @return $this
      */
@@ -108,15 +124,23 @@ class SystemOCIReportingDeleteMessageNameListRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMessageNameStartsWith()
+    {
+        $this->messageNameStartsWith = null;
+        return $this;
+    }
+
+    /**
      * Adder for messageNameStartsWith
      *
-     * @ElementName messageNameStartsWith
      * @param string $messageNameStartsWith
      * @return $this
      */
     public function addMessageNameStartsWith(string $messageNameStartsWith)
     {
-        $this->messageNameStartsWith []= $messageNameStartsWith;
+        $this->messageNameStartsWith[] = $messageNameStartsWith;
         return $this;
     }
 

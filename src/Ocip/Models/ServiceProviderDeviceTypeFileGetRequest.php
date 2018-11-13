@@ -17,18 +17,21 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName fileFormat
+     * @Type string
      * @var string|null
      */
     private $fileFormat = null;
@@ -36,19 +39,17 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -58,21 +59,28 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -82,26 +90,42 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileFormat
      *
-     * @ElementName fileFormat
-     * @return string|null
+     * @return string
      */
     public function getFileFormat()
     {
-        return $this->fileFormat;
+        return $this->fileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileFormat;
     }
 
     /**
      * Setter for fileFormat
      *
-     * @ElementName fileFormat
-     * @param string|null $fileFormat
+     * @param string $fileFormat
      * @return $this
      */
     public function setFileFormat($fileFormat)
     {
         $this->fileFormat = $fileFormat;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileFormat()
+    {
+        $this->fileFormat = null;
         return $this;
     }
 

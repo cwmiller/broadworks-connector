@@ -13,18 +13,21 @@ class TrunkAddressingMultipleContactRead
 
     /**
      * @ElementName trunkGroupDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
     private $trunkGroupDeviceEndpoint = null;
 
     /**
      * @ElementName enterpriseTrunkName
+     * @Type string
      * @var string|null
      */
     private $enterpriseTrunkName = null;
 
     /**
      * @ElementName alternateTrunkIdentity
+     * @Type string
      * @var string|null
      */
     private $alternateTrunkIdentity = null;
@@ -32,19 +35,17 @@ class TrunkAddressingMultipleContactRead
     /**
      * Getter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      */
     public function getTrunkGroupDeviceEndpoint()
     {
-        return $this->trunkGroupDeviceEndpoint;
+        return $this->trunkGroupDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupDeviceEndpoint;
     }
 
     /**
      * Setter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null $trunkGroupDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead $trunkGroupDeviceEndpoint
      * @return $this
      */
     public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead $trunkGroupDeviceEndpoint)
@@ -54,21 +55,28 @@ class TrunkAddressingMultipleContactRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupDeviceEndpoint()
+    {
+        $this->trunkGroupDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Getter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @return string|null
+     * @return string
      */
     public function getEnterpriseTrunkName()
     {
-        return $this->enterpriseTrunkName;
+        return $this->enterpriseTrunkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseTrunkName;
     }
 
     /**
      * Setter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @param string|null $enterpriseTrunkName
+     * @param string $enterpriseTrunkName
      * @return $this
      */
     public function setEnterpriseTrunkName($enterpriseTrunkName)
@@ -78,26 +86,42 @@ class TrunkAddressingMultipleContactRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnterpriseTrunkName()
+    {
+        $this->enterpriseTrunkName = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateTrunkIdentity
      *
-     * @ElementName alternateTrunkIdentity
-     * @return string|null
+     * @return string
      */
     public function getAlternateTrunkIdentity()
     {
-        return $this->alternateTrunkIdentity;
+        return $this->alternateTrunkIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateTrunkIdentity;
     }
 
     /**
      * Setter for alternateTrunkIdentity
      *
-     * @ElementName alternateTrunkIdentity
-     * @param string|null $alternateTrunkIdentity
+     * @param string $alternateTrunkIdentity
      * @return $this
      */
     public function setAlternateTrunkIdentity($alternateTrunkIdentity)
     {
         $this->alternateTrunkIdentity = $alternateTrunkIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlternateTrunkIdentity()
+    {
+        $this->alternateTrunkIdentity = null;
         return $this;
     }
 

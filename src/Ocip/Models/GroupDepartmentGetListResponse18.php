@@ -17,6 +17,7 @@ class GroupDepartmentGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName departmentTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $departmentTable = null;
@@ -24,24 +25,31 @@ class GroupDepartmentGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for departmentTable
      *
-     * @ElementName departmentTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDepartmentTable()
     {
-        return $this->departmentTable;
+        return $this->departmentTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentTable;
     }
 
     /**
      * Setter for departmentTable
      *
-     * @ElementName departmentTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $departmentTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $departmentTable
      * @return $this
      */
     public function setDepartmentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $departmentTable)
     {
         $this->departmentTable = $departmentTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDepartmentTable()
+    {
+        $this->departmentTable = null;
         return $this;
     }
 

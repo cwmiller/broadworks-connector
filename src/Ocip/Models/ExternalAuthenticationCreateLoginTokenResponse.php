@@ -14,6 +14,7 @@ class ExternalAuthenticationCreateLoginTokenResponse extends \CWM\BroadWorksConn
 
     /**
      * @ElementName loginToken
+     * @Type string
      * @var string|null
      */
     private $loginToken = null;
@@ -21,24 +22,31 @@ class ExternalAuthenticationCreateLoginTokenResponse extends \CWM\BroadWorksConn
     /**
      * Getter for loginToken
      *
-     * @ElementName loginToken
-     * @return string|null
+     * @return string
      */
     public function getLoginToken()
     {
-        return $this->loginToken;
+        return $this->loginToken instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->loginToken;
     }
 
     /**
      * Setter for loginToken
      *
-     * @ElementName loginToken
-     * @param string|null $loginToken
+     * @param string $loginToken
      * @return $this
      */
     public function setLoginToken($loginToken)
     {
         $this->loginToken = $loginToken;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLoginToken()
+    {
+        $this->loginToken = null;
         return $this;
     }
 

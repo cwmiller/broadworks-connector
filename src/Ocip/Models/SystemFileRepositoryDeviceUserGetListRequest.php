@@ -17,6 +17,7 @@ class SystemFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName fileRepositoryName
+     * @Type string
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -24,24 +25,31 @@ class SystemFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @return string|null
+     * @return string
      */
     public function getFileRepositoryName()
     {
-        return $this->fileRepositoryName;
+        return $this->fileRepositoryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileRepositoryName;
     }
 
     /**
      * Setter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @param string|null $fileRepositoryName
+     * @param string $fileRepositoryName
      * @return $this
      */
     public function setFileRepositoryName($fileRepositoryName)
     {
         $this->fileRepositoryName = $fileRepositoryName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileRepositoryName()
+    {
+        $this->fileRepositoryName = null;
         return $this;
     }
 

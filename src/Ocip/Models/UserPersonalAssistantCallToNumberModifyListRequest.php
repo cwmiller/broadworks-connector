@@ -19,12 +19,14 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName callToNumberList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,19 +35,17 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -55,28 +55,46 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for callToNumberList
      *
-     * @ElementName callToNumberList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
      */
     public function getCallToNumberList()
     {
-        return $this->callToNumberList;
+        return $this->callToNumberList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callToNumberList;
     }
 
     /**
      * Setter for callToNumberList
      *
-     * @ElementName callToNumberList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil $callToNumberList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null $callToNumberList
      * @return $this
      */
     public function setCallToNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList $callToNumberList)
     {
-        $this->callToNumberList = $callToNumberList;
+        if ($callToNumberList === null) {
+            $this->callToNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callToNumberList = $callToNumberList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallToNumberList()
+    {
+        $this->callToNumberList = null;
         return $this;
     }
 

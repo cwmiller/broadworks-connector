@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SelectiveCallRejectionCriteriaCallTypeSelection ANY()
  * @method static SelectiveCallRejectionCriteriaCallTypeSelection FORWARDED()
  * @method static SelectiveCallRejectionCriteriaCallTypeSelection SPECIFIED_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class SelectiveCallRejectionCriteriaCallTypeSelection extends \MyCLabs\Enum\Enum
 {

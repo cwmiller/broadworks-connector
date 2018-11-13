@@ -22,7 +22,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallProcessingPolicyProfileSubscriberType ROUTE_POINT()
  * @method static CallProcessingPolicyProfileSubscriberType VOICE_PORTAL()
  * @method static CallProcessingPolicyProfileSubscriberType VOICEXML()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallProcessingPolicyProfileSubscriberType extends \MyCLabs\Enum\Enum
 {

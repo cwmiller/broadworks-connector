@@ -17,12 +17,14 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName instance
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
 
     /**
      * @ElementName identity
+     * @Type string
      * @var string|null
      */
     private $identity = null;
@@ -30,19 +32,17 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for instance
      *
-     * @ElementName instance
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
      */
     public function getInstance()
     {
-        return $this->instance;
+        return $this->instance instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->instance;
     }
 
     /**
      * Setter for instance
      *
-     * @ElementName instance
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null $instance
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance
      * @return $this
      */
     public function setInstance(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance)
@@ -52,26 +52,42 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInstance()
+    {
+        $this->instance = null;
+        return $this;
+    }
+
+    /**
      * Getter for identity
      *
-     * @ElementName identity
-     * @return string|null
+     * @return string
      */
     public function getIdentity()
     {
-        return $this->identity;
+        return $this->identity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->identity;
     }
 
     /**
      * Setter for identity
      *
-     * @ElementName identity
-     * @param string|null $identity
+     * @param string $identity
      * @return $this
      */
     public function setIdentity($identity)
     {
         $this->identity = $identity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIdentity()
+    {
+        $this->identity = null;
         return $this;
     }
 

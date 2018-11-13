@@ -19,6 +19,7 @@ class SystemPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName systemCarrierTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $systemCarrierTable = null;
@@ -26,24 +27,31 @@ class SystemPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for systemCarrierTable
      *
-     * @ElementName systemCarrierTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSystemCarrierTable()
     {
-        return $this->systemCarrierTable;
+        return $this->systemCarrierTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemCarrierTable;
     }
 
     /**
      * Setter for systemCarrierTable
      *
-     * @ElementName systemCarrierTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $systemCarrierTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemCarrierTable
      * @return $this
      */
     public function setSystemCarrierTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemCarrierTable)
     {
         $this->systemCarrierTable = $systemCarrierTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSystemCarrierTable()
+    {
+        $this->systemCarrierTable = null;
         return $this;
     }
 

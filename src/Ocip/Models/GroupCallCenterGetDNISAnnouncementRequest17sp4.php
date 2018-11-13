@@ -20,6 +20,7 @@ class GroupCallCenterGetDNISAnnouncementRequest17sp4 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName dnisKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     private $dnisKey = null;
@@ -27,24 +28,31 @@ class GroupCallCenterGetDNISAnnouncementRequest17sp4 extends \CWM\BroadWorksConn
     /**
      * Getter for dnisKey
      *
-     * @ElementName dnisKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DNISKey
      */
     public function getDnisKey()
     {
-        return $this->dnisKey;
+        return $this->dnisKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnisKey;
     }
 
     /**
      * Setter for dnisKey
      *
-     * @ElementName dnisKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $dnisKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey $dnisKey
      * @return $this
      */
     public function setDnisKey(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $dnisKey)
     {
         $this->dnisKey = $dnisKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDnisKey()
+    {
+        $this->dnisKey = null;
         return $this;
     }
 

@@ -10,30 +10,35 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
 
     /**
      * @ElementName skipBackward
+     * @Type string
      * @var string|null
      */
     private $skipBackward = null;
 
     /**
      * @ElementName pauseOrResume
+     * @Type string
      * @var string|null
      */
     private $pauseOrResume = null;
 
     /**
      * @ElementName skipForward
+     * @Type string
      * @var string|null
      */
     private $skipForward = null;
 
     /**
      * @ElementName jumpToBegin
+     * @Type string
      * @var string|null
      */
     private $jumpToBegin = null;
 
     /**
      * @ElementName jumpToEnd
+     * @Type string
      * @var string|null
      */
     private $jumpToEnd = null;
@@ -41,19 +46,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
     /**
      * Getter for skipBackward
      *
-     * @ElementName skipBackward
-     * @return string|null
+     * @return string
      */
     public function getSkipBackward()
     {
-        return $this->skipBackward;
+        return $this->skipBackward instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->skipBackward;
     }
 
     /**
      * Setter for skipBackward
      *
-     * @ElementName skipBackward
-     * @param string|null $skipBackward
+     * @param string $skipBackward
      * @return $this
      */
     public function setSkipBackward($skipBackward)
@@ -63,21 +66,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSkipBackward()
+    {
+        $this->skipBackward = null;
+        return $this;
+    }
+
+    /**
      * Getter for pauseOrResume
      *
-     * @ElementName pauseOrResume
-     * @return string|null
+     * @return string
      */
     public function getPauseOrResume()
     {
-        return $this->pauseOrResume;
+        return $this->pauseOrResume instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pauseOrResume;
     }
 
     /**
      * Setter for pauseOrResume
      *
-     * @ElementName pauseOrResume
-     * @param string|null $pauseOrResume
+     * @param string $pauseOrResume
      * @return $this
      */
     public function setPauseOrResume($pauseOrResume)
@@ -87,21 +97,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPauseOrResume()
+    {
+        $this->pauseOrResume = null;
+        return $this;
+    }
+
+    /**
      * Getter for skipForward
      *
-     * @ElementName skipForward
-     * @return string|null
+     * @return string
      */
     public function getSkipForward()
     {
-        return $this->skipForward;
+        return $this->skipForward instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->skipForward;
     }
 
     /**
      * Setter for skipForward
      *
-     * @ElementName skipForward
-     * @param string|null $skipForward
+     * @param string $skipForward
      * @return $this
      */
     public function setSkipForward($skipForward)
@@ -111,21 +128,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSkipForward()
+    {
+        $this->skipForward = null;
+        return $this;
+    }
+
+    /**
      * Getter for jumpToBegin
      *
-     * @ElementName jumpToBegin
-     * @return string|null
+     * @return string
      */
     public function getJumpToBegin()
     {
-        return $this->jumpToBegin;
+        return $this->jumpToBegin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->jumpToBegin;
     }
 
     /**
      * Setter for jumpToBegin
      *
-     * @ElementName jumpToBegin
-     * @param string|null $jumpToBegin
+     * @param string $jumpToBegin
      * @return $this
      */
     public function setJumpToBegin($jumpToBegin)
@@ -135,26 +159,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18PlayGreetingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetJumpToBegin()
+    {
+        $this->jumpToBegin = null;
+        return $this;
+    }
+
+    /**
      * Getter for jumpToEnd
      *
-     * @ElementName jumpToEnd
-     * @return string|null
+     * @return string
      */
     public function getJumpToEnd()
     {
-        return $this->jumpToEnd;
+        return $this->jumpToEnd instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->jumpToEnd;
     }
 
     /**
      * Setter for jumpToEnd
      *
-     * @ElementName jumpToEnd
-     * @param string|null $jumpToEnd
+     * @param string $jumpToEnd
      * @return $this
      */
     public function setJumpToEnd($jumpToEnd)
     {
         $this->jumpToEnd = $jumpToEnd;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetJumpToEnd()
+    {
+        $this->jumpToEnd = null;
         return $this;
     }
 

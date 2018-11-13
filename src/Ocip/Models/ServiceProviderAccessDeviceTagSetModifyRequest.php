@@ -16,18 +16,21 @@ class ServiceProviderAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName tagSetName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,19 +39,17 @@ class ServiceProviderAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConn
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -58,21 +59,28 @@ class ServiceProviderAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -82,28 +90,46 @@ class ServiceProviderAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagSetName
      *
-     * @ElementName tagSetName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTagSetName()
     {
-        return $this->tagSetName;
+        return $this->tagSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagSetName;
     }
 
     /**
      * Setter for tagSetName
      *
-     * @ElementName tagSetName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagSetName
+     * @param string|null $tagSetName
      * @return $this
      */
     public function setTagSetName($tagSetName)
     {
-        $this->tagSetName = $tagSetName;
+        if ($tagSetName === null) {
+            $this->tagSetName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->tagSetName = $tagSetName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagSetName()
+    {
+        $this->tagSetName = null;
         return $this;
     }
 

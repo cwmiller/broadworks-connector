@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupAdminAdminAccess FULL()
  * @method static GroupAdminAdminAccess READ_ONLY()
  * @method static GroupAdminAdminAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupAdminAdminAccess extends \MyCLabs\Enum\Enum
 {

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterReportDateFormat MMDDYYYY()
  * @method static CallCenterReportDateFormat DDMMYYYY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportDateFormat extends \MyCLabs\Enum\Enum
 {

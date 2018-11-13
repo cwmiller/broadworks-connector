@@ -18,12 +18,14 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName serviceNetAddress
+     * @Type string
      * @var string|null
      */
     private $serviceNetAddress = null;
 
     /**
      * @ElementName servicePort
+     * @Type int
      * @var int|null
      */
     private $servicePort = null;
@@ -31,19 +33,17 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for serviceNetAddress
      *
-     * @ElementName serviceNetAddress
-     * @return string|null
+     * @return string
      */
     public function getServiceNetAddress()
     {
-        return $this->serviceNetAddress;
+        return $this->serviceNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceNetAddress;
     }
 
     /**
      * Setter for serviceNetAddress
      *
-     * @ElementName serviceNetAddress
-     * @param string|null $serviceNetAddress
+     * @param string $serviceNetAddress
      * @return $this
      */
     public function setServiceNetAddress($serviceNetAddress)
@@ -53,26 +53,42 @@ class SystemThirdPartyIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceNetAddress()
+    {
+        $this->serviceNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePort
      *
-     * @ElementName servicePort
-     * @return int|null
+     * @return int
      */
     public function getServicePort()
     {
-        return $this->servicePort;
+        return $this->servicePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePort;
     }
 
     /**
      * Setter for servicePort
      *
-     * @ElementName servicePort
-     * @param int|null $servicePort
+     * @param int $servicePort
      * @return $this
      */
     public function setServicePort($servicePort)
     {
         $this->servicePort = $servicePort;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServicePort()
+    {
+        $this->servicePort = null;
         return $this;
     }
 

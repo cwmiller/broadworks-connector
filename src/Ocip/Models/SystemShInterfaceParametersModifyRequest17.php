@@ -18,6 +18,7 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName hssRealm
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -25,6 +26,7 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName publicIdentityRefreshDelaySeconds
+     * @Type int
      * @var int|null
      */
     private $publicIdentityRefreshDelaySeconds = null;
@@ -32,50 +34,66 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
     /**
      * Getter for hssRealm
      *
-     * @ElementName hssRealm
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getHssRealm()
     {
-        return $this->hssRealm;
+        return $this->hssRealm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hssRealm;
     }
 
     /**
      * Setter for hssRealm
      *
-     * @ElementName hssRealm
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $hssRealm
+     * @param string|null $hssRealm
      * @return $this
      */
     public function setHssRealm($hssRealm)
     {
-        $this->hssRealm = $hssRealm;
+        if ($hssRealm === null) {
+            $this->hssRealm = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->hssRealm = $hssRealm;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHssRealm()
+    {
+        $this->hssRealm = null;
         return $this;
     }
 
     /**
      * Getter for publicIdentityRefreshDelaySeconds
      *
-     * @ElementName publicIdentityRefreshDelaySeconds
-     * @return int|null
+     * @return int
      */
     public function getPublicIdentityRefreshDelaySeconds()
     {
-        return $this->publicIdentityRefreshDelaySeconds;
+        return $this->publicIdentityRefreshDelaySeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicIdentityRefreshDelaySeconds;
     }
 
     /**
      * Setter for publicIdentityRefreshDelaySeconds
      *
-     * @ElementName publicIdentityRefreshDelaySeconds
-     * @param int|null $publicIdentityRefreshDelaySeconds
+     * @param int $publicIdentityRefreshDelaySeconds
      * @return $this
      */
     public function setPublicIdentityRefreshDelaySeconds($publicIdentityRefreshDelaySeconds)
     {
         $this->publicIdentityRefreshDelaySeconds = $publicIdentityRefreshDelaySeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPublicIdentityRefreshDelaySeconds()
+    {
+        $this->publicIdentityRefreshDelaySeconds = null;
         return $this;
     }
 

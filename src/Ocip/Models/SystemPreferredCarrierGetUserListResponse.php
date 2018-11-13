@@ -19,6 +19,7 @@ class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName usersUsingCarrierTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usersUsingCarrierTable = null;
@@ -26,24 +27,31 @@ class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for usersUsingCarrierTable
      *
-     * @ElementName usersUsingCarrierTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUsersUsingCarrierTable()
     {
-        return $this->usersUsingCarrierTable;
+        return $this->usersUsingCarrierTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usersUsingCarrierTable;
     }
 
     /**
      * Setter for usersUsingCarrierTable
      *
-     * @ElementName usersUsingCarrierTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $usersUsingCarrierTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $usersUsingCarrierTable
      * @return $this
      */
     public function setUsersUsingCarrierTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $usersUsingCarrierTable)
     {
         $this->usersUsingCarrierTable = $usersUsingCarrierTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUsersUsingCarrierTable()
+    {
+        $this->usersUsingCarrierTable = null;
         return $this;
     }
 

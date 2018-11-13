@@ -14,6 +14,8 @@ class SystemRoutePointExternalSystemGetRoutePointListResponse extends \CWM\Broad
 
     /**
      * @ElementName serviceUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $serviceUserId = array(
@@ -23,18 +25,16 @@ class SystemRoutePointExternalSystemGetRoutePointListResponse extends \CWM\Broad
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
      * @return string[]
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
      * @param string[] $serviceUserId
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemRoutePointExternalSystemGetRoutePointListResponse extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for serviceUserId
      *
-     * @ElementName serviceUserId
      * @param string $serviceUserId
      * @return $this
      */
     public function addServiceUserId(string $serviceUserId)
     {
-        $this->serviceUserId []= $serviceUserId;
+        $this->serviceUserId[] = $serviceUserId;
         return $this;
     }
 

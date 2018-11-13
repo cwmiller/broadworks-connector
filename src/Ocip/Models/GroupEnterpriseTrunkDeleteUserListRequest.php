@@ -16,24 +16,29 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName enterpriseTrunkName
+     * @Type string
      * @var string|null
      */
     private $enterpriseTrunkName = null;
 
     /**
      * @ElementName userId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $userId = array(
@@ -43,19 +48,17 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -65,21 +68,28 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -89,21 +99,28 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @return string|null
+     * @return string
      */
     public function getEnterpriseTrunkName()
     {
-        return $this->enterpriseTrunkName;
+        return $this->enterpriseTrunkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseTrunkName;
     }
 
     /**
      * Setter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @param string|null $enterpriseTrunkName
+     * @param string $enterpriseTrunkName
      * @return $this
      */
     public function setEnterpriseTrunkName($enterpriseTrunkName)
@@ -113,20 +130,27 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnterpriseTrunkName()
+    {
+        $this->enterpriseTrunkName = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
      * @return string[]
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
      * @param string[] $userId
      * @return $this
      */
@@ -137,15 +161,23 @@ class GroupEnterpriseTrunkDeleteUserListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Adder for userId
      *
-     * @ElementName userId
      * @param string $userId
      * @return $this
      */
     public function addUserId(string $userId)
     {
-        $this->userId []= $userId;
+        $this->userId[] = $userId;
         return $this;
     }
 

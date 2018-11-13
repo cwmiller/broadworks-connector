@@ -15,6 +15,7 @@ class SystemAdviceOfChargeCostInformationSourceGetListResponse extends \CWM\Broa
 
     /**
      * @ElementName costInformationSourceTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $costInformationSourceTable = null;
@@ -22,24 +23,31 @@ class SystemAdviceOfChargeCostInformationSourceGetListResponse extends \CWM\Broa
     /**
      * Getter for costInformationSourceTable
      *
-     * @ElementName costInformationSourceTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCostInformationSourceTable()
     {
-        return $this->costInformationSourceTable;
+        return $this->costInformationSourceTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->costInformationSourceTable;
     }
 
     /**
      * Setter for costInformationSourceTable
      *
-     * @ElementName costInformationSourceTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $costInformationSourceTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $costInformationSourceTable
      * @return $this
      */
     public function setCostInformationSourceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $costInformationSourceTable)
     {
         $this->costInformationSourceTable = $costInformationSourceTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCostInformationSourceTable()
+    {
+        $this->costInformationSourceTable = null;
         return $this;
     }
 

@@ -20,12 +20,15 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
 
     /**
      * @ElementName receptionistUserId
+     * @Type string
      * @var string|null
      */
     private $receptionistUserId = null;
 
     /**
      * @ElementName receptionistUserAndNote
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote[]
      */
     private $receptionistUserAndNote = array(
@@ -35,19 +38,17 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
     /**
      * Getter for receptionistUserId
      *
-     * @ElementName receptionistUserId
-     * @return string|null
+     * @return string
      */
     public function getReceptionistUserId()
     {
-        return $this->receptionistUserId;
+        return $this->receptionistUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->receptionistUserId;
     }
 
     /**
      * Setter for receptionistUserId
      *
-     * @ElementName receptionistUserId
-     * @param string|null $receptionistUserId
+     * @param string $receptionistUserId
      * @return $this
      */
     public function setReceptionistUserId($receptionistUserId)
@@ -57,20 +58,27 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReceptionistUserId()
+    {
+        $this->receptionistUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for receptionistUserAndNote
      *
-     * @ElementName receptionistUserAndNote
      * @return \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote[]
      */
     public function getReceptionistUserAndNote()
     {
-        return $this->receptionistUserAndNote;
+        return $this->receptionistUserAndNote instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->receptionistUserAndNote;
     }
 
     /**
      * Setter for receptionistUserAndNote
      *
-     * @ElementName receptionistUserAndNote
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote[] $receptionistUserAndNote
      * @return $this
      */
@@ -81,15 +89,23 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReceptionistUserAndNote()
+    {
+        $this->receptionistUserAndNote = null;
+        return $this;
+    }
+
+    /**
      * Adder for receptionistUserAndNote
      *
-     * @ElementName receptionistUserAndNote
      * @param \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote $receptionistUserAndNote
      * @return $this
      */
     public function addReceptionistUserAndNote($receptionistUserAndNote)
     {
-        $this->receptionistUserAndNote []= $receptionistUserAndNote;
+        $this->receptionistUserAndNote[] = $receptionistUserAndNote;
         return $this;
     }
 

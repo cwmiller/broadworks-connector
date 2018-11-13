@@ -10,24 +10,28 @@ class MusicOnHoldSourceRead19CustomSource
 
     /**
      * @ElementName audioFileDescription
+     * @Type string
      * @var string|null
      */
     private $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
     /**
      * @ElementName videoFileDescription
+     * @Type string
      * @var string|null
      */
     private $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -35,19 +39,17 @@ class MusicOnHoldSourceRead19CustomSource
     /**
      * Getter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @return string|null
+     * @return string
      */
     public function getAudioFileDescription()
     {
-        return $this->audioFileDescription;
+        return $this->audioFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileDescription;
     }
 
     /**
      * Setter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @param string|null $audioFileDescription
+     * @param string $audioFileDescription
      * @return $this
      */
     public function setAudioFileDescription($audioFileDescription)
@@ -57,21 +59,28 @@ class MusicOnHoldSourceRead19CustomSource
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileDescription()
+    {
+        $this->audioFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMediaType
      *
-     * @ElementName audioMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getAudioMediaType()
     {
-        return $this->audioMediaType;
+        return $this->audioMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMediaType;
     }
 
     /**
      * Setter for audioMediaType
      *
-     * @ElementName audioMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType
      * @return $this
      */
     public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
@@ -81,21 +90,28 @@ class MusicOnHoldSourceRead19CustomSource
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMediaType()
+    {
+        $this->audioMediaType = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVideoFileDescription()
     {
-        return $this->videoFileDescription;
+        return $this->videoFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileDescription;
     }
 
     /**
      * Setter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @param string|null $videoFileDescription
+     * @param string $videoFileDescription
      * @return $this
      */
     public function setVideoFileDescription($videoFileDescription)
@@ -105,26 +121,42 @@ class MusicOnHoldSourceRead19CustomSource
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFileDescription()
+    {
+        $this->videoFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMediaType
      *
-     * @ElementName videoMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getVideoMediaType()
     {
-        return $this->videoMediaType;
+        return $this->videoMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMediaType;
     }
 
     /**
      * Setter for videoMediaType
      *
-     * @ElementName videoMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType
      * @return $this
      */
     public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
     {
         $this->videoMediaType = $videoMediaType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoMediaType()
+    {
+        $this->videoMediaType = null;
         return $this;
     }
 

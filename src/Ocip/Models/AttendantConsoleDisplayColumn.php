@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AttendantConsoleDisplayColumn PAGER()
  * @method static AttendantConsoleDisplayColumn STATUS()
  * @method static AttendantConsoleDisplayColumn TITLE()
- * @ValueType string
+ * @EnumValueType string
  */
 class AttendantConsoleDisplayColumn extends \MyCLabs\Enum\Enum
 {

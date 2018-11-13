@@ -19,24 +19,28 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName redirectedCallsCOLPPrivacy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
     private $redirectedCallsCOLPPrivacy = null;
 
     /**
      * @ElementName callBeingForwardedResponseCallType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
      */
     private $callBeingForwardedResponseCallType = null;
 
     /**
      * @ElementName callingLineIdentityForRedirectedCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls|null
      */
     private $callingLineIdentityForRedirectedCalls = null;
@@ -44,19 +48,17 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -66,21 +68,28 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for redirectedCallsCOLPPrivacy
      *
-     * @ElementName redirectedCallsCOLPPrivacy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls
      */
     public function getRedirectedCallsCOLPPrivacy()
     {
-        return $this->redirectedCallsCOLPPrivacy;
+        return $this->redirectedCallsCOLPPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectedCallsCOLPPrivacy;
     }
 
     /**
      * Setter for redirectedCallsCOLPPrivacy
      *
-     * @ElementName redirectedCallsCOLPPrivacy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null $redirectedCallsCOLPPrivacy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls $redirectedCallsCOLPPrivacy
      * @return $this
      */
     public function setRedirectedCallsCOLPPrivacy(\CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls $redirectedCallsCOLPPrivacy)
@@ -90,21 +99,28 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectedCallsCOLPPrivacy()
+    {
+        $this->redirectedCallsCOLPPrivacy = null;
+        return $this;
+    }
+
+    /**
      * Getter for callBeingForwardedResponseCallType
      *
-     * @ElementName callBeingForwardedResponseCallType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType
      */
     public function getCallBeingForwardedResponseCallType()
     {
-        return $this->callBeingForwardedResponseCallType;
+        return $this->callBeingForwardedResponseCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callBeingForwardedResponseCallType;
     }
 
     /**
      * Setter for callBeingForwardedResponseCallType
      *
-     * @ElementName callBeingForwardedResponseCallType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null $callBeingForwardedResponseCallType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType $callBeingForwardedResponseCallType
      * @return $this
      */
     public function setCallBeingForwardedResponseCallType(\CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType $callBeingForwardedResponseCallType)
@@ -114,26 +130,42 @@ class UserCallPoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallBeingForwardedResponseCallType()
+    {
+        $this->callBeingForwardedResponseCallType = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdentityForRedirectedCalls
      *
-     * @ElementName callingLineIdentityForRedirectedCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls
      */
     public function getCallingLineIdentityForRedirectedCalls()
     {
-        return $this->callingLineIdentityForRedirectedCalls;
+        return $this->callingLineIdentityForRedirectedCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdentityForRedirectedCalls;
     }
 
     /**
      * Setter for callingLineIdentityForRedirectedCalls
      *
-     * @ElementName callingLineIdentityForRedirectedCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls|null $callingLineIdentityForRedirectedCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls $callingLineIdentityForRedirectedCalls
      * @return $this
      */
     public function setCallingLineIdentityForRedirectedCalls(\CWM\BroadWorksConnector\Ocip\Models\CallingLineIdentityForRedirectedCalls $callingLineIdentityForRedirectedCalls)
     {
         $this->callingLineIdentityForRedirectedCalls = $callingLineIdentityForRedirectedCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallingLineIdentityForRedirectedCalls()
+    {
+        $this->callingLineIdentityForRedirectedCalls = null;
         return $this;
     }
 

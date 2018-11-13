@@ -15,18 +15,21 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName recallTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $recallTimerSeconds = null;
 
     /**
      * @ElementName displayTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $displayTimerSeconds = null;
 
     /**
      * @ElementName enableDestinationAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $enableDestinationAnnouncement = null;
@@ -34,19 +37,17 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * Getter for recallTimerSeconds
      *
-     * @ElementName recallTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getRecallTimerSeconds()
     {
-        return $this->recallTimerSeconds;
+        return $this->recallTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallTimerSeconds;
     }
 
     /**
      * Setter for recallTimerSeconds
      *
-     * @ElementName recallTimerSeconds
-     * @param int|null $recallTimerSeconds
+     * @param int $recallTimerSeconds
      * @return $this
      */
     public function setRecallTimerSeconds($recallTimerSeconds)
@@ -56,21 +57,28 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecallTimerSeconds()
+    {
+        $this->recallTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for displayTimerSeconds
      *
-     * @ElementName displayTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getDisplayTimerSeconds()
     {
-        return $this->displayTimerSeconds;
+        return $this->displayTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->displayTimerSeconds;
     }
 
     /**
      * Setter for displayTimerSeconds
      *
-     * @ElementName displayTimerSeconds
-     * @param int|null $displayTimerSeconds
+     * @param int $displayTimerSeconds
      * @return $this
      */
     public function setDisplayTimerSeconds($displayTimerSeconds)
@@ -80,26 +88,42 @@ class GroupCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisplayTimerSeconds()
+    {
+        $this->displayTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableDestinationAnnouncement
      *
-     * @ElementName enableDestinationAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDestinationAnnouncement()
     {
-        return $this->enableDestinationAnnouncement;
+        return $this->enableDestinationAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDestinationAnnouncement;
     }
 
     /**
      * Setter for enableDestinationAnnouncement
      *
-     * @ElementName enableDestinationAnnouncement
-     * @param bool|null $enableDestinationAnnouncement
+     * @param bool $enableDestinationAnnouncement
      * @return $this
      */
     public function setEnableDestinationAnnouncement($enableDestinationAnnouncement)
     {
         $this->enableDestinationAnnouncement = $enableDestinationAnnouncement;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableDestinationAnnouncement()
+    {
+        $this->enableDestinationAnnouncement = null;
         return $this;
     }
 

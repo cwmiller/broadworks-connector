@@ -12,24 +12,28 @@ class BroadWorksMobilityUserMobileIdentityEntry
 
     /**
      * @ElementName mobileNumber
+     * @Type string
      * @var string|null
      */
     private $mobileNumber = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName isPrimary
+     * @Type bool
      * @var bool|null
      */
     private $isPrimary = null;
 
     /**
      * @ElementName enableAlerting
+     * @Type bool
      * @var bool|null
      */
     private $enableAlerting = null;
@@ -37,19 +41,17 @@ class BroadWorksMobilityUserMobileIdentityEntry
     /**
      * Getter for mobileNumber
      *
-     * @ElementName mobileNumber
-     * @return string|null
+     * @return string
      */
     public function getMobileNumber()
     {
-        return $this->mobileNumber;
+        return $this->mobileNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileNumber;
     }
 
     /**
      * Setter for mobileNumber
      *
-     * @ElementName mobileNumber
-     * @param string|null $mobileNumber
+     * @param string $mobileNumber
      * @return $this
      */
     public function setMobileNumber($mobileNumber)
@@ -59,21 +61,28 @@ class BroadWorksMobilityUserMobileIdentityEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileNumber()
+    {
+        $this->mobileNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -83,21 +92,28 @@ class BroadWorksMobilityUserMobileIdentityEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for isPrimary
      *
-     * @ElementName isPrimary
-     * @return bool|null
+     * @return bool
      */
     public function getIsPrimary()
     {
-        return $this->isPrimary;
+        return $this->isPrimary instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isPrimary;
     }
 
     /**
      * Setter for isPrimary
      *
-     * @ElementName isPrimary
-     * @param bool|null $isPrimary
+     * @param bool $isPrimary
      * @return $this
      */
     public function setIsPrimary($isPrimary)
@@ -107,26 +123,42 @@ class BroadWorksMobilityUserMobileIdentityEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsPrimary()
+    {
+        $this->isPrimary = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAlerting
      *
-     * @ElementName enableAlerting
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAlerting()
     {
-        return $this->enableAlerting;
+        return $this->enableAlerting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAlerting;
     }
 
     /**
      * Setter for enableAlerting
      *
-     * @ElementName enableAlerting
-     * @param bool|null $enableAlerting
+     * @param bool $enableAlerting
      * @return $this
      */
     public function setEnableAlerting($enableAlerting)
     {
         $this->enableAlerting = $enableAlerting;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableAlerting()
+    {
+        $this->enableAlerting = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
 
     /**
      * @ElementName configurableCLIDNormalization
+     * @Type bool
      * @var bool|null
      */
     private $configurableCLIDNormalization = null;
@@ -23,24 +24,31 @@ class SystemSubscriberModifyProvisioningParametersRequest extends \CWM\BroadWork
     /**
      * Getter for configurableCLIDNormalization
      *
-     * @ElementName configurableCLIDNormalization
-     * @return bool|null
+     * @return bool
      */
     public function getConfigurableCLIDNormalization()
     {
-        return $this->configurableCLIDNormalization;
+        return $this->configurableCLIDNormalization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurableCLIDNormalization;
     }
 
     /**
      * Setter for configurableCLIDNormalization
      *
-     * @ElementName configurableCLIDNormalization
-     * @param bool|null $configurableCLIDNormalization
+     * @param bool $configurableCLIDNormalization
      * @return $this
      */
     public function setConfigurableCLIDNormalization($configurableCLIDNormalization)
     {
         $this->configurableCLIDNormalization = $configurableCLIDNormalization;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConfigurableCLIDNormalization()
+    {
+        $this->configurableCLIDNormalization = null;
         return $this;
     }
 

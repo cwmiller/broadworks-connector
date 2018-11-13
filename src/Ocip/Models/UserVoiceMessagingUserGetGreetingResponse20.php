@@ -25,102 +25,119 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName busyAnnouncementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $busyAnnouncementSelection = null;
 
     /**
      * @ElementName busyPersonalAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $busyPersonalAudioFile = null;
 
     /**
      * @ElementName busyPersonalVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $busyPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerAnnouncementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     private $noAnswerAnnouncementSelection = null;
 
     /**
      * @ElementName noAnswerPersonalAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $noAnswerPersonalAudioFile = null;
 
     /**
      * @ElementName noAnswerPersonalVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $noAnswerPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting01
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null
      */
     private $noAnswerAlternateGreeting01 = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting02
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null
      */
     private $noAnswerAlternateGreeting02 = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting03
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null
      */
     private $noAnswerAlternateGreeting03 = null;
 
     /**
      * @ElementName extendedAwayEnabled
+     * @Type bool
      * @var bool|null
      */
     private $extendedAwayEnabled = null;
 
     /**
      * @ElementName extendedAwayDisableMessageDeposit
+     * @Type bool
      * @var bool|null
      */
     private $extendedAwayDisableMessageDeposit = null;
 
     /**
      * @ElementName extendedAwayAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $extendedAwayAudioFile = null;
 
     /**
      * @ElementName extendedAwayVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $extendedAwayVideoFile = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
 
     /**
      * @ElementName disableMessageDeposit
+     * @Type bool
      * @var bool|null
      */
     private $disableMessageDeposit = null;
 
     /**
      * @ElementName disableMessageDepositAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     private $disableMessageDepositAction = null;
 
     /**
      * @ElementName greetingOnlyForwardDestination
+     * @Type string
      * @var string|null
      */
     private $greetingOnlyForwardDestination = null;
@@ -128,19 +145,17 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     /**
      * Getter for busyAnnouncementSelection
      *
-     * @ElementName busyAnnouncementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      */
     public function getBusyAnnouncementSelection()
     {
-        return $this->busyAnnouncementSelection;
+        return $this->busyAnnouncementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyAnnouncementSelection;
     }
 
     /**
      * Setter for busyAnnouncementSelection
      *
-     * @ElementName busyAnnouncementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $busyAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection
      * @return $this
      */
     public function setBusyAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection)
@@ -150,21 +165,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyAnnouncementSelection()
+    {
+        $this->busyAnnouncementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyPersonalAudioFile
      *
-     * @ElementName busyPersonalAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      */
     public function getBusyPersonalAudioFile()
     {
-        return $this->busyPersonalAudioFile;
+        return $this->busyPersonalAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyPersonalAudioFile;
     }
 
     /**
      * Setter for busyPersonalAudioFile
      *
-     * @ElementName busyPersonalAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalAudioFile
      * @return $this
      */
     public function setBusyPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalAudioFile)
@@ -174,21 +196,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyPersonalAudioFile()
+    {
+        $this->busyPersonalAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyPersonalVideoFile
      *
-     * @ElementName busyPersonalVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      */
     public function getBusyPersonalVideoFile()
     {
-        return $this->busyPersonalVideoFile;
+        return $this->busyPersonalVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyPersonalVideoFile;
     }
 
     /**
      * Setter for busyPersonalVideoFile
      *
-     * @ElementName busyPersonalVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $busyPersonalVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalVideoFile
      * @return $this
      */
     public function setBusyPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $busyPersonalVideoFile)
@@ -198,21 +227,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyPersonalVideoFile()
+    {
+        $this->busyPersonalVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerAnnouncementSelection
      *
-     * @ElementName noAnswerAnnouncementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
      */
     public function getNoAnswerAnnouncementSelection()
     {
-        return $this->noAnswerAnnouncementSelection;
+        return $this->noAnswerAnnouncementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerAnnouncementSelection;
     }
 
     /**
      * Setter for noAnswerAnnouncementSelection
      *
-     * @ElementName noAnswerAnnouncementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null $noAnswerAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection
      * @return $this
      */
     public function setNoAnswerAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection)
@@ -222,21 +258,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerAnnouncementSelection()
+    {
+        $this->noAnswerAnnouncementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerPersonalAudioFile
      *
-     * @ElementName noAnswerPersonalAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      */
     public function getNoAnswerPersonalAudioFile()
     {
-        return $this->noAnswerPersonalAudioFile;
+        return $this->noAnswerPersonalAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerPersonalAudioFile;
     }
 
     /**
      * Setter for noAnswerPersonalAudioFile
      *
-     * @ElementName noAnswerPersonalAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalAudioFile
      * @return $this
      */
     public function setNoAnswerPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalAudioFile)
@@ -246,21 +289,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerPersonalAudioFile()
+    {
+        $this->noAnswerPersonalAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerPersonalVideoFile
      *
-     * @ElementName noAnswerPersonalVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      */
     public function getNoAnswerPersonalVideoFile()
     {
-        return $this->noAnswerPersonalVideoFile;
+        return $this->noAnswerPersonalVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerPersonalVideoFile;
     }
 
     /**
      * Setter for noAnswerPersonalVideoFile
      *
-     * @ElementName noAnswerPersonalVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $noAnswerPersonalVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalVideoFile
      * @return $this
      */
     public function setNoAnswerPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $noAnswerPersonalVideoFile)
@@ -270,21 +320,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerPersonalVideoFile()
+    {
+        $this->noAnswerPersonalVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerAlternateGreeting01
      *
-     * @ElementName noAnswerAlternateGreeting01
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20
      */
     public function getNoAnswerAlternateGreeting01()
     {
-        return $this->noAnswerAlternateGreeting01;
+        return $this->noAnswerAlternateGreeting01 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerAlternateGreeting01;
     }
 
     /**
      * Setter for noAnswerAlternateGreeting01
      *
-     * @ElementName noAnswerAlternateGreeting01
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null $noAnswerAlternateGreeting01
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20 $noAnswerAlternateGreeting01
      * @return $this
      */
     public function setNoAnswerAlternateGreeting01(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20 $noAnswerAlternateGreeting01)
@@ -294,21 +351,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerAlternateGreeting01()
+    {
+        $this->noAnswerAlternateGreeting01 = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerAlternateGreeting02
      *
-     * @ElementName noAnswerAlternateGreeting02
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20
      */
     public function getNoAnswerAlternateGreeting02()
     {
-        return $this->noAnswerAlternateGreeting02;
+        return $this->noAnswerAlternateGreeting02 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerAlternateGreeting02;
     }
 
     /**
      * Setter for noAnswerAlternateGreeting02
      *
-     * @ElementName noAnswerAlternateGreeting02
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null $noAnswerAlternateGreeting02
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20 $noAnswerAlternateGreeting02
      * @return $this
      */
     public function setNoAnswerAlternateGreeting02(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20 $noAnswerAlternateGreeting02)
@@ -318,21 +382,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerAlternateGreeting02()
+    {
+        $this->noAnswerAlternateGreeting02 = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerAlternateGreeting03
      *
-     * @ElementName noAnswerAlternateGreeting03
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20
      */
     public function getNoAnswerAlternateGreeting03()
     {
-        return $this->noAnswerAlternateGreeting03;
+        return $this->noAnswerAlternateGreeting03 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerAlternateGreeting03;
     }
 
     /**
      * Setter for noAnswerAlternateGreeting03
      *
-     * @ElementName noAnswerAlternateGreeting03
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20|null $noAnswerAlternateGreeting03
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20 $noAnswerAlternateGreeting03
      * @return $this
      */
     public function setNoAnswerAlternateGreeting03(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead20 $noAnswerAlternateGreeting03)
@@ -342,21 +413,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerAlternateGreeting03()
+    {
+        $this->noAnswerAlternateGreeting03 = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedAwayEnabled
      *
-     * @ElementName extendedAwayEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getExtendedAwayEnabled()
     {
-        return $this->extendedAwayEnabled;
+        return $this->extendedAwayEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedAwayEnabled;
     }
 
     /**
      * Setter for extendedAwayEnabled
      *
-     * @ElementName extendedAwayEnabled
-     * @param bool|null $extendedAwayEnabled
+     * @param bool $extendedAwayEnabled
      * @return $this
      */
     public function setExtendedAwayEnabled($extendedAwayEnabled)
@@ -366,21 +444,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtendedAwayEnabled()
+    {
+        $this->extendedAwayEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedAwayDisableMessageDeposit
      *
-     * @ElementName extendedAwayDisableMessageDeposit
-     * @return bool|null
+     * @return bool
      */
     public function getExtendedAwayDisableMessageDeposit()
     {
-        return $this->extendedAwayDisableMessageDeposit;
+        return $this->extendedAwayDisableMessageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedAwayDisableMessageDeposit;
     }
 
     /**
      * Setter for extendedAwayDisableMessageDeposit
      *
-     * @ElementName extendedAwayDisableMessageDeposit
-     * @param bool|null $extendedAwayDisableMessageDeposit
+     * @param bool $extendedAwayDisableMessageDeposit
      * @return $this
      */
     public function setExtendedAwayDisableMessageDeposit($extendedAwayDisableMessageDeposit)
@@ -390,21 +475,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtendedAwayDisableMessageDeposit()
+    {
+        $this->extendedAwayDisableMessageDeposit = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedAwayAudioFile
      *
-     * @ElementName extendedAwayAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      */
     public function getExtendedAwayAudioFile()
     {
-        return $this->extendedAwayAudioFile;
+        return $this->extendedAwayAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedAwayAudioFile;
     }
 
     /**
      * Setter for extendedAwayAudioFile
      *
-     * @ElementName extendedAwayAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayAudioFile
      * @return $this
      */
     public function setExtendedAwayAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayAudioFile)
@@ -414,21 +506,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtendedAwayAudioFile()
+    {
+        $this->extendedAwayAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedAwayVideoFile
      *
-     * @ElementName extendedAwayVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      */
     public function getExtendedAwayVideoFile()
     {
-        return $this->extendedAwayVideoFile;
+        return $this->extendedAwayVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedAwayVideoFile;
     }
 
     /**
      * Setter for extendedAwayVideoFile
      *
-     * @ElementName extendedAwayVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $extendedAwayVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayVideoFile
      * @return $this
      */
     public function setExtendedAwayVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $extendedAwayVideoFile)
@@ -438,21 +537,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtendedAwayVideoFile()
+    {
+        $this->extendedAwayVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
      */
     public function getNoAnswerNumberOfRings()
     {
-        return $this->noAnswerNumberOfRings;
+        return $this->noAnswerNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerNumberOfRings;
     }
 
     /**
      * Setter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null $noAnswerNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings
      * @return $this
      */
     public function setNoAnswerNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings)
@@ -462,21 +568,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerNumberOfRings()
+    {
+        $this->noAnswerNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for disableMessageDeposit
      *
-     * @ElementName disableMessageDeposit
-     * @return bool|null
+     * @return bool
      */
     public function getDisableMessageDeposit()
     {
-        return $this->disableMessageDeposit;
+        return $this->disableMessageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableMessageDeposit;
     }
 
     /**
      * Setter for disableMessageDeposit
      *
-     * @ElementName disableMessageDeposit
-     * @param bool|null $disableMessageDeposit
+     * @param bool $disableMessageDeposit
      * @return $this
      */
     public function setDisableMessageDeposit($disableMessageDeposit)
@@ -486,21 +599,28 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisableMessageDeposit()
+    {
+        $this->disableMessageDeposit = null;
+        return $this;
+    }
+
+    /**
      * Getter for disableMessageDepositAction
      *
-     * @ElementName disableMessageDepositAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection
      */
     public function getDisableMessageDepositAction()
     {
-        return $this->disableMessageDepositAction;
+        return $this->disableMessageDepositAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableMessageDepositAction;
     }
 
     /**
      * Setter for disableMessageDepositAction
      *
-     * @ElementName disableMessageDepositAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null $disableMessageDepositAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection $disableMessageDepositAction
      * @return $this
      */
     public function setDisableMessageDepositAction(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection $disableMessageDepositAction)
@@ -510,26 +630,42 @@ class UserVoiceMessagingUserGetGreetingResponse20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisableMessageDepositAction()
+    {
+        $this->disableMessageDepositAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for greetingOnlyForwardDestination
      *
-     * @ElementName greetingOnlyForwardDestination
-     * @return string|null
+     * @return string
      */
     public function getGreetingOnlyForwardDestination()
     {
-        return $this->greetingOnlyForwardDestination;
+        return $this->greetingOnlyForwardDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->greetingOnlyForwardDestination;
     }
 
     /**
      * Setter for greetingOnlyForwardDestination
      *
-     * @ElementName greetingOnlyForwardDestination
-     * @param string|null $greetingOnlyForwardDestination
+     * @param string $greetingOnlyForwardDestination
      * @return $this
      */
     public function setGreetingOnlyForwardDestination($greetingOnlyForwardDestination)
     {
         $this->greetingOnlyForwardDestination = $greetingOnlyForwardDestination;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGreetingOnlyForwardDestination()
+    {
+        $this->greetingOnlyForwardDestination = null;
         return $this;
     }
 

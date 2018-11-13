@@ -12,30 +12,35 @@ class AgentStatistics
 
     /**
      * @ElementName numberOfCallsHandled
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsHandled = null;
 
     /**
      * @ElementName numberOfCallsUnanswered
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsUnanswered = null;
 
     /**
      * @ElementName averageCallSeconds
+     * @Type int
      * @var int|null
      */
     private $averageCallSeconds = null;
 
     /**
      * @ElementName totalTalkSeconds
+     * @Type int
      * @var int|null
      */
     private $totalTalkSeconds = null;
 
     /**
      * @ElementName totalStaffedSeconds
+     * @Type int
      * @var int|null
      */
     private $totalStaffedSeconds = null;
@@ -43,19 +48,17 @@ class AgentStatistics
     /**
      * Getter for numberOfCallsHandled
      *
-     * @ElementName numberOfCallsHandled
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsHandled()
     {
-        return $this->numberOfCallsHandled;
+        return $this->numberOfCallsHandled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsHandled;
     }
 
     /**
      * Setter for numberOfCallsHandled
      *
-     * @ElementName numberOfCallsHandled
-     * @param int|null $numberOfCallsHandled
+     * @param int $numberOfCallsHandled
      * @return $this
      */
     public function setNumberOfCallsHandled($numberOfCallsHandled)
@@ -65,21 +68,28 @@ class AgentStatistics
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsHandled()
+    {
+        $this->numberOfCallsHandled = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfCallsUnanswered
      *
-     * @ElementName numberOfCallsUnanswered
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsUnanswered()
     {
-        return $this->numberOfCallsUnanswered;
+        return $this->numberOfCallsUnanswered instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsUnanswered;
     }
 
     /**
      * Setter for numberOfCallsUnanswered
      *
-     * @ElementName numberOfCallsUnanswered
-     * @param int|null $numberOfCallsUnanswered
+     * @param int $numberOfCallsUnanswered
      * @return $this
      */
     public function setNumberOfCallsUnanswered($numberOfCallsUnanswered)
@@ -89,21 +99,28 @@ class AgentStatistics
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsUnanswered()
+    {
+        $this->numberOfCallsUnanswered = null;
+        return $this;
+    }
+
+    /**
      * Getter for averageCallSeconds
      *
-     * @ElementName averageCallSeconds
-     * @return int|null
+     * @return int
      */
     public function getAverageCallSeconds()
     {
-        return $this->averageCallSeconds;
+        return $this->averageCallSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->averageCallSeconds;
     }
 
     /**
      * Setter for averageCallSeconds
      *
-     * @ElementName averageCallSeconds
-     * @param int|null $averageCallSeconds
+     * @param int $averageCallSeconds
      * @return $this
      */
     public function setAverageCallSeconds($averageCallSeconds)
@@ -113,21 +130,28 @@ class AgentStatistics
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAverageCallSeconds()
+    {
+        $this->averageCallSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for totalTalkSeconds
      *
-     * @ElementName totalTalkSeconds
-     * @return int|null
+     * @return int
      */
     public function getTotalTalkSeconds()
     {
-        return $this->totalTalkSeconds;
+        return $this->totalTalkSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalTalkSeconds;
     }
 
     /**
      * Setter for totalTalkSeconds
      *
-     * @ElementName totalTalkSeconds
-     * @param int|null $totalTalkSeconds
+     * @param int $totalTalkSeconds
      * @return $this
      */
     public function setTotalTalkSeconds($totalTalkSeconds)
@@ -137,26 +161,42 @@ class AgentStatistics
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTotalTalkSeconds()
+    {
+        $this->totalTalkSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for totalStaffedSeconds
      *
-     * @ElementName totalStaffedSeconds
-     * @return int|null
+     * @return int
      */
     public function getTotalStaffedSeconds()
     {
-        return $this->totalStaffedSeconds;
+        return $this->totalStaffedSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalStaffedSeconds;
     }
 
     /**
      * Setter for totalStaffedSeconds
      *
-     * @ElementName totalStaffedSeconds
-     * @param int|null $totalStaffedSeconds
+     * @param int $totalStaffedSeconds
      * @return $this
      */
     public function setTotalStaffedSeconds($totalStaffedSeconds)
     {
         $this->totalStaffedSeconds = $totalStaffedSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTotalStaffedSeconds()
+    {
+        $this->totalStaffedSeconds = null;
         return $this;
     }
 

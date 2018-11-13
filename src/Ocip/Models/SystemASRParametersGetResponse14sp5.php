@@ -15,24 +15,28 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName maxTransmissions
+     * @Type int
      * @var int|null
      */
     private $maxTransmissions = null;
 
     /**
      * @ElementName retransmissionDelayMilliSeconds
+     * @Type int
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
 
     /**
      * @ElementName listeningPort
+     * @Type int
      * @var int|null
      */
     private $listeningPort = null;
 
     /**
      * @ElementName sourceAddress
+     * @Type string
      * @var string|null
      */
     private $sourceAddress = null;
@@ -40,19 +44,17 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for maxTransmissions
      *
-     * @ElementName maxTransmissions
-     * @return int|null
+     * @return int
      */
     public function getMaxTransmissions()
     {
-        return $this->maxTransmissions;
+        return $this->maxTransmissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxTransmissions;
     }
 
     /**
      * Setter for maxTransmissions
      *
-     * @ElementName maxTransmissions
-     * @param int|null $maxTransmissions
+     * @param int $maxTransmissions
      * @return $this
      */
     public function setMaxTransmissions($maxTransmissions)
@@ -62,21 +64,28 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxTransmissions()
+    {
+        $this->maxTransmissions = null;
+        return $this;
+    }
+
+    /**
      * Getter for retransmissionDelayMilliSeconds
      *
-     * @ElementName retransmissionDelayMilliSeconds
-     * @return int|null
+     * @return int
      */
     public function getRetransmissionDelayMilliSeconds()
     {
-        return $this->retransmissionDelayMilliSeconds;
+        return $this->retransmissionDelayMilliSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->retransmissionDelayMilliSeconds;
     }
 
     /**
      * Setter for retransmissionDelayMilliSeconds
      *
-     * @ElementName retransmissionDelayMilliSeconds
-     * @param int|null $retransmissionDelayMilliSeconds
+     * @param int $retransmissionDelayMilliSeconds
      * @return $this
      */
     public function setRetransmissionDelayMilliSeconds($retransmissionDelayMilliSeconds)
@@ -86,21 +95,28 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRetransmissionDelayMilliSeconds()
+    {
+        $this->retransmissionDelayMilliSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for listeningPort
      *
-     * @ElementName listeningPort
-     * @return int|null
+     * @return int
      */
     public function getListeningPort()
     {
-        return $this->listeningPort;
+        return $this->listeningPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listeningPort;
     }
 
     /**
      * Setter for listeningPort
      *
-     * @ElementName listeningPort
-     * @param int|null $listeningPort
+     * @param int $listeningPort
      * @return $this
      */
     public function setListeningPort($listeningPort)
@@ -110,26 +126,42 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListeningPort()
+    {
+        $this->listeningPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for sourceAddress
      *
-     * @ElementName sourceAddress
-     * @return string|null
+     * @return string
      */
     public function getSourceAddress()
     {
-        return $this->sourceAddress;
+        return $this->sourceAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sourceAddress;
     }
 
     /**
      * Setter for sourceAddress
      *
-     * @ElementName sourceAddress
-     * @param string|null $sourceAddress
+     * @param string $sourceAddress
      * @return $this
      */
     public function setSourceAddress($sourceAddress)
     {
         $this->sourceAddress = $sourceAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSourceAddress()
+    {
+        $this->sourceAddress = null;
         return $this;
     }
 

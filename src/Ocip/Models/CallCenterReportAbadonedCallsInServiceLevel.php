@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * INCLUDE_ABANDONED_CALLS_EXCEPT_BEFORE_ENTRANCE_COMPLETES()
  * @method static CallCenterReportAbadonedCallsInServiceLevel
  * INCLUDE_ABANDONED_CALLS_EXCEPT_IN_INTERVAL()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportAbadonedCallsInServiceLevel extends \MyCLabs\Enum\Enum
 {

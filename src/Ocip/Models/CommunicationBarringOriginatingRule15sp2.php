@@ -12,18 +12,21 @@ class CommunicationBarringOriginatingRule15sp2
 
     /**
      * @ElementName criteria
+     * @Type string
      * @var string|null
      */
     private $criteria = null;
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2|null
      */
     private $action = null;
 
     /**
      * @ElementName treatmentId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,6 +34,7 @@ class CommunicationBarringOriginatingRule15sp2
 
     /**
      * @ElementName transferNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -39,19 +43,17 @@ class CommunicationBarringOriginatingRule15sp2
     /**
      * Getter for criteria
      *
-     * @ElementName criteria
-     * @return string|null
+     * @return string
      */
     public function getCriteria()
     {
-        return $this->criteria;
+        return $this->criteria instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteria;
     }
 
     /**
      * Setter for criteria
      *
-     * @ElementName criteria
-     * @param string|null $criteria
+     * @param string $criteria
      * @return $this
      */
     public function setCriteria($criteria)
@@ -61,21 +63,28 @@ class CommunicationBarringOriginatingRule15sp2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteria()
+    {
+        $this->criteria = null;
+        return $this;
+    }
+
+    /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2 $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2 $action)
@@ -85,54 +94,81 @@ class CommunicationBarringOriginatingRule15sp2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for treatmentId
      *
-     * @ElementName treatmentId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTreatmentId()
     {
-        return $this->treatmentId;
+        return $this->treatmentId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentId;
     }
 
     /**
      * Setter for treatmentId
      *
-     * @ElementName treatmentId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $treatmentId
+     * @param string|null $treatmentId
      * @return $this
      */
     public function setTreatmentId($treatmentId)
     {
-        $this->treatmentId = $treatmentId;
+        if ($treatmentId === null) {
+            $this->treatmentId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->treatmentId = $treatmentId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentId()
+    {
+        $this->treatmentId = null;
         return $this;
     }
 
     /**
      * Getter for transferNumber
      *
-     * @ElementName transferNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTransferNumber()
     {
-        return $this->transferNumber;
+        return $this->transferNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferNumber;
     }
 
     /**
      * Setter for transferNumber
      *
-     * @ElementName transferNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferNumber
+     * @param string|null $transferNumber
      * @return $this
      */
     public function setTransferNumber($transferNumber)
     {
-        $this->transferNumber = $transferNumber;
+        if ($transferNumber === null) {
+            $this->transferNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->transferNumber = $transferNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTransferNumber()
+    {
+        $this->transferNumber = null;
         return $this;
     }
 

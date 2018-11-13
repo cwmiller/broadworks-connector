@@ -23,6 +23,7 @@ class SystemPreferredCarrierGetGroupListResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName groupsUsingCarrierTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupsUsingCarrierTable = null;
@@ -30,24 +31,31 @@ class SystemPreferredCarrierGetGroupListResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for groupsUsingCarrierTable
      *
-     * @ElementName groupsUsingCarrierTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getGroupsUsingCarrierTable()
     {
-        return $this->groupsUsingCarrierTable;
+        return $this->groupsUsingCarrierTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupsUsingCarrierTable;
     }
 
     /**
      * Setter for groupsUsingCarrierTable
      *
-     * @ElementName groupsUsingCarrierTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupsUsingCarrierTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupsUsingCarrierTable
      * @return $this
      */
     public function setGroupsUsingCarrierTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupsUsingCarrierTable)
     {
         $this->groupsUsingCarrierTable = $groupsUsingCarrierTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupsUsingCarrierTable()
+    {
+        $this->groupsUsingCarrierTable = null;
         return $this;
     }
 

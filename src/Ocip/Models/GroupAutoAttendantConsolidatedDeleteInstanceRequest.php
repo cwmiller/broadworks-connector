@@ -26,12 +26,14 @@ class GroupAutoAttendantConsolidatedDeleteInstanceRequest extends \CWM\BroadWork
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName unassignPhoneNumbers
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;
@@ -39,19 +41,17 @@ class GroupAutoAttendantConsolidatedDeleteInstanceRequest extends \CWM\BroadWork
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -61,26 +61,42 @@ class GroupAutoAttendantConsolidatedDeleteInstanceRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for unassignPhoneNumbers
      *
-     * @ElementName unassignPhoneNumbers
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      */
     public function getUnassignPhoneNumbers()
     {
-        return $this->unassignPhoneNumbers;
+        return $this->unassignPhoneNumbers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unassignPhoneNumbers;
     }
 
     /**
      * Setter for unassignPhoneNumbers
      *
-     * @ElementName unassignPhoneNumbers
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null $unassignPhoneNumbers
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers
      * @return $this
      */
     public function setUnassignPhoneNumbers(\CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers)
     {
         $this->unassignPhoneNumbers = $unassignPhoneNumbers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnassignPhoneNumbers()
+    {
+        $this->unassignPhoneNumbers = null;
         return $this;
     }
 

@@ -20,24 +20,29 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaTrunkGroupName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     private $searchCriteriaTrunkGroupName = array(
@@ -47,19 +52,17 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +72,28 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -93,21 +103,28 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -117,20 +134,27 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaTrunkGroupName
      *
-     * @ElementName searchCriteriaTrunkGroupName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     public function getSearchCriteriaTrunkGroupName()
     {
-        return $this->searchCriteriaTrunkGroupName;
+        return $this->searchCriteriaTrunkGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaTrunkGroupName;
     }
 
     /**
      * Setter for searchCriteriaTrunkGroupName
      *
-     * @ElementName searchCriteriaTrunkGroupName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[] $searchCriteriaTrunkGroupName
      * @return $this
      */
@@ -141,15 +165,23 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaTrunkGroupName()
+    {
+        $this->searchCriteriaTrunkGroupName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaTrunkGroupName
      *
-     * @ElementName searchCriteriaTrunkGroupName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName $searchCriteriaTrunkGroupName
      * @return $this
      */
     public function addSearchCriteriaTrunkGroupName($searchCriteriaTrunkGroupName)
     {
-        $this->searchCriteriaTrunkGroupName []= $searchCriteriaTrunkGroupName;
+        $this->searchCriteriaTrunkGroupName[] = $searchCriteriaTrunkGroupName;
         return $this;
     }
 

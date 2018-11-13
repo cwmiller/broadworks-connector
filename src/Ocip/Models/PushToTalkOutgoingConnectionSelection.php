@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static PushToTalkOutgoingConnectionSelection ONE_WAY()
  * @method static PushToTalkOutgoingConnectionSelection TWO_WAY()
- * @ValueType string
+ * @EnumValueType string
  */
 class PushToTalkOutgoingConnectionSelection extends \MyCLabs\Enum\Enum
 {

@@ -15,6 +15,8 @@ class SystemHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName holidayScheduleName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $holidayScheduleName = array(
@@ -24,18 +26,16 @@ class SystemHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
      * @return string[]
      */
     public function getHolidayScheduleName()
     {
-        return $this->holidayScheduleName;
+        return $this->holidayScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidayScheduleName;
     }
 
     /**
      * Setter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
      * @param string[] $holidayScheduleName
      * @return $this
      */
@@ -46,15 +46,23 @@ class SystemHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHolidayScheduleName()
+    {
+        $this->holidayScheduleName = null;
+        return $this;
+    }
+
+    /**
      * Adder for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
      * @param string $holidayScheduleName
      * @return $this
      */
     public function addHolidayScheduleName(string $holidayScheduleName)
     {
-        $this->holidayScheduleName []= $holidayScheduleName;
+        $this->holidayScheduleName[] = $holidayScheduleName;
         return $this;
     }
 

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallDispositionCodeLevel ENTERPRISE()
  * @method static CallDispositionCodeLevel GROUP()
  * @method static CallDispositionCodeLevel QUEUE()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallDispositionCodeLevel extends \MyCLabs\Enum\Enum
 {

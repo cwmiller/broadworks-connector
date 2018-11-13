@@ -13,24 +13,29 @@ class ExecutiveCallFilteringCriteriaFromDn
 
     /**
      * @ElementName fromDnCriteriaSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection|null
      */
     private $fromDnCriteriaSelection = null;
 
     /**
      * @ElementName includeAnonymousCallers
+     * @Type bool
      * @var bool|null
      */
     private $includeAnonymousCallers = null;
 
     /**
      * @ElementName includeUnavailableCallers
+     * @Type bool
      * @var bool|null
      */
     private $includeUnavailableCallers = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $phoneNumber = array(
@@ -40,19 +45,17 @@ class ExecutiveCallFilteringCriteriaFromDn
     /**
      * Getter for fromDnCriteriaSelection
      *
-     * @ElementName fromDnCriteriaSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection
      */
     public function getFromDnCriteriaSelection()
     {
-        return $this->fromDnCriteriaSelection;
+        return $this->fromDnCriteriaSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fromDnCriteriaSelection;
     }
 
     /**
      * Setter for fromDnCriteriaSelection
      *
-     * @ElementName fromDnCriteriaSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection|null $fromDnCriteriaSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection $fromDnCriteriaSelection
      * @return $this
      */
     public function setFromDnCriteriaSelection(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaDnSelection $fromDnCriteriaSelection)
@@ -62,21 +65,28 @@ class ExecutiveCallFilteringCriteriaFromDn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFromDnCriteriaSelection()
+    {
+        $this->fromDnCriteriaSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeAnonymousCallers
      *
-     * @ElementName includeAnonymousCallers
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeAnonymousCallers()
     {
-        return $this->includeAnonymousCallers;
+        return $this->includeAnonymousCallers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeAnonymousCallers;
     }
 
     /**
      * Setter for includeAnonymousCallers
      *
-     * @ElementName includeAnonymousCallers
-     * @param bool|null $includeAnonymousCallers
+     * @param bool $includeAnonymousCallers
      * @return $this
      */
     public function setIncludeAnonymousCallers($includeAnonymousCallers)
@@ -86,21 +96,28 @@ class ExecutiveCallFilteringCriteriaFromDn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeAnonymousCallers()
+    {
+        $this->includeAnonymousCallers = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeUnavailableCallers
      *
-     * @ElementName includeUnavailableCallers
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeUnavailableCallers()
     {
-        return $this->includeUnavailableCallers;
+        return $this->includeUnavailableCallers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeUnavailableCallers;
     }
 
     /**
      * Setter for includeUnavailableCallers
      *
-     * @ElementName includeUnavailableCallers
-     * @param bool|null $includeUnavailableCallers
+     * @param bool $includeUnavailableCallers
      * @return $this
      */
     public function setIncludeUnavailableCallers($includeUnavailableCallers)
@@ -110,20 +127,27 @@ class ExecutiveCallFilteringCriteriaFromDn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeUnavailableCallers()
+    {
+        $this->includeUnavailableCallers = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
      * @return string[]
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
      * @param string[] $phoneNumber
      * @return $this
      */
@@ -134,15 +158,23 @@ class ExecutiveCallFilteringCriteriaFromDn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for phoneNumber
      *
-     * @ElementName phoneNumber
      * @param string $phoneNumber
      * @return $this
      */
     public function addPhoneNumber(string $phoneNumber)
     {
-        $this->phoneNumber []= $phoneNumber;
+        $this->phoneNumber[] = $phoneNumber;
         return $this;
     }
 

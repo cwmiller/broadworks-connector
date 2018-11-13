@@ -16,18 +16,21 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName alternateUserId
+     * @Type string
      * @var string|null
      */
     private $alternateUserId = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -35,19 +38,17 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateUserId
      *
-     * @ElementName alternateUserId
-     * @return string|null
+     * @return string
      */
     public function getAlternateUserId()
     {
-        return $this->alternateUserId;
+        return $this->alternateUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateUserId;
     }
 
     /**
      * Setter for alternateUserId
      *
-     * @ElementName alternateUserId
-     * @param string|null $alternateUserId
+     * @param string $alternateUserId
      * @return $this
      */
     public function setAlternateUserId($alternateUserId)
@@ -81,26 +89,42 @@ class UserAlternateUserIdAddRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateUserId()
+    {
+        $this->alternateUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

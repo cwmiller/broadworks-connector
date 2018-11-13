@@ -20,12 +20,14 @@ class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName directTransferScreening
+     * @Type bool
      * @var bool|null
      */
     private $directTransferScreening = null;
 
     /**
      * @ElementName vmCallbackScreening
+     * @Type bool
      * @var bool|null
      */
     private $vmCallbackScreening = null;
@@ -33,19 +35,17 @@ class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for directTransferScreening
      *
-     * @ElementName directTransferScreening
-     * @return bool|null
+     * @return bool
      */
     public function getDirectTransferScreening()
     {
-        return $this->directTransferScreening;
+        return $this->directTransferScreening instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->directTransferScreening;
     }
 
     /**
      * Setter for directTransferScreening
      *
-     * @ElementName directTransferScreening
-     * @param bool|null $directTransferScreening
+     * @param bool $directTransferScreening
      * @return $this
      */
     public function setDirectTransferScreening($directTransferScreening)
@@ -55,26 +55,42 @@ class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDirectTransferScreening()
+    {
+        $this->directTransferScreening = null;
+        return $this;
+    }
+
+    /**
      * Getter for vmCallbackScreening
      *
-     * @ElementName vmCallbackScreening
-     * @return bool|null
+     * @return bool
      */
     public function getVmCallbackScreening()
     {
-        return $this->vmCallbackScreening;
+        return $this->vmCallbackScreening instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->vmCallbackScreening;
     }
 
     /**
      * Setter for vmCallbackScreening
      *
-     * @ElementName vmCallbackScreening
-     * @param bool|null $vmCallbackScreening
+     * @param bool $vmCallbackScreening
      * @return $this
      */
     public function setVmCallbackScreening($vmCallbackScreening)
     {
         $this->vmCallbackScreening = $vmCallbackScreening;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVmCallbackScreening()
+    {
+        $this->vmCallbackScreening = null;
         return $this;
     }
 

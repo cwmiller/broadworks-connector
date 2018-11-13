@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static PhysicalLocationIndicator LAC_CI()
  * @method static PhysicalLocationIndicator PANI()
  * @method static PhysicalLocationIndicator DISREGARD_ZONES()
- * @ValueType string
+ * @EnumValueType string
  */
 class PhysicalLocationIndicator extends \MyCLabs\Enum\Enum
 {

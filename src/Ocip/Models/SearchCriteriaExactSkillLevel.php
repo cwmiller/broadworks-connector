@@ -12,6 +12,7 @@ class SearchCriteriaExactSkillLevel extends SearchCriteria
 
     /**
      * @ElementName skillLevel
+     * @Type int
      * @var int|null
      */
     private $skillLevel = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactSkillLevel extends SearchCriteria
     /**
      * Getter for skillLevel
      *
-     * @ElementName skillLevel
-     * @return int|null
+     * @return int
      */
     public function getSkillLevel()
     {
-        return $this->skillLevel;
+        return $this->skillLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->skillLevel;
     }
 
     /**
      * Setter for skillLevel
      *
-     * @ElementName skillLevel
-     * @param int|null $skillLevel
+     * @param int $skillLevel
      * @return $this
      */
     public function setSkillLevel($skillLevel)
     {
         $this->skillLevel = $skillLevel;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSkillLevel()
+    {
+        $this->skillLevel = null;
         return $this;
     }
 

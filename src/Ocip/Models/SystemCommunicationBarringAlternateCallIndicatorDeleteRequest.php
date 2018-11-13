@@ -16,6 +16,7 @@ class SystemCommunicationBarringAlternateCallIndicatorDeleteRequest extends \CWM
 
     /**
      * @ElementName alternateCallIndicator
+     * @Type string
      * @var string|null
      */
     private $alternateCallIndicator = null;
@@ -23,24 +24,31 @@ class SystemCommunicationBarringAlternateCallIndicatorDeleteRequest extends \CWM
     /**
      * Getter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
-     * @return string|null
+     * @return string
      */
     public function getAlternateCallIndicator()
     {
-        return $this->alternateCallIndicator;
+        return $this->alternateCallIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateCallIndicator;
     }
 
     /**
      * Setter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
-     * @param string|null $alternateCallIndicator
+     * @param string $alternateCallIndicator
      * @return $this
      */
     public function setAlternateCallIndicator($alternateCallIndicator)
     {
         $this->alternateCallIndicator = $alternateCallIndicator;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlternateCallIndicator()
+    {
+        $this->alternateCallIndicator = null;
         return $this;
     }
 

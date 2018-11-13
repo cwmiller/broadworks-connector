@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EnterpriseVoiceVPNDigitManipulationOperationRequiredValue
  * DELETE()
  * @method static EnterpriseVoiceVPNDigitManipulationOperationRequiredValue MOVE()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseVoiceVPNDigitManipulationOperationRequiredValue extends \MyCLabs\Enum\Enum
 {

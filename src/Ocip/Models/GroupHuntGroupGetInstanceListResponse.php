@@ -20,6 +20,7 @@ class GroupHuntGroupGetInstanceListResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName huntGroupTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $huntGroupTable = null;
@@ -27,24 +28,31 @@ class GroupHuntGroupGetInstanceListResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for huntGroupTable
      *
-     * @ElementName huntGroupTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getHuntGroupTable()
     {
-        return $this->huntGroupTable;
+        return $this->huntGroupTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->huntGroupTable;
     }
 
     /**
      * Setter for huntGroupTable
      *
-     * @ElementName huntGroupTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $huntGroupTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $huntGroupTable
      * @return $this
      */
     public function setHuntGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $huntGroupTable)
     {
         $this->huntGroupTable = $huntGroupTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHuntGroupTable()
+    {
+        $this->huntGroupTable = null;
         return $this;
     }
 

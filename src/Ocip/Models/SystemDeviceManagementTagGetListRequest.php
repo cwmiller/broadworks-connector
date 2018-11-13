@@ -18,12 +18,14 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName systemDefaultTagSet
+     * @Type bool
      * @var bool|null
      */
     private $systemDefaultTagSet = null;
 
     /**
      * @ElementName tagSetName
+     * @Type string
      * @var string|null
      */
     private $tagSetName = null;
@@ -31,19 +33,17 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for systemDefaultTagSet
      *
-     * @ElementName systemDefaultTagSet
-     * @return bool|null
+     * @return bool
      */
     public function getSystemDefaultTagSet()
     {
-        return $this->systemDefaultTagSet;
+        return $this->systemDefaultTagSet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemDefaultTagSet;
     }
 
     /**
      * Setter for systemDefaultTagSet
      *
-     * @ElementName systemDefaultTagSet
-     * @param bool|null $systemDefaultTagSet
+     * @param bool $systemDefaultTagSet
      * @return $this
      */
     public function setSystemDefaultTagSet($systemDefaultTagSet)
@@ -53,26 +53,42 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSystemDefaultTagSet()
+    {
+        $this->systemDefaultTagSet = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagSetName
      *
-     * @ElementName tagSetName
-     * @return string|null
+     * @return string
      */
     public function getTagSetName()
     {
-        return $this->tagSetName;
+        return $this->tagSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagSetName;
     }
 
     /**
      * Setter for tagSetName
      *
-     * @ElementName tagSetName
-     * @param string|null $tagSetName
+     * @param string $tagSetName
      * @return $this
      */
     public function setTagSetName($tagSetName)
     {
         $this->tagSetName = $tagSetName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagSetName()
+    {
+        $this->tagSetName = null;
         return $this;
     }
 

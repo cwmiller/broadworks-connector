@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
 
     /**
      * @ElementName activateAvailableInOfficeProfile
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
 
     /**
      * @ElementName activateAvailableOutOfOfficeProfile
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
 
     /**
      * @ElementName activateBusyProfile
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,6 +34,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
 
     /**
      * @ElementName activateUnavailableProfile
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,6 +42,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
 
     /**
      * @ElementName noProfile
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,12 +50,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -59,149 +66,192 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
     /**
      * Getter for activateAvailableInOfficeProfile
      *
-     * @ElementName activateAvailableInOfficeProfile
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getActivateAvailableInOfficeProfile()
     {
-        return $this->activateAvailableInOfficeProfile;
+        return $this->activateAvailableInOfficeProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateAvailableInOfficeProfile;
     }
 
     /**
      * Setter for activateAvailableInOfficeProfile
      *
-     * @ElementName activateAvailableInOfficeProfile
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateAvailableInOfficeProfile
+     * @param string|null $activateAvailableInOfficeProfile
      * @return $this
      */
     public function setActivateAvailableInOfficeProfile($activateAvailableInOfficeProfile)
     {
-        $this->activateAvailableInOfficeProfile = $activateAvailableInOfficeProfile;
+        if ($activateAvailableInOfficeProfile === null) {
+            $this->activateAvailableInOfficeProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->activateAvailableInOfficeProfile = $activateAvailableInOfficeProfile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetActivateAvailableInOfficeProfile()
+    {
+        $this->activateAvailableInOfficeProfile = null;
         return $this;
     }
 
     /**
      * Getter for activateAvailableOutOfOfficeProfile
      *
-     * @ElementName activateAvailableOutOfOfficeProfile
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getActivateAvailableOutOfOfficeProfile()
     {
-        return $this->activateAvailableOutOfOfficeProfile;
+        return $this->activateAvailableOutOfOfficeProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateAvailableOutOfOfficeProfile;
     }
 
     /**
      * Setter for activateAvailableOutOfOfficeProfile
      *
-     * @ElementName activateAvailableOutOfOfficeProfile
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateAvailableOutOfOfficeProfile
+     * @param string|null $activateAvailableOutOfOfficeProfile
      * @return $this
      */
     public function setActivateAvailableOutOfOfficeProfile($activateAvailableOutOfOfficeProfile)
     {
-        $this->activateAvailableOutOfOfficeProfile = $activateAvailableOutOfOfficeProfile;
+        if ($activateAvailableOutOfOfficeProfile === null) {
+            $this->activateAvailableOutOfOfficeProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->activateAvailableOutOfOfficeProfile = $activateAvailableOutOfOfficeProfile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetActivateAvailableOutOfOfficeProfile()
+    {
+        $this->activateAvailableOutOfOfficeProfile = null;
         return $this;
     }
 
     /**
      * Getter for activateBusyProfile
      *
-     * @ElementName activateBusyProfile
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getActivateBusyProfile()
     {
-        return $this->activateBusyProfile;
+        return $this->activateBusyProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateBusyProfile;
     }
 
     /**
      * Setter for activateBusyProfile
      *
-     * @ElementName activateBusyProfile
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateBusyProfile
+     * @param string|null $activateBusyProfile
      * @return $this
      */
     public function setActivateBusyProfile($activateBusyProfile)
     {
-        $this->activateBusyProfile = $activateBusyProfile;
+        if ($activateBusyProfile === null) {
+            $this->activateBusyProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->activateBusyProfile = $activateBusyProfile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetActivateBusyProfile()
+    {
+        $this->activateBusyProfile = null;
         return $this;
     }
 
     /**
      * Getter for activateUnavailableProfile
      *
-     * @ElementName activateUnavailableProfile
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getActivateUnavailableProfile()
     {
-        return $this->activateUnavailableProfile;
+        return $this->activateUnavailableProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateUnavailableProfile;
     }
 
     /**
      * Setter for activateUnavailableProfile
      *
-     * @ElementName activateUnavailableProfile
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateUnavailableProfile
+     * @param string|null $activateUnavailableProfile
      * @return $this
      */
     public function setActivateUnavailableProfile($activateUnavailableProfile)
     {
-        $this->activateUnavailableProfile = $activateUnavailableProfile;
+        if ($activateUnavailableProfile === null) {
+            $this->activateUnavailableProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->activateUnavailableProfile = $activateUnavailableProfile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetActivateUnavailableProfile()
+    {
+        $this->activateUnavailableProfile = null;
         return $this;
     }
 
     /**
      * Getter for noProfile
      *
-     * @ElementName noProfile
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNoProfile()
     {
-        return $this->noProfile;
+        return $this->noProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noProfile;
     }
 
     /**
      * Setter for noProfile
      *
-     * @ElementName noProfile
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $noProfile
+     * @param string|null $noProfile
      * @return $this
      */
     public function setNoProfile($noProfile)
     {
-        $this->noProfile = $noProfile;
+        if ($noProfile === null) {
+            $this->noProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->noProfile = $noProfile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNoProfile()
+    {
+        $this->noProfile = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -211,28 +261,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19CommPilotExpressPr
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

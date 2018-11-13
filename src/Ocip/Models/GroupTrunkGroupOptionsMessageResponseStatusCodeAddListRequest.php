@@ -17,12 +17,15 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
 
     /**
      * @ElementName trunkGroupKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;
 
     /**
      * @ElementName statusCode
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $statusCode = array(
@@ -32,19 +35,17 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
     /**
      * Getter for trunkGroupKey
      *
-     * @ElementName trunkGroupKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      */
     public function getTrunkGroupKey()
     {
-        return $this->trunkGroupKey;
+        return $this->trunkGroupKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupKey;
     }
 
     /**
      * Setter for trunkGroupKey
      *
-     * @ElementName trunkGroupKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $trunkGroupKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey
      * @return $this
      */
     public function setTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey)
@@ -54,20 +55,27 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupKey()
+    {
+        $this->trunkGroupKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for statusCode
      *
-     * @ElementName statusCode
      * @return string[]
      */
     public function getStatusCode()
     {
-        return $this->statusCode;
+        return $this->statusCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statusCode;
     }
 
     /**
      * Setter for statusCode
      *
-     * @ElementName statusCode
      * @param string[] $statusCode
      * @return $this
      */
@@ -78,15 +86,23 @@ class GroupTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatusCode()
+    {
+        $this->statusCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for statusCode
      *
-     * @ElementName statusCode
      * @param string $statusCode
      * @return $this
      */
     public function addStatusCode(string $statusCode)
     {
-        $this->statusCode []= $statusCode;
+        $this->statusCode[] = $statusCode;
         return $this;
     }
 

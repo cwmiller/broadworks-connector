@@ -21,48 +21,56 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName policy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
 
     /**
      * @ElementName huntAfterNoAnswer
+     * @Type bool
      * @var bool|null
      */
     private $huntAfterNoAnswer = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
+     * @Type int
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
 
     /**
      * @ElementName forwardAfterTimeout
+     * @Type bool
      * @var bool|null
      */
     private $forwardAfterTimeout = null;
 
     /**
      * @ElementName forwardTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
 
     /**
      * @ElementName forwardToPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -70,6 +78,7 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName agentUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -77,30 +86,35 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName allowCallWaitingForAgents
+     * @Type bool
      * @var bool|null
      */
     private $allowCallWaitingForAgents = null;
 
     /**
      * @ElementName useSystemHuntGroupCLIDSetting
+     * @Type bool
      * @var bool|null
      */
     private $useSystemHuntGroupCLIDSetting = null;
 
     /**
      * @ElementName includeHuntGroupNameInCLID
+     * @Type bool
      * @var bool|null
      */
     private $includeHuntGroupNameInCLID = null;
 
     /**
      * @ElementName enableNotReachableForwarding
+     * @Type bool
      * @var bool|null
      */
     private $enableNotReachableForwarding = null;
 
     /**
      * @ElementName notReachableForwardToPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -108,30 +122,35 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName makeBusyWhenNotReachable
+     * @Type bool
      * @var bool|null
      */
     private $makeBusyWhenNotReachable = null;
 
     /**
      * @ElementName allowMembersToControlGroupBusy
+     * @Type bool
      * @var bool|null
      */
     private $allowMembersToControlGroupBusy = null;
 
     /**
      * @ElementName enableGroupBusy
+     * @Type bool
      * @var bool|null
      */
     private $enableGroupBusy = null;
 
     /**
      * @ElementName applyGroupBusyWhenTerminatingToAgent
+     * @Type bool
      * @var bool|null
      */
     private $applyGroupBusyWhenTerminatingToAgent = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -139,19 +158,17 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -161,21 +178,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
@@ -185,21 +209,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for policy
      *
-     * @ElementName policy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
      */
     public function getPolicy()
     {
-        return $this->policy;
+        return $this->policy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->policy;
     }
 
     /**
      * Setter for policy
      *
-     * @ElementName policy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null $policy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy
      * @return $this
      */
     public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
@@ -209,21 +240,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPolicy()
+    {
+        $this->policy = null;
+        return $this;
+    }
+
+    /**
      * Getter for huntAfterNoAnswer
      *
-     * @ElementName huntAfterNoAnswer
-     * @return bool|null
+     * @return bool
      */
     public function getHuntAfterNoAnswer()
     {
-        return $this->huntAfterNoAnswer;
+        return $this->huntAfterNoAnswer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->huntAfterNoAnswer;
     }
 
     /**
      * Setter for huntAfterNoAnswer
      *
-     * @ElementName huntAfterNoAnswer
-     * @param bool|null $huntAfterNoAnswer
+     * @param bool $huntAfterNoAnswer
      * @return $this
      */
     public function setHuntAfterNoAnswer($huntAfterNoAnswer)
@@ -233,21 +271,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHuntAfterNoAnswer()
+    {
+        $this->huntAfterNoAnswer = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @return int|null
+     * @return int
      */
     public function getNoAnswerNumberOfRings()
     {
-        return $this->noAnswerNumberOfRings;
+        return $this->noAnswerNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerNumberOfRings;
     }
 
     /**
      * Setter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @param int|null $noAnswerNumberOfRings
+     * @param int $noAnswerNumberOfRings
      * @return $this
      */
     public function setNoAnswerNumberOfRings($noAnswerNumberOfRings)
@@ -257,21 +302,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerNumberOfRings()
+    {
+        $this->noAnswerNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardAfterTimeout
      *
-     * @ElementName forwardAfterTimeout
-     * @return bool|null
+     * @return bool
      */
     public function getForwardAfterTimeout()
     {
-        return $this->forwardAfterTimeout;
+        return $this->forwardAfterTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardAfterTimeout;
     }
 
     /**
      * Setter for forwardAfterTimeout
      *
-     * @ElementName forwardAfterTimeout
-     * @param bool|null $forwardAfterTimeout
+     * @param bool $forwardAfterTimeout
      * @return $this
      */
     public function setForwardAfterTimeout($forwardAfterTimeout)
@@ -281,21 +333,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForwardAfterTimeout()
+    {
+        $this->forwardAfterTimeout = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardTimeoutSeconds
      *
-     * @ElementName forwardTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getForwardTimeoutSeconds()
     {
-        return $this->forwardTimeoutSeconds;
+        return $this->forwardTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardTimeoutSeconds;
     }
 
     /**
      * Setter for forwardTimeoutSeconds
      *
-     * @ElementName forwardTimeoutSeconds
-     * @param int|null $forwardTimeoutSeconds
+     * @param int $forwardTimeoutSeconds
      * @return $this
      */
     public function setForwardTimeoutSeconds($forwardTimeoutSeconds)
@@ -305,73 +364,98 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForwardTimeoutSeconds()
+    {
+        $this->forwardTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getForwardToPhoneNumber()
     {
-        return $this->forwardToPhoneNumber;
+        return $this->forwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardToPhoneNumber;
     }
 
     /**
      * Setter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardToPhoneNumber
+     * @param string|null $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
     {
-        $this->forwardToPhoneNumber = $forwardToPhoneNumber;
+        if ($forwardToPhoneNumber === null) {
+            $this->forwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->forwardToPhoneNumber = $forwardToPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForwardToPhoneNumber()
+    {
+        $this->forwardToPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for agentUserIdList
      *
-     * @ElementName agentUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getAgentUserIdList()
     {
-        return $this->agentUserIdList;
+        return $this->agentUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserIdList;
     }
 
     /**
      * Setter for agentUserIdList
      *
-     * @ElementName agentUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
     {
-        $this->agentUserIdList = $agentUserIdList;
+        if ($agentUserIdList === null) {
+            $this->agentUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->agentUserIdList = $agentUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentUserIdList()
+    {
+        $this->agentUserIdList = null;
         return $this;
     }
 
     /**
      * Getter for allowCallWaitingForAgents
      *
-     * @ElementName allowCallWaitingForAgents
-     * @return bool|null
+     * @return bool
      */
     public function getAllowCallWaitingForAgents()
     {
-        return $this->allowCallWaitingForAgents;
+        return $this->allowCallWaitingForAgents instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCallWaitingForAgents;
     }
 
     /**
      * Setter for allowCallWaitingForAgents
      *
-     * @ElementName allowCallWaitingForAgents
-     * @param bool|null $allowCallWaitingForAgents
+     * @param bool $allowCallWaitingForAgents
      * @return $this
      */
     public function setAllowCallWaitingForAgents($allowCallWaitingForAgents)
@@ -381,21 +465,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowCallWaitingForAgents()
+    {
+        $this->allowCallWaitingForAgents = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSystemHuntGroupCLIDSetting
      *
-     * @ElementName useSystemHuntGroupCLIDSetting
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemHuntGroupCLIDSetting()
     {
-        return $this->useSystemHuntGroupCLIDSetting;
+        return $this->useSystemHuntGroupCLIDSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemHuntGroupCLIDSetting;
     }
 
     /**
      * Setter for useSystemHuntGroupCLIDSetting
      *
-     * @ElementName useSystemHuntGroupCLIDSetting
-     * @param bool|null $useSystemHuntGroupCLIDSetting
+     * @param bool $useSystemHuntGroupCLIDSetting
      * @return $this
      */
     public function setUseSystemHuntGroupCLIDSetting($useSystemHuntGroupCLIDSetting)
@@ -405,21 +496,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemHuntGroupCLIDSetting()
+    {
+        $this->useSystemHuntGroupCLIDSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeHuntGroupNameInCLID
      *
-     * @ElementName includeHuntGroupNameInCLID
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeHuntGroupNameInCLID()
     {
-        return $this->includeHuntGroupNameInCLID;
+        return $this->includeHuntGroupNameInCLID instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeHuntGroupNameInCLID;
     }
 
     /**
      * Setter for includeHuntGroupNameInCLID
      *
-     * @ElementName includeHuntGroupNameInCLID
-     * @param bool|null $includeHuntGroupNameInCLID
+     * @param bool $includeHuntGroupNameInCLID
      * @return $this
      */
     public function setIncludeHuntGroupNameInCLID($includeHuntGroupNameInCLID)
@@ -429,21 +527,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeHuntGroupNameInCLID()
+    {
+        $this->includeHuntGroupNameInCLID = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableNotReachableForwarding
      *
-     * @ElementName enableNotReachableForwarding
-     * @return bool|null
+     * @return bool
      */
     public function getEnableNotReachableForwarding()
     {
-        return $this->enableNotReachableForwarding;
+        return $this->enableNotReachableForwarding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableNotReachableForwarding;
     }
 
     /**
      * Setter for enableNotReachableForwarding
      *
-     * @ElementName enableNotReachableForwarding
-     * @param bool|null $enableNotReachableForwarding
+     * @param bool $enableNotReachableForwarding
      * @return $this
      */
     public function setEnableNotReachableForwarding($enableNotReachableForwarding)
@@ -453,47 +558,63 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableNotReachableForwarding()
+    {
+        $this->enableNotReachableForwarding = null;
+        return $this;
+    }
+
+    /**
      * Getter for notReachableForwardToPhoneNumber
      *
-     * @ElementName notReachableForwardToPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNotReachableForwardToPhoneNumber()
     {
-        return $this->notReachableForwardToPhoneNumber;
+        return $this->notReachableForwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->notReachableForwardToPhoneNumber;
     }
 
     /**
      * Setter for notReachableForwardToPhoneNumber
      *
-     * @ElementName notReachableForwardToPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $notReachableForwardToPhoneNumber
+     * @param string|null $notReachableForwardToPhoneNumber
      * @return $this
      */
     public function setNotReachableForwardToPhoneNumber($notReachableForwardToPhoneNumber)
     {
-        $this->notReachableForwardToPhoneNumber = $notReachableForwardToPhoneNumber;
+        if ($notReachableForwardToPhoneNumber === null) {
+            $this->notReachableForwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->notReachableForwardToPhoneNumber = $notReachableForwardToPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNotReachableForwardToPhoneNumber()
+    {
+        $this->notReachableForwardToPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for makeBusyWhenNotReachable
      *
-     * @ElementName makeBusyWhenNotReachable
-     * @return bool|null
+     * @return bool
      */
     public function getMakeBusyWhenNotReachable()
     {
-        return $this->makeBusyWhenNotReachable;
+        return $this->makeBusyWhenNotReachable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->makeBusyWhenNotReachable;
     }
 
     /**
      * Setter for makeBusyWhenNotReachable
      *
-     * @ElementName makeBusyWhenNotReachable
-     * @param bool|null $makeBusyWhenNotReachable
+     * @param bool $makeBusyWhenNotReachable
      * @return $this
      */
     public function setMakeBusyWhenNotReachable($makeBusyWhenNotReachable)
@@ -503,21 +624,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMakeBusyWhenNotReachable()
+    {
+        $this->makeBusyWhenNotReachable = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowMembersToControlGroupBusy
      *
-     * @ElementName allowMembersToControlGroupBusy
-     * @return bool|null
+     * @return bool
      */
     public function getAllowMembersToControlGroupBusy()
     {
-        return $this->allowMembersToControlGroupBusy;
+        return $this->allowMembersToControlGroupBusy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowMembersToControlGroupBusy;
     }
 
     /**
      * Setter for allowMembersToControlGroupBusy
      *
-     * @ElementName allowMembersToControlGroupBusy
-     * @param bool|null $allowMembersToControlGroupBusy
+     * @param bool $allowMembersToControlGroupBusy
      * @return $this
      */
     public function setAllowMembersToControlGroupBusy($allowMembersToControlGroupBusy)
@@ -527,21 +655,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowMembersToControlGroupBusy()
+    {
+        $this->allowMembersToControlGroupBusy = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableGroupBusy
      *
-     * @ElementName enableGroupBusy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableGroupBusy()
     {
-        return $this->enableGroupBusy;
+        return $this->enableGroupBusy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableGroupBusy;
     }
 
     /**
      * Setter for enableGroupBusy
      *
-     * @ElementName enableGroupBusy
-     * @param bool|null $enableGroupBusy
+     * @param bool $enableGroupBusy
      * @return $this
      */
     public function setEnableGroupBusy($enableGroupBusy)
@@ -551,21 +686,28 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableGroupBusy()
+    {
+        $this->enableGroupBusy = null;
+        return $this;
+    }
+
+    /**
      * Getter for applyGroupBusyWhenTerminatingToAgent
      *
-     * @ElementName applyGroupBusyWhenTerminatingToAgent
-     * @return bool|null
+     * @return bool
      */
     public function getApplyGroupBusyWhenTerminatingToAgent()
     {
-        return $this->applyGroupBusyWhenTerminatingToAgent;
+        return $this->applyGroupBusyWhenTerminatingToAgent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applyGroupBusyWhenTerminatingToAgent;
     }
 
     /**
      * Setter for applyGroupBusyWhenTerminatingToAgent
      *
-     * @ElementName applyGroupBusyWhenTerminatingToAgent
-     * @param bool|null $applyGroupBusyWhenTerminatingToAgent
+     * @param bool $applyGroupBusyWhenTerminatingToAgent
      * @return $this
      */
     public function setApplyGroupBusyWhenTerminatingToAgent($applyGroupBusyWhenTerminatingToAgent)
@@ -575,26 +717,42 @@ class GroupHuntGroupModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplyGroupBusyWhenTerminatingToAgent()
+    {
+        $this->applyGroupBusyWhenTerminatingToAgent = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
         return $this;
     }
 

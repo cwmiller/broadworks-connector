@@ -16,60 +16,70 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName entranceMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $entranceMessageSelection = null;
 
     /**
      * @ElementName entranceMessageAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $entranceMessageAudioFile = null;
 
     /**
      * @ElementName entranceMessageVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $entranceMessageVideoFile = null;
 
     /**
      * @ElementName periodicComfortMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $periodicComfortMessageSelection = null;
 
     /**
      * @ElementName periodicComfortMessageAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $periodicComfortMessageAudioFile = null;
 
     /**
      * @ElementName periodicComfortMessageVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $periodicComfortMessageVideoFile = null;
 
     /**
      * @ElementName onHoldMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $onHoldMessageSelection = null;
 
     /**
      * @ElementName onHoldMessageAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $onHoldMessageAudioFile = null;
 
     /**
      * @ElementName onHoldMessageVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $onHoldMessageVideoFile = null;
@@ -77,19 +87,17 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -99,21 +107,28 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for entranceMessageSelection
      *
-     * @ElementName entranceMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
      */
     public function getEntranceMessageSelection()
     {
-        return $this->entranceMessageSelection;
+        return $this->entranceMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entranceMessageSelection;
     }
 
     /**
      * Setter for entranceMessageSelection
      *
-     * @ElementName entranceMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null $entranceMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $entranceMessageSelection
      * @return $this
      */
     public function setEntranceMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $entranceMessageSelection)
@@ -123,21 +138,28 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntranceMessageSelection()
+    {
+        $this->entranceMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for entranceMessageAudioFile
      *
-     * @ElementName entranceMessageAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getEntranceMessageAudioFile()
     {
-        return $this->entranceMessageAudioFile;
+        return $this->entranceMessageAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entranceMessageAudioFile;
     }
 
     /**
      * Setter for entranceMessageAudioFile
      *
-     * @ElementName entranceMessageAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $entranceMessageAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $entranceMessageAudioFile
      * @return $this
      */
     public function setEntranceMessageAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $entranceMessageAudioFile)
@@ -147,21 +169,28 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntranceMessageAudioFile()
+    {
+        $this->entranceMessageAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for entranceMessageVideoFile
      *
-     * @ElementName entranceMessageVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getEntranceMessageVideoFile()
     {
-        return $this->entranceMessageVideoFile;
+        return $this->entranceMessageVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entranceMessageVideoFile;
     }
 
     /**
      * Setter for entranceMessageVideoFile
      *
-     * @ElementName entranceMessageVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $entranceMessageVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $entranceMessageVideoFile
      * @return $this
      */
     public function setEntranceMessageVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $entranceMessageVideoFile)
@@ -171,21 +200,28 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntranceMessageVideoFile()
+    {
+        $this->entranceMessageVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for periodicComfortMessageSelection
      *
-     * @ElementName periodicComfortMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
      */
     public function getPeriodicComfortMessageSelection()
     {
-        return $this->periodicComfortMessageSelection;
+        return $this->periodicComfortMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->periodicComfortMessageSelection;
     }
 
     /**
      * Setter for periodicComfortMessageSelection
      *
-     * @ElementName periodicComfortMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null $periodicComfortMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $periodicComfortMessageSelection
      * @return $this
      */
     public function setPeriodicComfortMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $periodicComfortMessageSelection)
@@ -195,21 +231,28 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPeriodicComfortMessageSelection()
+    {
+        $this->periodicComfortMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for periodicComfortMessageAudioFile
      *
-     * @ElementName periodicComfortMessageAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getPeriodicComfortMessageAudioFile()
     {
-        return $this->periodicComfortMessageAudioFile;
+        return $this->periodicComfortMessageAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->periodicComfortMessageAudioFile;
     }
 
     /**
      * Setter for periodicComfortMessageAudioFile
      *
-     * @ElementName periodicComfortMessageAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $periodicComfortMessageAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $periodicComfortMessageAudioFile
      * @return $this
      */
     public function setPeriodicComfortMessageAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $periodicComfortMessageAudioFile)
@@ -219,21 +262,28 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPeriodicComfortMessageAudioFile()
+    {
+        $this->periodicComfortMessageAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for periodicComfortMessageVideoFile
      *
-     * @ElementName periodicComfortMessageVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getPeriodicComfortMessageVideoFile()
     {
-        return $this->periodicComfortMessageVideoFile;
+        return $this->periodicComfortMessageVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->periodicComfortMessageVideoFile;
     }
 
     /**
      * Setter for periodicComfortMessageVideoFile
      *
-     * @ElementName periodicComfortMessageVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $periodicComfortMessageVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $periodicComfortMessageVideoFile
      * @return $this
      */
     public function setPeriodicComfortMessageVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $periodicComfortMessageVideoFile)
@@ -243,21 +293,28 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPeriodicComfortMessageVideoFile()
+    {
+        $this->periodicComfortMessageVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for onHoldMessageSelection
      *
-     * @ElementName onHoldMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
      */
     public function getOnHoldMessageSelection()
     {
-        return $this->onHoldMessageSelection;
+        return $this->onHoldMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->onHoldMessageSelection;
     }
 
     /**
      * Setter for onHoldMessageSelection
      *
-     * @ElementName onHoldMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null $onHoldMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $onHoldMessageSelection
      * @return $this
      */
     public function setOnHoldMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection $onHoldMessageSelection)
@@ -267,21 +324,28 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOnHoldMessageSelection()
+    {
+        $this->onHoldMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for onHoldMessageAudioFile
      *
-     * @ElementName onHoldMessageAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getOnHoldMessageAudioFile()
     {
-        return $this->onHoldMessageAudioFile;
+        return $this->onHoldMessageAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->onHoldMessageAudioFile;
     }
 
     /**
      * Setter for onHoldMessageAudioFile
      *
-     * @ElementName onHoldMessageAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $onHoldMessageAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $onHoldMessageAudioFile
      * @return $this
      */
     public function setOnHoldMessageAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $onHoldMessageAudioFile)
@@ -291,26 +355,42 @@ class GroupCallCenterModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOnHoldMessageAudioFile()
+    {
+        $this->onHoldMessageAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for onHoldMessageVideoFile
      *
-     * @ElementName onHoldMessageVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getOnHoldMessageVideoFile()
     {
-        return $this->onHoldMessageVideoFile;
+        return $this->onHoldMessageVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->onHoldMessageVideoFile;
     }
 
     /**
      * Setter for onHoldMessageVideoFile
      *
-     * @ElementName onHoldMessageVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $onHoldMessageVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $onHoldMessageVideoFile
      * @return $this
      */
     public function setOnHoldMessageVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $onHoldMessageVideoFile)
     {
         $this->onHoldMessageVideoFile = $onHoldMessageVideoFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOnHoldMessageVideoFile()
+    {
+        $this->onHoldMessageVideoFile = null;
         return $this;
     }
 

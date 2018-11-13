@@ -20,6 +20,8 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName tagSetName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $tagSetName = array(
@@ -29,18 +31,16 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for tagSetName
      *
-     * @ElementName tagSetName
      * @return string[]
      */
     public function getTagSetName()
     {
-        return $this->tagSetName;
+        return $this->tagSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagSetName;
     }
 
     /**
      * Setter for tagSetName
      *
-     * @ElementName tagSetName
      * @param string[] $tagSetName
      * @return $this
      */
@@ -51,15 +51,23 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagSetName()
+    {
+        $this->tagSetName = null;
+        return $this;
+    }
+
+    /**
      * Adder for tagSetName
      *
-     * @ElementName tagSetName
      * @param string $tagSetName
      * @return $this
      */
     public function addTagSetName(string $tagSetName)
     {
-        $this->tagSetName []= $tagSetName;
+        $this->tagSetName[] = $tagSetName;
         return $this;
     }
 

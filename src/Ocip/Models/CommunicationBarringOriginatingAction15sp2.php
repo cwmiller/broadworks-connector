@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CommunicationBarringOriginatingAction15sp2 AUTHORIZATION_CODE()
  * @method static CommunicationBarringOriginatingAction15sp2 TREATMENT()
  * @method static CommunicationBarringOriginatingAction15sp2 TRANSFER()
- * @ValueType string
+ * @EnumValueType string
  */
 class CommunicationBarringOriginatingAction15sp2 extends \MyCLabs\Enum\Enum
 {

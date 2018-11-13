@@ -29,18 +29,21 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName announcementTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $announcementTable = null;
 
     /**
      * @ElementName totalFileSize
+     * @Type int
      * @var int|null
      */
     private $totalFileSize = null;
 
     /**
      * @ElementName maxFileSize
+     * @Type int
      * @var int|null
      */
     private $maxFileSize = null;
@@ -48,19 +51,17 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for announcementTable
      *
-     * @ElementName announcementTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAnnouncementTable()
     {
-        return $this->announcementTable;
+        return $this->announcementTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementTable;
     }
 
     /**
      * Setter for announcementTable
      *
-     * @ElementName announcementTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $announcementTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $announcementTable
      * @return $this
      */
     public function setAnnouncementTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $announcementTable)
@@ -70,21 +71,28 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementTable()
+    {
+        $this->announcementTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for totalFileSize
      *
-     * @ElementName totalFileSize
-     * @return int|null
+     * @return int
      */
     public function getTotalFileSize()
     {
-        return $this->totalFileSize;
+        return $this->totalFileSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalFileSize;
     }
 
     /**
      * Setter for totalFileSize
      *
-     * @ElementName totalFileSize
-     * @param int|null $totalFileSize
+     * @param int $totalFileSize
      * @return $this
      */
     public function setTotalFileSize($totalFileSize)
@@ -94,26 +102,42 @@ class UserAnnouncementFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTotalFileSize()
+    {
+        $this->totalFileSize = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxFileSize
      *
-     * @ElementName maxFileSize
-     * @return int|null
+     * @return int
      */
     public function getMaxFileSize()
     {
-        return $this->maxFileSize;
+        return $this->maxFileSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxFileSize;
     }
 
     /**
      * Setter for maxFileSize
      *
-     * @ElementName maxFileSize
-     * @param int|null $maxFileSize
+     * @param int $maxFileSize
      * @return $this
      */
     public function setMaxFileSize($maxFileSize)
     {
         $this->maxFileSize = $maxFileSize;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxFileSize()
+    {
+        $this->maxFileSize = null;
         return $this;
     }
 

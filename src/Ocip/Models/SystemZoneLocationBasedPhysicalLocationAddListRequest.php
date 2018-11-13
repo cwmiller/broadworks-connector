@@ -16,12 +16,15 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
 
     /**
      * @ElementName zoneName
+     * @Type string
      * @var string|null
      */
     private $zoneName = null;
 
     /**
      * @ElementName physicalLocation
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $physicalLocation = array(
@@ -31,19 +34,17 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
     /**
      * Getter for zoneName
      *
-     * @ElementName zoneName
-     * @return string|null
+     * @return string
      */
     public function getZoneName()
     {
-        return $this->zoneName;
+        return $this->zoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zoneName;
     }
 
     /**
      * Setter for zoneName
      *
-     * @ElementName zoneName
-     * @param string|null $zoneName
+     * @param string $zoneName
      * @return $this
      */
     public function setZoneName($zoneName)
@@ -53,20 +54,27 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetZoneName()
+    {
+        $this->zoneName = null;
+        return $this;
+    }
+
+    /**
      * Getter for physicalLocation
      *
-     * @ElementName physicalLocation
      * @return string[]
      */
     public function getPhysicalLocation()
     {
-        return $this->physicalLocation;
+        return $this->physicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->physicalLocation;
     }
 
     /**
      * Setter for physicalLocation
      *
-     * @ElementName physicalLocation
      * @param string[] $physicalLocation
      * @return $this
      */
@@ -77,15 +85,23 @@ class SystemZoneLocationBasedPhysicalLocationAddListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhysicalLocation()
+    {
+        $this->physicalLocation = null;
+        return $this;
+    }
+
+    /**
      * Adder for physicalLocation
      *
-     * @ElementName physicalLocation
      * @param string $physicalLocation
      * @return $this
      */
     public function addPhysicalLocation(string $physicalLocation)
     {
-        $this->physicalLocation []= $physicalLocation;
+        $this->physicalLocation[] = $physicalLocation;
         return $this;
     }
 

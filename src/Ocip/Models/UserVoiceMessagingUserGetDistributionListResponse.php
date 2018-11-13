@@ -14,12 +14,15 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $phoneNumber = array(
@@ -29,19 +32,17 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -51,20 +52,27 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
      * @return string[]
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
      * @param string[] $phoneNumber
      * @return $this
      */
@@ -75,15 +83,23 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for phoneNumber
      *
-     * @ElementName phoneNumber
      * @param string $phoneNumber
      * @return $this
      */
     public function addPhoneNumber(string $phoneNumber)
     {
-        $this->phoneNumber []= $phoneNumber;
+        $this->phoneNumber[] = $phoneNumber;
         return $this;
     }
 

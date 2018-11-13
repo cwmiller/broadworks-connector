@@ -12,18 +12,21 @@ class CallCenterReportInterval
 
     /**
      * @ElementName dates
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates|null
      */
     private $dates = null;
 
     /**
      * @ElementName current
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval|null
      */
     private $current = null;
 
     /**
      * @ElementName past
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval|null
      */
     private $past = null;
@@ -31,19 +34,17 @@ class CallCenterReportInterval
     /**
      * Getter for dates
      *
-     * @ElementName dates
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates
      */
     public function getDates()
     {
-        return $this->dates;
+        return $this->dates instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dates;
     }
 
     /**
      * Setter for dates
      *
-     * @ElementName dates
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates|null $dates
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates $dates
      * @return $this
      */
     public function setDates(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalDates $dates)
@@ -53,21 +54,28 @@ class CallCenterReportInterval
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDates()
+    {
+        $this->dates = null;
+        return $this;
+    }
+
+    /**
      * Getter for current
      *
-     * @ElementName current
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval
      */
     public function getCurrent()
     {
-        return $this->current;
+        return $this->current instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->current;
     }
 
     /**
      * Setter for current
      *
-     * @ElementName current
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval|null $current
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval $current
      * @return $this
      */
     public function setCurrent(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportCurrentInterval $current)
@@ -77,26 +85,42 @@ class CallCenterReportInterval
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCurrent()
+    {
+        $this->current = null;
+        return $this;
+    }
+
+    /**
      * Getter for past
      *
-     * @ElementName past
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval
      */
     public function getPast()
     {
-        return $this->past;
+        return $this->past instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->past;
     }
 
     /**
      * Setter for past
      *
-     * @ElementName past
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval|null $past
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval $past
      * @return $this
      */
     public function setPast(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportPastInterval $past)
     {
         $this->past = $past;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPast()
+    {
+        $this->past = null;
         return $this;
     }
 

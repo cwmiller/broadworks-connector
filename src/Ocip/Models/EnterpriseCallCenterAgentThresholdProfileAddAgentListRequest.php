@@ -18,18 +18,22 @@ class EnterpriseCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName profileName
+     * @Type string
      * @var string|null
      */
     private $profileName = null;
 
     /**
      * @ElementName agentUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $agentUserId = array(
@@ -39,19 +43,17 @@ class EnterpriseCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -61,21 +63,28 @@ class EnterpriseCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileName
      *
-     * @ElementName profileName
-     * @return string|null
+     * @return string
      */
     public function getProfileName()
     {
-        return $this->profileName;
+        return $this->profileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileName;
     }
 
     /**
      * Setter for profileName
      *
-     * @ElementName profileName
-     * @param string|null $profileName
+     * @param string $profileName
      * @return $this
      */
     public function setProfileName($profileName)
@@ -85,20 +94,27 @@ class EnterpriseCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileName()
+    {
+        $this->profileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
      * @return string[]
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
      * @param string[] $agentUserId
      * @return $this
      */
@@ -109,15 +125,23 @@ class EnterpriseCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for agentUserId
      *
-     * @ElementName agentUserId
      * @param string $agentUserId
      * @return $this
      */
     public function addAgentUserId(string $agentUserId)
     {
-        $this->agentUserId []= $agentUserId;
+        $this->agentUserId[] = $agentUserId;
         return $this;
     }
 

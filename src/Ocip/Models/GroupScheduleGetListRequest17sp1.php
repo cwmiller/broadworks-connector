@@ -18,18 +18,21 @@ class GroupScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName scheduleType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $scheduleType = null;
@@ -37,19 +40,17 @@ class GroupScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -59,21 +60,28 @@ class GroupScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -83,26 +91,42 @@ class GroupScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleType
      *
-     * @ElementName scheduleType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
      */
     public function getScheduleType()
     {
-        return $this->scheduleType;
+        return $this->scheduleType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleType;
     }
 
     /**
      * Setter for scheduleType
      *
-     * @ElementName scheduleType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null $scheduleType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType $scheduleType
      * @return $this
      */
     public function setScheduleType(\CWM\BroadWorksConnector\Ocip\Models\ScheduleType $scheduleType)
     {
         $this->scheduleType = $scheduleType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScheduleType()
+    {
+        $this->scheduleType = null;
         return $this;
     }
 

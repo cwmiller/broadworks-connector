@@ -12,42 +12,49 @@ class ReplyMessageMenuKeysReadEntry
 
     /**
      * @ElementName sendReplyToCaller
+     * @Type string
      * @var string|null
      */
     private $sendReplyToCaller = null;
 
     /**
      * @ElementName changeCurrentReply
+     * @Type string
      * @var string|null
      */
     private $changeCurrentReply = null;
 
     /**
      * @ElementName listenToCurrentReply
+     * @Type string
      * @var string|null
      */
     private $listenToCurrentReply = null;
 
     /**
      * @ElementName setOrClearUrgentIndicator
+     * @Type string
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
 
     /**
      * @ElementName setOrClearConfidentialIndicator
+     * @Type string
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -55,19 +62,17 @@ class ReplyMessageMenuKeysReadEntry
     /**
      * Getter for sendReplyToCaller
      *
-     * @ElementName sendReplyToCaller
-     * @return string|null
+     * @return string
      */
     public function getSendReplyToCaller()
     {
-        return $this->sendReplyToCaller;
+        return $this->sendReplyToCaller instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendReplyToCaller;
     }
 
     /**
      * Setter for sendReplyToCaller
      *
-     * @ElementName sendReplyToCaller
-     * @param string|null $sendReplyToCaller
+     * @param string $sendReplyToCaller
      * @return $this
      */
     public function setSendReplyToCaller($sendReplyToCaller)
@@ -77,21 +82,28 @@ class ReplyMessageMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendReplyToCaller()
+    {
+        $this->sendReplyToCaller = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeCurrentReply
      *
-     * @ElementName changeCurrentReply
-     * @return string|null
+     * @return string
      */
     public function getChangeCurrentReply()
     {
-        return $this->changeCurrentReply;
+        return $this->changeCurrentReply instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeCurrentReply;
     }
 
     /**
      * Setter for changeCurrentReply
      *
-     * @ElementName changeCurrentReply
-     * @param string|null $changeCurrentReply
+     * @param string $changeCurrentReply
      * @return $this
      */
     public function setChangeCurrentReply($changeCurrentReply)
@@ -101,21 +113,28 @@ class ReplyMessageMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeCurrentReply()
+    {
+        $this->changeCurrentReply = null;
+        return $this;
+    }
+
+    /**
      * Getter for listenToCurrentReply
      *
-     * @ElementName listenToCurrentReply
-     * @return string|null
+     * @return string
      */
     public function getListenToCurrentReply()
     {
-        return $this->listenToCurrentReply;
+        return $this->listenToCurrentReply instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentReply;
     }
 
     /**
      * Setter for listenToCurrentReply
      *
-     * @ElementName listenToCurrentReply
-     * @param string|null $listenToCurrentReply
+     * @param string $listenToCurrentReply
      * @return $this
      */
     public function setListenToCurrentReply($listenToCurrentReply)
@@ -125,21 +144,28 @@ class ReplyMessageMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListenToCurrentReply()
+    {
+        $this->listenToCurrentReply = null;
+        return $this;
+    }
+
+    /**
      * Getter for setOrClearUrgentIndicator
      *
-     * @ElementName setOrClearUrgentIndicator
-     * @return string|null
+     * @return string
      */
     public function getSetOrClearUrgentIndicator()
     {
-        return $this->setOrClearUrgentIndicator;
+        return $this->setOrClearUrgentIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setOrClearUrgentIndicator;
     }
 
     /**
      * Setter for setOrClearUrgentIndicator
      *
-     * @ElementName setOrClearUrgentIndicator
-     * @param string|null $setOrClearUrgentIndicator
+     * @param string $setOrClearUrgentIndicator
      * @return $this
      */
     public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator)
@@ -149,21 +175,28 @@ class ReplyMessageMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetOrClearUrgentIndicator()
+    {
+        $this->setOrClearUrgentIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for setOrClearConfidentialIndicator
      *
-     * @ElementName setOrClearConfidentialIndicator
-     * @return string|null
+     * @return string
      */
     public function getSetOrClearConfidentialIndicator()
     {
-        return $this->setOrClearConfidentialIndicator;
+        return $this->setOrClearConfidentialIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setOrClearConfidentialIndicator;
     }
 
     /**
      * Setter for setOrClearConfidentialIndicator
      *
-     * @ElementName setOrClearConfidentialIndicator
-     * @param string|null $setOrClearConfidentialIndicator
+     * @param string $setOrClearConfidentialIndicator
      * @return $this
      */
     public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator)
@@ -173,21 +206,28 @@ class ReplyMessageMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetOrClearConfidentialIndicator()
+    {
+        $this->setOrClearConfidentialIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -197,26 +237,42 @@ class ReplyMessageMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

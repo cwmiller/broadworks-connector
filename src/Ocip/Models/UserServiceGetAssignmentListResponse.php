@@ -20,12 +20,14 @@ class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName servicePacksAssignmentTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $servicePacksAssignmentTable = null;
 
     /**
      * @ElementName userServicesAssignmentTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userServicesAssignmentTable = null;
@@ -33,19 +35,17 @@ class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for servicePacksAssignmentTable
      *
-     * @ElementName servicePacksAssignmentTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServicePacksAssignmentTable()
     {
-        return $this->servicePacksAssignmentTable;
+        return $this->servicePacksAssignmentTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePacksAssignmentTable;
     }
 
     /**
      * Setter for servicePacksAssignmentTable
      *
-     * @ElementName servicePacksAssignmentTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $servicePacksAssignmentTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $servicePacksAssignmentTable
      * @return $this
      */
     public function setServicePacksAssignmentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $servicePacksAssignmentTable)
@@ -55,26 +55,42 @@ class UserServiceGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePacksAssignmentTable()
+    {
+        $this->servicePacksAssignmentTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for userServicesAssignmentTable
      *
-     * @ElementName userServicesAssignmentTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserServicesAssignmentTable()
     {
-        return $this->userServicesAssignmentTable;
+        return $this->userServicesAssignmentTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServicesAssignmentTable;
     }
 
     /**
      * Setter for userServicesAssignmentTable
      *
-     * @ElementName userServicesAssignmentTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userServicesAssignmentTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServicesAssignmentTable
      * @return $this
      */
     public function setUserServicesAssignmentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServicesAssignmentTable)
     {
         $this->userServicesAssignmentTable = $userServicesAssignmentTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserServicesAssignmentTable()
+    {
+        $this->userServicesAssignmentTable = null;
         return $this;
     }
 

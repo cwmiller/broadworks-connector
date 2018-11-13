@@ -16,30 +16,35 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName allowAutoAnswer
+     * @Type bool
      * @var bool|null
      */
     private $allowAutoAnswer = null;
 
     /**
      * @ElementName outgoingConnectionSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection|null
      */
     private $outgoingConnectionSelection = null;
 
     /**
      * @ElementName accessListSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection|null
      */
     private $accessListSelection = null;
 
     /**
      * @ElementName selectedUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,19 +53,17 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -70,21 +73,28 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowAutoAnswer
      *
-     * @ElementName allowAutoAnswer
-     * @return bool|null
+     * @return bool
      */
     public function getAllowAutoAnswer()
     {
-        return $this->allowAutoAnswer;
+        return $this->allowAutoAnswer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowAutoAnswer;
     }
 
     /**
      * Setter for allowAutoAnswer
      *
-     * @ElementName allowAutoAnswer
-     * @param bool|null $allowAutoAnswer
+     * @param bool $allowAutoAnswer
      * @return $this
      */
     public function setAllowAutoAnswer($allowAutoAnswer)
@@ -94,21 +104,28 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowAutoAnswer()
+    {
+        $this->allowAutoAnswer = null;
+        return $this;
+    }
+
+    /**
      * Getter for outgoingConnectionSelection
      *
-     * @ElementName outgoingConnectionSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection
      */
     public function getOutgoingConnectionSelection()
     {
-        return $this->outgoingConnectionSelection;
+        return $this->outgoingConnectionSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outgoingConnectionSelection;
     }
 
     /**
      * Setter for outgoingConnectionSelection
      *
-     * @ElementName outgoingConnectionSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection|null $outgoingConnectionSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection $outgoingConnectionSelection
      * @return $this
      */
     public function setOutgoingConnectionSelection(\CWM\BroadWorksConnector\Ocip\Models\PushToTalkOutgoingConnectionSelection $outgoingConnectionSelection)
@@ -118,21 +135,28 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOutgoingConnectionSelection()
+    {
+        $this->outgoingConnectionSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessListSelection
      *
-     * @ElementName accessListSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection
      */
     public function getAccessListSelection()
     {
-        return $this->accessListSelection;
+        return $this->accessListSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessListSelection;
     }
 
     /**
      * Setter for accessListSelection
      *
-     * @ElementName accessListSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection|null $accessListSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection $accessListSelection
      * @return $this
      */
     public function setAccessListSelection(\CWM\BroadWorksConnector\Ocip\Models\PushToTalkAccessListSelection $accessListSelection)
@@ -142,28 +166,46 @@ class UserPushToTalkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessListSelection()
+    {
+        $this->accessListSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for selectedUserIdList
      *
-     * @ElementName selectedUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getSelectedUserIdList()
     {
-        return $this->selectedUserIdList;
+        return $this->selectedUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->selectedUserIdList;
     }
 
     /**
      * Setter for selectedUserIdList
      *
-     * @ElementName selectedUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $selectedUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $selectedUserIdList
      * @return $this
      */
     public function setSelectedUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $selectedUserIdList)
     {
-        $this->selectedUserIdList = $selectedUserIdList;
+        if ($selectedUserIdList === null) {
+            $this->selectedUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->selectedUserIdList = $selectedUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSelectedUserIdList()
+    {
+        $this->selectedUserIdList = null;
         return $this;
     }
 

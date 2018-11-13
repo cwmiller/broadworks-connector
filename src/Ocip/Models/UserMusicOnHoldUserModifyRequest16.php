@@ -19,24 +19,28 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName source
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null
      */
     private $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
+     * @Type bool
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null
      */
     private $internalSource = null;
@@ -44,19 +48,17 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -66,21 +68,28 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for source
      *
-     * @ElementName source
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16
      */
     public function getSource()
     {
-        return $this->source;
+        return $this->source instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->source;
     }
 
     /**
      * Setter for source
      *
-     * @ElementName source
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null $source
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16 $source
      * @return $this
      */
     public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16 $source)
@@ -90,21 +99,28 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSource()
+    {
+        $this->source = null;
+        return $this;
+    }
+
+    /**
      * Getter for useAlternateSourceForInternalCalls
      *
-     * @ElementName useAlternateSourceForInternalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseAlternateSourceForInternalCalls()
     {
-        return $this->useAlternateSourceForInternalCalls;
+        return $this->useAlternateSourceForInternalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useAlternateSourceForInternalCalls;
     }
 
     /**
      * Setter for useAlternateSourceForInternalCalls
      *
-     * @ElementName useAlternateSourceForInternalCalls
-     * @param bool|null $useAlternateSourceForInternalCalls
+     * @param bool $useAlternateSourceForInternalCalls
      * @return $this
      */
     public function setUseAlternateSourceForInternalCalls($useAlternateSourceForInternalCalls)
@@ -114,26 +130,42 @@ class UserMusicOnHoldUserModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseAlternateSourceForInternalCalls()
+    {
+        $this->useAlternateSourceForInternalCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for internalSource
      *
-     * @ElementName internalSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16
      */
     public function getInternalSource()
     {
-        return $this->internalSource;
+        return $this->internalSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internalSource;
     }
 
     /**
      * Setter for internalSource
      *
-     * @ElementName internalSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16|null $internalSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16 $internalSource
      * @return $this
      */
     public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify16 $internalSource)
     {
         $this->internalSource = $internalSource;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInternalSource()
+    {
+        $this->internalSource = null;
         return $this;
     }
 

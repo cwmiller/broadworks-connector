@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AutoAttendantDialingScope ENTERPRISE()
  * @method static AutoAttendantDialingScope GROUP()
  * @method static AutoAttendantDialingScope DEPARTMENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class AutoAttendantDialingScope extends \MyCLabs\Enum\Enum
 {

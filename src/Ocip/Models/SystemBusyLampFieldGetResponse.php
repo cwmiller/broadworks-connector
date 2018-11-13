@@ -14,6 +14,7 @@ class SystemBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName displayLocalUserIdentityLastNameFirst
+     * @Type bool
      * @var bool|null
      */
     private $displayLocalUserIdentityLastNameFirst = null;
@@ -21,24 +22,31 @@ class SystemBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for displayLocalUserIdentityLastNameFirst
      *
-     * @ElementName displayLocalUserIdentityLastNameFirst
-     * @return bool|null
+     * @return bool
      */
     public function getDisplayLocalUserIdentityLastNameFirst()
     {
-        return $this->displayLocalUserIdentityLastNameFirst;
+        return $this->displayLocalUserIdentityLastNameFirst instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->displayLocalUserIdentityLastNameFirst;
     }
 
     /**
      * Setter for displayLocalUserIdentityLastNameFirst
      *
-     * @ElementName displayLocalUserIdentityLastNameFirst
-     * @param bool|null $displayLocalUserIdentityLastNameFirst
+     * @param bool $displayLocalUserIdentityLastNameFirst
      * @return $this
      */
     public function setDisplayLocalUserIdentityLastNameFirst($displayLocalUserIdentityLastNameFirst)
     {
         $this->displayLocalUserIdentityLastNameFirst = $displayLocalUserIdentityLastNameFirst;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDisplayLocalUserIdentityLastNameFirst()
+    {
+        $this->displayLocalUserIdentityLastNameFirst = null;
         return $this;
     }
 

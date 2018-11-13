@@ -16,12 +16,15 @@ class UserScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName scheduleKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
     private $scheduleKey = array(
@@ -31,19 +34,17 @@ class UserScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleKey
      *
-     * @ElementName scheduleKey
      * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
     public function getScheduleKey()
     {
-        return $this->scheduleKey;
+        return $this->scheduleKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleKey;
     }
 
     /**
      * Setter for scheduleKey
      *
-     * @ElementName scheduleKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[] $scheduleKey
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleKey()
+    {
+        $this->scheduleKey = null;
+        return $this;
+    }
+
+    /**
      * Adder for scheduleKey
      *
-     * @ElementName scheduleKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey
      * @return $this
      */
     public function addScheduleKey($scheduleKey)
     {
-        $this->scheduleKey []= $scheduleKey;
+        $this->scheduleKey[] = $scheduleKey;
         return $this;
     }
 

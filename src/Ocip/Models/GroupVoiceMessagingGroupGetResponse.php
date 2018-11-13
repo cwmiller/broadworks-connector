@@ -15,60 +15,70 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName useMailServerSetting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices|null
      */
     private $useMailServerSetting = null;
 
     /**
      * @ElementName warnCallerBeforeRecordingVoiceMessage
+     * @Type bool
      * @var bool|null
      */
     private $warnCallerBeforeRecordingVoiceMessage = null;
 
     /**
      * @ElementName allowUsersConfiguringAdvancedSettings
+     * @Type bool
      * @var bool|null
      */
     private $allowUsersConfiguringAdvancedSettings = null;
 
     /**
      * @ElementName allowComposeOrForwardMessageToEntireGroup
+     * @Type bool
      * @var bool|null
      */
     private $allowComposeOrForwardMessageToEntireGroup = null;
 
     /**
      * @ElementName mailServerNetAddress
+     * @Type string
      * @var string|null
      */
     private $mailServerNetAddress = null;
 
     /**
      * @ElementName mailServerProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $mailServerProtocol = null;
 
     /**
      * @ElementName realDeleteForImap
+     * @Type bool
      * @var bool|null
      */
     private $realDeleteForImap = null;
 
     /**
      * @ElementName maxMailboxLengthMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $maxMailboxLengthMinutes = null;
 
     /**
      * @ElementName doesMessageAge
+     * @Type bool
      * @var bool|null
      */
     private $doesMessageAge = null;
 
     /**
      * @ElementName holdPeriodDays
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     private $holdPeriodDays = null;
@@ -76,19 +86,17 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for useMailServerSetting
      *
-     * @ElementName useMailServerSetting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices
      */
     public function getUseMailServerSetting()
     {
-        return $this->useMailServerSetting;
+        return $this->useMailServerSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useMailServerSetting;
     }
 
     /**
      * Setter for useMailServerSetting
      *
-     * @ElementName useMailServerSetting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices|null $useMailServerSetting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices $useMailServerSetting
      * @return $this
      */
     public function setUseMailServerSetting(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices $useMailServerSetting)
@@ -98,21 +106,28 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseMailServerSetting()
+    {
+        $this->useMailServerSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for warnCallerBeforeRecordingVoiceMessage
      *
-     * @ElementName warnCallerBeforeRecordingVoiceMessage
-     * @return bool|null
+     * @return bool
      */
     public function getWarnCallerBeforeRecordingVoiceMessage()
     {
-        return $this->warnCallerBeforeRecordingVoiceMessage;
+        return $this->warnCallerBeforeRecordingVoiceMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->warnCallerBeforeRecordingVoiceMessage;
     }
 
     /**
      * Setter for warnCallerBeforeRecordingVoiceMessage
      *
-     * @ElementName warnCallerBeforeRecordingVoiceMessage
-     * @param bool|null $warnCallerBeforeRecordingVoiceMessage
+     * @param bool $warnCallerBeforeRecordingVoiceMessage
      * @return $this
      */
     public function setWarnCallerBeforeRecordingVoiceMessage($warnCallerBeforeRecordingVoiceMessage)
@@ -122,21 +137,28 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetWarnCallerBeforeRecordingVoiceMessage()
+    {
+        $this->warnCallerBeforeRecordingVoiceMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowUsersConfiguringAdvancedSettings
      *
-     * @ElementName allowUsersConfiguringAdvancedSettings
-     * @return bool|null
+     * @return bool
      */
     public function getAllowUsersConfiguringAdvancedSettings()
     {
-        return $this->allowUsersConfiguringAdvancedSettings;
+        return $this->allowUsersConfiguringAdvancedSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowUsersConfiguringAdvancedSettings;
     }
 
     /**
      * Setter for allowUsersConfiguringAdvancedSettings
      *
-     * @ElementName allowUsersConfiguringAdvancedSettings
-     * @param bool|null $allowUsersConfiguringAdvancedSettings
+     * @param bool $allowUsersConfiguringAdvancedSettings
      * @return $this
      */
     public function setAllowUsersConfiguringAdvancedSettings($allowUsersConfiguringAdvancedSettings)
@@ -146,21 +168,28 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowUsersConfiguringAdvancedSettings()
+    {
+        $this->allowUsersConfiguringAdvancedSettings = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowComposeOrForwardMessageToEntireGroup
      *
-     * @ElementName allowComposeOrForwardMessageToEntireGroup
-     * @return bool|null
+     * @return bool
      */
     public function getAllowComposeOrForwardMessageToEntireGroup()
     {
-        return $this->allowComposeOrForwardMessageToEntireGroup;
+        return $this->allowComposeOrForwardMessageToEntireGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowComposeOrForwardMessageToEntireGroup;
     }
 
     /**
      * Setter for allowComposeOrForwardMessageToEntireGroup
      *
-     * @ElementName allowComposeOrForwardMessageToEntireGroup
-     * @param bool|null $allowComposeOrForwardMessageToEntireGroup
+     * @param bool $allowComposeOrForwardMessageToEntireGroup
      * @return $this
      */
     public function setAllowComposeOrForwardMessageToEntireGroup($allowComposeOrForwardMessageToEntireGroup)
@@ -170,21 +199,28 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowComposeOrForwardMessageToEntireGroup()
+    {
+        $this->allowComposeOrForwardMessageToEntireGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for mailServerNetAddress
      *
-     * @ElementName mailServerNetAddress
-     * @return string|null
+     * @return string
      */
     public function getMailServerNetAddress()
     {
-        return $this->mailServerNetAddress;
+        return $this->mailServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mailServerNetAddress;
     }
 
     /**
      * Setter for mailServerNetAddress
      *
-     * @ElementName mailServerNetAddress
-     * @param string|null $mailServerNetAddress
+     * @param string $mailServerNetAddress
      * @return $this
      */
     public function setMailServerNetAddress($mailServerNetAddress)
@@ -194,21 +230,28 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMailServerNetAddress()
+    {
+        $this->mailServerNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for mailServerProtocol
      *
-     * @ElementName mailServerProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
      */
     public function getMailServerProtocol()
     {
-        return $this->mailServerProtocol;
+        return $this->mailServerProtocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mailServerProtocol;
     }
 
     /**
      * Setter for mailServerProtocol
      *
-     * @ElementName mailServerProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null $mailServerProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol $mailServerProtocol
      * @return $this
      */
     public function setMailServerProtocol(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol $mailServerProtocol)
@@ -218,21 +261,28 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMailServerProtocol()
+    {
+        $this->mailServerProtocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for realDeleteForImap
      *
-     * @ElementName realDeleteForImap
-     * @return bool|null
+     * @return bool
      */
     public function getRealDeleteForImap()
     {
-        return $this->realDeleteForImap;
+        return $this->realDeleteForImap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->realDeleteForImap;
     }
 
     /**
      * Setter for realDeleteForImap
      *
-     * @ElementName realDeleteForImap
-     * @param bool|null $realDeleteForImap
+     * @param bool $realDeleteForImap
      * @return $this
      */
     public function setRealDeleteForImap($realDeleteForImap)
@@ -242,21 +292,28 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRealDeleteForImap()
+    {
+        $this->realDeleteForImap = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxMailboxLengthMinutes
      *
-     * @ElementName maxMailboxLengthMinutes
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
      */
     public function getMaxMailboxLengthMinutes()
     {
-        return $this->maxMailboxLengthMinutes;
+        return $this->maxMailboxLengthMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxMailboxLengthMinutes;
     }
 
     /**
      * Setter for maxMailboxLengthMinutes
      *
-     * @ElementName maxMailboxLengthMinutes
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null $maxMailboxLengthMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes $maxMailboxLengthMinutes
      * @return $this
      */
     public function setMaxMailboxLengthMinutes(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes $maxMailboxLengthMinutes)
@@ -266,21 +323,28 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxMailboxLengthMinutes()
+    {
+        $this->maxMailboxLengthMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for doesMessageAge
      *
-     * @ElementName doesMessageAge
-     * @return bool|null
+     * @return bool
      */
     public function getDoesMessageAge()
     {
-        return $this->doesMessageAge;
+        return $this->doesMessageAge instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->doesMessageAge;
     }
 
     /**
      * Setter for doesMessageAge
      *
-     * @ElementName doesMessageAge
-     * @param bool|null $doesMessageAge
+     * @param bool $doesMessageAge
      * @return $this
      */
     public function setDoesMessageAge($doesMessageAge)
@@ -290,26 +354,42 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDoesMessageAge()
+    {
+        $this->doesMessageAge = null;
+        return $this;
+    }
+
+    /**
      * Getter for holdPeriodDays
      *
-     * @ElementName holdPeriodDays
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays
      */
     public function getHoldPeriodDays()
     {
-        return $this->holdPeriodDays;
+        return $this->holdPeriodDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holdPeriodDays;
     }
 
     /**
      * Setter for holdPeriodDays
      *
-     * @ElementName holdPeriodDays
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null $holdPeriodDays
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays $holdPeriodDays
      * @return $this
      */
     public function setHoldPeriodDays(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays $holdPeriodDays)
     {
         $this->holdPeriodDays = $holdPeriodDays;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoldPeriodDays()
+    {
+        $this->holdPeriodDays = null;
         return $this;
     }
 

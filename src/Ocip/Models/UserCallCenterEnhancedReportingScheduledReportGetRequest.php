@@ -17,12 +17,14 @@ class UserCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\Broa
 
     /**
      * @ElementName supervisorUserId
+     * @Type string
      * @var string|null
      */
     private $supervisorUserId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
@@ -30,19 +32,17 @@ class UserCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\Broa
     /**
      * Getter for supervisorUserId
      *
-     * @ElementName supervisorUserId
-     * @return string|null
+     * @return string
      */
     public function getSupervisorUserId()
     {
-        return $this->supervisorUserId;
+        return $this->supervisorUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supervisorUserId;
     }
 
     /**
      * Setter for supervisorUserId
      *
-     * @ElementName supervisorUserId
-     * @param string|null $supervisorUserId
+     * @param string $supervisorUserId
      * @return $this
      */
     public function setSupervisorUserId($supervisorUserId)
@@ -52,26 +52,42 @@ class UserCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupervisorUserId()
+    {
+        $this->supervisorUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
     {
         $this->name = $name;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
         return $this;
     }
 

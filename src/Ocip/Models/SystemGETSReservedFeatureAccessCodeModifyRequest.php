@@ -16,18 +16,21 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName code
+     * @Type string
      * @var string|null
      */
     private $code = null;
 
     /**
      * @ElementName newCode
+     * @Type string
      * @var string|null
      */
     private $newCode = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,19 +39,17 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
     /**
      * Getter for code
      *
-     * @ElementName code
-     * @return string|null
+     * @return string
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->code;
     }
 
     /**
      * Setter for code
      *
-     * @ElementName code
-     * @param string|null $code
+     * @param string $code
      * @return $this
      */
     public function setCode($code)
@@ -58,21 +59,28 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCode()
+    {
+        $this->code = null;
+        return $this;
+    }
+
+    /**
      * Getter for newCode
      *
-     * @ElementName newCode
-     * @return string|null
+     * @return string
      */
     public function getNewCode()
     {
-        return $this->newCode;
+        return $this->newCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newCode;
     }
 
     /**
      * Setter for newCode
      *
-     * @ElementName newCode
-     * @param string|null $newCode
+     * @param string $newCode
      * @return $this
      */
     public function setNewCode($newCode)
@@ -82,28 +90,46 @@ class SystemGETSReservedFeatureAccessCodeModifyRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewCode()
+    {
+        $this->newCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

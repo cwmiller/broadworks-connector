@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static AdviceOfChargeIncomingAocHandling IGNORE()
  * @method static AdviceOfChargeIncomingAocHandling CHARGE()
- * @ValueType string
+ * @EnumValueType string
  */
 class AdviceOfChargeIncomingAocHandling extends \MyCLabs\Enum\Enum
 {

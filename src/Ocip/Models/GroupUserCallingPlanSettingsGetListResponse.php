@@ -21,6 +21,7 @@ class GroupUserCallingPlanSettingsGetListResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName userCallingPlanTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userCallingPlanTable = null;
@@ -28,24 +29,31 @@ class GroupUserCallingPlanSettingsGetListResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for userCallingPlanTable
      *
-     * @ElementName userCallingPlanTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserCallingPlanTable()
     {
-        return $this->userCallingPlanTable;
+        return $this->userCallingPlanTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userCallingPlanTable;
     }
 
     /**
      * Setter for userCallingPlanTable
      *
-     * @ElementName userCallingPlanTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userCallingPlanTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userCallingPlanTable
      * @return $this
      */
     public function setUserCallingPlanTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userCallingPlanTable)
     {
         $this->userCallingPlanTable = $userCallingPlanTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserCallingPlanTable()
+    {
+        $this->userCallingPlanTable = null;
         return $this;
     }
 

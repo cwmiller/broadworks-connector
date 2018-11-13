@@ -17,30 +17,35 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
+     * @Type bool
      * @var bool|null
      */
     private $treatOriginationsAndPBXRedirectionsAsScreened = null;
 
     /**
      * @ElementName useRouteListIdentityForNonEmergencyCalls
+     * @Type bool
      * @var bool|null
      */
     private $useRouteListIdentityForNonEmergencyCalls = null;
 
     /**
      * @ElementName useRouteListIdentityForEmergencyCalls
+     * @Type bool
      * @var bool|null
      */
     private $useRouteListIdentityForEmergencyCalls = null;
 
     /**
      * @ElementName assignedNumberRangeStartList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,6 +53,7 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName assignedNumberPrefixList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -56,19 +62,17 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -78,21 +82,28 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for treatOriginationsAndPBXRedirectionsAsScreened
      *
-     * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
-     * @return bool|null
+     * @return bool
      */
     public function getTreatOriginationsAndPBXRedirectionsAsScreened()
     {
-        return $this->treatOriginationsAndPBXRedirectionsAsScreened;
+        return $this->treatOriginationsAndPBXRedirectionsAsScreened instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatOriginationsAndPBXRedirectionsAsScreened;
     }
 
     /**
      * Setter for treatOriginationsAndPBXRedirectionsAsScreened
      *
-     * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
-     * @param bool|null $treatOriginationsAndPBXRedirectionsAsScreened
+     * @param bool $treatOriginationsAndPBXRedirectionsAsScreened
      * @return $this
      */
     public function setTreatOriginationsAndPBXRedirectionsAsScreened($treatOriginationsAndPBXRedirectionsAsScreened)
@@ -102,21 +113,28 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTreatOriginationsAndPBXRedirectionsAsScreened()
+    {
+        $this->treatOriginationsAndPBXRedirectionsAsScreened = null;
+        return $this;
+    }
+
+    /**
      * Getter for useRouteListIdentityForNonEmergencyCalls
      *
-     * @ElementName useRouteListIdentityForNonEmergencyCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseRouteListIdentityForNonEmergencyCalls()
     {
-        return $this->useRouteListIdentityForNonEmergencyCalls;
+        return $this->useRouteListIdentityForNonEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useRouteListIdentityForNonEmergencyCalls;
     }
 
     /**
      * Setter for useRouteListIdentityForNonEmergencyCalls
      *
-     * @ElementName useRouteListIdentityForNonEmergencyCalls
-     * @param bool|null $useRouteListIdentityForNonEmergencyCalls
+     * @param bool $useRouteListIdentityForNonEmergencyCalls
      * @return $this
      */
     public function setUseRouteListIdentityForNonEmergencyCalls($useRouteListIdentityForNonEmergencyCalls)
@@ -126,21 +144,28 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseRouteListIdentityForNonEmergencyCalls()
+    {
+        $this->useRouteListIdentityForNonEmergencyCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for useRouteListIdentityForEmergencyCalls
      *
-     * @ElementName useRouteListIdentityForEmergencyCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseRouteListIdentityForEmergencyCalls()
     {
-        return $this->useRouteListIdentityForEmergencyCalls;
+        return $this->useRouteListIdentityForEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useRouteListIdentityForEmergencyCalls;
     }
 
     /**
      * Setter for useRouteListIdentityForEmergencyCalls
      *
-     * @ElementName useRouteListIdentityForEmergencyCalls
-     * @param bool|null $useRouteListIdentityForEmergencyCalls
+     * @param bool $useRouteListIdentityForEmergencyCalls
      * @return $this
      */
     public function setUseRouteListIdentityForEmergencyCalls($useRouteListIdentityForEmergencyCalls)
@@ -150,54 +175,81 @@ class UserRouteListModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseRouteListIdentityForEmergencyCalls()
+    {
+        $this->useRouteListIdentityForEmergencyCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for assignedNumberRangeStartList
      *
-     * @ElementName assignedNumberRangeStartList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null
      */
     public function getAssignedNumberRangeStartList()
     {
-        return $this->assignedNumberRangeStartList;
+        return $this->assignedNumberRangeStartList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assignedNumberRangeStartList;
     }
 
     /**
      * Setter for assignedNumberRangeStartList
      *
-     * @ElementName assignedNumberRangeStartList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil $assignedNumberRangeStartList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList|null $assignedNumberRangeStartList
      * @return $this
      */
     public function setAssignedNumberRangeStartList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementDNList $assignedNumberRangeStartList)
     {
-        $this->assignedNumberRangeStartList = $assignedNumberRangeStartList;
+        if ($assignedNumberRangeStartList === null) {
+            $this->assignedNumberRangeStartList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->assignedNumberRangeStartList = $assignedNumberRangeStartList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAssignedNumberRangeStartList()
+    {
+        $this->assignedNumberRangeStartList = null;
         return $this;
     }
 
     /**
      * Getter for assignedNumberPrefixList
      *
-     * @ElementName assignedNumberPrefixList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null
      */
     public function getAssignedNumberPrefixList()
     {
-        return $this->assignedNumberPrefixList;
+        return $this->assignedNumberPrefixList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assignedNumberPrefixList;
     }
 
     /**
      * Setter for assignedNumberPrefixList
      *
-     * @ElementName assignedNumberPrefixList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null|\CWM\BroadWorksConnector\Ocip\Nil $assignedNumberPrefixList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList|null $assignedNumberPrefixList
      * @return $this
      */
     public function setAssignedNumberPrefixList(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkReplacementNumberPrefixList $assignedNumberPrefixList)
     {
-        $this->assignedNumberPrefixList = $assignedNumberPrefixList;
+        if ($assignedNumberPrefixList === null) {
+            $this->assignedNumberPrefixList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->assignedNumberPrefixList = $assignedNumberPrefixList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAssignedNumberPrefixList()
+    {
+        $this->assignedNumberPrefixList = null;
         return $this;
     }
 

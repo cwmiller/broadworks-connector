@@ -12,12 +12,14 @@ class DeviceManagementAutoRebuildConfigEntry
 
     /**
      * @ElementName ociRequestPrefix
+     * @Type string
      * @var string|null
      */
     private $ociRequestPrefix = null;
 
     /**
      * @ElementName autoRebuildEnabled
+     * @Type bool
      * @var bool|null
      */
     private $autoRebuildEnabled = null;
@@ -25,19 +27,17 @@ class DeviceManagementAutoRebuildConfigEntry
     /**
      * Getter for ociRequestPrefix
      *
-     * @ElementName ociRequestPrefix
-     * @return string|null
+     * @return string
      */
     public function getOciRequestPrefix()
     {
-        return $this->ociRequestPrefix;
+        return $this->ociRequestPrefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ociRequestPrefix;
     }
 
     /**
      * Setter for ociRequestPrefix
      *
-     * @ElementName ociRequestPrefix
-     * @param string|null $ociRequestPrefix
+     * @param string $ociRequestPrefix
      * @return $this
      */
     public function setOciRequestPrefix($ociRequestPrefix)
@@ -47,26 +47,42 @@ class DeviceManagementAutoRebuildConfigEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOciRequestPrefix()
+    {
+        $this->ociRequestPrefix = null;
+        return $this;
+    }
+
+    /**
      * Getter for autoRebuildEnabled
      *
-     * @ElementName autoRebuildEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getAutoRebuildEnabled()
     {
-        return $this->autoRebuildEnabled;
+        return $this->autoRebuildEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->autoRebuildEnabled;
     }
 
     /**
      * Setter for autoRebuildEnabled
      *
-     * @ElementName autoRebuildEnabled
-     * @param bool|null $autoRebuildEnabled
+     * @param bool $autoRebuildEnabled
      * @return $this
      */
     public function setAutoRebuildEnabled($autoRebuildEnabled)
     {
         $this->autoRebuildEnabled = $autoRebuildEnabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAutoRebuildEnabled()
+    {
+        $this->autoRebuildEnabled = null;
         return $this;
     }
 

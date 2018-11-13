@@ -22,12 +22,14 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName enableProfile
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,18 +37,21 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName oldPasscode
+     * @Type string
      * @var string|null
      */
     private $oldPasscode = null;
 
     /**
      * @ElementName newPasscode
+     * @Type string
      * @var string|null
      */
     private $newPasscode = null;
 
     /**
      * @ElementName resetLockout
+     * @Type bool
      * @var bool|null
      */
     private $resetLockout = null;
@@ -54,19 +59,17 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -76,47 +79,63 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableProfile
      *
-     * @ElementName enableProfile
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getEnableProfile()
     {
-        return $this->enableProfile;
+        return $this->enableProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableProfile;
     }
 
     /**
      * Setter for enableProfile
      *
-     * @ElementName enableProfile
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $enableProfile
+     * @param int|null $enableProfile
      * @return $this
      */
     public function setEnableProfile($enableProfile)
     {
-        $this->enableProfile = $enableProfile;
+        if ($enableProfile === null) {
+            $this->enableProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->enableProfile = $enableProfile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableProfile()
+    {
+        $this->enableProfile = null;
         return $this;
     }
 
     /**
      * Getter for oldPasscode
      *
-     * @ElementName oldPasscode
-     * @return string|null
+     * @return string
      */
     public function getOldPasscode()
     {
-        return $this->oldPasscode;
+        return $this->oldPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->oldPasscode;
     }
 
     /**
      * Setter for oldPasscode
      *
-     * @ElementName oldPasscode
-     * @param string|null $oldPasscode
+     * @param string $oldPasscode
      * @return $this
      */
     public function setOldPasscode($oldPasscode)
@@ -126,21 +145,28 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOldPasscode()
+    {
+        $this->oldPasscode = null;
+        return $this;
+    }
+
+    /**
      * Getter for newPasscode
      *
-     * @ElementName newPasscode
-     * @return string|null
+     * @return string
      */
     public function getNewPasscode()
     {
-        return $this->newPasscode;
+        return $this->newPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newPasscode;
     }
 
     /**
      * Setter for newPasscode
      *
-     * @ElementName newPasscode
-     * @param string|null $newPasscode
+     * @param string $newPasscode
      * @return $this
      */
     public function setNewPasscode($newPasscode)
@@ -150,26 +176,42 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewPasscode()
+    {
+        $this->newPasscode = null;
+        return $this;
+    }
+
+    /**
      * Getter for resetLockout
      *
-     * @ElementName resetLockout
-     * @return bool|null
+     * @return bool
      */
     public function getResetLockout()
     {
-        return $this->resetLockout;
+        return $this->resetLockout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resetLockout;
     }
 
     /**
      * Setter for resetLockout
      *
-     * @ElementName resetLockout
-     * @param bool|null $resetLockout
+     * @param bool $resetLockout
      * @return $this
      */
     public function setResetLockout($resetLockout)
     {
         $this->resetLockout = $resetLockout;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResetLockout()
+    {
+        $this->resetLockout = null;
         return $this;
     }
 

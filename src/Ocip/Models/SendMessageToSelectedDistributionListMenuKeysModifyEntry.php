@@ -13,6 +13,7 @@ class SendMessageToSelectedDistributionListMenuKeysModifyEntry
 
     /**
      * @ElementName confirmSendingToDistributionList
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -20,6 +21,7 @@ class SendMessageToSelectedDistributionListMenuKeysModifyEntry
 
     /**
      * @ElementName cancelSendingToDistributionList
+     * @Type string
      * @var string|null
      */
     private $cancelSendingToDistributionList = null;
@@ -27,50 +29,66 @@ class SendMessageToSelectedDistributionListMenuKeysModifyEntry
     /**
      * Getter for confirmSendingToDistributionList
      *
-     * @ElementName confirmSendingToDistributionList
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getConfirmSendingToDistributionList()
     {
-        return $this->confirmSendingToDistributionList;
+        return $this->confirmSendingToDistributionList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmSendingToDistributionList;
     }
 
     /**
      * Setter for confirmSendingToDistributionList
      *
-     * @ElementName confirmSendingToDistributionList
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $confirmSendingToDistributionList
+     * @param string|null $confirmSendingToDistributionList
      * @return $this
      */
     public function setConfirmSendingToDistributionList($confirmSendingToDistributionList)
     {
-        $this->confirmSendingToDistributionList = $confirmSendingToDistributionList;
+        if ($confirmSendingToDistributionList === null) {
+            $this->confirmSendingToDistributionList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->confirmSendingToDistributionList = $confirmSendingToDistributionList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConfirmSendingToDistributionList()
+    {
+        $this->confirmSendingToDistributionList = null;
         return $this;
     }
 
     /**
      * Getter for cancelSendingToDistributionList
      *
-     * @ElementName cancelSendingToDistributionList
-     * @return string|null
+     * @return string
      */
     public function getCancelSendingToDistributionList()
     {
-        return $this->cancelSendingToDistributionList;
+        return $this->cancelSendingToDistributionList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cancelSendingToDistributionList;
     }
 
     /**
      * Setter for cancelSendingToDistributionList
      *
-     * @ElementName cancelSendingToDistributionList
-     * @param string|null $cancelSendingToDistributionList
+     * @param string $cancelSendingToDistributionList
      * @return $this
      */
     public function setCancelSendingToDistributionList($cancelSendingToDistributionList)
     {
         $this->cancelSendingToDistributionList = $cancelSendingToDistributionList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCancelSendingToDistributionList()
+    {
+        $this->cancelSendingToDistributionList = null;
         return $this;
     }
 

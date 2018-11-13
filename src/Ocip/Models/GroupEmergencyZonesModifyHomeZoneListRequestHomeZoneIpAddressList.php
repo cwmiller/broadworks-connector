@@ -10,12 +10,14 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
 
     /**
      * @ElementName homeZoneIpAddress
+     * @Type string
      * @var string|null
      */
     private $homeZoneIpAddress = null;
 
     /**
      * @ElementName newHomeZoneIpAddress
+     * @Type string
      * @var string|null
      */
     private $newHomeZoneIpAddress = null;
@@ -23,19 +25,17 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
     /**
      * Getter for homeZoneIpAddress
      *
-     * @ElementName homeZoneIpAddress
-     * @return string|null
+     * @return string
      */
     public function getHomeZoneIpAddress()
     {
-        return $this->homeZoneIpAddress;
+        return $this->homeZoneIpAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZoneIpAddress;
     }
 
     /**
      * Setter for homeZoneIpAddress
      *
-     * @ElementName homeZoneIpAddress
-     * @param string|null $homeZoneIpAddress
+     * @param string $homeZoneIpAddress
      * @return $this
      */
     public function setHomeZoneIpAddress($homeZoneIpAddress)
@@ -45,26 +45,42 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHomeZoneIpAddress()
+    {
+        $this->homeZoneIpAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for newHomeZoneIpAddress
      *
-     * @ElementName newHomeZoneIpAddress
-     * @return string|null
+     * @return string
      */
     public function getNewHomeZoneIpAddress()
     {
-        return $this->newHomeZoneIpAddress;
+        return $this->newHomeZoneIpAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newHomeZoneIpAddress;
     }
 
     /**
      * Setter for newHomeZoneIpAddress
      *
-     * @ElementName newHomeZoneIpAddress
-     * @param string|null $newHomeZoneIpAddress
+     * @param string $newHomeZoneIpAddress
      * @return $this
      */
     public function setNewHomeZoneIpAddress($newHomeZoneIpAddress)
     {
         $this->newHomeZoneIpAddress = $newHomeZoneIpAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewHomeZoneIpAddress()
+    {
+        $this->newHomeZoneIpAddress = null;
         return $this;
     }
 

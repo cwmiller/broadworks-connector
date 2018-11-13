@@ -21,18 +21,21 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName tagName
+     * @Type string
      * @var string|null
      */
     private $tagName = null;
 
     /**
      * @ElementName tagValue
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -40,6 +43,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName tagValueToEncrypt
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,19 +52,17 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -70,21 +72,28 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagName
      *
-     * @ElementName tagName
-     * @return string|null
+     * @return string
      */
     public function getTagName()
     {
-        return $this->tagName;
+        return $this->tagName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagName;
     }
 
     /**
      * Setter for tagName
      *
-     * @ElementName tagName
-     * @param string|null $tagName
+     * @param string $tagName
      * @return $this
      */
     public function setTagName($tagName)
@@ -94,54 +103,81 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagName()
+    {
+        $this->tagName = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagValue
      *
-     * @ElementName tagValue
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTagValue()
     {
-        return $this->tagValue;
+        return $this->tagValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagValue;
     }
 
     /**
      * Setter for tagValue
      *
-     * @ElementName tagValue
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagValue
+     * @param string|null $tagValue
      * @return $this
      */
     public function setTagValue($tagValue)
     {
-        $this->tagValue = $tagValue;
+        if ($tagValue === null) {
+            $this->tagValue = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->tagValue = $tagValue;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagValue()
+    {
+        $this->tagValue = null;
         return $this;
     }
 
     /**
      * Getter for tagValueToEncrypt
      *
-     * @ElementName tagValueToEncrypt
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTagValueToEncrypt()
     {
-        return $this->tagValueToEncrypt;
+        return $this->tagValueToEncrypt instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagValueToEncrypt;
     }
 
     /**
      * Setter for tagValueToEncrypt
      *
-     * @ElementName tagValueToEncrypt
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagValueToEncrypt
+     * @param string|null $tagValueToEncrypt
      * @return $this
      */
     public function setTagValueToEncrypt($tagValueToEncrypt)
     {
-        $this->tagValueToEncrypt = $tagValueToEncrypt;
+        if ($tagValueToEncrypt === null) {
+            $this->tagValueToEncrypt = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->tagValueToEncrypt = $tagValueToEncrypt;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagValueToEncrypt()
+    {
+        $this->tagValueToEncrypt = null;
         return $this;
     }
 

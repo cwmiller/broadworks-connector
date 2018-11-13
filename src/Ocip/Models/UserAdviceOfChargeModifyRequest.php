@@ -16,18 +16,21 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName aocType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null
      */
     private $aocType = null;
@@ -35,19 +38,17 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -81,26 +89,42 @@ class UserAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for aocType
      *
-     * @ElementName aocType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType
      */
     public function getAocType()
     {
-        return $this->aocType;
+        return $this->aocType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->aocType;
     }
 
     /**
      * Setter for aocType
      *
-     * @ElementName aocType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType|null $aocType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType $aocType
      * @return $this
      */
     public function setAocType(\CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeType $aocType)
     {
         $this->aocType = $aocType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAocType()
+    {
+        $this->aocType = null;
         return $this;
     }
 

@@ -15,6 +15,7 @@ class SystemGETSAvpCodeMapGetListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName avpCodeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $avpCodeTable = null;
@@ -22,24 +23,31 @@ class SystemGETSAvpCodeMapGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for avpCodeTable
      *
-     * @ElementName avpCodeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAvpCodeTable()
     {
-        return $this->avpCodeTable;
+        return $this->avpCodeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->avpCodeTable;
     }
 
     /**
      * Setter for avpCodeTable
      *
-     * @ElementName avpCodeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $avpCodeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $avpCodeTable
      * @return $this
      */
     public function setAvpCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $avpCodeTable)
     {
         $this->avpCodeTable = $avpCodeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAvpCodeTable()
+    {
+        $this->avpCodeTable = null;
         return $this;
     }
 

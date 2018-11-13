@@ -17,24 +17,29 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest exten
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName groupPermissions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions|null
      */
     private $groupPermissions = null;
 
     /**
      * @ElementName departmentPermissions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissionsModify
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissionsModify[]
      */
     private $departmentPermissions = array(
@@ -44,19 +49,17 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest exten
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -66,21 +69,28 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest exten
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -90,21 +100,28 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest exten
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupPermissions
      *
-     * @ElementName groupPermissions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions
      */
     public function getGroupPermissions()
     {
-        return $this->groupPermissions;
+        return $this->groupPermissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupPermissions;
     }
 
     /**
      * Setter for groupPermissions
      *
-     * @ElementName groupPermissions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions|null $groupPermissions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions $groupPermissions
      * @return $this
      */
     public function setGroupPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions $groupPermissions)
@@ -114,20 +131,27 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest exten
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupPermissions()
+    {
+        $this->groupPermissions = null;
+        return $this;
+    }
+
+    /**
      * Getter for departmentPermissions
      *
-     * @ElementName departmentPermissions
      * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissionsModify[]
      */
     public function getDepartmentPermissions()
     {
-        return $this->departmentPermissions;
+        return $this->departmentPermissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentPermissions;
     }
 
     /**
      * Setter for departmentPermissions
      *
-     * @ElementName departmentPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissionsModify[] $departmentPermissions
      * @return $this
      */
@@ -138,15 +162,23 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingModifyListRequest exten
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentPermissions()
+    {
+        $this->departmentPermissions = null;
+        return $this;
+    }
+
+    /**
      * Adder for departmentPermissions
      *
-     * @ElementName departmentPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissionsModify $departmentPermissions
      * @return $this
      */
     public function addDepartmentPermissions($departmentPermissions)
     {
-        $this->departmentPermissions []= $departmentPermissions;
+        $this->departmentPermissions[] = $departmentPermissions;
         return $this;
     }
 

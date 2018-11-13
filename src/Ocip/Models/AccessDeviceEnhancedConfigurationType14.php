@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AccessDeviceEnhancedConfigurationType14 _2_FILE_CONFIGURATION()
  * @method static AccessDeviceEnhancedConfigurationType14 _3_FILE_CONFIGURATION()
  * @method static AccessDeviceEnhancedConfigurationType14 SNAP()
- * @ValueType string
+ * @EnumValueType string
  */
 class AccessDeviceEnhancedConfigurationType14 extends \MyCLabs\Enum\Enum
 {

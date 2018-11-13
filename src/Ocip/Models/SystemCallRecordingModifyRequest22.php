@@ -16,18 +16,21 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName continueCallAfterRecordingFailure
+     * @Type bool
      * @var bool|null
      */
     private $continueCallAfterRecordingFailure = null;
 
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
+     * @Type int
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
 
     /**
      * @ElementName continueCallAfterVideoRecordingFailure
+     * @Type bool
      * @var bool|null
      */
     private $continueCallAfterVideoRecordingFailure = null;
@@ -35,19 +38,17 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for continueCallAfterRecordingFailure
      *
-     * @ElementName continueCallAfterRecordingFailure
-     * @return bool|null
+     * @return bool
      */
     public function getContinueCallAfterRecordingFailure()
     {
-        return $this->continueCallAfterRecordingFailure;
+        return $this->continueCallAfterRecordingFailure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->continueCallAfterRecordingFailure;
     }
 
     /**
      * Setter for continueCallAfterRecordingFailure
      *
-     * @ElementName continueCallAfterRecordingFailure
-     * @param bool|null $continueCallAfterRecordingFailure
+     * @param bool $continueCallAfterRecordingFailure
      * @return $this
      */
     public function setContinueCallAfterRecordingFailure($continueCallAfterRecordingFailure)
@@ -57,21 +58,28 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContinueCallAfterRecordingFailure()
+    {
+        $this->continueCallAfterRecordingFailure = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxResponseWaitTimeMilliseconds
      *
-     * @ElementName maxResponseWaitTimeMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getMaxResponseWaitTimeMilliseconds()
     {
-        return $this->maxResponseWaitTimeMilliseconds;
+        return $this->maxResponseWaitTimeMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxResponseWaitTimeMilliseconds;
     }
 
     /**
      * Setter for maxResponseWaitTimeMilliseconds
      *
-     * @ElementName maxResponseWaitTimeMilliseconds
-     * @param int|null $maxResponseWaitTimeMilliseconds
+     * @param int $maxResponseWaitTimeMilliseconds
      * @return $this
      */
     public function setMaxResponseWaitTimeMilliseconds($maxResponseWaitTimeMilliseconds)
@@ -81,26 +89,42 @@ class SystemCallRecordingModifyRequest22 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxResponseWaitTimeMilliseconds()
+    {
+        $this->maxResponseWaitTimeMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for continueCallAfterVideoRecordingFailure
      *
-     * @ElementName continueCallAfterVideoRecordingFailure
-     * @return bool|null
+     * @return bool
      */
     public function getContinueCallAfterVideoRecordingFailure()
     {
-        return $this->continueCallAfterVideoRecordingFailure;
+        return $this->continueCallAfterVideoRecordingFailure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->continueCallAfterVideoRecordingFailure;
     }
 
     /**
      * Setter for continueCallAfterVideoRecordingFailure
      *
-     * @ElementName continueCallAfterVideoRecordingFailure
-     * @param bool|null $continueCallAfterVideoRecordingFailure
+     * @param bool $continueCallAfterVideoRecordingFailure
      * @return $this
      */
     public function setContinueCallAfterVideoRecordingFailure($continueCallAfterVideoRecordingFailure)
     {
         $this->continueCallAfterVideoRecordingFailure = $continueCallAfterVideoRecordingFailure;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetContinueCallAfterVideoRecordingFailure()
+    {
+        $this->continueCallAfterVideoRecordingFailure = null;
         return $this;
     }
 

@@ -19,24 +19,28 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName password
+     * @Type string
      * @var string|null
      */
     private $password = null;
 
     /**
      * @ElementName isPasswordHashed
+     * @Type bool
      * @var bool|null
      */
     private $isPasswordHashed = null;
 
     /**
      * @ElementName loginToken
+     * @Type string
      * @var string|null
      */
     private $loginToken = null;
@@ -44,19 +48,17 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -66,21 +68,28 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for password
      *
-     * @ElementName password
-     * @return string|null
+     * @return string
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param string|null $password
+     * @param string $password
      * @return $this
      */
     public function setPassword($password)
@@ -90,21 +99,28 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
+        return $this;
+    }
+
+    /**
      * Getter for isPasswordHashed
      *
-     * @ElementName isPasswordHashed
-     * @return bool|null
+     * @return bool
      */
     public function getIsPasswordHashed()
     {
-        return $this->isPasswordHashed;
+        return $this->isPasswordHashed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isPasswordHashed;
     }
 
     /**
      * Setter for isPasswordHashed
      *
-     * @ElementName isPasswordHashed
-     * @param bool|null $isPasswordHashed
+     * @param bool $isPasswordHashed
      * @return $this
      */
     public function setIsPasswordHashed($isPasswordHashed)
@@ -114,26 +130,42 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsPasswordHashed()
+    {
+        $this->isPasswordHashed = null;
+        return $this;
+    }
+
+    /**
      * Getter for loginToken
      *
-     * @ElementName loginToken
-     * @return string|null
+     * @return string
      */
     public function getLoginToken()
     {
-        return $this->loginToken;
+        return $this->loginToken instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->loginToken;
     }
 
     /**
      * Setter for loginToken
      *
-     * @ElementName loginToken
-     * @param string|null $loginToken
+     * @param string $loginToken
      * @return $this
      */
     public function setLoginToken($loginToken)
     {
         $this->loginToken = $loginToken;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLoginToken()
+    {
+        $this->loginToken = null;
         return $this;
     }
 

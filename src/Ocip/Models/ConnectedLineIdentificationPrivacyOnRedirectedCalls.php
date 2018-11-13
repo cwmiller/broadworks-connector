@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PRIVACY_FOR_EXTERNAL_CALLS()
  * @method static ConnectedLineIdentificationPrivacyOnRedirectedCalls
  * PRIVACY_FOR_ALL_CALLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class ConnectedLineIdentificationPrivacyOnRedirectedCalls extends \MyCLabs\Enum\Enum
 {

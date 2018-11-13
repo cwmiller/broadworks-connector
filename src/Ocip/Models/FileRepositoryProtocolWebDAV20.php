@@ -13,18 +13,21 @@ class FileRepositoryProtocolWebDAV20
 
     /**
      * @ElementName secure
+     * @Type bool
      * @var bool|null
      */
     private $secure = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName extendedFileCaptureSupport
+     * @Type bool
      * @var bool|null
      */
     private $extendedFileCaptureSupport = null;
@@ -32,19 +35,17 @@ class FileRepositoryProtocolWebDAV20
     /**
      * Getter for secure
      *
-     * @ElementName secure
-     * @return bool|null
+     * @return bool
      */
     public function getSecure()
     {
-        return $this->secure;
+        return $this->secure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secure;
     }
 
     /**
      * Setter for secure
      *
-     * @ElementName secure
-     * @param bool|null $secure
+     * @param bool $secure
      * @return $this
      */
     public function setSecure($secure)
@@ -54,21 +55,28 @@ class FileRepositoryProtocolWebDAV20
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecure()
+    {
+        $this->secure = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -78,26 +86,42 @@ class FileRepositoryProtocolWebDAV20
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedFileCaptureSupport
      *
-     * @ElementName extendedFileCaptureSupport
-     * @return bool|null
+     * @return bool
      */
     public function getExtendedFileCaptureSupport()
     {
-        return $this->extendedFileCaptureSupport;
+        return $this->extendedFileCaptureSupport instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedFileCaptureSupport;
     }
 
     /**
      * Setter for extendedFileCaptureSupport
      *
-     * @ElementName extendedFileCaptureSupport
-     * @param bool|null $extendedFileCaptureSupport
+     * @param bool $extendedFileCaptureSupport
      * @return $this
      */
     public function setExtendedFileCaptureSupport($extendedFileCaptureSupport)
     {
         $this->extendedFileCaptureSupport = $extendedFileCaptureSupport;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExtendedFileCaptureSupport()
+    {
+        $this->extendedFileCaptureSupport = null;
         return $this;
     }
 

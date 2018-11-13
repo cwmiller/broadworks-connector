@@ -12,6 +12,7 @@ class StreetAddress
 
     /**
      * @ElementName addressLine1
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,6 +20,7 @@ class StreetAddress
 
     /**
      * @ElementName addressLine2
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class StreetAddress
 
     /**
      * @ElementName city
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,6 +36,7 @@ class StreetAddress
 
     /**
      * @ElementName stateOrProvince
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -40,12 +44,14 @@ class StreetAddress
 
     /**
      * @ElementName stateOrProvinceDisplayName
+     * @Type string
      * @var string|null
      */
     private $stateOrProvinceDisplayName = null;
 
     /**
      * @ElementName zipOrPostalCode
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -53,6 +59,7 @@ class StreetAddress
 
     /**
      * @ElementName country
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -61,123 +68,157 @@ class StreetAddress
     /**
      * Getter for addressLine1
      *
-     * @ElementName addressLine1
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAddressLine1()
     {
-        return $this->addressLine1;
+        return $this->addressLine1 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addressLine1;
     }
 
     /**
      * Setter for addressLine1
      *
-     * @ElementName addressLine1
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $addressLine1
+     * @param string|null $addressLine1
      * @return $this
      */
     public function setAddressLine1($addressLine1)
     {
-        $this->addressLine1 = $addressLine1;
+        if ($addressLine1 === null) {
+            $this->addressLine1 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->addressLine1 = $addressLine1;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAddressLine1()
+    {
+        $this->addressLine1 = null;
         return $this;
     }
 
     /**
      * Getter for addressLine2
      *
-     * @ElementName addressLine2
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAddressLine2()
     {
-        return $this->addressLine2;
+        return $this->addressLine2 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addressLine2;
     }
 
     /**
      * Setter for addressLine2
      *
-     * @ElementName addressLine2
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $addressLine2
+     * @param string|null $addressLine2
      * @return $this
      */
     public function setAddressLine2($addressLine2)
     {
-        $this->addressLine2 = $addressLine2;
+        if ($addressLine2 === null) {
+            $this->addressLine2 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->addressLine2 = $addressLine2;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAddressLine2()
+    {
+        $this->addressLine2 = null;
         return $this;
     }
 
     /**
      * Getter for city
      *
-     * @ElementName city
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCity()
     {
-        return $this->city;
+        return $this->city instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->city;
     }
 
     /**
      * Setter for city
      *
-     * @ElementName city
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $city
+     * @param string|null $city
      * @return $this
      */
     public function setCity($city)
     {
-        $this->city = $city;
+        if ($city === null) {
+            $this->city = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->city = $city;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCity()
+    {
+        $this->city = null;
         return $this;
     }
 
     /**
      * Getter for stateOrProvince
      *
-     * @ElementName stateOrProvince
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getStateOrProvince()
     {
-        return $this->stateOrProvince;
+        return $this->stateOrProvince instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->stateOrProvince;
     }
 
     /**
      * Setter for stateOrProvince
      *
-     * @ElementName stateOrProvince
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $stateOrProvince
+     * @param string|null $stateOrProvince
      * @return $this
      */
     public function setStateOrProvince($stateOrProvince)
     {
-        $this->stateOrProvince = $stateOrProvince;
+        if ($stateOrProvince === null) {
+            $this->stateOrProvince = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->stateOrProvince = $stateOrProvince;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStateOrProvince()
+    {
+        $this->stateOrProvince = null;
         return $this;
     }
 
     /**
      * Getter for stateOrProvinceDisplayName
      *
-     * @ElementName stateOrProvinceDisplayName
-     * @return string|null
+     * @return string
      */
     public function getStateOrProvinceDisplayName()
     {
-        return $this->stateOrProvinceDisplayName;
+        return $this->stateOrProvinceDisplayName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->stateOrProvinceDisplayName;
     }
 
     /**
      * Setter for stateOrProvinceDisplayName
      *
-     * @ElementName stateOrProvinceDisplayName
-     * @param string|null $stateOrProvinceDisplayName
+     * @param string $stateOrProvinceDisplayName
      * @return $this
      */
     public function setStateOrProvinceDisplayName($stateOrProvinceDisplayName)
@@ -187,54 +228,81 @@ class StreetAddress
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStateOrProvinceDisplayName()
+    {
+        $this->stateOrProvinceDisplayName = null;
+        return $this;
+    }
+
+    /**
      * Getter for zipOrPostalCode
      *
-     * @ElementName zipOrPostalCode
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getZipOrPostalCode()
     {
-        return $this->zipOrPostalCode;
+        return $this->zipOrPostalCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zipOrPostalCode;
     }
 
     /**
      * Setter for zipOrPostalCode
      *
-     * @ElementName zipOrPostalCode
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $zipOrPostalCode
+     * @param string|null $zipOrPostalCode
      * @return $this
      */
     public function setZipOrPostalCode($zipOrPostalCode)
     {
-        $this->zipOrPostalCode = $zipOrPostalCode;
+        if ($zipOrPostalCode === null) {
+            $this->zipOrPostalCode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->zipOrPostalCode = $zipOrPostalCode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetZipOrPostalCode()
+    {
+        $this->zipOrPostalCode = null;
         return $this;
     }
 
     /**
      * Getter for country
      *
-     * @ElementName country
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCountry()
     {
-        return $this->country;
+        return $this->country instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->country;
     }
 
     /**
      * Setter for country
      *
-     * @ElementName country
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $country
+     * @param string|null $country
      * @return $this
      */
     public function setCountry($country)
     {
-        $this->country = $country;
+        if ($country === null) {
+            $this->country = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->country = $country;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCountry()
+    {
+        $this->country = null;
         return $this;
     }
 

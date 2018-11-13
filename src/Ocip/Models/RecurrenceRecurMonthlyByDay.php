@@ -10,12 +10,14 @@ class RecurrenceRecurMonthlyByDay
 
     /**
      * @ElementName recurInterval
+     * @Type int
      * @var int|null
      */
     private $recurInterval = null;
 
     /**
      * @ElementName dayOfMonth
+     * @Type int
      * @var int|null
      */
     private $dayOfMonth = null;
@@ -23,19 +25,17 @@ class RecurrenceRecurMonthlyByDay
     /**
      * Getter for recurInterval
      *
-     * @ElementName recurInterval
-     * @return int|null
+     * @return int
      */
     public function getRecurInterval()
     {
-        return $this->recurInterval;
+        return $this->recurInterval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recurInterval;
     }
 
     /**
      * Setter for recurInterval
      *
-     * @ElementName recurInterval
-     * @param int|null $recurInterval
+     * @param int $recurInterval
      * @return $this
      */
     public function setRecurInterval($recurInterval)
@@ -45,26 +45,42 @@ class RecurrenceRecurMonthlyByDay
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecurInterval()
+    {
+        $this->recurInterval = null;
+        return $this;
+    }
+
+    /**
      * Getter for dayOfMonth
      *
-     * @ElementName dayOfMonth
-     * @return int|null
+     * @return int
      */
     public function getDayOfMonth()
     {
-        return $this->dayOfMonth;
+        return $this->dayOfMonth instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dayOfMonth;
     }
 
     /**
      * Setter for dayOfMonth
      *
-     * @ElementName dayOfMonth
-     * @param int|null $dayOfMonth
+     * @param int $dayOfMonth
      * @return $this
      */
     public function setDayOfMonth($dayOfMonth)
     {
         $this->dayOfMonth = $dayOfMonth;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDayOfMonth()
+    {
+        $this->dayOfMonth = null;
         return $this;
     }
 

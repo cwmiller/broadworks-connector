@@ -14,18 +14,21 @@ class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName includeGroupCommonPhoneListInDirectory
+     * @Type bool
      * @var bool|null
      */
     private $includeGroupCommonPhoneListInDirectory = null;
 
     /**
      * @ElementName includeGroupCustomContactDirectoryInDirectory
+     * @Type bool
      * @var bool|null
      */
     private $includeGroupCustomContactDirectoryInDirectory = null;
 
     /**
      * @ElementName groupCustomContactDirectory
+     * @Type string
      * @var string|null
      */
     private $groupCustomContactDirectory = null;
@@ -33,19 +36,17 @@ class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for includeGroupCommonPhoneListInDirectory
      *
-     * @ElementName includeGroupCommonPhoneListInDirectory
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeGroupCommonPhoneListInDirectory()
     {
-        return $this->includeGroupCommonPhoneListInDirectory;
+        return $this->includeGroupCommonPhoneListInDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeGroupCommonPhoneListInDirectory;
     }
 
     /**
      * Setter for includeGroupCommonPhoneListInDirectory
      *
-     * @ElementName includeGroupCommonPhoneListInDirectory
-     * @param bool|null $includeGroupCommonPhoneListInDirectory
+     * @param bool $includeGroupCommonPhoneListInDirectory
      * @return $this
      */
     public function setIncludeGroupCommonPhoneListInDirectory($includeGroupCommonPhoneListInDirectory)
@@ -55,21 +56,28 @@ class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeGroupCommonPhoneListInDirectory()
+    {
+        $this->includeGroupCommonPhoneListInDirectory = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeGroupCustomContactDirectoryInDirectory
      *
-     * @ElementName includeGroupCustomContactDirectoryInDirectory
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeGroupCustomContactDirectoryInDirectory()
     {
-        return $this->includeGroupCustomContactDirectoryInDirectory;
+        return $this->includeGroupCustomContactDirectoryInDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeGroupCustomContactDirectoryInDirectory;
     }
 
     /**
      * Setter for includeGroupCustomContactDirectoryInDirectory
      *
-     * @ElementName includeGroupCustomContactDirectoryInDirectory
-     * @param bool|null $includeGroupCustomContactDirectoryInDirectory
+     * @param bool $includeGroupCustomContactDirectoryInDirectory
      * @return $this
      */
     public function setIncludeGroupCustomContactDirectoryInDirectory($includeGroupCustomContactDirectoryInDirectory)
@@ -79,26 +87,42 @@ class GroupPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeGroupCustomContactDirectoryInDirectory()
+    {
+        $this->includeGroupCustomContactDirectoryInDirectory = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupCustomContactDirectory
      *
-     * @ElementName groupCustomContactDirectory
-     * @return string|null
+     * @return string
      */
     public function getGroupCustomContactDirectory()
     {
-        return $this->groupCustomContactDirectory;
+        return $this->groupCustomContactDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupCustomContactDirectory;
     }
 
     /**
      * Setter for groupCustomContactDirectory
      *
-     * @ElementName groupCustomContactDirectory
-     * @param string|null $groupCustomContactDirectory
+     * @param string $groupCustomContactDirectory
      * @return $this
      */
     public function setGroupCustomContactDirectory($groupCustomContactDirectory)
     {
         $this->groupCustomContactDirectory = $groupCustomContactDirectory;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupCustomContactDirectory()
+    {
+        $this->groupCustomContactDirectory = null;
         return $this;
     }
 

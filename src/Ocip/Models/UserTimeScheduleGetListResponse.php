@@ -17,6 +17,7 @@ class UserTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName timeScheduleTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $timeScheduleTable = null;
@@ -24,24 +25,31 @@ class UserTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for timeScheduleTable
      *
-     * @ElementName timeScheduleTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getTimeScheduleTable()
     {
-        return $this->timeScheduleTable;
+        return $this->timeScheduleTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeScheduleTable;
     }
 
     /**
      * Setter for timeScheduleTable
      *
-     * @ElementName timeScheduleTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $timeScheduleTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $timeScheduleTable
      * @return $this
      */
     public function setTimeScheduleTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $timeScheduleTable)
     {
         $this->timeScheduleTable = $timeScheduleTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeScheduleTable()
+    {
+        $this->timeScheduleTable = null;
         return $this;
     }
 

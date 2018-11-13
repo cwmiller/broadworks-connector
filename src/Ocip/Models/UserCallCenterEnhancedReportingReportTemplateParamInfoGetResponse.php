@@ -14,78 +14,91 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
 
     /**
      * @ElementName isRealtimeReport
+     * @Type bool
      * @var bool|null
      */
     private $isRealtimeReport = null;
 
     /**
      * @ElementName requireAgentParam
+     * @Type bool
      * @var bool|null
      */
     private $requireAgentParam = null;
 
     /**
      * @ElementName requireCallCenterParam
+     * @Type bool
      * @var bool|null
      */
     private $requireCallCenterParam = null;
 
     /**
      * @ElementName requireCallCenterDnisParam
+     * @Type bool
      * @var bool|null
      */
     private $requireCallCenterDnisParam = null;
 
     /**
      * @ElementName requireSamplingPeriodParam
+     * @Type bool
      * @var bool|null
      */
     private $requireSamplingPeriodParam = null;
 
     /**
      * @ElementName callCompletionThresholdParam
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $callCompletionThresholdParam = null;
 
     /**
      * @ElementName shortDurationThresholdParam
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $shortDurationThresholdParam = null;
 
     /**
      * @ElementName serviceLevelThresholdParam
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $serviceLevelThresholdParam = null;
 
     /**
      * @ElementName serviceLevelInclusionsParam
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $serviceLevelInclusionsParam = null;
 
     /**
      * @ElementName serviceLevelObjectiveThresholdParam
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $serviceLevelObjectiveThresholdParam = null;
 
     /**
      * @ElementName abandonedCallThresholdParam
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
      */
     private $abandonedCallThresholdParam = null;
 
     /**
      * @ElementName serviceLevelThresholdParamNumber
+     * @Type int
      * @var int|null
      */
     private $serviceLevelThresholdParamNumber = null;
 
     /**
      * @ElementName abandonedCallThresholdParamNumber
+     * @Type int
      * @var int|null
      */
     private $abandonedCallThresholdParamNumber = null;
@@ -93,19 +106,17 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     /**
      * Getter for isRealtimeReport
      *
-     * @ElementName isRealtimeReport
-     * @return bool|null
+     * @return bool
      */
     public function getIsRealtimeReport()
     {
-        return $this->isRealtimeReport;
+        return $this->isRealtimeReport instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isRealtimeReport;
     }
 
     /**
      * Setter for isRealtimeReport
      *
-     * @ElementName isRealtimeReport
-     * @param bool|null $isRealtimeReport
+     * @param bool $isRealtimeReport
      * @return $this
      */
     public function setIsRealtimeReport($isRealtimeReport)
@@ -115,21 +126,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsRealtimeReport()
+    {
+        $this->isRealtimeReport = null;
+        return $this;
+    }
+
+    /**
      * Getter for requireAgentParam
      *
-     * @ElementName requireAgentParam
-     * @return bool|null
+     * @return bool
      */
     public function getRequireAgentParam()
     {
-        return $this->requireAgentParam;
+        return $this->requireAgentParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requireAgentParam;
     }
 
     /**
      * Setter for requireAgentParam
      *
-     * @ElementName requireAgentParam
-     * @param bool|null $requireAgentParam
+     * @param bool $requireAgentParam
      * @return $this
      */
     public function setRequireAgentParam($requireAgentParam)
@@ -139,21 +157,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequireAgentParam()
+    {
+        $this->requireAgentParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for requireCallCenterParam
      *
-     * @ElementName requireCallCenterParam
-     * @return bool|null
+     * @return bool
      */
     public function getRequireCallCenterParam()
     {
-        return $this->requireCallCenterParam;
+        return $this->requireCallCenterParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requireCallCenterParam;
     }
 
     /**
      * Setter for requireCallCenterParam
      *
-     * @ElementName requireCallCenterParam
-     * @param bool|null $requireCallCenterParam
+     * @param bool $requireCallCenterParam
      * @return $this
      */
     public function setRequireCallCenterParam($requireCallCenterParam)
@@ -163,21 +188,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequireCallCenterParam()
+    {
+        $this->requireCallCenterParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for requireCallCenterDnisParam
      *
-     * @ElementName requireCallCenterDnisParam
-     * @return bool|null
+     * @return bool
      */
     public function getRequireCallCenterDnisParam()
     {
-        return $this->requireCallCenterDnisParam;
+        return $this->requireCallCenterDnisParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requireCallCenterDnisParam;
     }
 
     /**
      * Setter for requireCallCenterDnisParam
      *
-     * @ElementName requireCallCenterDnisParam
-     * @param bool|null $requireCallCenterDnisParam
+     * @param bool $requireCallCenterDnisParam
      * @return $this
      */
     public function setRequireCallCenterDnisParam($requireCallCenterDnisParam)
@@ -187,21 +219,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequireCallCenterDnisParam()
+    {
+        $this->requireCallCenterDnisParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for requireSamplingPeriodParam
      *
-     * @ElementName requireSamplingPeriodParam
-     * @return bool|null
+     * @return bool
      */
     public function getRequireSamplingPeriodParam()
     {
-        return $this->requireSamplingPeriodParam;
+        return $this->requireSamplingPeriodParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requireSamplingPeriodParam;
     }
 
     /**
      * Setter for requireSamplingPeriodParam
      *
-     * @ElementName requireSamplingPeriodParam
-     * @param bool|null $requireSamplingPeriodParam
+     * @param bool $requireSamplingPeriodParam
      * @return $this
      */
     public function setRequireSamplingPeriodParam($requireSamplingPeriodParam)
@@ -211,21 +250,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequireSamplingPeriodParam()
+    {
+        $this->requireSamplingPeriodParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCompletionThresholdParam
      *
-     * @ElementName callCompletionThresholdParam
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      */
     public function getCallCompletionThresholdParam()
     {
-        return $this->callCompletionThresholdParam;
+        return $this->callCompletionThresholdParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCompletionThresholdParam;
     }
 
     /**
      * Setter for callCompletionThresholdParam
      *
-     * @ElementName callCompletionThresholdParam
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $callCompletionThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $callCompletionThresholdParam
      * @return $this
      */
     public function setCallCompletionThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $callCompletionThresholdParam)
@@ -235,21 +281,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallCompletionThresholdParam()
+    {
+        $this->callCompletionThresholdParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for shortDurationThresholdParam
      *
-     * @ElementName shortDurationThresholdParam
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      */
     public function getShortDurationThresholdParam()
     {
-        return $this->shortDurationThresholdParam;
+        return $this->shortDurationThresholdParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->shortDurationThresholdParam;
     }
 
     /**
      * Setter for shortDurationThresholdParam
      *
-     * @ElementName shortDurationThresholdParam
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $shortDurationThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $shortDurationThresholdParam
      * @return $this
      */
     public function setShortDurationThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $shortDurationThresholdParam)
@@ -259,21 +312,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetShortDurationThresholdParam()
+    {
+        $this->shortDurationThresholdParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceLevelThresholdParam
      *
-     * @ElementName serviceLevelThresholdParam
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      */
     public function getServiceLevelThresholdParam()
     {
-        return $this->serviceLevelThresholdParam;
+        return $this->serviceLevelThresholdParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceLevelThresholdParam;
     }
 
     /**
      * Setter for serviceLevelThresholdParam
      *
-     * @ElementName serviceLevelThresholdParam
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $serviceLevelThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $serviceLevelThresholdParam
      * @return $this
      */
     public function setServiceLevelThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $serviceLevelThresholdParam)
@@ -283,21 +343,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceLevelThresholdParam()
+    {
+        $this->serviceLevelThresholdParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceLevelInclusionsParam
      *
-     * @ElementName serviceLevelInclusionsParam
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      */
     public function getServiceLevelInclusionsParam()
     {
-        return $this->serviceLevelInclusionsParam;
+        return $this->serviceLevelInclusionsParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceLevelInclusionsParam;
     }
 
     /**
      * Setter for serviceLevelInclusionsParam
      *
-     * @ElementName serviceLevelInclusionsParam
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $serviceLevelInclusionsParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $serviceLevelInclusionsParam
      * @return $this
      */
     public function setServiceLevelInclusionsParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $serviceLevelInclusionsParam)
@@ -307,21 +374,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceLevelInclusionsParam()
+    {
+        $this->serviceLevelInclusionsParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceLevelObjectiveThresholdParam
      *
-     * @ElementName serviceLevelObjectiveThresholdParam
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      */
     public function getServiceLevelObjectiveThresholdParam()
     {
-        return $this->serviceLevelObjectiveThresholdParam;
+        return $this->serviceLevelObjectiveThresholdParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceLevelObjectiveThresholdParam;
     }
 
     /**
      * Setter for serviceLevelObjectiveThresholdParam
      *
-     * @ElementName serviceLevelObjectiveThresholdParam
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $serviceLevelObjectiveThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $serviceLevelObjectiveThresholdParam
      * @return $this
      */
     public function setServiceLevelObjectiveThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $serviceLevelObjectiveThresholdParam)
@@ -331,21 +405,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceLevelObjectiveThresholdParam()
+    {
+        $this->serviceLevelObjectiveThresholdParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for abandonedCallThresholdParam
      *
-     * @ElementName abandonedCallThresholdParam
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption
      */
     public function getAbandonedCallThresholdParam()
     {
-        return $this->abandonedCallThresholdParam;
+        return $this->abandonedCallThresholdParam instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abandonedCallThresholdParam;
     }
 
     /**
      * Setter for abandonedCallThresholdParam
      *
-     * @ElementName abandonedCallThresholdParam
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption|null $abandonedCallThresholdParam
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $abandonedCallThresholdParam
      * @return $this
      */
     public function setAbandonedCallThresholdParam(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInputParameterOption $abandonedCallThresholdParam)
@@ -355,21 +436,28 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAbandonedCallThresholdParam()
+    {
+        $this->abandonedCallThresholdParam = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceLevelThresholdParamNumber
      *
-     * @ElementName serviceLevelThresholdParamNumber
-     * @return int|null
+     * @return int
      */
     public function getServiceLevelThresholdParamNumber()
     {
-        return $this->serviceLevelThresholdParamNumber;
+        return $this->serviceLevelThresholdParamNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceLevelThresholdParamNumber;
     }
 
     /**
      * Setter for serviceLevelThresholdParamNumber
      *
-     * @ElementName serviceLevelThresholdParamNumber
-     * @param int|null $serviceLevelThresholdParamNumber
+     * @param int $serviceLevelThresholdParamNumber
      * @return $this
      */
     public function setServiceLevelThresholdParamNumber($serviceLevelThresholdParamNumber)
@@ -379,26 +467,42 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceLevelThresholdParamNumber()
+    {
+        $this->serviceLevelThresholdParamNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for abandonedCallThresholdParamNumber
      *
-     * @ElementName abandonedCallThresholdParamNumber
-     * @return int|null
+     * @return int
      */
     public function getAbandonedCallThresholdParamNumber()
     {
-        return $this->abandonedCallThresholdParamNumber;
+        return $this->abandonedCallThresholdParamNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abandonedCallThresholdParamNumber;
     }
 
     /**
      * Setter for abandonedCallThresholdParamNumber
      *
-     * @ElementName abandonedCallThresholdParamNumber
-     * @param int|null $abandonedCallThresholdParamNumber
+     * @param int $abandonedCallThresholdParamNumber
      * @return $this
      */
     public function setAbandonedCallThresholdParamNumber($abandonedCallThresholdParamNumber)
     {
         $this->abandonedCallThresholdParamNumber = $abandonedCallThresholdParamNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAbandonedCallThresholdParamNumber()
+    {
+        $this->abandonedCallThresholdParamNumber = null;
         return $this;
     }
 

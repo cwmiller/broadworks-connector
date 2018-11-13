@@ -16,66 +16,77 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName fileFormat
+     * @Type string
      * @var string|null
      */
     private $fileFormat = null;
 
     /**
      * @ElementName remoteFileFormat
+     * @Type string
      * @var string|null
      */
     private $remoteFileFormat = null;
 
     /**
      * @ElementName fileCategory
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;
 
     /**
      * @ElementName allowFileCustomization
+     * @Type bool
      * @var bool|null
      */
     private $allowFileCustomization = null;
 
     /**
      * @ElementName fileSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
 
     /**
      * @ElementName configurationFileName
+     * @Type string
      * @var string|null
      */
     private $configurationFileName = null;
 
     /**
      * @ElementName useHttpDigestAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName macInNonRequestURI
+     * @Type bool
      * @var bool|null
      */
     private $macInNonRequestURI = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
+     * @Type string
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;
@@ -83,19 +94,17 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for fileFormat
      *
-     * @ElementName fileFormat
-     * @return string|null
+     * @return string
      */
     public function getFileFormat()
     {
-        return $this->fileFormat;
+        return $this->fileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileFormat;
     }
 
     /**
      * Setter for fileFormat
      *
-     * @ElementName fileFormat
-     * @param string|null $fileFormat
+     * @param string $fileFormat
      * @return $this
      */
     public function setFileFormat($fileFormat)
@@ -105,21 +114,28 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileFormat()
+    {
+        $this->fileFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for remoteFileFormat
      *
-     * @ElementName remoteFileFormat
-     * @return string|null
+     * @return string
      */
     public function getRemoteFileFormat()
     {
-        return $this->remoteFileFormat;
+        return $this->remoteFileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->remoteFileFormat;
     }
 
     /**
      * Setter for remoteFileFormat
      *
-     * @ElementName remoteFileFormat
-     * @param string|null $remoteFileFormat
+     * @param string $remoteFileFormat
      * @return $this
      */
     public function setRemoteFileFormat($remoteFileFormat)
@@ -129,21 +145,28 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRemoteFileFormat()
+    {
+        $this->remoteFileFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileCategory
      *
-     * @ElementName fileCategory
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
      */
     public function getFileCategory()
     {
-        return $this->fileCategory;
+        return $this->fileCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileCategory;
     }
 
     /**
      * Setter for fileCategory
      *
-     * @ElementName fileCategory
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null $fileCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory $fileCategory
      * @return $this
      */
     public function setFileCategory(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory $fileCategory)
@@ -153,21 +176,28 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileCategory()
+    {
+        $this->fileCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowFileCustomization
      *
-     * @ElementName allowFileCustomization
-     * @return bool|null
+     * @return bool
      */
     public function getAllowFileCustomization()
     {
-        return $this->allowFileCustomization;
+        return $this->allowFileCustomization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowFileCustomization;
     }
 
     /**
      * Setter for allowFileCustomization
      *
-     * @ElementName allowFileCustomization
-     * @param bool|null $allowFileCustomization
+     * @param bool $allowFileCustomization
      * @return $this
      */
     public function setAllowFileCustomization($allowFileCustomization)
@@ -177,21 +207,28 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowFileCustomization()
+    {
+        $this->allowFileCustomization = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileSource
      *
-     * @ElementName fileSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
      */
     public function getFileSource()
     {
-        return $this->fileSource;
+        return $this->fileSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileSource;
     }
 
     /**
      * Setter for fileSource
      *
-     * @ElementName fileSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null $fileSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode $fileSource
      * @return $this
      */
     public function setFileSource(\CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode $fileSource)
@@ -201,21 +238,28 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileSource()
+    {
+        $this->fileSource = null;
+        return $this;
+    }
+
+    /**
      * Getter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @return string|null
+     * @return string
      */
     public function getConfigurationFileName()
     {
-        return $this->configurationFileName;
+        return $this->configurationFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurationFileName;
     }
 
     /**
      * Setter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @param string|null $configurationFileName
+     * @param string $configurationFileName
      * @return $this
      */
     public function setConfigurationFileName($configurationFileName)
@@ -225,21 +269,28 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigurationFileName()
+    {
+        $this->configurationFileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for useHttpDigestAuthentication
      *
-     * @ElementName useHttpDigestAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getUseHttpDigestAuthentication()
     {
-        return $this->useHttpDigestAuthentication;
+        return $this->useHttpDigestAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useHttpDigestAuthentication;
     }
 
     /**
      * Setter for useHttpDigestAuthentication
      *
-     * @ElementName useHttpDigestAuthentication
-     * @param bool|null $useHttpDigestAuthentication
+     * @param bool $useHttpDigestAuthentication
      * @return $this
      */
     public function setUseHttpDigestAuthentication($useHttpDigestAuthentication)
@@ -249,21 +300,28 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseHttpDigestAuthentication()
+    {
+        $this->useHttpDigestAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for macBasedFileAuthentication
      *
-     * @ElementName macBasedFileAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getMacBasedFileAuthentication()
     {
-        return $this->macBasedFileAuthentication;
+        return $this->macBasedFileAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macBasedFileAuthentication;
     }
 
     /**
      * Setter for macBasedFileAuthentication
      *
-     * @ElementName macBasedFileAuthentication
-     * @param bool|null $macBasedFileAuthentication
+     * @param bool $macBasedFileAuthentication
      * @return $this
      */
     public function setMacBasedFileAuthentication($macBasedFileAuthentication)
@@ -273,21 +331,28 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacBasedFileAuthentication()
+    {
+        $this->macBasedFileAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for userNamePasswordFileAuthentication
      *
-     * @ElementName userNamePasswordFileAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getUserNamePasswordFileAuthentication()
     {
-        return $this->userNamePasswordFileAuthentication;
+        return $this->userNamePasswordFileAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userNamePasswordFileAuthentication;
     }
 
     /**
      * Setter for userNamePasswordFileAuthentication
      *
-     * @ElementName userNamePasswordFileAuthentication
-     * @param bool|null $userNamePasswordFileAuthentication
+     * @param bool $userNamePasswordFileAuthentication
      * @return $this
      */
     public function setUserNamePasswordFileAuthentication($userNamePasswordFileAuthentication)
@@ -297,21 +362,28 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserNamePasswordFileAuthentication()
+    {
+        $this->userNamePasswordFileAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for macInNonRequestURI
      *
-     * @ElementName macInNonRequestURI
-     * @return bool|null
+     * @return bool
      */
     public function getMacInNonRequestURI()
     {
-        return $this->macInNonRequestURI;
+        return $this->macInNonRequestURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macInNonRequestURI;
     }
 
     /**
      * Setter for macInNonRequestURI
      *
-     * @ElementName macInNonRequestURI
-     * @param bool|null $macInNonRequestURI
+     * @param bool $macInNonRequestURI
      * @return $this
      */
     public function setMacInNonRequestURI($macInNonRequestURI)
@@ -321,26 +393,42 @@ class SystemSIPDeviceTypeFileGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacInNonRequestURI()
+    {
+        $this->macInNonRequestURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for macFormatInNonRequestURI
      *
-     * @ElementName macFormatInNonRequestURI
-     * @return string|null
+     * @return string
      */
     public function getMacFormatInNonRequestURI()
     {
-        return $this->macFormatInNonRequestURI;
+        return $this->macFormatInNonRequestURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macFormatInNonRequestURI;
     }
 
     /**
      * Setter for macFormatInNonRequestURI
      *
-     * @ElementName macFormatInNonRequestURI
-     * @param string|null $macFormatInNonRequestURI
+     * @param string $macFormatInNonRequestURI
      * @return $this
      */
     public function setMacFormatInNonRequestURI($macFormatInNonRequestURI)
     {
         $this->macFormatInNonRequestURI = $macFormatInNonRequestURI;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMacFormatInNonRequestURI()
+    {
+        $this->macFormatInNonRequestURI = null;
         return $this;
     }
 

@@ -12,18 +12,21 @@ class CommPilotExpressSRNoAnswer
 
     /**
      * @ElementName ringForwardNumbers
+     * @Type bool
      * @var bool|null
      */
     private $ringForwardNumbers = null;
 
     /**
      * @ElementName forwardingNumberList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null
      */
     private $forwardingNumberList = null;
 
     /**
      * @ElementName stillNoAnswer
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection|null
      */
     private $stillNoAnswer = null;
@@ -31,19 +34,17 @@ class CommPilotExpressSRNoAnswer
     /**
      * Getter for ringForwardNumbers
      *
-     * @ElementName ringForwardNumbers
-     * @return bool|null
+     * @return bool
      */
     public function getRingForwardNumbers()
     {
-        return $this->ringForwardNumbers;
+        return $this->ringForwardNumbers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ringForwardNumbers;
     }
 
     /**
      * Setter for ringForwardNumbers
      *
-     * @ElementName ringForwardNumbers
-     * @param bool|null $ringForwardNumbers
+     * @param bool $ringForwardNumbers
      * @return $this
      */
     public function setRingForwardNumbers($ringForwardNumbers)
@@ -53,21 +54,28 @@ class CommPilotExpressSRNoAnswer
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRingForwardNumbers()
+    {
+        $this->ringForwardNumbers = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardingNumberList
      *
-     * @ElementName forwardingNumberList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList
      */
     public function getForwardingNumberList()
     {
-        return $this->forwardingNumberList;
+        return $this->forwardingNumberList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardingNumberList;
     }
 
     /**
      * Setter for forwardingNumberList
      *
-     * @ElementName forwardingNumberList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null $forwardingNumberList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList $forwardingNumberList
      * @return $this
      */
     public function setForwardingNumberList(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList $forwardingNumberList)
@@ -77,26 +85,42 @@ class CommPilotExpressSRNoAnswer
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForwardingNumberList()
+    {
+        $this->forwardingNumberList = null;
+        return $this;
+    }
+
+    /**
      * Getter for stillNoAnswer
      *
-     * @ElementName stillNoAnswer
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection
      */
     public function getStillNoAnswer()
     {
-        return $this->stillNoAnswer;
+        return $this->stillNoAnswer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->stillNoAnswer;
     }
 
     /**
      * Setter for stillNoAnswer
      *
-     * @ElementName stillNoAnswer
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection|null $stillNoAnswer
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection $stillNoAnswer
      * @return $this
      */
     public function setStillNoAnswer(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection $stillNoAnswer)
     {
         $this->stillNoAnswer = $stillNoAnswer;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStillNoAnswer()
+    {
+        $this->stillNoAnswer = null;
         return $this;
     }
 

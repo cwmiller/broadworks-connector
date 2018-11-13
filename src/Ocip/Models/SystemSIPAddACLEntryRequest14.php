@@ -16,18 +16,21 @@ class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName transportProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol|null
      */
     private $transportProtocol = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -35,19 +38,17 @@ class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -57,21 +58,28 @@ class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for transportProtocol
      *
-     * @ElementName transportProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol
      */
     public function getTransportProtocol()
     {
-        return $this->transportProtocol;
+        return $this->transportProtocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transportProtocol;
     }
 
     /**
      * Setter for transportProtocol
      *
-     * @ElementName transportProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol $transportProtocol
      * @return $this
      */
     public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\SIPACLTransportProtocol $transportProtocol)
@@ -81,26 +89,42 @@ class SystemSIPAddACLEntryRequest14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransportProtocol()
+    {
+        $this->transportProtocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

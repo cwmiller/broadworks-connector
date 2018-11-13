@@ -15,12 +15,14 @@ class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName lineMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     private $lineMode = null;
 
     /**
      * @ElementName enableDeviceFeatureSynchronization
+     * @Type bool
      * @var bool|null
      */
     private $enableDeviceFeatureSynchronization = null;
@@ -28,19 +30,17 @@ class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for lineMode
      *
-     * @ElementName lineMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
      */
     public function getLineMode()
     {
-        return $this->lineMode;
+        return $this->lineMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lineMode;
     }
 
     /**
      * Setter for lineMode
      *
-     * @ElementName lineMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null $lineMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode $lineMode
      * @return $this
      */
     public function setLineMode(\CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode $lineMode)
@@ -50,26 +50,42 @@ class UserDevicePoliciesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLineMode()
+    {
+        $this->lineMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableDeviceFeatureSynchronization
      *
-     * @ElementName enableDeviceFeatureSynchronization
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDeviceFeatureSynchronization()
     {
-        return $this->enableDeviceFeatureSynchronization;
+        return $this->enableDeviceFeatureSynchronization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDeviceFeatureSynchronization;
     }
 
     /**
      * Setter for enableDeviceFeatureSynchronization
      *
-     * @ElementName enableDeviceFeatureSynchronization
-     * @param bool|null $enableDeviceFeatureSynchronization
+     * @param bool $enableDeviceFeatureSynchronization
      * @return $this
      */
     public function setEnableDeviceFeatureSynchronization($enableDeviceFeatureSynchronization)
     {
         $this->enableDeviceFeatureSynchronization = $enableDeviceFeatureSynchronization;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableDeviceFeatureSynchronization()
+    {
+        $this->enableDeviceFeatureSynchronization = null;
         return $this;
     }
 

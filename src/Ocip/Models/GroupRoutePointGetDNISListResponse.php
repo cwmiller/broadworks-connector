@@ -16,18 +16,21 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName displayDNISNumber
+     * @Type bool
      * @var bool|null
      */
     private $displayDNISNumber = null;
 
     /**
      * @ElementName displayDNISName
+     * @Type bool
      * @var bool|null
      */
     private $displayDNISName = null;
 
     /**
      * @ElementName dnisTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnisTable = null;
@@ -35,19 +38,17 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for displayDNISNumber
      *
-     * @ElementName displayDNISNumber
-     * @return bool|null
+     * @return bool
      */
     public function getDisplayDNISNumber()
     {
-        return $this->displayDNISNumber;
+        return $this->displayDNISNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->displayDNISNumber;
     }
 
     /**
      * Setter for displayDNISNumber
      *
-     * @ElementName displayDNISNumber
-     * @param bool|null $displayDNISNumber
+     * @param bool $displayDNISNumber
      * @return $this
      */
     public function setDisplayDNISNumber($displayDNISNumber)
@@ -57,21 +58,28 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisplayDNISNumber()
+    {
+        $this->displayDNISNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for displayDNISName
      *
-     * @ElementName displayDNISName
-     * @return bool|null
+     * @return bool
      */
     public function getDisplayDNISName()
     {
-        return $this->displayDNISName;
+        return $this->displayDNISName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->displayDNISName;
     }
 
     /**
      * Setter for displayDNISName
      *
-     * @ElementName displayDNISName
-     * @param bool|null $displayDNISName
+     * @param bool $displayDNISName
      * @return $this
      */
     public function setDisplayDNISName($displayDNISName)
@@ -81,26 +89,42 @@ class GroupRoutePointGetDNISListResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisplayDNISName()
+    {
+        $this->displayDNISName = null;
+        return $this;
+    }
+
+    /**
      * Getter for dnisTable
      *
-     * @ElementName dnisTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDnisTable()
     {
-        return $this->dnisTable;
+        return $this->dnisTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnisTable;
     }
 
     /**
      * Setter for dnisTable
      *
-     * @ElementName dnisTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dnisTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnisTable
      * @return $this
      */
     public function setDnisTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnisTable)
     {
         $this->dnisTable = $dnisTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDnisTable()
+    {
+        $this->dnisTable = null;
         return $this;
     }
 

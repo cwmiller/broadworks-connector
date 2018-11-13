@@ -21,18 +21,22 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaMobileSubscriberDirectoryNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[]
      */
     private $searchCriteriaMobileSubscriberDirectoryNumber = array(
@@ -41,6 +45,8 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
 
     /**
      * @ElementName searchCriteriaGroupId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -49,6 +55,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
 
     /**
      * @ElementName searchCriteriaExactMobileNetwork
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork|null
      */
     private $searchCriteriaExactMobileNetwork = null;
@@ -56,19 +63,17 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -78,21 +83,28 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -102,20 +114,27 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaMobileSubscriberDirectoryNumber
      *
-     * @ElementName searchCriteriaMobileSubscriberDirectoryNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[]
      */
     public function getSearchCriteriaMobileSubscriberDirectoryNumber()
     {
-        return $this->searchCriteriaMobileSubscriberDirectoryNumber;
+        return $this->searchCriteriaMobileSubscriberDirectoryNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaMobileSubscriberDirectoryNumber;
     }
 
     /**
      * Setter for searchCriteriaMobileSubscriberDirectoryNumber
      *
-     * @ElementName searchCriteriaMobileSubscriberDirectoryNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber[] $searchCriteriaMobileSubscriberDirectoryNumber
      * @return $this
      */
@@ -126,33 +145,39 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaMobileSubscriberDirectoryNumber()
+    {
+        $this->searchCriteriaMobileSubscriberDirectoryNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaMobileSubscriberDirectoryNumber
      *
-     * @ElementName searchCriteriaMobileSubscriberDirectoryNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobileSubscriberDirectoryNumber $searchCriteriaMobileSubscriberDirectoryNumber
      * @return $this
      */
     public function addSearchCriteriaMobileSubscriberDirectoryNumber($searchCriteriaMobileSubscriberDirectoryNumber)
     {
-        $this->searchCriteriaMobileSubscriberDirectoryNumber []= $searchCriteriaMobileSubscriberDirectoryNumber;
+        $this->searchCriteriaMobileSubscriberDirectoryNumber[] = $searchCriteriaMobileSubscriberDirectoryNumber;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     public function getSearchCriteriaGroupId()
     {
-        return $this->searchCriteriaGroupId;
+        return $this->searchCriteriaGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupId;
     }
 
     /**
      * Setter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
@@ -163,39 +188,54 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummary
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupId()
+    {
+        $this->searchCriteriaGroupId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId $searchCriteriaGroupId
      * @return $this
      */
     public function addSearchCriteriaGroupId($searchCriteriaGroupId)
     {
-        $this->searchCriteriaGroupId []= $searchCriteriaGroupId;
+        $this->searchCriteriaGroupId[] = $searchCriteriaGroupId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactMobileNetwork
      *
-     * @ElementName searchCriteriaExactMobileNetwork
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork
      */
     public function getSearchCriteriaExactMobileNetwork()
     {
-        return $this->searchCriteriaExactMobileNetwork;
+        return $this->searchCriteriaExactMobileNetwork instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactMobileNetwork;
     }
 
     /**
      * Setter for searchCriteriaExactMobileNetwork
      *
-     * @ElementName searchCriteriaExactMobileNetwork
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork|null $searchCriteriaExactMobileNetwork
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork $searchCriteriaExactMobileNetwork
      * @return $this
      */
     public function setSearchCriteriaExactMobileNetwork(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactMobileNetwork $searchCriteriaExactMobileNetwork)
     {
         $this->searchCriteriaExactMobileNetwork = $searchCriteriaExactMobileNetwork;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactMobileNetwork()
+    {
+        $this->searchCriteriaExactMobileNetwork = null;
         return $this;
     }
 

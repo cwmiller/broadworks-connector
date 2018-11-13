@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static VideoAddOnMaxOriginatingCallDelaySeconds _2()
  * @method static VideoAddOnMaxOriginatingCallDelaySeconds _5()
  * @method static VideoAddOnMaxOriginatingCallDelaySeconds _10()
- * @ValueType int
+ * @EnumValueType int
  */
 class VideoAddOnMaxOriginatingCallDelaySeconds extends \MyCLabs\Enum\Enum
 {

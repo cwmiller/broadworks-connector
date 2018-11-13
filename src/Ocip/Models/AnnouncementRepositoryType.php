@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static AnnouncementRepositoryType GROUP()
  * @method static AnnouncementRepositoryType USER()
- * @ValueType string
+ * @EnumValueType string
  */
 class AnnouncementRepositoryType extends \MyCLabs\Enum\Enum
 {

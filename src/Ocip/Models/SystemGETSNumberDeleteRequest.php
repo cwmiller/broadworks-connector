@@ -16,6 +16,7 @@ class SystemGETSNumberDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName number
+     * @Type string
      * @var string|null
      */
     private $number = null;
@@ -23,24 +24,31 @@ class SystemGETSNumberDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for number
      *
-     * @ElementName number
-     * @return string|null
+     * @return string
      */
     public function getNumber()
     {
-        return $this->number;
+        return $this->number instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->number;
     }
 
     /**
      * Setter for number
      *
-     * @ElementName number
-     * @param string|null $number
+     * @param string $number
      * @return $this
      */
     public function setNumber($number)
     {
         $this->number = $number;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNumber()
+    {
+        $this->number = null;
         return $this;
     }
 

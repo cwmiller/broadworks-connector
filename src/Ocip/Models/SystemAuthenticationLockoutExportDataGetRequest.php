@@ -17,6 +17,7 @@ class SystemAuthenticationLockoutExportDataGetRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName fileName
+     * @Type string
      * @var string|null
      */
     private $fileName = null;
@@ -24,24 +25,31 @@ class SystemAuthenticationLockoutExportDataGetRequest extends \CWM\BroadWorksCon
     /**
      * Getter for fileName
      *
-     * @ElementName fileName
-     * @return string|null
+     * @return string
      */
     public function getFileName()
     {
-        return $this->fileName;
+        return $this->fileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileName;
     }
 
     /**
      * Setter for fileName
      *
-     * @ElementName fileName
-     * @param string|null $fileName
+     * @param string $fileName
      * @return $this
      */
     public function setFileName($fileName)
     {
         $this->fileName = $fileName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileName()
+    {
+        $this->fileName = null;
         return $this;
     }
 

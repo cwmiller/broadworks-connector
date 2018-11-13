@@ -12,6 +12,7 @@ class SearchCriteriaExactUserRouteListAssignment extends SearchCriteria
 
     /**
      * @ElementName assigned
+     * @Type bool
      * @var bool|null
      */
     private $assigned = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactUserRouteListAssignment extends SearchCriteria
     /**
      * Getter for assigned
      *
-     * @ElementName assigned
-     * @return bool|null
+     * @return bool
      */
     public function getAssigned()
     {
-        return $this->assigned;
+        return $this->assigned instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assigned;
     }
 
     /**
      * Setter for assigned
      *
-     * @ElementName assigned
-     * @param bool|null $assigned
+     * @param bool $assigned
      * @return $this
      */
     public function setAssigned($assigned)
     {
         $this->assigned = $assigned;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAssigned()
+    {
+        $this->assigned = null;
         return $this;
     }
 

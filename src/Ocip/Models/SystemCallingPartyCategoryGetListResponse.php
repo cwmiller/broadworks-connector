@@ -17,6 +17,7 @@ class SystemCallingPartyCategoryGetListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName callingPartyCategoryTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callingPartyCategoryTable = null;
@@ -24,24 +25,31 @@ class SystemCallingPartyCategoryGetListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for callingPartyCategoryTable
      *
-     * @ElementName callingPartyCategoryTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCallingPartyCategoryTable()
     {
-        return $this->callingPartyCategoryTable;
+        return $this->callingPartyCategoryTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingPartyCategoryTable;
     }
 
     /**
      * Setter for callingPartyCategoryTable
      *
-     * @ElementName callingPartyCategoryTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callingPartyCategoryTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callingPartyCategoryTable
      * @return $this
      */
     public function setCallingPartyCategoryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callingPartyCategoryTable)
     {
         $this->callingPartyCategoryTable = $callingPartyCategoryTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallingPartyCategoryTable()
+    {
+        $this->callingPartyCategoryTable = null;
         return $this;
     }
 

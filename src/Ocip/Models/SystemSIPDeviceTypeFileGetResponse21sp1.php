@@ -26,120 +26,140 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName remoteFileFormat
+     * @Type string
      * @var string|null
      */
     private $remoteFileFormat = null;
 
     /**
      * @ElementName fileCategory
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;
 
     /**
      * @ElementName fileCustomization
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     private $fileCustomization = null;
 
     /**
      * @ElementName fileSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
 
     /**
      * @ElementName configurationFileName
+     * @Type string
      * @var string|null
      */
     private $configurationFileName = null;
 
     /**
      * @ElementName useHttpDigestAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName macInCert
+     * @Type bool
      * @var bool|null
      */
     private $macInCert = null;
 
     /**
      * @ElementName macInNonRequestURI
+     * @Type bool
      * @var bool|null
      */
     private $macInNonRequestURI = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
+     * @Type string
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;
 
     /**
      * @ElementName accessUrl
+     * @Type string
      * @var string|null
      */
     private $accessUrl = null;
 
     /**
      * @ElementName repositoryUrl
+     * @Type string
      * @var string|null
      */
     private $repositoryUrl = null;
 
     /**
      * @ElementName templateUrl
+     * @Type string
      * @var string|null
      */
     private $templateUrl = null;
 
     /**
      * @ElementName allowHttp
+     * @Type bool
      * @var bool|null
      */
     private $allowHttp = null;
 
     /**
      * @ElementName allowHttps
+     * @Type bool
      * @var bool|null
      */
     private $allowHttps = null;
 
     /**
      * @ElementName allowTftp
+     * @Type bool
      * @var bool|null
      */
     private $allowTftp = null;
 
     /**
      * @ElementName enableCaching
+     * @Type bool
      * @var bool|null
      */
     private $enableCaching = null;
 
     /**
      * @ElementName allowUploadFromDevice
+     * @Type bool
      * @var bool|null
      */
     private $allowUploadFromDevice = null;
 
     /**
      * @ElementName defaultExtendedFileCaptureMode
+     * @Type bool
      * @var bool|null
      */
     private $defaultExtendedFileCaptureMode = null;
@@ -147,19 +167,17 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     /**
      * Getter for remoteFileFormat
      *
-     * @ElementName remoteFileFormat
-     * @return string|null
+     * @return string
      */
     public function getRemoteFileFormat()
     {
-        return $this->remoteFileFormat;
+        return $this->remoteFileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->remoteFileFormat;
     }
 
     /**
      * Setter for remoteFileFormat
      *
-     * @ElementName remoteFileFormat
-     * @param string|null $remoteFileFormat
+     * @param string $remoteFileFormat
      * @return $this
      */
     public function setRemoteFileFormat($remoteFileFormat)
@@ -169,21 +187,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRemoteFileFormat()
+    {
+        $this->remoteFileFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileCategory
      *
-     * @ElementName fileCategory
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
      */
     public function getFileCategory()
     {
-        return $this->fileCategory;
+        return $this->fileCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileCategory;
     }
 
     /**
      * Setter for fileCategory
      *
-     * @ElementName fileCategory
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null $fileCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory $fileCategory
      * @return $this
      */
     public function setFileCategory(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory $fileCategory)
@@ -193,21 +218,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileCategory()
+    {
+        $this->fileCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileCustomization
      *
-     * @ElementName fileCustomization
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization
      */
     public function getFileCustomization()
     {
-        return $this->fileCustomization;
+        return $this->fileCustomization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileCustomization;
     }
 
     /**
      * Setter for fileCustomization
      *
-     * @ElementName fileCustomization
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null $fileCustomization
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization $fileCustomization
      * @return $this
      */
     public function setFileCustomization(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization $fileCustomization)
@@ -217,21 +249,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileCustomization()
+    {
+        $this->fileCustomization = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileSource
      *
-     * @ElementName fileSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
      */
     public function getFileSource()
     {
-        return $this->fileSource;
+        return $this->fileSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileSource;
     }
 
     /**
      * Setter for fileSource
      *
-     * @ElementName fileSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null $fileSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode $fileSource
      * @return $this
      */
     public function setFileSource(\CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode $fileSource)
@@ -241,21 +280,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileSource()
+    {
+        $this->fileSource = null;
+        return $this;
+    }
+
+    /**
      * Getter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @return string|null
+     * @return string
      */
     public function getConfigurationFileName()
     {
-        return $this->configurationFileName;
+        return $this->configurationFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurationFileName;
     }
 
     /**
      * Setter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @param string|null $configurationFileName
+     * @param string $configurationFileName
      * @return $this
      */
     public function setConfigurationFileName($configurationFileName)
@@ -265,21 +311,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigurationFileName()
+    {
+        $this->configurationFileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for useHttpDigestAuthentication
      *
-     * @ElementName useHttpDigestAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getUseHttpDigestAuthentication()
     {
-        return $this->useHttpDigestAuthentication;
+        return $this->useHttpDigestAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useHttpDigestAuthentication;
     }
 
     /**
      * Setter for useHttpDigestAuthentication
      *
-     * @ElementName useHttpDigestAuthentication
-     * @param bool|null $useHttpDigestAuthentication
+     * @param bool $useHttpDigestAuthentication
      * @return $this
      */
     public function setUseHttpDigestAuthentication($useHttpDigestAuthentication)
@@ -289,21 +342,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseHttpDigestAuthentication()
+    {
+        $this->useHttpDigestAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for macBasedFileAuthentication
      *
-     * @ElementName macBasedFileAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getMacBasedFileAuthentication()
     {
-        return $this->macBasedFileAuthentication;
+        return $this->macBasedFileAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macBasedFileAuthentication;
     }
 
     /**
      * Setter for macBasedFileAuthentication
      *
-     * @ElementName macBasedFileAuthentication
-     * @param bool|null $macBasedFileAuthentication
+     * @param bool $macBasedFileAuthentication
      * @return $this
      */
     public function setMacBasedFileAuthentication($macBasedFileAuthentication)
@@ -313,21 +373,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacBasedFileAuthentication()
+    {
+        $this->macBasedFileAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for userNamePasswordFileAuthentication
      *
-     * @ElementName userNamePasswordFileAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getUserNamePasswordFileAuthentication()
     {
-        return $this->userNamePasswordFileAuthentication;
+        return $this->userNamePasswordFileAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userNamePasswordFileAuthentication;
     }
 
     /**
      * Setter for userNamePasswordFileAuthentication
      *
-     * @ElementName userNamePasswordFileAuthentication
-     * @param bool|null $userNamePasswordFileAuthentication
+     * @param bool $userNamePasswordFileAuthentication
      * @return $this
      */
     public function setUserNamePasswordFileAuthentication($userNamePasswordFileAuthentication)
@@ -337,21 +404,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserNamePasswordFileAuthentication()
+    {
+        $this->userNamePasswordFileAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for macInCert
      *
-     * @ElementName macInCert
-     * @return bool|null
+     * @return bool
      */
     public function getMacInCert()
     {
-        return $this->macInCert;
+        return $this->macInCert instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macInCert;
     }
 
     /**
      * Setter for macInCert
      *
-     * @ElementName macInCert
-     * @param bool|null $macInCert
+     * @param bool $macInCert
      * @return $this
      */
     public function setMacInCert($macInCert)
@@ -361,21 +435,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacInCert()
+    {
+        $this->macInCert = null;
+        return $this;
+    }
+
+    /**
      * Getter for macInNonRequestURI
      *
-     * @ElementName macInNonRequestURI
-     * @return bool|null
+     * @return bool
      */
     public function getMacInNonRequestURI()
     {
-        return $this->macInNonRequestURI;
+        return $this->macInNonRequestURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macInNonRequestURI;
     }
 
     /**
      * Setter for macInNonRequestURI
      *
-     * @ElementName macInNonRequestURI
-     * @param bool|null $macInNonRequestURI
+     * @param bool $macInNonRequestURI
      * @return $this
      */
     public function setMacInNonRequestURI($macInNonRequestURI)
@@ -385,21 +466,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacInNonRequestURI()
+    {
+        $this->macInNonRequestURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for macFormatInNonRequestURI
      *
-     * @ElementName macFormatInNonRequestURI
-     * @return string|null
+     * @return string
      */
     public function getMacFormatInNonRequestURI()
     {
-        return $this->macFormatInNonRequestURI;
+        return $this->macFormatInNonRequestURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macFormatInNonRequestURI;
     }
 
     /**
      * Setter for macFormatInNonRequestURI
      *
-     * @ElementName macFormatInNonRequestURI
-     * @param string|null $macFormatInNonRequestURI
+     * @param string $macFormatInNonRequestURI
      * @return $this
      */
     public function setMacFormatInNonRequestURI($macFormatInNonRequestURI)
@@ -409,21 +497,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacFormatInNonRequestURI()
+    {
+        $this->macFormatInNonRequestURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessUrl
      *
-     * @ElementName accessUrl
-     * @return string|null
+     * @return string
      */
     public function getAccessUrl()
     {
-        return $this->accessUrl;
+        return $this->accessUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessUrl;
     }
 
     /**
      * Setter for accessUrl
      *
-     * @ElementName accessUrl
-     * @param string|null $accessUrl
+     * @param string $accessUrl
      * @return $this
      */
     public function setAccessUrl($accessUrl)
@@ -433,21 +528,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessUrl()
+    {
+        $this->accessUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for repositoryUrl
      *
-     * @ElementName repositoryUrl
-     * @return string|null
+     * @return string
      */
     public function getRepositoryUrl()
     {
-        return $this->repositoryUrl;
+        return $this->repositoryUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repositoryUrl;
     }
 
     /**
      * Setter for repositoryUrl
      *
-     * @ElementName repositoryUrl
-     * @param string|null $repositoryUrl
+     * @param string $repositoryUrl
      * @return $this
      */
     public function setRepositoryUrl($repositoryUrl)
@@ -457,21 +559,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRepositoryUrl()
+    {
+        $this->repositoryUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for templateUrl
      *
-     * @ElementName templateUrl
-     * @return string|null
+     * @return string
      */
     public function getTemplateUrl()
     {
-        return $this->templateUrl;
+        return $this->templateUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateUrl;
     }
 
     /**
      * Setter for templateUrl
      *
-     * @ElementName templateUrl
-     * @param string|null $templateUrl
+     * @param string $templateUrl
      * @return $this
      */
     public function setTemplateUrl($templateUrl)
@@ -481,21 +590,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTemplateUrl()
+    {
+        $this->templateUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowHttp
      *
-     * @ElementName allowHttp
-     * @return bool|null
+     * @return bool
      */
     public function getAllowHttp()
     {
-        return $this->allowHttp;
+        return $this->allowHttp instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowHttp;
     }
 
     /**
      * Setter for allowHttp
      *
-     * @ElementName allowHttp
-     * @param bool|null $allowHttp
+     * @param bool $allowHttp
      * @return $this
      */
     public function setAllowHttp($allowHttp)
@@ -505,21 +621,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowHttp()
+    {
+        $this->allowHttp = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowHttps
      *
-     * @ElementName allowHttps
-     * @return bool|null
+     * @return bool
      */
     public function getAllowHttps()
     {
-        return $this->allowHttps;
+        return $this->allowHttps instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowHttps;
     }
 
     /**
      * Setter for allowHttps
      *
-     * @ElementName allowHttps
-     * @param bool|null $allowHttps
+     * @param bool $allowHttps
      * @return $this
      */
     public function setAllowHttps($allowHttps)
@@ -529,21 +652,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowHttps()
+    {
+        $this->allowHttps = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowTftp
      *
-     * @ElementName allowTftp
-     * @return bool|null
+     * @return bool
      */
     public function getAllowTftp()
     {
-        return $this->allowTftp;
+        return $this->allowTftp instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowTftp;
     }
 
     /**
      * Setter for allowTftp
      *
-     * @ElementName allowTftp
-     * @param bool|null $allowTftp
+     * @param bool $allowTftp
      * @return $this
      */
     public function setAllowTftp($allowTftp)
@@ -553,21 +683,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowTftp()
+    {
+        $this->allowTftp = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCaching
      *
-     * @ElementName enableCaching
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCaching()
     {
-        return $this->enableCaching;
+        return $this->enableCaching instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCaching;
     }
 
     /**
      * Setter for enableCaching
      *
-     * @ElementName enableCaching
-     * @param bool|null $enableCaching
+     * @param bool $enableCaching
      * @return $this
      */
     public function setEnableCaching($enableCaching)
@@ -577,21 +714,28 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableCaching()
+    {
+        $this->enableCaching = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowUploadFromDevice
      *
-     * @ElementName allowUploadFromDevice
-     * @return bool|null
+     * @return bool
      */
     public function getAllowUploadFromDevice()
     {
-        return $this->allowUploadFromDevice;
+        return $this->allowUploadFromDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowUploadFromDevice;
     }
 
     /**
      * Setter for allowUploadFromDevice
      *
-     * @ElementName allowUploadFromDevice
-     * @param bool|null $allowUploadFromDevice
+     * @param bool $allowUploadFromDevice
      * @return $this
      */
     public function setAllowUploadFromDevice($allowUploadFromDevice)
@@ -601,26 +745,42 @@ class SystemSIPDeviceTypeFileGetResponse21sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowUploadFromDevice()
+    {
+        $this->allowUploadFromDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultExtendedFileCaptureMode
      *
-     * @ElementName defaultExtendedFileCaptureMode
-     * @return bool|null
+     * @return bool
      */
     public function getDefaultExtendedFileCaptureMode()
     {
-        return $this->defaultExtendedFileCaptureMode;
+        return $this->defaultExtendedFileCaptureMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultExtendedFileCaptureMode;
     }
 
     /**
      * Setter for defaultExtendedFileCaptureMode
      *
-     * @ElementName defaultExtendedFileCaptureMode
-     * @param bool|null $defaultExtendedFileCaptureMode
+     * @param bool $defaultExtendedFileCaptureMode
      * @return $this
      */
     public function setDefaultExtendedFileCaptureMode($defaultExtendedFileCaptureMode)
     {
         $this->defaultExtendedFileCaptureMode = $defaultExtendedFileCaptureMode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultExtendedFileCaptureMode()
+    {
+        $this->defaultExtendedFileCaptureMode = null;
         return $this;
     }
 

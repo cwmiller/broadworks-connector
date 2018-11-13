@@ -12,12 +12,14 @@ class UserFeatureAccessCodeModifyEntry
 
     /**
      * @ElementName featureAccessCodeName
+     * @Type string
      * @var string|null
      */
     private $featureAccessCodeName = null;
 
     /**
      * @ElementName enableFAC
+     * @Type bool
      * @var bool|null
      */
     private $enableFAC = null;
@@ -25,19 +27,17 @@ class UserFeatureAccessCodeModifyEntry
     /**
      * Getter for featureAccessCodeName
      *
-     * @ElementName featureAccessCodeName
-     * @return string|null
+     * @return string
      */
     public function getFeatureAccessCodeName()
     {
-        return $this->featureAccessCodeName;
+        return $this->featureAccessCodeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->featureAccessCodeName;
     }
 
     /**
      * Setter for featureAccessCodeName
      *
-     * @ElementName featureAccessCodeName
-     * @param string|null $featureAccessCodeName
+     * @param string $featureAccessCodeName
      * @return $this
      */
     public function setFeatureAccessCodeName($featureAccessCodeName)
@@ -47,26 +47,42 @@ class UserFeatureAccessCodeModifyEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFeatureAccessCodeName()
+    {
+        $this->featureAccessCodeName = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableFAC
      *
-     * @ElementName enableFAC
-     * @return bool|null
+     * @return bool
      */
     public function getEnableFAC()
     {
-        return $this->enableFAC;
+        return $this->enableFAC instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableFAC;
     }
 
     /**
      * Setter for enableFAC
      *
-     * @ElementName enableFAC
-     * @param bool|null $enableFAC
+     * @param bool $enableFAC
      * @return $this
      */
     public function setEnableFAC($enableFAC)
     {
         $this->enableFAC = $enableFAC;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableFAC()
+    {
+        $this->enableFAC = null;
         return $this;
     }
 

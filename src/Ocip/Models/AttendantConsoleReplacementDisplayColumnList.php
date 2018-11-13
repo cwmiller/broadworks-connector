@@ -14,6 +14,8 @@ class AttendantConsoleReplacementDisplayColumnList
 
     /**
      * @ElementName displayColumn
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn[]
      */
     private $displayColumn = array(
@@ -23,18 +25,16 @@ class AttendantConsoleReplacementDisplayColumnList
     /**
      * Getter for displayColumn
      *
-     * @ElementName displayColumn
      * @return \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn[]
      */
     public function getDisplayColumn()
     {
-        return $this->displayColumn;
+        return $this->displayColumn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->displayColumn;
     }
 
     /**
      * Setter for displayColumn
      *
-     * @ElementName displayColumn
      * @param \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn[] $displayColumn
      * @return $this
      */
@@ -45,15 +45,23 @@ class AttendantConsoleReplacementDisplayColumnList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisplayColumn()
+    {
+        $this->displayColumn = null;
+        return $this;
+    }
+
+    /**
      * Adder for displayColumn
      *
-     * @ElementName displayColumn
      * @param \CWM\BroadWorksConnector\Ocip\Models\AttendantConsoleDisplayColumn $displayColumn
      * @return $this
      */
     public function addDisplayColumn($displayColumn)
     {
-        $this->displayColumn []= $displayColumn;
+        $this->displayColumn[] = $displayColumn;
         return $this;
     }
 

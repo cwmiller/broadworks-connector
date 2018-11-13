@@ -16,6 +16,7 @@ class SystemMultimediaPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName restrictNonAudioVideoMediaTypes
+     * @Type bool
      * @var bool|null
      */
     private $restrictNonAudioVideoMediaTypes = null;
@@ -23,24 +24,31 @@ class SystemMultimediaPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for restrictNonAudioVideoMediaTypes
      *
-     * @ElementName restrictNonAudioVideoMediaTypes
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictNonAudioVideoMediaTypes()
     {
-        return $this->restrictNonAudioVideoMediaTypes;
+        return $this->restrictNonAudioVideoMediaTypes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictNonAudioVideoMediaTypes;
     }
 
     /**
      * Setter for restrictNonAudioVideoMediaTypes
      *
-     * @ElementName restrictNonAudioVideoMediaTypes
-     * @param bool|null $restrictNonAudioVideoMediaTypes
+     * @param bool $restrictNonAudioVideoMediaTypes
      * @return $this
      */
     public function setRestrictNonAudioVideoMediaTypes($restrictNonAudioVideoMediaTypes)
     {
         $this->restrictNonAudioVideoMediaTypes = $restrictNonAudioVideoMediaTypes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRestrictNonAudioVideoMediaTypes()
+    {
+        $this->restrictNonAudioVideoMediaTypes = null;
         return $this;
     }
 

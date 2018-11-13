@@ -14,12 +14,14 @@ class SystemExpensiveCallNotificationGetResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName enablePostAnnouncementDelayTimer
+     * @Type bool
      * @var bool|null
      */
     private $enablePostAnnouncementDelayTimer = null;
 
     /**
      * @ElementName postAnnouncementDelaySeconds
+     * @Type int
      * @var int|null
      */
     private $postAnnouncementDelaySeconds = null;
@@ -27,19 +29,17 @@ class SystemExpensiveCallNotificationGetResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for enablePostAnnouncementDelayTimer
      *
-     * @ElementName enablePostAnnouncementDelayTimer
-     * @return bool|null
+     * @return bool
      */
     public function getEnablePostAnnouncementDelayTimer()
     {
-        return $this->enablePostAnnouncementDelayTimer;
+        return $this->enablePostAnnouncementDelayTimer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enablePostAnnouncementDelayTimer;
     }
 
     /**
      * Setter for enablePostAnnouncementDelayTimer
      *
-     * @ElementName enablePostAnnouncementDelayTimer
-     * @param bool|null $enablePostAnnouncementDelayTimer
+     * @param bool $enablePostAnnouncementDelayTimer
      * @return $this
      */
     public function setEnablePostAnnouncementDelayTimer($enablePostAnnouncementDelayTimer)
@@ -49,26 +49,42 @@ class SystemExpensiveCallNotificationGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnablePostAnnouncementDelayTimer()
+    {
+        $this->enablePostAnnouncementDelayTimer = null;
+        return $this;
+    }
+
+    /**
      * Getter for postAnnouncementDelaySeconds
      *
-     * @ElementName postAnnouncementDelaySeconds
-     * @return int|null
+     * @return int
      */
     public function getPostAnnouncementDelaySeconds()
     {
-        return $this->postAnnouncementDelaySeconds;
+        return $this->postAnnouncementDelaySeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->postAnnouncementDelaySeconds;
     }
 
     /**
      * Setter for postAnnouncementDelaySeconds
      *
-     * @ElementName postAnnouncementDelaySeconds
-     * @param int|null $postAnnouncementDelaySeconds
+     * @param int $postAnnouncementDelaySeconds
      * @return $this
      */
     public function setPostAnnouncementDelaySeconds($postAnnouncementDelaySeconds)
     {
         $this->postAnnouncementDelaySeconds = $postAnnouncementDelaySeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPostAnnouncementDelaySeconds()
+    {
+        $this->postAnnouncementDelaySeconds = null;
         return $this;
     }
 

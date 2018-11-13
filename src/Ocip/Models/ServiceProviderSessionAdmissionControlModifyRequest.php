@@ -16,18 +16,21 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName restrictAggregateSessions
+     * @Type bool
      * @var bool|null
      */
     private $restrictAggregateSessions = null;
 
     /**
      * @ElementName maxSessions
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,6 +38,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName maxUserOriginatingSessions
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -42,6 +46,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName maxUserTerminatingSessions
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -49,6 +54,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName countIntraServiceProviderSessions
+     * @Type bool
      * @var bool|null
      */
     private $countIntraServiceProviderSessions = null;
@@ -56,19 +62,17 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -78,21 +82,28 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictAggregateSessions
      *
-     * @ElementName restrictAggregateSessions
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictAggregateSessions()
     {
-        return $this->restrictAggregateSessions;
+        return $this->restrictAggregateSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictAggregateSessions;
     }
 
     /**
      * Setter for restrictAggregateSessions
      *
-     * @ElementName restrictAggregateSessions
-     * @param bool|null $restrictAggregateSessions
+     * @param bool $restrictAggregateSessions
      * @return $this
      */
     public function setRestrictAggregateSessions($restrictAggregateSessions)
@@ -102,104 +113,147 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictAggregateSessions()
+    {
+        $this->restrictAggregateSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxSessions
      *
-     * @ElementName maxSessions
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getMaxSessions()
     {
-        return $this->maxSessions;
+        return $this->maxSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxSessions;
     }
 
     /**
      * Setter for maxSessions
      *
-     * @ElementName maxSessions
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxSessions
+     * @param int|null $maxSessions
      * @return $this
      */
     public function setMaxSessions($maxSessions)
     {
-        $this->maxSessions = $maxSessions;
+        if ($maxSessions === null) {
+            $this->maxSessions = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->maxSessions = $maxSessions;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxSessions()
+    {
+        $this->maxSessions = null;
         return $this;
     }
 
     /**
      * Getter for maxUserOriginatingSessions
      *
-     * @ElementName maxUserOriginatingSessions
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getMaxUserOriginatingSessions()
     {
-        return $this->maxUserOriginatingSessions;
+        return $this->maxUserOriginatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxUserOriginatingSessions;
     }
 
     /**
      * Setter for maxUserOriginatingSessions
      *
-     * @ElementName maxUserOriginatingSessions
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxUserOriginatingSessions
+     * @param int|null $maxUserOriginatingSessions
      * @return $this
      */
     public function setMaxUserOriginatingSessions($maxUserOriginatingSessions)
     {
-        $this->maxUserOriginatingSessions = $maxUserOriginatingSessions;
+        if ($maxUserOriginatingSessions === null) {
+            $this->maxUserOriginatingSessions = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->maxUserOriginatingSessions = $maxUserOriginatingSessions;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxUserOriginatingSessions()
+    {
+        $this->maxUserOriginatingSessions = null;
         return $this;
     }
 
     /**
      * Getter for maxUserTerminatingSessions
      *
-     * @ElementName maxUserTerminatingSessions
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getMaxUserTerminatingSessions()
     {
-        return $this->maxUserTerminatingSessions;
+        return $this->maxUserTerminatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxUserTerminatingSessions;
     }
 
     /**
      * Setter for maxUserTerminatingSessions
      *
-     * @ElementName maxUserTerminatingSessions
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxUserTerminatingSessions
+     * @param int|null $maxUserTerminatingSessions
      * @return $this
      */
     public function setMaxUserTerminatingSessions($maxUserTerminatingSessions)
     {
-        $this->maxUserTerminatingSessions = $maxUserTerminatingSessions;
+        if ($maxUserTerminatingSessions === null) {
+            $this->maxUserTerminatingSessions = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->maxUserTerminatingSessions = $maxUserTerminatingSessions;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxUserTerminatingSessions()
+    {
+        $this->maxUserTerminatingSessions = null;
         return $this;
     }
 
     /**
      * Getter for countIntraServiceProviderSessions
      *
-     * @ElementName countIntraServiceProviderSessions
-     * @return bool|null
+     * @return bool
      */
     public function getCountIntraServiceProviderSessions()
     {
-        return $this->countIntraServiceProviderSessions;
+        return $this->countIntraServiceProviderSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countIntraServiceProviderSessions;
     }
 
     /**
      * Setter for countIntraServiceProviderSessions
      *
-     * @ElementName countIntraServiceProviderSessions
-     * @param bool|null $countIntraServiceProviderSessions
+     * @param bool $countIntraServiceProviderSessions
      * @return $this
      */
     public function setCountIntraServiceProviderSessions($countIntraServiceProviderSessions)
     {
         $this->countIntraServiceProviderSessions = $countIntraServiceProviderSessions;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCountIntraServiceProviderSessions()
+    {
+        $this->countIntraServiceProviderSessions = null;
         return $this;
     }
 

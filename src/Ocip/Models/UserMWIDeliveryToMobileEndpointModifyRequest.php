@@ -17,18 +17,21 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName mobilePhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,19 +40,17 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -59,21 +60,28 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -83,28 +91,46 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getMobilePhoneNumber()
     {
-        return $this->mobilePhoneNumber;
+        return $this->mobilePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilePhoneNumber;
     }
 
     /**
      * Setter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilePhoneNumber
+     * @param string|null $mobilePhoneNumber
      * @return $this
      */
     public function setMobilePhoneNumber($mobilePhoneNumber)
     {
-        $this->mobilePhoneNumber = $mobilePhoneNumber;
+        if ($mobilePhoneNumber === null) {
+            $this->mobilePhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->mobilePhoneNumber = $mobilePhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobilePhoneNumber()
+    {
+        $this->mobilePhoneNumber = null;
         return $this;
     }
 

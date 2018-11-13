@@ -15,6 +15,8 @@ class ReplacementEnterpriseDeviceList
 
     /**
      * @ElementName device
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     private $device = array(
@@ -24,18 +26,16 @@ class ReplacementEnterpriseDeviceList
     /**
      * Getter for device
      *
-     * @ElementName device
      * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     public function getDevice()
     {
-        return $this->device;
+        return $this->device instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->device;
     }
 
     /**
      * Setter for device
      *
-     * @ElementName device
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[] $device
      * @return $this
      */
@@ -46,15 +46,23 @@ class ReplacementEnterpriseDeviceList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDevice()
+    {
+        $this->device = null;
+        return $this;
+    }
+
+    /**
      * Adder for device
      *
-     * @ElementName device
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice $device
      * @return $this
      */
     public function addDevice($device)
     {
-        $this->device []= $device;
+        $this->device[] = $device;
         return $this;
     }
 

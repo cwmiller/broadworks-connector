@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EnterpriseAdminNumberActivationAccess FULL()
  * @method static EnterpriseAdminNumberActivationAccess READ_ONLY()
  * @method static EnterpriseAdminNumberActivationAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseAdminNumberActivationAccess extends \MyCLabs\Enum\Enum
 {

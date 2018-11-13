@@ -17,24 +17,29 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName devices
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     private $devices = array(
@@ -44,19 +49,17 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -66,21 +69,28 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -90,21 +100,28 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -114,20 +131,27 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for devices
      *
-     * @ElementName devices
      * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     public function getDevices()
     {
-        return $this->devices;
+        return $this->devices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->devices;
     }
 
     /**
      * Setter for devices
      *
-     * @ElementName devices
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[] $devices
      * @return $this
      */
@@ -138,15 +162,23 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDevices()
+    {
+        $this->devices = null;
+        return $this;
+    }
+
+    /**
      * Adder for devices
      *
-     * @ElementName devices
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice $devices
      * @return $this
      */
     public function addDevices($devices)
     {
-        $this->devices []= $devices;
+        $this->devices[] = $devices;
         return $this;
     }
 

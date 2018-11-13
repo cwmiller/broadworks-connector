@@ -16,12 +16,15 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
 
     /**
      * @ElementName zoneName
+     * @Type string
      * @var string|null
      */
     private $zoneName = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $netAddress = array(
@@ -30,6 +33,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
 
     /**
      * @ElementName netAddressRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(
@@ -38,6 +43,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
 
     /**
      * @ElementName locationBasedPhysicalLocation
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $locationBasedPhysicalLocation = array(
@@ -46,6 +53,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
 
     /**
      * @ElementName callingZonePhysicalLocation
+     * @Type string
      * @var string|null
      */
     private $callingZonePhysicalLocation = null;
@@ -53,19 +61,17 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * Getter for zoneName
      *
-     * @ElementName zoneName
-     * @return string|null
+     * @return string
      */
     public function getZoneName()
     {
-        return $this->zoneName;
+        return $this->zoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zoneName;
     }
 
     /**
      * Setter for zoneName
      *
-     * @ElementName zoneName
-     * @param string|null $zoneName
+     * @param string $zoneName
      * @return $this
      */
     public function setZoneName($zoneName)
@@ -75,20 +81,27 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     }
 
     /**
+     * @return $this
+     */
+    public function unsetZoneName()
+    {
+        $this->zoneName = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
      * @return string[]
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
      * @param string[] $netAddress
      * @return $this
      */
@@ -99,33 +112,39 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for netAddress
      *
-     * @ElementName netAddress
      * @param string $netAddress
      * @return $this
      */
     public function addNetAddress(string $netAddress)
     {
-        $this->netAddress []= $netAddress;
+        $this->netAddress[] = $netAddress;
         return $this;
     }
 
     /**
      * Getter for netAddressRange
      *
-     * @ElementName netAddressRange
      * @return \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     public function getNetAddressRange()
     {
-        return $this->netAddressRange;
+        return $this->netAddressRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddressRange;
     }
 
     /**
      * Setter for netAddressRange
      *
-     * @ElementName netAddressRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[] $netAddressRange
      * @return $this
      */
@@ -136,33 +155,39 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddressRange()
+    {
+        $this->netAddressRange = null;
+        return $this;
+    }
+
+    /**
      * Adder for netAddressRange
      *
-     * @ElementName netAddressRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange $netAddressRange
      * @return $this
      */
     public function addNetAddressRange($netAddressRange)
     {
-        $this->netAddressRange []= $netAddressRange;
+        $this->netAddressRange[] = $netAddressRange;
         return $this;
     }
 
     /**
      * Getter for locationBasedPhysicalLocation
      *
-     * @ElementName locationBasedPhysicalLocation
      * @return string[]
      */
     public function getLocationBasedPhysicalLocation()
     {
-        return $this->locationBasedPhysicalLocation;
+        return $this->locationBasedPhysicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locationBasedPhysicalLocation;
     }
 
     /**
      * Setter for locationBasedPhysicalLocation
      *
-     * @ElementName locationBasedPhysicalLocation
      * @param string[] $locationBasedPhysicalLocation
      * @return $this
      */
@@ -173,39 +198,54 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocationBasedPhysicalLocation()
+    {
+        $this->locationBasedPhysicalLocation = null;
+        return $this;
+    }
+
+    /**
      * Adder for locationBasedPhysicalLocation
      *
-     * @ElementName locationBasedPhysicalLocation
      * @param string $locationBasedPhysicalLocation
      * @return $this
      */
     public function addLocationBasedPhysicalLocation(string $locationBasedPhysicalLocation)
     {
-        $this->locationBasedPhysicalLocation []= $locationBasedPhysicalLocation;
+        $this->locationBasedPhysicalLocation[] = $locationBasedPhysicalLocation;
         return $this;
     }
 
     /**
      * Getter for callingZonePhysicalLocation
      *
-     * @ElementName callingZonePhysicalLocation
-     * @return string|null
+     * @return string
      */
     public function getCallingZonePhysicalLocation()
     {
-        return $this->callingZonePhysicalLocation;
+        return $this->callingZonePhysicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingZonePhysicalLocation;
     }
 
     /**
      * Setter for callingZonePhysicalLocation
      *
-     * @ElementName callingZonePhysicalLocation
-     * @param string|null $callingZonePhysicalLocation
+     * @param string $callingZonePhysicalLocation
      * @return $this
      */
     public function setCallingZonePhysicalLocation($callingZonePhysicalLocation)
     {
         $this->callingZonePhysicalLocation = $callingZonePhysicalLocation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallingZonePhysicalLocation()
+    {
+        $this->callingZonePhysicalLocation = null;
         return $this;
     }
 

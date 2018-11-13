@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CommPilotCallManagerGroupDirectoryDisplaySelection DISPLAY()
  * @method static CommPilotCallManagerGroupDirectoryDisplaySelection HIDE()
  * @method static CommPilotCallManagerGroupDirectoryDisplaySelection SEARCH_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CommPilotCallManagerGroupDirectoryDisplaySelection extends \MyCLabs\Enum\Enum
 {

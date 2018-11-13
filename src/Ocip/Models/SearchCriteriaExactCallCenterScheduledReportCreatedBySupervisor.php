@@ -13,6 +13,7 @@ class SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor extends Se
 
     /**
      * @ElementName createdBySupervisor
+     * @Type bool
      * @var bool|null
      */
     private $createdBySupervisor = null;
@@ -20,24 +21,31 @@ class SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor extends Se
     /**
      * Getter for createdBySupervisor
      *
-     * @ElementName createdBySupervisor
-     * @return bool|null
+     * @return bool
      */
     public function getCreatedBySupervisor()
     {
-        return $this->createdBySupervisor;
+        return $this->createdBySupervisor instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->createdBySupervisor;
     }
 
     /**
      * Setter for createdBySupervisor
      *
-     * @ElementName createdBySupervisor
-     * @param bool|null $createdBySupervisor
+     * @param bool $createdBySupervisor
      * @return $this
      */
     public function setCreatedBySupervisor($createdBySupervisor)
     {
         $this->createdBySupervisor = $createdBySupervisor;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCreatedBySupervisor()
+    {
+        $this->createdBySupervisor = null;
         return $this;
     }
 

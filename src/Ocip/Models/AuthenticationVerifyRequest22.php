@@ -26,48 +26,56 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName password
+     * @Type string
      * @var string|null
      */
     private $password = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName passcode
+     * @Type string
      * @var string|null
      */
     private $passcode = null;
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName loginToken
+     * @Type string
      * @var string|null
      */
     private $loginToken = null;
 
     /**
      * @ElementName sipAuthenticationUserName
+     * @Type string
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
 
     /**
      * @ElementName sipAuthenticationPassword
+     * @Type string
      * @var string|null
      */
     private $sipAuthenticationPassword = null;
@@ -75,19 +83,17 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -97,21 +103,28 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for password
      *
-     * @ElementName password
-     * @return string|null
+     * @return string
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param string|null $password
+     * @param string $password
      * @return $this
      */
     public function setPassword($password)
@@ -121,21 +134,28 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -145,21 +165,28 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for passcode
      *
-     * @ElementName passcode
-     * @return string|null
+     * @return string
      */
     public function getPasscode()
     {
-        return $this->passcode;
+        return $this->passcode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcode;
     }
 
     /**
      * Setter for passcode
      *
-     * @ElementName passcode
-     * @param string|null $passcode
+     * @param string $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -169,21 +196,28 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasscode()
+    {
+        $this->passcode = null;
+        return $this;
+    }
+
+    /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -193,21 +227,28 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for loginToken
      *
-     * @ElementName loginToken
-     * @return string|null
+     * @return string
      */
     public function getLoginToken()
     {
-        return $this->loginToken;
+        return $this->loginToken instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->loginToken;
     }
 
     /**
      * Setter for loginToken
      *
-     * @ElementName loginToken
-     * @param string|null $loginToken
+     * @param string $loginToken
      * @return $this
      */
     public function setLoginToken($loginToken)
@@ -217,21 +258,28 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLoginToken()
+    {
+        $this->loginToken = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipAuthenticationUserName
      *
-     * @ElementName sipAuthenticationUserName
-     * @return string|null
+     * @return string
      */
     public function getSipAuthenticationUserName()
     {
-        return $this->sipAuthenticationUserName;
+        return $this->sipAuthenticationUserName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipAuthenticationUserName;
     }
 
     /**
      * Setter for sipAuthenticationUserName
      *
-     * @ElementName sipAuthenticationUserName
-     * @param string|null $sipAuthenticationUserName
+     * @param string $sipAuthenticationUserName
      * @return $this
      */
     public function setSipAuthenticationUserName($sipAuthenticationUserName)
@@ -241,26 +289,42 @@ class AuthenticationVerifyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSipAuthenticationUserName()
+    {
+        $this->sipAuthenticationUserName = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipAuthenticationPassword
      *
-     * @ElementName sipAuthenticationPassword
-     * @return string|null
+     * @return string
      */
     public function getSipAuthenticationPassword()
     {
-        return $this->sipAuthenticationPassword;
+        return $this->sipAuthenticationPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipAuthenticationPassword;
     }
 
     /**
      * Setter for sipAuthenticationPassword
      *
-     * @ElementName sipAuthenticationPassword
-     * @param string|null $sipAuthenticationPassword
+     * @param string $sipAuthenticationPassword
      * @return $this
      */
     public function setSipAuthenticationPassword($sipAuthenticationPassword)
     {
         $this->sipAuthenticationPassword = $sipAuthenticationPassword;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipAuthenticationPassword()
+    {
+        $this->sipAuthenticationPassword = null;
         return $this;
     }
 

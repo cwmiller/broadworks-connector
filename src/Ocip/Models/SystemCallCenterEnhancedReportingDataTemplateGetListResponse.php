@@ -14,6 +14,8 @@ class SystemCallCenterEnhancedReportingDataTemplateGetListResponse extends \CWM\
 
     /**
      * @ElementName info
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInfo
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInfo[]
      */
     private $info = array(
@@ -23,18 +25,16 @@ class SystemCallCenterEnhancedReportingDataTemplateGetListResponse extends \CWM\
     /**
      * Getter for info
      *
-     * @ElementName info
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInfo[]
      */
     public function getInfo()
     {
-        return $this->info;
+        return $this->info instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->info;
     }
 
     /**
      * Setter for info
      *
-     * @ElementName info
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInfo[] $info
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemCallCenterEnhancedReportingDataTemplateGetListResponse extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInfo()
+    {
+        $this->info = null;
+        return $this;
+    }
+
+    /**
      * Adder for info
      *
-     * @ElementName info
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateInfo $info
      * @return $this
      */
     public function addInfo($info)
     {
-        $this->info []= $info;
+        $this->info[] = $info;
         return $this;
     }
 

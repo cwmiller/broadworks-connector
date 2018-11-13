@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterReportTemplateAccessOption SUPERVISOR_ONLY()
  * @method static CallCenterReportTemplateAccessOption SUPERVISOR_AND_AGENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportTemplateAccessOption extends \MyCLabs\Enum\Enum
 {

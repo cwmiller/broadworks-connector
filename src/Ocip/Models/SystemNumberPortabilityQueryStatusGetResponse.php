@@ -14,6 +14,7 @@ class SystemNumberPortabilityQueryStatusGetResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName treatmentFileName
+     * @Type string
      * @var string|null
      */
     private $treatmentFileName = null;
@@ -21,24 +22,31 @@ class SystemNumberPortabilityQueryStatusGetResponse extends \CWM\BroadWorksConne
     /**
      * Getter for treatmentFileName
      *
-     * @ElementName treatmentFileName
-     * @return string|null
+     * @return string
      */
     public function getTreatmentFileName()
     {
-        return $this->treatmentFileName;
+        return $this->treatmentFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentFileName;
     }
 
     /**
      * Setter for treatmentFileName
      *
-     * @ElementName treatmentFileName
-     * @param string|null $treatmentFileName
+     * @param string $treatmentFileName
      * @return $this
      */
     public function setTreatmentFileName($treatmentFileName)
     {
         $this->treatmentFileName = $treatmentFileName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentFileName()
+    {
+        $this->treatmentFileName = null;
         return $this;
     }
 

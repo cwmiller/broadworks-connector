@@ -16,12 +16,14 @@ class SystemCommunicationBarringCallTypeModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName callType
+     * @Type string
      * @var string|null
      */
     private $callType = null;
 
     /**
      * @ElementName networkServerCallType
+     * @Type string
      * @var string|null
      */
     private $networkServerCallType = null;
@@ -29,19 +31,17 @@ class SystemCommunicationBarringCallTypeModifyRequest extends \CWM\BroadWorksCon
     /**
      * Getter for callType
      *
-     * @ElementName callType
-     * @return string|null
+     * @return string
      */
     public function getCallType()
     {
-        return $this->callType;
+        return $this->callType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callType;
     }
 
     /**
      * Setter for callType
      *
-     * @ElementName callType
-     * @param string|null $callType
+     * @param string $callType
      * @return $this
      */
     public function setCallType($callType)
@@ -51,26 +51,42 @@ class SystemCommunicationBarringCallTypeModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallType()
+    {
+        $this->callType = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkServerCallType
      *
-     * @ElementName networkServerCallType
-     * @return string|null
+     * @return string
      */
     public function getNetworkServerCallType()
     {
-        return $this->networkServerCallType;
+        return $this->networkServerCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkServerCallType;
     }
 
     /**
      * Setter for networkServerCallType
      *
-     * @ElementName networkServerCallType
-     * @param string|null $networkServerCallType
+     * @param string $networkServerCallType
      * @return $this
      */
     public function setNetworkServerCallType($networkServerCallType)
     {
         $this->networkServerCallType = $networkServerCallType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkServerCallType()
+    {
+        $this->networkServerCallType = null;
         return $this;
     }
 

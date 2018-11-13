@@ -16,36 +16,42 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName deliveryFromAddress
+     * @Type string
      * @var string|null
      */
     private $deliveryFromAddress = null;
 
     /**
      * @ElementName notificationFromAddress
+     * @Type string
      * @var string|null
      */
     private $notificationFromAddress = null;
 
     /**
      * @ElementName voicePortalLockoutFromAddress
+     * @Type string
      * @var string|null
      */
     private $voicePortalLockoutFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultDeliveryFromAddress
+     * @Type bool
      * @var bool|null
      */
     private $useSystemDefaultDeliveryFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultNotificationFromAddress
+     * @Type bool
      * @var bool|null
      */
     private $useSystemDefaultNotificationFromAddress = null;
 
     /**
      * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
+     * @Type bool
      * @var bool|null
      */
     private $useSystemDefaultVoicePortalLockoutFromAddress = null;
@@ -53,19 +59,17 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
     /**
      * Getter for deliveryFromAddress
      *
-     * @ElementName deliveryFromAddress
-     * @return string|null
+     * @return string
      */
     public function getDeliveryFromAddress()
     {
-        return $this->deliveryFromAddress;
+        return $this->deliveryFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deliveryFromAddress;
     }
 
     /**
      * Setter for deliveryFromAddress
      *
-     * @ElementName deliveryFromAddress
-     * @param string|null $deliveryFromAddress
+     * @param string $deliveryFromAddress
      * @return $this
      */
     public function setDeliveryFromAddress($deliveryFromAddress)
@@ -75,21 +79,28 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeliveryFromAddress()
+    {
+        $this->deliveryFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for notificationFromAddress
      *
-     * @ElementName notificationFromAddress
-     * @return string|null
+     * @return string
      */
     public function getNotificationFromAddress()
     {
-        return $this->notificationFromAddress;
+        return $this->notificationFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->notificationFromAddress;
     }
 
     /**
      * Setter for notificationFromAddress
      *
-     * @ElementName notificationFromAddress
-     * @param string|null $notificationFromAddress
+     * @param string $notificationFromAddress
      * @return $this
      */
     public function setNotificationFromAddress($notificationFromAddress)
@@ -99,21 +110,28 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNotificationFromAddress()
+    {
+        $this->notificationFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalLockoutFromAddress
      *
-     * @ElementName voicePortalLockoutFromAddress
-     * @return string|null
+     * @return string
      */
     public function getVoicePortalLockoutFromAddress()
     {
-        return $this->voicePortalLockoutFromAddress;
+        return $this->voicePortalLockoutFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalLockoutFromAddress;
     }
 
     /**
      * Setter for voicePortalLockoutFromAddress
      *
-     * @ElementName voicePortalLockoutFromAddress
-     * @param string|null $voicePortalLockoutFromAddress
+     * @param string $voicePortalLockoutFromAddress
      * @return $this
      */
     public function setVoicePortalLockoutFromAddress($voicePortalLockoutFromAddress)
@@ -123,21 +141,28 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalLockoutFromAddress()
+    {
+        $this->voicePortalLockoutFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSystemDefaultDeliveryFromAddress
      *
-     * @ElementName useSystemDefaultDeliveryFromAddress
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemDefaultDeliveryFromAddress()
     {
-        return $this->useSystemDefaultDeliveryFromAddress;
+        return $this->useSystemDefaultDeliveryFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemDefaultDeliveryFromAddress;
     }
 
     /**
      * Setter for useSystemDefaultDeliveryFromAddress
      *
-     * @ElementName useSystemDefaultDeliveryFromAddress
-     * @param bool|null $useSystemDefaultDeliveryFromAddress
+     * @param bool $useSystemDefaultDeliveryFromAddress
      * @return $this
      */
     public function setUseSystemDefaultDeliveryFromAddress($useSystemDefaultDeliveryFromAddress)
@@ -147,21 +172,28 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemDefaultDeliveryFromAddress()
+    {
+        $this->useSystemDefaultDeliveryFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSystemDefaultNotificationFromAddress
      *
-     * @ElementName useSystemDefaultNotificationFromAddress
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemDefaultNotificationFromAddress()
     {
-        return $this->useSystemDefaultNotificationFromAddress;
+        return $this->useSystemDefaultNotificationFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemDefaultNotificationFromAddress;
     }
 
     /**
      * Setter for useSystemDefaultNotificationFromAddress
      *
-     * @ElementName useSystemDefaultNotificationFromAddress
-     * @param bool|null $useSystemDefaultNotificationFromAddress
+     * @param bool $useSystemDefaultNotificationFromAddress
      * @return $this
      */
     public function setUseSystemDefaultNotificationFromAddress($useSystemDefaultNotificationFromAddress)
@@ -171,26 +203,42 @@ class ServiceProviderVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemDefaultNotificationFromAddress()
+    {
+        $this->useSystemDefaultNotificationFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSystemDefaultVoicePortalLockoutFromAddress
      *
-     * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemDefaultVoicePortalLockoutFromAddress()
     {
-        return $this->useSystemDefaultVoicePortalLockoutFromAddress;
+        return $this->useSystemDefaultVoicePortalLockoutFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemDefaultVoicePortalLockoutFromAddress;
     }
 
     /**
      * Setter for useSystemDefaultVoicePortalLockoutFromAddress
      *
-     * @ElementName useSystemDefaultVoicePortalLockoutFromAddress
-     * @param bool|null $useSystemDefaultVoicePortalLockoutFromAddress
+     * @param bool $useSystemDefaultVoicePortalLockoutFromAddress
      * @return $this
      */
     public function setUseSystemDefaultVoicePortalLockoutFromAddress($useSystemDefaultVoicePortalLockoutFromAddress)
     {
         $this->useSystemDefaultVoicePortalLockoutFromAddress = $useSystemDefaultVoicePortalLockoutFromAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseSystemDefaultVoicePortalLockoutFromAddress()
+    {
+        $this->useSystemDefaultVoicePortalLockoutFromAddress = null;
         return $this;
     }
 

@@ -12,36 +12,42 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
 
     /**
      * @ElementName activateExtendedAwayGreeting
+     * @Type string
      * @var string|null
      */
     private $activateExtendedAwayGreeting = null;
 
     /**
      * @ElementName deactivateExtendedAwayGreeting
+     * @Type string
      * @var string|null
      */
     private $deactivateExtendedAwayGreeting = null;
 
     /**
      * @ElementName recordNewGreeting
+     * @Type string
      * @var string|null
      */
     private $recordNewGreeting = null;
 
     /**
      * @ElementName listenToCurrentGreeting
+     * @Type string
      * @var string|null
      */
     private $listenToCurrentGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -49,19 +55,17 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
     /**
      * Getter for activateExtendedAwayGreeting
      *
-     * @ElementName activateExtendedAwayGreeting
-     * @return string|null
+     * @return string
      */
     public function getActivateExtendedAwayGreeting()
     {
-        return $this->activateExtendedAwayGreeting;
+        return $this->activateExtendedAwayGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateExtendedAwayGreeting;
     }
 
     /**
      * Setter for activateExtendedAwayGreeting
      *
-     * @ElementName activateExtendedAwayGreeting
-     * @param string|null $activateExtendedAwayGreeting
+     * @param string $activateExtendedAwayGreeting
      * @return $this
      */
     public function setActivateExtendedAwayGreeting($activateExtendedAwayGreeting)
@@ -71,21 +75,28 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetActivateExtendedAwayGreeting()
+    {
+        $this->activateExtendedAwayGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for deactivateExtendedAwayGreeting
      *
-     * @ElementName deactivateExtendedAwayGreeting
-     * @return string|null
+     * @return string
      */
     public function getDeactivateExtendedAwayGreeting()
     {
-        return $this->deactivateExtendedAwayGreeting;
+        return $this->deactivateExtendedAwayGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deactivateExtendedAwayGreeting;
     }
 
     /**
      * Setter for deactivateExtendedAwayGreeting
      *
-     * @ElementName deactivateExtendedAwayGreeting
-     * @param string|null $deactivateExtendedAwayGreeting
+     * @param string $deactivateExtendedAwayGreeting
      * @return $this
      */
     public function setDeactivateExtendedAwayGreeting($deactivateExtendedAwayGreeting)
@@ -95,21 +106,28 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeactivateExtendedAwayGreeting()
+    {
+        $this->deactivateExtendedAwayGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for recordNewGreeting
      *
-     * @ElementName recordNewGreeting
-     * @return string|null
+     * @return string
      */
     public function getRecordNewGreeting()
     {
-        return $this->recordNewGreeting;
+        return $this->recordNewGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordNewGreeting;
     }
 
     /**
      * Setter for recordNewGreeting
      *
-     * @ElementName recordNewGreeting
-     * @param string|null $recordNewGreeting
+     * @param string $recordNewGreeting
      * @return $this
      */
     public function setRecordNewGreeting($recordNewGreeting)
@@ -119,21 +137,28 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecordNewGreeting()
+    {
+        $this->recordNewGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for listenToCurrentGreeting
      *
-     * @ElementName listenToCurrentGreeting
-     * @return string|null
+     * @return string
      */
     public function getListenToCurrentGreeting()
     {
-        return $this->listenToCurrentGreeting;
+        return $this->listenToCurrentGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentGreeting;
     }
 
     /**
      * Setter for listenToCurrentGreeting
      *
-     * @ElementName listenToCurrentGreeting
-     * @param string|null $listenToCurrentGreeting
+     * @param string $listenToCurrentGreeting
      * @return $this
      */
     public function setListenToCurrentGreeting($listenToCurrentGreeting)
@@ -143,21 +168,28 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListenToCurrentGreeting()
+    {
+        $this->listenToCurrentGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -167,26 +199,42 @@ class ChangeExtendedAwayGreetingMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

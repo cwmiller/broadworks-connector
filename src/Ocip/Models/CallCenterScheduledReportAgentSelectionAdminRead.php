@@ -17,18 +17,21 @@ class CallCenterScheduledReportAgentSelectionAdminRead
 
     /**
      * @ElementName allAgent
+     * @Type bool
      * @var bool|null
      */
     private $allAgent = null;
 
     /**
      * @ElementName currentAgentTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $currentAgentTable = null;
 
     /**
      * @ElementName pastAgentTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $pastAgentTable = null;
@@ -36,19 +39,17 @@ class CallCenterScheduledReportAgentSelectionAdminRead
     /**
      * Getter for allAgent
      *
-     * @ElementName allAgent
-     * @return bool|null
+     * @return bool
      */
     public function getAllAgent()
     {
-        return $this->allAgent;
+        return $this->allAgent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allAgent;
     }
 
     /**
      * Setter for allAgent
      *
-     * @ElementName allAgent
-     * @param bool|null $allAgent
+     * @param bool $allAgent
      * @return $this
      */
     public function setAllAgent($allAgent)
@@ -58,21 +59,28 @@ class CallCenterScheduledReportAgentSelectionAdminRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllAgent()
+    {
+        $this->allAgent = null;
+        return $this;
+    }
+
+    /**
      * Getter for currentAgentTable
      *
-     * @ElementName currentAgentTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCurrentAgentTable()
     {
-        return $this->currentAgentTable;
+        return $this->currentAgentTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->currentAgentTable;
     }
 
     /**
      * Setter for currentAgentTable
      *
-     * @ElementName currentAgentTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $currentAgentTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $currentAgentTable
      * @return $this
      */
     public function setCurrentAgentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $currentAgentTable)
@@ -82,26 +90,42 @@ class CallCenterScheduledReportAgentSelectionAdminRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCurrentAgentTable()
+    {
+        $this->currentAgentTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for pastAgentTable
      *
-     * @ElementName pastAgentTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getPastAgentTable()
     {
-        return $this->pastAgentTable;
+        return $this->pastAgentTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pastAgentTable;
     }
 
     /**
      * Setter for pastAgentTable
      *
-     * @ElementName pastAgentTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $pastAgentTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $pastAgentTable
      * @return $this
      */
     public function setPastAgentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $pastAgentTable)
     {
         $this->pastAgentTable = $pastAgentTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPastAgentTable()
+    {
+        $this->pastAgentTable = null;
         return $this;
     }
 

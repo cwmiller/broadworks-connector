@@ -16,6 +16,7 @@ class SystemOCICallControlApplicationDeleteRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName applicationId
+     * @Type string
      * @var string|null
      */
     private $applicationId = null;
@@ -23,24 +24,31 @@ class SystemOCICallControlApplicationDeleteRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for applicationId
      *
-     * @ElementName applicationId
-     * @return string|null
+     * @return string
      */
     public function getApplicationId()
     {
-        return $this->applicationId;
+        return $this->applicationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationId;
     }
 
     /**
      * Setter for applicationId
      *
-     * @ElementName applicationId
-     * @param string|null $applicationId
+     * @param string $applicationId
      * @return $this
      */
     public function setApplicationId($applicationId)
     {
         $this->applicationId = $applicationId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationId()
+    {
+        $this->applicationId = null;
         return $this;
     }
 

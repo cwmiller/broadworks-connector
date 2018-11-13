@@ -16,12 +16,14 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName applicationIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,28 +52,46 @@ class UserOCICallControlApplicationModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for applicationIdList
      *
-     * @ElementName applicationIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null
      */
     public function getApplicationIdList()
     {
-        return $this->applicationIdList;
+        return $this->applicationIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationIdList;
     }
 
     /**
      * Setter for applicationIdList
      *
-     * @ElementName applicationIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList|null $applicationIdList
      * @return $this
      */
     public function setApplicationIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOCICallControlApplicationIdList $applicationIdList)
     {
-        $this->applicationIdList = $applicationIdList;
+        if ($applicationIdList === null) {
+            $this->applicationIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->applicationIdList = $applicationIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationIdList()
+    {
+        $this->applicationIdList = null;
         return $this;
     }
 

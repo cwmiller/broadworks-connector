@@ -16,6 +16,7 @@ class SystemConfigurableTreatmentDeleteRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName treatmentId
+     * @Type string
      * @var string|null
      */
     private $treatmentId = null;
@@ -23,24 +24,31 @@ class SystemConfigurableTreatmentDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for treatmentId
      *
-     * @ElementName treatmentId
-     * @return string|null
+     * @return string
      */
     public function getTreatmentId()
     {
-        return $this->treatmentId;
+        return $this->treatmentId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentId;
     }
 
     /**
      * Setter for treatmentId
      *
-     * @ElementName treatmentId
-     * @param string|null $treatmentId
+     * @param string $treatmentId
      * @return $this
      */
     public function setTreatmentId($treatmentId)
     {
         $this->treatmentId = $treatmentId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentId()
+    {
+        $this->treatmentId = null;
         return $this;
     }
 

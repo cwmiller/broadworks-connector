@@ -16,54 +16,63 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName dnisKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     private $dnisKey = null;
 
     /**
      * @ElementName dnisPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $dnisPhoneNumber = null;
 
     /**
      * @ElementName extension
+     * @Type string
      * @var string|null
      */
     private $extension = null;
 
     /**
      * @ElementName useCustomCLIDSettings
+     * @Type bool
      * @var bool|null
      */
     private $useCustomCLIDSettings = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName callingLineIdLastName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdFirstName = null;
 
     /**
      * @ElementName useCustomDnisAnnouncementSettings
+     * @Type bool
      * @var bool|null
      */
     private $useCustomDnisAnnouncementSettings = null;
 
     /**
      * @ElementName allowOutgoingACDCall
+     * @Type bool
      * @var bool|null
      */
     private $allowOutgoingACDCall = null;
@@ -71,19 +80,17 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for dnisKey
      *
-     * @ElementName dnisKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DNISKey
      */
     public function getDnisKey()
     {
-        return $this->dnisKey;
+        return $this->dnisKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnisKey;
     }
 
     /**
      * Setter for dnisKey
      *
-     * @ElementName dnisKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null $dnisKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey $dnisKey
      * @return $this
      */
     public function setDnisKey(\CWM\BroadWorksConnector\Ocip\Models\DNISKey $dnisKey)
@@ -93,21 +100,28 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDnisKey()
+    {
+        $this->dnisKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for dnisPhoneNumber
      *
-     * @ElementName dnisPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getDnisPhoneNumber()
     {
-        return $this->dnisPhoneNumber;
+        return $this->dnisPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnisPhoneNumber;
     }
 
     /**
      * Setter for dnisPhoneNumber
      *
-     * @ElementName dnisPhoneNumber
-     * @param string|null $dnisPhoneNumber
+     * @param string $dnisPhoneNumber
      * @return $this
      */
     public function setDnisPhoneNumber($dnisPhoneNumber)
@@ -117,21 +131,28 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDnisPhoneNumber()
+    {
+        $this->dnisPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for extension
      *
-     * @ElementName extension
-     * @return string|null
+     * @return string
      */
     public function getExtension()
     {
-        return $this->extension;
+        return $this->extension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extension;
     }
 
     /**
      * Setter for extension
      *
-     * @ElementName extension
-     * @param string|null $extension
+     * @param string $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -141,21 +162,28 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtension()
+    {
+        $this->extension = null;
+        return $this;
+    }
+
+    /**
      * Getter for useCustomCLIDSettings
      *
-     * @ElementName useCustomCLIDSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseCustomCLIDSettings()
     {
-        return $this->useCustomCLIDSettings;
+        return $this->useCustomCLIDSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useCustomCLIDSettings;
     }
 
     /**
      * Setter for useCustomCLIDSettings
      *
-     * @ElementName useCustomCLIDSettings
-     * @param bool|null $useCustomCLIDSettings
+     * @param bool $useCustomCLIDSettings
      * @return $this
      */
     public function setUseCustomCLIDSettings($useCustomCLIDSettings)
@@ -165,21 +193,28 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseCustomCLIDSettings()
+    {
+        $this->useCustomCLIDSettings = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdPhoneNumber()
     {
-        return $this->callingLineIdPhoneNumber;
+        return $this->callingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @param string $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
@@ -189,21 +224,28 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdPhoneNumber()
+    {
+        $this->callingLineIdPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdLastName()
     {
-        return $this->callingLineIdLastName;
+        return $this->callingLineIdLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdLastName;
     }
 
     /**
      * Setter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @param string|null $callingLineIdLastName
+     * @param string $callingLineIdLastName
      * @return $this
      */
     public function setCallingLineIdLastName($callingLineIdLastName)
@@ -213,21 +255,28 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdLastName()
+    {
+        $this->callingLineIdLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdFirstName()
     {
-        return $this->callingLineIdFirstName;
+        return $this->callingLineIdFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdFirstName;
     }
 
     /**
      * Setter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @param string|null $callingLineIdFirstName
+     * @param string $callingLineIdFirstName
      * @return $this
      */
     public function setCallingLineIdFirstName($callingLineIdFirstName)
@@ -237,21 +286,28 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdFirstName()
+    {
+        $this->callingLineIdFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for useCustomDnisAnnouncementSettings
      *
-     * @ElementName useCustomDnisAnnouncementSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseCustomDnisAnnouncementSettings()
     {
-        return $this->useCustomDnisAnnouncementSettings;
+        return $this->useCustomDnisAnnouncementSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useCustomDnisAnnouncementSettings;
     }
 
     /**
      * Setter for useCustomDnisAnnouncementSettings
      *
-     * @ElementName useCustomDnisAnnouncementSettings
-     * @param bool|null $useCustomDnisAnnouncementSettings
+     * @param bool $useCustomDnisAnnouncementSettings
      * @return $this
      */
     public function setUseCustomDnisAnnouncementSettings($useCustomDnisAnnouncementSettings)
@@ -261,26 +317,42 @@ class GroupRoutePointAddDNISRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseCustomDnisAnnouncementSettings()
+    {
+        $this->useCustomDnisAnnouncementSettings = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowOutgoingACDCall
      *
-     * @ElementName allowOutgoingACDCall
-     * @return bool|null
+     * @return bool
      */
     public function getAllowOutgoingACDCall()
     {
-        return $this->allowOutgoingACDCall;
+        return $this->allowOutgoingACDCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowOutgoingACDCall;
     }
 
     /**
      * Setter for allowOutgoingACDCall
      *
-     * @ElementName allowOutgoingACDCall
-     * @param bool|null $allowOutgoingACDCall
+     * @param bool $allowOutgoingACDCall
      * @return $this
      */
     public function setAllowOutgoingACDCall($allowOutgoingACDCall)
     {
         $this->allowOutgoingACDCall = $allowOutgoingACDCall;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowOutgoingACDCall()
+    {
+        $this->allowOutgoingACDCall = null;
         return $this;
     }
 

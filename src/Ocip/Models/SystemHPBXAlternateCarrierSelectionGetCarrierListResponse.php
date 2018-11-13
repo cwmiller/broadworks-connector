@@ -18,6 +18,7 @@ class SystemHPBXAlternateCarrierSelectionGetCarrierListResponse extends \CWM\Bro
 
     /**
      * @ElementName HPBXAlternateCarriersTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $HPBXAlternateCarriersTable = null;
@@ -25,24 +26,31 @@ class SystemHPBXAlternateCarrierSelectionGetCarrierListResponse extends \CWM\Bro
     /**
      * Getter for HPBXAlternateCarriersTable
      *
-     * @ElementName HPBXAlternateCarriersTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getHPBXAlternateCarriersTable()
     {
-        return $this->HPBXAlternateCarriersTable;
+        return $this->HPBXAlternateCarriersTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->HPBXAlternateCarriersTable;
     }
 
     /**
      * Setter for HPBXAlternateCarriersTable
      *
-     * @ElementName HPBXAlternateCarriersTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $HPBXAlternateCarriersTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $HPBXAlternateCarriersTable
      * @return $this
      */
     public function setHPBXAlternateCarriersTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $HPBXAlternateCarriersTable)
     {
         $this->HPBXAlternateCarriersTable = $HPBXAlternateCarriersTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHPBXAlternateCarriersTable()
+    {
+        $this->HPBXAlternateCarriersTable = null;
         return $this;
     }
 

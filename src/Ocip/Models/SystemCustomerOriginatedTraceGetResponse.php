@@ -14,6 +14,7 @@ class SystemCustomerOriginatedTraceGetResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName screenMaliciousCallers
+     * @Type bool
      * @var bool|null
      */
     private $screenMaliciousCallers = null;
@@ -21,24 +22,31 @@ class SystemCustomerOriginatedTraceGetResponse extends \CWM\BroadWorksConnector\
     /**
      * Getter for screenMaliciousCallers
      *
-     * @ElementName screenMaliciousCallers
-     * @return bool|null
+     * @return bool
      */
     public function getScreenMaliciousCallers()
     {
-        return $this->screenMaliciousCallers;
+        return $this->screenMaliciousCallers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->screenMaliciousCallers;
     }
 
     /**
      * Setter for screenMaliciousCallers
      *
-     * @ElementName screenMaliciousCallers
-     * @param bool|null $screenMaliciousCallers
+     * @param bool $screenMaliciousCallers
      * @return $this
      */
     public function setScreenMaliciousCallers($screenMaliciousCallers)
     {
         $this->screenMaliciousCallers = $screenMaliciousCallers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScreenMaliciousCallers()
+    {
+        $this->screenMaliciousCallers = null;
         return $this;
     }
 

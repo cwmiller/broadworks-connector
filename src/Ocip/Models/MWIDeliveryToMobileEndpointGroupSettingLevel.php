@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static MWIDeliveryToMobileEndpointGroupSettingLevel SERVICE_PROVIDER()
  * @method static MWIDeliveryToMobileEndpointGroupSettingLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class MWIDeliveryToMobileEndpointGroupSettingLevel extends \MyCLabs\Enum\Enum
 {

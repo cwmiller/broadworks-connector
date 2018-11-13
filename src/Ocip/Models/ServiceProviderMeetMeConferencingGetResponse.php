@@ -14,6 +14,7 @@ class ServiceProviderMeetMeConferencingGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName allocatedPorts
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;
@@ -21,24 +22,31 @@ class ServiceProviderMeetMeConferencingGetResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for allocatedPorts
      *
-     * @ElementName allocatedPorts
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      */
     public function getAllocatedPorts()
     {
-        return $this->allocatedPorts;
+        return $this->allocatedPorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allocatedPorts;
     }
 
     /**
      * Setter for allocatedPorts
      *
-     * @ElementName allocatedPorts
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null $allocatedPorts
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts
      * @return $this
      */
     public function setAllocatedPorts(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts)
     {
         $this->allocatedPorts = $allocatedPorts;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllocatedPorts()
+    {
+        $this->allocatedPorts = null;
         return $this;
     }
 

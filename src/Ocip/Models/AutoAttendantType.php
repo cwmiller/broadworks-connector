@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static AutoAttendantType BASIC()
  * @method static AutoAttendantType STANDARD()
- * @ValueType string
+ * @EnumValueType string
  */
 class AutoAttendantType extends \MyCLabs\Enum\Enum
 {

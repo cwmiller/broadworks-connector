@@ -14,6 +14,8 @@ class ReplacementVirtualOnNetCallTypeNameList
 
     /**
      * @ElementName virtualOnNetCallTypeName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $virtualOnNetCallTypeName = array(
@@ -23,18 +25,16 @@ class ReplacementVirtualOnNetCallTypeNameList
     /**
      * Getter for virtualOnNetCallTypeName
      *
-     * @ElementName virtualOnNetCallTypeName
      * @return string[]
      */
     public function getVirtualOnNetCallTypeName()
     {
-        return $this->virtualOnNetCallTypeName;
+        return $this->virtualOnNetCallTypeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetCallTypeName;
     }
 
     /**
      * Setter for virtualOnNetCallTypeName
      *
-     * @ElementName virtualOnNetCallTypeName
      * @param string[] $virtualOnNetCallTypeName
      * @return $this
      */
@@ -45,15 +45,23 @@ class ReplacementVirtualOnNetCallTypeNameList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetCallTypeName()
+    {
+        $this->virtualOnNetCallTypeName = null;
+        return $this;
+    }
+
+    /**
      * Adder for virtualOnNetCallTypeName
      *
-     * @ElementName virtualOnNetCallTypeName
      * @param string $virtualOnNetCallTypeName
      * @return $this
      */
     public function addVirtualOnNetCallTypeName(string $virtualOnNetCallTypeName)
     {
-        $this->virtualOnNetCallTypeName []= $virtualOnNetCallTypeName;
+        $this->virtualOnNetCallTypeName[] = $virtualOnNetCallTypeName;
         return $this;
     }
 

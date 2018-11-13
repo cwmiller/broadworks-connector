@@ -16,6 +16,7 @@ class SystemMediaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName mediaTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mediaTable = null;
@@ -23,24 +24,31 @@ class SystemMediaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for mediaTable
      *
-     * @ElementName mediaTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMediaTable()
     {
-        return $this->mediaTable;
+        return $this->mediaTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaTable;
     }
 
     /**
      * Setter for mediaTable
      *
-     * @ElementName mediaTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mediaTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mediaTable
      * @return $this
      */
     public function setMediaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mediaTable)
     {
         $this->mediaTable = $mediaTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMediaTable()
+    {
+        $this->mediaTable = null;
         return $this;
     }
 

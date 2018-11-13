@@ -13,12 +13,14 @@ class SequentialRingLocation
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName numberOfRings
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     private $numberOfRings = null;
@@ -26,19 +28,17 @@ class SequentialRingLocation
     /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -48,26 +48,42 @@ class SequentialRingLocation
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
      */
     public function getNumberOfRings()
     {
-        return $this->numberOfRings;
+        return $this->numberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfRings;
     }
 
     /**
      * Setter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null $numberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings $numberOfRings
      * @return $this
      */
     public function setNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings $numberOfRings)
     {
         $this->numberOfRings = $numberOfRings;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNumberOfRings()
+    {
+        $this->numberOfRings = null;
         return $this;
     }
 

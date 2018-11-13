@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy
  * PILOT_USER()
  * @method static TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy USER()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupSIPIdentityForPilotAndProxyTrunkModesPolicy extends \MyCLabs\Enum\Enum
 {

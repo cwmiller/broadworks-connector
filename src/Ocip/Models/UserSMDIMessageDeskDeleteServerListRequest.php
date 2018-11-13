@@ -16,12 +16,15 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName deviceName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $deviceName = array(
@@ -31,19 +34,17 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
      * @return string[]
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
      * @param string[] $deviceName
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserSMDIMessageDeskDeleteServerListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for deviceName
      *
-     * @ElementName deviceName
      * @param string $deviceName
      * @return $this
      */
     public function addDeviceName(string $deviceName)
     {
-        $this->deviceName []= $deviceName;
+        $this->deviceName[] = $deviceName;
         return $this;
     }
 

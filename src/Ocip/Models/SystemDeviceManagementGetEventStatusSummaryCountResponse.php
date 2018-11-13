@@ -16,6 +16,7 @@ class SystemDeviceManagementGetEventStatusSummaryCountResponse extends \CWM\Broa
 
     /**
      * @ElementName statusCountTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $statusCountTable = null;
@@ -23,24 +24,31 @@ class SystemDeviceManagementGetEventStatusSummaryCountResponse extends \CWM\Broa
     /**
      * Getter for statusCountTable
      *
-     * @ElementName statusCountTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getStatusCountTable()
     {
-        return $this->statusCountTable;
+        return $this->statusCountTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statusCountTable;
     }
 
     /**
      * Setter for statusCountTable
      *
-     * @ElementName statusCountTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $statusCountTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $statusCountTable
      * @return $this
      */
     public function setStatusCountTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $statusCountTable)
     {
         $this->statusCountTable = $statusCountTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatusCountTable()
+    {
+        $this->statusCountTable = null;
         return $this;
     }
 

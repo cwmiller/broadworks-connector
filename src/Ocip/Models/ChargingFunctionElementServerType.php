@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ChargingFunctionElementServerType CCF()
  * @method static ChargingFunctionElementServerType ECF()
- * @ValueType string
+ * @EnumValueType string
  */
 class ChargingFunctionElementServerType extends \MyCLabs\Enum\Enum
 {

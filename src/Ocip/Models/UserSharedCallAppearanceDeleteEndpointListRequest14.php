@@ -16,12 +16,15 @@ class UserSharedCallAppearanceDeleteEndpointListRequest14 extends \CWM\BroadWork
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey[]
      */
     private $accessDeviceEndpoint = array(
@@ -31,19 +34,17 @@ class UserSharedCallAppearanceDeleteEndpointListRequest14 extends \CWM\BroadWork
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserSharedCallAppearanceDeleteEndpointListRequest14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
      * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey[]
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey[] $accessDeviceEndpoint
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserSharedCallAppearanceDeleteEndpointListRequest14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Adder for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey $accessDeviceEndpoint
      * @return $this
      */
     public function addAccessDeviceEndpoint($accessDeviceEndpoint)
     {
-        $this->accessDeviceEndpoint []= $accessDeviceEndpoint;
+        $this->accessDeviceEndpoint[] = $accessDeviceEndpoint;
         return $this;
     }
 

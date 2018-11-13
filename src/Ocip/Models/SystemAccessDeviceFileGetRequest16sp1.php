@@ -20,12 +20,14 @@ class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName fileFormat
+     * @Type string
      * @var string|null
      */
     private $fileFormat = null;
@@ -33,19 +35,17 @@ class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -55,26 +55,42 @@ class SystemAccessDeviceFileGetRequest16sp1 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileFormat
      *
-     * @ElementName fileFormat
-     * @return string|null
+     * @return string
      */
     public function getFileFormat()
     {
-        return $this->fileFormat;
+        return $this->fileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileFormat;
     }
 
     /**
      * Setter for fileFormat
      *
-     * @ElementName fileFormat
-     * @param string|null $fileFormat
+     * @param string $fileFormat
      * @return $this
      */
     public function setFileFormat($fileFormat)
     {
         $this->fileFormat = $fileFormat;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileFormat()
+    {
+        $this->fileFormat = null;
         return $this;
     }
 

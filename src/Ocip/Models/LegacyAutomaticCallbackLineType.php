@@ -21,7 +21,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static LegacyAutomaticCallbackLineType ISDN()
  * @method static LegacyAutomaticCallbackLineType TELEKIBUTZ()
  * @method static LegacyAutomaticCallbackLineType SPARE()
- * @ValueType string
+ * @EnumValueType string
  */
 class LegacyAutomaticCallbackLineType extends \MyCLabs\Enum\Enum
 {

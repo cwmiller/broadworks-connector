@@ -12,6 +12,7 @@ class GreetingOnlyForwardingDestinationMenuKeysModifyEntry
 
     /**
      * @ElementName greetingOnlyForwardingDestination
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -20,26 +21,35 @@ class GreetingOnlyForwardingDestinationMenuKeysModifyEntry
     /**
      * Getter for greetingOnlyForwardingDestination
      *
-     * @ElementName greetingOnlyForwardingDestination
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getGreetingOnlyForwardingDestination()
     {
-        return $this->greetingOnlyForwardingDestination;
+        return $this->greetingOnlyForwardingDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->greetingOnlyForwardingDestination;
     }
 
     /**
      * Setter for greetingOnlyForwardingDestination
      *
-     * @ElementName greetingOnlyForwardingDestination
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $greetingOnlyForwardingDestination
+     * @param string|null $greetingOnlyForwardingDestination
      * @return $this
      */
     public function setGreetingOnlyForwardingDestination($greetingOnlyForwardingDestination)
     {
-        $this->greetingOnlyForwardingDestination = $greetingOnlyForwardingDestination;
+        if ($greetingOnlyForwardingDestination === null) {
+            $this->greetingOnlyForwardingDestination = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->greetingOnlyForwardingDestination = $greetingOnlyForwardingDestination;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGreetingOnlyForwardingDestination()
+    {
+        $this->greetingOnlyForwardingDestination = null;
         return $this;
     }
 

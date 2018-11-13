@@ -12,6 +12,7 @@ class SearchCriteriaExactDnActivation extends SearchCriteria
 
     /**
      * @ElementName activated
+     * @Type bool
      * @var bool|null
      */
     private $activated = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactDnActivation extends SearchCriteria
     /**
      * Getter for activated
      *
-     * @ElementName activated
-     * @return bool|null
+     * @return bool
      */
     public function getActivated()
     {
-        return $this->activated;
+        return $this->activated instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activated;
     }
 
     /**
      * Setter for activated
      *
-     * @ElementName activated
-     * @param bool|null $activated
+     * @param bool $activated
      * @return $this
      */
     public function setActivated($activated)
     {
         $this->activated = $activated;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetActivated()
+    {
+        $this->activated = null;
         return $this;
     }
 

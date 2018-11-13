@@ -16,6 +16,7 @@ class SystemGETSResourcePriorityDeleteRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName priorityValue
+     * @Type string
      * @var string|null
      */
     private $priorityValue = null;
@@ -23,24 +24,31 @@ class SystemGETSResourcePriorityDeleteRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for priorityValue
      *
-     * @ElementName priorityValue
-     * @return string|null
+     * @return string
      */
     public function getPriorityValue()
     {
-        return $this->priorityValue;
+        return $this->priorityValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priorityValue;
     }
 
     /**
      * Setter for priorityValue
      *
-     * @ElementName priorityValue
-     * @param string|null $priorityValue
+     * @param string $priorityValue
      * @return $this
      */
     public function setPriorityValue($priorityValue)
     {
         $this->priorityValue = $priorityValue;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPriorityValue()
+    {
+        $this->priorityValue = null;
         return $this;
     }
 

@@ -10,6 +10,7 @@ class MusicOnHoldSourceModify20CustomSource
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class MusicOnHoldSourceModify20CustomSource
 
     /**
      * @ElementName videoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -25,52 +27,70 @@ class MusicOnHoldSourceModify20CustomSource
     /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $audioFile)
     {
-        $this->audioFile = $audioFile;
+        if ($audioFile === null) {
+            $this->audioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->audioFile = $audioFile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
         return $this;
     }
 
     /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $videoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $videoFile)
     {
-        $this->videoFile = $videoFile;
+        if ($videoFile === null) {
+            $this->videoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->videoFile = $videoFile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
         return $this;
     }
 

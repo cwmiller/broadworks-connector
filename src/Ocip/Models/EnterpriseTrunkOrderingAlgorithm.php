@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EnterpriseTrunkOrderingAlgorithm OVERFLOW()
  * @method static EnterpriseTrunkOrderingAlgorithm MOST_IDLE()
  * @method static EnterpriseTrunkOrderingAlgorithm LEAST_IDLE()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseTrunkOrderingAlgorithm extends \MyCLabs\Enum\Enum
 {

@@ -20,6 +20,8 @@ class GroupShInterfaceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName entry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry[]
      */
     private $entry = array(
@@ -29,18 +31,16 @@ class GroupShInterfaceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for entry
      *
-     * @ElementName entry
      * @return \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry[]
      */
     public function getEntry()
     {
-        return $this->entry;
+        return $this->entry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entry;
     }
 
     /**
      * Setter for entry
      *
-     * @ElementName entry
      * @param \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry[] $entry
      * @return $this
      */
@@ -51,15 +51,23 @@ class GroupShInterfaceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntry()
+    {
+        $this->entry = null;
+        return $this;
+    }
+
+    /**
      * Adder for entry
      *
-     * @ElementName entry
      * @param \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry $entry
      * @return $this
      */
     public function addEntry($entry)
     {
-        $this->entry []= $entry;
+        $this->entry[] = $entry;
         return $this;
     }
 

@@ -14,6 +14,8 @@ class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName mscAddress
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $mscAddress = array(
@@ -23,18 +25,16 @@ class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for mscAddress
      *
-     * @ElementName mscAddress
      * @return string[]
      */
     public function getMscAddress()
     {
-        return $this->mscAddress;
+        return $this->mscAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mscAddress;
     }
 
     /**
      * Setter for mscAddress
      *
-     * @ElementName mscAddress
      * @param string[] $mscAddress
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemHomeNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMscAddress()
+    {
+        $this->mscAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for mscAddress
      *
-     * @ElementName mscAddress
      * @param string $mscAddress
      * @return $this
      */
     public function addMscAddress(string $mscAddress)
     {
-        $this->mscAddress []= $mscAddress;
+        $this->mscAddress[] = $mscAddress;
         return $this;
     }
 

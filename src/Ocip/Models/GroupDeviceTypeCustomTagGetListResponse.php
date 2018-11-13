@@ -23,6 +23,7 @@ class GroupDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName groupDeviceTypeCustomTagsTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupDeviceTypeCustomTagsTable = null;
@@ -30,24 +31,31 @@ class GroupDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for groupDeviceTypeCustomTagsTable
      *
-     * @ElementName groupDeviceTypeCustomTagsTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getGroupDeviceTypeCustomTagsTable()
     {
-        return $this->groupDeviceTypeCustomTagsTable;
+        return $this->groupDeviceTypeCustomTagsTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupDeviceTypeCustomTagsTable;
     }
 
     /**
      * Setter for groupDeviceTypeCustomTagsTable
      *
-     * @ElementName groupDeviceTypeCustomTagsTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupDeviceTypeCustomTagsTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupDeviceTypeCustomTagsTable
      * @return $this
      */
     public function setGroupDeviceTypeCustomTagsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupDeviceTypeCustomTagsTable)
     {
         $this->groupDeviceTypeCustomTagsTable = $groupDeviceTypeCustomTagsTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupDeviceTypeCustomTagsTable()
+    {
+        $this->groupDeviceTypeCustomTagsTable = null;
         return $this;
     }
 

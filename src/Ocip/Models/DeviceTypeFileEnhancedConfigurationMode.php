@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static DeviceTypeFileEnhancedConfigurationMode MANUAL()
  * @method static DeviceTypeFileEnhancedConfigurationMode CUSTOM()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceTypeFileEnhancedConfigurationMode extends \MyCLabs\Enum\Enum
 {

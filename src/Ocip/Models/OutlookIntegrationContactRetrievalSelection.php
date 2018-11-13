@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * RETRIEVE_DEFAULT_CONTACT_FOLDER_ONLY()
  * @method static OutlookIntegrationContactRetrievalSelection
  * RETRIEVE_ALL_CONTACTS()
- * @ValueType string
+ * @EnumValueType string
  */
 class OutlookIntegrationContactRetrievalSelection extends \MyCLabs\Enum\Enum
 {

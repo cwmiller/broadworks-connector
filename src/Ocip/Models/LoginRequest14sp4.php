@@ -19,18 +19,21 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName signedPassword
+     * @Type string
      * @var string|null
      */
     private $signedPassword = null;
 
     /**
      * @ElementName plainTextPassword
+     * @Type string
      * @var string|null
      */
     private $plainTextPassword = null;
@@ -38,19 +41,17 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -60,21 +61,28 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for signedPassword
      *
-     * @ElementName signedPassword
-     * @return string|null
+     * @return string
      */
     public function getSignedPassword()
     {
-        return $this->signedPassword;
+        return $this->signedPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->signedPassword;
     }
 
     /**
      * Setter for signedPassword
      *
-     * @ElementName signedPassword
-     * @param string|null $signedPassword
+     * @param string $signedPassword
      * @return $this
      */
     public function setSignedPassword($signedPassword)
@@ -84,26 +92,42 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSignedPassword()
+    {
+        $this->signedPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for plainTextPassword
      *
-     * @ElementName plainTextPassword
-     * @return string|null
+     * @return string
      */
     public function getPlainTextPassword()
     {
-        return $this->plainTextPassword;
+        return $this->plainTextPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->plainTextPassword;
     }
 
     /**
      * Setter for plainTextPassword
      *
-     * @ElementName plainTextPassword
-     * @param string|null $plainTextPassword
+     * @param string $plainTextPassword
      * @return $this
      */
     public function setPlainTextPassword($plainTextPassword)
     {
         $this->plainTextPassword = $plainTextPassword;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlainTextPassword()
+    {
+        $this->plainTextPassword = null;
         return $this;
     }
 

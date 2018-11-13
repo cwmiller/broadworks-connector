@@ -13,6 +13,8 @@ class CallCenterAgentThresholdProfileReplacementNotificationEmailList
 
     /**
      * @ElementName emailAddress
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $emailAddress = array(
@@ -22,18 +24,16 @@ class CallCenterAgentThresholdProfileReplacementNotificationEmailList
     /**
      * Getter for emailAddress
      *
-     * @ElementName emailAddress
      * @return string[]
      */
     public function getEmailAddress()
     {
-        return $this->emailAddress;
+        return $this->emailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emailAddress;
     }
 
     /**
      * Setter for emailAddress
      *
-     * @ElementName emailAddress
      * @param string[] $emailAddress
      * @return $this
      */
@@ -44,15 +44,23 @@ class CallCenterAgentThresholdProfileReplacementNotificationEmailList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEmailAddress()
+    {
+        $this->emailAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for emailAddress
      *
-     * @ElementName emailAddress
      * @param string $emailAddress
      * @return $this
      */
     public function addEmailAddress(string $emailAddress)
     {
-        $this->emailAddress []= $emailAddress;
+        $this->emailAddress[] = $emailAddress;
         return $this;
     }
 

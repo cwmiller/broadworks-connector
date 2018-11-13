@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static TrunkGroupUserLookupPolicy BASIC()
  * @method static TrunkGroupUserLookupPolicy EXTENDED()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupUserLookupPolicy extends \MyCLabs\Enum\Enum
 {

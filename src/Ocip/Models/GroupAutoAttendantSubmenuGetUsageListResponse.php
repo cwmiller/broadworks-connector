@@ -27,6 +27,7 @@ class GroupAutoAttendantSubmenuGetUsageListResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName submenuTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $submenuTable = null;
@@ -34,24 +35,31 @@ class GroupAutoAttendantSubmenuGetUsageListResponse extends \CWM\BroadWorksConne
     /**
      * Getter for submenuTable
      *
-     * @ElementName submenuTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSubmenuTable()
     {
-        return $this->submenuTable;
+        return $this->submenuTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->submenuTable;
     }
 
     /**
      * Setter for submenuTable
      *
-     * @ElementName submenuTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $submenuTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $submenuTable
      * @return $this
      */
     public function setSubmenuTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $submenuTable)
     {
         $this->submenuTable = $submenuTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSubmenuTable()
+    {
+        $this->submenuTable = null;
         return $this;
     }
 

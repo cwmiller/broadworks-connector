@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Enterprise Voice VPN Digit Manipulation Operations that have no value.
  *
  * @method static EnterpriseVoiceVPNDigitManipulationOperationNoValue END()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseVoiceVPNDigitManipulationOperationNoValue extends \MyCLabs\Enum\Enum
 {

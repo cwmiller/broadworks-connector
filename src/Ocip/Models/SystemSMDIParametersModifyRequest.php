@@ -16,18 +16,21 @@ class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName enableSMDI
+     * @Type bool
      * @var bool|null
      */
     private $enableSMDI = null;
 
     /**
      * @ElementName listeningPort
+     * @Type int
      * @var int|null
      */
     private $listeningPort = null;
 
     /**
      * @ElementName maxConnections
+     * @Type int
      * @var int|null
      */
     private $maxConnections = null;
@@ -35,19 +38,17 @@ class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for enableSMDI
      *
-     * @ElementName enableSMDI
-     * @return bool|null
+     * @return bool
      */
     public function getEnableSMDI()
     {
-        return $this->enableSMDI;
+        return $this->enableSMDI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableSMDI;
     }
 
     /**
      * Setter for enableSMDI
      *
-     * @ElementName enableSMDI
-     * @param bool|null $enableSMDI
+     * @param bool $enableSMDI
      * @return $this
      */
     public function setEnableSMDI($enableSMDI)
@@ -57,21 +58,28 @@ class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableSMDI()
+    {
+        $this->enableSMDI = null;
+        return $this;
+    }
+
+    /**
      * Getter for listeningPort
      *
-     * @ElementName listeningPort
-     * @return int|null
+     * @return int
      */
     public function getListeningPort()
     {
-        return $this->listeningPort;
+        return $this->listeningPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listeningPort;
     }
 
     /**
      * Setter for listeningPort
      *
-     * @ElementName listeningPort
-     * @param int|null $listeningPort
+     * @param int $listeningPort
      * @return $this
      */
     public function setListeningPort($listeningPort)
@@ -81,26 +89,42 @@ class SystemSMDIParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListeningPort()
+    {
+        $this->listeningPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxConnections
      *
-     * @ElementName maxConnections
-     * @return int|null
+     * @return int
      */
     public function getMaxConnections()
     {
-        return $this->maxConnections;
+        return $this->maxConnections instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxConnections;
     }
 
     /**
      * Setter for maxConnections
      *
-     * @ElementName maxConnections
-     * @param int|null $maxConnections
+     * @param int $maxConnections
      * @return $this
      */
     public function setMaxConnections($maxConnections)
     {
         $this->maxConnections = $maxConnections;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxConnections()
+    {
+        $this->maxConnections = null;
         return $this;
     }
 

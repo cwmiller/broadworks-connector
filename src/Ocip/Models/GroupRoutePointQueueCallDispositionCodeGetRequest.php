@@ -17,12 +17,14 @@ class GroupRoutePointQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName code
+     * @Type string
      * @var string|null
      */
     private $code = null;
@@ -30,19 +32,17 @@ class GroupRoutePointQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksC
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -52,26 +52,42 @@ class GroupRoutePointQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for code
      *
-     * @ElementName code
-     * @return string|null
+     * @return string
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->code;
     }
 
     /**
      * Setter for code
      *
-     * @ElementName code
-     * @param string|null $code
+     * @param string $code
      * @return $this
      */
     public function setCode($code)
     {
         $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCode()
+    {
+        $this->code = null;
         return $this;
     }
 

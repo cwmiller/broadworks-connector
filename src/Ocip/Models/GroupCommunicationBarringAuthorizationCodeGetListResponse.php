@@ -20,6 +20,8 @@ class GroupCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\Bro
 
     /**
      * @ElementName code
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[]
      */
     private $code = array(
@@ -29,18 +31,16 @@ class GroupCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\Bro
     /**
      * Getter for code
      *
-     * @ElementName code
      * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[]
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->code;
     }
 
     /**
      * Setter for code
      *
-     * @ElementName code
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[] $code
      * @return $this
      */
@@ -51,15 +51,23 @@ class GroupCommunicationBarringAuthorizationCodeGetListResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCode()
+    {
+        $this->code = null;
+        return $this;
+    }
+
+    /**
      * Adder for code
      *
-     * @ElementName code
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry $code
      * @return $this
      */
     public function addCode($code)
     {
-        $this->code []= $code;
+        $this->code[] = $code;
         return $this;
     }
 

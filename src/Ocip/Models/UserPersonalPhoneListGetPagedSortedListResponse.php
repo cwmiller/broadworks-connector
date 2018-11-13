@@ -16,12 +16,14 @@ class UserPersonalPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName totalNumberOfRows
+     * @Type int
      * @var int|null
      */
     private $totalNumberOfRows = null;
 
     /**
      * @ElementName personalPhoneListTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $personalPhoneListTable = null;
@@ -29,19 +31,17 @@ class UserPersonalPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksCon
     /**
      * Getter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @return int|null
+     * @return int
      */
     public function getTotalNumberOfRows()
     {
-        return $this->totalNumberOfRows;
+        return $this->totalNumberOfRows instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalNumberOfRows;
     }
 
     /**
      * Setter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @param int|null $totalNumberOfRows
+     * @param int $totalNumberOfRows
      * @return $this
      */
     public function setTotalNumberOfRows($totalNumberOfRows)
@@ -51,26 +51,42 @@ class UserPersonalPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTotalNumberOfRows()
+    {
+        $this->totalNumberOfRows = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalPhoneListTable
      *
-     * @ElementName personalPhoneListTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getPersonalPhoneListTable()
     {
-        return $this->personalPhoneListTable;
+        return $this->personalPhoneListTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalPhoneListTable;
     }
 
     /**
      * Setter for personalPhoneListTable
      *
-     * @ElementName personalPhoneListTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $personalPhoneListTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $personalPhoneListTable
      * @return $this
      */
     public function setPersonalPhoneListTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $personalPhoneListTable)
     {
         $this->personalPhoneListTable = $personalPhoneListTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPersonalPhoneListTable()
+    {
+        $this->personalPhoneListTable = null;
         return $this;
     }
 

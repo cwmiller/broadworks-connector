@@ -18,6 +18,7 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22 exten
 
     /**
      * @ElementName userListSizeLimit
+     * @Type int
      * @var int|null
      */
     private $userListSizeLimit = null;
@@ -25,24 +26,31 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListRequest22 exten
     /**
      * Getter for userListSizeLimit
      *
-     * @ElementName userListSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getUserListSizeLimit()
     {
-        return $this->userListSizeLimit;
+        return $this->userListSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userListSizeLimit;
     }
 
     /**
      * Setter for userListSizeLimit
      *
-     * @ElementName userListSizeLimit
-     * @param int|null $userListSizeLimit
+     * @param int $userListSizeLimit
      * @return $this
      */
     public function setUserListSizeLimit($userListSizeLimit)
     {
         $this->userListSizeLimit = $userListSizeLimit;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserListSizeLimit()
+    {
+        $this->userListSizeLimit = null;
         return $this;
     }
 

@@ -19,6 +19,8 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName departmentKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
     private $departmentKey = array(
@@ -27,6 +29,8 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName fullPathName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $fullPathName = array(
@@ -36,18 +40,16 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for departmentKey
      *
-     * @ElementName departmentKey
      * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
     public function getDepartmentKey()
     {
-        return $this->departmentKey;
+        return $this->departmentKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentKey;
     }
 
     /**
      * Setter for departmentKey
      *
-     * @ElementName departmentKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[] $departmentKey
      * @return $this
      */
@@ -58,33 +60,39 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentKey()
+    {
+        $this->departmentKey = null;
+        return $this;
+    }
+
+    /**
      * Adder for departmentKey
      *
-     * @ElementName departmentKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey
      * @return $this
      */
     public function addDepartmentKey($departmentKey)
     {
-        $this->departmentKey []= $departmentKey;
+        $this->departmentKey[] = $departmentKey;
         return $this;
     }
 
     /**
      * Getter for fullPathName
      *
-     * @ElementName fullPathName
      * @return string[]
      */
     public function getFullPathName()
     {
-        return $this->fullPathName;
+        return $this->fullPathName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fullPathName;
     }
 
     /**
      * Setter for fullPathName
      *
-     * @ElementName fullPathName
      * @param string[] $fullPathName
      * @return $this
      */
@@ -95,15 +103,23 @@ class GroupDepartmentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFullPathName()
+    {
+        $this->fullPathName = null;
+        return $this;
+    }
+
+    /**
      * Adder for fullPathName
      *
-     * @ElementName fullPathName
      * @param string $fullPathName
      * @return $this
      */
     public function addFullPathName(string $fullPathName)
     {
-        $this->fullPathName []= $fullPathName;
+        $this->fullPathName[] = $fullPathName;
         return $this;
     }
 

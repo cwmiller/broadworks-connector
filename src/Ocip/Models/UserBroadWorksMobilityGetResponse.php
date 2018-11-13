@@ -14,66 +14,77 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName phonesToRing
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $phonesToRing = null;
 
     /**
      * @ElementName mobilePhoneNumber
+     * @Type string
      * @var string|null
      */
     private $mobilePhoneNumber = null;
 
     /**
      * @ElementName alertClickToDialCalls
+     * @Type bool
      * @var bool|null
      */
     private $alertClickToDialCalls = null;
 
     /**
      * @ElementName alertGroupPagingCalls
+     * @Type bool
      * @var bool|null
      */
     private $alertGroupPagingCalls = null;
 
     /**
      * @ElementName enableDiversionInhibitor
+     * @Type bool
      * @var bool|null
      */
     private $enableDiversionInhibitor = null;
 
     /**
      * @ElementName requireAnswerConfirmation
+     * @Type bool
      * @var bool|null
      */
     private $requireAnswerConfirmation = null;
 
     /**
      * @ElementName broadworksCallControl
+     * @Type bool
      * @var bool|null
      */
     private $broadworksCallControl = null;
 
     /**
      * @ElementName useSettingLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
      */
     private $useSettingLevel = null;
 
     /**
      * @ElementName denyCallOriginations
+     * @Type bool
      * @var bool|null
      */
     private $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
+     * @Type bool
      * @var bool|null
      */
     private $denyCallTerminations = null;
@@ -81,19 +92,17 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -103,21 +112,28 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for phonesToRing
      *
-     * @ElementName phonesToRing
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
      */
     public function getPhonesToRing()
     {
-        return $this->phonesToRing;
+        return $this->phonesToRing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phonesToRing;
     }
 
     /**
      * Setter for phonesToRing
      *
-     * @ElementName phonesToRing
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null $phonesToRing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing $phonesToRing
      * @return $this
      */
     public function setPhonesToRing(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing $phonesToRing)
@@ -127,21 +143,28 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhonesToRing()
+    {
+        $this->phonesToRing = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getMobilePhoneNumber()
     {
-        return $this->mobilePhoneNumber;
+        return $this->mobilePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilePhoneNumber;
     }
 
     /**
      * Setter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @param string|null $mobilePhoneNumber
+     * @param string $mobilePhoneNumber
      * @return $this
      */
     public function setMobilePhoneNumber($mobilePhoneNumber)
@@ -151,21 +174,28 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilePhoneNumber()
+    {
+        $this->mobilePhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertClickToDialCalls
      *
-     * @ElementName alertClickToDialCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlertClickToDialCalls()
     {
-        return $this->alertClickToDialCalls;
+        return $this->alertClickToDialCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertClickToDialCalls;
     }
 
     /**
      * Setter for alertClickToDialCalls
      *
-     * @ElementName alertClickToDialCalls
-     * @param bool|null $alertClickToDialCalls
+     * @param bool $alertClickToDialCalls
      * @return $this
      */
     public function setAlertClickToDialCalls($alertClickToDialCalls)
@@ -175,21 +205,28 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertClickToDialCalls()
+    {
+        $this->alertClickToDialCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertGroupPagingCalls
      *
-     * @ElementName alertGroupPagingCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlertGroupPagingCalls()
     {
-        return $this->alertGroupPagingCalls;
+        return $this->alertGroupPagingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertGroupPagingCalls;
     }
 
     /**
      * Setter for alertGroupPagingCalls
      *
-     * @ElementName alertGroupPagingCalls
-     * @param bool|null $alertGroupPagingCalls
+     * @param bool $alertGroupPagingCalls
      * @return $this
      */
     public function setAlertGroupPagingCalls($alertGroupPagingCalls)
@@ -199,21 +236,28 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertGroupPagingCalls()
+    {
+        $this->alertGroupPagingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableDiversionInhibitor
      *
-     * @ElementName enableDiversionInhibitor
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDiversionInhibitor()
     {
-        return $this->enableDiversionInhibitor;
+        return $this->enableDiversionInhibitor instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDiversionInhibitor;
     }
 
     /**
      * Setter for enableDiversionInhibitor
      *
-     * @ElementName enableDiversionInhibitor
-     * @param bool|null $enableDiversionInhibitor
+     * @param bool $enableDiversionInhibitor
      * @return $this
      */
     public function setEnableDiversionInhibitor($enableDiversionInhibitor)
@@ -223,21 +267,28 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableDiversionInhibitor()
+    {
+        $this->enableDiversionInhibitor = null;
+        return $this;
+    }
+
+    /**
      * Getter for requireAnswerConfirmation
      *
-     * @ElementName requireAnswerConfirmation
-     * @return bool|null
+     * @return bool
      */
     public function getRequireAnswerConfirmation()
     {
-        return $this->requireAnswerConfirmation;
+        return $this->requireAnswerConfirmation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requireAnswerConfirmation;
     }
 
     /**
      * Setter for requireAnswerConfirmation
      *
-     * @ElementName requireAnswerConfirmation
-     * @param bool|null $requireAnswerConfirmation
+     * @param bool $requireAnswerConfirmation
      * @return $this
      */
     public function setRequireAnswerConfirmation($requireAnswerConfirmation)
@@ -247,21 +298,28 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequireAnswerConfirmation()
+    {
+        $this->requireAnswerConfirmation = null;
+        return $this;
+    }
+
+    /**
      * Getter for broadworksCallControl
      *
-     * @ElementName broadworksCallControl
-     * @return bool|null
+     * @return bool
      */
     public function getBroadworksCallControl()
     {
-        return $this->broadworksCallControl;
+        return $this->broadworksCallControl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->broadworksCallControl;
     }
 
     /**
      * Setter for broadworksCallControl
      *
-     * @ElementName broadworksCallControl
-     * @param bool|null $broadworksCallControl
+     * @param bool $broadworksCallControl
      * @return $this
      */
     public function setBroadworksCallControl($broadworksCallControl)
@@ -271,21 +329,28 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBroadworksCallControl()
+    {
+        $this->broadworksCallControl = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSettingLevel
      *
-     * @ElementName useSettingLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel
      */
     public function getUseSettingLevel()
     {
-        return $this->useSettingLevel;
+        return $this->useSettingLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSettingLevel;
     }
 
     /**
      * Setter for useSettingLevel
      *
-     * @ElementName useSettingLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel $useSettingLevel
      * @return $this
      */
     public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel $useSettingLevel)
@@ -295,21 +360,28 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSettingLevel()
+    {
+        $this->useSettingLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for denyCallOriginations
      *
-     * @ElementName denyCallOriginations
-     * @return bool|null
+     * @return bool
      */
     public function getDenyCallOriginations()
     {
-        return $this->denyCallOriginations;
+        return $this->denyCallOriginations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->denyCallOriginations;
     }
 
     /**
      * Setter for denyCallOriginations
      *
-     * @ElementName denyCallOriginations
-     * @param bool|null $denyCallOriginations
+     * @param bool $denyCallOriginations
      * @return $this
      */
     public function setDenyCallOriginations($denyCallOriginations)
@@ -319,26 +391,42 @@ class UserBroadWorksMobilityGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDenyCallOriginations()
+    {
+        $this->denyCallOriginations = null;
+        return $this;
+    }
+
+    /**
      * Getter for denyCallTerminations
      *
-     * @ElementName denyCallTerminations
-     * @return bool|null
+     * @return bool
      */
     public function getDenyCallTerminations()
     {
-        return $this->denyCallTerminations;
+        return $this->denyCallTerminations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->denyCallTerminations;
     }
 
     /**
      * Setter for denyCallTerminations
      *
-     * @ElementName denyCallTerminations
-     * @param bool|null $denyCallTerminations
+     * @param bool $denyCallTerminations
      * @return $this
      */
     public function setDenyCallTerminations($denyCallTerminations)
     {
         $this->denyCallTerminations = $denyCallTerminations;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDenyCallTerminations()
+    {
+        $this->denyCallTerminations = null;
         return $this;
     }
 

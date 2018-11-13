@@ -17,12 +17,14 @@ class EnterpriseCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName code
+     * @Type string
      * @var string|null
      */
     private $code = null;
@@ -30,19 +32,17 @@ class EnterpriseCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorks
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -52,26 +52,42 @@ class EnterpriseCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for code
      *
-     * @ElementName code
-     * @return string|null
+     * @return string
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->code;
     }
 
     /**
      * Setter for code
      *
-     * @ElementName code
-     * @param string|null $code
+     * @param string $code
      * @return $this
      */
     public function setCode($code)
     {
         $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCode()
+    {
+        $this->code = null;
         return $this;
     }
 

@@ -14,6 +14,7 @@ class GroupExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName extensionLength
+     * @Type int
      * @var int|null
      */
     private $extensionLength = null;
@@ -21,24 +22,31 @@ class GroupExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for extensionLength
      *
-     * @ElementName extensionLength
-     * @return int|null
+     * @return int
      */
     public function getExtensionLength()
     {
-        return $this->extensionLength;
+        return $this->extensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extensionLength;
     }
 
     /**
      * Setter for extensionLength
      *
-     * @ElementName extensionLength
-     * @param int|null $extensionLength
+     * @param int $extensionLength
      * @return $this
      */
     public function setExtensionLength($extensionLength)
     {
         $this->extensionLength = $extensionLength;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExtensionLength()
+    {
+        $this->extensionLength = null;
         return $this;
     }
 

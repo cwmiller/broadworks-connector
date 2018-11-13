@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static IncomingCallingPlanOutsideCallPermission
  * ALLOW_ONLY_IF_REDIRECTED_FROM_ANOTHER_USER()
  * @method static IncomingCallingPlanOutsideCallPermission DISALLOW()
- * @ValueType string
+ * @EnumValueType string
  */
 class IncomingCallingPlanOutsideCallPermission extends \MyCLabs\Enum\Enum
 {

@@ -12,18 +12,21 @@ class SearchCriteriaGroupName extends SearchCriteria
 
     /**
      * @ElementName mode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
 
     /**
      * @ElementName value
+     * @Type string
      * @var string|null
      */
     private $value = null;
 
     /**
      * @ElementName isCaseInsensitive
+     * @Type bool
      * @var bool|null
      */
     private $isCaseInsensitive = null;
@@ -31,19 +34,17 @@ class SearchCriteriaGroupName extends SearchCriteria
     /**
      * Getter for mode
      *
-     * @ElementName mode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchMode
      */
     public function getMode()
     {
-        return $this->mode;
+        return $this->mode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mode;
     }
 
     /**
      * Setter for mode
      *
-     * @ElementName mode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null $mode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchMode $mode
      * @return $this
      */
     public function setMode(\CWM\BroadWorksConnector\Ocip\Models\SearchMode $mode)
@@ -53,21 +54,28 @@ class SearchCriteriaGroupName extends SearchCriteria
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMode()
+    {
+        $this->mode = null;
+        return $this;
+    }
+
+    /**
      * Getter for value
      *
-     * @ElementName value
-     * @return string|null
+     * @return string
      */
     public function getValue()
     {
-        return $this->value;
+        return $this->value instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->value;
     }
 
     /**
      * Setter for value
      *
-     * @ElementName value
-     * @param string|null $value
+     * @param string $value
      * @return $this
      */
     public function setValue($value)
@@ -77,26 +85,42 @@ class SearchCriteriaGroupName extends SearchCriteria
     }
 
     /**
+     * @return $this
+     */
+    public function unsetValue()
+    {
+        $this->value = null;
+        return $this;
+    }
+
+    /**
      * Getter for isCaseInsensitive
      *
-     * @ElementName isCaseInsensitive
-     * @return bool|null
+     * @return bool
      */
     public function getIsCaseInsensitive()
     {
-        return $this->isCaseInsensitive;
+        return $this->isCaseInsensitive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isCaseInsensitive;
     }
 
     /**
      * Setter for isCaseInsensitive
      *
-     * @ElementName isCaseInsensitive
-     * @param bool|null $isCaseInsensitive
+     * @param bool $isCaseInsensitive
      * @return $this
      */
     public function setIsCaseInsensitive($isCaseInsensitive)
     {
         $this->isCaseInsensitive = $isCaseInsensitive;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsCaseInsensitive()
+    {
+        $this->isCaseInsensitive = null;
         return $this;
     }
 

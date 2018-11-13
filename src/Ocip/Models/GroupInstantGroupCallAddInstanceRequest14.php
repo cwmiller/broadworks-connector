@@ -17,30 +17,36 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName destinationPhoneNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -49,18 +55,21 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName isAnswerTimeoutEnabled
+     * @Type bool
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
 
     /**
      * @ElementName answerTimeoutMinutes
+     * @Type int
      * @var int|null
      */
     private $answerTimeoutMinutes = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -68,19 +77,17 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -90,21 +97,28 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -114,21 +128,28 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -138,21 +159,28 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile $serviceInstanceProfile)
@@ -162,20 +190,27 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for destinationPhoneNumber
      *
-     * @ElementName destinationPhoneNumber
      * @return string[]
      */
     public function getDestinationPhoneNumber()
     {
-        return $this->destinationPhoneNumber;
+        return $this->destinationPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->destinationPhoneNumber;
     }
 
     /**
      * Setter for destinationPhoneNumber
      *
-     * @ElementName destinationPhoneNumber
      * @param string[] $destinationPhoneNumber
      * @return $this
      */
@@ -186,34 +221,40 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDestinationPhoneNumber()
+    {
+        $this->destinationPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for destinationPhoneNumber
      *
-     * @ElementName destinationPhoneNumber
      * @param string $destinationPhoneNumber
      * @return $this
      */
     public function addDestinationPhoneNumber(string $destinationPhoneNumber)
     {
-        $this->destinationPhoneNumber []= $destinationPhoneNumber;
+        $this->destinationPhoneNumber[] = $destinationPhoneNumber;
         return $this;
     }
 
     /**
      * Getter for isAnswerTimeoutEnabled
      *
-     * @ElementName isAnswerTimeoutEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsAnswerTimeoutEnabled()
     {
-        return $this->isAnswerTimeoutEnabled;
+        return $this->isAnswerTimeoutEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAnswerTimeoutEnabled;
     }
 
     /**
      * Setter for isAnswerTimeoutEnabled
      *
-     * @ElementName isAnswerTimeoutEnabled
-     * @param bool|null $isAnswerTimeoutEnabled
+     * @param bool $isAnswerTimeoutEnabled
      * @return $this
      */
     public function setIsAnswerTimeoutEnabled($isAnswerTimeoutEnabled)
@@ -223,21 +264,28 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsAnswerTimeoutEnabled()
+    {
+        $this->isAnswerTimeoutEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerTimeoutMinutes
      *
-     * @ElementName answerTimeoutMinutes
-     * @return int|null
+     * @return int
      */
     public function getAnswerTimeoutMinutes()
     {
-        return $this->answerTimeoutMinutes;
+        return $this->answerTimeoutMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerTimeoutMinutes;
     }
 
     /**
      * Setter for answerTimeoutMinutes
      *
-     * @ElementName answerTimeoutMinutes
-     * @param int|null $answerTimeoutMinutes
+     * @param int $answerTimeoutMinutes
      * @return $this
      */
     public function setAnswerTimeoutMinutes($answerTimeoutMinutes)
@@ -247,26 +295,42 @@ class GroupInstantGroupCallAddInstanceRequest14 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnswerTimeoutMinutes()
+    {
+        $this->answerTimeoutMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
         return $this;
     }
 

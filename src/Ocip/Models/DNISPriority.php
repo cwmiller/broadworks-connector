@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DNISPriority _1_HIGH()
  * @method static DNISPriority _2_MEDIUM()
  * @method static DNISPriority _3_LOW()
- * @ValueType string
+ * @EnumValueType string
  */
 class DNISPriority extends \MyCLabs\Enum\Enum
 {

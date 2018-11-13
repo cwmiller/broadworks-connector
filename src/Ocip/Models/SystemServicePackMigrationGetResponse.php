@@ -15,6 +15,7 @@ class SystemServicePackMigrationGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName maxSimultaneousMigrationTasks
+     * @Type int
      * @var int|null
      */
     private $maxSimultaneousMigrationTasks = null;
@@ -22,24 +23,31 @@ class SystemServicePackMigrationGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for maxSimultaneousMigrationTasks
      *
-     * @ElementName maxSimultaneousMigrationTasks
-     * @return int|null
+     * @return int
      */
     public function getMaxSimultaneousMigrationTasks()
     {
-        return $this->maxSimultaneousMigrationTasks;
+        return $this->maxSimultaneousMigrationTasks instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxSimultaneousMigrationTasks;
     }
 
     /**
      * Setter for maxSimultaneousMigrationTasks
      *
-     * @ElementName maxSimultaneousMigrationTasks
-     * @param int|null $maxSimultaneousMigrationTasks
+     * @param int $maxSimultaneousMigrationTasks
      * @return $this
      */
     public function setMaxSimultaneousMigrationTasks($maxSimultaneousMigrationTasks)
     {
         $this->maxSimultaneousMigrationTasks = $maxSimultaneousMigrationTasks;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxSimultaneousMigrationTasks()
+    {
+        $this->maxSimultaneousMigrationTasks = null;
         return $this;
     }
 

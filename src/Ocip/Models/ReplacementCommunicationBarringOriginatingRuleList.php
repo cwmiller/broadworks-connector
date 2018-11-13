@@ -14,6 +14,8 @@ class ReplacementCommunicationBarringOriginatingRuleList
 
     /**
      * @ElementName rule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule[]
      */
     private $rule = array(
@@ -23,18 +25,16 @@ class ReplacementCommunicationBarringOriginatingRuleList
     /**
      * Getter for rule
      *
-     * @ElementName rule
      * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule[]
      */
     public function getRule()
     {
-        return $this->rule;
+        return $this->rule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rule;
     }
 
     /**
      * Setter for rule
      *
-     * @ElementName rule
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule[] $rule
      * @return $this
      */
@@ -45,15 +45,23 @@ class ReplacementCommunicationBarringOriginatingRuleList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRule()
+    {
+        $this->rule = null;
+        return $this;
+    }
+
+    /**
      * Adder for rule
      *
-     * @ElementName rule
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingRule $rule
      * @return $this
      */
     public function addRule($rule)
     {
-        $this->rule []= $rule;
+        $this->rule[] = $rule;
         return $this;
     }
 

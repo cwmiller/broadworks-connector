@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName voiceMessaging
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName commPilotExpressProfile
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName greetings
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,6 +34,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName callForwardingOptions
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,6 +42,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName voicePortalCalling
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,6 +50,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName hoteling
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,6 +58,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName passcode
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -59,6 +66,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName exitVoicePortal
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -66,6 +74,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -73,6 +82,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName externalRouting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -80,6 +90,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName announcementMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -87,6 +98,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
 
     /**
      * @ElementName personalAssistant
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -95,312 +107,420 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19VoicePortalMainMen
     /**
      * Getter for voiceMessaging
      *
-     * @ElementName voiceMessaging
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getVoiceMessaging()
     {
-        return $this->voiceMessaging;
+        return $this->voiceMessaging instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessaging;
     }
 
     /**
      * Setter for voiceMessaging
      *
-     * @ElementName voiceMessaging
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessaging
+     * @param string|null $voiceMessaging
      * @return $this
      */
     public function setVoiceMessaging($voiceMessaging)
     {
-        $this->voiceMessaging = $voiceMessaging;
+        if ($voiceMessaging === null) {
+            $this->voiceMessaging = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->voiceMessaging = $voiceMessaging;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoiceMessaging()
+    {
+        $this->voiceMessaging = null;
         return $this;
     }
 
     /**
      * Getter for commPilotExpressProfile
      *
-     * @ElementName commPilotExpressProfile
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCommPilotExpressProfile()
     {
-        return $this->commPilotExpressProfile;
+        return $this->commPilotExpressProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->commPilotExpressProfile;
     }
 
     /**
      * Setter for commPilotExpressProfile
      *
-     * @ElementName commPilotExpressProfile
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $commPilotExpressProfile
+     * @param string|null $commPilotExpressProfile
      * @return $this
      */
     public function setCommPilotExpressProfile($commPilotExpressProfile)
     {
-        $this->commPilotExpressProfile = $commPilotExpressProfile;
+        if ($commPilotExpressProfile === null) {
+            $this->commPilotExpressProfile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->commPilotExpressProfile = $commPilotExpressProfile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommPilotExpressProfile()
+    {
+        $this->commPilotExpressProfile = null;
         return $this;
     }
 
     /**
      * Getter for greetings
      *
-     * @ElementName greetings
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getGreetings()
     {
-        return $this->greetings;
+        return $this->greetings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->greetings;
     }
 
     /**
      * Setter for greetings
      *
-     * @ElementName greetings
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $greetings
+     * @param string|null $greetings
      * @return $this
      */
     public function setGreetings($greetings)
     {
-        $this->greetings = $greetings;
+        if ($greetings === null) {
+            $this->greetings = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->greetings = $greetings;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGreetings()
+    {
+        $this->greetings = null;
         return $this;
     }
 
     /**
      * Getter for callForwardingOptions
      *
-     * @ElementName callForwardingOptions
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCallForwardingOptions()
     {
-        return $this->callForwardingOptions;
+        return $this->callForwardingOptions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callForwardingOptions;
     }
 
     /**
      * Setter for callForwardingOptions
      *
-     * @ElementName callForwardingOptions
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callForwardingOptions
+     * @param string|null $callForwardingOptions
      * @return $this
      */
     public function setCallForwardingOptions($callForwardingOptions)
     {
-        $this->callForwardingOptions = $callForwardingOptions;
+        if ($callForwardingOptions === null) {
+            $this->callForwardingOptions = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callForwardingOptions = $callForwardingOptions;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallForwardingOptions()
+    {
+        $this->callForwardingOptions = null;
         return $this;
     }
 
     /**
      * Getter for voicePortalCalling
      *
-     * @ElementName voicePortalCalling
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getVoicePortalCalling()
     {
-        return $this->voicePortalCalling;
+        return $this->voicePortalCalling instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalCalling;
     }
 
     /**
      * Setter for voicePortalCalling
      *
-     * @ElementName voicePortalCalling
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $voicePortalCalling
+     * @param string|null $voicePortalCalling
      * @return $this
      */
     public function setVoicePortalCalling($voicePortalCalling)
     {
-        $this->voicePortalCalling = $voicePortalCalling;
+        if ($voicePortalCalling === null) {
+            $this->voicePortalCalling = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->voicePortalCalling = $voicePortalCalling;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoicePortalCalling()
+    {
+        $this->voicePortalCalling = null;
         return $this;
     }
 
     /**
      * Getter for hoteling
      *
-     * @ElementName hoteling
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getHoteling()
     {
-        return $this->hoteling;
+        return $this->hoteling instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hoteling;
     }
 
     /**
      * Setter for hoteling
      *
-     * @ElementName hoteling
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $hoteling
+     * @param string|null $hoteling
      * @return $this
      */
     public function setHoteling($hoteling)
     {
-        $this->hoteling = $hoteling;
+        if ($hoteling === null) {
+            $this->hoteling = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->hoteling = $hoteling;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoteling()
+    {
+        $this->hoteling = null;
         return $this;
     }
 
     /**
      * Getter for passcode
      *
-     * @ElementName passcode
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPasscode()
     {
-        return $this->passcode;
+        return $this->passcode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcode;
     }
 
     /**
      * Setter for passcode
      *
-     * @ElementName passcode
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $passcode
+     * @param string|null $passcode
      * @return $this
      */
     public function setPasscode($passcode)
     {
-        $this->passcode = $passcode;
+        if ($passcode === null) {
+            $this->passcode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->passcode = $passcode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPasscode()
+    {
+        $this->passcode = null;
         return $this;
     }
 
     /**
      * Getter for exitVoicePortal
      *
-     * @ElementName exitVoicePortal
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExitVoicePortal()
     {
-        return $this->exitVoicePortal;
+        return $this->exitVoicePortal instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exitVoicePortal;
     }
 
     /**
      * Setter for exitVoicePortal
      *
-     * @ElementName exitVoicePortal
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $exitVoicePortal
+     * @param string|null $exitVoicePortal
      * @return $this
      */
     public function setExitVoicePortal($exitVoicePortal)
     {
-        $this->exitVoicePortal = $exitVoicePortal;
+        if ($exitVoicePortal === null) {
+            $this->exitVoicePortal = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->exitVoicePortal = $exitVoicePortal;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExitVoicePortal()
+    {
+        $this->exitVoicePortal = null;
         return $this;
     }
 
     /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 
     /**
      * Getter for externalRouting
      *
-     * @ElementName externalRouting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExternalRouting()
     {
-        return $this->externalRouting;
+        return $this->externalRouting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalRouting;
     }
 
     /**
      * Setter for externalRouting
      *
-     * @ElementName externalRouting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $externalRouting
+     * @param string|null $externalRouting
      * @return $this
      */
     public function setExternalRouting($externalRouting)
     {
-        $this->externalRouting = $externalRouting;
+        if ($externalRouting === null) {
+            $this->externalRouting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->externalRouting = $externalRouting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExternalRouting()
+    {
+        $this->externalRouting = null;
         return $this;
     }
 
     /**
      * Getter for announcementMenu
      *
-     * @ElementName announcementMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAnnouncementMenu()
     {
-        return $this->announcementMenu;
+        return $this->announcementMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementMenu;
     }
 
     /**
      * Setter for announcementMenu
      *
-     * @ElementName announcementMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $announcementMenu
+     * @param string|null $announcementMenu
      * @return $this
      */
     public function setAnnouncementMenu($announcementMenu)
     {
-        $this->announcementMenu = $announcementMenu;
+        if ($announcementMenu === null) {
+            $this->announcementMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->announcementMenu = $announcementMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementMenu()
+    {
+        $this->announcementMenu = null;
         return $this;
     }
 
     /**
      * Getter for personalAssistant
      *
-     * @ElementName personalAssistant
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPersonalAssistant()
     {
-        return $this->personalAssistant;
+        return $this->personalAssistant instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalAssistant;
     }
 
     /**
      * Setter for personalAssistant
      *
-     * @ElementName personalAssistant
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $personalAssistant
+     * @param string|null $personalAssistant
      * @return $this
      */
     public function setPersonalAssistant($personalAssistant)
     {
-        $this->personalAssistant = $personalAssistant;
+        if ($personalAssistant === null) {
+            $this->personalAssistant = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->personalAssistant = $personalAssistant;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPersonalAssistant()
+    {
+        $this->personalAssistant = null;
         return $this;
     }
 

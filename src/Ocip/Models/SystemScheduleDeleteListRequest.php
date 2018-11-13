@@ -16,6 +16,8 @@ class SystemScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName scheduleKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
     private $scheduleKey = array(
@@ -25,18 +27,16 @@ class SystemScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for scheduleKey
      *
-     * @ElementName scheduleKey
      * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[]
      */
     public function getScheduleKey()
     {
-        return $this->scheduleKey;
+        return $this->scheduleKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleKey;
     }
 
     /**
      * Setter for scheduleKey
      *
-     * @ElementName scheduleKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey[] $scheduleKey
      * @return $this
      */
@@ -47,15 +47,23 @@ class SystemScheduleDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleKey()
+    {
+        $this->scheduleKey = null;
+        return $this;
+    }
+
+    /**
      * Adder for scheduleKey
      *
-     * @ElementName scheduleKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey
      * @return $this
      */
     public function addScheduleKey($scheduleKey)
     {
-        $this->scheduleKey []= $scheduleKey;
+        $this->scheduleKey[] = $scheduleKey;
         return $this;
     }
 

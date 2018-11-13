@@ -14,6 +14,7 @@ class SystemDeviceTypeExportResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName file
+     * @Type string
      * @var string|null
      */
     private $file = null;
@@ -21,24 +22,31 @@ class SystemDeviceTypeExportResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for file
      *
-     * @ElementName file
-     * @return string|null
+     * @return string
      */
     public function getFile()
     {
-        return $this->file;
+        return $this->file instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->file;
     }
 
     /**
      * Setter for file
      *
-     * @ElementName file
-     * @param string|null $file
+     * @param string $file
      * @return $this
      */
     public function setFile($file)
     {
         $this->file = $file;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFile()
+    {
+        $this->file = null;
         return $this;
     }
 

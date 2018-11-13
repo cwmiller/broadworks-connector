@@ -16,12 +16,14 @@ class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName reportingServerName
+     * @Type string
      * @var string|null
      */
     private $reportingServerName = null;
 
     /**
      * @ElementName supervisorTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $supervisorTable = null;
@@ -29,19 +31,17 @@ class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConne
     /**
      * Getter for reportingServerName
      *
-     * @ElementName reportingServerName
-     * @return string|null
+     * @return string
      */
     public function getReportingServerName()
     {
-        return $this->reportingServerName;
+        return $this->reportingServerName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingServerName;
     }
 
     /**
      * Setter for reportingServerName
      *
-     * @ElementName reportingServerName
-     * @param string|null $reportingServerName
+     * @param string $reportingServerName
      * @return $this
      */
     public function setReportingServerName($reportingServerName)
@@ -51,26 +51,42 @@ class GroupCallCenterSupervisorReportingGetResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportingServerName()
+    {
+        $this->reportingServerName = null;
+        return $this;
+    }
+
+    /**
      * Getter for supervisorTable
      *
-     * @ElementName supervisorTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSupervisorTable()
     {
-        return $this->supervisorTable;
+        return $this->supervisorTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supervisorTable;
     }
 
     /**
      * Setter for supervisorTable
      *
-     * @ElementName supervisorTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $supervisorTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $supervisorTable
      * @return $this
      */
     public function setSupervisorTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $supervisorTable)
     {
         $this->supervisorTable = $supervisorTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupervisorTable()
+    {
+        $this->supervisorTable = null;
         return $this;
     }
 

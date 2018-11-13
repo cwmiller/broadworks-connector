@@ -17,18 +17,21 @@ class AccessDeviceMultipleIdentityEndpointKey
 
     /**
      * @ElementName accessDevice
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName privateIdentity
+     * @Type string
      * @var string|null
      */
     private $privateIdentity = null;
@@ -36,19 +39,17 @@ class AccessDeviceMultipleIdentityEndpointKey
     /**
      * Getter for accessDevice
      *
-     * @ElementName accessDevice
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      */
     public function getAccessDevice()
     {
-        return $this->accessDevice;
+        return $this->accessDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDevice;
     }
 
     /**
      * Setter for accessDevice
      *
-     * @ElementName accessDevice
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice
      * @return $this
      */
     public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
@@ -58,21 +59,28 @@ class AccessDeviceMultipleIdentityEndpointKey
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDevice()
+    {
+        $this->accessDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -82,26 +90,42 @@ class AccessDeviceMultipleIdentityEndpointKey
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for privateIdentity
      *
-     * @ElementName privateIdentity
-     * @return string|null
+     * @return string
      */
     public function getPrivateIdentity()
     {
-        return $this->privateIdentity;
+        return $this->privateIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->privateIdentity;
     }
 
     /**
      * Setter for privateIdentity
      *
-     * @ElementName privateIdentity
-     * @param string|null $privateIdentity
+     * @param string $privateIdentity
      * @return $this
      */
     public function setPrivateIdentity($privateIdentity)
     {
         $this->privateIdentity = $privateIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrivateIdentity()
+    {
+        $this->privateIdentity = null;
         return $this;
     }
 

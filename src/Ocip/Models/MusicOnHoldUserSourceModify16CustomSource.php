@@ -10,12 +10,14 @@ class MusicOnHoldUserSourceModify16CustomSource
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
@@ -23,19 +25,17 @@ class MusicOnHoldUserSourceModify16CustomSource
     /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
@@ -45,26 +45,42 @@ class MusicOnHoldUserSourceModify16CustomSource
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $videoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
         return $this;
     }
 

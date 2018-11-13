@@ -13,12 +13,14 @@ class CommPilotExpressSRRedirectionWithExceptionModify
 
     /**
      * @ElementName sendCallsToVoiceMailExceptExcludedNumbers
+     * @Type bool
      * @var bool|null
      */
     private $sendCallsToVoiceMailExceptExcludedNumbers = null;
 
     /**
      * @ElementName excludedPhoneNumber01
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class CommPilotExpressSRRedirectionWithExceptionModify
 
     /**
      * @ElementName excludedPhoneNumber02
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,6 +36,7 @@ class CommPilotExpressSRRedirectionWithExceptionModify
 
     /**
      * @ElementName excludedPhoneNumber03
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -40,6 +44,7 @@ class CommPilotExpressSRRedirectionWithExceptionModify
 
     /**
      * @ElementName forwardExcludedNumbersTo
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,19 +53,17 @@ class CommPilotExpressSRRedirectionWithExceptionModify
     /**
      * Getter for sendCallsToVoiceMailExceptExcludedNumbers
      *
-     * @ElementName sendCallsToVoiceMailExceptExcludedNumbers
-     * @return bool|null
+     * @return bool
      */
     public function getSendCallsToVoiceMailExceptExcludedNumbers()
     {
-        return $this->sendCallsToVoiceMailExceptExcludedNumbers;
+        return $this->sendCallsToVoiceMailExceptExcludedNumbers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendCallsToVoiceMailExceptExcludedNumbers;
     }
 
     /**
      * Setter for sendCallsToVoiceMailExceptExcludedNumbers
      *
-     * @ElementName sendCallsToVoiceMailExceptExcludedNumbers
-     * @param bool|null $sendCallsToVoiceMailExceptExcludedNumbers
+     * @param bool $sendCallsToVoiceMailExceptExcludedNumbers
      * @return $this
      */
     public function setSendCallsToVoiceMailExceptExcludedNumbers($sendCallsToVoiceMailExceptExcludedNumbers)
@@ -70,106 +73,151 @@ class CommPilotExpressSRRedirectionWithExceptionModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendCallsToVoiceMailExceptExcludedNumbers()
+    {
+        $this->sendCallsToVoiceMailExceptExcludedNumbers = null;
+        return $this;
+    }
+
+    /**
      * Getter for excludedPhoneNumber01
      *
-     * @ElementName excludedPhoneNumber01
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExcludedPhoneNumber01()
     {
-        return $this->excludedPhoneNumber01;
+        return $this->excludedPhoneNumber01 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->excludedPhoneNumber01;
     }
 
     /**
      * Setter for excludedPhoneNumber01
      *
-     * @ElementName excludedPhoneNumber01
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $excludedPhoneNumber01
+     * @param string|null $excludedPhoneNumber01
      * @return $this
      */
     public function setExcludedPhoneNumber01($excludedPhoneNumber01)
     {
-        $this->excludedPhoneNumber01 = $excludedPhoneNumber01;
+        if ($excludedPhoneNumber01 === null) {
+            $this->excludedPhoneNumber01 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->excludedPhoneNumber01 = $excludedPhoneNumber01;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExcludedPhoneNumber01()
+    {
+        $this->excludedPhoneNumber01 = null;
         return $this;
     }
 
     /**
      * Getter for excludedPhoneNumber02
      *
-     * @ElementName excludedPhoneNumber02
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExcludedPhoneNumber02()
     {
-        return $this->excludedPhoneNumber02;
+        return $this->excludedPhoneNumber02 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->excludedPhoneNumber02;
     }
 
     /**
      * Setter for excludedPhoneNumber02
      *
-     * @ElementName excludedPhoneNumber02
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $excludedPhoneNumber02
+     * @param string|null $excludedPhoneNumber02
      * @return $this
      */
     public function setExcludedPhoneNumber02($excludedPhoneNumber02)
     {
-        $this->excludedPhoneNumber02 = $excludedPhoneNumber02;
+        if ($excludedPhoneNumber02 === null) {
+            $this->excludedPhoneNumber02 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->excludedPhoneNumber02 = $excludedPhoneNumber02;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExcludedPhoneNumber02()
+    {
+        $this->excludedPhoneNumber02 = null;
         return $this;
     }
 
     /**
      * Getter for excludedPhoneNumber03
      *
-     * @ElementName excludedPhoneNumber03
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExcludedPhoneNumber03()
     {
-        return $this->excludedPhoneNumber03;
+        return $this->excludedPhoneNumber03 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->excludedPhoneNumber03;
     }
 
     /**
      * Setter for excludedPhoneNumber03
      *
-     * @ElementName excludedPhoneNumber03
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $excludedPhoneNumber03
+     * @param string|null $excludedPhoneNumber03
      * @return $this
      */
     public function setExcludedPhoneNumber03($excludedPhoneNumber03)
     {
-        $this->excludedPhoneNumber03 = $excludedPhoneNumber03;
+        if ($excludedPhoneNumber03 === null) {
+            $this->excludedPhoneNumber03 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->excludedPhoneNumber03 = $excludedPhoneNumber03;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExcludedPhoneNumber03()
+    {
+        $this->excludedPhoneNumber03 = null;
         return $this;
     }
 
     /**
      * Getter for forwardExcludedNumbersTo
      *
-     * @ElementName forwardExcludedNumbersTo
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getForwardExcludedNumbersTo()
     {
-        return $this->forwardExcludedNumbersTo;
+        return $this->forwardExcludedNumbersTo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardExcludedNumbersTo;
     }
 
     /**
      * Setter for forwardExcludedNumbersTo
      *
-     * @ElementName forwardExcludedNumbersTo
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardExcludedNumbersTo
+     * @param string|null $forwardExcludedNumbersTo
      * @return $this
      */
     public function setForwardExcludedNumbersTo($forwardExcludedNumbersTo)
     {
-        $this->forwardExcludedNumbersTo = $forwardExcludedNumbersTo;
+        if ($forwardExcludedNumbersTo === null) {
+            $this->forwardExcludedNumbersTo = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->forwardExcludedNumbersTo = $forwardExcludedNumbersTo;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForwardExcludedNumbersTo()
+    {
+        $this->forwardExcludedNumbersTo = null;
         return $this;
     }
 

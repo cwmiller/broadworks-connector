@@ -22,6 +22,7 @@ class UserShInterfaceGetPublicIdDataRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName publicUserIdentity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;
@@ -29,24 +30,31 @@ class UserShInterfaceGetPublicIdDataRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for publicUserIdentity
      *
-     * @ElementName publicUserIdentity
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
      */
     public function getPublicUserIdentity()
     {
-        return $this->publicUserIdentity;
+        return $this->publicUserIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicUserIdentity;
     }
 
     /**
      * Setter for publicUserIdentity
      *
-     * @ElementName publicUserIdentity
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null $publicUserIdentity
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity $publicUserIdentity
      * @return $this
      */
     public function setPublicUserIdentity(\CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity $publicUserIdentity)
     {
         $this->publicUserIdentity = $publicUserIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPublicUserIdentity()
+    {
+        $this->publicUserIdentity = null;
         return $this;
     }
 

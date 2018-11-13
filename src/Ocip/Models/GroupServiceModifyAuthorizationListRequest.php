@@ -18,18 +18,22 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName servicePackAuthorization
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization[]
      */
     private $servicePackAuthorization = array(
@@ -38,6 +42,8 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName groupServiceAuthorization
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[]
      */
     private $groupServiceAuthorization = array(
@@ -46,6 +52,8 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName userServiceAuthorization
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[]
      */
     private $userServiceAuthorization = array(
@@ -55,19 +63,17 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -77,21 +83,28 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -101,20 +114,27 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePackAuthorization
      *
-     * @ElementName servicePackAuthorization
      * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization[]
      */
     public function getServicePackAuthorization()
     {
-        return $this->servicePackAuthorization;
+        return $this->servicePackAuthorization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePackAuthorization;
     }
 
     /**
      * Setter for servicePackAuthorization
      *
-     * @ElementName servicePackAuthorization
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization[] $servicePackAuthorization
      * @return $this
      */
@@ -125,33 +145,39 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePackAuthorization()
+    {
+        $this->servicePackAuthorization = null;
+        return $this;
+    }
+
+    /**
      * Adder for servicePackAuthorization
      *
-     * @ElementName servicePackAuthorization
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackAuthorization $servicePackAuthorization
      * @return $this
      */
     public function addServicePackAuthorization($servicePackAuthorization)
     {
-        $this->servicePackAuthorization []= $servicePackAuthorization;
+        $this->servicePackAuthorization[] = $servicePackAuthorization;
         return $this;
     }
 
     /**
      * Getter for groupServiceAuthorization
      *
-     * @ElementName groupServiceAuthorization
      * @return \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[]
      */
     public function getGroupServiceAuthorization()
     {
-        return $this->groupServiceAuthorization;
+        return $this->groupServiceAuthorization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupServiceAuthorization;
     }
 
     /**
      * Setter for groupServiceAuthorization
      *
-     * @ElementName groupServiceAuthorization
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization[] $groupServiceAuthorization
      * @return $this
      */
@@ -162,33 +188,39 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupServiceAuthorization()
+    {
+        $this->groupServiceAuthorization = null;
+        return $this;
+    }
+
+    /**
      * Adder for groupServiceAuthorization
      *
-     * @ElementName groupServiceAuthorization
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupServiceAuthorization $groupServiceAuthorization
      * @return $this
      */
     public function addGroupServiceAuthorization($groupServiceAuthorization)
     {
-        $this->groupServiceAuthorization []= $groupServiceAuthorization;
+        $this->groupServiceAuthorization[] = $groupServiceAuthorization;
         return $this;
     }
 
     /**
      * Getter for userServiceAuthorization
      *
-     * @ElementName userServiceAuthorization
      * @return \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[]
      */
     public function getUserServiceAuthorization()
     {
-        return $this->userServiceAuthorization;
+        return $this->userServiceAuthorization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServiceAuthorization;
     }
 
     /**
      * Setter for userServiceAuthorization
      *
-     * @ElementName userServiceAuthorization
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization[] $userServiceAuthorization
      * @return $this
      */
@@ -199,15 +231,23 @@ class GroupServiceModifyAuthorizationListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserServiceAuthorization()
+    {
+        $this->userServiceAuthorization = null;
+        return $this;
+    }
+
+    /**
      * Adder for userServiceAuthorization
      *
-     * @ElementName userServiceAuthorization
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserServiceAuthorization $userServiceAuthorization
      * @return $this
      */
     public function addUserServiceAuthorization($userServiceAuthorization)
     {
-        $this->userServiceAuthorization []= $userServiceAuthorization;
+        $this->userServiceAuthorization[] = $userServiceAuthorization;
         return $this;
     }
 

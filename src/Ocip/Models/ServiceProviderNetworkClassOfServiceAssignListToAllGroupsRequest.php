@@ -21,12 +21,15 @@ class ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest extends \
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -36,19 +39,17 @@ class ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest extends \
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -58,20 +59,27 @@ class ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @return string[]
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @param string[] $networkClassOfService
      * @return $this
      */
@@ -82,15 +90,23 @@ class ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Adder for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @param string $networkClassOfService
      * @return $this
      */
     public function addNetworkClassOfService(string $networkClassOfService)
     {
-        $this->networkClassOfService []= $networkClassOfService;
+        $this->networkClassOfService[] = $networkClassOfService;
         return $this;
     }
 

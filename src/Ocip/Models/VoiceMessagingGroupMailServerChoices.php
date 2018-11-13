@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static VoiceMessagingGroupMailServerChoices SYSTEM_MAIL_SERVER()
  * @method static VoiceMessagingGroupMailServerChoices GROUP_MAIL_SERVER()
- * @ValueType string
+ * @EnumValueType string
  */
 class VoiceMessagingGroupMailServerChoices extends \MyCLabs\Enum\Enum
 {

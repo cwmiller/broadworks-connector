@@ -15,18 +15,21 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
 
     /**
      * @ElementName playEntranceGreeting
+     * @Type bool
      * @var bool|null
      */
     private $playEntranceGreeting = null;
 
     /**
      * @ElementName entranceGreetingAudioFile
+     * @Type string
      * @var string|null
      */
     private $entranceGreetingAudioFile = null;
 
     /**
      * @ElementName entranceGreetingMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $entranceGreetingMediaType = null;
@@ -34,19 +37,17 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
     /**
      * Getter for playEntranceGreeting
      *
-     * @ElementName playEntranceGreeting
-     * @return bool|null
+     * @return bool
      */
     public function getPlayEntranceGreeting()
     {
-        return $this->playEntranceGreeting;
+        return $this->playEntranceGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playEntranceGreeting;
     }
 
     /**
      * Setter for playEntranceGreeting
      *
-     * @ElementName playEntranceGreeting
-     * @param bool|null $playEntranceGreeting
+     * @param bool $playEntranceGreeting
      * @return $this
      */
     public function setPlayEntranceGreeting($playEntranceGreeting)
@@ -56,21 +57,28 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayEntranceGreeting()
+    {
+        $this->playEntranceGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for entranceGreetingAudioFile
      *
-     * @ElementName entranceGreetingAudioFile
-     * @return string|null
+     * @return string
      */
     public function getEntranceGreetingAudioFile()
     {
-        return $this->entranceGreetingAudioFile;
+        return $this->entranceGreetingAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entranceGreetingAudioFile;
     }
 
     /**
      * Setter for entranceGreetingAudioFile
      *
-     * @ElementName entranceGreetingAudioFile
-     * @param string|null $entranceGreetingAudioFile
+     * @param string $entranceGreetingAudioFile
      * @return $this
      */
     public function setEntranceGreetingAudioFile($entranceGreetingAudioFile)
@@ -80,26 +88,42 @@ class UserMeetMeConferencingGetConferenceGreetingResponse extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntranceGreetingAudioFile()
+    {
+        $this->entranceGreetingAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for entranceGreetingMediaType
      *
-     * @ElementName entranceGreetingMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getEntranceGreetingMediaType()
     {
-        return $this->entranceGreetingMediaType;
+        return $this->entranceGreetingMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entranceGreetingMediaType;
     }
 
     /**
      * Setter for entranceGreetingMediaType
      *
-     * @ElementName entranceGreetingMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $entranceGreetingMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $entranceGreetingMediaType
      * @return $this
      */
     public function setEntranceGreetingMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $entranceGreetingMediaType)
     {
         $this->entranceGreetingMediaType = $entranceGreetingMediaType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEntranceGreetingMediaType()
+    {
+        $this->entranceGreetingMediaType = null;
         return $this;
     }
 

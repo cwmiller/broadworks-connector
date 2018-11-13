@@ -16,6 +16,7 @@ class SystemNetworkRoutingServerDeleteRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
@@ -23,24 +24,31 @@ class SystemNetworkRoutingServerDeleteRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
     {
         $this->netAddress = $netAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
         return $this;
     }
 

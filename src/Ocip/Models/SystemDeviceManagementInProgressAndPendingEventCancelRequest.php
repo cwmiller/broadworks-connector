@@ -19,18 +19,22 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
 
     /**
      * @ElementName cancelAllEvents
+     * @Type string
      * @var string|null
      */
     private $cancelAllEvents = null;
 
     /**
      * @ElementName cancelMultipleEvents
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents|null
      */
     private $cancelMultipleEvents = null;
 
     /**
      * @ElementName eventId
+     * @Type int
+     * @Array
      * @var int[]
      */
     private $eventId = array(
@@ -40,19 +44,17 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
     /**
      * Getter for cancelAllEvents
      *
-     * @ElementName cancelAllEvents
-     * @return string|null
+     * @return string
      */
     public function getCancelAllEvents()
     {
-        return $this->cancelAllEvents;
+        return $this->cancelAllEvents instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cancelAllEvents;
     }
 
     /**
      * Setter for cancelAllEvents
      *
-     * @ElementName cancelAllEvents
-     * @param string|null $cancelAllEvents
+     * @param string $cancelAllEvents
      * @return $this
      */
     public function setCancelAllEvents($cancelAllEvents)
@@ -62,21 +64,28 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCancelAllEvents()
+    {
+        $this->cancelAllEvents = null;
+        return $this;
+    }
+
+    /**
      * Getter for cancelMultipleEvents
      *
-     * @ElementName cancelMultipleEvents
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents
      */
     public function getCancelMultipleEvents()
     {
-        return $this->cancelMultipleEvents;
+        return $this->cancelMultipleEvents instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cancelMultipleEvents;
     }
 
     /**
      * Setter for cancelMultipleEvents
      *
-     * @ElementName cancelMultipleEvents
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents|null $cancelMultipleEvents
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents $cancelMultipleEvents
      * @return $this
      */
     public function setCancelMultipleEvents(\CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents $cancelMultipleEvents)
@@ -86,20 +95,27 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCancelMultipleEvents()
+    {
+        $this->cancelMultipleEvents = null;
+        return $this;
+    }
+
+    /**
      * Getter for eventId
      *
-     * @ElementName eventId
      * @return int[]
      */
     public function getEventId()
     {
-        return $this->eventId;
+        return $this->eventId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eventId;
     }
 
     /**
      * Setter for eventId
      *
-     * @ElementName eventId
      * @param int[] $eventId
      * @return $this
      */
@@ -110,15 +126,23 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEventId()
+    {
+        $this->eventId = null;
+        return $this;
+    }
+
+    /**
      * Adder for eventId
      *
-     * @ElementName eventId
      * @param int $eventId
      * @return $this
      */
     public function addEventId(int $eventId)
     {
-        $this->eventId []= $eventId;
+        $this->eventId[] = $eventId;
         return $this;
     }
 

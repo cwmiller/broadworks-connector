@@ -19,12 +19,14 @@ class SystemDeviceTypeImportRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName file
+     * @Type string
      * @var string|null
      */
     private $file = null;
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
@@ -32,19 +34,17 @@ class SystemDeviceTypeImportRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for file
      *
-     * @ElementName file
-     * @return string|null
+     * @return string
      */
     public function getFile()
     {
-        return $this->file;
+        return $this->file instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->file;
     }
 
     /**
      * Setter for file
      *
-     * @ElementName file
-     * @param string|null $file
+     * @param string $file
      * @return $this
      */
     public function setFile($file)
@@ -54,26 +54,42 @@ class SystemDeviceTypeImportRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFile()
+    {
+        $this->file = null;
+        return $this;
+    }
+
+    /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
     {
         $this->resellerId = $resellerId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
         return $this;
     }
 

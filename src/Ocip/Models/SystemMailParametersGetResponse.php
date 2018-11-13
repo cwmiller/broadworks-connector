@@ -15,30 +15,35 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName primaryServerNetAddress
+     * @Type string
      * @var string|null
      */
     private $primaryServerNetAddress = null;
 
     /**
      * @ElementName secondaryServerNetAddress
+     * @Type string
      * @var string|null
      */
     private $secondaryServerNetAddress = null;
 
     /**
      * @ElementName defaultFromAddress
+     * @Type string
      * @var string|null
      */
     private $defaultFromAddress = null;
 
     /**
      * @ElementName defaultSubject
+     * @Type string
      * @var string|null
      */
     private $defaultSubject = null;
 
     /**
      * @ElementName supportDNSSRVForMailServerAccess
+     * @Type bool
      * @var bool|null
      */
     private $supportDNSSRVForMailServerAccess = null;
@@ -46,19 +51,17 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for primaryServerNetAddress
      *
-     * @ElementName primaryServerNetAddress
-     * @return string|null
+     * @return string
      */
     public function getPrimaryServerNetAddress()
     {
-        return $this->primaryServerNetAddress;
+        return $this->primaryServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->primaryServerNetAddress;
     }
 
     /**
      * Setter for primaryServerNetAddress
      *
-     * @ElementName primaryServerNetAddress
-     * @param string|null $primaryServerNetAddress
+     * @param string $primaryServerNetAddress
      * @return $this
      */
     public function setPrimaryServerNetAddress($primaryServerNetAddress)
@@ -68,21 +71,28 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrimaryServerNetAddress()
+    {
+        $this->primaryServerNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for secondaryServerNetAddress
      *
-     * @ElementName secondaryServerNetAddress
-     * @return string|null
+     * @return string
      */
     public function getSecondaryServerNetAddress()
     {
-        return $this->secondaryServerNetAddress;
+        return $this->secondaryServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secondaryServerNetAddress;
     }
 
     /**
      * Setter for secondaryServerNetAddress
      *
-     * @ElementName secondaryServerNetAddress
-     * @param string|null $secondaryServerNetAddress
+     * @param string $secondaryServerNetAddress
      * @return $this
      */
     public function setSecondaryServerNetAddress($secondaryServerNetAddress)
@@ -92,21 +102,28 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecondaryServerNetAddress()
+    {
+        $this->secondaryServerNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @return string|null
+     * @return string
      */
     public function getDefaultFromAddress()
     {
-        return $this->defaultFromAddress;
+        return $this->defaultFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultFromAddress;
     }
 
     /**
      * Setter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @param string|null $defaultFromAddress
+     * @param string $defaultFromAddress
      * @return $this
      */
     public function setDefaultFromAddress($defaultFromAddress)
@@ -116,21 +133,28 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultFromAddress()
+    {
+        $this->defaultFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultSubject
      *
-     * @ElementName defaultSubject
-     * @return string|null
+     * @return string
      */
     public function getDefaultSubject()
     {
-        return $this->defaultSubject;
+        return $this->defaultSubject instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultSubject;
     }
 
     /**
      * Setter for defaultSubject
      *
-     * @ElementName defaultSubject
-     * @param string|null $defaultSubject
+     * @param string $defaultSubject
      * @return $this
      */
     public function setDefaultSubject($defaultSubject)
@@ -140,26 +164,42 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultSubject()
+    {
+        $this->defaultSubject = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportDNSSRVForMailServerAccess
      *
-     * @ElementName supportDNSSRVForMailServerAccess
-     * @return bool|null
+     * @return bool
      */
     public function getSupportDNSSRVForMailServerAccess()
     {
-        return $this->supportDNSSRVForMailServerAccess;
+        return $this->supportDNSSRVForMailServerAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportDNSSRVForMailServerAccess;
     }
 
     /**
      * Setter for supportDNSSRVForMailServerAccess
      *
-     * @ElementName supportDNSSRVForMailServerAccess
-     * @param bool|null $supportDNSSRVForMailServerAccess
+     * @param bool $supportDNSSRVForMailServerAccess
      * @return $this
      */
     public function setSupportDNSSRVForMailServerAccess($supportDNSSRVForMailServerAccess)
     {
         $this->supportDNSSRVForMailServerAccess = $supportDNSSRVForMailServerAccess;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupportDNSSRVForMailServerAccess()
+    {
+        $this->supportDNSSRVForMailServerAccess = null;
         return $this;
     }
 

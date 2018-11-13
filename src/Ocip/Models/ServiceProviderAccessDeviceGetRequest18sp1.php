@@ -17,12 +17,14 @@ class ServiceProviderAccessDeviceGetRequest18sp1 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
@@ -30,19 +32,17 @@ class ServiceProviderAccessDeviceGetRequest18sp1 extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -52,26 +52,42 @@ class ServiceProviderAccessDeviceGetRequest18sp1 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
     {
         $this->deviceName = $deviceName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
         return $this;
     }
 

@@ -12,18 +12,21 @@ class MWIDeliveryToMobileEndpointTemplateLine
 
     /**
      * @ElementName prefix
+     * @Type string
      * @var string|null
      */
     private $prefix = null;
 
     /**
      * @ElementName tag
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag|null
      */
     private $tag = null;
 
     /**
      * @ElementName postfix
+     * @Type string
      * @var string|null
      */
     private $postfix = null;
@@ -31,19 +34,17 @@ class MWIDeliveryToMobileEndpointTemplateLine
     /**
      * Getter for prefix
      *
-     * @ElementName prefix
-     * @return string|null
+     * @return string
      */
     public function getPrefix()
     {
-        return $this->prefix;
+        return $this->prefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefix;
     }
 
     /**
      * Setter for prefix
      *
-     * @ElementName prefix
-     * @param string|null $prefix
+     * @param string $prefix
      * @return $this
      */
     public function setPrefix($prefix)
@@ -53,21 +54,28 @@ class MWIDeliveryToMobileEndpointTemplateLine
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrefix()
+    {
+        $this->prefix = null;
+        return $this;
+    }
+
+    /**
      * Getter for tag
      *
-     * @ElementName tag
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag
      */
     public function getTag()
     {
-        return $this->tag;
+        return $this->tag instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tag;
     }
 
     /**
      * Setter for tag
      *
-     * @ElementName tag
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag|null $tag
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag $tag
      * @return $this
      */
     public function setTag(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateTag $tag)
@@ -77,26 +85,42 @@ class MWIDeliveryToMobileEndpointTemplateLine
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTag()
+    {
+        $this->tag = null;
+        return $this;
+    }
+
+    /**
      * Getter for postfix
      *
-     * @ElementName postfix
-     * @return string|null
+     * @return string
      */
     public function getPostfix()
     {
-        return $this->postfix;
+        return $this->postfix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->postfix;
     }
 
     /**
      * Setter for postfix
      *
-     * @ElementName postfix
-     * @param string|null $postfix
+     * @param string $postfix
      * @return $this
      */
     public function setPostfix($postfix)
     {
         $this->postfix = $postfix;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPostfix()
+    {
+        $this->postfix = null;
         return $this;
     }
 

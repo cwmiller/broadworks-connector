@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupAdminType GROUP()
  * @method static GroupAdminType DEPARTMENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupAdminType extends \MyCLabs\Enum\Enum
 {

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceAccessProtocol16 HTTPS()
  * @method static DeviceAccessProtocol16 FTP()
  * @method static DeviceAccessProtocol16 TFTP()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceAccessProtocol16 extends \MyCLabs\Enum\Enum
 {

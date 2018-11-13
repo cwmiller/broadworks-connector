@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SessionTimerRefresher LOCAL()
  * @method static SessionTimerRefresher REMOTE()
- * @ValueType string
+ * @EnumValueType string
  */
 class SessionTimerRefresher extends \MyCLabs\Enum\Enum
 {

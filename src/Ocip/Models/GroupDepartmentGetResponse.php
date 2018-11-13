@@ -17,18 +17,21 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName parentDepartmentKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $parentDepartmentKey = null;
 
     /**
      * @ElementName callingLineIdName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -36,19 +39,17 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for parentDepartmentKey
      *
-     * @ElementName parentDepartmentKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      */
     public function getParentDepartmentKey()
     {
-        return $this->parentDepartmentKey;
+        return $this->parentDepartmentKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->parentDepartmentKey;
     }
 
     /**
      * Setter for parentDepartmentKey
      *
-     * @ElementName parentDepartmentKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $parentDepartmentKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $parentDepartmentKey
      * @return $this
      */
     public function setParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $parentDepartmentKey)
@@ -58,21 +59,28 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetParentDepartmentKey()
+    {
+        $this->parentDepartmentKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdName()
     {
-        return $this->callingLineIdName;
+        return $this->callingLineIdName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdName;
     }
 
     /**
      * Setter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @param string|null $callingLineIdName
+     * @param string $callingLineIdName
      * @return $this
      */
     public function setCallingLineIdName($callingLineIdName)
@@ -82,26 +90,42 @@ class GroupDepartmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdName()
+    {
+        $this->callingLineIdName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdPhoneNumber()
     {
-        return $this->callingLineIdPhoneNumber;
+        return $this->callingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @param string $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
     {
         $this->callingLineIdPhoneNumber = $callingLineIdPhoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallingLineIdPhoneNumber()
+    {
+        $this->callingLineIdPhoneNumber = null;
         return $this;
     }
 

@@ -14,6 +14,7 @@ class UserDirectedCallPickupWithBargeInGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName enableBargeInWarningTone
+     * @Type bool
      * @var bool|null
      */
     private $enableBargeInWarningTone = null;
@@ -21,24 +22,31 @@ class UserDirectedCallPickupWithBargeInGetResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for enableBargeInWarningTone
      *
-     * @ElementName enableBargeInWarningTone
-     * @return bool|null
+     * @return bool
      */
     public function getEnableBargeInWarningTone()
     {
-        return $this->enableBargeInWarningTone;
+        return $this->enableBargeInWarningTone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableBargeInWarningTone;
     }
 
     /**
      * Setter for enableBargeInWarningTone
      *
-     * @ElementName enableBargeInWarningTone
-     * @param bool|null $enableBargeInWarningTone
+     * @param bool $enableBargeInWarningTone
      * @return $this
      */
     public function setEnableBargeInWarningTone($enableBargeInWarningTone)
     {
         $this->enableBargeInWarningTone = $enableBargeInWarningTone;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableBargeInWarningTone()
+    {
+        $this->enableBargeInWarningTone = null;
         return $this;
     }
 

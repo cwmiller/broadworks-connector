@@ -19,6 +19,7 @@ class GroupDirectoryNumberHuntingGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName agentUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentUserTable = null;
@@ -26,24 +27,31 @@ class GroupDirectoryNumberHuntingGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for agentUserTable
      *
-     * @ElementName agentUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAgentUserTable()
     {
-        return $this->agentUserTable;
+        return $this->agentUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserTable;
     }
 
     /**
      * Setter for agentUserTable
      *
-     * @ElementName agentUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable
      * @return $this
      */
     public function setAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable)
     {
         $this->agentUserTable = $agentUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentUserTable()
+    {
+        $this->agentUserTable = null;
         return $this;
     }
 

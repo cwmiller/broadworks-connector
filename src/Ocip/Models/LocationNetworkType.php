@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static LocationNetworkType FIXED()
  * @method static LocationNetworkType MOBILE()
- * @ValueType string
+ * @EnumValueType string
  */
 class LocationNetworkType extends \MyCLabs\Enum\Enum
 {

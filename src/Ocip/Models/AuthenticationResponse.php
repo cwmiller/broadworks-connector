@@ -14,18 +14,21 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName nonce
+     * @Type string
      * @var string|null
      */
     private $nonce = null;
 
     /**
      * @ElementName passwordAlgorithm
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm
      * @var \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm|null
      */
     private $passwordAlgorithm = null;
@@ -33,19 +36,17 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -55,21 +56,28 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for nonce
      *
-     * @ElementName nonce
-     * @return string|null
+     * @return string
      */
     public function getNonce()
     {
-        return $this->nonce;
+        return $this->nonce instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nonce;
     }
 
     /**
      * Setter for nonce
      *
-     * @ElementName nonce
-     * @param string|null $nonce
+     * @param string $nonce
      * @return $this
      */
     public function setNonce($nonce)
@@ -79,26 +87,42 @@ class AuthenticationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNonce()
+    {
+        $this->nonce = null;
+        return $this;
+    }
+
+    /**
      * Getter for passwordAlgorithm
      *
-     * @ElementName passwordAlgorithm
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm
      */
     public function getPasswordAlgorithm()
     {
-        return $this->passwordAlgorithm;
+        return $this->passwordAlgorithm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passwordAlgorithm;
     }
 
     /**
      * Setter for passwordAlgorithm
      *
-     * @ElementName passwordAlgorithm
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm|null $passwordAlgorithm
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm $passwordAlgorithm
      * @return $this
      */
     public function setPasswordAlgorithm(\CWM\BroadWorksConnector\Ocip\Models\DigitalSignatureAlgorithm $passwordAlgorithm)
     {
         $this->passwordAlgorithm = $passwordAlgorithm;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPasswordAlgorithm()
+    {
+        $this->passwordAlgorithm = null;
         return $this;
     }
 

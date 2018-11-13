@@ -16,18 +16,21 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName allowEmergencyCalls
+     * @Type bool
      * @var bool|null
      */
     private $allowEmergencyCalls = null;
 
     /**
      * @ElementName allowCallsToVoicePortal
+     * @Type bool
      * @var bool|null
      */
     private $allowCallsToVoicePortal = null;
@@ -35,19 +38,17 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -57,21 +58,28 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowEmergencyCalls
      *
-     * @ElementName allowEmergencyCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAllowEmergencyCalls()
     {
-        return $this->allowEmergencyCalls;
+        return $this->allowEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowEmergencyCalls;
     }
 
     /**
      * Setter for allowEmergencyCalls
      *
-     * @ElementName allowEmergencyCalls
-     * @param bool|null $allowEmergencyCalls
+     * @param bool $allowEmergencyCalls
      * @return $this
      */
     public function setAllowEmergencyCalls($allowEmergencyCalls)
@@ -81,26 +89,42 @@ class GroupFlexibleSeatingHostRoutingPoliciesModifyRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowEmergencyCalls()
+    {
+        $this->allowEmergencyCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowCallsToVoicePortal
      *
-     * @ElementName allowCallsToVoicePortal
-     * @return bool|null
+     * @return bool
      */
     public function getAllowCallsToVoicePortal()
     {
-        return $this->allowCallsToVoicePortal;
+        return $this->allowCallsToVoicePortal instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCallsToVoicePortal;
     }
 
     /**
      * Setter for allowCallsToVoicePortal
      *
-     * @ElementName allowCallsToVoicePortal
-     * @param bool|null $allowCallsToVoicePortal
+     * @param bool $allowCallsToVoicePortal
      * @return $this
      */
     public function setAllowCallsToVoicePortal($allowCallsToVoicePortal)
     {
         $this->allowCallsToVoicePortal = $allowCallsToVoicePortal;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowCallsToVoicePortal()
+    {
+        $this->allowCallsToVoicePortal = null;
         return $this;
     }
 

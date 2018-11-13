@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EarlyMediaSupportType NO_EARLY_MEDIA()
  * @method static EarlyMediaSupportType RTP_SESSION()
  * @method static EarlyMediaSupportType RTP_EARLY_SESSION()
- * @ValueType string
+ * @EnumValueType string
  */
 class EarlyMediaSupportType extends \MyCLabs\Enum\Enum
 {

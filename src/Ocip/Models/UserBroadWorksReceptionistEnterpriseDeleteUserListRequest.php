@@ -17,12 +17,15 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName monitoredUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $monitoredUserId = array(
@@ -32,19 +35,17 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -54,20 +55,27 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for monitoredUserId
      *
-     * @ElementName monitoredUserId
      * @return string[]
      */
     public function getMonitoredUserId()
     {
-        return $this->monitoredUserId;
+        return $this->monitoredUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->monitoredUserId;
     }
 
     /**
      * Setter for monitoredUserId
      *
-     * @ElementName monitoredUserId
      * @param string[] $monitoredUserId
      * @return $this
      */
@@ -78,15 +86,23 @@ class UserBroadWorksReceptionistEnterpriseDeleteUserListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMonitoredUserId()
+    {
+        $this->monitoredUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for monitoredUserId
      *
-     * @ElementName monitoredUserId
      * @param string $monitoredUserId
      * @return $this
      */
     public function addMonitoredUserId(string $monitoredUserId)
     {
-        $this->monitoredUserId []= $monitoredUserId;
+        $this->monitoredUserId[] = $monitoredUserId;
         return $this;
     }
 

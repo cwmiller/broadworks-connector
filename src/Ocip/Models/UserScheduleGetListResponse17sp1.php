@@ -19,6 +19,8 @@ class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName scheduleGlobalKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey[]
      */
     private $scheduleGlobalKey = array(
@@ -28,18 +30,16 @@ class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for scheduleGlobalKey
      *
-     * @ElementName scheduleGlobalKey
      * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey[]
      */
     public function getScheduleGlobalKey()
     {
-        return $this->scheduleGlobalKey;
+        return $this->scheduleGlobalKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleGlobalKey;
     }
 
     /**
      * Setter for scheduleGlobalKey
      *
-     * @ElementName scheduleGlobalKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey[] $scheduleGlobalKey
      * @return $this
      */
@@ -50,15 +50,23 @@ class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleGlobalKey()
+    {
+        $this->scheduleGlobalKey = null;
+        return $this;
+    }
+
+    /**
      * Adder for scheduleGlobalKey
      *
-     * @ElementName scheduleGlobalKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $scheduleGlobalKey
      * @return $this
      */
     public function addScheduleGlobalKey($scheduleGlobalKey)
     {
-        $this->scheduleGlobalKey []= $scheduleGlobalKey;
+        $this->scheduleGlobalKey[] = $scheduleGlobalKey;
         return $this;
     }
 

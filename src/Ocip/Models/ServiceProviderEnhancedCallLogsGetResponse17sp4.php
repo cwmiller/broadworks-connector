@@ -14,12 +14,14 @@ class ServiceProviderEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksCon
 
     /**
      * @ElementName maxLoggedCalls
+     * @Type int
      * @var int|null
      */
     private $maxLoggedCalls = null;
 
     /**
      * @ElementName callExpirationDays
+     * @Type int
      * @var int|null
      */
     private $callExpirationDays = null;
@@ -27,19 +29,17 @@ class ServiceProviderEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksCon
     /**
      * Getter for maxLoggedCalls
      *
-     * @ElementName maxLoggedCalls
-     * @return int|null
+     * @return int
      */
     public function getMaxLoggedCalls()
     {
-        return $this->maxLoggedCalls;
+        return $this->maxLoggedCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxLoggedCalls;
     }
 
     /**
      * Setter for maxLoggedCalls
      *
-     * @ElementName maxLoggedCalls
-     * @param int|null $maxLoggedCalls
+     * @param int $maxLoggedCalls
      * @return $this
      */
     public function setMaxLoggedCalls($maxLoggedCalls)
@@ -49,26 +49,42 @@ class ServiceProviderEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxLoggedCalls()
+    {
+        $this->maxLoggedCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for callExpirationDays
      *
-     * @ElementName callExpirationDays
-     * @return int|null
+     * @return int
      */
     public function getCallExpirationDays()
     {
-        return $this->callExpirationDays;
+        return $this->callExpirationDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callExpirationDays;
     }
 
     /**
      * Setter for callExpirationDays
      *
-     * @ElementName callExpirationDays
-     * @param int|null $callExpirationDays
+     * @param int $callExpirationDays
      * @return $this
      */
     public function setCallExpirationDays($callExpirationDays)
     {
         $this->callExpirationDays = $callExpirationDays;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallExpirationDays()
+    {
+        $this->callExpirationDays = null;
         return $this;
     }
 

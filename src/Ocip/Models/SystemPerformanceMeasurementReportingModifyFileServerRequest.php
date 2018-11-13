@@ -16,12 +16,14 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest extends \CWM\
 
     /**
      * @ElementName ftpHostNetAddress
+     * @Type string
      * @var string|null
      */
     private $ftpHostNetAddress = null;
 
     /**
      * @ElementName passiveFTP
+     * @Type bool
      * @var bool|null
      */
     private $passiveFTP = null;
@@ -29,19 +31,17 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest extends \CWM\
     /**
      * Getter for ftpHostNetAddress
      *
-     * @ElementName ftpHostNetAddress
-     * @return string|null
+     * @return string
      */
     public function getFtpHostNetAddress()
     {
-        return $this->ftpHostNetAddress;
+        return $this->ftpHostNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpHostNetAddress;
     }
 
     /**
      * Setter for ftpHostNetAddress
      *
-     * @ElementName ftpHostNetAddress
-     * @param string|null $ftpHostNetAddress
+     * @param string $ftpHostNetAddress
      * @return $this
      */
     public function setFtpHostNetAddress($ftpHostNetAddress)
@@ -51,26 +51,42 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpHostNetAddress()
+    {
+        $this->ftpHostNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for passiveFTP
      *
-     * @ElementName passiveFTP
-     * @return bool|null
+     * @return bool
      */
     public function getPassiveFTP()
     {
-        return $this->passiveFTP;
+        return $this->passiveFTP instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passiveFTP;
     }
 
     /**
      * Setter for passiveFTP
      *
-     * @ElementName passiveFTP
-     * @param bool|null $passiveFTP
+     * @param bool $passiveFTP
      * @return $this
      */
     public function setPassiveFTP($passiveFTP)
     {
         $this->passiveFTP = $passiveFTP;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPassiveFTP()
+    {
+        $this->passiveFTP = null;
         return $this;
     }
 

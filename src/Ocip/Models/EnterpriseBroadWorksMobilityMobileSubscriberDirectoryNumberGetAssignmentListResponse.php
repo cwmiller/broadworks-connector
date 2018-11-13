@@ -28,6 +28,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentLi
 
     /**
      * @ElementName mobileSubscriberDirectoryNumbersAssignmentTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumbersAssignmentTable = null;
@@ -35,24 +36,31 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentLi
     /**
      * Getter for mobileSubscriberDirectoryNumbersAssignmentTable
      *
-     * @ElementName mobileSubscriberDirectoryNumbersAssignmentTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMobileSubscriberDirectoryNumbersAssignmentTable()
     {
-        return $this->mobileSubscriberDirectoryNumbersAssignmentTable;
+        return $this->mobileSubscriberDirectoryNumbersAssignmentTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileSubscriberDirectoryNumbersAssignmentTable;
     }
 
     /**
      * Setter for mobileSubscriberDirectoryNumbersAssignmentTable
      *
-     * @ElementName mobileSubscriberDirectoryNumbersAssignmentTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mobileSubscriberDirectoryNumbersAssignmentTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileSubscriberDirectoryNumbersAssignmentTable
      * @return $this
      */
     public function setMobileSubscriberDirectoryNumbersAssignmentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileSubscriberDirectoryNumbersAssignmentTable)
     {
         $this->mobileSubscriberDirectoryNumbersAssignmentTable = $mobileSubscriberDirectoryNumbersAssignmentTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobileSubscriberDirectoryNumbersAssignmentTable()
+    {
+        $this->mobileSubscriberDirectoryNumbersAssignmentTable = null;
         return $this;
     }
 

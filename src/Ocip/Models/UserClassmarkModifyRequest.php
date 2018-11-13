@@ -16,12 +16,14 @@ class UserClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName classmark
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class UserClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,28 +52,46 @@ class UserClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for classmark
      *
-     * @ElementName classmark
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getClassmark()
     {
-        return $this->classmark;
+        return $this->classmark instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->classmark;
     }
 
     /**
      * Setter for classmark
      *
-     * @ElementName classmark
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $classmark
+     * @param string|null $classmark
      * @return $this
      */
     public function setClassmark($classmark)
     {
-        $this->classmark = $classmark;
+        if ($classmark === null) {
+            $this->classmark = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->classmark = $classmark;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetClassmark()
+    {
+        $this->classmark = null;
         return $this;
     }
 

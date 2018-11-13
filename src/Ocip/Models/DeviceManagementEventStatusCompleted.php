@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static DeviceManagementEventStatusCompleted CANCELED()
  * @method static DeviceManagementEventStatusCompleted COMPLETED()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementEventStatusCompleted extends \MyCLabs\Enum\Enum
 {

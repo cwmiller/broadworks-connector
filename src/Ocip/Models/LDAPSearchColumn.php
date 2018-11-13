@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static LDAPSearchColumn _2()
  * @method static LDAPSearchColumn _3()
  * @method static LDAPSearchColumn _4()
- * @ValueType int
+ * @EnumValueType int
  */
 class LDAPSearchColumn extends \MyCLabs\Enum\Enum
 {

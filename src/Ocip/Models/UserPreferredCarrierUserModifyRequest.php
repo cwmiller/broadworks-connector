@@ -16,24 +16,28 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName intraLataCarrier
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
     private $intraLataCarrier = null;
 
     /**
      * @ElementName interLataCarrier
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
     private $interLataCarrier = null;
 
     /**
      * @ElementName internationalCarrier
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
      */
     private $internationalCarrier = null;
@@ -41,19 +45,17 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -63,21 +65,28 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for intraLataCarrier
      *
-     * @ElementName intraLataCarrier
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      */
     public function getIntraLataCarrier()
     {
-        return $this->intraLataCarrier;
+        return $this->intraLataCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->intraLataCarrier;
     }
 
     /**
      * Setter for intraLataCarrier
      *
-     * @ElementName intraLataCarrier
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null $intraLataCarrier
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify $intraLataCarrier
      * @return $this
      */
     public function setIntraLataCarrier(\CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify $intraLataCarrier)
@@ -87,21 +96,28 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIntraLataCarrier()
+    {
+        $this->intraLataCarrier = null;
+        return $this;
+    }
+
+    /**
      * Getter for interLataCarrier
      *
-     * @ElementName interLataCarrier
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      */
     public function getInterLataCarrier()
     {
-        return $this->interLataCarrier;
+        return $this->interLataCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interLataCarrier;
     }
 
     /**
      * Setter for interLataCarrier
      *
-     * @ElementName interLataCarrier
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null $interLataCarrier
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify $interLataCarrier
      * @return $this
      */
     public function setInterLataCarrier(\CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify $interLataCarrier)
@@ -111,26 +127,42 @@ class UserPreferredCarrierUserModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInterLataCarrier()
+    {
+        $this->interLataCarrier = null;
+        return $this;
+    }
+
+    /**
      * Getter for internationalCarrier
      *
-     * @ElementName internationalCarrier
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify
      */
     public function getInternationalCarrier()
     {
-        return $this->internationalCarrier;
+        return $this->internationalCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internationalCarrier;
     }
 
     /**
      * Setter for internationalCarrier
      *
-     * @ElementName internationalCarrier
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify|null $internationalCarrier
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify $internationalCarrier
      * @return $this
      */
     public function setInternationalCarrier(\CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierNameModify $internationalCarrier)
     {
         $this->internationalCarrier = $internationalCarrier;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInternationalCarrier()
+    {
+        $this->internationalCarrier = null;
         return $this;
     }
 

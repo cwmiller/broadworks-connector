@@ -16,18 +16,21 @@ class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -35,19 +38,17 @@ class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -57,21 +58,28 @@ class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
@@ -81,26 +89,42 @@ class GroupFindMeFollowMeModifyInstanceRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
         return $this;
     }
 

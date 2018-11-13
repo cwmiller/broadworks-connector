@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupPasscodeRulesLevel SYSTEM()
  * @method static GroupPasscodeRulesLevel SERVICE_PROVIDER()
  * @method static GroupPasscodeRulesLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupPasscodeRulesLevel extends \MyCLabs\Enum\Enum
 {

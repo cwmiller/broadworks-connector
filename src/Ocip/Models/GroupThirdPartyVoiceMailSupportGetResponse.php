@@ -14,12 +14,14 @@ class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName groupServer
+     * @Type string
      * @var string|null
      */
     private $groupServer = null;
@@ -27,19 +29,17 @@ class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -49,26 +49,42 @@ class GroupThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupServer
      *
-     * @ElementName groupServer
-     * @return string|null
+     * @return string
      */
     public function getGroupServer()
     {
-        return $this->groupServer;
+        return $this->groupServer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupServer;
     }
 
     /**
      * Setter for groupServer
      *
-     * @ElementName groupServer
-     * @param string|null $groupServer
+     * @param string $groupServer
      * @return $this
      */
     public function setGroupServer($groupServer)
     {
         $this->groupServer = $groupServer;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupServer()
+    {
+        $this->groupServer = null;
         return $this;
     }
 

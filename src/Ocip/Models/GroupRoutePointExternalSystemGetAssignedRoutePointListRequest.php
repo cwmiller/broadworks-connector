@@ -18,30 +18,36 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName externalSystem
+     * @Type string
      * @var string|null
      */
     private $externalSystem = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaRoutePointName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
     private $searchCriteriaRoutePointName = array(
@@ -51,19 +57,17 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -73,21 +77,28 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -97,21 +108,28 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for externalSystem
      *
-     * @ElementName externalSystem
-     * @return string|null
+     * @return string
      */
     public function getExternalSystem()
     {
-        return $this->externalSystem;
+        return $this->externalSystem instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalSystem;
     }
 
     /**
      * Setter for externalSystem
      *
-     * @ElementName externalSystem
-     * @param string|null $externalSystem
+     * @param string $externalSystem
      * @return $this
      */
     public function setExternalSystem($externalSystem)
@@ -121,21 +139,28 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExternalSystem()
+    {
+        $this->externalSystem = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -145,20 +170,27 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaRoutePointName
      *
-     * @ElementName searchCriteriaRoutePointName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
     public function getSearchCriteriaRoutePointName()
     {
-        return $this->searchCriteriaRoutePointName;
+        return $this->searchCriteriaRoutePointName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaRoutePointName;
     }
 
     /**
      * Setter for searchCriteriaRoutePointName
      *
-     * @ElementName searchCriteriaRoutePointName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[] $searchCriteriaRoutePointName
      * @return $this
      */
@@ -169,15 +201,23 @@ class GroupRoutePointExternalSystemGetAssignedRoutePointListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaRoutePointName()
+    {
+        $this->searchCriteriaRoutePointName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaRoutePointName
      *
-     * @ElementName searchCriteriaRoutePointName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName $searchCriteriaRoutePointName
      * @return $this
      */
     public function addSearchCriteriaRoutePointName($searchCriteriaRoutePointName)
     {
-        $this->searchCriteriaRoutePointName []= $searchCriteriaRoutePointName;
+        $this->searchCriteriaRoutePointName[] = $searchCriteriaRoutePointName;
         return $this;
     }
 

@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceManagementEventLevel USER()
  * @method static DeviceManagementEventLevel DEVICE_TYPE_SERVICE_PROVIDER()
  * @method static DeviceManagementEventLevel SERVICE_PROVIDER()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementEventLevel extends \MyCLabs\Enum\Enum
 {

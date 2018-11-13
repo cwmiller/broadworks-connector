@@ -14,6 +14,8 @@ class UserOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName applicationId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $applicationId = array(
@@ -23,18 +25,16 @@ class UserOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for applicationId
      *
-     * @ElementName applicationId
      * @return string[]
      */
     public function getApplicationId()
     {
-        return $this->applicationId;
+        return $this->applicationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationId;
     }
 
     /**
      * Setter for applicationId
      *
-     * @ElementName applicationId
      * @param string[] $applicationId
      * @return $this
      */
@@ -45,15 +45,23 @@ class UserOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationId()
+    {
+        $this->applicationId = null;
+        return $this;
+    }
+
+    /**
      * Adder for applicationId
      *
-     * @ElementName applicationId
      * @param string $applicationId
      * @return $this
      */
     public function addApplicationId(string $applicationId)
     {
-        $this->applicationId []= $applicationId;
+        $this->applicationId[] = $applicationId;
         return $this;
     }
 

@@ -16,30 +16,35 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName holidayScheduleName
+     * @Type string
      * @var string|null
      */
     private $holidayScheduleName = null;
 
     /**
      * @ElementName newHolidayScheduleName
+     * @Type string
      * @var string|null
      */
     private $newHolidayScheduleName = null;
 
     /**
      * @ElementName holiday01
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +52,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday02
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -54,6 +60,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday03
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -61,6 +68,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday04
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -68,6 +76,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday05
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -75,6 +84,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday06
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -82,6 +92,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday07
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -89,6 +100,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday08
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -96,6 +108,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday09
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -103,6 +116,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday10
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -110,6 +124,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday11
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -117,6 +132,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday12
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -124,6 +140,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday13
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -131,6 +148,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday14
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -138,6 +156,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday15
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -145,6 +164,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday16
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -152,6 +172,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday17
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -159,6 +180,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday18
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -166,6 +188,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday19
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -173,6 +196,7 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName holiday20
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Holiday
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -181,19 +205,17 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -203,21 +225,28 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -227,21 +256,28 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
-     * @return string|null
+     * @return string
      */
     public function getHolidayScheduleName()
     {
-        return $this->holidayScheduleName;
+        return $this->holidayScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidayScheduleName;
     }
 
     /**
      * Setter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
-     * @param string|null $holidayScheduleName
+     * @param string $holidayScheduleName
      * @return $this
      */
     public function setHolidayScheduleName($holidayScheduleName)
@@ -251,21 +287,28 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHolidayScheduleName()
+    {
+        $this->holidayScheduleName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newHolidayScheduleName
      *
-     * @ElementName newHolidayScheduleName
-     * @return string|null
+     * @return string
      */
     public function getNewHolidayScheduleName()
     {
-        return $this->newHolidayScheduleName;
+        return $this->newHolidayScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newHolidayScheduleName;
     }
 
     /**
      * Setter for newHolidayScheduleName
      *
-     * @ElementName newHolidayScheduleName
-     * @param string|null $newHolidayScheduleName
+     * @param string $newHolidayScheduleName
      * @return $this
      */
     public function setNewHolidayScheduleName($newHolidayScheduleName)
@@ -275,522 +318,711 @@ class GroupHolidayScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewHolidayScheduleName()
+    {
+        $this->newHolidayScheduleName = null;
+        return $this;
+    }
+
+    /**
      * Getter for holiday01
      *
-     * @ElementName holiday01
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday01()
     {
-        return $this->holiday01;
+        return $this->holiday01 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday01;
     }
 
     /**
      * Setter for holiday01
      *
-     * @ElementName holiday01
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday01
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday01
      * @return $this
      */
     public function setHoliday01(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday01)
     {
-        $this->holiday01 = $holiday01;
+        if ($holiday01 === null) {
+            $this->holiday01 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday01 = $holiday01;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday01()
+    {
+        $this->holiday01 = null;
         return $this;
     }
 
     /**
      * Getter for holiday02
      *
-     * @ElementName holiday02
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday02()
     {
-        return $this->holiday02;
+        return $this->holiday02 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday02;
     }
 
     /**
      * Setter for holiday02
      *
-     * @ElementName holiday02
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday02
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday02
      * @return $this
      */
     public function setHoliday02(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday02)
     {
-        $this->holiday02 = $holiday02;
+        if ($holiday02 === null) {
+            $this->holiday02 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday02 = $holiday02;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday02()
+    {
+        $this->holiday02 = null;
         return $this;
     }
 
     /**
      * Getter for holiday03
      *
-     * @ElementName holiday03
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday03()
     {
-        return $this->holiday03;
+        return $this->holiday03 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday03;
     }
 
     /**
      * Setter for holiday03
      *
-     * @ElementName holiday03
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday03
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday03
      * @return $this
      */
     public function setHoliday03(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday03)
     {
-        $this->holiday03 = $holiday03;
+        if ($holiday03 === null) {
+            $this->holiday03 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday03 = $holiday03;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday03()
+    {
+        $this->holiday03 = null;
         return $this;
     }
 
     /**
      * Getter for holiday04
      *
-     * @ElementName holiday04
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday04()
     {
-        return $this->holiday04;
+        return $this->holiday04 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday04;
     }
 
     /**
      * Setter for holiday04
      *
-     * @ElementName holiday04
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday04
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday04
      * @return $this
      */
     public function setHoliday04(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday04)
     {
-        $this->holiday04 = $holiday04;
+        if ($holiday04 === null) {
+            $this->holiday04 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday04 = $holiday04;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday04()
+    {
+        $this->holiday04 = null;
         return $this;
     }
 
     /**
      * Getter for holiday05
      *
-     * @ElementName holiday05
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday05()
     {
-        return $this->holiday05;
+        return $this->holiday05 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday05;
     }
 
     /**
      * Setter for holiday05
      *
-     * @ElementName holiday05
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday05
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday05
      * @return $this
      */
     public function setHoliday05(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday05)
     {
-        $this->holiday05 = $holiday05;
+        if ($holiday05 === null) {
+            $this->holiday05 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday05 = $holiday05;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday05()
+    {
+        $this->holiday05 = null;
         return $this;
     }
 
     /**
      * Getter for holiday06
      *
-     * @ElementName holiday06
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday06()
     {
-        return $this->holiday06;
+        return $this->holiday06 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday06;
     }
 
     /**
      * Setter for holiday06
      *
-     * @ElementName holiday06
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday06
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday06
      * @return $this
      */
     public function setHoliday06(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday06)
     {
-        $this->holiday06 = $holiday06;
+        if ($holiday06 === null) {
+            $this->holiday06 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday06 = $holiday06;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday06()
+    {
+        $this->holiday06 = null;
         return $this;
     }
 
     /**
      * Getter for holiday07
      *
-     * @ElementName holiday07
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday07()
     {
-        return $this->holiday07;
+        return $this->holiday07 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday07;
     }
 
     /**
      * Setter for holiday07
      *
-     * @ElementName holiday07
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday07
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday07
      * @return $this
      */
     public function setHoliday07(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday07)
     {
-        $this->holiday07 = $holiday07;
+        if ($holiday07 === null) {
+            $this->holiday07 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday07 = $holiday07;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday07()
+    {
+        $this->holiday07 = null;
         return $this;
     }
 
     /**
      * Getter for holiday08
      *
-     * @ElementName holiday08
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday08()
     {
-        return $this->holiday08;
+        return $this->holiday08 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday08;
     }
 
     /**
      * Setter for holiday08
      *
-     * @ElementName holiday08
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday08
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday08
      * @return $this
      */
     public function setHoliday08(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday08)
     {
-        $this->holiday08 = $holiday08;
+        if ($holiday08 === null) {
+            $this->holiday08 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday08 = $holiday08;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday08()
+    {
+        $this->holiday08 = null;
         return $this;
     }
 
     /**
      * Getter for holiday09
      *
-     * @ElementName holiday09
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday09()
     {
-        return $this->holiday09;
+        return $this->holiday09 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday09;
     }
 
     /**
      * Setter for holiday09
      *
-     * @ElementName holiday09
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday09
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday09
      * @return $this
      */
     public function setHoliday09(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday09)
     {
-        $this->holiday09 = $holiday09;
+        if ($holiday09 === null) {
+            $this->holiday09 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday09 = $holiday09;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday09()
+    {
+        $this->holiday09 = null;
         return $this;
     }
 
     /**
      * Getter for holiday10
      *
-     * @ElementName holiday10
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday10()
     {
-        return $this->holiday10;
+        return $this->holiday10 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday10;
     }
 
     /**
      * Setter for holiday10
      *
-     * @ElementName holiday10
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday10
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday10
      * @return $this
      */
     public function setHoliday10(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday10)
     {
-        $this->holiday10 = $holiday10;
+        if ($holiday10 === null) {
+            $this->holiday10 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday10 = $holiday10;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday10()
+    {
+        $this->holiday10 = null;
         return $this;
     }
 
     /**
      * Getter for holiday11
      *
-     * @ElementName holiday11
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday11()
     {
-        return $this->holiday11;
+        return $this->holiday11 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday11;
     }
 
     /**
      * Setter for holiday11
      *
-     * @ElementName holiday11
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday11
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday11
      * @return $this
      */
     public function setHoliday11(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday11)
     {
-        $this->holiday11 = $holiday11;
+        if ($holiday11 === null) {
+            $this->holiday11 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday11 = $holiday11;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday11()
+    {
+        $this->holiday11 = null;
         return $this;
     }
 
     /**
      * Getter for holiday12
      *
-     * @ElementName holiday12
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday12()
     {
-        return $this->holiday12;
+        return $this->holiday12 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday12;
     }
 
     /**
      * Setter for holiday12
      *
-     * @ElementName holiday12
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday12
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday12
      * @return $this
      */
     public function setHoliday12(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday12)
     {
-        $this->holiday12 = $holiday12;
+        if ($holiday12 === null) {
+            $this->holiday12 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday12 = $holiday12;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday12()
+    {
+        $this->holiday12 = null;
         return $this;
     }
 
     /**
      * Getter for holiday13
      *
-     * @ElementName holiday13
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday13()
     {
-        return $this->holiday13;
+        return $this->holiday13 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday13;
     }
 
     /**
      * Setter for holiday13
      *
-     * @ElementName holiday13
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday13
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday13
      * @return $this
      */
     public function setHoliday13(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday13)
     {
-        $this->holiday13 = $holiday13;
+        if ($holiday13 === null) {
+            $this->holiday13 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday13 = $holiday13;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday13()
+    {
+        $this->holiday13 = null;
         return $this;
     }
 
     /**
      * Getter for holiday14
      *
-     * @ElementName holiday14
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday14()
     {
-        return $this->holiday14;
+        return $this->holiday14 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday14;
     }
 
     /**
      * Setter for holiday14
      *
-     * @ElementName holiday14
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday14
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday14
      * @return $this
      */
     public function setHoliday14(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday14)
     {
-        $this->holiday14 = $holiday14;
+        if ($holiday14 === null) {
+            $this->holiday14 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday14 = $holiday14;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday14()
+    {
+        $this->holiday14 = null;
         return $this;
     }
 
     /**
      * Getter for holiday15
      *
-     * @ElementName holiday15
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday15()
     {
-        return $this->holiday15;
+        return $this->holiday15 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday15;
     }
 
     /**
      * Setter for holiday15
      *
-     * @ElementName holiday15
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday15
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday15
      * @return $this
      */
     public function setHoliday15(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday15)
     {
-        $this->holiday15 = $holiday15;
+        if ($holiday15 === null) {
+            $this->holiday15 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday15 = $holiday15;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday15()
+    {
+        $this->holiday15 = null;
         return $this;
     }
 
     /**
      * Getter for holiday16
      *
-     * @ElementName holiday16
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday16()
     {
-        return $this->holiday16;
+        return $this->holiday16 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday16;
     }
 
     /**
      * Setter for holiday16
      *
-     * @ElementName holiday16
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday16
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday16
      * @return $this
      */
     public function setHoliday16(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday16)
     {
-        $this->holiday16 = $holiday16;
+        if ($holiday16 === null) {
+            $this->holiday16 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday16 = $holiday16;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday16()
+    {
+        $this->holiday16 = null;
         return $this;
     }
 
     /**
      * Getter for holiday17
      *
-     * @ElementName holiday17
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday17()
     {
-        return $this->holiday17;
+        return $this->holiday17 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday17;
     }
 
     /**
      * Setter for holiday17
      *
-     * @ElementName holiday17
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday17
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday17
      * @return $this
      */
     public function setHoliday17(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday17)
     {
-        $this->holiday17 = $holiday17;
+        if ($holiday17 === null) {
+            $this->holiday17 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday17 = $holiday17;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday17()
+    {
+        $this->holiday17 = null;
         return $this;
     }
 
     /**
      * Getter for holiday18
      *
-     * @ElementName holiday18
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday18()
     {
-        return $this->holiday18;
+        return $this->holiday18 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday18;
     }
 
     /**
      * Setter for holiday18
      *
-     * @ElementName holiday18
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday18
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday18
      * @return $this
      */
     public function setHoliday18(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday18)
     {
-        $this->holiday18 = $holiday18;
+        if ($holiday18 === null) {
+            $this->holiday18 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday18 = $holiday18;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday18()
+    {
+        $this->holiday18 = null;
         return $this;
     }
 
     /**
      * Getter for holiday19
      *
-     * @ElementName holiday19
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday19()
     {
-        return $this->holiday19;
+        return $this->holiday19 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday19;
     }
 
     /**
      * Setter for holiday19
      *
-     * @ElementName holiday19
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday19
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday19
      * @return $this
      */
     public function setHoliday19(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday19)
     {
-        $this->holiday19 = $holiday19;
+        if ($holiday19 === null) {
+            $this->holiday19 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday19 = $holiday19;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday19()
+    {
+        $this->holiday19 = null;
         return $this;
     }
 
     /**
      * Getter for holiday20
      *
-     * @ElementName holiday20
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Holiday|null
      */
     public function getHoliday20()
     {
-        return $this->holiday20;
+        return $this->holiday20 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holiday20;
     }
 
     /**
      * Setter for holiday20
      *
-     * @ElementName holiday20
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null|\CWM\BroadWorksConnector\Ocip\Nil $holiday20
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Holiday|null $holiday20
      * @return $this
      */
     public function setHoliday20(\CWM\BroadWorksConnector\Ocip\Models\Holiday $holiday20)
     {
-        $this->holiday20 = $holiday20;
+        if ($holiday20 === null) {
+            $this->holiday20 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holiday20 = $holiday20;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHoliday20()
+    {
+        $this->holiday20 = null;
         return $this;
     }
 

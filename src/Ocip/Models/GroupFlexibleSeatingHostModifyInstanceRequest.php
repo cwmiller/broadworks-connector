@@ -16,18 +16,21 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,6 +38,7 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -42,19 +46,17 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -64,21 +66,28 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfileFlexibleSeatingHost $serviceInstanceProfile)
@@ -88,52 +97,77 @@ class GroupFlexibleSeatingHostModifyInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify $accessDeviceEndpoint)
     {
-        $this->accessDeviceEndpoint = $accessDeviceEndpoint;
+        if ($accessDeviceEndpoint === null) {
+            $this->accessDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->accessDeviceEndpoint = $accessDeviceEndpoint;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
         return $this;
     }
 
     /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
         return $this;
     }
 

@@ -26,30 +26,35 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName countOnlyResetSupportedDevice
+     * @Type bool
      * @var bool|null
      */
     private $countOnlyResetSupportedDevice = null;
 
     /**
      * @ElementName allowUnmanagedDeviceType
+     * @Type bool
      * @var bool|null
      */
     private $allowUnmanagedDeviceType = null;
@@ -57,19 +62,17 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -79,21 +82,28 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -103,21 +113,28 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -127,21 +144,28 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for countOnlyResetSupportedDevice
      *
-     * @ElementName countOnlyResetSupportedDevice
-     * @return bool|null
+     * @return bool
      */
     public function getCountOnlyResetSupportedDevice()
     {
-        return $this->countOnlyResetSupportedDevice;
+        return $this->countOnlyResetSupportedDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countOnlyResetSupportedDevice;
     }
 
     /**
      * Setter for countOnlyResetSupportedDevice
      *
-     * @ElementName countOnlyResetSupportedDevice
-     * @param bool|null $countOnlyResetSupportedDevice
+     * @param bool $countOnlyResetSupportedDevice
      * @return $this
      */
     public function setCountOnlyResetSupportedDevice($countOnlyResetSupportedDevice)
@@ -151,26 +175,42 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountOnlyResetSupportedDevice()
+    {
+        $this->countOnlyResetSupportedDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowUnmanagedDeviceType
      *
-     * @ElementName allowUnmanagedDeviceType
-     * @return bool|null
+     * @return bool
      */
     public function getAllowUnmanagedDeviceType()
     {
-        return $this->allowUnmanagedDeviceType;
+        return $this->allowUnmanagedDeviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowUnmanagedDeviceType;
     }
 
     /**
      * Setter for allowUnmanagedDeviceType
      *
-     * @ElementName allowUnmanagedDeviceType
-     * @param bool|null $allowUnmanagedDeviceType
+     * @param bool $allowUnmanagedDeviceType
      * @return $this
      */
     public function setAllowUnmanagedDeviceType($allowUnmanagedDeviceType)
     {
         $this->allowUnmanagedDeviceType = $allowUnmanagedDeviceType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowUnmanagedDeviceType()
+    {
+        $this->allowUnmanagedDeviceType = null;
         return $this;
     }
 

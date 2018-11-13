@@ -12,84 +12,98 @@ class OutgoingCallingPlanOriginatingPermissionsModify
 
     /**
      * @ElementName group
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $group = null;
 
     /**
      * @ElementName local
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $local = null;
 
     /**
      * @ElementName tollFree
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $tollFree = null;
 
     /**
      * @ElementName toll
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $toll = null;
 
     /**
      * @ElementName international
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $international = null;
 
     /**
      * @ElementName operatorAssisted
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $operatorAssisted = null;
 
     /**
      * @ElementName chargeableDirectoryAssisted
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $chargeableDirectoryAssisted = null;
 
     /**
      * @ElementName specialServicesI
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $specialServicesI = null;
 
     /**
      * @ElementName specialServicesII
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $specialServicesII = null;
 
     /**
      * @ElementName premiumServicesI
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $premiumServicesI = null;
 
     /**
      * @ElementName premiumServicesII
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $premiumServicesII = null;
 
     /**
      * @ElementName casual
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $casual = null;
 
     /**
      * @ElementName urlDialing
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $urlDialing = null;
 
     /**
      * @ElementName unknown
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
      */
     private $unknown = null;
@@ -97,19 +111,17 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     /**
      * Getter for group
      *
-     * @ElementName group
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getGroup()
     {
-        return $this->group;
+        return $this->group instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->group;
     }
 
     /**
      * Setter for group
      *
-     * @ElementName group
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $group
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $group
      * @return $this
      */
     public function setGroup(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $group)
@@ -119,21 +131,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroup()
+    {
+        $this->group = null;
+        return $this;
+    }
+
+    /**
      * Getter for local
      *
-     * @ElementName local
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getLocal()
     {
-        return $this->local;
+        return $this->local instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->local;
     }
 
     /**
      * Setter for local
      *
-     * @ElementName local
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $local
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $local
      * @return $this
      */
     public function setLocal(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $local)
@@ -143,21 +162,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocal()
+    {
+        $this->local = null;
+        return $this;
+    }
+
+    /**
      * Getter for tollFree
      *
-     * @ElementName tollFree
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getTollFree()
     {
-        return $this->tollFree;
+        return $this->tollFree instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tollFree;
     }
 
     /**
      * Setter for tollFree
      *
-     * @ElementName tollFree
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $tollFree
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $tollFree
      * @return $this
      */
     public function setTollFree(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $tollFree)
@@ -167,21 +193,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTollFree()
+    {
+        $this->tollFree = null;
+        return $this;
+    }
+
+    /**
      * Getter for toll
      *
-     * @ElementName toll
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getToll()
     {
-        return $this->toll;
+        return $this->toll instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->toll;
     }
 
     /**
      * Setter for toll
      *
-     * @ElementName toll
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $toll
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $toll
      * @return $this
      */
     public function setToll(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $toll)
@@ -191,21 +224,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetToll()
+    {
+        $this->toll = null;
+        return $this;
+    }
+
+    /**
      * Getter for international
      *
-     * @ElementName international
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getInternational()
     {
-        return $this->international;
+        return $this->international instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->international;
     }
 
     /**
      * Setter for international
      *
-     * @ElementName international
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $international
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $international
      * @return $this
      */
     public function setInternational(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $international)
@@ -215,21 +255,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInternational()
+    {
+        $this->international = null;
+        return $this;
+    }
+
+    /**
      * Getter for operatorAssisted
      *
-     * @ElementName operatorAssisted
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getOperatorAssisted()
     {
-        return $this->operatorAssisted;
+        return $this->operatorAssisted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->operatorAssisted;
     }
 
     /**
      * Setter for operatorAssisted
      *
-     * @ElementName operatorAssisted
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $operatorAssisted
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $operatorAssisted
      * @return $this
      */
     public function setOperatorAssisted(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $operatorAssisted)
@@ -239,21 +286,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOperatorAssisted()
+    {
+        $this->operatorAssisted = null;
+        return $this;
+    }
+
+    /**
      * Getter for chargeableDirectoryAssisted
      *
-     * @ElementName chargeableDirectoryAssisted
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getChargeableDirectoryAssisted()
     {
-        return $this->chargeableDirectoryAssisted;
+        return $this->chargeableDirectoryAssisted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->chargeableDirectoryAssisted;
     }
 
     /**
      * Setter for chargeableDirectoryAssisted
      *
-     * @ElementName chargeableDirectoryAssisted
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $chargeableDirectoryAssisted
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $chargeableDirectoryAssisted
      * @return $this
      */
     public function setChargeableDirectoryAssisted(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $chargeableDirectoryAssisted)
@@ -263,21 +317,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChargeableDirectoryAssisted()
+    {
+        $this->chargeableDirectoryAssisted = null;
+        return $this;
+    }
+
+    /**
      * Getter for specialServicesI
      *
-     * @ElementName specialServicesI
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getSpecialServicesI()
     {
-        return $this->specialServicesI;
+        return $this->specialServicesI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->specialServicesI;
     }
 
     /**
      * Setter for specialServicesI
      *
-     * @ElementName specialServicesI
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $specialServicesI
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $specialServicesI
      * @return $this
      */
     public function setSpecialServicesI(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $specialServicesI)
@@ -287,21 +348,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSpecialServicesI()
+    {
+        $this->specialServicesI = null;
+        return $this;
+    }
+
+    /**
      * Getter for specialServicesII
      *
-     * @ElementName specialServicesII
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getSpecialServicesII()
     {
-        return $this->specialServicesII;
+        return $this->specialServicesII instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->specialServicesII;
     }
 
     /**
      * Setter for specialServicesII
      *
-     * @ElementName specialServicesII
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $specialServicesII
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $specialServicesII
      * @return $this
      */
     public function setSpecialServicesII(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $specialServicesII)
@@ -311,21 +379,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSpecialServicesII()
+    {
+        $this->specialServicesII = null;
+        return $this;
+    }
+
+    /**
      * Getter for premiumServicesI
      *
-     * @ElementName premiumServicesI
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getPremiumServicesI()
     {
-        return $this->premiumServicesI;
+        return $this->premiumServicesI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->premiumServicesI;
     }
 
     /**
      * Setter for premiumServicesI
      *
-     * @ElementName premiumServicesI
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $premiumServicesI
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $premiumServicesI
      * @return $this
      */
     public function setPremiumServicesI(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $premiumServicesI)
@@ -335,21 +410,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPremiumServicesI()
+    {
+        $this->premiumServicesI = null;
+        return $this;
+    }
+
+    /**
      * Getter for premiumServicesII
      *
-     * @ElementName premiumServicesII
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getPremiumServicesII()
     {
-        return $this->premiumServicesII;
+        return $this->premiumServicesII instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->premiumServicesII;
     }
 
     /**
      * Setter for premiumServicesII
      *
-     * @ElementName premiumServicesII
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $premiumServicesII
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $premiumServicesII
      * @return $this
      */
     public function setPremiumServicesII(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $premiumServicesII)
@@ -359,21 +441,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPremiumServicesII()
+    {
+        $this->premiumServicesII = null;
+        return $this;
+    }
+
+    /**
      * Getter for casual
      *
-     * @ElementName casual
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getCasual()
     {
-        return $this->casual;
+        return $this->casual instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->casual;
     }
 
     /**
      * Setter for casual
      *
-     * @ElementName casual
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $casual
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $casual
      * @return $this
      */
     public function setCasual(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $casual)
@@ -383,21 +472,28 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCasual()
+    {
+        $this->casual = null;
+        return $this;
+    }
+
+    /**
      * Getter for urlDialing
      *
-     * @ElementName urlDialing
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getUrlDialing()
     {
-        return $this->urlDialing;
+        return $this->urlDialing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->urlDialing;
     }
 
     /**
      * Setter for urlDialing
      *
-     * @ElementName urlDialing
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $urlDialing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $urlDialing
      * @return $this
      */
     public function setUrlDialing(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $urlDialing)
@@ -407,26 +503,42 @@ class OutgoingCallingPlanOriginatingPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUrlDialing()
+    {
+        $this->urlDialing = null;
+        return $this;
+    }
+
+    /**
      * Getter for unknown
      *
-     * @ElementName unknown
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission
      */
     public function getUnknown()
     {
-        return $this->unknown;
+        return $this->unknown instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unknown;
     }
 
     /**
      * Setter for unknown
      *
-     * @ElementName unknown
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission|null $unknown
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $unknown
      * @return $this
      */
     public function setUnknown(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanOriginatingPermission $unknown)
     {
         $this->unknown = $unknown;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnknown()
+    {
+        $this->unknown = null;
         return $this;
     }
 

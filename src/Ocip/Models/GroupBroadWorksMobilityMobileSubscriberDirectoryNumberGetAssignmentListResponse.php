@@ -24,6 +24,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRes
 
     /**
      * @ElementName mobileSubscriberDirectoryNumberTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumberTable = null;
@@ -31,24 +32,31 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRes
     /**
      * Getter for mobileSubscriberDirectoryNumberTable
      *
-     * @ElementName mobileSubscriberDirectoryNumberTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMobileSubscriberDirectoryNumberTable()
     {
-        return $this->mobileSubscriberDirectoryNumberTable;
+        return $this->mobileSubscriberDirectoryNumberTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileSubscriberDirectoryNumberTable;
     }
 
     /**
      * Setter for mobileSubscriberDirectoryNumberTable
      *
-     * @ElementName mobileSubscriberDirectoryNumberTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mobileSubscriberDirectoryNumberTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileSubscriberDirectoryNumberTable
      * @return $this
      */
     public function setMobileSubscriberDirectoryNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileSubscriberDirectoryNumberTable)
     {
         $this->mobileSubscriberDirectoryNumberTable = $mobileSubscriberDirectoryNumberTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobileSubscriberDirectoryNumberTable()
+    {
+        $this->mobileSubscriberDirectoryNumberTable = null;
         return $this;
     }
 

@@ -22,24 +22,28 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName filesize
+     * @Type int
      * @var int|null
      */
     private $filesize = null;
 
     /**
      * @ElementName lastUploaded
+     * @Type string
      * @var string|null
      */
     private $lastUploaded = null;
 
     /**
      * @ElementName usageTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;
@@ -47,19 +51,17 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -69,21 +71,28 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for filesize
      *
-     * @ElementName filesize
-     * @return int|null
+     * @return int
      */
     public function getFilesize()
     {
-        return $this->filesize;
+        return $this->filesize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->filesize;
     }
 
     /**
      * Setter for filesize
      *
-     * @ElementName filesize
-     * @param int|null $filesize
+     * @param int $filesize
      * @return $this
      */
     public function setFilesize($filesize)
@@ -93,21 +102,28 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFilesize()
+    {
+        $this->filesize = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastUploaded
      *
-     * @ElementName lastUploaded
-     * @return string|null
+     * @return string
      */
     public function getLastUploaded()
     {
-        return $this->lastUploaded;
+        return $this->lastUploaded instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastUploaded;
     }
 
     /**
      * Setter for lastUploaded
      *
-     * @ElementName lastUploaded
-     * @param string|null $lastUploaded
+     * @param string $lastUploaded
      * @return $this
      */
     public function setLastUploaded($lastUploaded)
@@ -117,26 +133,42 @@ class GroupAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastUploaded()
+    {
+        $this->lastUploaded = null;
+        return $this;
+    }
+
+    /**
      * Getter for usageTable
      *
-     * @ElementName usageTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUsageTable()
     {
-        return $this->usageTable;
+        return $this->usageTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usageTable;
     }
 
     /**
      * Setter for usageTable
      *
-     * @ElementName usageTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $usageTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $usageTable
      * @return $this
      */
     public function setUsageTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $usageTable)
     {
         $this->usageTable = $usageTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUsageTable()
+    {
+        $this->usageTable = null;
         return $this;
     }
 

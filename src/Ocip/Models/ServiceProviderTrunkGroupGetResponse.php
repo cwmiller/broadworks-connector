@@ -16,6 +16,7 @@ class ServiceProviderTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName maxActiveCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxActiveCalls = null;
@@ -23,24 +24,31 @@ class ServiceProviderTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for maxActiveCalls
      *
-     * @ElementName maxActiveCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      */
     public function getMaxActiveCalls()
     {
-        return $this->maxActiveCalls;
+        return $this->maxActiveCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxActiveCalls;
     }
 
     /**
      * Setter for maxActiveCalls
      *
-     * @ElementName maxActiveCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $maxActiveCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxActiveCalls
      * @return $this
      */
     public function setMaxActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxActiveCalls)
     {
         $this->maxActiveCalls = $maxActiveCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxActiveCalls()
+    {
+        $this->maxActiveCalls = null;
         return $this;
     }
 

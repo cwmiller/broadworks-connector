@@ -12,54 +12,63 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
 
     /**
      * @ElementName loginType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType22
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
      */
     private $loginType = null;
 
     /**
      * @ElementName locale
+     * @Type string
      * @var string|null
      */
     private $locale = null;
 
     /**
      * @ElementName encoding
+     * @Type string
      * @var string|null
      */
     private $encoding = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName isEnterprise
+     * @Type bool
      * @var bool|null
      */
     private $isEnterprise = null;
 
     /**
      * @ElementName passwordExpiresDays
+     * @Type int
      * @var int|null
      */
     private $passwordExpiresDays = null;
 
     /**
      * @ElementName userDomain
+     * @Type string
      * @var string|null
      */
     private $userDomain = null;
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
@@ -67,19 +76,17 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * Getter for loginType
      *
-     * @ElementName loginType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType22
      */
     public function getLoginType()
     {
-        return $this->loginType;
+        return $this->loginType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->loginType;
     }
 
     /**
      * Setter for loginType
      *
-     * @ElementName loginType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType22|null $loginType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType22 $loginType
      * @return $this
      */
     public function setLoginType(\CWM\BroadWorksConnector\Ocip\Models\LoginType22 $loginType)
@@ -89,21 +96,28 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLoginType()
+    {
+        $this->loginType = null;
+        return $this;
+    }
+
+    /**
      * Getter for locale
      *
-     * @ElementName locale
-     * @return string|null
+     * @return string
      */
     public function getLocale()
     {
-        return $this->locale;
+        return $this->locale instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locale;
     }
 
     /**
      * Setter for locale
      *
-     * @ElementName locale
-     * @param string|null $locale
+     * @param string $locale
      * @return $this
      */
     public function setLocale($locale)
@@ -113,21 +127,28 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocale()
+    {
+        $this->locale = null;
+        return $this;
+    }
+
+    /**
      * Getter for encoding
      *
-     * @ElementName encoding
-     * @return string|null
+     * @return string
      */
     public function getEncoding()
     {
-        return $this->encoding;
+        return $this->encoding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->encoding;
     }
 
     /**
      * Setter for encoding
      *
-     * @ElementName encoding
-     * @param string|null $encoding
+     * @param string $encoding
      * @return $this
      */
     public function setEncoding($encoding)
@@ -137,21 +158,28 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEncoding()
+    {
+        $this->encoding = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -161,21 +189,28 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -185,21 +220,28 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isEnterprise
      *
-     * @ElementName isEnterprise
-     * @return bool|null
+     * @return bool
      */
     public function getIsEnterprise()
     {
-        return $this->isEnterprise;
+        return $this->isEnterprise instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isEnterprise;
     }
 
     /**
      * Setter for isEnterprise
      *
-     * @ElementName isEnterprise
-     * @param bool|null $isEnterprise
+     * @param bool $isEnterprise
      * @return $this
      */
     public function setIsEnterprise($isEnterprise)
@@ -209,21 +251,28 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsEnterprise()
+    {
+        $this->isEnterprise = null;
+        return $this;
+    }
+
+    /**
      * Getter for passwordExpiresDays
      *
-     * @ElementName passwordExpiresDays
-     * @return int|null
+     * @return int
      */
     public function getPasswordExpiresDays()
     {
-        return $this->passwordExpiresDays;
+        return $this->passwordExpiresDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passwordExpiresDays;
     }
 
     /**
      * Setter for passwordExpiresDays
      *
-     * @ElementName passwordExpiresDays
-     * @param int|null $passwordExpiresDays
+     * @param int $passwordExpiresDays
      * @return $this
      */
     public function setPasswordExpiresDays($passwordExpiresDays)
@@ -233,21 +282,28 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasswordExpiresDays()
+    {
+        $this->passwordExpiresDays = null;
+        return $this;
+    }
+
+    /**
      * Getter for userDomain
      *
-     * @ElementName userDomain
-     * @return string|null
+     * @return string
      */
     public function getUserDomain()
     {
-        return $this->userDomain;
+        return $this->userDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userDomain;
     }
 
     /**
      * Setter for userDomain
      *
-     * @ElementName userDomain
-     * @param string|null $userDomain
+     * @param string $userDomain
      * @return $this
      */
     public function setUserDomain($userDomain)
@@ -257,26 +313,42 @@ class LoginResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserDomain()
+    {
+        $this->userDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
     {
         $this->resellerId = $resellerId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
         return $this;
     }
 

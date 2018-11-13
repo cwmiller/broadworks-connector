@@ -22,24 +22,28 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName authorized
+     * @Type bool
      * @var bool|null
      */
     private $authorized = null;
 
     /**
      * @ElementName authorizedQuantity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $authorizedQuantity = null;
 
     /**
      * @ElementName usedQuantity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $usedQuantity = null;
 
     /**
      * @ElementName authorizable
+     * @Type bool
      * @var bool|null
      */
     private $authorizable = null;
@@ -47,19 +51,17 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for authorized
      *
-     * @ElementName authorized
-     * @return bool|null
+     * @return bool
      */
     public function getAuthorized()
     {
-        return $this->authorized;
+        return $this->authorized instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->authorized;
     }
 
     /**
      * Setter for authorized
      *
-     * @ElementName authorized
-     * @param bool|null $authorized
+     * @param bool $authorized
      * @return $this
      */
     public function setAuthorized($authorized)
@@ -69,21 +71,28 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAuthorized()
+    {
+        $this->authorized = null;
+        return $this;
+    }
+
+    /**
      * Getter for authorizedQuantity
      *
-     * @ElementName authorizedQuantity
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      */
     public function getAuthorizedQuantity()
     {
-        return $this->authorizedQuantity;
+        return $this->authorizedQuantity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->authorizedQuantity;
     }
 
     /**
      * Setter for authorizedQuantity
      *
-     * @ElementName authorizedQuantity
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $authorizedQuantity
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $authorizedQuantity
      * @return $this
      */
     public function setAuthorizedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $authorizedQuantity)
@@ -93,21 +102,28 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAuthorizedQuantity()
+    {
+        $this->authorizedQuantity = null;
+        return $this;
+    }
+
+    /**
      * Getter for usedQuantity
      *
-     * @ElementName usedQuantity
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      */
     public function getUsedQuantity()
     {
-        return $this->usedQuantity;
+        return $this->usedQuantity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usedQuantity;
     }
 
     /**
      * Setter for usedQuantity
      *
-     * @ElementName usedQuantity
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $usedQuantity
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $usedQuantity
      * @return $this
      */
     public function setUsedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $usedQuantity)
@@ -117,26 +133,42 @@ class GroupServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUsedQuantity()
+    {
+        $this->usedQuantity = null;
+        return $this;
+    }
+
+    /**
      * Getter for authorizable
      *
-     * @ElementName authorizable
-     * @return bool|null
+     * @return bool
      */
     public function getAuthorizable()
     {
-        return $this->authorizable;
+        return $this->authorizable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->authorizable;
     }
 
     /**
      * Setter for authorizable
      *
-     * @ElementName authorizable
-     * @param bool|null $authorizable
+     * @param bool $authorizable
      * @return $this
      */
     public function setAuthorizable($authorizable)
     {
         $this->authorizable = $authorizable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAuthorizable()
+    {
+        $this->authorizable = null;
         return $this;
     }
 

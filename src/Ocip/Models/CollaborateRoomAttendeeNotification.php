@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CollaborateRoomAttendeeNotification PLAY_TONE()
  * @method static CollaborateRoomAttendeeNotification NO_NOTIFICATION()
- * @ValueType string
+ * @EnumValueType string
  */
 class CollaborateRoomAttendeeNotification extends \MyCLabs\Enum\Enum
 {

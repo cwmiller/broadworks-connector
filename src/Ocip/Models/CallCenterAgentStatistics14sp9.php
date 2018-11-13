@@ -12,24 +12,28 @@ class CallCenterAgentStatistics14sp9
 
     /**
      * @ElementName agentUserId
+     * @Type string
      * @var string|null
      */
     private $agentUserId = null;
 
     /**
      * @ElementName agentDisplayNames
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null
      */
     private $agentDisplayNames = null;
 
     /**
      * @ElementName available
+     * @Type bool
      * @var bool|null
      */
     private $available = null;
 
     /**
      * @ElementName statistics
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentStatistics
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentStatistics|null
      */
     private $statistics = null;
@@ -37,19 +41,17 @@ class CallCenterAgentStatistics14sp9
     /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
-     * @return string|null
+     * @return string
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
-     * @param string|null $agentUserId
+     * @param string $agentUserId
      * @return $this
      */
     public function setAgentUserId($agentUserId)
@@ -59,21 +61,28 @@ class CallCenterAgentStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentDisplayNames
      *
-     * @ElementName agentDisplayNames
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames
      */
     public function getAgentDisplayNames()
     {
-        return $this->agentDisplayNames;
+        return $this->agentDisplayNames instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentDisplayNames;
     }
 
     /**
      * Setter for agentDisplayNames
      *
-     * @ElementName agentDisplayNames
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null $agentDisplayNames
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames $agentDisplayNames
      * @return $this
      */
     public function setAgentDisplayNames(\CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames $agentDisplayNames)
@@ -83,21 +92,28 @@ class CallCenterAgentStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentDisplayNames()
+    {
+        $this->agentDisplayNames = null;
+        return $this;
+    }
+
+    /**
      * Getter for available
      *
-     * @ElementName available
-     * @return bool|null
+     * @return bool
      */
     public function getAvailable()
     {
-        return $this->available;
+        return $this->available instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->available;
     }
 
     /**
      * Setter for available
      *
-     * @ElementName available
-     * @param bool|null $available
+     * @param bool $available
      * @return $this
      */
     public function setAvailable($available)
@@ -107,26 +123,42 @@ class CallCenterAgentStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAvailable()
+    {
+        $this->available = null;
+        return $this;
+    }
+
+    /**
      * Getter for statistics
      *
-     * @ElementName statistics
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentStatistics|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentStatistics
      */
     public function getStatistics()
     {
-        return $this->statistics;
+        return $this->statistics instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statistics;
     }
 
     /**
      * Setter for statistics
      *
-     * @ElementName statistics
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentStatistics|null $statistics
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentStatistics $statistics
      * @return $this
      */
     public function setStatistics(\CWM\BroadWorksConnector\Ocip\Models\AgentStatistics $statistics)
     {
         $this->statistics = $statistics;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatistics()
+    {
+        $this->statistics = null;
         return $this;
     }
 

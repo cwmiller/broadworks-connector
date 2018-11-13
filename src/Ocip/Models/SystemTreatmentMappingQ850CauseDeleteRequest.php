@@ -16,6 +16,7 @@ class SystemTreatmentMappingQ850CauseDeleteRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName q850CauseValue
+     * @Type int
      * @var int|null
      */
     private $q850CauseValue = null;
@@ -23,24 +24,31 @@ class SystemTreatmentMappingQ850CauseDeleteRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for q850CauseValue
      *
-     * @ElementName q850CauseValue
-     * @return int|null
+     * @return int
      */
     public function getQ850CauseValue()
     {
-        return $this->q850CauseValue;
+        return $this->q850CauseValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->q850CauseValue;
     }
 
     /**
      * Setter for q850CauseValue
      *
-     * @ElementName q850CauseValue
-     * @param int|null $q850CauseValue
+     * @param int $q850CauseValue
      * @return $this
      */
     public function setQ850CauseValue($q850CauseValue)
     {
         $this->q850CauseValue = $q850CauseValue;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetQ850CauseValue()
+    {
+        $this->q850CauseValue = null;
         return $this;
     }
 

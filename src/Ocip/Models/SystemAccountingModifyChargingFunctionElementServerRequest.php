@@ -16,18 +16,21 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
 
     /**
      * @ElementName address
+     * @Type string
      * @var string|null
      */
     private $address = null;
 
     /**
      * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null
      */
     private $type = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,19 +39,17 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
     /**
      * Getter for address
      *
-     * @ElementName address
-     * @return string|null
+     * @return string
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param string|null $address
+     * @param string $address
      * @return $this
      */
     public function setAddress($address)
@@ -58,21 +59,28 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
+        return $this;
+    }
+
+    /**
      * Getter for type
      *
-     * @ElementName type
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType
      */
     public function getType()
     {
-        return $this->type;
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
     }
 
     /**
      * Setter for type
      *
-     * @ElementName type
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType $type
      * @return $this
      */
     public function setType(\CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType $type)
@@ -82,28 +90,46 @@ class SystemAccountingModifyChargingFunctionElementServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

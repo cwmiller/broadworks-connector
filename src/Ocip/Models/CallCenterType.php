@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterType BASIC()
  * @method static CallCenterType STANDARD()
  * @method static CallCenterType PREMIUM()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterType extends \MyCLabs\Enum\Enum
 {

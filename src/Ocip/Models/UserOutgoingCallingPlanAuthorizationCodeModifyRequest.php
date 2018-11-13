@@ -16,12 +16,14 @@ class UserOutgoingCallingPlanAuthorizationCodeModifyRequest extends \CWM\BroadWo
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName useCustomSettings
+     * @Type bool
      * @var bool|null
      */
     private $useCustomSettings = null;
@@ -29,19 +31,17 @@ class UserOutgoingCallingPlanAuthorizationCodeModifyRequest extends \CWM\BroadWo
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -51,26 +51,42 @@ class UserOutgoingCallingPlanAuthorizationCodeModifyRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useCustomSettings
      *
-     * @ElementName useCustomSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseCustomSettings()
     {
-        return $this->useCustomSettings;
+        return $this->useCustomSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useCustomSettings;
     }
 
     /**
      * Setter for useCustomSettings
      *
-     * @ElementName useCustomSettings
-     * @param bool|null $useCustomSettings
+     * @param bool $useCustomSettings
      * @return $this
      */
     public function setUseCustomSettings($useCustomSettings)
     {
         $this->useCustomSettings = $useCustomSettings;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseCustomSettings()
+    {
+        $this->useCustomSettings = null;
         return $this;
     }
 

@@ -16,18 +16,21 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName incomingCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;
 
     /**
      * @ElementName phoneNumberTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $phoneNumberTable = null;
@@ -35,19 +38,17 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -57,21 +58,28 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for incomingCalls
      *
-     * @ElementName incomingCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
      */
     public function getIncomingCalls()
     {
-        return $this->incomingCalls;
+        return $this->incomingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingCalls;
     }
 
     /**
      * Setter for incomingCalls
      *
-     * @ElementName incomingCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null $incomingCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection $incomingCalls
      * @return $this
      */
     public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection $incomingCalls)
@@ -81,26 +89,42 @@ class UserSimultaneousRingFamilyGetResponse14sp4 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncomingCalls()
+    {
+        $this->incomingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumberTable
      *
-     * @ElementName phoneNumberTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getPhoneNumberTable()
     {
-        return $this->phoneNumberTable;
+        return $this->phoneNumberTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumberTable;
     }
 
     /**
      * Setter for phoneNumberTable
      *
-     * @ElementName phoneNumberTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $phoneNumberTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $phoneNumberTable
      * @return $this
      */
     public function setPhoneNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $phoneNumberTable)
     {
         $this->phoneNumberTable = $phoneNumberTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumberTable()
+    {
+        $this->phoneNumberTable = null;
         return $this;
     }
 

@@ -18,18 +18,21 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName hssRealm
+     * @Type string
      * @var string|null
      */
     private $hssRealm = null;
 
     /**
      * @ElementName requestTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $requestTimeoutSeconds = null;
 
     /**
      * @ElementName publicIdentityRefreshDelaySeconds
+     * @Type int
      * @var int|null
      */
     private $publicIdentityRefreshDelaySeconds = null;
@@ -37,19 +40,17 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for hssRealm
      *
-     * @ElementName hssRealm
-     * @return string|null
+     * @return string
      */
     public function getHssRealm()
     {
-        return $this->hssRealm;
+        return $this->hssRealm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hssRealm;
     }
 
     /**
      * Setter for hssRealm
      *
-     * @ElementName hssRealm
-     * @param string|null $hssRealm
+     * @param string $hssRealm
      * @return $this
      */
     public function setHssRealm($hssRealm)
@@ -59,21 +60,28 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHssRealm()
+    {
+        $this->hssRealm = null;
+        return $this;
+    }
+
+    /**
      * Getter for requestTimeoutSeconds
      *
-     * @ElementName requestTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getRequestTimeoutSeconds()
     {
-        return $this->requestTimeoutSeconds;
+        return $this->requestTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requestTimeoutSeconds;
     }
 
     /**
      * Setter for requestTimeoutSeconds
      *
-     * @ElementName requestTimeoutSeconds
-     * @param int|null $requestTimeoutSeconds
+     * @param int $requestTimeoutSeconds
      * @return $this
      */
     public function setRequestTimeoutSeconds($requestTimeoutSeconds)
@@ -83,26 +91,42 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequestTimeoutSeconds()
+    {
+        $this->requestTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for publicIdentityRefreshDelaySeconds
      *
-     * @ElementName publicIdentityRefreshDelaySeconds
-     * @return int|null
+     * @return int
      */
     public function getPublicIdentityRefreshDelaySeconds()
     {
-        return $this->publicIdentityRefreshDelaySeconds;
+        return $this->publicIdentityRefreshDelaySeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicIdentityRefreshDelaySeconds;
     }
 
     /**
      * Setter for publicIdentityRefreshDelaySeconds
      *
-     * @ElementName publicIdentityRefreshDelaySeconds
-     * @param int|null $publicIdentityRefreshDelaySeconds
+     * @param int $publicIdentityRefreshDelaySeconds
      * @return $this
      */
     public function setPublicIdentityRefreshDelaySeconds($publicIdentityRefreshDelaySeconds)
     {
         $this->publicIdentityRefreshDelaySeconds = $publicIdentityRefreshDelaySeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPublicIdentityRefreshDelaySeconds()
+    {
+        $this->publicIdentityRefreshDelaySeconds = null;
         return $this;
     }
 

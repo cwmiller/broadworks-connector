@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupVoiceMessagingAccess FULL()
  * @method static GroupVoiceMessagingAccess RESTRICTED()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupVoiceMessagingAccess extends \MyCLabs\Enum\Enum
 {

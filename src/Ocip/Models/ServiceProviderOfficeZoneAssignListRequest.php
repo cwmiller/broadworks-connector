@@ -21,12 +21,15 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName officeZoneName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $officeZoneName = array(
@@ -35,6 +38,7 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName defaultOfficeZoneName
+     * @Type string
      * @var string|null
      */
     private $defaultOfficeZoneName = null;
@@ -42,19 +46,17 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -64,20 +66,27 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for officeZoneName
      *
-     * @ElementName officeZoneName
      * @return string[]
      */
     public function getOfficeZoneName()
     {
-        return $this->officeZoneName;
+        return $this->officeZoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->officeZoneName;
     }
 
     /**
      * Setter for officeZoneName
      *
-     * @ElementName officeZoneName
      * @param string[] $officeZoneName
      * @return $this
      */
@@ -88,39 +97,54 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOfficeZoneName()
+    {
+        $this->officeZoneName = null;
+        return $this;
+    }
+
+    /**
      * Adder for officeZoneName
      *
-     * @ElementName officeZoneName
      * @param string $officeZoneName
      * @return $this
      */
     public function addOfficeZoneName(string $officeZoneName)
     {
-        $this->officeZoneName []= $officeZoneName;
+        $this->officeZoneName[] = $officeZoneName;
         return $this;
     }
 
     /**
      * Getter for defaultOfficeZoneName
      *
-     * @ElementName defaultOfficeZoneName
-     * @return string|null
+     * @return string
      */
     public function getDefaultOfficeZoneName()
     {
-        return $this->defaultOfficeZoneName;
+        return $this->defaultOfficeZoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultOfficeZoneName;
     }
 
     /**
      * Setter for defaultOfficeZoneName
      *
-     * @ElementName defaultOfficeZoneName
-     * @param string|null $defaultOfficeZoneName
+     * @param string $defaultOfficeZoneName
      * @return $this
      */
     public function setDefaultOfficeZoneName($defaultOfficeZoneName)
     {
         $this->defaultOfficeZoneName = $defaultOfficeZoneName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultOfficeZoneName()
+    {
+        $this->defaultOfficeZoneName = null;
         return $this;
     }
 

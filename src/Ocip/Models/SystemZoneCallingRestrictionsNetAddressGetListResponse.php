@@ -16,6 +16,8 @@ class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadW
 
     /**
      * @ElementName netAddress
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $netAddress = array(
@@ -24,6 +26,8 @@ class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadW
 
     /**
      * @ElementName netAddressRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(
@@ -33,18 +37,16 @@ class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadW
     /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
      * @return string[]
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
      * @param string[] $netAddress
      * @return $this
      */
@@ -55,33 +57,39 @@ class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for netAddress
      *
-     * @ElementName netAddress
      * @param string $netAddress
      * @return $this
      */
     public function addNetAddress(string $netAddress)
     {
-        $this->netAddress []= $netAddress;
+        $this->netAddress[] = $netAddress;
         return $this;
     }
 
     /**
      * Getter for netAddressRange
      *
-     * @ElementName netAddressRange
      * @return \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     public function getNetAddressRange()
     {
-        return $this->netAddressRange;
+        return $this->netAddressRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddressRange;
     }
 
     /**
      * Setter for netAddressRange
      *
-     * @ElementName netAddressRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[] $netAddressRange
      * @return $this
      */
@@ -92,15 +100,23 @@ class SystemZoneCallingRestrictionsNetAddressGetListResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddressRange()
+    {
+        $this->netAddressRange = null;
+        return $this;
+    }
+
+    /**
      * Adder for netAddressRange
      *
-     * @ElementName netAddressRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange $netAddressRange
      * @return $this
      */
     public function addNetAddressRange($netAddressRange)
     {
-        $this->netAddressRange []= $netAddressRange;
+        $this->netAddressRange[] = $netAddressRange;
         return $this;
     }
 

@@ -15,18 +15,21 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName conferenceId
+     * @Type string
      * @var string|null
      */
     private $conferenceId = null;
 
     /**
      * @ElementName moderatorPin
+     * @Type string
      * @var string|null
      */
     private $moderatorPin = null;
 
     /**
      * @ElementName securityPin
+     * @Type string
      * @var string|null
      */
     private $securityPin = null;
@@ -34,19 +37,17 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
     /**
      * Getter for conferenceId
      *
-     * @ElementName conferenceId
-     * @return string|null
+     * @return string
      */
     public function getConferenceId()
     {
-        return $this->conferenceId;
+        return $this->conferenceId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceId;
     }
 
     /**
      * Setter for conferenceId
      *
-     * @ElementName conferenceId
-     * @param string|null $conferenceId
+     * @param string $conferenceId
      * @return $this
      */
     public function setConferenceId($conferenceId)
@@ -56,21 +57,28 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceId()
+    {
+        $this->conferenceId = null;
+        return $this;
+    }
+
+    /**
      * Getter for moderatorPin
      *
-     * @ElementName moderatorPin
-     * @return string|null
+     * @return string
      */
     public function getModeratorPin()
     {
-        return $this->moderatorPin;
+        return $this->moderatorPin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->moderatorPin;
     }
 
     /**
      * Setter for moderatorPin
      *
-     * @ElementName moderatorPin
-     * @param string|null $moderatorPin
+     * @param string $moderatorPin
      * @return $this
      */
     public function setModeratorPin($moderatorPin)
@@ -80,26 +88,42 @@ class UserMeetMeConferencingAddConferenceResponse19 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetModeratorPin()
+    {
+        $this->moderatorPin = null;
+        return $this;
+    }
+
+    /**
      * Getter for securityPin
      *
-     * @ElementName securityPin
-     * @return string|null
+     * @return string
      */
     public function getSecurityPin()
     {
-        return $this->securityPin;
+        return $this->securityPin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityPin;
     }
 
     /**
      * Setter for securityPin
      *
-     * @ElementName securityPin
-     * @param string|null $securityPin
+     * @param string $securityPin
      * @return $this
      */
     public function setSecurityPin($securityPin)
     {
         $this->securityPin = $securityPin;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecurityPin()
+    {
+        $this->securityPin = null;
         return $this;
     }
 

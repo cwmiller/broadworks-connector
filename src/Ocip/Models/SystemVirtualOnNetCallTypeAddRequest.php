@@ -16,12 +16,14 @@ class SystemVirtualOnNetCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName virtualOnNetCallTypeName
+     * @Type string
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;
 
     /**
      * @ElementName virtualOnNetCallTypeCdrValue
+     * @Type string
      * @var string|null
      */
     private $virtualOnNetCallTypeCdrValue = null;
@@ -29,19 +31,17 @@ class SystemVirtualOnNetCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for virtualOnNetCallTypeName
      *
-     * @ElementName virtualOnNetCallTypeName
-     * @return string|null
+     * @return string
      */
     public function getVirtualOnNetCallTypeName()
     {
-        return $this->virtualOnNetCallTypeName;
+        return $this->virtualOnNetCallTypeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetCallTypeName;
     }
 
     /**
      * Setter for virtualOnNetCallTypeName
      *
-     * @ElementName virtualOnNetCallTypeName
-     * @param string|null $virtualOnNetCallTypeName
+     * @param string $virtualOnNetCallTypeName
      * @return $this
      */
     public function setVirtualOnNetCallTypeName($virtualOnNetCallTypeName)
@@ -51,26 +51,42 @@ class SystemVirtualOnNetCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetCallTypeName()
+    {
+        $this->virtualOnNetCallTypeName = null;
+        return $this;
+    }
+
+    /**
      * Getter for virtualOnNetCallTypeCdrValue
      *
-     * @ElementName virtualOnNetCallTypeCdrValue
-     * @return string|null
+     * @return string
      */
     public function getVirtualOnNetCallTypeCdrValue()
     {
-        return $this->virtualOnNetCallTypeCdrValue;
+        return $this->virtualOnNetCallTypeCdrValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetCallTypeCdrValue;
     }
 
     /**
      * Setter for virtualOnNetCallTypeCdrValue
      *
-     * @ElementName virtualOnNetCallTypeCdrValue
-     * @param string|null $virtualOnNetCallTypeCdrValue
+     * @param string $virtualOnNetCallTypeCdrValue
      * @return $this
      */
     public function setVirtualOnNetCallTypeCdrValue($virtualOnNetCallTypeCdrValue)
     {
         $this->virtualOnNetCallTypeCdrValue = $virtualOnNetCallTypeCdrValue;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetCallTypeCdrValue()
+    {
+        $this->virtualOnNetCallTypeCdrValue = null;
         return $this;
     }
 

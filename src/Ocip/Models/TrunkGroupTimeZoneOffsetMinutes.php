@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static TrunkGroupTimeZoneOffsetMinutes _0()
  * @method static TrunkGroupTimeZoneOffsetMinutes _30()
  * @method static TrunkGroupTimeZoneOffsetMinutes _45()
- * @ValueType int
+ * @EnumValueType int
  */
 class TrunkGroupTimeZoneOffsetMinutes extends \MyCLabs\Enum\Enum
 {

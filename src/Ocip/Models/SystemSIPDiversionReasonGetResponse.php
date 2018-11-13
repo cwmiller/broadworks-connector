@@ -17,6 +17,7 @@ class SystemSIPDiversionReasonGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName diversionReasonTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $diversionReasonTable = null;
@@ -24,24 +25,31 @@ class SystemSIPDiversionReasonGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for diversionReasonTable
      *
-     * @ElementName diversionReasonTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDiversionReasonTable()
     {
-        return $this->diversionReasonTable;
+        return $this->diversionReasonTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->diversionReasonTable;
     }
 
     /**
      * Setter for diversionReasonTable
      *
-     * @ElementName diversionReasonTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $diversionReasonTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $diversionReasonTable
      * @return $this
      */
     public function setDiversionReasonTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $diversionReasonTable)
     {
         $this->diversionReasonTable = $diversionReasonTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDiversionReasonTable()
+    {
+        $this->diversionReasonTable = null;
         return $this;
     }
 

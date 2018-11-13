@@ -17,12 +17,14 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName applicationServerSetName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,19 +33,17 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,28 +53,46 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for applicationServerSetName
      *
-     * @ElementName applicationServerSetName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getApplicationServerSetName()
     {
-        return $this->applicationServerSetName;
+        return $this->applicationServerSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationServerSetName;
     }
 
     /**
      * Setter for applicationServerSetName
      *
-     * @ElementName applicationServerSetName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerSetName
+     * @param string|null $applicationServerSetName
      * @return $this
      */
     public function setApplicationServerSetName($applicationServerSetName)
     {
-        $this->applicationServerSetName = $applicationServerSetName;
+        if ($applicationServerSetName === null) {
+            $this->applicationServerSetName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->applicationServerSetName = $applicationServerSetName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationServerSetName()
+    {
+        $this->applicationServerSetName = null;
         return $this;
     }
 

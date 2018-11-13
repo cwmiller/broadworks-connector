@@ -19,24 +19,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName criteriaName
+     * @Type string
      * @var string|null
      */
     private $criteriaName = null;
 
     /**
      * @ElementName newCriteriaName
+     * @Type string
      * @var string|null
      */
     private $newCriteriaName = null;
 
     /**
      * @ElementName timeSchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -44,6 +48,7 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName holidaySchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -51,18 +56,21 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName blacklisted
+     * @Type bool
      * @var bool|null
      */
     private $blacklisted = null;
 
     /**
      * @ElementName fromDnCriteria
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     private $fromDnCriteria = null;
 
     /**
      * @ElementName callToNumberList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -70,48 +78,56 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName audioSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
 
     /**
      * @ElementName videoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
      */
     private $videoFile = null;
 
     /**
      * @ElementName callWaitingAudioSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $callWaitingAudioSelection = null;
 
     /**
      * @ElementName callWaitingAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
      */
     private $callWaitingAudioFile = null;
 
     /**
      * @ElementName callWaitingVideoSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $callWaitingVideoSelection = null;
 
     /**
      * @ElementName callWaitingVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
      */
     private $callWaitingVideoFile = null;
@@ -119,19 +135,17 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -141,21 +155,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaName
      *
-     * @ElementName criteriaName
-     * @return string|null
+     * @return string
      */
     public function getCriteriaName()
     {
-        return $this->criteriaName;
+        return $this->criteriaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaName;
     }
 
     /**
      * Setter for criteriaName
      *
-     * @ElementName criteriaName
-     * @param string|null $criteriaName
+     * @param string $criteriaName
      * @return $this
      */
     public function setCriteriaName($criteriaName)
@@ -165,21 +186,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaName()
+    {
+        $this->criteriaName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newCriteriaName
      *
-     * @ElementName newCriteriaName
-     * @return string|null
+     * @return string
      */
     public function getNewCriteriaName()
     {
-        return $this->newCriteriaName;
+        return $this->newCriteriaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newCriteriaName;
     }
 
     /**
      * Setter for newCriteriaName
      *
-     * @ElementName newCriteriaName
-     * @param string|null $newCriteriaName
+     * @param string $newCriteriaName
      * @return $this
      */
     public function setNewCriteriaName($newCriteriaName)
@@ -189,73 +217,98 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewCriteriaName()
+    {
+        $this->newCriteriaName = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     public function getTimeSchedule()
     {
-        return $this->timeSchedule;
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
     }
 
     /**
      * Setter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
     public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
     {
-        $this->timeSchedule = $timeSchedule;
+        if ($timeSchedule === null) {
+            $this->timeSchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->timeSchedule = $timeSchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
         return $this;
     }
 
     /**
      * Getter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     public function getHolidaySchedule()
     {
-        return $this->holidaySchedule;
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
     }
 
     /**
      * Setter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
-        $this->holidaySchedule = $holidaySchedule;
+        if ($holidaySchedule === null) {
+            $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holidaySchedule = $holidaySchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
         return $this;
     }
 
     /**
      * Getter for blacklisted
      *
-     * @ElementName blacklisted
-     * @return bool|null
+     * @return bool
      */
     public function getBlacklisted()
     {
-        return $this->blacklisted;
+        return $this->blacklisted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->blacklisted;
     }
 
     /**
      * Setter for blacklisted
      *
-     * @ElementName blacklisted
-     * @param bool|null $blacklisted
+     * @param bool $blacklisted
      * @return $this
      */
     public function setBlacklisted($blacklisted)
@@ -265,21 +318,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBlacklisted()
+    {
+        $this->blacklisted = null;
+        return $this;
+    }
+
+    /**
      * Getter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      */
     public function getFromDnCriteria()
     {
-        return $this->fromDnCriteria;
+        return $this->fromDnCriteria instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fromDnCriteria;
     }
 
     /**
      * Setter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null $fromDnCriteria
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify $fromDnCriteria
      * @return $this
      */
     public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify $fromDnCriteria)
@@ -289,47 +349,63 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFromDnCriteria()
+    {
+        $this->fromDnCriteria = null;
+        return $this;
+    }
+
+    /**
      * Getter for callToNumberList
      *
-     * @ElementName callToNumberList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
      */
     public function getCallToNumberList()
     {
-        return $this->callToNumberList;
+        return $this->callToNumberList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callToNumberList;
     }
 
     /**
      * Setter for callToNumberList
      *
-     * @ElementName callToNumberList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil $callToNumberList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null $callToNumberList
      * @return $this
      */
     public function setCallToNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList $callToNumberList)
     {
-        $this->callToNumberList = $callToNumberList;
+        if ($callToNumberList === null) {
+            $this->callToNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callToNumberList = $callToNumberList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallToNumberList()
+    {
+        $this->callToNumberList = null;
         return $this;
     }
 
     /**
      * Getter for audioSelection
      *
-     * @ElementName audioSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioSelection()
     {
-        return $this->audioSelection;
+        return $this->audioSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioSelection;
     }
 
     /**
      * Setter for audioSelection
      *
-     * @ElementName audioSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection
      * @return $this
      */
     public function setAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection)
@@ -339,21 +415,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioSelection()
+    {
+        $this->audioSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $audioFile)
@@ -363,21 +446,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoSelection
      *
-     * @ElementName videoSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoSelection()
     {
-        return $this->videoSelection;
+        return $this->videoSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoSelection;
     }
 
     /**
      * Setter for videoSelection
      *
-     * @ElementName videoSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection
      * @return $this
      */
     public function setVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection)
@@ -387,21 +477,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoSelection()
+    {
+        $this->videoSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null $videoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $videoFile)
@@ -411,21 +508,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for callWaitingAudioSelection
      *
-     * @ElementName callWaitingAudioSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getCallWaitingAudioSelection()
     {
-        return $this->callWaitingAudioSelection;
+        return $this->callWaitingAudioSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callWaitingAudioSelection;
     }
 
     /**
      * Setter for callWaitingAudioSelection
      *
-     * @ElementName callWaitingAudioSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $callWaitingAudioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $callWaitingAudioSelection
      * @return $this
      */
     public function setCallWaitingAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $callWaitingAudioSelection)
@@ -435,21 +539,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallWaitingAudioSelection()
+    {
+        $this->callWaitingAudioSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for callWaitingAudioFile
      *
-     * @ElementName callWaitingAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      */
     public function getCallWaitingAudioFile()
     {
-        return $this->callWaitingAudioFile;
+        return $this->callWaitingAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callWaitingAudioFile;
     }
 
     /**
      * Setter for callWaitingAudioFile
      *
-     * @ElementName callWaitingAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null $callWaitingAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $callWaitingAudioFile
      * @return $this
      */
     public function setCallWaitingAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $callWaitingAudioFile)
@@ -459,21 +570,28 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallWaitingAudioFile()
+    {
+        $this->callWaitingAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for callWaitingVideoSelection
      *
-     * @ElementName callWaitingVideoSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getCallWaitingVideoSelection()
     {
-        return $this->callWaitingVideoSelection;
+        return $this->callWaitingVideoSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callWaitingVideoSelection;
     }
 
     /**
      * Setter for callWaitingVideoSelection
      *
-     * @ElementName callWaitingVideoSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $callWaitingVideoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $callWaitingVideoSelection
      * @return $this
      */
     public function setCallWaitingVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $callWaitingVideoSelection)
@@ -483,26 +601,42 @@ class UserCustomRingbackUserModifyCriteriaRequest20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallWaitingVideoSelection()
+    {
+        $this->callWaitingVideoSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for callWaitingVideoFile
      *
-     * @ElementName callWaitingVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      */
     public function getCallWaitingVideoFile()
     {
-        return $this->callWaitingVideoFile;
+        return $this->callWaitingVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callWaitingVideoFile;
     }
 
     /**
      * Setter for callWaitingVideoFile
      *
-     * @ElementName callWaitingVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null $callWaitingVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $callWaitingVideoFile
      * @return $this
      */
     public function setCallWaitingVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $callWaitingVideoFile)
     {
         $this->callWaitingVideoFile = $callWaitingVideoFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallWaitingVideoFile()
+    {
+        $this->callWaitingVideoFile = null;
         return $this;
     }
 

@@ -16,30 +16,35 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName announcementFileKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $announcementFileKey = null;
 
     /**
      * @ElementName newAnnouncementFileName
+     * @Type string
      * @var string|null
      */
     private $newAnnouncementFileName = null;
 
     /**
      * @ElementName announcementFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $announcementFile = null;
@@ -47,19 +52,17 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +72,28 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -93,21 +103,28 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementFileKey
      *
-     * @ElementName announcementFileKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      */
     public function getAnnouncementFileKey()
     {
-        return $this->announcementFileKey;
+        return $this->announcementFileKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileKey;
     }
 
     /**
      * Setter for announcementFileKey
      *
-     * @ElementName announcementFileKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $announcementFileKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $announcementFileKey
      * @return $this
      */
     public function setAnnouncementFileKey(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $announcementFileKey)
@@ -117,21 +134,28 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileKey()
+    {
+        $this->announcementFileKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for newAnnouncementFileName
      *
-     * @ElementName newAnnouncementFileName
-     * @return string|null
+     * @return string
      */
     public function getNewAnnouncementFileName()
     {
-        return $this->newAnnouncementFileName;
+        return $this->newAnnouncementFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newAnnouncementFileName;
     }
 
     /**
      * Setter for newAnnouncementFileName
      *
-     * @ElementName newAnnouncementFileName
-     * @param string|null $newAnnouncementFileName
+     * @param string $newAnnouncementFileName
      * @return $this
      */
     public function setNewAnnouncementFileName($newAnnouncementFileName)
@@ -141,26 +165,42 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewAnnouncementFileName()
+    {
+        $this->newAnnouncementFileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementFile
      *
-     * @ElementName announcementFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getAnnouncementFile()
     {
-        return $this->announcementFile;
+        return $this->announcementFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFile;
     }
 
     /**
      * Setter for announcementFile
      *
-     * @ElementName announcementFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $announcementFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $announcementFile
      * @return $this
      */
     public function setAnnouncementFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $announcementFile)
     {
         $this->announcementFile = $announcementFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementFile()
+    {
+        $this->announcementFile = null;
         return $this;
     }
 

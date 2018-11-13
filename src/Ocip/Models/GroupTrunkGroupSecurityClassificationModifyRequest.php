@@ -16,12 +16,14 @@ class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName trunkGroupKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;
 
     /**
      * @ElementName defaultSecurityClassification
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorks
     /**
      * Getter for trunkGroupKey
      *
-     * @ElementName trunkGroupKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      */
     public function getTrunkGroupKey()
     {
-        return $this->trunkGroupKey;
+        return $this->trunkGroupKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupKey;
     }
 
     /**
      * Setter for trunkGroupKey
      *
-     * @ElementName trunkGroupKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $trunkGroupKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey
      * @return $this
      */
     public function setTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey)
@@ -52,28 +52,46 @@ class GroupTrunkGroupSecurityClassificationModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupKey()
+    {
+        $this->trunkGroupKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultSecurityClassification
      *
-     * @ElementName defaultSecurityClassification
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDefaultSecurityClassification()
     {
-        return $this->defaultSecurityClassification;
+        return $this->defaultSecurityClassification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultSecurityClassification;
     }
 
     /**
      * Setter for defaultSecurityClassification
      *
-     * @ElementName defaultSecurityClassification
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultSecurityClassification
+     * @param string|null $defaultSecurityClassification
      * @return $this
      */
     public function setDefaultSecurityClassification($defaultSecurityClassification)
     {
-        $this->defaultSecurityClassification = $defaultSecurityClassification;
+        if ($defaultSecurityClassification === null) {
+            $this->defaultSecurityClassification = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->defaultSecurityClassification = $defaultSecurityClassification;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultSecurityClassification()
+    {
+        $this->defaultSecurityClassification = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class SystemDeviceManagementTagSetDeleteRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName tagSetName
+     * @Type string
      * @var string|null
      */
     private $tagSetName = null;
@@ -23,24 +24,31 @@ class SystemDeviceManagementTagSetDeleteRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for tagSetName
      *
-     * @ElementName tagSetName
-     * @return string|null
+     * @return string
      */
     public function getTagSetName()
     {
-        return $this->tagSetName;
+        return $this->tagSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagSetName;
     }
 
     /**
      * Setter for tagSetName
      *
-     * @ElementName tagSetName
-     * @param string|null $tagSetName
+     * @param string $tagSetName
      * @return $this
      */
     public function setTagSetName($tagSetName)
     {
         $this->tagSetName = $tagSetName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagSetName()
+    {
+        $this->tagSetName = null;
         return $this;
     }
 

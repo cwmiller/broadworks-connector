@@ -14,6 +14,8 @@ class SystemZoneLocationBasedPhysicalLocationGetListResponse extends \CWM\BroadW
 
     /**
      * @ElementName physicalLocation
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $physicalLocation = array(
@@ -23,18 +25,16 @@ class SystemZoneLocationBasedPhysicalLocationGetListResponse extends \CWM\BroadW
     /**
      * Getter for physicalLocation
      *
-     * @ElementName physicalLocation
      * @return string[]
      */
     public function getPhysicalLocation()
     {
-        return $this->physicalLocation;
+        return $this->physicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->physicalLocation;
     }
 
     /**
      * Setter for physicalLocation
      *
-     * @ElementName physicalLocation
      * @param string[] $physicalLocation
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemZoneLocationBasedPhysicalLocationGetListResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhysicalLocation()
+    {
+        $this->physicalLocation = null;
+        return $this;
+    }
+
+    /**
      * Adder for physicalLocation
      *
-     * @ElementName physicalLocation
      * @param string $physicalLocation
      * @return $this
      */
     public function addPhysicalLocation(string $physicalLocation)
     {
-        $this->physicalLocation []= $physicalLocation;
+        $this->physicalLocation[] = $physicalLocation;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static VoiceMessagingBrandingSelection _DEFAULT()
  * @method static VoiceMessagingBrandingSelection BRANDED()
- * @ValueType string
+ * @EnumValueType string
  */
 class VoiceMessagingBrandingSelection extends \MyCLabs\Enum\Enum
 {

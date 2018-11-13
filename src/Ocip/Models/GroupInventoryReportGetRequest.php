@@ -17,48 +17,56 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName includeUsers
+     * @Type bool
      * @var bool|null
      */
     private $includeUsers = null;
 
     /**
      * @ElementName includeServices
+     * @Type bool
      * @var bool|null
      */
     private $includeServices = null;
 
     /**
      * @ElementName includeDns
+     * @Type bool
      * @var bool|null
      */
     private $includeDns = null;
 
     /**
      * @ElementName includeAccessDevices
+     * @Type bool
      * @var bool|null
      */
     private $includeAccessDevices = null;
 
     /**
      * @ElementName includeDepartments
+     * @Type bool
      * @var bool|null
      */
     private $includeDepartments = null;
 
     /**
      * @ElementName reportDeliveryEmailAddress
+     * @Type string
      * @var string|null
      */
     private $reportDeliveryEmailAddress = null;
@@ -66,19 +74,17 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -88,21 +94,28 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -112,21 +125,28 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeUsers
      *
-     * @ElementName includeUsers
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeUsers()
     {
-        return $this->includeUsers;
+        return $this->includeUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeUsers;
     }
 
     /**
      * Setter for includeUsers
      *
-     * @ElementName includeUsers
-     * @param bool|null $includeUsers
+     * @param bool $includeUsers
      * @return $this
      */
     public function setIncludeUsers($includeUsers)
@@ -136,21 +156,28 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeUsers()
+    {
+        $this->includeUsers = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeServices
      *
-     * @ElementName includeServices
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeServices()
     {
-        return $this->includeServices;
+        return $this->includeServices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeServices;
     }
 
     /**
      * Setter for includeServices
      *
-     * @ElementName includeServices
-     * @param bool|null $includeServices
+     * @param bool $includeServices
      * @return $this
      */
     public function setIncludeServices($includeServices)
@@ -160,21 +187,28 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeServices()
+    {
+        $this->includeServices = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeDns
      *
-     * @ElementName includeDns
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeDns()
     {
-        return $this->includeDns;
+        return $this->includeDns instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeDns;
     }
 
     /**
      * Setter for includeDns
      *
-     * @ElementName includeDns
-     * @param bool|null $includeDns
+     * @param bool $includeDns
      * @return $this
      */
     public function setIncludeDns($includeDns)
@@ -184,21 +218,28 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeDns()
+    {
+        $this->includeDns = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeAccessDevices
      *
-     * @ElementName includeAccessDevices
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeAccessDevices()
     {
-        return $this->includeAccessDevices;
+        return $this->includeAccessDevices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeAccessDevices;
     }
 
     /**
      * Setter for includeAccessDevices
      *
-     * @ElementName includeAccessDevices
-     * @param bool|null $includeAccessDevices
+     * @param bool $includeAccessDevices
      * @return $this
      */
     public function setIncludeAccessDevices($includeAccessDevices)
@@ -208,21 +249,28 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeAccessDevices()
+    {
+        $this->includeAccessDevices = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeDepartments
      *
-     * @ElementName includeDepartments
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeDepartments()
     {
-        return $this->includeDepartments;
+        return $this->includeDepartments instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeDepartments;
     }
 
     /**
      * Setter for includeDepartments
      *
-     * @ElementName includeDepartments
-     * @param bool|null $includeDepartments
+     * @param bool $includeDepartments
      * @return $this
      */
     public function setIncludeDepartments($includeDepartments)
@@ -232,26 +280,42 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeDepartments()
+    {
+        $this->includeDepartments = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportDeliveryEmailAddress
      *
-     * @ElementName reportDeliveryEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getReportDeliveryEmailAddress()
     {
-        return $this->reportDeliveryEmailAddress;
+        return $this->reportDeliveryEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportDeliveryEmailAddress;
     }
 
     /**
      * Setter for reportDeliveryEmailAddress
      *
-     * @ElementName reportDeliveryEmailAddress
-     * @param string|null $reportDeliveryEmailAddress
+     * @param string $reportDeliveryEmailAddress
      * @return $this
      */
     public function setReportDeliveryEmailAddress($reportDeliveryEmailAddress)
     {
         $this->reportDeliveryEmailAddress = $reportDeliveryEmailAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReportDeliveryEmailAddress()
+    {
+        $this->reportDeliveryEmailAddress = null;
         return $this;
     }
 

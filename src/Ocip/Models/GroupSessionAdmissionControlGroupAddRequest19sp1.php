@@ -19,72 +19,85 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName maxSession
+     * @Type int
      * @var int|null
      */
     private $maxSession = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
+     * @Type int
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
+     * @Type int
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
 
     /**
      * @ElementName reservedSession
+     * @Type int
      * @var int|null
      */
     private $reservedSession = null;
 
     /**
      * @ElementName reservedUserOriginatingSessions
+     * @Type int
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
 
     /**
      * @ElementName reservedUserTerminatingSessions
+     * @Type int
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
 
     /**
      * @ElementName becomeDefaultGroup
+     * @Type bool
      * @var bool|null
      */
     private $becomeDefaultGroup = null;
 
     /**
      * @ElementName countIntraSACGroupSessions
+     * @Type bool
      * @var bool|null
      */
     private $countIntraSACGroupSessions = null;
 
     /**
      * @ElementName devices
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     private $devices = array(
@@ -93,18 +106,21 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
 
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
+     * @Type bool
      * @var bool|null
      */
     private $blockEmergencyAndRepairCallsDueToSACLimits = null;
 
     /**
      * @ElementName mediaGroupName
+     * @Type string
      * @var string|null
      */
     private $mediaGroupName = null;
 
     /**
      * @ElementName accessInfoPattern
+     * @Type string
      * @var string|null
      */
     private $accessInfoPattern = null;
@@ -112,19 +128,17 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -134,21 +148,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -158,21 +179,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -182,21 +210,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxSession
      *
-     * @ElementName maxSession
-     * @return int|null
+     * @return int
      */
     public function getMaxSession()
     {
-        return $this->maxSession;
+        return $this->maxSession instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxSession;
     }
 
     /**
      * Setter for maxSession
      *
-     * @ElementName maxSession
-     * @param int|null $maxSession
+     * @param int $maxSession
      * @return $this
      */
     public function setMaxSession($maxSession)
@@ -206,21 +241,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxSession()
+    {
+        $this->maxSession = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxUserOriginatingSessions
      *
-     * @ElementName maxUserOriginatingSessions
-     * @return int|null
+     * @return int
      */
     public function getMaxUserOriginatingSessions()
     {
-        return $this->maxUserOriginatingSessions;
+        return $this->maxUserOriginatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxUserOriginatingSessions;
     }
 
     /**
      * Setter for maxUserOriginatingSessions
      *
-     * @ElementName maxUserOriginatingSessions
-     * @param int|null $maxUserOriginatingSessions
+     * @param int $maxUserOriginatingSessions
      * @return $this
      */
     public function setMaxUserOriginatingSessions($maxUserOriginatingSessions)
@@ -230,21 +272,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxUserOriginatingSessions()
+    {
+        $this->maxUserOriginatingSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxUserTerminatingSessions
      *
-     * @ElementName maxUserTerminatingSessions
-     * @return int|null
+     * @return int
      */
     public function getMaxUserTerminatingSessions()
     {
-        return $this->maxUserTerminatingSessions;
+        return $this->maxUserTerminatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxUserTerminatingSessions;
     }
 
     /**
      * Setter for maxUserTerminatingSessions
      *
-     * @ElementName maxUserTerminatingSessions
-     * @param int|null $maxUserTerminatingSessions
+     * @param int $maxUserTerminatingSessions
      * @return $this
      */
     public function setMaxUserTerminatingSessions($maxUserTerminatingSessions)
@@ -254,21 +303,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxUserTerminatingSessions()
+    {
+        $this->maxUserTerminatingSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for reservedSession
      *
-     * @ElementName reservedSession
-     * @return int|null
+     * @return int
      */
     public function getReservedSession()
     {
-        return $this->reservedSession;
+        return $this->reservedSession instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reservedSession;
     }
 
     /**
      * Setter for reservedSession
      *
-     * @ElementName reservedSession
-     * @param int|null $reservedSession
+     * @param int $reservedSession
      * @return $this
      */
     public function setReservedSession($reservedSession)
@@ -278,21 +334,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReservedSession()
+    {
+        $this->reservedSession = null;
+        return $this;
+    }
+
+    /**
      * Getter for reservedUserOriginatingSessions
      *
-     * @ElementName reservedUserOriginatingSessions
-     * @return int|null
+     * @return int
      */
     public function getReservedUserOriginatingSessions()
     {
-        return $this->reservedUserOriginatingSessions;
+        return $this->reservedUserOriginatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reservedUserOriginatingSessions;
     }
 
     /**
      * Setter for reservedUserOriginatingSessions
      *
-     * @ElementName reservedUserOriginatingSessions
-     * @param int|null $reservedUserOriginatingSessions
+     * @param int $reservedUserOriginatingSessions
      * @return $this
      */
     public function setReservedUserOriginatingSessions($reservedUserOriginatingSessions)
@@ -302,21 +365,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReservedUserOriginatingSessions()
+    {
+        $this->reservedUserOriginatingSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for reservedUserTerminatingSessions
      *
-     * @ElementName reservedUserTerminatingSessions
-     * @return int|null
+     * @return int
      */
     public function getReservedUserTerminatingSessions()
     {
-        return $this->reservedUserTerminatingSessions;
+        return $this->reservedUserTerminatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reservedUserTerminatingSessions;
     }
 
     /**
      * Setter for reservedUserTerminatingSessions
      *
-     * @ElementName reservedUserTerminatingSessions
-     * @param int|null $reservedUserTerminatingSessions
+     * @param int $reservedUserTerminatingSessions
      * @return $this
      */
     public function setReservedUserTerminatingSessions($reservedUserTerminatingSessions)
@@ -326,21 +396,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReservedUserTerminatingSessions()
+    {
+        $this->reservedUserTerminatingSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for becomeDefaultGroup
      *
-     * @ElementName becomeDefaultGroup
-     * @return bool|null
+     * @return bool
      */
     public function getBecomeDefaultGroup()
     {
-        return $this->becomeDefaultGroup;
+        return $this->becomeDefaultGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->becomeDefaultGroup;
     }
 
     /**
      * Setter for becomeDefaultGroup
      *
-     * @ElementName becomeDefaultGroup
-     * @param bool|null $becomeDefaultGroup
+     * @param bool $becomeDefaultGroup
      * @return $this
      */
     public function setBecomeDefaultGroup($becomeDefaultGroup)
@@ -350,21 +427,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBecomeDefaultGroup()
+    {
+        $this->becomeDefaultGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for countIntraSACGroupSessions
      *
-     * @ElementName countIntraSACGroupSessions
-     * @return bool|null
+     * @return bool
      */
     public function getCountIntraSACGroupSessions()
     {
-        return $this->countIntraSACGroupSessions;
+        return $this->countIntraSACGroupSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countIntraSACGroupSessions;
     }
 
     /**
      * Setter for countIntraSACGroupSessions
      *
-     * @ElementName countIntraSACGroupSessions
-     * @param bool|null $countIntraSACGroupSessions
+     * @param bool $countIntraSACGroupSessions
      * @return $this
      */
     public function setCountIntraSACGroupSessions($countIntraSACGroupSessions)
@@ -374,20 +458,27 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountIntraSACGroupSessions()
+    {
+        $this->countIntraSACGroupSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for devices
      *
-     * @ElementName devices
      * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     public function getDevices()
     {
-        return $this->devices;
+        return $this->devices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->devices;
     }
 
     /**
      * Setter for devices
      *
-     * @ElementName devices
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[] $devices
      * @return $this
      */
@@ -398,34 +489,40 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDevices()
+    {
+        $this->devices = null;
+        return $this;
+    }
+
+    /**
      * Adder for devices
      *
-     * @ElementName devices
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice $devices
      * @return $this
      */
     public function addDevices($devices)
     {
-        $this->devices []= $devices;
+        $this->devices[] = $devices;
         return $this;
     }
 
     /**
      * Getter for blockEmergencyAndRepairCallsDueToSACLimits
      *
-     * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
-     * @return bool|null
+     * @return bool
      */
     public function getBlockEmergencyAndRepairCallsDueToSACLimits()
     {
-        return $this->blockEmergencyAndRepairCallsDueToSACLimits;
+        return $this->blockEmergencyAndRepairCallsDueToSACLimits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->blockEmergencyAndRepairCallsDueToSACLimits;
     }
 
     /**
      * Setter for blockEmergencyAndRepairCallsDueToSACLimits
      *
-     * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
-     * @param bool|null $blockEmergencyAndRepairCallsDueToSACLimits
+     * @param bool $blockEmergencyAndRepairCallsDueToSACLimits
      * @return $this
      */
     public function setBlockEmergencyAndRepairCallsDueToSACLimits($blockEmergencyAndRepairCallsDueToSACLimits)
@@ -435,21 +532,28 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBlockEmergencyAndRepairCallsDueToSACLimits()
+    {
+        $this->blockEmergencyAndRepairCallsDueToSACLimits = null;
+        return $this;
+    }
+
+    /**
      * Getter for mediaGroupName
      *
-     * @ElementName mediaGroupName
-     * @return string|null
+     * @return string
      */
     public function getMediaGroupName()
     {
-        return $this->mediaGroupName;
+        return $this->mediaGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaGroupName;
     }
 
     /**
      * Setter for mediaGroupName
      *
-     * @ElementName mediaGroupName
-     * @param string|null $mediaGroupName
+     * @param string $mediaGroupName
      * @return $this
      */
     public function setMediaGroupName($mediaGroupName)
@@ -459,26 +563,42 @@ class GroupSessionAdmissionControlGroupAddRequest19sp1 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMediaGroupName()
+    {
+        $this->mediaGroupName = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessInfoPattern
      *
-     * @ElementName accessInfoPattern
-     * @return string|null
+     * @return string
      */
     public function getAccessInfoPattern()
     {
-        return $this->accessInfoPattern;
+        return $this->accessInfoPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessInfoPattern;
     }
 
     /**
      * Setter for accessInfoPattern
      *
-     * @ElementName accessInfoPattern
-     * @param string|null $accessInfoPattern
+     * @param string $accessInfoPattern
      * @return $this
      */
     public function setAccessInfoPattern($accessInfoPattern)
     {
         $this->accessInfoPattern = $accessInfoPattern;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessInfoPattern()
+    {
+        $this->accessInfoPattern = null;
         return $this;
     }
 

@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CLIDDeliveryPrefix _007()
  * @method static CLIDDeliveryPrefix _008()
  * @method static CLIDDeliveryPrefix _009()
- * @ValueType string
+ * @EnumValueType string
  */
 class CLIDDeliveryPrefix extends \MyCLabs\Enum\Enum
 {

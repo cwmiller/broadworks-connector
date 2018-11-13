@@ -20,6 +20,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName serviceDomain
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -27,6 +28,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName servicePort
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -34,12 +36,14 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName addServiceProviderInIMPUserId
+     * @Type bool
      * @var bool|null
      */
     private $addServiceProviderInIMPUserId = null;
 
     /**
      * @ElementName boshURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +51,7 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName allowImpPasswordRetrieval
+     * @Type bool
      * @var bool|null
      */
     private $allowImpPasswordRetrieval = null;
@@ -54,71 +59,87 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getServiceDomain()
     {
-        return $this->serviceDomain;
+        return $this->serviceDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceDomain;
     }
 
     /**
      * Setter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceDomain
+     * @param string|null $serviceDomain
      * @return $this
      */
     public function setServiceDomain($serviceDomain)
     {
-        $this->serviceDomain = $serviceDomain;
+        if ($serviceDomain === null) {
+            $this->serviceDomain = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serviceDomain = $serviceDomain;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceDomain()
+    {
+        $this->serviceDomain = null;
         return $this;
     }
 
     /**
      * Getter for servicePort
      *
-     * @ElementName servicePort
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getServicePort()
     {
-        return $this->servicePort;
+        return $this->servicePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePort;
     }
 
     /**
      * Setter for servicePort
      *
-     * @ElementName servicePort
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePort
+     * @param int|null $servicePort
      * @return $this
      */
     public function setServicePort($servicePort)
     {
-        $this->servicePort = $servicePort;
+        if ($servicePort === null) {
+            $this->servicePort = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->servicePort = $servicePort;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServicePort()
+    {
+        $this->servicePort = null;
         return $this;
     }
 
     /**
      * Getter for addServiceProviderInIMPUserId
      *
-     * @ElementName addServiceProviderInIMPUserId
-     * @return bool|null
+     * @return bool
      */
     public function getAddServiceProviderInIMPUserId()
     {
-        return $this->addServiceProviderInIMPUserId;
+        return $this->addServiceProviderInIMPUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addServiceProviderInIMPUserId;
     }
 
     /**
      * Setter for addServiceProviderInIMPUserId
      *
-     * @ElementName addServiceProviderInIMPUserId
-     * @param bool|null $addServiceProviderInIMPUserId
+     * @param bool $addServiceProviderInIMPUserId
      * @return $this
      */
     public function setAddServiceProviderInIMPUserId($addServiceProviderInIMPUserId)
@@ -128,52 +149,77 @@ class SystemIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddServiceProviderInIMPUserId()
+    {
+        $this->addServiceProviderInIMPUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for boshURL
      *
-     * @ElementName boshURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getBoshURL()
     {
-        return $this->boshURL;
+        return $this->boshURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->boshURL;
     }
 
     /**
      * Setter for boshURL
      *
-     * @ElementName boshURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $boshURL
+     * @param string|null $boshURL
      * @return $this
      */
     public function setBoshURL($boshURL)
     {
-        $this->boshURL = $boshURL;
+        if ($boshURL === null) {
+            $this->boshURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->boshURL = $boshURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBoshURL()
+    {
+        $this->boshURL = null;
         return $this;
     }
 
     /**
      * Getter for allowImpPasswordRetrieval
      *
-     * @ElementName allowImpPasswordRetrieval
-     * @return bool|null
+     * @return bool
      */
     public function getAllowImpPasswordRetrieval()
     {
-        return $this->allowImpPasswordRetrieval;
+        return $this->allowImpPasswordRetrieval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowImpPasswordRetrieval;
     }
 
     /**
      * Setter for allowImpPasswordRetrieval
      *
-     * @ElementName allowImpPasswordRetrieval
-     * @param bool|null $allowImpPasswordRetrieval
+     * @param bool $allowImpPasswordRetrieval
      * @return $this
      */
     public function setAllowImpPasswordRetrieval($allowImpPasswordRetrieval)
     {
         $this->allowImpPasswordRetrieval = $allowImpPasswordRetrieval;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowImpPasswordRetrieval()
+    {
+        $this->allowImpPasswordRetrieval = null;
         return $this;
     }
 

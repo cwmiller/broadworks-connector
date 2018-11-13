@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static HuntPolicy SIMULTANEOUS()
  * @method static HuntPolicy UNIFORM()
  * @method static HuntPolicy WEIGHTED()
- * @ValueType string
+ * @EnumValueType string
  */
 class HuntPolicy extends \MyCLabs\Enum\Enum
 {

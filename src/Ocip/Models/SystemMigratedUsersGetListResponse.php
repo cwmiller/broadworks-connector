@@ -17,6 +17,8 @@ class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName userId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $userId = array(
@@ -26,18 +28,16 @@ class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for userId
      *
-     * @ElementName userId
      * @return string[]
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
      * @param string[] $userId
      * @return $this
      */
@@ -48,15 +48,23 @@ class SystemMigratedUsersGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Adder for userId
      *
-     * @ElementName userId
      * @param string $userId
      * @return $this
      */
     public function addUserId(string $userId)
     {
-        $this->userId []= $userId;
+        $this->userId[] = $userId;
         return $this;
     }
 

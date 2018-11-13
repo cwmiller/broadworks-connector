@@ -14,42 +14,49 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
 
     /**
      * @ElementName primarySMPPServerNetAddress
+     * @Type string
      * @var string|null
      */
     private $primarySMPPServerNetAddress = null;
 
     /**
      * @ElementName primarySMPPPort
+     * @Type int
      * @var int|null
      */
     private $primarySMPPPort = null;
 
     /**
      * @ElementName secondarySMPPServerNetAddress
+     * @Type string
      * @var string|null
      */
     private $secondarySMPPServerNetAddress = null;
 
     /**
      * @ElementName secondarySMPPPort
+     * @Type int
      * @var int|null
      */
     private $secondarySMPPPort = null;
 
     /**
      * @ElementName systemId
+     * @Type string
      * @var string|null
      */
     private $systemId = null;
 
     /**
      * @ElementName password
+     * @Type string
      * @var string|null
      */
     private $password = null;
 
     /**
      * @ElementName version
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     private $version = null;
@@ -57,19 +64,17 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * Getter for primarySMPPServerNetAddress
      *
-     * @ElementName primarySMPPServerNetAddress
-     * @return string|null
+     * @return string
      */
     public function getPrimarySMPPServerNetAddress()
     {
-        return $this->primarySMPPServerNetAddress;
+        return $this->primarySMPPServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->primarySMPPServerNetAddress;
     }
 
     /**
      * Setter for primarySMPPServerNetAddress
      *
-     * @ElementName primarySMPPServerNetAddress
-     * @param string|null $primarySMPPServerNetAddress
+     * @param string $primarySMPPServerNetAddress
      * @return $this
      */
     public function setPrimarySMPPServerNetAddress($primarySMPPServerNetAddress)
@@ -79,21 +84,28 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrimarySMPPServerNetAddress()
+    {
+        $this->primarySMPPServerNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for primarySMPPPort
      *
-     * @ElementName primarySMPPPort
-     * @return int|null
+     * @return int
      */
     public function getPrimarySMPPPort()
     {
-        return $this->primarySMPPPort;
+        return $this->primarySMPPPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->primarySMPPPort;
     }
 
     /**
      * Setter for primarySMPPPort
      *
-     * @ElementName primarySMPPPort
-     * @param int|null $primarySMPPPort
+     * @param int $primarySMPPPort
      * @return $this
      */
     public function setPrimarySMPPPort($primarySMPPPort)
@@ -103,21 +115,28 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrimarySMPPPort()
+    {
+        $this->primarySMPPPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for secondarySMPPServerNetAddress
      *
-     * @ElementName secondarySMPPServerNetAddress
-     * @return string|null
+     * @return string
      */
     public function getSecondarySMPPServerNetAddress()
     {
-        return $this->secondarySMPPServerNetAddress;
+        return $this->secondarySMPPServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secondarySMPPServerNetAddress;
     }
 
     /**
      * Setter for secondarySMPPServerNetAddress
      *
-     * @ElementName secondarySMPPServerNetAddress
-     * @param string|null $secondarySMPPServerNetAddress
+     * @param string $secondarySMPPServerNetAddress
      * @return $this
      */
     public function setSecondarySMPPServerNetAddress($secondarySMPPServerNetAddress)
@@ -127,21 +146,28 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecondarySMPPServerNetAddress()
+    {
+        $this->secondarySMPPServerNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for secondarySMPPPort
      *
-     * @ElementName secondarySMPPPort
-     * @return int|null
+     * @return int
      */
     public function getSecondarySMPPPort()
     {
-        return $this->secondarySMPPPort;
+        return $this->secondarySMPPPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secondarySMPPPort;
     }
 
     /**
      * Setter for secondarySMPPPort
      *
-     * @ElementName secondarySMPPPort
-     * @param int|null $secondarySMPPPort
+     * @param int $secondarySMPPPort
      * @return $this
      */
     public function setSecondarySMPPPort($secondarySMPPPort)
@@ -151,21 +177,28 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecondarySMPPPort()
+    {
+        $this->secondarySMPPPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for systemId
      *
-     * @ElementName systemId
-     * @return string|null
+     * @return string
      */
     public function getSystemId()
     {
-        return $this->systemId;
+        return $this->systemId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemId;
     }
 
     /**
      * Setter for systemId
      *
-     * @ElementName systemId
-     * @param string|null $systemId
+     * @param string $systemId
      * @return $this
      */
     public function setSystemId($systemId)
@@ -175,21 +208,28 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSystemId()
+    {
+        $this->systemId = null;
+        return $this;
+    }
+
+    /**
      * Getter for password
      *
-     * @ElementName password
-     * @return string|null
+     * @return string
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param string|null $password
+     * @param string $password
      * @return $this
      */
     public function setPassword($password)
@@ -199,26 +239,42 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
+        return $this;
+    }
+
+    /**
      * Getter for version
      *
-     * @ElementName version
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
      */
     public function getVersion()
     {
-        return $this->version;
+        return $this->version instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->version;
     }
 
     /**
      * Setter for version
      *
-     * @ElementName version
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null $version
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion $version
      * @return $this
      */
     public function setVersion(\CWM\BroadWorksConnector\Ocip\Models\SMPPVersion $version)
     {
         $this->version = $version;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVersion()
+    {
+        $this->version = null;
         return $this;
     }
 

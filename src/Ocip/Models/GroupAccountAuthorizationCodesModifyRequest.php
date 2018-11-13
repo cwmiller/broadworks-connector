@@ -16,36 +16,42 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName codeType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     private $codeType = null;
 
     /**
      * @ElementName numberOfDigits
+     * @Type int
      * @var int|null
      */
     private $numberOfDigits = null;
 
     /**
      * @ElementName allowLocalAndTollFreeCalls
+     * @Type bool
      * @var bool|null
      */
     private $allowLocalAndTollFreeCalls = null;
 
     /**
      * @ElementName mandatoryUsageUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -53,6 +59,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName optionalUsageUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -61,19 +68,17 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -83,21 +88,28 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -107,21 +119,28 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for codeType
      *
-     * @ElementName codeType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType
      */
     public function getCodeType()
     {
-        return $this->codeType;
+        return $this->codeType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->codeType;
     }
 
     /**
      * Setter for codeType
      *
-     * @ElementName codeType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null $codeType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType $codeType
      * @return $this
      */
     public function setCodeType(\CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType $codeType)
@@ -131,21 +150,28 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCodeType()
+    {
+        $this->codeType = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfDigits
      *
-     * @ElementName numberOfDigits
-     * @return int|null
+     * @return int
      */
     public function getNumberOfDigits()
     {
-        return $this->numberOfDigits;
+        return $this->numberOfDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfDigits;
     }
 
     /**
      * Setter for numberOfDigits
      *
-     * @ElementName numberOfDigits
-     * @param int|null $numberOfDigits
+     * @param int $numberOfDigits
      * @return $this
      */
     public function setNumberOfDigits($numberOfDigits)
@@ -155,21 +181,28 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfDigits()
+    {
+        $this->numberOfDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowLocalAndTollFreeCalls
      *
-     * @ElementName allowLocalAndTollFreeCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAllowLocalAndTollFreeCalls()
     {
-        return $this->allowLocalAndTollFreeCalls;
+        return $this->allowLocalAndTollFreeCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowLocalAndTollFreeCalls;
     }
 
     /**
      * Setter for allowLocalAndTollFreeCalls
      *
-     * @ElementName allowLocalAndTollFreeCalls
-     * @param bool|null $allowLocalAndTollFreeCalls
+     * @param bool $allowLocalAndTollFreeCalls
      * @return $this
      */
     public function setAllowLocalAndTollFreeCalls($allowLocalAndTollFreeCalls)
@@ -179,54 +212,81 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowLocalAndTollFreeCalls()
+    {
+        $this->allowLocalAndTollFreeCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for mandatoryUsageUserIdList
      *
-     * @ElementName mandatoryUsageUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getMandatoryUsageUserIdList()
     {
-        return $this->mandatoryUsageUserIdList;
+        return $this->mandatoryUsageUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mandatoryUsageUserIdList;
     }
 
     /**
      * Setter for mandatoryUsageUserIdList
      *
-     * @ElementName mandatoryUsageUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $mandatoryUsageUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $mandatoryUsageUserIdList
      * @return $this
      */
     public function setMandatoryUsageUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $mandatoryUsageUserIdList)
     {
-        $this->mandatoryUsageUserIdList = $mandatoryUsageUserIdList;
+        if ($mandatoryUsageUserIdList === null) {
+            $this->mandatoryUsageUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->mandatoryUsageUserIdList = $mandatoryUsageUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMandatoryUsageUserIdList()
+    {
+        $this->mandatoryUsageUserIdList = null;
         return $this;
     }
 
     /**
      * Getter for optionalUsageUserIdList
      *
-     * @ElementName optionalUsageUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getOptionalUsageUserIdList()
     {
-        return $this->optionalUsageUserIdList;
+        return $this->optionalUsageUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->optionalUsageUserIdList;
     }
 
     /**
      * Setter for optionalUsageUserIdList
      *
-     * @ElementName optionalUsageUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $optionalUsageUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $optionalUsageUserIdList
      * @return $this
      */
     public function setOptionalUsageUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $optionalUsageUserIdList)
     {
-        $this->optionalUsageUserIdList = $optionalUsageUserIdList;
+        if ($optionalUsageUserIdList === null) {
+            $this->optionalUsageUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->optionalUsageUserIdList = $optionalUsageUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOptionalUsageUserIdList()
+    {
+        $this->optionalUsageUserIdList = null;
         return $this;
     }
 

@@ -14,12 +14,14 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
 
     /**
      * @ElementName audioAnnouncementFileDescription
+     * @Type string
      * @var string|null
      */
     private $audioAnnouncementFileDescription = null;
 
     /**
      * @ElementName audioAnnouncementFileType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioAnnouncementFileType = null;
@@ -27,19 +29,17 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
     /**
      * Getter for audioAnnouncementFileDescription
      *
-     * @ElementName audioAnnouncementFileDescription
-     * @return string|null
+     * @return string
      */
     public function getAudioAnnouncementFileDescription()
     {
-        return $this->audioAnnouncementFileDescription;
+        return $this->audioAnnouncementFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioAnnouncementFileDescription;
     }
 
     /**
      * Setter for audioAnnouncementFileDescription
      *
-     * @ElementName audioAnnouncementFileDescription
-     * @param string|null $audioAnnouncementFileDescription
+     * @param string $audioAnnouncementFileDescription
      * @return $this
      */
     public function setAudioAnnouncementFileDescription($audioAnnouncementFileDescription)
@@ -49,26 +49,42 @@ class SystemSecurityClassificationGetClassificationResponse extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioAnnouncementFileDescription()
+    {
+        $this->audioAnnouncementFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioAnnouncementFileType
      *
-     * @ElementName audioAnnouncementFileType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getAudioAnnouncementFileType()
     {
-        return $this->audioAnnouncementFileType;
+        return $this->audioAnnouncementFileType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioAnnouncementFileType;
     }
 
     /**
      * Setter for audioAnnouncementFileType
      *
-     * @ElementName audioAnnouncementFileType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioAnnouncementFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioAnnouncementFileType
      * @return $this
      */
     public function setAudioAnnouncementFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioAnnouncementFileType)
     {
         $this->audioAnnouncementFileType = $audioAnnouncementFileType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAudioAnnouncementFileType()
+    {
+        $this->audioAnnouncementFileType = null;
         return $this;
     }
 

@@ -18,6 +18,7 @@ class UserAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName userIdTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userIdTable = null;
@@ -25,24 +26,31 @@ class UserAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for userIdTable
      *
-     * @ElementName userIdTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserIdTable()
     {
-        return $this->userIdTable;
+        return $this->userIdTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userIdTable;
     }
 
     /**
      * Setter for userIdTable
      *
-     * @ElementName userIdTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userIdTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userIdTable
      * @return $this
      */
     public function setUserIdTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userIdTable)
     {
         $this->userIdTable = $userIdTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserIdTable()
+    {
+        $this->userIdTable = null;
         return $this;
     }
 

@@ -10,6 +10,8 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
 
     /**
      * @ElementName extension
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $extension = array(
@@ -18,6 +20,8 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
 
     /**
      * @ElementName extensionRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17[]
      */
     private $extensionRange = array(
@@ -27,18 +31,16 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
     /**
      * Getter for extension
      *
-     * @ElementName extension
      * @return string[]
      */
     public function getExtension()
     {
-        return $this->extension;
+        return $this->extension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extension;
     }
 
     /**
      * Setter for extension
      *
-     * @ElementName extension
      * @param string[] $extension
      * @return $this
      */
@@ -49,33 +51,39 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtension()
+    {
+        $this->extension = null;
+        return $this;
+    }
+
+    /**
      * Adder for extension
      *
-     * @ElementName extension
      * @param string $extension
      * @return $this
      */
     public function addExtension(string $extension)
     {
-        $this->extension []= $extension;
+        $this->extension[] = $extension;
         return $this;
     }
 
     /**
      * Getter for extensionRange
      *
-     * @ElementName extensionRange
      * @return \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17[]
      */
     public function getExtensionRange()
     {
-        return $this->extensionRange;
+        return $this->extensionRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extensionRange;
     }
 
     /**
      * Setter for extensionRange
      *
-     * @ElementName extensionRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17[] $extensionRange
      * @return $this
      */
@@ -86,15 +94,23 @@ class GroupTrunkGroupUserCreationTaskAddRequest14sp4UserExtensions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtensionRange()
+    {
+        $this->extensionRange = null;
+        return $this;
+    }
+
+    /**
      * Adder for extensionRange
      *
-     * @ElementName extensionRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExtensionRange17 $extensionRange
      * @return $this
      */
     public function addExtensionRange($extensionRange)
     {
-        $this->extensionRange []= $extensionRange;
+        $this->extensionRange[] = $extensionRange;
         return $this;
     }
 

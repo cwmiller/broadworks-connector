@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DayOfWeekInMonth THIRD()
  * @method static DayOfWeekInMonth FOURTH()
  * @method static DayOfWeekInMonth LAST()
- * @ValueType string
+ * @EnumValueType string
  */
 class DayOfWeekInMonth extends \MyCLabs\Enum\Enum
 {

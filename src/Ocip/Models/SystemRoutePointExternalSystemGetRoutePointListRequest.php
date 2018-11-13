@@ -19,6 +19,7 @@ class SystemRoutePointExternalSystemGetRoutePointListRequest extends \CWM\BroadW
 
     /**
      * @ElementName routePointExternalSystem
+     * @Type string
      * @var string|null
      */
     private $routePointExternalSystem = null;
@@ -26,24 +27,31 @@ class SystemRoutePointExternalSystemGetRoutePointListRequest extends \CWM\BroadW
     /**
      * Getter for routePointExternalSystem
      *
-     * @ElementName routePointExternalSystem
-     * @return string|null
+     * @return string
      */
     public function getRoutePointExternalSystem()
     {
-        return $this->routePointExternalSystem;
+        return $this->routePointExternalSystem instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routePointExternalSystem;
     }
 
     /**
      * Setter for routePointExternalSystem
      *
-     * @ElementName routePointExternalSystem
-     * @param string|null $routePointExternalSystem
+     * @param string $routePointExternalSystem
      * @return $this
      */
     public function setRoutePointExternalSystem($routePointExternalSystem)
     {
         $this->routePointExternalSystem = $routePointExternalSystem;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoutePointExternalSystem()
+    {
+        $this->routePointExternalSystem = null;
         return $this;
     }
 

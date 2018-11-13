@@ -19,36 +19,42 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName enableIPDeviceManagement
+     * @Type bool
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
 
     /**
      * @ElementName ftpConnectTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
 
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
 
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
+     * @Type int
      * @var int|null
      */
     private $pauseBetweenFileRebuildMilliseconds = null;
 
     /**
      * @ElementName maxBusyTimeMinutes
+     * @Type int
      * @var int|null
      */
     private $maxBusyTimeMinutes = null;
 
     /**
      * @ElementName deviceAccessAppServerClusterName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -57,19 +63,17 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     /**
      * Getter for enableIPDeviceManagement
      *
-     * @ElementName enableIPDeviceManagement
-     * @return bool|null
+     * @return bool
      */
     public function getEnableIPDeviceManagement()
     {
-        return $this->enableIPDeviceManagement;
+        return $this->enableIPDeviceManagement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableIPDeviceManagement;
     }
 
     /**
      * Setter for enableIPDeviceManagement
      *
-     * @ElementName enableIPDeviceManagement
-     * @param bool|null $enableIPDeviceManagement
+     * @param bool $enableIPDeviceManagement
      * @return $this
      */
     public function setEnableIPDeviceManagement($enableIPDeviceManagement)
@@ -79,21 +83,28 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableIPDeviceManagement()
+    {
+        $this->enableIPDeviceManagement = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpConnectTimeoutSeconds
      *
-     * @ElementName ftpConnectTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getFtpConnectTimeoutSeconds()
     {
-        return $this->ftpConnectTimeoutSeconds;
+        return $this->ftpConnectTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpConnectTimeoutSeconds;
     }
 
     /**
      * Setter for ftpConnectTimeoutSeconds
      *
-     * @ElementName ftpConnectTimeoutSeconds
-     * @param int|null $ftpConnectTimeoutSeconds
+     * @param int $ftpConnectTimeoutSeconds
      * @return $this
      */
     public function setFtpConnectTimeoutSeconds($ftpConnectTimeoutSeconds)
@@ -103,21 +114,28 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpConnectTimeoutSeconds()
+    {
+        $this->ftpConnectTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpFileTransferTimeoutSeconds
      *
-     * @ElementName ftpFileTransferTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getFtpFileTransferTimeoutSeconds()
     {
-        return $this->ftpFileTransferTimeoutSeconds;
+        return $this->ftpFileTransferTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpFileTransferTimeoutSeconds;
     }
 
     /**
      * Setter for ftpFileTransferTimeoutSeconds
      *
-     * @ElementName ftpFileTransferTimeoutSeconds
-     * @param int|null $ftpFileTransferTimeoutSeconds
+     * @param int $ftpFileTransferTimeoutSeconds
      * @return $this
      */
     public function setFtpFileTransferTimeoutSeconds($ftpFileTransferTimeoutSeconds)
@@ -127,21 +145,28 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpFileTransferTimeoutSeconds()
+    {
+        $this->ftpFileTransferTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for pauseBetweenFileRebuildMilliseconds
      *
-     * @ElementName pauseBetweenFileRebuildMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getPauseBetweenFileRebuildMilliseconds()
     {
-        return $this->pauseBetweenFileRebuildMilliseconds;
+        return $this->pauseBetweenFileRebuildMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pauseBetweenFileRebuildMilliseconds;
     }
 
     /**
      * Setter for pauseBetweenFileRebuildMilliseconds
      *
-     * @ElementName pauseBetweenFileRebuildMilliseconds
-     * @param int|null $pauseBetweenFileRebuildMilliseconds
+     * @param int $pauseBetweenFileRebuildMilliseconds
      * @return $this
      */
     public function setPauseBetweenFileRebuildMilliseconds($pauseBetweenFileRebuildMilliseconds)
@@ -151,21 +176,28 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPauseBetweenFileRebuildMilliseconds()
+    {
+        $this->pauseBetweenFileRebuildMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxBusyTimeMinutes
      *
-     * @ElementName maxBusyTimeMinutes
-     * @return int|null
+     * @return int
      */
     public function getMaxBusyTimeMinutes()
     {
-        return $this->maxBusyTimeMinutes;
+        return $this->maxBusyTimeMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxBusyTimeMinutes;
     }
 
     /**
      * Setter for maxBusyTimeMinutes
      *
-     * @ElementName maxBusyTimeMinutes
-     * @param int|null $maxBusyTimeMinutes
+     * @param int $maxBusyTimeMinutes
      * @return $this
      */
     public function setMaxBusyTimeMinutes($maxBusyTimeMinutes)
@@ -175,28 +207,46 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxBusyTimeMinutes()
+    {
+        $this->maxBusyTimeMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceAccessAppServerClusterName
      *
-     * @ElementName deviceAccessAppServerClusterName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDeviceAccessAppServerClusterName()
     {
-        return $this->deviceAccessAppServerClusterName;
+        return $this->deviceAccessAppServerClusterName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessAppServerClusterName;
     }
 
     /**
      * Setter for deviceAccessAppServerClusterName
      *
-     * @ElementName deviceAccessAppServerClusterName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceAccessAppServerClusterName
+     * @param string|null $deviceAccessAppServerClusterName
      * @return $this
      */
     public function setDeviceAccessAppServerClusterName($deviceAccessAppServerClusterName)
     {
-        $this->deviceAccessAppServerClusterName = $deviceAccessAppServerClusterName;
+        if ($deviceAccessAppServerClusterName === null) {
+            $this->deviceAccessAppServerClusterName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deviceAccessAppServerClusterName = $deviceAccessAppServerClusterName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceAccessAppServerClusterName()
+    {
+        $this->deviceAccessAppServerClusterName = null;
         return $this;
     }
 

@@ -16,78 +16,91 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName processing
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
      */
     private $processing = null;
 
     /**
      * @ElementName voiceMessageDeliveryEmailAddress
+     * @Type string
      * @var string|null
      */
     private $voiceMessageDeliveryEmailAddress = null;
 
     /**
      * @ElementName usePhoneMessageWaitingIndicator
+     * @Type bool
      * @var bool|null
      */
     private $usePhoneMessageWaitingIndicator = null;
 
     /**
      * @ElementName sendVoiceMessageNotifyEmail
+     * @Type bool
      * @var bool|null
      */
     private $sendVoiceMessageNotifyEmail = null;
 
     /**
      * @ElementName voiceMessageNotifyEmailAddress
+     * @Type string
      * @var string|null
      */
     private $voiceMessageNotifyEmailAddress = null;
 
     /**
      * @ElementName sendCarbonCopyVoiceMessage
+     * @Type bool
      * @var bool|null
      */
     private $sendCarbonCopyVoiceMessage = null;
 
     /**
      * @ElementName voiceMessageCarbonCopyEmailAddress
+     * @Type string
      * @var string|null
      */
     private $voiceMessageCarbonCopyEmailAddress = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
+     * @Type bool
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $transferPhoneNumber = null;
 
     /**
      * @ElementName alwaysRedirectToVoiceMail
+     * @Type bool
      * @var bool|null
      */
     private $alwaysRedirectToVoiceMail = null;
 
     /**
      * @ElementName busyRedirectToVoiceMail
+     * @Type bool
      * @var bool|null
      */
     private $busyRedirectToVoiceMail = null;
 
     /**
      * @ElementName noAnswerRedirectToVoiceMail
+     * @Type bool
      * @var bool|null
      */
     private $noAnswerRedirectToVoiceMail = null;
@@ -95,19 +108,17 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -117,21 +128,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for processing
      *
-     * @ElementName processing
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing
      */
     public function getProcessing()
     {
-        return $this->processing;
+        return $this->processing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->processing;
     }
 
     /**
      * Setter for processing
      *
-     * @ElementName processing
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing|null $processing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing $processing
      * @return $this
      */
     public function setProcessing(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMessageProcessing $processing)
@@ -141,21 +159,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProcessing()
+    {
+        $this->processing = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessageDeliveryEmailAddress
      *
-     * @ElementName voiceMessageDeliveryEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getVoiceMessageDeliveryEmailAddress()
     {
-        return $this->voiceMessageDeliveryEmailAddress;
+        return $this->voiceMessageDeliveryEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessageDeliveryEmailAddress;
     }
 
     /**
      * Setter for voiceMessageDeliveryEmailAddress
      *
-     * @ElementName voiceMessageDeliveryEmailAddress
-     * @param string|null $voiceMessageDeliveryEmailAddress
+     * @param string $voiceMessageDeliveryEmailAddress
      * @return $this
      */
     public function setVoiceMessageDeliveryEmailAddress($voiceMessageDeliveryEmailAddress)
@@ -165,21 +190,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessageDeliveryEmailAddress()
+    {
+        $this->voiceMessageDeliveryEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for usePhoneMessageWaitingIndicator
      *
-     * @ElementName usePhoneMessageWaitingIndicator
-     * @return bool|null
+     * @return bool
      */
     public function getUsePhoneMessageWaitingIndicator()
     {
-        return $this->usePhoneMessageWaitingIndicator;
+        return $this->usePhoneMessageWaitingIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usePhoneMessageWaitingIndicator;
     }
 
     /**
      * Setter for usePhoneMessageWaitingIndicator
      *
-     * @ElementName usePhoneMessageWaitingIndicator
-     * @param bool|null $usePhoneMessageWaitingIndicator
+     * @param bool $usePhoneMessageWaitingIndicator
      * @return $this
      */
     public function setUsePhoneMessageWaitingIndicator($usePhoneMessageWaitingIndicator)
@@ -189,21 +221,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUsePhoneMessageWaitingIndicator()
+    {
+        $this->usePhoneMessageWaitingIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendVoiceMessageNotifyEmail
      *
-     * @ElementName sendVoiceMessageNotifyEmail
-     * @return bool|null
+     * @return bool
      */
     public function getSendVoiceMessageNotifyEmail()
     {
-        return $this->sendVoiceMessageNotifyEmail;
+        return $this->sendVoiceMessageNotifyEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendVoiceMessageNotifyEmail;
     }
 
     /**
      * Setter for sendVoiceMessageNotifyEmail
      *
-     * @ElementName sendVoiceMessageNotifyEmail
-     * @param bool|null $sendVoiceMessageNotifyEmail
+     * @param bool $sendVoiceMessageNotifyEmail
      * @return $this
      */
     public function setSendVoiceMessageNotifyEmail($sendVoiceMessageNotifyEmail)
@@ -213,21 +252,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendVoiceMessageNotifyEmail()
+    {
+        $this->sendVoiceMessageNotifyEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessageNotifyEmailAddress
      *
-     * @ElementName voiceMessageNotifyEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getVoiceMessageNotifyEmailAddress()
     {
-        return $this->voiceMessageNotifyEmailAddress;
+        return $this->voiceMessageNotifyEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessageNotifyEmailAddress;
     }
 
     /**
      * Setter for voiceMessageNotifyEmailAddress
      *
-     * @ElementName voiceMessageNotifyEmailAddress
-     * @param string|null $voiceMessageNotifyEmailAddress
+     * @param string $voiceMessageNotifyEmailAddress
      * @return $this
      */
     public function setVoiceMessageNotifyEmailAddress($voiceMessageNotifyEmailAddress)
@@ -237,21 +283,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessageNotifyEmailAddress()
+    {
+        $this->voiceMessageNotifyEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendCarbonCopyVoiceMessage
      *
-     * @ElementName sendCarbonCopyVoiceMessage
-     * @return bool|null
+     * @return bool
      */
     public function getSendCarbonCopyVoiceMessage()
     {
-        return $this->sendCarbonCopyVoiceMessage;
+        return $this->sendCarbonCopyVoiceMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendCarbonCopyVoiceMessage;
     }
 
     /**
      * Setter for sendCarbonCopyVoiceMessage
      *
-     * @ElementName sendCarbonCopyVoiceMessage
-     * @param bool|null $sendCarbonCopyVoiceMessage
+     * @param bool $sendCarbonCopyVoiceMessage
      * @return $this
      */
     public function setSendCarbonCopyVoiceMessage($sendCarbonCopyVoiceMessage)
@@ -261,21 +314,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendCarbonCopyVoiceMessage()
+    {
+        $this->sendCarbonCopyVoiceMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessageCarbonCopyEmailAddress
      *
-     * @ElementName voiceMessageCarbonCopyEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getVoiceMessageCarbonCopyEmailAddress()
     {
-        return $this->voiceMessageCarbonCopyEmailAddress;
+        return $this->voiceMessageCarbonCopyEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessageCarbonCopyEmailAddress;
     }
 
     /**
      * Setter for voiceMessageCarbonCopyEmailAddress
      *
-     * @ElementName voiceMessageCarbonCopyEmailAddress
-     * @param string|null $voiceMessageCarbonCopyEmailAddress
+     * @param string $voiceMessageCarbonCopyEmailAddress
      * @return $this
      */
     public function setVoiceMessageCarbonCopyEmailAddress($voiceMessageCarbonCopyEmailAddress)
@@ -285,21 +345,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessageCarbonCopyEmailAddress()
+    {
+        $this->voiceMessageCarbonCopyEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferOnZeroToPhoneNumber
      *
-     * @ElementName transferOnZeroToPhoneNumber
-     * @return bool|null
+     * @return bool
      */
     public function getTransferOnZeroToPhoneNumber()
     {
-        return $this->transferOnZeroToPhoneNumber;
+        return $this->transferOnZeroToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferOnZeroToPhoneNumber;
     }
 
     /**
      * Setter for transferOnZeroToPhoneNumber
      *
-     * @ElementName transferOnZeroToPhoneNumber
-     * @param bool|null $transferOnZeroToPhoneNumber
+     * @param bool $transferOnZeroToPhoneNumber
      * @return $this
      */
     public function setTransferOnZeroToPhoneNumber($transferOnZeroToPhoneNumber)
@@ -309,21 +376,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransferOnZeroToPhoneNumber()
+    {
+        $this->transferOnZeroToPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @param string $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
@@ -333,21 +407,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for alwaysRedirectToVoiceMail
      *
-     * @ElementName alwaysRedirectToVoiceMail
-     * @return bool|null
+     * @return bool
      */
     public function getAlwaysRedirectToVoiceMail()
     {
-        return $this->alwaysRedirectToVoiceMail;
+        return $this->alwaysRedirectToVoiceMail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alwaysRedirectToVoiceMail;
     }
 
     /**
      * Setter for alwaysRedirectToVoiceMail
      *
-     * @ElementName alwaysRedirectToVoiceMail
-     * @param bool|null $alwaysRedirectToVoiceMail
+     * @param bool $alwaysRedirectToVoiceMail
      * @return $this
      */
     public function setAlwaysRedirectToVoiceMail($alwaysRedirectToVoiceMail)
@@ -357,21 +438,28 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlwaysRedirectToVoiceMail()
+    {
+        $this->alwaysRedirectToVoiceMail = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyRedirectToVoiceMail
      *
-     * @ElementName busyRedirectToVoiceMail
-     * @return bool|null
+     * @return bool
      */
     public function getBusyRedirectToVoiceMail()
     {
-        return $this->busyRedirectToVoiceMail;
+        return $this->busyRedirectToVoiceMail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyRedirectToVoiceMail;
     }
 
     /**
      * Setter for busyRedirectToVoiceMail
      *
-     * @ElementName busyRedirectToVoiceMail
-     * @param bool|null $busyRedirectToVoiceMail
+     * @param bool $busyRedirectToVoiceMail
      * @return $this
      */
     public function setBusyRedirectToVoiceMail($busyRedirectToVoiceMail)
@@ -381,26 +469,42 @@ class UserVoiceMessagingUserGetVoiceManagementResponse13mp8 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyRedirectToVoiceMail()
+    {
+        $this->busyRedirectToVoiceMail = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerRedirectToVoiceMail
      *
-     * @ElementName noAnswerRedirectToVoiceMail
-     * @return bool|null
+     * @return bool
      */
     public function getNoAnswerRedirectToVoiceMail()
     {
-        return $this->noAnswerRedirectToVoiceMail;
+        return $this->noAnswerRedirectToVoiceMail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerRedirectToVoiceMail;
     }
 
     /**
      * Setter for noAnswerRedirectToVoiceMail
      *
-     * @ElementName noAnswerRedirectToVoiceMail
-     * @param bool|null $noAnswerRedirectToVoiceMail
+     * @param bool $noAnswerRedirectToVoiceMail
      * @return $this
      */
     public function setNoAnswerRedirectToVoiceMail($noAnswerRedirectToVoiceMail)
     {
         $this->noAnswerRedirectToVoiceMail = $noAnswerRedirectToVoiceMail;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNoAnswerRedirectToVoiceMail()
+    {
+        $this->noAnswerRedirectToVoiceMail = null;
         return $this;
     }
 

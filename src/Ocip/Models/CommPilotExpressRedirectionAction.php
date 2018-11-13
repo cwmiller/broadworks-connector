@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CommPilotExpressRedirectionAction TRANSFER_TO_VOICE_MAIL()
  * @method static CommPilotExpressRedirectionAction FORWARD()
- * @ValueType string
+ * @EnumValueType string
  */
 class CommPilotExpressRedirectionAction extends \MyCLabs\Enum\Enum
 {

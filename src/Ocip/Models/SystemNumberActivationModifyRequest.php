@@ -16,6 +16,7 @@ class SystemNumberActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName useNumberActivation
+     * @Type bool
      * @var bool|null
      */
     private $useNumberActivation = null;
@@ -23,24 +24,31 @@ class SystemNumberActivationModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for useNumberActivation
      *
-     * @ElementName useNumberActivation
-     * @return bool|null
+     * @return bool
      */
     public function getUseNumberActivation()
     {
-        return $this->useNumberActivation;
+        return $this->useNumberActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useNumberActivation;
     }
 
     /**
      * Setter for useNumberActivation
      *
-     * @ElementName useNumberActivation
-     * @param bool|null $useNumberActivation
+     * @param bool $useNumberActivation
      * @return $this
      */
     public function setUseNumberActivation($useNumberActivation)
     {
         $this->useNumberActivation = $useNumberActivation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseNumberActivation()
+    {
+        $this->useNumberActivation = null;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static HPBXAlternateCarrierType LOCAL_AND_DISTANT()
  * @method static HPBXAlternateCarrierType DISTANT()
- * @ValueType string
+ * @EnumValueType string
  */
 class HPBXAlternateCarrierType extends \MyCLabs\Enum\Enum
 {

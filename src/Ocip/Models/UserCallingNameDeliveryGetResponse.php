@@ -14,12 +14,14 @@ class UserCallingNameDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName isActiveForExternalCalls
+     * @Type bool
      * @var bool|null
      */
     private $isActiveForExternalCalls = null;
 
     /**
      * @ElementName isActiveForInternalCalls
+     * @Type bool
      * @var bool|null
      */
     private $isActiveForInternalCalls = null;
@@ -27,19 +29,17 @@ class UserCallingNameDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for isActiveForExternalCalls
      *
-     * @ElementName isActiveForExternalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveForExternalCalls()
     {
-        return $this->isActiveForExternalCalls;
+        return $this->isActiveForExternalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveForExternalCalls;
     }
 
     /**
      * Setter for isActiveForExternalCalls
      *
-     * @ElementName isActiveForExternalCalls
-     * @param bool|null $isActiveForExternalCalls
+     * @param bool $isActiveForExternalCalls
      * @return $this
      */
     public function setIsActiveForExternalCalls($isActiveForExternalCalls)
@@ -49,26 +49,42 @@ class UserCallingNameDeliveryGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveForExternalCalls()
+    {
+        $this->isActiveForExternalCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveForInternalCalls
      *
-     * @ElementName isActiveForInternalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveForInternalCalls()
     {
-        return $this->isActiveForInternalCalls;
+        return $this->isActiveForInternalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveForInternalCalls;
     }
 
     /**
      * Setter for isActiveForInternalCalls
      *
-     * @ElementName isActiveForInternalCalls
-     * @param bool|null $isActiveForInternalCalls
+     * @param bool $isActiveForInternalCalls
      * @return $this
      */
     public function setIsActiveForInternalCalls($isActiveForInternalCalls)
     {
         $this->isActiveForInternalCalls = $isActiveForInternalCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsActiveForInternalCalls()
+    {
+        $this->isActiveForInternalCalls = null;
         return $this;
     }
 

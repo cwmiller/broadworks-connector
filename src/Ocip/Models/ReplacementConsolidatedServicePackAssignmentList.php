@@ -19,6 +19,8 @@ class ReplacementConsolidatedServicePackAssignmentList
 
     /**
      * @ElementName servicePack
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment[]
      */
     private $servicePack = array(
@@ -28,18 +30,16 @@ class ReplacementConsolidatedServicePackAssignmentList
     /**
      * Getter for servicePack
      *
-     * @ElementName servicePack
      * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment[]
      */
     public function getServicePack()
     {
-        return $this->servicePack;
+        return $this->servicePack instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePack;
     }
 
     /**
      * Setter for servicePack
      *
-     * @ElementName servicePack
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment[] $servicePack
      * @return $this
      */
@@ -50,15 +50,23 @@ class ReplacementConsolidatedServicePackAssignmentList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePack()
+    {
+        $this->servicePack = null;
+        return $this;
+    }
+
+    /**
      * Adder for servicePack
      *
-     * @ElementName servicePack
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment $servicePack
      * @return $this
      */
     public function addServicePack($servicePack)
     {
-        $this->servicePack []= $servicePack;
+        $this->servicePack[] = $servicePack;
         return $this;
     }
 

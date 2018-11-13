@@ -17,18 +17,22 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName trunkGroupKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -37,6 +41,8 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName searchCriteriaUserFirstName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -45,12 +51,15 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaUserId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -59,6 +68,8 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName searchCriteriaDn
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -67,6 +78,8 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName searchCriteriaExtension
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -76,19 +89,17 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     /**
      * Getter for trunkGroupKey
      *
-     * @ElementName trunkGroupKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      */
     public function getTrunkGroupKey()
     {
-        return $this->trunkGroupKey;
+        return $this->trunkGroupKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupKey;
     }
 
     /**
      * Setter for trunkGroupKey
      *
-     * @ElementName trunkGroupKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $trunkGroupKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey
      * @return $this
      */
     public function setTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey)
@@ -98,21 +109,28 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupKey()
+    {
+        $this->trunkGroupKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -122,20 +140,27 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     public function getSearchCriteriaUserLastName()
     {
-        return $this->searchCriteriaUserLastName;
+        return $this->searchCriteriaUserLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserLastName;
     }
 
     /**
      * Setter for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
@@ -146,33 +171,39 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserLastName()
+    {
+        $this->searchCriteriaUserLastName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName $searchCriteriaUserLastName
      * @return $this
      */
     public function addSearchCriteriaUserLastName($searchCriteriaUserLastName)
     {
-        $this->searchCriteriaUserLastName []= $searchCriteriaUserLastName;
+        $this->searchCriteriaUserLastName[] = $searchCriteriaUserLastName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     public function getSearchCriteriaUserFirstName()
     {
-        return $this->searchCriteriaUserFirstName;
+        return $this->searchCriteriaUserFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserFirstName;
     }
 
     /**
      * Setter for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
@@ -183,34 +214,40 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserFirstName()
+    {
+        $this->searchCriteriaUserFirstName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName $searchCriteriaUserFirstName
      * @return $this
      */
     public function addSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
     {
-        $this->searchCriteriaUserFirstName []= $searchCriteriaUserFirstName;
+        $this->searchCriteriaUserFirstName[] = $searchCriteriaUserFirstName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactUserDepartment
      *
-     * @ElementName searchCriteriaExactUserDepartment
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      */
     public function getSearchCriteriaExactUserDepartment()
     {
-        return $this->searchCriteriaExactUserDepartment;
+        return $this->searchCriteriaExactUserDepartment instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactUserDepartment;
     }
 
     /**
      * Setter for searchCriteriaExactUserDepartment
      *
-     * @ElementName searchCriteriaExactUserDepartment
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null $searchCriteriaExactUserDepartment
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment $searchCriteriaExactUserDepartment
      * @return $this
      */
     public function setSearchCriteriaExactUserDepartment(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment $searchCriteriaExactUserDepartment)
@@ -220,20 +257,27 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactUserDepartment()
+    {
+        $this->searchCriteriaExactUserDepartment = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaUserId
      *
-     * @ElementName searchCriteriaUserId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     public function getSearchCriteriaUserId()
     {
-        return $this->searchCriteriaUserId;
+        return $this->searchCriteriaUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserId;
     }
 
     /**
      * Setter for searchCriteriaUserId
      *
-     * @ElementName searchCriteriaUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[] $searchCriteriaUserId
      * @return $this
      */
@@ -244,33 +288,39 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserId()
+    {
+        $this->searchCriteriaUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserId
      *
-     * @ElementName searchCriteriaUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId $searchCriteriaUserId
      * @return $this
      */
     public function addSearchCriteriaUserId($searchCriteriaUserId)
     {
-        $this->searchCriteriaUserId []= $searchCriteriaUserId;
+        $this->searchCriteriaUserId[] = $searchCriteriaUserId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     public function getSearchCriteriaDn()
     {
-        return $this->searchCriteriaDn;
+        return $this->searchCriteriaDn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDn;
     }
 
     /**
      * Setter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
@@ -281,33 +331,39 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDn()
+    {
+        $this->searchCriteriaDn = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn $searchCriteriaDn
      * @return $this
      */
     public function addSearchCriteriaDn($searchCriteriaDn)
     {
-        $this->searchCriteriaDn []= $searchCriteriaDn;
+        $this->searchCriteriaDn[] = $searchCriteriaDn;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     public function getSearchCriteriaExtension()
     {
-        return $this->searchCriteriaExtension;
+        return $this->searchCriteriaExtension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExtension;
     }
 
     /**
      * Setter for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[] $searchCriteriaExtension
      * @return $this
      */
@@ -318,15 +374,23 @@ class GroupTrunkGroupGetAvailableHostedUserListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExtension()
+    {
+        $this->searchCriteriaExtension = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension $searchCriteriaExtension
      * @return $this
      */
     public function addSearchCriteriaExtension($searchCriteriaExtension)
     {
-        $this->searchCriteriaExtension []= $searchCriteriaExtension;
+        $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
 

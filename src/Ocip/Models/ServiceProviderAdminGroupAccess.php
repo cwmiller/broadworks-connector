@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceProviderAdminGroupAccess
  * RESTRICTED_FROM_ADDING_OR_REMOVING_GROUPS()
  * @method static ServiceProviderAdminGroupAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminGroupAccess extends \MyCLabs\Enum\Enum
 {

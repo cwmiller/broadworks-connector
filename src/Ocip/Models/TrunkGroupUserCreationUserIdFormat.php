@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static TrunkGroupUserCreationUserIdFormat EXTENSION()
  * @method static TrunkGroupUserCreationUserIdFormat NATIONAL_DN()
  * @method static TrunkGroupUserCreationUserIdFormat E164_FORMAT_NO_PLUS()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupUserCreationUserIdFormat extends \MyCLabs\Enum\Enum
 {

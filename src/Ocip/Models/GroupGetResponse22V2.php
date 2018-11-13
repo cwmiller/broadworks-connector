@@ -26,108 +26,126 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
 
     /**
      * @ElementName defaultDomain
+     * @Type string
      * @var string|null
      */
     private $defaultDomain = null;
 
     /**
      * @ElementName userLimit
+     * @Type int
      * @var int|null
      */
     private $userLimit = null;
 
     /**
      * @ElementName userCount
+     * @Type int
      * @var int|null
      */
     private $userCount = null;
 
     /**
      * @ElementName groupName
+     * @Type string
      * @var string|null
      */
     private $groupName = null;
 
     /**
      * @ElementName callingLineIdName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName callingLineIdDisplayPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $callingLineIdDisplayPhoneNumber = null;
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName timeZoneDisplayName
+     * @Type string
      * @var string|null
      */
     private $timeZoneDisplayName = null;
 
     /**
      * @ElementName locationDialingCode
+     * @Type string
      * @var string|null
      */
     private $locationDialingCode = null;
 
     /**
      * @ElementName contact
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
 
     /**
      * @ElementName address
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
 
     /**
      * @ElementName servicePolicy
+     * @Type string
      * @var string|null
      */
     private $servicePolicy = null;
 
     /**
      * @ElementName callProcessingSliceId
+     * @Type string
      * @var string|null
      */
     private $callProcessingSliceId = null;
 
     /**
      * @ElementName provisioningSliceId
+     * @Type string
      * @var string|null
      */
     private $provisioningSliceId = null;
 
     /**
      * @ElementName subscriberPartition
+     * @Type string
      * @var string|null
      */
     private $subscriberPartition = null;
 
     /**
      * @ElementName preferredDataCenter
+     * @Type string
      * @var string|null
      */
     private $preferredDataCenter = null;
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
@@ -135,19 +153,17 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * Getter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @return string|null
+     * @return string
      */
     public function getDefaultDomain()
     {
-        return $this->defaultDomain;
+        return $this->defaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultDomain;
     }
 
     /**
      * Setter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @param string|null $defaultDomain
+     * @param string $defaultDomain
      * @return $this
      */
     public function setDefaultDomain($defaultDomain)
@@ -157,21 +173,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultDomain()
+    {
+        $this->defaultDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for userLimit
      *
-     * @ElementName userLimit
-     * @return int|null
+     * @return int
      */
     public function getUserLimit()
     {
-        return $this->userLimit;
+        return $this->userLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userLimit;
     }
 
     /**
      * Setter for userLimit
      *
-     * @ElementName userLimit
-     * @param int|null $userLimit
+     * @param int $userLimit
      * @return $this
      */
     public function setUserLimit($userLimit)
@@ -181,21 +204,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserLimit()
+    {
+        $this->userLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for userCount
      *
-     * @ElementName userCount
-     * @return int|null
+     * @return int
      */
     public function getUserCount()
     {
-        return $this->userCount;
+        return $this->userCount instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userCount;
     }
 
     /**
      * Setter for userCount
      *
-     * @ElementName userCount
-     * @param int|null $userCount
+     * @param int $userCount
      * @return $this
      */
     public function setUserCount($userCount)
@@ -205,21 +235,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserCount()
+    {
+        $this->userCount = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupName
      *
-     * @ElementName groupName
-     * @return string|null
+     * @return string
      */
     public function getGroupName()
     {
-        return $this->groupName;
+        return $this->groupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupName;
     }
 
     /**
      * Setter for groupName
      *
-     * @ElementName groupName
-     * @param string|null $groupName
+     * @param string $groupName
      * @return $this
      */
     public function setGroupName($groupName)
@@ -229,21 +266,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupName()
+    {
+        $this->groupName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdName()
     {
-        return $this->callingLineIdName;
+        return $this->callingLineIdName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdName;
     }
 
     /**
      * Setter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @param string|null $callingLineIdName
+     * @param string $callingLineIdName
      * @return $this
      */
     public function setCallingLineIdName($callingLineIdName)
@@ -253,21 +297,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdName()
+    {
+        $this->callingLineIdName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdPhoneNumber()
     {
-        return $this->callingLineIdPhoneNumber;
+        return $this->callingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @param string $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
@@ -277,21 +328,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdPhoneNumber()
+    {
+        $this->callingLineIdPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdDisplayPhoneNumber
      *
-     * @ElementName callingLineIdDisplayPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdDisplayPhoneNumber()
     {
-        return $this->callingLineIdDisplayPhoneNumber;
+        return $this->callingLineIdDisplayPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdDisplayPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdDisplayPhoneNumber
      *
-     * @ElementName callingLineIdDisplayPhoneNumber
-     * @param string|null $callingLineIdDisplayPhoneNumber
+     * @param string $callingLineIdDisplayPhoneNumber
      * @return $this
      */
     public function setCallingLineIdDisplayPhoneNumber($callingLineIdDisplayPhoneNumber)
@@ -301,21 +359,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdDisplayPhoneNumber()
+    {
+        $this->callingLineIdDisplayPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -325,21 +390,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZoneDisplayName
      *
-     * @ElementName timeZoneDisplayName
-     * @return string|null
+     * @return string
      */
     public function getTimeZoneDisplayName()
     {
-        return $this->timeZoneDisplayName;
+        return $this->timeZoneDisplayName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZoneDisplayName;
     }
 
     /**
      * Setter for timeZoneDisplayName
      *
-     * @ElementName timeZoneDisplayName
-     * @param string|null $timeZoneDisplayName
+     * @param string $timeZoneDisplayName
      * @return $this
      */
     public function setTimeZoneDisplayName($timeZoneDisplayName)
@@ -349,21 +421,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZoneDisplayName()
+    {
+        $this->timeZoneDisplayName = null;
+        return $this;
+    }
+
+    /**
      * Getter for locationDialingCode
      *
-     * @ElementName locationDialingCode
-     * @return string|null
+     * @return string
      */
     public function getLocationDialingCode()
     {
-        return $this->locationDialingCode;
+        return $this->locationDialingCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locationDialingCode;
     }
 
     /**
      * Setter for locationDialingCode
      *
-     * @ElementName locationDialingCode
-     * @param string|null $locationDialingCode
+     * @param string $locationDialingCode
      * @return $this
      */
     public function setLocationDialingCode($locationDialingCode)
@@ -373,21 +452,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocationDialingCode()
+    {
+        $this->locationDialingCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for contact
      *
-     * @ElementName contact
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Contact|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Contact
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Contact|null $contact
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Contact $contact
      * @return $this
      */
     public function setContact(\CWM\BroadWorksConnector\Ocip\Models\Contact $contact)
@@ -397,21 +483,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Getter for address
      *
-     * @ElementName address
-     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address
      * @return $this
      */
     public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
@@ -421,21 +514,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePolicy
      *
-     * @ElementName servicePolicy
-     * @return string|null
+     * @return string
      */
     public function getServicePolicy()
     {
-        return $this->servicePolicy;
+        return $this->servicePolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePolicy;
     }
 
     /**
      * Setter for servicePolicy
      *
-     * @ElementName servicePolicy
-     * @param string|null $servicePolicy
+     * @param string $servicePolicy
      * @return $this
      */
     public function setServicePolicy($servicePolicy)
@@ -445,21 +545,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePolicy()
+    {
+        $this->servicePolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for callProcessingSliceId
      *
-     * @ElementName callProcessingSliceId
-     * @return string|null
+     * @return string
      */
     public function getCallProcessingSliceId()
     {
-        return $this->callProcessingSliceId;
+        return $this->callProcessingSliceId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callProcessingSliceId;
     }
 
     /**
      * Setter for callProcessingSliceId
      *
-     * @ElementName callProcessingSliceId
-     * @param string|null $callProcessingSliceId
+     * @param string $callProcessingSliceId
      * @return $this
      */
     public function setCallProcessingSliceId($callProcessingSliceId)
@@ -469,21 +576,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallProcessingSliceId()
+    {
+        $this->callProcessingSliceId = null;
+        return $this;
+    }
+
+    /**
      * Getter for provisioningSliceId
      *
-     * @ElementName provisioningSliceId
-     * @return string|null
+     * @return string
      */
     public function getProvisioningSliceId()
     {
-        return $this->provisioningSliceId;
+        return $this->provisioningSliceId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningSliceId;
     }
 
     /**
      * Setter for provisioningSliceId
      *
-     * @ElementName provisioningSliceId
-     * @param string|null $provisioningSliceId
+     * @param string $provisioningSliceId
      * @return $this
      */
     public function setProvisioningSliceId($provisioningSliceId)
@@ -493,21 +607,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProvisioningSliceId()
+    {
+        $this->provisioningSliceId = null;
+        return $this;
+    }
+
+    /**
      * Getter for subscriberPartition
      *
-     * @ElementName subscriberPartition
-     * @return string|null
+     * @return string
      */
     public function getSubscriberPartition()
     {
-        return $this->subscriberPartition;
+        return $this->subscriberPartition instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->subscriberPartition;
     }
 
     /**
      * Setter for subscriberPartition
      *
-     * @ElementName subscriberPartition
-     * @param string|null $subscriberPartition
+     * @param string $subscriberPartition
      * @return $this
      */
     public function setSubscriberPartition($subscriberPartition)
@@ -517,21 +638,28 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSubscriberPartition()
+    {
+        $this->subscriberPartition = null;
+        return $this;
+    }
+
+    /**
      * Getter for preferredDataCenter
      *
-     * @ElementName preferredDataCenter
-     * @return string|null
+     * @return string
      */
     public function getPreferredDataCenter()
     {
-        return $this->preferredDataCenter;
+        return $this->preferredDataCenter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preferredDataCenter;
     }
 
     /**
      * Setter for preferredDataCenter
      *
-     * @ElementName preferredDataCenter
-     * @param string|null $preferredDataCenter
+     * @param string $preferredDataCenter
      * @return $this
      */
     public function setPreferredDataCenter($preferredDataCenter)
@@ -541,26 +669,42 @@ class GroupGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreferredDataCenter()
+    {
+        $this->preferredDataCenter = null;
+        return $this;
+    }
+
+    /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
     {
         $this->resellerId = $resellerId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
         return $this;
     }
 

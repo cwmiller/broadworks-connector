@@ -12,12 +12,15 @@ class CallCenterSkillAgentList
 
     /**
      * @ElementName skillLevel
+     * @Type int
      * @var int|null
      */
     private $skillLevel = null;
 
     /**
      * @ElementName agent
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $agent = array(
@@ -27,19 +30,17 @@ class CallCenterSkillAgentList
     /**
      * Getter for skillLevel
      *
-     * @ElementName skillLevel
-     * @return int|null
+     * @return int
      */
     public function getSkillLevel()
     {
-        return $this->skillLevel;
+        return $this->skillLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->skillLevel;
     }
 
     /**
      * Setter for skillLevel
      *
-     * @ElementName skillLevel
-     * @param int|null $skillLevel
+     * @param int $skillLevel
      * @return $this
      */
     public function setSkillLevel($skillLevel)
@@ -49,20 +50,27 @@ class CallCenterSkillAgentList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSkillLevel()
+    {
+        $this->skillLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for agent
      *
-     * @ElementName agent
      * @return string[]
      */
     public function getAgent()
     {
-        return $this->agent;
+        return $this->agent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agent;
     }
 
     /**
      * Setter for agent
      *
-     * @ElementName agent
      * @param string[] $agent
      * @return $this
      */
@@ -73,15 +81,23 @@ class CallCenterSkillAgentList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgent()
+    {
+        $this->agent = null;
+        return $this;
+    }
+
+    /**
      * Adder for agent
      *
-     * @ElementName agent
      * @param string $agent
      * @return $this
      */
     public function addAgent(string $agent)
     {
-        $this->agent []= $agent;
+        $this->agent[] = $agent;
         return $this;
     }
 

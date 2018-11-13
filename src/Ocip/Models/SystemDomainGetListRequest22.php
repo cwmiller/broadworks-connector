@@ -27,12 +27,14 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName excludeReseller
+     * @Type bool
      * @var bool|null
      */
     private $excludeReseller = null;
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
@@ -40,19 +42,17 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for excludeReseller
      *
-     * @ElementName excludeReseller
-     * @return bool|null
+     * @return bool
      */
     public function getExcludeReseller()
     {
-        return $this->excludeReseller;
+        return $this->excludeReseller instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->excludeReseller;
     }
 
     /**
      * Setter for excludeReseller
      *
-     * @ElementName excludeReseller
-     * @param bool|null $excludeReseller
+     * @param bool $excludeReseller
      * @return $this
      */
     public function setExcludeReseller($excludeReseller)
@@ -62,26 +62,42 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExcludeReseller()
+    {
+        $this->excludeReseller = null;
+        return $this;
+    }
+
+    /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
     {
         $this->resellerId = $resellerId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
         return $this;
     }
 

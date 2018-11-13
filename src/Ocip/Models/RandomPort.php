@@ -12,12 +12,14 @@ class RandomPort
 
     /**
      * @ElementName random
+     * @Type string
      * @var string|null
      */
     private $random = null;
 
     /**
      * @ElementName port
+     * @Type int
      * @var int|null
      */
     private $port = null;
@@ -25,19 +27,17 @@ class RandomPort
     /**
      * Getter for random
      *
-     * @ElementName random
-     * @return string|null
+     * @return string
      */
     public function getRandom()
     {
-        return $this->random;
+        return $this->random instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->random;
     }
 
     /**
      * Setter for random
      *
-     * @ElementName random
-     * @param string|null $random
+     * @param string $random
      * @return $this
      */
     public function setRandom($random)
@@ -47,26 +47,42 @@ class RandomPort
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRandom()
+    {
+        $this->random = null;
+        return $this;
+    }
+
+    /**
      * Getter for port
      *
-     * @ElementName port
-     * @return int|null
+     * @return int
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @param int|null $port
+     * @param int $port
      * @return $this
      */
     public function setPort($port)
     {
         $this->port = $port;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
         return $this;
     }
 

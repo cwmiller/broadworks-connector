@@ -16,18 +16,21 @@ class SystemOCIReportingAddACLEntryRequest13mp9 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName restrictMessages
+     * @Type bool
      * @var bool|null
      */
     private $restrictMessages = null;
@@ -35,19 +38,17 @@ class SystemOCIReportingAddACLEntryRequest13mp9 extends \CWM\BroadWorksConnector
     /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -57,21 +58,28 @@ class SystemOCIReportingAddACLEntryRequest13mp9 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -81,26 +89,42 @@ class SystemOCIReportingAddACLEntryRequest13mp9 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMessages
      *
-     * @ElementName restrictMessages
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMessages()
     {
-        return $this->restrictMessages;
+        return $this->restrictMessages instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMessages;
     }
 
     /**
      * Setter for restrictMessages
      *
-     * @ElementName restrictMessages
-     * @param bool|null $restrictMessages
+     * @param bool $restrictMessages
      * @return $this
      */
     public function setRestrictMessages($restrictMessages)
     {
         $this->restrictMessages = $restrictMessages;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRestrictMessages()
+    {
+        $this->restrictMessages = null;
         return $this;
     }
 

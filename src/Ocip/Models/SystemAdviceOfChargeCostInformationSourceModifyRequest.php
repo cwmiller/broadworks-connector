@@ -16,12 +16,14 @@ class SystemAdviceOfChargeCostInformationSourceModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName peerIdentity
+     * @Type string
      * @var string|null
      */
     private $peerIdentity = null;
 
     /**
      * @ElementName priority
+     * @Type int
      * @var int|null
      */
     private $priority = null;
@@ -29,19 +31,17 @@ class SystemAdviceOfChargeCostInformationSourceModifyRequest extends \CWM\BroadW
     /**
      * Getter for peerIdentity
      *
-     * @ElementName peerIdentity
-     * @return string|null
+     * @return string
      */
     public function getPeerIdentity()
     {
-        return $this->peerIdentity;
+        return $this->peerIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->peerIdentity;
     }
 
     /**
      * Setter for peerIdentity
      *
-     * @ElementName peerIdentity
-     * @param string|null $peerIdentity
+     * @param string $peerIdentity
      * @return $this
      */
     public function setPeerIdentity($peerIdentity)
@@ -51,26 +51,42 @@ class SystemAdviceOfChargeCostInformationSourceModifyRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPeerIdentity()
+    {
+        $this->peerIdentity = null;
+        return $this;
+    }
+
+    /**
      * Getter for priority
      *
-     * @ElementName priority
-     * @return int|null
+     * @return int
      */
     public function getPriority()
     {
-        return $this->priority;
+        return $this->priority instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priority;
     }
 
     /**
      * Setter for priority
      *
-     * @ElementName priority
-     * @param int|null $priority
+     * @param int $priority
      * @return $this
      */
     public function setPriority($priority)
     {
         $this->priority = $priority;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPriority()
+    {
+        $this->priority = null;
         return $this;
     }
 

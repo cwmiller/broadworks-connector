@@ -14,6 +14,7 @@ class ServiceProviderGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWor
 
     /**
      * @ElementName maximumTargetUsers
+     * @Type int
      * @var int|null
      */
     private $maximumTargetUsers = null;
@@ -21,24 +22,31 @@ class ServiceProviderGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWor
     /**
      * Getter for maximumTargetUsers
      *
-     * @ElementName maximumTargetUsers
-     * @return int|null
+     * @return int
      */
     public function getMaximumTargetUsers()
     {
-        return $this->maximumTargetUsers;
+        return $this->maximumTargetUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumTargetUsers;
     }
 
     /**
      * Setter for maximumTargetUsers
      *
-     * @ElementName maximumTargetUsers
-     * @param int|null $maximumTargetUsers
+     * @param int $maximumTargetUsers
      * @return $this
      */
     public function setMaximumTargetUsers($maximumTargetUsers)
     {
         $this->maximumTargetUsers = $maximumTargetUsers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaximumTargetUsers()
+    {
+        $this->maximumTargetUsers = null;
         return $this;
     }
 

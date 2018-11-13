@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupUserAuthenticationAccess FULL()
  * @method static GroupUserAuthenticationAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupUserAuthenticationAccess extends \MyCLabs\Enum\Enum
 {

@@ -10,12 +10,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistribution
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,19 +26,17 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistribution
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -46,28 +46,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SelectDistribution
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenuOrFinishEnteringDistributionListNumber
      *
-     * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenuOrFinishEnteringDistributionListNumber()
     {
-        return $this->repeatMenuOrFinishEnteringDistributionListNumber;
+        return $this->repeatMenuOrFinishEnteringDistributionListNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenuOrFinishEnteringDistributionListNumber;
     }
 
     /**
      * Setter for repeatMenuOrFinishEnteringDistributionListNumber
      *
-     * @ElementName repeatMenuOrFinishEnteringDistributionListNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenuOrFinishEnteringDistributionListNumber
+     * @param string|null $repeatMenuOrFinishEnteringDistributionListNumber
      * @return $this
      */
     public function setRepeatMenuOrFinishEnteringDistributionListNumber($repeatMenuOrFinishEnteringDistributionListNumber)
     {
-        $this->repeatMenuOrFinishEnteringDistributionListNumber = $repeatMenuOrFinishEnteringDistributionListNumber;
+        if ($repeatMenuOrFinishEnteringDistributionListNumber === null) {
+            $this->repeatMenuOrFinishEnteringDistributionListNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenuOrFinishEnteringDistributionListNumber = $repeatMenuOrFinishEnteringDistributionListNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenuOrFinishEnteringDistributionListNumber()
+    {
+        $this->repeatMenuOrFinishEnteringDistributionListNumber = null;
         return $this;
     }
 

@@ -15,6 +15,7 @@ class UserNumberPortabilityAnnouncementGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName enable
+     * @Type bool
      * @var bool|null
      */
     private $enable = null;
@@ -22,24 +23,31 @@ class UserNumberPortabilityAnnouncementGetResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for enable
      *
-     * @ElementName enable
-     * @return bool|null
+     * @return bool
      */
     public function getEnable()
     {
-        return $this->enable;
+        return $this->enable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enable;
     }
 
     /**
      * Setter for enable
      *
-     * @ElementName enable
-     * @param bool|null $enable
+     * @param bool $enable
      * @return $this
      */
     public function setEnable($enable)
     {
         $this->enable = $enable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnable()
+    {
+        $this->enable = null;
         return $this;
     }
 

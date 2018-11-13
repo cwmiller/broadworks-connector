@@ -17,12 +17,15 @@ class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName useFeatureAccessCodeLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     private $useFeatureAccessCodeLevel = null;
 
     /**
      * @ElementName featureAccessCode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(
@@ -32,19 +35,17 @@ class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for useFeatureAccessCodeLevel
      *
-     * @ElementName useFeatureAccessCodeLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
      */
     public function getUseFeatureAccessCodeLevel()
     {
-        return $this->useFeatureAccessCodeLevel;
+        return $this->useFeatureAccessCodeLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useFeatureAccessCodeLevel;
     }
 
     /**
      * Setter for useFeatureAccessCodeLevel
      *
-     * @ElementName useFeatureAccessCodeLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null $useFeatureAccessCodeLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel $useFeatureAccessCodeLevel
      * @return $this
      */
     public function setUseFeatureAccessCodeLevel(\CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel $useFeatureAccessCodeLevel)
@@ -54,20 +55,27 @@ class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseFeatureAccessCodeLevel()
+    {
+        $this->useFeatureAccessCodeLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for featureAccessCode
      *
-     * @ElementName featureAccessCode
      * @return \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     public function getFeatureAccessCode()
     {
-        return $this->featureAccessCode;
+        return $this->featureAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->featureAccessCode;
     }
 
     /**
      * Setter for featureAccessCode
      *
-     * @ElementName featureAccessCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[] $featureAccessCode
      * @return $this
      */
@@ -78,15 +86,23 @@ class GroupFeatureAccessCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFeatureAccessCode()
+    {
+        $this->featureAccessCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for featureAccessCode
      *
-     * @ElementName featureAccessCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry $featureAccessCode
      * @return $this
      */
     public function addFeatureAccessCode($featureAccessCode)
     {
-        $this->featureAccessCode []= $featureAccessCode;
+        $this->featureAccessCode[] = $featureAccessCode;
         return $this;
     }
 

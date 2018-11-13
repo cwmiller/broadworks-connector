@@ -14,6 +14,7 @@ class UserTerminatingAlternateTrunkIdentityGetResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName terminatingTrunkIdentity
+     * @Type string
      * @var string|null
      */
     private $terminatingTrunkIdentity = null;
@@ -21,24 +22,31 @@ class UserTerminatingAlternateTrunkIdentityGetResponse extends \CWM\BroadWorksCo
     /**
      * Getter for terminatingTrunkIdentity
      *
-     * @ElementName terminatingTrunkIdentity
-     * @return string|null
+     * @return string
      */
     public function getTerminatingTrunkIdentity()
     {
-        return $this->terminatingTrunkIdentity;
+        return $this->terminatingTrunkIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->terminatingTrunkIdentity;
     }
 
     /**
      * Setter for terminatingTrunkIdentity
      *
-     * @ElementName terminatingTrunkIdentity
-     * @param string|null $terminatingTrunkIdentity
+     * @param string $terminatingTrunkIdentity
      * @return $this
      */
     public function setTerminatingTrunkIdentity($terminatingTrunkIdentity)
     {
         $this->terminatingTrunkIdentity = $terminatingTrunkIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTerminatingTrunkIdentity()
+    {
+        $this->terminatingTrunkIdentity = null;
         return $this;
     }
 

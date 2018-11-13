@@ -18,24 +18,28 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName systemDefaultTagSet
+     * @Type bool
      * @var bool|null
      */
     private $systemDefaultTagSet = null;
 
     /**
      * @ElementName tagSetName
+     * @Type string
      * @var string|null
      */
     private $tagSetName = null;
 
     /**
      * @ElementName tagName
+     * @Type string
      * @var string|null
      */
     private $tagName = null;
 
     /**
      * @ElementName tagValue
+     * @Type string
      * @var string|null
      */
     private $tagValue = null;
@@ -43,19 +47,17 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for systemDefaultTagSet
      *
-     * @ElementName systemDefaultTagSet
-     * @return bool|null
+     * @return bool
      */
     public function getSystemDefaultTagSet()
     {
-        return $this->systemDefaultTagSet;
+        return $this->systemDefaultTagSet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemDefaultTagSet;
     }
 
     /**
      * Setter for systemDefaultTagSet
      *
-     * @ElementName systemDefaultTagSet
-     * @param bool|null $systemDefaultTagSet
+     * @param bool $systemDefaultTagSet
      * @return $this
      */
     public function setSystemDefaultTagSet($systemDefaultTagSet)
@@ -65,21 +67,28 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSystemDefaultTagSet()
+    {
+        $this->systemDefaultTagSet = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagSetName
      *
-     * @ElementName tagSetName
-     * @return string|null
+     * @return string
      */
     public function getTagSetName()
     {
-        return $this->tagSetName;
+        return $this->tagSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagSetName;
     }
 
     /**
      * Setter for tagSetName
      *
-     * @ElementName tagSetName
-     * @param string|null $tagSetName
+     * @param string $tagSetName
      * @return $this
      */
     public function setTagSetName($tagSetName)
@@ -89,21 +98,28 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagSetName()
+    {
+        $this->tagSetName = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagName
      *
-     * @ElementName tagName
-     * @return string|null
+     * @return string
      */
     public function getTagName()
     {
-        return $this->tagName;
+        return $this->tagName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagName;
     }
 
     /**
      * Setter for tagName
      *
-     * @ElementName tagName
-     * @param string|null $tagName
+     * @param string $tagName
      * @return $this
      */
     public function setTagName($tagName)
@@ -113,26 +129,42 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagName()
+    {
+        $this->tagName = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagValue
      *
-     * @ElementName tagValue
-     * @return string|null
+     * @return string
      */
     public function getTagValue()
     {
-        return $this->tagValue;
+        return $this->tagValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagValue;
     }
 
     /**
      * Setter for tagValue
      *
-     * @ElementName tagValue
-     * @param string|null $tagValue
+     * @param string $tagValue
      * @return $this
      */
     public function setTagValue($tagValue)
     {
         $this->tagValue = $tagValue;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagValue()
+    {
+        $this->tagValue = null;
         return $this;
     }
 

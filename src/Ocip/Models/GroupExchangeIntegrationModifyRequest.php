@@ -16,24 +16,28 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName enableExchangeIntegration
+     * @Type bool
      * @var bool|null
      */
     private $enableExchangeIntegration = null;
 
     /**
      * @ElementName exchangeURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,6 +45,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName exchangeCredentials
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -49,19 +54,17 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -71,21 +74,28 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -95,21 +105,28 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableExchangeIntegration
      *
-     * @ElementName enableExchangeIntegration
-     * @return bool|null
+     * @return bool
      */
     public function getEnableExchangeIntegration()
     {
-        return $this->enableExchangeIntegration;
+        return $this->enableExchangeIntegration instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableExchangeIntegration;
     }
 
     /**
      * Setter for enableExchangeIntegration
      *
-     * @ElementName enableExchangeIntegration
-     * @param bool|null $enableExchangeIntegration
+     * @param bool $enableExchangeIntegration
      * @return $this
      */
     public function setEnableExchangeIntegration($enableExchangeIntegration)
@@ -119,54 +136,81 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableExchangeIntegration()
+    {
+        $this->enableExchangeIntegration = null;
+        return $this;
+    }
+
+    /**
      * Getter for exchangeURL
      *
-     * @ElementName exchangeURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExchangeURL()
     {
-        return $this->exchangeURL;
+        return $this->exchangeURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exchangeURL;
     }
 
     /**
      * Setter for exchangeURL
      *
-     * @ElementName exchangeURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $exchangeURL
+     * @param string|null $exchangeURL
      * @return $this
      */
     public function setExchangeURL($exchangeURL)
     {
-        $this->exchangeURL = $exchangeURL;
+        if ($exchangeURL === null) {
+            $this->exchangeURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->exchangeURL = $exchangeURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExchangeURL()
+    {
+        $this->exchangeURL = null;
         return $this;
     }
 
     /**
      * Getter for exchangeCredentials
      *
-     * @ElementName exchangeCredentials
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null
      */
     public function getExchangeCredentials()
     {
-        return $this->exchangeCredentials;
+        return $this->exchangeCredentials instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exchangeCredentials;
     }
 
     /**
      * Setter for exchangeCredentials
      *
-     * @ElementName exchangeCredentials
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil $exchangeCredentials
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null $exchangeCredentials
      * @return $this
      */
     public function setExchangeCredentials(\CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword $exchangeCredentials)
     {
-        $this->exchangeCredentials = $exchangeCredentials;
+        if ($exchangeCredentials === null) {
+            $this->exchangeCredentials = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->exchangeCredentials = $exchangeCredentials;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExchangeCredentials()
+    {
+        $this->exchangeCredentials = null;
         return $this;
     }
 

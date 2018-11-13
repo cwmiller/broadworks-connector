@@ -12,6 +12,7 @@ class CallCenterAnnouncementURLListModify
 
     /**
      * @ElementName url1
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,6 +20,7 @@ class CallCenterAnnouncementURLListModify
 
     /**
      * @ElementName url2
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class CallCenterAnnouncementURLListModify
 
     /**
      * @ElementName url3
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,6 +36,7 @@ class CallCenterAnnouncementURLListModify
 
     /**
      * @ElementName url4
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,104 +45,140 @@ class CallCenterAnnouncementURLListModify
     /**
      * Getter for url1
      *
-     * @ElementName url1
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getUrl1()
     {
-        return $this->url1;
+        return $this->url1 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url1;
     }
 
     /**
      * Setter for url1
      *
-     * @ElementName url1
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url1
+     * @param string|null $url1
      * @return $this
      */
     public function setUrl1($url1)
     {
-        $this->url1 = $url1;
+        if ($url1 === null) {
+            $this->url1 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->url1 = $url1;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUrl1()
+    {
+        $this->url1 = null;
         return $this;
     }
 
     /**
      * Getter for url2
      *
-     * @ElementName url2
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getUrl2()
     {
-        return $this->url2;
+        return $this->url2 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url2;
     }
 
     /**
      * Setter for url2
      *
-     * @ElementName url2
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url2
+     * @param string|null $url2
      * @return $this
      */
     public function setUrl2($url2)
     {
-        $this->url2 = $url2;
+        if ($url2 === null) {
+            $this->url2 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->url2 = $url2;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUrl2()
+    {
+        $this->url2 = null;
         return $this;
     }
 
     /**
      * Getter for url3
      *
-     * @ElementName url3
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getUrl3()
     {
-        return $this->url3;
+        return $this->url3 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url3;
     }
 
     /**
      * Setter for url3
      *
-     * @ElementName url3
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url3
+     * @param string|null $url3
      * @return $this
      */
     public function setUrl3($url3)
     {
-        $this->url3 = $url3;
+        if ($url3 === null) {
+            $this->url3 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->url3 = $url3;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUrl3()
+    {
+        $this->url3 = null;
         return $this;
     }
 
     /**
      * Getter for url4
      *
-     * @ElementName url4
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getUrl4()
     {
-        return $this->url4;
+        return $this->url4 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url4;
     }
 
     /**
      * Setter for url4
      *
-     * @ElementName url4
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url4
+     * @param string|null $url4
      * @return $this
      */
     public function setUrl4($url4)
     {
-        $this->url4 = $url4;
+        if ($url4 === null) {
+            $this->url4 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->url4 = $url4;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUrl4()
+    {
+        $this->url4 = null;
         return $this;
     }
 

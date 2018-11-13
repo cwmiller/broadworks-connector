@@ -19,6 +19,7 @@ class GroupTrunkGroupGetInstanceUserListResponse14sp4 extends \CWM\BroadWorksCon
 
     /**
      * @ElementName trunkGroupUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $trunkGroupUserTable = null;
@@ -26,24 +27,31 @@ class GroupTrunkGroupGetInstanceUserListResponse14sp4 extends \CWM\BroadWorksCon
     /**
      * Getter for trunkGroupUserTable
      *
-     * @ElementName trunkGroupUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getTrunkGroupUserTable()
     {
-        return $this->trunkGroupUserTable;
+        return $this->trunkGroupUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupUserTable;
     }
 
     /**
      * Setter for trunkGroupUserTable
      *
-     * @ElementName trunkGroupUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $trunkGroupUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $trunkGroupUserTable
      * @return $this
      */
     public function setTrunkGroupUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $trunkGroupUserTable)
     {
         $this->trunkGroupUserTable = $trunkGroupUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrunkGroupUserTable()
+    {
+        $this->trunkGroupUserTable = null;
         return $this;
     }
 

@@ -13,12 +13,14 @@ class FileResource
 
     /**
      * @ElementName sourceFileName
+     * @Type string
      * @var string|null
      */
     private $sourceFileName = null;
 
     /**
      * @ElementName fileContent
+     * @Type string
      * @var string|null
      */
     private $fileContent = null;
@@ -26,19 +28,17 @@ class FileResource
     /**
      * Getter for sourceFileName
      *
-     * @ElementName sourceFileName
-     * @return string|null
+     * @return string
      */
     public function getSourceFileName()
     {
-        return $this->sourceFileName;
+        return $this->sourceFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sourceFileName;
     }
 
     /**
      * Setter for sourceFileName
      *
-     * @ElementName sourceFileName
-     * @param string|null $sourceFileName
+     * @param string $sourceFileName
      * @return $this
      */
     public function setSourceFileName($sourceFileName)
@@ -48,26 +48,42 @@ class FileResource
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSourceFileName()
+    {
+        $this->sourceFileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileContent
      *
-     * @ElementName fileContent
-     * @return string|null
+     * @return string
      */
     public function getFileContent()
     {
-        return $this->fileContent;
+        return $this->fileContent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileContent;
     }
 
     /**
      * Setter for fileContent
      *
-     * @ElementName fileContent
-     * @param string|null $fileContent
+     * @param string $fileContent
      * @return $this
      */
     public function setFileContent($fileContent)
     {
         $this->fileContent = $fileContent;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileContent()
+    {
+        $this->fileContent = null;
         return $this;
     }
 

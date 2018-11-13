@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallingPartyCategorySelection PRISON()
  * @method static CallingPartyCategorySelection PAYPHONE()
  * @method static CallingPartyCategorySelection ORDINARY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallingPartyCategorySelection extends \MyCLabs\Enum\Enum
 {

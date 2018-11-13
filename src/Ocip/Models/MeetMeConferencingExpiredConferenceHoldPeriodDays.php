@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static MeetMeConferencingExpiredConferenceHoldPeriodDays _15()
  * @method static MeetMeConferencingExpiredConferenceHoldPeriodDays _30()
  * @method static MeetMeConferencingExpiredConferenceHoldPeriodDays _60()
- * @ValueType int
+ * @EnumValueType int
  */
 class MeetMeConferencingExpiredConferenceHoldPeriodDays extends \MyCLabs\Enum\Enum
 {

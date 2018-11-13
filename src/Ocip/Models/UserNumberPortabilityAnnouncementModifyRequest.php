@@ -16,12 +16,14 @@ class UserNumberPortabilityAnnouncementModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName enable
+     * @Type bool
      * @var bool|null
      */
     private $enable = null;
@@ -29,19 +31,17 @@ class UserNumberPortabilityAnnouncementModifyRequest extends \CWM\BroadWorksConn
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -51,26 +51,42 @@ class UserNumberPortabilityAnnouncementModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enable
      *
-     * @ElementName enable
-     * @return bool|null
+     * @return bool
      */
     public function getEnable()
     {
-        return $this->enable;
+        return $this->enable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enable;
     }
 
     /**
      * Setter for enable
      *
-     * @ElementName enable
-     * @param bool|null $enable
+     * @param bool $enable
      * @return $this
      */
     public function setEnable($enable)
     {
         $this->enable = $enable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnable()
+    {
+        $this->enable = null;
         return $this;
     }
 

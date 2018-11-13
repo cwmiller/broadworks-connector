@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static MWIDeliveryToMobileEndpointTemplateType
  * SINGLE_NEW_WITH_PREVIOUS_MESSAGE()
  * @method static MWIDeliveryToMobileEndpointTemplateType MULTIPLE_NEW_MESSAGES()
- * @ValueType string
+ * @EnumValueType string
  */
 class MWIDeliveryToMobileEndpointTemplateType extends \MyCLabs\Enum\Enum
 {

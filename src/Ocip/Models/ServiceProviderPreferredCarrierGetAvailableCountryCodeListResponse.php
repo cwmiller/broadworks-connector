@@ -16,12 +16,15 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
 
     /**
      * @ElementName defaultCountryCode
+     * @Type string
      * @var string|null
      */
     private $defaultCountryCode = null;
 
     /**
      * @ElementName countryCode
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $countryCode = array(
@@ -31,19 +34,17 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
     /**
      * Getter for defaultCountryCode
      *
-     * @ElementName defaultCountryCode
-     * @return string|null
+     * @return string
      */
     public function getDefaultCountryCode()
     {
-        return $this->defaultCountryCode;
+        return $this->defaultCountryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultCountryCode;
     }
 
     /**
      * Setter for defaultCountryCode
      *
-     * @ElementName defaultCountryCode
-     * @param string|null $defaultCountryCode
+     * @param string $defaultCountryCode
      * @return $this
      */
     public function setDefaultCountryCode($defaultCountryCode)
@@ -53,20 +54,27 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultCountryCode()
+    {
+        $this->defaultCountryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
      * @return string[]
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
      * @param string[] $countryCode
      * @return $this
      */
@@ -77,15 +85,23 @@ class ServiceProviderPreferredCarrierGetAvailableCountryCodeListResponse extends
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for countryCode
      *
-     * @ElementName countryCode
      * @param string $countryCode
      * @return $this
      */
     public function addCountryCode(string $countryCode)
     {
-        $this->countryCode []= $countryCode;
+        $this->countryCode[] = $countryCode;
         return $this;
     }
 

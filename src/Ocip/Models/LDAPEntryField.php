@@ -12,12 +12,14 @@ class LDAPEntryField
 
     /**
      * @ElementName attributeName
+     * @Type string
      * @var string|null
      */
     private $attributeName = null;
 
     /**
      * @ElementName attributeValue
+     * @Type string
      * @var string|null
      */
     private $attributeValue = null;
@@ -25,19 +27,17 @@ class LDAPEntryField
     /**
      * Getter for attributeName
      *
-     * @ElementName attributeName
-     * @return string|null
+     * @return string
      */
     public function getAttributeName()
     {
-        return $this->attributeName;
+        return $this->attributeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->attributeName;
     }
 
     /**
      * Setter for attributeName
      *
-     * @ElementName attributeName
-     * @param string|null $attributeName
+     * @param string $attributeName
      * @return $this
      */
     public function setAttributeName($attributeName)
@@ -47,26 +47,42 @@ class LDAPEntryField
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAttributeName()
+    {
+        $this->attributeName = null;
+        return $this;
+    }
+
+    /**
      * Getter for attributeValue
      *
-     * @ElementName attributeValue
-     * @return string|null
+     * @return string
      */
     public function getAttributeValue()
     {
-        return $this->attributeValue;
+        return $this->attributeValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->attributeValue;
     }
 
     /**
      * Setter for attributeValue
      *
-     * @ElementName attributeValue
-     * @param string|null $attributeValue
+     * @param string $attributeValue
      * @return $this
      */
     public function setAttributeValue($attributeValue)
     {
         $this->attributeValue = $attributeValue;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAttributeValue()
+    {
+        $this->attributeValue = null;
         return $this;
     }
 

@@ -16,12 +16,14 @@ class SystemZoneCallingZonePhysicalLocationModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName zoneName
+     * @Type string
      * @var string|null
      */
     private $zoneName = null;
 
     /**
      * @ElementName physicalLocation
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class SystemZoneCallingZonePhysicalLocationModifyRequest extends \CWM\BroadWorks
     /**
      * Getter for zoneName
      *
-     * @ElementName zoneName
-     * @return string|null
+     * @return string
      */
     public function getZoneName()
     {
-        return $this->zoneName;
+        return $this->zoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zoneName;
     }
 
     /**
      * Setter for zoneName
      *
-     * @ElementName zoneName
-     * @param string|null $zoneName
+     * @param string $zoneName
      * @return $this
      */
     public function setZoneName($zoneName)
@@ -52,28 +52,46 @@ class SystemZoneCallingZonePhysicalLocationModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetZoneName()
+    {
+        $this->zoneName = null;
+        return $this;
+    }
+
+    /**
      * Getter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPhysicalLocation()
     {
-        return $this->physicalLocation;
+        return $this->physicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->physicalLocation;
     }
 
     /**
      * Setter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $physicalLocation
+     * @param string|null $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)
     {
-        $this->physicalLocation = $physicalLocation;
+        if ($physicalLocation === null) {
+            $this->physicalLocation = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->physicalLocation = $physicalLocation;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhysicalLocation()
+    {
+        $this->physicalLocation = null;
         return $this;
     }
 

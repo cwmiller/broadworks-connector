@@ -16,24 +16,29 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName useServiceProviderCriteria
+     * @Type bool
      * @var bool|null
      */
     private $useServiceProviderCriteria = null;
 
     /**
      * @ElementName nsScreeningFailurePolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
      */
     private $nsScreeningFailurePolicy = null;
 
     /**
      * @ElementName criteriaPriorityOrder
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
     private $criteriaPriorityOrder = array(
@@ -43,19 +48,17 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -65,21 +68,28 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useServiceProviderCriteria
      *
-     * @ElementName useServiceProviderCriteria
-     * @return bool|null
+     * @return bool
      */
     public function getUseServiceProviderCriteria()
     {
-        return $this->useServiceProviderCriteria;
+        return $this->useServiceProviderCriteria instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useServiceProviderCriteria;
     }
 
     /**
      * Setter for useServiceProviderCriteria
      *
-     * @ElementName useServiceProviderCriteria
-     * @param bool|null $useServiceProviderCriteria
+     * @param bool $useServiceProviderCriteria
      * @return $this
      */
     public function setUseServiceProviderCriteria($useServiceProviderCriteria)
@@ -89,21 +99,28 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseServiceProviderCriteria()
+    {
+        $this->useServiceProviderCriteria = null;
+        return $this;
+    }
+
+    /**
      * Getter for nsScreeningFailurePolicy
      *
-     * @ElementName nsScreeningFailurePolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy
      */
     public function getNsScreeningFailurePolicy()
     {
-        return $this->nsScreeningFailurePolicy;
+        return $this->nsScreeningFailurePolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nsScreeningFailurePolicy;
     }
 
     /**
      * Setter for nsScreeningFailurePolicy
      *
-     * @ElementName nsScreeningFailurePolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy|null $nsScreeningFailurePolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy $nsScreeningFailurePolicy
      * @return $this
      */
     public function setNsScreeningFailurePolicy(\CWM\BroadWorksConnector\Ocip\Models\NsScreeningFailurePolicy $nsScreeningFailurePolicy)
@@ -113,20 +130,27 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNsScreeningFailurePolicy()
+    {
+        $this->nsScreeningFailurePolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaPriorityOrder
      *
-     * @ElementName criteriaPriorityOrder
      * @return \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
     public function getCriteriaPriorityOrder()
     {
-        return $this->criteriaPriorityOrder;
+        return $this->criteriaPriorityOrder instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaPriorityOrder;
     }
 
     /**
      * Setter for criteriaPriorityOrder
      *
-     * @ElementName criteriaPriorityOrder
      * @param \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[] $criteriaPriorityOrder
      * @return $this
      */
@@ -137,15 +161,23 @@ class ServiceProviderDialableCallerIDModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaPriorityOrder()
+    {
+        $this->criteriaPriorityOrder = null;
+        return $this;
+    }
+
+    /**
      * Adder for criteriaPriorityOrder
      *
-     * @ElementName criteriaPriorityOrder
      * @param \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder $criteriaPriorityOrder
      * @return $this
      */
     public function addCriteriaPriorityOrder($criteriaPriorityOrder)
     {
-        $this->criteriaPriorityOrder []= $criteriaPriorityOrder;
+        $this->criteriaPriorityOrder[] = $criteriaPriorityOrder;
         return $this;
     }
 

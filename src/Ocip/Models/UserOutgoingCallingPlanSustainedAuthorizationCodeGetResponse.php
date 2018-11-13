@@ -14,6 +14,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse extends \CWM\
 
     /**
      * @ElementName code
+     * @Type string
      * @var string|null
      */
     private $code = null;
@@ -21,24 +22,31 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse extends \CWM\
     /**
      * Getter for code
      *
-     * @ElementName code
-     * @return string|null
+     * @return string
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->code;
     }
 
     /**
      * Setter for code
      *
-     * @ElementName code
-     * @param string|null $code
+     * @param string $code
      * @return $this
      */
     public function setCode($code)
     {
         $this->code = $code;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCode()
+    {
+        $this->code = null;
         return $this;
     }
 

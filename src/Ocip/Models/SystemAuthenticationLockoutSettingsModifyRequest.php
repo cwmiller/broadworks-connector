@@ -16,24 +16,28 @@ class SystemAuthenticationLockoutSettingsModifyRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName counterResetIntervalDays
+     * @Type int
      * @var int|null
      */
     private $counterResetIntervalDays = null;
 
     /**
      * @ElementName counterResetHour
+     * @Type int
      * @var int|null
      */
     private $counterResetHour = null;
 
     /**
      * @ElementName counterResetMinute
+     * @Type int
      * @var int|null
      */
     private $counterResetMinute = null;
 
     /**
      * @ElementName emergencySIPBypassAllowed
+     * @Type bool
      * @var bool|null
      */
     private $emergencySIPBypassAllowed = null;
@@ -41,19 +45,17 @@ class SystemAuthenticationLockoutSettingsModifyRequest extends \CWM\BroadWorksCo
     /**
      * Getter for counterResetIntervalDays
      *
-     * @ElementName counterResetIntervalDays
-     * @return int|null
+     * @return int
      */
     public function getCounterResetIntervalDays()
     {
-        return $this->counterResetIntervalDays;
+        return $this->counterResetIntervalDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->counterResetIntervalDays;
     }
 
     /**
      * Setter for counterResetIntervalDays
      *
-     * @ElementName counterResetIntervalDays
-     * @param int|null $counterResetIntervalDays
+     * @param int $counterResetIntervalDays
      * @return $this
      */
     public function setCounterResetIntervalDays($counterResetIntervalDays)
@@ -63,21 +65,28 @@ class SystemAuthenticationLockoutSettingsModifyRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCounterResetIntervalDays()
+    {
+        $this->counterResetIntervalDays = null;
+        return $this;
+    }
+
+    /**
      * Getter for counterResetHour
      *
-     * @ElementName counterResetHour
-     * @return int|null
+     * @return int
      */
     public function getCounterResetHour()
     {
-        return $this->counterResetHour;
+        return $this->counterResetHour instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->counterResetHour;
     }
 
     /**
      * Setter for counterResetHour
      *
-     * @ElementName counterResetHour
-     * @param int|null $counterResetHour
+     * @param int $counterResetHour
      * @return $this
      */
     public function setCounterResetHour($counterResetHour)
@@ -87,21 +96,28 @@ class SystemAuthenticationLockoutSettingsModifyRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCounterResetHour()
+    {
+        $this->counterResetHour = null;
+        return $this;
+    }
+
+    /**
      * Getter for counterResetMinute
      *
-     * @ElementName counterResetMinute
-     * @return int|null
+     * @return int
      */
     public function getCounterResetMinute()
     {
-        return $this->counterResetMinute;
+        return $this->counterResetMinute instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->counterResetMinute;
     }
 
     /**
      * Setter for counterResetMinute
      *
-     * @ElementName counterResetMinute
-     * @param int|null $counterResetMinute
+     * @param int $counterResetMinute
      * @return $this
      */
     public function setCounterResetMinute($counterResetMinute)
@@ -111,26 +127,42 @@ class SystemAuthenticationLockoutSettingsModifyRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCounterResetMinute()
+    {
+        $this->counterResetMinute = null;
+        return $this;
+    }
+
+    /**
      * Getter for emergencySIPBypassAllowed
      *
-     * @ElementName emergencySIPBypassAllowed
-     * @return bool|null
+     * @return bool
      */
     public function getEmergencySIPBypassAllowed()
     {
-        return $this->emergencySIPBypassAllowed;
+        return $this->emergencySIPBypassAllowed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emergencySIPBypassAllowed;
     }
 
     /**
      * Setter for emergencySIPBypassAllowed
      *
-     * @ElementName emergencySIPBypassAllowed
-     * @param bool|null $emergencySIPBypassAllowed
+     * @param bool $emergencySIPBypassAllowed
      * @return $this
      */
     public function setEmergencySIPBypassAllowed($emergencySIPBypassAllowed)
     {
         $this->emergencySIPBypassAllowed = $emergencySIPBypassAllowed;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmergencySIPBypassAllowed()
+    {
+        $this->emergencySIPBypassAllowed = null;
         return $this;
     }
 

@@ -10,6 +10,7 @@ class MusicOnHoldSourceRead19ExternalSource
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead|null
      */
     private $accessDeviceEndpoint = null;
@@ -17,24 +18,31 @@ class MusicOnHoldSourceRead19ExternalSource
     /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead|null $accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointWithPortNumberRead $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
         return $this;
     }
 

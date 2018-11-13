@@ -14,18 +14,21 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName isLoginDisabled
+     * @Type bool
      * @var bool|null
      */
     private $isLoginDisabled = null;
 
     /**
      * @ElementName expirationDays
+     * @Type int
      * @var int|null
      */
     private $expirationDays = null;
 
     /**
      * @ElementName doesNotExpire
+     * @Type bool
      * @var bool|null
      */
     private $doesNotExpire = null;
@@ -33,19 +36,17 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for isLoginDisabled
      *
-     * @ElementName isLoginDisabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsLoginDisabled()
     {
-        return $this->isLoginDisabled;
+        return $this->isLoginDisabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isLoginDisabled;
     }
 
     /**
      * Setter for isLoginDisabled
      *
-     * @ElementName isLoginDisabled
-     * @param bool|null $isLoginDisabled
+     * @param bool $isLoginDisabled
      * @return $this
      */
     public function setIsLoginDisabled($isLoginDisabled)
@@ -55,21 +56,28 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsLoginDisabled()
+    {
+        $this->isLoginDisabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for expirationDays
      *
-     * @ElementName expirationDays
-     * @return int|null
+     * @return int
      */
     public function getExpirationDays()
     {
-        return $this->expirationDays;
+        return $this->expirationDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->expirationDays;
     }
 
     /**
      * Setter for expirationDays
      *
-     * @ElementName expirationDays
-     * @param int|null $expirationDays
+     * @param int $expirationDays
      * @return $this
      */
     public function setExpirationDays($expirationDays)
@@ -79,26 +87,42 @@ class UserPasswordInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExpirationDays()
+    {
+        $this->expirationDays = null;
+        return $this;
+    }
+
+    /**
      * Getter for doesNotExpire
      *
-     * @ElementName doesNotExpire
-     * @return bool|null
+     * @return bool
      */
     public function getDoesNotExpire()
     {
-        return $this->doesNotExpire;
+        return $this->doesNotExpire instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->doesNotExpire;
     }
 
     /**
      * Setter for doesNotExpire
      *
-     * @ElementName doesNotExpire
-     * @param bool|null $doesNotExpire
+     * @param bool $doesNotExpire
      * @return $this
      */
     public function setDoesNotExpire($doesNotExpire)
     {
         $this->doesNotExpire = $doesNotExpire;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDoesNotExpire()
+    {
+        $this->doesNotExpire = null;
         return $this;
     }
 

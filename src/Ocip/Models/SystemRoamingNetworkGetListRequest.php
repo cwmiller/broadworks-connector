@@ -17,12 +17,15 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaRoamingMscAddress
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress[]
      */
     private $searchCriteriaRoamingMscAddress = array(
@@ -32,19 +35,17 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -54,20 +55,27 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaRoamingMscAddress
      *
-     * @ElementName searchCriteriaRoamingMscAddress
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress[]
      */
     public function getSearchCriteriaRoamingMscAddress()
     {
-        return $this->searchCriteriaRoamingMscAddress;
+        return $this->searchCriteriaRoamingMscAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaRoamingMscAddress;
     }
 
     /**
      * Setter for searchCriteriaRoamingMscAddress
      *
-     * @ElementName searchCriteriaRoamingMscAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress[] $searchCriteriaRoamingMscAddress
      * @return $this
      */
@@ -78,15 +86,23 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaRoamingMscAddress()
+    {
+        $this->searchCriteriaRoamingMscAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaRoamingMscAddress
      *
-     * @ElementName searchCriteriaRoamingMscAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress $searchCriteriaRoamingMscAddress
      * @return $this
      */
     public function addSearchCriteriaRoamingMscAddress($searchCriteriaRoamingMscAddress)
     {
-        $this->searchCriteriaRoamingMscAddress []= $searchCriteriaRoamingMscAddress;
+        $this->searchCriteriaRoamingMscAddress[] = $searchCriteriaRoamingMscAddress;
         return $this;
     }
 

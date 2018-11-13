@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ExecutiveAlertingMode SIMULTANEOUS()
  * @method static ExecutiveAlertingMode SEQUENTIAL()
- * @ValueType string
+ * @EnumValueType string
  */
 class ExecutiveAlertingMode extends \MyCLabs\Enum\Enum
 {

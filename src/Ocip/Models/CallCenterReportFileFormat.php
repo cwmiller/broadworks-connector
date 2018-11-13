@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterReportFileFormat PDF()
  * @method static CallCenterReportFileFormat XLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportFileFormat extends \MyCLabs\Enum\Enum
 {

@@ -17,24 +17,28 @@ class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName fileFormat
+     * @Type string
      * @var string|null
      */
     private $fileFormat = null;
@@ -42,19 +46,17 @@ class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -64,21 +66,28 @@ class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -88,21 +97,28 @@ class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -112,26 +128,42 @@ class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileFormat
      *
-     * @ElementName fileFormat
-     * @return string|null
+     * @return string
      */
     public function getFileFormat()
     {
-        return $this->fileFormat;
+        return $this->fileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileFormat;
     }
 
     /**
      * Setter for fileFormat
      *
-     * @ElementName fileFormat
-     * @param string|null $fileFormat
+     * @param string $fileFormat
      * @return $this
      */
     public function setFileFormat($fileFormat)
     {
         $this->fileFormat = $fileFormat;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileFormat()
+    {
+        $this->fileFormat = null;
         return $this;
     }
 

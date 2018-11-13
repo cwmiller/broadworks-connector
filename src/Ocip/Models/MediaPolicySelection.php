@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static MediaPolicySelection USE_UNCOMPRESSED_CODEC()
  * @method static MediaPolicySelection USE_SUPPORTED_MEDIA_SET()
  * @method static MediaPolicySelection NO_RESTRICTIONS()
- * @ValueType string
+ * @EnumValueType string
  */
 class MediaPolicySelection extends \MyCLabs\Enum\Enum
 {

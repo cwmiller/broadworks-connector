@@ -16,18 +16,21 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName enableDivert
+     * @Type bool
      * @var bool|null
      */
     private $enableDivert = null;
 
     /**
      * @ElementName divertToPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,6 +38,8 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName optInStatus
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus[]
      */
     private $optInStatus = array(
@@ -44,19 +49,17 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -66,21 +69,28 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableDivert
      *
-     * @ElementName enableDivert
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDivert()
     {
-        return $this->enableDivert;
+        return $this->enableDivert instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDivert;
     }
 
     /**
      * Setter for enableDivert
      *
-     * @ElementName enableDivert
-     * @param bool|null $enableDivert
+     * @param bool $enableDivert
      * @return $this
      */
     public function setEnableDivert($enableDivert)
@@ -90,46 +100,62 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableDivert()
+    {
+        $this->enableDivert = null;
+        return $this;
+    }
+
+    /**
      * Getter for divertToPhoneNumber
      *
-     * @ElementName divertToPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDivertToPhoneNumber()
     {
-        return $this->divertToPhoneNumber;
+        return $this->divertToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->divertToPhoneNumber;
     }
 
     /**
      * Setter for divertToPhoneNumber
      *
-     * @ElementName divertToPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $divertToPhoneNumber
+     * @param string|null $divertToPhoneNumber
      * @return $this
      */
     public function setDivertToPhoneNumber($divertToPhoneNumber)
     {
-        $this->divertToPhoneNumber = $divertToPhoneNumber;
+        if ($divertToPhoneNumber === null) {
+            $this->divertToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->divertToPhoneNumber = $divertToPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDivertToPhoneNumber()
+    {
+        $this->divertToPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for optInStatus
      *
-     * @ElementName optInStatus
      * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus[]
      */
     public function getOptInStatus()
     {
-        return $this->optInStatus;
+        return $this->optInStatus instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->optInStatus;
     }
 
     /**
      * Setter for optInStatus
      *
-     * @ElementName optInStatus
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus[] $optInStatus
      * @return $this
      */
@@ -140,15 +166,23 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOptInStatus()
+    {
+        $this->optInStatus = null;
+        return $this;
+    }
+
+    /**
      * Adder for optInStatus
      *
-     * @ElementName optInStatus
      * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus $optInStatus
      * @return $this
      */
     public function addOptInStatus($optInStatus)
     {
-        $this->optInStatus []= $optInStatus;
+        $this->optInStatus[] = $optInStatus;
         return $this;
     }
 

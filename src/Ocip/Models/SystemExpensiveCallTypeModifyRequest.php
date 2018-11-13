@@ -17,12 +17,14 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName alternateCallIndicator
+     * @Type string
      * @var string|null
      */
     private $alternateCallIndicator = null;
 
     /**
      * @ElementName treatmentAudioFile
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,19 +33,17 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
-     * @return string|null
+     * @return string
      */
     public function getAlternateCallIndicator()
     {
-        return $this->alternateCallIndicator;
+        return $this->alternateCallIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateCallIndicator;
     }
 
     /**
      * Setter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
-     * @param string|null $alternateCallIndicator
+     * @param string $alternateCallIndicator
      * @return $this
      */
     public function setAlternateCallIndicator($alternateCallIndicator)
@@ -53,28 +53,46 @@ class SystemExpensiveCallTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateCallIndicator()
+    {
+        $this->alternateCallIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for treatmentAudioFile
      *
-     * @ElementName treatmentAudioFile
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTreatmentAudioFile()
     {
-        return $this->treatmentAudioFile;
+        return $this->treatmentAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentAudioFile;
     }
 
     /**
      * Setter for treatmentAudioFile
      *
-     * @ElementName treatmentAudioFile
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $treatmentAudioFile
+     * @param string|null $treatmentAudioFile
      * @return $this
      */
     public function setTreatmentAudioFile($treatmentAudioFile)
     {
-        $this->treatmentAudioFile = $treatmentAudioFile;
+        if ($treatmentAudioFile === null) {
+            $this->treatmentAudioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->treatmentAudioFile = $treatmentAudioFile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentAudioFile()
+    {
+        $this->treatmentAudioFile = null;
         return $this;
     }
 

@@ -16,24 +16,28 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName nightForwarding
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
      */
     private $nightForwarding = null;
 
     /**
      * @ElementName businessHours
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,6 +45,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName holidaySchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,6 +53,7 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName forwardToPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -56,19 +62,17 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -78,21 +82,28 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -102,21 +113,28 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for nightForwarding
      *
-     * @ElementName nightForwarding
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode
      */
     public function getNightForwarding()
     {
-        return $this->nightForwarding;
+        return $this->nightForwarding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nightForwarding;
     }
 
     /**
      * Setter for nightForwarding
      *
-     * @ElementName nightForwarding
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode|null $nightForwarding
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode $nightForwarding
      * @return $this
      */
     public function setNightForwarding(\CWM\BroadWorksConnector\Ocip\Models\GroupNightForwardingGroupServiceActivationMode $nightForwarding)
@@ -126,80 +144,116 @@ class GroupGroupNightForwardingModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNightForwarding()
+    {
+        $this->nightForwarding = null;
+        return $this;
+    }
+
+    /**
      * Getter for businessHours
      *
-     * @ElementName businessHours
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     public function getBusinessHours()
     {
-        return $this->businessHours;
+        return $this->businessHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->businessHours;
     }
 
     /**
      * Setter for businessHours
      *
-     * @ElementName businessHours
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $businessHours
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $businessHours
      * @return $this
      */
     public function setBusinessHours(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $businessHours)
     {
-        $this->businessHours = $businessHours;
+        if ($businessHours === null) {
+            $this->businessHours = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->businessHours = $businessHours;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBusinessHours()
+    {
+        $this->businessHours = null;
         return $this;
     }
 
     /**
      * Getter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     public function getHolidaySchedule()
     {
-        return $this->holidaySchedule;
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
     }
 
     /**
      * Setter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
-        $this->holidaySchedule = $holidaySchedule;
+        if ($holidaySchedule === null) {
+            $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holidaySchedule = $holidaySchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
         return $this;
     }
 
     /**
      * Getter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getForwardToPhoneNumber()
     {
-        return $this->forwardToPhoneNumber;
+        return $this->forwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardToPhoneNumber;
     }
 
     /**
      * Setter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardToPhoneNumber
+     * @param string|null $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
     {
-        $this->forwardToPhoneNumber = $forwardToPhoneNumber;
+        if ($forwardToPhoneNumber === null) {
+            $this->forwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->forwardToPhoneNumber = $forwardToPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForwardToPhoneNumber()
+    {
+        $this->forwardToPhoneNumber = null;
         return $this;
     }
 

@@ -15,6 +15,8 @@ class ServiceProviderScheduleGetEventListResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName eventName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $eventName = array(
@@ -24,18 +26,16 @@ class ServiceProviderScheduleGetEventListResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for eventName
      *
-     * @ElementName eventName
      * @return string[]
      */
     public function getEventName()
     {
-        return $this->eventName;
+        return $this->eventName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eventName;
     }
 
     /**
      * Setter for eventName
      *
-     * @ElementName eventName
      * @param string[] $eventName
      * @return $this
      */
@@ -46,15 +46,23 @@ class ServiceProviderScheduleGetEventListResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEventName()
+    {
+        $this->eventName = null;
+        return $this;
+    }
+
+    /**
      * Adder for eventName
      *
-     * @ElementName eventName
      * @param string $eventName
      * @return $this
      */
     public function addEventName(string $eventName)
     {
-        $this->eventName []= $eventName;
+        $this->eventName[] = $eventName;
         return $this;
     }
 

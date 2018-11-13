@@ -14,12 +14,15 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\Bro
 
     /**
      * @ElementName groupPermissions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions|null
      */
     private $groupPermissions = null;
 
     /**
      * @ElementName departmentPermissions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions[]
      */
     private $departmentPermissions = array(
@@ -29,19 +32,17 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\Bro
     /**
      * Getter for groupPermissions
      *
-     * @ElementName groupPermissions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions
      */
     public function getGroupPermissions()
     {
-        return $this->groupPermissions;
+        return $this->groupPermissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupPermissions;
     }
 
     /**
      * Setter for groupPermissions
      *
-     * @ElementName groupPermissions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions|null $groupPermissions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions $groupPermissions
      * @return $this
      */
     public function setGroupPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions $groupPermissions)
@@ -51,20 +52,27 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupPermissions()
+    {
+        $this->groupPermissions = null;
+        return $this;
+    }
+
+    /**
      * Getter for departmentPermissions
      *
-     * @ElementName departmentPermissions
      * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions[]
      */
     public function getDepartmentPermissions()
     {
-        return $this->departmentPermissions;
+        return $this->departmentPermissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentPermissions;
     }
 
     /**
      * Setter for departmentPermissions
      *
-     * @ElementName departmentPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions[] $departmentPermissions
      * @return $this
      */
@@ -75,15 +83,23 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentPermissions()
+    {
+        $this->departmentPermissions = null;
+        return $this;
+    }
+
+    /**
      * Adder for departmentPermissions
      *
-     * @ElementName departmentPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissions $departmentPermissions
      * @return $this
      */
     public function addDepartmentPermissions($departmentPermissions)
     {
-        $this->departmentPermissions []= $departmentPermissions;
+        $this->departmentPermissions[] = $departmentPermissions;
         return $this;
     }
 

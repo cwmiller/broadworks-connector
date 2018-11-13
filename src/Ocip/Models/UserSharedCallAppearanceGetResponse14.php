@@ -21,42 +21,49 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName alertAllAppearancesForClickToDialCalls
+     * @Type bool
      * @var bool|null
      */
     private $alertAllAppearancesForClickToDialCalls = null;
 
     /**
      * @ElementName maxAppearances
+     * @Type int
      * @var int|null
      */
     private $maxAppearances = null;
 
     /**
      * @ElementName enableMultipleCallArrangement
+     * @Type bool
      * @var bool|null
      */
     private $enableMultipleCallArrangement = null;
 
     /**
      * @ElementName multipleCallArrangementIsActive
+     * @Type bool
      * @var bool|null
      */
     private $multipleCallArrangementIsActive = null;
 
     /**
      * @ElementName endpointTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $endpointTable = null;
 
     /**
      * @ElementName allowBridgingBetweenLocations
+     * @Type bool
      * @var bool|null
      */
     private $allowBridgingBetweenLocations = null;
 
     /**
      * @ElementName bridgeWarningTone
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     private $bridgeWarningTone = null;
@@ -64,19 +71,17 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for alertAllAppearancesForClickToDialCalls
      *
-     * @ElementName alertAllAppearancesForClickToDialCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlertAllAppearancesForClickToDialCalls()
     {
-        return $this->alertAllAppearancesForClickToDialCalls;
+        return $this->alertAllAppearancesForClickToDialCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertAllAppearancesForClickToDialCalls;
     }
 
     /**
      * Setter for alertAllAppearancesForClickToDialCalls
      *
-     * @ElementName alertAllAppearancesForClickToDialCalls
-     * @param bool|null $alertAllAppearancesForClickToDialCalls
+     * @param bool $alertAllAppearancesForClickToDialCalls
      * @return $this
      */
     public function setAlertAllAppearancesForClickToDialCalls($alertAllAppearancesForClickToDialCalls)
@@ -86,21 +91,28 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertAllAppearancesForClickToDialCalls()
+    {
+        $this->alertAllAppearancesForClickToDialCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxAppearances
      *
-     * @ElementName maxAppearances
-     * @return int|null
+     * @return int
      */
     public function getMaxAppearances()
     {
-        return $this->maxAppearances;
+        return $this->maxAppearances instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxAppearances;
     }
 
     /**
      * Setter for maxAppearances
      *
-     * @ElementName maxAppearances
-     * @param int|null $maxAppearances
+     * @param int $maxAppearances
      * @return $this
      */
     public function setMaxAppearances($maxAppearances)
@@ -110,21 +122,28 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxAppearances()
+    {
+        $this->maxAppearances = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableMultipleCallArrangement
      *
-     * @ElementName enableMultipleCallArrangement
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMultipleCallArrangement()
     {
-        return $this->enableMultipleCallArrangement;
+        return $this->enableMultipleCallArrangement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMultipleCallArrangement;
     }
 
     /**
      * Setter for enableMultipleCallArrangement
      *
-     * @ElementName enableMultipleCallArrangement
-     * @param bool|null $enableMultipleCallArrangement
+     * @param bool $enableMultipleCallArrangement
      * @return $this
      */
     public function setEnableMultipleCallArrangement($enableMultipleCallArrangement)
@@ -134,21 +153,28 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMultipleCallArrangement()
+    {
+        $this->enableMultipleCallArrangement = null;
+        return $this;
+    }
+
+    /**
      * Getter for multipleCallArrangementIsActive
      *
-     * @ElementName multipleCallArrangementIsActive
-     * @return bool|null
+     * @return bool
      */
     public function getMultipleCallArrangementIsActive()
     {
-        return $this->multipleCallArrangementIsActive;
+        return $this->multipleCallArrangementIsActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->multipleCallArrangementIsActive;
     }
 
     /**
      * Setter for multipleCallArrangementIsActive
      *
-     * @ElementName multipleCallArrangementIsActive
-     * @param bool|null $multipleCallArrangementIsActive
+     * @param bool $multipleCallArrangementIsActive
      * @return $this
      */
     public function setMultipleCallArrangementIsActive($multipleCallArrangementIsActive)
@@ -158,21 +184,28 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMultipleCallArrangementIsActive()
+    {
+        $this->multipleCallArrangementIsActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for endpointTable
      *
-     * @ElementName endpointTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getEndpointTable()
     {
-        return $this->endpointTable;
+        return $this->endpointTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endpointTable;
     }
 
     /**
      * Setter for endpointTable
      *
-     * @ElementName endpointTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $endpointTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $endpointTable
      * @return $this
      */
     public function setEndpointTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $endpointTable)
@@ -182,21 +215,28 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndpointTable()
+    {
+        $this->endpointTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowBridgingBetweenLocations
      *
-     * @ElementName allowBridgingBetweenLocations
-     * @return bool|null
+     * @return bool
      */
     public function getAllowBridgingBetweenLocations()
     {
-        return $this->allowBridgingBetweenLocations;
+        return $this->allowBridgingBetweenLocations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowBridgingBetweenLocations;
     }
 
     /**
      * Setter for allowBridgingBetweenLocations
      *
-     * @ElementName allowBridgingBetweenLocations
-     * @param bool|null $allowBridgingBetweenLocations
+     * @param bool $allowBridgingBetweenLocations
      * @return $this
      */
     public function setAllowBridgingBetweenLocations($allowBridgingBetweenLocations)
@@ -206,26 +246,42 @@ class UserSharedCallAppearanceGetResponse14 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowBridgingBetweenLocations()
+    {
+        $this->allowBridgingBetweenLocations = null;
+        return $this;
+    }
+
+    /**
      * Getter for bridgeWarningTone
      *
-     * @ElementName bridgeWarningTone
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
      */
     public function getBridgeWarningTone()
     {
-        return $this->bridgeWarningTone;
+        return $this->bridgeWarningTone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bridgeWarningTone;
     }
 
     /**
      * Setter for bridgeWarningTone
      *
-     * @ElementName bridgeWarningTone
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null $bridgeWarningTone
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone $bridgeWarningTone
      * @return $this
      */
     public function setBridgeWarningTone(\CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone $bridgeWarningTone)
     {
         $this->bridgeWarningTone = $bridgeWarningTone;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBridgeWarningTone()
+    {
+        $this->bridgeWarningTone = null;
         return $this;
     }
 

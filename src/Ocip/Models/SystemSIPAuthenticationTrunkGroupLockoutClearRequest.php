@@ -16,6 +16,8 @@ class SystemSIPAuthenticationTrunkGroupLockoutClearRequest extends \CWM\BroadWor
 
     /**
      * @ElementName trunkGroupkey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey[]
      */
     private $trunkGroupkey = array(
@@ -25,18 +27,16 @@ class SystemSIPAuthenticationTrunkGroupLockoutClearRequest extends \CWM\BroadWor
     /**
      * Getter for trunkGroupkey
      *
-     * @ElementName trunkGroupkey
      * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey[]
      */
     public function getTrunkGroupkey()
     {
-        return $this->trunkGroupkey;
+        return $this->trunkGroupkey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupkey;
     }
 
     /**
      * Setter for trunkGroupkey
      *
-     * @ElementName trunkGroupkey
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey[] $trunkGroupkey
      * @return $this
      */
@@ -47,15 +47,23 @@ class SystemSIPAuthenticationTrunkGroupLockoutClearRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupkey()
+    {
+        $this->trunkGroupkey = null;
+        return $this;
+    }
+
+    /**
      * Adder for trunkGroupkey
      *
-     * @ElementName trunkGroupkey
      * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupkey
      * @return $this
      */
     public function addTrunkGroupkey($trunkGroupkey)
     {
-        $this->trunkGroupkey []= $trunkGroupkey;
+        $this->trunkGroupkey[] = $trunkGroupkey;
         return $this;
     }
 

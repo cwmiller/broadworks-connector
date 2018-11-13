@@ -12,12 +12,14 @@ class DialableCallerIDCriteriaPriorityOrder
 
     /**
      * @ElementName criteriaName
+     * @Type string
      * @var string|null
      */
     private $criteriaName = null;
 
     /**
      * @ElementName priority
+     * @Type float
      * @var float|null
      */
     private $priority = null;
@@ -25,19 +27,17 @@ class DialableCallerIDCriteriaPriorityOrder
     /**
      * Getter for criteriaName
      *
-     * @ElementName criteriaName
-     * @return string|null
+     * @return string
      */
     public function getCriteriaName()
     {
-        return $this->criteriaName;
+        return $this->criteriaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaName;
     }
 
     /**
      * Setter for criteriaName
      *
-     * @ElementName criteriaName
-     * @param string|null $criteriaName
+     * @param string $criteriaName
      * @return $this
      */
     public function setCriteriaName($criteriaName)
@@ -47,26 +47,42 @@ class DialableCallerIDCriteriaPriorityOrder
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaName()
+    {
+        $this->criteriaName = null;
+        return $this;
+    }
+
+    /**
      * Getter for priority
      *
-     * @ElementName priority
-     * @return float|null
+     * @return float
      */
     public function getPriority()
     {
-        return $this->priority;
+        return $this->priority instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priority;
     }
 
     /**
      * Setter for priority
      *
-     * @ElementName priority
-     * @param float|null $priority
+     * @param float $priority
      * @return $this
      */
     public function setPriority($priority)
     {
         $this->priority = $priority;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPriority()
+    {
+        $this->priority = null;
         return $this;
     }
 

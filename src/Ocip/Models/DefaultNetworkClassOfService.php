@@ -12,12 +12,14 @@ class DefaultNetworkClassOfService
 
     /**
      * @ElementName useExisting
+     * @Type bool
      * @var bool|null
      */
     private $useExisting = null;
 
     /**
      * @ElementName networkClassOfServiceName
+     * @Type string
      * @var string|null
      */
     private $networkClassOfServiceName = null;
@@ -25,19 +27,17 @@ class DefaultNetworkClassOfService
     /**
      * Getter for useExisting
      *
-     * @ElementName useExisting
-     * @return bool|null
+     * @return bool
      */
     public function getUseExisting()
     {
-        return $this->useExisting;
+        return $this->useExisting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useExisting;
     }
 
     /**
      * Setter for useExisting
      *
-     * @ElementName useExisting
-     * @param bool|null $useExisting
+     * @param bool $useExisting
      * @return $this
      */
     public function setUseExisting($useExisting)
@@ -47,26 +47,42 @@ class DefaultNetworkClassOfService
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseExisting()
+    {
+        $this->useExisting = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfServiceName
      *
-     * @ElementName networkClassOfServiceName
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfServiceName()
     {
-        return $this->networkClassOfServiceName;
+        return $this->networkClassOfServiceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfServiceName;
     }
 
     /**
      * Setter for networkClassOfServiceName
      *
-     * @ElementName networkClassOfServiceName
-     * @param string|null $networkClassOfServiceName
+     * @param string $networkClassOfServiceName
      * @return $this
      */
     public function setNetworkClassOfServiceName($networkClassOfServiceName)
     {
         $this->networkClassOfServiceName = $networkClassOfServiceName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfServiceName()
+    {
+        $this->networkClassOfServiceName = null;
         return $this;
     }
 

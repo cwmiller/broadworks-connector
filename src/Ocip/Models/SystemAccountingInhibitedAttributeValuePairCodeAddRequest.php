@@ -18,12 +18,14 @@ class SystemAccountingInhibitedAttributeValuePairCodeAddRequest extends \CWM\Bro
 
     /**
      * @ElementName attributeValuePairCode
+     * @Type int
      * @var int|null
      */
     private $attributeValuePairCode = null;
 
     /**
      * @ElementName vendorId
+     * @Type int
      * @var int|null
      */
     private $vendorId = null;
@@ -31,19 +33,17 @@ class SystemAccountingInhibitedAttributeValuePairCodeAddRequest extends \CWM\Bro
     /**
      * Getter for attributeValuePairCode
      *
-     * @ElementName attributeValuePairCode
-     * @return int|null
+     * @return int
      */
     public function getAttributeValuePairCode()
     {
-        return $this->attributeValuePairCode;
+        return $this->attributeValuePairCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->attributeValuePairCode;
     }
 
     /**
      * Setter for attributeValuePairCode
      *
-     * @ElementName attributeValuePairCode
-     * @param int|null $attributeValuePairCode
+     * @param int $attributeValuePairCode
      * @return $this
      */
     public function setAttributeValuePairCode($attributeValuePairCode)
@@ -53,26 +53,42 @@ class SystemAccountingInhibitedAttributeValuePairCodeAddRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAttributeValuePairCode()
+    {
+        $this->attributeValuePairCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for vendorId
      *
-     * @ElementName vendorId
-     * @return int|null
+     * @return int
      */
     public function getVendorId()
     {
-        return $this->vendorId;
+        return $this->vendorId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->vendorId;
     }
 
     /**
      * Setter for vendorId
      *
-     * @ElementName vendorId
-     * @param int|null $vendorId
+     * @param int $vendorId
      * @return $this
      */
     public function setVendorId($vendorId)
     {
         $this->vendorId = $vendorId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVendorId()
+    {
+        $this->vendorId = null;
         return $this;
     }
 

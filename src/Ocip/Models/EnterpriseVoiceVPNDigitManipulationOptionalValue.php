@@ -12,12 +12,14 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
 
     /**
      * @ElementName operation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue|null
      */
     private $operation = null;
 
     /**
      * @ElementName value
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,19 +28,17 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
     /**
      * Getter for operation
      *
-     * @ElementName operation
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
      */
     public function getOperation()
     {
-        return $this->operation;
+        return $this->operation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->operation;
     }
 
     /**
      * Setter for operation
      *
-     * @ElementName operation
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue|null $operation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue $operation
      * @return $this
      */
     public function setOperation(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue $operation)
@@ -48,28 +48,46 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOperation()
+    {
+        $this->operation = null;
+        return $this;
+    }
+
+    /**
      * Getter for value
      *
-     * @ElementName value
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getValue()
     {
-        return $this->value;
+        return $this->value instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->value;
     }
 
     /**
      * Setter for value
      *
-     * @ElementName value
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $value
+     * @param string|null $value
      * @return $this
      */
     public function setValue($value)
     {
-        $this->value = $value;
+        if ($value === null) {
+            $this->value = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->value = $value;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetValue()
+    {
+        $this->value = null;
         return $this;
     }
 

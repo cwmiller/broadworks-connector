@@ -14,6 +14,8 @@ class ServiceProviderServicePackGetListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName servicePackName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $servicePackName = array(
@@ -23,18 +25,16 @@ class ServiceProviderServicePackGetListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for servicePackName
      *
-     * @ElementName servicePackName
      * @return string[]
      */
     public function getServicePackName()
     {
-        return $this->servicePackName;
+        return $this->servicePackName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePackName;
     }
 
     /**
      * Setter for servicePackName
      *
-     * @ElementName servicePackName
      * @param string[] $servicePackName
      * @return $this
      */
@@ -45,15 +45,23 @@ class ServiceProviderServicePackGetListResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePackName()
+    {
+        $this->servicePackName = null;
+        return $this;
+    }
+
+    /**
      * Adder for servicePackName
      *
-     * @ElementName servicePackName
      * @param string $servicePackName
      * @return $this
      */
     public function addServicePackName(string $servicePackName)
     {
-        $this->servicePackName []= $servicePackName;
+        $this->servicePackName[] = $servicePackName;
         return $this;
     }
 

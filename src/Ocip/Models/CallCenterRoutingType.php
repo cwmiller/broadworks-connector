@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterRoutingType PRIORITY_BASED()
  * @method static CallCenterRoutingType SKILL_BASED()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterRoutingType extends \MyCLabs\Enum\Enum
 {

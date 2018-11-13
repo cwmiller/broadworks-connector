@@ -14,24 +14,28 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName announcementMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
 
     /**
      * @ElementName confirmationMessageAudioFileDescription
+     * @Type string
      * @var string|null
      */
     private $confirmationMessageAudioFileDescription = null;
 
     /**
      * @ElementName confirmationMessageMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $confirmationMessageMediaType = null;
 
     /**
      * @ElementName confirmationTimoutSeconds
+     * @Type int
      * @var int|null
      */
     private $confirmationTimoutSeconds = null;
@@ -39,19 +43,17 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     /**
      * Getter for announcementMessageSelection
      *
-     * @ElementName announcementMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
      */
     public function getAnnouncementMessageSelection()
     {
-        return $this->announcementMessageSelection;
+        return $this->announcementMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementMessageSelection;
     }
 
     /**
      * Setter for announcementMessageSelection
      *
-     * @ElementName announcementMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null $announcementMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection $announcementMessageSelection
      * @return $this
      */
     public function setAnnouncementMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection $announcementMessageSelection)
@@ -61,21 +63,28 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementMessageSelection()
+    {
+        $this->announcementMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for confirmationMessageAudioFileDescription
      *
-     * @ElementName confirmationMessageAudioFileDescription
-     * @return string|null
+     * @return string
      */
     public function getConfirmationMessageAudioFileDescription()
     {
-        return $this->confirmationMessageAudioFileDescription;
+        return $this->confirmationMessageAudioFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmationMessageAudioFileDescription;
     }
 
     /**
      * Setter for confirmationMessageAudioFileDescription
      *
-     * @ElementName confirmationMessageAudioFileDescription
-     * @param string|null $confirmationMessageAudioFileDescription
+     * @param string $confirmationMessageAudioFileDescription
      * @return $this
      */
     public function setConfirmationMessageAudioFileDescription($confirmationMessageAudioFileDescription)
@@ -85,21 +94,28 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfirmationMessageAudioFileDescription()
+    {
+        $this->confirmationMessageAudioFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for confirmationMessageMediaType
      *
-     * @ElementName confirmationMessageMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getConfirmationMessageMediaType()
     {
-        return $this->confirmationMessageMediaType;
+        return $this->confirmationMessageMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmationMessageMediaType;
     }
 
     /**
      * Setter for confirmationMessageMediaType
      *
-     * @ElementName confirmationMessageMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $confirmationMessageMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $confirmationMessageMediaType
      * @return $this
      */
     public function setConfirmationMessageMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $confirmationMessageMediaType)
@@ -109,26 +125,42 @@ class ServiceProviderAnswerConfirmationGetResponse16 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfirmationMessageMediaType()
+    {
+        $this->confirmationMessageMediaType = null;
+        return $this;
+    }
+
+    /**
      * Getter for confirmationTimoutSeconds
      *
-     * @ElementName confirmationTimoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getConfirmationTimoutSeconds()
     {
-        return $this->confirmationTimoutSeconds;
+        return $this->confirmationTimoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmationTimoutSeconds;
     }
 
     /**
      * Setter for confirmationTimoutSeconds
      *
-     * @ElementName confirmationTimoutSeconds
-     * @param int|null $confirmationTimoutSeconds
+     * @param int $confirmationTimoutSeconds
      * @return $this
      */
     public function setConfirmationTimoutSeconds($confirmationTimoutSeconds)
     {
         $this->confirmationTimoutSeconds = $confirmationTimoutSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConfirmationTimoutSeconds()
+    {
+        $this->confirmationTimoutSeconds = null;
         return $this;
     }
 

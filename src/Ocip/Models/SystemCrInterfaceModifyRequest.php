@@ -16,42 +16,49 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName crAuditEnabled
+     * @Type bool
      * @var bool|null
      */
     private $crAuditEnabled = null;
 
     /**
      * @ElementName crAuditIntervalMilliseconds
+     * @Type int
      * @var int|null
      */
     private $crAuditIntervalMilliseconds = null;
 
     /**
      * @ElementName crAuditTimeoutMilliseconds
+     * @Type int
      * @var int|null
      */
     private $crAuditTimeoutMilliseconds = null;
 
     /**
      * @ElementName crConnectionEnabled
+     * @Type bool
      * @var bool|null
      */
     private $crConnectionEnabled = null;
 
     /**
      * @ElementName crConnectionTimeoutMilliseconds
+     * @Type int
      * @var int|null
      */
     private $crConnectionTimeoutMilliseconds = null;
 
     /**
      * @ElementName crTcpConnectionTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $crTcpConnectionTimeoutSeconds = null;
 
     /**
      * @ElementName crNumberOfReconnectionAttempts
+     * @Type int
      * @var int|null
      */
     private $crNumberOfReconnectionAttempts = null;
@@ -59,19 +66,17 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for crAuditEnabled
      *
-     * @ElementName crAuditEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getCrAuditEnabled()
     {
-        return $this->crAuditEnabled;
+        return $this->crAuditEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->crAuditEnabled;
     }
 
     /**
      * Setter for crAuditEnabled
      *
-     * @ElementName crAuditEnabled
-     * @param bool|null $crAuditEnabled
+     * @param bool $crAuditEnabled
      * @return $this
      */
     public function setCrAuditEnabled($crAuditEnabled)
@@ -81,21 +86,28 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCrAuditEnabled()
+    {
+        $this->crAuditEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for crAuditIntervalMilliseconds
      *
-     * @ElementName crAuditIntervalMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getCrAuditIntervalMilliseconds()
     {
-        return $this->crAuditIntervalMilliseconds;
+        return $this->crAuditIntervalMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->crAuditIntervalMilliseconds;
     }
 
     /**
      * Setter for crAuditIntervalMilliseconds
      *
-     * @ElementName crAuditIntervalMilliseconds
-     * @param int|null $crAuditIntervalMilliseconds
+     * @param int $crAuditIntervalMilliseconds
      * @return $this
      */
     public function setCrAuditIntervalMilliseconds($crAuditIntervalMilliseconds)
@@ -105,21 +117,28 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCrAuditIntervalMilliseconds()
+    {
+        $this->crAuditIntervalMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for crAuditTimeoutMilliseconds
      *
-     * @ElementName crAuditTimeoutMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getCrAuditTimeoutMilliseconds()
     {
-        return $this->crAuditTimeoutMilliseconds;
+        return $this->crAuditTimeoutMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->crAuditTimeoutMilliseconds;
     }
 
     /**
      * Setter for crAuditTimeoutMilliseconds
      *
-     * @ElementName crAuditTimeoutMilliseconds
-     * @param int|null $crAuditTimeoutMilliseconds
+     * @param int $crAuditTimeoutMilliseconds
      * @return $this
      */
     public function setCrAuditTimeoutMilliseconds($crAuditTimeoutMilliseconds)
@@ -129,21 +148,28 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCrAuditTimeoutMilliseconds()
+    {
+        $this->crAuditTimeoutMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for crConnectionEnabled
      *
-     * @ElementName crConnectionEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getCrConnectionEnabled()
     {
-        return $this->crConnectionEnabled;
+        return $this->crConnectionEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->crConnectionEnabled;
     }
 
     /**
      * Setter for crConnectionEnabled
      *
-     * @ElementName crConnectionEnabled
-     * @param bool|null $crConnectionEnabled
+     * @param bool $crConnectionEnabled
      * @return $this
      */
     public function setCrConnectionEnabled($crConnectionEnabled)
@@ -153,21 +179,28 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCrConnectionEnabled()
+    {
+        $this->crConnectionEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for crConnectionTimeoutMilliseconds
      *
-     * @ElementName crConnectionTimeoutMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getCrConnectionTimeoutMilliseconds()
     {
-        return $this->crConnectionTimeoutMilliseconds;
+        return $this->crConnectionTimeoutMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->crConnectionTimeoutMilliseconds;
     }
 
     /**
      * Setter for crConnectionTimeoutMilliseconds
      *
-     * @ElementName crConnectionTimeoutMilliseconds
-     * @param int|null $crConnectionTimeoutMilliseconds
+     * @param int $crConnectionTimeoutMilliseconds
      * @return $this
      */
     public function setCrConnectionTimeoutMilliseconds($crConnectionTimeoutMilliseconds)
@@ -177,21 +210,28 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCrConnectionTimeoutMilliseconds()
+    {
+        $this->crConnectionTimeoutMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for crTcpConnectionTimeoutSeconds
      *
-     * @ElementName crTcpConnectionTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getCrTcpConnectionTimeoutSeconds()
     {
-        return $this->crTcpConnectionTimeoutSeconds;
+        return $this->crTcpConnectionTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->crTcpConnectionTimeoutSeconds;
     }
 
     /**
      * Setter for crTcpConnectionTimeoutSeconds
      *
-     * @ElementName crTcpConnectionTimeoutSeconds
-     * @param int|null $crTcpConnectionTimeoutSeconds
+     * @param int $crTcpConnectionTimeoutSeconds
      * @return $this
      */
     public function setCrTcpConnectionTimeoutSeconds($crTcpConnectionTimeoutSeconds)
@@ -201,26 +241,42 @@ class SystemCrInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCrTcpConnectionTimeoutSeconds()
+    {
+        $this->crTcpConnectionTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for crNumberOfReconnectionAttempts
      *
-     * @ElementName crNumberOfReconnectionAttempts
-     * @return int|null
+     * @return int
      */
     public function getCrNumberOfReconnectionAttempts()
     {
-        return $this->crNumberOfReconnectionAttempts;
+        return $this->crNumberOfReconnectionAttempts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->crNumberOfReconnectionAttempts;
     }
 
     /**
      * Setter for crNumberOfReconnectionAttempts
      *
-     * @ElementName crNumberOfReconnectionAttempts
-     * @param int|null $crNumberOfReconnectionAttempts
+     * @param int $crNumberOfReconnectionAttempts
      * @return $this
      */
     public function setCrNumberOfReconnectionAttempts($crNumberOfReconnectionAttempts)
     {
         $this->crNumberOfReconnectionAttempts = $crNumberOfReconnectionAttempts;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCrNumberOfReconnectionAttempts()
+    {
+        $this->crNumberOfReconnectionAttempts = null;
         return $this;
     }
 

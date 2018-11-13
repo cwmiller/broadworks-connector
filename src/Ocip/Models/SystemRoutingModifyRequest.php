@@ -16,36 +16,42 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName isRouteRoundRobin
+     * @Type bool
      * @var bool|null
      */
     private $isRouteRoundRobin = null;
 
     /**
      * @ElementName routeTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $routeTimerSeconds = null;
 
     /**
      * @ElementName dnsResolvedAddressSelectionPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null
      */
     private $dnsResolvedAddressSelectionPolicy = null;
 
     /**
      * @ElementName statefulExpirationMinutes
+     * @Type int
      * @var int|null
      */
     private $statefulExpirationMinutes = null;
 
     /**
      * @ElementName maxAddressesPerHostname
+     * @Type int
      * @var int|null
      */
     private $maxAddressesPerHostname = null;
 
     /**
      * @ElementName maxAddressesDuringSetup
+     * @Type int
      * @var int|null
      */
     private $maxAddressesDuringSetup = null;
@@ -53,19 +59,17 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for isRouteRoundRobin
      *
-     * @ElementName isRouteRoundRobin
-     * @return bool|null
+     * @return bool
      */
     public function getIsRouteRoundRobin()
     {
-        return $this->isRouteRoundRobin;
+        return $this->isRouteRoundRobin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isRouteRoundRobin;
     }
 
     /**
      * Setter for isRouteRoundRobin
      *
-     * @ElementName isRouteRoundRobin
-     * @param bool|null $isRouteRoundRobin
+     * @param bool $isRouteRoundRobin
      * @return $this
      */
     public function setIsRouteRoundRobin($isRouteRoundRobin)
@@ -75,21 +79,28 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsRouteRoundRobin()
+    {
+        $this->isRouteRoundRobin = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeTimerSeconds
      *
-     * @ElementName routeTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getRouteTimerSeconds()
     {
-        return $this->routeTimerSeconds;
+        return $this->routeTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeTimerSeconds;
     }
 
     /**
      * Setter for routeTimerSeconds
      *
-     * @ElementName routeTimerSeconds
-     * @param int|null $routeTimerSeconds
+     * @param int $routeTimerSeconds
      * @return $this
      */
     public function setRouteTimerSeconds($routeTimerSeconds)
@@ -99,21 +110,28 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteTimerSeconds()
+    {
+        $this->routeTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for dnsResolvedAddressSelectionPolicy
      *
-     * @ElementName dnsResolvedAddressSelectionPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy
      */
     public function getDnsResolvedAddressSelectionPolicy()
     {
-        return $this->dnsResolvedAddressSelectionPolicy;
+        return $this->dnsResolvedAddressSelectionPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnsResolvedAddressSelectionPolicy;
     }
 
     /**
      * Setter for dnsResolvedAddressSelectionPolicy
      *
-     * @ElementName dnsResolvedAddressSelectionPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null $dnsResolvedAddressSelectionPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy $dnsResolvedAddressSelectionPolicy
      * @return $this
      */
     public function setDnsResolvedAddressSelectionPolicy(\CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy $dnsResolvedAddressSelectionPolicy)
@@ -123,21 +141,28 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDnsResolvedAddressSelectionPolicy()
+    {
+        $this->dnsResolvedAddressSelectionPolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for statefulExpirationMinutes
      *
-     * @ElementName statefulExpirationMinutes
-     * @return int|null
+     * @return int
      */
     public function getStatefulExpirationMinutes()
     {
-        return $this->statefulExpirationMinutes;
+        return $this->statefulExpirationMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statefulExpirationMinutes;
     }
 
     /**
      * Setter for statefulExpirationMinutes
      *
-     * @ElementName statefulExpirationMinutes
-     * @param int|null $statefulExpirationMinutes
+     * @param int $statefulExpirationMinutes
      * @return $this
      */
     public function setStatefulExpirationMinutes($statefulExpirationMinutes)
@@ -147,21 +172,28 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatefulExpirationMinutes()
+    {
+        $this->statefulExpirationMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxAddressesPerHostname
      *
-     * @ElementName maxAddressesPerHostname
-     * @return int|null
+     * @return int
      */
     public function getMaxAddressesPerHostname()
     {
-        return $this->maxAddressesPerHostname;
+        return $this->maxAddressesPerHostname instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxAddressesPerHostname;
     }
 
     /**
      * Setter for maxAddressesPerHostname
      *
-     * @ElementName maxAddressesPerHostname
-     * @param int|null $maxAddressesPerHostname
+     * @param int $maxAddressesPerHostname
      * @return $this
      */
     public function setMaxAddressesPerHostname($maxAddressesPerHostname)
@@ -171,26 +203,42 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxAddressesPerHostname()
+    {
+        $this->maxAddressesPerHostname = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxAddressesDuringSetup
      *
-     * @ElementName maxAddressesDuringSetup
-     * @return int|null
+     * @return int
      */
     public function getMaxAddressesDuringSetup()
     {
-        return $this->maxAddressesDuringSetup;
+        return $this->maxAddressesDuringSetup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxAddressesDuringSetup;
     }
 
     /**
      * Setter for maxAddressesDuringSetup
      *
-     * @ElementName maxAddressesDuringSetup
-     * @param int|null $maxAddressesDuringSetup
+     * @param int $maxAddressesDuringSetup
      * @return $this
      */
     public function setMaxAddressesDuringSetup($maxAddressesDuringSetup)
     {
         $this->maxAddressesDuringSetup = $maxAddressesDuringSetup;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxAddressesDuringSetup()
+    {
+        $this->maxAddressesDuringSetup = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class GroupDepartmentAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName departmentAdminTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $departmentAdminTable = null;
@@ -23,24 +24,31 @@ class GroupDepartmentAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for departmentAdminTable
      *
-     * @ElementName departmentAdminTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDepartmentAdminTable()
     {
-        return $this->departmentAdminTable;
+        return $this->departmentAdminTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentAdminTable;
     }
 
     /**
      * Setter for departmentAdminTable
      *
-     * @ElementName departmentAdminTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $departmentAdminTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $departmentAdminTable
      * @return $this
      */
     public function setDepartmentAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $departmentAdminTable)
     {
         $this->departmentAdminTable = $departmentAdminTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDepartmentAdminTable()
+    {
+        $this->departmentAdminTable = null;
         return $this;
     }
 

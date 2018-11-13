@@ -14,6 +14,7 @@ class UserCollaborateInstantRoomAddResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName roomId
+     * @Type string
      * @var string|null
      */
     private $roomId = null;
@@ -21,24 +22,31 @@ class UserCollaborateInstantRoomAddResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for roomId
      *
-     * @ElementName roomId
-     * @return string|null
+     * @return string
      */
     public function getRoomId()
     {
-        return $this->roomId;
+        return $this->roomId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->roomId;
     }
 
     /**
      * Setter for roomId
      *
-     * @ElementName roomId
-     * @param string|null $roomId
+     * @param string $roomId
      * @return $this
      */
     public function setRoomId($roomId)
     {
         $this->roomId = $roomId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoomId()
+    {
+        $this->roomId = null;
         return $this;
     }
 

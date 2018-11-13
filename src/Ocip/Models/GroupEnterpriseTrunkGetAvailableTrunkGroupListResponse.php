@@ -14,6 +14,8 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse extends \CWM\BroadW
 
     /**
      * @ElementName trunkGroupName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $trunkGroupName = array(
@@ -23,18 +25,16 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse extends \CWM\BroadW
     /**
      * Getter for trunkGroupName
      *
-     * @ElementName trunkGroupName
      * @return string[]
      */
     public function getTrunkGroupName()
     {
-        return $this->trunkGroupName;
+        return $this->trunkGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupName;
     }
 
     /**
      * Setter for trunkGroupName
      *
-     * @ElementName trunkGroupName
      * @param string[] $trunkGroupName
      * @return $this
      */
@@ -45,15 +45,23 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupName()
+    {
+        $this->trunkGroupName = null;
+        return $this;
+    }
+
+    /**
      * Adder for trunkGroupName
      *
-     * @ElementName trunkGroupName
      * @param string $trunkGroupName
      * @return $this
      */
     public function addTrunkGroupName(string $trunkGroupName)
     {
-        $this->trunkGroupName []= $trunkGroupName;
+        $this->trunkGroupName[] = $trunkGroupName;
         return $this;
     }
 

@@ -17,24 +17,29 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName prefixDigits
+     * @Type string
      * @var string|null
      */
     private $prefixDigits = null;
 
     /**
      * @ElementName matchCallType
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $matchCallType = array(
@@ -43,6 +48,8 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName matchAlternateCallIndicator
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $matchAlternateCallIndicator = array(
@@ -51,48 +58,56 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName matchLocalCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchLocalCategory = null;
 
     /**
      * @ElementName matchNationalCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchNationalCategory = null;
 
     /**
      * @ElementName matchInterlataCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchInterlataCategory = null;
 
     /**
      * @ElementName matchIntralataCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchIntralataCategory = null;
 
     /**
      * @ElementName matchInternationalCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchInternationalCategory = null;
 
     /**
      * @ElementName matchPrivateCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchPrivateCategory = null;
 
     /**
      * @ElementName matchEmergencyCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchEmergencyCategory = null;
 
     /**
      * @ElementName matchOtherCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchOtherCategory = null;
@@ -100,19 +115,17 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -122,21 +135,28 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -146,21 +166,28 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for prefixDigits
      *
-     * @ElementName prefixDigits
-     * @return string|null
+     * @return string
      */
     public function getPrefixDigits()
     {
-        return $this->prefixDigits;
+        return $this->prefixDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefixDigits;
     }
 
     /**
      * Setter for prefixDigits
      *
-     * @ElementName prefixDigits
-     * @param string|null $prefixDigits
+     * @param string $prefixDigits
      * @return $this
      */
     public function setPrefixDigits($prefixDigits)
@@ -170,20 +197,27 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrefixDigits()
+    {
+        $this->prefixDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchCallType
      *
-     * @ElementName matchCallType
      * @return string[]
      */
     public function getMatchCallType()
     {
-        return $this->matchCallType;
+        return $this->matchCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchCallType;
     }
 
     /**
      * Setter for matchCallType
      *
-     * @ElementName matchCallType
      * @param string[] $matchCallType
      * @return $this
      */
@@ -194,33 +228,39 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchCallType()
+    {
+        $this->matchCallType = null;
+        return $this;
+    }
+
+    /**
      * Adder for matchCallType
      *
-     * @ElementName matchCallType
      * @param string $matchCallType
      * @return $this
      */
     public function addMatchCallType(string $matchCallType)
     {
-        $this->matchCallType []= $matchCallType;
+        $this->matchCallType[] = $matchCallType;
         return $this;
     }
 
     /**
      * Getter for matchAlternateCallIndicator
      *
-     * @ElementName matchAlternateCallIndicator
      * @return string[]
      */
     public function getMatchAlternateCallIndicator()
     {
-        return $this->matchAlternateCallIndicator;
+        return $this->matchAlternateCallIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchAlternateCallIndicator;
     }
 
     /**
      * Setter for matchAlternateCallIndicator
      *
-     * @ElementName matchAlternateCallIndicator
      * @param string[] $matchAlternateCallIndicator
      * @return $this
      */
@@ -231,34 +271,40 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchAlternateCallIndicator()
+    {
+        $this->matchAlternateCallIndicator = null;
+        return $this;
+    }
+
+    /**
      * Adder for matchAlternateCallIndicator
      *
-     * @ElementName matchAlternateCallIndicator
      * @param string $matchAlternateCallIndicator
      * @return $this
      */
     public function addMatchAlternateCallIndicator(string $matchAlternateCallIndicator)
     {
-        $this->matchAlternateCallIndicator []= $matchAlternateCallIndicator;
+        $this->matchAlternateCallIndicator[] = $matchAlternateCallIndicator;
         return $this;
     }
 
     /**
      * Getter for matchLocalCategory
      *
-     * @ElementName matchLocalCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchLocalCategory()
     {
-        return $this->matchLocalCategory;
+        return $this->matchLocalCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchLocalCategory;
     }
 
     /**
      * Setter for matchLocalCategory
      *
-     * @ElementName matchLocalCategory
-     * @param bool|null $matchLocalCategory
+     * @param bool $matchLocalCategory
      * @return $this
      */
     public function setMatchLocalCategory($matchLocalCategory)
@@ -268,21 +314,28 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchLocalCategory()
+    {
+        $this->matchLocalCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchNationalCategory
      *
-     * @ElementName matchNationalCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchNationalCategory()
     {
-        return $this->matchNationalCategory;
+        return $this->matchNationalCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchNationalCategory;
     }
 
     /**
      * Setter for matchNationalCategory
      *
-     * @ElementName matchNationalCategory
-     * @param bool|null $matchNationalCategory
+     * @param bool $matchNationalCategory
      * @return $this
      */
     public function setMatchNationalCategory($matchNationalCategory)
@@ -292,21 +345,28 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchNationalCategory()
+    {
+        $this->matchNationalCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchInterlataCategory
      *
-     * @ElementName matchInterlataCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchInterlataCategory()
     {
-        return $this->matchInterlataCategory;
+        return $this->matchInterlataCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchInterlataCategory;
     }
 
     /**
      * Setter for matchInterlataCategory
      *
-     * @ElementName matchInterlataCategory
-     * @param bool|null $matchInterlataCategory
+     * @param bool $matchInterlataCategory
      * @return $this
      */
     public function setMatchInterlataCategory($matchInterlataCategory)
@@ -316,21 +376,28 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchInterlataCategory()
+    {
+        $this->matchInterlataCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchIntralataCategory
      *
-     * @ElementName matchIntralataCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchIntralataCategory()
     {
-        return $this->matchIntralataCategory;
+        return $this->matchIntralataCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchIntralataCategory;
     }
 
     /**
      * Setter for matchIntralataCategory
      *
-     * @ElementName matchIntralataCategory
-     * @param bool|null $matchIntralataCategory
+     * @param bool $matchIntralataCategory
      * @return $this
      */
     public function setMatchIntralataCategory($matchIntralataCategory)
@@ -340,21 +407,28 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchIntralataCategory()
+    {
+        $this->matchIntralataCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchInternationalCategory
      *
-     * @ElementName matchInternationalCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchInternationalCategory()
     {
-        return $this->matchInternationalCategory;
+        return $this->matchInternationalCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchInternationalCategory;
     }
 
     /**
      * Setter for matchInternationalCategory
      *
-     * @ElementName matchInternationalCategory
-     * @param bool|null $matchInternationalCategory
+     * @param bool $matchInternationalCategory
      * @return $this
      */
     public function setMatchInternationalCategory($matchInternationalCategory)
@@ -364,21 +438,28 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchInternationalCategory()
+    {
+        $this->matchInternationalCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchPrivateCategory
      *
-     * @ElementName matchPrivateCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchPrivateCategory()
     {
-        return $this->matchPrivateCategory;
+        return $this->matchPrivateCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchPrivateCategory;
     }
 
     /**
      * Setter for matchPrivateCategory
      *
-     * @ElementName matchPrivateCategory
-     * @param bool|null $matchPrivateCategory
+     * @param bool $matchPrivateCategory
      * @return $this
      */
     public function setMatchPrivateCategory($matchPrivateCategory)
@@ -388,21 +469,28 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchPrivateCategory()
+    {
+        $this->matchPrivateCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchEmergencyCategory
      *
-     * @ElementName matchEmergencyCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchEmergencyCategory()
     {
-        return $this->matchEmergencyCategory;
+        return $this->matchEmergencyCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchEmergencyCategory;
     }
 
     /**
      * Setter for matchEmergencyCategory
      *
-     * @ElementName matchEmergencyCategory
-     * @param bool|null $matchEmergencyCategory
+     * @param bool $matchEmergencyCategory
      * @return $this
      */
     public function setMatchEmergencyCategory($matchEmergencyCategory)
@@ -412,26 +500,42 @@ class SystemDialableCallerIDCriteriaAddRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchEmergencyCategory()
+    {
+        $this->matchEmergencyCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchOtherCategory
      *
-     * @ElementName matchOtherCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchOtherCategory()
     {
-        return $this->matchOtherCategory;
+        return $this->matchOtherCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchOtherCategory;
     }
 
     /**
      * Setter for matchOtherCategory
      *
-     * @ElementName matchOtherCategory
-     * @param bool|null $matchOtherCategory
+     * @param bool $matchOtherCategory
      * @return $this
      */
     public function setMatchOtherCategory($matchOtherCategory)
     {
         $this->matchOtherCategory = $matchOtherCategory;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMatchOtherCategory()
+    {
+        $this->matchOtherCategory = null;
         return $this;
     }
 

@@ -20,48 +20,57 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName submenuId
+     * @Type string
      * @var string|null
      */
     private $submenuId = null;
 
     /**
      * @ElementName newSubmenuId
+     * @Type string
      * @var string|null
      */
     private $newSubmenuId = null;
 
     /**
      * @ElementName announcementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
 
     /**
      * @ElementName enableLevelExtensionDialing
+     * @Type bool
      * @var bool|null
      */
     private $enableLevelExtensionDialing = null;
 
     /**
      * @ElementName keyConfiguration
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration[]
      */
     private $keyConfiguration = array(
@@ -71,19 +80,17 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -93,21 +100,28 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for submenuId
      *
-     * @ElementName submenuId
-     * @return string|null
+     * @return string
      */
     public function getSubmenuId()
     {
-        return $this->submenuId;
+        return $this->submenuId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->submenuId;
     }
 
     /**
      * Setter for submenuId
      *
-     * @ElementName submenuId
-     * @param string|null $submenuId
+     * @param string $submenuId
      * @return $this
      */
     public function setSubmenuId($submenuId)
@@ -117,21 +131,28 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSubmenuId()
+    {
+        $this->submenuId = null;
+        return $this;
+    }
+
+    /**
      * Getter for newSubmenuId
      *
-     * @ElementName newSubmenuId
-     * @return string|null
+     * @return string
      */
     public function getNewSubmenuId()
     {
-        return $this->newSubmenuId;
+        return $this->newSubmenuId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newSubmenuId;
     }
 
     /**
      * Setter for newSubmenuId
      *
-     * @ElementName newSubmenuId
-     * @param string|null $newSubmenuId
+     * @param string $newSubmenuId
      * @return $this
      */
     public function setNewSubmenuId($newSubmenuId)
@@ -141,21 +162,28 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewSubmenuId()
+    {
+        $this->newSubmenuId = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementSelection
      *
-     * @ElementName announcementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      */
     public function getAnnouncementSelection()
     {
-        return $this->announcementSelection;
+        return $this->announcementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementSelection;
     }
 
     /**
      * Setter for announcementSelection
      *
-     * @ElementName announcementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection
      * @return $this
      */
     public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
@@ -165,21 +193,28 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementSelection()
+    {
+        $this->announcementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
@@ -189,21 +224,28 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $videoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile)
@@ -213,21 +255,28 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableLevelExtensionDialing
      *
-     * @ElementName enableLevelExtensionDialing
-     * @return bool|null
+     * @return bool
      */
     public function getEnableLevelExtensionDialing()
     {
-        return $this->enableLevelExtensionDialing;
+        return $this->enableLevelExtensionDialing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableLevelExtensionDialing;
     }
 
     /**
      * Setter for enableLevelExtensionDialing
      *
-     * @ElementName enableLevelExtensionDialing
-     * @param bool|null $enableLevelExtensionDialing
+     * @param bool $enableLevelExtensionDialing
      * @return $this
      */
     public function setEnableLevelExtensionDialing($enableLevelExtensionDialing)
@@ -237,20 +286,27 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableLevelExtensionDialing()
+    {
+        $this->enableLevelExtensionDialing = null;
+        return $this;
+    }
+
+    /**
      * Getter for keyConfiguration
      *
-     * @ElementName keyConfiguration
      * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration[]
      */
     public function getKeyConfiguration()
     {
-        return $this->keyConfiguration;
+        return $this->keyConfiguration instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->keyConfiguration;
     }
 
     /**
      * Setter for keyConfiguration
      *
-     * @ElementName keyConfiguration
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration[] $keyConfiguration
      * @return $this
      */
@@ -261,15 +317,23 @@ class GroupAutoAttendantSubmenuModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetKeyConfiguration()
+    {
+        $this->keyConfiguration = null;
+        return $this;
+    }
+
+    /**
      * Adder for keyConfiguration
      *
-     * @ElementName keyConfiguration
      * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration $keyConfiguration
      * @return $this
      */
     public function addKeyConfiguration($keyConfiguration)
     {
-        $this->keyConfiguration []= $keyConfiguration;
+        $this->keyConfiguration[] = $keyConfiguration;
         return $this;
     }
 

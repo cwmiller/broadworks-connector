@@ -22,60 +22,70 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName deviceAccessProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
 
     /**
      * @ElementName deviceAccessMethod
+     * @Type string
      * @var string|null
      */
     private $deviceAccessMethod = null;
 
     /**
      * @ElementName deviceAccessURI
+     * @Type string
      * @var string|null
      */
     private $deviceAccessURI = null;
 
     /**
      * @ElementName accessDeviceUserName
+     * @Type string
      * @var string|null
      */
     private $accessDeviceUserName = null;
 
     /**
      * @ElementName accessDeviceUserPassword
+     * @Type string
      * @var string|null
      */
     private $accessDeviceUserPassword = null;
 
     /**
      * @ElementName signedPassword
+     * @Type string
      * @var string|null
      */
     private $signedPassword = null;
 
     /**
      * @ElementName macAddress
+     * @Type string
      * @var string|null
      */
     private $macAddress = null;
 
     /**
      * @ElementName realmName
+     * @Type string
      * @var string|null
      */
     private $realmName = null;
 
     /**
      * @ElementName digestHa1Complement
+     * @Type string
      * @var string|null
      */
     private $digestHa1Complement = null;
 
     /**
      * @ElementName digestResponse
+     * @Type string
      * @var string|null
      */
     private $digestResponse = null;
@@ -83,19 +93,17 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     /**
      * Getter for deviceAccessProtocol
      *
-     * @ElementName deviceAccessProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
      */
     public function getDeviceAccessProtocol()
     {
-        return $this->deviceAccessProtocol;
+        return $this->deviceAccessProtocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessProtocol;
     }
 
     /**
      * Setter for deviceAccessProtocol
      *
-     * @ElementName deviceAccessProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null $deviceAccessProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16 $deviceAccessProtocol
      * @return $this
      */
     public function setDeviceAccessProtocol(\CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16 $deviceAccessProtocol)
@@ -105,21 +113,28 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceAccessProtocol()
+    {
+        $this->deviceAccessProtocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceAccessMethod
      *
-     * @ElementName deviceAccessMethod
-     * @return string|null
+     * @return string
      */
     public function getDeviceAccessMethod()
     {
-        return $this->deviceAccessMethod;
+        return $this->deviceAccessMethod instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessMethod;
     }
 
     /**
      * Setter for deviceAccessMethod
      *
-     * @ElementName deviceAccessMethod
-     * @param string|null $deviceAccessMethod
+     * @param string $deviceAccessMethod
      * @return $this
      */
     public function setDeviceAccessMethod($deviceAccessMethod)
@@ -129,21 +144,28 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceAccessMethod()
+    {
+        $this->deviceAccessMethod = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceAccessURI
      *
-     * @ElementName deviceAccessURI
-     * @return string|null
+     * @return string
      */
     public function getDeviceAccessURI()
     {
-        return $this->deviceAccessURI;
+        return $this->deviceAccessURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessURI;
     }
 
     /**
      * Setter for deviceAccessURI
      *
-     * @ElementName deviceAccessURI
-     * @param string|null $deviceAccessURI
+     * @param string $deviceAccessURI
      * @return $this
      */
     public function setDeviceAccessURI($deviceAccessURI)
@@ -153,21 +175,28 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceAccessURI()
+    {
+        $this->deviceAccessURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessDeviceUserName
      *
-     * @ElementName accessDeviceUserName
-     * @return string|null
+     * @return string
      */
     public function getAccessDeviceUserName()
     {
-        return $this->accessDeviceUserName;
+        return $this->accessDeviceUserName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceUserName;
     }
 
     /**
      * Setter for accessDeviceUserName
      *
-     * @ElementName accessDeviceUserName
-     * @param string|null $accessDeviceUserName
+     * @param string $accessDeviceUserName
      * @return $this
      */
     public function setAccessDeviceUserName($accessDeviceUserName)
@@ -177,21 +206,28 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDeviceUserName()
+    {
+        $this->accessDeviceUserName = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessDeviceUserPassword
      *
-     * @ElementName accessDeviceUserPassword
-     * @return string|null
+     * @return string
      */
     public function getAccessDeviceUserPassword()
     {
-        return $this->accessDeviceUserPassword;
+        return $this->accessDeviceUserPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceUserPassword;
     }
 
     /**
      * Setter for accessDeviceUserPassword
      *
-     * @ElementName accessDeviceUserPassword
-     * @param string|null $accessDeviceUserPassword
+     * @param string $accessDeviceUserPassword
      * @return $this
      */
     public function setAccessDeviceUserPassword($accessDeviceUserPassword)
@@ -201,21 +237,28 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDeviceUserPassword()
+    {
+        $this->accessDeviceUserPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for signedPassword
      *
-     * @ElementName signedPassword
-     * @return string|null
+     * @return string
      */
     public function getSignedPassword()
     {
-        return $this->signedPassword;
+        return $this->signedPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->signedPassword;
     }
 
     /**
      * Setter for signedPassword
      *
-     * @ElementName signedPassword
-     * @param string|null $signedPassword
+     * @param string $signedPassword
      * @return $this
      */
     public function setSignedPassword($signedPassword)
@@ -225,21 +268,28 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSignedPassword()
+    {
+        $this->signedPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for macAddress
      *
-     * @ElementName macAddress
-     * @return string|null
+     * @return string
      */
     public function getMacAddress()
     {
-        return $this->macAddress;
+        return $this->macAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macAddress;
     }
 
     /**
      * Setter for macAddress
      *
-     * @ElementName macAddress
-     * @param string|null $macAddress
+     * @param string $macAddress
      * @return $this
      */
     public function setMacAddress($macAddress)
@@ -249,21 +299,28 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacAddress()
+    {
+        $this->macAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for realmName
      *
-     * @ElementName realmName
-     * @return string|null
+     * @return string
      */
     public function getRealmName()
     {
-        return $this->realmName;
+        return $this->realmName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->realmName;
     }
 
     /**
      * Setter for realmName
      *
-     * @ElementName realmName
-     * @param string|null $realmName
+     * @param string $realmName
      * @return $this
      */
     public function setRealmName($realmName)
@@ -273,21 +330,28 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRealmName()
+    {
+        $this->realmName = null;
+        return $this;
+    }
+
+    /**
      * Getter for digestHa1Complement
      *
-     * @ElementName digestHa1Complement
-     * @return string|null
+     * @return string
      */
     public function getDigestHa1Complement()
     {
-        return $this->digestHa1Complement;
+        return $this->digestHa1Complement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digestHa1Complement;
     }
 
     /**
      * Setter for digestHa1Complement
      *
-     * @ElementName digestHa1Complement
-     * @param string|null $digestHa1Complement
+     * @param string $digestHa1Complement
      * @return $this
      */
     public function setDigestHa1Complement($digestHa1Complement)
@@ -297,26 +361,42 @@ class DeviceManagementFileAuthLocationGetRequest17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigestHa1Complement()
+    {
+        $this->digestHa1Complement = null;
+        return $this;
+    }
+
+    /**
      * Getter for digestResponse
      *
-     * @ElementName digestResponse
-     * @return string|null
+     * @return string
      */
     public function getDigestResponse()
     {
-        return $this->digestResponse;
+        return $this->digestResponse instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digestResponse;
     }
 
     /**
      * Setter for digestResponse
      *
-     * @ElementName digestResponse
-     * @param string|null $digestResponse
+     * @param string $digestResponse
      * @return $this
      */
     public function setDigestResponse($digestResponse)
     {
         $this->digestResponse = $digestResponse;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDigestResponse()
+    {
+        $this->digestResponse = null;
         return $this;
     }
 

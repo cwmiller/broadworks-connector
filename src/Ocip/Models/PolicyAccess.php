@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static PolicyAccess RESTRICTED_FULLRESOURCE()
  * @method static PolicyAccess RESTRICTED_READRESOURCE()
  * @method static PolicyAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class PolicyAccess extends \MyCLabs\Enum\Enum
 {

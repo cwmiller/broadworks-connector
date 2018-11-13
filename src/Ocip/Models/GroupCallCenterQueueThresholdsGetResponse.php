@@ -14,78 +14,92 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName thresholdCurrentCallsInQueueYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentCallsInQueueYellow = null;
 
     /**
      * @ElementName thresholdCurrentCallsInQueueRed
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentCallsInQueueRed = null;
 
     /**
      * @ElementName thresholdCurrentLongestWaitingCallYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentLongestWaitingCallYellow = null;
 
     /**
      * @ElementName thresholdCurrentLongestWaitingCallRed
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentLongestWaitingCallRed = null;
 
     /**
      * @ElementName thresholdAverageEstimatedWaitTimeYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageEstimatedWaitTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageEstimatedWaitTimeRed
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageEstimatedWaitTimeRed = null;
 
     /**
      * @ElementName thresholdAverageHandlingTimeYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageHandlingTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageHandlingTimeRed
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageHandlingTimeRed = null;
 
     /**
      * @ElementName thresholdAverageSpeedOfAnswerYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageSpeedOfAnswerYellow = null;
 
     /**
      * @ElementName thresholdAverageSpeedOfAnswerRed
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageSpeedOfAnswerRed = null;
 
     /**
      * @ElementName enableNotificationEmail
+     * @Type bool
      * @var bool|null
      */
     private $enableNotificationEmail = null;
 
     /**
      * @ElementName notificationEmailAddress
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $notificationEmailAddress = array(
@@ -95,19 +109,17 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -117,21 +129,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentCallsInQueueYellow
      *
-     * @ElementName thresholdCurrentCallsInQueueYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentCallsInQueueYellow()
     {
-        return $this->thresholdCurrentCallsInQueueYellow;
+        return $this->thresholdCurrentCallsInQueueYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallsInQueueYellow;
     }
 
     /**
      * Setter for thresholdCurrentCallsInQueueYellow
      *
-     * @ElementName thresholdCurrentCallsInQueueYellow
-     * @param int|null $thresholdCurrentCallsInQueueYellow
+     * @param int $thresholdCurrentCallsInQueueYellow
      * @return $this
      */
     public function setThresholdCurrentCallsInQueueYellow($thresholdCurrentCallsInQueueYellow)
@@ -141,21 +160,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallsInQueueYellow()
+    {
+        $this->thresholdCurrentCallsInQueueYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentCallsInQueueRed
      *
-     * @ElementName thresholdCurrentCallsInQueueRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentCallsInQueueRed()
     {
-        return $this->thresholdCurrentCallsInQueueRed;
+        return $this->thresholdCurrentCallsInQueueRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallsInQueueRed;
     }
 
     /**
      * Setter for thresholdCurrentCallsInQueueRed
      *
-     * @ElementName thresholdCurrentCallsInQueueRed
-     * @param int|null $thresholdCurrentCallsInQueueRed
+     * @param int $thresholdCurrentCallsInQueueRed
      * @return $this
      */
     public function setThresholdCurrentCallsInQueueRed($thresholdCurrentCallsInQueueRed)
@@ -165,21 +191,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallsInQueueRed()
+    {
+        $this->thresholdCurrentCallsInQueueRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentLongestWaitingCallYellow
      *
-     * @ElementName thresholdCurrentLongestWaitingCallYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentLongestWaitingCallYellow()
     {
-        return $this->thresholdCurrentLongestWaitingCallYellow;
+        return $this->thresholdCurrentLongestWaitingCallYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentLongestWaitingCallYellow;
     }
 
     /**
      * Setter for thresholdCurrentLongestWaitingCallYellow
      *
-     * @ElementName thresholdCurrentLongestWaitingCallYellow
-     * @param int|null $thresholdCurrentLongestWaitingCallYellow
+     * @param int $thresholdCurrentLongestWaitingCallYellow
      * @return $this
      */
     public function setThresholdCurrentLongestWaitingCallYellow($thresholdCurrentLongestWaitingCallYellow)
@@ -189,21 +222,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentLongestWaitingCallYellow()
+    {
+        $this->thresholdCurrentLongestWaitingCallYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentLongestWaitingCallRed
      *
-     * @ElementName thresholdCurrentLongestWaitingCallRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentLongestWaitingCallRed()
     {
-        return $this->thresholdCurrentLongestWaitingCallRed;
+        return $this->thresholdCurrentLongestWaitingCallRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentLongestWaitingCallRed;
     }
 
     /**
      * Setter for thresholdCurrentLongestWaitingCallRed
      *
-     * @ElementName thresholdCurrentLongestWaitingCallRed
-     * @param int|null $thresholdCurrentLongestWaitingCallRed
+     * @param int $thresholdCurrentLongestWaitingCallRed
      * @return $this
      */
     public function setThresholdCurrentLongestWaitingCallRed($thresholdCurrentLongestWaitingCallRed)
@@ -213,21 +253,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentLongestWaitingCallRed()
+    {
+        $this->thresholdCurrentLongestWaitingCallRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageEstimatedWaitTimeYellow
      *
-     * @ElementName thresholdAverageEstimatedWaitTimeYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageEstimatedWaitTimeYellow()
     {
-        return $this->thresholdAverageEstimatedWaitTimeYellow;
+        return $this->thresholdAverageEstimatedWaitTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageEstimatedWaitTimeYellow;
     }
 
     /**
      * Setter for thresholdAverageEstimatedWaitTimeYellow
      *
-     * @ElementName thresholdAverageEstimatedWaitTimeYellow
-     * @param int|null $thresholdAverageEstimatedWaitTimeYellow
+     * @param int $thresholdAverageEstimatedWaitTimeYellow
      * @return $this
      */
     public function setThresholdAverageEstimatedWaitTimeYellow($thresholdAverageEstimatedWaitTimeYellow)
@@ -237,21 +284,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageEstimatedWaitTimeYellow()
+    {
+        $this->thresholdAverageEstimatedWaitTimeYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageEstimatedWaitTimeRed
      *
-     * @ElementName thresholdAverageEstimatedWaitTimeRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageEstimatedWaitTimeRed()
     {
-        return $this->thresholdAverageEstimatedWaitTimeRed;
+        return $this->thresholdAverageEstimatedWaitTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageEstimatedWaitTimeRed;
     }
 
     /**
      * Setter for thresholdAverageEstimatedWaitTimeRed
      *
-     * @ElementName thresholdAverageEstimatedWaitTimeRed
-     * @param int|null $thresholdAverageEstimatedWaitTimeRed
+     * @param int $thresholdAverageEstimatedWaitTimeRed
      * @return $this
      */
     public function setThresholdAverageEstimatedWaitTimeRed($thresholdAverageEstimatedWaitTimeRed)
@@ -261,21 +315,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageEstimatedWaitTimeRed()
+    {
+        $this->thresholdAverageEstimatedWaitTimeRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageHandlingTimeYellow
      *
-     * @ElementName thresholdAverageHandlingTimeYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageHandlingTimeYellow()
     {
-        return $this->thresholdAverageHandlingTimeYellow;
+        return $this->thresholdAverageHandlingTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageHandlingTimeYellow;
     }
 
     /**
      * Setter for thresholdAverageHandlingTimeYellow
      *
-     * @ElementName thresholdAverageHandlingTimeYellow
-     * @param int|null $thresholdAverageHandlingTimeYellow
+     * @param int $thresholdAverageHandlingTimeYellow
      * @return $this
      */
     public function setThresholdAverageHandlingTimeYellow($thresholdAverageHandlingTimeYellow)
@@ -285,21 +346,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageHandlingTimeYellow()
+    {
+        $this->thresholdAverageHandlingTimeYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageHandlingTimeRed
      *
-     * @ElementName thresholdAverageHandlingTimeRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageHandlingTimeRed()
     {
-        return $this->thresholdAverageHandlingTimeRed;
+        return $this->thresholdAverageHandlingTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageHandlingTimeRed;
     }
 
     /**
      * Setter for thresholdAverageHandlingTimeRed
      *
-     * @ElementName thresholdAverageHandlingTimeRed
-     * @param int|null $thresholdAverageHandlingTimeRed
+     * @param int $thresholdAverageHandlingTimeRed
      * @return $this
      */
     public function setThresholdAverageHandlingTimeRed($thresholdAverageHandlingTimeRed)
@@ -309,21 +377,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageHandlingTimeRed()
+    {
+        $this->thresholdAverageHandlingTimeRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageSpeedOfAnswerYellow
      *
-     * @ElementName thresholdAverageSpeedOfAnswerYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageSpeedOfAnswerYellow()
     {
-        return $this->thresholdAverageSpeedOfAnswerYellow;
+        return $this->thresholdAverageSpeedOfAnswerYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageSpeedOfAnswerYellow;
     }
 
     /**
      * Setter for thresholdAverageSpeedOfAnswerYellow
      *
-     * @ElementName thresholdAverageSpeedOfAnswerYellow
-     * @param int|null $thresholdAverageSpeedOfAnswerYellow
+     * @param int $thresholdAverageSpeedOfAnswerYellow
      * @return $this
      */
     public function setThresholdAverageSpeedOfAnswerYellow($thresholdAverageSpeedOfAnswerYellow)
@@ -333,21 +408,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageSpeedOfAnswerYellow()
+    {
+        $this->thresholdAverageSpeedOfAnswerYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageSpeedOfAnswerRed
      *
-     * @ElementName thresholdAverageSpeedOfAnswerRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageSpeedOfAnswerRed()
     {
-        return $this->thresholdAverageSpeedOfAnswerRed;
+        return $this->thresholdAverageSpeedOfAnswerRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageSpeedOfAnswerRed;
     }
 
     /**
      * Setter for thresholdAverageSpeedOfAnswerRed
      *
-     * @ElementName thresholdAverageSpeedOfAnswerRed
-     * @param int|null $thresholdAverageSpeedOfAnswerRed
+     * @param int $thresholdAverageSpeedOfAnswerRed
      * @return $this
      */
     public function setThresholdAverageSpeedOfAnswerRed($thresholdAverageSpeedOfAnswerRed)
@@ -357,21 +439,28 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageSpeedOfAnswerRed()
+    {
+        $this->thresholdAverageSpeedOfAnswerRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableNotificationEmail
      *
-     * @ElementName enableNotificationEmail
-     * @return bool|null
+     * @return bool
      */
     public function getEnableNotificationEmail()
     {
-        return $this->enableNotificationEmail;
+        return $this->enableNotificationEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableNotificationEmail;
     }
 
     /**
      * Setter for enableNotificationEmail
      *
-     * @ElementName enableNotificationEmail
-     * @param bool|null $enableNotificationEmail
+     * @param bool $enableNotificationEmail
      * @return $this
      */
     public function setEnableNotificationEmail($enableNotificationEmail)
@@ -381,20 +470,27 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableNotificationEmail()
+    {
+        $this->enableNotificationEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for notificationEmailAddress
      *
-     * @ElementName notificationEmailAddress
      * @return string[]
      */
     public function getNotificationEmailAddress()
     {
-        return $this->notificationEmailAddress;
+        return $this->notificationEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->notificationEmailAddress;
     }
 
     /**
      * Setter for notificationEmailAddress
      *
-     * @ElementName notificationEmailAddress
      * @param string[] $notificationEmailAddress
      * @return $this
      */
@@ -405,15 +501,23 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNotificationEmailAddress()
+    {
+        $this->notificationEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for notificationEmailAddress
      *
-     * @ElementName notificationEmailAddress
      * @param string $notificationEmailAddress
      * @return $this
      */
     public function addNotificationEmailAddress(string $notificationEmailAddress)
     {
-        $this->notificationEmailAddress []= $notificationEmailAddress;
+        $this->notificationEmailAddress[] = $notificationEmailAddress;
         return $this;
     }
 

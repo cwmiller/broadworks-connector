@@ -17,18 +17,21 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName ringSplash
+     * @Type bool
      * @var bool|null
      */
     private $ringSplash = null;
@@ -36,19 +39,17 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -58,21 +59,28 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -82,26 +90,42 @@ class UserDoNotDisturbModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for ringSplash
      *
-     * @ElementName ringSplash
-     * @return bool|null
+     * @return bool
      */
     public function getRingSplash()
     {
-        return $this->ringSplash;
+        return $this->ringSplash instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ringSplash;
     }
 
     /**
      * Setter for ringSplash
      *
-     * @ElementName ringSplash
-     * @param bool|null $ringSplash
+     * @param bool $ringSplash
      * @return $this
      */
     public function setRingSplash($ringSplash)
     {
         $this->ringSplash = $ringSplash;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRingSplash()
+    {
+        $this->ringSplash = null;
         return $this;
     }
 

@@ -14,12 +14,14 @@ class GroupFlexibleSeatingHostRoutingPoliciesGetResponse extends \CWM\BroadWorks
 
     /**
      * @ElementName allowEmergencyCalls
+     * @Type bool
      * @var bool|null
      */
     private $allowEmergencyCalls = null;
 
     /**
      * @ElementName allowCallsToVoicePortal
+     * @Type bool
      * @var bool|null
      */
     private $allowCallsToVoicePortal = null;
@@ -27,19 +29,17 @@ class GroupFlexibleSeatingHostRoutingPoliciesGetResponse extends \CWM\BroadWorks
     /**
      * Getter for allowEmergencyCalls
      *
-     * @ElementName allowEmergencyCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAllowEmergencyCalls()
     {
-        return $this->allowEmergencyCalls;
+        return $this->allowEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowEmergencyCalls;
     }
 
     /**
      * Setter for allowEmergencyCalls
      *
-     * @ElementName allowEmergencyCalls
-     * @param bool|null $allowEmergencyCalls
+     * @param bool $allowEmergencyCalls
      * @return $this
      */
     public function setAllowEmergencyCalls($allowEmergencyCalls)
@@ -49,26 +49,42 @@ class GroupFlexibleSeatingHostRoutingPoliciesGetResponse extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowEmergencyCalls()
+    {
+        $this->allowEmergencyCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowCallsToVoicePortal
      *
-     * @ElementName allowCallsToVoicePortal
-     * @return bool|null
+     * @return bool
      */
     public function getAllowCallsToVoicePortal()
     {
-        return $this->allowCallsToVoicePortal;
+        return $this->allowCallsToVoicePortal instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCallsToVoicePortal;
     }
 
     /**
      * Setter for allowCallsToVoicePortal
      *
-     * @ElementName allowCallsToVoicePortal
-     * @param bool|null $allowCallsToVoicePortal
+     * @param bool $allowCallsToVoicePortal
      * @return $this
      */
     public function setAllowCallsToVoicePortal($allowCallsToVoicePortal)
     {
         $this->allowCallsToVoicePortal = $allowCallsToVoicePortal;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowCallsToVoicePortal()
+    {
+        $this->allowCallsToVoicePortal = null;
         return $this;
     }
 

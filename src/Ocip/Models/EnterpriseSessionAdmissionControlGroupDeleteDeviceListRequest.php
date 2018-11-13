@@ -17,18 +17,22 @@ class EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName devices
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     private $devices = array(
@@ -38,19 +42,17 @@ class EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -60,21 +62,28 @@ class EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -84,20 +93,27 @@ class EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for devices
      *
-     * @ElementName devices
      * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     public function getDevices()
     {
-        return $this->devices;
+        return $this->devices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->devices;
     }
 
     /**
      * Setter for devices
      *
-     * @ElementName devices
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[] $devices
      * @return $this
      */
@@ -108,15 +124,23 @@ class EnterpriseSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDevices()
+    {
+        $this->devices = null;
+        return $this;
+    }
+
+    /**
      * Adder for devices
      *
-     * @ElementName devices
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice $devices
      * @return $this
      */
     public function addDevices($devices)
     {
-        $this->devices []= $devices;
+        $this->devices[] = $devices;
         return $this;
     }
 

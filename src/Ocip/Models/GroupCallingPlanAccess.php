@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupCallingPlanAccess FULL()
  * @method static GroupCallingPlanAccess RESTRICTED()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupCallingPlanAccess extends \MyCLabs\Enum\Enum
 {

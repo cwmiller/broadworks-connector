@@ -17,6 +17,8 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CW
 
     /**
      * @ElementName statusCode
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $statusCode = array(
@@ -26,18 +28,16 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CW
     /**
      * Getter for statusCode
      *
-     * @ElementName statusCode
      * @return string[]
      */
     public function getStatusCode()
     {
-        return $this->statusCode;
+        return $this->statusCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statusCode;
     }
 
     /**
      * Setter for statusCode
      *
-     * @ElementName statusCode
      * @param string[] $statusCode
      * @return $this
      */
@@ -48,15 +48,23 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatusCode()
+    {
+        $this->statusCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for statusCode
      *
-     * @ElementName statusCode
      * @param string $statusCode
      * @return $this
      */
     public function addStatusCode(string $statusCode)
     {
-        $this->statusCode []= $statusCode;
+        $this->statusCode[] = $statusCode;
         return $this;
     }
 

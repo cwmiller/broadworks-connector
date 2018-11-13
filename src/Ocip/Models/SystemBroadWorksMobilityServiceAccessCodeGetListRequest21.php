@@ -17,6 +17,7 @@ class SystemBroadWorksMobilityServiceAccessCodeGetListRequest21 extends \CWM\Bro
 
     /**
      * @ElementName serviceAccessCodeListName
+     * @Type string
      * @var string|null
      */
     private $serviceAccessCodeListName = null;
@@ -24,24 +25,31 @@ class SystemBroadWorksMobilityServiceAccessCodeGetListRequest21 extends \CWM\Bro
     /**
      * Getter for serviceAccessCodeListName
      *
-     * @ElementName serviceAccessCodeListName
-     * @return string|null
+     * @return string
      */
     public function getServiceAccessCodeListName()
     {
-        return $this->serviceAccessCodeListName;
+        return $this->serviceAccessCodeListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceAccessCodeListName;
     }
 
     /**
      * Setter for serviceAccessCodeListName
      *
-     * @ElementName serviceAccessCodeListName
-     * @param string|null $serviceAccessCodeListName
+     * @param string $serviceAccessCodeListName
      * @return $this
      */
     public function setServiceAccessCodeListName($serviceAccessCodeListName)
     {
         $this->serviceAccessCodeListName = $serviceAccessCodeListName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceAccessCodeListName()
+    {
+        $this->serviceAccessCodeListName = null;
         return $this;
     }
 

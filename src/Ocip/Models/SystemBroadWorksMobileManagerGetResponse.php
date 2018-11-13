@@ -14,42 +14,49 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName scfApiNetAddress1
+     * @Type string
      * @var string|null
      */
     private $scfApiNetAddress1 = null;
 
     /**
      * @ElementName scfApiNetAddress2
+     * @Type string
      * @var string|null
      */
     private $scfApiNetAddress2 = null;
 
     /**
      * @ElementName userName
+     * @Type string
      * @var string|null
      */
     private $userName = null;
 
     /**
      * @ElementName emailFromAddress
+     * @Type string
      * @var string|null
      */
     private $emailFromAddress = null;
 
     /**
      * @ElementName scfIMSOnly
+     * @Type bool
      * @var bool|null
      */
     private $scfIMSOnly = null;
 
     /**
      * @ElementName signalingIPAddress
+     * @Type string
      * @var string|null
      */
     private $signalingIPAddress = null;
 
     /**
      * @ElementName signalingPort
+     * @Type int
      * @var int|null
      */
     private $signalingPort = null;
@@ -57,19 +64,17 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
     /**
      * Getter for scfApiNetAddress1
      *
-     * @ElementName scfApiNetAddress1
-     * @return string|null
+     * @return string
      */
     public function getScfApiNetAddress1()
     {
-        return $this->scfApiNetAddress1;
+        return $this->scfApiNetAddress1 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scfApiNetAddress1;
     }
 
     /**
      * Setter for scfApiNetAddress1
      *
-     * @ElementName scfApiNetAddress1
-     * @param string|null $scfApiNetAddress1
+     * @param string $scfApiNetAddress1
      * @return $this
      */
     public function setScfApiNetAddress1($scfApiNetAddress1)
@@ -79,21 +84,28 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScfApiNetAddress1()
+    {
+        $this->scfApiNetAddress1 = null;
+        return $this;
+    }
+
+    /**
      * Getter for scfApiNetAddress2
      *
-     * @ElementName scfApiNetAddress2
-     * @return string|null
+     * @return string
      */
     public function getScfApiNetAddress2()
     {
-        return $this->scfApiNetAddress2;
+        return $this->scfApiNetAddress2 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scfApiNetAddress2;
     }
 
     /**
      * Setter for scfApiNetAddress2
      *
-     * @ElementName scfApiNetAddress2
-     * @param string|null $scfApiNetAddress2
+     * @param string $scfApiNetAddress2
      * @return $this
      */
     public function setScfApiNetAddress2($scfApiNetAddress2)
@@ -103,21 +115,28 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScfApiNetAddress2()
+    {
+        $this->scfApiNetAddress2 = null;
+        return $this;
+    }
+
+    /**
      * Getter for userName
      *
-     * @ElementName userName
-     * @return string|null
+     * @return string
      */
     public function getUserName()
     {
-        return $this->userName;
+        return $this->userName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userName;
     }
 
     /**
      * Setter for userName
      *
-     * @ElementName userName
-     * @param string|null $userName
+     * @param string $userName
      * @return $this
      */
     public function setUserName($userName)
@@ -127,21 +146,28 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserName()
+    {
+        $this->userName = null;
+        return $this;
+    }
+
+    /**
      * Getter for emailFromAddress
      *
-     * @ElementName emailFromAddress
-     * @return string|null
+     * @return string
      */
     public function getEmailFromAddress()
     {
-        return $this->emailFromAddress;
+        return $this->emailFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emailFromAddress;
     }
 
     /**
      * Setter for emailFromAddress
      *
-     * @ElementName emailFromAddress
-     * @param string|null $emailFromAddress
+     * @param string $emailFromAddress
      * @return $this
      */
     public function setEmailFromAddress($emailFromAddress)
@@ -151,21 +177,28 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEmailFromAddress()
+    {
+        $this->emailFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for scfIMSOnly
      *
-     * @ElementName scfIMSOnly
-     * @return bool|null
+     * @return bool
      */
     public function getScfIMSOnly()
     {
-        return $this->scfIMSOnly;
+        return $this->scfIMSOnly instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scfIMSOnly;
     }
 
     /**
      * Setter for scfIMSOnly
      *
-     * @ElementName scfIMSOnly
-     * @param bool|null $scfIMSOnly
+     * @param bool $scfIMSOnly
      * @return $this
      */
     public function setScfIMSOnly($scfIMSOnly)
@@ -175,21 +208,28 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScfIMSOnly()
+    {
+        $this->scfIMSOnly = null;
+        return $this;
+    }
+
+    /**
      * Getter for signalingIPAddress
      *
-     * @ElementName signalingIPAddress
-     * @return string|null
+     * @return string
      */
     public function getSignalingIPAddress()
     {
-        return $this->signalingIPAddress;
+        return $this->signalingIPAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->signalingIPAddress;
     }
 
     /**
      * Setter for signalingIPAddress
      *
-     * @ElementName signalingIPAddress
-     * @param string|null $signalingIPAddress
+     * @param string $signalingIPAddress
      * @return $this
      */
     public function setSignalingIPAddress($signalingIPAddress)
@@ -199,26 +239,42 @@ class SystemBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSignalingIPAddress()
+    {
+        $this->signalingIPAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for signalingPort
      *
-     * @ElementName signalingPort
-     * @return int|null
+     * @return int
      */
     public function getSignalingPort()
     {
-        return $this->signalingPort;
+        return $this->signalingPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->signalingPort;
     }
 
     /**
      * Setter for signalingPort
      *
-     * @ElementName signalingPort
-     * @param int|null $signalingPort
+     * @param int $signalingPort
      * @return $this
      */
     public function setSignalingPort($signalingPort)
     {
         $this->signalingPort = $signalingPort;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSignalingPort()
+    {
+        $this->signalingPort = null;
         return $this;
     }
 

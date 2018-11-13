@@ -17,36 +17,42 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName carrier
+     * @Type string
      * @var string|null
      */
     private $carrier = null;
 
     /**
      * @ElementName cic
+     * @Type string
      * @var string|null
      */
     private $cic = null;
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
 
     /**
      * @ElementName isIntraLata
+     * @Type bool
      * @var bool|null
      */
     private $isIntraLata = null;
 
     /**
      * @ElementName isInterLata
+     * @Type bool
      * @var bool|null
      */
     private $isInterLata = null;
 
     /**
      * @ElementName isInternational
+     * @Type bool
      * @var bool|null
      */
     private $isInternational = null;
@@ -54,19 +60,17 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for carrier
      *
-     * @ElementName carrier
-     * @return string|null
+     * @return string
      */
     public function getCarrier()
     {
-        return $this->carrier;
+        return $this->carrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->carrier;
     }
 
     /**
      * Setter for carrier
      *
-     * @ElementName carrier
-     * @param string|null $carrier
+     * @param string $carrier
      * @return $this
      */
     public function setCarrier($carrier)
@@ -76,21 +80,28 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCarrier()
+    {
+        $this->carrier = null;
+        return $this;
+    }
+
+    /**
      * Getter for cic
      *
-     * @ElementName cic
-     * @return string|null
+     * @return string
      */
     public function getCic()
     {
-        return $this->cic;
+        return $this->cic instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cic;
     }
 
     /**
      * Setter for cic
      *
-     * @ElementName cic
-     * @param string|null $cic
+     * @param string $cic
      * @return $this
      */
     public function setCic($cic)
@@ -100,21 +111,28 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCic()
+    {
+        $this->cic = null;
+        return $this;
+    }
+
+    /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
@@ -124,21 +142,28 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for isIntraLata
      *
-     * @ElementName isIntraLata
-     * @return bool|null
+     * @return bool
      */
     public function getIsIntraLata()
     {
-        return $this->isIntraLata;
+        return $this->isIntraLata instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isIntraLata;
     }
 
     /**
      * Setter for isIntraLata
      *
-     * @ElementName isIntraLata
-     * @param bool|null $isIntraLata
+     * @param bool $isIntraLata
      * @return $this
      */
     public function setIsIntraLata($isIntraLata)
@@ -148,21 +173,28 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsIntraLata()
+    {
+        $this->isIntraLata = null;
+        return $this;
+    }
+
+    /**
      * Getter for isInterLata
      *
-     * @ElementName isInterLata
-     * @return bool|null
+     * @return bool
      */
     public function getIsInterLata()
     {
-        return $this->isInterLata;
+        return $this->isInterLata instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isInterLata;
     }
 
     /**
      * Setter for isInterLata
      *
-     * @ElementName isInterLata
-     * @param bool|null $isInterLata
+     * @param bool $isInterLata
      * @return $this
      */
     public function setIsInterLata($isInterLata)
@@ -172,26 +204,42 @@ class SystemPreferredCarrierAddRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsInterLata()
+    {
+        $this->isInterLata = null;
+        return $this;
+    }
+
+    /**
      * Getter for isInternational
      *
-     * @ElementName isInternational
-     * @return bool|null
+     * @return bool
      */
     public function getIsInternational()
     {
-        return $this->isInternational;
+        return $this->isInternational instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isInternational;
     }
 
     /**
      * Setter for isInternational
      *
-     * @ElementName isInternational
-     * @param bool|null $isInternational
+     * @param bool $isInternational
      * @return $this
      */
     public function setIsInternational($isInternational)
     {
         $this->isInternational = $isInternational;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsInternational()
+    {
+        $this->isInternational = null;
         return $this;
     }
 

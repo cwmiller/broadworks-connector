@@ -17,6 +17,7 @@ class GroupGroupPagingGetOriginatorListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName originatorTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $originatorTable = null;
@@ -24,24 +25,31 @@ class GroupGroupPagingGetOriginatorListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for originatorTable
      *
-     * @ElementName originatorTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getOriginatorTable()
     {
-        return $this->originatorTable;
+        return $this->originatorTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatorTable;
     }
 
     /**
      * Setter for originatorTable
      *
-     * @ElementName originatorTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $originatorTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $originatorTable
      * @return $this
      */
     public function setOriginatorTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $originatorTable)
     {
         $this->originatorTable = $originatorTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOriginatorTable()
+    {
+        $this->originatorTable = null;
         return $this;
     }
 

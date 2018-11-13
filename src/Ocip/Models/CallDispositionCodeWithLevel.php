@@ -12,12 +12,14 @@ class CallDispositionCodeWithLevel
 
     /**
      * @ElementName code
+     * @Type string
      * @var string|null
      */
     private $code = null;
 
     /**
      * @ElementName level
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel|null
      */
     private $level = null;
@@ -25,19 +27,17 @@ class CallDispositionCodeWithLevel
     /**
      * Getter for code
      *
-     * @ElementName code
-     * @return string|null
+     * @return string
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->code;
     }
 
     /**
      * Setter for code
      *
-     * @ElementName code
-     * @param string|null $code
+     * @param string $code
      * @return $this
      */
     public function setCode($code)
@@ -47,26 +47,42 @@ class CallDispositionCodeWithLevel
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCode()
+    {
+        $this->code = null;
+        return $this;
+    }
+
+    /**
      * Getter for level
      *
-     * @ElementName level
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel
      */
     public function getLevel()
     {
-        return $this->level;
+        return $this->level instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->level;
     }
 
     /**
      * Setter for level
      *
-     * @ElementName level
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel|null $level
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel $level
      * @return $this
      */
     public function setLevel(\CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeLevel $level)
     {
         $this->level = $level;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLevel()
+    {
+        $this->level = null;
         return $this;
     }
 

@@ -14,6 +14,8 @@ class SystemZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
 
     /**
      * @ElementName zoneName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $zoneName = array(
@@ -23,18 +25,16 @@ class SystemZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * Getter for zoneName
      *
-     * @ElementName zoneName
      * @return string[]
      */
     public function getZoneName()
     {
-        return $this->zoneName;
+        return $this->zoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zoneName;
     }
 
     /**
      * Setter for zoneName
      *
-     * @ElementName zoneName
      * @param string[] $zoneName
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetZoneName()
+    {
+        $this->zoneName = null;
+        return $this;
+    }
+
+    /**
      * Adder for zoneName
      *
-     * @ElementName zoneName
      * @param string $zoneName
      * @return $this
      */
     public function addZoneName(string $zoneName)
     {
-        $this->zoneName []= $zoneName;
+        $this->zoneName[] = $zoneName;
         return $this;
     }
 

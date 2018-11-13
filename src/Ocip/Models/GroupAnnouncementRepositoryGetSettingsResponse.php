@@ -20,24 +20,28 @@ class GroupAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConn
 
     /**
      * @ElementName totalFileSize
+     * @Type int
      * @var int|null
      */
     private $totalFileSize = null;
 
     /**
      * @ElementName maxAudioFileSize
+     * @Type int
      * @var int|null
      */
     private $maxAudioFileSize = null;
 
     /**
      * @ElementName maxVideoFileSize
+     * @Type int
      * @var int|null
      */
     private $maxVideoFileSize = null;
 
     /**
      * @ElementName maxFileSize
+     * @Type int
      * @var int|null
      */
     private $maxFileSize = null;
@@ -45,19 +49,17 @@ class GroupAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConn
     /**
      * Getter for totalFileSize
      *
-     * @ElementName totalFileSize
-     * @return int|null
+     * @return int
      */
     public function getTotalFileSize()
     {
-        return $this->totalFileSize;
+        return $this->totalFileSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalFileSize;
     }
 
     /**
      * Setter for totalFileSize
      *
-     * @ElementName totalFileSize
-     * @param int|null $totalFileSize
+     * @param int $totalFileSize
      * @return $this
      */
     public function setTotalFileSize($totalFileSize)
@@ -67,21 +69,28 @@ class GroupAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTotalFileSize()
+    {
+        $this->totalFileSize = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxAudioFileSize
      *
-     * @ElementName maxAudioFileSize
-     * @return int|null
+     * @return int
      */
     public function getMaxAudioFileSize()
     {
-        return $this->maxAudioFileSize;
+        return $this->maxAudioFileSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxAudioFileSize;
     }
 
     /**
      * Setter for maxAudioFileSize
      *
-     * @ElementName maxAudioFileSize
-     * @param int|null $maxAudioFileSize
+     * @param int $maxAudioFileSize
      * @return $this
      */
     public function setMaxAudioFileSize($maxAudioFileSize)
@@ -91,21 +100,28 @@ class GroupAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxAudioFileSize()
+    {
+        $this->maxAudioFileSize = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxVideoFileSize
      *
-     * @ElementName maxVideoFileSize
-     * @return int|null
+     * @return int
      */
     public function getMaxVideoFileSize()
     {
-        return $this->maxVideoFileSize;
+        return $this->maxVideoFileSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxVideoFileSize;
     }
 
     /**
      * Setter for maxVideoFileSize
      *
-     * @ElementName maxVideoFileSize
-     * @param int|null $maxVideoFileSize
+     * @param int $maxVideoFileSize
      * @return $this
      */
     public function setMaxVideoFileSize($maxVideoFileSize)
@@ -115,26 +131,42 @@ class GroupAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxVideoFileSize()
+    {
+        $this->maxVideoFileSize = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxFileSize
      *
-     * @ElementName maxFileSize
-     * @return int|null
+     * @return int
      */
     public function getMaxFileSize()
     {
-        return $this->maxFileSize;
+        return $this->maxFileSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxFileSize;
     }
 
     /**
      * Setter for maxFileSize
      *
-     * @ElementName maxFileSize
-     * @param int|null $maxFileSize
+     * @param int $maxFileSize
      * @return $this
      */
     public function setMaxFileSize($maxFileSize)
     {
         $this->maxFileSize = $maxFileSize;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxFileSize()
+    {
+        $this->maxFileSize = null;
         return $this;
     }
 

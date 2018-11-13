@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static InterceptOutboundCall BLOCK_ALL()
  * @method static InterceptOutboundCall ALLOW_OUTBOUND_LOCAL_CALLS()
  * @method static InterceptOutboundCall ALLOW_OUTBOUND_ENTERPRISE_AND_GROUP_CALLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class InterceptOutboundCall extends \MyCLabs\Enum\Enum
 {

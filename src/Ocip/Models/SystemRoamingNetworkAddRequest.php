@@ -16,12 +16,14 @@ class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName mscAddress
+     * @Type string
      * @var string|null
      */
     private $mscAddress = null;
 
     /**
      * @ElementName networkTranslationIndex
+     * @Type string
      * @var string|null
      */
     private $networkTranslationIndex = null;
@@ -29,19 +31,17 @@ class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for mscAddress
      *
-     * @ElementName mscAddress
-     * @return string|null
+     * @return string
      */
     public function getMscAddress()
     {
-        return $this->mscAddress;
+        return $this->mscAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mscAddress;
     }
 
     /**
      * Setter for mscAddress
      *
-     * @ElementName mscAddress
-     * @param string|null $mscAddress
+     * @param string $mscAddress
      * @return $this
      */
     public function setMscAddress($mscAddress)
@@ -51,26 +51,42 @@ class SystemRoamingNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMscAddress()
+    {
+        $this->mscAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkTranslationIndex
      *
-     * @ElementName networkTranslationIndex
-     * @return string|null
+     * @return string
      */
     public function getNetworkTranslationIndex()
     {
-        return $this->networkTranslationIndex;
+        return $this->networkTranslationIndex instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkTranslationIndex;
     }
 
     /**
      * Setter for networkTranslationIndex
      *
-     * @ElementName networkTranslationIndex
-     * @param string|null $networkTranslationIndex
+     * @param string $networkTranslationIndex
      * @return $this
      */
     public function setNetworkTranslationIndex($networkTranslationIndex)
     {
         $this->networkTranslationIndex = $networkTranslationIndex;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkTranslationIndex()
+    {
+        $this->networkTranslationIndex = null;
         return $this;
     }
 

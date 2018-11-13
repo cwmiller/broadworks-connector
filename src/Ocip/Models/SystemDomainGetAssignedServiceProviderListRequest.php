@@ -25,12 +25,14 @@ class SystemDomainGetAssignedServiceProviderListRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName domain
+     * @Type string
      * @var string|null
      */
     private $domain = null;
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
@@ -38,19 +40,17 @@ class SystemDomainGetAssignedServiceProviderListRequest extends \CWM\BroadWorksC
     /**
      * Getter for domain
      *
-     * @ElementName domain
-     * @return string|null
+     * @return string
      */
     public function getDomain()
     {
-        return $this->domain;
+        return $this->domain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->domain;
     }
 
     /**
      * Setter for domain
      *
-     * @ElementName domain
-     * @param string|null $domain
+     * @param string $domain
      * @return $this
      */
     public function setDomain($domain)
@@ -60,26 +60,42 @@ class SystemDomainGetAssignedServiceProviderListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDomain()
+    {
+        $this->domain = null;
+        return $this;
+    }
+
+    /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
     {
         $this->resellerId = $resellerId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
         return $this;
     }
 

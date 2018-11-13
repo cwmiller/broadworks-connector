@@ -22,6 +22,7 @@ class UserRoutePointCallDispositionCodeGetAvailableListResponse extends \CWM\Bro
 
     /**
      * @ElementName dispositionCodesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dispositionCodesTable = null;
@@ -29,24 +30,31 @@ class UserRoutePointCallDispositionCodeGetAvailableListResponse extends \CWM\Bro
     /**
      * Getter for dispositionCodesTable
      *
-     * @ElementName dispositionCodesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDispositionCodesTable()
     {
-        return $this->dispositionCodesTable;
+        return $this->dispositionCodesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dispositionCodesTable;
     }
 
     /**
      * Setter for dispositionCodesTable
      *
-     * @ElementName dispositionCodesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dispositionCodesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dispositionCodesTable
      * @return $this
      */
     public function setDispositionCodesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dispositionCodesTable)
     {
         $this->dispositionCodesTable = $dispositionCodesTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDispositionCodesTable()
+    {
+        $this->dispositionCodesTable = null;
         return $this;
     }
 

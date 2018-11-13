@@ -16,24 +16,28 @@ class GroupScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName scheduleKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
 
     /**
      * @ElementName newScheduleName
+     * @Type string
      * @var string|null
      */
     private $newScheduleName = null;
@@ -41,19 +45,17 @@ class GroupScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -63,21 +65,28 @@ class GroupScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -87,21 +96,28 @@ class GroupScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleKey
      *
-     * @ElementName scheduleKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
      */
     public function getScheduleKey()
     {
-        return $this->scheduleKey;
+        return $this->scheduleKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleKey;
     }
 
     /**
      * Setter for scheduleKey
      *
-     * @ElementName scheduleKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null $scheduleKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey
      * @return $this
      */
     public function setScheduleKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey)
@@ -111,26 +127,42 @@ class GroupScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleKey()
+    {
+        $this->scheduleKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for newScheduleName
      *
-     * @ElementName newScheduleName
-     * @return string|null
+     * @return string
      */
     public function getNewScheduleName()
     {
-        return $this->newScheduleName;
+        return $this->newScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newScheduleName;
     }
 
     /**
      * Setter for newScheduleName
      *
-     * @ElementName newScheduleName
-     * @param string|null $newScheduleName
+     * @param string $newScheduleName
      * @return $this
      */
     public function setNewScheduleName($newScheduleName)
     {
         $this->newScheduleName = $newScheduleName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewScheduleName()
+    {
+        $this->newScheduleName = null;
         return $this;
     }
 

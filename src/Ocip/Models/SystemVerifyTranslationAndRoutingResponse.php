@@ -11,10 +11,8 @@ class SystemVerifyTranslationAndRoutingResponse extends \CWM\BroadWorksConnector
 {
 
     /**
-     * The Verify Translation and Routing log created by the request.
-     *               
-     *
      * @ElementName Result
+     * @Type string
      * @var string|null
      */
     private $Result = null;
@@ -26,12 +24,11 @@ class SystemVerifyTranslationAndRoutingResponse extends \CWM\BroadWorksConnector
      *                 The Verify Translation and Routing log created by the request.
      *               
      *
-     * @ElementName Result
-     * @return string|null
+     * @return string
      */
     public function getResult()
     {
-        return $this->Result;
+        return $this->Result instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->Result;
     }
 
     /**
@@ -41,13 +38,21 @@ class SystemVerifyTranslationAndRoutingResponse extends \CWM\BroadWorksConnector
      *                 The Verify Translation and Routing log created by the request.
      *               
      *
-     * @ElementName Result
-     * @param string|null $Result
+     * @param string $Result
      * @return $this
      */
     public function setResult($Result)
     {
         $this->Result = $Result;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResult()
+    {
+        $this->Result = null;
         return $this;
     }
 

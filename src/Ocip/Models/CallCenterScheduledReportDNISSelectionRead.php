@@ -13,24 +13,29 @@ class CallCenterScheduledReportDNISSelectionRead
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName deleted
+     * @Type bool
      * @var bool|null
      */
     private $deleted = null;
 
     /**
      * @ElementName allDNIS
+     * @Type bool
      * @var bool|null
      */
     private $allDNIS = null;
 
     /**
      * @ElementName currentName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $currentName = array(
@@ -39,6 +44,8 @@ class CallCenterScheduledReportDNISSelectionRead
 
     /**
      * @ElementName pastName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $pastName = array(
@@ -48,19 +55,17 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -70,21 +75,28 @@ class CallCenterScheduledReportDNISSelectionRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deleted
      *
-     * @ElementName deleted
-     * @return bool|null
+     * @return bool
      */
     public function getDeleted()
     {
-        return $this->deleted;
+        return $this->deleted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleted;
     }
 
     /**
      * Setter for deleted
      *
-     * @ElementName deleted
-     * @param bool|null $deleted
+     * @param bool $deleted
      * @return $this
      */
     public function setDeleted($deleted)
@@ -94,21 +106,28 @@ class CallCenterScheduledReportDNISSelectionRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeleted()
+    {
+        $this->deleted = null;
+        return $this;
+    }
+
+    /**
      * Getter for allDNIS
      *
-     * @ElementName allDNIS
-     * @return bool|null
+     * @return bool
      */
     public function getAllDNIS()
     {
-        return $this->allDNIS;
+        return $this->allDNIS instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allDNIS;
     }
 
     /**
      * Setter for allDNIS
      *
-     * @ElementName allDNIS
-     * @param bool|null $allDNIS
+     * @param bool $allDNIS
      * @return $this
      */
     public function setAllDNIS($allDNIS)
@@ -118,20 +137,27 @@ class CallCenterScheduledReportDNISSelectionRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllDNIS()
+    {
+        $this->allDNIS = null;
+        return $this;
+    }
+
+    /**
      * Getter for currentName
      *
-     * @ElementName currentName
      * @return string[]
      */
     public function getCurrentName()
     {
-        return $this->currentName;
+        return $this->currentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->currentName;
     }
 
     /**
      * Setter for currentName
      *
-     * @ElementName currentName
      * @param string[] $currentName
      * @return $this
      */
@@ -142,33 +168,39 @@ class CallCenterScheduledReportDNISSelectionRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCurrentName()
+    {
+        $this->currentName = null;
+        return $this;
+    }
+
+    /**
      * Adder for currentName
      *
-     * @ElementName currentName
      * @param string $currentName
      * @return $this
      */
     public function addCurrentName(string $currentName)
     {
-        $this->currentName []= $currentName;
+        $this->currentName[] = $currentName;
         return $this;
     }
 
     /**
      * Getter for pastName
      *
-     * @ElementName pastName
      * @return string[]
      */
     public function getPastName()
     {
-        return $this->pastName;
+        return $this->pastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pastName;
     }
 
     /**
      * Setter for pastName
      *
-     * @ElementName pastName
      * @param string[] $pastName
      * @return $this
      */
@@ -179,15 +211,23 @@ class CallCenterScheduledReportDNISSelectionRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPastName()
+    {
+        $this->pastName = null;
+        return $this;
+    }
+
+    /**
      * Adder for pastName
      *
-     * @ElementName pastName
      * @param string $pastName
      * @return $this
      */
     public function addPastName(string $pastName)
     {
-        $this->pastName []= $pastName;
+        $this->pastName[] = $pastName;
         return $this;
     }
 

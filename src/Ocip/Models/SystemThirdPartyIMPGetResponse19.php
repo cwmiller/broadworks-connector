@@ -15,18 +15,21 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName serviceNetAddress
+     * @Type string
      * @var string|null
      */
     private $serviceNetAddress = null;
 
     /**
      * @ElementName servicePort
+     * @Type int
      * @var int|null
      */
     private $servicePort = null;
 
     /**
      * @ElementName boshURL
+     * @Type string
      * @var string|null
      */
     private $boshURL = null;
@@ -34,19 +37,17 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for serviceNetAddress
      *
-     * @ElementName serviceNetAddress
-     * @return string|null
+     * @return string
      */
     public function getServiceNetAddress()
     {
-        return $this->serviceNetAddress;
+        return $this->serviceNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceNetAddress;
     }
 
     /**
      * Setter for serviceNetAddress
      *
-     * @ElementName serviceNetAddress
-     * @param string|null $serviceNetAddress
+     * @param string $serviceNetAddress
      * @return $this
      */
     public function setServiceNetAddress($serviceNetAddress)
@@ -56,21 +57,28 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceNetAddress()
+    {
+        $this->serviceNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePort
      *
-     * @ElementName servicePort
-     * @return int|null
+     * @return int
      */
     public function getServicePort()
     {
-        return $this->servicePort;
+        return $this->servicePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePort;
     }
 
     /**
      * Setter for servicePort
      *
-     * @ElementName servicePort
-     * @param int|null $servicePort
+     * @param int $servicePort
      * @return $this
      */
     public function setServicePort($servicePort)
@@ -80,26 +88,42 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePort()
+    {
+        $this->servicePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for boshURL
      *
-     * @ElementName boshURL
-     * @return string|null
+     * @return string
      */
     public function getBoshURL()
     {
-        return $this->boshURL;
+        return $this->boshURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->boshURL;
     }
 
     /**
      * Setter for boshURL
      *
-     * @ElementName boshURL
-     * @param string|null $boshURL
+     * @param string $boshURL
      * @return $this
      */
     public function setBoshURL($boshURL)
     {
         $this->boshURL = $boshURL;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBoshURL()
+    {
+        $this->boshURL = null;
         return $this;
     }
 

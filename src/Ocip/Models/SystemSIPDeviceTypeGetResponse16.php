@@ -16,120 +16,141 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName isObsolete
+     * @Type bool
      * @var bool|null
      */
     private $isObsolete = null;
 
     /**
      * @ElementName numberOfPorts
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $numberOfPorts = null;
 
     /**
      * @ElementName profile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
 
     /**
      * @ElementName registrationCapable
+     * @Type bool
      * @var bool|null
      */
     private $registrationCapable = null;
 
     /**
      * @ElementName isConferenceDevice
+     * @Type bool
      * @var bool|null
      */
     private $isConferenceDevice = null;
 
     /**
      * @ElementName isMobilityManagerDevice
+     * @Type bool
      * @var bool|null
      */
     private $isMobilityManagerDevice = null;
 
     /**
      * @ElementName isMusicOnHoldDevice
+     * @Type bool
      * @var bool|null
      */
     private $isMusicOnHoldDevice = null;
 
     /**
      * @ElementName RFC3264Hold
+     * @Type bool
      * @var bool|null
      */
     private $RFC3264Hold = null;
 
     /**
      * @ElementName isTrusted
+     * @Type bool
      * @var bool|null
      */
     private $isTrusted = null;
 
     /**
      * @ElementName E164Capable
+     * @Type bool
      * @var bool|null
      */
     private $E164Capable = null;
 
     /**
      * @ElementName routeAdvance
+     * @Type bool
      * @var bool|null
      */
     private $routeAdvance = null;
 
     /**
      * @ElementName forwardingOverride
+     * @Type bool
      * @var bool|null
      */
     private $forwardingOverride = null;
 
     /**
      * @ElementName wirelessIntegration
+     * @Type bool
      * @var bool|null
      */
     private $wirelessIntegration = null;
 
     /**
      * @ElementName webBasedConfigURL
+     * @Type string
      * @var string|null
      */
     private $webBasedConfigURL = null;
 
     /**
      * @ElementName isVideoCapable
+     * @Type bool
      * @var bool|null
      */
     private $isVideoCapable = null;
 
     /**
      * @ElementName PBXIntegration
+     * @Type bool
      * @var bool|null
      */
     private $PBXIntegration = null;
 
     /**
      * @ElementName useBusinessTrunkingContact
+     * @Type bool
      * @var bool|null
      */
     private $useBusinessTrunkingContact = null;
 
     /**
      * @ElementName staticRegistrationCapable
+     * @Type bool
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
 
     /**
      * @ElementName cpeDeviceOptions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead16
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead16|null
      */
     private $cpeDeviceOptions = null;
 
     /**
      * @ElementName protocolChoice
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $protocolChoice = array(
@@ -138,54 +159,63 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName earlyMediaSupport
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType
      * @var \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
      */
     private $earlyMediaSupport = null;
 
     /**
      * @ElementName authenticateRefer
+     * @Type bool
      * @var bool|null
      */
     private $authenticateRefer = null;
 
     /**
      * @ElementName autoConfigSoftClient
+     * @Type bool
      * @var bool|null
      */
     private $autoConfigSoftClient = null;
 
     /**
      * @ElementName authenticationMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null
      */
     private $authenticationMode = null;
 
     /**
      * @ElementName requiresBroadWorksDigitCollection
+     * @Type bool
      * @var bool|null
      */
     private $requiresBroadWorksDigitCollection = null;
 
     /**
      * @ElementName requiresBroadWorksCallWaitingTone
+     * @Type bool
      * @var bool|null
      */
     private $requiresBroadWorksCallWaitingTone = null;
 
     /**
      * @ElementName requiresMWISubscription
+     * @Type bool
      * @var bool|null
      */
     private $requiresMWISubscription = null;
 
     /**
      * @ElementName useHistoryInfoHeaderOnAccessSide
+     * @Type bool
      * @var bool|null
      */
     private $useHistoryInfoHeaderOnAccessSide = null;
 
     /**
      * @ElementName adviceOfChargeCapable
+     * @Type bool
      * @var bool|null
      */
     private $adviceOfChargeCapable = null;
@@ -193,19 +223,17 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for isObsolete
      *
-     * @ElementName isObsolete
-     * @return bool|null
+     * @return bool
      */
     public function getIsObsolete()
     {
-        return $this->isObsolete;
+        return $this->isObsolete instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isObsolete;
     }
 
     /**
      * Setter for isObsolete
      *
-     * @ElementName isObsolete
-     * @param bool|null $isObsolete
+     * @param bool $isObsolete
      * @return $this
      */
     public function setIsObsolete($isObsolete)
@@ -215,21 +243,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsObsolete()
+    {
+        $this->isObsolete = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfPorts
      *
-     * @ElementName numberOfPorts
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      */
     public function getNumberOfPorts()
     {
-        return $this->numberOfPorts;
+        return $this->numberOfPorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfPorts;
     }
 
     /**
      * Setter for numberOfPorts
      *
-     * @ElementName numberOfPorts
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $numberOfPorts
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts
      * @return $this
      */
     public function setNumberOfPorts(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts)
@@ -239,21 +274,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfPorts()
+    {
+        $this->numberOfPorts = null;
+        return $this;
+    }
+
+    /**
      * Getter for profile
      *
-     * @ElementName profile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
      */
     public function getProfile()
     {
-        return $this->profile;
+        return $this->profile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profile;
     }
 
     /**
      * Setter for profile
      *
-     * @ElementName profile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile
      * @return $this
      */
     public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile)
@@ -263,21 +305,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfile()
+    {
+        $this->profile = null;
+        return $this;
+    }
+
+    /**
      * Getter for registrationCapable
      *
-     * @ElementName registrationCapable
-     * @return bool|null
+     * @return bool
      */
     public function getRegistrationCapable()
     {
-        return $this->registrationCapable;
+        return $this->registrationCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->registrationCapable;
     }
 
     /**
      * Setter for registrationCapable
      *
-     * @ElementName registrationCapable
-     * @param bool|null $registrationCapable
+     * @param bool $registrationCapable
      * @return $this
      */
     public function setRegistrationCapable($registrationCapable)
@@ -287,21 +336,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRegistrationCapable()
+    {
+        $this->registrationCapable = null;
+        return $this;
+    }
+
+    /**
      * Getter for isConferenceDevice
      *
-     * @ElementName isConferenceDevice
-     * @return bool|null
+     * @return bool
      */
     public function getIsConferenceDevice()
     {
-        return $this->isConferenceDevice;
+        return $this->isConferenceDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isConferenceDevice;
     }
 
     /**
      * Setter for isConferenceDevice
      *
-     * @ElementName isConferenceDevice
-     * @param bool|null $isConferenceDevice
+     * @param bool $isConferenceDevice
      * @return $this
      */
     public function setIsConferenceDevice($isConferenceDevice)
@@ -311,21 +367,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsConferenceDevice()
+    {
+        $this->isConferenceDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for isMobilityManagerDevice
      *
-     * @ElementName isMobilityManagerDevice
-     * @return bool|null
+     * @return bool
      */
     public function getIsMobilityManagerDevice()
     {
-        return $this->isMobilityManagerDevice;
+        return $this->isMobilityManagerDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isMobilityManagerDevice;
     }
 
     /**
      * Setter for isMobilityManagerDevice
      *
-     * @ElementName isMobilityManagerDevice
-     * @param bool|null $isMobilityManagerDevice
+     * @param bool $isMobilityManagerDevice
      * @return $this
      */
     public function setIsMobilityManagerDevice($isMobilityManagerDevice)
@@ -335,21 +398,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsMobilityManagerDevice()
+    {
+        $this->isMobilityManagerDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for isMusicOnHoldDevice
      *
-     * @ElementName isMusicOnHoldDevice
-     * @return bool|null
+     * @return bool
      */
     public function getIsMusicOnHoldDevice()
     {
-        return $this->isMusicOnHoldDevice;
+        return $this->isMusicOnHoldDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isMusicOnHoldDevice;
     }
 
     /**
      * Setter for isMusicOnHoldDevice
      *
-     * @ElementName isMusicOnHoldDevice
-     * @param bool|null $isMusicOnHoldDevice
+     * @param bool $isMusicOnHoldDevice
      * @return $this
      */
     public function setIsMusicOnHoldDevice($isMusicOnHoldDevice)
@@ -359,21 +429,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsMusicOnHoldDevice()
+    {
+        $this->isMusicOnHoldDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for RFC3264Hold
      *
-     * @ElementName RFC3264Hold
-     * @return bool|null
+     * @return bool
      */
     public function getRFC3264Hold()
     {
-        return $this->RFC3264Hold;
+        return $this->RFC3264Hold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->RFC3264Hold;
     }
 
     /**
      * Setter for RFC3264Hold
      *
-     * @ElementName RFC3264Hold
-     * @param bool|null $RFC3264Hold
+     * @param bool $RFC3264Hold
      * @return $this
      */
     public function setRFC3264Hold($RFC3264Hold)
@@ -383,21 +460,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRFC3264Hold()
+    {
+        $this->RFC3264Hold = null;
+        return $this;
+    }
+
+    /**
      * Getter for isTrusted
      *
-     * @ElementName isTrusted
-     * @return bool|null
+     * @return bool
      */
     public function getIsTrusted()
     {
-        return $this->isTrusted;
+        return $this->isTrusted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isTrusted;
     }
 
     /**
      * Setter for isTrusted
      *
-     * @ElementName isTrusted
-     * @param bool|null $isTrusted
+     * @param bool $isTrusted
      * @return $this
      */
     public function setIsTrusted($isTrusted)
@@ -407,21 +491,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsTrusted()
+    {
+        $this->isTrusted = null;
+        return $this;
+    }
+
+    /**
      * Getter for E164Capable
      *
-     * @ElementName E164Capable
-     * @return bool|null
+     * @return bool
      */
     public function getE164Capable()
     {
-        return $this->E164Capable;
+        return $this->E164Capable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->E164Capable;
     }
 
     /**
      * Setter for E164Capable
      *
-     * @ElementName E164Capable
-     * @param bool|null $E164Capable
+     * @param bool $E164Capable
      * @return $this
      */
     public function setE164Capable($E164Capable)
@@ -431,21 +522,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetE164Capable()
+    {
+        $this->E164Capable = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeAdvance
      *
-     * @ElementName routeAdvance
-     * @return bool|null
+     * @return bool
      */
     public function getRouteAdvance()
     {
-        return $this->routeAdvance;
+        return $this->routeAdvance instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeAdvance;
     }
 
     /**
      * Setter for routeAdvance
      *
-     * @ElementName routeAdvance
-     * @param bool|null $routeAdvance
+     * @param bool $routeAdvance
      * @return $this
      */
     public function setRouteAdvance($routeAdvance)
@@ -455,21 +553,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteAdvance()
+    {
+        $this->routeAdvance = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardingOverride
      *
-     * @ElementName forwardingOverride
-     * @return bool|null
+     * @return bool
      */
     public function getForwardingOverride()
     {
-        return $this->forwardingOverride;
+        return $this->forwardingOverride instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardingOverride;
     }
 
     /**
      * Setter for forwardingOverride
      *
-     * @ElementName forwardingOverride
-     * @param bool|null $forwardingOverride
+     * @param bool $forwardingOverride
      * @return $this
      */
     public function setForwardingOverride($forwardingOverride)
@@ -479,21 +584,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForwardingOverride()
+    {
+        $this->forwardingOverride = null;
+        return $this;
+    }
+
+    /**
      * Getter for wirelessIntegration
      *
-     * @ElementName wirelessIntegration
-     * @return bool|null
+     * @return bool
      */
     public function getWirelessIntegration()
     {
-        return $this->wirelessIntegration;
+        return $this->wirelessIntegration instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->wirelessIntegration;
     }
 
     /**
      * Setter for wirelessIntegration
      *
-     * @ElementName wirelessIntegration
-     * @param bool|null $wirelessIntegration
+     * @param bool $wirelessIntegration
      * @return $this
      */
     public function setWirelessIntegration($wirelessIntegration)
@@ -503,21 +615,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetWirelessIntegration()
+    {
+        $this->wirelessIntegration = null;
+        return $this;
+    }
+
+    /**
      * Getter for webBasedConfigURL
      *
-     * @ElementName webBasedConfigURL
-     * @return string|null
+     * @return string
      */
     public function getWebBasedConfigURL()
     {
-        return $this->webBasedConfigURL;
+        return $this->webBasedConfigURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->webBasedConfigURL;
     }
 
     /**
      * Setter for webBasedConfigURL
      *
-     * @ElementName webBasedConfigURL
-     * @param string|null $webBasedConfigURL
+     * @param string $webBasedConfigURL
      * @return $this
      */
     public function setWebBasedConfigURL($webBasedConfigURL)
@@ -527,21 +646,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetWebBasedConfigURL()
+    {
+        $this->webBasedConfigURL = null;
+        return $this;
+    }
+
+    /**
      * Getter for isVideoCapable
      *
-     * @ElementName isVideoCapable
-     * @return bool|null
+     * @return bool
      */
     public function getIsVideoCapable()
     {
-        return $this->isVideoCapable;
+        return $this->isVideoCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isVideoCapable;
     }
 
     /**
      * Setter for isVideoCapable
      *
-     * @ElementName isVideoCapable
-     * @param bool|null $isVideoCapable
+     * @param bool $isVideoCapable
      * @return $this
      */
     public function setIsVideoCapable($isVideoCapable)
@@ -551,21 +677,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsVideoCapable()
+    {
+        $this->isVideoCapable = null;
+        return $this;
+    }
+
+    /**
      * Getter for PBXIntegration
      *
-     * @ElementName PBXIntegration
-     * @return bool|null
+     * @return bool
      */
     public function getPBXIntegration()
     {
-        return $this->PBXIntegration;
+        return $this->PBXIntegration instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->PBXIntegration;
     }
 
     /**
      * Setter for PBXIntegration
      *
-     * @ElementName PBXIntegration
-     * @param bool|null $PBXIntegration
+     * @param bool $PBXIntegration
      * @return $this
      */
     public function setPBXIntegration($PBXIntegration)
@@ -575,21 +708,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPBXIntegration()
+    {
+        $this->PBXIntegration = null;
+        return $this;
+    }
+
+    /**
      * Getter for useBusinessTrunkingContact
      *
-     * @ElementName useBusinessTrunkingContact
-     * @return bool|null
+     * @return bool
      */
     public function getUseBusinessTrunkingContact()
     {
-        return $this->useBusinessTrunkingContact;
+        return $this->useBusinessTrunkingContact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useBusinessTrunkingContact;
     }
 
     /**
      * Setter for useBusinessTrunkingContact
      *
-     * @ElementName useBusinessTrunkingContact
-     * @param bool|null $useBusinessTrunkingContact
+     * @param bool $useBusinessTrunkingContact
      * @return $this
      */
     public function setUseBusinessTrunkingContact($useBusinessTrunkingContact)
@@ -599,21 +739,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseBusinessTrunkingContact()
+    {
+        $this->useBusinessTrunkingContact = null;
+        return $this;
+    }
+
+    /**
      * Getter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @return bool|null
+     * @return bool
      */
     public function getStaticRegistrationCapable()
     {
-        return $this->staticRegistrationCapable;
+        return $this->staticRegistrationCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->staticRegistrationCapable;
     }
 
     /**
      * Setter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @param bool|null $staticRegistrationCapable
+     * @param bool $staticRegistrationCapable
      * @return $this
      */
     public function setStaticRegistrationCapable($staticRegistrationCapable)
@@ -623,21 +770,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStaticRegistrationCapable()
+    {
+        $this->staticRegistrationCapable = null;
+        return $this;
+    }
+
+    /**
      * Getter for cpeDeviceOptions
      *
-     * @ElementName cpeDeviceOptions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead16
      */
     public function getCpeDeviceOptions()
     {
-        return $this->cpeDeviceOptions;
+        return $this->cpeDeviceOptions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cpeDeviceOptions;
     }
 
     /**
      * Setter for cpeDeviceOptions
      *
-     * @ElementName cpeDeviceOptions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead16|null $cpeDeviceOptions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead16 $cpeDeviceOptions
      * @return $this
      */
     public function setCpeDeviceOptions(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead16 $cpeDeviceOptions)
@@ -647,20 +801,27 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCpeDeviceOptions()
+    {
+        $this->cpeDeviceOptions = null;
+        return $this;
+    }
+
+    /**
      * Getter for protocolChoice
      *
-     * @ElementName protocolChoice
      * @return string[]
      */
     public function getProtocolChoice()
     {
-        return $this->protocolChoice;
+        return $this->protocolChoice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocolChoice;
     }
 
     /**
      * Setter for protocolChoice
      *
-     * @ElementName protocolChoice
      * @param string[] $protocolChoice
      * @return $this
      */
@@ -671,34 +832,40 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProtocolChoice()
+    {
+        $this->protocolChoice = null;
+        return $this;
+    }
+
+    /**
      * Adder for protocolChoice
      *
-     * @ElementName protocolChoice
      * @param string $protocolChoice
      * @return $this
      */
     public function addProtocolChoice(string $protocolChoice)
     {
-        $this->protocolChoice []= $protocolChoice;
+        $this->protocolChoice[] = $protocolChoice;
         return $this;
     }
 
     /**
      * Getter for earlyMediaSupport
      *
-     * @ElementName earlyMediaSupport
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType
      */
     public function getEarlyMediaSupport()
     {
-        return $this->earlyMediaSupport;
+        return $this->earlyMediaSupport instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->earlyMediaSupport;
     }
 
     /**
      * Setter for earlyMediaSupport
      *
-     * @ElementName earlyMediaSupport
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType|null $earlyMediaSupport
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType $earlyMediaSupport
      * @return $this
      */
     public function setEarlyMediaSupport(\CWM\BroadWorksConnector\Ocip\Models\EarlyMediaSupportType $earlyMediaSupport)
@@ -708,21 +875,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEarlyMediaSupport()
+    {
+        $this->earlyMediaSupport = null;
+        return $this;
+    }
+
+    /**
      * Getter for authenticateRefer
      *
-     * @ElementName authenticateRefer
-     * @return bool|null
+     * @return bool
      */
     public function getAuthenticateRefer()
     {
-        return $this->authenticateRefer;
+        return $this->authenticateRefer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->authenticateRefer;
     }
 
     /**
      * Setter for authenticateRefer
      *
-     * @ElementName authenticateRefer
-     * @param bool|null $authenticateRefer
+     * @param bool $authenticateRefer
      * @return $this
      */
     public function setAuthenticateRefer($authenticateRefer)
@@ -732,21 +906,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAuthenticateRefer()
+    {
+        $this->authenticateRefer = null;
+        return $this;
+    }
+
+    /**
      * Getter for autoConfigSoftClient
      *
-     * @ElementName autoConfigSoftClient
-     * @return bool|null
+     * @return bool
      */
     public function getAutoConfigSoftClient()
     {
-        return $this->autoConfigSoftClient;
+        return $this->autoConfigSoftClient instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->autoConfigSoftClient;
     }
 
     /**
      * Setter for autoConfigSoftClient
      *
-     * @ElementName autoConfigSoftClient
-     * @param bool|null $autoConfigSoftClient
+     * @param bool $autoConfigSoftClient
      * @return $this
      */
     public function setAutoConfigSoftClient($autoConfigSoftClient)
@@ -756,21 +937,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAutoConfigSoftClient()
+    {
+        $this->autoConfigSoftClient = null;
+        return $this;
+    }
+
+    /**
      * Getter for authenticationMode
      *
-     * @ElementName authenticationMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode
      */
     public function getAuthenticationMode()
     {
-        return $this->authenticationMode;
+        return $this->authenticationMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->authenticationMode;
     }
 
     /**
      * Setter for authenticationMode
      *
-     * @ElementName authenticationMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode|null $authenticationMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode $authenticationMode
      * @return $this
      */
     public function setAuthenticationMode(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationMode $authenticationMode)
@@ -780,21 +968,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAuthenticationMode()
+    {
+        $this->authenticationMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for requiresBroadWorksDigitCollection
      *
-     * @ElementName requiresBroadWorksDigitCollection
-     * @return bool|null
+     * @return bool
      */
     public function getRequiresBroadWorksDigitCollection()
     {
-        return $this->requiresBroadWorksDigitCollection;
+        return $this->requiresBroadWorksDigitCollection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requiresBroadWorksDigitCollection;
     }
 
     /**
      * Setter for requiresBroadWorksDigitCollection
      *
-     * @ElementName requiresBroadWorksDigitCollection
-     * @param bool|null $requiresBroadWorksDigitCollection
+     * @param bool $requiresBroadWorksDigitCollection
      * @return $this
      */
     public function setRequiresBroadWorksDigitCollection($requiresBroadWorksDigitCollection)
@@ -804,21 +999,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequiresBroadWorksDigitCollection()
+    {
+        $this->requiresBroadWorksDigitCollection = null;
+        return $this;
+    }
+
+    /**
      * Getter for requiresBroadWorksCallWaitingTone
      *
-     * @ElementName requiresBroadWorksCallWaitingTone
-     * @return bool|null
+     * @return bool
      */
     public function getRequiresBroadWorksCallWaitingTone()
     {
-        return $this->requiresBroadWorksCallWaitingTone;
+        return $this->requiresBroadWorksCallWaitingTone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requiresBroadWorksCallWaitingTone;
     }
 
     /**
      * Setter for requiresBroadWorksCallWaitingTone
      *
-     * @ElementName requiresBroadWorksCallWaitingTone
-     * @param bool|null $requiresBroadWorksCallWaitingTone
+     * @param bool $requiresBroadWorksCallWaitingTone
      * @return $this
      */
     public function setRequiresBroadWorksCallWaitingTone($requiresBroadWorksCallWaitingTone)
@@ -828,21 +1030,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequiresBroadWorksCallWaitingTone()
+    {
+        $this->requiresBroadWorksCallWaitingTone = null;
+        return $this;
+    }
+
+    /**
      * Getter for requiresMWISubscription
      *
-     * @ElementName requiresMWISubscription
-     * @return bool|null
+     * @return bool
      */
     public function getRequiresMWISubscription()
     {
-        return $this->requiresMWISubscription;
+        return $this->requiresMWISubscription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requiresMWISubscription;
     }
 
     /**
      * Setter for requiresMWISubscription
      *
-     * @ElementName requiresMWISubscription
-     * @param bool|null $requiresMWISubscription
+     * @param bool $requiresMWISubscription
      * @return $this
      */
     public function setRequiresMWISubscription($requiresMWISubscription)
@@ -852,21 +1061,28 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequiresMWISubscription()
+    {
+        $this->requiresMWISubscription = null;
+        return $this;
+    }
+
+    /**
      * Getter for useHistoryInfoHeaderOnAccessSide
      *
-     * @ElementName useHistoryInfoHeaderOnAccessSide
-     * @return bool|null
+     * @return bool
      */
     public function getUseHistoryInfoHeaderOnAccessSide()
     {
-        return $this->useHistoryInfoHeaderOnAccessSide;
+        return $this->useHistoryInfoHeaderOnAccessSide instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useHistoryInfoHeaderOnAccessSide;
     }
 
     /**
      * Setter for useHistoryInfoHeaderOnAccessSide
      *
-     * @ElementName useHistoryInfoHeaderOnAccessSide
-     * @param bool|null $useHistoryInfoHeaderOnAccessSide
+     * @param bool $useHistoryInfoHeaderOnAccessSide
      * @return $this
      */
     public function setUseHistoryInfoHeaderOnAccessSide($useHistoryInfoHeaderOnAccessSide)
@@ -876,26 +1092,42 @@ class SystemSIPDeviceTypeGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseHistoryInfoHeaderOnAccessSide()
+    {
+        $this->useHistoryInfoHeaderOnAccessSide = null;
+        return $this;
+    }
+
+    /**
      * Getter for adviceOfChargeCapable
      *
-     * @ElementName adviceOfChargeCapable
-     * @return bool|null
+     * @return bool
      */
     public function getAdviceOfChargeCapable()
     {
-        return $this->adviceOfChargeCapable;
+        return $this->adviceOfChargeCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->adviceOfChargeCapable;
     }
 
     /**
      * Setter for adviceOfChargeCapable
      *
-     * @ElementName adviceOfChargeCapable
-     * @param bool|null $adviceOfChargeCapable
+     * @param bool $adviceOfChargeCapable
      * @return $this
      */
     public function setAdviceOfChargeCapable($adviceOfChargeCapable)
     {
         $this->adviceOfChargeCapable = $adviceOfChargeCapable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAdviceOfChargeCapable()
+    {
+        $this->adviceOfChargeCapable = null;
         return $this;
     }
 

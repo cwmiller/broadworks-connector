@@ -20,12 +20,15 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName taskName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $taskName = array(
@@ -35,19 +38,17 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -57,20 +58,27 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for taskName
      *
-     * @ElementName taskName
      * @return string[]
      */
     public function getTaskName()
     {
-        return $this->taskName;
+        return $this->taskName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->taskName;
     }
 
     /**
      * Setter for taskName
      *
-     * @ElementName taskName
      * @param string[] $taskName
      * @return $this
      */
@@ -81,15 +89,23 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTaskName()
+    {
+        $this->taskName = null;
+        return $this;
+    }
+
+    /**
      * Adder for taskName
      *
-     * @ElementName taskName
      * @param string $taskName
      * @return $this
      */
     public function addTaskName(string $taskName)
     {
-        $this->taskName []= $taskName;
+        $this->taskName[] = $taskName;
         return $this;
     }
 

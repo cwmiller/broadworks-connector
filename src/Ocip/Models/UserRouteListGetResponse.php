@@ -21,24 +21,28 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
+     * @Type bool
      * @var bool|null
      */
     private $treatOriginationsAndPBXRedirectionsAsScreened = null;
 
     /**
      * @ElementName useRouteListIdentityForNonEmergencyCalls
+     * @Type bool
      * @var bool|null
      */
     private $useRouteListIdentityForNonEmergencyCalls = null;
 
     /**
      * @ElementName useRouteListIdentityForEmergencyCalls
+     * @Type bool
      * @var bool|null
      */
     private $useRouteListIdentityForEmergencyCalls = null;
 
     /**
      * @ElementName assignedNumberRangeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $assignedNumberRangeTable = null;
@@ -46,19 +50,17 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * Getter for treatOriginationsAndPBXRedirectionsAsScreened
      *
-     * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
-     * @return bool|null
+     * @return bool
      */
     public function getTreatOriginationsAndPBXRedirectionsAsScreened()
     {
-        return $this->treatOriginationsAndPBXRedirectionsAsScreened;
+        return $this->treatOriginationsAndPBXRedirectionsAsScreened instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatOriginationsAndPBXRedirectionsAsScreened;
     }
 
     /**
      * Setter for treatOriginationsAndPBXRedirectionsAsScreened
      *
-     * @ElementName treatOriginationsAndPBXRedirectionsAsScreened
-     * @param bool|null $treatOriginationsAndPBXRedirectionsAsScreened
+     * @param bool $treatOriginationsAndPBXRedirectionsAsScreened
      * @return $this
      */
     public function setTreatOriginationsAndPBXRedirectionsAsScreened($treatOriginationsAndPBXRedirectionsAsScreened)
@@ -68,21 +70,28 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTreatOriginationsAndPBXRedirectionsAsScreened()
+    {
+        $this->treatOriginationsAndPBXRedirectionsAsScreened = null;
+        return $this;
+    }
+
+    /**
      * Getter for useRouteListIdentityForNonEmergencyCalls
      *
-     * @ElementName useRouteListIdentityForNonEmergencyCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseRouteListIdentityForNonEmergencyCalls()
     {
-        return $this->useRouteListIdentityForNonEmergencyCalls;
+        return $this->useRouteListIdentityForNonEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useRouteListIdentityForNonEmergencyCalls;
     }
 
     /**
      * Setter for useRouteListIdentityForNonEmergencyCalls
      *
-     * @ElementName useRouteListIdentityForNonEmergencyCalls
-     * @param bool|null $useRouteListIdentityForNonEmergencyCalls
+     * @param bool $useRouteListIdentityForNonEmergencyCalls
      * @return $this
      */
     public function setUseRouteListIdentityForNonEmergencyCalls($useRouteListIdentityForNonEmergencyCalls)
@@ -92,21 +101,28 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseRouteListIdentityForNonEmergencyCalls()
+    {
+        $this->useRouteListIdentityForNonEmergencyCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for useRouteListIdentityForEmergencyCalls
      *
-     * @ElementName useRouteListIdentityForEmergencyCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseRouteListIdentityForEmergencyCalls()
     {
-        return $this->useRouteListIdentityForEmergencyCalls;
+        return $this->useRouteListIdentityForEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useRouteListIdentityForEmergencyCalls;
     }
 
     /**
      * Setter for useRouteListIdentityForEmergencyCalls
      *
-     * @ElementName useRouteListIdentityForEmergencyCalls
-     * @param bool|null $useRouteListIdentityForEmergencyCalls
+     * @param bool $useRouteListIdentityForEmergencyCalls
      * @return $this
      */
     public function setUseRouteListIdentityForEmergencyCalls($useRouteListIdentityForEmergencyCalls)
@@ -116,26 +132,42 @@ class UserRouteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseRouteListIdentityForEmergencyCalls()
+    {
+        $this->useRouteListIdentityForEmergencyCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for assignedNumberRangeTable
      *
-     * @ElementName assignedNumberRangeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAssignedNumberRangeTable()
     {
-        return $this->assignedNumberRangeTable;
+        return $this->assignedNumberRangeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assignedNumberRangeTable;
     }
 
     /**
      * Setter for assignedNumberRangeTable
      *
-     * @ElementName assignedNumberRangeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $assignedNumberRangeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $assignedNumberRangeTable
      * @return $this
      */
     public function setAssignedNumberRangeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $assignedNumberRangeTable)
     {
         $this->assignedNumberRangeTable = $assignedNumberRangeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAssignedNumberRangeTable()
+    {
+        $this->assignedNumberRangeTable = null;
         return $this;
     }
 

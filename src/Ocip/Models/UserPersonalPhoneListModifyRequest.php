@@ -16,24 +16,28 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName entryName
+     * @Type string
      * @var string|null
      */
     private $entryName = null;
 
     /**
      * @ElementName newEntryName
+     * @Type string
      * @var string|null
      */
     private $newEntryName = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
@@ -41,19 +45,17 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -63,21 +65,28 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for entryName
      *
-     * @ElementName entryName
-     * @return string|null
+     * @return string
      */
     public function getEntryName()
     {
-        return $this->entryName;
+        return $this->entryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entryName;
     }
 
     /**
      * Setter for entryName
      *
-     * @ElementName entryName
-     * @param string|null $entryName
+     * @param string $entryName
      * @return $this
      */
     public function setEntryName($entryName)
@@ -87,21 +96,28 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntryName()
+    {
+        $this->entryName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newEntryName
      *
-     * @ElementName newEntryName
-     * @return string|null
+     * @return string
      */
     public function getNewEntryName()
     {
-        return $this->newEntryName;
+        return $this->newEntryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newEntryName;
     }
 
     /**
      * Setter for newEntryName
      *
-     * @ElementName newEntryName
-     * @param string|null $newEntryName
+     * @param string $newEntryName
      * @return $this
      */
     public function setNewEntryName($newEntryName)
@@ -111,26 +127,42 @@ class UserPersonalPhoneListModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewEntryName()
+    {
+        $this->newEntryName = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
         return $this;
     }
 

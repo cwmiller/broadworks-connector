@@ -13,12 +13,14 @@ class EnterpriseTrunkTrunkGroupKey
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName trunkGroupName
+     * @Type string
      * @var string|null
      */
     private $trunkGroupName = null;
@@ -26,19 +28,17 @@ class EnterpriseTrunkTrunkGroupKey
     /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -48,26 +48,42 @@ class EnterpriseTrunkTrunkGroupKey
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for trunkGroupName
      *
-     * @ElementName trunkGroupName
-     * @return string|null
+     * @return string
      */
     public function getTrunkGroupName()
     {
-        return $this->trunkGroupName;
+        return $this->trunkGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupName;
     }
 
     /**
      * Setter for trunkGroupName
      *
-     * @ElementName trunkGroupName
-     * @param string|null $trunkGroupName
+     * @param string $trunkGroupName
      * @return $this
      */
     public function setTrunkGroupName($trunkGroupName)
     {
         $this->trunkGroupName = $trunkGroupName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrunkGroupName()
+    {
+        $this->trunkGroupName = null;
         return $this;
     }
 

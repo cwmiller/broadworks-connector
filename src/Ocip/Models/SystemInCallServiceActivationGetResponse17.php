@@ -14,12 +14,14 @@ class SystemInCallServiceActivationGetResponse17 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName defaultFlashActivationDigits
+     * @Type string
      * @var string|null
      */
     private $defaultFlashActivationDigits = null;
 
     /**
      * @ElementName defaultCallTransferActivationDigits
+     * @Type string
      * @var string|null
      */
     private $defaultCallTransferActivationDigits = null;
@@ -27,19 +29,17 @@ class SystemInCallServiceActivationGetResponse17 extends \CWM\BroadWorksConnecto
     /**
      * Getter for defaultFlashActivationDigits
      *
-     * @ElementName defaultFlashActivationDigits
-     * @return string|null
+     * @return string
      */
     public function getDefaultFlashActivationDigits()
     {
-        return $this->defaultFlashActivationDigits;
+        return $this->defaultFlashActivationDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultFlashActivationDigits;
     }
 
     /**
      * Setter for defaultFlashActivationDigits
      *
-     * @ElementName defaultFlashActivationDigits
-     * @param string|null $defaultFlashActivationDigits
+     * @param string $defaultFlashActivationDigits
      * @return $this
      */
     public function setDefaultFlashActivationDigits($defaultFlashActivationDigits)
@@ -49,26 +49,42 @@ class SystemInCallServiceActivationGetResponse17 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultFlashActivationDigits()
+    {
+        $this->defaultFlashActivationDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultCallTransferActivationDigits
      *
-     * @ElementName defaultCallTransferActivationDigits
-     * @return string|null
+     * @return string
      */
     public function getDefaultCallTransferActivationDigits()
     {
-        return $this->defaultCallTransferActivationDigits;
+        return $this->defaultCallTransferActivationDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultCallTransferActivationDigits;
     }
 
     /**
      * Setter for defaultCallTransferActivationDigits
      *
-     * @ElementName defaultCallTransferActivationDigits
-     * @param string|null $defaultCallTransferActivationDigits
+     * @param string $defaultCallTransferActivationDigits
      * @return $this
      */
     public function setDefaultCallTransferActivationDigits($defaultCallTransferActivationDigits)
     {
         $this->defaultCallTransferActivationDigits = $defaultCallTransferActivationDigits;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultCallTransferActivationDigits()
+    {
+        $this->defaultCallTransferActivationDigits = null;
         return $this;
     }
 

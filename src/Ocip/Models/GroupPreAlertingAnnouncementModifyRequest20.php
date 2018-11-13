@@ -16,48 +16,56 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName announcementInterruption
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt
      * @var \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
      */
     private $announcementInterruption = null;
 
     /**
      * @ElementName interruptionDigitSequence
+     * @Type string
      * @var string|null
      */
     private $interruptionDigitSequence = null;
 
     /**
      * @ElementName audioSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
 
     /**
      * @ElementName videoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
      */
     private $videoFile = null;
@@ -65,19 +73,17 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -87,21 +93,28 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -111,21 +124,28 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementInterruption
      *
-     * @ElementName announcementInterruption
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt
      */
     public function getAnnouncementInterruption()
     {
-        return $this->announcementInterruption;
+        return $this->announcementInterruption instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementInterruption;
     }
 
     /**
      * Setter for announcementInterruption
      *
-     * @ElementName announcementInterruption
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null $announcementInterruption
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt $announcementInterruption
      * @return $this
      */
     public function setAnnouncementInterruption(\CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt $announcementInterruption)
@@ -135,21 +155,28 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementInterruption()
+    {
+        $this->announcementInterruption = null;
+        return $this;
+    }
+
+    /**
      * Getter for interruptionDigitSequence
      *
-     * @ElementName interruptionDigitSequence
-     * @return string|null
+     * @return string
      */
     public function getInterruptionDigitSequence()
     {
-        return $this->interruptionDigitSequence;
+        return $this->interruptionDigitSequence instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interruptionDigitSequence;
     }
 
     /**
      * Setter for interruptionDigitSequence
      *
-     * @ElementName interruptionDigitSequence
-     * @param string|null $interruptionDigitSequence
+     * @param string $interruptionDigitSequence
      * @return $this
      */
     public function setInterruptionDigitSequence($interruptionDigitSequence)
@@ -159,21 +186,28 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInterruptionDigitSequence()
+    {
+        $this->interruptionDigitSequence = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioSelection
      *
-     * @ElementName audioSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioSelection()
     {
-        return $this->audioSelection;
+        return $this->audioSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioSelection;
     }
 
     /**
      * Setter for audioSelection
      *
-     * @ElementName audioSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection
      * @return $this
      */
     public function setAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection)
@@ -183,21 +217,28 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioSelection()
+    {
+        $this->audioSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $audioFile)
@@ -207,21 +248,28 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoSelection
      *
-     * @ElementName videoSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoSelection()
     {
-        return $this->videoSelection;
+        return $this->videoSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoSelection;
     }
 
     /**
      * Setter for videoSelection
      *
-     * @ElementName videoSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection
      * @return $this
      */
     public function setVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection)
@@ -231,26 +279,42 @@ class GroupPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoSelection()
+    {
+        $this->videoSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20|null $videoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource20 $videoFile)
     {
         $this->videoFile = $videoFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
         return $this;
     }
 

@@ -17,12 +17,14 @@ class SystemMGCPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName isObsolete
+     * @Type bool
      * @var bool|null
      */
     private $isObsolete = null;
@@ -30,19 +32,17 @@ class SystemMGCPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -52,26 +52,42 @@ class SystemMGCPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for isObsolete
      *
-     * @ElementName isObsolete
-     * @return bool|null
+     * @return bool
      */
     public function getIsObsolete()
     {
-        return $this->isObsolete;
+        return $this->isObsolete instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isObsolete;
     }
 
     /**
      * Setter for isObsolete
      *
-     * @ElementName isObsolete
-     * @param bool|null $isObsolete
+     * @param bool $isObsolete
      * @return $this
      */
     public function setIsObsolete($isObsolete)
     {
         $this->isObsolete = $isObsolete;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsObsolete()
+    {
+        $this->isObsolete = null;
         return $this;
     }
 

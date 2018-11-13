@@ -16,6 +16,7 @@ class SystemAccountingDeleteChargingFunctionElementServerRequest extends \CWM\Br
 
     /**
      * @ElementName address
+     * @Type string
      * @var string|null
      */
     private $address = null;
@@ -23,24 +24,31 @@ class SystemAccountingDeleteChargingFunctionElementServerRequest extends \CWM\Br
     /**
      * Getter for address
      *
-     * @ElementName address
-     * @return string|null
+     * @return string
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param string|null $address
+     * @param string $address
      * @return $this
      */
     public function setAddress($address)
     {
         $this->address = $address;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class SystemSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName prefix
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,26 +25,35 @@ class SystemSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for prefix
      *
-     * @ElementName prefix
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPrefix()
     {
-        return $this->prefix;
+        return $this->prefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefix;
     }
 
     /**
      * Setter for prefix
      *
-     * @ElementName prefix
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $prefix
+     * @param string|null $prefix
      * @return $this
      */
     public function setPrefix($prefix)
     {
-        $this->prefix = $prefix;
+        if ($prefix === null) {
+            $this->prefix = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->prefix = $prefix;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrefix()
+    {
+        $this->prefix = null;
         return $this;
     }
 

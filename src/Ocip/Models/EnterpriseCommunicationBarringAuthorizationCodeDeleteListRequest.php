@@ -16,12 +16,15 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName code
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $code = array(
@@ -31,19 +34,17 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,20 +54,27 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for code
      *
-     * @ElementName code
      * @return string[]
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->code;
     }
 
     /**
      * Setter for code
      *
-     * @ElementName code
      * @param string[] $code
      * @return $this
      */
@@ -77,15 +85,23 @@ class EnterpriseCommunicationBarringAuthorizationCodeDeleteListRequest extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCode()
+    {
+        $this->code = null;
+        return $this;
+    }
+
+    /**
      * Adder for code
      *
-     * @ElementName code
      * @param string $code
      * @return $this
      */
     public function addCode(string $code)
     {
-        $this->code []= $code;
+        $this->code[] = $code;
         return $this;
     }
 

@@ -12,84 +12,98 @@ class OutgoingCallingPlanCallMeNowPermissions
 
     /**
      * @ElementName group
+     * @Type bool
      * @var bool|null
      */
     private $group = null;
 
     /**
      * @ElementName local
+     * @Type bool
      * @var bool|null
      */
     private $local = null;
 
     /**
      * @ElementName tollFree
+     * @Type bool
      * @var bool|null
      */
     private $tollFree = null;
 
     /**
      * @ElementName toll
+     * @Type bool
      * @var bool|null
      */
     private $toll = null;
 
     /**
      * @ElementName international
+     * @Type bool
      * @var bool|null
      */
     private $international = null;
 
     /**
      * @ElementName operatorAssisted
+     * @Type bool
      * @var bool|null
      */
     private $operatorAssisted = null;
 
     /**
      * @ElementName chargeableDirectoryAssisted
+     * @Type bool
      * @var bool|null
      */
     private $chargeableDirectoryAssisted = null;
 
     /**
      * @ElementName specialServicesI
+     * @Type bool
      * @var bool|null
      */
     private $specialServicesI = null;
 
     /**
      * @ElementName specialServicesII
+     * @Type bool
      * @var bool|null
      */
     private $specialServicesII = null;
 
     /**
      * @ElementName premiumServicesI
+     * @Type bool
      * @var bool|null
      */
     private $premiumServicesI = null;
 
     /**
      * @ElementName premiumServicesII
+     * @Type bool
      * @var bool|null
      */
     private $premiumServicesII = null;
 
     /**
      * @ElementName casual
+     * @Type bool
      * @var bool|null
      */
     private $casual = null;
 
     /**
      * @ElementName urlDialing
+     * @Type bool
      * @var bool|null
      */
     private $urlDialing = null;
 
     /**
      * @ElementName unknown
+     * @Type bool
      * @var bool|null
      */
     private $unknown = null;
@@ -97,19 +111,17 @@ class OutgoingCallingPlanCallMeNowPermissions
     /**
      * Getter for group
      *
-     * @ElementName group
-     * @return bool|null
+     * @return bool
      */
     public function getGroup()
     {
-        return $this->group;
+        return $this->group instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->group;
     }
 
     /**
      * Setter for group
      *
-     * @ElementName group
-     * @param bool|null $group
+     * @param bool $group
      * @return $this
      */
     public function setGroup($group)
@@ -119,21 +131,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroup()
+    {
+        $this->group = null;
+        return $this;
+    }
+
+    /**
      * Getter for local
      *
-     * @ElementName local
-     * @return bool|null
+     * @return bool
      */
     public function getLocal()
     {
-        return $this->local;
+        return $this->local instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->local;
     }
 
     /**
      * Setter for local
      *
-     * @ElementName local
-     * @param bool|null $local
+     * @param bool $local
      * @return $this
      */
     public function setLocal($local)
@@ -143,21 +162,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocal()
+    {
+        $this->local = null;
+        return $this;
+    }
+
+    /**
      * Getter for tollFree
      *
-     * @ElementName tollFree
-     * @return bool|null
+     * @return bool
      */
     public function getTollFree()
     {
-        return $this->tollFree;
+        return $this->tollFree instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tollFree;
     }
 
     /**
      * Setter for tollFree
      *
-     * @ElementName tollFree
-     * @param bool|null $tollFree
+     * @param bool $tollFree
      * @return $this
      */
     public function setTollFree($tollFree)
@@ -167,21 +193,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTollFree()
+    {
+        $this->tollFree = null;
+        return $this;
+    }
+
+    /**
      * Getter for toll
      *
-     * @ElementName toll
-     * @return bool|null
+     * @return bool
      */
     public function getToll()
     {
-        return $this->toll;
+        return $this->toll instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->toll;
     }
 
     /**
      * Setter for toll
      *
-     * @ElementName toll
-     * @param bool|null $toll
+     * @param bool $toll
      * @return $this
      */
     public function setToll($toll)
@@ -191,21 +224,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetToll()
+    {
+        $this->toll = null;
+        return $this;
+    }
+
+    /**
      * Getter for international
      *
-     * @ElementName international
-     * @return bool|null
+     * @return bool
      */
     public function getInternational()
     {
-        return $this->international;
+        return $this->international instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->international;
     }
 
     /**
      * Setter for international
      *
-     * @ElementName international
-     * @param bool|null $international
+     * @param bool $international
      * @return $this
      */
     public function setInternational($international)
@@ -215,21 +255,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInternational()
+    {
+        $this->international = null;
+        return $this;
+    }
+
+    /**
      * Getter for operatorAssisted
      *
-     * @ElementName operatorAssisted
-     * @return bool|null
+     * @return bool
      */
     public function getOperatorAssisted()
     {
-        return $this->operatorAssisted;
+        return $this->operatorAssisted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->operatorAssisted;
     }
 
     /**
      * Setter for operatorAssisted
      *
-     * @ElementName operatorAssisted
-     * @param bool|null $operatorAssisted
+     * @param bool $operatorAssisted
      * @return $this
      */
     public function setOperatorAssisted($operatorAssisted)
@@ -239,21 +286,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOperatorAssisted()
+    {
+        $this->operatorAssisted = null;
+        return $this;
+    }
+
+    /**
      * Getter for chargeableDirectoryAssisted
      *
-     * @ElementName chargeableDirectoryAssisted
-     * @return bool|null
+     * @return bool
      */
     public function getChargeableDirectoryAssisted()
     {
-        return $this->chargeableDirectoryAssisted;
+        return $this->chargeableDirectoryAssisted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->chargeableDirectoryAssisted;
     }
 
     /**
      * Setter for chargeableDirectoryAssisted
      *
-     * @ElementName chargeableDirectoryAssisted
-     * @param bool|null $chargeableDirectoryAssisted
+     * @param bool $chargeableDirectoryAssisted
      * @return $this
      */
     public function setChargeableDirectoryAssisted($chargeableDirectoryAssisted)
@@ -263,21 +317,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChargeableDirectoryAssisted()
+    {
+        $this->chargeableDirectoryAssisted = null;
+        return $this;
+    }
+
+    /**
      * Getter for specialServicesI
      *
-     * @ElementName specialServicesI
-     * @return bool|null
+     * @return bool
      */
     public function getSpecialServicesI()
     {
-        return $this->specialServicesI;
+        return $this->specialServicesI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->specialServicesI;
     }
 
     /**
      * Setter for specialServicesI
      *
-     * @ElementName specialServicesI
-     * @param bool|null $specialServicesI
+     * @param bool $specialServicesI
      * @return $this
      */
     public function setSpecialServicesI($specialServicesI)
@@ -287,21 +348,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSpecialServicesI()
+    {
+        $this->specialServicesI = null;
+        return $this;
+    }
+
+    /**
      * Getter for specialServicesII
      *
-     * @ElementName specialServicesII
-     * @return bool|null
+     * @return bool
      */
     public function getSpecialServicesII()
     {
-        return $this->specialServicesII;
+        return $this->specialServicesII instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->specialServicesII;
     }
 
     /**
      * Setter for specialServicesII
      *
-     * @ElementName specialServicesII
-     * @param bool|null $specialServicesII
+     * @param bool $specialServicesII
      * @return $this
      */
     public function setSpecialServicesII($specialServicesII)
@@ -311,21 +379,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSpecialServicesII()
+    {
+        $this->specialServicesII = null;
+        return $this;
+    }
+
+    /**
      * Getter for premiumServicesI
      *
-     * @ElementName premiumServicesI
-     * @return bool|null
+     * @return bool
      */
     public function getPremiumServicesI()
     {
-        return $this->premiumServicesI;
+        return $this->premiumServicesI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->premiumServicesI;
     }
 
     /**
      * Setter for premiumServicesI
      *
-     * @ElementName premiumServicesI
-     * @param bool|null $premiumServicesI
+     * @param bool $premiumServicesI
      * @return $this
      */
     public function setPremiumServicesI($premiumServicesI)
@@ -335,21 +410,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPremiumServicesI()
+    {
+        $this->premiumServicesI = null;
+        return $this;
+    }
+
+    /**
      * Getter for premiumServicesII
      *
-     * @ElementName premiumServicesII
-     * @return bool|null
+     * @return bool
      */
     public function getPremiumServicesII()
     {
-        return $this->premiumServicesII;
+        return $this->premiumServicesII instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->premiumServicesII;
     }
 
     /**
      * Setter for premiumServicesII
      *
-     * @ElementName premiumServicesII
-     * @param bool|null $premiumServicesII
+     * @param bool $premiumServicesII
      * @return $this
      */
     public function setPremiumServicesII($premiumServicesII)
@@ -359,21 +441,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPremiumServicesII()
+    {
+        $this->premiumServicesII = null;
+        return $this;
+    }
+
+    /**
      * Getter for casual
      *
-     * @ElementName casual
-     * @return bool|null
+     * @return bool
      */
     public function getCasual()
     {
-        return $this->casual;
+        return $this->casual instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->casual;
     }
 
     /**
      * Setter for casual
      *
-     * @ElementName casual
-     * @param bool|null $casual
+     * @param bool $casual
      * @return $this
      */
     public function setCasual($casual)
@@ -383,21 +472,28 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCasual()
+    {
+        $this->casual = null;
+        return $this;
+    }
+
+    /**
      * Getter for urlDialing
      *
-     * @ElementName urlDialing
-     * @return bool|null
+     * @return bool
      */
     public function getUrlDialing()
     {
-        return $this->urlDialing;
+        return $this->urlDialing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->urlDialing;
     }
 
     /**
      * Setter for urlDialing
      *
-     * @ElementName urlDialing
-     * @param bool|null $urlDialing
+     * @param bool $urlDialing
      * @return $this
      */
     public function setUrlDialing($urlDialing)
@@ -407,26 +503,42 @@ class OutgoingCallingPlanCallMeNowPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUrlDialing()
+    {
+        $this->urlDialing = null;
+        return $this;
+    }
+
+    /**
      * Getter for unknown
      *
-     * @ElementName unknown
-     * @return bool|null
+     * @return bool
      */
     public function getUnknown()
     {
-        return $this->unknown;
+        return $this->unknown instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unknown;
     }
 
     /**
      * Setter for unknown
      *
-     * @ElementName unknown
-     * @param bool|null $unknown
+     * @param bool $unknown
      * @return $this
      */
     public function setUnknown($unknown)
     {
         $this->unknown = $unknown;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnknown()
+    {
+        $this->unknown = null;
         return $this;
     }
 

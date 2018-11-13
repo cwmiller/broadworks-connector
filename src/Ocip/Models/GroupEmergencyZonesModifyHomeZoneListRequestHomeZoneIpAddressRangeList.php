@@ -10,12 +10,14 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
 
     /**
      * @ElementName homeZoneIpAddressRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null
      */
     private $homeZoneIpAddressRange = null;
 
     /**
      * @ElementName newHomeZoneIpAddressRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null
      */
     private $newHomeZoneIpAddressRange = null;
@@ -23,19 +25,17 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
     /**
      * Getter for homeZoneIpAddressRange
      *
-     * @ElementName homeZoneIpAddressRange
-     * @return \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      */
     public function getHomeZoneIpAddressRange()
     {
-        return $this->homeZoneIpAddressRange;
+        return $this->homeZoneIpAddressRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZoneIpAddressRange;
     }
 
     /**
      * Setter for homeZoneIpAddressRange
      *
-     * @ElementName homeZoneIpAddressRange
-     * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null $homeZoneIpAddressRange
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange $homeZoneIpAddressRange
      * @return $this
      */
     public function setHomeZoneIpAddressRange(\CWM\BroadWorksConnector\Ocip\Models\IPAddressRange $homeZoneIpAddressRange)
@@ -45,26 +45,42 @@ class GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHomeZoneIpAddressRange()
+    {
+        $this->homeZoneIpAddressRange = null;
+        return $this;
+    }
+
+    /**
      * Getter for newHomeZoneIpAddressRange
      *
-     * @ElementName newHomeZoneIpAddressRange
-     * @return \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      */
     public function getNewHomeZoneIpAddressRange()
     {
-        return $this->newHomeZoneIpAddressRange;
+        return $this->newHomeZoneIpAddressRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newHomeZoneIpAddressRange;
     }
 
     /**
      * Setter for newHomeZoneIpAddressRange
      *
-     * @ElementName newHomeZoneIpAddressRange
-     * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange|null $newHomeZoneIpAddressRange
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange $newHomeZoneIpAddressRange
      * @return $this
      */
     public function setNewHomeZoneIpAddressRange(\CWM\BroadWorksConnector\Ocip\Models\IPAddressRange $newHomeZoneIpAddressRange)
     {
         $this->newHomeZoneIpAddressRange = $newHomeZoneIpAddressRange;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewHomeZoneIpAddressRange()
+    {
+        $this->newHomeZoneIpAddressRange = null;
         return $this;
     }
 

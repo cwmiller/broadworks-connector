@@ -16,6 +16,7 @@ class ResellerAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName resellerAdminTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $resellerAdminTable = null;
@@ -23,24 +24,31 @@ class ResellerAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for resellerAdminTable
      *
-     * @ElementName resellerAdminTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getResellerAdminTable()
     {
-        return $this->resellerAdminTable;
+        return $this->resellerAdminTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerAdminTable;
     }
 
     /**
      * Setter for resellerAdminTable
      *
-     * @ElementName resellerAdminTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $resellerAdminTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $resellerAdminTable
      * @return $this
      */
     public function setResellerAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $resellerAdminTable)
     {
         $this->resellerAdminTable = $resellerAdminTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerAdminTable()
+    {
+        $this->resellerAdminTable = null;
         return $this;
     }
 

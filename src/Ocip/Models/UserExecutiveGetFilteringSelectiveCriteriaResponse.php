@@ -16,24 +16,28 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
 
     /**
      * @ElementName timeSchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
 
     /**
      * @ElementName filter
+     * @Type bool
      * @var bool|null
      */
     private $filter = null;
 
     /**
      * @ElementName fromDnCriteria
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -41,19 +45,17 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     /**
      * Getter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      */
     public function getTimeSchedule()
     {
-        return $this->timeSchedule;
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
     }
 
     /**
      * Setter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule
      * @return $this
      */
     public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
@@ -63,21 +65,28 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      */
     public function getHolidaySchedule()
     {
-        return $this->holidaySchedule;
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
     }
 
     /**
      * Setter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
@@ -87,21 +96,28 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
+        return $this;
+    }
+
+    /**
      * Getter for filter
      *
-     * @ElementName filter
-     * @return bool|null
+     * @return bool
      */
     public function getFilter()
     {
-        return $this->filter;
+        return $this->filter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->filter;
     }
 
     /**
      * Setter for filter
      *
-     * @ElementName filter
-     * @param bool|null $filter
+     * @param bool $filter
      * @return $this
      */
     public function setFilter($filter)
@@ -111,26 +127,42 @@ class UserExecutiveGetFilteringSelectiveCriteriaResponse extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFilter()
+    {
+        $this->filter = null;
+        return $this;
+    }
+
+    /**
      * Getter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn
      */
     public function getFromDnCriteria()
     {
-        return $this->fromDnCriteria;
+        return $this->fromDnCriteria instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fromDnCriteria;
     }
 
     /**
      * Setter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn|null $fromDnCriteria
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn $fromDnCriteria
      * @return $this
      */
     public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringCriteriaFromDn $fromDnCriteria)
     {
         $this->fromDnCriteria = $fromDnCriteria;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFromDnCriteria()
+    {
+        $this->fromDnCriteria = null;
         return $this;
     }
 

@@ -14,18 +14,21 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName useChargeNumberForEnhancedTranslations
+     * @Type bool
      * @var bool|null
      */
     private $useChargeNumberForEnhancedTranslations = null;
 
     /**
      * @ElementName sendChargeNumberToNetwork
+     * @Type bool
      * @var bool|null
      */
     private $sendChargeNumberToNetwork = null;
@@ -33,19 +36,17 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -55,21 +56,28 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for useChargeNumberForEnhancedTranslations
      *
-     * @ElementName useChargeNumberForEnhancedTranslations
-     * @return bool|null
+     * @return bool
      */
     public function getUseChargeNumberForEnhancedTranslations()
     {
-        return $this->useChargeNumberForEnhancedTranslations;
+        return $this->useChargeNumberForEnhancedTranslations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useChargeNumberForEnhancedTranslations;
     }
 
     /**
      * Setter for useChargeNumberForEnhancedTranslations
      *
-     * @ElementName useChargeNumberForEnhancedTranslations
-     * @param bool|null $useChargeNumberForEnhancedTranslations
+     * @param bool $useChargeNumberForEnhancedTranslations
      * @return $this
      */
     public function setUseChargeNumberForEnhancedTranslations($useChargeNumberForEnhancedTranslations)
@@ -79,26 +87,42 @@ class UserChargeNumberGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseChargeNumberForEnhancedTranslations()
+    {
+        $this->useChargeNumberForEnhancedTranslations = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendChargeNumberToNetwork
      *
-     * @ElementName sendChargeNumberToNetwork
-     * @return bool|null
+     * @return bool
      */
     public function getSendChargeNumberToNetwork()
     {
-        return $this->sendChargeNumberToNetwork;
+        return $this->sendChargeNumberToNetwork instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendChargeNumberToNetwork;
     }
 
     /**
      * Setter for sendChargeNumberToNetwork
      *
-     * @ElementName sendChargeNumberToNetwork
-     * @param bool|null $sendChargeNumberToNetwork
+     * @param bool $sendChargeNumberToNetwork
      * @return $this
      */
     public function setSendChargeNumberToNetwork($sendChargeNumberToNetwork)
     {
         $this->sendChargeNumberToNetwork = $sendChargeNumberToNetwork;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendChargeNumberToNetwork()
+    {
+        $this->sendChargeNumberToNetwork = null;
         return $this;
     }
 

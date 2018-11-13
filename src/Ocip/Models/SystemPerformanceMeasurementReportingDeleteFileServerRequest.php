@@ -16,6 +16,7 @@ class SystemPerformanceMeasurementReportingDeleteFileServerRequest extends \CWM\
 
     /**
      * @ElementName ftpHostNetAddress
+     * @Type string
      * @var string|null
      */
     private $ftpHostNetAddress = null;
@@ -23,24 +24,31 @@ class SystemPerformanceMeasurementReportingDeleteFileServerRequest extends \CWM\
     /**
      * Getter for ftpHostNetAddress
      *
-     * @ElementName ftpHostNetAddress
-     * @return string|null
+     * @return string
      */
     public function getFtpHostNetAddress()
     {
-        return $this->ftpHostNetAddress;
+        return $this->ftpHostNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpHostNetAddress;
     }
 
     /**
      * Setter for ftpHostNetAddress
      *
-     * @ElementName ftpHostNetAddress
-     * @param string|null $ftpHostNetAddress
+     * @param string $ftpHostNetAddress
      * @return $this
      */
     public function setFtpHostNetAddress($ftpHostNetAddress)
     {
         $this->ftpHostNetAddress = $ftpHostNetAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFtpHostNetAddress()
+    {
+        $this->ftpHostNetAddress = null;
         return $this;
     }
 

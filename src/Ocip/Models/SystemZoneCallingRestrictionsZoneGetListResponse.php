@@ -18,6 +18,7 @@ class SystemZoneCallingRestrictionsZoneGetListResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName zoneTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $zoneTable = null;
@@ -25,24 +26,31 @@ class SystemZoneCallingRestrictionsZoneGetListResponse extends \CWM\BroadWorksCo
     /**
      * Getter for zoneTable
      *
-     * @ElementName zoneTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getZoneTable()
     {
-        return $this->zoneTable;
+        return $this->zoneTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zoneTable;
     }
 
     /**
      * Setter for zoneTable
      *
-     * @ElementName zoneTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $zoneTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $zoneTable
      * @return $this
      */
     public function setZoneTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $zoneTable)
     {
         $this->zoneTable = $zoneTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetZoneTable()
+    {
+        $this->zoneTable = null;
         return $this;
     }
 

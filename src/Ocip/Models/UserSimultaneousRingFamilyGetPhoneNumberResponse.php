@@ -14,6 +14,7 @@ class UserSimultaneousRingFamilyGetPhoneNumberResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName answerConfirmationRequired
+     * @Type bool
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
@@ -21,24 +22,31 @@ class UserSimultaneousRingFamilyGetPhoneNumberResponse extends \CWM\BroadWorksCo
     /**
      * Getter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @return bool|null
+     * @return bool
      */
     public function getAnswerConfirmationRequired()
     {
-        return $this->answerConfirmationRequired;
+        return $this->answerConfirmationRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerConfirmationRequired;
     }
 
     /**
      * Setter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @param bool|null $answerConfirmationRequired
+     * @param bool $answerConfirmationRequired
      * @return $this
      */
     public function setAnswerConfirmationRequired($answerConfirmationRequired)
     {
         $this->answerConfirmationRequired = $answerConfirmationRequired;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnswerConfirmationRequired()
+    {
+        $this->answerConfirmationRequired = null;
         return $this;
     }
 

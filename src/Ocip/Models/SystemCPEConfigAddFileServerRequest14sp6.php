@@ -19,24 +19,28 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName fileRepositoryName
+     * @Type string
      * @var string|null
      */
     private $fileRepositoryName = null;
 
     /**
      * @ElementName cpeFileDirectory
+     * @Type string
      * @var string|null
      */
     private $cpeFileDirectory = null;
 
     /**
      * @ElementName extendedCaptureFileRepositoryName
+     * @Type string
      * @var string|null
      */
     private $extendedCaptureFileRepositoryName = null;
@@ -44,19 +48,17 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -66,21 +68,28 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @return string|null
+     * @return string
      */
     public function getFileRepositoryName()
     {
-        return $this->fileRepositoryName;
+        return $this->fileRepositoryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileRepositoryName;
     }
 
     /**
      * Setter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @param string|null $fileRepositoryName
+     * @param string $fileRepositoryName
      * @return $this
      */
     public function setFileRepositoryName($fileRepositoryName)
@@ -90,21 +99,28 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileRepositoryName()
+    {
+        $this->fileRepositoryName = null;
+        return $this;
+    }
+
+    /**
      * Getter for cpeFileDirectory
      *
-     * @ElementName cpeFileDirectory
-     * @return string|null
+     * @return string
      */
     public function getCpeFileDirectory()
     {
-        return $this->cpeFileDirectory;
+        return $this->cpeFileDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cpeFileDirectory;
     }
 
     /**
      * Setter for cpeFileDirectory
      *
-     * @ElementName cpeFileDirectory
-     * @param string|null $cpeFileDirectory
+     * @param string $cpeFileDirectory
      * @return $this
      */
     public function setCpeFileDirectory($cpeFileDirectory)
@@ -114,26 +130,42 @@ class SystemCPEConfigAddFileServerRequest14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCpeFileDirectory()
+    {
+        $this->cpeFileDirectory = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedCaptureFileRepositoryName
      *
-     * @ElementName extendedCaptureFileRepositoryName
-     * @return string|null
+     * @return string
      */
     public function getExtendedCaptureFileRepositoryName()
     {
-        return $this->extendedCaptureFileRepositoryName;
+        return $this->extendedCaptureFileRepositoryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedCaptureFileRepositoryName;
     }
 
     /**
      * Setter for extendedCaptureFileRepositoryName
      *
-     * @ElementName extendedCaptureFileRepositoryName
-     * @param string|null $extendedCaptureFileRepositoryName
+     * @param string $extendedCaptureFileRepositoryName
      * @return $this
      */
     public function setExtendedCaptureFileRepositoryName($extendedCaptureFileRepositoryName)
     {
         $this->extendedCaptureFileRepositoryName = $extendedCaptureFileRepositoryName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExtendedCaptureFileRepositoryName()
+    {
+        $this->extendedCaptureFileRepositoryName = null;
         return $this;
     }
 

@@ -16,24 +16,28 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest extends \CWM\B
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     private $type = null;
@@ -41,19 +45,17 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest extends \CWM\B
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -63,21 +65,28 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -87,21 +96,28 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -111,26 +127,42 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateDeleteRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for type
      *
-     * @ElementName type
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
      */
     public function getType()
     {
-        return $this->type;
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
     }
 
     /**
      * Setter for type
      *
-     * @ElementName type
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType $type
      * @return $this
      */
     public function setType(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType $type)
     {
         $this->type = $type;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
         return $this;
     }
 

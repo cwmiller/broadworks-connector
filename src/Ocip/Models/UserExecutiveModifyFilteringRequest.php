@@ -17,30 +17,36 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName enableFiltering
+     * @Type bool
      * @var bool|null
      */
     private $enableFiltering = null;
 
     /**
      * @ElementName filteringMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
      */
     private $filteringMode = null;
 
     /**
      * @ElementName simpleFilterType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
      */
     private $simpleFilterType = null;
 
     /**
      * @ElementName criteriaActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(
@@ -50,19 +56,17 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -72,21 +76,28 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableFiltering
      *
-     * @ElementName enableFiltering
-     * @return bool|null
+     * @return bool
      */
     public function getEnableFiltering()
     {
-        return $this->enableFiltering;
+        return $this->enableFiltering instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableFiltering;
     }
 
     /**
      * Setter for enableFiltering
      *
-     * @ElementName enableFiltering
-     * @param bool|null $enableFiltering
+     * @param bool $enableFiltering
      * @return $this
      */
     public function setEnableFiltering($enableFiltering)
@@ -96,21 +107,28 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableFiltering()
+    {
+        $this->enableFiltering = null;
+        return $this;
+    }
+
+    /**
      * Getter for filteringMode
      *
-     * @ElementName filteringMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode
      */
     public function getFilteringMode()
     {
-        return $this->filteringMode;
+        return $this->filteringMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->filteringMode;
     }
 
     /**
      * Setter for filteringMode
      *
-     * @ElementName filteringMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null $filteringMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode $filteringMode
      * @return $this
      */
     public function setFilteringMode(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode $filteringMode)
@@ -120,21 +138,28 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFilteringMode()
+    {
+        $this->filteringMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for simpleFilterType
      *
-     * @ElementName simpleFilterType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType
      */
     public function getSimpleFilterType()
     {
-        return $this->simpleFilterType;
+        return $this->simpleFilterType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->simpleFilterType;
     }
 
     /**
      * Setter for simpleFilterType
      *
-     * @ElementName simpleFilterType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null $simpleFilterType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType $simpleFilterType
      * @return $this
      */
     public function setSimpleFilterType(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType $simpleFilterType)
@@ -144,20 +169,27 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSimpleFilterType()
+    {
+        $this->simpleFilterType = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     public function getCriteriaActivation()
     {
-        return $this->criteriaActivation;
+        return $this->criteriaActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaActivation;
     }
 
     /**
      * Setter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
@@ -168,15 +200,23 @@ class UserExecutiveModifyFilteringRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaActivation()
+    {
+        $this->criteriaActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation $criteriaActivation
      * @return $this
      */
     public function addCriteriaActivation($criteriaActivation)
     {
-        $this->criteriaActivation []= $criteriaActivation;
+        $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
 

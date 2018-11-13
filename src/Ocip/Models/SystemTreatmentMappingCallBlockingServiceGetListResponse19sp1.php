@@ -25,6 +25,7 @@ class SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1 extends \CWM
 
     /**
      * @ElementName treatmentMappingTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $treatmentMappingTable = null;
@@ -32,24 +33,31 @@ class SystemTreatmentMappingCallBlockingServiceGetListResponse19sp1 extends \CWM
     /**
      * Getter for treatmentMappingTable
      *
-     * @ElementName treatmentMappingTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getTreatmentMappingTable()
     {
-        return $this->treatmentMappingTable;
+        return $this->treatmentMappingTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentMappingTable;
     }
 
     /**
      * Setter for treatmentMappingTable
      *
-     * @ElementName treatmentMappingTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $treatmentMappingTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $treatmentMappingTable
      * @return $this
      */
     public function setTreatmentMappingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $treatmentMappingTable)
     {
         $this->treatmentMappingTable = $treatmentMappingTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentMappingTable()
+    {
+        $this->treatmentMappingTable = null;
         return $this;
     }
 

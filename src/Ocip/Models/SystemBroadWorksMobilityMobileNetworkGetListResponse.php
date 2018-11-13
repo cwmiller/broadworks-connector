@@ -16,6 +16,7 @@ class SystemBroadWorksMobilityMobileNetworkGetListResponse extends \CWM\BroadWor
 
     /**
      * @ElementName mobileNetworkTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileNetworkTable = null;
@@ -23,24 +24,31 @@ class SystemBroadWorksMobilityMobileNetworkGetListResponse extends \CWM\BroadWor
     /**
      * Getter for mobileNetworkTable
      *
-     * @ElementName mobileNetworkTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMobileNetworkTable()
     {
-        return $this->mobileNetworkTable;
+        return $this->mobileNetworkTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileNetworkTable;
     }
 
     /**
      * Setter for mobileNetworkTable
      *
-     * @ElementName mobileNetworkTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mobileNetworkTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileNetworkTable
      * @return $this
      */
     public function setMobileNetworkTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileNetworkTable)
     {
         $this->mobileNetworkTable = $mobileNetworkTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobileNetworkTable()
+    {
+        $this->mobileNetworkTable = null;
         return $this;
     }
 

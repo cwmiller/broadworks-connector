@@ -22,12 +22,14 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName preferredNetworkServerNetAddress
+     * @Type string
      * @var string|null
      */
     private $preferredNetworkServerNetAddress = null;
 
     /**
      * @ElementName networkSynchingServerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $networkSynchingServerTable = null;
@@ -35,19 +37,17 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for preferredNetworkServerNetAddress
      *
-     * @ElementName preferredNetworkServerNetAddress
-     * @return string|null
+     * @return string
      */
     public function getPreferredNetworkServerNetAddress()
     {
-        return $this->preferredNetworkServerNetAddress;
+        return $this->preferredNetworkServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preferredNetworkServerNetAddress;
     }
 
     /**
      * Setter for preferredNetworkServerNetAddress
      *
-     * @ElementName preferredNetworkServerNetAddress
-     * @param string|null $preferredNetworkServerNetAddress
+     * @param string $preferredNetworkServerNetAddress
      * @return $this
      */
     public function setPreferredNetworkServerNetAddress($preferredNetworkServerNetAddress)
@@ -57,26 +57,42 @@ class SystemNetworkSynchingServerGetListResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreferredNetworkServerNetAddress()
+    {
+        $this->preferredNetworkServerNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkSynchingServerTable
      *
-     * @ElementName networkSynchingServerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getNetworkSynchingServerTable()
     {
-        return $this->networkSynchingServerTable;
+        return $this->networkSynchingServerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkSynchingServerTable;
     }
 
     /**
      * Setter for networkSynchingServerTable
      *
-     * @ElementName networkSynchingServerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $networkSynchingServerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $networkSynchingServerTable
      * @return $this
      */
     public function setNetworkSynchingServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $networkSynchingServerTable)
     {
         $this->networkSynchingServerTable = $networkSynchingServerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkSynchingServerTable()
+    {
+        $this->networkSynchingServerTable = null;
         return $this;
     }
 

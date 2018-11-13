@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ServiceProviderAdminWebBrandingAccess FULL()
  * @method static ServiceProviderAdminWebBrandingAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminWebBrandingAccess extends \MyCLabs\Enum\Enum
 {

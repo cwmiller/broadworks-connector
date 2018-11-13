@@ -10,54 +10,63 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
 
     /**
      * @ElementName sendToPerson
+     * @Type string
      * @var string|null
      */
     private $sendToPerson = null;
 
     /**
      * @ElementName sendToAllGroupMembers
+     * @Type string
      * @var string|null
      */
     private $sendToAllGroupMembers = null;
 
     /**
      * @ElementName sendToDistributionList
+     * @Type string
      * @var string|null
      */
     private $sendToDistributionList = null;
 
     /**
      * @ElementName changeCurrentIntroductionOrMessage
+     * @Type string
      * @var string|null
      */
     private $changeCurrentIntroductionOrMessage = null;
 
     /**
      * @ElementName listenToCurrentIntroductionOrMessage
+     * @Type string
      * @var string|null
      */
     private $listenToCurrentIntroductionOrMessage = null;
 
     /**
      * @ElementName setOrClearUrgentIndicator
+     * @Type string
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
 
     /**
      * @ElementName setOrClearConfidentialIndicator
+     * @Type string
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -65,19 +74,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     /**
      * Getter for sendToPerson
      *
-     * @ElementName sendToPerson
-     * @return string|null
+     * @return string
      */
     public function getSendToPerson()
     {
-        return $this->sendToPerson;
+        return $this->sendToPerson instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendToPerson;
     }
 
     /**
      * Setter for sendToPerson
      *
-     * @ElementName sendToPerson
-     * @param string|null $sendToPerson
+     * @param string $sendToPerson
      * @return $this
      */
     public function setSendToPerson($sendToPerson)
@@ -87,21 +94,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendToPerson()
+    {
+        $this->sendToPerson = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendToAllGroupMembers
      *
-     * @ElementName sendToAllGroupMembers
-     * @return string|null
+     * @return string
      */
     public function getSendToAllGroupMembers()
     {
-        return $this->sendToAllGroupMembers;
+        return $this->sendToAllGroupMembers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendToAllGroupMembers;
     }
 
     /**
      * Setter for sendToAllGroupMembers
      *
-     * @ElementName sendToAllGroupMembers
-     * @param string|null $sendToAllGroupMembers
+     * @param string $sendToAllGroupMembers
      * @return $this
      */
     public function setSendToAllGroupMembers($sendToAllGroupMembers)
@@ -111,21 +125,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendToAllGroupMembers()
+    {
+        $this->sendToAllGroupMembers = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendToDistributionList
      *
-     * @ElementName sendToDistributionList
-     * @return string|null
+     * @return string
      */
     public function getSendToDistributionList()
     {
-        return $this->sendToDistributionList;
+        return $this->sendToDistributionList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendToDistributionList;
     }
 
     /**
      * Setter for sendToDistributionList
      *
-     * @ElementName sendToDistributionList
-     * @param string|null $sendToDistributionList
+     * @param string $sendToDistributionList
      * @return $this
      */
     public function setSendToDistributionList($sendToDistributionList)
@@ -135,21 +156,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendToDistributionList()
+    {
+        $this->sendToDistributionList = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeCurrentIntroductionOrMessage
      *
-     * @ElementName changeCurrentIntroductionOrMessage
-     * @return string|null
+     * @return string
      */
     public function getChangeCurrentIntroductionOrMessage()
     {
-        return $this->changeCurrentIntroductionOrMessage;
+        return $this->changeCurrentIntroductionOrMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeCurrentIntroductionOrMessage;
     }
 
     /**
      * Setter for changeCurrentIntroductionOrMessage
      *
-     * @ElementName changeCurrentIntroductionOrMessage
-     * @param string|null $changeCurrentIntroductionOrMessage
+     * @param string $changeCurrentIntroductionOrMessage
      * @return $this
      */
     public function setChangeCurrentIntroductionOrMessage($changeCurrentIntroductionOrMessage)
@@ -159,21 +187,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeCurrentIntroductionOrMessage()
+    {
+        $this->changeCurrentIntroductionOrMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for listenToCurrentIntroductionOrMessage
      *
-     * @ElementName listenToCurrentIntroductionOrMessage
-     * @return string|null
+     * @return string
      */
     public function getListenToCurrentIntroductionOrMessage()
     {
-        return $this->listenToCurrentIntroductionOrMessage;
+        return $this->listenToCurrentIntroductionOrMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentIntroductionOrMessage;
     }
 
     /**
      * Setter for listenToCurrentIntroductionOrMessage
      *
-     * @ElementName listenToCurrentIntroductionOrMessage
-     * @param string|null $listenToCurrentIntroductionOrMessage
+     * @param string $listenToCurrentIntroductionOrMessage
      * @return $this
      */
     public function setListenToCurrentIntroductionOrMessage($listenToCurrentIntroductionOrMessage)
@@ -183,21 +218,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListenToCurrentIntroductionOrMessage()
+    {
+        $this->listenToCurrentIntroductionOrMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for setOrClearUrgentIndicator
      *
-     * @ElementName setOrClearUrgentIndicator
-     * @return string|null
+     * @return string
      */
     public function getSetOrClearUrgentIndicator()
     {
-        return $this->setOrClearUrgentIndicator;
+        return $this->setOrClearUrgentIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setOrClearUrgentIndicator;
     }
 
     /**
      * Setter for setOrClearUrgentIndicator
      *
-     * @ElementName setOrClearUrgentIndicator
-     * @param string|null $setOrClearUrgentIndicator
+     * @param string $setOrClearUrgentIndicator
      * @return $this
      */
     public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator)
@@ -207,21 +249,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetOrClearUrgentIndicator()
+    {
+        $this->setOrClearUrgentIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for setOrClearConfidentialIndicator
      *
-     * @ElementName setOrClearConfidentialIndicator
-     * @return string|null
+     * @return string
      */
     public function getSetOrClearConfidentialIndicator()
     {
-        return $this->setOrClearConfidentialIndicator;
+        return $this->setOrClearConfidentialIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setOrClearConfidentialIndicator;
     }
 
     /**
      * Setter for setOrClearConfidentialIndicator
      *
-     * @ElementName setOrClearConfidentialIndicator
-     * @param string|null $setOrClearConfidentialIndicator
+     * @param string $setOrClearConfidentialIndicator
      * @return $this
      */
     public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator)
@@ -231,21 +280,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetOrClearConfidentialIndicator()
+    {
+        $this->setOrClearConfidentialIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -255,26 +311,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMess
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

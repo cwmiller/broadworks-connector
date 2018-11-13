@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterReportTimeFormat AM_PM()
  * @method static CallCenterReportTimeFormat _24HOUR()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportTimeFormat extends \MyCLabs\Enum\Enum
 {

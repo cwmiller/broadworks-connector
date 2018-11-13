@@ -14,12 +14,14 @@ class SystemSelectiveServicesGetResponse18sp1 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName scheduleCombination
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
     private $scheduleCombination = null;
 
     /**
      * @ElementName screenPrivateNumber
+     * @Type bool
      * @var bool|null
      */
     private $screenPrivateNumber = null;
@@ -27,19 +29,17 @@ class SystemSelectiveServicesGetResponse18sp1 extends \CWM\BroadWorksConnector\O
     /**
      * Getter for scheduleCombination
      *
-     * @ElementName scheduleCombination
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
      */
     public function getScheduleCombination()
     {
-        return $this->scheduleCombination;
+        return $this->scheduleCombination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleCombination;
     }
 
     /**
      * Setter for scheduleCombination
      *
-     * @ElementName scheduleCombination
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null $scheduleCombination
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType $scheduleCombination
      * @return $this
      */
     public function setScheduleCombination(\CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType $scheduleCombination)
@@ -49,26 +49,42 @@ class SystemSelectiveServicesGetResponse18sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleCombination()
+    {
+        $this->scheduleCombination = null;
+        return $this;
+    }
+
+    /**
      * Getter for screenPrivateNumber
      *
-     * @ElementName screenPrivateNumber
-     * @return bool|null
+     * @return bool
      */
     public function getScreenPrivateNumber()
     {
-        return $this->screenPrivateNumber;
+        return $this->screenPrivateNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->screenPrivateNumber;
     }
 
     /**
      * Setter for screenPrivateNumber
      *
-     * @ElementName screenPrivateNumber
-     * @param bool|null $screenPrivateNumber
+     * @param bool $screenPrivateNumber
      * @return $this
      */
     public function setScreenPrivateNumber($screenPrivateNumber)
     {
         $this->screenPrivateNumber = $screenPrivateNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScreenPrivateNumber()
+    {
+        $this->screenPrivateNumber = null;
         return $this;
     }
 

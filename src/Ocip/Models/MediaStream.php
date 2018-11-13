@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static MediaStream DUAL()
  * @method static MediaStream SINGLE()
- * @ValueType string
+ * @EnumValueType string
  */
 class MediaStream extends \MyCLabs\Enum\Enum
 {

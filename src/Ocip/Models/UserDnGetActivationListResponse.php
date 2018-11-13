@@ -19,6 +19,7 @@ class UserDnGetActivationListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName dnTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;
@@ -26,24 +27,31 @@ class UserDnGetActivationListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for dnTable
      *
-     * @ElementName dnTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDnTable()
     {
-        return $this->dnTable;
+        return $this->dnTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnTable;
     }
 
     /**
      * Setter for dnTable
      *
-     * @ElementName dnTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dnTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnTable
      * @return $this
      */
     public function setDnTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnTable)
     {
         $this->dnTable = $dnTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDnTable()
+    {
+        $this->dnTable = null;
         return $this;
     }
 

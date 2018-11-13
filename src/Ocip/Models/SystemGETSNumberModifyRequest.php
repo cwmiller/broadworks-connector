@@ -16,18 +16,21 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName number
+     * @Type string
      * @var string|null
      */
     private $number = null;
 
     /**
      * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType|null
      */
     private $type = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,19 +39,17 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for number
      *
-     * @ElementName number
-     * @return string|null
+     * @return string
      */
     public function getNumber()
     {
-        return $this->number;
+        return $this->number instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->number;
     }
 
     /**
      * Setter for number
      *
-     * @ElementName number
-     * @param string|null $number
+     * @param string $number
      * @return $this
      */
     public function setNumber($number)
@@ -58,21 +59,28 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumber()
+    {
+        $this->number = null;
+        return $this;
+    }
+
+    /**
      * Getter for type
      *
-     * @ElementName type
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType
      */
     public function getType()
     {
-        return $this->type;
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
     }
 
     /**
      * Setter for type
      *
-     * @ElementName type
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GETSNumberType $type
      * @return $this
      */
     public function setType(\CWM\BroadWorksConnector\Ocip\Models\GETSNumberType $type)
@@ -82,28 +90,46 @@ class SystemGETSNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

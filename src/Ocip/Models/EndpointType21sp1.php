@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EndpointType21sp1 MUSIC_ON_HOLD_INTERNAL()
  * @method static EndpointType21sp1 FLEXIBLE_SEATING_GUEST()
  * @method static EndpointType21sp1 MOBILITY()
- * @ValueType string
+ * @EnumValueType string
  */
 class EndpointType21sp1 extends \MyCLabs\Enum\Enum
 {

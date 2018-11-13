@@ -23,6 +23,7 @@ class GroupAutoAttendantGetInstanceListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName autoAttendantTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $autoAttendantTable = null;
@@ -30,24 +31,31 @@ class GroupAutoAttendantGetInstanceListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for autoAttendantTable
      *
-     * @ElementName autoAttendantTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAutoAttendantTable()
     {
-        return $this->autoAttendantTable;
+        return $this->autoAttendantTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->autoAttendantTable;
     }
 
     /**
      * Setter for autoAttendantTable
      *
-     * @ElementName autoAttendantTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $autoAttendantTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $autoAttendantTable
      * @return $this
      */
     public function setAutoAttendantTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $autoAttendantTable)
     {
         $this->autoAttendantTable = $autoAttendantTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAutoAttendantTable()
+    {
+        $this->autoAttendantTable = null;
         return $this;
     }
 

@@ -16,48 +16,56 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName announcementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
     /**
      * @ElementName audioFileDescription
+     * @Type string
      * @var string|null
      */
     private $audioFileDescription = null;
 
     /**
      * @ElementName videoFileDescription
+     * @Type string
      * @var string|null
      */
     private $videoFileDescription = null;
 
     /**
      * @ElementName playNewPhoneNumber
+     * @Type bool
      * @var bool|null
      */
     private $playNewPhoneNumber = null;
 
     /**
      * @ElementName newPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $newPhoneNumber = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
+     * @Type bool
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -65,19 +73,17 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -87,21 +93,28 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementSelection
      *
-     * @ElementName announcementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      */
     public function getAnnouncementSelection()
     {
-        return $this->announcementSelection;
+        return $this->announcementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementSelection;
     }
 
     /**
      * Setter for announcementSelection
      *
-     * @ElementName announcementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection
      * @return $this
      */
     public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
@@ -111,21 +124,28 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementSelection()
+    {
+        $this->announcementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @return string|null
+     * @return string
      */
     public function getAudioFileDescription()
     {
-        return $this->audioFileDescription;
+        return $this->audioFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileDescription;
     }
 
     /**
      * Setter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @param string|null $audioFileDescription
+     * @param string $audioFileDescription
      * @return $this
      */
     public function setAudioFileDescription($audioFileDescription)
@@ -135,21 +155,28 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileDescription()
+    {
+        $this->audioFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVideoFileDescription()
     {
-        return $this->videoFileDescription;
+        return $this->videoFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileDescription;
     }
 
     /**
      * Setter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @param string|null $videoFileDescription
+     * @param string $videoFileDescription
      * @return $this
      */
     public function setVideoFileDescription($videoFileDescription)
@@ -159,21 +186,28 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFileDescription()
+    {
+        $this->videoFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for playNewPhoneNumber
      *
-     * @ElementName playNewPhoneNumber
-     * @return bool|null
+     * @return bool
      */
     public function getPlayNewPhoneNumber()
     {
-        return $this->playNewPhoneNumber;
+        return $this->playNewPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playNewPhoneNumber;
     }
 
     /**
      * Setter for playNewPhoneNumber
      *
-     * @ElementName playNewPhoneNumber
-     * @param bool|null $playNewPhoneNumber
+     * @param bool $playNewPhoneNumber
      * @return $this
      */
     public function setPlayNewPhoneNumber($playNewPhoneNumber)
@@ -183,21 +217,28 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayNewPhoneNumber()
+    {
+        $this->playNewPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for newPhoneNumber
      *
-     * @ElementName newPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getNewPhoneNumber()
     {
-        return $this->newPhoneNumber;
+        return $this->newPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newPhoneNumber;
     }
 
     /**
      * Setter for newPhoneNumber
      *
-     * @ElementName newPhoneNumber
-     * @param string|null $newPhoneNumber
+     * @param string $newPhoneNumber
      * @return $this
      */
     public function setNewPhoneNumber($newPhoneNumber)
@@ -207,21 +248,28 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewPhoneNumber()
+    {
+        $this->newPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferOnZeroToPhoneNumber
      *
-     * @ElementName transferOnZeroToPhoneNumber
-     * @return bool|null
+     * @return bool
      */
     public function getTransferOnZeroToPhoneNumber()
     {
-        return $this->transferOnZeroToPhoneNumber;
+        return $this->transferOnZeroToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferOnZeroToPhoneNumber;
     }
 
     /**
      * Setter for transferOnZeroToPhoneNumber
      *
-     * @ElementName transferOnZeroToPhoneNumber
-     * @param bool|null $transferOnZeroToPhoneNumber
+     * @param bool $transferOnZeroToPhoneNumber
      * @return $this
      */
     public function setTransferOnZeroToPhoneNumber($transferOnZeroToPhoneNumber)
@@ -231,26 +279,42 @@ class GroupInterceptGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransferOnZeroToPhoneNumber()
+    {
+        $this->transferOnZeroToPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @param string $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
     {
         $this->transferPhoneNumber = $transferPhoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
         return $this;
     }
 

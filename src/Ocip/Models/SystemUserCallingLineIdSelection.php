@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SystemUserCallingLineIdSelection ENABLE_ALL()
  * @method static SystemUserCallingLineIdSelection ENABLE_ALL_EXCEPT_EMERGENCY()
  * @method static SystemUserCallingLineIdSelection ENABLE_EMERGENCY_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class SystemUserCallingLineIdSelection extends \MyCLabs\Enum\Enum
 {

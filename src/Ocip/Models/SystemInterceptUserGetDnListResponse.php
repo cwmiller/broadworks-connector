@@ -15,6 +15,8 @@ class SystemInterceptUserGetDnListResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName interceptUserList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry[]
      */
     private $interceptUserList = array(
@@ -24,18 +26,16 @@ class SystemInterceptUserGetDnListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for interceptUserList
      *
-     * @ElementName interceptUserList
      * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry[]
      */
     public function getInterceptUserList()
     {
-        return $this->interceptUserList;
+        return $this->interceptUserList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interceptUserList;
     }
 
     /**
      * Setter for interceptUserList
      *
-     * @ElementName interceptUserList
      * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry[] $interceptUserList
      * @return $this
      */
@@ -46,15 +46,23 @@ class SystemInterceptUserGetDnListResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInterceptUserList()
+    {
+        $this->interceptUserList = null;
+        return $this;
+    }
+
+    /**
      * Adder for interceptUserList
      *
-     * @ElementName interceptUserList
      * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptDNListEntry $interceptUserList
      * @return $this
      */
     public function addInterceptUserList($interceptUserList)
     {
-        $this->interceptUserList []= $interceptUserList;
+        $this->interceptUserList[] = $interceptUserList;
         return $this;
     }
 

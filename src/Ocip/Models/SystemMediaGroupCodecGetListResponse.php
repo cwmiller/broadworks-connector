@@ -16,6 +16,7 @@ class SystemMediaGroupCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName codecTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $codecTable = null;
@@ -23,24 +24,31 @@ class SystemMediaGroupCodecGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for codecTable
      *
-     * @ElementName codecTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCodecTable()
     {
-        return $this->codecTable;
+        return $this->codecTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->codecTable;
     }
 
     /**
      * Setter for codecTable
      *
-     * @ElementName codecTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $codecTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $codecTable
      * @return $this
      */
     public function setCodecTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $codecTable)
     {
         $this->codecTable = $codecTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCodecTable()
+    {
+        $this->codecTable = null;
         return $this;
     }
 

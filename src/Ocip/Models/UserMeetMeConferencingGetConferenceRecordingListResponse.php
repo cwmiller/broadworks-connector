@@ -18,6 +18,7 @@ class UserMeetMeConferencingGetConferenceRecordingListResponse extends \CWM\Broa
 
     /**
      * @ElementName conferenceRecordingTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceRecordingTable = null;
@@ -25,24 +26,31 @@ class UserMeetMeConferencingGetConferenceRecordingListResponse extends \CWM\Broa
     /**
      * Getter for conferenceRecordingTable
      *
-     * @ElementName conferenceRecordingTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getConferenceRecordingTable()
     {
-        return $this->conferenceRecordingTable;
+        return $this->conferenceRecordingTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceRecordingTable;
     }
 
     /**
      * Setter for conferenceRecordingTable
      *
-     * @ElementName conferenceRecordingTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceRecordingTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceRecordingTable
      * @return $this
      */
     public function setConferenceRecordingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceRecordingTable)
     {
         $this->conferenceRecordingTable = $conferenceRecordingTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConferenceRecordingTable()
+    {
+        $this->conferenceRecordingTable = null;
         return $this;
     }
 

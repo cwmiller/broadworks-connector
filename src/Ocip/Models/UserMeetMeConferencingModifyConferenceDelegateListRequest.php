@@ -16,18 +16,21 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName conferenceKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     private $conferenceKey = null;
 
     /**
      * @ElementName conferenceDelegateUserList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,19 +39,17 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -58,21 +59,28 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceKey
      *
-     * @ElementName conferenceKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
      */
     public function getConferenceKey()
     {
-        return $this->conferenceKey;
+        return $this->conferenceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceKey;
     }
 
     /**
      * Setter for conferenceKey
      *
-     * @ElementName conferenceKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null $conferenceKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey $conferenceKey
      * @return $this
      */
     public function setConferenceKey(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey $conferenceKey)
@@ -82,28 +90,46 @@ class UserMeetMeConferencingModifyConferenceDelegateListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceKey()
+    {
+        $this->conferenceKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceDelegateUserList
      *
-     * @ElementName conferenceDelegateUserList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getConferenceDelegateUserList()
     {
-        return $this->conferenceDelegateUserList;
+        return $this->conferenceDelegateUserList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceDelegateUserList;
     }
 
     /**
      * Setter for conferenceDelegateUserList
      *
-     * @ElementName conferenceDelegateUserList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $conferenceDelegateUserList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $conferenceDelegateUserList
      * @return $this
      */
     public function setConferenceDelegateUserList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $conferenceDelegateUserList)
     {
-        $this->conferenceDelegateUserList = $conferenceDelegateUserList;
+        if ($conferenceDelegateUserList === null) {
+            $this->conferenceDelegateUserList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->conferenceDelegateUserList = $conferenceDelegateUserList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConferenceDelegateUserList()
+    {
+        $this->conferenceDelegateUserList = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class SystemGETSSessionPriorityMapDeleteRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName priorityLevel
+     * @Type int
      * @var int|null
      */
     private $priorityLevel = null;
@@ -23,24 +24,31 @@ class SystemGETSSessionPriorityMapDeleteRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for priorityLevel
      *
-     * @ElementName priorityLevel
-     * @return int|null
+     * @return int
      */
     public function getPriorityLevel()
     {
-        return $this->priorityLevel;
+        return $this->priorityLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priorityLevel;
     }
 
     /**
      * Setter for priorityLevel
      *
-     * @ElementName priorityLevel
-     * @param int|null $priorityLevel
+     * @param int $priorityLevel
      * @return $this
      */
     public function setPriorityLevel($priorityLevel)
     {
         $this->priorityLevel = $priorityLevel;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPriorityLevel()
+    {
+        $this->priorityLevel = null;
         return $this;
     }
 

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static VoiceMessagingNoAnswerGreetingSelection ALTERNATE01()
  * @method static VoiceMessagingNoAnswerGreetingSelection ALTERNATE02()
  * @method static VoiceMessagingNoAnswerGreetingSelection ALTERNATE03()
- * @ValueType string
+ * @EnumValueType string
  */
 class VoiceMessagingNoAnswerGreetingSelection extends \MyCLabs\Enum\Enum
 {

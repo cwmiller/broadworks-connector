@@ -16,30 +16,35 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName monitorMinutes
+     * @Type int
      * @var int|null
      */
     private $monitorMinutes = null;
 
     /**
      * @ElementName waitBetweenRetryOriginatorMinutes
+     * @Type int
      * @var int|null
      */
     private $waitBetweenRetryOriginatorMinutes = null;
 
     /**
      * @ElementName maxMonitorsPerOriginator
+     * @Type int
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
 
     /**
      * @ElementName maxCallbackRings
+     * @Type int
      * @var int|null
      */
     private $maxCallbackRings = null;
 
     /**
      * @ElementName maxRetryOriginatorMinutes
+     * @Type int
      * @var int|null
      */
     private $maxRetryOriginatorMinutes = null;
@@ -47,19 +52,17 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for monitorMinutes
      *
-     * @ElementName monitorMinutes
-     * @return int|null
+     * @return int
      */
     public function getMonitorMinutes()
     {
-        return $this->monitorMinutes;
+        return $this->monitorMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->monitorMinutes;
     }
 
     /**
      * Setter for monitorMinutes
      *
-     * @ElementName monitorMinutes
-     * @param int|null $monitorMinutes
+     * @param int $monitorMinutes
      * @return $this
      */
     public function setMonitorMinutes($monitorMinutes)
@@ -69,21 +72,28 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMonitorMinutes()
+    {
+        $this->monitorMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for waitBetweenRetryOriginatorMinutes
      *
-     * @ElementName waitBetweenRetryOriginatorMinutes
-     * @return int|null
+     * @return int
      */
     public function getWaitBetweenRetryOriginatorMinutes()
     {
-        return $this->waitBetweenRetryOriginatorMinutes;
+        return $this->waitBetweenRetryOriginatorMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->waitBetweenRetryOriginatorMinutes;
     }
 
     /**
      * Setter for waitBetweenRetryOriginatorMinutes
      *
-     * @ElementName waitBetweenRetryOriginatorMinutes
-     * @param int|null $waitBetweenRetryOriginatorMinutes
+     * @param int $waitBetweenRetryOriginatorMinutes
      * @return $this
      */
     public function setWaitBetweenRetryOriginatorMinutes($waitBetweenRetryOriginatorMinutes)
@@ -93,21 +103,28 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetWaitBetweenRetryOriginatorMinutes()
+    {
+        $this->waitBetweenRetryOriginatorMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxMonitorsPerOriginator
      *
-     * @ElementName maxMonitorsPerOriginator
-     * @return int|null
+     * @return int
      */
     public function getMaxMonitorsPerOriginator()
     {
-        return $this->maxMonitorsPerOriginator;
+        return $this->maxMonitorsPerOriginator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxMonitorsPerOriginator;
     }
 
     /**
      * Setter for maxMonitorsPerOriginator
      *
-     * @ElementName maxMonitorsPerOriginator
-     * @param int|null $maxMonitorsPerOriginator
+     * @param int $maxMonitorsPerOriginator
      * @return $this
      */
     public function setMaxMonitorsPerOriginator($maxMonitorsPerOriginator)
@@ -117,21 +134,28 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxMonitorsPerOriginator()
+    {
+        $this->maxMonitorsPerOriginator = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCallbackRings
      *
-     * @ElementName maxCallbackRings
-     * @return int|null
+     * @return int
      */
     public function getMaxCallbackRings()
     {
-        return $this->maxCallbackRings;
+        return $this->maxCallbackRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCallbackRings;
     }
 
     /**
      * Setter for maxCallbackRings
      *
-     * @ElementName maxCallbackRings
-     * @param int|null $maxCallbackRings
+     * @param int $maxCallbackRings
      * @return $this
      */
     public function setMaxCallbackRings($maxCallbackRings)
@@ -141,26 +165,42 @@ class SystemAutomaticCallbackGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxCallbackRings()
+    {
+        $this->maxCallbackRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxRetryOriginatorMinutes
      *
-     * @ElementName maxRetryOriginatorMinutes
-     * @return int|null
+     * @return int
      */
     public function getMaxRetryOriginatorMinutes()
     {
-        return $this->maxRetryOriginatorMinutes;
+        return $this->maxRetryOriginatorMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxRetryOriginatorMinutes;
     }
 
     /**
      * Setter for maxRetryOriginatorMinutes
      *
-     * @ElementName maxRetryOriginatorMinutes
-     * @param int|null $maxRetryOriginatorMinutes
+     * @param int $maxRetryOriginatorMinutes
      * @return $this
      */
     public function setMaxRetryOriginatorMinutes($maxRetryOriginatorMinutes)
     {
         $this->maxRetryOriginatorMinutes = $maxRetryOriginatorMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxRetryOriginatorMinutes()
+    {
+        $this->maxRetryOriginatorMinutes = null;
         return $this;
     }
 

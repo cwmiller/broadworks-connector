@@ -16,12 +16,14 @@ class SystemNumberPortabilityQueryStatusAddRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName status
+     * @Type string
      * @var string|null
      */
     private $status = null;
 
     /**
      * @ElementName treatmentFileName
+     * @Type string
      * @var string|null
      */
     private $treatmentFileName = null;
@@ -29,19 +31,17 @@ class SystemNumberPortabilityQueryStatusAddRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for status
      *
-     * @ElementName status
-     * @return string|null
+     * @return string
      */
     public function getStatus()
     {
-        return $this->status;
+        return $this->status instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->status;
     }
 
     /**
      * Setter for status
      *
-     * @ElementName status
-     * @param string|null $status
+     * @param string $status
      * @return $this
      */
     public function setStatus($status)
@@ -51,26 +51,42 @@ class SystemNumberPortabilityQueryStatusAddRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatus()
+    {
+        $this->status = null;
+        return $this;
+    }
+
+    /**
      * Getter for treatmentFileName
      *
-     * @ElementName treatmentFileName
-     * @return string|null
+     * @return string
      */
     public function getTreatmentFileName()
     {
-        return $this->treatmentFileName;
+        return $this->treatmentFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentFileName;
     }
 
     /**
      * Setter for treatmentFileName
      *
-     * @ElementName treatmentFileName
-     * @param string|null $treatmentFileName
+     * @param string $treatmentFileName
      * @return $this
      */
     public function setTreatmentFileName($treatmentFileName)
     {
         $this->treatmentFileName = $treatmentFileName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentFileName()
+    {
+        $this->treatmentFileName = null;
         return $this;
     }
 

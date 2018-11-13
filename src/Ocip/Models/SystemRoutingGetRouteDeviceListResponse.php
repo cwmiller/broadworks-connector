@@ -16,6 +16,7 @@ class SystemRoutingGetRouteDeviceListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName routeDeviceTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routeDeviceTable = null;
@@ -23,24 +24,31 @@ class SystemRoutingGetRouteDeviceListResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for routeDeviceTable
      *
-     * @ElementName routeDeviceTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRouteDeviceTable()
     {
-        return $this->routeDeviceTable;
+        return $this->routeDeviceTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeDeviceTable;
     }
 
     /**
      * Setter for routeDeviceTable
      *
-     * @ElementName routeDeviceTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routeDeviceTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routeDeviceTable
      * @return $this
      */
     public function setRouteDeviceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routeDeviceTable)
     {
         $this->routeDeviceTable = $routeDeviceTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRouteDeviceTable()
+    {
+        $this->routeDeviceTable = null;
         return $this;
     }
 

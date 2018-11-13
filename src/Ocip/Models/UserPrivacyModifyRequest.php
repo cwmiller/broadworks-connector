@@ -17,36 +17,42 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName enableDirectoryPrivacy
+     * @Type bool
      * @var bool|null
      */
     private $enableDirectoryPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
+     * @Type bool
      * @var bool|null
      */
     private $enableAutoAttendantExtensionDialingPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantNameDialingPrivacy
+     * @Type bool
      * @var bool|null
      */
     private $enableAutoAttendantNameDialingPrivacy = null;
 
     /**
      * @ElementName enablePhoneStatusPrivacy
+     * @Type bool
      * @var bool|null
      */
     private $enablePhoneStatusPrivacy = null;
 
     /**
      * @ElementName permittedMonitorUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -55,19 +61,17 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -77,21 +81,28 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableDirectoryPrivacy
      *
-     * @ElementName enableDirectoryPrivacy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDirectoryPrivacy()
     {
-        return $this->enableDirectoryPrivacy;
+        return $this->enableDirectoryPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDirectoryPrivacy;
     }
 
     /**
      * Setter for enableDirectoryPrivacy
      *
-     * @ElementName enableDirectoryPrivacy
-     * @param bool|null $enableDirectoryPrivacy
+     * @param bool $enableDirectoryPrivacy
      * @return $this
      */
     public function setEnableDirectoryPrivacy($enableDirectoryPrivacy)
@@ -101,21 +112,28 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableDirectoryPrivacy()
+    {
+        $this->enableDirectoryPrivacy = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutoAttendantExtensionDialingPrivacy
      *
-     * @ElementName enableAutoAttendantExtensionDialingPrivacy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutoAttendantExtensionDialingPrivacy()
     {
-        return $this->enableAutoAttendantExtensionDialingPrivacy;
+        return $this->enableAutoAttendantExtensionDialingPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutoAttendantExtensionDialingPrivacy;
     }
 
     /**
      * Setter for enableAutoAttendantExtensionDialingPrivacy
      *
-     * @ElementName enableAutoAttendantExtensionDialingPrivacy
-     * @param bool|null $enableAutoAttendantExtensionDialingPrivacy
+     * @param bool $enableAutoAttendantExtensionDialingPrivacy
      * @return $this
      */
     public function setEnableAutoAttendantExtensionDialingPrivacy($enableAutoAttendantExtensionDialingPrivacy)
@@ -125,21 +143,28 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAutoAttendantExtensionDialingPrivacy()
+    {
+        $this->enableAutoAttendantExtensionDialingPrivacy = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutoAttendantNameDialingPrivacy
      *
-     * @ElementName enableAutoAttendantNameDialingPrivacy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutoAttendantNameDialingPrivacy()
     {
-        return $this->enableAutoAttendantNameDialingPrivacy;
+        return $this->enableAutoAttendantNameDialingPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutoAttendantNameDialingPrivacy;
     }
 
     /**
      * Setter for enableAutoAttendantNameDialingPrivacy
      *
-     * @ElementName enableAutoAttendantNameDialingPrivacy
-     * @param bool|null $enableAutoAttendantNameDialingPrivacy
+     * @param bool $enableAutoAttendantNameDialingPrivacy
      * @return $this
      */
     public function setEnableAutoAttendantNameDialingPrivacy($enableAutoAttendantNameDialingPrivacy)
@@ -149,21 +174,28 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAutoAttendantNameDialingPrivacy()
+    {
+        $this->enableAutoAttendantNameDialingPrivacy = null;
+        return $this;
+    }
+
+    /**
      * Getter for enablePhoneStatusPrivacy
      *
-     * @ElementName enablePhoneStatusPrivacy
-     * @return bool|null
+     * @return bool
      */
     public function getEnablePhoneStatusPrivacy()
     {
-        return $this->enablePhoneStatusPrivacy;
+        return $this->enablePhoneStatusPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enablePhoneStatusPrivacy;
     }
 
     /**
      * Setter for enablePhoneStatusPrivacy
      *
-     * @ElementName enablePhoneStatusPrivacy
-     * @param bool|null $enablePhoneStatusPrivacy
+     * @param bool $enablePhoneStatusPrivacy
      * @return $this
      */
     public function setEnablePhoneStatusPrivacy($enablePhoneStatusPrivacy)
@@ -173,28 +205,46 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnablePhoneStatusPrivacy()
+    {
+        $this->enablePhoneStatusPrivacy = null;
+        return $this;
+    }
+
+    /**
      * Getter for permittedMonitorUserIdList
      *
-     * @ElementName permittedMonitorUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getPermittedMonitorUserIdList()
     {
-        return $this->permittedMonitorUserIdList;
+        return $this->permittedMonitorUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->permittedMonitorUserIdList;
     }
 
     /**
      * Setter for permittedMonitorUserIdList
      *
-     * @ElementName permittedMonitorUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $permittedMonitorUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $permittedMonitorUserIdList
      * @return $this
      */
     public function setPermittedMonitorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $permittedMonitorUserIdList)
     {
-        $this->permittedMonitorUserIdList = $permittedMonitorUserIdList;
+        if ($permittedMonitorUserIdList === null) {
+            $this->permittedMonitorUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->permittedMonitorUserIdList = $permittedMonitorUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPermittedMonitorUserIdList()
+    {
+        $this->permittedMonitorUserIdList = null;
         return $this;
     }
 

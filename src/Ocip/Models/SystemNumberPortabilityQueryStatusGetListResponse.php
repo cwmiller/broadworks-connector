@@ -16,6 +16,7 @@ class SystemNumberPortabilityQueryStatusGetListResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName statusTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $statusTable = null;
@@ -23,24 +24,31 @@ class SystemNumberPortabilityQueryStatusGetListResponse extends \CWM\BroadWorksC
     /**
      * Getter for statusTable
      *
-     * @ElementName statusTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getStatusTable()
     {
-        return $this->statusTable;
+        return $this->statusTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statusTable;
     }
 
     /**
      * Setter for statusTable
      *
-     * @ElementName statusTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $statusTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $statusTable
      * @return $this
      */
     public function setStatusTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $statusTable)
     {
         $this->statusTable = $statusTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatusTable()
+    {
+        $this->statusTable = null;
         return $this;
     }
 

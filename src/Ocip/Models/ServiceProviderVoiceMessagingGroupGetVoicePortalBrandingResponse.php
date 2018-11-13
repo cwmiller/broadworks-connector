@@ -17,24 +17,28 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
 
     /**
      * @ElementName voicePortalGreetingSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
 
     /**
      * @ElementName voicePortalGreetingFileDescription
+     * @Type string
      * @var string|null
      */
     private $voicePortalGreetingFileDescription = null;
 
     /**
      * @ElementName voiceMessagingGreetingSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
 
     /**
      * @ElementName voiceMessagingGreetingFileDescription
+     * @Type string
      * @var string|null
      */
     private $voiceMessagingGreetingFileDescription = null;
@@ -42,19 +46,17 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
     /**
      * Getter for voicePortalGreetingSelection
      *
-     * @ElementName voicePortalGreetingSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      */
     public function getVoicePortalGreetingSelection()
     {
-        return $this->voicePortalGreetingSelection;
+        return $this->voicePortalGreetingSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalGreetingSelection;
     }
 
     /**
      * Setter for voicePortalGreetingSelection
      *
-     * @ElementName voicePortalGreetingSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voicePortalGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voicePortalGreetingSelection
      * @return $this
      */
     public function setVoicePortalGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voicePortalGreetingSelection)
@@ -64,21 +66,28 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalGreetingSelection()
+    {
+        $this->voicePortalGreetingSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalGreetingFileDescription
      *
-     * @ElementName voicePortalGreetingFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVoicePortalGreetingFileDescription()
     {
-        return $this->voicePortalGreetingFileDescription;
+        return $this->voicePortalGreetingFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalGreetingFileDescription;
     }
 
     /**
      * Setter for voicePortalGreetingFileDescription
      *
-     * @ElementName voicePortalGreetingFileDescription
-     * @param string|null $voicePortalGreetingFileDescription
+     * @param string $voicePortalGreetingFileDescription
      * @return $this
      */
     public function setVoicePortalGreetingFileDescription($voicePortalGreetingFileDescription)
@@ -88,21 +97,28 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalGreetingFileDescription()
+    {
+        $this->voicePortalGreetingFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessagingGreetingSelection
      *
-     * @ElementName voiceMessagingGreetingSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      */
     public function getVoiceMessagingGreetingSelection()
     {
-        return $this->voiceMessagingGreetingSelection;
+        return $this->voiceMessagingGreetingSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessagingGreetingSelection;
     }
 
     /**
      * Setter for voiceMessagingGreetingSelection
      *
-     * @ElementName voiceMessagingGreetingSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voiceMessagingGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voiceMessagingGreetingSelection
      * @return $this
      */
     public function setVoiceMessagingGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voiceMessagingGreetingSelection)
@@ -112,26 +128,42 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessagingGreetingSelection()
+    {
+        $this->voiceMessagingGreetingSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessagingGreetingFileDescription
      *
-     * @ElementName voiceMessagingGreetingFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVoiceMessagingGreetingFileDescription()
     {
-        return $this->voiceMessagingGreetingFileDescription;
+        return $this->voiceMessagingGreetingFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessagingGreetingFileDescription;
     }
 
     /**
      * Setter for voiceMessagingGreetingFileDescription
      *
-     * @ElementName voiceMessagingGreetingFileDescription
-     * @param string|null $voiceMessagingGreetingFileDescription
+     * @param string $voiceMessagingGreetingFileDescription
      * @return $this
      */
     public function setVoiceMessagingGreetingFileDescription($voiceMessagingGreetingFileDescription)
     {
         $this->voiceMessagingGreetingFileDescription = $voiceMessagingGreetingFileDescription;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoiceMessagingGreetingFileDescription()
+    {
+        $this->voiceMessagingGreetingFileDescription = null;
         return $this;
     }
 

@@ -17,6 +17,7 @@ class SystemBCCTDeleteOCIInterfaceAddressRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName interfaceNetAddress
+     * @Type string
      * @var string|null
      */
     private $interfaceNetAddress = null;
@@ -24,24 +25,31 @@ class SystemBCCTDeleteOCIInterfaceAddressRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for interfaceNetAddress
      *
-     * @ElementName interfaceNetAddress
-     * @return string|null
+     * @return string
      */
     public function getInterfaceNetAddress()
     {
-        return $this->interfaceNetAddress;
+        return $this->interfaceNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interfaceNetAddress;
     }
 
     /**
      * Setter for interfaceNetAddress
      *
-     * @ElementName interfaceNetAddress
-     * @param string|null $interfaceNetAddress
+     * @param string $interfaceNetAddress
      * @return $this
      */
     public function setInterfaceNetAddress($interfaceNetAddress)
     {
         $this->interfaceNetAddress = $interfaceNetAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInterfaceNetAddress()
+    {
+        $this->interfaceNetAddress = null;
         return $this;
     }
 

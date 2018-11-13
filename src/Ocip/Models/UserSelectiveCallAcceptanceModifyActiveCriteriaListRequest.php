@@ -16,12 +16,15 @@ class UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest extends \CWM\Br
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName criteriaActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(
@@ -31,19 +34,17 @@ class UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest extends \CWM\Br
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     public function getCriteriaActivation()
     {
-        return $this->criteriaActivation;
+        return $this->criteriaActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaActivation;
     }
 
     /**
      * Setter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserSelectiveCallAcceptanceModifyActiveCriteriaListRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaActivation()
+    {
+        $this->criteriaActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation $criteriaActivation
      * @return $this
      */
     public function addCriteriaActivation($criteriaActivation)
     {
-        $this->criteriaActivation []= $criteriaActivation;
+        $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
 

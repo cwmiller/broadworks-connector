@@ -18,12 +18,14 @@ class ServiceProviderIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName useSystemServiceDomain
+     * @Type bool
      * @var bool|null
      */
     private $useSystemServiceDomain = null;
 
     /**
      * @ElementName serviceDomain
+     * @Type string
      * @var string|null
      */
     private $serviceDomain = null;
@@ -31,19 +33,17 @@ class ServiceProviderIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for useSystemServiceDomain
      *
-     * @ElementName useSystemServiceDomain
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemServiceDomain()
     {
-        return $this->useSystemServiceDomain;
+        return $this->useSystemServiceDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemServiceDomain;
     }
 
     /**
      * Setter for useSystemServiceDomain
      *
-     * @ElementName useSystemServiceDomain
-     * @param bool|null $useSystemServiceDomain
+     * @param bool $useSystemServiceDomain
      * @return $this
      */
     public function setUseSystemServiceDomain($useSystemServiceDomain)
@@ -53,26 +53,42 @@ class ServiceProviderIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemServiceDomain()
+    {
+        $this->useSystemServiceDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @return string|null
+     * @return string
      */
     public function getServiceDomain()
     {
-        return $this->serviceDomain;
+        return $this->serviceDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceDomain;
     }
 
     /**
      * Setter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @param string|null $serviceDomain
+     * @param string $serviceDomain
      * @return $this
      */
     public function setServiceDomain($serviceDomain)
     {
         $this->serviceDomain = $serviceDomain;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceDomain()
+    {
+        $this->serviceDomain = null;
         return $this;
     }
 

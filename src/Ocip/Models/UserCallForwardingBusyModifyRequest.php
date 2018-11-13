@@ -17,18 +17,21 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,19 +40,17 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -59,21 +60,28 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -83,28 +91,46 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getForwardToPhoneNumber()
     {
-        return $this->forwardToPhoneNumber;
+        return $this->forwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardToPhoneNumber;
     }
 
     /**
      * Setter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardToPhoneNumber
+     * @param string|null $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
     {
-        $this->forwardToPhoneNumber = $forwardToPhoneNumber;
+        if ($forwardToPhoneNumber === null) {
+            $this->forwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->forwardToPhoneNumber = $forwardToPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForwardToPhoneNumber()
+    {
+        $this->forwardToPhoneNumber = null;
         return $this;
     }
 

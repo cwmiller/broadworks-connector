@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServicePackMigrationTaskStatus TERMINATED()
  * @method static ServicePackMigrationTaskStatus STOPPED_BY_SYSTEM()
  * @method static ServicePackMigrationTaskStatus COMPLETED()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServicePackMigrationTaskStatus extends \MyCLabs\Enum\Enum
 {

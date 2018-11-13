@@ -20,6 +20,7 @@ class GroupAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
 
     /**
      * @ElementName groupAdminTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupAdminTable = null;
@@ -27,24 +28,31 @@ class GroupAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * Getter for groupAdminTable
      *
-     * @ElementName groupAdminTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getGroupAdminTable()
     {
-        return $this->groupAdminTable;
+        return $this->groupAdminTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminTable;
     }
 
     /**
      * Setter for groupAdminTable
      *
-     * @ElementName groupAdminTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupAdminTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupAdminTable
      * @return $this
      */
     public function setGroupAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupAdminTable)
     {
         $this->groupAdminTable = $groupAdminTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupAdminTable()
+    {
+        $this->groupAdminTable = null;
         return $this;
     }
 

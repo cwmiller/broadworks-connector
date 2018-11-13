@@ -15,6 +15,7 @@ class SystemGeographicRedundancyProxyGetResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName enabled
+     * @Type bool
      * @var bool|null
      */
     private $enabled = null;
@@ -22,24 +23,31 @@ class SystemGeographicRedundancyProxyGetResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for enabled
      *
-     * @ElementName enabled
-     * @return bool|null
+     * @return bool
      */
     public function getEnabled()
     {
-        return $this->enabled;
+        return $this->enabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enabled;
     }
 
     /**
      * Setter for enabled
      *
-     * @ElementName enabled
-     * @param bool|null $enabled
+     * @param bool $enabled
      * @return $this
      */
     public function setEnabled($enabled)
     {
         $this->enabled = $enabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnabled()
+    {
+        $this->enabled = null;
         return $this;
     }
 

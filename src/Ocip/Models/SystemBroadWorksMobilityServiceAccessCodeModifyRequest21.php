@@ -16,24 +16,28 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
 
     /**
      * @ElementName serviceAccessCodeListName
+     * @Type string
      * @var string|null
      */
     private $serviceAccessCodeListName = null;
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
 
     /**
      * @ElementName serviceAccessCode
+     * @Type string
      * @var string|null
      */
     private $serviceAccessCode = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -42,19 +46,17 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
     /**
      * Getter for serviceAccessCodeListName
      *
-     * @ElementName serviceAccessCodeListName
-     * @return string|null
+     * @return string
      */
     public function getServiceAccessCodeListName()
     {
-        return $this->serviceAccessCodeListName;
+        return $this->serviceAccessCodeListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceAccessCodeListName;
     }
 
     /**
      * Setter for serviceAccessCodeListName
      *
-     * @ElementName serviceAccessCodeListName
-     * @param string|null $serviceAccessCodeListName
+     * @param string $serviceAccessCodeListName
      * @return $this
      */
     public function setServiceAccessCodeListName($serviceAccessCodeListName)
@@ -64,21 +66,28 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceAccessCodeListName()
+    {
+        $this->serviceAccessCodeListName = null;
+        return $this;
+    }
+
+    /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
@@ -88,21 +97,28 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceAccessCode
      *
-     * @ElementName serviceAccessCode
-     * @return string|null
+     * @return string
      */
     public function getServiceAccessCode()
     {
-        return $this->serviceAccessCode;
+        return $this->serviceAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceAccessCode;
     }
 
     /**
      * Setter for serviceAccessCode
      *
-     * @ElementName serviceAccessCode
-     * @param string|null $serviceAccessCode
+     * @param string $serviceAccessCode
      * @return $this
      */
     public function setServiceAccessCode($serviceAccessCode)
@@ -112,28 +128,46 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest21 extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceAccessCode()
+    {
+        $this->serviceAccessCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

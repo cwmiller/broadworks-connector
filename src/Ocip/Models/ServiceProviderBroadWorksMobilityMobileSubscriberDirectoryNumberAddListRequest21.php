@@ -18,18 +18,22 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName mobileNetworkName
+     * @Type string
      * @var string|null
      */
     private $mobileNetworkName = null;
 
     /**
      * @ElementName mobileSubscriberDirectoryNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(
@@ -39,19 +43,17 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -61,21 +63,28 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobileNetworkName
      *
-     * @ElementName mobileNetworkName
-     * @return string|null
+     * @return string
      */
     public function getMobileNetworkName()
     {
-        return $this->mobileNetworkName;
+        return $this->mobileNetworkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileNetworkName;
     }
 
     /**
      * Setter for mobileNetworkName
      *
-     * @ElementName mobileNetworkName
-     * @param string|null $mobileNetworkName
+     * @param string $mobileNetworkName
      * @return $this
      */
     public function setMobileNetworkName($mobileNetworkName)
@@ -85,20 +94,27 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileNetworkName()
+    {
+        $this->mobileNetworkName = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @return string[]
      */
     public function getMobileSubscriberDirectoryNumber()
     {
-        return $this->mobileSubscriberDirectoryNumber;
+        return $this->mobileSubscriberDirectoryNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileSubscriberDirectoryNumber;
     }
 
     /**
      * Setter for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @param string[] $mobileSubscriberDirectoryNumber
      * @return $this
      */
@@ -109,15 +125,23 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberAddListReq
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileSubscriberDirectoryNumber()
+    {
+        $this->mobileSubscriberDirectoryNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @param string $mobileSubscriberDirectoryNumber
      * @return $this
      */
     public function addMobileSubscriberDirectoryNumber(string $mobileSubscriberDirectoryNumber)
     {
-        $this->mobileSubscriberDirectoryNumber []= $mobileSubscriberDirectoryNumber;
+        $this->mobileSubscriberDirectoryNumber[] = $mobileSubscriberDirectoryNumber;
         return $this;
     }
 

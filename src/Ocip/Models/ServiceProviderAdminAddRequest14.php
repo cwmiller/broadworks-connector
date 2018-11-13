@@ -16,42 +16,49 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName firstName
+     * @Type string
      * @var string|null
      */
     private $firstName = null;
 
     /**
      * @ElementName lastName
+     * @Type string
      * @var string|null
      */
     private $lastName = null;
 
     /**
      * @ElementName password
+     * @Type string
      * @var string|null
      */
     private $password = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName administratorType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     private $administratorType = null;
@@ -59,19 +66,17 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -81,21 +86,28 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -105,21 +117,28 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @return string|null
+     * @return string
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @param string|null $firstName
+     * @param string $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -129,21 +148,28 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @return string|null
+     * @return string
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @param string|null $lastName
+     * @param string $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -153,21 +179,28 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for password
      *
-     * @ElementName password
-     * @return string|null
+     * @return string
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param string|null $password
+     * @param string $password
      * @return $this
      */
     public function setPassword($password)
@@ -177,21 +210,28 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -201,26 +241,42 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for administratorType
      *
-     * @ElementName administratorType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
      */
     public function getAdministratorType()
     {
-        return $this->administratorType;
+        return $this->administratorType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->administratorType;
     }
 
     /**
      * Setter for administratorType
      *
-     * @ElementName administratorType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null $administratorType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType $administratorType
      * @return $this
      */
     public function setAdministratorType(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType $administratorType)
     {
         $this->administratorType = $administratorType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAdministratorType()
+    {
+        $this->administratorType = null;
         return $this;
     }
 

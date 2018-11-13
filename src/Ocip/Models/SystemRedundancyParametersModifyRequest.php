@@ -16,12 +16,14 @@ class SystemRedundancyParametersModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName rollBackTimerMinutes
+     * @Type int
      * @var int|null
      */
     private $rollBackTimerMinutes = null;
 
     /**
      * @ElementName sendSipOptionMessageUponMigration
+     * @Type bool
      * @var bool|null
      */
     private $sendSipOptionMessageUponMigration = null;
@@ -29,19 +31,17 @@ class SystemRedundancyParametersModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for rollBackTimerMinutes
      *
-     * @ElementName rollBackTimerMinutes
-     * @return int|null
+     * @return int
      */
     public function getRollBackTimerMinutes()
     {
-        return $this->rollBackTimerMinutes;
+        return $this->rollBackTimerMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rollBackTimerMinutes;
     }
 
     /**
      * Setter for rollBackTimerMinutes
      *
-     * @ElementName rollBackTimerMinutes
-     * @param int|null $rollBackTimerMinutes
+     * @param int $rollBackTimerMinutes
      * @return $this
      */
     public function setRollBackTimerMinutes($rollBackTimerMinutes)
@@ -51,26 +51,42 @@ class SystemRedundancyParametersModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRollBackTimerMinutes()
+    {
+        $this->rollBackTimerMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendSipOptionMessageUponMigration
      *
-     * @ElementName sendSipOptionMessageUponMigration
-     * @return bool|null
+     * @return bool
      */
     public function getSendSipOptionMessageUponMigration()
     {
-        return $this->sendSipOptionMessageUponMigration;
+        return $this->sendSipOptionMessageUponMigration instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendSipOptionMessageUponMigration;
     }
 
     /**
      * Setter for sendSipOptionMessageUponMigration
      *
-     * @ElementName sendSipOptionMessageUponMigration
-     * @param bool|null $sendSipOptionMessageUponMigration
+     * @param bool $sendSipOptionMessageUponMigration
      * @return $this
      */
     public function setSendSipOptionMessageUponMigration($sendSipOptionMessageUponMigration)
     {
         $this->sendSipOptionMessageUponMigration = $sendSipOptionMessageUponMigration;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendSipOptionMessageUponMigration()
+    {
+        $this->sendSipOptionMessageUponMigration = null;
         return $this;
     }
 

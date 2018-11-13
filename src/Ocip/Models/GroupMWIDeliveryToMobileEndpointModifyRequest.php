@@ -19,24 +19,29 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName useSettingLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
      */
     private $useSettingLevel = null;
 
     /**
      * @ElementName templateActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
     private $templateActivation = array(
@@ -46,19 +51,17 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -68,21 +71,28 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -92,21 +102,28 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSettingLevel
      *
-     * @ElementName useSettingLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel
      */
     public function getUseSettingLevel()
     {
-        return $this->useSettingLevel;
+        return $this->useSettingLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSettingLevel;
     }
 
     /**
      * Setter for useSettingLevel
      *
-     * @ElementName useSettingLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel $useSettingLevel
      * @return $this
      */
     public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel $useSettingLevel)
@@ -116,20 +133,27 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSettingLevel()
+    {
+        $this->useSettingLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for templateActivation
      *
-     * @ElementName templateActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
     public function getTemplateActivation()
     {
-        return $this->templateActivation;
+        return $this->templateActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateActivation;
     }
 
     /**
      * Setter for templateActivation
      *
-     * @ElementName templateActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[] $templateActivation
      * @return $this
      */
@@ -140,15 +164,23 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTemplateActivation()
+    {
+        $this->templateActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for templateActivation
      *
-     * @ElementName templateActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation $templateActivation
      * @return $this
      */
     public function addTemplateActivation($templateActivation)
     {
-        $this->templateActivation []= $templateActivation;
+        $this->templateActivation[] = $templateActivation;
         return $this;
     }
 

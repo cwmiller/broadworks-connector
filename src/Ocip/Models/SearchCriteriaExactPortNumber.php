@@ -12,6 +12,7 @@ class SearchCriteriaExactPortNumber extends SearchCriteria
 
     /**
      * @ElementName port
+     * @Type int
      * @var int|null
      */
     private $port = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactPortNumber extends SearchCriteria
     /**
      * Getter for port
      *
-     * @ElementName port
-     * @return int|null
+     * @return int
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @param int|null $port
+     * @param int $port
      * @return $this
      */
     public function setPort($port)
     {
         $this->port = $port;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
         return $this;
     }
 

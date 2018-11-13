@@ -20,12 +20,14 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName isEnterprise
+     * @Type bool
      * @var bool|null
      */
     private $isEnterprise = null;
 
     /**
      * @ElementName defaultDomain
+     * @Type string
      * @var string|null
      */
     private $defaultDomain = null;
@@ -33,19 +35,17 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for isEnterprise
      *
-     * @ElementName isEnterprise
-     * @return bool|null
+     * @return bool
      */
     public function getIsEnterprise()
     {
-        return $this->isEnterprise;
+        return $this->isEnterprise instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isEnterprise;
     }
 
     /**
      * Setter for isEnterprise
      *
-     * @ElementName isEnterprise
-     * @param bool|null $isEnterprise
+     * @param bool $isEnterprise
      * @return $this
      */
     public function setIsEnterprise($isEnterprise)
@@ -55,26 +55,42 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsEnterprise()
+    {
+        $this->isEnterprise = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @return string|null
+     * @return string
      */
     public function getDefaultDomain()
     {
-        return $this->defaultDomain;
+        return $this->defaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultDomain;
     }
 
     /**
      * Setter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @param string|null $defaultDomain
+     * @param string $defaultDomain
      * @return $this
      */
     public function setDefaultDomain($defaultDomain)
     {
         $this->defaultDomain = $defaultDomain;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultDomain()
+    {
+        $this->defaultDomain = null;
         return $this;
     }
 

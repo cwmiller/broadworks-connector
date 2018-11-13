@@ -14,18 +14,21 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName maxNonPagedResponseSize
+     * @Type int
      * @var int|null
      */
     private $maxNonPagedResponseSize = null;
 
     /**
      * @ElementName eclQueryApplicationURL
+     * @Type string
      * @var string|null
      */
     private $eclQueryApplicationURL = null;
 
     /**
      * @ElementName eclQueryDataRepositoryURL
+     * @Type string
      * @var string|null
      */
     private $eclQueryDataRepositoryURL = null;
@@ -33,19 +36,17 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for maxNonPagedResponseSize
      *
-     * @ElementName maxNonPagedResponseSize
-     * @return int|null
+     * @return int
      */
     public function getMaxNonPagedResponseSize()
     {
-        return $this->maxNonPagedResponseSize;
+        return $this->maxNonPagedResponseSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxNonPagedResponseSize;
     }
 
     /**
      * Setter for maxNonPagedResponseSize
      *
-     * @ElementName maxNonPagedResponseSize
-     * @param int|null $maxNonPagedResponseSize
+     * @param int $maxNonPagedResponseSize
      * @return $this
      */
     public function setMaxNonPagedResponseSize($maxNonPagedResponseSize)
@@ -55,21 +56,28 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxNonPagedResponseSize()
+    {
+        $this->maxNonPagedResponseSize = null;
+        return $this;
+    }
+
+    /**
      * Getter for eclQueryApplicationURL
      *
-     * @ElementName eclQueryApplicationURL
-     * @return string|null
+     * @return string
      */
     public function getEclQueryApplicationURL()
     {
-        return $this->eclQueryApplicationURL;
+        return $this->eclQueryApplicationURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eclQueryApplicationURL;
     }
 
     /**
      * Setter for eclQueryApplicationURL
      *
-     * @ElementName eclQueryApplicationURL
-     * @param string|null $eclQueryApplicationURL
+     * @param string $eclQueryApplicationURL
      * @return $this
      */
     public function setEclQueryApplicationURL($eclQueryApplicationURL)
@@ -79,26 +87,42 @@ class SystemEnhancedCallLogsGetResponse22 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEclQueryApplicationURL()
+    {
+        $this->eclQueryApplicationURL = null;
+        return $this;
+    }
+
+    /**
      * Getter for eclQueryDataRepositoryURL
      *
-     * @ElementName eclQueryDataRepositoryURL
-     * @return string|null
+     * @return string
      */
     public function getEclQueryDataRepositoryURL()
     {
-        return $this->eclQueryDataRepositoryURL;
+        return $this->eclQueryDataRepositoryURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eclQueryDataRepositoryURL;
     }
 
     /**
      * Setter for eclQueryDataRepositoryURL
      *
-     * @ElementName eclQueryDataRepositoryURL
-     * @param string|null $eclQueryDataRepositoryURL
+     * @param string $eclQueryDataRepositoryURL
      * @return $this
      */
     public function setEclQueryDataRepositoryURL($eclQueryDataRepositoryURL)
     {
         $this->eclQueryDataRepositoryURL = $eclQueryDataRepositoryURL;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEclQueryDataRepositoryURL()
+    {
+        $this->eclQueryDataRepositoryURL = null;
         return $this;
     }
 

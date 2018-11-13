@@ -42,7 +42,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallBlockingService22 NUMBER_PORTABILITY()
  * @method static CallBlockingService22
  * MAXIMUM_CONCURRENT_TERMINATING_ALERTING_REQUESTS()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallBlockingService22 extends \MyCLabs\Enum\Enum
 {

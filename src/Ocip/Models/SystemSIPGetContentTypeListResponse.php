@@ -16,6 +16,7 @@ class SystemSIPGetContentTypeListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName contentTypeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $contentTypeTable = null;
@@ -23,24 +24,31 @@ class SystemSIPGetContentTypeListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for contentTypeTable
      *
-     * @ElementName contentTypeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getContentTypeTable()
     {
-        return $this->contentTypeTable;
+        return $this->contentTypeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contentTypeTable;
     }
 
     /**
      * Setter for contentTypeTable
      *
-     * @ElementName contentTypeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $contentTypeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $contentTypeTable
      * @return $this
      */
     public function setContentTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $contentTypeTable)
     {
         $this->contentTypeTable = $contentTypeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetContentTypeTable()
+    {
+        $this->contentTypeTable = null;
         return $this;
     }
 

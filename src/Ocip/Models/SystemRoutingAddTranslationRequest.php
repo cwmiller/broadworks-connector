@@ -16,12 +16,14 @@ class SystemRoutingAddTranslationRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName digits
+     * @Type string
      * @var string|null
      */
     private $digits = null;
 
     /**
      * @ElementName routeName
+     * @Type string
      * @var string|null
      */
     private $routeName = null;
@@ -29,19 +31,17 @@ class SystemRoutingAddTranslationRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for digits
      *
-     * @ElementName digits
-     * @return string|null
+     * @return string
      */
     public function getDigits()
     {
-        return $this->digits;
+        return $this->digits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digits;
     }
 
     /**
      * Setter for digits
      *
-     * @ElementName digits
-     * @param string|null $digits
+     * @param string $digits
      * @return $this
      */
     public function setDigits($digits)
@@ -51,26 +51,42 @@ class SystemRoutingAddTranslationRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigits()
+    {
+        $this->digits = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeName
      *
-     * @ElementName routeName
-     * @return string|null
+     * @return string
      */
     public function getRouteName()
     {
-        return $this->routeName;
+        return $this->routeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeName;
     }
 
     /**
      * Setter for routeName
      *
-     * @ElementName routeName
-     * @param string|null $routeName
+     * @param string $routeName
      * @return $this
      */
     public function setRouteName($routeName)
     {
         $this->routeName = $routeName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRouteName()
+    {
+        $this->routeName = null;
         return $this;
     }
 

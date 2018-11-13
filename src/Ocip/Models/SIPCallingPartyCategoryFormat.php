@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SIPCallingPartyCategoryFormat CPC()
  * @method static SIPCallingPartyCategoryFormat ISUP_OLI()
  * @method static SIPCallingPartyCategoryFormat CPC_GTD()
- * @ValueType string
+ * @EnumValueType string
  */
 class SIPCallingPartyCategoryFormat extends \MyCLabs\Enum\Enum
 {

@@ -12,12 +12,14 @@ class SendToAllGroupMembersMenuKeysModifyEntry
 
     /**
      * @ElementName confirmSendingToEntireGroup
+     * @Type string
      * @var string|null
      */
     private $confirmSendingToEntireGroup = null;
 
     /**
      * @ElementName cancelSendingToEntireGroup
+     * @Type string
      * @var string|null
      */
     private $cancelSendingToEntireGroup = null;
@@ -25,19 +27,17 @@ class SendToAllGroupMembersMenuKeysModifyEntry
     /**
      * Getter for confirmSendingToEntireGroup
      *
-     * @ElementName confirmSendingToEntireGroup
-     * @return string|null
+     * @return string
      */
     public function getConfirmSendingToEntireGroup()
     {
-        return $this->confirmSendingToEntireGroup;
+        return $this->confirmSendingToEntireGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmSendingToEntireGroup;
     }
 
     /**
      * Setter for confirmSendingToEntireGroup
      *
-     * @ElementName confirmSendingToEntireGroup
-     * @param string|null $confirmSendingToEntireGroup
+     * @param string $confirmSendingToEntireGroup
      * @return $this
      */
     public function setConfirmSendingToEntireGroup($confirmSendingToEntireGroup)
@@ -47,26 +47,42 @@ class SendToAllGroupMembersMenuKeysModifyEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfirmSendingToEntireGroup()
+    {
+        $this->confirmSendingToEntireGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for cancelSendingToEntireGroup
      *
-     * @ElementName cancelSendingToEntireGroup
-     * @return string|null
+     * @return string
      */
     public function getCancelSendingToEntireGroup()
     {
-        return $this->cancelSendingToEntireGroup;
+        return $this->cancelSendingToEntireGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cancelSendingToEntireGroup;
     }
 
     /**
      * Setter for cancelSendingToEntireGroup
      *
-     * @ElementName cancelSendingToEntireGroup
-     * @param string|null $cancelSendingToEntireGroup
+     * @param string $cancelSendingToEntireGroup
      * @return $this
      */
     public function setCancelSendingToEntireGroup($cancelSendingToEntireGroup)
     {
         $this->cancelSendingToEntireGroup = $cancelSendingToEntireGroup;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCancelSendingToEntireGroup()
+    {
+        $this->cancelSendingToEntireGroup = null;
         return $this;
     }
 

@@ -16,18 +16,21 @@ class SystemCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName enableLockout
+     * @Type bool
      * @var bool|null
      */
     private $enableLockout = null;
 
     /**
      * @ElementName maxNumberOfFailedAttempts
+     * @Type int
      * @var int|null
      */
     private $maxNumberOfFailedAttempts = null;
 
     /**
      * @ElementName lockoutMinutes
+     * @Type int
      * @var int|null
      */
     private $lockoutMinutes = null;
@@ -35,19 +38,17 @@ class SystemCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksCo
     /**
      * Getter for enableLockout
      *
-     * @ElementName enableLockout
-     * @return bool|null
+     * @return bool
      */
     public function getEnableLockout()
     {
-        return $this->enableLockout;
+        return $this->enableLockout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableLockout;
     }
 
     /**
      * Setter for enableLockout
      *
-     * @ElementName enableLockout
-     * @param bool|null $enableLockout
+     * @param bool $enableLockout
      * @return $this
      */
     public function setEnableLockout($enableLockout)
@@ -57,21 +58,28 @@ class SystemCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableLockout()
+    {
+        $this->enableLockout = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxNumberOfFailedAttempts
      *
-     * @ElementName maxNumberOfFailedAttempts
-     * @return int|null
+     * @return int
      */
     public function getMaxNumberOfFailedAttempts()
     {
-        return $this->maxNumberOfFailedAttempts;
+        return $this->maxNumberOfFailedAttempts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxNumberOfFailedAttempts;
     }
 
     /**
      * Setter for maxNumberOfFailedAttempts
      *
-     * @ElementName maxNumberOfFailedAttempts
-     * @param int|null $maxNumberOfFailedAttempts
+     * @param int $maxNumberOfFailedAttempts
      * @return $this
      */
     public function setMaxNumberOfFailedAttempts($maxNumberOfFailedAttempts)
@@ -81,26 +89,42 @@ class SystemCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxNumberOfFailedAttempts()
+    {
+        $this->maxNumberOfFailedAttempts = null;
+        return $this;
+    }
+
+    /**
      * Getter for lockoutMinutes
      *
-     * @ElementName lockoutMinutes
-     * @return int|null
+     * @return int
      */
     public function getLockoutMinutes()
     {
-        return $this->lockoutMinutes;
+        return $this->lockoutMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lockoutMinutes;
     }
 
     /**
      * Setter for lockoutMinutes
      *
-     * @ElementName lockoutMinutes
-     * @param int|null $lockoutMinutes
+     * @param int $lockoutMinutes
      * @return $this
      */
     public function setLockoutMinutes($lockoutMinutes)
     {
         $this->lockoutMinutes = $lockoutMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLockoutMinutes()
+    {
+        $this->lockoutMinutes = null;
         return $this;
     }
 

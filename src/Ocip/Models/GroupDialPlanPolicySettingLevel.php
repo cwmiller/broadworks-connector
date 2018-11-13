@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupDialPlanPolicySettingLevel SYSTEM()
  * @method static GroupDialPlanPolicySettingLevel SERVICE_PROVIDER()
  * @method static GroupDialPlanPolicySettingLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupDialPlanPolicySettingLevel extends \MyCLabs\Enum\Enum
 {

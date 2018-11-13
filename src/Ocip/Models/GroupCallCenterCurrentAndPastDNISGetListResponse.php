@@ -14,6 +14,8 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName name
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $name = array(
@@ -22,6 +24,8 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName deletedName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $deletedName = array(
@@ -31,18 +35,16 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
     /**
      * Getter for name
      *
-     * @ElementName name
      * @return string[]
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
      * @param string[] $name
      * @return $this
      */
@@ -53,33 +55,39 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Adder for name
      *
-     * @ElementName name
      * @param string $name
      * @return $this
      */
     public function addName(string $name)
     {
-        $this->name []= $name;
+        $this->name[] = $name;
         return $this;
     }
 
     /**
      * Getter for deletedName
      *
-     * @ElementName deletedName
      * @return string[]
      */
     public function getDeletedName()
     {
-        return $this->deletedName;
+        return $this->deletedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deletedName;
     }
 
     /**
      * Setter for deletedName
      *
-     * @ElementName deletedName
      * @param string[] $deletedName
      * @return $this
      */
@@ -90,15 +98,23 @@ class GroupCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeletedName()
+    {
+        $this->deletedName = null;
+        return $this;
+    }
+
+    /**
      * Adder for deletedName
      *
-     * @ElementName deletedName
      * @param string $deletedName
      * @return $this
      */
     public function addDeletedName(string $deletedName)
     {
-        $this->deletedName []= $deletedName;
+        $this->deletedName[] = $deletedName;
         return $this;
     }
 

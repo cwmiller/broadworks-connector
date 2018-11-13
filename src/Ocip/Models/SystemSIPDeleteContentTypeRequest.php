@@ -16,6 +16,7 @@ class SystemSIPDeleteContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName contentType
+     * @Type string
      * @var string|null
      */
     private $contentType = null;
@@ -23,24 +24,31 @@ class SystemSIPDeleteContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for contentType
      *
-     * @ElementName contentType
-     * @return string|null
+     * @return string
      */
     public function getContentType()
     {
-        return $this->contentType;
+        return $this->contentType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contentType;
     }
 
     /**
      * Setter for contentType
      *
-     * @ElementName contentType
-     * @param string|null $contentType
+     * @param string $contentType
      * @return $this
      */
     public function setContentType($contentType)
     {
         $this->contentType = $contentType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetContentType()
+    {
+        $this->contentType = null;
         return $this;
     }
 

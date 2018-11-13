@@ -10,6 +10,8 @@ class GroupEnterpriseTrunkAddRequest21OrderedRouting
 
     /**
      * @ElementName trunkGroup
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $trunkGroup = array(
@@ -18,6 +20,7 @@ class GroupEnterpriseTrunkAddRequest21OrderedRouting
 
     /**
      * @ElementName orderingAlgorithm
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm|null
      */
     private $orderingAlgorithm = null;
@@ -25,18 +28,16 @@ class GroupEnterpriseTrunkAddRequest21OrderedRouting
     /**
      * Getter for trunkGroup
      *
-     * @ElementName trunkGroup
      * @return string[]
      */
     public function getTrunkGroup()
     {
-        return $this->trunkGroup;
+        return $this->trunkGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroup;
     }
 
     /**
      * Setter for trunkGroup
      *
-     * @ElementName trunkGroup
      * @param string[] $trunkGroup
      * @return $this
      */
@@ -47,39 +48,54 @@ class GroupEnterpriseTrunkAddRequest21OrderedRouting
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroup()
+    {
+        $this->trunkGroup = null;
+        return $this;
+    }
+
+    /**
      * Adder for trunkGroup
      *
-     * @ElementName trunkGroup
      * @param string $trunkGroup
      * @return $this
      */
     public function addTrunkGroup(string $trunkGroup)
     {
-        $this->trunkGroup []= $trunkGroup;
+        $this->trunkGroup[] = $trunkGroup;
         return $this;
     }
 
     /**
      * Getter for orderingAlgorithm
      *
-     * @ElementName orderingAlgorithm
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm
      */
     public function getOrderingAlgorithm()
     {
-        return $this->orderingAlgorithm;
+        return $this->orderingAlgorithm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->orderingAlgorithm;
     }
 
     /**
      * Setter for orderingAlgorithm
      *
-     * @ElementName orderingAlgorithm
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm|null $orderingAlgorithm
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm $orderingAlgorithm
      * @return $this
      */
     public function setOrderingAlgorithm(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkOrderingAlgorithm $orderingAlgorithm)
     {
         $this->orderingAlgorithm = $orderingAlgorithm;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOrderingAlgorithm()
+    {
+        $this->orderingAlgorithm = null;
         return $this;
     }
 

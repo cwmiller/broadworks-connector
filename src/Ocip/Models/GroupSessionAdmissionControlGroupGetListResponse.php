@@ -18,6 +18,7 @@ class GroupSessionAdmissionControlGroupGetListResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName sessionAdmissionControlGroupTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $sessionAdmissionControlGroupTable = null;
@@ -25,24 +26,31 @@ class GroupSessionAdmissionControlGroupGetListResponse extends \CWM\BroadWorksCo
     /**
      * Getter for sessionAdmissionControlGroupTable
      *
-     * @ElementName sessionAdmissionControlGroupTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSessionAdmissionControlGroupTable()
     {
-        return $this->sessionAdmissionControlGroupTable;
+        return $this->sessionAdmissionControlGroupTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sessionAdmissionControlGroupTable;
     }
 
     /**
      * Setter for sessionAdmissionControlGroupTable
      *
-     * @ElementName sessionAdmissionControlGroupTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $sessionAdmissionControlGroupTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $sessionAdmissionControlGroupTable
      * @return $this
      */
     public function setSessionAdmissionControlGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $sessionAdmissionControlGroupTable)
     {
         $this->sessionAdmissionControlGroupTable = $sessionAdmissionControlGroupTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSessionAdmissionControlGroupTable()
+    {
+        $this->sessionAdmissionControlGroupTable = null;
         return $this;
     }
 

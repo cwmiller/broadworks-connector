@@ -16,12 +16,15 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName tagName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $tagName = array(
@@ -31,19 +34,17 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -53,20 +54,27 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagName
      *
-     * @ElementName tagName
      * @return string[]
      */
     public function getTagName()
     {
-        return $this->tagName;
+        return $this->tagName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagName;
     }
 
     /**
      * Setter for tagName
      *
-     * @ElementName tagName
      * @param string[] $tagName
      * @return $this
      */
@@ -77,15 +85,23 @@ class SystemAccessDeviceCustomTagDeleteListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagName()
+    {
+        $this->tagName = null;
+        return $this;
+    }
+
+    /**
      * Adder for tagName
      *
-     * @ElementName tagName
      * @param string $tagName
      * @return $this
      */
     public function addTagName(string $tagName)
     {
-        $this->tagName []= $tagName;
+        $this->tagName[] = $tagName;
         return $this;
     }
 

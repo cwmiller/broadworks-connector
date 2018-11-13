@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static RoamingMode CDMA()
  * @method static RoamingMode GSM()
  * @method static RoamingMode NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class RoamingMode extends \MyCLabs\Enum\Enum
 {

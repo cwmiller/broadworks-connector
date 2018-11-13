@@ -12,18 +12,21 @@ class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName serviceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $serviceName = null;
 
     /**
      * @ElementName servicePackName
+     * @Type string
      * @var string|null
      */
     private $servicePackName = null;
@@ -31,19 +34,17 @@ class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,21 +54,28 @@ class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceName
      *
-     * @ElementName serviceName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService
      */
     public function getServiceName()
     {
-        return $this->serviceName;
+        return $this->serviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceName;
     }
 
     /**
      * Setter for serviceName
      *
-     * @ElementName serviceName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService|null $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $serviceName
      * @return $this
      */
     public function setServiceName(\CWM\BroadWorksConnector\Ocip\Models\UserService $serviceName)
@@ -77,26 +85,42 @@ class UserServiceIsAssignedRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceName()
+    {
+        $this->serviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePackName
      *
-     * @ElementName servicePackName
-     * @return string|null
+     * @return string
      */
     public function getServicePackName()
     {
-        return $this->servicePackName;
+        return $this->servicePackName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePackName;
     }
 
     /**
      * Setter for servicePackName
      *
-     * @ElementName servicePackName
-     * @param string|null $servicePackName
+     * @param string $servicePackName
      * @return $this
      */
     public function setServicePackName($servicePackName)
     {
         $this->servicePackName = $servicePackName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServicePackName()
+    {
+        $this->servicePackName = null;
         return $this;
     }
 

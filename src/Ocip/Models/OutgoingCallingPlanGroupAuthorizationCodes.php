@@ -12,6 +12,8 @@ class OutgoingCallingPlanGroupAuthorizationCodes
 
     /**
      * @ElementName codeEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
     private $codeEntry = array(
@@ -21,18 +23,16 @@ class OutgoingCallingPlanGroupAuthorizationCodes
     /**
      * Getter for codeEntry
      *
-     * @ElementName codeEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
     public function getCodeEntry()
     {
-        return $this->codeEntry;
+        return $this->codeEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->codeEntry;
     }
 
     /**
      * Setter for codeEntry
      *
-     * @ElementName codeEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[] $codeEntry
      * @return $this
      */
@@ -43,15 +43,23 @@ class OutgoingCallingPlanGroupAuthorizationCodes
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCodeEntry()
+    {
+        $this->codeEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for codeEntry
      *
-     * @ElementName codeEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry $codeEntry
      * @return $this
      */
     public function addCodeEntry($codeEntry)
     {
-        $this->codeEntry []= $codeEntry;
+        $this->codeEntry[] = $codeEntry;
         return $this;
     }
 

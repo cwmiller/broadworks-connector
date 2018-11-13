@@ -15,6 +15,7 @@ class ServiceProviderDnGetSummaryListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName dnSummaryTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnSummaryTable = null;
@@ -22,24 +23,31 @@ class ServiceProviderDnGetSummaryListResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for dnSummaryTable
      *
-     * @ElementName dnSummaryTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDnSummaryTable()
     {
-        return $this->dnSummaryTable;
+        return $this->dnSummaryTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnSummaryTable;
     }
 
     /**
      * Setter for dnSummaryTable
      *
-     * @ElementName dnSummaryTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dnSummaryTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnSummaryTable
      * @return $this
      */
     public function setDnSummaryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnSummaryTable)
     {
         $this->dnSummaryTable = $dnSummaryTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDnSummaryTable()
+    {
+        $this->dnSummaryTable = null;
         return $this;
     }
 

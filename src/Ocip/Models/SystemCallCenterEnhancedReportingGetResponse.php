@@ -14,18 +14,21 @@ class SystemCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName archiveReports
+     * @Type bool
      * @var bool|null
      */
     private $archiveReports = null;
 
     /**
      * @ElementName reportApplicationURL
+     * @Type string
      * @var string|null
      */
     private $reportApplicationURL = null;
 
     /**
      * @ElementName repositoryApplicationURL
+     * @Type string
      * @var string|null
      */
     private $repositoryApplicationURL = null;
@@ -33,19 +36,17 @@ class SystemCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for archiveReports
      *
-     * @ElementName archiveReports
-     * @return bool|null
+     * @return bool
      */
     public function getArchiveReports()
     {
-        return $this->archiveReports;
+        return $this->archiveReports instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->archiveReports;
     }
 
     /**
      * Setter for archiveReports
      *
-     * @ElementName archiveReports
-     * @param bool|null $archiveReports
+     * @param bool $archiveReports
      * @return $this
      */
     public function setArchiveReports($archiveReports)
@@ -55,21 +56,28 @@ class SystemCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetArchiveReports()
+    {
+        $this->archiveReports = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportApplicationURL
      *
-     * @ElementName reportApplicationURL
-     * @return string|null
+     * @return string
      */
     public function getReportApplicationURL()
     {
-        return $this->reportApplicationURL;
+        return $this->reportApplicationURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportApplicationURL;
     }
 
     /**
      * Setter for reportApplicationURL
      *
-     * @ElementName reportApplicationURL
-     * @param string|null $reportApplicationURL
+     * @param string $reportApplicationURL
      * @return $this
      */
     public function setReportApplicationURL($reportApplicationURL)
@@ -79,26 +87,42 @@ class SystemCallCenterEnhancedReportingGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportApplicationURL()
+    {
+        $this->reportApplicationURL = null;
+        return $this;
+    }
+
+    /**
      * Getter for repositoryApplicationURL
      *
-     * @ElementName repositoryApplicationURL
-     * @return string|null
+     * @return string
      */
     public function getRepositoryApplicationURL()
     {
-        return $this->repositoryApplicationURL;
+        return $this->repositoryApplicationURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repositoryApplicationURL;
     }
 
     /**
      * Setter for repositoryApplicationURL
      *
-     * @ElementName repositoryApplicationURL
-     * @param string|null $repositoryApplicationURL
+     * @param string $repositoryApplicationURL
      * @return $this
      */
     public function setRepositoryApplicationURL($repositoryApplicationURL)
     {
         $this->repositoryApplicationURL = $repositoryApplicationURL;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepositoryApplicationURL()
+    {
+        $this->repositoryApplicationURL = null;
         return $this;
     }
 

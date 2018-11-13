@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AuthenticationLockoutFixedWaitTimeMinutes _20()
  * @method static AuthenticationLockoutFixedWaitTimeMinutes _40()
  * @method static AuthenticationLockoutFixedWaitTimeMinutes _60()
- * @ValueType string
+ * @EnumValueType string
  */
 class AuthenticationLockoutFixedWaitTimeMinutes extends \MyCLabs\Enum\Enum
 {

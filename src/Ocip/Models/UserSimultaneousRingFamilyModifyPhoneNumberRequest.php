@@ -16,18 +16,21 @@ class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName answerConfirmationRequired
+     * @Type bool
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
@@ -35,19 +38,17 @@ class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorks
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -81,26 +89,42 @@ class UserSimultaneousRingFamilyModifyPhoneNumberRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @return bool|null
+     * @return bool
      */
     public function getAnswerConfirmationRequired()
     {
-        return $this->answerConfirmationRequired;
+        return $this->answerConfirmationRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerConfirmationRequired;
     }
 
     /**
      * Setter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @param bool|null $answerConfirmationRequired
+     * @param bool $answerConfirmationRequired
      * @return $this
      */
     public function setAnswerConfirmationRequired($answerConfirmationRequired)
     {
         $this->answerConfirmationRequired = $answerConfirmationRequired;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnswerConfirmationRequired()
+    {
+        $this->answerConfirmationRequired = null;
         return $this;
     }
 

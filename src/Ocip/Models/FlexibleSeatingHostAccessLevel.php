@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static FlexibleSeatingHostAccessLevel ENTERPRISE()
  * @method static FlexibleSeatingHostAccessLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class FlexibleSeatingHostAccessLevel extends \MyCLabs\Enum\Enum
 {

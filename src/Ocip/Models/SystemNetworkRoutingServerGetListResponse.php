@@ -17,6 +17,7 @@ class SystemNetworkRoutingServerGetListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName networkRoutingServerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $networkRoutingServerTable = null;
@@ -24,24 +25,31 @@ class SystemNetworkRoutingServerGetListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for networkRoutingServerTable
      *
-     * @ElementName networkRoutingServerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getNetworkRoutingServerTable()
     {
-        return $this->networkRoutingServerTable;
+        return $this->networkRoutingServerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkRoutingServerTable;
     }
 
     /**
      * Setter for networkRoutingServerTable
      *
-     * @ElementName networkRoutingServerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $networkRoutingServerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $networkRoutingServerTable
      * @return $this
      */
     public function setNetworkRoutingServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $networkRoutingServerTable)
     {
         $this->networkRoutingServerTable = $networkRoutingServerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkRoutingServerTable()
+    {
+        $this->networkRoutingServerTable = null;
         return $this;
     }
 

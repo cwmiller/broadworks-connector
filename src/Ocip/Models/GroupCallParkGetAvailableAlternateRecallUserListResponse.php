@@ -16,6 +16,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListResponse extends \CWM\Broa
 
     /**
      * @ElementName availableHuntGroupTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableHuntGroupTable = null;
@@ -23,24 +24,31 @@ class GroupCallParkGetAvailableAlternateRecallUserListResponse extends \CWM\Broa
     /**
      * Getter for availableHuntGroupTable
      *
-     * @ElementName availableHuntGroupTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAvailableHuntGroupTable()
     {
-        return $this->availableHuntGroupTable;
+        return $this->availableHuntGroupTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->availableHuntGroupTable;
     }
 
     /**
      * Setter for availableHuntGroupTable
      *
-     * @ElementName availableHuntGroupTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $availableHuntGroupTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableHuntGroupTable
      * @return $this
      */
     public function setAvailableHuntGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableHuntGroupTable)
     {
         $this->availableHuntGroupTable = $availableHuntGroupTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAvailableHuntGroupTable()
+    {
+        $this->availableHuntGroupTable = null;
         return $this;
     }
 

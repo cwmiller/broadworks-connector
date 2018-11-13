@@ -10,12 +10,14 @@ class UserAuthenticationModifyRequestPassword
 
     /**
      * @ElementName old
+     * @Type string
      * @var string|null
      */
     private $old = null;
 
     /**
      * @ElementName new
+     * @Type string
      * @var string|null
      */
     private $new = null;
@@ -23,19 +25,17 @@ class UserAuthenticationModifyRequestPassword
     /**
      * Getter for old
      *
-     * @ElementName old
-     * @return string|null
+     * @return string
      */
     public function getOld()
     {
-        return $this->old;
+        return $this->old instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->old;
     }
 
     /**
      * Setter for old
      *
-     * @ElementName old
-     * @param string|null $old
+     * @param string $old
      * @return $this
      */
     public function setOld($old)
@@ -45,26 +45,42 @@ class UserAuthenticationModifyRequestPassword
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOld()
+    {
+        $this->old = null;
+        return $this;
+    }
+
+    /**
      * Getter for new
      *
-     * @ElementName new
-     * @return string|null
+     * @return string
      */
     public function getNew()
     {
-        return $this->new;
+        return $this->new instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->new;
     }
 
     /**
      * Setter for new
      *
-     * @ElementName new
-     * @param string|null $new
+     * @param string $new
      * @return $this
      */
     public function setNew($new)
     {
         $this->new = $new;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNew()
+    {
+        $this->new = null;
         return $this;
     }
 

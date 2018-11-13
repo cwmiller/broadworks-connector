@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GETSPriorityClass GETS_MANDATORY()
  * @method static GETSPriorityClass GETS()
- * @ValueType string
+ * @EnumValueType string
  */
 class GETSPriorityClass extends \MyCLabs\Enum\Enum
 {

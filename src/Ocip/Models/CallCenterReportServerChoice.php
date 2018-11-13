@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterReportServerChoice CCRS()
  * @method static CallCenterReportServerChoice ENHANCED()
  * @method static CallCenterReportServerChoice BOTH()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportServerChoice extends \MyCLabs\Enum\Enum
 {

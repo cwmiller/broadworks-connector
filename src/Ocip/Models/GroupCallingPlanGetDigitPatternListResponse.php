@@ -15,6 +15,7 @@ class GroupCallingPlanGetDigitPatternListResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName digitPatternTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $digitPatternTable = null;
@@ -22,24 +23,31 @@ class GroupCallingPlanGetDigitPatternListResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for digitPatternTable
      *
-     * @ElementName digitPatternTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDigitPatternTable()
     {
-        return $this->digitPatternTable;
+        return $this->digitPatternTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPatternTable;
     }
 
     /**
      * Setter for digitPatternTable
      *
-     * @ElementName digitPatternTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $digitPatternTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $digitPatternTable
      * @return $this
      */
     public function setDigitPatternTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $digitPatternTable)
     {
         $this->digitPatternTable = $digitPatternTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDigitPatternTable()
+    {
+        $this->digitPatternTable = null;
         return $this;
     }
 

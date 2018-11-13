@@ -12,24 +12,28 @@ class CallCenterReportScheduleRecurrence
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName startDate
+     * @Type string
      * @var string|null
      */
     private $startDate = null;
 
     /**
      * @ElementName scheduleTime
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $scheduleTime = null;
 
     /**
      * @ElementName recurrence
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     private $recurrence = null;
@@ -37,19 +41,17 @@ class CallCenterReportScheduleRecurrence
     /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -59,21 +61,28 @@ class CallCenterReportScheduleRecurrence
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for startDate
      *
-     * @ElementName startDate
-     * @return string|null
+     * @return string
      */
     public function getStartDate()
     {
-        return $this->startDate;
+        return $this->startDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startDate;
     }
 
     /**
      * Setter for startDate
      *
-     * @ElementName startDate
-     * @param string|null $startDate
+     * @param string $startDate
      * @return $this
      */
     public function setStartDate($startDate)
@@ -83,21 +92,28 @@ class CallCenterReportScheduleRecurrence
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartDate()
+    {
+        $this->startDate = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleTime
      *
-     * @ElementName scheduleTime
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      */
     public function getScheduleTime()
     {
-        return $this->scheduleTime;
+        return $this->scheduleTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleTime;
     }
 
     /**
      * Setter for scheduleTime
      *
-     * @ElementName scheduleTime
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null $scheduleTime
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute $scheduleTime
      * @return $this
      */
     public function setScheduleTime(\CWM\BroadWorksConnector\Ocip\Models\HourMinute $scheduleTime)
@@ -107,26 +123,42 @@ class CallCenterReportScheduleRecurrence
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleTime()
+    {
+        $this->scheduleTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for recurrence
      *
-     * @ElementName recurrence
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      */
     public function getRecurrence()
     {
-        return $this->recurrence;
+        return $this->recurrence instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recurrence;
     }
 
     /**
      * Setter for recurrence
      *
-     * @ElementName recurrence
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null $recurrence
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence $recurrence
      * @return $this
      */
     public function setRecurrence(\CWM\BroadWorksConnector\Ocip\Models\Recurrence $recurrence)
     {
         $this->recurrence = $recurrence;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecurrence()
+    {
+        $this->recurrence = null;
         return $this;
     }
 

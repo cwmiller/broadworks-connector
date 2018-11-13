@@ -12,36 +12,42 @@ class TimeInterval
 
     /**
      * @ElementName startDayOfWeek
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $startDayOfWeek = null;
 
     /**
      * @ElementName startHour
+     * @Type int
      * @var int|null
      */
     private $startHour = null;
 
     /**
      * @ElementName startMinute
+     * @Type int
      * @var int|null
      */
     private $startMinute = null;
 
     /**
      * @ElementName endDayOfWeek
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $endDayOfWeek = null;
 
     /**
      * @ElementName endHour
+     * @Type int
      * @var int|null
      */
     private $endHour = null;
 
     /**
      * @ElementName endMinute
+     * @Type int
      * @var int|null
      */
     private $endMinute = null;
@@ -49,19 +55,17 @@ class TimeInterval
     /**
      * Getter for startDayOfWeek
      *
-     * @ElementName startDayOfWeek
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
      */
     public function getStartDayOfWeek()
     {
-        return $this->startDayOfWeek;
+        return $this->startDayOfWeek instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startDayOfWeek;
     }
 
     /**
      * Setter for startDayOfWeek
      *
-     * @ElementName startDayOfWeek
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null $startDayOfWeek
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek $startDayOfWeek
      * @return $this
      */
     public function setStartDayOfWeek(\CWM\BroadWorksConnector\Ocip\Models\DayOfWeek $startDayOfWeek)
@@ -71,21 +75,28 @@ class TimeInterval
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartDayOfWeek()
+    {
+        $this->startDayOfWeek = null;
+        return $this;
+    }
+
+    /**
      * Getter for startHour
      *
-     * @ElementName startHour
-     * @return int|null
+     * @return int
      */
     public function getStartHour()
     {
-        return $this->startHour;
+        return $this->startHour instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startHour;
     }
 
     /**
      * Setter for startHour
      *
-     * @ElementName startHour
-     * @param int|null $startHour
+     * @param int $startHour
      * @return $this
      */
     public function setStartHour($startHour)
@@ -95,21 +106,28 @@ class TimeInterval
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartHour()
+    {
+        $this->startHour = null;
+        return $this;
+    }
+
+    /**
      * Getter for startMinute
      *
-     * @ElementName startMinute
-     * @return int|null
+     * @return int
      */
     public function getStartMinute()
     {
-        return $this->startMinute;
+        return $this->startMinute instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startMinute;
     }
 
     /**
      * Setter for startMinute
      *
-     * @ElementName startMinute
-     * @param int|null $startMinute
+     * @param int $startMinute
      * @return $this
      */
     public function setStartMinute($startMinute)
@@ -119,21 +137,28 @@ class TimeInterval
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartMinute()
+    {
+        $this->startMinute = null;
+        return $this;
+    }
+
+    /**
      * Getter for endDayOfWeek
      *
-     * @ElementName endDayOfWeek
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
      */
     public function getEndDayOfWeek()
     {
-        return $this->endDayOfWeek;
+        return $this->endDayOfWeek instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endDayOfWeek;
     }
 
     /**
      * Setter for endDayOfWeek
      *
-     * @ElementName endDayOfWeek
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null $endDayOfWeek
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek $endDayOfWeek
      * @return $this
      */
     public function setEndDayOfWeek(\CWM\BroadWorksConnector\Ocip\Models\DayOfWeek $endDayOfWeek)
@@ -143,21 +168,28 @@ class TimeInterval
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndDayOfWeek()
+    {
+        $this->endDayOfWeek = null;
+        return $this;
+    }
+
+    /**
      * Getter for endHour
      *
-     * @ElementName endHour
-     * @return int|null
+     * @return int
      */
     public function getEndHour()
     {
-        return $this->endHour;
+        return $this->endHour instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endHour;
     }
 
     /**
      * Setter for endHour
      *
-     * @ElementName endHour
-     * @param int|null $endHour
+     * @param int $endHour
      * @return $this
      */
     public function setEndHour($endHour)
@@ -167,26 +199,42 @@ class TimeInterval
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndHour()
+    {
+        $this->endHour = null;
+        return $this;
+    }
+
+    /**
      * Getter for endMinute
      *
-     * @ElementName endMinute
-     * @return int|null
+     * @return int
      */
     public function getEndMinute()
     {
-        return $this->endMinute;
+        return $this->endMinute instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endMinute;
     }
 
     /**
      * Setter for endMinute
      *
-     * @ElementName endMinute
-     * @param int|null $endMinute
+     * @param int $endMinute
      * @return $this
      */
     public function setEndMinute($endMinute)
     {
         $this->endMinute = $endMinute;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEndMinute()
+    {
+        $this->endMinute = null;
         return $this;
     }
 

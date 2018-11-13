@@ -12,54 +12,63 @@ class EstimatedWaitMessageOptionsModify
 
     /**
      * @ElementName enabled
+     * @Type bool
      * @var bool|null
      */
     private $enabled = null;
 
     /**
      * @ElementName operatingMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null
      */
     private $operatingMode = null;
 
     /**
      * @ElementName playPositionHighVolume
+     * @Type bool
      * @var bool|null
      */
     private $playPositionHighVolume = null;
 
     /**
      * @ElementName playTimeHighVolume
+     * @Type bool
      * @var bool|null
      */
     private $playTimeHighVolume = null;
 
     /**
      * @ElementName maximumPositions
+     * @Type int
      * @var int|null
      */
     private $maximumPositions = null;
 
     /**
      * @ElementName maximumWaitingMinutes
+     * @Type int
      * @var int|null
      */
     private $maximumWaitingMinutes = null;
 
     /**
      * @ElementName defaultCallHandlingMinutes
+     * @Type int
      * @var int|null
      */
     private $defaultCallHandlingMinutes = null;
 
     /**
      * @ElementName playUpdatedEWM
+     * @Type bool
      * @var bool|null
      */
     private $playUpdatedEWM = null;
 
     /**
      * @ElementName timeBetweenEWMUpdatesSeconds
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -68,19 +77,17 @@ class EstimatedWaitMessageOptionsModify
     /**
      * Getter for enabled
      *
-     * @ElementName enabled
-     * @return bool|null
+     * @return bool
      */
     public function getEnabled()
     {
-        return $this->enabled;
+        return $this->enabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enabled;
     }
 
     /**
      * Setter for enabled
      *
-     * @ElementName enabled
-     * @param bool|null $enabled
+     * @param bool $enabled
      * @return $this
      */
     public function setEnabled($enabled)
@@ -90,21 +97,28 @@ class EstimatedWaitMessageOptionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnabled()
+    {
+        $this->enabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for operatingMode
      *
-     * @ElementName operatingMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode
      */
     public function getOperatingMode()
     {
-        return $this->operatingMode;
+        return $this->operatingMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->operatingMode;
     }
 
     /**
      * Setter for operatingMode
      *
-     * @ElementName operatingMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null $operatingMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode $operatingMode
      * @return $this
      */
     public function setOperatingMode(\CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode $operatingMode)
@@ -114,21 +128,28 @@ class EstimatedWaitMessageOptionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOperatingMode()
+    {
+        $this->operatingMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for playPositionHighVolume
      *
-     * @ElementName playPositionHighVolume
-     * @return bool|null
+     * @return bool
      */
     public function getPlayPositionHighVolume()
     {
-        return $this->playPositionHighVolume;
+        return $this->playPositionHighVolume instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playPositionHighVolume;
     }
 
     /**
      * Setter for playPositionHighVolume
      *
-     * @ElementName playPositionHighVolume
-     * @param bool|null $playPositionHighVolume
+     * @param bool $playPositionHighVolume
      * @return $this
      */
     public function setPlayPositionHighVolume($playPositionHighVolume)
@@ -138,21 +159,28 @@ class EstimatedWaitMessageOptionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayPositionHighVolume()
+    {
+        $this->playPositionHighVolume = null;
+        return $this;
+    }
+
+    /**
      * Getter for playTimeHighVolume
      *
-     * @ElementName playTimeHighVolume
-     * @return bool|null
+     * @return bool
      */
     public function getPlayTimeHighVolume()
     {
-        return $this->playTimeHighVolume;
+        return $this->playTimeHighVolume instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playTimeHighVolume;
     }
 
     /**
      * Setter for playTimeHighVolume
      *
-     * @ElementName playTimeHighVolume
-     * @param bool|null $playTimeHighVolume
+     * @param bool $playTimeHighVolume
      * @return $this
      */
     public function setPlayTimeHighVolume($playTimeHighVolume)
@@ -162,21 +190,28 @@ class EstimatedWaitMessageOptionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayTimeHighVolume()
+    {
+        $this->playTimeHighVolume = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumPositions
      *
-     * @ElementName maximumPositions
-     * @return int|null
+     * @return int
      */
     public function getMaximumPositions()
     {
-        return $this->maximumPositions;
+        return $this->maximumPositions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumPositions;
     }
 
     /**
      * Setter for maximumPositions
      *
-     * @ElementName maximumPositions
-     * @param int|null $maximumPositions
+     * @param int $maximumPositions
      * @return $this
      */
     public function setMaximumPositions($maximumPositions)
@@ -186,21 +221,28 @@ class EstimatedWaitMessageOptionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumPositions()
+    {
+        $this->maximumPositions = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumWaitingMinutes
      *
-     * @ElementName maximumWaitingMinutes
-     * @return int|null
+     * @return int
      */
     public function getMaximumWaitingMinutes()
     {
-        return $this->maximumWaitingMinutes;
+        return $this->maximumWaitingMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumWaitingMinutes;
     }
 
     /**
      * Setter for maximumWaitingMinutes
      *
-     * @ElementName maximumWaitingMinutes
-     * @param int|null $maximumWaitingMinutes
+     * @param int $maximumWaitingMinutes
      * @return $this
      */
     public function setMaximumWaitingMinutes($maximumWaitingMinutes)
@@ -210,21 +252,28 @@ class EstimatedWaitMessageOptionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumWaitingMinutes()
+    {
+        $this->maximumWaitingMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultCallHandlingMinutes
      *
-     * @ElementName defaultCallHandlingMinutes
-     * @return int|null
+     * @return int
      */
     public function getDefaultCallHandlingMinutes()
     {
-        return $this->defaultCallHandlingMinutes;
+        return $this->defaultCallHandlingMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultCallHandlingMinutes;
     }
 
     /**
      * Setter for defaultCallHandlingMinutes
      *
-     * @ElementName defaultCallHandlingMinutes
-     * @param int|null $defaultCallHandlingMinutes
+     * @param int $defaultCallHandlingMinutes
      * @return $this
      */
     public function setDefaultCallHandlingMinutes($defaultCallHandlingMinutes)
@@ -234,21 +283,28 @@ class EstimatedWaitMessageOptionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultCallHandlingMinutes()
+    {
+        $this->defaultCallHandlingMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for playUpdatedEWM
      *
-     * @ElementName playUpdatedEWM
-     * @return bool|null
+     * @return bool
      */
     public function getPlayUpdatedEWM()
     {
-        return $this->playUpdatedEWM;
+        return $this->playUpdatedEWM instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playUpdatedEWM;
     }
 
     /**
      * Setter for playUpdatedEWM
      *
-     * @ElementName playUpdatedEWM
-     * @param bool|null $playUpdatedEWM
+     * @param bool $playUpdatedEWM
      * @return $this
      */
     public function setPlayUpdatedEWM($playUpdatedEWM)
@@ -258,28 +314,46 @@ class EstimatedWaitMessageOptionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayUpdatedEWM()
+    {
+        $this->playUpdatedEWM = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeBetweenEWMUpdatesSeconds
      *
-     * @ElementName timeBetweenEWMUpdatesSeconds
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getTimeBetweenEWMUpdatesSeconds()
     {
-        return $this->timeBetweenEWMUpdatesSeconds;
+        return $this->timeBetweenEWMUpdatesSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeBetweenEWMUpdatesSeconds;
     }
 
     /**
      * Setter for timeBetweenEWMUpdatesSeconds
      *
-     * @ElementName timeBetweenEWMUpdatesSeconds
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $timeBetweenEWMUpdatesSeconds
+     * @param int|null $timeBetweenEWMUpdatesSeconds
      * @return $this
      */
     public function setTimeBetweenEWMUpdatesSeconds($timeBetweenEWMUpdatesSeconds)
     {
-        $this->timeBetweenEWMUpdatesSeconds = $timeBetweenEWMUpdatesSeconds;
+        if ($timeBetweenEWMUpdatesSeconds === null) {
+            $this->timeBetweenEWMUpdatesSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->timeBetweenEWMUpdatesSeconds = $timeBetweenEWMUpdatesSeconds;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeBetweenEWMUpdatesSeconds()
+    {
+        $this->timeBetweenEWMUpdatesSeconds = null;
         return $this;
     }
 

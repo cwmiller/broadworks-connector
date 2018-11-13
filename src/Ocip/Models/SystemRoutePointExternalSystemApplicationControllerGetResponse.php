@@ -14,6 +14,8 @@ class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CW
 
     /**
      * @ElementName applicationController
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $applicationController = array(
@@ -23,18 +25,16 @@ class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CW
     /**
      * Getter for applicationController
      *
-     * @ElementName applicationController
      * @return string[]
      */
     public function getApplicationController()
     {
-        return $this->applicationController;
+        return $this->applicationController instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationController;
     }
 
     /**
      * Setter for applicationController
      *
-     * @ElementName applicationController
      * @param string[] $applicationController
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemRoutePointExternalSystemApplicationControllerGetResponse extends \CW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationController()
+    {
+        $this->applicationController = null;
+        return $this;
+    }
+
+    /**
      * Adder for applicationController
      *
-     * @ElementName applicationController
      * @param string $applicationController
      * @return $this
      */
     public function addApplicationController(string $applicationController)
     {
-        $this->applicationController []= $applicationController;
+        $this->applicationController[] = $applicationController;
         return $this;
     }
 

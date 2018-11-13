@@ -19,12 +19,15 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaSystemServiceDn
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[]
      */
     private $searchCriteriaSystemServiceDn = array(
@@ -34,19 +37,17 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
     /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -56,20 +57,27 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaSystemServiceDn
      *
-     * @ElementName searchCriteriaSystemServiceDn
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[]
      */
     public function getSearchCriteriaSystemServiceDn()
     {
-        return $this->searchCriteriaSystemServiceDn;
+        return $this->searchCriteriaSystemServiceDn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaSystemServiceDn;
     }
 
     /**
      * Setter for searchCriteriaSystemServiceDn
      *
-     * @ElementName searchCriteriaSystemServiceDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[] $searchCriteriaSystemServiceDn
      * @return $this
      */
@@ -80,15 +88,23 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaSystemServiceDn()
+    {
+        $this->searchCriteriaSystemServiceDn = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaSystemServiceDn
      *
-     * @ElementName searchCriteriaSystemServiceDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn $searchCriteriaSystemServiceDn
      * @return $this
      */
     public function addSearchCriteriaSystemServiceDn($searchCriteriaSystemServiceDn)
     {
-        $this->searchCriteriaSystemServiceDn []= $searchCriteriaSystemServiceDn;
+        $this->searchCriteriaSystemServiceDn[] = $searchCriteriaSystemServiceDn;
         return $this;
     }
 

@@ -16,90 +16,105 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
 
     /**
      * @ElementName externalPreferredAudioCodec
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $externalPreferredAudioCodec = null;
 
     /**
      * @ElementName internalPreferredAudioCodec
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $internalPreferredAudioCodec = null;
 
     /**
      * @ElementName queueLength
+     * @Type int
      * @var int|null
      */
     private $queueLength = null;
 
     /**
      * @ElementName noAnswerTimeoutRings
+     * @Type int
      * @var int|null
      */
     private $noAnswerTimeoutRings = null;
 
     /**
      * @ElementName enableVideo
+     * @Type bool
      * @var bool|null
      */
     private $enableVideo = null;
 
     /**
      * @ElementName playRingingWhenOfferingCall
+     * @Type bool
      * @var bool|null
      */
     private $playRingingWhenOfferingCall = null;
 
     /**
      * @ElementName overrideAgentWrapUpTime
+     * @Type bool
      * @var bool|null
      */
     private $overrideAgentWrapUpTime = null;
 
     /**
      * @ElementName wrapUpSeconds
+     * @Type int
      * @var int|null
      */
     private $wrapUpSeconds = null;
 
     /**
      * @ElementName enableAutomaticStateChangeForAgents
+     * @Type bool
      * @var bool|null
      */
     private $enableAutomaticStateChangeForAgents = null;
 
     /**
      * @ElementName agentStateAfterCall
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
      */
     private $agentStateAfterCall = null;
 
     /**
      * @ElementName agentUnavailableCode
+     * @Type string
      * @var string|null
      */
     private $agentUnavailableCode = null;
 
     /**
      * @ElementName forceDeliveryOfCalls
+     * @Type bool
      * @var bool|null
      */
     private $forceDeliveryOfCalls = null;
 
     /**
      * @ElementName forceDeliveryWaitTimeSeconds
+     * @Type int
      * @var int|null
      */
     private $forceDeliveryWaitTimeSeconds = null;
@@ -107,19 +122,17 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile)
@@ -129,21 +142,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
@@ -153,21 +173,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Getter for externalPreferredAudioCodec
      *
-     * @ElementName externalPreferredAudioCodec
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      */
     public function getExternalPreferredAudioCodec()
     {
-        return $this->externalPreferredAudioCodec;
+        return $this->externalPreferredAudioCodec instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalPreferredAudioCodec;
     }
 
     /**
      * Setter for externalPreferredAudioCodec
      *
-     * @ElementName externalPreferredAudioCodec
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null $externalPreferredAudioCodec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $externalPreferredAudioCodec
      * @return $this
      */
     public function setExternalPreferredAudioCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $externalPreferredAudioCodec)
@@ -177,21 +204,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExternalPreferredAudioCodec()
+    {
+        $this->externalPreferredAudioCodec = null;
+        return $this;
+    }
+
+    /**
      * Getter for internalPreferredAudioCodec
      *
-     * @ElementName internalPreferredAudioCodec
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      */
     public function getInternalPreferredAudioCodec()
     {
-        return $this->internalPreferredAudioCodec;
+        return $this->internalPreferredAudioCodec instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internalPreferredAudioCodec;
     }
 
     /**
      * Setter for internalPreferredAudioCodec
      *
-     * @ElementName internalPreferredAudioCodec
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null $internalPreferredAudioCodec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $internalPreferredAudioCodec
      * @return $this
      */
     public function setInternalPreferredAudioCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $internalPreferredAudioCodec)
@@ -201,21 +235,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInternalPreferredAudioCodec()
+    {
+        $this->internalPreferredAudioCodec = null;
+        return $this;
+    }
+
+    /**
      * Getter for queueLength
      *
-     * @ElementName queueLength
-     * @return int|null
+     * @return int
      */
     public function getQueueLength()
     {
-        return $this->queueLength;
+        return $this->queueLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->queueLength;
     }
 
     /**
      * Setter for queueLength
      *
-     * @ElementName queueLength
-     * @param int|null $queueLength
+     * @param int $queueLength
      * @return $this
      */
     public function setQueueLength($queueLength)
@@ -225,21 +266,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetQueueLength()
+    {
+        $this->queueLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerTimeoutRings
      *
-     * @ElementName noAnswerTimeoutRings
-     * @return int|null
+     * @return int
      */
     public function getNoAnswerTimeoutRings()
     {
-        return $this->noAnswerTimeoutRings;
+        return $this->noAnswerTimeoutRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerTimeoutRings;
     }
 
     /**
      * Setter for noAnswerTimeoutRings
      *
-     * @ElementName noAnswerTimeoutRings
-     * @param int|null $noAnswerTimeoutRings
+     * @param int $noAnswerTimeoutRings
      * @return $this
      */
     public function setNoAnswerTimeoutRings($noAnswerTimeoutRings)
@@ -249,21 +297,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerTimeoutRings()
+    {
+        $this->noAnswerTimeoutRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableVideo
      *
-     * @ElementName enableVideo
-     * @return bool|null
+     * @return bool
      */
     public function getEnableVideo()
     {
-        return $this->enableVideo;
+        return $this->enableVideo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableVideo;
     }
 
     /**
      * Setter for enableVideo
      *
-     * @ElementName enableVideo
-     * @param bool|null $enableVideo
+     * @param bool $enableVideo
      * @return $this
      */
     public function setEnableVideo($enableVideo)
@@ -273,21 +328,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableVideo()
+    {
+        $this->enableVideo = null;
+        return $this;
+    }
+
+    /**
      * Getter for playRingingWhenOfferingCall
      *
-     * @ElementName playRingingWhenOfferingCall
-     * @return bool|null
+     * @return bool
      */
     public function getPlayRingingWhenOfferingCall()
     {
-        return $this->playRingingWhenOfferingCall;
+        return $this->playRingingWhenOfferingCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playRingingWhenOfferingCall;
     }
 
     /**
      * Setter for playRingingWhenOfferingCall
      *
-     * @ElementName playRingingWhenOfferingCall
-     * @param bool|null $playRingingWhenOfferingCall
+     * @param bool $playRingingWhenOfferingCall
      * @return $this
      */
     public function setPlayRingingWhenOfferingCall($playRingingWhenOfferingCall)
@@ -297,21 +359,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayRingingWhenOfferingCall()
+    {
+        $this->playRingingWhenOfferingCall = null;
+        return $this;
+    }
+
+    /**
      * Getter for overrideAgentWrapUpTime
      *
-     * @ElementName overrideAgentWrapUpTime
-     * @return bool|null
+     * @return bool
      */
     public function getOverrideAgentWrapUpTime()
     {
-        return $this->overrideAgentWrapUpTime;
+        return $this->overrideAgentWrapUpTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideAgentWrapUpTime;
     }
 
     /**
      * Setter for overrideAgentWrapUpTime
      *
-     * @ElementName overrideAgentWrapUpTime
-     * @param bool|null $overrideAgentWrapUpTime
+     * @param bool $overrideAgentWrapUpTime
      * @return $this
      */
     public function setOverrideAgentWrapUpTime($overrideAgentWrapUpTime)
@@ -321,21 +390,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOverrideAgentWrapUpTime()
+    {
+        $this->overrideAgentWrapUpTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for wrapUpSeconds
      *
-     * @ElementName wrapUpSeconds
-     * @return int|null
+     * @return int
      */
     public function getWrapUpSeconds()
     {
-        return $this->wrapUpSeconds;
+        return $this->wrapUpSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->wrapUpSeconds;
     }
 
     /**
      * Setter for wrapUpSeconds
      *
-     * @ElementName wrapUpSeconds
-     * @param int|null $wrapUpSeconds
+     * @param int $wrapUpSeconds
      * @return $this
      */
     public function setWrapUpSeconds($wrapUpSeconds)
@@ -345,21 +421,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetWrapUpSeconds()
+    {
+        $this->wrapUpSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutomaticStateChangeForAgents
      *
-     * @ElementName enableAutomaticStateChangeForAgents
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutomaticStateChangeForAgents()
     {
-        return $this->enableAutomaticStateChangeForAgents;
+        return $this->enableAutomaticStateChangeForAgents instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutomaticStateChangeForAgents;
     }
 
     /**
      * Setter for enableAutomaticStateChangeForAgents
      *
-     * @ElementName enableAutomaticStateChangeForAgents
-     * @param bool|null $enableAutomaticStateChangeForAgents
+     * @param bool $enableAutomaticStateChangeForAgents
      * @return $this
      */
     public function setEnableAutomaticStateChangeForAgents($enableAutomaticStateChangeForAgents)
@@ -369,21 +452,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAutomaticStateChangeForAgents()
+    {
+        $this->enableAutomaticStateChangeForAgents = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentStateAfterCall
      *
-     * @ElementName agentStateAfterCall
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
      */
     public function getAgentStateAfterCall()
     {
-        return $this->agentStateAfterCall;
+        return $this->agentStateAfterCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentStateAfterCall;
     }
 
     /**
      * Setter for agentStateAfterCall
      *
-     * @ElementName agentStateAfterCall
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null $agentStateAfterCall
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState $agentStateAfterCall
      * @return $this
      */
     public function setAgentStateAfterCall(\CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState $agentStateAfterCall)
@@ -393,21 +483,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentStateAfterCall()
+    {
+        $this->agentStateAfterCall = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentUnavailableCode
      *
-     * @ElementName agentUnavailableCode
-     * @return string|null
+     * @return string
      */
     public function getAgentUnavailableCode()
     {
-        return $this->agentUnavailableCode;
+        return $this->agentUnavailableCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUnavailableCode;
     }
 
     /**
      * Setter for agentUnavailableCode
      *
-     * @ElementName agentUnavailableCode
-     * @param string|null $agentUnavailableCode
+     * @param string $agentUnavailableCode
      * @return $this
      */
     public function setAgentUnavailableCode($agentUnavailableCode)
@@ -417,21 +514,28 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUnavailableCode()
+    {
+        $this->agentUnavailableCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceDeliveryOfCalls
      *
-     * @ElementName forceDeliveryOfCalls
-     * @return bool|null
+     * @return bool
      */
     public function getForceDeliveryOfCalls()
     {
-        return $this->forceDeliveryOfCalls;
+        return $this->forceDeliveryOfCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceDeliveryOfCalls;
     }
 
     /**
      * Setter for forceDeliveryOfCalls
      *
-     * @ElementName forceDeliveryOfCalls
-     * @param bool|null $forceDeliveryOfCalls
+     * @param bool $forceDeliveryOfCalls
      * @return $this
      */
     public function setForceDeliveryOfCalls($forceDeliveryOfCalls)
@@ -441,26 +545,42 @@ class GroupRoutePointGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForceDeliveryOfCalls()
+    {
+        $this->forceDeliveryOfCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceDeliveryWaitTimeSeconds
      *
-     * @ElementName forceDeliveryWaitTimeSeconds
-     * @return int|null
+     * @return int
      */
     public function getForceDeliveryWaitTimeSeconds()
     {
-        return $this->forceDeliveryWaitTimeSeconds;
+        return $this->forceDeliveryWaitTimeSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceDeliveryWaitTimeSeconds;
     }
 
     /**
      * Setter for forceDeliveryWaitTimeSeconds
      *
-     * @ElementName forceDeliveryWaitTimeSeconds
-     * @param int|null $forceDeliveryWaitTimeSeconds
+     * @param int $forceDeliveryWaitTimeSeconds
      * @return $this
      */
     public function setForceDeliveryWaitTimeSeconds($forceDeliveryWaitTimeSeconds)
     {
         $this->forceDeliveryWaitTimeSeconds = $forceDeliveryWaitTimeSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForceDeliveryWaitTimeSeconds()
+    {
+        $this->forceDeliveryWaitTimeSeconds = null;
         return $this;
     }
 

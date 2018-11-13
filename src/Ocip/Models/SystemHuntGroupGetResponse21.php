@@ -14,18 +14,21 @@ class SystemHuntGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName removeHuntGroupNameFromCLID
+     * @Type bool
      * @var bool|null
      */
     private $removeHuntGroupNameFromCLID = null;
 
     /**
      * @ElementName uniformCallDistributionPolicyScope
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null
      */
     private $uniformCallDistributionPolicyScope = null;
 
     /**
      * @ElementName allowAgentDeviceInitiatedForward
+     * @Type bool
      * @var bool|null
      */
     private $allowAgentDeviceInitiatedForward = null;
@@ -33,19 +36,17 @@ class SystemHuntGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for removeHuntGroupNameFromCLID
      *
-     * @ElementName removeHuntGroupNameFromCLID
-     * @return bool|null
+     * @return bool
      */
     public function getRemoveHuntGroupNameFromCLID()
     {
-        return $this->removeHuntGroupNameFromCLID;
+        return $this->removeHuntGroupNameFromCLID instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->removeHuntGroupNameFromCLID;
     }
 
     /**
      * Setter for removeHuntGroupNameFromCLID
      *
-     * @ElementName removeHuntGroupNameFromCLID
-     * @param bool|null $removeHuntGroupNameFromCLID
+     * @param bool $removeHuntGroupNameFromCLID
      * @return $this
      */
     public function setRemoveHuntGroupNameFromCLID($removeHuntGroupNameFromCLID)
@@ -55,21 +56,28 @@ class SystemHuntGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRemoveHuntGroupNameFromCLID()
+    {
+        $this->removeHuntGroupNameFromCLID = null;
+        return $this;
+    }
+
+    /**
      * Getter for uniformCallDistributionPolicyScope
      *
-     * @ElementName uniformCallDistributionPolicyScope
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope
      */
     public function getUniformCallDistributionPolicyScope()
     {
-        return $this->uniformCallDistributionPolicyScope;
+        return $this->uniformCallDistributionPolicyScope instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->uniformCallDistributionPolicyScope;
     }
 
     /**
      * Setter for uniformCallDistributionPolicyScope
      *
-     * @ElementName uniformCallDistributionPolicyScope
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null $uniformCallDistributionPolicyScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope $uniformCallDistributionPolicyScope
      * @return $this
      */
     public function setUniformCallDistributionPolicyScope(\CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope $uniformCallDistributionPolicyScope)
@@ -79,26 +87,42 @@ class SystemHuntGroupGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUniformCallDistributionPolicyScope()
+    {
+        $this->uniformCallDistributionPolicyScope = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowAgentDeviceInitiatedForward
      *
-     * @ElementName allowAgentDeviceInitiatedForward
-     * @return bool|null
+     * @return bool
      */
     public function getAllowAgentDeviceInitiatedForward()
     {
-        return $this->allowAgentDeviceInitiatedForward;
+        return $this->allowAgentDeviceInitiatedForward instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowAgentDeviceInitiatedForward;
     }
 
     /**
      * Setter for allowAgentDeviceInitiatedForward
      *
-     * @ElementName allowAgentDeviceInitiatedForward
-     * @param bool|null $allowAgentDeviceInitiatedForward
+     * @param bool $allowAgentDeviceInitiatedForward
      * @return $this
      */
     public function setAllowAgentDeviceInitiatedForward($allowAgentDeviceInitiatedForward)
     {
         $this->allowAgentDeviceInitiatedForward = $allowAgentDeviceInitiatedForward;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowAgentDeviceInitiatedForward()
+    {
+        $this->allowAgentDeviceInitiatedForward = null;
         return $this;
     }
 

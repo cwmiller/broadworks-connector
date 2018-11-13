@@ -20,24 +20,29 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName orderedLinePortList
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $orderedLinePortList = array(
@@ -47,19 +52,17 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +72,28 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -93,21 +103,28 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -117,20 +134,27 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for orderedLinePortList
      *
-     * @ElementName orderedLinePortList
      * @return string[]
      */
     public function getOrderedLinePortList()
     {
-        return $this->orderedLinePortList;
+        return $this->orderedLinePortList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->orderedLinePortList;
     }
 
     /**
      * Setter for orderedLinePortList
      *
-     * @ElementName orderedLinePortList
      * @param string[] $orderedLinePortList
      * @return $this
      */
@@ -141,15 +165,23 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOrderedLinePortList()
+    {
+        $this->orderedLinePortList = null;
+        return $this;
+    }
+
+    /**
      * Adder for orderedLinePortList
      *
-     * @ElementName orderedLinePortList
      * @param string $orderedLinePortList
      * @return $this
      */
     public function addOrderedLinePortList(string $orderedLinePortList)
     {
-        $this->orderedLinePortList []= $orderedLinePortList;
+        $this->orderedLinePortList[] = $orderedLinePortList;
         return $this;
     }
 

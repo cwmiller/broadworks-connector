@@ -14,60 +14,70 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName collaborateRoomIdLength
+     * @Type int
      * @var int|null
      */
     private $collaborateRoomIdLength = null;
 
     /**
      * @ElementName instantRoomIdleTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $instantRoomIdleTimeoutSeconds = null;
 
     /**
      * @ElementName collaborateRoomMaximumDurationMinutes
+     * @Type int
      * @var int|null
      */
     private $collaborateRoomMaximumDurationMinutes = null;
 
     /**
      * @ElementName supportOutdial
+     * @Type bool
      * @var bool|null
      */
     private $supportOutdial = null;
 
     /**
      * @ElementName maxCollaborateRoomParticipants
+     * @Type int
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
 
     /**
      * @ElementName collaborateActiveTalkerRefreshIntervalSeconds
+     * @Type int
      * @var int|null
      */
     private $collaborateActiveTalkerRefreshIntervalSeconds = null;
 
     /**
      * @ElementName terminateCollaborateAfterGracePeriod
+     * @Type bool
      * @var bool|null
      */
     private $terminateCollaborateAfterGracePeriod = null;
 
     /**
      * @ElementName collaborateGracePeriod
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration|null
      */
     private $collaborateGracePeriod = null;
 
     /**
      * @ElementName enableActiveCollaborateNotification
+     * @Type bool
      * @var bool|null
      */
     private $enableActiveCollaborateNotification = null;
 
     /**
      * @ElementName collaborateFromAddress
+     * @Type string
      * @var string|null
      */
     private $collaborateFromAddress = null;
@@ -75,19 +85,17 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for collaborateRoomIdLength
      *
-     * @ElementName collaborateRoomIdLength
-     * @return int|null
+     * @return int
      */
     public function getCollaborateRoomIdLength()
     {
-        return $this->collaborateRoomIdLength;
+        return $this->collaborateRoomIdLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collaborateRoomIdLength;
     }
 
     /**
      * Setter for collaborateRoomIdLength
      *
-     * @ElementName collaborateRoomIdLength
-     * @param int|null $collaborateRoomIdLength
+     * @param int $collaborateRoomIdLength
      * @return $this
      */
     public function setCollaborateRoomIdLength($collaborateRoomIdLength)
@@ -97,21 +105,28 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCollaborateRoomIdLength()
+    {
+        $this->collaborateRoomIdLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for instantRoomIdleTimeoutSeconds
      *
-     * @ElementName instantRoomIdleTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getInstantRoomIdleTimeoutSeconds()
     {
-        return $this->instantRoomIdleTimeoutSeconds;
+        return $this->instantRoomIdleTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->instantRoomIdleTimeoutSeconds;
     }
 
     /**
      * Setter for instantRoomIdleTimeoutSeconds
      *
-     * @ElementName instantRoomIdleTimeoutSeconds
-     * @param int|null $instantRoomIdleTimeoutSeconds
+     * @param int $instantRoomIdleTimeoutSeconds
      * @return $this
      */
     public function setInstantRoomIdleTimeoutSeconds($instantRoomIdleTimeoutSeconds)
@@ -121,21 +136,28 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInstantRoomIdleTimeoutSeconds()
+    {
+        $this->instantRoomIdleTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for collaborateRoomMaximumDurationMinutes
      *
-     * @ElementName collaborateRoomMaximumDurationMinutes
-     * @return int|null
+     * @return int
      */
     public function getCollaborateRoomMaximumDurationMinutes()
     {
-        return $this->collaborateRoomMaximumDurationMinutes;
+        return $this->collaborateRoomMaximumDurationMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collaborateRoomMaximumDurationMinutes;
     }
 
     /**
      * Setter for collaborateRoomMaximumDurationMinutes
      *
-     * @ElementName collaborateRoomMaximumDurationMinutes
-     * @param int|null $collaborateRoomMaximumDurationMinutes
+     * @param int $collaborateRoomMaximumDurationMinutes
      * @return $this
      */
     public function setCollaborateRoomMaximumDurationMinutes($collaborateRoomMaximumDurationMinutes)
@@ -145,21 +167,28 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCollaborateRoomMaximumDurationMinutes()
+    {
+        $this->collaborateRoomMaximumDurationMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportOutdial
      *
-     * @ElementName supportOutdial
-     * @return bool|null
+     * @return bool
      */
     public function getSupportOutdial()
     {
-        return $this->supportOutdial;
+        return $this->supportOutdial instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportOutdial;
     }
 
     /**
      * Setter for supportOutdial
      *
-     * @ElementName supportOutdial
-     * @param bool|null $supportOutdial
+     * @param bool $supportOutdial
      * @return $this
      */
     public function setSupportOutdial($supportOutdial)
@@ -169,21 +198,28 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportOutdial()
+    {
+        $this->supportOutdial = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCollaborateRoomParticipants
      *
-     * @ElementName maxCollaborateRoomParticipants
-     * @return int|null
+     * @return int
      */
     public function getMaxCollaborateRoomParticipants()
     {
-        return $this->maxCollaborateRoomParticipants;
+        return $this->maxCollaborateRoomParticipants instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCollaborateRoomParticipants;
     }
 
     /**
      * Setter for maxCollaborateRoomParticipants
      *
-     * @ElementName maxCollaborateRoomParticipants
-     * @param int|null $maxCollaborateRoomParticipants
+     * @param int $maxCollaborateRoomParticipants
      * @return $this
      */
     public function setMaxCollaborateRoomParticipants($maxCollaborateRoomParticipants)
@@ -193,21 +229,28 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxCollaborateRoomParticipants()
+    {
+        $this->maxCollaborateRoomParticipants = null;
+        return $this;
+    }
+
+    /**
      * Getter for collaborateActiveTalkerRefreshIntervalSeconds
      *
-     * @ElementName collaborateActiveTalkerRefreshIntervalSeconds
-     * @return int|null
+     * @return int
      */
     public function getCollaborateActiveTalkerRefreshIntervalSeconds()
     {
-        return $this->collaborateActiveTalkerRefreshIntervalSeconds;
+        return $this->collaborateActiveTalkerRefreshIntervalSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collaborateActiveTalkerRefreshIntervalSeconds;
     }
 
     /**
      * Setter for collaborateActiveTalkerRefreshIntervalSeconds
      *
-     * @ElementName collaborateActiveTalkerRefreshIntervalSeconds
-     * @param int|null $collaborateActiveTalkerRefreshIntervalSeconds
+     * @param int $collaborateActiveTalkerRefreshIntervalSeconds
      * @return $this
      */
     public function setCollaborateActiveTalkerRefreshIntervalSeconds($collaborateActiveTalkerRefreshIntervalSeconds)
@@ -217,21 +260,28 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCollaborateActiveTalkerRefreshIntervalSeconds()
+    {
+        $this->collaborateActiveTalkerRefreshIntervalSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for terminateCollaborateAfterGracePeriod
      *
-     * @ElementName terminateCollaborateAfterGracePeriod
-     * @return bool|null
+     * @return bool
      */
     public function getTerminateCollaborateAfterGracePeriod()
     {
-        return $this->terminateCollaborateAfterGracePeriod;
+        return $this->terminateCollaborateAfterGracePeriod instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->terminateCollaborateAfterGracePeriod;
     }
 
     /**
      * Setter for terminateCollaborateAfterGracePeriod
      *
-     * @ElementName terminateCollaborateAfterGracePeriod
-     * @param bool|null $terminateCollaborateAfterGracePeriod
+     * @param bool $terminateCollaborateAfterGracePeriod
      * @return $this
      */
     public function setTerminateCollaborateAfterGracePeriod($terminateCollaborateAfterGracePeriod)
@@ -241,21 +291,28 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTerminateCollaborateAfterGracePeriod()
+    {
+        $this->terminateCollaborateAfterGracePeriod = null;
+        return $this;
+    }
+
+    /**
      * Getter for collaborateGracePeriod
      *
-     * @ElementName collaborateGracePeriod
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration
      */
     public function getCollaborateGracePeriod()
     {
-        return $this->collaborateGracePeriod;
+        return $this->collaborateGracePeriod instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collaborateGracePeriod;
     }
 
     /**
      * Setter for collaborateGracePeriod
      *
-     * @ElementName collaborateGracePeriod
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration|null $collaborateGracePeriod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration $collaborateGracePeriod
      * @return $this
      */
     public function setCollaborateGracePeriod(\CWM\BroadWorksConnector\Ocip\Models\CollaborateGracePeriodDuration $collaborateGracePeriod)
@@ -265,21 +322,28 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCollaborateGracePeriod()
+    {
+        $this->collaborateGracePeriod = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableActiveCollaborateNotification
      *
-     * @ElementName enableActiveCollaborateNotification
-     * @return bool|null
+     * @return bool
      */
     public function getEnableActiveCollaborateNotification()
     {
-        return $this->enableActiveCollaborateNotification;
+        return $this->enableActiveCollaborateNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableActiveCollaborateNotification;
     }
 
     /**
      * Setter for enableActiveCollaborateNotification
      *
-     * @ElementName enableActiveCollaborateNotification
-     * @param bool|null $enableActiveCollaborateNotification
+     * @param bool $enableActiveCollaborateNotification
      * @return $this
      */
     public function setEnableActiveCollaborateNotification($enableActiveCollaborateNotification)
@@ -289,26 +353,42 @@ class SystemCollaborateGetResponse20sp1V2 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableActiveCollaborateNotification()
+    {
+        $this->enableActiveCollaborateNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for collaborateFromAddress
      *
-     * @ElementName collaborateFromAddress
-     * @return string|null
+     * @return string
      */
     public function getCollaborateFromAddress()
     {
-        return $this->collaborateFromAddress;
+        return $this->collaborateFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collaborateFromAddress;
     }
 
     /**
      * Setter for collaborateFromAddress
      *
-     * @ElementName collaborateFromAddress
-     * @param string|null $collaborateFromAddress
+     * @param string $collaborateFromAddress
      * @return $this
      */
     public function setCollaborateFromAddress($collaborateFromAddress)
     {
         $this->collaborateFromAddress = $collaborateFromAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCollaborateFromAddress()
+    {
+        $this->collaborateFromAddress = null;
         return $this;
     }
 

@@ -19,30 +19,35 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName broadWorksAnywhereScope
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null
      */
     private $broadWorksAnywhereScope = null;
 
     /**
      * @ElementName promptForCLID
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null
      */
     private $promptForCLID = null;
 
     /**
      * @ElementName silentPromptMode
+     * @Type bool
      * @var bool|null
      */
     private $silentPromptMode = null;
 
     /**
      * @ElementName promptForPasscode
+     * @Type bool
      * @var bool|null
      */
     private $promptForPasscode = null;
@@ -50,19 +55,17 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17 $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17 $serviceInstanceProfile)
@@ -72,21 +75,28 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for broadWorksAnywhereScope
      *
-     * @ElementName broadWorksAnywhereScope
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope
      */
     public function getBroadWorksAnywhereScope()
     {
-        return $this->broadWorksAnywhereScope;
+        return $this->broadWorksAnywhereScope instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->broadWorksAnywhereScope;
     }
 
     /**
      * Setter for broadWorksAnywhereScope
      *
-     * @ElementName broadWorksAnywhereScope
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope|null $broadWorksAnywhereScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope $broadWorksAnywhereScope
      * @return $this
      */
     public function setBroadWorksAnywhereScope(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereScope $broadWorksAnywhereScope)
@@ -96,21 +106,28 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBroadWorksAnywhereScope()
+    {
+        $this->broadWorksAnywhereScope = null;
+        return $this;
+    }
+
+    /**
      * Getter for promptForCLID
      *
-     * @ElementName promptForCLID
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt
      */
     public function getPromptForCLID()
     {
-        return $this->promptForCLID;
+        return $this->promptForCLID instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->promptForCLID;
     }
 
     /**
      * Setter for promptForCLID
      *
-     * @ElementName promptForCLID
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt|null $promptForCLID
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt $promptForCLID
      * @return $this
      */
     public function setPromptForCLID(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksAnywhereCLIDPrompt $promptForCLID)
@@ -120,21 +137,28 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPromptForCLID()
+    {
+        $this->promptForCLID = null;
+        return $this;
+    }
+
+    /**
      * Getter for silentPromptMode
      *
-     * @ElementName silentPromptMode
-     * @return bool|null
+     * @return bool
      */
     public function getSilentPromptMode()
     {
-        return $this->silentPromptMode;
+        return $this->silentPromptMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->silentPromptMode;
     }
 
     /**
      * Setter for silentPromptMode
      *
-     * @ElementName silentPromptMode
-     * @param bool|null $silentPromptMode
+     * @param bool $silentPromptMode
      * @return $this
      */
     public function setSilentPromptMode($silentPromptMode)
@@ -144,26 +168,42 @@ class GroupBroadWorksAnywhereGetInstanceResponse17 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSilentPromptMode()
+    {
+        $this->silentPromptMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for promptForPasscode
      *
-     * @ElementName promptForPasscode
-     * @return bool|null
+     * @return bool
      */
     public function getPromptForPasscode()
     {
-        return $this->promptForPasscode;
+        return $this->promptForPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->promptForPasscode;
     }
 
     /**
      * Setter for promptForPasscode
      *
-     * @ElementName promptForPasscode
-     * @param bool|null $promptForPasscode
+     * @param bool $promptForPasscode
      * @return $this
      */
     public function setPromptForPasscode($promptForPasscode)
     {
         $this->promptForPasscode = $promptForPasscode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPromptForPasscode()
+    {
+        $this->promptForPasscode = null;
         return $this;
     }
 

@@ -14,18 +14,21 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName isNetworkServerQueryActive
+     * @Type bool
      * @var bool|null
      */
     private $isNetworkServerQueryActive = null;
 
     /**
      * @ElementName timeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $timeoutSeconds = null;
@@ -33,19 +36,17 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -55,21 +56,28 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for isNetworkServerQueryActive
      *
-     * @ElementName isNetworkServerQueryActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsNetworkServerQueryActive()
     {
-        return $this->isNetworkServerQueryActive;
+        return $this->isNetworkServerQueryActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isNetworkServerQueryActive;
     }
 
     /**
      * Setter for isNetworkServerQueryActive
      *
-     * @ElementName isNetworkServerQueryActive
-     * @param bool|null $isNetworkServerQueryActive
+     * @param bool $isNetworkServerQueryActive
      * @return $this
      */
     public function setIsNetworkServerQueryActive($isNetworkServerQueryActive)
@@ -79,26 +87,42 @@ class SystemProvisioningValidationGetResponse14sp2 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsNetworkServerQueryActive()
+    {
+        $this->isNetworkServerQueryActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeoutSeconds
      *
-     * @ElementName timeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getTimeoutSeconds()
     {
-        return $this->timeoutSeconds;
+        return $this->timeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeoutSeconds;
     }
 
     /**
      * Setter for timeoutSeconds
      *
-     * @ElementName timeoutSeconds
-     * @param int|null $timeoutSeconds
+     * @param int $timeoutSeconds
      * @return $this
      */
     public function setTimeoutSeconds($timeoutSeconds)
     {
         $this->timeoutSeconds = $timeoutSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeoutSeconds()
+    {
+        $this->timeoutSeconds = null;
         return $this;
     }
 

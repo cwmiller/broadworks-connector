@@ -16,30 +16,35 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName intraLataCarrier
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
      */
     private $intraLataCarrier = null;
 
     /**
      * @ElementName interLataCarrier
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
      */
     private $interLataCarrier = null;
 
     /**
      * @ElementName internationalCarrier
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
      */
     private $internationalCarrier = null;
@@ -47,19 +52,17 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +72,28 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -93,21 +103,28 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for intraLataCarrier
      *
-     * @ElementName intraLataCarrier
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify
      */
     public function getIntraLataCarrier()
     {
-        return $this->intraLataCarrier;
+        return $this->intraLataCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->intraLataCarrier;
     }
 
     /**
      * Setter for intraLataCarrier
      *
-     * @ElementName intraLataCarrier
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null $intraLataCarrier
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify $intraLataCarrier
      * @return $this
      */
     public function setIntraLataCarrier(\CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify $intraLataCarrier)
@@ -117,21 +134,28 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIntraLataCarrier()
+    {
+        $this->intraLataCarrier = null;
+        return $this;
+    }
+
+    /**
      * Getter for interLataCarrier
      *
-     * @ElementName interLataCarrier
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify
      */
     public function getInterLataCarrier()
     {
-        return $this->interLataCarrier;
+        return $this->interLataCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interLataCarrier;
     }
 
     /**
      * Setter for interLataCarrier
      *
-     * @ElementName interLataCarrier
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null $interLataCarrier
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify $interLataCarrier
      * @return $this
      */
     public function setInterLataCarrier(\CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify $interLataCarrier)
@@ -141,26 +165,42 @@ class GroupPreferredCarrierGroupModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInterLataCarrier()
+    {
+        $this->interLataCarrier = null;
+        return $this;
+    }
+
+    /**
      * Getter for internationalCarrier
      *
-     * @ElementName internationalCarrier
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify
      */
     public function getInternationalCarrier()
     {
-        return $this->internationalCarrier;
+        return $this->internationalCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internationalCarrier;
     }
 
     /**
      * Setter for internationalCarrier
      *
-     * @ElementName internationalCarrier
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify|null $internationalCarrier
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify $internationalCarrier
      * @return $this
      */
     public function setInternationalCarrier(\CWM\BroadWorksConnector\Ocip\Models\GroupPreferredCarrierNameModify $internationalCarrier)
     {
         $this->internationalCarrier = $internationalCarrier;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInternationalCarrier()
+    {
+        $this->internationalCarrier = null;
         return $this;
     }
 

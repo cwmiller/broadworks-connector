@@ -17,18 +17,21 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName physicalLocationIndicator
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
      */
     private $physicalLocationIndicator = null;
 
     /**
      * @ElementName enforceMscValidation
+     * @Type bool
      * @var bool|null
      */
     private $enforceMscValidation = null;
 
     /**
      * @ElementName enableOfficeZoneAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $enableOfficeZoneAnnouncement = null;
@@ -36,19 +39,17 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * Getter for physicalLocationIndicator
      *
-     * @ElementName physicalLocationIndicator
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator
      */
     public function getPhysicalLocationIndicator()
     {
-        return $this->physicalLocationIndicator;
+        return $this->physicalLocationIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->physicalLocationIndicator;
     }
 
     /**
      * Setter for physicalLocationIndicator
      *
-     * @ElementName physicalLocationIndicator
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null $physicalLocationIndicator
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator $physicalLocationIndicator
      * @return $this
      */
     public function setPhysicalLocationIndicator(\CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator $physicalLocationIndicator)
@@ -58,21 +59,28 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhysicalLocationIndicator()
+    {
+        $this->physicalLocationIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for enforceMscValidation
      *
-     * @ElementName enforceMscValidation
-     * @return bool|null
+     * @return bool
      */
     public function getEnforceMscValidation()
     {
-        return $this->enforceMscValidation;
+        return $this->enforceMscValidation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enforceMscValidation;
     }
 
     /**
      * Setter for enforceMscValidation
      *
-     * @ElementName enforceMscValidation
-     * @param bool|null $enforceMscValidation
+     * @param bool $enforceMscValidation
      * @return $this
      */
     public function setEnforceMscValidation($enforceMscValidation)
@@ -82,26 +90,42 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnforceMscValidation()
+    {
+        $this->enforceMscValidation = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableOfficeZoneAnnouncement
      *
-     * @ElementName enableOfficeZoneAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getEnableOfficeZoneAnnouncement()
     {
-        return $this->enableOfficeZoneAnnouncement;
+        return $this->enableOfficeZoneAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableOfficeZoneAnnouncement;
     }
 
     /**
      * Setter for enableOfficeZoneAnnouncement
      *
-     * @ElementName enableOfficeZoneAnnouncement
-     * @param bool|null $enableOfficeZoneAnnouncement
+     * @param bool $enableOfficeZoneAnnouncement
      * @return $this
      */
     public function setEnableOfficeZoneAnnouncement($enableOfficeZoneAnnouncement)
     {
         $this->enableOfficeZoneAnnouncement = $enableOfficeZoneAnnouncement;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableOfficeZoneAnnouncement()
+    {
+        $this->enableOfficeZoneAnnouncement = null;
         return $this;
     }
 

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ExecutiveCallFilteringCriteriaDnSelection ANY_INTERNAL()
  * @method static ExecutiveCallFilteringCriteriaDnSelection ANY_EXTERNAL()
  * @method static ExecutiveCallFilteringCriteriaDnSelection SPECIFIED_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class ExecutiveCallFilteringCriteriaDnSelection extends \MyCLabs\Enum\Enum
 {

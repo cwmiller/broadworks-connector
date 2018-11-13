@@ -10,24 +10,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingsMenuKeys
 
     /**
      * @ElementName personalizedName
+     * @Type string
      * @var string|null
      */
     private $personalizedName = null;
 
     /**
      * @ElementName conferenceGreeting
+     * @Type string
      * @var string|null
      */
     private $conferenceGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -35,19 +39,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingsMenuKeys
     /**
      * Getter for personalizedName
      *
-     * @ElementName personalizedName
-     * @return string|null
+     * @return string
      */
     public function getPersonalizedName()
     {
-        return $this->personalizedName;
+        return $this->personalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedName;
     }
 
     /**
      * Setter for personalizedName
      *
-     * @ElementName personalizedName
-     * @param string|null $personalizedName
+     * @param string $personalizedName
      * @return $this
      */
     public function setPersonalizedName($personalizedName)
@@ -57,21 +59,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingsMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalizedName()
+    {
+        $this->personalizedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceGreeting
      *
-     * @ElementName conferenceGreeting
-     * @return string|null
+     * @return string
      */
     public function getConferenceGreeting()
     {
-        return $this->conferenceGreeting;
+        return $this->conferenceGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceGreeting;
     }
 
     /**
      * Setter for conferenceGreeting
      *
-     * @ElementName conferenceGreeting
-     * @param string|null $conferenceGreeting
+     * @param string $conferenceGreeting
      * @return $this
      */
     public function setConferenceGreeting($conferenceGreeting)
@@ -81,21 +90,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingsMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceGreeting()
+    {
+        $this->conferenceGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -105,26 +121,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingsMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

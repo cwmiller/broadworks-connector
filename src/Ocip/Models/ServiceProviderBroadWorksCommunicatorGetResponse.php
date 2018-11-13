@@ -14,6 +14,7 @@ class ServiceProviderBroadWorksCommunicatorGetResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName configurationServerURL
+     * @Type string
      * @var string|null
      */
     private $configurationServerURL = null;
@@ -21,24 +22,31 @@ class ServiceProviderBroadWorksCommunicatorGetResponse extends \CWM\BroadWorksCo
     /**
      * Getter for configurationServerURL
      *
-     * @ElementName configurationServerURL
-     * @return string|null
+     * @return string
      */
     public function getConfigurationServerURL()
     {
-        return $this->configurationServerURL;
+        return $this->configurationServerURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurationServerURL;
     }
 
     /**
      * Setter for configurationServerURL
      *
-     * @ElementName configurationServerURL
-     * @param string|null $configurationServerURL
+     * @param string $configurationServerURL
      * @return $this
      */
     public function setConfigurationServerURL($configurationServerURL)
     {
         $this->configurationServerURL = $configurationServerURL;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConfigurationServerURL()
+    {
+        $this->configurationServerURL = null;
         return $this;
     }
 

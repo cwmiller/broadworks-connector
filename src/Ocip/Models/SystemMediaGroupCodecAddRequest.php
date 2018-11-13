@@ -16,18 +16,21 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName codecName
+     * @Type string
      * @var string|null
      */
     private $codecName = null;
 
     /**
      * @ElementName codecWeight
+     * @Type int
      * @var int|null
      */
     private $codecWeight = null;
@@ -35,19 +38,17 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -57,21 +58,28 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for codecName
      *
-     * @ElementName codecName
-     * @return string|null
+     * @return string
      */
     public function getCodecName()
     {
-        return $this->codecName;
+        return $this->codecName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->codecName;
     }
 
     /**
      * Setter for codecName
      *
-     * @ElementName codecName
-     * @param string|null $codecName
+     * @param string $codecName
      * @return $this
      */
     public function setCodecName($codecName)
@@ -81,26 +89,42 @@ class SystemMediaGroupCodecAddRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCodecName()
+    {
+        $this->codecName = null;
+        return $this;
+    }
+
+    /**
      * Getter for codecWeight
      *
-     * @ElementName codecWeight
-     * @return int|null
+     * @return int
      */
     public function getCodecWeight()
     {
-        return $this->codecWeight;
+        return $this->codecWeight instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->codecWeight;
     }
 
     /**
      * Setter for codecWeight
      *
-     * @ElementName codecWeight
-     * @param int|null $codecWeight
+     * @param int $codecWeight
      * @return $this
      */
     public function setCodecWeight($codecWeight)
     {
         $this->codecWeight = $codecWeight;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCodecWeight()
+    {
+        $this->codecWeight = null;
         return $this;
     }
 

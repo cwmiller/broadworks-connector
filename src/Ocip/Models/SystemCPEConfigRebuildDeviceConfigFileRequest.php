@@ -19,12 +19,14 @@ class SystemCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName force
+     * @Type bool
      * @var bool|null
      */
     private $force = null;
@@ -32,19 +34,17 @@ class SystemCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConne
     /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -54,26 +54,42 @@ class SystemCPEConfigRebuildDeviceConfigFileRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for force
      *
-     * @ElementName force
-     * @return bool|null
+     * @return bool
      */
     public function getForce()
     {
-        return $this->force;
+        return $this->force instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->force;
     }
 
     /**
      * Setter for force
      *
-     * @ElementName force
-     * @param bool|null $force
+     * @param bool $force
      * @return $this
      */
     public function setForce($force)
     {
         $this->force = $force;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForce()
+    {
+        $this->force = null;
         return $this;
     }
 

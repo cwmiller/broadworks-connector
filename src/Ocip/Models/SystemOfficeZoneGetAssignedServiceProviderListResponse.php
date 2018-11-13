@@ -18,6 +18,7 @@ class SystemOfficeZoneGetAssignedServiceProviderListResponse extends \CWM\BroadW
 
     /**
      * @ElementName serviceProviderTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderTable = null;
@@ -25,24 +26,31 @@ class SystemOfficeZoneGetAssignedServiceProviderListResponse extends \CWM\BroadW
     /**
      * Getter for serviceProviderTable
      *
-     * @ElementName serviceProviderTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServiceProviderTable()
     {
-        return $this->serviceProviderTable;
+        return $this->serviceProviderTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderTable;
     }
 
     /**
      * Setter for serviceProviderTable
      *
-     * @ElementName serviceProviderTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderTable
      * @return $this
      */
     public function setServiceProviderTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderTable)
     {
         $this->serviceProviderTable = $serviceProviderTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceProviderTable()
+    {
+        $this->serviceProviderTable = null;
         return $this;
     }
 

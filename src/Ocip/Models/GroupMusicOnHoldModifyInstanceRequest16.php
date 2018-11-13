@@ -19,54 +19,63 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName department
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
 
     /**
      * @ElementName isActiveDuringCallHold
+     * @Type bool
      * @var bool|null
      */
     private $isActiveDuringCallHold = null;
 
     /**
      * @ElementName isActiveDuringCallPark
+     * @Type bool
      * @var bool|null
      */
     private $isActiveDuringCallPark = null;
 
     /**
      * @ElementName isActiveDuringBusyCampOn
+     * @Type bool
      * @var bool|null
      */
     private $isActiveDuringBusyCampOn = null;
 
     /**
      * @ElementName source
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16|null
      */
     private $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
+     * @Type bool
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16|null
      */
     private $internalSource = null;
@@ -74,19 +83,17 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -96,21 +103,28 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -120,21 +134,28 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for department
      *
-     * @ElementName department
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      */
     public function getDepartment()
     {
-        return $this->department;
+        return $this->department instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->department;
     }
 
     /**
      * Setter for department
      *
-     * @ElementName department
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department
      * @return $this
      */
     public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
@@ -144,21 +165,28 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartment()
+    {
+        $this->department = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveDuringCallHold
      *
-     * @ElementName isActiveDuringCallHold
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveDuringCallHold()
     {
-        return $this->isActiveDuringCallHold;
+        return $this->isActiveDuringCallHold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveDuringCallHold;
     }
 
     /**
      * Setter for isActiveDuringCallHold
      *
-     * @ElementName isActiveDuringCallHold
-     * @param bool|null $isActiveDuringCallHold
+     * @param bool $isActiveDuringCallHold
      * @return $this
      */
     public function setIsActiveDuringCallHold($isActiveDuringCallHold)
@@ -168,21 +196,28 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveDuringCallHold()
+    {
+        $this->isActiveDuringCallHold = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveDuringCallPark
      *
-     * @ElementName isActiveDuringCallPark
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveDuringCallPark()
     {
-        return $this->isActiveDuringCallPark;
+        return $this->isActiveDuringCallPark instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveDuringCallPark;
     }
 
     /**
      * Setter for isActiveDuringCallPark
      *
-     * @ElementName isActiveDuringCallPark
-     * @param bool|null $isActiveDuringCallPark
+     * @param bool $isActiveDuringCallPark
      * @return $this
      */
     public function setIsActiveDuringCallPark($isActiveDuringCallPark)
@@ -192,21 +227,28 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveDuringCallPark()
+    {
+        $this->isActiveDuringCallPark = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveDuringBusyCampOn
      *
-     * @ElementName isActiveDuringBusyCampOn
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveDuringBusyCampOn()
     {
-        return $this->isActiveDuringBusyCampOn;
+        return $this->isActiveDuringBusyCampOn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveDuringBusyCampOn;
     }
 
     /**
      * Setter for isActiveDuringBusyCampOn
      *
-     * @ElementName isActiveDuringBusyCampOn
-     * @param bool|null $isActiveDuringBusyCampOn
+     * @param bool $isActiveDuringBusyCampOn
      * @return $this
      */
     public function setIsActiveDuringBusyCampOn($isActiveDuringBusyCampOn)
@@ -216,21 +258,28 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveDuringBusyCampOn()
+    {
+        $this->isActiveDuringBusyCampOn = null;
+        return $this;
+    }
+
+    /**
      * Getter for source
      *
-     * @ElementName source
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16
      */
     public function getSource()
     {
-        return $this->source;
+        return $this->source instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->source;
     }
 
     /**
      * Setter for source
      *
-     * @ElementName source
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16|null $source
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16 $source
      * @return $this
      */
     public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16 $source)
@@ -240,21 +289,28 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSource()
+    {
+        $this->source = null;
+        return $this;
+    }
+
+    /**
      * Getter for useAlternateSourceForInternalCalls
      *
-     * @ElementName useAlternateSourceForInternalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseAlternateSourceForInternalCalls()
     {
-        return $this->useAlternateSourceForInternalCalls;
+        return $this->useAlternateSourceForInternalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useAlternateSourceForInternalCalls;
     }
 
     /**
      * Setter for useAlternateSourceForInternalCalls
      *
-     * @ElementName useAlternateSourceForInternalCalls
-     * @param bool|null $useAlternateSourceForInternalCalls
+     * @param bool $useAlternateSourceForInternalCalls
      * @return $this
      */
     public function setUseAlternateSourceForInternalCalls($useAlternateSourceForInternalCalls)
@@ -264,26 +320,42 @@ class GroupMusicOnHoldModifyInstanceRequest16 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseAlternateSourceForInternalCalls()
+    {
+        $this->useAlternateSourceForInternalCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for internalSource
      *
-     * @ElementName internalSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16
      */
     public function getInternalSource()
     {
-        return $this->internalSource;
+        return $this->internalSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internalSource;
     }
 
     /**
      * Setter for internalSource
      *
-     * @ElementName internalSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16|null $internalSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16 $internalSource
      * @return $this
      */
     public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceModify16 $internalSource)
     {
         $this->internalSource = $internalSource;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInternalSource()
+    {
+        $this->internalSource = null;
         return $this;
     }
 

@@ -17,18 +17,21 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName enableIPDeviceManagement
+     * @Type bool
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
 
     /**
      * @ElementName ftpConnectTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
 
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
@@ -36,19 +39,17 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for enableIPDeviceManagement
      *
-     * @ElementName enableIPDeviceManagement
-     * @return bool|null
+     * @return bool
      */
     public function getEnableIPDeviceManagement()
     {
-        return $this->enableIPDeviceManagement;
+        return $this->enableIPDeviceManagement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableIPDeviceManagement;
     }
 
     /**
      * Setter for enableIPDeviceManagement
      *
-     * @ElementName enableIPDeviceManagement
-     * @param bool|null $enableIPDeviceManagement
+     * @param bool $enableIPDeviceManagement
      * @return $this
      */
     public function setEnableIPDeviceManagement($enableIPDeviceManagement)
@@ -58,21 +59,28 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableIPDeviceManagement()
+    {
+        $this->enableIPDeviceManagement = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpConnectTimeoutSeconds
      *
-     * @ElementName ftpConnectTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getFtpConnectTimeoutSeconds()
     {
-        return $this->ftpConnectTimeoutSeconds;
+        return $this->ftpConnectTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpConnectTimeoutSeconds;
     }
 
     /**
      * Setter for ftpConnectTimeoutSeconds
      *
-     * @ElementName ftpConnectTimeoutSeconds
-     * @param int|null $ftpConnectTimeoutSeconds
+     * @param int $ftpConnectTimeoutSeconds
      * @return $this
      */
     public function setFtpConnectTimeoutSeconds($ftpConnectTimeoutSeconds)
@@ -82,26 +90,42 @@ class SystemCPEConfigParametersGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpConnectTimeoutSeconds()
+    {
+        $this->ftpConnectTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpFileTransferTimeoutSeconds
      *
-     * @ElementName ftpFileTransferTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getFtpFileTransferTimeoutSeconds()
     {
-        return $this->ftpFileTransferTimeoutSeconds;
+        return $this->ftpFileTransferTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpFileTransferTimeoutSeconds;
     }
 
     /**
      * Setter for ftpFileTransferTimeoutSeconds
      *
-     * @ElementName ftpFileTransferTimeoutSeconds
-     * @param int|null $ftpFileTransferTimeoutSeconds
+     * @param int $ftpFileTransferTimeoutSeconds
      * @return $this
      */
     public function setFtpFileTransferTimeoutSeconds($ftpFileTransferTimeoutSeconds)
     {
         $this->ftpFileTransferTimeoutSeconds = $ftpFileTransferTimeoutSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFtpFileTransferTimeoutSeconds()
+    {
+        $this->ftpFileTransferTimeoutSeconds = null;
         return $this;
     }
 

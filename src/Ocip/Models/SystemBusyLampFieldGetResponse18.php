@@ -17,12 +17,14 @@ class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName displayLocalUserIdentityLastNameFirst
+     * @Type bool
      * @var bool|null
      */
     private $displayLocalUserIdentityLastNameFirst = null;
 
     /**
      * @ElementName forceUseOfTCP
+     * @Type bool
      * @var bool|null
      */
     private $forceUseOfTCP = null;
@@ -30,19 +32,17 @@ class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for displayLocalUserIdentityLastNameFirst
      *
-     * @ElementName displayLocalUserIdentityLastNameFirst
-     * @return bool|null
+     * @return bool
      */
     public function getDisplayLocalUserIdentityLastNameFirst()
     {
-        return $this->displayLocalUserIdentityLastNameFirst;
+        return $this->displayLocalUserIdentityLastNameFirst instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->displayLocalUserIdentityLastNameFirst;
     }
 
     /**
      * Setter for displayLocalUserIdentityLastNameFirst
      *
-     * @ElementName displayLocalUserIdentityLastNameFirst
-     * @param bool|null $displayLocalUserIdentityLastNameFirst
+     * @param bool $displayLocalUserIdentityLastNameFirst
      * @return $this
      */
     public function setDisplayLocalUserIdentityLastNameFirst($displayLocalUserIdentityLastNameFirst)
@@ -52,26 +52,42 @@ class SystemBusyLampFieldGetResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisplayLocalUserIdentityLastNameFirst()
+    {
+        $this->displayLocalUserIdentityLastNameFirst = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceUseOfTCP
      *
-     * @ElementName forceUseOfTCP
-     * @return bool|null
+     * @return bool
      */
     public function getForceUseOfTCP()
     {
-        return $this->forceUseOfTCP;
+        return $this->forceUseOfTCP instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceUseOfTCP;
     }
 
     /**
      * Setter for forceUseOfTCP
      *
-     * @ElementName forceUseOfTCP
-     * @param bool|null $forceUseOfTCP
+     * @param bool $forceUseOfTCP
      * @return $this
      */
     public function setForceUseOfTCP($forceUseOfTCP)
     {
         $this->forceUseOfTCP = $forceUseOfTCP;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForceUseOfTCP()
+    {
+        $this->forceUseOfTCP = null;
         return $this;
     }
 

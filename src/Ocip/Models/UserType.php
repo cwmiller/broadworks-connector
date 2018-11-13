@@ -22,7 +22,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static UserType ROUTE_POINT()
  * @method static UserType VOICE_MESSAGING()
  * @method static UserType VOICEXML()
- * @ValueType string
+ * @EnumValueType string
  */
 class UserType extends \MyCLabs\Enum\Enum
 {

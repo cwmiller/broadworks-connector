@@ -12,12 +12,15 @@ class CallCenterScheduledReportCallCenterSelection
 
     /**
      * @ElementName allCallCenter
+     * @Type bool
      * @var bool|null
      */
     private $allCallCenter = null;
 
     /**
      * @ElementName serviceUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $serviceUserId = array(
@@ -27,19 +30,17 @@ class CallCenterScheduledReportCallCenterSelection
     /**
      * Getter for allCallCenter
      *
-     * @ElementName allCallCenter
-     * @return bool|null
+     * @return bool
      */
     public function getAllCallCenter()
     {
-        return $this->allCallCenter;
+        return $this->allCallCenter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allCallCenter;
     }
 
     /**
      * Setter for allCallCenter
      *
-     * @ElementName allCallCenter
-     * @param bool|null $allCallCenter
+     * @param bool $allCallCenter
      * @return $this
      */
     public function setAllCallCenter($allCallCenter)
@@ -49,20 +50,27 @@ class CallCenterScheduledReportCallCenterSelection
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllCallCenter()
+    {
+        $this->allCallCenter = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
      * @return string[]
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
      * @param string[] $serviceUserId
      * @return $this
      */
@@ -73,15 +81,23 @@ class CallCenterScheduledReportCallCenterSelection
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for serviceUserId
      *
-     * @ElementName serviceUserId
      * @param string $serviceUserId
      * @return $this
      */
     public function addServiceUserId(string $serviceUserId)
     {
-        $this->serviceUserId []= $serviceUserId;
+        $this->serviceUserId[] = $serviceUserId;
         return $this;
     }
 

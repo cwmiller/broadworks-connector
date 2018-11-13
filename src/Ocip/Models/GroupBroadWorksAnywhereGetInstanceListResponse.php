@@ -18,6 +18,7 @@ class GroupBroadWorksAnywhereGetInstanceListResponse extends \CWM\BroadWorksConn
 
     /**
      * @ElementName broadWorksAnywhereTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $broadWorksAnywhereTable = null;
@@ -25,24 +26,31 @@ class GroupBroadWorksAnywhereGetInstanceListResponse extends \CWM\BroadWorksConn
     /**
      * Getter for broadWorksAnywhereTable
      *
-     * @ElementName broadWorksAnywhereTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getBroadWorksAnywhereTable()
     {
-        return $this->broadWorksAnywhereTable;
+        return $this->broadWorksAnywhereTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->broadWorksAnywhereTable;
     }
 
     /**
      * Setter for broadWorksAnywhereTable
      *
-     * @ElementName broadWorksAnywhereTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $broadWorksAnywhereTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $broadWorksAnywhereTable
      * @return $this
      */
     public function setBroadWorksAnywhereTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $broadWorksAnywhereTable)
     {
         $this->broadWorksAnywhereTable = $broadWorksAnywhereTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBroadWorksAnywhereTable()
+    {
+        $this->broadWorksAnywhereTable = null;
         return $this;
     }
 

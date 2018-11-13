@@ -15,6 +15,8 @@ class UserCallCenterGetAvailableDNISListResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName availableDNIS
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey[]
      */
     private $availableDNIS = array(
@@ -24,18 +26,16 @@ class UserCallCenterGetAvailableDNISListResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for availableDNIS
      *
-     * @ElementName availableDNIS
      * @return \CWM\BroadWorksConnector\Ocip\Models\DNISKey[]
      */
     public function getAvailableDNIS()
     {
-        return $this->availableDNIS;
+        return $this->availableDNIS instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->availableDNIS;
     }
 
     /**
      * Setter for availableDNIS
      *
-     * @ElementName availableDNIS
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey[] $availableDNIS
      * @return $this
      */
@@ -46,15 +46,23 @@ class UserCallCenterGetAvailableDNISListResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAvailableDNIS()
+    {
+        $this->availableDNIS = null;
+        return $this;
+    }
+
+    /**
      * Adder for availableDNIS
      *
-     * @ElementName availableDNIS
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNISKey $availableDNIS
      * @return $this
      */
     public function addAvailableDNIS($availableDNIS)
     {
-        $this->availableDNIS []= $availableDNIS;
+        $this->availableDNIS[] = $availableDNIS;
         return $this;
     }
 

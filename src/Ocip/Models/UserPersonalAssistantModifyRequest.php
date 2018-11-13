@@ -16,24 +16,28 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName presence
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     private $presence = null;
 
     /**
      * @ElementName enableTransferToAttendant
+     * @Type bool
      * @var bool|null
      */
     private $enableTransferToAttendant = null;
 
     /**
      * @ElementName attendantNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,18 +45,21 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName enableRingSplash
+     * @Type bool
      * @var bool|null
      */
     private $enableRingSplash = null;
 
     /**
      * @ElementName enableExpirationTime
+     * @Type bool
      * @var bool|null
      */
     private $enableExpirationTime = null;
 
     /**
      * @ElementName expirationTime
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -61,19 +68,17 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -83,21 +88,28 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for presence
      *
-     * @ElementName presence
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
      */
     public function getPresence()
     {
-        return $this->presence;
+        return $this->presence instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->presence;
     }
 
     /**
      * Setter for presence
      *
-     * @ElementName presence
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null $presence
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence $presence
      * @return $this
      */
     public function setPresence(\CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence $presence)
@@ -107,21 +119,28 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPresence()
+    {
+        $this->presence = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableTransferToAttendant
      *
-     * @ElementName enableTransferToAttendant
-     * @return bool|null
+     * @return bool
      */
     public function getEnableTransferToAttendant()
     {
-        return $this->enableTransferToAttendant;
+        return $this->enableTransferToAttendant instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableTransferToAttendant;
     }
 
     /**
      * Setter for enableTransferToAttendant
      *
-     * @ElementName enableTransferToAttendant
-     * @param bool|null $enableTransferToAttendant
+     * @param bool $enableTransferToAttendant
      * @return $this
      */
     public function setEnableTransferToAttendant($enableTransferToAttendant)
@@ -131,47 +150,63 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableTransferToAttendant()
+    {
+        $this->enableTransferToAttendant = null;
+        return $this;
+    }
+
+    /**
      * Getter for attendantNumber
      *
-     * @ElementName attendantNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAttendantNumber()
     {
-        return $this->attendantNumber;
+        return $this->attendantNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->attendantNumber;
     }
 
     /**
      * Setter for attendantNumber
      *
-     * @ElementName attendantNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $attendantNumber
+     * @param string|null $attendantNumber
      * @return $this
      */
     public function setAttendantNumber($attendantNumber)
     {
-        $this->attendantNumber = $attendantNumber;
+        if ($attendantNumber === null) {
+            $this->attendantNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->attendantNumber = $attendantNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAttendantNumber()
+    {
+        $this->attendantNumber = null;
         return $this;
     }
 
     /**
      * Getter for enableRingSplash
      *
-     * @ElementName enableRingSplash
-     * @return bool|null
+     * @return bool
      */
     public function getEnableRingSplash()
     {
-        return $this->enableRingSplash;
+        return $this->enableRingSplash instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableRingSplash;
     }
 
     /**
      * Setter for enableRingSplash
      *
-     * @ElementName enableRingSplash
-     * @param bool|null $enableRingSplash
+     * @param bool $enableRingSplash
      * @return $this
      */
     public function setEnableRingSplash($enableRingSplash)
@@ -181,21 +216,28 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableRingSplash()
+    {
+        $this->enableRingSplash = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableExpirationTime
      *
-     * @ElementName enableExpirationTime
-     * @return bool|null
+     * @return bool
      */
     public function getEnableExpirationTime()
     {
-        return $this->enableExpirationTime;
+        return $this->enableExpirationTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableExpirationTime;
     }
 
     /**
      * Setter for enableExpirationTime
      *
-     * @ElementName enableExpirationTime
-     * @param bool|null $enableExpirationTime
+     * @param bool $enableExpirationTime
      * @return $this
      */
     public function setEnableExpirationTime($enableExpirationTime)
@@ -205,28 +247,46 @@ class UserPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableExpirationTime()
+    {
+        $this->enableExpirationTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for expirationTime
      *
-     * @ElementName expirationTime
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExpirationTime()
     {
-        return $this->expirationTime;
+        return $this->expirationTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->expirationTime;
     }
 
     /**
      * Setter for expirationTime
      *
-     * @ElementName expirationTime
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $expirationTime
+     * @param string|null $expirationTime
      * @return $this
      */
     public function setExpirationTime($expirationTime)
     {
-        $this->expirationTime = $expirationTime;
+        if ($expirationTime === null) {
+            $this->expirationTime = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->expirationTime = $expirationTime;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExpirationTime()
+    {
+        $this->expirationTime = null;
         return $this;
     }
 

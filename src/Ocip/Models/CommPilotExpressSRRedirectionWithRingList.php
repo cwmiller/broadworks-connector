@@ -12,6 +12,8 @@ class CommPilotExpressSRRedirectionWithRingList
 
     /**
      * @ElementName numberEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRing
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRing[]
      */
     private $numberEntry = array(
@@ -21,18 +23,16 @@ class CommPilotExpressSRRedirectionWithRingList
     /**
      * Getter for numberEntry
      *
-     * @ElementName numberEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRing[]
      */
     public function getNumberEntry()
     {
-        return $this->numberEntry;
+        return $this->numberEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberEntry;
     }
 
     /**
      * Setter for numberEntry
      *
-     * @ElementName numberEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRing[] $numberEntry
      * @return $this
      */
@@ -43,15 +43,23 @@ class CommPilotExpressSRRedirectionWithRingList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberEntry()
+    {
+        $this->numberEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for numberEntry
      *
-     * @ElementName numberEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRing $numberEntry
      * @return $this
      */
     public function addNumberEntry($numberEntry)
     {
-        $this->numberEntry []= $numberEntry;
+        $this->numberEntry[] = $numberEntry;
         return $this;
     }
 

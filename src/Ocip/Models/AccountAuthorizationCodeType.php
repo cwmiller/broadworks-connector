@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AccountAuthorizationCodeType ACCOUNT_CODE()
  * @method static AccountAuthorizationCodeType AUTHORIZATION_CODE()
  * @method static AccountAuthorizationCodeType DEACTIVATED()
- * @ValueType string
+ * @EnumValueType string
  */
 class AccountAuthorizationCodeType extends \MyCLabs\Enum\Enum
 {

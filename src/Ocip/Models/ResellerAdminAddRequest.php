@@ -16,36 +16,42 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName firstName
+     * @Type string
      * @var string|null
      */
     private $firstName = null;
 
     /**
      * @ElementName lastName
+     * @Type string
      * @var string|null
      */
     private $lastName = null;
 
     /**
      * @ElementName password
+     * @Type string
      * @var string|null
      */
     private $password = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
@@ -53,19 +59,17 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
@@ -75,21 +79,28 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -99,21 +110,28 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @return string|null
+     * @return string
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @param string|null $firstName
+     * @param string $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -123,21 +141,28 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @return string|null
+     * @return string
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @param string|null $lastName
+     * @param string $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -147,21 +172,28 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for password
      *
-     * @ElementName password
-     * @return string|null
+     * @return string
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param string|null $password
+     * @param string $password
      * @return $this
      */
     public function setPassword($password)
@@ -171,26 +203,42 @@ class ResellerAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
     {
         $this->language = $language;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
         return $this;
     }
 

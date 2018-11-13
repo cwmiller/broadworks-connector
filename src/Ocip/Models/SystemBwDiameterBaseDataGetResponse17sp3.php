@@ -15,84 +15,98 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName xsRealm
+     * @Type string
      * @var string|null
      */
     private $xsRealm = null;
 
     /**
      * @ElementName xsListeningPort
+     * @Type int
      * @var int|null
      */
     private $xsListeningPort = null;
 
     /**
      * @ElementName psRealm
+     * @Type string
      * @var string|null
      */
     private $psRealm = null;
 
     /**
      * @ElementName psListeningPort
+     * @Type int
      * @var int|null
      */
     private $psListeningPort = null;
 
     /**
      * @ElementName psRelayThroughXs
+     * @Type bool
      * @var bool|null
      */
     private $psRelayThroughXs = null;
 
     /**
      * @ElementName xsRelayListeningPort
+     * @Type int
      * @var int|null
      */
     private $xsRelayListeningPort = null;
 
     /**
      * @ElementName tcTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $tcTimerSeconds = null;
 
     /**
      * @ElementName twTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $twTimerSeconds = null;
 
     /**
      * @ElementName requestTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $requestTimerSeconds = null;
 
     /**
      * @ElementName busyPeerDetectionOutstandingTxnCount
+     * @Type int
      * @var int|null
      */
     private $busyPeerDetectionOutstandingTxnCount = null;
 
     /**
      * @ElementName busyPeerRestoreOutstandingTxnCount
+     * @Type int
      * @var int|null
      */
     private $busyPeerRestoreOutstandingTxnCount = null;
 
     /**
      * @ElementName dynamicEntryInactivityTimerHours
+     * @Type int
      * @var int|null
      */
     private $dynamicEntryInactivityTimerHours = null;
 
     /**
      * @ElementName advertisedOfflineBillingApplication
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     private $advertisedOfflineBillingApplication = null;
 
     /**
      * @ElementName advertisedOnlineBillingApplication
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
      */
     private $advertisedOnlineBillingApplication = null;
@@ -100,19 +114,17 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     /**
      * Getter for xsRealm
      *
-     * @ElementName xsRealm
-     * @return string|null
+     * @return string
      */
     public function getXsRealm()
     {
-        return $this->xsRealm;
+        return $this->xsRealm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->xsRealm;
     }
 
     /**
      * Setter for xsRealm
      *
-     * @ElementName xsRealm
-     * @param string|null $xsRealm
+     * @param string $xsRealm
      * @return $this
      */
     public function setXsRealm($xsRealm)
@@ -122,21 +134,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetXsRealm()
+    {
+        $this->xsRealm = null;
+        return $this;
+    }
+
+    /**
      * Getter for xsListeningPort
      *
-     * @ElementName xsListeningPort
-     * @return int|null
+     * @return int
      */
     public function getXsListeningPort()
     {
-        return $this->xsListeningPort;
+        return $this->xsListeningPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->xsListeningPort;
     }
 
     /**
      * Setter for xsListeningPort
      *
-     * @ElementName xsListeningPort
-     * @param int|null $xsListeningPort
+     * @param int $xsListeningPort
      * @return $this
      */
     public function setXsListeningPort($xsListeningPort)
@@ -146,21 +165,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetXsListeningPort()
+    {
+        $this->xsListeningPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for psRealm
      *
-     * @ElementName psRealm
-     * @return string|null
+     * @return string
      */
     public function getPsRealm()
     {
-        return $this->psRealm;
+        return $this->psRealm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->psRealm;
     }
 
     /**
      * Setter for psRealm
      *
-     * @ElementName psRealm
-     * @param string|null $psRealm
+     * @param string $psRealm
      * @return $this
      */
     public function setPsRealm($psRealm)
@@ -170,21 +196,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPsRealm()
+    {
+        $this->psRealm = null;
+        return $this;
+    }
+
+    /**
      * Getter for psListeningPort
      *
-     * @ElementName psListeningPort
-     * @return int|null
+     * @return int
      */
     public function getPsListeningPort()
     {
-        return $this->psListeningPort;
+        return $this->psListeningPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->psListeningPort;
     }
 
     /**
      * Setter for psListeningPort
      *
-     * @ElementName psListeningPort
-     * @param int|null $psListeningPort
+     * @param int $psListeningPort
      * @return $this
      */
     public function setPsListeningPort($psListeningPort)
@@ -194,21 +227,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPsListeningPort()
+    {
+        $this->psListeningPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for psRelayThroughXs
      *
-     * @ElementName psRelayThroughXs
-     * @return bool|null
+     * @return bool
      */
     public function getPsRelayThroughXs()
     {
-        return $this->psRelayThroughXs;
+        return $this->psRelayThroughXs instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->psRelayThroughXs;
     }
 
     /**
      * Setter for psRelayThroughXs
      *
-     * @ElementName psRelayThroughXs
-     * @param bool|null $psRelayThroughXs
+     * @param bool $psRelayThroughXs
      * @return $this
      */
     public function setPsRelayThroughXs($psRelayThroughXs)
@@ -218,21 +258,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPsRelayThroughXs()
+    {
+        $this->psRelayThroughXs = null;
+        return $this;
+    }
+
+    /**
      * Getter for xsRelayListeningPort
      *
-     * @ElementName xsRelayListeningPort
-     * @return int|null
+     * @return int
      */
     public function getXsRelayListeningPort()
     {
-        return $this->xsRelayListeningPort;
+        return $this->xsRelayListeningPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->xsRelayListeningPort;
     }
 
     /**
      * Setter for xsRelayListeningPort
      *
-     * @ElementName xsRelayListeningPort
-     * @param int|null $xsRelayListeningPort
+     * @param int $xsRelayListeningPort
      * @return $this
      */
     public function setXsRelayListeningPort($xsRelayListeningPort)
@@ -242,21 +289,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetXsRelayListeningPort()
+    {
+        $this->xsRelayListeningPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for tcTimerSeconds
      *
-     * @ElementName tcTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getTcTimerSeconds()
     {
-        return $this->tcTimerSeconds;
+        return $this->tcTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tcTimerSeconds;
     }
 
     /**
      * Setter for tcTimerSeconds
      *
-     * @ElementName tcTimerSeconds
-     * @param int|null $tcTimerSeconds
+     * @param int $tcTimerSeconds
      * @return $this
      */
     public function setTcTimerSeconds($tcTimerSeconds)
@@ -266,21 +320,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTcTimerSeconds()
+    {
+        $this->tcTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for twTimerSeconds
      *
-     * @ElementName twTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getTwTimerSeconds()
     {
-        return $this->twTimerSeconds;
+        return $this->twTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->twTimerSeconds;
     }
 
     /**
      * Setter for twTimerSeconds
      *
-     * @ElementName twTimerSeconds
-     * @param int|null $twTimerSeconds
+     * @param int $twTimerSeconds
      * @return $this
      */
     public function setTwTimerSeconds($twTimerSeconds)
@@ -290,21 +351,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTwTimerSeconds()
+    {
+        $this->twTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for requestTimerSeconds
      *
-     * @ElementName requestTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getRequestTimerSeconds()
     {
-        return $this->requestTimerSeconds;
+        return $this->requestTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requestTimerSeconds;
     }
 
     /**
      * Setter for requestTimerSeconds
      *
-     * @ElementName requestTimerSeconds
-     * @param int|null $requestTimerSeconds
+     * @param int $requestTimerSeconds
      * @return $this
      */
     public function setRequestTimerSeconds($requestTimerSeconds)
@@ -314,21 +382,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequestTimerSeconds()
+    {
+        $this->requestTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyPeerDetectionOutstandingTxnCount
      *
-     * @ElementName busyPeerDetectionOutstandingTxnCount
-     * @return int|null
+     * @return int
      */
     public function getBusyPeerDetectionOutstandingTxnCount()
     {
-        return $this->busyPeerDetectionOutstandingTxnCount;
+        return $this->busyPeerDetectionOutstandingTxnCount instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyPeerDetectionOutstandingTxnCount;
     }
 
     /**
      * Setter for busyPeerDetectionOutstandingTxnCount
      *
-     * @ElementName busyPeerDetectionOutstandingTxnCount
-     * @param int|null $busyPeerDetectionOutstandingTxnCount
+     * @param int $busyPeerDetectionOutstandingTxnCount
      * @return $this
      */
     public function setBusyPeerDetectionOutstandingTxnCount($busyPeerDetectionOutstandingTxnCount)
@@ -338,21 +413,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyPeerDetectionOutstandingTxnCount()
+    {
+        $this->busyPeerDetectionOutstandingTxnCount = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyPeerRestoreOutstandingTxnCount
      *
-     * @ElementName busyPeerRestoreOutstandingTxnCount
-     * @return int|null
+     * @return int
      */
     public function getBusyPeerRestoreOutstandingTxnCount()
     {
-        return $this->busyPeerRestoreOutstandingTxnCount;
+        return $this->busyPeerRestoreOutstandingTxnCount instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyPeerRestoreOutstandingTxnCount;
     }
 
     /**
      * Setter for busyPeerRestoreOutstandingTxnCount
      *
-     * @ElementName busyPeerRestoreOutstandingTxnCount
-     * @param int|null $busyPeerRestoreOutstandingTxnCount
+     * @param int $busyPeerRestoreOutstandingTxnCount
      * @return $this
      */
     public function setBusyPeerRestoreOutstandingTxnCount($busyPeerRestoreOutstandingTxnCount)
@@ -362,21 +444,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyPeerRestoreOutstandingTxnCount()
+    {
+        $this->busyPeerRestoreOutstandingTxnCount = null;
+        return $this;
+    }
+
+    /**
      * Getter for dynamicEntryInactivityTimerHours
      *
-     * @ElementName dynamicEntryInactivityTimerHours
-     * @return int|null
+     * @return int
      */
     public function getDynamicEntryInactivityTimerHours()
     {
-        return $this->dynamicEntryInactivityTimerHours;
+        return $this->dynamicEntryInactivityTimerHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dynamicEntryInactivityTimerHours;
     }
 
     /**
      * Setter for dynamicEntryInactivityTimerHours
      *
-     * @ElementName dynamicEntryInactivityTimerHours
-     * @param int|null $dynamicEntryInactivityTimerHours
+     * @param int $dynamicEntryInactivityTimerHours
      * @return $this
      */
     public function setDynamicEntryInactivityTimerHours($dynamicEntryInactivityTimerHours)
@@ -386,21 +475,28 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDynamicEntryInactivityTimerHours()
+    {
+        $this->dynamicEntryInactivityTimerHours = null;
+        return $this;
+    }
+
+    /**
      * Getter for advertisedOfflineBillingApplication
      *
-     * @ElementName advertisedOfflineBillingApplication
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication
      */
     public function getAdvertisedOfflineBillingApplication()
     {
-        return $this->advertisedOfflineBillingApplication;
+        return $this->advertisedOfflineBillingApplication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->advertisedOfflineBillingApplication;
     }
 
     /**
      * Setter for advertisedOfflineBillingApplication
      *
-     * @ElementName advertisedOfflineBillingApplication
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null $advertisedOfflineBillingApplication
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication $advertisedOfflineBillingApplication
      * @return $this
      */
     public function setAdvertisedOfflineBillingApplication(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication $advertisedOfflineBillingApplication)
@@ -410,26 +506,42 @@ class SystemBwDiameterBaseDataGetResponse17sp3 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAdvertisedOfflineBillingApplication()
+    {
+        $this->advertisedOfflineBillingApplication = null;
+        return $this;
+    }
+
+    /**
      * Getter for advertisedOnlineBillingApplication
      *
-     * @ElementName advertisedOnlineBillingApplication
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication
      */
     public function getAdvertisedOnlineBillingApplication()
     {
-        return $this->advertisedOnlineBillingApplication;
+        return $this->advertisedOnlineBillingApplication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->advertisedOnlineBillingApplication;
     }
 
     /**
      * Setter for advertisedOnlineBillingApplication
      *
-     * @ElementName advertisedOnlineBillingApplication
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication|null $advertisedOnlineBillingApplication
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication $advertisedOnlineBillingApplication
      * @return $this
      */
     public function setAdvertisedOnlineBillingApplication(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterAdvertisedApplication $advertisedOnlineBillingApplication)
     {
         $this->advertisedOnlineBillingApplication = $advertisedOnlineBillingApplication;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAdvertisedOnlineBillingApplication()
+    {
+        $this->advertisedOnlineBillingApplication = null;
         return $this;
     }
 

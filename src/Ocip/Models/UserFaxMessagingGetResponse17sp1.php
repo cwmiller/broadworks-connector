@@ -14,24 +14,29 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
+     * @Type string
      * @var string|null
      */
     private $extension = null;
 
     /**
      * @ElementName alias
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $alias = array(
@@ -41,19 +46,17 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -63,21 +66,28 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -87,21 +97,28 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for extension
      *
-     * @ElementName extension
-     * @return string|null
+     * @return string
      */
     public function getExtension()
     {
-        return $this->extension;
+        return $this->extension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extension;
     }
 
     /**
      * Setter for extension
      *
-     * @ElementName extension
-     * @param string|null $extension
+     * @param string $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -111,20 +128,27 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtension()
+    {
+        $this->extension = null;
+        return $this;
+    }
+
+    /**
      * Getter for alias
      *
-     * @ElementName alias
      * @return string[]
      */
     public function getAlias()
     {
-        return $this->alias;
+        return $this->alias instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alias;
     }
 
     /**
      * Setter for alias
      *
-     * @ElementName alias
      * @param string[] $alias
      * @return $this
      */
@@ -135,15 +159,23 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlias()
+    {
+        $this->alias = null;
+        return $this;
+    }
+
+    /**
      * Adder for alias
      *
-     * @ElementName alias
      * @param string $alias
      * @return $this
      */
     public function addAlias(string $alias)
     {
-        $this->alias []= $alias;
+        $this->alias[] = $alias;
         return $this;
     }
 

@@ -14,6 +14,8 @@ class ReplacementNumberPortabilityStatusList
 
     /**
      * @ElementName status
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $status = array(
@@ -23,18 +25,16 @@ class ReplacementNumberPortabilityStatusList
     /**
      * Getter for status
      *
-     * @ElementName status
      * @return string[]
      */
     public function getStatus()
     {
-        return $this->status;
+        return $this->status instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->status;
     }
 
     /**
      * Setter for status
      *
-     * @ElementName status
      * @param string[] $status
      * @return $this
      */
@@ -45,15 +45,23 @@ class ReplacementNumberPortabilityStatusList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatus()
+    {
+        $this->status = null;
+        return $this;
+    }
+
+    /**
      * Adder for status
      *
-     * @ElementName status
      * @param string $status
      * @return $this
      */
     public function addStatus(string $status)
     {
-        $this->status []= $status;
+        $this->status[] = $status;
         return $this;
     }
 

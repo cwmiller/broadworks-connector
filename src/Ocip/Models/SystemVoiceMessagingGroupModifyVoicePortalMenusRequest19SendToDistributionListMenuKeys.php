@@ -10,12 +10,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
 
     /**
      * @ElementName sendMessageToSelectedDistributionList
+     * @Type string
      * @var string|null
      */
     private $sendMessageToSelectedDistributionList = null;
 
     /**
      * @ElementName selectDistributionList
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -23,6 +25,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
 
     /**
      * @ElementName reviewSelectedDistributionList
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,12 +33,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -44,19 +49,17 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
     /**
      * Getter for sendMessageToSelectedDistributionList
      *
-     * @ElementName sendMessageToSelectedDistributionList
-     * @return string|null
+     * @return string
      */
     public function getSendMessageToSelectedDistributionList()
     {
-        return $this->sendMessageToSelectedDistributionList;
+        return $this->sendMessageToSelectedDistributionList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendMessageToSelectedDistributionList;
     }
 
     /**
      * Setter for sendMessageToSelectedDistributionList
      *
-     * @ElementName sendMessageToSelectedDistributionList
-     * @param string|null $sendMessageToSelectedDistributionList
+     * @param string $sendMessageToSelectedDistributionList
      * @return $this
      */
     public function setSendMessageToSelectedDistributionList($sendMessageToSelectedDistributionList)
@@ -66,73 +69,98 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendMessageToSelectedDistributionList()
+    {
+        $this->sendMessageToSelectedDistributionList = null;
+        return $this;
+    }
+
+    /**
      * Getter for selectDistributionList
      *
-     * @ElementName selectDistributionList
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSelectDistributionList()
     {
-        return $this->selectDistributionList;
+        return $this->selectDistributionList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->selectDistributionList;
     }
 
     /**
      * Setter for selectDistributionList
      *
-     * @ElementName selectDistributionList
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $selectDistributionList
+     * @param string|null $selectDistributionList
      * @return $this
      */
     public function setSelectDistributionList($selectDistributionList)
     {
-        $this->selectDistributionList = $selectDistributionList;
+        if ($selectDistributionList === null) {
+            $this->selectDistributionList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->selectDistributionList = $selectDistributionList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSelectDistributionList()
+    {
+        $this->selectDistributionList = null;
         return $this;
     }
 
     /**
      * Getter for reviewSelectedDistributionList
      *
-     * @ElementName reviewSelectedDistributionList
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getReviewSelectedDistributionList()
     {
-        return $this->reviewSelectedDistributionList;
+        return $this->reviewSelectedDistributionList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reviewSelectedDistributionList;
     }
 
     /**
      * Setter for reviewSelectedDistributionList
      *
-     * @ElementName reviewSelectedDistributionList
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reviewSelectedDistributionList
+     * @param string|null $reviewSelectedDistributionList
      * @return $this
      */
     public function setReviewSelectedDistributionList($reviewSelectedDistributionList)
     {
-        $this->reviewSelectedDistributionList = $reviewSelectedDistributionList;
+        if ($reviewSelectedDistributionList === null) {
+            $this->reviewSelectedDistributionList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->reviewSelectedDistributionList = $reviewSelectedDistributionList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReviewSelectedDistributionList()
+    {
+        $this->reviewSelectedDistributionList = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -142,28 +170,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19SendToDistribution
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

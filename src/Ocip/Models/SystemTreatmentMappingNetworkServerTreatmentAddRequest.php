@@ -16,12 +16,14 @@ class SystemTreatmentMappingNetworkServerTreatmentAddRequest extends \CWM\BroadW
 
     /**
      * @ElementName nsTreatment
+     * @Type string
      * @var string|null
      */
     private $nsTreatment = null;
 
     /**
      * @ElementName treatmentId
+     * @Type string
      * @var string|null
      */
     private $treatmentId = null;
@@ -29,19 +31,17 @@ class SystemTreatmentMappingNetworkServerTreatmentAddRequest extends \CWM\BroadW
     /**
      * Getter for nsTreatment
      *
-     * @ElementName nsTreatment
-     * @return string|null
+     * @return string
      */
     public function getNsTreatment()
     {
-        return $this->nsTreatment;
+        return $this->nsTreatment instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nsTreatment;
     }
 
     /**
      * Setter for nsTreatment
      *
-     * @ElementName nsTreatment
-     * @param string|null $nsTreatment
+     * @param string $nsTreatment
      * @return $this
      */
     public function setNsTreatment($nsTreatment)
@@ -51,26 +51,42 @@ class SystemTreatmentMappingNetworkServerTreatmentAddRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNsTreatment()
+    {
+        $this->nsTreatment = null;
+        return $this;
+    }
+
+    /**
      * Getter for treatmentId
      *
-     * @ElementName treatmentId
-     * @return string|null
+     * @return string
      */
     public function getTreatmentId()
     {
-        return $this->treatmentId;
+        return $this->treatmentId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentId;
     }
 
     /**
      * Setter for treatmentId
      *
-     * @ElementName treatmentId
-     * @param string|null $treatmentId
+     * @param string $treatmentId
      * @return $this
      */
     public function setTreatmentId($treatmentId)
     {
         $this->treatmentId = $treatmentId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentId()
+    {
+        $this->treatmentId = null;
         return $this;
     }
 

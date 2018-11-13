@@ -16,12 +16,14 @@ class SystemMediaGroupCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName codecName
+     * @Type string
      * @var string|null
      */
     private $codecName = null;
@@ -29,19 +31,17 @@ class SystemMediaGroupCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -51,26 +51,42 @@ class SystemMediaGroupCodecDeleteRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for codecName
      *
-     * @ElementName codecName
-     * @return string|null
+     * @return string
      */
     public function getCodecName()
     {
-        return $this->codecName;
+        return $this->codecName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->codecName;
     }
 
     /**
      * Setter for codecName
      *
-     * @ElementName codecName
-     * @param string|null $codecName
+     * @param string $codecName
      * @return $this
      */
     public function setCodecName($codecName)
     {
         $this->codecName = $codecName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCodecName()
+    {
+        $this->codecName = null;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static MusicOnHoldUserMessageSelection GROUP()
  * @method static MusicOnHoldUserMessageSelection CUSTOM()
- * @ValueType string
+ * @EnumValueType string
  */
 class MusicOnHoldUserMessageSelection extends \MyCLabs\Enum\Enum
 {

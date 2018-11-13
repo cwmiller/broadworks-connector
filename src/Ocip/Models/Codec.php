@@ -25,7 +25,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static Codec GSMEFR()
  * @method static Codec GSMFR()
  * @method static Codec AMR_WB()
- * @ValueType string
+ * @EnumValueType string
  */
 class Codec extends \MyCLabs\Enum\Enum
 {

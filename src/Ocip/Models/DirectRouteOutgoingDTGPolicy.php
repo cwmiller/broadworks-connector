@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static DirectRouteOutgoingDTGPolicy DIRECT_ROUTE_DTG()
  * @method static DirectRouteOutgoingDTGPolicy TRUNK_GROUP_DTG()
- * @ValueType string
+ * @EnumValueType string
  */
 class DirectRouteOutgoingDTGPolicy extends \MyCLabs\Enum\Enum
 {

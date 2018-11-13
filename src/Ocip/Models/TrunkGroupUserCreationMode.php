@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static TrunkGroupUserCreationMode EXTENSION()
  * @method static TrunkGroupUserCreationMode PHONE_NUMBER()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupUserCreationMode extends \MyCLabs\Enum\Enum
 {

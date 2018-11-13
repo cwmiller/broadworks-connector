@@ -17,12 +17,14 @@ class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName fileRepositoryName
+     * @Type string
      * @var string|null
      */
     private $fileRepositoryName = null;
 
     /**
      * @ElementName userName
+     * @Type string
      * @var string|null
      */
     private $userName = null;
@@ -30,19 +32,17 @@ class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @return string|null
+     * @return string
      */
     public function getFileRepositoryName()
     {
-        return $this->fileRepositoryName;
+        return $this->fileRepositoryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileRepositoryName;
     }
 
     /**
      * Setter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @param string|null $fileRepositoryName
+     * @param string $fileRepositoryName
      * @return $this
      */
     public function setFileRepositoryName($fileRepositoryName)
@@ -52,26 +52,42 @@ class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileRepositoryName()
+    {
+        $this->fileRepositoryName = null;
+        return $this;
+    }
+
+    /**
      * Getter for userName
      *
-     * @ElementName userName
-     * @return string|null
+     * @return string
      */
     public function getUserName()
     {
-        return $this->userName;
+        return $this->userName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userName;
     }
 
     /**
      * Setter for userName
      *
-     * @ElementName userName
-     * @param string|null $userName
+     * @param string $userName
      * @return $this
      */
     public function setUserName($userName)
     {
         $this->userName = $userName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserName()
+    {
+        $this->userName = null;
         return $this;
     }
 

@@ -17,6 +17,7 @@ class SystemSecurityClassificationGetClassificationRequest extends \CWM\BroadWor
 
     /**
      * @ElementName securityClassificationName
+     * @Type string
      * @var string|null
      */
     private $securityClassificationName = null;
@@ -24,24 +25,31 @@ class SystemSecurityClassificationGetClassificationRequest extends \CWM\BroadWor
     /**
      * Getter for securityClassificationName
      *
-     * @ElementName securityClassificationName
-     * @return string|null
+     * @return string
      */
     public function getSecurityClassificationName()
     {
-        return $this->securityClassificationName;
+        return $this->securityClassificationName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityClassificationName;
     }
 
     /**
      * Setter for securityClassificationName
      *
-     * @ElementName securityClassificationName
-     * @param string|null $securityClassificationName
+     * @param string $securityClassificationName
      * @return $this
      */
     public function setSecurityClassificationName($securityClassificationName)
     {
         $this->securityClassificationName = $securityClassificationName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecurityClassificationName()
+    {
+        $this->securityClassificationName = null;
         return $this;
     }
 

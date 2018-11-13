@@ -17,6 +17,7 @@ class UserMeetMeConferencingGetBridgeListResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName conferenceBridgeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceBridgeTable = null;
@@ -24,24 +25,31 @@ class UserMeetMeConferencingGetBridgeListResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for conferenceBridgeTable
      *
-     * @ElementName conferenceBridgeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getConferenceBridgeTable()
     {
-        return $this->conferenceBridgeTable;
+        return $this->conferenceBridgeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceBridgeTable;
     }
 
     /**
      * Setter for conferenceBridgeTable
      *
-     * @ElementName conferenceBridgeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceBridgeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceBridgeTable
      * @return $this
      */
     public function setConferenceBridgeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceBridgeTable)
     {
         $this->conferenceBridgeTable = $conferenceBridgeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConferenceBridgeTable()
+    {
+        $this->conferenceBridgeTable = null;
         return $this;
     }
 

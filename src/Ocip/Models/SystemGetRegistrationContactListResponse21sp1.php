@@ -25,6 +25,7 @@ class SystemGetRegistrationContactListResponse21sp1 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName registrationTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $registrationTable = null;
@@ -32,24 +33,31 @@ class SystemGetRegistrationContactListResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * Getter for registrationTable
      *
-     * @ElementName registrationTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRegistrationTable()
     {
-        return $this->registrationTable;
+        return $this->registrationTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->registrationTable;
     }
 
     /**
      * Setter for registrationTable
      *
-     * @ElementName registrationTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $registrationTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $registrationTable
      * @return $this
      */
     public function setRegistrationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $registrationTable)
     {
         $this->registrationTable = $registrationTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRegistrationTable()
+    {
+        $this->registrationTable = null;
         return $this;
     }
 

@@ -12,12 +12,14 @@ class ExtensionRange
 
     /**
      * @ElementName minExtension
+     * @Type string
      * @var string|null
      */
     private $minExtension = null;
 
     /**
      * @ElementName maxExtension
+     * @Type string
      * @var string|null
      */
     private $maxExtension = null;
@@ -25,19 +27,17 @@ class ExtensionRange
     /**
      * Getter for minExtension
      *
-     * @ElementName minExtension
-     * @return string|null
+     * @return string
      */
     public function getMinExtension()
     {
-        return $this->minExtension;
+        return $this->minExtension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minExtension;
     }
 
     /**
      * Setter for minExtension
      *
-     * @ElementName minExtension
-     * @param string|null $minExtension
+     * @param string $minExtension
      * @return $this
      */
     public function setMinExtension($minExtension)
@@ -47,26 +47,42 @@ class ExtensionRange
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinExtension()
+    {
+        $this->minExtension = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxExtension
      *
-     * @ElementName maxExtension
-     * @return string|null
+     * @return string
      */
     public function getMaxExtension()
     {
-        return $this->maxExtension;
+        return $this->maxExtension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxExtension;
     }
 
     /**
      * Setter for maxExtension
      *
-     * @ElementName maxExtension
-     * @param string|null $maxExtension
+     * @param string $maxExtension
      * @return $this
      */
     public function setMaxExtension($maxExtension)
     {
         $this->maxExtension = $maxExtension;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxExtension()
+    {
+        $this->maxExtension = null;
         return $this;
     }
 

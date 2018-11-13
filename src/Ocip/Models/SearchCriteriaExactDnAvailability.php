@@ -12,6 +12,7 @@ class SearchCriteriaExactDnAvailability extends SearchCriteria
 
     /**
      * @ElementName available
+     * @Type bool
      * @var bool|null
      */
     private $available = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactDnAvailability extends SearchCriteria
     /**
      * Getter for available
      *
-     * @ElementName available
-     * @return bool|null
+     * @return bool
      */
     public function getAvailable()
     {
-        return $this->available;
+        return $this->available instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->available;
     }
 
     /**
      * Setter for available
      *
-     * @ElementName available
-     * @param bool|null $available
+     * @param bool $available
      * @return $this
      */
     public function setAvailable($available)
     {
         $this->available = $available;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAvailable()
+    {
+        $this->available = null;
         return $this;
     }
 

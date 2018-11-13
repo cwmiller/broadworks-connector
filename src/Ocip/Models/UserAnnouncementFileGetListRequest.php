@@ -19,30 +19,36 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName announcementFileType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     private $announcementFileType = null;
 
     /**
      * @ElementName includeAnnouncementTable
+     * @Type bool
      * @var bool|null
      */
     private $includeAnnouncementTable = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaAnnouncementFileName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
     private $searchCriteriaAnnouncementFileName = array(
@@ -52,19 +58,17 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -74,21 +78,28 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementFileType
      *
-     * @ElementName announcementFileType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
      */
     public function getAnnouncementFileType()
     {
-        return $this->announcementFileType;
+        return $this->announcementFileType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileType;
     }
 
     /**
      * Setter for announcementFileType
      *
-     * @ElementName announcementFileType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null $announcementFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType $announcementFileType
      * @return $this
      */
     public function setAnnouncementFileType(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType $announcementFileType)
@@ -98,21 +109,28 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileType()
+    {
+        $this->announcementFileType = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeAnnouncementTable
      *
-     * @ElementName includeAnnouncementTable
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeAnnouncementTable()
     {
-        return $this->includeAnnouncementTable;
+        return $this->includeAnnouncementTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeAnnouncementTable;
     }
 
     /**
      * Setter for includeAnnouncementTable
      *
-     * @ElementName includeAnnouncementTable
-     * @param bool|null $includeAnnouncementTable
+     * @param bool $includeAnnouncementTable
      * @return $this
      */
     public function setIncludeAnnouncementTable($includeAnnouncementTable)
@@ -122,21 +140,28 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeAnnouncementTable()
+    {
+        $this->includeAnnouncementTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -146,20 +171,27 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaAnnouncementFileName
      *
-     * @ElementName searchCriteriaAnnouncementFileName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
     public function getSearchCriteriaAnnouncementFileName()
     {
-        return $this->searchCriteriaAnnouncementFileName;
+        return $this->searchCriteriaAnnouncementFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaAnnouncementFileName;
     }
 
     /**
      * Setter for searchCriteriaAnnouncementFileName
      *
-     * @ElementName searchCriteriaAnnouncementFileName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[] $searchCriteriaAnnouncementFileName
      * @return $this
      */
@@ -170,15 +202,23 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaAnnouncementFileName()
+    {
+        $this->searchCriteriaAnnouncementFileName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaAnnouncementFileName
      *
-     * @ElementName searchCriteriaAnnouncementFileName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName $searchCriteriaAnnouncementFileName
      * @return $this
      */
     public function addSearchCriteriaAnnouncementFileName($searchCriteriaAnnouncementFileName)
     {
-        $this->searchCriteriaAnnouncementFileName []= $searchCriteriaAnnouncementFileName;
+        $this->searchCriteriaAnnouncementFileName[] = $searchCriteriaAnnouncementFileName;
         return $this;
     }
 

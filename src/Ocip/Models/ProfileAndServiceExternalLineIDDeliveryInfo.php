@@ -12,6 +12,7 @@ class ProfileAndServiceExternalLineIDDeliveryInfo
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
@@ -19,24 +20,31 @@ class ProfileAndServiceExternalLineIDDeliveryInfo
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
     {
         $this->isActive = $isActive;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
         return $this;
     }
 

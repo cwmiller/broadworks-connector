@@ -16,30 +16,35 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName fileFormat
+     * @Type string
      * @var string|null
      */
     private $fileFormat = null;
 
     /**
      * @ElementName fileSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
 
     /**
      * @ElementName uploadFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;
 
     /**
      * @ElementName extendedCaptureEnabled
+     * @Type bool
      * @var bool|null
      */
     private $extendedCaptureEnabled = null;
@@ -47,19 +52,17 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -69,21 +72,28 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileFormat
      *
-     * @ElementName fileFormat
-     * @return string|null
+     * @return string
      */
     public function getFileFormat()
     {
-        return $this->fileFormat;
+        return $this->fileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileFormat;
     }
 
     /**
      * Setter for fileFormat
      *
-     * @ElementName fileFormat
-     * @param string|null $fileFormat
+     * @param string $fileFormat
      * @return $this
      */
     public function setFileFormat($fileFormat)
@@ -93,21 +103,28 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileFormat()
+    {
+        $this->fileFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileSource
      *
-     * @ElementName fileSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      */
     public function getFileSource()
     {
-        return $this->fileSource;
+        return $this->fileSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileSource;
     }
 
     /**
      * Setter for fileSource
      *
-     * @ElementName fileSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null $fileSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode $fileSource
      * @return $this
      */
     public function setFileSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode $fileSource)
@@ -117,21 +134,28 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileSource()
+    {
+        $this->fileSource = null;
+        return $this;
+    }
+
+    /**
      * Getter for uploadFile
      *
-     * @ElementName uploadFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FileResource
      */
     public function getUploadFile()
     {
-        return $this->uploadFile;
+        return $this->uploadFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->uploadFile;
     }
 
     /**
      * Setter for uploadFile
      *
-     * @ElementName uploadFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource|null $uploadFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FileResource $uploadFile
      * @return $this
      */
     public function setUploadFile(\CWM\BroadWorksConnector\Ocip\Models\FileResource $uploadFile)
@@ -141,26 +165,42 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUploadFile()
+    {
+        $this->uploadFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedCaptureEnabled
      *
-     * @ElementName extendedCaptureEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getExtendedCaptureEnabled()
     {
-        return $this->extendedCaptureEnabled;
+        return $this->extendedCaptureEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedCaptureEnabled;
     }
 
     /**
      * Setter for extendedCaptureEnabled
      *
-     * @ElementName extendedCaptureEnabled
-     * @param bool|null $extendedCaptureEnabled
+     * @param bool $extendedCaptureEnabled
      * @return $this
      */
     public function setExtendedCaptureEnabled($extendedCaptureEnabled)
     {
         $this->extendedCaptureEnabled = $extendedCaptureEnabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExtendedCaptureEnabled()
+    {
+        $this->extendedCaptureEnabled = null;
         return $this;
     }
 

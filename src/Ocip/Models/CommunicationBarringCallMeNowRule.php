@@ -12,18 +12,21 @@ class CommunicationBarringCallMeNowRule
 
     /**
      * @ElementName criteria
+     * @Type string
      * @var string|null
      */
     private $criteria = null;
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $action = null;
 
     /**
      * @ElementName callTimeoutSeconds
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -32,19 +35,17 @@ class CommunicationBarringCallMeNowRule
     /**
      * Getter for criteria
      *
-     * @ElementName criteria
-     * @return string|null
+     * @return string
      */
     public function getCriteria()
     {
-        return $this->criteria;
+        return $this->criteria instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteria;
     }
 
     /**
      * Setter for criteria
      *
-     * @ElementName criteria
-     * @param string|null $criteria
+     * @param string $criteria
      * @return $this
      */
     public function setCriteria($criteria)
@@ -54,21 +55,28 @@ class CommunicationBarringCallMeNowRule
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteria()
+    {
+        $this->criteria = null;
+        return $this;
+    }
+
+    /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction $action)
@@ -78,28 +86,46 @@ class CommunicationBarringCallMeNowRule
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for callTimeoutSeconds
      *
-     * @ElementName callTimeoutSeconds
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getCallTimeoutSeconds()
     {
-        return $this->callTimeoutSeconds;
+        return $this->callTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callTimeoutSeconds;
     }
 
     /**
      * Setter for callTimeoutSeconds
      *
-     * @ElementName callTimeoutSeconds
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $callTimeoutSeconds
+     * @param int|null $callTimeoutSeconds
      * @return $this
      */
     public function setCallTimeoutSeconds($callTimeoutSeconds)
     {
-        $this->callTimeoutSeconds = $callTimeoutSeconds;
+        if ($callTimeoutSeconds === null) {
+            $this->callTimeoutSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callTimeoutSeconds = $callTimeoutSeconds;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallTimeoutSeconds()
+    {
+        $this->callTimeoutSeconds = null;
         return $this;
     }
 

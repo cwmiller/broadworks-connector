@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallingPresentationNumberSource TRUNK_GROUP()
  * @method static CallingPresentationNumberSource USER()
  * @method static CallingPresentationNumberSource DEPARTMENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallingPresentationNumberSource extends \MyCLabs\Enum\Enum
 {

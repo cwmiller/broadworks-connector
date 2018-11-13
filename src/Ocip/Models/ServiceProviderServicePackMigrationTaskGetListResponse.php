@@ -25,6 +25,7 @@ class ServiceProviderServicePackMigrationTaskGetListResponse extends \CWM\BroadW
 
     /**
      * @ElementName taskTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $taskTable = null;
@@ -32,24 +33,31 @@ class ServiceProviderServicePackMigrationTaskGetListResponse extends \CWM\BroadW
     /**
      * Getter for taskTable
      *
-     * @ElementName taskTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getTaskTable()
     {
-        return $this->taskTable;
+        return $this->taskTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->taskTable;
     }
 
     /**
      * Setter for taskTable
      *
-     * @ElementName taskTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $taskTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $taskTable
      * @return $this
      */
     public function setTaskTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $taskTable)
     {
         $this->taskTable = $taskTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTaskTable()
+    {
+        $this->taskTable = null;
         return $this;
     }
 

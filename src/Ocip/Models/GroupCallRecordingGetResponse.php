@@ -15,6 +15,7 @@ class GroupCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
@@ -22,24 +23,31 @@ class GroupCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
     {
         $this->name = $name;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
         return $this;
     }
 

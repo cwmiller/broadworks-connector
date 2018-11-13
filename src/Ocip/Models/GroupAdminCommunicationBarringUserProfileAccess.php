@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupAdminCommunicationBarringUserProfileAccess FULL()
  * @method static GroupAdminCommunicationBarringUserProfileAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupAdminCommunicationBarringUserProfileAccess extends \MyCLabs\Enum\Enum
 {

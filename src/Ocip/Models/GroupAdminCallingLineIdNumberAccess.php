@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupAdminCallingLineIdNumberAccess FULL()
  * @method static GroupAdminCallingLineIdNumberAccess READ_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupAdminCallingLineIdNumberAccess extends \MyCLabs\Enum\Enum
 {

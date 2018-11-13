@@ -16,12 +16,14 @@ class CPEDeviceModifyOptions16sp1
 
     /**
      * @ElementName enableMonitoring
+     * @Type bool
      * @var bool|null
      */
     private $enableMonitoring = null;
 
     /**
      * @ElementName deviceManagementDeviceTypeOptions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16|null
      */
     private $deviceManagementDeviceTypeOptions = null;
@@ -29,19 +31,17 @@ class CPEDeviceModifyOptions16sp1
     /**
      * Getter for enableMonitoring
      *
-     * @ElementName enableMonitoring
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMonitoring()
     {
-        return $this->enableMonitoring;
+        return $this->enableMonitoring instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMonitoring;
     }
 
     /**
      * Setter for enableMonitoring
      *
-     * @ElementName enableMonitoring
-     * @param bool|null $enableMonitoring
+     * @param bool $enableMonitoring
      * @return $this
      */
     public function setEnableMonitoring($enableMonitoring)
@@ -51,26 +51,42 @@ class CPEDeviceModifyOptions16sp1
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMonitoring()
+    {
+        $this->enableMonitoring = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceManagementDeviceTypeOptions
      *
-     * @ElementName deviceManagementDeviceTypeOptions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16
      */
     public function getDeviceManagementDeviceTypeOptions()
     {
-        return $this->deviceManagementDeviceTypeOptions;
+        return $this->deviceManagementDeviceTypeOptions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceManagementDeviceTypeOptions;
     }
 
     /**
      * Setter for deviceManagementDeviceTypeOptions
      *
-     * @ElementName deviceManagementDeviceTypeOptions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16|null $deviceManagementDeviceTypeOptions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16 $deviceManagementDeviceTypeOptions
      * @return $this
      */
     public function setDeviceManagementDeviceTypeOptions(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16 $deviceManagementDeviceTypeOptions)
     {
         $this->deviceManagementDeviceTypeOptions = $deviceManagementDeviceTypeOptions;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceManagementDeviceTypeOptions()
+    {
+        $this->deviceManagementDeviceTypeOptions = null;
         return $this;
     }
 

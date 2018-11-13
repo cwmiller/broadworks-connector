@@ -15,90 +15,105 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName title
+     * @Type string
      * @var string|null
      */
     private $title = null;
 
     /**
      * @ElementName estimatedParticipants
+     * @Type int
      * @var int|null
      */
     private $estimatedParticipants = null;
 
     /**
      * @ElementName restrictParticipants
+     * @Type bool
      * @var bool|null
      */
     private $restrictParticipants = null;
 
     /**
      * @ElementName maxParticipants
+     * @Type int
      * @var int|null
      */
     private $maxParticipants = null;
 
     /**
      * @ElementName accountCode
+     * @Type string
      * @var string|null
      */
     private $accountCode = null;
 
     /**
      * @ElementName muteAllAttendeesOnEntry
+     * @Type bool
      * @var bool|null
      */
     private $muteAllAttendeesOnEntry = null;
 
     /**
      * @ElementName endConferenceOnModeratorExit
+     * @Type bool
      * @var bool|null
      */
     private $endConferenceOnModeratorExit = null;
 
     /**
      * @ElementName moderatorRequired
+     * @Type bool
      * @var bool|null
      */
     private $moderatorRequired = null;
 
     /**
      * @ElementName requireSecurityPin
+     * @Type bool
      * @var bool|null
      */
     private $requireSecurityPin = null;
 
     /**
      * @ElementName securityPin
+     * @Type string
      * @var string|null
      */
     private $securityPin = null;
 
     /**
      * @ElementName allowUniqueIdentifier
+     * @Type bool
      * @var bool|null
      */
     private $allowUniqueIdentifier = null;
 
     /**
      * @ElementName attendeeNotification
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
      */
     private $attendeeNotification = null;
 
     /**
      * @ElementName conferenceSchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null
      */
     private $conferenceSchedule = null;
 
     /**
      * @ElementName moderatorPin
+     * @Type string
      * @var string|null
      */
     private $moderatorPin = null;
 
     /**
      * @ElementName hostTimeZone
+     * @Type string
      * @var string|null
      */
     private $hostTimeZone = null;
@@ -106,19 +121,17 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     /**
      * Getter for title
      *
-     * @ElementName title
-     * @return string|null
+     * @return string
      */
     public function getTitle()
     {
-        return $this->title;
+        return $this->title instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->title;
     }
 
     /**
      * Setter for title
      *
-     * @ElementName title
-     * @param string|null $title
+     * @param string $title
      * @return $this
      */
     public function setTitle($title)
@@ -128,21 +141,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTitle()
+    {
+        $this->title = null;
+        return $this;
+    }
+
+    /**
      * Getter for estimatedParticipants
      *
-     * @ElementName estimatedParticipants
-     * @return int|null
+     * @return int
      */
     public function getEstimatedParticipants()
     {
-        return $this->estimatedParticipants;
+        return $this->estimatedParticipants instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->estimatedParticipants;
     }
 
     /**
      * Setter for estimatedParticipants
      *
-     * @ElementName estimatedParticipants
-     * @param int|null $estimatedParticipants
+     * @param int $estimatedParticipants
      * @return $this
      */
     public function setEstimatedParticipants($estimatedParticipants)
@@ -152,21 +172,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEstimatedParticipants()
+    {
+        $this->estimatedParticipants = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictParticipants
      *
-     * @ElementName restrictParticipants
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictParticipants()
     {
-        return $this->restrictParticipants;
+        return $this->restrictParticipants instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictParticipants;
     }
 
     /**
      * Setter for restrictParticipants
      *
-     * @ElementName restrictParticipants
-     * @param bool|null $restrictParticipants
+     * @param bool $restrictParticipants
      * @return $this
      */
     public function setRestrictParticipants($restrictParticipants)
@@ -176,21 +203,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictParticipants()
+    {
+        $this->restrictParticipants = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxParticipants
      *
-     * @ElementName maxParticipants
-     * @return int|null
+     * @return int
      */
     public function getMaxParticipants()
     {
-        return $this->maxParticipants;
+        return $this->maxParticipants instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxParticipants;
     }
 
     /**
      * Setter for maxParticipants
      *
-     * @ElementName maxParticipants
-     * @param int|null $maxParticipants
+     * @param int $maxParticipants
      * @return $this
      */
     public function setMaxParticipants($maxParticipants)
@@ -200,21 +234,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxParticipants()
+    {
+        $this->maxParticipants = null;
+        return $this;
+    }
+
+    /**
      * Getter for accountCode
      *
-     * @ElementName accountCode
-     * @return string|null
+     * @return string
      */
     public function getAccountCode()
     {
-        return $this->accountCode;
+        return $this->accountCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accountCode;
     }
 
     /**
      * Setter for accountCode
      *
-     * @ElementName accountCode
-     * @param string|null $accountCode
+     * @param string $accountCode
      * @return $this
      */
     public function setAccountCode($accountCode)
@@ -224,21 +265,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccountCode()
+    {
+        $this->accountCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for muteAllAttendeesOnEntry
      *
-     * @ElementName muteAllAttendeesOnEntry
-     * @return bool|null
+     * @return bool
      */
     public function getMuteAllAttendeesOnEntry()
     {
-        return $this->muteAllAttendeesOnEntry;
+        return $this->muteAllAttendeesOnEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->muteAllAttendeesOnEntry;
     }
 
     /**
      * Setter for muteAllAttendeesOnEntry
      *
-     * @ElementName muteAllAttendeesOnEntry
-     * @param bool|null $muteAllAttendeesOnEntry
+     * @param bool $muteAllAttendeesOnEntry
      * @return $this
      */
     public function setMuteAllAttendeesOnEntry($muteAllAttendeesOnEntry)
@@ -248,21 +296,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMuteAllAttendeesOnEntry()
+    {
+        $this->muteAllAttendeesOnEntry = null;
+        return $this;
+    }
+
+    /**
      * Getter for endConferenceOnModeratorExit
      *
-     * @ElementName endConferenceOnModeratorExit
-     * @return bool|null
+     * @return bool
      */
     public function getEndConferenceOnModeratorExit()
     {
-        return $this->endConferenceOnModeratorExit;
+        return $this->endConferenceOnModeratorExit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endConferenceOnModeratorExit;
     }
 
     /**
      * Setter for endConferenceOnModeratorExit
      *
-     * @ElementName endConferenceOnModeratorExit
-     * @param bool|null $endConferenceOnModeratorExit
+     * @param bool $endConferenceOnModeratorExit
      * @return $this
      */
     public function setEndConferenceOnModeratorExit($endConferenceOnModeratorExit)
@@ -272,21 +327,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndConferenceOnModeratorExit()
+    {
+        $this->endConferenceOnModeratorExit = null;
+        return $this;
+    }
+
+    /**
      * Getter for moderatorRequired
      *
-     * @ElementName moderatorRequired
-     * @return bool|null
+     * @return bool
      */
     public function getModeratorRequired()
     {
-        return $this->moderatorRequired;
+        return $this->moderatorRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->moderatorRequired;
     }
 
     /**
      * Setter for moderatorRequired
      *
-     * @ElementName moderatorRequired
-     * @param bool|null $moderatorRequired
+     * @param bool $moderatorRequired
      * @return $this
      */
     public function setModeratorRequired($moderatorRequired)
@@ -296,21 +358,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetModeratorRequired()
+    {
+        $this->moderatorRequired = null;
+        return $this;
+    }
+
+    /**
      * Getter for requireSecurityPin
      *
-     * @ElementName requireSecurityPin
-     * @return bool|null
+     * @return bool
      */
     public function getRequireSecurityPin()
     {
-        return $this->requireSecurityPin;
+        return $this->requireSecurityPin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requireSecurityPin;
     }
 
     /**
      * Setter for requireSecurityPin
      *
-     * @ElementName requireSecurityPin
-     * @param bool|null $requireSecurityPin
+     * @param bool $requireSecurityPin
      * @return $this
      */
     public function setRequireSecurityPin($requireSecurityPin)
@@ -320,21 +389,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequireSecurityPin()
+    {
+        $this->requireSecurityPin = null;
+        return $this;
+    }
+
+    /**
      * Getter for securityPin
      *
-     * @ElementName securityPin
-     * @return string|null
+     * @return string
      */
     public function getSecurityPin()
     {
-        return $this->securityPin;
+        return $this->securityPin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityPin;
     }
 
     /**
      * Setter for securityPin
      *
-     * @ElementName securityPin
-     * @param string|null $securityPin
+     * @param string $securityPin
      * @return $this
      */
     public function setSecurityPin($securityPin)
@@ -344,21 +420,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecurityPin()
+    {
+        $this->securityPin = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowUniqueIdentifier
      *
-     * @ElementName allowUniqueIdentifier
-     * @return bool|null
+     * @return bool
      */
     public function getAllowUniqueIdentifier()
     {
-        return $this->allowUniqueIdentifier;
+        return $this->allowUniqueIdentifier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowUniqueIdentifier;
     }
 
     /**
      * Setter for allowUniqueIdentifier
      *
-     * @ElementName allowUniqueIdentifier
-     * @param bool|null $allowUniqueIdentifier
+     * @param bool $allowUniqueIdentifier
      * @return $this
      */
     public function setAllowUniqueIdentifier($allowUniqueIdentifier)
@@ -368,21 +451,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowUniqueIdentifier()
+    {
+        $this->allowUniqueIdentifier = null;
+        return $this;
+    }
+
+    /**
      * Getter for attendeeNotification
      *
-     * @ElementName attendeeNotification
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification
      */
     public function getAttendeeNotification()
     {
-        return $this->attendeeNotification;
+        return $this->attendeeNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->attendeeNotification;
     }
 
     /**
      * Setter for attendeeNotification
      *
-     * @ElementName attendeeNotification
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification|null $attendeeNotification
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification $attendeeNotification
      * @return $this
      */
     public function setAttendeeNotification(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceAttendeeNotification $attendeeNotification)
@@ -392,21 +482,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAttendeeNotification()
+    {
+        $this->attendeeNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceSchedule
      *
-     * @ElementName conferenceSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule
      */
     public function getConferenceSchedule()
     {
-        return $this->conferenceSchedule;
+        return $this->conferenceSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceSchedule;
     }
 
     /**
      * Setter for conferenceSchedule
      *
-     * @ElementName conferenceSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule|null $conferenceSchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule $conferenceSchedule
      * @return $this
      */
     public function setConferenceSchedule(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceSchedule $conferenceSchedule)
@@ -416,21 +513,28 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceSchedule()
+    {
+        $this->conferenceSchedule = null;
+        return $this;
+    }
+
+    /**
      * Getter for moderatorPin
      *
-     * @ElementName moderatorPin
-     * @return string|null
+     * @return string
      */
     public function getModeratorPin()
     {
-        return $this->moderatorPin;
+        return $this->moderatorPin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->moderatorPin;
     }
 
     /**
      * Setter for moderatorPin
      *
-     * @ElementName moderatorPin
-     * @param string|null $moderatorPin
+     * @param string $moderatorPin
      * @return $this
      */
     public function setModeratorPin($moderatorPin)
@@ -440,26 +544,42 @@ class UserMeetMeConferencingGetConferenceResponse20 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetModeratorPin()
+    {
+        $this->moderatorPin = null;
+        return $this;
+    }
+
+    /**
      * Getter for hostTimeZone
      *
-     * @ElementName hostTimeZone
-     * @return string|null
+     * @return string
      */
     public function getHostTimeZone()
     {
-        return $this->hostTimeZone;
+        return $this->hostTimeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostTimeZone;
     }
 
     /**
      * Setter for hostTimeZone
      *
-     * @ElementName hostTimeZone
-     * @param string|null $hostTimeZone
+     * @param string $hostTimeZone
      * @return $this
      */
     public function setHostTimeZone($hostTimeZone)
     {
         $this->hostTimeZone = $hostTimeZone;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHostTimeZone()
+    {
+        $this->hostTimeZone = null;
         return $this;
     }
 

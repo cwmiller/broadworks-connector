@@ -19,6 +19,7 @@ class GroupRoutePointGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName routePointTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routePointTable = null;
@@ -26,24 +27,31 @@ class GroupRoutePointGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for routePointTable
      *
-     * @ElementName routePointTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRoutePointTable()
     {
-        return $this->routePointTable;
+        return $this->routePointTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routePointTable;
     }
 
     /**
      * Setter for routePointTable
      *
-     * @ElementName routePointTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routePointTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routePointTable
      * @return $this
      */
     public function setRoutePointTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routePointTable)
     {
         $this->routePointTable = $routePointTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoutePointTable()
+    {
+        $this->routePointTable = null;
         return $this;
     }
 

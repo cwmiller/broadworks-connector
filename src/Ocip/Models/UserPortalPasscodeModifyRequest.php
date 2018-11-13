@@ -16,18 +16,21 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName oldPasscode
+     * @Type string
      * @var string|null
      */
     private $oldPasscode = null;
 
     /**
      * @ElementName newPasscode
+     * @Type string
      * @var string|null
      */
     private $newPasscode = null;
@@ -35,19 +38,17 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for oldPasscode
      *
-     * @ElementName oldPasscode
-     * @return string|null
+     * @return string
      */
     public function getOldPasscode()
     {
-        return $this->oldPasscode;
+        return $this->oldPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->oldPasscode;
     }
 
     /**
      * Setter for oldPasscode
      *
-     * @ElementName oldPasscode
-     * @param string|null $oldPasscode
+     * @param string $oldPasscode
      * @return $this
      */
     public function setOldPasscode($oldPasscode)
@@ -81,26 +89,42 @@ class UserPortalPasscodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOldPasscode()
+    {
+        $this->oldPasscode = null;
+        return $this;
+    }
+
+    /**
      * Getter for newPasscode
      *
-     * @ElementName newPasscode
-     * @return string|null
+     * @return string
      */
     public function getNewPasscode()
     {
-        return $this->newPasscode;
+        return $this->newPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newPasscode;
     }
 
     /**
      * Setter for newPasscode
      *
-     * @ElementName newPasscode
-     * @param string|null $newPasscode
+     * @param string $newPasscode
      * @return $this
      */
     public function setNewPasscode($newPasscode)
     {
         $this->newPasscode = $newPasscode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewPasscode()
+    {
+        $this->newPasscode = null;
         return $this;
     }
 

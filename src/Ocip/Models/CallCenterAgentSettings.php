@@ -13,18 +13,21 @@ class CallCenterAgentSettings extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName available
+     * @Type bool
      * @var bool|null
      */
     private $available = null;
 
     /**
      * @ElementName skillLevel
+     * @Type int
      * @var int|null
      */
     private $skillLevel = null;
@@ -32,19 +35,17 @@ class CallCenterAgentSettings extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -54,21 +55,28 @@ class CallCenterAgentSettings extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for available
      *
-     * @ElementName available
-     * @return bool|null
+     * @return bool
      */
     public function getAvailable()
     {
-        return $this->available;
+        return $this->available instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->available;
     }
 
     /**
      * Setter for available
      *
-     * @ElementName available
-     * @param bool|null $available
+     * @param bool $available
      * @return $this
      */
     public function setAvailable($available)
@@ -78,26 +86,42 @@ class CallCenterAgentSettings extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAvailable()
+    {
+        $this->available = null;
+        return $this;
+    }
+
+    /**
      * Getter for skillLevel
      *
-     * @ElementName skillLevel
-     * @return int|null
+     * @return int
      */
     public function getSkillLevel()
     {
-        return $this->skillLevel;
+        return $this->skillLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->skillLevel;
     }
 
     /**
      * Setter for skillLevel
      *
-     * @ElementName skillLevel
-     * @param int|null $skillLevel
+     * @param int $skillLevel
      * @return $this
      */
     public function setSkillLevel($skillLevel)
     {
         $this->skillLevel = $skillLevel;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSkillLevel()
+    {
+        $this->skillLevel = null;
         return $this;
     }
 

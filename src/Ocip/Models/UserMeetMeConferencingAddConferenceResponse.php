@@ -14,12 +14,14 @@ class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName conferenceId
+     * @Type string
      * @var string|null
      */
     private $conferenceId = null;
 
     /**
      * @ElementName moderatorPin
+     * @Type string
      * @var string|null
      */
     private $moderatorPin = null;
@@ -27,19 +29,17 @@ class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for conferenceId
      *
-     * @ElementName conferenceId
-     * @return string|null
+     * @return string
      */
     public function getConferenceId()
     {
-        return $this->conferenceId;
+        return $this->conferenceId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceId;
     }
 
     /**
      * Setter for conferenceId
      *
-     * @ElementName conferenceId
-     * @param string|null $conferenceId
+     * @param string $conferenceId
      * @return $this
      */
     public function setConferenceId($conferenceId)
@@ -49,26 +49,42 @@ class UserMeetMeConferencingAddConferenceResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceId()
+    {
+        $this->conferenceId = null;
+        return $this;
+    }
+
+    /**
      * Getter for moderatorPin
      *
-     * @ElementName moderatorPin
-     * @return string|null
+     * @return string
      */
     public function getModeratorPin()
     {
-        return $this->moderatorPin;
+        return $this->moderatorPin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->moderatorPin;
     }
 
     /**
      * Setter for moderatorPin
      *
-     * @ElementName moderatorPin
-     * @param string|null $moderatorPin
+     * @param string $moderatorPin
      * @return $this
      */
     public function setModeratorPin($moderatorPin)
     {
         $this->moderatorPin = $moderatorPin;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetModeratorPin()
+    {
+        $this->moderatorPin = null;
         return $this;
     }
 

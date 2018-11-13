@@ -18,6 +18,7 @@ class EnterpriseEnterpriseTrunkGetUserListResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName enterpriseTrunkUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $enterpriseTrunkUserTable = null;
@@ -25,24 +26,31 @@ class EnterpriseEnterpriseTrunkGetUserListResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for enterpriseTrunkUserTable
      *
-     * @ElementName enterpriseTrunkUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getEnterpriseTrunkUserTable()
     {
-        return $this->enterpriseTrunkUserTable;
+        return $this->enterpriseTrunkUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseTrunkUserTable;
     }
 
     /**
      * Setter for enterpriseTrunkUserTable
      *
-     * @ElementName enterpriseTrunkUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $enterpriseTrunkUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $enterpriseTrunkUserTable
      * @return $this
      */
     public function setEnterpriseTrunkUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $enterpriseTrunkUserTable)
     {
         $this->enterpriseTrunkUserTable = $enterpriseTrunkUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnterpriseTrunkUserTable()
+    {
+        $this->enterpriseTrunkUserTable = null;
         return $this;
     }
 

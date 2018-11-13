@@ -16,18 +16,21 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName allowActivationWithUserAddresses
+     * @Type bool
      * @var bool|null
      */
     private $allowActivationWithUserAddresses = null;
@@ -35,19 +38,17 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -81,26 +89,42 @@ class UserTwoStageDialingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowActivationWithUserAddresses
      *
-     * @ElementName allowActivationWithUserAddresses
-     * @return bool|null
+     * @return bool
      */
     public function getAllowActivationWithUserAddresses()
     {
-        return $this->allowActivationWithUserAddresses;
+        return $this->allowActivationWithUserAddresses instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowActivationWithUserAddresses;
     }
 
     /**
      * Setter for allowActivationWithUserAddresses
      *
-     * @ElementName allowActivationWithUserAddresses
-     * @param bool|null $allowActivationWithUserAddresses
+     * @param bool $allowActivationWithUserAddresses
      * @return $this
      */
     public function setAllowActivationWithUserAddresses($allowActivationWithUserAddresses)
     {
         $this->allowActivationWithUserAddresses = $allowActivationWithUserAddresses;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowActivationWithUserAddresses()
+    {
+        $this->allowActivationWithUserAddresses = null;
         return $this;
     }
 

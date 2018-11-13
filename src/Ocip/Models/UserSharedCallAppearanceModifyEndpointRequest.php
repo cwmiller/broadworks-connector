@@ -17,30 +17,35 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null
      */
     private $accessDeviceEndpoint = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName allowOrigination
+     * @Type bool
      * @var bool|null
      */
     private $allowOrigination = null;
 
     /**
      * @ElementName allowTermination
+     * @Type bool
      * @var bool|null
      */
     private $allowTermination = null;
@@ -48,19 +53,17 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -70,21 +73,28 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null $accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey $accessDeviceEndpoint)
@@ -94,21 +104,28 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -118,21 +135,28 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowOrigination
      *
-     * @ElementName allowOrigination
-     * @return bool|null
+     * @return bool
      */
     public function getAllowOrigination()
     {
-        return $this->allowOrigination;
+        return $this->allowOrigination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowOrigination;
     }
 
     /**
      * Setter for allowOrigination
      *
-     * @ElementName allowOrigination
-     * @param bool|null $allowOrigination
+     * @param bool $allowOrigination
      * @return $this
      */
     public function setAllowOrigination($allowOrigination)
@@ -142,26 +166,42 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowOrigination()
+    {
+        $this->allowOrigination = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowTermination
      *
-     * @ElementName allowTermination
-     * @return bool|null
+     * @return bool
      */
     public function getAllowTermination()
     {
-        return $this->allowTermination;
+        return $this->allowTermination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowTermination;
     }
 
     /**
      * Setter for allowTermination
      *
-     * @ElementName allowTermination
-     * @param bool|null $allowTermination
+     * @param bool $allowTermination
      * @return $this
      */
     public function setAllowTermination($allowTermination)
     {
         $this->allowTermination = $allowTermination;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowTermination()
+    {
+        $this->allowTermination = null;
         return $this;
     }
 

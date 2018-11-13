@@ -16,12 +16,15 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName templateActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
     private $templateActivation = array(
@@ -31,19 +34,17 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,20 +54,27 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for templateActivation
      *
-     * @ElementName templateActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
     public function getTemplateActivation()
     {
-        return $this->templateActivation;
+        return $this->templateActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateActivation;
     }
 
     /**
      * Setter for templateActivation
      *
-     * @ElementName templateActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[] $templateActivation
      * @return $this
      */
@@ -77,15 +85,23 @@ class ServiceProviderMWIDeliveryToMobileEndpointModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTemplateActivation()
+    {
+        $this->templateActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for templateActivation
      *
-     * @ElementName templateActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation $templateActivation
      * @return $this
      */
     public function addTemplateActivation($templateActivation)
     {
-        $this->templateActivation []= $templateActivation;
+        $this->templateActivation[] = $templateActivation;
         return $this;
     }
 

@@ -25,7 +25,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SIPDiversionReason ROUTE_POINT()
  * @method static SIPDiversionReason BW_IMPLICITID()
  * @method static SIPDiversionReason BW_EXPLICITID()
- * @ValueType string
+ * @EnumValueType string
  */
 class SIPDiversionReason extends \MyCLabs\Enum\Enum
 {

@@ -14,192 +14,224 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName useGroupCLIDSetting
+     * @Type bool
      * @var bool|null
      */
     private $useGroupCLIDSetting = null;
 
     /**
      * @ElementName useGroupMediaSetting
+     * @Type bool
      * @var bool|null
      */
     private $useGroupMediaSetting = null;
 
     /**
      * @ElementName useGroupCallLimitsSetting
+     * @Type bool
      * @var bool|null
      */
     private $useGroupCallLimitsSetting = null;
 
     /**
      * @ElementName useGroupTranslationRoutingSetting
+     * @Type bool
      * @var bool|null
      */
     private $useGroupTranslationRoutingSetting = null;
 
     /**
      * @ElementName useMaxSimultaneousCalls
+     * @Type bool
      * @var bool|null
      */
     private $useMaxSimultaneousCalls = null;
 
     /**
      * @ElementName maxSimultaneousCalls
+     * @Type int
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
 
     /**
      * @ElementName useMaxSimultaneousVideoCalls
+     * @Type bool
      * @var bool|null
      */
     private $useMaxSimultaneousVideoCalls = null;
 
     /**
      * @ElementName maxSimultaneousVideoCalls
+     * @Type int
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
 
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
+     * @Type bool
      * @var bool|null
      */
     private $useMaxCallTimeForAnsweredCalls = null;
 
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
+     * @Type int
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
 
     /**
      * @ElementName useMaxCallTimeForUnansweredCalls
+     * @Type bool
      * @var bool|null
      */
     private $useMaxCallTimeForUnansweredCalls = null;
 
     /**
      * @ElementName maxCallTimeForUnansweredCallsMinutes
+     * @Type int
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
 
     /**
      * @ElementName mediaPolicySelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
 
     /**
      * @ElementName supportedMediaSetName
+     * @Type string
      * @var string|null
      */
     private $supportedMediaSetName = null;
 
     /**
      * @ElementName networkUsageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     private $networkUsageSelection = null;
 
     /**
      * @ElementName enforceGroupCallingLineIdentityRestriction
+     * @Type bool
      * @var bool|null
      */
     private $enforceGroupCallingLineIdentityRestriction = null;
 
     /**
      * @ElementName allowEnterpriseGroupCallTypingForPrivateDialingPlan
+     * @Type bool
      * @var bool|null
      */
     private $allowEnterpriseGroupCallTypingForPrivateDialingPlan = null;
 
     /**
      * @ElementName allowEnterpriseGroupCallTypingForPublicDialingPlan
+     * @Type bool
      * @var bool|null
      */
     private $allowEnterpriseGroupCallTypingForPublicDialingPlan = null;
 
     /**
      * @ElementName overrideCLIDRestrictionForPrivateCallCategory
+     * @Type bool
      * @var bool|null
      */
     private $overrideCLIDRestrictionForPrivateCallCategory = null;
 
     /**
      * @ElementName useEnterpriseCLIDForPrivateCallCategory
+     * @Type bool
      * @var bool|null
      */
     private $useEnterpriseCLIDForPrivateCallCategory = null;
 
     /**
      * @ElementName enableEnterpriseExtensionDialing
+     * @Type bool
      * @var bool|null
      */
     private $enableEnterpriseExtensionDialing = null;
 
     /**
      * @ElementName useMaxConcurrentRedirectedCalls
+     * @Type bool
      * @var bool|null
      */
     private $useMaxConcurrentRedirectedCalls = null;
 
     /**
      * @ElementName maxConcurrentRedirectedCalls
+     * @Type int
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
 
     /**
      * @ElementName useMaxFindMeFollowMeDepth
+     * @Type bool
      * @var bool|null
      */
     private $useMaxFindMeFollowMeDepth = null;
 
     /**
      * @ElementName maxFindMeFollowMeDepth
+     * @Type int
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
 
     /**
      * @ElementName maxRedirectionDepth
+     * @Type int
      * @var int|null
      */
     private $maxRedirectionDepth = null;
 
     /**
      * @ElementName useMaxConcurrentFindMeFollowMeInvocations
+     * @Type bool
      * @var bool|null
      */
     private $useMaxConcurrentFindMeFollowMeInvocations = null;
 
     /**
      * @ElementName maxConcurrentFindMeFollowMeInvocations
+     * @Type int
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
 
     /**
      * @ElementName clidPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $clidPolicy = null;
 
     /**
      * @ElementName emergencyClidPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $emergencyClidPolicy = null;
 
     /**
      * @ElementName allowAlternateNumbersForRedirectingIdentity
+     * @Type bool
      * @var bool|null
      */
     private $allowAlternateNumbersForRedirectingIdentity = null;
 
     /**
      * @ElementName useGroupName
+     * @Type bool
      * @var bool|null
      */
     private $useGroupName = null;
@@ -207,19 +239,17 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for useGroupCLIDSetting
      *
-     * @ElementName useGroupCLIDSetting
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupCLIDSetting()
     {
-        return $this->useGroupCLIDSetting;
+        return $this->useGroupCLIDSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupCLIDSetting;
     }
 
     /**
      * Setter for useGroupCLIDSetting
      *
-     * @ElementName useGroupCLIDSetting
-     * @param bool|null $useGroupCLIDSetting
+     * @param bool $useGroupCLIDSetting
      * @return $this
      */
     public function setUseGroupCLIDSetting($useGroupCLIDSetting)
@@ -229,21 +259,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupCLIDSetting()
+    {
+        $this->useGroupCLIDSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupMediaSetting
      *
-     * @ElementName useGroupMediaSetting
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupMediaSetting()
     {
-        return $this->useGroupMediaSetting;
+        return $this->useGroupMediaSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupMediaSetting;
     }
 
     /**
      * Setter for useGroupMediaSetting
      *
-     * @ElementName useGroupMediaSetting
-     * @param bool|null $useGroupMediaSetting
+     * @param bool $useGroupMediaSetting
      * @return $this
      */
     public function setUseGroupMediaSetting($useGroupMediaSetting)
@@ -253,21 +290,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupMediaSetting()
+    {
+        $this->useGroupMediaSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupCallLimitsSetting
      *
-     * @ElementName useGroupCallLimitsSetting
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupCallLimitsSetting()
     {
-        return $this->useGroupCallLimitsSetting;
+        return $this->useGroupCallLimitsSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupCallLimitsSetting;
     }
 
     /**
      * Setter for useGroupCallLimitsSetting
      *
-     * @ElementName useGroupCallLimitsSetting
-     * @param bool|null $useGroupCallLimitsSetting
+     * @param bool $useGroupCallLimitsSetting
      * @return $this
      */
     public function setUseGroupCallLimitsSetting($useGroupCallLimitsSetting)
@@ -277,21 +321,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupCallLimitsSetting()
+    {
+        $this->useGroupCallLimitsSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupTranslationRoutingSetting
      *
-     * @ElementName useGroupTranslationRoutingSetting
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupTranslationRoutingSetting()
     {
-        return $this->useGroupTranslationRoutingSetting;
+        return $this->useGroupTranslationRoutingSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupTranslationRoutingSetting;
     }
 
     /**
      * Setter for useGroupTranslationRoutingSetting
      *
-     * @ElementName useGroupTranslationRoutingSetting
-     * @param bool|null $useGroupTranslationRoutingSetting
+     * @param bool $useGroupTranslationRoutingSetting
      * @return $this
      */
     public function setUseGroupTranslationRoutingSetting($useGroupTranslationRoutingSetting)
@@ -301,21 +352,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupTranslationRoutingSetting()
+    {
+        $this->useGroupTranslationRoutingSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for useMaxSimultaneousCalls
      *
-     * @ElementName useMaxSimultaneousCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseMaxSimultaneousCalls()
     {
-        return $this->useMaxSimultaneousCalls;
+        return $this->useMaxSimultaneousCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useMaxSimultaneousCalls;
     }
 
     /**
      * Setter for useMaxSimultaneousCalls
      *
-     * @ElementName useMaxSimultaneousCalls
-     * @param bool|null $useMaxSimultaneousCalls
+     * @param bool $useMaxSimultaneousCalls
      * @return $this
      */
     public function setUseMaxSimultaneousCalls($useMaxSimultaneousCalls)
@@ -325,21 +383,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseMaxSimultaneousCalls()
+    {
+        $this->useMaxSimultaneousCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxSimultaneousCalls
      *
-     * @ElementName maxSimultaneousCalls
-     * @return int|null
+     * @return int
      */
     public function getMaxSimultaneousCalls()
     {
-        return $this->maxSimultaneousCalls;
+        return $this->maxSimultaneousCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxSimultaneousCalls;
     }
 
     /**
      * Setter for maxSimultaneousCalls
      *
-     * @ElementName maxSimultaneousCalls
-     * @param int|null $maxSimultaneousCalls
+     * @param int $maxSimultaneousCalls
      * @return $this
      */
     public function setMaxSimultaneousCalls($maxSimultaneousCalls)
@@ -349,21 +414,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxSimultaneousCalls()
+    {
+        $this->maxSimultaneousCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for useMaxSimultaneousVideoCalls
      *
-     * @ElementName useMaxSimultaneousVideoCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseMaxSimultaneousVideoCalls()
     {
-        return $this->useMaxSimultaneousVideoCalls;
+        return $this->useMaxSimultaneousVideoCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useMaxSimultaneousVideoCalls;
     }
 
     /**
      * Setter for useMaxSimultaneousVideoCalls
      *
-     * @ElementName useMaxSimultaneousVideoCalls
-     * @param bool|null $useMaxSimultaneousVideoCalls
+     * @param bool $useMaxSimultaneousVideoCalls
      * @return $this
      */
     public function setUseMaxSimultaneousVideoCalls($useMaxSimultaneousVideoCalls)
@@ -373,21 +445,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseMaxSimultaneousVideoCalls()
+    {
+        $this->useMaxSimultaneousVideoCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxSimultaneousVideoCalls
      *
-     * @ElementName maxSimultaneousVideoCalls
-     * @return int|null
+     * @return int
      */
     public function getMaxSimultaneousVideoCalls()
     {
-        return $this->maxSimultaneousVideoCalls;
+        return $this->maxSimultaneousVideoCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxSimultaneousVideoCalls;
     }
 
     /**
      * Setter for maxSimultaneousVideoCalls
      *
-     * @ElementName maxSimultaneousVideoCalls
-     * @param int|null $maxSimultaneousVideoCalls
+     * @param int $maxSimultaneousVideoCalls
      * @return $this
      */
     public function setMaxSimultaneousVideoCalls($maxSimultaneousVideoCalls)
@@ -397,21 +476,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxSimultaneousVideoCalls()
+    {
+        $this->maxSimultaneousVideoCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for useMaxCallTimeForAnsweredCalls
      *
-     * @ElementName useMaxCallTimeForAnsweredCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseMaxCallTimeForAnsweredCalls()
     {
-        return $this->useMaxCallTimeForAnsweredCalls;
+        return $this->useMaxCallTimeForAnsweredCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useMaxCallTimeForAnsweredCalls;
     }
 
     /**
      * Setter for useMaxCallTimeForAnsweredCalls
      *
-     * @ElementName useMaxCallTimeForAnsweredCalls
-     * @param bool|null $useMaxCallTimeForAnsweredCalls
+     * @param bool $useMaxCallTimeForAnsweredCalls
      * @return $this
      */
     public function setUseMaxCallTimeForAnsweredCalls($useMaxCallTimeForAnsweredCalls)
@@ -421,21 +507,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseMaxCallTimeForAnsweredCalls()
+    {
+        $this->useMaxCallTimeForAnsweredCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCallTimeForAnsweredCallsMinutes
      *
-     * @ElementName maxCallTimeForAnsweredCallsMinutes
-     * @return int|null
+     * @return int
      */
     public function getMaxCallTimeForAnsweredCallsMinutes()
     {
-        return $this->maxCallTimeForAnsweredCallsMinutes;
+        return $this->maxCallTimeForAnsweredCallsMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCallTimeForAnsweredCallsMinutes;
     }
 
     /**
      * Setter for maxCallTimeForAnsweredCallsMinutes
      *
-     * @ElementName maxCallTimeForAnsweredCallsMinutes
-     * @param int|null $maxCallTimeForAnsweredCallsMinutes
+     * @param int $maxCallTimeForAnsweredCallsMinutes
      * @return $this
      */
     public function setMaxCallTimeForAnsweredCallsMinutes($maxCallTimeForAnsweredCallsMinutes)
@@ -445,21 +538,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxCallTimeForAnsweredCallsMinutes()
+    {
+        $this->maxCallTimeForAnsweredCallsMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for useMaxCallTimeForUnansweredCalls
      *
-     * @ElementName useMaxCallTimeForUnansweredCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseMaxCallTimeForUnansweredCalls()
     {
-        return $this->useMaxCallTimeForUnansweredCalls;
+        return $this->useMaxCallTimeForUnansweredCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useMaxCallTimeForUnansweredCalls;
     }
 
     /**
      * Setter for useMaxCallTimeForUnansweredCalls
      *
-     * @ElementName useMaxCallTimeForUnansweredCalls
-     * @param bool|null $useMaxCallTimeForUnansweredCalls
+     * @param bool $useMaxCallTimeForUnansweredCalls
      * @return $this
      */
     public function setUseMaxCallTimeForUnansweredCalls($useMaxCallTimeForUnansweredCalls)
@@ -469,21 +569,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseMaxCallTimeForUnansweredCalls()
+    {
+        $this->useMaxCallTimeForUnansweredCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCallTimeForUnansweredCallsMinutes
      *
-     * @ElementName maxCallTimeForUnansweredCallsMinutes
-     * @return int|null
+     * @return int
      */
     public function getMaxCallTimeForUnansweredCallsMinutes()
     {
-        return $this->maxCallTimeForUnansweredCallsMinutes;
+        return $this->maxCallTimeForUnansweredCallsMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCallTimeForUnansweredCallsMinutes;
     }
 
     /**
      * Setter for maxCallTimeForUnansweredCallsMinutes
      *
-     * @ElementName maxCallTimeForUnansweredCallsMinutes
-     * @param int|null $maxCallTimeForUnansweredCallsMinutes
+     * @param int $maxCallTimeForUnansweredCallsMinutes
      * @return $this
      */
     public function setMaxCallTimeForUnansweredCallsMinutes($maxCallTimeForUnansweredCallsMinutes)
@@ -493,21 +600,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxCallTimeForUnansweredCallsMinutes()
+    {
+        $this->maxCallTimeForUnansweredCallsMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for mediaPolicySelection
      *
-     * @ElementName mediaPolicySelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection
      */
     public function getMediaPolicySelection()
     {
-        return $this->mediaPolicySelection;
+        return $this->mediaPolicySelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaPolicySelection;
     }
 
     /**
      * Setter for mediaPolicySelection
      *
-     * @ElementName mediaPolicySelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null $mediaPolicySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection $mediaPolicySelection
      * @return $this
      */
     public function setMediaPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection $mediaPolicySelection)
@@ -517,21 +631,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMediaPolicySelection()
+    {
+        $this->mediaPolicySelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportedMediaSetName
      *
-     * @ElementName supportedMediaSetName
-     * @return string|null
+     * @return string
      */
     public function getSupportedMediaSetName()
     {
-        return $this->supportedMediaSetName;
+        return $this->supportedMediaSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportedMediaSetName;
     }
 
     /**
      * Setter for supportedMediaSetName
      *
-     * @ElementName supportedMediaSetName
-     * @param string|null $supportedMediaSetName
+     * @param string $supportedMediaSetName
      * @return $this
      */
     public function setSupportedMediaSetName($supportedMediaSetName)
@@ -541,21 +662,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportedMediaSetName()
+    {
+        $this->supportedMediaSetName = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkUsageSelection
      *
-     * @ElementName networkUsageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection
      */
     public function getNetworkUsageSelection()
     {
-        return $this->networkUsageSelection;
+        return $this->networkUsageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkUsageSelection;
     }
 
     /**
      * Setter for networkUsageSelection
      *
-     * @ElementName networkUsageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null $networkUsageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection $networkUsageSelection
      * @return $this
      */
     public function setNetworkUsageSelection(\CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection $networkUsageSelection)
@@ -565,21 +693,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkUsageSelection()
+    {
+        $this->networkUsageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for enforceGroupCallingLineIdentityRestriction
      *
-     * @ElementName enforceGroupCallingLineIdentityRestriction
-     * @return bool|null
+     * @return bool
      */
     public function getEnforceGroupCallingLineIdentityRestriction()
     {
-        return $this->enforceGroupCallingLineIdentityRestriction;
+        return $this->enforceGroupCallingLineIdentityRestriction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enforceGroupCallingLineIdentityRestriction;
     }
 
     /**
      * Setter for enforceGroupCallingLineIdentityRestriction
      *
-     * @ElementName enforceGroupCallingLineIdentityRestriction
-     * @param bool|null $enforceGroupCallingLineIdentityRestriction
+     * @param bool $enforceGroupCallingLineIdentityRestriction
      * @return $this
      */
     public function setEnforceGroupCallingLineIdentityRestriction($enforceGroupCallingLineIdentityRestriction)
@@ -589,21 +724,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnforceGroupCallingLineIdentityRestriction()
+    {
+        $this->enforceGroupCallingLineIdentityRestriction = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowEnterpriseGroupCallTypingForPrivateDialingPlan
      *
-     * @ElementName allowEnterpriseGroupCallTypingForPrivateDialingPlan
-     * @return bool|null
+     * @return bool
      */
     public function getAllowEnterpriseGroupCallTypingForPrivateDialingPlan()
     {
-        return $this->allowEnterpriseGroupCallTypingForPrivateDialingPlan;
+        return $this->allowEnterpriseGroupCallTypingForPrivateDialingPlan instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowEnterpriseGroupCallTypingForPrivateDialingPlan;
     }
 
     /**
      * Setter for allowEnterpriseGroupCallTypingForPrivateDialingPlan
      *
-     * @ElementName allowEnterpriseGroupCallTypingForPrivateDialingPlan
-     * @param bool|null $allowEnterpriseGroupCallTypingForPrivateDialingPlan
+     * @param bool $allowEnterpriseGroupCallTypingForPrivateDialingPlan
      * @return $this
      */
     public function setAllowEnterpriseGroupCallTypingForPrivateDialingPlan($allowEnterpriseGroupCallTypingForPrivateDialingPlan)
@@ -613,21 +755,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowEnterpriseGroupCallTypingForPrivateDialingPlan()
+    {
+        $this->allowEnterpriseGroupCallTypingForPrivateDialingPlan = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowEnterpriseGroupCallTypingForPublicDialingPlan
      *
-     * @ElementName allowEnterpriseGroupCallTypingForPublicDialingPlan
-     * @return bool|null
+     * @return bool
      */
     public function getAllowEnterpriseGroupCallTypingForPublicDialingPlan()
     {
-        return $this->allowEnterpriseGroupCallTypingForPublicDialingPlan;
+        return $this->allowEnterpriseGroupCallTypingForPublicDialingPlan instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowEnterpriseGroupCallTypingForPublicDialingPlan;
     }
 
     /**
      * Setter for allowEnterpriseGroupCallTypingForPublicDialingPlan
      *
-     * @ElementName allowEnterpriseGroupCallTypingForPublicDialingPlan
-     * @param bool|null $allowEnterpriseGroupCallTypingForPublicDialingPlan
+     * @param bool $allowEnterpriseGroupCallTypingForPublicDialingPlan
      * @return $this
      */
     public function setAllowEnterpriseGroupCallTypingForPublicDialingPlan($allowEnterpriseGroupCallTypingForPublicDialingPlan)
@@ -637,21 +786,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowEnterpriseGroupCallTypingForPublicDialingPlan()
+    {
+        $this->allowEnterpriseGroupCallTypingForPublicDialingPlan = null;
+        return $this;
+    }
+
+    /**
      * Getter for overrideCLIDRestrictionForPrivateCallCategory
      *
-     * @ElementName overrideCLIDRestrictionForPrivateCallCategory
-     * @return bool|null
+     * @return bool
      */
     public function getOverrideCLIDRestrictionForPrivateCallCategory()
     {
-        return $this->overrideCLIDRestrictionForPrivateCallCategory;
+        return $this->overrideCLIDRestrictionForPrivateCallCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideCLIDRestrictionForPrivateCallCategory;
     }
 
     /**
      * Setter for overrideCLIDRestrictionForPrivateCallCategory
      *
-     * @ElementName overrideCLIDRestrictionForPrivateCallCategory
-     * @param bool|null $overrideCLIDRestrictionForPrivateCallCategory
+     * @param bool $overrideCLIDRestrictionForPrivateCallCategory
      * @return $this
      */
     public function setOverrideCLIDRestrictionForPrivateCallCategory($overrideCLIDRestrictionForPrivateCallCategory)
@@ -661,21 +817,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOverrideCLIDRestrictionForPrivateCallCategory()
+    {
+        $this->overrideCLIDRestrictionForPrivateCallCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for useEnterpriseCLIDForPrivateCallCategory
      *
-     * @ElementName useEnterpriseCLIDForPrivateCallCategory
-     * @return bool|null
+     * @return bool
      */
     public function getUseEnterpriseCLIDForPrivateCallCategory()
     {
-        return $this->useEnterpriseCLIDForPrivateCallCategory;
+        return $this->useEnterpriseCLIDForPrivateCallCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useEnterpriseCLIDForPrivateCallCategory;
     }
 
     /**
      * Setter for useEnterpriseCLIDForPrivateCallCategory
      *
-     * @ElementName useEnterpriseCLIDForPrivateCallCategory
-     * @param bool|null $useEnterpriseCLIDForPrivateCallCategory
+     * @param bool $useEnterpriseCLIDForPrivateCallCategory
      * @return $this
      */
     public function setUseEnterpriseCLIDForPrivateCallCategory($useEnterpriseCLIDForPrivateCallCategory)
@@ -685,21 +848,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseEnterpriseCLIDForPrivateCallCategory()
+    {
+        $this->useEnterpriseCLIDForPrivateCallCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableEnterpriseExtensionDialing
      *
-     * @ElementName enableEnterpriseExtensionDialing
-     * @return bool|null
+     * @return bool
      */
     public function getEnableEnterpriseExtensionDialing()
     {
-        return $this->enableEnterpriseExtensionDialing;
+        return $this->enableEnterpriseExtensionDialing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableEnterpriseExtensionDialing;
     }
 
     /**
      * Setter for enableEnterpriseExtensionDialing
      *
-     * @ElementName enableEnterpriseExtensionDialing
-     * @param bool|null $enableEnterpriseExtensionDialing
+     * @param bool $enableEnterpriseExtensionDialing
      * @return $this
      */
     public function setEnableEnterpriseExtensionDialing($enableEnterpriseExtensionDialing)
@@ -709,21 +879,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableEnterpriseExtensionDialing()
+    {
+        $this->enableEnterpriseExtensionDialing = null;
+        return $this;
+    }
+
+    /**
      * Getter for useMaxConcurrentRedirectedCalls
      *
-     * @ElementName useMaxConcurrentRedirectedCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseMaxConcurrentRedirectedCalls()
     {
-        return $this->useMaxConcurrentRedirectedCalls;
+        return $this->useMaxConcurrentRedirectedCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useMaxConcurrentRedirectedCalls;
     }
 
     /**
      * Setter for useMaxConcurrentRedirectedCalls
      *
-     * @ElementName useMaxConcurrentRedirectedCalls
-     * @param bool|null $useMaxConcurrentRedirectedCalls
+     * @param bool $useMaxConcurrentRedirectedCalls
      * @return $this
      */
     public function setUseMaxConcurrentRedirectedCalls($useMaxConcurrentRedirectedCalls)
@@ -733,21 +910,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseMaxConcurrentRedirectedCalls()
+    {
+        $this->useMaxConcurrentRedirectedCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxConcurrentRedirectedCalls
      *
-     * @ElementName maxConcurrentRedirectedCalls
-     * @return int|null
+     * @return int
      */
     public function getMaxConcurrentRedirectedCalls()
     {
-        return $this->maxConcurrentRedirectedCalls;
+        return $this->maxConcurrentRedirectedCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxConcurrentRedirectedCalls;
     }
 
     /**
      * Setter for maxConcurrentRedirectedCalls
      *
-     * @ElementName maxConcurrentRedirectedCalls
-     * @param int|null $maxConcurrentRedirectedCalls
+     * @param int $maxConcurrentRedirectedCalls
      * @return $this
      */
     public function setMaxConcurrentRedirectedCalls($maxConcurrentRedirectedCalls)
@@ -757,21 +941,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxConcurrentRedirectedCalls()
+    {
+        $this->maxConcurrentRedirectedCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for useMaxFindMeFollowMeDepth
      *
-     * @ElementName useMaxFindMeFollowMeDepth
-     * @return bool|null
+     * @return bool
      */
     public function getUseMaxFindMeFollowMeDepth()
     {
-        return $this->useMaxFindMeFollowMeDepth;
+        return $this->useMaxFindMeFollowMeDepth instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useMaxFindMeFollowMeDepth;
     }
 
     /**
      * Setter for useMaxFindMeFollowMeDepth
      *
-     * @ElementName useMaxFindMeFollowMeDepth
-     * @param bool|null $useMaxFindMeFollowMeDepth
+     * @param bool $useMaxFindMeFollowMeDepth
      * @return $this
      */
     public function setUseMaxFindMeFollowMeDepth($useMaxFindMeFollowMeDepth)
@@ -781,21 +972,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseMaxFindMeFollowMeDepth()
+    {
+        $this->useMaxFindMeFollowMeDepth = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxFindMeFollowMeDepth
      *
-     * @ElementName maxFindMeFollowMeDepth
-     * @return int|null
+     * @return int
      */
     public function getMaxFindMeFollowMeDepth()
     {
-        return $this->maxFindMeFollowMeDepth;
+        return $this->maxFindMeFollowMeDepth instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxFindMeFollowMeDepth;
     }
 
     /**
      * Setter for maxFindMeFollowMeDepth
      *
-     * @ElementName maxFindMeFollowMeDepth
-     * @param int|null $maxFindMeFollowMeDepth
+     * @param int $maxFindMeFollowMeDepth
      * @return $this
      */
     public function setMaxFindMeFollowMeDepth($maxFindMeFollowMeDepth)
@@ -805,21 +1003,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxFindMeFollowMeDepth()
+    {
+        $this->maxFindMeFollowMeDepth = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxRedirectionDepth
      *
-     * @ElementName maxRedirectionDepth
-     * @return int|null
+     * @return int
      */
     public function getMaxRedirectionDepth()
     {
-        return $this->maxRedirectionDepth;
+        return $this->maxRedirectionDepth instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxRedirectionDepth;
     }
 
     /**
      * Setter for maxRedirectionDepth
      *
-     * @ElementName maxRedirectionDepth
-     * @param int|null $maxRedirectionDepth
+     * @param int $maxRedirectionDepth
      * @return $this
      */
     public function setMaxRedirectionDepth($maxRedirectionDepth)
@@ -829,21 +1034,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxRedirectionDepth()
+    {
+        $this->maxRedirectionDepth = null;
+        return $this;
+    }
+
+    /**
      * Getter for useMaxConcurrentFindMeFollowMeInvocations
      *
-     * @ElementName useMaxConcurrentFindMeFollowMeInvocations
-     * @return bool|null
+     * @return bool
      */
     public function getUseMaxConcurrentFindMeFollowMeInvocations()
     {
-        return $this->useMaxConcurrentFindMeFollowMeInvocations;
+        return $this->useMaxConcurrentFindMeFollowMeInvocations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useMaxConcurrentFindMeFollowMeInvocations;
     }
 
     /**
      * Setter for useMaxConcurrentFindMeFollowMeInvocations
      *
-     * @ElementName useMaxConcurrentFindMeFollowMeInvocations
-     * @param bool|null $useMaxConcurrentFindMeFollowMeInvocations
+     * @param bool $useMaxConcurrentFindMeFollowMeInvocations
      * @return $this
      */
     public function setUseMaxConcurrentFindMeFollowMeInvocations($useMaxConcurrentFindMeFollowMeInvocations)
@@ -853,21 +1065,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseMaxConcurrentFindMeFollowMeInvocations()
+    {
+        $this->useMaxConcurrentFindMeFollowMeInvocations = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxConcurrentFindMeFollowMeInvocations
      *
-     * @ElementName maxConcurrentFindMeFollowMeInvocations
-     * @return int|null
+     * @return int
      */
     public function getMaxConcurrentFindMeFollowMeInvocations()
     {
-        return $this->maxConcurrentFindMeFollowMeInvocations;
+        return $this->maxConcurrentFindMeFollowMeInvocations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxConcurrentFindMeFollowMeInvocations;
     }
 
     /**
      * Setter for maxConcurrentFindMeFollowMeInvocations
      *
-     * @ElementName maxConcurrentFindMeFollowMeInvocations
-     * @param int|null $maxConcurrentFindMeFollowMeInvocations
+     * @param int $maxConcurrentFindMeFollowMeInvocations
      * @return $this
      */
     public function setMaxConcurrentFindMeFollowMeInvocations($maxConcurrentFindMeFollowMeInvocations)
@@ -877,21 +1096,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxConcurrentFindMeFollowMeInvocations()
+    {
+        $this->maxConcurrentFindMeFollowMeInvocations = null;
+        return $this;
+    }
+
+    /**
      * Getter for clidPolicy
      *
-     * @ElementName clidPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
      */
     public function getClidPolicy()
     {
-        return $this->clidPolicy;
+        return $this->clidPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->clidPolicy;
     }
 
     /**
      * Setter for clidPolicy
      *
-     * @ElementName clidPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null $clidPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy $clidPolicy
      * @return $this
      */
     public function setClidPolicy(\CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy $clidPolicy)
@@ -901,21 +1127,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetClidPolicy()
+    {
+        $this->clidPolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for emergencyClidPolicy
      *
-     * @ElementName emergencyClidPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
      */
     public function getEmergencyClidPolicy()
     {
-        return $this->emergencyClidPolicy;
+        return $this->emergencyClidPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emergencyClidPolicy;
     }
 
     /**
      * Setter for emergencyClidPolicy
      *
-     * @ElementName emergencyClidPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null $emergencyClidPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy $emergencyClidPolicy
      * @return $this
      */
     public function setEmergencyClidPolicy(\CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy $emergencyClidPolicy)
@@ -925,21 +1158,28 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEmergencyClidPolicy()
+    {
+        $this->emergencyClidPolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowAlternateNumbersForRedirectingIdentity
      *
-     * @ElementName allowAlternateNumbersForRedirectingIdentity
-     * @return bool|null
+     * @return bool
      */
     public function getAllowAlternateNumbersForRedirectingIdentity()
     {
-        return $this->allowAlternateNumbersForRedirectingIdentity;
+        return $this->allowAlternateNumbersForRedirectingIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowAlternateNumbersForRedirectingIdentity;
     }
 
     /**
      * Setter for allowAlternateNumbersForRedirectingIdentity
      *
-     * @ElementName allowAlternateNumbersForRedirectingIdentity
-     * @param bool|null $allowAlternateNumbersForRedirectingIdentity
+     * @param bool $allowAlternateNumbersForRedirectingIdentity
      * @return $this
      */
     public function setAllowAlternateNumbersForRedirectingIdentity($allowAlternateNumbersForRedirectingIdentity)
@@ -949,26 +1189,42 @@ class GroupCallProcessingGetPolicyResponse16 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowAlternateNumbersForRedirectingIdentity()
+    {
+        $this->allowAlternateNumbersForRedirectingIdentity = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupName
      *
-     * @ElementName useGroupName
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupName()
     {
-        return $this->useGroupName;
+        return $this->useGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupName;
     }
 
     /**
      * Setter for useGroupName
      *
-     * @ElementName useGroupName
-     * @param bool|null $useGroupName
+     * @param bool $useGroupName
      * @return $this
      */
     public function setUseGroupName($useGroupName)
     {
         $this->useGroupName = $useGroupName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseGroupName()
+    {
+        $this->useGroupName = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceProviderAdminDialableCallerIDAccess FULL()
  * @method static ServiceProviderAdminDialableCallerIDAccess READ_ONLY()
  * @method static ServiceProviderAdminDialableCallerIDAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminDialableCallerIDAccess extends \MyCLabs\Enum\Enum
 {

@@ -18,24 +18,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName newName
+     * @Type string
      * @var string|null
      */
     private $newName = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -43,96 +47,112 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
 
     /**
      * @ElementName schedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule|null
      */
     private $schedule = null;
 
     /**
      * @ElementName samplingPeriod
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod|null
      */
     private $samplingPeriod = null;
 
     /**
      * @ElementName startDayOfWeek
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $startDayOfWeek = null;
 
     /**
      * @ElementName reportTimeZone
+     * @Type string
      * @var string|null
      */
     private $reportTimeZone = null;
 
     /**
      * @ElementName reportDateFormat
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat|null
      */
     private $reportDateFormat = null;
 
     /**
      * @ElementName reportTimeFormat
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat|null
      */
     private $reportTimeFormat = null;
 
     /**
      * @ElementName reportInterval
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval|null
      */
     private $reportInterval = null;
 
     /**
      * @ElementName reportFormat
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat|null
      */
     private $reportFormat = null;
 
     /**
      * @ElementName agent
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection|null
      */
     private $agent = null;
 
     /**
      * @ElementName callCenter
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection|null
      */
     private $callCenter = null;
 
     /**
      * @ElementName dnis
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection|null
      */
     private $dnis = null;
 
     /**
      * @ElementName callCompletionThresholdSeconds
+     * @Type int
      * @var int|null
      */
     private $callCompletionThresholdSeconds = null;
 
     /**
      * @ElementName shortDurationThresholdSeconds
+     * @Type int
      * @var int|null
      */
     private $shortDurationThresholdSeconds = null;
 
     /**
      * @ElementName serviceLevelThresholdSeconds
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServiceLevelThresholdReplacementList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServiceLevelThresholdReplacementList|null
      */
     private $serviceLevelThresholdSeconds = null;
 
     /**
      * @ElementName serviceLevelInclusions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusionsModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusionsModify|null
      */
     private $serviceLevelInclusions = null;
 
     /**
      * @ElementName serviceLevelObjectivePercentage
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -140,12 +160,14 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
 
     /**
      * @ElementName abandonedCallThresholdSeconds
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbandonedCallThresholdReplacementList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbandonedCallThresholdReplacementList|null
      */
     private $abandonedCallThresholdSeconds = null;
 
     /**
      * @ElementName emailAddress
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportReplacementEmailList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportReplacementEmailList|null
      */
     private $emailAddress = null;
@@ -153,19 +175,17 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -175,21 +195,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -199,21 +226,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for newName
      *
-     * @ElementName newName
-     * @return string|null
+     * @return string
      */
     public function getNewName()
     {
-        return $this->newName;
+        return $this->newName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newName;
     }
 
     /**
      * Setter for newName
      *
-     * @ElementName newName
-     * @param string|null $newName
+     * @param string $newName
      * @return $this
      */
     public function setNewName($newName)
@@ -223,47 +257,63 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewName()
+    {
+        $this->newName = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for schedule
      *
-     * @ElementName schedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule
      */
     public function getSchedule()
     {
-        return $this->schedule;
+        return $this->schedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->schedule;
     }
 
     /**
      * Setter for schedule
      *
-     * @ElementName schedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule|null $schedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule $schedule
      * @return $this
      */
     public function setSchedule(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSchedule $schedule)
@@ -273,21 +323,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSchedule()
+    {
+        $this->schedule = null;
+        return $this;
+    }
+
+    /**
      * Getter for samplingPeriod
      *
-     * @ElementName samplingPeriod
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod
      */
     public function getSamplingPeriod()
     {
-        return $this->samplingPeriod;
+        return $this->samplingPeriod instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->samplingPeriod;
     }
 
     /**
      * Setter for samplingPeriod
      *
-     * @ElementName samplingPeriod
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod|null $samplingPeriod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod $samplingPeriod
      * @return $this
      */
     public function setSamplingPeriod(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportSamplingPeriod $samplingPeriod)
@@ -297,21 +354,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSamplingPeriod()
+    {
+        $this->samplingPeriod = null;
+        return $this;
+    }
+
+    /**
      * Getter for startDayOfWeek
      *
-     * @ElementName startDayOfWeek
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
      */
     public function getStartDayOfWeek()
     {
-        return $this->startDayOfWeek;
+        return $this->startDayOfWeek instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startDayOfWeek;
     }
 
     /**
      * Setter for startDayOfWeek
      *
-     * @ElementName startDayOfWeek
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null $startDayOfWeek
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek $startDayOfWeek
      * @return $this
      */
     public function setStartDayOfWeek(\CWM\BroadWorksConnector\Ocip\Models\DayOfWeek $startDayOfWeek)
@@ -321,21 +385,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartDayOfWeek()
+    {
+        $this->startDayOfWeek = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportTimeZone
      *
-     * @ElementName reportTimeZone
-     * @return string|null
+     * @return string
      */
     public function getReportTimeZone()
     {
-        return $this->reportTimeZone;
+        return $this->reportTimeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportTimeZone;
     }
 
     /**
      * Setter for reportTimeZone
      *
-     * @ElementName reportTimeZone
-     * @param string|null $reportTimeZone
+     * @param string $reportTimeZone
      * @return $this
      */
     public function setReportTimeZone($reportTimeZone)
@@ -345,21 +416,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportTimeZone()
+    {
+        $this->reportTimeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportDateFormat
      *
-     * @ElementName reportDateFormat
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat
      */
     public function getReportDateFormat()
     {
-        return $this->reportDateFormat;
+        return $this->reportDateFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportDateFormat;
     }
 
     /**
      * Setter for reportDateFormat
      *
-     * @ElementName reportDateFormat
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat|null $reportDateFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat $reportDateFormat
      * @return $this
      */
     public function setReportDateFormat(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDateFormat $reportDateFormat)
@@ -369,21 +447,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportDateFormat()
+    {
+        $this->reportDateFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportTimeFormat
      *
-     * @ElementName reportTimeFormat
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat
      */
     public function getReportTimeFormat()
     {
-        return $this->reportTimeFormat;
+        return $this->reportTimeFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportTimeFormat;
     }
 
     /**
      * Setter for reportTimeFormat
      *
-     * @ElementName reportTimeFormat
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat|null $reportTimeFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat $reportTimeFormat
      * @return $this
      */
     public function setReportTimeFormat(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTimeFormat $reportTimeFormat)
@@ -393,21 +478,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportTimeFormat()
+    {
+        $this->reportTimeFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportInterval
      *
-     * @ElementName reportInterval
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval
      */
     public function getReportInterval()
     {
-        return $this->reportInterval;
+        return $this->reportInterval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportInterval;
     }
 
     /**
      * Setter for reportInterval
      *
-     * @ElementName reportInterval
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval|null $reportInterval
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval $reportInterval
      * @return $this
      */
     public function setReportInterval(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportInterval $reportInterval)
@@ -417,21 +509,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportInterval()
+    {
+        $this->reportInterval = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportFormat
      *
-     * @ElementName reportFormat
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat
      */
     public function getReportFormat()
     {
-        return $this->reportFormat;
+        return $this->reportFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportFormat;
     }
 
     /**
      * Setter for reportFormat
      *
-     * @ElementName reportFormat
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat|null $reportFormat
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat $reportFormat
      * @return $this
      */
     public function setReportFormat(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportFileFormat $reportFormat)
@@ -441,21 +540,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportFormat()
+    {
+        $this->reportFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for agent
      *
-     * @ElementName agent
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection
      */
     public function getAgent()
     {
-        return $this->agent;
+        return $this->agent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agent;
     }
 
     /**
      * Setter for agent
      *
-     * @ElementName agent
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection|null $agent
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection $agent
      * @return $this
      */
     public function setAgent(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportAgentSelection $agent)
@@ -465,21 +571,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgent()
+    {
+        $this->agent = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCenter
      *
-     * @ElementName callCenter
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection
      */
     public function getCallCenter()
     {
-        return $this->callCenter;
+        return $this->callCenter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenter;
     }
 
     /**
      * Setter for callCenter
      *
-     * @ElementName callCenter
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection|null $callCenter
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection $callCenter
      * @return $this
      */
     public function setCallCenter(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportCallCenterSelection $callCenter)
@@ -489,21 +602,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallCenter()
+    {
+        $this->callCenter = null;
+        return $this;
+    }
+
+    /**
      * Getter for dnis
      *
-     * @ElementName dnis
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection
      */
     public function getDnis()
     {
-        return $this->dnis;
+        return $this->dnis instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnis;
     }
 
     /**
      * Setter for dnis
      *
-     * @ElementName dnis
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection|null $dnis
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection $dnis
      * @return $this
      */
     public function setDnis(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportDNISSelection $dnis)
@@ -513,21 +633,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDnis()
+    {
+        $this->dnis = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCompletionThresholdSeconds
      *
-     * @ElementName callCompletionThresholdSeconds
-     * @return int|null
+     * @return int
      */
     public function getCallCompletionThresholdSeconds()
     {
-        return $this->callCompletionThresholdSeconds;
+        return $this->callCompletionThresholdSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCompletionThresholdSeconds;
     }
 
     /**
      * Setter for callCompletionThresholdSeconds
      *
-     * @ElementName callCompletionThresholdSeconds
-     * @param int|null $callCompletionThresholdSeconds
+     * @param int $callCompletionThresholdSeconds
      * @return $this
      */
     public function setCallCompletionThresholdSeconds($callCompletionThresholdSeconds)
@@ -537,21 +664,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallCompletionThresholdSeconds()
+    {
+        $this->callCompletionThresholdSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for shortDurationThresholdSeconds
      *
-     * @ElementName shortDurationThresholdSeconds
-     * @return int|null
+     * @return int
      */
     public function getShortDurationThresholdSeconds()
     {
-        return $this->shortDurationThresholdSeconds;
+        return $this->shortDurationThresholdSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->shortDurationThresholdSeconds;
     }
 
     /**
      * Setter for shortDurationThresholdSeconds
      *
-     * @ElementName shortDurationThresholdSeconds
-     * @param int|null $shortDurationThresholdSeconds
+     * @param int $shortDurationThresholdSeconds
      * @return $this
      */
     public function setShortDurationThresholdSeconds($shortDurationThresholdSeconds)
@@ -561,21 +695,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetShortDurationThresholdSeconds()
+    {
+        $this->shortDurationThresholdSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceLevelThresholdSeconds
      *
-     * @ElementName serviceLevelThresholdSeconds
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServiceLevelThresholdReplacementList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServiceLevelThresholdReplacementList
      */
     public function getServiceLevelThresholdSeconds()
     {
-        return $this->serviceLevelThresholdSeconds;
+        return $this->serviceLevelThresholdSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceLevelThresholdSeconds;
     }
 
     /**
      * Setter for serviceLevelThresholdSeconds
      *
-     * @ElementName serviceLevelThresholdSeconds
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServiceLevelThresholdReplacementList|null $serviceLevelThresholdSeconds
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServiceLevelThresholdReplacementList $serviceLevelThresholdSeconds
      * @return $this
      */
     public function setServiceLevelThresholdSeconds(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServiceLevelThresholdReplacementList $serviceLevelThresholdSeconds)
@@ -585,21 +726,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceLevelThresholdSeconds()
+    {
+        $this->serviceLevelThresholdSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceLevelInclusions
      *
-     * @ElementName serviceLevelInclusions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusionsModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusionsModify
      */
     public function getServiceLevelInclusions()
     {
-        return $this->serviceLevelInclusions;
+        return $this->serviceLevelInclusions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceLevelInclusions;
     }
 
     /**
      * Setter for serviceLevelInclusions
      *
-     * @ElementName serviceLevelInclusions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusionsModify|null $serviceLevelInclusions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusionsModify $serviceLevelInclusions
      * @return $this
      */
     public function setServiceLevelInclusions(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledReportServiceLevelInclusionsModify $serviceLevelInclusions)
@@ -609,47 +757,63 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceLevelInclusions()
+    {
+        $this->serviceLevelInclusions = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceLevelObjectivePercentage
      *
-     * @ElementName serviceLevelObjectivePercentage
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getServiceLevelObjectivePercentage()
     {
-        return $this->serviceLevelObjectivePercentage;
+        return $this->serviceLevelObjectivePercentage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceLevelObjectivePercentage;
     }
 
     /**
      * Setter for serviceLevelObjectivePercentage
      *
-     * @ElementName serviceLevelObjectivePercentage
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceLevelObjectivePercentage
+     * @param int|null $serviceLevelObjectivePercentage
      * @return $this
      */
     public function setServiceLevelObjectivePercentage($serviceLevelObjectivePercentage)
     {
-        $this->serviceLevelObjectivePercentage = $serviceLevelObjectivePercentage;
+        if ($serviceLevelObjectivePercentage === null) {
+            $this->serviceLevelObjectivePercentage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serviceLevelObjectivePercentage = $serviceLevelObjectivePercentage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceLevelObjectivePercentage()
+    {
+        $this->serviceLevelObjectivePercentage = null;
         return $this;
     }
 
     /**
      * Getter for abandonedCallThresholdSeconds
      *
-     * @ElementName abandonedCallThresholdSeconds
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbandonedCallThresholdReplacementList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbandonedCallThresholdReplacementList
      */
     public function getAbandonedCallThresholdSeconds()
     {
-        return $this->abandonedCallThresholdSeconds;
+        return $this->abandonedCallThresholdSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abandonedCallThresholdSeconds;
     }
 
     /**
      * Setter for abandonedCallThresholdSeconds
      *
-     * @ElementName abandonedCallThresholdSeconds
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbandonedCallThresholdReplacementList|null $abandonedCallThresholdSeconds
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbandonedCallThresholdReplacementList $abandonedCallThresholdSeconds
      * @return $this
      */
     public function setAbandonedCallThresholdSeconds(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbandonedCallThresholdReplacementList $abandonedCallThresholdSeconds)
@@ -659,26 +823,42 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportModifyRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAbandonedCallThresholdSeconds()
+    {
+        $this->abandonedCallThresholdSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for emailAddress
      *
-     * @ElementName emailAddress
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportReplacementEmailList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportReplacementEmailList
      */
     public function getEmailAddress()
     {
-        return $this->emailAddress;
+        return $this->emailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emailAddress;
     }
 
     /**
      * Setter for emailAddress
      *
-     * @ElementName emailAddress
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportReplacementEmailList|null $emailAddress
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportReplacementEmailList $emailAddress
      * @return $this
      */
     public function setEmailAddress(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportReplacementEmailList $emailAddress)
     {
         $this->emailAddress = $emailAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmailAddress()
+    {
+        $this->emailAddress = null;
         return $this;
     }
 

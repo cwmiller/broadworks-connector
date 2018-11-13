@@ -16,66 +16,77 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName maxMonitorsPerOriginator
+     * @Type int
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
 
     /**
      * @ElementName maxMonitorsPerTerminator
+     * @Type int
      * @var int|null
      */
     private $maxMonitorsPerTerminator = null;
 
     /**
      * @ElementName t2Minutes
+     * @Type int
      * @var int|null
      */
     private $t2Minutes = null;
 
     /**
      * @ElementName t4Seconds
+     * @Type int
      * @var int|null
      */
     private $t4Seconds = null;
 
     /**
      * @ElementName t5Seconds
+     * @Type int
      * @var int|null
      */
     private $t5Seconds = null;
 
     /**
      * @ElementName t6Minutes
+     * @Type int
      * @var int|null
      */
     private $t6Minutes = null;
 
     /**
      * @ElementName t7Minutes
+     * @Type int
      * @var int|null
      */
     private $t7Minutes = null;
 
     /**
      * @ElementName t8Seconds
+     * @Type int
      * @var int|null
      */
     private $t8Seconds = null;
 
     /**
      * @ElementName tRingSeconds
+     * @Type int
      * @var int|null
      */
     private $tRingSeconds = null;
 
     /**
      * @ElementName t10OMinutes
+     * @Type int
      * @var int|null
      */
     private $t10OMinutes = null;
 
     /**
      * @ElementName t10TMinutes
+     * @Type int
      * @var int|null
      */
     private $t10TMinutes = null;
@@ -83,19 +94,17 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for maxMonitorsPerOriginator
      *
-     * @ElementName maxMonitorsPerOriginator
-     * @return int|null
+     * @return int
      */
     public function getMaxMonitorsPerOriginator()
     {
-        return $this->maxMonitorsPerOriginator;
+        return $this->maxMonitorsPerOriginator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxMonitorsPerOriginator;
     }
 
     /**
      * Setter for maxMonitorsPerOriginator
      *
-     * @ElementName maxMonitorsPerOriginator
-     * @param int|null $maxMonitorsPerOriginator
+     * @param int $maxMonitorsPerOriginator
      * @return $this
      */
     public function setMaxMonitorsPerOriginator($maxMonitorsPerOriginator)
@@ -105,21 +114,28 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxMonitorsPerOriginator()
+    {
+        $this->maxMonitorsPerOriginator = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxMonitorsPerTerminator
      *
-     * @ElementName maxMonitorsPerTerminator
-     * @return int|null
+     * @return int
      */
     public function getMaxMonitorsPerTerminator()
     {
-        return $this->maxMonitorsPerTerminator;
+        return $this->maxMonitorsPerTerminator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxMonitorsPerTerminator;
     }
 
     /**
      * Setter for maxMonitorsPerTerminator
      *
-     * @ElementName maxMonitorsPerTerminator
-     * @param int|null $maxMonitorsPerTerminator
+     * @param int $maxMonitorsPerTerminator
      * @return $this
      */
     public function setMaxMonitorsPerTerminator($maxMonitorsPerTerminator)
@@ -129,21 +145,28 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxMonitorsPerTerminator()
+    {
+        $this->maxMonitorsPerTerminator = null;
+        return $this;
+    }
+
+    /**
      * Getter for t2Minutes
      *
-     * @ElementName t2Minutes
-     * @return int|null
+     * @return int
      */
     public function getT2Minutes()
     {
-        return $this->t2Minutes;
+        return $this->t2Minutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->t2Minutes;
     }
 
     /**
      * Setter for t2Minutes
      *
-     * @ElementName t2Minutes
-     * @param int|null $t2Minutes
+     * @param int $t2Minutes
      * @return $this
      */
     public function setT2Minutes($t2Minutes)
@@ -153,21 +176,28 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetT2Minutes()
+    {
+        $this->t2Minutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for t4Seconds
      *
-     * @ElementName t4Seconds
-     * @return int|null
+     * @return int
      */
     public function getT4Seconds()
     {
-        return $this->t4Seconds;
+        return $this->t4Seconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->t4Seconds;
     }
 
     /**
      * Setter for t4Seconds
      *
-     * @ElementName t4Seconds
-     * @param int|null $t4Seconds
+     * @param int $t4Seconds
      * @return $this
      */
     public function setT4Seconds($t4Seconds)
@@ -177,21 +207,28 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetT4Seconds()
+    {
+        $this->t4Seconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for t5Seconds
      *
-     * @ElementName t5Seconds
-     * @return int|null
+     * @return int
      */
     public function getT5Seconds()
     {
-        return $this->t5Seconds;
+        return $this->t5Seconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->t5Seconds;
     }
 
     /**
      * Setter for t5Seconds
      *
-     * @ElementName t5Seconds
-     * @param int|null $t5Seconds
+     * @param int $t5Seconds
      * @return $this
      */
     public function setT5Seconds($t5Seconds)
@@ -201,21 +238,28 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetT5Seconds()
+    {
+        $this->t5Seconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for t6Minutes
      *
-     * @ElementName t6Minutes
-     * @return int|null
+     * @return int
      */
     public function getT6Minutes()
     {
-        return $this->t6Minutes;
+        return $this->t6Minutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->t6Minutes;
     }
 
     /**
      * Setter for t6Minutes
      *
-     * @ElementName t6Minutes
-     * @param int|null $t6Minutes
+     * @param int $t6Minutes
      * @return $this
      */
     public function setT6Minutes($t6Minutes)
@@ -225,21 +269,28 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetT6Minutes()
+    {
+        $this->t6Minutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for t7Minutes
      *
-     * @ElementName t7Minutes
-     * @return int|null
+     * @return int
      */
     public function getT7Minutes()
     {
-        return $this->t7Minutes;
+        return $this->t7Minutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->t7Minutes;
     }
 
     /**
      * Setter for t7Minutes
      *
-     * @ElementName t7Minutes
-     * @param int|null $t7Minutes
+     * @param int $t7Minutes
      * @return $this
      */
     public function setT7Minutes($t7Minutes)
@@ -249,21 +300,28 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetT7Minutes()
+    {
+        $this->t7Minutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for t8Seconds
      *
-     * @ElementName t8Seconds
-     * @return int|null
+     * @return int
      */
     public function getT8Seconds()
     {
-        return $this->t8Seconds;
+        return $this->t8Seconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->t8Seconds;
     }
 
     /**
      * Setter for t8Seconds
      *
-     * @ElementName t8Seconds
-     * @param int|null $t8Seconds
+     * @param int $t8Seconds
      * @return $this
      */
     public function setT8Seconds($t8Seconds)
@@ -273,21 +331,28 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetT8Seconds()
+    {
+        $this->t8Seconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for tRingSeconds
      *
-     * @ElementName tRingSeconds
-     * @return int|null
+     * @return int
      */
     public function getTRingSeconds()
     {
-        return $this->tRingSeconds;
+        return $this->tRingSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tRingSeconds;
     }
 
     /**
      * Setter for tRingSeconds
      *
-     * @ElementName tRingSeconds
-     * @param int|null $tRingSeconds
+     * @param int $tRingSeconds
      * @return $this
      */
     public function setTRingSeconds($tRingSeconds)
@@ -297,21 +362,28 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTRingSeconds()
+    {
+        $this->tRingSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for t10OMinutes
      *
-     * @ElementName t10OMinutes
-     * @return int|null
+     * @return int
      */
     public function getT10OMinutes()
     {
-        return $this->t10OMinutes;
+        return $this->t10OMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->t10OMinutes;
     }
 
     /**
      * Setter for t10OMinutes
      *
-     * @ElementName t10OMinutes
-     * @param int|null $t10OMinutes
+     * @param int $t10OMinutes
      * @return $this
      */
     public function setT10OMinutes($t10OMinutes)
@@ -321,26 +393,42 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetT10OMinutes()
+    {
+        $this->t10OMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for t10TMinutes
      *
-     * @ElementName t10TMinutes
-     * @return int|null
+     * @return int
      */
     public function getT10TMinutes()
     {
-        return $this->t10TMinutes;
+        return $this->t10TMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->t10TMinutes;
     }
 
     /**
      * Setter for t10TMinutes
      *
-     * @ElementName t10TMinutes
-     * @param int|null $t10TMinutes
+     * @param int $t10TMinutes
      * @return $this
      */
     public function setT10TMinutes($t10TMinutes)
     {
         $this->t10TMinutes = $t10TMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetT10TMinutes()
+    {
+        $this->t10TMinutes = null;
         return $this;
     }
 

@@ -10,24 +10,28 @@ class SystemConfigurableFileSystemGetResponseProtocolWebDAV
 
     /**
      * @ElementName secure
+     * @Type bool
      * @var bool|null
      */
     private $secure = null;
 
     /**
      * @ElementName userName
+     * @Type string
      * @var string|null
      */
     private $userName = null;
 
     /**
      * @ElementName password
+     * @Type string
      * @var string|null
      */
     private $password = null;
 
     /**
      * @ElementName fileServerFQDN
+     * @Type string
      * @var string|null
      */
     private $fileServerFQDN = null;
@@ -35,19 +39,17 @@ class SystemConfigurableFileSystemGetResponseProtocolWebDAV
     /**
      * Getter for secure
      *
-     * @ElementName secure
-     * @return bool|null
+     * @return bool
      */
     public function getSecure()
     {
-        return $this->secure;
+        return $this->secure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secure;
     }
 
     /**
      * Setter for secure
      *
-     * @ElementName secure
-     * @param bool|null $secure
+     * @param bool $secure
      * @return $this
      */
     public function setSecure($secure)
@@ -57,21 +59,28 @@ class SystemConfigurableFileSystemGetResponseProtocolWebDAV
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecure()
+    {
+        $this->secure = null;
+        return $this;
+    }
+
+    /**
      * Getter for userName
      *
-     * @ElementName userName
-     * @return string|null
+     * @return string
      */
     public function getUserName()
     {
-        return $this->userName;
+        return $this->userName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userName;
     }
 
     /**
      * Setter for userName
      *
-     * @ElementName userName
-     * @param string|null $userName
+     * @param string $userName
      * @return $this
      */
     public function setUserName($userName)
@@ -81,21 +90,28 @@ class SystemConfigurableFileSystemGetResponseProtocolWebDAV
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserName()
+    {
+        $this->userName = null;
+        return $this;
+    }
+
+    /**
      * Getter for password
      *
-     * @ElementName password
-     * @return string|null
+     * @return string
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param string|null $password
+     * @param string $password
      * @return $this
      */
     public function setPassword($password)
@@ -105,26 +121,42 @@ class SystemConfigurableFileSystemGetResponseProtocolWebDAV
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileServerFQDN
      *
-     * @ElementName fileServerFQDN
-     * @return string|null
+     * @return string
      */
     public function getFileServerFQDN()
     {
-        return $this->fileServerFQDN;
+        return $this->fileServerFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileServerFQDN;
     }
 
     /**
      * Setter for fileServerFQDN
      *
-     * @ElementName fileServerFQDN
-     * @param string|null $fileServerFQDN
+     * @param string $fileServerFQDN
      * @return $this
      */
     public function setFileServerFQDN($fileServerFQDN)
     {
         $this->fileServerFQDN = $fileServerFQDN;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileServerFQDN()
+    {
+        $this->fileServerFQDN = null;
         return $this;
     }
 

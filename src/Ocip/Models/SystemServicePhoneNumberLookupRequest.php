@@ -15,12 +15,14 @@ class SystemServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName serviceType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null
      */
     private $serviceType = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
@@ -28,19 +30,17 @@ class SystemServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for serviceType
      *
-     * @ElementName serviceType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType
      */
     public function getServiceType()
     {
-        return $this->serviceType;
+        return $this->serviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceType;
     }
 
     /**
      * Setter for serviceType
      *
-     * @ElementName serviceType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType|null $serviceType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType $serviceType
      * @return $this
      */
     public function setServiceType(\CWM\BroadWorksConnector\Ocip\Models\NumberLookupServiceType $serviceType)
@@ -50,26 +50,42 @@ class SystemServicePhoneNumberLookupRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceType()
+    {
+        $this->serviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
         return $this;
     }
 

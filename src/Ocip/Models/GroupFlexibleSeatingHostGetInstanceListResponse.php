@@ -18,6 +18,7 @@ class GroupFlexibleSeatingHostGetInstanceListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName flexibleSeatingHostTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $flexibleSeatingHostTable = null;
@@ -25,24 +26,31 @@ class GroupFlexibleSeatingHostGetInstanceListResponse extends \CWM\BroadWorksCon
     /**
      * Getter for flexibleSeatingHostTable
      *
-     * @ElementName flexibleSeatingHostTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getFlexibleSeatingHostTable()
     {
-        return $this->flexibleSeatingHostTable;
+        return $this->flexibleSeatingHostTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->flexibleSeatingHostTable;
     }
 
     /**
      * Setter for flexibleSeatingHostTable
      *
-     * @ElementName flexibleSeatingHostTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $flexibleSeatingHostTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $flexibleSeatingHostTable
      * @return $this
      */
     public function setFlexibleSeatingHostTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $flexibleSeatingHostTable)
     {
         $this->flexibleSeatingHostTable = $flexibleSeatingHostTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFlexibleSeatingHostTable()
+    {
+        $this->flexibleSeatingHostTable = null;
         return $this;
     }
 

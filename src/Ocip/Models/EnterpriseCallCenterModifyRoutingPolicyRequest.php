@@ -16,18 +16,22 @@ class EnterpriseCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName routingPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     private $routingPolicy = null;
 
     /**
      * @ElementName routingPriorityOrder
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder[]
      */
     private $routingPriorityOrder = array(
@@ -37,19 +41,17 @@ class EnterpriseCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConn
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -59,21 +61,28 @@ class EnterpriseCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for routingPolicy
      *
-     * @ElementName routingPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy
      */
     public function getRoutingPolicy()
     {
-        return $this->routingPolicy;
+        return $this->routingPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routingPolicy;
     }
 
     /**
      * Setter for routingPolicy
      *
-     * @ElementName routingPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null $routingPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy $routingPolicy
      * @return $this
      */
     public function setRoutingPolicy(\CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy $routingPolicy)
@@ -83,20 +92,27 @@ class EnterpriseCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRoutingPolicy()
+    {
+        $this->routingPolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for routingPriorityOrder
      *
-     * @ElementName routingPriorityOrder
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder[]
      */
     public function getRoutingPriorityOrder()
     {
-        return $this->routingPriorityOrder;
+        return $this->routingPriorityOrder instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routingPriorityOrder;
     }
 
     /**
      * Setter for routingPriorityOrder
      *
-     * @ElementName routingPriorityOrder
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder[] $routingPriorityOrder
      * @return $this
      */
@@ -107,15 +123,23 @@ class EnterpriseCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRoutingPriorityOrder()
+    {
+        $this->routingPriorityOrder = null;
+        return $this;
+    }
+
+    /**
      * Adder for routingPriorityOrder
      *
-     * @ElementName routingPriorityOrder
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder $routingPriorityOrder
      * @return $this
      */
     public function addRoutingPriorityOrder($routingPriorityOrder)
     {
-        $this->routingPriorityOrder []= $routingPriorityOrder;
+        $this->routingPriorityOrder[] = $routingPriorityOrder;
         return $this;
     }
 

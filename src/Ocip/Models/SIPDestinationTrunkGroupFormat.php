@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SIPDestinationTrunkGroupFormat TGRP_IN_CONTACT()
  * @method static SIPDestinationTrunkGroupFormat TGRP_IN_REQUEST_URI()
  * @method static SIPDestinationTrunkGroupFormat X_NORTEL_PROFILE()
- * @ValueType string
+ * @EnumValueType string
  */
 class SIPDestinationTrunkGroupFormat extends \MyCLabs\Enum\Enum
 {

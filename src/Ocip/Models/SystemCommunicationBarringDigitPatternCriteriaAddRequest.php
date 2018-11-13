@@ -16,18 +16,22 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName matchDigitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $matchDigitPattern = array(
@@ -37,19 +41,17 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -59,21 +61,28 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -83,20 +92,27 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchDigitPattern
      *
-     * @ElementName matchDigitPattern
      * @return string[]
      */
     public function getMatchDigitPattern()
     {
-        return $this->matchDigitPattern;
+        return $this->matchDigitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchDigitPattern;
     }
 
     /**
      * Setter for matchDigitPattern
      *
-     * @ElementName matchDigitPattern
      * @param string[] $matchDigitPattern
      * @return $this
      */
@@ -107,15 +123,23 @@ class SystemCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchDigitPattern()
+    {
+        $this->matchDigitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for matchDigitPattern
      *
-     * @ElementName matchDigitPattern
      * @param string $matchDigitPattern
      * @return $this
      */
     public function addMatchDigitPattern(string $matchDigitPattern)
     {
-        $this->matchDigitPattern []= $matchDigitPattern;
+        $this->matchDigitPattern[] = $matchDigitPattern;
         return $this;
     }
 

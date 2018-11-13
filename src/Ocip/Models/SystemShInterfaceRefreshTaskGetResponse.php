@@ -20,18 +20,21 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName isRunning
+     * @Type bool
      * @var bool|null
      */
     private $isRunning = null;
 
     /**
      * @ElementName numberPublicIdentityRefreshesStarted
+     * @Type int
      * @var int|null
      */
     private $numberPublicIdentityRefreshesStarted = null;
 
     /**
      * @ElementName numberPublicIdentities
+     * @Type int
      * @var int|null
      */
     private $numberPublicIdentities = null;
@@ -39,19 +42,17 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for isRunning
      *
-     * @ElementName isRunning
-     * @return bool|null
+     * @return bool
      */
     public function getIsRunning()
     {
-        return $this->isRunning;
+        return $this->isRunning instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isRunning;
     }
 
     /**
      * Setter for isRunning
      *
-     * @ElementName isRunning
-     * @param bool|null $isRunning
+     * @param bool $isRunning
      * @return $this
      */
     public function setIsRunning($isRunning)
@@ -61,21 +62,28 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsRunning()
+    {
+        $this->isRunning = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberPublicIdentityRefreshesStarted
      *
-     * @ElementName numberPublicIdentityRefreshesStarted
-     * @return int|null
+     * @return int
      */
     public function getNumberPublicIdentityRefreshesStarted()
     {
-        return $this->numberPublicIdentityRefreshesStarted;
+        return $this->numberPublicIdentityRefreshesStarted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberPublicIdentityRefreshesStarted;
     }
 
     /**
      * Setter for numberPublicIdentityRefreshesStarted
      *
-     * @ElementName numberPublicIdentityRefreshesStarted
-     * @param int|null $numberPublicIdentityRefreshesStarted
+     * @param int $numberPublicIdentityRefreshesStarted
      * @return $this
      */
     public function setNumberPublicIdentityRefreshesStarted($numberPublicIdentityRefreshesStarted)
@@ -85,26 +93,42 @@ class SystemShInterfaceRefreshTaskGetResponse extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberPublicIdentityRefreshesStarted()
+    {
+        $this->numberPublicIdentityRefreshesStarted = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberPublicIdentities
      *
-     * @ElementName numberPublicIdentities
-     * @return int|null
+     * @return int
      */
     public function getNumberPublicIdentities()
     {
-        return $this->numberPublicIdentities;
+        return $this->numberPublicIdentities instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberPublicIdentities;
     }
 
     /**
      * Setter for numberPublicIdentities
      *
-     * @ElementName numberPublicIdentities
-     * @param int|null $numberPublicIdentities
+     * @param int $numberPublicIdentities
      * @return $this
      */
     public function setNumberPublicIdentities($numberPublicIdentities)
     {
         $this->numberPublicIdentities = $numberPublicIdentities;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNumberPublicIdentities()
+    {
+        $this->numberPublicIdentities = null;
         return $this;
     }
 

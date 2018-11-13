@@ -17,6 +17,7 @@ class SystemServiceCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName serviceCode
+     * @Type string
      * @var string|null
      */
     private $serviceCode = null;
@@ -24,24 +25,31 @@ class SystemServiceCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for serviceCode
      *
-     * @ElementName serviceCode
-     * @return string|null
+     * @return string
      */
     public function getServiceCode()
     {
-        return $this->serviceCode;
+        return $this->serviceCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceCode;
     }
 
     /**
      * Setter for serviceCode
      *
-     * @ElementName serviceCode
-     * @param string|null $serviceCode
+     * @param string $serviceCode
      * @return $this
      */
     public function setServiceCode($serviceCode)
     {
         $this->serviceCode = $serviceCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceCode()
+    {
+        $this->serviceCode = null;
         return $this;
     }
 

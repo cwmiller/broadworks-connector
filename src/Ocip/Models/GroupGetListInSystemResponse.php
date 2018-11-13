@@ -26,6 +26,7 @@ class GroupGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName groupTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupTable = null;
@@ -33,24 +34,31 @@ class GroupGetListInSystemResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for groupTable
      *
-     * @ElementName groupTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getGroupTable()
     {
-        return $this->groupTable;
+        return $this->groupTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupTable;
     }
 
     /**
      * Setter for groupTable
      *
-     * @ElementName groupTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupTable
      * @return $this
      */
     public function setGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupTable)
     {
         $this->groupTable = $groupTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupTable()
+    {
+        $this->groupTable = null;
         return $this;
     }
 

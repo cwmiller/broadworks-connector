@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static RecordingOption20 ON_DEMAND()
  * @method static RecordingOption20 ALWAYS_WITH_PAUSE_RESUME()
  * @method static RecordingOption20 ON_DEMAND_WITH_USER_INITIATED_START()
- * @ValueType string
+ * @EnumValueType string
  */
 class RecordingOption20 extends \MyCLabs\Enum\Enum
 {

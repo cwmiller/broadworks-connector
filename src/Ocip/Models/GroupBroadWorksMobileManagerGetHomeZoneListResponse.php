@@ -17,6 +17,7 @@ class GroupBroadWorksMobileManagerGetHomeZoneListResponse extends \CWM\BroadWork
 
     /**
      * @ElementName homeZonesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $homeZonesTable = null;
@@ -24,24 +25,31 @@ class GroupBroadWorksMobileManagerGetHomeZoneListResponse extends \CWM\BroadWork
     /**
      * Getter for homeZonesTable
      *
-     * @ElementName homeZonesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getHomeZonesTable()
     {
-        return $this->homeZonesTable;
+        return $this->homeZonesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZonesTable;
     }
 
     /**
      * Setter for homeZonesTable
      *
-     * @ElementName homeZonesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $homeZonesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $homeZonesTable
      * @return $this
      */
     public function setHomeZonesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $homeZonesTable)
     {
         $this->homeZonesTable = $homeZonesTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHomeZonesTable()
+    {
+        $this->homeZonesTable = null;
         return $this;
     }
 

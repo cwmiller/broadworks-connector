@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ServiceScriptsProvisioningMode GROUP()
  * @method static ServiceScriptsProvisioningMode USER()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceScriptsProvisioningMode extends \MyCLabs\Enum\Enum
 {

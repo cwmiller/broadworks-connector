@@ -17,6 +17,8 @@ class SystemNumberPortabilityQueryDigitPatternDeleteListRequest extends \CWM\Bro
 
     /**
      * @ElementName digitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $digitPattern = array(
@@ -26,18 +28,16 @@ class SystemNumberPortabilityQueryDigitPatternDeleteListRequest extends \CWM\Bro
     /**
      * Getter for digitPattern
      *
-     * @ElementName digitPattern
      * @return string[]
      */
     public function getDigitPattern()
     {
-        return $this->digitPattern;
+        return $this->digitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPattern;
     }
 
     /**
      * Setter for digitPattern
      *
-     * @ElementName digitPattern
      * @param string[] $digitPattern
      * @return $this
      */
@@ -48,15 +48,23 @@ class SystemNumberPortabilityQueryDigitPatternDeleteListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPattern()
+    {
+        $this->digitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for digitPattern
      *
-     * @ElementName digitPattern
      * @param string $digitPattern
      * @return $this
      */
     public function addDigitPattern(string $digitPattern)
     {
-        $this->digitPattern []= $digitPattern;
+        $this->digitPattern[] = $digitPattern;
         return $this;
     }
 

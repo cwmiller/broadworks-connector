@@ -19,24 +19,28 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName businessHoursMenu
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
     private $businessHoursMenu = null;
 
     /**
      * @ElementName afterHoursMenu
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
     private $afterHoursMenu = null;
 
     /**
      * @ElementName holidayMenu
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
     private $holidayMenu = null;
@@ -44,19 +48,17 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -66,21 +68,28 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for businessHoursMenu
      *
-     * @ElementName businessHoursMenu
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
      */
     public function getBusinessHoursMenu()
     {
-        return $this->businessHoursMenu;
+        return $this->businessHoursMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->businessHoursMenu;
     }
 
     /**
      * Setter for businessHoursMenu
      *
-     * @ElementName businessHoursMenu
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null $businessHoursMenu
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer $businessHoursMenu
      * @return $this
      */
     public function setBusinessHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer $businessHoursMenu)
@@ -90,21 +99,28 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusinessHoursMenu()
+    {
+        $this->businessHoursMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for afterHoursMenu
      *
-     * @ElementName afterHoursMenu
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
      */
     public function getAfterHoursMenu()
     {
-        return $this->afterHoursMenu;
+        return $this->afterHoursMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->afterHoursMenu;
     }
 
     /**
      * Setter for afterHoursMenu
      *
-     * @ElementName afterHoursMenu
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null $afterHoursMenu
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer $afterHoursMenu
      * @return $this
      */
     public function setAfterHoursMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer $afterHoursMenu)
@@ -114,26 +130,42 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAfterHoursMenu()
+    {
+        $this->afterHoursMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidayMenu
      *
-     * @ElementName holidayMenu
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
      */
     public function getHolidayMenu()
     {
-        return $this->holidayMenu;
+        return $this->holidayMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidayMenu;
     }
 
     /**
      * Setter for holidayMenu
      *
-     * @ElementName holidayMenu
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null $holidayMenu
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer $holidayMenu
      * @return $this
      */
     public function setHolidayMenu(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer $holidayMenu)
     {
         $this->holidayMenu = $holidayMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidayMenu()
+    {
+        $this->holidayMenu = null;
         return $this;
     }
 

@@ -16,30 +16,35 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName useGroupNumber
+     * @Type bool
      * @var bool|null
      */
     private $useGroupNumber = null;
 
     /**
      * @ElementName useGroupName
+     * @Type bool
      * @var bool|null
      */
     private $useGroupName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,19 +53,17 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -70,21 +73,28 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -94,21 +104,28 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupNumber
      *
-     * @ElementName useGroupNumber
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupNumber()
     {
-        return $this->useGroupNumber;
+        return $this->useGroupNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupNumber;
     }
 
     /**
      * Setter for useGroupNumber
      *
-     * @ElementName useGroupNumber
-     * @param bool|null $useGroupNumber
+     * @param bool $useGroupNumber
      * @return $this
      */
     public function setUseGroupNumber($useGroupNumber)
@@ -118,21 +135,28 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupNumber()
+    {
+        $this->useGroupNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupName
      *
-     * @ElementName useGroupName
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupName()
     {
-        return $this->useGroupName;
+        return $this->useGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupName;
     }
 
     /**
      * Setter for useGroupName
      *
-     * @ElementName useGroupName
-     * @param bool|null $useGroupName
+     * @param bool $useGroupName
      * @return $this
      */
     public function setUseGroupName($useGroupName)
@@ -142,28 +166,46 @@ class GroupCallingLineIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupName()
+    {
+        $this->useGroupName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCallingLineIdPhoneNumber()
     {
-        return $this->callingLineIdPhoneNumber;
+        return $this->callingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdPhoneNumber
+     * @param string|null $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
     {
-        $this->callingLineIdPhoneNumber = $callingLineIdPhoneNumber;
+        if ($callingLineIdPhoneNumber === null) {
+            $this->callingLineIdPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callingLineIdPhoneNumber = $callingLineIdPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallingLineIdPhoneNumber()
+    {
+        $this->callingLineIdPhoneNumber = null;
         return $this;
     }
 

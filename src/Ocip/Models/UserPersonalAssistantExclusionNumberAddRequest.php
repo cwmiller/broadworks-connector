@@ -16,18 +16,21 @@ class UserPersonalAssistantExclusionNumberAddRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName exclusionNumber
+     * @Type string
      * @var string|null
      */
     private $exclusionNumber = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -35,19 +38,17 @@ class UserPersonalAssistantExclusionNumberAddRequest extends \CWM\BroadWorksConn
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserPersonalAssistantExclusionNumberAddRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for exclusionNumber
      *
-     * @ElementName exclusionNumber
-     * @return string|null
+     * @return string
      */
     public function getExclusionNumber()
     {
-        return $this->exclusionNumber;
+        return $this->exclusionNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exclusionNumber;
     }
 
     /**
      * Setter for exclusionNumber
      *
-     * @ElementName exclusionNumber
-     * @param string|null $exclusionNumber
+     * @param string $exclusionNumber
      * @return $this
      */
     public function setExclusionNumber($exclusionNumber)
@@ -81,26 +89,42 @@ class UserPersonalAssistantExclusionNumberAddRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExclusionNumber()
+    {
+        $this->exclusionNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

@@ -12,12 +12,14 @@ class ExecutiveAssistantOptInStatus
 
     /**
      * @ElementName executiveUserId
+     * @Type string
      * @var string|null
      */
     private $executiveUserId = null;
 
     /**
      * @ElementName optIn
+     * @Type bool
      * @var bool|null
      */
     private $optIn = null;
@@ -25,19 +27,17 @@ class ExecutiveAssistantOptInStatus
     /**
      * Getter for executiveUserId
      *
-     * @ElementName executiveUserId
-     * @return string|null
+     * @return string
      */
     public function getExecutiveUserId()
     {
-        return $this->executiveUserId;
+        return $this->executiveUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->executiveUserId;
     }
 
     /**
      * Setter for executiveUserId
      *
-     * @ElementName executiveUserId
-     * @param string|null $executiveUserId
+     * @param string $executiveUserId
      * @return $this
      */
     public function setExecutiveUserId($executiveUserId)
@@ -47,26 +47,42 @@ class ExecutiveAssistantOptInStatus
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExecutiveUserId()
+    {
+        $this->executiveUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for optIn
      *
-     * @ElementName optIn
-     * @return bool|null
+     * @return bool
      */
     public function getOptIn()
     {
-        return $this->optIn;
+        return $this->optIn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->optIn;
     }
 
     /**
      * Setter for optIn
      *
-     * @ElementName optIn
-     * @param bool|null $optIn
+     * @param bool $optIn
      * @return $this
      */
     public function setOptIn($optIn)
     {
         $this->optIn = $optIn;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOptIn()
+    {
+        $this->optIn = null;
         return $this;
     }
 

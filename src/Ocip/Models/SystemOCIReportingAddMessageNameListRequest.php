@@ -17,12 +17,15 @@ class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName messageNameStartsWith
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $messageNameStartsWith = array(
@@ -32,19 +35,17 @@ class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -54,20 +55,27 @@ class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for messageNameStartsWith
      *
-     * @ElementName messageNameStartsWith
      * @return string[]
      */
     public function getMessageNameStartsWith()
     {
-        return $this->messageNameStartsWith;
+        return $this->messageNameStartsWith instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->messageNameStartsWith;
     }
 
     /**
      * Setter for messageNameStartsWith
      *
-     * @ElementName messageNameStartsWith
      * @param string[] $messageNameStartsWith
      * @return $this
      */
@@ -78,15 +86,23 @@ class SystemOCIReportingAddMessageNameListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMessageNameStartsWith()
+    {
+        $this->messageNameStartsWith = null;
+        return $this;
+    }
+
+    /**
      * Adder for messageNameStartsWith
      *
-     * @ElementName messageNameStartsWith
      * @param string $messageNameStartsWith
      * @return $this
      */
     public function addMessageNameStartsWith(string $messageNameStartsWith)
     {
-        $this->messageNameStartsWith []= $messageNameStartsWith;
+        $this->messageNameStartsWith[] = $messageNameStartsWith;
         return $this;
     }
 

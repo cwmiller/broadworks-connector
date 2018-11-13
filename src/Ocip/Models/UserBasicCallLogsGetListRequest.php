@@ -20,12 +20,14 @@ class UserBasicCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName callLogType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType|null
      */
     private $callLogType = null;
@@ -33,19 +35,17 @@ class UserBasicCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -55,26 +55,42 @@ class UserBasicCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for callLogType
      *
-     * @ElementName callLogType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType
      */
     public function getCallLogType()
     {
-        return $this->callLogType;
+        return $this->callLogType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLogType;
     }
 
     /**
      * Setter for callLogType
      *
-     * @ElementName callLogType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType|null $callLogType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType $callLogType
      * @return $this
      */
     public function setCallLogType(\CWM\BroadWorksConnector\Ocip\Models\BasicCallLogsType $callLogType)
     {
         $this->callLogType = $callLogType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallLogType()
+    {
+        $this->callLogType = null;
         return $this;
     }
 

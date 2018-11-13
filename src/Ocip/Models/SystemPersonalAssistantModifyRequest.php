@@ -16,12 +16,14 @@ class SystemPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName transferToAttendantKey
+     * @Type string
      * @var string|null
      */
     private $transferToAttendantKey = null;
 
     /**
      * @ElementName transferToVoiceMessagingKey
+     * @Type string
      * @var string|null
      */
     private $transferToVoiceMessagingKey = null;
@@ -29,19 +31,17 @@ class SystemPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for transferToAttendantKey
      *
-     * @ElementName transferToAttendantKey
-     * @return string|null
+     * @return string
      */
     public function getTransferToAttendantKey()
     {
-        return $this->transferToAttendantKey;
+        return $this->transferToAttendantKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferToAttendantKey;
     }
 
     /**
      * Setter for transferToAttendantKey
      *
-     * @ElementName transferToAttendantKey
-     * @param string|null $transferToAttendantKey
+     * @param string $transferToAttendantKey
      * @return $this
      */
     public function setTransferToAttendantKey($transferToAttendantKey)
@@ -51,26 +51,42 @@ class SystemPersonalAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransferToAttendantKey()
+    {
+        $this->transferToAttendantKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferToVoiceMessagingKey
      *
-     * @ElementName transferToVoiceMessagingKey
-     * @return string|null
+     * @return string
      */
     public function getTransferToVoiceMessagingKey()
     {
-        return $this->transferToVoiceMessagingKey;
+        return $this->transferToVoiceMessagingKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferToVoiceMessagingKey;
     }
 
     /**
      * Setter for transferToVoiceMessagingKey
      *
-     * @ElementName transferToVoiceMessagingKey
-     * @param string|null $transferToVoiceMessagingKey
+     * @param string $transferToVoiceMessagingKey
      * @return $this
      */
     public function setTransferToVoiceMessagingKey($transferToVoiceMessagingKey)
     {
         $this->transferToVoiceMessagingKey = $transferToVoiceMessagingKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTransferToVoiceMessagingKey()
+    {
+        $this->transferToVoiceMessagingKey = null;
         return $this;
     }
 

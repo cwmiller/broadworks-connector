@@ -12,18 +12,21 @@ class CommPilotExpressAvailableInOffice
 
     /**
      * @ElementName additionalPhoneNumberToRing
+     * @Type string
      * @var string|null
      */
     private $additionalPhoneNumberToRing = null;
 
     /**
      * @ElementName busySetting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
      */
     private $busySetting = null;
 
     /**
      * @ElementName noAnswerSetting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
      */
     private $noAnswerSetting = null;
@@ -31,19 +34,17 @@ class CommPilotExpressAvailableInOffice
     /**
      * Getter for additionalPhoneNumberToRing
      *
-     * @ElementName additionalPhoneNumberToRing
-     * @return string|null
+     * @return string
      */
     public function getAdditionalPhoneNumberToRing()
     {
-        return $this->additionalPhoneNumberToRing;
+        return $this->additionalPhoneNumberToRing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->additionalPhoneNumberToRing;
     }
 
     /**
      * Setter for additionalPhoneNumberToRing
      *
-     * @ElementName additionalPhoneNumberToRing
-     * @param string|null $additionalPhoneNumberToRing
+     * @param string $additionalPhoneNumberToRing
      * @return $this
      */
     public function setAdditionalPhoneNumberToRing($additionalPhoneNumberToRing)
@@ -53,21 +54,28 @@ class CommPilotExpressAvailableInOffice
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAdditionalPhoneNumberToRing()
+    {
+        $this->additionalPhoneNumberToRing = null;
+        return $this;
+    }
+
+    /**
      * Getter for busySetting
      *
-     * @ElementName busySetting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection
      */
     public function getBusySetting()
     {
-        return $this->busySetting;
+        return $this->busySetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busySetting;
     }
 
     /**
      * Setter for busySetting
      *
-     * @ElementName busySetting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null $busySetting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection $busySetting
      * @return $this
      */
     public function setBusySetting(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection $busySetting)
@@ -77,26 +85,42 @@ class CommPilotExpressAvailableInOffice
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusySetting()
+    {
+        $this->busySetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerSetting
      *
-     * @ElementName noAnswerSetting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection
      */
     public function getNoAnswerSetting()
     {
-        return $this->noAnswerSetting;
+        return $this->noAnswerSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerSetting;
     }
 
     /**
      * Setter for noAnswerSetting
      *
-     * @ElementName noAnswerSetting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null $noAnswerSetting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection $noAnswerSetting
      * @return $this
      */
     public function setNoAnswerSetting(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection $noAnswerSetting)
     {
         $this->noAnswerSetting = $noAnswerSetting;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNoAnswerSetting()
+    {
+        $this->noAnswerSetting = null;
         return $this;
     }
 

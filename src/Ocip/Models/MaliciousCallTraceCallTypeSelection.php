@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static MaliciousCallTraceCallTypeSelection ALL_INCOMING()
  * @method static MaliciousCallTraceCallTypeSelection ANSWERED_INCOMING()
  * @method static MaliciousCallTraceCallTypeSelection ALL_INCOMING_AND_OUTGOING()
- * @ValueType string
+ * @EnumValueType string
  */
 class MaliciousCallTraceCallTypeSelection extends \MyCLabs\Enum\Enum
 {

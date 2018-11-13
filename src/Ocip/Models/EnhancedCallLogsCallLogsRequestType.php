@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EnhancedCallLogsCallLogsRequestType RECEIVED()
  * @method static EnhancedCallLogsCallLogsRequestType MISSED()
  * @method static EnhancedCallLogsCallLogsRequestType RECEIVEDORMISSED()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnhancedCallLogsCallLogsRequestType extends \MyCLabs\Enum\Enum
 {

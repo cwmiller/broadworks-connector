@@ -16,18 +16,21 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName classmark
+     * @Type string
      * @var string|null
      */
     private $classmark = null;
 
     /**
      * @ElementName value
+     * @Type string
      * @var string|null
      */
     private $value = null;
 
     /**
      * @ElementName webDisplayKey
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,19 +39,17 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for classmark
      *
-     * @ElementName classmark
-     * @return string|null
+     * @return string
      */
     public function getClassmark()
     {
-        return $this->classmark;
+        return $this->classmark instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->classmark;
     }
 
     /**
      * Setter for classmark
      *
-     * @ElementName classmark
-     * @param string|null $classmark
+     * @param string $classmark
      * @return $this
      */
     public function setClassmark($classmark)
@@ -58,21 +59,28 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetClassmark()
+    {
+        $this->classmark = null;
+        return $this;
+    }
+
+    /**
      * Getter for value
      *
-     * @ElementName value
-     * @return string|null
+     * @return string
      */
     public function getValue()
     {
-        return $this->value;
+        return $this->value instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->value;
     }
 
     /**
      * Setter for value
      *
-     * @ElementName value
-     * @param string|null $value
+     * @param string $value
      * @return $this
      */
     public function setValue($value)
@@ -82,28 +90,46 @@ class SystemClassmarkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetValue()
+    {
+        $this->value = null;
+        return $this;
+    }
+
+    /**
      * Getter for webDisplayKey
      *
-     * @ElementName webDisplayKey
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getWebDisplayKey()
     {
-        return $this->webDisplayKey;
+        return $this->webDisplayKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->webDisplayKey;
     }
 
     /**
      * Setter for webDisplayKey
      *
-     * @ElementName webDisplayKey
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webDisplayKey
+     * @param string|null $webDisplayKey
      * @return $this
      */
     public function setWebDisplayKey($webDisplayKey)
     {
-        $this->webDisplayKey = $webDisplayKey;
+        if ($webDisplayKey === null) {
+            $this->webDisplayKey = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->webDisplayKey = $webDisplayKey;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWebDisplayKey()
+    {
+        $this->webDisplayKey = null;
         return $this;
     }
 

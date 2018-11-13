@@ -17,6 +17,7 @@ class SystemSystemVoicePortalGetListResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName systemVoicePortalsTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $systemVoicePortalsTable = null;
@@ -24,24 +25,31 @@ class SystemSystemVoicePortalGetListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for systemVoicePortalsTable
      *
-     * @ElementName systemVoicePortalsTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSystemVoicePortalsTable()
     {
-        return $this->systemVoicePortalsTable;
+        return $this->systemVoicePortalsTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemVoicePortalsTable;
     }
 
     /**
      * Setter for systemVoicePortalsTable
      *
-     * @ElementName systemVoicePortalsTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $systemVoicePortalsTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemVoicePortalsTable
      * @return $this
      */
     public function setSystemVoicePortalsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemVoicePortalsTable)
     {
         $this->systemVoicePortalsTable = $systemVoicePortalsTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSystemVoicePortalsTable()
+    {
+        $this->systemVoicePortalsTable = null;
         return $this;
     }
 

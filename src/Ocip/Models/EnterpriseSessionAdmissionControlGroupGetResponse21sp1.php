@@ -15,54 +15,64 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
 
     /**
      * @ElementName maxSession
+     * @Type int
      * @var int|null
      */
     private $maxSession = null;
 
     /**
      * @ElementName maxUserOriginatingSessions
+     * @Type int
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
 
     /**
      * @ElementName maxUserTerminatingSessions
+     * @Type int
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
 
     /**
      * @ElementName reservedSession
+     * @Type int
      * @var int|null
      */
     private $reservedSession = null;
 
     /**
      * @ElementName reservedUserOriginatingSessions
+     * @Type int
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
 
     /**
      * @ElementName reservedUserTerminatingSessions
+     * @Type int
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
 
     /**
      * @ElementName defaultGroup
+     * @Type bool
      * @var bool|null
      */
     private $defaultGroup = null;
 
     /**
      * @ElementName countIntraSACGroupSessions
+     * @Type bool
      * @var bool|null
      */
     private $countIntraSACGroupSessions = null;
 
     /**
      * @ElementName devices
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     private $devices = array(
@@ -71,12 +81,14 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
 
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
+     * @Type bool
      * @var bool|null
      */
     private $blockEmergencyAndRepairCallsDueToSACLimits = null;
 
     /**
      * @ElementName mediaGroupName
+     * @Type string
      * @var string|null
      */
     private $mediaGroupName = null;
@@ -84,19 +96,17 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     /**
      * Getter for maxSession
      *
-     * @ElementName maxSession
-     * @return int|null
+     * @return int
      */
     public function getMaxSession()
     {
-        return $this->maxSession;
+        return $this->maxSession instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxSession;
     }
 
     /**
      * Setter for maxSession
      *
-     * @ElementName maxSession
-     * @param int|null $maxSession
+     * @param int $maxSession
      * @return $this
      */
     public function setMaxSession($maxSession)
@@ -106,21 +116,28 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxSession()
+    {
+        $this->maxSession = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxUserOriginatingSessions
      *
-     * @ElementName maxUserOriginatingSessions
-     * @return int|null
+     * @return int
      */
     public function getMaxUserOriginatingSessions()
     {
-        return $this->maxUserOriginatingSessions;
+        return $this->maxUserOriginatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxUserOriginatingSessions;
     }
 
     /**
      * Setter for maxUserOriginatingSessions
      *
-     * @ElementName maxUserOriginatingSessions
-     * @param int|null $maxUserOriginatingSessions
+     * @param int $maxUserOriginatingSessions
      * @return $this
      */
     public function setMaxUserOriginatingSessions($maxUserOriginatingSessions)
@@ -130,21 +147,28 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxUserOriginatingSessions()
+    {
+        $this->maxUserOriginatingSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxUserTerminatingSessions
      *
-     * @ElementName maxUserTerminatingSessions
-     * @return int|null
+     * @return int
      */
     public function getMaxUserTerminatingSessions()
     {
-        return $this->maxUserTerminatingSessions;
+        return $this->maxUserTerminatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxUserTerminatingSessions;
     }
 
     /**
      * Setter for maxUserTerminatingSessions
      *
-     * @ElementName maxUserTerminatingSessions
-     * @param int|null $maxUserTerminatingSessions
+     * @param int $maxUserTerminatingSessions
      * @return $this
      */
     public function setMaxUserTerminatingSessions($maxUserTerminatingSessions)
@@ -154,21 +178,28 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxUserTerminatingSessions()
+    {
+        $this->maxUserTerminatingSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for reservedSession
      *
-     * @ElementName reservedSession
-     * @return int|null
+     * @return int
      */
     public function getReservedSession()
     {
-        return $this->reservedSession;
+        return $this->reservedSession instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reservedSession;
     }
 
     /**
      * Setter for reservedSession
      *
-     * @ElementName reservedSession
-     * @param int|null $reservedSession
+     * @param int $reservedSession
      * @return $this
      */
     public function setReservedSession($reservedSession)
@@ -178,21 +209,28 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReservedSession()
+    {
+        $this->reservedSession = null;
+        return $this;
+    }
+
+    /**
      * Getter for reservedUserOriginatingSessions
      *
-     * @ElementName reservedUserOriginatingSessions
-     * @return int|null
+     * @return int
      */
     public function getReservedUserOriginatingSessions()
     {
-        return $this->reservedUserOriginatingSessions;
+        return $this->reservedUserOriginatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reservedUserOriginatingSessions;
     }
 
     /**
      * Setter for reservedUserOriginatingSessions
      *
-     * @ElementName reservedUserOriginatingSessions
-     * @param int|null $reservedUserOriginatingSessions
+     * @param int $reservedUserOriginatingSessions
      * @return $this
      */
     public function setReservedUserOriginatingSessions($reservedUserOriginatingSessions)
@@ -202,21 +240,28 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReservedUserOriginatingSessions()
+    {
+        $this->reservedUserOriginatingSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for reservedUserTerminatingSessions
      *
-     * @ElementName reservedUserTerminatingSessions
-     * @return int|null
+     * @return int
      */
     public function getReservedUserTerminatingSessions()
     {
-        return $this->reservedUserTerminatingSessions;
+        return $this->reservedUserTerminatingSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reservedUserTerminatingSessions;
     }
 
     /**
      * Setter for reservedUserTerminatingSessions
      *
-     * @ElementName reservedUserTerminatingSessions
-     * @param int|null $reservedUserTerminatingSessions
+     * @param int $reservedUserTerminatingSessions
      * @return $this
      */
     public function setReservedUserTerminatingSessions($reservedUserTerminatingSessions)
@@ -226,21 +271,28 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReservedUserTerminatingSessions()
+    {
+        $this->reservedUserTerminatingSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultGroup
      *
-     * @ElementName defaultGroup
-     * @return bool|null
+     * @return bool
      */
     public function getDefaultGroup()
     {
-        return $this->defaultGroup;
+        return $this->defaultGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultGroup;
     }
 
     /**
      * Setter for defaultGroup
      *
-     * @ElementName defaultGroup
-     * @param bool|null $defaultGroup
+     * @param bool $defaultGroup
      * @return $this
      */
     public function setDefaultGroup($defaultGroup)
@@ -250,21 +302,28 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultGroup()
+    {
+        $this->defaultGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for countIntraSACGroupSessions
      *
-     * @ElementName countIntraSACGroupSessions
-     * @return bool|null
+     * @return bool
      */
     public function getCountIntraSACGroupSessions()
     {
-        return $this->countIntraSACGroupSessions;
+        return $this->countIntraSACGroupSessions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countIntraSACGroupSessions;
     }
 
     /**
      * Setter for countIntraSACGroupSessions
      *
-     * @ElementName countIntraSACGroupSessions
-     * @param bool|null $countIntraSACGroupSessions
+     * @param bool $countIntraSACGroupSessions
      * @return $this
      */
     public function setCountIntraSACGroupSessions($countIntraSACGroupSessions)
@@ -274,20 +333,27 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountIntraSACGroupSessions()
+    {
+        $this->countIntraSACGroupSessions = null;
+        return $this;
+    }
+
+    /**
      * Getter for devices
      *
-     * @ElementName devices
      * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     public function getDevices()
     {
-        return $this->devices;
+        return $this->devices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->devices;
     }
 
     /**
      * Setter for devices
      *
-     * @ElementName devices
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[] $devices
      * @return $this
      */
@@ -298,34 +364,40 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDevices()
+    {
+        $this->devices = null;
+        return $this;
+    }
+
+    /**
      * Adder for devices
      *
-     * @ElementName devices
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice $devices
      * @return $this
      */
     public function addDevices($devices)
     {
-        $this->devices []= $devices;
+        $this->devices[] = $devices;
         return $this;
     }
 
     /**
      * Getter for blockEmergencyAndRepairCallsDueToSACLimits
      *
-     * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
-     * @return bool|null
+     * @return bool
      */
     public function getBlockEmergencyAndRepairCallsDueToSACLimits()
     {
-        return $this->blockEmergencyAndRepairCallsDueToSACLimits;
+        return $this->blockEmergencyAndRepairCallsDueToSACLimits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->blockEmergencyAndRepairCallsDueToSACLimits;
     }
 
     /**
      * Setter for blockEmergencyAndRepairCallsDueToSACLimits
      *
-     * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
-     * @param bool|null $blockEmergencyAndRepairCallsDueToSACLimits
+     * @param bool $blockEmergencyAndRepairCallsDueToSACLimits
      * @return $this
      */
     public function setBlockEmergencyAndRepairCallsDueToSACLimits($blockEmergencyAndRepairCallsDueToSACLimits)
@@ -335,26 +407,42 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBlockEmergencyAndRepairCallsDueToSACLimits()
+    {
+        $this->blockEmergencyAndRepairCallsDueToSACLimits = null;
+        return $this;
+    }
+
+    /**
      * Getter for mediaGroupName
      *
-     * @ElementName mediaGroupName
-     * @return string|null
+     * @return string
      */
     public function getMediaGroupName()
     {
-        return $this->mediaGroupName;
+        return $this->mediaGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaGroupName;
     }
 
     /**
      * Setter for mediaGroupName
      *
-     * @ElementName mediaGroupName
-     * @param string|null $mediaGroupName
+     * @param string $mediaGroupName
      * @return $this
      */
     public function setMediaGroupName($mediaGroupName)
     {
         $this->mediaGroupName = $mediaGroupName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMediaGroupName()
+    {
+        $this->mediaGroupName = null;
         return $this;
     }
 

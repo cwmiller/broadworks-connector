@@ -14,6 +14,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalResponse extends \CWM\Broa
 
     /**
      * @ElementName voicePortalScope
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null
      */
     private $voicePortalScope = null;
@@ -21,24 +22,31 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalResponse extends \CWM\Broa
     /**
      * Getter for voicePortalScope
      *
-     * @ElementName voicePortalScope
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope
      */
     public function getVoicePortalScope()
     {
-        return $this->voicePortalScope;
+        return $this->voicePortalScope instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalScope;
     }
 
     /**
      * Setter for voicePortalScope
      *
-     * @ElementName voicePortalScope
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null $voicePortalScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope $voicePortalScope
      * @return $this
      */
     public function setVoicePortalScope(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope $voicePortalScope)
     {
         $this->voicePortalScope = $voicePortalScope;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoicePortalScope()
+    {
+        $this->voicePortalScope = null;
         return $this;
     }
 

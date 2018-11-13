@@ -18,24 +18,29 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaDeviceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
     private $searchCriteriaDeviceName = array(
@@ -44,6 +49,8 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
 
     /**
      * @ElementName searchCriteriaDeviceMACAddress
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
     private $searchCriteriaDeviceMACAddress = array(
@@ -52,6 +59,8 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
 
     /**
      * @ElementName searchCriteriaDeviceNetAddress
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
     private $searchCriteriaDeviceNetAddress = array(
@@ -60,12 +69,14 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
 
     /**
      * @ElementName searchCriteriaExactDeviceType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
     private $searchCriteriaExactDeviceType = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel|null
      */
     private $searchCriteriaExactDeviceLevel = null;
@@ -73,19 +84,17 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -95,21 +104,28 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -119,21 +135,28 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -143,20 +166,27 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaDeviceName
      *
-     * @ElementName searchCriteriaDeviceName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
     public function getSearchCriteriaDeviceName()
     {
-        return $this->searchCriteriaDeviceName;
+        return $this->searchCriteriaDeviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDeviceName;
     }
 
     /**
      * Setter for searchCriteriaDeviceName
      *
-     * @ElementName searchCriteriaDeviceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[] $searchCriteriaDeviceName
      * @return $this
      */
@@ -167,33 +197,39 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDeviceName()
+    {
+        $this->searchCriteriaDeviceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDeviceName
      *
-     * @ElementName searchCriteriaDeviceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName $searchCriteriaDeviceName
      * @return $this
      */
     public function addSearchCriteriaDeviceName($searchCriteriaDeviceName)
     {
-        $this->searchCriteriaDeviceName []= $searchCriteriaDeviceName;
+        $this->searchCriteriaDeviceName[] = $searchCriteriaDeviceName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaDeviceMACAddress
      *
-     * @ElementName searchCriteriaDeviceMACAddress
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
     public function getSearchCriteriaDeviceMACAddress()
     {
-        return $this->searchCriteriaDeviceMACAddress;
+        return $this->searchCriteriaDeviceMACAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDeviceMACAddress;
     }
 
     /**
      * Setter for searchCriteriaDeviceMACAddress
      *
-     * @ElementName searchCriteriaDeviceMACAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[] $searchCriteriaDeviceMACAddress
      * @return $this
      */
@@ -204,33 +240,39 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDeviceMACAddress()
+    {
+        $this->searchCriteriaDeviceMACAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDeviceMACAddress
      *
-     * @ElementName searchCriteriaDeviceMACAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress $searchCriteriaDeviceMACAddress
      * @return $this
      */
     public function addSearchCriteriaDeviceMACAddress($searchCriteriaDeviceMACAddress)
     {
-        $this->searchCriteriaDeviceMACAddress []= $searchCriteriaDeviceMACAddress;
+        $this->searchCriteriaDeviceMACAddress[] = $searchCriteriaDeviceMACAddress;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaDeviceNetAddress
      *
-     * @ElementName searchCriteriaDeviceNetAddress
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
     public function getSearchCriteriaDeviceNetAddress()
     {
-        return $this->searchCriteriaDeviceNetAddress;
+        return $this->searchCriteriaDeviceNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDeviceNetAddress;
     }
 
     /**
      * Setter for searchCriteriaDeviceNetAddress
      *
-     * @ElementName searchCriteriaDeviceNetAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[] $searchCriteriaDeviceNetAddress
      * @return $this
      */
@@ -241,34 +283,40 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDeviceNetAddress()
+    {
+        $this->searchCriteriaDeviceNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDeviceNetAddress
      *
-     * @ElementName searchCriteriaDeviceNetAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress $searchCriteriaDeviceNetAddress
      * @return $this
      */
     public function addSearchCriteriaDeviceNetAddress($searchCriteriaDeviceNetAddress)
     {
-        $this->searchCriteriaDeviceNetAddress []= $searchCriteriaDeviceNetAddress;
+        $this->searchCriteriaDeviceNetAddress[] = $searchCriteriaDeviceNetAddress;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactDeviceType
      *
-     * @ElementName searchCriteriaExactDeviceType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      */
     public function getSearchCriteriaExactDeviceType()
     {
-        return $this->searchCriteriaExactDeviceType;
+        return $this->searchCriteriaExactDeviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDeviceType;
     }
 
     /**
      * Setter for searchCriteriaExactDeviceType
      *
-     * @ElementName searchCriteriaExactDeviceType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null $searchCriteriaExactDeviceType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType $searchCriteriaExactDeviceType
      * @return $this
      */
     public function setSearchCriteriaExactDeviceType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType $searchCriteriaExactDeviceType)
@@ -278,26 +326,42 @@ class GroupSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDeviceType()
+    {
+        $this->searchCriteriaExactDeviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactDeviceLevel
      *
-     * @ElementName searchCriteriaExactDeviceLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel
      */
     public function getSearchCriteriaExactDeviceLevel()
     {
-        return $this->searchCriteriaExactDeviceLevel;
+        return $this->searchCriteriaExactDeviceLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDeviceLevel;
     }
 
     /**
      * Setter for searchCriteriaExactDeviceLevel
      *
-     * @ElementName searchCriteriaExactDeviceLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel|null $searchCriteriaExactDeviceLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel $searchCriteriaExactDeviceLevel
      * @return $this
      */
     public function setSearchCriteriaExactDeviceLevel(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel $searchCriteriaExactDeviceLevel)
     {
         $this->searchCriteriaExactDeviceLevel = $searchCriteriaExactDeviceLevel;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDeviceLevel()
+    {
+        $this->searchCriteriaExactDeviceLevel = null;
         return $this;
     }
 

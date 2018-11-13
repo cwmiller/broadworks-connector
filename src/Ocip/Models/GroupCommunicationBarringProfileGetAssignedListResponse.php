@@ -16,6 +16,8 @@ class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\Broad
 
     /**
      * @ElementName profileName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $profileName = array(
@@ -25,18 +27,16 @@ class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\Broad
     /**
      * Getter for profileName
      *
-     * @ElementName profileName
      * @return string[]
      */
     public function getProfileName()
     {
-        return $this->profileName;
+        return $this->profileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileName;
     }
 
     /**
      * Setter for profileName
      *
-     * @ElementName profileName
      * @param string[] $profileName
      * @return $this
      */
@@ -47,15 +47,23 @@ class GroupCommunicationBarringProfileGetAssignedListResponse extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileName()
+    {
+        $this->profileName = null;
+        return $this;
+    }
+
+    /**
      * Adder for profileName
      *
-     * @ElementName profileName
      * @param string $profileName
      * @return $this
      */
     public function addProfileName(string $profileName)
     {
-        $this->profileName []= $profileName;
+        $this->profileName[] = $profileName;
         return $this;
     }
 

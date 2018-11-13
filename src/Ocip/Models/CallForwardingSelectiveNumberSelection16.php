@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallForwardingSelectiveNumberSelection16
  * FORWARD_TO_SPECIFIED_NUMBER()
  * @method static CallForwardingSelectiveNumberSelection16 DO_NOT_FORWARD()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallForwardingSelectiveNumberSelection16 extends \MyCLabs\Enum\Enum
 {

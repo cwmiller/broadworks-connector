@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
 
     /**
      * @ElementName sendToPerson
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
 
     /**
      * @ElementName sendToAllGroupMembers
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
 
     /**
      * @ElementName sendToDistributionList
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,6 +34,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
 
     /**
      * @ElementName changeCurrentIntroductionOrMessage
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,6 +42,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
 
     /**
      * @ElementName listenToCurrentIntroductionOrMessage
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,6 +50,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
 
     /**
      * @ElementName setOrClearUrgentIndicator
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,6 +58,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
 
     /**
      * @ElementName setOrClearConfidentialIndicator
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -59,12 +66,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -73,201 +82,262 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
     /**
      * Getter for sendToPerson
      *
-     * @ElementName sendToPerson
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSendToPerson()
     {
-        return $this->sendToPerson;
+        return $this->sendToPerson instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendToPerson;
     }
 
     /**
      * Setter for sendToPerson
      *
-     * @ElementName sendToPerson
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sendToPerson
+     * @param string|null $sendToPerson
      * @return $this
      */
     public function setSendToPerson($sendToPerson)
     {
-        $this->sendToPerson = $sendToPerson;
+        if ($sendToPerson === null) {
+            $this->sendToPerson = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->sendToPerson = $sendToPerson;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendToPerson()
+    {
+        $this->sendToPerson = null;
         return $this;
     }
 
     /**
      * Getter for sendToAllGroupMembers
      *
-     * @ElementName sendToAllGroupMembers
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSendToAllGroupMembers()
     {
-        return $this->sendToAllGroupMembers;
+        return $this->sendToAllGroupMembers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendToAllGroupMembers;
     }
 
     /**
      * Setter for sendToAllGroupMembers
      *
-     * @ElementName sendToAllGroupMembers
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sendToAllGroupMembers
+     * @param string|null $sendToAllGroupMembers
      * @return $this
      */
     public function setSendToAllGroupMembers($sendToAllGroupMembers)
     {
-        $this->sendToAllGroupMembers = $sendToAllGroupMembers;
+        if ($sendToAllGroupMembers === null) {
+            $this->sendToAllGroupMembers = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->sendToAllGroupMembers = $sendToAllGroupMembers;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendToAllGroupMembers()
+    {
+        $this->sendToAllGroupMembers = null;
         return $this;
     }
 
     /**
      * Getter for sendToDistributionList
      *
-     * @ElementName sendToDistributionList
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSendToDistributionList()
     {
-        return $this->sendToDistributionList;
+        return $this->sendToDistributionList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendToDistributionList;
     }
 
     /**
      * Setter for sendToDistributionList
      *
-     * @ElementName sendToDistributionList
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sendToDistributionList
+     * @param string|null $sendToDistributionList
      * @return $this
      */
     public function setSendToDistributionList($sendToDistributionList)
     {
-        $this->sendToDistributionList = $sendToDistributionList;
+        if ($sendToDistributionList === null) {
+            $this->sendToDistributionList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->sendToDistributionList = $sendToDistributionList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSendToDistributionList()
+    {
+        $this->sendToDistributionList = null;
         return $this;
     }
 
     /**
      * Getter for changeCurrentIntroductionOrMessage
      *
-     * @ElementName changeCurrentIntroductionOrMessage
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getChangeCurrentIntroductionOrMessage()
     {
-        return $this->changeCurrentIntroductionOrMessage;
+        return $this->changeCurrentIntroductionOrMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeCurrentIntroductionOrMessage;
     }
 
     /**
      * Setter for changeCurrentIntroductionOrMessage
      *
-     * @ElementName changeCurrentIntroductionOrMessage
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeCurrentIntroductionOrMessage
+     * @param string|null $changeCurrentIntroductionOrMessage
      * @return $this
      */
     public function setChangeCurrentIntroductionOrMessage($changeCurrentIntroductionOrMessage)
     {
-        $this->changeCurrentIntroductionOrMessage = $changeCurrentIntroductionOrMessage;
+        if ($changeCurrentIntroductionOrMessage === null) {
+            $this->changeCurrentIntroductionOrMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->changeCurrentIntroductionOrMessage = $changeCurrentIntroductionOrMessage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetChangeCurrentIntroductionOrMessage()
+    {
+        $this->changeCurrentIntroductionOrMessage = null;
         return $this;
     }
 
     /**
      * Getter for listenToCurrentIntroductionOrMessage
      *
-     * @ElementName listenToCurrentIntroductionOrMessage
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getListenToCurrentIntroductionOrMessage()
     {
-        return $this->listenToCurrentIntroductionOrMessage;
+        return $this->listenToCurrentIntroductionOrMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentIntroductionOrMessage;
     }
 
     /**
      * Setter for listenToCurrentIntroductionOrMessage
      *
-     * @ElementName listenToCurrentIntroductionOrMessage
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentIntroductionOrMessage
+     * @param string|null $listenToCurrentIntroductionOrMessage
      * @return $this
      */
     public function setListenToCurrentIntroductionOrMessage($listenToCurrentIntroductionOrMessage)
     {
-        $this->listenToCurrentIntroductionOrMessage = $listenToCurrentIntroductionOrMessage;
+        if ($listenToCurrentIntroductionOrMessage === null) {
+            $this->listenToCurrentIntroductionOrMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->listenToCurrentIntroductionOrMessage = $listenToCurrentIntroductionOrMessage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetListenToCurrentIntroductionOrMessage()
+    {
+        $this->listenToCurrentIntroductionOrMessage = null;
         return $this;
     }
 
     /**
      * Getter for setOrClearUrgentIndicator
      *
-     * @ElementName setOrClearUrgentIndicator
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetOrClearUrgentIndicator()
     {
-        return $this->setOrClearUrgentIndicator;
+        return $this->setOrClearUrgentIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setOrClearUrgentIndicator;
     }
 
     /**
      * Setter for setOrClearUrgentIndicator
      *
-     * @ElementName setOrClearUrgentIndicator
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearUrgentIndicator
+     * @param string|null $setOrClearUrgentIndicator
      * @return $this
      */
     public function setSetOrClearUrgentIndicator($setOrClearUrgentIndicator)
     {
-        $this->setOrClearUrgentIndicator = $setOrClearUrgentIndicator;
+        if ($setOrClearUrgentIndicator === null) {
+            $this->setOrClearUrgentIndicator = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setOrClearUrgentIndicator = $setOrClearUrgentIndicator;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetOrClearUrgentIndicator()
+    {
+        $this->setOrClearUrgentIndicator = null;
         return $this;
     }
 
     /**
      * Getter for setOrClearConfidentialIndicator
      *
-     * @ElementName setOrClearConfidentialIndicator
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetOrClearConfidentialIndicator()
     {
-        return $this->setOrClearConfidentialIndicator;
+        return $this->setOrClearConfidentialIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setOrClearConfidentialIndicator;
     }
 
     /**
      * Setter for setOrClearConfidentialIndicator
      *
-     * @ElementName setOrClearConfidentialIndicator
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setOrClearConfidentialIndicator
+     * @param string|null $setOrClearConfidentialIndicator
      * @return $this
      */
     public function setSetOrClearConfidentialIndicator($setOrClearConfidentialIndicator)
     {
-        $this->setOrClearConfidentialIndicator = $setOrClearConfidentialIndicator;
+        if ($setOrClearConfidentialIndicator === null) {
+            $this->setOrClearConfidentialIndicator = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setOrClearConfidentialIndicator = $setOrClearConfidentialIndicator;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetOrClearConfidentialIndicator()
+    {
+        $this->setOrClearConfidentialIndicator = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -277,28 +347,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMess
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

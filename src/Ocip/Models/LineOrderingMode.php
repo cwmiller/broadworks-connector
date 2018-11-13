@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static LineOrderingMode DYNAMIC()
  * @method static LineOrderingMode _STATIC()
- * @ValueType string
+ * @EnumValueType string
  */
 class LineOrderingMode extends \MyCLabs\Enum\Enum
 {

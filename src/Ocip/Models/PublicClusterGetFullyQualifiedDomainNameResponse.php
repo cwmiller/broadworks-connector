@@ -14,6 +14,7 @@ class PublicClusterGetFullyQualifiedDomainNameResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName publicClusterFQDN
+     * @Type string
      * @var string|null
      */
     private $publicClusterFQDN = null;
@@ -21,24 +22,31 @@ class PublicClusterGetFullyQualifiedDomainNameResponse extends \CWM\BroadWorksCo
     /**
      * Getter for publicClusterFQDN
      *
-     * @ElementName publicClusterFQDN
-     * @return string|null
+     * @return string
      */
     public function getPublicClusterFQDN()
     {
-        return $this->publicClusterFQDN;
+        return $this->publicClusterFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicClusterFQDN;
     }
 
     /**
      * Setter for publicClusterFQDN
      *
-     * @ElementName publicClusterFQDN
-     * @param string|null $publicClusterFQDN
+     * @param string $publicClusterFQDN
      * @return $this
      */
     public function setPublicClusterFQDN($publicClusterFQDN)
     {
         $this->publicClusterFQDN = $publicClusterFQDN;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPublicClusterFQDN()
+    {
+        $this->publicClusterFQDN = null;
         return $this;
     }
 

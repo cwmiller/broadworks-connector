@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static UnassignPhoneNumbersLevel GROUP()
  * @method static UnassignPhoneNumbersLevel SERVICE_PROVIDER()
- * @ValueType string
+ * @EnumValueType string
  */
 class UnassignPhoneNumbersLevel extends \MyCLabs\Enum\Enum
 {

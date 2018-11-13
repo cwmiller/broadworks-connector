@@ -20,60 +20,70 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName scheduleKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
 
     /**
      * @ElementName eventName
+     * @Type string
      * @var string|null
      */
     private $eventName = null;
 
     /**
      * @ElementName newEventName
+     * @Type string
      * @var string|null
      */
     private $newEventName = null;
 
     /**
      * @ElementName startDate
+     * @Type string
      * @var string|null
      */
     private $startDate = null;
 
     /**
      * @ElementName allDayEvent
+     * @Type bool
      * @var bool|null
      */
     private $allDayEvent = null;
 
     /**
      * @ElementName startTime
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $startTime = null;
 
     /**
      * @ElementName endTime
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $endTime = null;
 
     /**
      * @ElementName endDate
+     * @Type string
      * @var string|null
      */
     private $endDate = null;
 
     /**
      * @ElementName recurrence
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -82,19 +92,17 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -104,21 +112,28 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleKey
      *
-     * @ElementName scheduleKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
      */
     public function getScheduleKey()
     {
-        return $this->scheduleKey;
+        return $this->scheduleKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleKey;
     }
 
     /**
      * Setter for scheduleKey
      *
-     * @ElementName scheduleKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null $scheduleKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey
      * @return $this
      */
     public function setScheduleKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey)
@@ -128,21 +143,28 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleKey()
+    {
+        $this->scheduleKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for eventName
      *
-     * @ElementName eventName
-     * @return string|null
+     * @return string
      */
     public function getEventName()
     {
-        return $this->eventName;
+        return $this->eventName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eventName;
     }
 
     /**
      * Setter for eventName
      *
-     * @ElementName eventName
-     * @param string|null $eventName
+     * @param string $eventName
      * @return $this
      */
     public function setEventName($eventName)
@@ -152,21 +174,28 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEventName()
+    {
+        $this->eventName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newEventName
      *
-     * @ElementName newEventName
-     * @return string|null
+     * @return string
      */
     public function getNewEventName()
     {
-        return $this->newEventName;
+        return $this->newEventName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newEventName;
     }
 
     /**
      * Setter for newEventName
      *
-     * @ElementName newEventName
-     * @param string|null $newEventName
+     * @param string $newEventName
      * @return $this
      */
     public function setNewEventName($newEventName)
@@ -176,21 +205,28 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewEventName()
+    {
+        $this->newEventName = null;
+        return $this;
+    }
+
+    /**
      * Getter for startDate
      *
-     * @ElementName startDate
-     * @return string|null
+     * @return string
      */
     public function getStartDate()
     {
-        return $this->startDate;
+        return $this->startDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startDate;
     }
 
     /**
      * Setter for startDate
      *
-     * @ElementName startDate
-     * @param string|null $startDate
+     * @param string $startDate
      * @return $this
      */
     public function setStartDate($startDate)
@@ -200,21 +236,28 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartDate()
+    {
+        $this->startDate = null;
+        return $this;
+    }
+
+    /**
      * Getter for allDayEvent
      *
-     * @ElementName allDayEvent
-     * @return bool|null
+     * @return bool
      */
     public function getAllDayEvent()
     {
-        return $this->allDayEvent;
+        return $this->allDayEvent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allDayEvent;
     }
 
     /**
      * Setter for allDayEvent
      *
-     * @ElementName allDayEvent
-     * @param bool|null $allDayEvent
+     * @param bool $allDayEvent
      * @return $this
      */
     public function setAllDayEvent($allDayEvent)
@@ -224,21 +267,28 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllDayEvent()
+    {
+        $this->allDayEvent = null;
+        return $this;
+    }
+
+    /**
      * Getter for startTime
      *
-     * @ElementName startTime
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      */
     public function getStartTime()
     {
-        return $this->startTime;
+        return $this->startTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startTime;
     }
 
     /**
      * Setter for startTime
      *
-     * @ElementName startTime
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null $startTime
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute $startTime
      * @return $this
      */
     public function setStartTime(\CWM\BroadWorksConnector\Ocip\Models\HourMinute $startTime)
@@ -248,21 +298,28 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartTime()
+    {
+        $this->startTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for endTime
      *
-     * @ElementName endTime
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      */
     public function getEndTime()
     {
-        return $this->endTime;
+        return $this->endTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endTime;
     }
 
     /**
      * Setter for endTime
      *
-     * @ElementName endTime
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null $endTime
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute $endTime
      * @return $this
      */
     public function setEndTime(\CWM\BroadWorksConnector\Ocip\Models\HourMinute $endTime)
@@ -272,21 +329,28 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndTime()
+    {
+        $this->endTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for endDate
      *
-     * @ElementName endDate
-     * @return string|null
+     * @return string
      */
     public function getEndDate()
     {
-        return $this->endDate;
+        return $this->endDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endDate;
     }
 
     /**
      * Setter for endDate
      *
-     * @ElementName endDate
-     * @param string|null $endDate
+     * @param string $endDate
      * @return $this
      */
     public function setEndDate($endDate)
@@ -296,28 +360,46 @@ class ServiceProviderScheduleModifyEventRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndDate()
+    {
+        $this->endDate = null;
+        return $this;
+    }
+
+    /**
      * Getter for recurrence
      *
-     * @ElementName recurrence
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     public function getRecurrence()
     {
-        return $this->recurrence;
+        return $this->recurrence instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recurrence;
     }
 
     /**
      * Setter for recurrence
      *
-     * @ElementName recurrence
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null|\CWM\BroadWorksConnector\Ocip\Nil $recurrence
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null $recurrence
      * @return $this
      */
     public function setRecurrence(\CWM\BroadWorksConnector\Ocip\Models\Recurrence $recurrence)
     {
-        $this->recurrence = $recurrence;
+        if ($recurrence === null) {
+            $this->recurrence = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->recurrence = $recurrence;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecurrence()
+    {
+        $this->recurrence = null;
         return $this;
     }
 

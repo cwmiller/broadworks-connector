@@ -37,12 +37,14 @@ class UserCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
 
     /**
      * @ElementName callNotifyEmailAddress
+     * @Type string
      * @var string|null
      */
     private $callNotifyEmailAddress = null;
 
     /**
      * @ElementName criteriaTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;
@@ -50,19 +52,17 @@ class UserCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * Getter for callNotifyEmailAddress
      *
-     * @ElementName callNotifyEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getCallNotifyEmailAddress()
     {
-        return $this->callNotifyEmailAddress;
+        return $this->callNotifyEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callNotifyEmailAddress;
     }
 
     /**
      * Setter for callNotifyEmailAddress
      *
-     * @ElementName callNotifyEmailAddress
-     * @param string|null $callNotifyEmailAddress
+     * @param string $callNotifyEmailAddress
      * @return $this
      */
     public function setCallNotifyEmailAddress($callNotifyEmailAddress)
@@ -72,26 +72,42 @@ class UserCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallNotifyEmailAddress()
+    {
+        $this->callNotifyEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCriteriaTable()
     {
-        return $this->criteriaTable;
+        return $this->criteriaTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaTable;
     }
 
     /**
      * Setter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable
      * @return $this
      */
     public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCriteriaTable()
+    {
+        $this->criteriaTable = null;
         return $this;
     }
 

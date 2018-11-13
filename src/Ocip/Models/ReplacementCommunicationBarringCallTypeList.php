@@ -14,6 +14,8 @@ class ReplacementCommunicationBarringCallTypeList
 
     /**
      * @ElementName callType
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $callType = array(
@@ -23,18 +25,16 @@ class ReplacementCommunicationBarringCallTypeList
     /**
      * Getter for callType
      *
-     * @ElementName callType
      * @return string[]
      */
     public function getCallType()
     {
-        return $this->callType;
+        return $this->callType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callType;
     }
 
     /**
      * Setter for callType
      *
-     * @ElementName callType
      * @param string[] $callType
      * @return $this
      */
@@ -45,15 +45,23 @@ class ReplacementCommunicationBarringCallTypeList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallType()
+    {
+        $this->callType = null;
+        return $this;
+    }
+
+    /**
      * Adder for callType
      *
-     * @ElementName callType
      * @param string $callType
      * @return $this
      */
     public function addCallType(string $callType)
     {
-        $this->callType []= $callType;
+        $this->callType[] = $callType;
         return $this;
     }
 

@@ -12,36 +12,43 @@ class IncomingCallingPlanDepartmentPermissions
 
     /**
      * @ElementName departmentKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
 
     /**
      * @ElementName departmentFullPathName
+     * @Type string
      * @var string|null
      */
     private $departmentFullPathName = null;
 
     /**
      * @ElementName allowFromWithinGroup
+     * @Type bool
      * @var bool|null
      */
     private $allowFromWithinGroup = null;
 
     /**
      * @ElementName allowFromOutsideGroup
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     private $allowFromOutsideGroup = null;
 
     /**
      * @ElementName allowCollectCalls
+     * @Type bool
      * @var bool|null
      */
     private $allowCollectCalls = null;
 
     /**
      * @ElementName digitPatternPermission
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[]
      */
     private $digitPatternPermission = array(
@@ -51,19 +58,17 @@ class IncomingCallingPlanDepartmentPermissions
     /**
      * Getter for departmentKey
      *
-     * @ElementName departmentKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      */
     public function getDepartmentKey()
     {
-        return $this->departmentKey;
+        return $this->departmentKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentKey;
     }
 
     /**
      * Setter for departmentKey
      *
-     * @ElementName departmentKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey
      * @return $this
      */
     public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
@@ -73,21 +78,28 @@ class IncomingCallingPlanDepartmentPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentKey()
+    {
+        $this->departmentKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for departmentFullPathName
      *
-     * @ElementName departmentFullPathName
-     * @return string|null
+     * @return string
      */
     public function getDepartmentFullPathName()
     {
-        return $this->departmentFullPathName;
+        return $this->departmentFullPathName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentFullPathName;
     }
 
     /**
      * Setter for departmentFullPathName
      *
-     * @ElementName departmentFullPathName
-     * @param string|null $departmentFullPathName
+     * @param string $departmentFullPathName
      * @return $this
      */
     public function setDepartmentFullPathName($departmentFullPathName)
@@ -97,21 +109,28 @@ class IncomingCallingPlanDepartmentPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentFullPathName()
+    {
+        $this->departmentFullPathName = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowFromWithinGroup
      *
-     * @ElementName allowFromWithinGroup
-     * @return bool|null
+     * @return bool
      */
     public function getAllowFromWithinGroup()
     {
-        return $this->allowFromWithinGroup;
+        return $this->allowFromWithinGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowFromWithinGroup;
     }
 
     /**
      * Setter for allowFromWithinGroup
      *
-     * @ElementName allowFromWithinGroup
-     * @param bool|null $allowFromWithinGroup
+     * @param bool $allowFromWithinGroup
      * @return $this
      */
     public function setAllowFromWithinGroup($allowFromWithinGroup)
@@ -121,21 +140,28 @@ class IncomingCallingPlanDepartmentPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowFromWithinGroup()
+    {
+        $this->allowFromWithinGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowFromOutsideGroup
      *
-     * @ElementName allowFromOutsideGroup
-     * @return \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission
      */
     public function getAllowFromOutsideGroup()
     {
-        return $this->allowFromOutsideGroup;
+        return $this->allowFromOutsideGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowFromOutsideGroup;
     }
 
     /**
      * Setter for allowFromOutsideGroup
      *
-     * @ElementName allowFromOutsideGroup
-     * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null $allowFromOutsideGroup
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission $allowFromOutsideGroup
      * @return $this
      */
     public function setAllowFromOutsideGroup(\CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission $allowFromOutsideGroup)
@@ -145,21 +171,28 @@ class IncomingCallingPlanDepartmentPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowFromOutsideGroup()
+    {
+        $this->allowFromOutsideGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowCollectCalls
      *
-     * @ElementName allowCollectCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAllowCollectCalls()
     {
-        return $this->allowCollectCalls;
+        return $this->allowCollectCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCollectCalls;
     }
 
     /**
      * Setter for allowCollectCalls
      *
-     * @ElementName allowCollectCalls
-     * @param bool|null $allowCollectCalls
+     * @param bool $allowCollectCalls
      * @return $this
      */
     public function setAllowCollectCalls($allowCollectCalls)
@@ -169,20 +202,27 @@ class IncomingCallingPlanDepartmentPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowCollectCalls()
+    {
+        $this->allowCollectCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for digitPatternPermission
      *
-     * @ElementName digitPatternPermission
      * @return \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[]
      */
     public function getDigitPatternPermission()
     {
-        return $this->digitPatternPermission;
+        return $this->digitPatternPermission instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPatternPermission;
     }
 
     /**
      * Setter for digitPatternPermission
      *
-     * @ElementName digitPatternPermission
      * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[] $digitPatternPermission
      * @return $this
      */
@@ -193,15 +233,23 @@ class IncomingCallingPlanDepartmentPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPatternPermission()
+    {
+        $this->digitPatternPermission = null;
+        return $this;
+    }
+
+    /**
      * Adder for digitPatternPermission
      *
-     * @ElementName digitPatternPermission
      * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission $digitPatternPermission
      * @return $this
      */
     public function addDigitPatternPermission($digitPatternPermission)
     {
-        $this->digitPatternPermission []= $digitPatternPermission;
+        $this->digitPatternPermission[] = $digitPatternPermission;
         return $this;
     }
 

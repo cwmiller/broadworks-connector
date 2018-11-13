@@ -16,42 +16,50 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName audioSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
 
     /**
      * @ElementName videoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
      */
     private $videoFile = null;
 
     /**
      * @ElementName criteriaActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(
@@ -61,19 +69,17 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -83,21 +89,28 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -107,21 +120,28 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioSelection
      *
-     * @ElementName audioSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioSelection()
     {
-        return $this->audioSelection;
+        return $this->audioSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioSelection;
     }
 
     /**
      * Setter for audioSelection
      *
-     * @ElementName audioSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection
      * @return $this
      */
     public function setAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection)
@@ -131,21 +151,28 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioSelection()
+    {
+        $this->audioSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $audioFile)
@@ -155,21 +182,28 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoSelection
      *
-     * @ElementName videoSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoSelection()
     {
-        return $this->videoSelection;
+        return $this->videoSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoSelection;
     }
 
     /**
      * Setter for videoSelection
      *
-     * @ElementName videoSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection
      * @return $this
      */
     public function setVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection)
@@ -179,21 +213,28 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoSelection()
+    {
+        $this->videoSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20|null $videoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileLevelResource20 $videoFile)
@@ -203,20 +244,27 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     public function getCriteriaActivation()
     {
-        return $this->criteriaActivation;
+        return $this->criteriaActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaActivation;
     }
 
     /**
      * Setter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
@@ -227,15 +275,23 @@ class UserPreAlertingAnnouncementModifyRequest20 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaActivation()
+    {
+        $this->criteriaActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation $criteriaActivation
      * @return $this
      */
     public function addCriteriaActivation($criteriaActivation)
     {
-        $this->criteriaActivation []= $criteriaActivation;
+        $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
 

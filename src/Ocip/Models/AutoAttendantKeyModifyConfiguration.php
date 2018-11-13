@@ -13,12 +13,14 @@ class AutoAttendantKeyModifyConfiguration
 
     /**
      * @ElementName key
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null
      */
     private $key = null;
 
     /**
      * @ElementName entry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -27,19 +29,17 @@ class AutoAttendantKeyModifyConfiguration
     /**
      * Getter for key
      *
-     * @ElementName key
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey
      */
     public function getKey()
     {
-        return $this->key;
+        return $this->key instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->key;
     }
 
     /**
      * Setter for key
      *
-     * @ElementName key
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null $key
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey $key
      * @return $this
      */
     public function setKey(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey $key)
@@ -49,28 +49,46 @@ class AutoAttendantKeyModifyConfiguration
     }
 
     /**
+     * @return $this
+     */
+    public function unsetKey()
+    {
+        $this->key = null;
+        return $this;
+    }
+
+    /**
      * Getter for entry
      *
-     * @ElementName entry
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry|null
      */
     public function getEntry()
     {
-        return $this->entry;
+        return $this->entry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entry;
     }
 
     /**
      * Setter for entry
      *
-     * @ElementName entry
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry|null|\CWM\BroadWorksConnector\Ocip\Nil $entry
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry|null $entry
      * @return $this
      */
     public function setEntry(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationModifyEntry $entry)
     {
-        $this->entry = $entry;
+        if ($entry === null) {
+            $this->entry = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->entry = $entry;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEntry()
+    {
+        $this->entry = null;
         return $this;
     }
 

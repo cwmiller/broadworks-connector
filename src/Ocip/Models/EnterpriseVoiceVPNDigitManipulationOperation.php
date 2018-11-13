@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EnterpriseVoiceVPNDigitManipulationOperation TRIM()
  * @method static EnterpriseVoiceVPNDigitManipulationOperation DELETE()
  * @method static EnterpriseVoiceVPNDigitManipulationOperation MOVE()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseVoiceVPNDigitManipulationOperation extends \MyCLabs\Enum\Enum
 {

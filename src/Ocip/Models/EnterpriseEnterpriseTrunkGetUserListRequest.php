@@ -20,24 +20,29 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName enterpriseTrunkName
+     * @Type string
      * @var string|null
      */
     private $enterpriseTrunkName = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -46,6 +51,8 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName searchCriteriaUserFirstName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -54,6 +61,8 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName searchCriteriaDn
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -62,6 +71,8 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName searchCriteriaUserId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -70,6 +81,8 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName searchCriteriaGroupId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -78,6 +91,8 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName searchCriteriaAlternateTrunkIdentity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentity
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentity[]
      */
     private $searchCriteriaAlternateTrunkIdentity = array(
@@ -86,6 +101,8 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName searchCriteriaAlternateTrunkIdentityDomain
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentityDomain
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentityDomain[]
      */
     private $searchCriteriaAlternateTrunkIdentityDomain = array(
@@ -94,6 +111,8 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName searchCriteriaExtension
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -102,6 +121,8 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[]
      */
     private $searchCriteriaExactUserDepartment = array(
@@ -110,6 +131,8 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName searchCriteriaExactUserRouteListAssigned
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserRouteListAssigned
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserRouteListAssigned[]
      */
     private $searchCriteriaExactUserRouteListAssigned = array(
@@ -119,19 +142,17 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -141,21 +162,28 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @return string|null
+     * @return string
      */
     public function getEnterpriseTrunkName()
     {
-        return $this->enterpriseTrunkName;
+        return $this->enterpriseTrunkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseTrunkName;
     }
 
     /**
      * Setter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @param string|null $enterpriseTrunkName
+     * @param string $enterpriseTrunkName
      * @return $this
      */
     public function setEnterpriseTrunkName($enterpriseTrunkName)
@@ -165,21 +193,28 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnterpriseTrunkName()
+    {
+        $this->enterpriseTrunkName = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -189,20 +224,27 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     public function getSearchCriteriaUserLastName()
     {
-        return $this->searchCriteriaUserLastName;
+        return $this->searchCriteriaUserLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserLastName;
     }
 
     /**
      * Setter for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
@@ -213,33 +255,39 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserLastName()
+    {
+        $this->searchCriteriaUserLastName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName $searchCriteriaUserLastName
      * @return $this
      */
     public function addSearchCriteriaUserLastName($searchCriteriaUserLastName)
     {
-        $this->searchCriteriaUserLastName []= $searchCriteriaUserLastName;
+        $this->searchCriteriaUserLastName[] = $searchCriteriaUserLastName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     public function getSearchCriteriaUserFirstName()
     {
-        return $this->searchCriteriaUserFirstName;
+        return $this->searchCriteriaUserFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserFirstName;
     }
 
     /**
      * Setter for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
@@ -250,33 +298,39 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserFirstName()
+    {
+        $this->searchCriteriaUserFirstName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName $searchCriteriaUserFirstName
      * @return $this
      */
     public function addSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
     {
-        $this->searchCriteriaUserFirstName []= $searchCriteriaUserFirstName;
+        $this->searchCriteriaUserFirstName[] = $searchCriteriaUserFirstName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     public function getSearchCriteriaDn()
     {
-        return $this->searchCriteriaDn;
+        return $this->searchCriteriaDn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDn;
     }
 
     /**
      * Setter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
@@ -287,33 +341,39 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDn()
+    {
+        $this->searchCriteriaDn = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn $searchCriteriaDn
      * @return $this
      */
     public function addSearchCriteriaDn($searchCriteriaDn)
     {
-        $this->searchCriteriaDn []= $searchCriteriaDn;
+        $this->searchCriteriaDn[] = $searchCriteriaDn;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaUserId
      *
-     * @ElementName searchCriteriaUserId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     public function getSearchCriteriaUserId()
     {
-        return $this->searchCriteriaUserId;
+        return $this->searchCriteriaUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserId;
     }
 
     /**
      * Setter for searchCriteriaUserId
      *
-     * @ElementName searchCriteriaUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[] $searchCriteriaUserId
      * @return $this
      */
@@ -324,33 +384,39 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserId()
+    {
+        $this->searchCriteriaUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserId
      *
-     * @ElementName searchCriteriaUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId $searchCriteriaUserId
      * @return $this
      */
     public function addSearchCriteriaUserId($searchCriteriaUserId)
     {
-        $this->searchCriteriaUserId []= $searchCriteriaUserId;
+        $this->searchCriteriaUserId[] = $searchCriteriaUserId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     public function getSearchCriteriaGroupId()
     {
-        return $this->searchCriteriaGroupId;
+        return $this->searchCriteriaGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupId;
     }
 
     /**
      * Setter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
@@ -361,33 +427,39 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupId()
+    {
+        $this->searchCriteriaGroupId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId $searchCriteriaGroupId
      * @return $this
      */
     public function addSearchCriteriaGroupId($searchCriteriaGroupId)
     {
-        $this->searchCriteriaGroupId []= $searchCriteriaGroupId;
+        $this->searchCriteriaGroupId[] = $searchCriteriaGroupId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaAlternateTrunkIdentity
      *
-     * @ElementName searchCriteriaAlternateTrunkIdentity
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentity[]
      */
     public function getSearchCriteriaAlternateTrunkIdentity()
     {
-        return $this->searchCriteriaAlternateTrunkIdentity;
+        return $this->searchCriteriaAlternateTrunkIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaAlternateTrunkIdentity;
     }
 
     /**
      * Setter for searchCriteriaAlternateTrunkIdentity
      *
-     * @ElementName searchCriteriaAlternateTrunkIdentity
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentity[] $searchCriteriaAlternateTrunkIdentity
      * @return $this
      */
@@ -398,33 +470,39 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaAlternateTrunkIdentity()
+    {
+        $this->searchCriteriaAlternateTrunkIdentity = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaAlternateTrunkIdentity
      *
-     * @ElementName searchCriteriaAlternateTrunkIdentity
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentity $searchCriteriaAlternateTrunkIdentity
      * @return $this
      */
     public function addSearchCriteriaAlternateTrunkIdentity($searchCriteriaAlternateTrunkIdentity)
     {
-        $this->searchCriteriaAlternateTrunkIdentity []= $searchCriteriaAlternateTrunkIdentity;
+        $this->searchCriteriaAlternateTrunkIdentity[] = $searchCriteriaAlternateTrunkIdentity;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaAlternateTrunkIdentityDomain
      *
-     * @ElementName searchCriteriaAlternateTrunkIdentityDomain
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentityDomain[]
      */
     public function getSearchCriteriaAlternateTrunkIdentityDomain()
     {
-        return $this->searchCriteriaAlternateTrunkIdentityDomain;
+        return $this->searchCriteriaAlternateTrunkIdentityDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaAlternateTrunkIdentityDomain;
     }
 
     /**
      * Setter for searchCriteriaAlternateTrunkIdentityDomain
      *
-     * @ElementName searchCriteriaAlternateTrunkIdentityDomain
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentityDomain[] $searchCriteriaAlternateTrunkIdentityDomain
      * @return $this
      */
@@ -435,33 +513,39 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaAlternateTrunkIdentityDomain()
+    {
+        $this->searchCriteriaAlternateTrunkIdentityDomain = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaAlternateTrunkIdentityDomain
      *
-     * @ElementName searchCriteriaAlternateTrunkIdentityDomain
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateTrunkIdentityDomain $searchCriteriaAlternateTrunkIdentityDomain
      * @return $this
      */
     public function addSearchCriteriaAlternateTrunkIdentityDomain($searchCriteriaAlternateTrunkIdentityDomain)
     {
-        $this->searchCriteriaAlternateTrunkIdentityDomain []= $searchCriteriaAlternateTrunkIdentityDomain;
+        $this->searchCriteriaAlternateTrunkIdentityDomain[] = $searchCriteriaAlternateTrunkIdentityDomain;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     public function getSearchCriteriaExtension()
     {
-        return $this->searchCriteriaExtension;
+        return $this->searchCriteriaExtension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExtension;
     }
 
     /**
      * Setter for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[] $searchCriteriaExtension
      * @return $this
      */
@@ -472,33 +556,39 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExtension()
+    {
+        $this->searchCriteriaExtension = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension $searchCriteriaExtension
      * @return $this
      */
     public function addSearchCriteriaExtension($searchCriteriaExtension)
     {
-        $this->searchCriteriaExtension []= $searchCriteriaExtension;
+        $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactUserDepartment
      *
-     * @ElementName searchCriteriaExactUserDepartment
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[]
      */
     public function getSearchCriteriaExactUserDepartment()
     {
-        return $this->searchCriteriaExactUserDepartment;
+        return $this->searchCriteriaExactUserDepartment instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactUserDepartment;
     }
 
     /**
      * Setter for searchCriteriaExactUserDepartment
      *
-     * @ElementName searchCriteriaExactUserDepartment
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[] $searchCriteriaExactUserDepartment
      * @return $this
      */
@@ -509,33 +599,39 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactUserDepartment()
+    {
+        $this->searchCriteriaExactUserDepartment = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaExactUserDepartment
      *
-     * @ElementName searchCriteriaExactUserDepartment
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment $searchCriteriaExactUserDepartment
      * @return $this
      */
     public function addSearchCriteriaExactUserDepartment($searchCriteriaExactUserDepartment)
     {
-        $this->searchCriteriaExactUserDepartment []= $searchCriteriaExactUserDepartment;
+        $this->searchCriteriaExactUserDepartment[] = $searchCriteriaExactUserDepartment;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactUserRouteListAssigned
      *
-     * @ElementName searchCriteriaExactUserRouteListAssigned
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserRouteListAssigned[]
      */
     public function getSearchCriteriaExactUserRouteListAssigned()
     {
-        return $this->searchCriteriaExactUserRouteListAssigned;
+        return $this->searchCriteriaExactUserRouteListAssigned instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactUserRouteListAssigned;
     }
 
     /**
      * Setter for searchCriteriaExactUserRouteListAssigned
      *
-     * @ElementName searchCriteriaExactUserRouteListAssigned
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserRouteListAssigned[] $searchCriteriaExactUserRouteListAssigned
      * @return $this
      */
@@ -546,15 +642,23 @@ class EnterpriseEnterpriseTrunkGetUserListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactUserRouteListAssigned()
+    {
+        $this->searchCriteriaExactUserRouteListAssigned = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaExactUserRouteListAssigned
      *
-     * @ElementName searchCriteriaExactUserRouteListAssigned
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserRouteListAssigned $searchCriteriaExactUserRouteListAssigned
      * @return $this
      */
     public function addSearchCriteriaExactUserRouteListAssigned($searchCriteriaExactUserRouteListAssigned)
     {
-        $this->searchCriteriaExactUserRouteListAssigned []= $searchCriteriaExactUserRouteListAssigned;
+        $this->searchCriteriaExactUserRouteListAssigned[] = $searchCriteriaExactUserRouteListAssigned;
         return $this;
     }
 

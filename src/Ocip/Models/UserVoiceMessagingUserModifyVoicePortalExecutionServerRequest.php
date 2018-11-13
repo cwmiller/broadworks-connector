@@ -18,18 +18,21 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName usePersonalizedName
+     * @Type bool
      * @var bool|null
      */
     private $usePersonalizedName = null;
 
     /**
      * @ElementName personalizedNameAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $personalizedNameAudioFile = null;
@@ -37,19 +40,17 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -59,21 +60,28 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for usePersonalizedName
      *
-     * @ElementName usePersonalizedName
-     * @return bool|null
+     * @return bool
      */
     public function getUsePersonalizedName()
     {
-        return $this->usePersonalizedName;
+        return $this->usePersonalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usePersonalizedName;
     }
 
     /**
      * Setter for usePersonalizedName
      *
-     * @ElementName usePersonalizedName
-     * @param bool|null $usePersonalizedName
+     * @param bool $usePersonalizedName
      * @return $this
      */
     public function setUsePersonalizedName($usePersonalizedName)
@@ -83,26 +91,42 @@ class UserVoiceMessagingUserModifyVoicePortalExecutionServerRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUsePersonalizedName()
+    {
+        $this->usePersonalizedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalizedNameAudioFile
      *
-     * @ElementName personalizedNameAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      */
     public function getPersonalizedNameAudioFile()
     {
-        return $this->personalizedNameAudioFile;
+        return $this->personalizedNameAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedNameAudioFile;
     }
 
     /**
      * Setter for personalizedNameAudioFile
      *
-     * @ElementName personalizedNameAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null $personalizedNameAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $personalizedNameAudioFile
      * @return $this
      */
     public function setPersonalizedNameAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $personalizedNameAudioFile)
     {
         $this->personalizedNameAudioFile = $personalizedNameAudioFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPersonalizedNameAudioFile()
+    {
+        $this->personalizedNameAudioFile = null;
         return $this;
     }
 

@@ -38,42 +38,49 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName allowConference
+     * @Type bool
      * @var bool|null
      */
     private $allowConference = null;
 
     /**
      * @ElementName allowMusicOnHold
+     * @Type bool
      * @var bool|null
      */
     private $allowMusicOnHold = null;
 
     /**
      * @ElementName onlyConference
+     * @Type bool
      * @var bool|null
      */
     private $onlyConference = null;
 
     /**
      * @ElementName onlyVideoCapable
+     * @Type bool
      * @var bool|null
      */
     private $onlyVideoCapable = null;
 
     /**
      * @ElementName onlyOptionalIpAddress
+     * @Type bool
      * @var bool|null
      */
     private $onlyOptionalIpAddress = null;
 
     /**
      * @ElementName excludeReseller
+     * @Type bool
      * @var bool|null
      */
     private $excludeReseller = null;
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
@@ -81,19 +88,17 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * Getter for allowConference
      *
-     * @ElementName allowConference
-     * @return bool|null
+     * @return bool
      */
     public function getAllowConference()
     {
-        return $this->allowConference;
+        return $this->allowConference instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowConference;
     }
 
     /**
      * Setter for allowConference
      *
-     * @ElementName allowConference
-     * @param bool|null $allowConference
+     * @param bool $allowConference
      * @return $this
      */
     public function setAllowConference($allowConference)
@@ -103,21 +108,28 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowConference()
+    {
+        $this->allowConference = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowMusicOnHold
      *
-     * @ElementName allowMusicOnHold
-     * @return bool|null
+     * @return bool
      */
     public function getAllowMusicOnHold()
     {
-        return $this->allowMusicOnHold;
+        return $this->allowMusicOnHold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowMusicOnHold;
     }
 
     /**
      * Setter for allowMusicOnHold
      *
-     * @ElementName allowMusicOnHold
-     * @param bool|null $allowMusicOnHold
+     * @param bool $allowMusicOnHold
      * @return $this
      */
     public function setAllowMusicOnHold($allowMusicOnHold)
@@ -127,21 +139,28 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowMusicOnHold()
+    {
+        $this->allowMusicOnHold = null;
+        return $this;
+    }
+
+    /**
      * Getter for onlyConference
      *
-     * @ElementName onlyConference
-     * @return bool|null
+     * @return bool
      */
     public function getOnlyConference()
     {
-        return $this->onlyConference;
+        return $this->onlyConference instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->onlyConference;
     }
 
     /**
      * Setter for onlyConference
      *
-     * @ElementName onlyConference
-     * @param bool|null $onlyConference
+     * @param bool $onlyConference
      * @return $this
      */
     public function setOnlyConference($onlyConference)
@@ -151,21 +170,28 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOnlyConference()
+    {
+        $this->onlyConference = null;
+        return $this;
+    }
+
+    /**
      * Getter for onlyVideoCapable
      *
-     * @ElementName onlyVideoCapable
-     * @return bool|null
+     * @return bool
      */
     public function getOnlyVideoCapable()
     {
-        return $this->onlyVideoCapable;
+        return $this->onlyVideoCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->onlyVideoCapable;
     }
 
     /**
      * Setter for onlyVideoCapable
      *
-     * @ElementName onlyVideoCapable
-     * @param bool|null $onlyVideoCapable
+     * @param bool $onlyVideoCapable
      * @return $this
      */
     public function setOnlyVideoCapable($onlyVideoCapable)
@@ -175,21 +201,28 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOnlyVideoCapable()
+    {
+        $this->onlyVideoCapable = null;
+        return $this;
+    }
+
+    /**
      * Getter for onlyOptionalIpAddress
      *
-     * @ElementName onlyOptionalIpAddress
-     * @return bool|null
+     * @return bool
      */
     public function getOnlyOptionalIpAddress()
     {
-        return $this->onlyOptionalIpAddress;
+        return $this->onlyOptionalIpAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->onlyOptionalIpAddress;
     }
 
     /**
      * Setter for onlyOptionalIpAddress
      *
-     * @ElementName onlyOptionalIpAddress
-     * @param bool|null $onlyOptionalIpAddress
+     * @param bool $onlyOptionalIpAddress
      * @return $this
      */
     public function setOnlyOptionalIpAddress($onlyOptionalIpAddress)
@@ -199,21 +232,28 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOnlyOptionalIpAddress()
+    {
+        $this->onlyOptionalIpAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for excludeReseller
      *
-     * @ElementName excludeReseller
-     * @return bool|null
+     * @return bool
      */
     public function getExcludeReseller()
     {
-        return $this->excludeReseller;
+        return $this->excludeReseller instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->excludeReseller;
     }
 
     /**
      * Setter for excludeReseller
      *
-     * @ElementName excludeReseller
-     * @param bool|null $excludeReseller
+     * @param bool $excludeReseller
      * @return $this
      */
     public function setExcludeReseller($excludeReseller)
@@ -223,26 +263,42 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExcludeReseller()
+    {
+        $this->excludeReseller = null;
+        return $this;
+    }
+
+    /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
     {
         $this->resellerId = $resellerId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
         return $this;
     }
 

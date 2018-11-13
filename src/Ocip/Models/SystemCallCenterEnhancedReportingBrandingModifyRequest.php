@@ -16,12 +16,14 @@ class SystemCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName brandingChoice
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice|null
      */
     private $brandingChoice = null;
 
     /**
      * @ElementName customBrandingFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $customBrandingFile = null;
@@ -29,19 +31,17 @@ class SystemCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadW
     /**
      * Getter for brandingChoice
      *
-     * @ElementName brandingChoice
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice
      */
     public function getBrandingChoice()
     {
-        return $this->brandingChoice;
+        return $this->brandingChoice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->brandingChoice;
     }
 
     /**
      * Setter for brandingChoice
      *
-     * @ElementName brandingChoice
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice|null $brandingChoice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice $brandingChoice
      * @return $this
      */
     public function setBrandingChoice(\CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingSystemBrandingChoice $brandingChoice)
@@ -51,26 +51,42 @@ class SystemCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBrandingChoice()
+    {
+        $this->brandingChoice = null;
+        return $this;
+    }
+
+    /**
      * Getter for customBrandingFile
      *
-     * @ElementName customBrandingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getCustomBrandingFile()
     {
-        return $this->customBrandingFile;
+        return $this->customBrandingFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->customBrandingFile;
     }
 
     /**
      * Setter for customBrandingFile
      *
-     * @ElementName customBrandingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $customBrandingFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $customBrandingFile
      * @return $this
      */
     public function setCustomBrandingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $customBrandingFile)
     {
         $this->customBrandingFile = $customBrandingFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCustomBrandingFile()
+    {
+        $this->customBrandingFile = null;
         return $this;
     }
 

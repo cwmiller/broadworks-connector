@@ -16,48 +16,56 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName lastName
+     * @Type string
      * @var string|null
      */
     private $lastName = null;
 
     /**
      * @ElementName firstName
+     * @Type string
      * @var string|null
      */
     private $firstName = null;
 
     /**
      * @ElementName callingLineIdLastName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
+     * @Type string
      * @var string|null
      */
     private $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
+     * @Type string
      * @var string|null
      */
     private $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -65,6 +73,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName extension
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -72,6 +81,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName callingLineIdPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -79,12 +89,14 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName oldPassword
+     * @Type string
      * @var string|null
      */
     private $oldPassword = null;
 
     /**
      * @ElementName newPassword
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -92,6 +104,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName department
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -99,18 +112,21 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName sipAliasList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -118,6 +134,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName endpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14Endpoint
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -125,6 +142,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName title
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -132,6 +150,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName pagerPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -139,6 +158,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName mobilePhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -146,6 +166,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName emailAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -153,6 +174,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName yahooId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -160,6 +182,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName addressLocation
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -167,6 +190,7 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName address
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -174,19 +198,17 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -196,21 +218,28 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @return string|null
+     * @return string
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @param string|null $lastName
+     * @param string $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -220,21 +249,28 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @return string|null
+     * @return string
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @param string|null $firstName
+     * @param string $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -244,21 +280,28 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdLastName()
     {
-        return $this->callingLineIdLastName;
+        return $this->callingLineIdLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdLastName;
     }
 
     /**
      * Setter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @param string|null $callingLineIdLastName
+     * @param string $callingLineIdLastName
      * @return $this
      */
     public function setCallingLineIdLastName($callingLineIdLastName)
@@ -268,21 +311,28 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdLastName()
+    {
+        $this->callingLineIdLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdFirstName()
     {
-        return $this->callingLineIdFirstName;
+        return $this->callingLineIdFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdFirstName;
     }
 
     /**
      * Setter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @param string|null $callingLineIdFirstName
+     * @param string $callingLineIdFirstName
      * @return $this
      */
     public function setCallingLineIdFirstName($callingLineIdFirstName)
@@ -292,21 +342,28 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdFirstName()
+    {
+        $this->callingLineIdFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hiraganaLastName
      *
-     * @ElementName hiraganaLastName
-     * @return string|null
+     * @return string
      */
     public function getHiraganaLastName()
     {
-        return $this->hiraganaLastName;
+        return $this->hiraganaLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hiraganaLastName;
     }
 
     /**
      * Setter for hiraganaLastName
      *
-     * @ElementName hiraganaLastName
-     * @param string|null $hiraganaLastName
+     * @param string $hiraganaLastName
      * @return $this
      */
     public function setHiraganaLastName($hiraganaLastName)
@@ -316,21 +373,28 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHiraganaLastName()
+    {
+        $this->hiraganaLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hiraganaFirstName
      *
-     * @ElementName hiraganaFirstName
-     * @return string|null
+     * @return string
      */
     public function getHiraganaFirstName()
     {
-        return $this->hiraganaFirstName;
+        return $this->hiraganaFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hiraganaFirstName;
     }
 
     /**
      * Setter for hiraganaFirstName
      *
-     * @ElementName hiraganaFirstName
-     * @param string|null $hiraganaFirstName
+     * @param string $hiraganaFirstName
      * @return $this
      */
     public function setHiraganaFirstName($hiraganaFirstName)
@@ -340,99 +404,133 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHiraganaFirstName()
+    {
+        $this->hiraganaFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
+     * @param string|null $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
     {
-        $this->phoneNumber = $phoneNumber;
+        if ($phoneNumber === null) {
+            $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->phoneNumber = $phoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for extension
      *
-     * @ElementName extension
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExtension()
     {
-        return $this->extension;
+        return $this->extension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extension;
     }
 
     /**
      * Setter for extension
      *
-     * @ElementName extension
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $extension
+     * @param string|null $extension
      * @return $this
      */
     public function setExtension($extension)
     {
-        $this->extension = $extension;
+        if ($extension === null) {
+            $this->extension = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->extension = $extension;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExtension()
+    {
+        $this->extension = null;
         return $this;
     }
 
     /**
      * Getter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCallingLineIdPhoneNumber()
     {
-        return $this->callingLineIdPhoneNumber;
+        return $this->callingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdPhoneNumber
+     * @param string|null $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
     {
-        $this->callingLineIdPhoneNumber = $callingLineIdPhoneNumber;
+        if ($callingLineIdPhoneNumber === null) {
+            $this->callingLineIdPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callingLineIdPhoneNumber = $callingLineIdPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallingLineIdPhoneNumber()
+    {
+        $this->callingLineIdPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for oldPassword
      *
-     * @ElementName oldPassword
-     * @return string|null
+     * @return string
      */
     public function getOldPassword()
     {
-        return $this->oldPassword;
+        return $this->oldPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->oldPassword;
     }
 
     /**
      * Setter for oldPassword
      *
-     * @ElementName oldPassword
-     * @param string|null $oldPassword
+     * @param string $oldPassword
      * @return $this
      */
     public function setOldPassword($oldPassword)
@@ -442,73 +540,98 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOldPassword()
+    {
+        $this->oldPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for newPassword
      *
-     * @ElementName newPassword
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNewPassword()
     {
-        return $this->newPassword;
+        return $this->newPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newPassword;
     }
 
     /**
      * Setter for newPassword
      *
-     * @ElementName newPassword
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $newPassword
+     * @param string|null $newPassword
      * @return $this
      */
     public function setNewPassword($newPassword)
     {
-        $this->newPassword = $newPassword;
+        if ($newPassword === null) {
+            $this->newPassword = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->newPassword = $newPassword;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewPassword()
+    {
+        $this->newPassword = null;
         return $this;
     }
 
     /**
      * Getter for department
      *
-     * @ElementName department
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     public function getDepartment()
     {
-        return $this->department;
+        return $this->department instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->department;
     }
 
     /**
      * Setter for department
      *
-     * @ElementName department
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $department
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
      * @return $this
      */
     public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
     {
-        $this->department = $department;
+        if ($department === null) {
+            $this->department = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->department = $department;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDepartment()
+    {
+        $this->department = null;
         return $this;
     }
 
     /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -518,21 +641,28 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -542,234 +672,322 @@ class UserModifyRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipAliasList
      *
-     * @ElementName sipAliasList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null
      */
     public function getSipAliasList()
     {
-        return $this->sipAliasList;
+        return $this->sipAliasList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipAliasList;
     }
 
     /**
      * Setter for sipAliasList
      *
-     * @ElementName sipAliasList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil $sipAliasList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null $sipAliasList
      * @return $this
      */
     public function setSipAliasList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList $sipAliasList)
     {
-        $this->sipAliasList = $sipAliasList;
+        if ($sipAliasList === null) {
+            $this->sipAliasList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->sipAliasList = $sipAliasList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipAliasList()
+    {
+        $this->sipAliasList = null;
         return $this;
     }
 
     /**
      * Getter for endpoint
      *
-     * @ElementName endpoint
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14Endpoint|null
      */
     public function getEndpoint()
     {
-        return $this->endpoint;
+        return $this->endpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endpoint;
     }
 
     /**
      * Setter for endpoint
      *
-     * @ElementName endpoint
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14Endpoint|null|\CWM\BroadWorksConnector\Ocip\Nil $endpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14Endpoint|null $endpoint
      * @return $this
      */
     public function setEndpoint(\CWM\BroadWorksConnector\Ocip\Models\UserModifyRequest14Endpoint $endpoint)
     {
-        $this->endpoint = $endpoint;
+        if ($endpoint === null) {
+            $this->endpoint = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->endpoint = $endpoint;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEndpoint()
+    {
+        $this->endpoint = null;
         return $this;
     }
 
     /**
      * Getter for title
      *
-     * @ElementName title
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTitle()
     {
-        return $this->title;
+        return $this->title instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->title;
     }
 
     /**
      * Setter for title
      *
-     * @ElementName title
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $title
+     * @param string|null $title
      * @return $this
      */
     public function setTitle($title)
     {
-        $this->title = $title;
+        if ($title === null) {
+            $this->title = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->title = $title;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTitle()
+    {
+        $this->title = null;
         return $this;
     }
 
     /**
      * Getter for pagerPhoneNumber
      *
-     * @ElementName pagerPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPagerPhoneNumber()
     {
-        return $this->pagerPhoneNumber;
+        return $this->pagerPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pagerPhoneNumber;
     }
 
     /**
      * Setter for pagerPhoneNumber
      *
-     * @ElementName pagerPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $pagerPhoneNumber
+     * @param string|null $pagerPhoneNumber
      * @return $this
      */
     public function setPagerPhoneNumber($pagerPhoneNumber)
     {
-        $this->pagerPhoneNumber = $pagerPhoneNumber;
+        if ($pagerPhoneNumber === null) {
+            $this->pagerPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->pagerPhoneNumber = $pagerPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPagerPhoneNumber()
+    {
+        $this->pagerPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getMobilePhoneNumber()
     {
-        return $this->mobilePhoneNumber;
+        return $this->mobilePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilePhoneNumber;
     }
 
     /**
      * Setter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilePhoneNumber
+     * @param string|null $mobilePhoneNumber
      * @return $this
      */
     public function setMobilePhoneNumber($mobilePhoneNumber)
     {
-        $this->mobilePhoneNumber = $mobilePhoneNumber;
+        if ($mobilePhoneNumber === null) {
+            $this->mobilePhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->mobilePhoneNumber = $mobilePhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobilePhoneNumber()
+    {
+        $this->mobilePhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for emailAddress
      *
-     * @ElementName emailAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getEmailAddress()
     {
-        return $this->emailAddress;
+        return $this->emailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emailAddress;
     }
 
     /**
      * Setter for emailAddress
      *
-     * @ElementName emailAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $emailAddress
+     * @param string|null $emailAddress
      * @return $this
      */
     public function setEmailAddress($emailAddress)
     {
-        $this->emailAddress = $emailAddress;
+        if ($emailAddress === null) {
+            $this->emailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->emailAddress = $emailAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmailAddress()
+    {
+        $this->emailAddress = null;
         return $this;
     }
 
     /**
      * Getter for yahooId
      *
-     * @ElementName yahooId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getYahooId()
     {
-        return $this->yahooId;
+        return $this->yahooId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->yahooId;
     }
 
     /**
      * Setter for yahooId
      *
-     * @ElementName yahooId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $yahooId
+     * @param string|null $yahooId
      * @return $this
      */
     public function setYahooId($yahooId)
     {
-        $this->yahooId = $yahooId;
+        if ($yahooId === null) {
+            $this->yahooId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->yahooId = $yahooId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetYahooId()
+    {
+        $this->yahooId = null;
         return $this;
     }
 
     /**
      * Getter for addressLocation
      *
-     * @ElementName addressLocation
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAddressLocation()
     {
-        return $this->addressLocation;
+        return $this->addressLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addressLocation;
     }
 
     /**
      * Setter for addressLocation
      *
-     * @ElementName addressLocation
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $addressLocation
+     * @param string|null $addressLocation
      * @return $this
      */
     public function setAddressLocation($addressLocation)
     {
-        $this->addressLocation = $addressLocation;
+        if ($addressLocation === null) {
+            $this->addressLocation = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->addressLocation = $addressLocation;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAddressLocation()
+    {
+        $this->addressLocation = null;
         return $this;
     }
 
     /**
      * Getter for address
      *
-     * @ElementName address
-     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address
      * @return $this
      */
     public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
     {
         $this->address = $address;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
         return $this;
     }
 

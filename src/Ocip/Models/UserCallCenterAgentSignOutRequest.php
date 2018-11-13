@@ -30,6 +30,7 @@ class UserCallCenterAgentSignOutRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName agentUserId
+     * @Type string
      * @var string|null
      */
     private $agentUserId = null;
@@ -37,24 +38,31 @@ class UserCallCenterAgentSignOutRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
-     * @return string|null
+     * @return string
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
-     * @param string|null $agentUserId
+     * @param string $agentUserId
      * @return $this
      */
     public function setAgentUserId($agentUserId)
     {
         $this->agentUserId = $agentUserId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
         return $this;
     }
 

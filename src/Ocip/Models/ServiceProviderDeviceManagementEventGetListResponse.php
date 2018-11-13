@@ -51,6 +51,7 @@ class ServiceProviderDeviceManagementEventGetListResponse extends \CWM\BroadWork
 
     /**
      * @ElementName eventTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $eventTable = null;
@@ -58,24 +59,31 @@ class ServiceProviderDeviceManagementEventGetListResponse extends \CWM\BroadWork
     /**
      * Getter for eventTable
      *
-     * @ElementName eventTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getEventTable()
     {
-        return $this->eventTable;
+        return $this->eventTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eventTable;
     }
 
     /**
      * Setter for eventTable
      *
-     * @ElementName eventTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $eventTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $eventTable
      * @return $this
      */
     public function setEventTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $eventTable)
     {
         $this->eventTable = $eventTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEventTable()
+    {
+        $this->eventTable = null;
         return $this;
     }
 

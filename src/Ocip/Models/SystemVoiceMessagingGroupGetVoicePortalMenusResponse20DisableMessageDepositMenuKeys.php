@@ -10,30 +10,35 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
 
     /**
      * @ElementName disconnectAfterGreeting
+     * @Type string
      * @var string|null
      */
     private $disconnectAfterGreeting = null;
 
     /**
      * @ElementName forwardAfterGreeting
+     * @Type string
      * @var string|null
      */
     private $forwardAfterGreeting = null;
 
     /**
      * @ElementName changeForwardingDestination
+     * @Type string
      * @var string|null
      */
     private $changeForwardingDestination = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -41,19 +46,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
     /**
      * Getter for disconnectAfterGreeting
      *
-     * @ElementName disconnectAfterGreeting
-     * @return string|null
+     * @return string
      */
     public function getDisconnectAfterGreeting()
     {
-        return $this->disconnectAfterGreeting;
+        return $this->disconnectAfterGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disconnectAfterGreeting;
     }
 
     /**
      * Setter for disconnectAfterGreeting
      *
-     * @ElementName disconnectAfterGreeting
-     * @param string|null $disconnectAfterGreeting
+     * @param string $disconnectAfterGreeting
      * @return $this
      */
     public function setDisconnectAfterGreeting($disconnectAfterGreeting)
@@ -63,21 +66,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisconnectAfterGreeting()
+    {
+        $this->disconnectAfterGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardAfterGreeting
      *
-     * @ElementName forwardAfterGreeting
-     * @return string|null
+     * @return string
      */
     public function getForwardAfterGreeting()
     {
-        return $this->forwardAfterGreeting;
+        return $this->forwardAfterGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardAfterGreeting;
     }
 
     /**
      * Setter for forwardAfterGreeting
      *
-     * @ElementName forwardAfterGreeting
-     * @param string|null $forwardAfterGreeting
+     * @param string $forwardAfterGreeting
      * @return $this
      */
     public function setForwardAfterGreeting($forwardAfterGreeting)
@@ -87,21 +97,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForwardAfterGreeting()
+    {
+        $this->forwardAfterGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeForwardingDestination
      *
-     * @ElementName changeForwardingDestination
-     * @return string|null
+     * @return string
      */
     public function getChangeForwardingDestination()
     {
-        return $this->changeForwardingDestination;
+        return $this->changeForwardingDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeForwardingDestination;
     }
 
     /**
      * Setter for changeForwardingDestination
      *
-     * @ElementName changeForwardingDestination
-     * @param string|null $changeForwardingDestination
+     * @param string $changeForwardingDestination
      * @return $this
      */
     public function setChangeForwardingDestination($changeForwardingDestination)
@@ -111,21 +128,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeForwardingDestination()
+    {
+        $this->changeForwardingDestination = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -135,26 +159,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20DisableMessageDeposi
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

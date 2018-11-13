@@ -20,30 +20,35 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName enforceAllowedApplicationList
+     * @Type bool
      * @var bool|null
      */
     private $enforceAllowedApplicationList = null;
 
     /**
      * @ElementName maximumRegistrationsPerUser
+     * @Type int
      * @var int|null
      */
     private $maximumRegistrationsPerUser = null;
 
     /**
      * @ElementName maximumRegistrationAgeDays
+     * @Type int
      * @var int|null
      */
     private $maximumRegistrationAgeDays = null;
 
     /**
      * @ElementName newCallTimeout
+     * @Type int
      * @var int|null
      */
     private $newCallTimeout = null;
 
     /**
      * @ElementName subscriptionEventsPerSecond
+     * @Type int
      * @var int|null
      */
     private $subscriptionEventsPerSecond = null;
@@ -51,19 +56,17 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for enforceAllowedApplicationList
      *
-     * @ElementName enforceAllowedApplicationList
-     * @return bool|null
+     * @return bool
      */
     public function getEnforceAllowedApplicationList()
     {
-        return $this->enforceAllowedApplicationList;
+        return $this->enforceAllowedApplicationList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enforceAllowedApplicationList;
     }
 
     /**
      * Setter for enforceAllowedApplicationList
      *
-     * @ElementName enforceAllowedApplicationList
-     * @param bool|null $enforceAllowedApplicationList
+     * @param bool $enforceAllowedApplicationList
      * @return $this
      */
     public function setEnforceAllowedApplicationList($enforceAllowedApplicationList)
@@ -73,21 +76,28 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnforceAllowedApplicationList()
+    {
+        $this->enforceAllowedApplicationList = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumRegistrationsPerUser
      *
-     * @ElementName maximumRegistrationsPerUser
-     * @return int|null
+     * @return int
      */
     public function getMaximumRegistrationsPerUser()
     {
-        return $this->maximumRegistrationsPerUser;
+        return $this->maximumRegistrationsPerUser instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumRegistrationsPerUser;
     }
 
     /**
      * Setter for maximumRegistrationsPerUser
      *
-     * @ElementName maximumRegistrationsPerUser
-     * @param int|null $maximumRegistrationsPerUser
+     * @param int $maximumRegistrationsPerUser
      * @return $this
      */
     public function setMaximumRegistrationsPerUser($maximumRegistrationsPerUser)
@@ -97,21 +107,28 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumRegistrationsPerUser()
+    {
+        $this->maximumRegistrationsPerUser = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumRegistrationAgeDays
      *
-     * @ElementName maximumRegistrationAgeDays
-     * @return int|null
+     * @return int
      */
     public function getMaximumRegistrationAgeDays()
     {
-        return $this->maximumRegistrationAgeDays;
+        return $this->maximumRegistrationAgeDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumRegistrationAgeDays;
     }
 
     /**
      * Setter for maximumRegistrationAgeDays
      *
-     * @ElementName maximumRegistrationAgeDays
-     * @param int|null $maximumRegistrationAgeDays
+     * @param int $maximumRegistrationAgeDays
      * @return $this
      */
     public function setMaximumRegistrationAgeDays($maximumRegistrationAgeDays)
@@ -121,21 +138,28 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumRegistrationAgeDays()
+    {
+        $this->maximumRegistrationAgeDays = null;
+        return $this;
+    }
+
+    /**
      * Getter for newCallTimeout
      *
-     * @ElementName newCallTimeout
-     * @return int|null
+     * @return int
      */
     public function getNewCallTimeout()
     {
-        return $this->newCallTimeout;
+        return $this->newCallTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newCallTimeout;
     }
 
     /**
      * Setter for newCallTimeout
      *
-     * @ElementName newCallTimeout
-     * @param int|null $newCallTimeout
+     * @param int $newCallTimeout
      * @return $this
      */
     public function setNewCallTimeout($newCallTimeout)
@@ -145,26 +169,42 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewCallTimeout()
+    {
+        $this->newCallTimeout = null;
+        return $this;
+    }
+
+    /**
      * Getter for subscriptionEventsPerSecond
      *
-     * @ElementName subscriptionEventsPerSecond
-     * @return int|null
+     * @return int
      */
     public function getSubscriptionEventsPerSecond()
     {
-        return $this->subscriptionEventsPerSecond;
+        return $this->subscriptionEventsPerSecond instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->subscriptionEventsPerSecond;
     }
 
     /**
      * Setter for subscriptionEventsPerSecond
      *
-     * @ElementName subscriptionEventsPerSecond
-     * @param int|null $subscriptionEventsPerSecond
+     * @param int $subscriptionEventsPerSecond
      * @return $this
      */
     public function setSubscriptionEventsPerSecond($subscriptionEventsPerSecond)
     {
         $this->subscriptionEventsPerSecond = $subscriptionEventsPerSecond;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSubscriptionEventsPerSecond()
+    {
+        $this->subscriptionEventsPerSecond = null;
         return $this;
     }
 

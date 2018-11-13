@@ -16,6 +16,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName webServerClusterPublicFQDN
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -23,6 +24,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName applicationServerClusterPrimaryPublicFQDN
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,6 +32,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName applicationServerClusterSecondaryPublicFQDN
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,6 +40,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -44,6 +48,7 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,130 +57,175 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for webServerClusterPublicFQDN
      *
-     * @ElementName webServerClusterPublicFQDN
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getWebServerClusterPublicFQDN()
     {
-        return $this->webServerClusterPublicFQDN;
+        return $this->webServerClusterPublicFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->webServerClusterPublicFQDN;
     }
 
     /**
      * Setter for webServerClusterPublicFQDN
      *
-     * @ElementName webServerClusterPublicFQDN
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $webServerClusterPublicFQDN
+     * @param string|null $webServerClusterPublicFQDN
      * @return $this
      */
     public function setWebServerClusterPublicFQDN($webServerClusterPublicFQDN)
     {
-        $this->webServerClusterPublicFQDN = $webServerClusterPublicFQDN;
+        if ($webServerClusterPublicFQDN === null) {
+            $this->webServerClusterPublicFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->webServerClusterPublicFQDN = $webServerClusterPublicFQDN;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWebServerClusterPublicFQDN()
+    {
+        $this->webServerClusterPublicFQDN = null;
         return $this;
     }
 
     /**
      * Getter for applicationServerClusterPrimaryPublicFQDN
      *
-     * @ElementName applicationServerClusterPrimaryPublicFQDN
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getApplicationServerClusterPrimaryPublicFQDN()
     {
-        return $this->applicationServerClusterPrimaryPublicFQDN;
+        return $this->applicationServerClusterPrimaryPublicFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationServerClusterPrimaryPublicFQDN;
     }
 
     /**
      * Setter for applicationServerClusterPrimaryPublicFQDN
      *
-     * @ElementName applicationServerClusterPrimaryPublicFQDN
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerClusterPrimaryPublicFQDN
+     * @param string|null $applicationServerClusterPrimaryPublicFQDN
      * @return $this
      */
     public function setApplicationServerClusterPrimaryPublicFQDN($applicationServerClusterPrimaryPublicFQDN)
     {
-        $this->applicationServerClusterPrimaryPublicFQDN = $applicationServerClusterPrimaryPublicFQDN;
+        if ($applicationServerClusterPrimaryPublicFQDN === null) {
+            $this->applicationServerClusterPrimaryPublicFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->applicationServerClusterPrimaryPublicFQDN = $applicationServerClusterPrimaryPublicFQDN;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationServerClusterPrimaryPublicFQDN()
+    {
+        $this->applicationServerClusterPrimaryPublicFQDN = null;
         return $this;
     }
 
     /**
      * Getter for applicationServerClusterSecondaryPublicFQDN
      *
-     * @ElementName applicationServerClusterSecondaryPublicFQDN
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getApplicationServerClusterSecondaryPublicFQDN()
     {
-        return $this->applicationServerClusterSecondaryPublicFQDN;
+        return $this->applicationServerClusterSecondaryPublicFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationServerClusterSecondaryPublicFQDN;
     }
 
     /**
      * Setter for applicationServerClusterSecondaryPublicFQDN
      *
-     * @ElementName applicationServerClusterSecondaryPublicFQDN
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerClusterSecondaryPublicFQDN
+     * @param string|null $applicationServerClusterSecondaryPublicFQDN
      * @return $this
      */
     public function setApplicationServerClusterSecondaryPublicFQDN($applicationServerClusterSecondaryPublicFQDN)
     {
-        $this->applicationServerClusterSecondaryPublicFQDN = $applicationServerClusterSecondaryPublicFQDN;
+        if ($applicationServerClusterSecondaryPublicFQDN === null) {
+            $this->applicationServerClusterSecondaryPublicFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->applicationServerClusterSecondaryPublicFQDN = $applicationServerClusterSecondaryPublicFQDN;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationServerClusterSecondaryPublicFQDN()
+    {
+        $this->applicationServerClusterSecondaryPublicFQDN = null;
         return $this;
     }
 
     /**
      * Getter for applicationServerClusterPrimaryPrivateFQDN
      *
-     * @ElementName applicationServerClusterPrimaryPrivateFQDN
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getApplicationServerClusterPrimaryPrivateFQDN()
     {
-        return $this->applicationServerClusterPrimaryPrivateFQDN;
+        return $this->applicationServerClusterPrimaryPrivateFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationServerClusterPrimaryPrivateFQDN;
     }
 
     /**
      * Setter for applicationServerClusterPrimaryPrivateFQDN
      *
-     * @ElementName applicationServerClusterPrimaryPrivateFQDN
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerClusterPrimaryPrivateFQDN
+     * @param string|null $applicationServerClusterPrimaryPrivateFQDN
      * @return $this
      */
     public function setApplicationServerClusterPrimaryPrivateFQDN($applicationServerClusterPrimaryPrivateFQDN)
     {
-        $this->applicationServerClusterPrimaryPrivateFQDN = $applicationServerClusterPrimaryPrivateFQDN;
+        if ($applicationServerClusterPrimaryPrivateFQDN === null) {
+            $this->applicationServerClusterPrimaryPrivateFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->applicationServerClusterPrimaryPrivateFQDN = $applicationServerClusterPrimaryPrivateFQDN;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationServerClusterPrimaryPrivateFQDN()
+    {
+        $this->applicationServerClusterPrimaryPrivateFQDN = null;
         return $this;
     }
 
     /**
      * Getter for applicationServerClusterSecondaryPrivateFQDN
      *
-     * @ElementName applicationServerClusterSecondaryPrivateFQDN
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getApplicationServerClusterSecondaryPrivateFQDN()
     {
-        return $this->applicationServerClusterSecondaryPrivateFQDN;
+        return $this->applicationServerClusterSecondaryPrivateFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationServerClusterSecondaryPrivateFQDN;
     }
 
     /**
      * Setter for applicationServerClusterSecondaryPrivateFQDN
      *
-     * @ElementName applicationServerClusterSecondaryPrivateFQDN
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $applicationServerClusterSecondaryPrivateFQDN
+     * @param string|null $applicationServerClusterSecondaryPrivateFQDN
      * @return $this
      */
     public function setApplicationServerClusterSecondaryPrivateFQDN($applicationServerClusterSecondaryPrivateFQDN)
     {
-        $this->applicationServerClusterSecondaryPrivateFQDN = $applicationServerClusterSecondaryPrivateFQDN;
+        if ($applicationServerClusterSecondaryPrivateFQDN === null) {
+            $this->applicationServerClusterSecondaryPrivateFQDN = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->applicationServerClusterSecondaryPrivateFQDN = $applicationServerClusterSecondaryPrivateFQDN;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationServerClusterSecondaryPrivateFQDN()
+    {
+        $this->applicationServerClusterSecondaryPrivateFQDN = null;
         return $this;
     }
 

@@ -20,12 +20,14 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName reportingServerURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,6 +35,7 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName supervisorUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,19 +44,17 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -63,54 +64,81 @@ class GroupCallCenterModifySupervisorListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportingServerURL
      *
-     * @ElementName reportingServerURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getReportingServerURL()
     {
-        return $this->reportingServerURL;
+        return $this->reportingServerURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingServerURL;
     }
 
     /**
      * Setter for reportingServerURL
      *
-     * @ElementName reportingServerURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reportingServerURL
+     * @param string|null $reportingServerURL
      * @return $this
      */
     public function setReportingServerURL($reportingServerURL)
     {
-        $this->reportingServerURL = $reportingServerURL;
+        if ($reportingServerURL === null) {
+            $this->reportingServerURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->reportingServerURL = $reportingServerURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReportingServerURL()
+    {
+        $this->reportingServerURL = null;
         return $this;
     }
 
     /**
      * Getter for supervisorUserIdList
      *
-     * @ElementName supervisorUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getSupervisorUserIdList()
     {
-        return $this->supervisorUserIdList;
+        return $this->supervisorUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supervisorUserIdList;
     }
 
     /**
      * Setter for supervisorUserIdList
      *
-     * @ElementName supervisorUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $supervisorUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $supervisorUserIdList
      * @return $this
      */
     public function setSupervisorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $supervisorUserIdList)
     {
-        $this->supervisorUserIdList = $supervisorUserIdList;
+        if ($supervisorUserIdList === null) {
+            $this->supervisorUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->supervisorUserIdList = $supervisorUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupervisorUserIdList()
+    {
+        $this->supervisorUserIdList = null;
         return $this;
     }
 

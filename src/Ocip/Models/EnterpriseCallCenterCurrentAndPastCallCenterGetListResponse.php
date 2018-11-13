@@ -14,6 +14,8 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\B
 
     /**
      * @ElementName serviceUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $serviceUserId = array(
@@ -22,6 +24,8 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\B
 
     /**
      * @ElementName deletedServiceUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $deletedServiceUserId = array(
@@ -31,18 +35,16 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\B
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
      * @return string[]
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
      * @param string[] $serviceUserId
      * @return $this
      */
@@ -53,33 +55,39 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for serviceUserId
      *
-     * @ElementName serviceUserId
      * @param string $serviceUserId
      * @return $this
      */
     public function addServiceUserId(string $serviceUserId)
     {
-        $this->serviceUserId []= $serviceUserId;
+        $this->serviceUserId[] = $serviceUserId;
         return $this;
     }
 
     /**
      * Getter for deletedServiceUserId
      *
-     * @ElementName deletedServiceUserId
      * @return string[]
      */
     public function getDeletedServiceUserId()
     {
-        return $this->deletedServiceUserId;
+        return $this->deletedServiceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deletedServiceUserId;
     }
 
     /**
      * Setter for deletedServiceUserId
      *
-     * @ElementName deletedServiceUserId
      * @param string[] $deletedServiceUserId
      * @return $this
      */
@@ -90,15 +98,23 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeletedServiceUserId()
+    {
+        $this->deletedServiceUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for deletedServiceUserId
      *
-     * @ElementName deletedServiceUserId
      * @param string $deletedServiceUserId
      * @return $this
      */
     public function addDeletedServiceUserId(string $deletedServiceUserId)
     {
-        $this->deletedServiceUserId []= $deletedServiceUserId;
+        $this->deletedServiceUserId[] = $deletedServiceUserId;
         return $this;
     }
 

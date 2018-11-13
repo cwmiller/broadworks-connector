@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static TrunkGroupCallForwardingAlwaysAction FORWARD()
  * @method static TrunkGroupCallForwardingAlwaysAction REROUTE()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupCallForwardingAlwaysAction extends \MyCLabs\Enum\Enum
 {

@@ -16,18 +16,21 @@ class UserScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName scheduleKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
 
     /**
      * @ElementName newScheduleName
+     * @Type string
      * @var string|null
      */
     private $newScheduleName = null;
@@ -35,19 +38,17 @@ class UserScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleKey
      *
-     * @ElementName scheduleKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
      */
     public function getScheduleKey()
     {
-        return $this->scheduleKey;
+        return $this->scheduleKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleKey;
     }
 
     /**
      * Setter for scheduleKey
      *
-     * @ElementName scheduleKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null $scheduleKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey
      * @return $this
      */
     public function setScheduleKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleKey $scheduleKey)
@@ -81,26 +89,42 @@ class UserScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleKey()
+    {
+        $this->scheduleKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for newScheduleName
      *
-     * @ElementName newScheduleName
-     * @return string|null
+     * @return string
      */
     public function getNewScheduleName()
     {
-        return $this->newScheduleName;
+        return $this->newScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newScheduleName;
     }
 
     /**
      * Setter for newScheduleName
      *
-     * @ElementName newScheduleName
-     * @param string|null $newScheduleName
+     * @param string $newScheduleName
      * @return $this
      */
     public function setNewScheduleName($newScheduleName)
     {
         $this->newScheduleName = $newScheduleName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewScheduleName()
+    {
+        $this->newScheduleName = null;
         return $this;
     }
 

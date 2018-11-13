@@ -16,30 +16,35 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName confirmationToneTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
 
     /**
      * @ElementName deliverOriginatorCLIDInstead
+     * @Type bool
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
 
     /**
      * @ElementName originatorCLIDPrefix
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +52,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -54,19 +60,17 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -76,21 +80,28 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
@@ -100,21 +111,28 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for confirmationToneTimeoutSeconds
      *
-     * @ElementName confirmationToneTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getConfirmationToneTimeoutSeconds()
     {
-        return $this->confirmationToneTimeoutSeconds;
+        return $this->confirmationToneTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmationToneTimeoutSeconds;
     }
 
     /**
      * Setter for confirmationToneTimeoutSeconds
      *
-     * @ElementName confirmationToneTimeoutSeconds
-     * @param int|null $confirmationToneTimeoutSeconds
+     * @param int $confirmationToneTimeoutSeconds
      * @return $this
      */
     public function setConfirmationToneTimeoutSeconds($confirmationToneTimeoutSeconds)
@@ -124,21 +142,28 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfirmationToneTimeoutSeconds()
+    {
+        $this->confirmationToneTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for deliverOriginatorCLIDInstead
      *
-     * @ElementName deliverOriginatorCLIDInstead
-     * @return bool|null
+     * @return bool
      */
     public function getDeliverOriginatorCLIDInstead()
     {
-        return $this->deliverOriginatorCLIDInstead;
+        return $this->deliverOriginatorCLIDInstead instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deliverOriginatorCLIDInstead;
     }
 
     /**
      * Setter for deliverOriginatorCLIDInstead
      *
-     * @ElementName deliverOriginatorCLIDInstead
-     * @param bool|null $deliverOriginatorCLIDInstead
+     * @param bool $deliverOriginatorCLIDInstead
      * @return $this
      */
     public function setDeliverOriginatorCLIDInstead($deliverOriginatorCLIDInstead)
@@ -148,52 +173,77 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeliverOriginatorCLIDInstead()
+    {
+        $this->deliverOriginatorCLIDInstead = null;
+        return $this;
+    }
+
+    /**
      * Getter for originatorCLIDPrefix
      *
-     * @ElementName originatorCLIDPrefix
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getOriginatorCLIDPrefix()
     {
-        return $this->originatorCLIDPrefix;
+        return $this->originatorCLIDPrefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatorCLIDPrefix;
     }
 
     /**
      * Setter for originatorCLIDPrefix
      *
-     * @ElementName originatorCLIDPrefix
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $originatorCLIDPrefix
+     * @param string|null $originatorCLIDPrefix
      * @return $this
      */
     public function setOriginatorCLIDPrefix($originatorCLIDPrefix)
     {
-        $this->originatorCLIDPrefix = $originatorCLIDPrefix;
+        if ($originatorCLIDPrefix === null) {
+            $this->originatorCLIDPrefix = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->originatorCLIDPrefix = $originatorCLIDPrefix;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOriginatorCLIDPrefix()
+    {
+        $this->originatorCLIDPrefix = null;
         return $this;
     }
 
     /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
         return $this;
     }
 

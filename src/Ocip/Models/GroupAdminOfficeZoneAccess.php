@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupAdminOfficeZoneAccess FULL()
  * @method static GroupAdminOfficeZoneAccess READ_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupAdminOfficeZoneAccess extends \MyCLabs\Enum\Enum
 {

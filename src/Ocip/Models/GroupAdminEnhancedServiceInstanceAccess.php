@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupAdminEnhancedServiceInstanceAccess FULL()
  * @method static GroupAdminEnhancedServiceInstanceAccess MODIFY_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupAdminEnhancedServiceInstanceAccess extends \MyCLabs\Enum\Enum
 {

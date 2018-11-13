@@ -14,6 +14,7 @@ class UserAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName templateUrl
+     * @Type string
      * @var string|null
      */
     private $templateUrl = null;
@@ -21,24 +22,31 @@ class UserAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for templateUrl
      *
-     * @ElementName templateUrl
-     * @return string|null
+     * @return string
      */
     public function getTemplateUrl()
     {
-        return $this->templateUrl;
+        return $this->templateUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateUrl;
     }
 
     /**
      * Setter for templateUrl
      *
-     * @ElementName templateUrl
-     * @param string|null $templateUrl
+     * @param string $templateUrl
      * @return $this
      */
     public function setTemplateUrl($templateUrl)
     {
         $this->templateUrl = $templateUrl;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTemplateUrl()
+    {
+        $this->templateUrl = null;
         return $this;
     }
 

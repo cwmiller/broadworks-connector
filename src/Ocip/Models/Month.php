@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static Month OCTOBER()
  * @method static Month NOVEMBER()
  * @method static Month DECEMBER()
- * @ValueType string
+ * @EnumValueType string
  */
 class Month extends \MyCLabs\Enum\Enum
 {

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static RecordingPauseResumeNotificationType NONE()
  * @method static RecordingPauseResumeNotificationType BEEP()
  * @method static RecordingPauseResumeNotificationType PLAY_ANNOUNCEMENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class RecordingPauseResumeNotificationType extends \MyCLabs\Enum\Enum
 {

@@ -16,6 +16,8 @@ class SystemDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName criteriaPriorityOrder
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
     private $criteriaPriorityOrder = array(
@@ -25,18 +27,16 @@ class SystemDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for criteriaPriorityOrder
      *
-     * @ElementName criteriaPriorityOrder
      * @return \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[]
      */
     public function getCriteriaPriorityOrder()
     {
-        return $this->criteriaPriorityOrder;
+        return $this->criteriaPriorityOrder instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaPriorityOrder;
     }
 
     /**
      * Setter for criteriaPriorityOrder
      *
-     * @ElementName criteriaPriorityOrder
      * @param \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder[] $criteriaPriorityOrder
      * @return $this
      */
@@ -47,15 +47,23 @@ class SystemDialableCallerIDModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaPriorityOrder()
+    {
+        $this->criteriaPriorityOrder = null;
+        return $this;
+    }
+
+    /**
      * Adder for criteriaPriorityOrder
      *
-     * @ElementName criteriaPriorityOrder
      * @param \CWM\BroadWorksConnector\Ocip\Models\DialableCallerIDCriteriaPriorityOrder $criteriaPriorityOrder
      * @return $this
      */
     public function addCriteriaPriorityOrder($criteriaPriorityOrder)
     {
-        $this->criteriaPriorityOrder []= $criteriaPriorityOrder;
+        $this->criteriaPriorityOrder[] = $criteriaPriorityOrder;
         return $this;
     }
 

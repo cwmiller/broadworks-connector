@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CriteriaDnSelection ANY()
  * @method static CriteriaDnSelection SPECIFIED_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CriteriaDnSelection extends \MyCLabs\Enum\Enum
 {

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static LicenseStrictness HARD()
  * @method static LicenseStrictness SOFT()
- * @ValueType string
+ * @EnumValueType string
  */
 class LicenseStrictness extends \MyCLabs\Enum\Enum
 {

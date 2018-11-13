@@ -16,72 +16,85 @@ class ServiceInstanceReadProfile17
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName callingLineIdLastName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
+     * @Type string
      * @var string|null
      */
     private $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
+     * @Type string
      * @var string|null
      */
     private $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
+     * @Type string
      * @var string|null
      */
     private $extension = null;
 
     /**
      * @ElementName department
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName timeZoneDisplayName
+     * @Type string
      * @var string|null
      */
     private $timeZoneDisplayName = null;
 
     /**
      * @ElementName alias
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $alias = array(
@@ -90,6 +103,7 @@ class ServiceInstanceReadProfile17
 
     /**
      * @ElementName publicUserIdentity
+     * @Type string
      * @var string|null
      */
     private $publicUserIdentity = null;
@@ -97,19 +111,17 @@ class ServiceInstanceReadProfile17
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -119,21 +131,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdLastName()
     {
-        return $this->callingLineIdLastName;
+        return $this->callingLineIdLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdLastName;
     }
 
     /**
      * Setter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @param string|null $callingLineIdLastName
+     * @param string $callingLineIdLastName
      * @return $this
      */
     public function setCallingLineIdLastName($callingLineIdLastName)
@@ -143,21 +162,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdLastName()
+    {
+        $this->callingLineIdLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdFirstName()
     {
-        return $this->callingLineIdFirstName;
+        return $this->callingLineIdFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdFirstName;
     }
 
     /**
      * Setter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @param string|null $callingLineIdFirstName
+     * @param string $callingLineIdFirstName
      * @return $this
      */
     public function setCallingLineIdFirstName($callingLineIdFirstName)
@@ -167,21 +193,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdFirstName()
+    {
+        $this->callingLineIdFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hiraganaLastName
      *
-     * @ElementName hiraganaLastName
-     * @return string|null
+     * @return string
      */
     public function getHiraganaLastName()
     {
-        return $this->hiraganaLastName;
+        return $this->hiraganaLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hiraganaLastName;
     }
 
     /**
      * Setter for hiraganaLastName
      *
-     * @ElementName hiraganaLastName
-     * @param string|null $hiraganaLastName
+     * @param string $hiraganaLastName
      * @return $this
      */
     public function setHiraganaLastName($hiraganaLastName)
@@ -191,21 +224,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHiraganaLastName()
+    {
+        $this->hiraganaLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hiraganaFirstName
      *
-     * @ElementName hiraganaFirstName
-     * @return string|null
+     * @return string
      */
     public function getHiraganaFirstName()
     {
-        return $this->hiraganaFirstName;
+        return $this->hiraganaFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hiraganaFirstName;
     }
 
     /**
      * Setter for hiraganaFirstName
      *
-     * @ElementName hiraganaFirstName
-     * @param string|null $hiraganaFirstName
+     * @param string $hiraganaFirstName
      * @return $this
      */
     public function setHiraganaFirstName($hiraganaFirstName)
@@ -215,21 +255,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHiraganaFirstName()
+    {
+        $this->hiraganaFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -239,21 +286,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for extension
      *
-     * @ElementName extension
-     * @return string|null
+     * @return string
      */
     public function getExtension()
     {
-        return $this->extension;
+        return $this->extension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extension;
     }
 
     /**
      * Setter for extension
      *
-     * @ElementName extension
-     * @param string|null $extension
+     * @param string $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -263,21 +317,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtension()
+    {
+        $this->extension = null;
+        return $this;
+    }
+
+    /**
      * Getter for department
      *
-     * @ElementName department
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      */
     public function getDepartment()
     {
-        return $this->department;
+        return $this->department instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->department;
     }
 
     /**
      * Setter for department
      *
-     * @ElementName department
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department
      * @return $this
      */
     public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
@@ -287,21 +348,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartment()
+    {
+        $this->department = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -311,21 +379,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -335,21 +410,28 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZoneDisplayName
      *
-     * @ElementName timeZoneDisplayName
-     * @return string|null
+     * @return string
      */
     public function getTimeZoneDisplayName()
     {
-        return $this->timeZoneDisplayName;
+        return $this->timeZoneDisplayName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZoneDisplayName;
     }
 
     /**
      * Setter for timeZoneDisplayName
      *
-     * @ElementName timeZoneDisplayName
-     * @param string|null $timeZoneDisplayName
+     * @param string $timeZoneDisplayName
      * @return $this
      */
     public function setTimeZoneDisplayName($timeZoneDisplayName)
@@ -359,20 +441,27 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZoneDisplayName()
+    {
+        $this->timeZoneDisplayName = null;
+        return $this;
+    }
+
+    /**
      * Getter for alias
      *
-     * @ElementName alias
      * @return string[]
      */
     public function getAlias()
     {
-        return $this->alias;
+        return $this->alias instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alias;
     }
 
     /**
      * Setter for alias
      *
-     * @ElementName alias
      * @param string[] $alias
      * @return $this
      */
@@ -383,39 +472,54 @@ class ServiceInstanceReadProfile17
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlias()
+    {
+        $this->alias = null;
+        return $this;
+    }
+
+    /**
      * Adder for alias
      *
-     * @ElementName alias
      * @param string $alias
      * @return $this
      */
     public function addAlias(string $alias)
     {
-        $this->alias []= $alias;
+        $this->alias[] = $alias;
         return $this;
     }
 
     /**
      * Getter for publicUserIdentity
      *
-     * @ElementName publicUserIdentity
-     * @return string|null
+     * @return string
      */
     public function getPublicUserIdentity()
     {
-        return $this->publicUserIdentity;
+        return $this->publicUserIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicUserIdentity;
     }
 
     /**
      * Setter for publicUserIdentity
      *
-     * @ElementName publicUserIdentity
-     * @param string|null $publicUserIdentity
+     * @param string $publicUserIdentity
      * @return $this
      */
     public function setPublicUserIdentity($publicUserIdentity)
     {
         $this->publicUserIdentity = $publicUserIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPublicUserIdentity()
+    {
+        $this->publicUserIdentity = null;
         return $this;
     }
 

@@ -17,6 +17,7 @@ class SystemNumberPortabilityQueryStatusGetRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName status
+     * @Type string
      * @var string|null
      */
     private $status = null;
@@ -24,24 +25,31 @@ class SystemNumberPortabilityQueryStatusGetRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for status
      *
-     * @ElementName status
-     * @return string|null
+     * @return string
      */
     public function getStatus()
     {
-        return $this->status;
+        return $this->status instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->status;
     }
 
     /**
      * Setter for status
      *
-     * @ElementName status
-     * @param string|null $status
+     * @param string $status
      * @return $this
      */
     public function setStatus($status)
     {
         $this->status = $status;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatus()
+    {
+        $this->status = null;
         return $this;
     }
 

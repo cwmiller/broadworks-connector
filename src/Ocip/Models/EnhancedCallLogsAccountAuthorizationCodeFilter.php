@@ -16,12 +16,14 @@ class EnhancedCallLogsAccountAuthorizationCodeFilter
 
     /**
      * @ElementName callsWithCodes
+     * @Type bool
      * @var bool|null
      */
     private $callsWithCodes = null;
 
     /**
      * @ElementName accountAuthorizationCode
+     * @Type string
      * @var string|null
      */
     private $accountAuthorizationCode = null;
@@ -29,19 +31,17 @@ class EnhancedCallLogsAccountAuthorizationCodeFilter
     /**
      * Getter for callsWithCodes
      *
-     * @ElementName callsWithCodes
-     * @return bool|null
+     * @return bool
      */
     public function getCallsWithCodes()
     {
-        return $this->callsWithCodes;
+        return $this->callsWithCodes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callsWithCodes;
     }
 
     /**
      * Setter for callsWithCodes
      *
-     * @ElementName callsWithCodes
-     * @param bool|null $callsWithCodes
+     * @param bool $callsWithCodes
      * @return $this
      */
     public function setCallsWithCodes($callsWithCodes)
@@ -51,26 +51,42 @@ class EnhancedCallLogsAccountAuthorizationCodeFilter
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallsWithCodes()
+    {
+        $this->callsWithCodes = null;
+        return $this;
+    }
+
+    /**
      * Getter for accountAuthorizationCode
      *
-     * @ElementName accountAuthorizationCode
-     * @return string|null
+     * @return string
      */
     public function getAccountAuthorizationCode()
     {
-        return $this->accountAuthorizationCode;
+        return $this->accountAuthorizationCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accountAuthorizationCode;
     }
 
     /**
      * Setter for accountAuthorizationCode
      *
-     * @ElementName accountAuthorizationCode
-     * @param string|null $accountAuthorizationCode
+     * @param string $accountAuthorizationCode
      * @return $this
      */
     public function setAccountAuthorizationCode($accountAuthorizationCode)
     {
         $this->accountAuthorizationCode = $accountAuthorizationCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccountAuthorizationCode()
+    {
+        $this->accountAuthorizationCode = null;
         return $this;
     }
 

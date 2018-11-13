@@ -16,18 +16,21 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName locale
+     * @Type string
      * @var string|null
      */
     private $locale = null;
 
     /**
      * @ElementName encoding
+     * @Type string
      * @var string|null
      */
     private $encoding = null;
@@ -35,19 +38,17 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -57,21 +58,28 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for locale
      *
-     * @ElementName locale
-     * @return string|null
+     * @return string
      */
     public function getLocale()
     {
-        return $this->locale;
+        return $this->locale instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locale;
     }
 
     /**
      * Setter for locale
      *
-     * @ElementName locale
-     * @param string|null $locale
+     * @param string $locale
      * @return $this
      */
     public function setLocale($locale)
@@ -81,26 +89,42 @@ class SystemLanguageAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocale()
+    {
+        $this->locale = null;
+        return $this;
+    }
+
+    /**
      * Getter for encoding
      *
-     * @ElementName encoding
-     * @return string|null
+     * @return string
      */
     public function getEncoding()
     {
-        return $this->encoding;
+        return $this->encoding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->encoding;
     }
 
     /**
      * Setter for encoding
      *
-     * @ElementName encoding
-     * @param string|null $encoding
+     * @param string $encoding
      * @return $this
      */
     public function setEncoding($encoding)
     {
         $this->encoding = $encoding;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEncoding()
+    {
+        $this->encoding = null;
         return $this;
     }
 

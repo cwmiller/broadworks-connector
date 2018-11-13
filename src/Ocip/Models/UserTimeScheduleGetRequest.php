@@ -17,12 +17,14 @@ class UserTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName timeScheduleName
+     * @Type string
      * @var string|null
      */
     private $timeScheduleName = null;
@@ -30,19 +32,17 @@ class UserTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,26 +52,42 @@ class UserTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeScheduleName
      *
-     * @ElementName timeScheduleName
-     * @return string|null
+     * @return string
      */
     public function getTimeScheduleName()
     {
-        return $this->timeScheduleName;
+        return $this->timeScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeScheduleName;
     }
 
     /**
      * Setter for timeScheduleName
      *
-     * @ElementName timeScheduleName
-     * @param string|null $timeScheduleName
+     * @param string $timeScheduleName
      * @return $this
      */
     public function setTimeScheduleName($timeScheduleName)
     {
         $this->timeScheduleName = $timeScheduleName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeScheduleName()
+    {
+        $this->timeScheduleName = null;
         return $this;
     }
 

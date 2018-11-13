@@ -12,54 +12,63 @@ class CallCenterQueueStatistics14sp9
 
     /**
      * @ElementName numberOfBusyOverflows
+     * @Type int
      * @var int|null
      */
     private $numberOfBusyOverflows = null;
 
     /**
      * @ElementName numberOfCallsAnswered
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsAnswered = null;
 
     /**
      * @ElementName numberOfCallsAbandoned
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsAbandoned = null;
 
     /**
      * @ElementName numberOfCallsTransferred
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsTransferred = null;
 
     /**
      * @ElementName numberOfCallsTimedout
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsTimedout = null;
 
     /**
      * @ElementName averageNumberOfAgentsTalking
+     * @Type string
      * @var string|null
      */
     private $averageNumberOfAgentsTalking = null;
 
     /**
      * @ElementName averageNumberOfAgentsStaffed
+     * @Type string
      * @var string|null
      */
     private $averageNumberOfAgentsStaffed = null;
 
     /**
      * @ElementName averageWaitSeconds
+     * @Type int
      * @var int|null
      */
     private $averageWaitSeconds = null;
 
     /**
      * @ElementName averageAbandonmentSeconds
+     * @Type int
      * @var int|null
      */
     private $averageAbandonmentSeconds = null;
@@ -67,19 +76,17 @@ class CallCenterQueueStatistics14sp9
     /**
      * Getter for numberOfBusyOverflows
      *
-     * @ElementName numberOfBusyOverflows
-     * @return int|null
+     * @return int
      */
     public function getNumberOfBusyOverflows()
     {
-        return $this->numberOfBusyOverflows;
+        return $this->numberOfBusyOverflows instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfBusyOverflows;
     }
 
     /**
      * Setter for numberOfBusyOverflows
      *
-     * @ElementName numberOfBusyOverflows
-     * @param int|null $numberOfBusyOverflows
+     * @param int $numberOfBusyOverflows
      * @return $this
      */
     public function setNumberOfBusyOverflows($numberOfBusyOverflows)
@@ -89,21 +96,28 @@ class CallCenterQueueStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfBusyOverflows()
+    {
+        $this->numberOfBusyOverflows = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfCallsAnswered
      *
-     * @ElementName numberOfCallsAnswered
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsAnswered()
     {
-        return $this->numberOfCallsAnswered;
+        return $this->numberOfCallsAnswered instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsAnswered;
     }
 
     /**
      * Setter for numberOfCallsAnswered
      *
-     * @ElementName numberOfCallsAnswered
-     * @param int|null $numberOfCallsAnswered
+     * @param int $numberOfCallsAnswered
      * @return $this
      */
     public function setNumberOfCallsAnswered($numberOfCallsAnswered)
@@ -113,21 +127,28 @@ class CallCenterQueueStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsAnswered()
+    {
+        $this->numberOfCallsAnswered = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfCallsAbandoned
      *
-     * @ElementName numberOfCallsAbandoned
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsAbandoned()
     {
-        return $this->numberOfCallsAbandoned;
+        return $this->numberOfCallsAbandoned instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsAbandoned;
     }
 
     /**
      * Setter for numberOfCallsAbandoned
      *
-     * @ElementName numberOfCallsAbandoned
-     * @param int|null $numberOfCallsAbandoned
+     * @param int $numberOfCallsAbandoned
      * @return $this
      */
     public function setNumberOfCallsAbandoned($numberOfCallsAbandoned)
@@ -137,21 +158,28 @@ class CallCenterQueueStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsAbandoned()
+    {
+        $this->numberOfCallsAbandoned = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfCallsTransferred
      *
-     * @ElementName numberOfCallsTransferred
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsTransferred()
     {
-        return $this->numberOfCallsTransferred;
+        return $this->numberOfCallsTransferred instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsTransferred;
     }
 
     /**
      * Setter for numberOfCallsTransferred
      *
-     * @ElementName numberOfCallsTransferred
-     * @param int|null $numberOfCallsTransferred
+     * @param int $numberOfCallsTransferred
      * @return $this
      */
     public function setNumberOfCallsTransferred($numberOfCallsTransferred)
@@ -161,21 +189,28 @@ class CallCenterQueueStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsTransferred()
+    {
+        $this->numberOfCallsTransferred = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfCallsTimedout
      *
-     * @ElementName numberOfCallsTimedout
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsTimedout()
     {
-        return $this->numberOfCallsTimedout;
+        return $this->numberOfCallsTimedout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsTimedout;
     }
 
     /**
      * Setter for numberOfCallsTimedout
      *
-     * @ElementName numberOfCallsTimedout
-     * @param int|null $numberOfCallsTimedout
+     * @param int $numberOfCallsTimedout
      * @return $this
      */
     public function setNumberOfCallsTimedout($numberOfCallsTimedout)
@@ -185,21 +220,28 @@ class CallCenterQueueStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsTimedout()
+    {
+        $this->numberOfCallsTimedout = null;
+        return $this;
+    }
+
+    /**
      * Getter for averageNumberOfAgentsTalking
      *
-     * @ElementName averageNumberOfAgentsTalking
-     * @return string|null
+     * @return string
      */
     public function getAverageNumberOfAgentsTalking()
     {
-        return $this->averageNumberOfAgentsTalking;
+        return $this->averageNumberOfAgentsTalking instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->averageNumberOfAgentsTalking;
     }
 
     /**
      * Setter for averageNumberOfAgentsTalking
      *
-     * @ElementName averageNumberOfAgentsTalking
-     * @param string|null $averageNumberOfAgentsTalking
+     * @param string $averageNumberOfAgentsTalking
      * @return $this
      */
     public function setAverageNumberOfAgentsTalking($averageNumberOfAgentsTalking)
@@ -209,21 +251,28 @@ class CallCenterQueueStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAverageNumberOfAgentsTalking()
+    {
+        $this->averageNumberOfAgentsTalking = null;
+        return $this;
+    }
+
+    /**
      * Getter for averageNumberOfAgentsStaffed
      *
-     * @ElementName averageNumberOfAgentsStaffed
-     * @return string|null
+     * @return string
      */
     public function getAverageNumberOfAgentsStaffed()
     {
-        return $this->averageNumberOfAgentsStaffed;
+        return $this->averageNumberOfAgentsStaffed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->averageNumberOfAgentsStaffed;
     }
 
     /**
      * Setter for averageNumberOfAgentsStaffed
      *
-     * @ElementName averageNumberOfAgentsStaffed
-     * @param string|null $averageNumberOfAgentsStaffed
+     * @param string $averageNumberOfAgentsStaffed
      * @return $this
      */
     public function setAverageNumberOfAgentsStaffed($averageNumberOfAgentsStaffed)
@@ -233,21 +282,28 @@ class CallCenterQueueStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAverageNumberOfAgentsStaffed()
+    {
+        $this->averageNumberOfAgentsStaffed = null;
+        return $this;
+    }
+
+    /**
      * Getter for averageWaitSeconds
      *
-     * @ElementName averageWaitSeconds
-     * @return int|null
+     * @return int
      */
     public function getAverageWaitSeconds()
     {
-        return $this->averageWaitSeconds;
+        return $this->averageWaitSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->averageWaitSeconds;
     }
 
     /**
      * Setter for averageWaitSeconds
      *
-     * @ElementName averageWaitSeconds
-     * @param int|null $averageWaitSeconds
+     * @param int $averageWaitSeconds
      * @return $this
      */
     public function setAverageWaitSeconds($averageWaitSeconds)
@@ -257,26 +313,42 @@ class CallCenterQueueStatistics14sp9
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAverageWaitSeconds()
+    {
+        $this->averageWaitSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for averageAbandonmentSeconds
      *
-     * @ElementName averageAbandonmentSeconds
-     * @return int|null
+     * @return int
      */
     public function getAverageAbandonmentSeconds()
     {
-        return $this->averageAbandonmentSeconds;
+        return $this->averageAbandonmentSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->averageAbandonmentSeconds;
     }
 
     /**
      * Setter for averageAbandonmentSeconds
      *
-     * @ElementName averageAbandonmentSeconds
-     * @param int|null $averageAbandonmentSeconds
+     * @param int $averageAbandonmentSeconds
      * @return $this
      */
     public function setAverageAbandonmentSeconds($averageAbandonmentSeconds)
     {
         $this->averageAbandonmentSeconds = $averageAbandonmentSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAverageAbandonmentSeconds()
+    {
+        $this->averageAbandonmentSeconds = null;
         return $this;
     }
 

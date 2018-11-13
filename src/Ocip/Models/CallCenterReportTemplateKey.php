@@ -12,12 +12,14 @@ class CallCenterReportTemplateKey
 
     /**
      * @ElementName templateLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel|null
      */
     private $templateLevel = null;
 
     /**
      * @ElementName templateName
+     * @Type string
      * @var string|null
      */
     private $templateName = null;
@@ -25,19 +27,17 @@ class CallCenterReportTemplateKey
     /**
      * Getter for templateLevel
      *
-     * @ElementName templateLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel
      */
     public function getTemplateLevel()
     {
-        return $this->templateLevel;
+        return $this->templateLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateLevel;
     }
 
     /**
      * Setter for templateLevel
      *
-     * @ElementName templateLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel|null $templateLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel $templateLevel
      * @return $this
      */
     public function setTemplateLevel(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel $templateLevel)
@@ -47,26 +47,42 @@ class CallCenterReportTemplateKey
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTemplateLevel()
+    {
+        $this->templateLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for templateName
      *
-     * @ElementName templateName
-     * @return string|null
+     * @return string
      */
     public function getTemplateName()
     {
-        return $this->templateName;
+        return $this->templateName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateName;
     }
 
     /**
      * Setter for templateName
      *
-     * @ElementName templateName
-     * @param string|null $templateName
+     * @param string $templateName
      * @return $this
      */
     public function setTemplateName($templateName)
     {
         $this->templateName = $templateName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTemplateName()
+    {
+        $this->templateName = null;
         return $this;
     }
 

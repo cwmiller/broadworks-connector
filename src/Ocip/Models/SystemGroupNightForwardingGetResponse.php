@@ -14,6 +14,7 @@ class SystemGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName nightForwardInterGroupCallsWithinEnterprise
+     * @Type bool
      * @var bool|null
      */
     private $nightForwardInterGroupCallsWithinEnterprise = null;
@@ -21,24 +22,31 @@ class SystemGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for nightForwardInterGroupCallsWithinEnterprise
      *
-     * @ElementName nightForwardInterGroupCallsWithinEnterprise
-     * @return bool|null
+     * @return bool
      */
     public function getNightForwardInterGroupCallsWithinEnterprise()
     {
-        return $this->nightForwardInterGroupCallsWithinEnterprise;
+        return $this->nightForwardInterGroupCallsWithinEnterprise instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nightForwardInterGroupCallsWithinEnterprise;
     }
 
     /**
      * Setter for nightForwardInterGroupCallsWithinEnterprise
      *
-     * @ElementName nightForwardInterGroupCallsWithinEnterprise
-     * @param bool|null $nightForwardInterGroupCallsWithinEnterprise
+     * @param bool $nightForwardInterGroupCallsWithinEnterprise
      * @return $this
      */
     public function setNightForwardInterGroupCallsWithinEnterprise($nightForwardInterGroupCallsWithinEnterprise)
     {
         $this->nightForwardInterGroupCallsWithinEnterprise = $nightForwardInterGroupCallsWithinEnterprise;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNightForwardInterGroupCallsWithinEnterprise()
+    {
+        $this->nightForwardInterGroupCallsWithinEnterprise = null;
         return $this;
     }
 

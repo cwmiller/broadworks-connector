@@ -16,6 +16,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName serviceNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -23,6 +24,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName servicePort
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,6 +32,7 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName boshURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,78 +41,105 @@ class SystemThirdPartyIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for serviceNetAddress
      *
-     * @ElementName serviceNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getServiceNetAddress()
     {
-        return $this->serviceNetAddress;
+        return $this->serviceNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceNetAddress;
     }
 
     /**
      * Setter for serviceNetAddress
      *
-     * @ElementName serviceNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceNetAddress
+     * @param string|null $serviceNetAddress
      * @return $this
      */
     public function setServiceNetAddress($serviceNetAddress)
     {
-        $this->serviceNetAddress = $serviceNetAddress;
+        if ($serviceNetAddress === null) {
+            $this->serviceNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serviceNetAddress = $serviceNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceNetAddress()
+    {
+        $this->serviceNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for servicePort
      *
-     * @ElementName servicePort
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getServicePort()
     {
-        return $this->servicePort;
+        return $this->servicePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePort;
     }
 
     /**
      * Setter for servicePort
      *
-     * @ElementName servicePort
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePort
+     * @param int|null $servicePort
      * @return $this
      */
     public function setServicePort($servicePort)
     {
-        $this->servicePort = $servicePort;
+        if ($servicePort === null) {
+            $this->servicePort = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->servicePort = $servicePort;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServicePort()
+    {
+        $this->servicePort = null;
         return $this;
     }
 
     /**
      * Getter for boshURL
      *
-     * @ElementName boshURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getBoshURL()
     {
-        return $this->boshURL;
+        return $this->boshURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->boshURL;
     }
 
     /**
      * Setter for boshURL
      *
-     * @ElementName boshURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $boshURL
+     * @param string|null $boshURL
      * @return $this
      */
     public function setBoshURL($boshURL)
     {
-        $this->boshURL = $boshURL;
+        if ($boshURL === null) {
+            $this->boshURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->boshURL = $boshURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBoshURL()
+    {
+        $this->boshURL = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupFeatureAccessCodeLevel SERVICE_PROVIDER()
  * @method static GroupFeatureAccessCodeLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupFeatureAccessCodeLevel extends \MyCLabs\Enum\Enum
 {

@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static OutgoingCallingPlanCallType SPECIAL_SERVICES_II()
  * @method static OutgoingCallingPlanCallType TOLL()
  * @method static OutgoingCallingPlanCallType TOLL_FREE()
- * @ValueType string
+ * @EnumValueType string
  */
 class OutgoingCallingPlanCallType extends \MyCLabs\Enum\Enum
 {

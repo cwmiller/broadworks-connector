@@ -13,6 +13,7 @@ class SearchCriteriaExactCustomContactDirectory extends SearchCriteria
 
     /**
      * @ElementName customContactDirectoryName
+     * @Type string
      * @var string|null
      */
     private $customContactDirectoryName = null;
@@ -20,24 +21,31 @@ class SearchCriteriaExactCustomContactDirectory extends SearchCriteria
     /**
      * Getter for customContactDirectoryName
      *
-     * @ElementName customContactDirectoryName
-     * @return string|null
+     * @return string
      */
     public function getCustomContactDirectoryName()
     {
-        return $this->customContactDirectoryName;
+        return $this->customContactDirectoryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->customContactDirectoryName;
     }
 
     /**
      * Setter for customContactDirectoryName
      *
-     * @ElementName customContactDirectoryName
-     * @param string|null $customContactDirectoryName
+     * @param string $customContactDirectoryName
      * @return $this
      */
     public function setCustomContactDirectoryName($customContactDirectoryName)
     {
         $this->customContactDirectoryName = $customContactDirectoryName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCustomContactDirectoryName()
+    {
+        $this->customContactDirectoryName = null;
         return $this;
     }
 

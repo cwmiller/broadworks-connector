@@ -28,12 +28,14 @@ class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName systemDefault
+     * @Type string
      * @var string|null
      */
     private $systemDefault = null;
 
     /**
      * @ElementName callRecordingPlatformTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callRecordingPlatformTable = null;
@@ -41,19 +43,17 @@ class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for systemDefault
      *
-     * @ElementName systemDefault
-     * @return string|null
+     * @return string
      */
     public function getSystemDefault()
     {
-        return $this->systemDefault;
+        return $this->systemDefault instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemDefault;
     }
 
     /**
      * Setter for systemDefault
      *
-     * @ElementName systemDefault
-     * @param string|null $systemDefault
+     * @param string $systemDefault
      * @return $this
      */
     public function setSystemDefault($systemDefault)
@@ -63,26 +63,42 @@ class SystemCallRecordingGetPlatformListResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSystemDefault()
+    {
+        $this->systemDefault = null;
+        return $this;
+    }
+
+    /**
      * Getter for callRecordingPlatformTable
      *
-     * @ElementName callRecordingPlatformTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCallRecordingPlatformTable()
     {
-        return $this->callRecordingPlatformTable;
+        return $this->callRecordingPlatformTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callRecordingPlatformTable;
     }
 
     /**
      * Setter for callRecordingPlatformTable
      *
-     * @ElementName callRecordingPlatformTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callRecordingPlatformTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callRecordingPlatformTable
      * @return $this
      */
     public function setCallRecordingPlatformTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callRecordingPlatformTable)
     {
         $this->callRecordingPlatformTable = $callRecordingPlatformTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallRecordingPlatformTable()
+    {
+        $this->callRecordingPlatformTable = null;
         return $this;
     }
 

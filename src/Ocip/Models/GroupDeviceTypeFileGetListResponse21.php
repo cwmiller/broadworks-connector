@@ -18,12 +18,14 @@ class GroupDeviceTypeFileGetListResponse21 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName groupDeviceTypeFilesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupDeviceTypeFilesTable = null;
 
     /**
      * @ElementName groupHasCustomizableDynamicFiles
+     * @Type bool
      * @var bool|null
      */
     private $groupHasCustomizableDynamicFiles = null;
@@ -31,19 +33,17 @@ class GroupDeviceTypeFileGetListResponse21 extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for groupDeviceTypeFilesTable
      *
-     * @ElementName groupDeviceTypeFilesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getGroupDeviceTypeFilesTable()
     {
-        return $this->groupDeviceTypeFilesTable;
+        return $this->groupDeviceTypeFilesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupDeviceTypeFilesTable;
     }
 
     /**
      * Setter for groupDeviceTypeFilesTable
      *
-     * @ElementName groupDeviceTypeFilesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupDeviceTypeFilesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupDeviceTypeFilesTable
      * @return $this
      */
     public function setGroupDeviceTypeFilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupDeviceTypeFilesTable)
@@ -53,26 +53,42 @@ class GroupDeviceTypeFileGetListResponse21 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupDeviceTypeFilesTable()
+    {
+        $this->groupDeviceTypeFilesTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupHasCustomizableDynamicFiles
      *
-     * @ElementName groupHasCustomizableDynamicFiles
-     * @return bool|null
+     * @return bool
      */
     public function getGroupHasCustomizableDynamicFiles()
     {
-        return $this->groupHasCustomizableDynamicFiles;
+        return $this->groupHasCustomizableDynamicFiles instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupHasCustomizableDynamicFiles;
     }
 
     /**
      * Setter for groupHasCustomizableDynamicFiles
      *
-     * @ElementName groupHasCustomizableDynamicFiles
-     * @param bool|null $groupHasCustomizableDynamicFiles
+     * @param bool $groupHasCustomizableDynamicFiles
      * @return $this
      */
     public function setGroupHasCustomizableDynamicFiles($groupHasCustomizableDynamicFiles)
     {
         $this->groupHasCustomizableDynamicFiles = $groupHasCustomizableDynamicFiles;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupHasCustomizableDynamicFiles()
+    {
+        $this->groupHasCustomizableDynamicFiles = null;
         return $this;
     }
 

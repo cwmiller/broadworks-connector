@@ -19,6 +19,7 @@ class GroupDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName groupDeviceTypeFilesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupDeviceTypeFilesTable = null;
@@ -26,24 +27,31 @@ class GroupDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for groupDeviceTypeFilesTable
      *
-     * @ElementName groupDeviceTypeFilesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getGroupDeviceTypeFilesTable()
     {
-        return $this->groupDeviceTypeFilesTable;
+        return $this->groupDeviceTypeFilesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupDeviceTypeFilesTable;
     }
 
     /**
      * Setter for groupDeviceTypeFilesTable
      *
-     * @ElementName groupDeviceTypeFilesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupDeviceTypeFilesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupDeviceTypeFilesTable
      * @return $this
      */
     public function setGroupDeviceTypeFilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupDeviceTypeFilesTable)
     {
         $this->groupDeviceTypeFilesTable = $groupDeviceTypeFilesTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupDeviceTypeFilesTable()
+    {
+        $this->groupDeviceTypeFilesTable = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class ServiceProviderServicePackGetServiceUsageListResponse extends \CWM\BroadWo
 
     /**
      * @ElementName serviceUsageTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceUsageTable = null;
@@ -23,24 +24,31 @@ class ServiceProviderServicePackGetServiceUsageListResponse extends \CWM\BroadWo
     /**
      * Getter for serviceUsageTable
      *
-     * @ElementName serviceUsageTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServiceUsageTable()
     {
-        return $this->serviceUsageTable;
+        return $this->serviceUsageTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUsageTable;
     }
 
     /**
      * Setter for serviceUsageTable
      *
-     * @ElementName serviceUsageTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceUsageTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceUsageTable
      * @return $this
      */
     public function setServiceUsageTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceUsageTable)
     {
         $this->serviceUsageTable = $serviceUsageTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceUsageTable()
+    {
+        $this->serviceUsageTable = null;
         return $this;
     }
 

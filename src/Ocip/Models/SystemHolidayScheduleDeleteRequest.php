@@ -16,6 +16,7 @@ class SystemHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName holidayScheduleName
+     * @Type string
      * @var string|null
      */
     private $holidayScheduleName = null;
@@ -23,24 +24,31 @@ class SystemHolidayScheduleDeleteRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
-     * @return string|null
+     * @return string
      */
     public function getHolidayScheduleName()
     {
-        return $this->holidayScheduleName;
+        return $this->holidayScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidayScheduleName;
     }
 
     /**
      * Setter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
-     * @param string|null $holidayScheduleName
+     * @param string $holidayScheduleName
      * @return $this
      */
     public function setHolidayScheduleName($holidayScheduleName)
     {
         $this->holidayScheduleName = $holidayScheduleName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidayScheduleName()
+    {
+        $this->holidayScheduleName = null;
         return $this;
     }
 

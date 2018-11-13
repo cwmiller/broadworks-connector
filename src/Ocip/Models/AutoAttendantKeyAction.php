@@ -30,7 +30,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AutoAttendantKeyAction TRANSFER_TO_SUBMENU()
  * @method static AutoAttendantKeyAction RETURN_TO_PREVIOUS_MENU()
  * @method static AutoAttendantKeyAction PLAY_ANNOUNCEMENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class AutoAttendantKeyAction extends \MyCLabs\Enum\Enum
 {

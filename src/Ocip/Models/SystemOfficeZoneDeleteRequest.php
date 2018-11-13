@@ -16,6 +16,7 @@ class SystemOfficeZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName officeZoneName
+     * @Type string
      * @var string|null
      */
     private $officeZoneName = null;
@@ -23,24 +24,31 @@ class SystemOfficeZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for officeZoneName
      *
-     * @ElementName officeZoneName
-     * @return string|null
+     * @return string
      */
     public function getOfficeZoneName()
     {
-        return $this->officeZoneName;
+        return $this->officeZoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->officeZoneName;
     }
 
     /**
      * Setter for officeZoneName
      *
-     * @ElementName officeZoneName
-     * @param string|null $officeZoneName
+     * @param string $officeZoneName
      * @return $this
      */
     public function setOfficeZoneName($officeZoneName)
     {
         $this->officeZoneName = $officeZoneName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOfficeZoneName()
+    {
+        $this->officeZoneName = null;
         return $this;
     }
 

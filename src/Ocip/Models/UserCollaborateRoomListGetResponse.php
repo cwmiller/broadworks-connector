@@ -18,6 +18,7 @@ class UserCollaborateRoomListGetResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName roomInstanceTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $roomInstanceTable = null;
@@ -25,24 +26,31 @@ class UserCollaborateRoomListGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for roomInstanceTable
      *
-     * @ElementName roomInstanceTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRoomInstanceTable()
     {
-        return $this->roomInstanceTable;
+        return $this->roomInstanceTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->roomInstanceTable;
     }
 
     /**
      * Setter for roomInstanceTable
      *
-     * @ElementName roomInstanceTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $roomInstanceTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $roomInstanceTable
      * @return $this
      */
     public function setRoomInstanceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $roomInstanceTable)
     {
         $this->roomInstanceTable = $roomInstanceTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoomInstanceTable()
+    {
+        $this->roomInstanceTable = null;
         return $this;
     }
 

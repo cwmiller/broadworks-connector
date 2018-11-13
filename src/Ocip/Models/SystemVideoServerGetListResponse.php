@@ -16,6 +16,7 @@ class SystemVideoServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName videoServerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $videoServerTable = null;
@@ -23,24 +24,31 @@ class SystemVideoServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for videoServerTable
      *
-     * @ElementName videoServerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getVideoServerTable()
     {
-        return $this->videoServerTable;
+        return $this->videoServerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoServerTable;
     }
 
     /**
      * Setter for videoServerTable
      *
-     * @ElementName videoServerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $videoServerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $videoServerTable
      * @return $this
      */
     public function setVideoServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $videoServerTable)
     {
         $this->videoServerTable = $videoServerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoServerTable()
+    {
+        $this->videoServerTable = null;
         return $this;
     }
 

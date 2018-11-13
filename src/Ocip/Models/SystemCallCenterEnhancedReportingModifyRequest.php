@@ -16,12 +16,14 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName archiveReports
+     * @Type bool
      * @var bool|null
      */
     private $archiveReports = null;
 
     /**
      * @ElementName reportApplicationURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,6 +31,7 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName repositoryApplicationURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,19 +40,17 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
     /**
      * Getter for archiveReports
      *
-     * @ElementName archiveReports
-     * @return bool|null
+     * @return bool
      */
     public function getArchiveReports()
     {
-        return $this->archiveReports;
+        return $this->archiveReports instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->archiveReports;
     }
 
     /**
      * Setter for archiveReports
      *
-     * @ElementName archiveReports
-     * @param bool|null $archiveReports
+     * @param bool $archiveReports
      * @return $this
      */
     public function setArchiveReports($archiveReports)
@@ -59,54 +60,81 @@ class SystemCallCenterEnhancedReportingModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetArchiveReports()
+    {
+        $this->archiveReports = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportApplicationURL
      *
-     * @ElementName reportApplicationURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getReportApplicationURL()
     {
-        return $this->reportApplicationURL;
+        return $this->reportApplicationURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportApplicationURL;
     }
 
     /**
      * Setter for reportApplicationURL
      *
-     * @ElementName reportApplicationURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $reportApplicationURL
+     * @param string|null $reportApplicationURL
      * @return $this
      */
     public function setReportApplicationURL($reportApplicationURL)
     {
-        $this->reportApplicationURL = $reportApplicationURL;
+        if ($reportApplicationURL === null) {
+            $this->reportApplicationURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->reportApplicationURL = $reportApplicationURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReportApplicationURL()
+    {
+        $this->reportApplicationURL = null;
         return $this;
     }
 
     /**
      * Getter for repositoryApplicationURL
      *
-     * @ElementName repositoryApplicationURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepositoryApplicationURL()
     {
-        return $this->repositoryApplicationURL;
+        return $this->repositoryApplicationURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repositoryApplicationURL;
     }
 
     /**
      * Setter for repositoryApplicationURL
      *
-     * @ElementName repositoryApplicationURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repositoryApplicationURL
+     * @param string|null $repositoryApplicationURL
      * @return $this
      */
     public function setRepositoryApplicationURL($repositoryApplicationURL)
     {
-        $this->repositoryApplicationURL = $repositoryApplicationURL;
+        if ($repositoryApplicationURL === null) {
+            $this->repositoryApplicationURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repositoryApplicationURL = $repositoryApplicationURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepositoryApplicationURL()
+    {
+        $this->repositoryApplicationURL = null;
         return $this;
     }
 

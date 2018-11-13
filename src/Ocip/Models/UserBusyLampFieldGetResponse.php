@@ -20,12 +20,14 @@ class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName listURI
+     * @Type string
      * @var string|null
      */
     private $listURI = null;
 
     /**
      * @ElementName monitoredUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;
@@ -33,19 +35,17 @@ class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for listURI
      *
-     * @ElementName listURI
-     * @return string|null
+     * @return string
      */
     public function getListURI()
     {
-        return $this->listURI;
+        return $this->listURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listURI;
     }
 
     /**
      * Setter for listURI
      *
-     * @ElementName listURI
-     * @param string|null $listURI
+     * @param string $listURI
      * @return $this
      */
     public function setListURI($listURI)
@@ -55,26 +55,42 @@ class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListURI()
+    {
+        $this->listURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for monitoredUserTable
      *
-     * @ElementName monitoredUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMonitoredUserTable()
     {
-        return $this->monitoredUserTable;
+        return $this->monitoredUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->monitoredUserTable;
     }
 
     /**
      * Setter for monitoredUserTable
      *
-     * @ElementName monitoredUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $monitoredUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $monitoredUserTable
      * @return $this
      */
     public function setMonitoredUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $monitoredUserTable)
     {
         $this->monitoredUserTable = $monitoredUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMonitoredUserTable()
+    {
+        $this->monitoredUserTable = null;
         return $this;
     }
 

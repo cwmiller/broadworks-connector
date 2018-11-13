@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static EnterpriseVoiceVPNDefaultSelection _PUBLIC()
  * @method static EnterpriseVoiceVPNDefaultSelection _PRIVATE()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseVoiceVPNDefaultSelection extends \MyCLabs\Enum\Enum
 {

@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceManagementEventStatusInProgressOrPending
  * PROCESS_ON_OTHER_HOST()
  * @method static DeviceManagementEventStatusInProgressOrPending STALE()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementEventStatusInProgressOrPending extends \MyCLabs\Enum\Enum
 {

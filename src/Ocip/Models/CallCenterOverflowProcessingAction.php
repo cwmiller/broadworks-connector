@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterOverflowProcessingAction BUSY()
  * @method static CallCenterOverflowProcessingAction TRANSFER()
  * @method static CallCenterOverflowProcessingAction RINGING()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterOverflowProcessingAction extends \MyCLabs\Enum\Enum
 {

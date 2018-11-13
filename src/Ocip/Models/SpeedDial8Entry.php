@@ -16,12 +16,14 @@ class SpeedDial8Entry
 
     /**
      * @ElementName speedCode
+     * @Type int
      * @var int|null
      */
     private $speedCode = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,6 +31,7 @@ class SpeedDial8Entry
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,19 +40,17 @@ class SpeedDial8Entry
     /**
      * Getter for speedCode
      *
-     * @ElementName speedCode
-     * @return int|null
+     * @return int
      */
     public function getSpeedCode()
     {
-        return $this->speedCode;
+        return $this->speedCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->speedCode;
     }
 
     /**
      * Setter for speedCode
      *
-     * @ElementName speedCode
-     * @param int|null $speedCode
+     * @param int $speedCode
      * @return $this
      */
     public function setSpeedCode($speedCode)
@@ -59,54 +60,81 @@ class SpeedDial8Entry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSpeedCode()
+    {
+        $this->speedCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
+     * @param string|null $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
     {
-        $this->phoneNumber = $phoneNumber;
+        if ($phoneNumber === null) {
+            $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->phoneNumber = $phoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

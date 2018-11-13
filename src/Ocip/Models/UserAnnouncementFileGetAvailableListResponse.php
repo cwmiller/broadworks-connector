@@ -28,6 +28,7 @@ class UserAnnouncementFileGetAvailableListResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName announcementTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $announcementTable = null;
@@ -35,24 +36,31 @@ class UserAnnouncementFileGetAvailableListResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for announcementTable
      *
-     * @ElementName announcementTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAnnouncementTable()
     {
-        return $this->announcementTable;
+        return $this->announcementTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementTable;
     }
 
     /**
      * Setter for announcementTable
      *
-     * @ElementName announcementTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $announcementTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $announcementTable
      * @return $this
      */
     public function setAnnouncementTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $announcementTable)
     {
         $this->announcementTable = $announcementTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementTable()
+    {
+        $this->announcementTable = null;
         return $this;
     }
 

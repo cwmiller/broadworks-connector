@@ -16,18 +16,22 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName homeZoneIpAddressList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList[]
      */
     private $homeZoneIpAddressList = array(
@@ -36,6 +40,8 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName homeZoneIpAddressRangeList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList[]
      */
     private $homeZoneIpAddressRangeList = array(
@@ -45,19 +51,17 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -67,21 +71,28 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -91,20 +102,27 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for homeZoneIpAddressList
      *
-     * @ElementName homeZoneIpAddressList
      * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList[]
      */
     public function getHomeZoneIpAddressList()
     {
-        return $this->homeZoneIpAddressList;
+        return $this->homeZoneIpAddressList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZoneIpAddressList;
     }
 
     /**
      * Setter for homeZoneIpAddressList
      *
-     * @ElementName homeZoneIpAddressList
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList[] $homeZoneIpAddressList
      * @return $this
      */
@@ -115,33 +133,39 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHomeZoneIpAddressList()
+    {
+        $this->homeZoneIpAddressList = null;
+        return $this;
+    }
+
+    /**
      * Adder for homeZoneIpAddressList
      *
-     * @ElementName homeZoneIpAddressList
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList $homeZoneIpAddressList
      * @return $this
      */
     public function addHomeZoneIpAddressList($homeZoneIpAddressList)
     {
-        $this->homeZoneIpAddressList []= $homeZoneIpAddressList;
+        $this->homeZoneIpAddressList[] = $homeZoneIpAddressList;
         return $this;
     }
 
     /**
      * Getter for homeZoneIpAddressRangeList
      *
-     * @ElementName homeZoneIpAddressRangeList
      * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList[]
      */
     public function getHomeZoneIpAddressRangeList()
     {
-        return $this->homeZoneIpAddressRangeList;
+        return $this->homeZoneIpAddressRangeList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZoneIpAddressRangeList;
     }
 
     /**
      * Setter for homeZoneIpAddressRangeList
      *
-     * @ElementName homeZoneIpAddressRangeList
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList[] $homeZoneIpAddressRangeList
      * @return $this
      */
@@ -152,15 +176,23 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHomeZoneIpAddressRangeList()
+    {
+        $this->homeZoneIpAddressRangeList = null;
+        return $this;
+    }
+
+    /**
      * Adder for homeZoneIpAddressRangeList
      *
-     * @ElementName homeZoneIpAddressRangeList
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList $homeZoneIpAddressRangeList
      * @return $this
      */
     public function addHomeZoneIpAddressRangeList($homeZoneIpAddressRangeList)
     {
-        $this->homeZoneIpAddressRangeList []= $homeZoneIpAddressRangeList;
+        $this->homeZoneIpAddressRangeList[] = $homeZoneIpAddressRangeList;
         return $this;
     }
 

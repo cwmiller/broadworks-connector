@@ -16,48 +16,56 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName alertingGroupName
+     * @Type string
      * @var string|null
      */
     private $alertingGroupName = null;
 
     /**
      * @ElementName alertingGroupDescription
+     * @Type string
      * @var string|null
      */
     private $alertingGroupDescription = null;
 
     /**
      * @ElementName useDiversionInhibitor
+     * @Type bool
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
 
     /**
      * @ElementName answerConfirmationRequired
+     * @Type bool
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
 
     /**
      * @ElementName numberOfRings
+     * @Type int
      * @var int|null
      */
     private $numberOfRings = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
@@ -65,19 +73,17 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -87,21 +93,28 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingGroupName
      *
-     * @ElementName alertingGroupName
-     * @return string|null
+     * @return string
      */
     public function getAlertingGroupName()
     {
-        return $this->alertingGroupName;
+        return $this->alertingGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingGroupName;
     }
 
     /**
      * Setter for alertingGroupName
      *
-     * @ElementName alertingGroupName
-     * @param string|null $alertingGroupName
+     * @param string $alertingGroupName
      * @return $this
      */
     public function setAlertingGroupName($alertingGroupName)
@@ -111,21 +124,28 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingGroupName()
+    {
+        $this->alertingGroupName = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingGroupDescription
      *
-     * @ElementName alertingGroupDescription
-     * @return string|null
+     * @return string
      */
     public function getAlertingGroupDescription()
     {
-        return $this->alertingGroupDescription;
+        return $this->alertingGroupDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingGroupDescription;
     }
 
     /**
      * Setter for alertingGroupDescription
      *
-     * @ElementName alertingGroupDescription
-     * @param string|null $alertingGroupDescription
+     * @param string $alertingGroupDescription
      * @return $this
      */
     public function setAlertingGroupDescription($alertingGroupDescription)
@@ -135,21 +155,28 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingGroupDescription()
+    {
+        $this->alertingGroupDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDiversionInhibitor
      *
-     * @ElementName useDiversionInhibitor
-     * @return bool|null
+     * @return bool
      */
     public function getUseDiversionInhibitor()
     {
-        return $this->useDiversionInhibitor;
+        return $this->useDiversionInhibitor instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDiversionInhibitor;
     }
 
     /**
      * Setter for useDiversionInhibitor
      *
-     * @ElementName useDiversionInhibitor
-     * @param bool|null $useDiversionInhibitor
+     * @param bool $useDiversionInhibitor
      * @return $this
      */
     public function setUseDiversionInhibitor($useDiversionInhibitor)
@@ -159,21 +186,28 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDiversionInhibitor()
+    {
+        $this->useDiversionInhibitor = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @return bool|null
+     * @return bool
      */
     public function getAnswerConfirmationRequired()
     {
-        return $this->answerConfirmationRequired;
+        return $this->answerConfirmationRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerConfirmationRequired;
     }
 
     /**
      * Setter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @param bool|null $answerConfirmationRequired
+     * @param bool $answerConfirmationRequired
      * @return $this
      */
     public function setAnswerConfirmationRequired($answerConfirmationRequired)
@@ -183,21 +217,28 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnswerConfirmationRequired()
+    {
+        $this->answerConfirmationRequired = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @return int|null
+     * @return int
      */
     public function getNumberOfRings()
     {
-        return $this->numberOfRings;
+        return $this->numberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfRings;
     }
 
     /**
      * Setter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @param int|null $numberOfRings
+     * @param int $numberOfRings
      * @return $this
      */
     public function setNumberOfRings($numberOfRings)
@@ -207,21 +248,28 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfRings()
+    {
+        $this->numberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -231,26 +279,42 @@ class GroupFindMeFollowMeAddAlertingGroupRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
     {
         $this->userId = $userId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
         return $this;
     }
 

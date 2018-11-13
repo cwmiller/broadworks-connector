@@ -17,30 +17,35 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName enableCallDispositionCodes
+     * @Type bool
      * @var bool|null
      */
     private $enableCallDispositionCodes = null;
 
     /**
      * @ElementName includeOrganizationCodes
+     * @Type bool
      * @var bool|null
      */
     private $includeOrganizationCodes = null;
 
     /**
      * @ElementName forceUseOfCallDispositionCodes
+     * @Type bool
      * @var bool|null
      */
     private $forceUseOfCallDispositionCodes = null;
 
     /**
      * @ElementName defaultCallDispositionCode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,6 +53,8 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
 
     /**
      * @ElementName callDispositionCodeActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[]
      */
     private $callDispositionCodeActivation = array(
@@ -57,19 +64,17 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -79,21 +84,28 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCallDispositionCodes
      *
-     * @ElementName enableCallDispositionCodes
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCallDispositionCodes()
     {
-        return $this->enableCallDispositionCodes;
+        return $this->enableCallDispositionCodes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCallDispositionCodes;
     }
 
     /**
      * Setter for enableCallDispositionCodes
      *
-     * @ElementName enableCallDispositionCodes
-     * @param bool|null $enableCallDispositionCodes
+     * @param bool $enableCallDispositionCodes
      * @return $this
      */
     public function setEnableCallDispositionCodes($enableCallDispositionCodes)
@@ -103,21 +115,28 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableCallDispositionCodes()
+    {
+        $this->enableCallDispositionCodes = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeOrganizationCodes
      *
-     * @ElementName includeOrganizationCodes
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeOrganizationCodes()
     {
-        return $this->includeOrganizationCodes;
+        return $this->includeOrganizationCodes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeOrganizationCodes;
     }
 
     /**
      * Setter for includeOrganizationCodes
      *
-     * @ElementName includeOrganizationCodes
-     * @param bool|null $includeOrganizationCodes
+     * @param bool $includeOrganizationCodes
      * @return $this
      */
     public function setIncludeOrganizationCodes($includeOrganizationCodes)
@@ -127,21 +146,28 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeOrganizationCodes()
+    {
+        $this->includeOrganizationCodes = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceUseOfCallDispositionCodes
      *
-     * @ElementName forceUseOfCallDispositionCodes
-     * @return bool|null
+     * @return bool
      */
     public function getForceUseOfCallDispositionCodes()
     {
-        return $this->forceUseOfCallDispositionCodes;
+        return $this->forceUseOfCallDispositionCodes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceUseOfCallDispositionCodes;
     }
 
     /**
      * Setter for forceUseOfCallDispositionCodes
      *
-     * @ElementName forceUseOfCallDispositionCodes
-     * @param bool|null $forceUseOfCallDispositionCodes
+     * @param bool $forceUseOfCallDispositionCodes
      * @return $this
      */
     public function setForceUseOfCallDispositionCodes($forceUseOfCallDispositionCodes)
@@ -151,46 +177,62 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForceUseOfCallDispositionCodes()
+    {
+        $this->forceUseOfCallDispositionCodes = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultCallDispositionCode
      *
-     * @ElementName defaultCallDispositionCode
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null
      */
     public function getDefaultCallDispositionCode()
     {
-        return $this->defaultCallDispositionCode;
+        return $this->defaultCallDispositionCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultCallDispositionCode;
     }
 
     /**
      * Setter for defaultCallDispositionCode
      *
-     * @ElementName defaultCallDispositionCode
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultCallDispositionCode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null $defaultCallDispositionCode
      * @return $this
      */
     public function setDefaultCallDispositionCode(\CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel $defaultCallDispositionCode)
     {
-        $this->defaultCallDispositionCode = $defaultCallDispositionCode;
+        if ($defaultCallDispositionCode === null) {
+            $this->defaultCallDispositionCode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->defaultCallDispositionCode = $defaultCallDispositionCode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultCallDispositionCode()
+    {
+        $this->defaultCallDispositionCode = null;
         return $this;
     }
 
     /**
      * Getter for callDispositionCodeActivation
      *
-     * @ElementName callDispositionCodeActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[]
      */
     public function getCallDispositionCodeActivation()
     {
-        return $this->callDispositionCodeActivation;
+        return $this->callDispositionCodeActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callDispositionCodeActivation;
     }
 
     /**
      * Setter for callDispositionCodeActivation
      *
-     * @ElementName callDispositionCodeActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[] $callDispositionCodeActivation
      * @return $this
      */
@@ -201,15 +243,23 @@ class GroupRoutePointQueueCallDispositionCodeSettingsModifyRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallDispositionCodeActivation()
+    {
+        $this->callDispositionCodeActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for callDispositionCodeActivation
      *
-     * @ElementName callDispositionCodeActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation $callDispositionCodeActivation
      * @return $this
      */
     public function addCallDispositionCodeActivation($callDispositionCodeActivation)
     {
-        $this->callDispositionCodeActivation []= $callDispositionCodeActivation;
+        $this->callDispositionCodeActivation[] = $callDispositionCodeActivation;
         return $this;
     }
 

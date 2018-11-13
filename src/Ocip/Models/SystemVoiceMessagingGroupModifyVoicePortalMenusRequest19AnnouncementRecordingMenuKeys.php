@@ -10,24 +10,28 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
 
     /**
      * @ElementName acceptRecording
+     * @Type string
      * @var string|null
      */
     private $acceptRecording = null;
 
     /**
      * @ElementName rejectRerecord
+     * @Type string
      * @var string|null
      */
     private $rejectRerecord = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,6 +39,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
 
     /**
      * @ElementName end
+     * @Type string
      * @var string|null
      */
     private $end = null;
@@ -42,19 +47,17 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
     /**
      * Getter for acceptRecording
      *
-     * @ElementName acceptRecording
-     * @return string|null
+     * @return string
      */
     public function getAcceptRecording()
     {
-        return $this->acceptRecording;
+        return $this->acceptRecording instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->acceptRecording;
     }
 
     /**
      * Setter for acceptRecording
      *
-     * @ElementName acceptRecording
-     * @param string|null $acceptRecording
+     * @param string $acceptRecording
      * @return $this
      */
     public function setAcceptRecording($acceptRecording)
@@ -64,21 +67,28 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAcceptRecording()
+    {
+        $this->acceptRecording = null;
+        return $this;
+    }
+
+    /**
      * Getter for rejectRerecord
      *
-     * @ElementName rejectRerecord
-     * @return string|null
+     * @return string
      */
     public function getRejectRerecord()
     {
-        return $this->rejectRerecord;
+        return $this->rejectRerecord instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rejectRerecord;
     }
 
     /**
      * Setter for rejectRerecord
      *
-     * @ElementName rejectRerecord
-     * @param string|null $rejectRerecord
+     * @param string $rejectRerecord
      * @return $this
      */
     public function setRejectRerecord($rejectRerecord)
@@ -88,21 +98,28 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRejectRerecord()
+    {
+        $this->rejectRerecord = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -112,52 +129,77 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 
     /**
      * Getter for end
      *
-     * @ElementName end
-     * @return string|null
+     * @return string
      */
     public function getEnd()
     {
-        return $this->end;
+        return $this->end instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->end;
     }
 
     /**
      * Setter for end
      *
-     * @ElementName end
-     * @param string|null $end
+     * @param string $end
      * @return $this
      */
     public function setEnd($end)
     {
         $this->end = $end;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnd()
+    {
+        $this->end = null;
         return $this;
     }
 

@@ -19,6 +19,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest extends
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,24 +27,31 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest extends
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
     {
         $this->serviceProviderId = $serviceProviderId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
         return $this;
     }
 

@@ -14,6 +14,8 @@ class ReplacementAlternateUserIdEntryList
 
     /**
      * @ElementName alternateUserId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[]
      */
     private $alternateUserId = array(
@@ -23,18 +25,16 @@ class ReplacementAlternateUserIdEntryList
     /**
      * Getter for alternateUserId
      *
-     * @ElementName alternateUserId
      * @return \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[]
      */
     public function getAlternateUserId()
     {
-        return $this->alternateUserId;
+        return $this->alternateUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateUserId;
     }
 
     /**
      * Setter for alternateUserId
      *
-     * @ElementName alternateUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[] $alternateUserId
      * @return $this
      */
@@ -45,15 +45,23 @@ class ReplacementAlternateUserIdEntryList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateUserId()
+    {
+        $this->alternateUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for alternateUserId
      *
-     * @ElementName alternateUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry $alternateUserId
      * @return $this
      */
     public function addAlternateUserId($alternateUserId)
     {
-        $this->alternateUserId []= $alternateUserId;
+        $this->alternateUserId[] = $alternateUserId;
         return $this;
     }
 

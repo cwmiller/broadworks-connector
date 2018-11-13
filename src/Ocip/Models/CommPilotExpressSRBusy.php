@@ -13,12 +13,14 @@ class CommPilotExpressSRBusy
 
     /**
      * @ElementName incomingCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException|null
      */
     private $incomingCalls = null;
 
     /**
      * @ElementName incomingCallNotify
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null
      */
     private $incomingCallNotify = null;
@@ -26,19 +28,17 @@ class CommPilotExpressSRBusy
     /**
      * Getter for incomingCalls
      *
-     * @ElementName incomingCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException
      */
     public function getIncomingCalls()
     {
-        return $this->incomingCalls;
+        return $this->incomingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingCalls;
     }
 
     /**
      * Setter for incomingCalls
      *
-     * @ElementName incomingCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException|null $incomingCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException $incomingCalls
      * @return $this
      */
     public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithException $incomingCalls)
@@ -48,26 +48,42 @@ class CommPilotExpressSRBusy
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncomingCalls()
+    {
+        $this->incomingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for incomingCallNotify
      *
-     * @ElementName incomingCallNotify
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify
      */
     public function getIncomingCallNotify()
     {
-        return $this->incomingCallNotify;
+        return $this->incomingCallNotify instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingCallNotify;
     }
 
     /**
      * Setter for incomingCallNotify
      *
-     * @ElementName incomingCallNotify
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null $incomingCallNotify
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify $incomingCallNotify
      * @return $this
      */
     public function setIncomingCallNotify(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify $incomingCallNotify)
     {
         $this->incomingCallNotify = $incomingCallNotify;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncomingCallNotify()
+    {
+        $this->incomingCallNotify = null;
         return $this;
     }
 

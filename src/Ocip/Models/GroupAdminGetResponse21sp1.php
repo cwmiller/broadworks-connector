@@ -15,42 +15,49 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName firstName
+     * @Type string
      * @var string|null
      */
     private $firstName = null;
 
     /**
      * @ElementName lastName
+     * @Type string
      * @var string|null
      */
     private $lastName = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName locale
+     * @Type string
      * @var string|null
      */
     private $locale = null;
 
     /**
      * @ElementName encoding
+     * @Type string
      * @var string|null
      */
     private $encoding = null;
@@ -58,19 +65,17 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -80,21 +85,28 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -104,21 +116,28 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @return string|null
+     * @return string
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @param string|null $firstName
+     * @param string $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -128,21 +147,28 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @return string|null
+     * @return string
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @param string|null $lastName
+     * @param string $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -152,21 +178,28 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -176,21 +209,28 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for locale
      *
-     * @ElementName locale
-     * @return string|null
+     * @return string
      */
     public function getLocale()
     {
-        return $this->locale;
+        return $this->locale instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locale;
     }
 
     /**
      * Setter for locale
      *
-     * @ElementName locale
-     * @param string|null $locale
+     * @param string $locale
      * @return $this
      */
     public function setLocale($locale)
@@ -200,26 +240,42 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocale()
+    {
+        $this->locale = null;
+        return $this;
+    }
+
+    /**
      * Getter for encoding
      *
-     * @ElementName encoding
-     * @return string|null
+     * @return string
      */
     public function getEncoding()
     {
-        return $this->encoding;
+        return $this->encoding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->encoding;
     }
 
     /**
      * Setter for encoding
      *
-     * @ElementName encoding
-     * @param string|null $encoding
+     * @param string $encoding
      * @return $this
      */
     public function setEncoding($encoding)
     {
         $this->encoding = $encoding;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEncoding()
+    {
+        $this->encoding = null;
         return $this;
     }
 

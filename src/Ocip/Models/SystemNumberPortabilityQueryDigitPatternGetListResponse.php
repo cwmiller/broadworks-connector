@@ -16,6 +16,7 @@ class SystemNumberPortabilityQueryDigitPatternGetListResponse extends \CWM\Broad
 
     /**
      * @ElementName statusDigitPatternTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $statusDigitPatternTable = null;
@@ -23,24 +24,31 @@ class SystemNumberPortabilityQueryDigitPatternGetListResponse extends \CWM\Broad
     /**
      * Getter for statusDigitPatternTable
      *
-     * @ElementName statusDigitPatternTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getStatusDigitPatternTable()
     {
-        return $this->statusDigitPatternTable;
+        return $this->statusDigitPatternTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statusDigitPatternTable;
     }
 
     /**
      * Setter for statusDigitPatternTable
      *
-     * @ElementName statusDigitPatternTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $statusDigitPatternTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $statusDigitPatternTable
      * @return $this
      */
     public function setStatusDigitPatternTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $statusDigitPatternTable)
     {
         $this->statusDigitPatternTable = $statusDigitPatternTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatusDigitPatternTable()
+    {
+        $this->statusDigitPatternTable = null;
         return $this;
     }
 

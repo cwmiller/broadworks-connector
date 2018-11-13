@@ -18,6 +18,7 @@ class TrunkAddressingMultipleContactModify
 
     /**
      * @ElementName trunkGroupDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -25,6 +26,7 @@ class TrunkAddressingMultipleContactModify
 
     /**
      * @ElementName enterpriseTrunkName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -32,6 +34,7 @@ class TrunkAddressingMultipleContactModify
 
     /**
      * @ElementName alternateTrunkIdentity
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -39,6 +42,7 @@ class TrunkAddressingMultipleContactModify
 
     /**
      * @ElementName alternateTrunkIdentityDomain
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -46,6 +50,7 @@ class TrunkAddressingMultipleContactModify
 
     /**
      * @ElementName physicalLocation
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -54,130 +59,175 @@ class TrunkAddressingMultipleContactModify
     /**
      * Getter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null
      */
     public function getTrunkGroupDeviceEndpoint()
     {
-        return $this->trunkGroupDeviceEndpoint;
+        return $this->trunkGroupDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupDeviceEndpoint;
     }
 
     /**
      * Setter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $trunkGroupDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null $trunkGroupDeviceEndpoint
      * @return $this
      */
     public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify $trunkGroupDeviceEndpoint)
     {
-        $this->trunkGroupDeviceEndpoint = $trunkGroupDeviceEndpoint;
+        if ($trunkGroupDeviceEndpoint === null) {
+            $this->trunkGroupDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->trunkGroupDeviceEndpoint = $trunkGroupDeviceEndpoint;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrunkGroupDeviceEndpoint()
+    {
+        $this->trunkGroupDeviceEndpoint = null;
         return $this;
     }
 
     /**
      * Getter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getEnterpriseTrunkName()
     {
-        return $this->enterpriseTrunkName;
+        return $this->enterpriseTrunkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseTrunkName;
     }
 
     /**
      * Setter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $enterpriseTrunkName
+     * @param string|null $enterpriseTrunkName
      * @return $this
      */
     public function setEnterpriseTrunkName($enterpriseTrunkName)
     {
-        $this->enterpriseTrunkName = $enterpriseTrunkName;
+        if ($enterpriseTrunkName === null) {
+            $this->enterpriseTrunkName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->enterpriseTrunkName = $enterpriseTrunkName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnterpriseTrunkName()
+    {
+        $this->enterpriseTrunkName = null;
         return $this;
     }
 
     /**
      * Getter for alternateTrunkIdentity
      *
-     * @ElementName alternateTrunkIdentity
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAlternateTrunkIdentity()
     {
-        return $this->alternateTrunkIdentity;
+        return $this->alternateTrunkIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateTrunkIdentity;
     }
 
     /**
      * Setter for alternateTrunkIdentity
      *
-     * @ElementName alternateTrunkIdentity
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alternateTrunkIdentity
+     * @param string|null $alternateTrunkIdentity
      * @return $this
      */
     public function setAlternateTrunkIdentity($alternateTrunkIdentity)
     {
-        $this->alternateTrunkIdentity = $alternateTrunkIdentity;
+        if ($alternateTrunkIdentity === null) {
+            $this->alternateTrunkIdentity = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->alternateTrunkIdentity = $alternateTrunkIdentity;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlternateTrunkIdentity()
+    {
+        $this->alternateTrunkIdentity = null;
         return $this;
     }
 
     /**
      * Getter for alternateTrunkIdentityDomain
      *
-     * @ElementName alternateTrunkIdentityDomain
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAlternateTrunkIdentityDomain()
     {
-        return $this->alternateTrunkIdentityDomain;
+        return $this->alternateTrunkIdentityDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateTrunkIdentityDomain;
     }
 
     /**
      * Setter for alternateTrunkIdentityDomain
      *
-     * @ElementName alternateTrunkIdentityDomain
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alternateTrunkIdentityDomain
+     * @param string|null $alternateTrunkIdentityDomain
      * @return $this
      */
     public function setAlternateTrunkIdentityDomain($alternateTrunkIdentityDomain)
     {
-        $this->alternateTrunkIdentityDomain = $alternateTrunkIdentityDomain;
+        if ($alternateTrunkIdentityDomain === null) {
+            $this->alternateTrunkIdentityDomain = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->alternateTrunkIdentityDomain = $alternateTrunkIdentityDomain;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlternateTrunkIdentityDomain()
+    {
+        $this->alternateTrunkIdentityDomain = null;
         return $this;
     }
 
     /**
      * Getter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPhysicalLocation()
     {
-        return $this->physicalLocation;
+        return $this->physicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->physicalLocation;
     }
 
     /**
      * Setter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $physicalLocation
+     * @param string|null $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)
     {
-        $this->physicalLocation = $physicalLocation;
+        if ($physicalLocation === null) {
+            $this->physicalLocation = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->physicalLocation = $physicalLocation;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhysicalLocation()
+    {
+        $this->physicalLocation = null;
         return $this;
     }
 

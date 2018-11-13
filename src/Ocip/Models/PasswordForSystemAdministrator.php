@@ -16,12 +16,14 @@ class PasswordForSystemAdministrator
 
     /**
      * @ElementName administratorId
+     * @Type string
      * @var string|null
      */
     private $administratorId = null;
 
     /**
      * @ElementName generatePassword
+     * @Type bool
      * @var bool|null
      */
     private $generatePassword = null;
@@ -29,19 +31,17 @@ class PasswordForSystemAdministrator
     /**
      * Getter for administratorId
      *
-     * @ElementName administratorId
-     * @return string|null
+     * @return string
      */
     public function getAdministratorId()
     {
-        return $this->administratorId;
+        return $this->administratorId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->administratorId;
     }
 
     /**
      * Setter for administratorId
      *
-     * @ElementName administratorId
-     * @param string|null $administratorId
+     * @param string $administratorId
      * @return $this
      */
     public function setAdministratorId($administratorId)
@@ -51,26 +51,42 @@ class PasswordForSystemAdministrator
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAdministratorId()
+    {
+        $this->administratorId = null;
+        return $this;
+    }
+
+    /**
      * Getter for generatePassword
      *
-     * @ElementName generatePassword
-     * @return bool|null
+     * @return bool
      */
     public function getGeneratePassword()
     {
-        return $this->generatePassword;
+        return $this->generatePassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->generatePassword;
     }
 
     /**
      * Setter for generatePassword
      *
-     * @ElementName generatePassword
-     * @param bool|null $generatePassword
+     * @param bool $generatePassword
      * @return $this
      */
     public function setGeneratePassword($generatePassword)
     {
         $this->generatePassword = $generatePassword;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGeneratePassword()
+    {
+        $this->generatePassword = null;
         return $this;
     }
 

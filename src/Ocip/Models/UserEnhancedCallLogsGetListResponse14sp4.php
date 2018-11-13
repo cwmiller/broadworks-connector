@@ -16,6 +16,8 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName placed
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
     private $placed = array(
@@ -24,6 +26,8 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName received
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
     private $received = array(
@@ -32,6 +36,8 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName missed
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
     private $missed = array(
@@ -41,18 +47,16 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
     /**
      * Getter for placed
      *
-     * @ElementName placed
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
     public function getPlaced()
     {
-        return $this->placed;
+        return $this->placed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->placed;
     }
 
     /**
      * Setter for placed
      *
-     * @ElementName placed
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[] $placed
      * @return $this
      */
@@ -63,33 +67,39 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlaced()
+    {
+        $this->placed = null;
+        return $this;
+    }
+
+    /**
      * Adder for placed
      *
-     * @ElementName placed
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry $placed
      * @return $this
      */
     public function addPlaced($placed)
     {
-        $this->placed []= $placed;
+        $this->placed[] = $placed;
         return $this;
     }
 
     /**
      * Getter for received
      *
-     * @ElementName received
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
     public function getReceived()
     {
-        return $this->received;
+        return $this->received instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->received;
     }
 
     /**
      * Setter for received
      *
-     * @ElementName received
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[] $received
      * @return $this
      */
@@ -100,33 +110,39 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReceived()
+    {
+        $this->received = null;
+        return $this;
+    }
+
+    /**
      * Adder for received
      *
-     * @ElementName received
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry $received
      * @return $this
      */
     public function addReceived($received)
     {
-        $this->received []= $received;
+        $this->received[] = $received;
         return $this;
     }
 
     /**
      * Getter for missed
      *
-     * @ElementName missed
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[]
      */
     public function getMissed()
     {
-        return $this->missed;
+        return $this->missed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->missed;
     }
 
     /**
      * Setter for missed
      *
-     * @ElementName missed
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry[] $missed
      * @return $this
      */
@@ -137,15 +153,23 @@ class UserEnhancedCallLogsGetListResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMissed()
+    {
+        $this->missed = null;
+        return $this;
+    }
+
+    /**
      * Adder for missed
      *
-     * @ElementName missed
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsEntry $missed
      * @return $this
      */
     public function addMissed($missed)
     {
-        $this->missed []= $missed;
+        $this->missed[] = $missed;
         return $this;
     }
 

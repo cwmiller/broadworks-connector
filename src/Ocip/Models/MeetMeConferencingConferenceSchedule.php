@@ -12,18 +12,21 @@ class MeetMeConferencingConferenceSchedule
 
     /**
      * @ElementName scheduleReservationless
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless|null
      */
     private $scheduleReservationless = null;
 
     /**
      * @ElementName scheduleOneTime
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime|null
      */
     private $scheduleOneTime = null;
 
     /**
      * @ElementName scheduleRecurring
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring|null
      */
     private $scheduleRecurring = null;
@@ -31,19 +34,17 @@ class MeetMeConferencingConferenceSchedule
     /**
      * Getter for scheduleReservationless
      *
-     * @ElementName scheduleReservationless
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless
      */
     public function getScheduleReservationless()
     {
-        return $this->scheduleReservationless;
+        return $this->scheduleReservationless instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleReservationless;
     }
 
     /**
      * Setter for scheduleReservationless
      *
-     * @ElementName scheduleReservationless
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless|null $scheduleReservationless
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless $scheduleReservationless
      * @return $this
      */
     public function setScheduleReservationless(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleReservationless $scheduleReservationless)
@@ -53,21 +54,28 @@ class MeetMeConferencingConferenceSchedule
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleReservationless()
+    {
+        $this->scheduleReservationless = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleOneTime
      *
-     * @ElementName scheduleOneTime
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime
      */
     public function getScheduleOneTime()
     {
-        return $this->scheduleOneTime;
+        return $this->scheduleOneTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleOneTime;
     }
 
     /**
      * Setter for scheduleOneTime
      *
-     * @ElementName scheduleOneTime
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime|null $scheduleOneTime
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime $scheduleOneTime
      * @return $this
      */
     public function setScheduleOneTime(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleOneTime $scheduleOneTime)
@@ -77,26 +85,42 @@ class MeetMeConferencingConferenceSchedule
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleOneTime()
+    {
+        $this->scheduleOneTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleRecurring
      *
-     * @ElementName scheduleRecurring
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring
      */
     public function getScheduleRecurring()
     {
-        return $this->scheduleRecurring;
+        return $this->scheduleRecurring instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleRecurring;
     }
 
     /**
      * Setter for scheduleRecurring
      *
-     * @ElementName scheduleRecurring
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring|null $scheduleRecurring
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring $scheduleRecurring
      * @return $this
      */
     public function setScheduleRecurring(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceScheduleScheduleRecurring $scheduleRecurring)
     {
         $this->scheduleRecurring = $scheduleRecurring;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScheduleRecurring()
+    {
+        $this->scheduleRecurring = null;
         return $this;
     }
 

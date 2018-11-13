@@ -22,30 +22,35 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName webServerClusterPublicFQDN
+     * @Type string
      * @var string|null
      */
     private $webServerClusterPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterPrimaryPublicFQDN
+     * @Type string
      * @var string|null
      */
     private $applicationServerClusterPrimaryPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterSecondaryPublicFQDN
+     * @Type string
      * @var string|null
      */
     private $applicationServerClusterSecondaryPublicFQDN = null;
 
     /**
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
+     * @Type string
      * @var string|null
      */
     private $applicationServerClusterPrimaryPrivateFQDN = null;
 
     /**
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
+     * @Type string
      * @var string|null
      */
     private $applicationServerClusterSecondaryPrivateFQDN = null;
@@ -53,19 +58,17 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for webServerClusterPublicFQDN
      *
-     * @ElementName webServerClusterPublicFQDN
-     * @return string|null
+     * @return string
      */
     public function getWebServerClusterPublicFQDN()
     {
-        return $this->webServerClusterPublicFQDN;
+        return $this->webServerClusterPublicFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->webServerClusterPublicFQDN;
     }
 
     /**
      * Setter for webServerClusterPublicFQDN
      *
-     * @ElementName webServerClusterPublicFQDN
-     * @param string|null $webServerClusterPublicFQDN
+     * @param string $webServerClusterPublicFQDN
      * @return $this
      */
     public function setWebServerClusterPublicFQDN($webServerClusterPublicFQDN)
@@ -75,21 +78,28 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetWebServerClusterPublicFQDN()
+    {
+        $this->webServerClusterPublicFQDN = null;
+        return $this;
+    }
+
+    /**
      * Getter for applicationServerClusterPrimaryPublicFQDN
      *
-     * @ElementName applicationServerClusterPrimaryPublicFQDN
-     * @return string|null
+     * @return string
      */
     public function getApplicationServerClusterPrimaryPublicFQDN()
     {
-        return $this->applicationServerClusterPrimaryPublicFQDN;
+        return $this->applicationServerClusterPrimaryPublicFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationServerClusterPrimaryPublicFQDN;
     }
 
     /**
      * Setter for applicationServerClusterPrimaryPublicFQDN
      *
-     * @ElementName applicationServerClusterPrimaryPublicFQDN
-     * @param string|null $applicationServerClusterPrimaryPublicFQDN
+     * @param string $applicationServerClusterPrimaryPublicFQDN
      * @return $this
      */
     public function setApplicationServerClusterPrimaryPublicFQDN($applicationServerClusterPrimaryPublicFQDN)
@@ -99,21 +109,28 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationServerClusterPrimaryPublicFQDN()
+    {
+        $this->applicationServerClusterPrimaryPublicFQDN = null;
+        return $this;
+    }
+
+    /**
      * Getter for applicationServerClusterSecondaryPublicFQDN
      *
-     * @ElementName applicationServerClusterSecondaryPublicFQDN
-     * @return string|null
+     * @return string
      */
     public function getApplicationServerClusterSecondaryPublicFQDN()
     {
-        return $this->applicationServerClusterSecondaryPublicFQDN;
+        return $this->applicationServerClusterSecondaryPublicFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationServerClusterSecondaryPublicFQDN;
     }
 
     /**
      * Setter for applicationServerClusterSecondaryPublicFQDN
      *
-     * @ElementName applicationServerClusterSecondaryPublicFQDN
-     * @param string|null $applicationServerClusterSecondaryPublicFQDN
+     * @param string $applicationServerClusterSecondaryPublicFQDN
      * @return $this
      */
     public function setApplicationServerClusterSecondaryPublicFQDN($applicationServerClusterSecondaryPublicFQDN)
@@ -123,21 +140,28 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationServerClusterSecondaryPublicFQDN()
+    {
+        $this->applicationServerClusterSecondaryPublicFQDN = null;
+        return $this;
+    }
+
+    /**
      * Getter for applicationServerClusterPrimaryPrivateFQDN
      *
-     * @ElementName applicationServerClusterPrimaryPrivateFQDN
-     * @return string|null
+     * @return string
      */
     public function getApplicationServerClusterPrimaryPrivateFQDN()
     {
-        return $this->applicationServerClusterPrimaryPrivateFQDN;
+        return $this->applicationServerClusterPrimaryPrivateFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationServerClusterPrimaryPrivateFQDN;
     }
 
     /**
      * Setter for applicationServerClusterPrimaryPrivateFQDN
      *
-     * @ElementName applicationServerClusterPrimaryPrivateFQDN
-     * @param string|null $applicationServerClusterPrimaryPrivateFQDN
+     * @param string $applicationServerClusterPrimaryPrivateFQDN
      * @return $this
      */
     public function setApplicationServerClusterPrimaryPrivateFQDN($applicationServerClusterPrimaryPrivateFQDN)
@@ -147,26 +171,42 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationServerClusterPrimaryPrivateFQDN()
+    {
+        $this->applicationServerClusterPrimaryPrivateFQDN = null;
+        return $this;
+    }
+
+    /**
      * Getter for applicationServerClusterSecondaryPrivateFQDN
      *
-     * @ElementName applicationServerClusterSecondaryPrivateFQDN
-     * @return string|null
+     * @return string
      */
     public function getApplicationServerClusterSecondaryPrivateFQDN()
     {
-        return $this->applicationServerClusterSecondaryPrivateFQDN;
+        return $this->applicationServerClusterSecondaryPrivateFQDN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationServerClusterSecondaryPrivateFQDN;
     }
 
     /**
      * Setter for applicationServerClusterSecondaryPrivateFQDN
      *
-     * @ElementName applicationServerClusterSecondaryPrivateFQDN
-     * @param string|null $applicationServerClusterSecondaryPrivateFQDN
+     * @param string $applicationServerClusterSecondaryPrivateFQDN
      * @return $this
      */
     public function setApplicationServerClusterSecondaryPrivateFQDN($applicationServerClusterSecondaryPrivateFQDN)
     {
         $this->applicationServerClusterSecondaryPrivateFQDN = $applicationServerClusterSecondaryPrivateFQDN;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationServerClusterSecondaryPrivateFQDN()
+    {
+        $this->applicationServerClusterSecondaryPrivateFQDN = null;
         return $this;
     }
 

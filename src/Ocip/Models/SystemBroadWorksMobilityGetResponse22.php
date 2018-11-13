@@ -14,48 +14,56 @@ class SystemBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName enableLocationServices
+     * @Type bool
      * @var bool|null
      */
     private $enableLocationServices = null;
 
     /**
      * @ElementName enableMSRNLookup
+     * @Type bool
      * @var bool|null
      */
     private $enableMSRNLookup = null;
 
     /**
      * @ElementName enableMobileStateChecking
+     * @Type bool
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
 
     /**
      * @ElementName denyCallOriginations
+     * @Type bool
      * @var bool|null
      */
     private $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
+     * @Type bool
      * @var bool|null
      */
     private $denyCallTerminations = null;
 
     /**
      * @ElementName imrnTimeoutMillisecnds
+     * @Type int
      * @var int|null
      */
     private $imrnTimeoutMillisecnds = null;
 
     /**
      * @ElementName enableInternalCLIDDelivery
+     * @Type bool
      * @var bool|null
      */
     private $enableInternalCLIDDelivery = null;
 
     /**
      * @ElementName includeRedirectForMobilityTermination
+     * @Type bool
      * @var bool|null
      */
     private $includeRedirectForMobilityTermination = null;
@@ -63,19 +71,17 @@ class SystemBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for enableLocationServices
      *
-     * @ElementName enableLocationServices
-     * @return bool|null
+     * @return bool
      */
     public function getEnableLocationServices()
     {
-        return $this->enableLocationServices;
+        return $this->enableLocationServices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableLocationServices;
     }
 
     /**
      * Setter for enableLocationServices
      *
-     * @ElementName enableLocationServices
-     * @param bool|null $enableLocationServices
+     * @param bool $enableLocationServices
      * @return $this
      */
     public function setEnableLocationServices($enableLocationServices)
@@ -85,21 +91,28 @@ class SystemBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableLocationServices()
+    {
+        $this->enableLocationServices = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableMSRNLookup
      *
-     * @ElementName enableMSRNLookup
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMSRNLookup()
     {
-        return $this->enableMSRNLookup;
+        return $this->enableMSRNLookup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMSRNLookup;
     }
 
     /**
      * Setter for enableMSRNLookup
      *
-     * @ElementName enableMSRNLookup
-     * @param bool|null $enableMSRNLookup
+     * @param bool $enableMSRNLookup
      * @return $this
      */
     public function setEnableMSRNLookup($enableMSRNLookup)
@@ -109,21 +122,28 @@ class SystemBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMSRNLookup()
+    {
+        $this->enableMSRNLookup = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableMobileStateChecking
      *
-     * @ElementName enableMobileStateChecking
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMobileStateChecking()
     {
-        return $this->enableMobileStateChecking;
+        return $this->enableMobileStateChecking instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMobileStateChecking;
     }
 
     /**
      * Setter for enableMobileStateChecking
      *
-     * @ElementName enableMobileStateChecking
-     * @param bool|null $enableMobileStateChecking
+     * @param bool $enableMobileStateChecking
      * @return $this
      */
     public function setEnableMobileStateChecking($enableMobileStateChecking)
@@ -133,21 +153,28 @@ class SystemBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMobileStateChecking()
+    {
+        $this->enableMobileStateChecking = null;
+        return $this;
+    }
+
+    /**
      * Getter for denyCallOriginations
      *
-     * @ElementName denyCallOriginations
-     * @return bool|null
+     * @return bool
      */
     public function getDenyCallOriginations()
     {
-        return $this->denyCallOriginations;
+        return $this->denyCallOriginations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->denyCallOriginations;
     }
 
     /**
      * Setter for denyCallOriginations
      *
-     * @ElementName denyCallOriginations
-     * @param bool|null $denyCallOriginations
+     * @param bool $denyCallOriginations
      * @return $this
      */
     public function setDenyCallOriginations($denyCallOriginations)
@@ -157,21 +184,28 @@ class SystemBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDenyCallOriginations()
+    {
+        $this->denyCallOriginations = null;
+        return $this;
+    }
+
+    /**
      * Getter for denyCallTerminations
      *
-     * @ElementName denyCallTerminations
-     * @return bool|null
+     * @return bool
      */
     public function getDenyCallTerminations()
     {
-        return $this->denyCallTerminations;
+        return $this->denyCallTerminations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->denyCallTerminations;
     }
 
     /**
      * Setter for denyCallTerminations
      *
-     * @ElementName denyCallTerminations
-     * @param bool|null $denyCallTerminations
+     * @param bool $denyCallTerminations
      * @return $this
      */
     public function setDenyCallTerminations($denyCallTerminations)
@@ -181,21 +215,28 @@ class SystemBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDenyCallTerminations()
+    {
+        $this->denyCallTerminations = null;
+        return $this;
+    }
+
+    /**
      * Getter for imrnTimeoutMillisecnds
      *
-     * @ElementName imrnTimeoutMillisecnds
-     * @return int|null
+     * @return int
      */
     public function getImrnTimeoutMillisecnds()
     {
-        return $this->imrnTimeoutMillisecnds;
+        return $this->imrnTimeoutMillisecnds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imrnTimeoutMillisecnds;
     }
 
     /**
      * Setter for imrnTimeoutMillisecnds
      *
-     * @ElementName imrnTimeoutMillisecnds
-     * @param int|null $imrnTimeoutMillisecnds
+     * @param int $imrnTimeoutMillisecnds
      * @return $this
      */
     public function setImrnTimeoutMillisecnds($imrnTimeoutMillisecnds)
@@ -205,21 +246,28 @@ class SystemBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetImrnTimeoutMillisecnds()
+    {
+        $this->imrnTimeoutMillisecnds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableInternalCLIDDelivery
      *
-     * @ElementName enableInternalCLIDDelivery
-     * @return bool|null
+     * @return bool
      */
     public function getEnableInternalCLIDDelivery()
     {
-        return $this->enableInternalCLIDDelivery;
+        return $this->enableInternalCLIDDelivery instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableInternalCLIDDelivery;
     }
 
     /**
      * Setter for enableInternalCLIDDelivery
      *
-     * @ElementName enableInternalCLIDDelivery
-     * @param bool|null $enableInternalCLIDDelivery
+     * @param bool $enableInternalCLIDDelivery
      * @return $this
      */
     public function setEnableInternalCLIDDelivery($enableInternalCLIDDelivery)
@@ -229,26 +277,42 @@ class SystemBroadWorksMobilityGetResponse22 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableInternalCLIDDelivery()
+    {
+        $this->enableInternalCLIDDelivery = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeRedirectForMobilityTermination
      *
-     * @ElementName includeRedirectForMobilityTermination
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeRedirectForMobilityTermination()
     {
-        return $this->includeRedirectForMobilityTermination;
+        return $this->includeRedirectForMobilityTermination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeRedirectForMobilityTermination;
     }
 
     /**
      * Setter for includeRedirectForMobilityTermination
      *
-     * @ElementName includeRedirectForMobilityTermination
-     * @param bool|null $includeRedirectForMobilityTermination
+     * @param bool $includeRedirectForMobilityTermination
      * @return $this
      */
     public function setIncludeRedirectForMobilityTermination($includeRedirectForMobilityTermination)
     {
         $this->includeRedirectForMobilityTermination = $includeRedirectForMobilityTermination;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncludeRedirectForMobilityTermination()
+    {
+        $this->includeRedirectForMobilityTermination = null;
         return $this;
     }
 

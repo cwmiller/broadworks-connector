@@ -17,12 +17,14 @@ class UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 extends \CWM\BroadWo
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName mobileNumber
+     * @Type string
      * @var string|null
      */
     private $mobileNumber = null;
@@ -30,19 +32,17 @@ class UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 extends \CWM\BroadWo
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,26 +52,42 @@ class UserBroadWorksMobilityMobileIdentityGetRequest21sp1V2 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobileNumber
      *
-     * @ElementName mobileNumber
-     * @return string|null
+     * @return string
      */
     public function getMobileNumber()
     {
-        return $this->mobileNumber;
+        return $this->mobileNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileNumber;
     }
 
     /**
      * Setter for mobileNumber
      *
-     * @ElementName mobileNumber
-     * @param string|null $mobileNumber
+     * @param string $mobileNumber
      * @return $this
      */
     public function setMobileNumber($mobileNumber)
     {
         $this->mobileNumber = $mobileNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobileNumber()
+    {
+        $this->mobileNumber = null;
         return $this;
     }
 

@@ -12,12 +12,14 @@ class SendMessageToSelectedDistributionListMenuKeysReadEntry
 
     /**
      * @ElementName confirmSendingToDistributionList
+     * @Type string
      * @var string|null
      */
     private $confirmSendingToDistributionList = null;
 
     /**
      * @ElementName cancelSendingToDistributionList
+     * @Type string
      * @var string|null
      */
     private $cancelSendingToDistributionList = null;
@@ -25,19 +27,17 @@ class SendMessageToSelectedDistributionListMenuKeysReadEntry
     /**
      * Getter for confirmSendingToDistributionList
      *
-     * @ElementName confirmSendingToDistributionList
-     * @return string|null
+     * @return string
      */
     public function getConfirmSendingToDistributionList()
     {
-        return $this->confirmSendingToDistributionList;
+        return $this->confirmSendingToDistributionList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmSendingToDistributionList;
     }
 
     /**
      * Setter for confirmSendingToDistributionList
      *
-     * @ElementName confirmSendingToDistributionList
-     * @param string|null $confirmSendingToDistributionList
+     * @param string $confirmSendingToDistributionList
      * @return $this
      */
     public function setConfirmSendingToDistributionList($confirmSendingToDistributionList)
@@ -47,26 +47,42 @@ class SendMessageToSelectedDistributionListMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfirmSendingToDistributionList()
+    {
+        $this->confirmSendingToDistributionList = null;
+        return $this;
+    }
+
+    /**
      * Getter for cancelSendingToDistributionList
      *
-     * @ElementName cancelSendingToDistributionList
-     * @return string|null
+     * @return string
      */
     public function getCancelSendingToDistributionList()
     {
-        return $this->cancelSendingToDistributionList;
+        return $this->cancelSendingToDistributionList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cancelSendingToDistributionList;
     }
 
     /**
      * Setter for cancelSendingToDistributionList
      *
-     * @ElementName cancelSendingToDistributionList
-     * @param string|null $cancelSendingToDistributionList
+     * @param string $cancelSendingToDistributionList
      * @return $this
      */
     public function setCancelSendingToDistributionList($cancelSendingToDistributionList)
     {
         $this->cancelSendingToDistributionList = $cancelSendingToDistributionList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCancelSendingToDistributionList()
+    {
+        $this->cancelSendingToDistributionList = null;
         return $this;
     }
 

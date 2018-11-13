@@ -15,6 +15,7 @@ class SystemPhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName alwaysAllowEmergencyCalls
+     * @Type bool
      * @var bool|null
      */
     private $alwaysAllowEmergencyCalls = null;
@@ -22,24 +23,31 @@ class SystemPhysicalLocationGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for alwaysAllowEmergencyCalls
      *
-     * @ElementName alwaysAllowEmergencyCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlwaysAllowEmergencyCalls()
     {
-        return $this->alwaysAllowEmergencyCalls;
+        return $this->alwaysAllowEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alwaysAllowEmergencyCalls;
     }
 
     /**
      * Setter for alwaysAllowEmergencyCalls
      *
-     * @ElementName alwaysAllowEmergencyCalls
-     * @param bool|null $alwaysAllowEmergencyCalls
+     * @param bool $alwaysAllowEmergencyCalls
      * @return $this
      */
     public function setAlwaysAllowEmergencyCalls($alwaysAllowEmergencyCalls)
     {
         $this->alwaysAllowEmergencyCalls = $alwaysAllowEmergencyCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlwaysAllowEmergencyCalls()
+    {
+        $this->alwaysAllowEmergencyCalls = null;
         return $this;
     }
 

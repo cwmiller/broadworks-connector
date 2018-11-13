@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceManagementFileCustomization DISALLOW()
  * @method static DeviceManagementFileCustomization ADMINISTRATOR()
  * @method static DeviceManagementFileCustomization ADMINISTRATOR_AND_USER()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementFileCustomization extends \MyCLabs\Enum\Enum
 {

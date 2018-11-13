@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static NetworkServerType LOOKUP()
  * @method static NetworkServerType UPDATE()
  * @method static NetworkServerType BOTH()
- * @ValueType string
+ * @EnumValueType string
  */
 class NetworkServerType extends \MyCLabs\Enum\Enum
 {

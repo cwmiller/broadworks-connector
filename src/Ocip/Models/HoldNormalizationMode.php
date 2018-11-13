@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static HoldNormalizationMode UNSPECIFIED_ADDRESS()
  * @method static HoldNormalizationMode INACTIVE()
  * @method static HoldNormalizationMode RFC3264()
- * @ValueType string
+ * @EnumValueType string
  */
 class HoldNormalizationMode extends \MyCLabs\Enum\Enum
 {

@@ -14,138 +14,161 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName protocol
+     * @Type string
      * @var string|null
      */
     private $protocol = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName port
+     * @Type int
      * @var int|null
      */
     private $port = null;
 
     /**
      * @ElementName outboundProxyServerNetAddress
+     * @Type string
      * @var string|null
      */
     private $outboundProxyServerNetAddress = null;
 
     /**
      * @ElementName stunServerNetAddress
+     * @Type string
      * @var string|null
      */
     private $stunServerNetAddress = null;
 
     /**
      * @ElementName macAddress
+     * @Type string
      * @var string|null
      */
     private $macAddress = null;
 
     /**
      * @ElementName serialNumber
+     * @Type string
      * @var string|null
      */
     private $serialNumber = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName numberOfPorts
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $numberOfPorts = null;
 
     /**
      * @ElementName numberOfAssignedPorts
+     * @Type int
      * @var int|null
      */
     private $numberOfAssignedPorts = null;
 
     /**
      * @ElementName status
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
      */
     private $status = null;
 
     /**
      * @ElementName configurationMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $configurationMode = null;
 
     /**
      * @ElementName configurationFileName
+     * @Type string
      * @var string|null
      */
     private $configurationFileName = null;
 
     /**
      * @ElementName physicalLocation
+     * @Type string
      * @var string|null
      */
     private $physicalLocation = null;
 
     /**
      * @ElementName transportProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
 
     /**
      * @ElementName mobilityManagerProvisioningURL
+     * @Type string
      * @var string|null
      */
     private $mobilityManagerProvisioningURL = null;
 
     /**
      * @ElementName mobilityManagerProvisioningUserName
+     * @Type string
      * @var string|null
      */
     private $mobilityManagerProvisioningUserName = null;
 
     /**
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
+     * @Type int
      * @var int|null
      */
     private $mobilityManagerDefaultOriginatingServiceKey = null;
 
     /**
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
+     * @Type int
      * @var int|null
      */
     private $mobilityManagerDefaultTerminatingServiceKey = null;
 
     /**
      * @ElementName useCustomUserNamePassword
+     * @Type bool
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
 
     /**
      * @ElementName userName
+     * @Type string
      * @var string|null
      */
     private $userName = null;
 
     /**
      * @ElementName version
+     * @Type string
      * @var string|null
      */
     private $version = null;
@@ -153,19 +176,17 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -175,21 +196,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for protocol
      *
-     * @ElementName protocol
-     * @return string|null
+     * @return string
      */
     public function getProtocol()
     {
-        return $this->protocol;
+        return $this->protocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocol;
     }
 
     /**
      * Setter for protocol
      *
-     * @ElementName protocol
-     * @param string|null $protocol
+     * @param string $protocol
      * @return $this
      */
     public function setProtocol($protocol)
@@ -199,21 +227,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProtocol()
+    {
+        $this->protocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -223,21 +258,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for port
      *
-     * @ElementName port
-     * @return int|null
+     * @return int
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @param int|null $port
+     * @param int $port
      * @return $this
      */
     public function setPort($port)
@@ -247,21 +289,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
+        return $this;
+    }
+
+    /**
      * Getter for outboundProxyServerNetAddress
      *
-     * @ElementName outboundProxyServerNetAddress
-     * @return string|null
+     * @return string
      */
     public function getOutboundProxyServerNetAddress()
     {
-        return $this->outboundProxyServerNetAddress;
+        return $this->outboundProxyServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outboundProxyServerNetAddress;
     }
 
     /**
      * Setter for outboundProxyServerNetAddress
      *
-     * @ElementName outboundProxyServerNetAddress
-     * @param string|null $outboundProxyServerNetAddress
+     * @param string $outboundProxyServerNetAddress
      * @return $this
      */
     public function setOutboundProxyServerNetAddress($outboundProxyServerNetAddress)
@@ -271,21 +320,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOutboundProxyServerNetAddress()
+    {
+        $this->outboundProxyServerNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for stunServerNetAddress
      *
-     * @ElementName stunServerNetAddress
-     * @return string|null
+     * @return string
      */
     public function getStunServerNetAddress()
     {
-        return $this->stunServerNetAddress;
+        return $this->stunServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->stunServerNetAddress;
     }
 
     /**
      * Setter for stunServerNetAddress
      *
-     * @ElementName stunServerNetAddress
-     * @param string|null $stunServerNetAddress
+     * @param string $stunServerNetAddress
      * @return $this
      */
     public function setStunServerNetAddress($stunServerNetAddress)
@@ -295,21 +351,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStunServerNetAddress()
+    {
+        $this->stunServerNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for macAddress
      *
-     * @ElementName macAddress
-     * @return string|null
+     * @return string
      */
     public function getMacAddress()
     {
-        return $this->macAddress;
+        return $this->macAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macAddress;
     }
 
     /**
      * Setter for macAddress
      *
-     * @ElementName macAddress
-     * @param string|null $macAddress
+     * @param string $macAddress
      * @return $this
      */
     public function setMacAddress($macAddress)
@@ -319,21 +382,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacAddress()
+    {
+        $this->macAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for serialNumber
      *
-     * @ElementName serialNumber
-     * @return string|null
+     * @return string
      */
     public function getSerialNumber()
     {
-        return $this->serialNumber;
+        return $this->serialNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serialNumber;
     }
 
     /**
      * Setter for serialNumber
      *
-     * @ElementName serialNumber
-     * @param string|null $serialNumber
+     * @param string $serialNumber
      * @return $this
      */
     public function setSerialNumber($serialNumber)
@@ -343,21 +413,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSerialNumber()
+    {
+        $this->serialNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -367,21 +444,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfPorts
      *
-     * @ElementName numberOfPorts
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      */
     public function getNumberOfPorts()
     {
-        return $this->numberOfPorts;
+        return $this->numberOfPorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfPorts;
     }
 
     /**
      * Setter for numberOfPorts
      *
-     * @ElementName numberOfPorts
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $numberOfPorts
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts
      * @return $this
      */
     public function setNumberOfPorts(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts)
@@ -391,21 +475,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfPorts()
+    {
+        $this->numberOfPorts = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfAssignedPorts
      *
-     * @ElementName numberOfAssignedPorts
-     * @return int|null
+     * @return int
      */
     public function getNumberOfAssignedPorts()
     {
-        return $this->numberOfAssignedPorts;
+        return $this->numberOfAssignedPorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfAssignedPorts;
     }
 
     /**
      * Setter for numberOfAssignedPorts
      *
-     * @ElementName numberOfAssignedPorts
-     * @param int|null $numberOfAssignedPorts
+     * @param int $numberOfAssignedPorts
      * @return $this
      */
     public function setNumberOfAssignedPorts($numberOfAssignedPorts)
@@ -415,21 +506,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfAssignedPorts()
+    {
+        $this->numberOfAssignedPorts = null;
+        return $this;
+    }
+
+    /**
      * Getter for status
      *
-     * @ElementName status
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus
      */
     public function getStatus()
     {
-        return $this->status;
+        return $this->status instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->status;
     }
 
     /**
      * Setter for status
      *
-     * @ElementName status
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus|null $status
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus $status
      * @return $this
      */
     public function setStatus(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceStatus $status)
@@ -439,21 +537,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatus()
+    {
+        $this->status = null;
+        return $this;
+    }
+
+    /**
      * Getter for configurationMode
      *
-     * @ElementName configurationMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      */
     public function getConfigurationMode()
     {
-        return $this->configurationMode;
+        return $this->configurationMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurationMode;
     }
 
     /**
      * Setter for configurationMode
      *
-     * @ElementName configurationMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null $configurationMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode $configurationMode
      * @return $this
      */
     public function setConfigurationMode(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode $configurationMode)
@@ -463,21 +568,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigurationMode()
+    {
+        $this->configurationMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @return string|null
+     * @return string
      */
     public function getConfigurationFileName()
     {
-        return $this->configurationFileName;
+        return $this->configurationFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurationFileName;
     }
 
     /**
      * Setter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @param string|null $configurationFileName
+     * @param string $configurationFileName
      * @return $this
      */
     public function setConfigurationFileName($configurationFileName)
@@ -487,21 +599,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigurationFileName()
+    {
+        $this->configurationFileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @return string|null
+     * @return string
      */
     public function getPhysicalLocation()
     {
-        return $this->physicalLocation;
+        return $this->physicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->physicalLocation;
     }
 
     /**
      * Setter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @param string|null $physicalLocation
+     * @param string $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)
@@ -511,21 +630,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhysicalLocation()
+    {
+        $this->physicalLocation = null;
+        return $this;
+    }
+
+    /**
      * Getter for transportProtocol
      *
-     * @ElementName transportProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      */
     public function getTransportProtocol()
     {
-        return $this->transportProtocol;
+        return $this->transportProtocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transportProtocol;
     }
 
     /**
      * Setter for transportProtocol
      *
-     * @ElementName transportProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol
      * @return $this
      */
     public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
@@ -535,21 +661,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransportProtocol()
+    {
+        $this->transportProtocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilityManagerProvisioningURL
      *
-     * @ElementName mobilityManagerProvisioningURL
-     * @return string|null
+     * @return string
      */
     public function getMobilityManagerProvisioningURL()
     {
-        return $this->mobilityManagerProvisioningURL;
+        return $this->mobilityManagerProvisioningURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilityManagerProvisioningURL;
     }
 
     /**
      * Setter for mobilityManagerProvisioningURL
      *
-     * @ElementName mobilityManagerProvisioningURL
-     * @param string|null $mobilityManagerProvisioningURL
+     * @param string $mobilityManagerProvisioningURL
      * @return $this
      */
     public function setMobilityManagerProvisioningURL($mobilityManagerProvisioningURL)
@@ -559,21 +692,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilityManagerProvisioningURL()
+    {
+        $this->mobilityManagerProvisioningURL = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilityManagerProvisioningUserName
      *
-     * @ElementName mobilityManagerProvisioningUserName
-     * @return string|null
+     * @return string
      */
     public function getMobilityManagerProvisioningUserName()
     {
-        return $this->mobilityManagerProvisioningUserName;
+        return $this->mobilityManagerProvisioningUserName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilityManagerProvisioningUserName;
     }
 
     /**
      * Setter for mobilityManagerProvisioningUserName
      *
-     * @ElementName mobilityManagerProvisioningUserName
-     * @param string|null $mobilityManagerProvisioningUserName
+     * @param string $mobilityManagerProvisioningUserName
      * @return $this
      */
     public function setMobilityManagerProvisioningUserName($mobilityManagerProvisioningUserName)
@@ -583,21 +723,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilityManagerProvisioningUserName()
+    {
+        $this->mobilityManagerProvisioningUserName = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilityManagerDefaultOriginatingServiceKey
      *
-     * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @return int|null
+     * @return int
      */
     public function getMobilityManagerDefaultOriginatingServiceKey()
     {
-        return $this->mobilityManagerDefaultOriginatingServiceKey;
+        return $this->mobilityManagerDefaultOriginatingServiceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilityManagerDefaultOriginatingServiceKey;
     }
 
     /**
      * Setter for mobilityManagerDefaultOriginatingServiceKey
      *
-     * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @param int|null $mobilityManagerDefaultOriginatingServiceKey
+     * @param int $mobilityManagerDefaultOriginatingServiceKey
      * @return $this
      */
     public function setMobilityManagerDefaultOriginatingServiceKey($mobilityManagerDefaultOriginatingServiceKey)
@@ -607,21 +754,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilityManagerDefaultOriginatingServiceKey()
+    {
+        $this->mobilityManagerDefaultOriginatingServiceKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilityManagerDefaultTerminatingServiceKey
      *
-     * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @return int|null
+     * @return int
      */
     public function getMobilityManagerDefaultTerminatingServiceKey()
     {
-        return $this->mobilityManagerDefaultTerminatingServiceKey;
+        return $this->mobilityManagerDefaultTerminatingServiceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilityManagerDefaultTerminatingServiceKey;
     }
 
     /**
      * Setter for mobilityManagerDefaultTerminatingServiceKey
      *
-     * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @param int|null $mobilityManagerDefaultTerminatingServiceKey
+     * @param int $mobilityManagerDefaultTerminatingServiceKey
      * @return $this
      */
     public function setMobilityManagerDefaultTerminatingServiceKey($mobilityManagerDefaultTerminatingServiceKey)
@@ -631,21 +785,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilityManagerDefaultTerminatingServiceKey()
+    {
+        $this->mobilityManagerDefaultTerminatingServiceKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for useCustomUserNamePassword
      *
-     * @ElementName useCustomUserNamePassword
-     * @return bool|null
+     * @return bool
      */
     public function getUseCustomUserNamePassword()
     {
-        return $this->useCustomUserNamePassword;
+        return $this->useCustomUserNamePassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useCustomUserNamePassword;
     }
 
     /**
      * Setter for useCustomUserNamePassword
      *
-     * @ElementName useCustomUserNamePassword
-     * @param bool|null $useCustomUserNamePassword
+     * @param bool $useCustomUserNamePassword
      * @return $this
      */
     public function setUseCustomUserNamePassword($useCustomUserNamePassword)
@@ -655,21 +816,28 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseCustomUserNamePassword()
+    {
+        $this->useCustomUserNamePassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for userName
      *
-     * @ElementName userName
-     * @return string|null
+     * @return string
      */
     public function getUserName()
     {
-        return $this->userName;
+        return $this->userName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userName;
     }
 
     /**
      * Setter for userName
      *
-     * @ElementName userName
-     * @param string|null $userName
+     * @param string $userName
      * @return $this
      */
     public function setUserName($userName)
@@ -679,26 +847,42 @@ class GroupAccessDeviceGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserName()
+    {
+        $this->userName = null;
+        return $this;
+    }
+
+    /**
      * Getter for version
      *
-     * @ElementName version
-     * @return string|null
+     * @return string
      */
     public function getVersion()
     {
-        return $this->version;
+        return $this->version instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->version;
     }
 
     /**
      * Setter for version
      *
-     * @ElementName version
-     * @param string|null $version
+     * @param string $version
      * @return $this
      */
     public function setVersion($version)
     {
         $this->version = $version;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVersion()
+    {
+        $this->version = null;
         return $this;
     }
 

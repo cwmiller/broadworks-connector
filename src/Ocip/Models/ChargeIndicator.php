@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ChargeIndicator CHARGE()
  * @method static ChargeIndicator NO_CHARGE()
- * @ValueType string
+ * @EnumValueType string
  */
 class ChargeIndicator extends \MyCLabs\Enum\Enum
 {

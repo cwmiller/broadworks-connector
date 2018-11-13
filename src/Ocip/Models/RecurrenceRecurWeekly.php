@@ -10,48 +10,56 @@ class RecurrenceRecurWeekly
 
     /**
      * @ElementName recurInterval
+     * @Type int
      * @var int|null
      */
     private $recurInterval = null;
 
     /**
      * @ElementName sunday
+     * @Type bool
      * @var bool|null
      */
     private $sunday = null;
 
     /**
      * @ElementName monday
+     * @Type bool
      * @var bool|null
      */
     private $monday = null;
 
     /**
      * @ElementName tuesday
+     * @Type bool
      * @var bool|null
      */
     private $tuesday = null;
 
     /**
      * @ElementName wednesday
+     * @Type bool
      * @var bool|null
      */
     private $wednesday = null;
 
     /**
      * @ElementName thursday
+     * @Type bool
      * @var bool|null
      */
     private $thursday = null;
 
     /**
      * @ElementName friday
+     * @Type bool
      * @var bool|null
      */
     private $friday = null;
 
     /**
      * @ElementName saturday
+     * @Type bool
      * @var bool|null
      */
     private $saturday = null;
@@ -59,19 +67,17 @@ class RecurrenceRecurWeekly
     /**
      * Getter for recurInterval
      *
-     * @ElementName recurInterval
-     * @return int|null
+     * @return int
      */
     public function getRecurInterval()
     {
-        return $this->recurInterval;
+        return $this->recurInterval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recurInterval;
     }
 
     /**
      * Setter for recurInterval
      *
-     * @ElementName recurInterval
-     * @param int|null $recurInterval
+     * @param int $recurInterval
      * @return $this
      */
     public function setRecurInterval($recurInterval)
@@ -81,21 +87,28 @@ class RecurrenceRecurWeekly
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecurInterval()
+    {
+        $this->recurInterval = null;
+        return $this;
+    }
+
+    /**
      * Getter for sunday
      *
-     * @ElementName sunday
-     * @return bool|null
+     * @return bool
      */
     public function getSunday()
     {
-        return $this->sunday;
+        return $this->sunday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sunday;
     }
 
     /**
      * Setter for sunday
      *
-     * @ElementName sunday
-     * @param bool|null $sunday
+     * @param bool $sunday
      * @return $this
      */
     public function setSunday($sunday)
@@ -105,21 +118,28 @@ class RecurrenceRecurWeekly
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSunday()
+    {
+        $this->sunday = null;
+        return $this;
+    }
+
+    /**
      * Getter for monday
      *
-     * @ElementName monday
-     * @return bool|null
+     * @return bool
      */
     public function getMonday()
     {
-        return $this->monday;
+        return $this->monday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->monday;
     }
 
     /**
      * Setter for monday
      *
-     * @ElementName monday
-     * @param bool|null $monday
+     * @param bool $monday
      * @return $this
      */
     public function setMonday($monday)
@@ -129,21 +149,28 @@ class RecurrenceRecurWeekly
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMonday()
+    {
+        $this->monday = null;
+        return $this;
+    }
+
+    /**
      * Getter for tuesday
      *
-     * @ElementName tuesday
-     * @return bool|null
+     * @return bool
      */
     public function getTuesday()
     {
-        return $this->tuesday;
+        return $this->tuesday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tuesday;
     }
 
     /**
      * Setter for tuesday
      *
-     * @ElementName tuesday
-     * @param bool|null $tuesday
+     * @param bool $tuesday
      * @return $this
      */
     public function setTuesday($tuesday)
@@ -153,21 +180,28 @@ class RecurrenceRecurWeekly
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTuesday()
+    {
+        $this->tuesday = null;
+        return $this;
+    }
+
+    /**
      * Getter for wednesday
      *
-     * @ElementName wednesday
-     * @return bool|null
+     * @return bool
      */
     public function getWednesday()
     {
-        return $this->wednesday;
+        return $this->wednesday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->wednesday;
     }
 
     /**
      * Setter for wednesday
      *
-     * @ElementName wednesday
-     * @param bool|null $wednesday
+     * @param bool $wednesday
      * @return $this
      */
     public function setWednesday($wednesday)
@@ -177,21 +211,28 @@ class RecurrenceRecurWeekly
     }
 
     /**
+     * @return $this
+     */
+    public function unsetWednesday()
+    {
+        $this->wednesday = null;
+        return $this;
+    }
+
+    /**
      * Getter for thursday
      *
-     * @ElementName thursday
-     * @return bool|null
+     * @return bool
      */
     public function getThursday()
     {
-        return $this->thursday;
+        return $this->thursday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thursday;
     }
 
     /**
      * Setter for thursday
      *
-     * @ElementName thursday
-     * @param bool|null $thursday
+     * @param bool $thursday
      * @return $this
      */
     public function setThursday($thursday)
@@ -201,21 +242,28 @@ class RecurrenceRecurWeekly
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThursday()
+    {
+        $this->thursday = null;
+        return $this;
+    }
+
+    /**
      * Getter for friday
      *
-     * @ElementName friday
-     * @return bool|null
+     * @return bool
      */
     public function getFriday()
     {
-        return $this->friday;
+        return $this->friday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->friday;
     }
 
     /**
      * Setter for friday
      *
-     * @ElementName friday
-     * @param bool|null $friday
+     * @param bool $friday
      * @return $this
      */
     public function setFriday($friday)
@@ -225,26 +273,42 @@ class RecurrenceRecurWeekly
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFriday()
+    {
+        $this->friday = null;
+        return $this;
+    }
+
+    /**
      * Getter for saturday
      *
-     * @ElementName saturday
-     * @return bool|null
+     * @return bool
      */
     public function getSaturday()
     {
-        return $this->saturday;
+        return $this->saturday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->saturday;
     }
 
     /**
      * Setter for saturday
      *
-     * @ElementName saturday
-     * @param bool|null $saturday
+     * @param bool $saturday
      * @return $this
      */
     public function setSaturday($saturday)
     {
         $this->saturday = $saturday;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSaturday()
+    {
+        $this->saturday = null;
         return $this;
     }
 

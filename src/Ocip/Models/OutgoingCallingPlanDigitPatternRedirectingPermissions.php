@@ -12,6 +12,8 @@ class OutgoingCallingPlanDigitPatternRedirectingPermissions
 
     /**
      * @ElementName digitPatternPermissions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermission
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermission[]
      */
     private $digitPatternPermissions = array(
@@ -21,18 +23,16 @@ class OutgoingCallingPlanDigitPatternRedirectingPermissions
     /**
      * Getter for digitPatternPermissions
      *
-     * @ElementName digitPatternPermissions
      * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermission[]
      */
     public function getDigitPatternPermissions()
     {
-        return $this->digitPatternPermissions;
+        return $this->digitPatternPermissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPatternPermissions;
     }
 
     /**
      * Setter for digitPatternPermissions
      *
-     * @ElementName digitPatternPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermission[] $digitPatternPermissions
      * @return $this
      */
@@ -43,15 +43,23 @@ class OutgoingCallingPlanDigitPatternRedirectingPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPatternPermissions()
+    {
+        $this->digitPatternPermissions = null;
+        return $this;
+    }
+
+    /**
      * Adder for digitPatternPermissions
      *
-     * @ElementName digitPatternPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermission $digitPatternPermissions
      * @return $this
      */
     public function addDigitPatternPermissions($digitPatternPermissions)
     {
-        $this->digitPatternPermissions []= $digitPatternPermissions;
+        $this->digitPatternPermissions[] = $digitPatternPermissions;
         return $this;
     }
 

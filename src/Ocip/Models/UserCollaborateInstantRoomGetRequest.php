@@ -19,12 +19,14 @@ class UserCollaborateInstantRoomGetRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName roomId
+     * @Type string
      * @var string|null
      */
     private $roomId = null;
@@ -32,19 +34,17 @@ class UserCollaborateInstantRoomGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -54,26 +54,42 @@ class UserCollaborateInstantRoomGetRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for roomId
      *
-     * @ElementName roomId
-     * @return string|null
+     * @return string
      */
     public function getRoomId()
     {
-        return $this->roomId;
+        return $this->roomId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->roomId;
     }
 
     /**
      * Setter for roomId
      *
-     * @ElementName roomId
-     * @param string|null $roomId
+     * @param string $roomId
      * @return $this
      */
     public function setRoomId($roomId)
     {
         $this->roomId = $roomId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoomId()
+    {
+        $this->roomId = null;
         return $this;
     }
 

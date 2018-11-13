@@ -15,12 +15,14 @@ class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName useGroupLevelAoCSettings
+     * @Type bool
      * @var bool|null
      */
     private $useGroupLevelAoCSettings = null;
 
     /**
      * @ElementName delayBetweenNotificationSeconds
+     * @Type int
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
@@ -28,19 +30,17 @@ class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for useGroupLevelAoCSettings
      *
-     * @ElementName useGroupLevelAoCSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupLevelAoCSettings()
     {
-        return $this->useGroupLevelAoCSettings;
+        return $this->useGroupLevelAoCSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupLevelAoCSettings;
     }
 
     /**
      * Setter for useGroupLevelAoCSettings
      *
-     * @ElementName useGroupLevelAoCSettings
-     * @param bool|null $useGroupLevelAoCSettings
+     * @param bool $useGroupLevelAoCSettings
      * @return $this
      */
     public function setUseGroupLevelAoCSettings($useGroupLevelAoCSettings)
@@ -50,26 +50,42 @@ class GroupAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupLevelAoCSettings()
+    {
+        $this->useGroupLevelAoCSettings = null;
+        return $this;
+    }
+
+    /**
      * Getter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @return int|null
+     * @return int
      */
     public function getDelayBetweenNotificationSeconds()
     {
-        return $this->delayBetweenNotificationSeconds;
+        return $this->delayBetweenNotificationSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->delayBetweenNotificationSeconds;
     }
 
     /**
      * Setter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @param int|null $delayBetweenNotificationSeconds
+     * @param int $delayBetweenNotificationSeconds
      * @return $this
      */
     public function setDelayBetweenNotificationSeconds($delayBetweenNotificationSeconds)
     {
         $this->delayBetweenNotificationSeconds = $delayBetweenNotificationSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDelayBetweenNotificationSeconds()
+    {
+        $this->delayBetweenNotificationSeconds = null;
         return $this;
     }
 

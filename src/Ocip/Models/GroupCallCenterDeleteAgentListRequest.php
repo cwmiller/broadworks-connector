@@ -16,12 +16,15 @@ class GroupCallCenterDeleteAgentListRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName agentUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $agentUserId = array(
@@ -31,19 +34,17 @@ class GroupCallCenterDeleteAgentListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -53,20 +54,27 @@ class GroupCallCenterDeleteAgentListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
      * @return string[]
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
      * @param string[] $agentUserId
      * @return $this
      */
@@ -77,15 +85,23 @@ class GroupCallCenterDeleteAgentListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for agentUserId
      *
-     * @ElementName agentUserId
      * @param string $agentUserId
      * @return $this
      */
     public function addAgentUserId(string $agentUserId)
     {
-        $this->agentUserId []= $agentUserId;
+        $this->agentUserId[] = $agentUserId;
         return $this;
     }
 

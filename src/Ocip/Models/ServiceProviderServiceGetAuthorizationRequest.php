@@ -18,24 +18,28 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName userServiceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $userServiceName = null;
 
     /**
      * @ElementName groupServiceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $groupServiceName = null;
 
     /**
      * @ElementName servicePackName
+     * @Type string
      * @var string|null
      */
     private $servicePackName = null;
@@ -43,19 +47,17 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -65,21 +67,28 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userServiceName
      *
-     * @ElementName userServiceName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService
      */
     public function getUserServiceName()
     {
-        return $this->userServiceName;
+        return $this->userServiceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServiceName;
     }
 
     /**
      * Setter for userServiceName
      *
-     * @ElementName userServiceName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService|null $userServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $userServiceName
      * @return $this
      */
     public function setUserServiceName(\CWM\BroadWorksConnector\Ocip\Models\UserService $userServiceName)
@@ -89,21 +98,28 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserServiceName()
+    {
+        $this->userServiceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupServiceName
      *
-     * @ElementName groupServiceName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService
      */
     public function getGroupServiceName()
     {
-        return $this->groupServiceName;
+        return $this->groupServiceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupServiceName;
     }
 
     /**
      * Setter for groupServiceName
      *
-     * @ElementName groupServiceName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService|null $groupServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService $groupServiceName
      * @return $this
      */
     public function setGroupServiceName(\CWM\BroadWorksConnector\Ocip\Models\GroupService $groupServiceName)
@@ -113,26 +129,42 @@ class ServiceProviderServiceGetAuthorizationRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupServiceName()
+    {
+        $this->groupServiceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePackName
      *
-     * @ElementName servicePackName
-     * @return string|null
+     * @return string
      */
     public function getServicePackName()
     {
-        return $this->servicePackName;
+        return $this->servicePackName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePackName;
     }
 
     /**
      * Setter for servicePackName
      *
-     * @ElementName servicePackName
-     * @param string|null $servicePackName
+     * @param string $servicePackName
      * @return $this
      */
     public function setServicePackName($servicePackName)
     {
         $this->servicePackName = $servicePackName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServicePackName()
+    {
+        $this->servicePackName = null;
         return $this;
     }
 

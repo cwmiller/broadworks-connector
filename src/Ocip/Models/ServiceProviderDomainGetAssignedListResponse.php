@@ -12,12 +12,15 @@ class ServiceProviderDomainGetAssignedListResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderDefaultDomain
+     * @Type string
      * @var string|null
      */
     private $serviceProviderDefaultDomain = null;
 
     /**
      * @ElementName domain
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $domain = array(
@@ -27,19 +30,17 @@ class ServiceProviderDomainGetAssignedListResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderDefaultDomain
      *
-     * @ElementName serviceProviderDefaultDomain
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderDefaultDomain()
     {
-        return $this->serviceProviderDefaultDomain;
+        return $this->serviceProviderDefaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderDefaultDomain;
     }
 
     /**
      * Setter for serviceProviderDefaultDomain
      *
-     * @ElementName serviceProviderDefaultDomain
-     * @param string|null $serviceProviderDefaultDomain
+     * @param string $serviceProviderDefaultDomain
      * @return $this
      */
     public function setServiceProviderDefaultDomain($serviceProviderDefaultDomain)
@@ -49,20 +50,27 @@ class ServiceProviderDomainGetAssignedListResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderDefaultDomain()
+    {
+        $this->serviceProviderDefaultDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for domain
      *
-     * @ElementName domain
      * @return string[]
      */
     public function getDomain()
     {
-        return $this->domain;
+        return $this->domain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->domain;
     }
 
     /**
      * Setter for domain
      *
-     * @ElementName domain
      * @param string[] $domain
      * @return $this
      */
@@ -73,15 +81,23 @@ class ServiceProviderDomainGetAssignedListResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDomain()
+    {
+        $this->domain = null;
+        return $this;
+    }
+
+    /**
      * Adder for domain
      *
-     * @ElementName domain
      * @param string $domain
      * @return $this
      */
     public function addDomain(string $domain)
     {
-        $this->domain []= $domain;
+        $this->domain[] = $domain;
         return $this;
     }
 

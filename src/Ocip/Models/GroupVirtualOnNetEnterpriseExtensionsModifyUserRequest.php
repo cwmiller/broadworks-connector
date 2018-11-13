@@ -18,54 +18,63 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
+     * @Type string
      * @var string|null
      */
     private $extension = null;
 
     /**
      * @ElementName firstName
+     * @Type string
      * @var string|null
      */
     private $firstName = null;
 
     /**
      * @ElementName lastName
+     * @Type string
      * @var string|null
      */
     private $lastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdFirstName = null;
 
     /**
      * @ElementName callingLineIdLastName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdLastName = null;
 
     /**
      * @ElementName virtualOnNetCallTypeName
+     * @Type string
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;
@@ -73,19 +82,17 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -95,21 +102,28 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -119,21 +133,28 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -143,21 +164,28 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for extension
      *
-     * @ElementName extension
-     * @return string|null
+     * @return string
      */
     public function getExtension()
     {
-        return $this->extension;
+        return $this->extension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extension;
     }
 
     /**
      * Setter for extension
      *
-     * @ElementName extension
-     * @param string|null $extension
+     * @param string $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -167,21 +195,28 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtension()
+    {
+        $this->extension = null;
+        return $this;
+    }
+
+    /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @return string|null
+     * @return string
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @param string|null $firstName
+     * @param string $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -191,21 +226,28 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @return string|null
+     * @return string
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @param string|null $lastName
+     * @param string $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -215,21 +257,28 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdFirstName()
     {
-        return $this->callingLineIdFirstName;
+        return $this->callingLineIdFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdFirstName;
     }
 
     /**
      * Setter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @param string|null $callingLineIdFirstName
+     * @param string $callingLineIdFirstName
      * @return $this
      */
     public function setCallingLineIdFirstName($callingLineIdFirstName)
@@ -239,21 +288,28 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdFirstName()
+    {
+        $this->callingLineIdFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdLastName()
     {
-        return $this->callingLineIdLastName;
+        return $this->callingLineIdLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdLastName;
     }
 
     /**
      * Setter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @param string|null $callingLineIdLastName
+     * @param string $callingLineIdLastName
      * @return $this
      */
     public function setCallingLineIdLastName($callingLineIdLastName)
@@ -263,26 +319,42 @@ class GroupVirtualOnNetEnterpriseExtensionsModifyUserRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdLastName()
+    {
+        $this->callingLineIdLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for virtualOnNetCallTypeName
      *
-     * @ElementName virtualOnNetCallTypeName
-     * @return string|null
+     * @return string
      */
     public function getVirtualOnNetCallTypeName()
     {
-        return $this->virtualOnNetCallTypeName;
+        return $this->virtualOnNetCallTypeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetCallTypeName;
     }
 
     /**
      * Setter for virtualOnNetCallTypeName
      *
-     * @ElementName virtualOnNetCallTypeName
-     * @param string|null $virtualOnNetCallTypeName
+     * @param string $virtualOnNetCallTypeName
      * @return $this
      */
     public function setVirtualOnNetCallTypeName($virtualOnNetCallTypeName)
     {
         $this->virtualOnNetCallTypeName = $virtualOnNetCallTypeName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetCallTypeName()
+    {
+        $this->virtualOnNetCallTypeName = null;
         return $this;
     }
 

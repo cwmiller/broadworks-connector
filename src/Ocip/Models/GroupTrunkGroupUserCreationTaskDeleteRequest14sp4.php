@@ -16,12 +16,14 @@ class GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 extends \CWM\BroadWorksC
 
     /**
      * @ElementName trunkGroupKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;
 
     /**
      * @ElementName taskName
+     * @Type string
      * @var string|null
      */
     private $taskName = null;
@@ -29,19 +31,17 @@ class GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 extends \CWM\BroadWorksC
     /**
      * Getter for trunkGroupKey
      *
-     * @ElementName trunkGroupKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      */
     public function getTrunkGroupKey()
     {
-        return $this->trunkGroupKey;
+        return $this->trunkGroupKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupKey;
     }
 
     /**
      * Setter for trunkGroupKey
      *
-     * @ElementName trunkGroupKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null $trunkGroupKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey
      * @return $this
      */
     public function setTrunkGroupKey(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey $trunkGroupKey)
@@ -51,26 +51,42 @@ class GroupTrunkGroupUserCreationTaskDeleteRequest14sp4 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupKey()
+    {
+        $this->trunkGroupKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for taskName
      *
-     * @ElementName taskName
-     * @return string|null
+     * @return string
      */
     public function getTaskName()
     {
-        return $this->taskName;
+        return $this->taskName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->taskName;
     }
 
     /**
      * Setter for taskName
      *
-     * @ElementName taskName
-     * @param string|null $taskName
+     * @param string $taskName
      * @return $this
      */
     public function setTaskName($taskName)
     {
         $this->taskName = $taskName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTaskName()
+    {
+        $this->taskName = null;
         return $this;
     }
 

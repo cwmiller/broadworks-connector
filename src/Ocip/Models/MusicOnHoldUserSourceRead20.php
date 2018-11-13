@@ -12,12 +12,14 @@ class MusicOnHoldUserSourceRead20
 
     /**
      * @ElementName messageSourceSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection|null
      */
     private $messageSourceSelection = null;
 
     /**
      * @ElementName customSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20CustomSource
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20CustomSource|null
      */
     private $customSource = null;
@@ -25,19 +27,17 @@ class MusicOnHoldUserSourceRead20
     /**
      * Getter for messageSourceSelection
      *
-     * @ElementName messageSourceSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection
      */
     public function getMessageSourceSelection()
     {
-        return $this->messageSourceSelection;
+        return $this->messageSourceSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->messageSourceSelection;
     }
 
     /**
      * Setter for messageSourceSelection
      *
-     * @ElementName messageSourceSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection|null $messageSourceSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection $messageSourceSelection
      * @return $this
      */
     public function setMessageSourceSelection(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserMessageSelection $messageSourceSelection)
@@ -47,26 +47,42 @@ class MusicOnHoldUserSourceRead20
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMessageSourceSelection()
+    {
+        $this->messageSourceSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for customSource
      *
-     * @ElementName customSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20CustomSource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20CustomSource
      */
     public function getCustomSource()
     {
-        return $this->customSource;
+        return $this->customSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->customSource;
     }
 
     /**
      * Setter for customSource
      *
-     * @ElementName customSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20CustomSource|null $customSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20CustomSource $customSource
      * @return $this
      */
     public function setCustomSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20CustomSource $customSource)
     {
         $this->customSource = $customSource;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCustomSource()
+    {
+        $this->customSource = null;
         return $this;
     }
 

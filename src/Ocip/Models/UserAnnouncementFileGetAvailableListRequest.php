@@ -15,12 +15,14 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName announcementFileType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     private $announcementFileType = null;
@@ -28,19 +30,17 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -50,26 +50,42 @@ class UserAnnouncementFileGetAvailableListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementFileType
      *
-     * @ElementName announcementFileType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
      */
     public function getAnnouncementFileType()
     {
-        return $this->announcementFileType;
+        return $this->announcementFileType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileType;
     }
 
     /**
      * Setter for announcementFileType
      *
-     * @ElementName announcementFileType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null $announcementFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType $announcementFileType
      * @return $this
      */
     public function setAnnouncementFileType(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType $announcementFileType)
     {
         $this->announcementFileType = $announcementFileType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileType()
+    {
+        $this->announcementFileType = null;
         return $this;
     }
 

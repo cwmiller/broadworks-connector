@@ -16,36 +16,42 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName userType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
 
     /**
      * @ElementName isGroupCallingLineId
+     * @Type bool
      * @var bool|null
      */
     private $isGroupCallingLineId = null;
 
     /**
      * @ElementName isActivated
+     * @Type bool
      * @var bool|null
      */
     private $isActivated = null;
@@ -53,19 +59,17 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -75,21 +79,28 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -99,21 +110,28 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -123,21 +141,28 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userType
      *
-     * @ElementName userType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserType
      */
     public function getUserType()
     {
-        return $this->userType;
+        return $this->userType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userType;
     }
 
     /**
      * Setter for userType
      *
-     * @ElementName userType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserType|null $userType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserType $userType
      * @return $this
      */
     public function setUserType(\CWM\BroadWorksConnector\Ocip\Models\UserType $userType)
@@ -147,21 +172,28 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserType()
+    {
+        $this->userType = null;
+        return $this;
+    }
+
+    /**
      * Getter for isGroupCallingLineId
      *
-     * @ElementName isGroupCallingLineId
-     * @return bool|null
+     * @return bool
      */
     public function getIsGroupCallingLineId()
     {
-        return $this->isGroupCallingLineId;
+        return $this->isGroupCallingLineId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isGroupCallingLineId;
     }
 
     /**
      * Setter for isGroupCallingLineId
      *
-     * @ElementName isGroupCallingLineId
-     * @param bool|null $isGroupCallingLineId
+     * @param bool $isGroupCallingLineId
      * @return $this
      */
     public function setIsGroupCallingLineId($isGroupCallingLineId)
@@ -171,26 +203,42 @@ class SystemDnGetUtilizationResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsGroupCallingLineId()
+    {
+        $this->isGroupCallingLineId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActivated
      *
-     * @ElementName isActivated
-     * @return bool|null
+     * @return bool
      */
     public function getIsActivated()
     {
-        return $this->isActivated;
+        return $this->isActivated instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActivated;
     }
 
     /**
      * Setter for isActivated
      *
-     * @ElementName isActivated
-     * @param bool|null $isActivated
+     * @param bool $isActivated
      * @return $this
      */
     public function setIsActivated($isActivated)
     {
         $this->isActivated = $isActivated;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsActivated()
+    {
+        $this->isActivated = null;
         return $this;
     }
 

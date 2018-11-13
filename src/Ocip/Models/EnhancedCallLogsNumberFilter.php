@@ -12,6 +12,8 @@ class EnhancedCallLogsNumberFilter
 
     /**
      * @ElementName includeBasicCallType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
     private $includeBasicCallType = array(
@@ -20,6 +22,8 @@ class EnhancedCallLogsNumberFilter
 
     /**
      * @ElementName includeCallCategory
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCategory
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
     private $includeCallCategory = array(
@@ -28,6 +32,8 @@ class EnhancedCallLogsNumberFilter
 
     /**
      * @ElementName includeConfigurableCallType
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $includeConfigurableCallType = array(
@@ -36,6 +42,8 @@ class EnhancedCallLogsNumberFilter
 
     /**
      * @ElementName searchCriteriaDialedNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     private $searchCriteriaDialedNumber = array(
@@ -44,6 +52,8 @@ class EnhancedCallLogsNumberFilter
 
     /**
      * @ElementName searchCriteriaCalledNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     private $searchCriteriaCalledNumber = array(
@@ -52,6 +62,8 @@ class EnhancedCallLogsNumberFilter
 
     /**
      * @ElementName searchCriteriaNetworkTranslatedNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     private $searchCriteriaNetworkTranslatedNumber = array(
@@ -60,6 +72,8 @@ class EnhancedCallLogsNumberFilter
 
     /**
      * @ElementName searchCriteriaCallingPresentationNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     private $searchCriteriaCallingPresentationNumber = array(
@@ -69,18 +83,16 @@ class EnhancedCallLogsNumberFilter
     /**
      * Getter for includeBasicCallType
      *
-     * @ElementName includeBasicCallType
      * @return \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
     public function getIncludeBasicCallType()
     {
-        return $this->includeBasicCallType;
+        return $this->includeBasicCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeBasicCallType;
     }
 
     /**
      * Setter for includeBasicCallType
      *
-     * @ElementName includeBasicCallType
      * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[] $includeBasicCallType
      * @return $this
      */
@@ -91,33 +103,39 @@ class EnhancedCallLogsNumberFilter
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeBasicCallType()
+    {
+        $this->includeBasicCallType = null;
+        return $this;
+    }
+
+    /**
      * Adder for includeBasicCallType
      *
-     * @ElementName includeBasicCallType
      * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallType $includeBasicCallType
      * @return $this
      */
     public function addIncludeBasicCallType($includeBasicCallType)
     {
-        $this->includeBasicCallType []= $includeBasicCallType;
+        $this->includeBasicCallType[] = $includeBasicCallType;
         return $this;
     }
 
     /**
      * Getter for includeCallCategory
      *
-     * @ElementName includeCallCategory
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
     public function getIncludeCallCategory()
     {
-        return $this->includeCallCategory;
+        return $this->includeCallCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeCallCategory;
     }
 
     /**
      * Setter for includeCallCategory
      *
-     * @ElementName includeCallCategory
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCategory[] $includeCallCategory
      * @return $this
      */
@@ -128,33 +146,39 @@ class EnhancedCallLogsNumberFilter
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeCallCategory()
+    {
+        $this->includeCallCategory = null;
+        return $this;
+    }
+
+    /**
      * Adder for includeCallCategory
      *
-     * @ElementName includeCallCategory
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCategory $includeCallCategory
      * @return $this
      */
     public function addIncludeCallCategory($includeCallCategory)
     {
-        $this->includeCallCategory []= $includeCallCategory;
+        $this->includeCallCategory[] = $includeCallCategory;
         return $this;
     }
 
     /**
      * Getter for includeConfigurableCallType
      *
-     * @ElementName includeConfigurableCallType
      * @return string[]
      */
     public function getIncludeConfigurableCallType()
     {
-        return $this->includeConfigurableCallType;
+        return $this->includeConfigurableCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeConfigurableCallType;
     }
 
     /**
      * Setter for includeConfigurableCallType
      *
-     * @ElementName includeConfigurableCallType
      * @param string[] $includeConfigurableCallType
      * @return $this
      */
@@ -165,33 +189,39 @@ class EnhancedCallLogsNumberFilter
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeConfigurableCallType()
+    {
+        $this->includeConfigurableCallType = null;
+        return $this;
+    }
+
+    /**
      * Adder for includeConfigurableCallType
      *
-     * @ElementName includeConfigurableCallType
      * @param string $includeConfigurableCallType
      * @return $this
      */
     public function addIncludeConfigurableCallType(string $includeConfigurableCallType)
     {
-        $this->includeConfigurableCallType []= $includeConfigurableCallType;
+        $this->includeConfigurableCallType[] = $includeConfigurableCallType;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaDialedNumber
      *
-     * @ElementName searchCriteriaDialedNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     public function getSearchCriteriaDialedNumber()
     {
-        return $this->searchCriteriaDialedNumber;
+        return $this->searchCriteriaDialedNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDialedNumber;
     }
 
     /**
      * Setter for searchCriteriaDialedNumber
      *
-     * @ElementName searchCriteriaDialedNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[] $searchCriteriaDialedNumber
      * @return $this
      */
@@ -202,33 +232,39 @@ class EnhancedCallLogsNumberFilter
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDialedNumber()
+    {
+        $this->searchCriteriaDialedNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDialedNumber
      *
-     * @ElementName searchCriteriaDialedNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI $searchCriteriaDialedNumber
      * @return $this
      */
     public function addSearchCriteriaDialedNumber($searchCriteriaDialedNumber)
     {
-        $this->searchCriteriaDialedNumber []= $searchCriteriaDialedNumber;
+        $this->searchCriteriaDialedNumber[] = $searchCriteriaDialedNumber;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaCalledNumber
      *
-     * @ElementName searchCriteriaCalledNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     public function getSearchCriteriaCalledNumber()
     {
-        return $this->searchCriteriaCalledNumber;
+        return $this->searchCriteriaCalledNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaCalledNumber;
     }
 
     /**
      * Setter for searchCriteriaCalledNumber
      *
-     * @ElementName searchCriteriaCalledNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[] $searchCriteriaCalledNumber
      * @return $this
      */
@@ -239,33 +275,39 @@ class EnhancedCallLogsNumberFilter
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaCalledNumber()
+    {
+        $this->searchCriteriaCalledNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaCalledNumber
      *
-     * @ElementName searchCriteriaCalledNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI $searchCriteriaCalledNumber
      * @return $this
      */
     public function addSearchCriteriaCalledNumber($searchCriteriaCalledNumber)
     {
-        $this->searchCriteriaCalledNumber []= $searchCriteriaCalledNumber;
+        $this->searchCriteriaCalledNumber[] = $searchCriteriaCalledNumber;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaNetworkTranslatedNumber
      *
-     * @ElementName searchCriteriaNetworkTranslatedNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     public function getSearchCriteriaNetworkTranslatedNumber()
     {
-        return $this->searchCriteriaNetworkTranslatedNumber;
+        return $this->searchCriteriaNetworkTranslatedNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaNetworkTranslatedNumber;
     }
 
     /**
      * Setter for searchCriteriaNetworkTranslatedNumber
      *
-     * @ElementName searchCriteriaNetworkTranslatedNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[] $searchCriteriaNetworkTranslatedNumber
      * @return $this
      */
@@ -276,33 +318,39 @@ class EnhancedCallLogsNumberFilter
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaNetworkTranslatedNumber()
+    {
+        $this->searchCriteriaNetworkTranslatedNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaNetworkTranslatedNumber
      *
-     * @ElementName searchCriteriaNetworkTranslatedNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI $searchCriteriaNetworkTranslatedNumber
      * @return $this
      */
     public function addSearchCriteriaNetworkTranslatedNumber($searchCriteriaNetworkTranslatedNumber)
     {
-        $this->searchCriteriaNetworkTranslatedNumber []= $searchCriteriaNetworkTranslatedNumber;
+        $this->searchCriteriaNetworkTranslatedNumber[] = $searchCriteriaNetworkTranslatedNumber;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaCallingPresentationNumber
      *
-     * @ElementName searchCriteriaCallingPresentationNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     public function getSearchCriteriaCallingPresentationNumber()
     {
-        return $this->searchCriteriaCallingPresentationNumber;
+        return $this->searchCriteriaCallingPresentationNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaCallingPresentationNumber;
     }
 
     /**
      * Setter for searchCriteriaCallingPresentationNumber
      *
-     * @ElementName searchCriteriaCallingPresentationNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[] $searchCriteriaCallingPresentationNumber
      * @return $this
      */
@@ -313,15 +361,23 @@ class EnhancedCallLogsNumberFilter
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaCallingPresentationNumber()
+    {
+        $this->searchCriteriaCallingPresentationNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaCallingPresentationNumber
      *
-     * @ElementName searchCriteriaCallingPresentationNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI $searchCriteriaCallingPresentationNumber
      * @return $this
      */
     public function addSearchCriteriaCallingPresentationNumber($searchCriteriaCallingPresentationNumber)
     {
-        $this->searchCriteriaCallingPresentationNumber []= $searchCriteriaCallingPresentationNumber;
+        $this->searchCriteriaCallingPresentationNumber[] = $searchCriteriaCallingPresentationNumber;
         return $this;
     }
 

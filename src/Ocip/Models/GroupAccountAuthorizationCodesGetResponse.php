@@ -18,30 +18,35 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     private $type = null;
 
     /**
      * @ElementName numberOfDigits
+     * @Type int
      * @var int|null
      */
     private $numberOfDigits = null;
 
     /**
      * @ElementName allowLocalAndTollFreeCalls
+     * @Type bool
      * @var bool|null
      */
     private $allowLocalAndTollFreeCalls = null;
 
     /**
      * @ElementName mandatoryUsageUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mandatoryUsageUserTable = null;
 
     /**
      * @ElementName optionalUsageUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $optionalUsageUserTable = null;
@@ -49,19 +54,17 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for type
      *
-     * @ElementName type
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType
      */
     public function getType()
     {
-        return $this->type;
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
     }
 
     /**
      * Setter for type
      *
-     * @ElementName type
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType $type
      * @return $this
      */
     public function setType(\CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType $type)
@@ -71,21 +74,28 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfDigits
      *
-     * @ElementName numberOfDigits
-     * @return int|null
+     * @return int
      */
     public function getNumberOfDigits()
     {
-        return $this->numberOfDigits;
+        return $this->numberOfDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfDigits;
     }
 
     /**
      * Setter for numberOfDigits
      *
-     * @ElementName numberOfDigits
-     * @param int|null $numberOfDigits
+     * @param int $numberOfDigits
      * @return $this
      */
     public function setNumberOfDigits($numberOfDigits)
@@ -95,21 +105,28 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfDigits()
+    {
+        $this->numberOfDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowLocalAndTollFreeCalls
      *
-     * @ElementName allowLocalAndTollFreeCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAllowLocalAndTollFreeCalls()
     {
-        return $this->allowLocalAndTollFreeCalls;
+        return $this->allowLocalAndTollFreeCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowLocalAndTollFreeCalls;
     }
 
     /**
      * Setter for allowLocalAndTollFreeCalls
      *
-     * @ElementName allowLocalAndTollFreeCalls
-     * @param bool|null $allowLocalAndTollFreeCalls
+     * @param bool $allowLocalAndTollFreeCalls
      * @return $this
      */
     public function setAllowLocalAndTollFreeCalls($allowLocalAndTollFreeCalls)
@@ -119,21 +136,28 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowLocalAndTollFreeCalls()
+    {
+        $this->allowLocalAndTollFreeCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for mandatoryUsageUserTable
      *
-     * @ElementName mandatoryUsageUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMandatoryUsageUserTable()
     {
-        return $this->mandatoryUsageUserTable;
+        return $this->mandatoryUsageUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mandatoryUsageUserTable;
     }
 
     /**
      * Setter for mandatoryUsageUserTable
      *
-     * @ElementName mandatoryUsageUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mandatoryUsageUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mandatoryUsageUserTable
      * @return $this
      */
     public function setMandatoryUsageUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mandatoryUsageUserTable)
@@ -143,26 +167,42 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMandatoryUsageUserTable()
+    {
+        $this->mandatoryUsageUserTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for optionalUsageUserTable
      *
-     * @ElementName optionalUsageUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getOptionalUsageUserTable()
     {
-        return $this->optionalUsageUserTable;
+        return $this->optionalUsageUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->optionalUsageUserTable;
     }
 
     /**
      * Setter for optionalUsageUserTable
      *
-     * @ElementName optionalUsageUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $optionalUsageUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $optionalUsageUserTable
      * @return $this
      */
     public function setOptionalUsageUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $optionalUsageUserTable)
     {
         $this->optionalUsageUserTable = $optionalUsageUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOptionalUsageUserTable()
+    {
+        $this->optionalUsageUserTable = null;
         return $this;
     }
 

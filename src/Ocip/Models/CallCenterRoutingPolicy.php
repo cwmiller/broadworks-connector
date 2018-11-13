@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterRoutingPolicy LONGEST_WAIT_TIME()
  * @method static CallCenterRoutingPolicy PRIORITY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterRoutingPolicy extends \MyCLabs\Enum\Enum
 {

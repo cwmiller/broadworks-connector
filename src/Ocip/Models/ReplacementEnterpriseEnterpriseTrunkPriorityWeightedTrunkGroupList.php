@@ -15,6 +15,8 @@ class ReplacementEnterpriseEnterpriseTrunkPriorityWeightedTrunkGroupList
 
     /**
      * @ElementName trunkGroup
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup[]
      */
     private $trunkGroup = array(
@@ -24,18 +26,16 @@ class ReplacementEnterpriseEnterpriseTrunkPriorityWeightedTrunkGroupList
     /**
      * Getter for trunkGroup
      *
-     * @ElementName trunkGroup
      * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup[]
      */
     public function getTrunkGroup()
     {
-        return $this->trunkGroup;
+        return $this->trunkGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroup;
     }
 
     /**
      * Setter for trunkGroup
      *
-     * @ElementName trunkGroup
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup[] $trunkGroup
      * @return $this
      */
@@ -46,15 +46,23 @@ class ReplacementEnterpriseEnterpriseTrunkPriorityWeightedTrunkGroupList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroup()
+    {
+        $this->trunkGroup = null;
+        return $this;
+    }
+
+    /**
      * Adder for trunkGroup
      *
-     * @ElementName trunkGroup
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkPriorityWeightedTrunkGroup $trunkGroup
      * @return $this
      */
     public function addTrunkGroup($trunkGroup)
     {
-        $this->trunkGroup []= $trunkGroup;
+        $this->trunkGroup[] = $trunkGroup;
         return $this;
     }
 

@@ -19,12 +19,14 @@ class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName submenuId
+     * @Type string
      * @var string|null
      */
     private $submenuId = null;
@@ -32,19 +34,17 @@ class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -54,26 +54,42 @@ class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for submenuId
      *
-     * @ElementName submenuId
-     * @return string|null
+     * @return string
      */
     public function getSubmenuId()
     {
-        return $this->submenuId;
+        return $this->submenuId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->submenuId;
     }
 
     /**
      * Setter for submenuId
      *
-     * @ElementName submenuId
-     * @param string|null $submenuId
+     * @param string $submenuId
      * @return $this
      */
     public function setSubmenuId($submenuId)
     {
         $this->submenuId = $submenuId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSubmenuId()
+    {
+        $this->submenuId = null;
         return $this;
     }
 

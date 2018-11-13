@@ -23,18 +23,21 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName deviceLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     private $deviceLevel = null;
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
@@ -42,19 +45,17 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -64,21 +65,28 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceLevel
      *
-     * @ElementName deviceLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
      */
     public function getDeviceLevel()
     {
-        return $this->deviceLevel;
+        return $this->deviceLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceLevel;
     }
 
     /**
      * Setter for deviceLevel
      *
-     * @ElementName deviceLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null $deviceLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel $deviceLevel
      * @return $this
      */
     public function setDeviceLevel(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel $deviceLevel)
@@ -88,26 +96,42 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceLevel()
+    {
+        $this->deviceLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
     {
         $this->deviceName = $deviceName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
         return $this;
     }
 

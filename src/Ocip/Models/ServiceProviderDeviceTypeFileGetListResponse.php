@@ -18,12 +18,14 @@ class ServiceProviderDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderDeviceTypeFilesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderDeviceTypeFilesTable = null;
 
     /**
      * @ElementName serviceProviderHasCustomizableDynamicFiles
+     * @Type bool
      * @var bool|null
      */
     private $serviceProviderHasCustomizableDynamicFiles = null;
@@ -31,19 +33,17 @@ class ServiceProviderDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderDeviceTypeFilesTable
      *
-     * @ElementName serviceProviderDeviceTypeFilesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServiceProviderDeviceTypeFilesTable()
     {
-        return $this->serviceProviderDeviceTypeFilesTable;
+        return $this->serviceProviderDeviceTypeFilesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderDeviceTypeFilesTable;
     }
 
     /**
      * Setter for serviceProviderDeviceTypeFilesTable
      *
-     * @ElementName serviceProviderDeviceTypeFilesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderDeviceTypeFilesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderDeviceTypeFilesTable
      * @return $this
      */
     public function setServiceProviderDeviceTypeFilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderDeviceTypeFilesTable)
@@ -53,26 +53,42 @@ class ServiceProviderDeviceTypeFileGetListResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderDeviceTypeFilesTable()
+    {
+        $this->serviceProviderDeviceTypeFilesTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceProviderHasCustomizableDynamicFiles
      *
-     * @ElementName serviceProviderHasCustomizableDynamicFiles
-     * @return bool|null
+     * @return bool
      */
     public function getServiceProviderHasCustomizableDynamicFiles()
     {
-        return $this->serviceProviderHasCustomizableDynamicFiles;
+        return $this->serviceProviderHasCustomizableDynamicFiles instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderHasCustomizableDynamicFiles;
     }
 
     /**
      * Setter for serviceProviderHasCustomizableDynamicFiles
      *
-     * @ElementName serviceProviderHasCustomizableDynamicFiles
-     * @param bool|null $serviceProviderHasCustomizableDynamicFiles
+     * @param bool $serviceProviderHasCustomizableDynamicFiles
      * @return $this
      */
     public function setServiceProviderHasCustomizableDynamicFiles($serviceProviderHasCustomizableDynamicFiles)
     {
         $this->serviceProviderHasCustomizableDynamicFiles = $serviceProviderHasCustomizableDynamicFiles;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceProviderHasCustomizableDynamicFiles()
+    {
+        $this->serviceProviderHasCustomizableDynamicFiles = null;
         return $this;
     }
 

@@ -12,30 +12,35 @@ class PersonalizedNameMenuKeysReadEntry
 
     /**
      * @ElementName recordNewPersonalizedName
+     * @Type string
      * @var string|null
      */
     private $recordNewPersonalizedName = null;
 
     /**
      * @ElementName listenToCurrentPersonalizedName
+     * @Type string
      * @var string|null
      */
     private $listenToCurrentPersonalizedName = null;
 
     /**
      * @ElementName deletePersonalizedName
+     * @Type string
      * @var string|null
      */
     private $deletePersonalizedName = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -43,19 +48,17 @@ class PersonalizedNameMenuKeysReadEntry
     /**
      * Getter for recordNewPersonalizedName
      *
-     * @ElementName recordNewPersonalizedName
-     * @return string|null
+     * @return string
      */
     public function getRecordNewPersonalizedName()
     {
-        return $this->recordNewPersonalizedName;
+        return $this->recordNewPersonalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordNewPersonalizedName;
     }
 
     /**
      * Setter for recordNewPersonalizedName
      *
-     * @ElementName recordNewPersonalizedName
-     * @param string|null $recordNewPersonalizedName
+     * @param string $recordNewPersonalizedName
      * @return $this
      */
     public function setRecordNewPersonalizedName($recordNewPersonalizedName)
@@ -65,21 +68,28 @@ class PersonalizedNameMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecordNewPersonalizedName()
+    {
+        $this->recordNewPersonalizedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for listenToCurrentPersonalizedName
      *
-     * @ElementName listenToCurrentPersonalizedName
-     * @return string|null
+     * @return string
      */
     public function getListenToCurrentPersonalizedName()
     {
-        return $this->listenToCurrentPersonalizedName;
+        return $this->listenToCurrentPersonalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentPersonalizedName;
     }
 
     /**
      * Setter for listenToCurrentPersonalizedName
      *
-     * @ElementName listenToCurrentPersonalizedName
-     * @param string|null $listenToCurrentPersonalizedName
+     * @param string $listenToCurrentPersonalizedName
      * @return $this
      */
     public function setListenToCurrentPersonalizedName($listenToCurrentPersonalizedName)
@@ -89,21 +99,28 @@ class PersonalizedNameMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListenToCurrentPersonalizedName()
+    {
+        $this->listenToCurrentPersonalizedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for deletePersonalizedName
      *
-     * @ElementName deletePersonalizedName
-     * @return string|null
+     * @return string
      */
     public function getDeletePersonalizedName()
     {
-        return $this->deletePersonalizedName;
+        return $this->deletePersonalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deletePersonalizedName;
     }
 
     /**
      * Setter for deletePersonalizedName
      *
-     * @ElementName deletePersonalizedName
-     * @param string|null $deletePersonalizedName
+     * @param string $deletePersonalizedName
      * @return $this
      */
     public function setDeletePersonalizedName($deletePersonalizedName)
@@ -113,21 +130,28 @@ class PersonalizedNameMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeletePersonalizedName()
+    {
+        $this->deletePersonalizedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -137,26 +161,42 @@ class PersonalizedNameMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

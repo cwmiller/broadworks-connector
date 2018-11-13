@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static RoutePointFailoverStatus NORMAL()
  * @method static RoutePointFailoverStatus FAILOVER()
- * @ValueType string
+ * @EnumValueType string
  */
 class RoutePointFailoverStatus extends \MyCLabs\Enum\Enum
 {

@@ -10,6 +10,8 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
 
     /**
      * @ElementName groupId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $groupId = array(
@@ -19,18 +21,16 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
     /**
      * Getter for groupId
      *
-     * @ElementName groupId
      * @return string[]
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
      * @param string[] $groupId
      * @return $this
      */
@@ -41,15 +41,23 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Adder for groupId
      *
-     * @ElementName groupId
      * @param string $groupId
      * @return $this
      */
     public function addGroupId(string $groupId)
     {
-        $this->groupId []= $groupId;
+        $this->groupId[] = $groupId;
         return $this;
     }
 

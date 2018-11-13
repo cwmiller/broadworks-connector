@@ -13,6 +13,7 @@ class SearchCriteriaExactDeviceManagementEventAction extends SearchCriteria
 
     /**
      * @ElementName dmEventAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction|null
      */
     private $dmEventAction = null;
@@ -20,24 +21,31 @@ class SearchCriteriaExactDeviceManagementEventAction extends SearchCriteria
     /**
      * Getter for dmEventAction
      *
-     * @ElementName dmEventAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction
      */
     public function getDmEventAction()
     {
-        return $this->dmEventAction;
+        return $this->dmEventAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dmEventAction;
     }
 
     /**
      * Setter for dmEventAction
      *
-     * @ElementName dmEventAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction|null $dmEventAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction $dmEventAction
      * @return $this
      */
     public function setDmEventAction(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction $dmEventAction)
     {
         $this->dmEventAction = $dmEventAction;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDmEventAction()
+    {
+        $this->dmEventAction = null;
         return $this;
     }
 

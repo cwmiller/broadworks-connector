@@ -17,18 +17,22 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
 
     /**
      * @ElementName zoneName
+     * @Type string
      * @var string|null
      */
     private $zoneName = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaZoneIPAddress
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress[]
      */
     private $searchCriteriaZoneIPAddress = array(
@@ -38,19 +42,17 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
     /**
      * Getter for zoneName
      *
-     * @ElementName zoneName
-     * @return string|null
+     * @return string
      */
     public function getZoneName()
     {
-        return $this->zoneName;
+        return $this->zoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zoneName;
     }
 
     /**
      * Setter for zoneName
      *
-     * @ElementName zoneName
-     * @param string|null $zoneName
+     * @param string $zoneName
      * @return $this
      */
     public function setZoneName($zoneName)
@@ -60,21 +62,28 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetZoneName()
+    {
+        $this->zoneName = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -84,20 +93,27 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaZoneIPAddress
      *
-     * @ElementName searchCriteriaZoneIPAddress
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress[]
      */
     public function getSearchCriteriaZoneIPAddress()
     {
-        return $this->searchCriteriaZoneIPAddress;
+        return $this->searchCriteriaZoneIPAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaZoneIPAddress;
     }
 
     /**
      * Setter for searchCriteriaZoneIPAddress
      *
-     * @ElementName searchCriteriaZoneIPAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress[] $searchCriteriaZoneIPAddress
      * @return $this
      */
@@ -108,15 +124,23 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaZoneIPAddress()
+    {
+        $this->searchCriteriaZoneIPAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaZoneIPAddress
      *
-     * @ElementName searchCriteriaZoneIPAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress $searchCriteriaZoneIPAddress
      * @return $this
      */
     public function addSearchCriteriaZoneIPAddress($searchCriteriaZoneIPAddress)
     {
-        $this->searchCriteriaZoneIPAddress []= $searchCriteriaZoneIPAddress;
+        $this->searchCriteriaZoneIPAddress[] = $searchCriteriaZoneIPAddress;
         return $this;
     }
 

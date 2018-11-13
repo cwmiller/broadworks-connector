@@ -17,12 +17,14 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName supportsPolycomPhoneServices
+     * @Type bool
      * @var bool|null
      */
     private $supportsPolycomPhoneServices = null;
@@ -30,19 +32,17 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -52,26 +52,42 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportsPolycomPhoneServices
      *
-     * @ElementName supportsPolycomPhoneServices
-     * @return bool|null
+     * @return bool
      */
     public function getSupportsPolycomPhoneServices()
     {
-        return $this->supportsPolycomPhoneServices;
+        return $this->supportsPolycomPhoneServices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportsPolycomPhoneServices;
     }
 
     /**
      * Setter for supportsPolycomPhoneServices
      *
-     * @ElementName supportsPolycomPhoneServices
-     * @param bool|null $supportsPolycomPhoneServices
+     * @param bool $supportsPolycomPhoneServices
      * @return $this
      */
     public function setSupportsPolycomPhoneServices($supportsPolycomPhoneServices)
     {
         $this->supportsPolycomPhoneServices = $supportsPolycomPhoneServices;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupportsPolycomPhoneServices()
+    {
+        $this->supportsPolycomPhoneServices = null;
         return $this;
     }
 

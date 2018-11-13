@@ -14,24 +14,28 @@ class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName useSetting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel|null
      */
     private $useSetting = null;
 
     /**
      * @ElementName accessCode
+     * @Type string
      * @var string|null
      */
     private $accessCode = null;
 
     /**
      * @ElementName publicDigitMap
+     * @Type string
      * @var string|null
      */
     private $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
+     * @Type string
      * @var string|null
      */
     private $privateDigitMap = null;
@@ -39,19 +43,17 @@ class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for useSetting
      *
-     * @ElementName useSetting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel
      */
     public function getUseSetting()
     {
-        return $this->useSetting;
+        return $this->useSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSetting;
     }
 
     /**
      * Setter for useSetting
      *
-     * @ElementName useSetting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel|null $useSetting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel $useSetting
      * @return $this
      */
     public function setUseSetting(\CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel $useSetting)
@@ -61,21 +63,28 @@ class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSetting()
+    {
+        $this->useSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessCode
      *
-     * @ElementName accessCode
-     * @return string|null
+     * @return string
      */
     public function getAccessCode()
     {
-        return $this->accessCode;
+        return $this->accessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessCode;
     }
 
     /**
      * Setter for accessCode
      *
-     * @ElementName accessCode
-     * @param string|null $accessCode
+     * @param string $accessCode
      * @return $this
      */
     public function setAccessCode($accessCode)
@@ -85,21 +94,28 @@ class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessCode()
+    {
+        $this->accessCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for publicDigitMap
      *
-     * @ElementName publicDigitMap
-     * @return string|null
+     * @return string
      */
     public function getPublicDigitMap()
     {
-        return $this->publicDigitMap;
+        return $this->publicDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicDigitMap;
     }
 
     /**
      * Setter for publicDigitMap
      *
-     * @ElementName publicDigitMap
-     * @param string|null $publicDigitMap
+     * @param string $publicDigitMap
      * @return $this
      */
     public function setPublicDigitMap($publicDigitMap)
@@ -109,26 +125,42 @@ class GroupDigitCollectionGetResponse13mp4 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPublicDigitMap()
+    {
+        $this->publicDigitMap = null;
+        return $this;
+    }
+
+    /**
      * Getter for privateDigitMap
      *
-     * @ElementName privateDigitMap
-     * @return string|null
+     * @return string
      */
     public function getPrivateDigitMap()
     {
-        return $this->privateDigitMap;
+        return $this->privateDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->privateDigitMap;
     }
 
     /**
      * Setter for privateDigitMap
      *
-     * @ElementName privateDigitMap
-     * @param string|null $privateDigitMap
+     * @param string $privateDigitMap
      * @return $this
      */
     public function setPrivateDigitMap($privateDigitMap)
     {
         $this->privateDigitMap = $privateDigitMap;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrivateDigitMap()
+    {
+        $this->privateDigitMap = null;
         return $this;
     }
 

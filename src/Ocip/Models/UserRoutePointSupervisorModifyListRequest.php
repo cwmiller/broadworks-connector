@@ -16,12 +16,14 @@ class UserRoutePointSupervisorModifyListRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName supervisorUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class UserRoutePointSupervisorModifyListRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,28 +52,46 @@ class UserRoutePointSupervisorModifyListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for supervisorUserIdList
      *
-     * @ElementName supervisorUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getSupervisorUserIdList()
     {
-        return $this->supervisorUserIdList;
+        return $this->supervisorUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supervisorUserIdList;
     }
 
     /**
      * Setter for supervisorUserIdList
      *
-     * @ElementName supervisorUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $supervisorUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $supervisorUserIdList
      * @return $this
      */
     public function setSupervisorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $supervisorUserIdList)
     {
-        $this->supervisorUserIdList = $supervisorUserIdList;
+        if ($supervisorUserIdList === null) {
+            $this->supervisorUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->supervisorUserIdList = $supervisorUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupervisorUserIdList()
+    {
+        $this->supervisorUserIdList = null;
         return $this;
     }
 

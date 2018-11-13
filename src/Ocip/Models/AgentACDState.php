@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AgentACDState AVAILABLE()
  * @method static AgentACDState UNAVAILABLE()
  * @method static AgentACDState WRAP_UP()
- * @ValueType string
+ * @EnumValueType string
  */
 class AgentACDState extends \MyCLabs\Enum\Enum
 {

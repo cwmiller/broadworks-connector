@@ -15,24 +15,28 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName delayBetweenNotificationSeconds
+     * @Type int
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
 
     /**
      * @ElementName incomingAocHandling
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     private $incomingAocHandling = null;
 
     /**
      * @ElementName useOCSEnquiry
+     * @Type bool
      * @var bool|null
      */
     private $useOCSEnquiry = null;
 
     /**
      * @ElementName OCSEnquiryType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
      */
     private $OCSEnquiryType = null;
@@ -40,19 +44,17 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @return int|null
+     * @return int
      */
     public function getDelayBetweenNotificationSeconds()
     {
-        return $this->delayBetweenNotificationSeconds;
+        return $this->delayBetweenNotificationSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->delayBetweenNotificationSeconds;
     }
 
     /**
      * Setter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @param int|null $delayBetweenNotificationSeconds
+     * @param int $delayBetweenNotificationSeconds
      * @return $this
      */
     public function setDelayBetweenNotificationSeconds($delayBetweenNotificationSeconds)
@@ -62,21 +64,28 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDelayBetweenNotificationSeconds()
+    {
+        $this->delayBetweenNotificationSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for incomingAocHandling
      *
-     * @ElementName incomingAocHandling
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
      */
     public function getIncomingAocHandling()
     {
-        return $this->incomingAocHandling;
+        return $this->incomingAocHandling instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingAocHandling;
     }
 
     /**
      * Setter for incomingAocHandling
      *
-     * @ElementName incomingAocHandling
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null $incomingAocHandling
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling $incomingAocHandling
      * @return $this
      */
     public function setIncomingAocHandling(\CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling $incomingAocHandling)
@@ -86,21 +95,28 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncomingAocHandling()
+    {
+        $this->incomingAocHandling = null;
+        return $this;
+    }
+
+    /**
      * Getter for useOCSEnquiry
      *
-     * @ElementName useOCSEnquiry
-     * @return bool|null
+     * @return bool
      */
     public function getUseOCSEnquiry()
     {
-        return $this->useOCSEnquiry;
+        return $this->useOCSEnquiry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useOCSEnquiry;
     }
 
     /**
      * Setter for useOCSEnquiry
      *
-     * @ElementName useOCSEnquiry
-     * @param bool|null $useOCSEnquiry
+     * @param bool $useOCSEnquiry
      * @return $this
      */
     public function setUseOCSEnquiry($useOCSEnquiry)
@@ -110,26 +126,42 @@ class SystemAdviceOfChargeGetResponse19sp1 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseOCSEnquiry()
+    {
+        $this->useOCSEnquiry = null;
+        return $this;
+    }
+
+    /**
      * Getter for OCSEnquiryType
      *
-     * @ElementName OCSEnquiryType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType
      */
     public function getOCSEnquiryType()
     {
-        return $this->OCSEnquiryType;
+        return $this->OCSEnquiryType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->OCSEnquiryType;
     }
 
     /**
      * Setter for OCSEnquiryType
      *
-     * @ElementName OCSEnquiryType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType|null $OCSEnquiryType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType $OCSEnquiryType
      * @return $this
      */
     public function setOCSEnquiryType(\CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeOCSEnquiryType $OCSEnquiryType)
     {
         $this->OCSEnquiryType = $OCSEnquiryType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOCSEnquiryType()
+    {
+        $this->OCSEnquiryType = null;
         return $this;
     }
 

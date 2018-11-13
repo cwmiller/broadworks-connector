@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceProviderAdminPhoneNumberExtensionAccess
  * ASSIGN_TO_SERVICES_AND_USERS()
  * @method static ServiceProviderAdminPhoneNumberExtensionAccess READ_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminPhoneNumberExtensionAccess extends \MyCLabs\Enum\Enum
 {

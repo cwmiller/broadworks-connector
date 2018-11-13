@@ -16,6 +16,7 @@ class SystemZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName zoneName
+     * @Type string
      * @var string|null
      */
     private $zoneName = null;
@@ -23,24 +24,31 @@ class SystemZoneDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * Getter for zoneName
      *
-     * @ElementName zoneName
-     * @return string|null
+     * @return string
      */
     public function getZoneName()
     {
-        return $this->zoneName;
+        return $this->zoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zoneName;
     }
 
     /**
      * Setter for zoneName
      *
-     * @ElementName zoneName
-     * @param string|null $zoneName
+     * @param string $zoneName
      * @return $this
      */
     public function setZoneName($zoneName)
     {
         $this->zoneName = $zoneName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetZoneName()
+    {
+        $this->zoneName = null;
         return $this;
     }
 

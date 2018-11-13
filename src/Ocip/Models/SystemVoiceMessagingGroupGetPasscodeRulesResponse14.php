@@ -17,84 +17,98 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
 
     /**
      * @ElementName disallowRepeatedDigits
+     * @Type bool
      * @var bool|null
      */
     private $disallowRepeatedDigits = null;
 
     /**
      * @ElementName disallowUserNumber
+     * @Type bool
      * @var bool|null
      */
     private $disallowUserNumber = null;
 
     /**
      * @ElementName disallowReversedUserNumber
+     * @Type bool
      * @var bool|null
      */
     private $disallowReversedUserNumber = null;
 
     /**
      * @ElementName disallowOldPasscode
+     * @Type bool
      * @var bool|null
      */
     private $disallowOldPasscode = null;
 
     /**
      * @ElementName disallowReversedOldPasscode
+     * @Type bool
      * @var bool|null
      */
     private $disallowReversedOldPasscode = null;
 
     /**
      * @ElementName minCodeLength
+     * @Type int
      * @var int|null
      */
     private $minCodeLength = null;
 
     /**
      * @ElementName maxCodeLength
+     * @Type int
      * @var int|null
      */
     private $maxCodeLength = null;
 
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
+     * @Type bool
      * @var bool|null
      */
     private $disableLoginAfterMaxFailedLoginAttempts = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
+     * @Type int
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName expirePassword
+     * @Type bool
      * @var bool|null
      */
     private $expirePassword = null;
 
     /**
      * @ElementName passcodeExpiresDays
+     * @Type int
      * @var int|null
      */
     private $passcodeExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
+     * @Type bool
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
+     * @Type string
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;
 
     /**
      * @ElementName defaultPassword
+     * @Type string
      * @var string|null
      */
     private $defaultPassword = null;
@@ -102,19 +116,17 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * Getter for disallowRepeatedDigits
      *
-     * @ElementName disallowRepeatedDigits
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowRepeatedDigits()
     {
-        return $this->disallowRepeatedDigits;
+        return $this->disallowRepeatedDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowRepeatedDigits;
     }
 
     /**
      * Setter for disallowRepeatedDigits
      *
-     * @ElementName disallowRepeatedDigits
-     * @param bool|null $disallowRepeatedDigits
+     * @param bool $disallowRepeatedDigits
      * @return $this
      */
     public function setDisallowRepeatedDigits($disallowRepeatedDigits)
@@ -124,21 +136,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowRepeatedDigits()
+    {
+        $this->disallowRepeatedDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowUserNumber
      *
-     * @ElementName disallowUserNumber
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowUserNumber()
     {
-        return $this->disallowUserNumber;
+        return $this->disallowUserNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowUserNumber;
     }
 
     /**
      * Setter for disallowUserNumber
      *
-     * @ElementName disallowUserNumber
-     * @param bool|null $disallowUserNumber
+     * @param bool $disallowUserNumber
      * @return $this
      */
     public function setDisallowUserNumber($disallowUserNumber)
@@ -148,21 +167,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowUserNumber()
+    {
+        $this->disallowUserNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowReversedUserNumber
      *
-     * @ElementName disallowReversedUserNumber
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowReversedUserNumber()
     {
-        return $this->disallowReversedUserNumber;
+        return $this->disallowReversedUserNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowReversedUserNumber;
     }
 
     /**
      * Setter for disallowReversedUserNumber
      *
-     * @ElementName disallowReversedUserNumber
-     * @param bool|null $disallowReversedUserNumber
+     * @param bool $disallowReversedUserNumber
      * @return $this
      */
     public function setDisallowReversedUserNumber($disallowReversedUserNumber)
@@ -172,21 +198,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowReversedUserNumber()
+    {
+        $this->disallowReversedUserNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowOldPasscode
      *
-     * @ElementName disallowOldPasscode
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowOldPasscode()
     {
-        return $this->disallowOldPasscode;
+        return $this->disallowOldPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowOldPasscode;
     }
 
     /**
      * Setter for disallowOldPasscode
      *
-     * @ElementName disallowOldPasscode
-     * @param bool|null $disallowOldPasscode
+     * @param bool $disallowOldPasscode
      * @return $this
      */
     public function setDisallowOldPasscode($disallowOldPasscode)
@@ -196,21 +229,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowOldPasscode()
+    {
+        $this->disallowOldPasscode = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowReversedOldPasscode
      *
-     * @ElementName disallowReversedOldPasscode
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowReversedOldPasscode()
     {
-        return $this->disallowReversedOldPasscode;
+        return $this->disallowReversedOldPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowReversedOldPasscode;
     }
 
     /**
      * Setter for disallowReversedOldPasscode
      *
-     * @ElementName disallowReversedOldPasscode
-     * @param bool|null $disallowReversedOldPasscode
+     * @param bool $disallowReversedOldPasscode
      * @return $this
      */
     public function setDisallowReversedOldPasscode($disallowReversedOldPasscode)
@@ -220,21 +260,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowReversedOldPasscode()
+    {
+        $this->disallowReversedOldPasscode = null;
+        return $this;
+    }
+
+    /**
      * Getter for minCodeLength
      *
-     * @ElementName minCodeLength
-     * @return int|null
+     * @return int
      */
     public function getMinCodeLength()
     {
-        return $this->minCodeLength;
+        return $this->minCodeLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minCodeLength;
     }
 
     /**
      * Setter for minCodeLength
      *
-     * @ElementName minCodeLength
-     * @param int|null $minCodeLength
+     * @param int $minCodeLength
      * @return $this
      */
     public function setMinCodeLength($minCodeLength)
@@ -244,21 +291,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinCodeLength()
+    {
+        $this->minCodeLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCodeLength
      *
-     * @ElementName maxCodeLength
-     * @return int|null
+     * @return int
      */
     public function getMaxCodeLength()
     {
-        return $this->maxCodeLength;
+        return $this->maxCodeLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCodeLength;
     }
 
     /**
      * Setter for maxCodeLength
      *
-     * @ElementName maxCodeLength
-     * @param int|null $maxCodeLength
+     * @param int $maxCodeLength
      * @return $this
      */
     public function setMaxCodeLength($maxCodeLength)
@@ -268,21 +322,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxCodeLength()
+    {
+        $this->maxCodeLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for disableLoginAfterMaxFailedLoginAttempts
      *
-     * @ElementName disableLoginAfterMaxFailedLoginAttempts
-     * @return bool|null
+     * @return bool
      */
     public function getDisableLoginAfterMaxFailedLoginAttempts()
     {
-        return $this->disableLoginAfterMaxFailedLoginAttempts;
+        return $this->disableLoginAfterMaxFailedLoginAttempts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableLoginAfterMaxFailedLoginAttempts;
     }
 
     /**
      * Setter for disableLoginAfterMaxFailedLoginAttempts
      *
-     * @ElementName disableLoginAfterMaxFailedLoginAttempts
-     * @param bool|null $disableLoginAfterMaxFailedLoginAttempts
+     * @param bool $disableLoginAfterMaxFailedLoginAttempts
      * @return $this
      */
     public function setDisableLoginAfterMaxFailedLoginAttempts($disableLoginAfterMaxFailedLoginAttempts)
@@ -292,21 +353,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisableLoginAfterMaxFailedLoginAttempts()
+    {
+        $this->disableLoginAfterMaxFailedLoginAttempts = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxFailedLoginAttempts
      *
-     * @ElementName maxFailedLoginAttempts
-     * @return int|null
+     * @return int
      */
     public function getMaxFailedLoginAttempts()
     {
-        return $this->maxFailedLoginAttempts;
+        return $this->maxFailedLoginAttempts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxFailedLoginAttempts;
     }
 
     /**
      * Setter for maxFailedLoginAttempts
      *
-     * @ElementName maxFailedLoginAttempts
-     * @param int|null $maxFailedLoginAttempts
+     * @param int $maxFailedLoginAttempts
      * @return $this
      */
     public function setMaxFailedLoginAttempts($maxFailedLoginAttempts)
@@ -316,21 +384,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxFailedLoginAttempts()
+    {
+        $this->maxFailedLoginAttempts = null;
+        return $this;
+    }
+
+    /**
      * Getter for expirePassword
      *
-     * @ElementName expirePassword
-     * @return bool|null
+     * @return bool
      */
     public function getExpirePassword()
     {
-        return $this->expirePassword;
+        return $this->expirePassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->expirePassword;
     }
 
     /**
      * Setter for expirePassword
      *
-     * @ElementName expirePassword
-     * @param bool|null $expirePassword
+     * @param bool $expirePassword
      * @return $this
      */
     public function setExpirePassword($expirePassword)
@@ -340,21 +415,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExpirePassword()
+    {
+        $this->expirePassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for passcodeExpiresDays
      *
-     * @ElementName passcodeExpiresDays
-     * @return int|null
+     * @return int
      */
     public function getPasscodeExpiresDays()
     {
-        return $this->passcodeExpiresDays;
+        return $this->passcodeExpiresDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcodeExpiresDays;
     }
 
     /**
      * Setter for passcodeExpiresDays
      *
-     * @ElementName passcodeExpiresDays
-     * @param int|null $passcodeExpiresDays
+     * @param int $passcodeExpiresDays
      * @return $this
      */
     public function setPasscodeExpiresDays($passcodeExpiresDays)
@@ -364,21 +446,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasscodeExpiresDays()
+    {
+        $this->passcodeExpiresDays = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendLoginDisabledNotifyEmail
      *
-     * @ElementName sendLoginDisabledNotifyEmail
-     * @return bool|null
+     * @return bool
      */
     public function getSendLoginDisabledNotifyEmail()
     {
-        return $this->sendLoginDisabledNotifyEmail;
+        return $this->sendLoginDisabledNotifyEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendLoginDisabledNotifyEmail;
     }
 
     /**
      * Setter for sendLoginDisabledNotifyEmail
      *
-     * @ElementName sendLoginDisabledNotifyEmail
-     * @param bool|null $sendLoginDisabledNotifyEmail
+     * @param bool $sendLoginDisabledNotifyEmail
      * @return $this
      */
     public function setSendLoginDisabledNotifyEmail($sendLoginDisabledNotifyEmail)
@@ -388,21 +477,28 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendLoginDisabledNotifyEmail()
+    {
+        $this->sendLoginDisabledNotifyEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for loginDisabledNotifyEmailAddress
      *
-     * @ElementName loginDisabledNotifyEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getLoginDisabledNotifyEmailAddress()
     {
-        return $this->loginDisabledNotifyEmailAddress;
+        return $this->loginDisabledNotifyEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->loginDisabledNotifyEmailAddress;
     }
 
     /**
      * Setter for loginDisabledNotifyEmailAddress
      *
-     * @ElementName loginDisabledNotifyEmailAddress
-     * @param string|null $loginDisabledNotifyEmailAddress
+     * @param string $loginDisabledNotifyEmailAddress
      * @return $this
      */
     public function setLoginDisabledNotifyEmailAddress($loginDisabledNotifyEmailAddress)
@@ -412,26 +508,42 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLoginDisabledNotifyEmailAddress()
+    {
+        $this->loginDisabledNotifyEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultPassword
      *
-     * @ElementName defaultPassword
-     * @return string|null
+     * @return string
      */
     public function getDefaultPassword()
     {
-        return $this->defaultPassword;
+        return $this->defaultPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultPassword;
     }
 
     /**
      * Setter for defaultPassword
      *
-     * @ElementName defaultPassword
-     * @param string|null $defaultPassword
+     * @param string $defaultPassword
      * @return $this
      */
     public function setDefaultPassword($defaultPassword)
     {
         $this->defaultPassword = $defaultPassword;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultPassword()
+    {
+        $this->defaultPassword = null;
         return $this;
     }
 

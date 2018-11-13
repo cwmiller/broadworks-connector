@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CommPilotExpressProfile AVAILABLE_OUT_OF_OFFICE()
  * @method static CommPilotExpressProfile BUSY()
  * @method static CommPilotExpressProfile UNAVAILABLE()
- * @ValueType string
+ * @EnumValueType string
  */
 class CommPilotExpressProfile extends \MyCLabs\Enum\Enum
 {

@@ -14,48 +14,56 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
 
     /**
      * @ElementName enabled
+     * @Type bool
      * @var bool|null
      */
     private $enabled = null;
 
     /**
      * @ElementName enableRequireResourcePriority
+     * @Type bool
      * @var bool|null
      */
     private $enableRequireResourcePriority = null;
 
     /**
      * @ElementName sendAccessResourcePriority
+     * @Type bool
      * @var bool|null
      */
     private $sendAccessResourcePriority = null;
 
     /**
      * @ElementName callIdentifierMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
     private $callIdentifierMode = null;
 
     /**
      * @ElementName defaultPriorityAVP
+     * @Type int
      * @var int|null
      */
     private $defaultPriorityAVP = null;
 
     /**
      * @ElementName signalingDSCP
+     * @Type int
      * @var int|null
      */
     private $signalingDSCP = null;
 
     /**
      * @ElementName defaultRValue
+     * @Type string
      * @var string|null
      */
     private $defaultRValue = null;
 
     /**
      * @ElementName bypassRoRelease
+     * @Type bool
      * @var bool|null
      */
     private $bypassRoRelease = null;
@@ -63,19 +71,17 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * Getter for enabled
      *
-     * @ElementName enabled
-     * @return bool|null
+     * @return bool
      */
     public function getEnabled()
     {
-        return $this->enabled;
+        return $this->enabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enabled;
     }
 
     /**
      * Setter for enabled
      *
-     * @ElementName enabled
-     * @param bool|null $enabled
+     * @param bool $enabled
      * @return $this
      */
     public function setEnabled($enabled)
@@ -85,21 +91,28 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnabled()
+    {
+        $this->enabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableRequireResourcePriority
      *
-     * @ElementName enableRequireResourcePriority
-     * @return bool|null
+     * @return bool
      */
     public function getEnableRequireResourcePriority()
     {
-        return $this->enableRequireResourcePriority;
+        return $this->enableRequireResourcePriority instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableRequireResourcePriority;
     }
 
     /**
      * Setter for enableRequireResourcePriority
      *
-     * @ElementName enableRequireResourcePriority
-     * @param bool|null $enableRequireResourcePriority
+     * @param bool $enableRequireResourcePriority
      * @return $this
      */
     public function setEnableRequireResourcePriority($enableRequireResourcePriority)
@@ -109,21 +122,28 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableRequireResourcePriority()
+    {
+        $this->enableRequireResourcePriority = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendAccessResourcePriority
      *
-     * @ElementName sendAccessResourcePriority
-     * @return bool|null
+     * @return bool
      */
     public function getSendAccessResourcePriority()
     {
-        return $this->sendAccessResourcePriority;
+        return $this->sendAccessResourcePriority instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendAccessResourcePriority;
     }
 
     /**
      * Setter for sendAccessResourcePriority
      *
-     * @ElementName sendAccessResourcePriority
-     * @param bool|null $sendAccessResourcePriority
+     * @param bool $sendAccessResourcePriority
      * @return $this
      */
     public function setSendAccessResourcePriority($sendAccessResourcePriority)
@@ -133,21 +153,28 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendAccessResourcePriority()
+    {
+        $this->sendAccessResourcePriority = null;
+        return $this;
+    }
+
+    /**
      * Getter for callIdentifierMode
      *
-     * @ElementName callIdentifierMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode
      */
     public function getCallIdentifierMode()
     {
-        return $this->callIdentifierMode;
+        return $this->callIdentifierMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callIdentifierMode;
     }
 
     /**
      * Setter for callIdentifierMode
      *
-     * @ElementName callIdentifierMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null $callIdentifierMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode $callIdentifierMode
      * @return $this
      */
     public function setCallIdentifierMode(\CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode $callIdentifierMode)
@@ -157,21 +184,28 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallIdentifierMode()
+    {
+        $this->callIdentifierMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultPriorityAVP
      *
-     * @ElementName defaultPriorityAVP
-     * @return int|null
+     * @return int
      */
     public function getDefaultPriorityAVP()
     {
-        return $this->defaultPriorityAVP;
+        return $this->defaultPriorityAVP instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultPriorityAVP;
     }
 
     /**
      * Setter for defaultPriorityAVP
      *
-     * @ElementName defaultPriorityAVP
-     * @param int|null $defaultPriorityAVP
+     * @param int $defaultPriorityAVP
      * @return $this
      */
     public function setDefaultPriorityAVP($defaultPriorityAVP)
@@ -181,21 +215,28 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultPriorityAVP()
+    {
+        $this->defaultPriorityAVP = null;
+        return $this;
+    }
+
+    /**
      * Getter for signalingDSCP
      *
-     * @ElementName signalingDSCP
-     * @return int|null
+     * @return int
      */
     public function getSignalingDSCP()
     {
-        return $this->signalingDSCP;
+        return $this->signalingDSCP instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->signalingDSCP;
     }
 
     /**
      * Setter for signalingDSCP
      *
-     * @ElementName signalingDSCP
-     * @param int|null $signalingDSCP
+     * @param int $signalingDSCP
      * @return $this
      */
     public function setSignalingDSCP($signalingDSCP)
@@ -205,21 +246,28 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSignalingDSCP()
+    {
+        $this->signalingDSCP = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultRValue
      *
-     * @ElementName defaultRValue
-     * @return string|null
+     * @return string
      */
     public function getDefaultRValue()
     {
-        return $this->defaultRValue;
+        return $this->defaultRValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultRValue;
     }
 
     /**
      * Setter for defaultRValue
      *
-     * @ElementName defaultRValue
-     * @param string|null $defaultRValue
+     * @param string $defaultRValue
      * @return $this
      */
     public function setDefaultRValue($defaultRValue)
@@ -229,26 +277,42 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultRValue()
+    {
+        $this->defaultRValue = null;
+        return $this;
+    }
+
+    /**
      * Getter for bypassRoRelease
      *
-     * @ElementName bypassRoRelease
-     * @return bool|null
+     * @return bool
      */
     public function getBypassRoRelease()
     {
-        return $this->bypassRoRelease;
+        return $this->bypassRoRelease instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bypassRoRelease;
     }
 
     /**
      * Setter for bypassRoRelease
      *
-     * @ElementName bypassRoRelease
-     * @param bool|null $bypassRoRelease
+     * @param bool $bypassRoRelease
      * @return $this
      */
     public function setBypassRoRelease($bypassRoRelease)
     {
         $this->bypassRoRelease = $bypassRoRelease;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBypassRoRelease()
+    {
+        $this->bypassRoRelease = null;
         return $this;
     }
 

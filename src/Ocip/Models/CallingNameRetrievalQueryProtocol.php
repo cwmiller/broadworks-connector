@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallingNameRetrievalQueryProtocol SIP()
  * @method static CallingNameRetrievalQueryProtocol SOAP()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallingNameRetrievalQueryProtocol extends \MyCLabs\Enum\Enum
 {

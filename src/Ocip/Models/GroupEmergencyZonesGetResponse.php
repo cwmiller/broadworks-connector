@@ -14,24 +14,28 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName emergencyZonesProhibition
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition
      * @var \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null
      */
     private $emergencyZonesProhibition = null;
 
     /**
      * @ElementName sendEmergencyCallNotifyEmail
+     * @Type bool
      * @var bool|null
      */
     private $sendEmergencyCallNotifyEmail = null;
 
     /**
      * @ElementName emergencyCallNotifyEmailAddress
+     * @Type string
      * @var string|null
      */
     private $emergencyCallNotifyEmailAddress = null;
@@ -39,19 +43,17 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -61,21 +63,28 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for emergencyZonesProhibition
      *
-     * @ElementName emergencyZonesProhibition
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition
      */
     public function getEmergencyZonesProhibition()
     {
-        return $this->emergencyZonesProhibition;
+        return $this->emergencyZonesProhibition instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emergencyZonesProhibition;
     }
 
     /**
      * Setter for emergencyZonesProhibition
      *
-     * @ElementName emergencyZonesProhibition
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null $emergencyZonesProhibition
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition $emergencyZonesProhibition
      * @return $this
      */
     public function setEmergencyZonesProhibition(\CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition $emergencyZonesProhibition)
@@ -85,21 +94,28 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEmergencyZonesProhibition()
+    {
+        $this->emergencyZonesProhibition = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendEmergencyCallNotifyEmail
      *
-     * @ElementName sendEmergencyCallNotifyEmail
-     * @return bool|null
+     * @return bool
      */
     public function getSendEmergencyCallNotifyEmail()
     {
-        return $this->sendEmergencyCallNotifyEmail;
+        return $this->sendEmergencyCallNotifyEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendEmergencyCallNotifyEmail;
     }
 
     /**
      * Setter for sendEmergencyCallNotifyEmail
      *
-     * @ElementName sendEmergencyCallNotifyEmail
-     * @param bool|null $sendEmergencyCallNotifyEmail
+     * @param bool $sendEmergencyCallNotifyEmail
      * @return $this
      */
     public function setSendEmergencyCallNotifyEmail($sendEmergencyCallNotifyEmail)
@@ -109,26 +125,42 @@ class GroupEmergencyZonesGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendEmergencyCallNotifyEmail()
+    {
+        $this->sendEmergencyCallNotifyEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for emergencyCallNotifyEmailAddress
      *
-     * @ElementName emergencyCallNotifyEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getEmergencyCallNotifyEmailAddress()
     {
-        return $this->emergencyCallNotifyEmailAddress;
+        return $this->emergencyCallNotifyEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emergencyCallNotifyEmailAddress;
     }
 
     /**
      * Setter for emergencyCallNotifyEmailAddress
      *
-     * @ElementName emergencyCallNotifyEmailAddress
-     * @param string|null $emergencyCallNotifyEmailAddress
+     * @param string $emergencyCallNotifyEmailAddress
      * @return $this
      */
     public function setEmergencyCallNotifyEmailAddress($emergencyCallNotifyEmailAddress)
     {
         $this->emergencyCallNotifyEmailAddress = $emergencyCallNotifyEmailAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmergencyCallNotifyEmailAddress()
+    {
+        $this->emergencyCallNotifyEmailAddress = null;
         return $this;
     }
 

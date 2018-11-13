@@ -16,30 +16,35 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName instance
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
 
     /**
      * @ElementName identity
+     * @Type string
      * @var string|null
      */
     private $identity = null;
 
     /**
      * @ElementName ipAddress
+     * @Type string
      * @var string|null
      */
     private $ipAddress = null;
 
     /**
      * @ElementName port
+     * @Type int
      * @var int|null
      */
     private $port = null;
 
     /**
      * @ElementName enabled
+     * @Type bool
      * @var bool|null
      */
     private $enabled = null;
@@ -47,19 +52,17 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for instance
      *
-     * @ElementName instance
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
      */
     public function getInstance()
     {
-        return $this->instance;
+        return $this->instance instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->instance;
     }
 
     /**
      * Setter for instance
      *
-     * @ElementName instance
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null $instance
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance
      * @return $this
      */
     public function setInstance(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance)
@@ -69,21 +72,28 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInstance()
+    {
+        $this->instance = null;
+        return $this;
+    }
+
+    /**
      * Getter for identity
      *
-     * @ElementName identity
-     * @return string|null
+     * @return string
      */
     public function getIdentity()
     {
-        return $this->identity;
+        return $this->identity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->identity;
     }
 
     /**
      * Setter for identity
      *
-     * @ElementName identity
-     * @param string|null $identity
+     * @param string $identity
      * @return $this
      */
     public function setIdentity($identity)
@@ -93,21 +103,28 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIdentity()
+    {
+        $this->identity = null;
+        return $this;
+    }
+
+    /**
      * Getter for ipAddress
      *
-     * @ElementName ipAddress
-     * @return string|null
+     * @return string
      */
     public function getIpAddress()
     {
-        return $this->ipAddress;
+        return $this->ipAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ipAddress;
     }
 
     /**
      * Setter for ipAddress
      *
-     * @ElementName ipAddress
-     * @param string|null $ipAddress
+     * @param string $ipAddress
      * @return $this
      */
     public function setIpAddress($ipAddress)
@@ -117,21 +134,28 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIpAddress()
+    {
+        $this->ipAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for port
      *
-     * @ElementName port
-     * @return int|null
+     * @return int
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @param int|null $port
+     * @param int $port
      * @return $this
      */
     public function setPort($port)
@@ -141,26 +165,42 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
+        return $this;
+    }
+
+    /**
      * Getter for enabled
      *
-     * @ElementName enabled
-     * @return bool|null
+     * @return bool
      */
     public function getEnabled()
     {
-        return $this->enabled;
+        return $this->enabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enabled;
     }
 
     /**
      * Setter for enabled
      *
-     * @ElementName enabled
-     * @param bool|null $enabled
+     * @param bool $enabled
      * @return $this
      */
     public function setEnabled($enabled)
     {
         $this->enabled = $enabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnabled()
+    {
+        $this->enabled = null;
         return $this;
     }
 

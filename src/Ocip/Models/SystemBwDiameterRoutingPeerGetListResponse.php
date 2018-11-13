@@ -14,6 +14,7 @@ class SystemBwDiameterRoutingPeerGetListResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName routingPeerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routingPeerTable = null;
@@ -21,24 +22,31 @@ class SystemBwDiameterRoutingPeerGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for routingPeerTable
      *
-     * @ElementName routingPeerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRoutingPeerTable()
     {
-        return $this->routingPeerTable;
+        return $this->routingPeerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routingPeerTable;
     }
 
     /**
      * Setter for routingPeerTable
      *
-     * @ElementName routingPeerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routingPeerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routingPeerTable
      * @return $this
      */
     public function setRoutingPeerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routingPeerTable)
     {
         $this->routingPeerTable = $routingPeerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoutingPeerTable()
+    {
+        $this->routingPeerTable = null;
         return $this;
     }
 

@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingOnlyForwardi
 
     /**
      * @ElementName greetingOnlyForwardingDestination
+     * @Type string
      * @var string|null
      */
     private $greetingOnlyForwardingDestination = null;
@@ -17,24 +18,31 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20GreetingOnlyForwardi
     /**
      * Getter for greetingOnlyForwardingDestination
      *
-     * @ElementName greetingOnlyForwardingDestination
-     * @return string|null
+     * @return string
      */
     public function getGreetingOnlyForwardingDestination()
     {
-        return $this->greetingOnlyForwardingDestination;
+        return $this->greetingOnlyForwardingDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->greetingOnlyForwardingDestination;
     }
 
     /**
      * Setter for greetingOnlyForwardingDestination
      *
-     * @ElementName greetingOnlyForwardingDestination
-     * @param string|null $greetingOnlyForwardingDestination
+     * @param string $greetingOnlyForwardingDestination
      * @return $this
      */
     public function setGreetingOnlyForwardingDestination($greetingOnlyForwardingDestination)
     {
         $this->greetingOnlyForwardingDestination = $greetingOnlyForwardingDestination;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGreetingOnlyForwardingDestination()
+    {
+        $this->greetingOnlyForwardingDestination = null;
         return $this;
     }
 

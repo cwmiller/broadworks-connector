@@ -18,6 +18,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse ext
 
     /**
      * @ElementName availableNumberPrefixTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableNumberPrefixTable = null;
@@ -25,24 +26,31 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse ext
     /**
      * Getter for availableNumberPrefixTable
      *
-     * @ElementName availableNumberPrefixTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAvailableNumberPrefixTable()
     {
-        return $this->availableNumberPrefixTable;
+        return $this->availableNumberPrefixTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->availableNumberPrefixTable;
     }
 
     /**
      * Setter for availableNumberPrefixTable
      *
-     * @ElementName availableNumberPrefixTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $availableNumberPrefixTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableNumberPrefixTable
      * @return $this
      */
     public function setAvailableNumberPrefixTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableNumberPrefixTable)
     {
         $this->availableNumberPrefixTable = $availableNumberPrefixTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAvailableNumberPrefixTable()
+    {
+        $this->availableNumberPrefixTable = null;
         return $this;
     }
 

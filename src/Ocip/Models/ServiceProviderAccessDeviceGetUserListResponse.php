@@ -30,6 +30,7 @@ class ServiceProviderAccessDeviceGetUserListResponse extends \CWM\BroadWorksConn
 
     /**
      * @ElementName deviceUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceUserTable = null;
@@ -37,24 +38,31 @@ class ServiceProviderAccessDeviceGetUserListResponse extends \CWM\BroadWorksConn
     /**
      * Getter for deviceUserTable
      *
-     * @ElementName deviceUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDeviceUserTable()
     {
-        return $this->deviceUserTable;
+        return $this->deviceUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceUserTable;
     }
 
     /**
      * Setter for deviceUserTable
      *
-     * @ElementName deviceUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceUserTable
      * @return $this
      */
     public function setDeviceUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceUserTable)
     {
         $this->deviceUserTable = $deviceUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceUserTable()
+    {
+        $this->deviceUserTable = null;
         return $this;
     }
 

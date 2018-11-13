@@ -20,6 +20,7 @@ class UserLinePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName linePortTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $linePortTable = null;
@@ -27,24 +28,31 @@ class UserLinePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for linePortTable
      *
-     * @ElementName linePortTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getLinePortTable()
     {
-        return $this->linePortTable;
+        return $this->linePortTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePortTable;
     }
 
     /**
      * Setter for linePortTable
      *
-     * @ElementName linePortTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $linePortTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $linePortTable
      * @return $this
      */
     public function setLinePortTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $linePortTable)
     {
         $this->linePortTable = $linePortTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLinePortTable()
+    {
+        $this->linePortTable = null;
         return $this;
     }
 

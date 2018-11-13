@@ -19,18 +19,21 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName newName
+     * @Type string
      * @var string|null
      */
     private $newName = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,6 +41,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile0
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,6 +49,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile1
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,6 +57,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile2
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -59,6 +65,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile3
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -66,6 +73,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile4
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -73,6 +81,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile5
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -80,6 +89,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile6
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -87,6 +97,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile7
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -94,6 +105,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile8
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -101,6 +113,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName communicationBarringProfile9
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -108,6 +121,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName networkTranslationIndex
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -115,6 +129,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName callProcessingPolicyProfileName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -123,19 +138,17 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -145,21 +158,28 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for newName
      *
-     * @ElementName newName
-     * @return string|null
+     * @return string
      */
     public function getNewName()
     {
-        return $this->newName;
+        return $this->newName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newName;
     }
 
     /**
      * Setter for newName
      *
-     * @ElementName newName
-     * @param string|null $newName
+     * @param string $newName
      * @return $this
      */
     public function setNewName($newName)
@@ -169,340 +189,466 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewName()
+    {
+        $this->newName = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile0
      *
-     * @ElementName communicationBarringProfile0
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile0()
     {
-        return $this->communicationBarringProfile0;
+        return $this->communicationBarringProfile0 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile0;
     }
 
     /**
      * Setter for communicationBarringProfile0
      *
-     * @ElementName communicationBarringProfile0
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile0
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile0
      * @return $this
      */
     public function setCommunicationBarringProfile0(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile0)
     {
-        $this->communicationBarringProfile0 = $communicationBarringProfile0;
+        if ($communicationBarringProfile0 === null) {
+            $this->communicationBarringProfile0 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile0 = $communicationBarringProfile0;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile0()
+    {
+        $this->communicationBarringProfile0 = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile1
      *
-     * @ElementName communicationBarringProfile1
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile1()
     {
-        return $this->communicationBarringProfile1;
+        return $this->communicationBarringProfile1 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile1;
     }
 
     /**
      * Setter for communicationBarringProfile1
      *
-     * @ElementName communicationBarringProfile1
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile1
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile1
      * @return $this
      */
     public function setCommunicationBarringProfile1(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile1)
     {
-        $this->communicationBarringProfile1 = $communicationBarringProfile1;
+        if ($communicationBarringProfile1 === null) {
+            $this->communicationBarringProfile1 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile1 = $communicationBarringProfile1;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile1()
+    {
+        $this->communicationBarringProfile1 = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile2
      *
-     * @ElementName communicationBarringProfile2
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile2()
     {
-        return $this->communicationBarringProfile2;
+        return $this->communicationBarringProfile2 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile2;
     }
 
     /**
      * Setter for communicationBarringProfile2
      *
-     * @ElementName communicationBarringProfile2
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile2
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile2
      * @return $this
      */
     public function setCommunicationBarringProfile2(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile2)
     {
-        $this->communicationBarringProfile2 = $communicationBarringProfile2;
+        if ($communicationBarringProfile2 === null) {
+            $this->communicationBarringProfile2 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile2 = $communicationBarringProfile2;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile2()
+    {
+        $this->communicationBarringProfile2 = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile3
      *
-     * @ElementName communicationBarringProfile3
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile3()
     {
-        return $this->communicationBarringProfile3;
+        return $this->communicationBarringProfile3 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile3;
     }
 
     /**
      * Setter for communicationBarringProfile3
      *
-     * @ElementName communicationBarringProfile3
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile3
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile3
      * @return $this
      */
     public function setCommunicationBarringProfile3(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile3)
     {
-        $this->communicationBarringProfile3 = $communicationBarringProfile3;
+        if ($communicationBarringProfile3 === null) {
+            $this->communicationBarringProfile3 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile3 = $communicationBarringProfile3;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile3()
+    {
+        $this->communicationBarringProfile3 = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile4
      *
-     * @ElementName communicationBarringProfile4
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile4()
     {
-        return $this->communicationBarringProfile4;
+        return $this->communicationBarringProfile4 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile4;
     }
 
     /**
      * Setter for communicationBarringProfile4
      *
-     * @ElementName communicationBarringProfile4
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile4
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile4
      * @return $this
      */
     public function setCommunicationBarringProfile4(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile4)
     {
-        $this->communicationBarringProfile4 = $communicationBarringProfile4;
+        if ($communicationBarringProfile4 === null) {
+            $this->communicationBarringProfile4 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile4 = $communicationBarringProfile4;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile4()
+    {
+        $this->communicationBarringProfile4 = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile5
      *
-     * @ElementName communicationBarringProfile5
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile5()
     {
-        return $this->communicationBarringProfile5;
+        return $this->communicationBarringProfile5 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile5;
     }
 
     /**
      * Setter for communicationBarringProfile5
      *
-     * @ElementName communicationBarringProfile5
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile5
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile5
      * @return $this
      */
     public function setCommunicationBarringProfile5(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile5)
     {
-        $this->communicationBarringProfile5 = $communicationBarringProfile5;
+        if ($communicationBarringProfile5 === null) {
+            $this->communicationBarringProfile5 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile5 = $communicationBarringProfile5;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile5()
+    {
+        $this->communicationBarringProfile5 = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile6
      *
-     * @ElementName communicationBarringProfile6
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile6()
     {
-        return $this->communicationBarringProfile6;
+        return $this->communicationBarringProfile6 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile6;
     }
 
     /**
      * Setter for communicationBarringProfile6
      *
-     * @ElementName communicationBarringProfile6
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile6
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile6
      * @return $this
      */
     public function setCommunicationBarringProfile6(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile6)
     {
-        $this->communicationBarringProfile6 = $communicationBarringProfile6;
+        if ($communicationBarringProfile6 === null) {
+            $this->communicationBarringProfile6 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile6 = $communicationBarringProfile6;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile6()
+    {
+        $this->communicationBarringProfile6 = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile7
      *
-     * @ElementName communicationBarringProfile7
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile7()
     {
-        return $this->communicationBarringProfile7;
+        return $this->communicationBarringProfile7 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile7;
     }
 
     /**
      * Setter for communicationBarringProfile7
      *
-     * @ElementName communicationBarringProfile7
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile7
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile7
      * @return $this
      */
     public function setCommunicationBarringProfile7(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile7)
     {
-        $this->communicationBarringProfile7 = $communicationBarringProfile7;
+        if ($communicationBarringProfile7 === null) {
+            $this->communicationBarringProfile7 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile7 = $communicationBarringProfile7;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile7()
+    {
+        $this->communicationBarringProfile7 = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile8
      *
-     * @ElementName communicationBarringProfile8
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile8()
     {
-        return $this->communicationBarringProfile8;
+        return $this->communicationBarringProfile8 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile8;
     }
 
     /**
      * Setter for communicationBarringProfile8
      *
-     * @ElementName communicationBarringProfile8
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile8
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile8
      * @return $this
      */
     public function setCommunicationBarringProfile8(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile8)
     {
-        $this->communicationBarringProfile8 = $communicationBarringProfile8;
+        if ($communicationBarringProfile8 === null) {
+            $this->communicationBarringProfile8 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile8 = $communicationBarringProfile8;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile8()
+    {
+        $this->communicationBarringProfile8 = null;
         return $this;
     }
 
     /**
      * Getter for communicationBarringProfile9
      *
-     * @ElementName communicationBarringProfile9
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null
      */
     public function getCommunicationBarringProfile9()
     {
-        return $this->communicationBarringProfile9;
+        return $this->communicationBarringProfile9 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->communicationBarringProfile9;
     }
 
     /**
      * Setter for communicationBarringProfile9
      *
-     * @ElementName communicationBarringProfile9
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil $communicationBarringProfile9
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null $communicationBarringProfile9
      * @return $this
      */
     public function setCommunicationBarringProfile9(\CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile $communicationBarringProfile9)
     {
-        $this->communicationBarringProfile9 = $communicationBarringProfile9;
+        if ($communicationBarringProfile9 === null) {
+            $this->communicationBarringProfile9 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->communicationBarringProfile9 = $communicationBarringProfile9;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCommunicationBarringProfile9()
+    {
+        $this->communicationBarringProfile9 = null;
         return $this;
     }
 
     /**
      * Getter for networkTranslationIndex
      *
-     * @ElementName networkTranslationIndex
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNetworkTranslationIndex()
     {
-        return $this->networkTranslationIndex;
+        return $this->networkTranslationIndex instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkTranslationIndex;
     }
 
     /**
      * Setter for networkTranslationIndex
      *
-     * @ElementName networkTranslationIndex
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkTranslationIndex
+     * @param string|null $networkTranslationIndex
      * @return $this
      */
     public function setNetworkTranslationIndex($networkTranslationIndex)
     {
-        $this->networkTranslationIndex = $networkTranslationIndex;
+        if ($networkTranslationIndex === null) {
+            $this->networkTranslationIndex = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->networkTranslationIndex = $networkTranslationIndex;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkTranslationIndex()
+    {
+        $this->networkTranslationIndex = null;
         return $this;
     }
 
     /**
      * Getter for callProcessingPolicyProfileName
      *
-     * @ElementName callProcessingPolicyProfileName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCallProcessingPolicyProfileName()
     {
-        return $this->callProcessingPolicyProfileName;
+        return $this->callProcessingPolicyProfileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callProcessingPolicyProfileName;
     }
 
     /**
      * Setter for callProcessingPolicyProfileName
      *
-     * @ElementName callProcessingPolicyProfileName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callProcessingPolicyProfileName
+     * @param string|null $callProcessingPolicyProfileName
      * @return $this
      */
     public function setCallProcessingPolicyProfileName($callProcessingPolicyProfileName)
     {
-        $this->callProcessingPolicyProfileName = $callProcessingPolicyProfileName;
+        if ($callProcessingPolicyProfileName === null) {
+            $this->callProcessingPolicyProfileName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callProcessingPolicyProfileName = $callProcessingPolicyProfileName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallProcessingPolicyProfileName()
+    {
+        $this->callProcessingPolicyProfileName = null;
         return $this;
     }
 

@@ -14,66 +14,77 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName mobileManagerId
+     * @Type string
      * @var string|null
      */
     private $mobileManagerId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName localToCarrier
+     * @Type bool
      * @var bool|null
      */
     private $localToCarrier = null;
 
     /**
      * @ElementName deactivationReason
+     * @Type string
      * @var string|null
      */
     private $deactivationReason = null;
 
     /**
      * @ElementName maxTxPerSecondEnabled
+     * @Type bool
      * @var bool|null
      */
     private $maxTxPerSecondEnabled = null;
 
     /**
      * @ElementName maxTxPerSecond
+     * @Type int
      * @var int|null
      */
     private $maxTxPerSecond = null;
 
     /**
      * @ElementName tldnEnabled
+     * @Type bool
      * @var bool|null
      */
     private $tldnEnabled = null;
 
     /**
      * @ElementName genericNumberEnabled
+     * @Type bool
      * @var bool|null
      */
     private $genericNumberEnabled = null;
 
     /**
      * @ElementName mobileStateCheckEnabled
+     * @Type bool
      * @var bool|null
      */
     private $mobileStateCheckEnabled = null;
 
     /**
      * @ElementName locationBasedServicesEnabled
+     * @Type bool
      * @var bool|null
      */
     private $locationBasedServicesEnabled = null;
@@ -81,19 +92,17 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for mobileManagerId
      *
-     * @ElementName mobileManagerId
-     * @return string|null
+     * @return string
      */
     public function getMobileManagerId()
     {
-        return $this->mobileManagerId;
+        return $this->mobileManagerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileManagerId;
     }
 
     /**
      * Setter for mobileManagerId
      *
-     * @ElementName mobileManagerId
-     * @param string|null $mobileManagerId
+     * @param string $mobileManagerId
      * @return $this
      */
     public function setMobileManagerId($mobileManagerId)
@@ -103,21 +112,28 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileManagerId()
+    {
+        $this->mobileManagerId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -127,21 +143,28 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -151,21 +174,28 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for localToCarrier
      *
-     * @ElementName localToCarrier
-     * @return bool|null
+     * @return bool
      */
     public function getLocalToCarrier()
     {
-        return $this->localToCarrier;
+        return $this->localToCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->localToCarrier;
     }
 
     /**
      * Setter for localToCarrier
      *
-     * @ElementName localToCarrier
-     * @param bool|null $localToCarrier
+     * @param bool $localToCarrier
      * @return $this
      */
     public function setLocalToCarrier($localToCarrier)
@@ -175,21 +205,28 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocalToCarrier()
+    {
+        $this->localToCarrier = null;
+        return $this;
+    }
+
+    /**
      * Getter for deactivationReason
      *
-     * @ElementName deactivationReason
-     * @return string|null
+     * @return string
      */
     public function getDeactivationReason()
     {
-        return $this->deactivationReason;
+        return $this->deactivationReason instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deactivationReason;
     }
 
     /**
      * Setter for deactivationReason
      *
-     * @ElementName deactivationReason
-     * @param string|null $deactivationReason
+     * @param string $deactivationReason
      * @return $this
      */
     public function setDeactivationReason($deactivationReason)
@@ -199,21 +236,28 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeactivationReason()
+    {
+        $this->deactivationReason = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxTxPerSecondEnabled
      *
-     * @ElementName maxTxPerSecondEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getMaxTxPerSecondEnabled()
     {
-        return $this->maxTxPerSecondEnabled;
+        return $this->maxTxPerSecondEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxTxPerSecondEnabled;
     }
 
     /**
      * Setter for maxTxPerSecondEnabled
      *
-     * @ElementName maxTxPerSecondEnabled
-     * @param bool|null $maxTxPerSecondEnabled
+     * @param bool $maxTxPerSecondEnabled
      * @return $this
      */
     public function setMaxTxPerSecondEnabled($maxTxPerSecondEnabled)
@@ -223,21 +267,28 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxTxPerSecondEnabled()
+    {
+        $this->maxTxPerSecondEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxTxPerSecond
      *
-     * @ElementName maxTxPerSecond
-     * @return int|null
+     * @return int
      */
     public function getMaxTxPerSecond()
     {
-        return $this->maxTxPerSecond;
+        return $this->maxTxPerSecond instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxTxPerSecond;
     }
 
     /**
      * Setter for maxTxPerSecond
      *
-     * @ElementName maxTxPerSecond
-     * @param int|null $maxTxPerSecond
+     * @param int $maxTxPerSecond
      * @return $this
      */
     public function setMaxTxPerSecond($maxTxPerSecond)
@@ -247,21 +298,28 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxTxPerSecond()
+    {
+        $this->maxTxPerSecond = null;
+        return $this;
+    }
+
+    /**
      * Getter for tldnEnabled
      *
-     * @ElementName tldnEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getTldnEnabled()
     {
-        return $this->tldnEnabled;
+        return $this->tldnEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tldnEnabled;
     }
 
     /**
      * Setter for tldnEnabled
      *
-     * @ElementName tldnEnabled
-     * @param bool|null $tldnEnabled
+     * @param bool $tldnEnabled
      * @return $this
      */
     public function setTldnEnabled($tldnEnabled)
@@ -271,21 +329,28 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTldnEnabled()
+    {
+        $this->tldnEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for genericNumberEnabled
      *
-     * @ElementName genericNumberEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getGenericNumberEnabled()
     {
-        return $this->genericNumberEnabled;
+        return $this->genericNumberEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->genericNumberEnabled;
     }
 
     /**
      * Setter for genericNumberEnabled
      *
-     * @ElementName genericNumberEnabled
-     * @param bool|null $genericNumberEnabled
+     * @param bool $genericNumberEnabled
      * @return $this
      */
     public function setGenericNumberEnabled($genericNumberEnabled)
@@ -295,21 +360,28 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGenericNumberEnabled()
+    {
+        $this->genericNumberEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobileStateCheckEnabled
      *
-     * @ElementName mobileStateCheckEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getMobileStateCheckEnabled()
     {
-        return $this->mobileStateCheckEnabled;
+        return $this->mobileStateCheckEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileStateCheckEnabled;
     }
 
     /**
      * Setter for mobileStateCheckEnabled
      *
-     * @ElementName mobileStateCheckEnabled
-     * @param bool|null $mobileStateCheckEnabled
+     * @param bool $mobileStateCheckEnabled
      * @return $this
      */
     public function setMobileStateCheckEnabled($mobileStateCheckEnabled)
@@ -319,26 +391,42 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileStateCheckEnabled()
+    {
+        $this->mobileStateCheckEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for locationBasedServicesEnabled
      *
-     * @ElementName locationBasedServicesEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getLocationBasedServicesEnabled()
     {
-        return $this->locationBasedServicesEnabled;
+        return $this->locationBasedServicesEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locationBasedServicesEnabled;
     }
 
     /**
      * Setter for locationBasedServicesEnabled
      *
-     * @ElementName locationBasedServicesEnabled
-     * @param bool|null $locationBasedServicesEnabled
+     * @param bool $locationBasedServicesEnabled
      * @return $this
      */
     public function setLocationBasedServicesEnabled($locationBasedServicesEnabled)
     {
         $this->locationBasedServicesEnabled = $locationBasedServicesEnabled;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLocationBasedServicesEnabled()
+    {
+        $this->locationBasedServicesEnabled = null;
         return $this;
     }
 

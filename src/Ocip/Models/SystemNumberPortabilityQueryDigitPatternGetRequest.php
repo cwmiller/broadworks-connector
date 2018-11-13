@@ -17,6 +17,7 @@ class SystemNumberPortabilityQueryDigitPatternGetRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName digitPattern
+     * @Type string
      * @var string|null
      */
     private $digitPattern = null;
@@ -24,24 +25,31 @@ class SystemNumberPortabilityQueryDigitPatternGetRequest extends \CWM\BroadWorks
     /**
      * Getter for digitPattern
      *
-     * @ElementName digitPattern
-     * @return string|null
+     * @return string
      */
     public function getDigitPattern()
     {
-        return $this->digitPattern;
+        return $this->digitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPattern;
     }
 
     /**
      * Setter for digitPattern
      *
-     * @ElementName digitPattern
-     * @param string|null $digitPattern
+     * @param string $digitPattern
      * @return $this
      */
     public function setDigitPattern($digitPattern)
     {
         $this->digitPattern = $digitPattern;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDigitPattern()
+    {
+        $this->digitPattern = null;
         return $this;
     }
 

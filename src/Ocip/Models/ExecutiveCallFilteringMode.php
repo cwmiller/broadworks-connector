@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ExecutiveCallFilteringMode SIMPLE()
  * @method static ExecutiveCallFilteringMode ADVANCED()
- * @ValueType string
+ * @EnumValueType string
  */
 class ExecutiveCallFilteringMode extends \MyCLabs\Enum\Enum
 {

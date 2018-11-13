@@ -16,12 +16,15 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName supervisorUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $supervisorUserId = array(
@@ -31,19 +34,17 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -53,20 +54,27 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for supervisorUserId
      *
-     * @ElementName supervisorUserId
      * @return string[]
      */
     public function getSupervisorUserId()
     {
-        return $this->supervisorUserId;
+        return $this->supervisorUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supervisorUserId;
     }
 
     /**
      * Setter for supervisorUserId
      *
-     * @ElementName supervisorUserId
      * @param string[] $supervisorUserId
      * @return $this
      */
@@ -77,15 +85,23 @@ class GroupCallCenterDeleteSupervisorListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupervisorUserId()
+    {
+        $this->supervisorUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for supervisorUserId
      *
-     * @ElementName supervisorUserId
      * @param string $supervisorUserId
      * @return $this
      */
     public function addSupervisorUserId(string $supervisorUserId)
     {
-        $this->supervisorUserId []= $supervisorUserId;
+        $this->supervisorUserId[] = $supervisorUserId;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static BroadWorksAnywhereScope SERVICE_PROVIDER()
  * @method static BroadWorksAnywhereScope GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class BroadWorksAnywhereScope extends \MyCLabs\Enum\Enum
 {

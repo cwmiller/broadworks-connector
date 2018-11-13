@@ -12,12 +12,14 @@ class DNRange
 
     /**
      * @ElementName minPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $minPhoneNumber = null;
 
     /**
      * @ElementName maxPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $maxPhoneNumber = null;
@@ -25,19 +27,17 @@ class DNRange
     /**
      * Getter for minPhoneNumber
      *
-     * @ElementName minPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getMinPhoneNumber()
     {
-        return $this->minPhoneNumber;
+        return $this->minPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minPhoneNumber;
     }
 
     /**
      * Setter for minPhoneNumber
      *
-     * @ElementName minPhoneNumber
-     * @param string|null $minPhoneNumber
+     * @param string $minPhoneNumber
      * @return $this
      */
     public function setMinPhoneNumber($minPhoneNumber)
@@ -47,26 +47,42 @@ class DNRange
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinPhoneNumber()
+    {
+        $this->minPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxPhoneNumber
      *
-     * @ElementName maxPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getMaxPhoneNumber()
     {
-        return $this->maxPhoneNumber;
+        return $this->maxPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxPhoneNumber;
     }
 
     /**
      * Setter for maxPhoneNumber
      *
-     * @ElementName maxPhoneNumber
-     * @param string|null $maxPhoneNumber
+     * @param string $maxPhoneNumber
      * @return $this
      */
     public function setMaxPhoneNumber($maxPhoneNumber)
     {
         $this->maxPhoneNumber = $maxPhoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxPhoneNumber()
+    {
+        $this->maxPhoneNumber = null;
         return $this;
     }
 

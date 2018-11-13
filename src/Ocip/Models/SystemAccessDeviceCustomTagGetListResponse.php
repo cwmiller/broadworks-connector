@@ -21,6 +21,7 @@ class SystemAccessDeviceCustomTagGetListResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName deviceCustomTagsTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceCustomTagsTable = null;
@@ -28,24 +29,31 @@ class SystemAccessDeviceCustomTagGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for deviceCustomTagsTable
      *
-     * @ElementName deviceCustomTagsTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDeviceCustomTagsTable()
     {
-        return $this->deviceCustomTagsTable;
+        return $this->deviceCustomTagsTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceCustomTagsTable;
     }
 
     /**
      * Setter for deviceCustomTagsTable
      *
-     * @ElementName deviceCustomTagsTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceCustomTagsTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceCustomTagsTable
      * @return $this
      */
     public function setDeviceCustomTagsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceCustomTagsTable)
     {
         $this->deviceCustomTagsTable = $deviceCustomTagsTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceCustomTagsTable()
+    {
+        $this->deviceCustomTagsTable = null;
         return $this;
     }
 

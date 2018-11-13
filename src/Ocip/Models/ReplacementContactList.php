@@ -14,6 +14,8 @@ class ReplacementContactList
 
     /**
      * @ElementName contact
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $contact = array(
@@ -23,18 +25,16 @@ class ReplacementContactList
     /**
      * Getter for contact
      *
-     * @ElementName contact
      * @return string[]
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
      * @param string[] $contact
      * @return $this
      */
@@ -45,15 +45,23 @@ class ReplacementContactList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Adder for contact
      *
-     * @ElementName contact
      * @param string $contact
      * @return $this
      */
     public function addContact(string $contact)
     {
-        $this->contact []= $contact;
+        $this->contact[] = $contact;
         return $this;
     }
 

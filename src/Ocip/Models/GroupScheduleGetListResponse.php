@@ -15,6 +15,8 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName scheduleName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $scheduleName = array(
@@ -23,6 +25,8 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName scheduleType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType[]
      */
     private $scheduleType = array(
@@ -31,6 +35,8 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName scheduleLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel[]
      */
     private $scheduleLevel = array(
@@ -40,18 +46,16 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for scheduleName
      *
-     * @ElementName scheduleName
      * @return string[]
      */
     public function getScheduleName()
     {
-        return $this->scheduleName;
+        return $this->scheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleName;
     }
 
     /**
      * Setter for scheduleName
      *
-     * @ElementName scheduleName
      * @param string[] $scheduleName
      * @return $this
      */
@@ -62,33 +66,39 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleName()
+    {
+        $this->scheduleName = null;
+        return $this;
+    }
+
+    /**
      * Adder for scheduleName
      *
-     * @ElementName scheduleName
      * @param string $scheduleName
      * @return $this
      */
     public function addScheduleName(string $scheduleName)
     {
-        $this->scheduleName []= $scheduleName;
+        $this->scheduleName[] = $scheduleName;
         return $this;
     }
 
     /**
      * Getter for scheduleType
      *
-     * @ElementName scheduleType
      * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleType[]
      */
     public function getScheduleType()
     {
-        return $this->scheduleType;
+        return $this->scheduleType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleType;
     }
 
     /**
      * Setter for scheduleType
      *
-     * @ElementName scheduleType
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType[] $scheduleType
      * @return $this
      */
@@ -99,33 +109,39 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleType()
+    {
+        $this->scheduleType = null;
+        return $this;
+    }
+
+    /**
      * Adder for scheduleType
      *
-     * @ElementName scheduleType
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType $scheduleType
      * @return $this
      */
     public function addScheduleType($scheduleType)
     {
-        $this->scheduleType []= $scheduleType;
+        $this->scheduleType[] = $scheduleType;
         return $this;
     }
 
     /**
      * Getter for scheduleLevel
      *
-     * @ElementName scheduleLevel
      * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel[]
      */
     public function getScheduleLevel()
     {
-        return $this->scheduleLevel;
+        return $this->scheduleLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleLevel;
     }
 
     /**
      * Setter for scheduleLevel
      *
-     * @ElementName scheduleLevel
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel[] $scheduleLevel
      * @return $this
      */
@@ -136,15 +152,23 @@ class GroupScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleLevel()
+    {
+        $this->scheduleLevel = null;
+        return $this;
+    }
+
+    /**
      * Adder for scheduleLevel
      *
-     * @ElementName scheduleLevel
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel $scheduleLevel
      * @return $this
      */
     public function addScheduleLevel($scheduleLevel)
     {
-        $this->scheduleLevel []= $scheduleLevel;
+        $this->scheduleLevel[] = $scheduleLevel;
         return $this;
     }
 

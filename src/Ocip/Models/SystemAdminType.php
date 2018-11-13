@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SystemAdminType SYSTEM()
  * @method static SystemAdminType PROVISIONING()
- * @ValueType string
+ * @EnumValueType string
  */
 class SystemAdminType extends \MyCLabs\Enum\Enum
 {

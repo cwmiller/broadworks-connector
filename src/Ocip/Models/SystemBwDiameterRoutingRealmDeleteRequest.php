@@ -16,18 +16,21 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName instance
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
 
     /**
      * @ElementName realm
+     * @Type string
      * @var string|null
      */
     private $realm = null;
 
     /**
      * @ElementName applicationId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     private $applicationId = null;
@@ -35,19 +38,17 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for instance
      *
-     * @ElementName instance
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
      */
     public function getInstance()
     {
-        return $this->instance;
+        return $this->instance instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->instance;
     }
 
     /**
      * Setter for instance
      *
-     * @ElementName instance
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null $instance
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance
      * @return $this
      */
     public function setInstance(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance)
@@ -57,21 +58,28 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInstance()
+    {
+        $this->instance = null;
+        return $this;
+    }
+
+    /**
      * Getter for realm
      *
-     * @ElementName realm
-     * @return string|null
+     * @return string
      */
     public function getRealm()
     {
-        return $this->realm;
+        return $this->realm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->realm;
     }
 
     /**
      * Setter for realm
      *
-     * @ElementName realm
-     * @param string|null $realm
+     * @param string $realm
      * @return $this
      */
     public function setRealm($realm)
@@ -81,26 +89,42 @@ class SystemBwDiameterRoutingRealmDeleteRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRealm()
+    {
+        $this->realm = null;
+        return $this;
+    }
+
+    /**
      * Getter for applicationId
      *
-     * @ElementName applicationId
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
      */
     public function getApplicationId()
     {
-        return $this->applicationId;
+        return $this->applicationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationId;
     }
 
     /**
      * Setter for applicationId
      *
-     * @ElementName applicationId
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null $applicationId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId $applicationId
      * @return $this
      */
     public function setApplicationId(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId $applicationId)
     {
         $this->applicationId = $applicationId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationId()
+    {
+        $this->applicationId = null;
         return $this;
     }
 

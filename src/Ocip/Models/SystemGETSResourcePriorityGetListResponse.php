@@ -16,6 +16,7 @@ class SystemGETSResourcePriorityGetListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName resourcePriorityTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $resourcePriorityTable = null;
@@ -23,24 +24,31 @@ class SystemGETSResourcePriorityGetListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for resourcePriorityTable
      *
-     * @ElementName resourcePriorityTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getResourcePriorityTable()
     {
-        return $this->resourcePriorityTable;
+        return $this->resourcePriorityTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resourcePriorityTable;
     }
 
     /**
      * Setter for resourcePriorityTable
      *
-     * @ElementName resourcePriorityTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $resourcePriorityTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $resourcePriorityTable
      * @return $this
      */
     public function setResourcePriorityTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $resourcePriorityTable)
     {
         $this->resourcePriorityTable = $resourcePriorityTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResourcePriorityTable()
+    {
+        $this->resourcePriorityTable = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class SystemServiceCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName serviceCodeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceCodeTable = null;
@@ -23,24 +24,31 @@ class SystemServiceCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for serviceCodeTable
      *
-     * @ElementName serviceCodeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServiceCodeTable()
     {
-        return $this->serviceCodeTable;
+        return $this->serviceCodeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceCodeTable;
     }
 
     /**
      * Setter for serviceCodeTable
      *
-     * @ElementName serviceCodeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceCodeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceCodeTable
      * @return $this
      */
     public function setServiceCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceCodeTable)
     {
         $this->serviceCodeTable = $serviceCodeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceCodeTable()
+    {
+        $this->serviceCodeTable = null;
         return $this;
     }
 

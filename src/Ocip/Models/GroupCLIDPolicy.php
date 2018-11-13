@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupCLIDPolicy USE_DN()
  * @method static GroupCLIDPolicy USE_CONFIGURABLE_CLID()
  * @method static GroupCLIDPolicy USE_GROUP_CLID()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupCLIDPolicy extends \MyCLabs\Enum\Enum
 {

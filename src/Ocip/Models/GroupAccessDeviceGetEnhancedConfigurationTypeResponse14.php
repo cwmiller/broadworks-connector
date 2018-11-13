@@ -14,24 +14,28 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
 
     /**
      * @ElementName supportsEnhancedConfiguration
+     * @Type bool
      * @var bool|null
      */
     private $supportsEnhancedConfiguration = null;
 
     /**
      * @ElementName supportsReset
+     * @Type bool
      * @var bool|null
      */
     private $supportsReset = null;
 
     /**
      * @ElementName configurationType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configurationType = null;
 
     /**
      * @ElementName configurationFileName
+     * @Type string
      * @var string|null
      */
     private $configurationFileName = null;
@@ -39,19 +43,17 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
     /**
      * Getter for supportsEnhancedConfiguration
      *
-     * @ElementName supportsEnhancedConfiguration
-     * @return bool|null
+     * @return bool
      */
     public function getSupportsEnhancedConfiguration()
     {
-        return $this->supportsEnhancedConfiguration;
+        return $this->supportsEnhancedConfiguration instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportsEnhancedConfiguration;
     }
 
     /**
      * Setter for supportsEnhancedConfiguration
      *
-     * @ElementName supportsEnhancedConfiguration
-     * @param bool|null $supportsEnhancedConfiguration
+     * @param bool $supportsEnhancedConfiguration
      * @return $this
      */
     public function setSupportsEnhancedConfiguration($supportsEnhancedConfiguration)
@@ -61,21 +63,28 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportsEnhancedConfiguration()
+    {
+        $this->supportsEnhancedConfiguration = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportsReset
      *
-     * @ElementName supportsReset
-     * @return bool|null
+     * @return bool
      */
     public function getSupportsReset()
     {
-        return $this->supportsReset;
+        return $this->supportsReset instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportsReset;
     }
 
     /**
      * Setter for supportsReset
      *
-     * @ElementName supportsReset
-     * @param bool|null $supportsReset
+     * @param bool $supportsReset
      * @return $this
      */
     public function setSupportsReset($supportsReset)
@@ -85,21 +94,28 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportsReset()
+    {
+        $this->supportsReset = null;
+        return $this;
+    }
+
+    /**
      * Getter for configurationType
      *
-     * @ElementName configurationType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      */
     public function getConfigurationType()
     {
-        return $this->configurationType;
+        return $this->configurationType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurationType;
     }
 
     /**
      * Setter for configurationType
      *
-     * @ElementName configurationType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null $configurationType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configurationType
      * @return $this
      */
     public function setConfigurationType(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configurationType)
@@ -109,26 +125,42 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeResponse14 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigurationType()
+    {
+        $this->configurationType = null;
+        return $this;
+    }
+
+    /**
      * Getter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @return string|null
+     * @return string
      */
     public function getConfigurationFileName()
     {
-        return $this->configurationFileName;
+        return $this->configurationFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurationFileName;
     }
 
     /**
      * Setter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @param string|null $configurationFileName
+     * @param string $configurationFileName
      * @return $this
      */
     public function setConfigurationFileName($configurationFileName)
     {
         $this->configurationFileName = $configurationFileName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConfigurationFileName()
+    {
+        $this->configurationFileName = null;
         return $this;
     }
 

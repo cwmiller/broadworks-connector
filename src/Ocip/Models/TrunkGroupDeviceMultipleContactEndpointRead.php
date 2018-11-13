@@ -12,18 +12,22 @@ class TrunkGroupDeviceMultipleContactEndpointRead
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName contact
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $contact = array(
@@ -32,18 +36,21 @@ class TrunkGroupDeviceMultipleContactEndpointRead
 
     /**
      * @ElementName staticRegistrationCapable
+     * @Type bool
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
+     * @Type bool
      * @var bool|null
      */
     private $useDomain = null;
 
     /**
      * @ElementName isPilotUser
+     * @Type bool
      * @var bool|null
      */
     private $isPilotUser = null;
@@ -51,19 +58,17 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -73,21 +78,28 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -97,20 +109,27 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for contact
      *
-     * @ElementName contact
      * @return string[]
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
      * @param string[] $contact
      * @return $this
      */
@@ -121,34 +140,40 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Adder for contact
      *
-     * @ElementName contact
      * @param string $contact
      * @return $this
      */
     public function addContact(string $contact)
     {
-        $this->contact []= $contact;
+        $this->contact[] = $contact;
         return $this;
     }
 
     /**
      * Getter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @return bool|null
+     * @return bool
      */
     public function getStaticRegistrationCapable()
     {
-        return $this->staticRegistrationCapable;
+        return $this->staticRegistrationCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->staticRegistrationCapable;
     }
 
     /**
      * Setter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @param bool|null $staticRegistrationCapable
+     * @param bool $staticRegistrationCapable
      * @return $this
      */
     public function setStaticRegistrationCapable($staticRegistrationCapable)
@@ -158,21 +183,28 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStaticRegistrationCapable()
+    {
+        $this->staticRegistrationCapable = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDomain
      *
-     * @ElementName useDomain
-     * @return bool|null
+     * @return bool
      */
     public function getUseDomain()
     {
-        return $this->useDomain;
+        return $this->useDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDomain;
     }
 
     /**
      * Setter for useDomain
      *
-     * @ElementName useDomain
-     * @param bool|null $useDomain
+     * @param bool $useDomain
      * @return $this
      */
     public function setUseDomain($useDomain)
@@ -182,26 +214,42 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDomain()
+    {
+        $this->useDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for isPilotUser
      *
-     * @ElementName isPilotUser
-     * @return bool|null
+     * @return bool
      */
     public function getIsPilotUser()
     {
-        return $this->isPilotUser;
+        return $this->isPilotUser instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isPilotUser;
     }
 
     /**
      * Setter for isPilotUser
      *
-     * @ElementName isPilotUser
-     * @param bool|null $isPilotUser
+     * @param bool $isPilotUser
      * @return $this
      */
     public function setIsPilotUser($isPilotUser)
     {
         $this->isPilotUser = $isPilotUser;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsPilotUser()
+    {
+        $this->isPilotUser = null;
         return $this;
     }
 

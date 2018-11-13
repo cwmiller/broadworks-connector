@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static RedirectingPresentationIndicator ANONYMOUS_NAME()
  * @method static RedirectingPresentationIndicator ANONYMOUS_URI()
  * @method static RedirectingPresentationIndicator _PUBLIC()
- * @ValueType string
+ * @EnumValueType string
  */
 class RedirectingPresentationIndicator extends \MyCLabs\Enum\Enum
 {

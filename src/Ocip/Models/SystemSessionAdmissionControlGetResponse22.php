@@ -16,48 +16,56 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName countLongConnectionsToMediaServer
+     * @Type bool
      * @var bool|null
      */
     private $countLongConnectionsToMediaServer = null;
 
     /**
      * @ElementName sacHandlingForMoH
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     private $sacHandlingForMoH = null;
 
     /**
      * @ElementName blockVMDepositDueToSACLimits
+     * @Type bool
      * @var bool|null
      */
     private $blockVMDepositDueToSACLimits = null;
 
     /**
      * @ElementName sacCodecSelectionPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     private $sacCodecSelectionPolicy = null;
 
     /**
      * @ElementName countCallToMobileNumberForSACSubscriber
+     * @Type bool
      * @var bool|null
      */
     private $countCallToMobileNumberForSACSubscriber = null;
 
     /**
      * @ElementName countBWAnywhereForSACSubscriber
+     * @Type bool
      * @var bool|null
      */
     private $countBWAnywhereForSACSubscriber = null;
 
     /**
      * @ElementName countROForSACSubscriber
+     * @Type bool
      * @var bool|null
      */
     private $countROForSACSubscriber = null;
 
     /**
      * @ElementName excludeBWMobilityForSACSubscriber
+     * @Type bool
      * @var bool|null
      */
     private $excludeBWMobilityForSACSubscriber = null;
@@ -65,19 +73,17 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
     /**
      * Getter for countLongConnectionsToMediaServer
      *
-     * @ElementName countLongConnectionsToMediaServer
-     * @return bool|null
+     * @return bool
      */
     public function getCountLongConnectionsToMediaServer()
     {
-        return $this->countLongConnectionsToMediaServer;
+        return $this->countLongConnectionsToMediaServer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countLongConnectionsToMediaServer;
     }
 
     /**
      * Setter for countLongConnectionsToMediaServer
      *
-     * @ElementName countLongConnectionsToMediaServer
-     * @param bool|null $countLongConnectionsToMediaServer
+     * @param bool $countLongConnectionsToMediaServer
      * @return $this
      */
     public function setCountLongConnectionsToMediaServer($countLongConnectionsToMediaServer)
@@ -87,21 +93,28 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountLongConnectionsToMediaServer()
+    {
+        $this->countLongConnectionsToMediaServer = null;
+        return $this;
+    }
+
+    /**
      * Getter for sacHandlingForMoH
      *
-     * @ElementName sacHandlingForMoH
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
      */
     public function getSacHandlingForMoH()
     {
-        return $this->sacHandlingForMoH;
+        return $this->sacHandlingForMoH instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sacHandlingForMoH;
     }
 
     /**
      * Setter for sacHandlingForMoH
      *
-     * @ElementName sacHandlingForMoH
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null $sacHandlingForMoH
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType $sacHandlingForMoH
      * @return $this
      */
     public function setSacHandlingForMoH(\CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType $sacHandlingForMoH)
@@ -111,21 +124,28 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSacHandlingForMoH()
+    {
+        $this->sacHandlingForMoH = null;
+        return $this;
+    }
+
+    /**
      * Getter for blockVMDepositDueToSACLimits
      *
-     * @ElementName blockVMDepositDueToSACLimits
-     * @return bool|null
+     * @return bool
      */
     public function getBlockVMDepositDueToSACLimits()
     {
-        return $this->blockVMDepositDueToSACLimits;
+        return $this->blockVMDepositDueToSACLimits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->blockVMDepositDueToSACLimits;
     }
 
     /**
      * Setter for blockVMDepositDueToSACLimits
      *
-     * @ElementName blockVMDepositDueToSACLimits
-     * @param bool|null $blockVMDepositDueToSACLimits
+     * @param bool $blockVMDepositDueToSACLimits
      * @return $this
      */
     public function setBlockVMDepositDueToSACLimits($blockVMDepositDueToSACLimits)
@@ -135,21 +155,28 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBlockVMDepositDueToSACLimits()
+    {
+        $this->blockVMDepositDueToSACLimits = null;
+        return $this;
+    }
+
+    /**
      * Getter for sacCodecSelectionPolicy
      *
-     * @ElementName sacCodecSelectionPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
      */
     public function getSacCodecSelectionPolicy()
     {
-        return $this->sacCodecSelectionPolicy;
+        return $this->sacCodecSelectionPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sacCodecSelectionPolicy;
     }
 
     /**
      * Setter for sacCodecSelectionPolicy
      *
-     * @ElementName sacCodecSelectionPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null $sacCodecSelectionPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType $sacCodecSelectionPolicy
      * @return $this
      */
     public function setSacCodecSelectionPolicy(\CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType $sacCodecSelectionPolicy)
@@ -159,21 +186,28 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSacCodecSelectionPolicy()
+    {
+        $this->sacCodecSelectionPolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for countCallToMobileNumberForSACSubscriber
      *
-     * @ElementName countCallToMobileNumberForSACSubscriber
-     * @return bool|null
+     * @return bool
      */
     public function getCountCallToMobileNumberForSACSubscriber()
     {
-        return $this->countCallToMobileNumberForSACSubscriber;
+        return $this->countCallToMobileNumberForSACSubscriber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countCallToMobileNumberForSACSubscriber;
     }
 
     /**
      * Setter for countCallToMobileNumberForSACSubscriber
      *
-     * @ElementName countCallToMobileNumberForSACSubscriber
-     * @param bool|null $countCallToMobileNumberForSACSubscriber
+     * @param bool $countCallToMobileNumberForSACSubscriber
      * @return $this
      */
     public function setCountCallToMobileNumberForSACSubscriber($countCallToMobileNumberForSACSubscriber)
@@ -183,21 +217,28 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountCallToMobileNumberForSACSubscriber()
+    {
+        $this->countCallToMobileNumberForSACSubscriber = null;
+        return $this;
+    }
+
+    /**
      * Getter for countBWAnywhereForSACSubscriber
      *
-     * @ElementName countBWAnywhereForSACSubscriber
-     * @return bool|null
+     * @return bool
      */
     public function getCountBWAnywhereForSACSubscriber()
     {
-        return $this->countBWAnywhereForSACSubscriber;
+        return $this->countBWAnywhereForSACSubscriber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countBWAnywhereForSACSubscriber;
     }
 
     /**
      * Setter for countBWAnywhereForSACSubscriber
      *
-     * @ElementName countBWAnywhereForSACSubscriber
-     * @param bool|null $countBWAnywhereForSACSubscriber
+     * @param bool $countBWAnywhereForSACSubscriber
      * @return $this
      */
     public function setCountBWAnywhereForSACSubscriber($countBWAnywhereForSACSubscriber)
@@ -207,21 +248,28 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountBWAnywhereForSACSubscriber()
+    {
+        $this->countBWAnywhereForSACSubscriber = null;
+        return $this;
+    }
+
+    /**
      * Getter for countROForSACSubscriber
      *
-     * @ElementName countROForSACSubscriber
-     * @return bool|null
+     * @return bool
      */
     public function getCountROForSACSubscriber()
     {
-        return $this->countROForSACSubscriber;
+        return $this->countROForSACSubscriber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countROForSACSubscriber;
     }
 
     /**
      * Setter for countROForSACSubscriber
      *
-     * @ElementName countROForSACSubscriber
-     * @param bool|null $countROForSACSubscriber
+     * @param bool $countROForSACSubscriber
      * @return $this
      */
     public function setCountROForSACSubscriber($countROForSACSubscriber)
@@ -231,26 +279,42 @@ class SystemSessionAdmissionControlGetResponse22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountROForSACSubscriber()
+    {
+        $this->countROForSACSubscriber = null;
+        return $this;
+    }
+
+    /**
      * Getter for excludeBWMobilityForSACSubscriber
      *
-     * @ElementName excludeBWMobilityForSACSubscriber
-     * @return bool|null
+     * @return bool
      */
     public function getExcludeBWMobilityForSACSubscriber()
     {
-        return $this->excludeBWMobilityForSACSubscriber;
+        return $this->excludeBWMobilityForSACSubscriber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->excludeBWMobilityForSACSubscriber;
     }
 
     /**
      * Setter for excludeBWMobilityForSACSubscriber
      *
-     * @ElementName excludeBWMobilityForSACSubscriber
-     * @param bool|null $excludeBWMobilityForSACSubscriber
+     * @param bool $excludeBWMobilityForSACSubscriber
      * @return $this
      */
     public function setExcludeBWMobilityForSACSubscriber($excludeBWMobilityForSACSubscriber)
     {
         $this->excludeBWMobilityForSACSubscriber = $excludeBWMobilityForSACSubscriber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExcludeBWMobilityForSACSubscriber()
+    {
+        $this->excludeBWMobilityForSACSubscriber = null;
         return $this;
     }
 

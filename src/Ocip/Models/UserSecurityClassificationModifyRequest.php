@@ -16,12 +16,14 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName securityClassification
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,28 +52,46 @@ class UserSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for securityClassification
      *
-     * @ElementName securityClassification
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSecurityClassification()
     {
-        return $this->securityClassification;
+        return $this->securityClassification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityClassification;
     }
 
     /**
      * Setter for securityClassification
      *
-     * @ElementName securityClassification
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $securityClassification
+     * @param string|null $securityClassification
      * @return $this
      */
     public function setSecurityClassification($securityClassification)
     {
-        $this->securityClassification = $securityClassification;
+        if ($securityClassification === null) {
+            $this->securityClassification = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->securityClassification = $securityClassification;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecurityClassification()
+    {
+        $this->securityClassification = null;
         return $this;
     }
 

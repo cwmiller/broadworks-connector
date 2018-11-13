@@ -17,6 +17,8 @@ class GroupScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName scheduleEventsList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents[]
      */
     private $scheduleEventsList = array(
@@ -26,18 +28,16 @@ class GroupScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for scheduleEventsList
      *
-     * @ElementName scheduleEventsList
      * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents[]
      */
     public function getScheduleEventsList()
     {
-        return $this->scheduleEventsList;
+        return $this->scheduleEventsList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleEventsList;
     }
 
     /**
      * Setter for scheduleEventsList
      *
-     * @ElementName scheduleEventsList
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents[] $scheduleEventsList
      * @return $this
      */
@@ -48,15 +48,23 @@ class GroupScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleEventsList()
+    {
+        $this->scheduleEventsList = null;
+        return $this;
+    }
+
+    /**
      * Adder for scheduleEventsList
      *
-     * @ElementName scheduleEventsList
      * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents $scheduleEventsList
      * @return $this
      */
     public function addScheduleEventsList($scheduleEventsList)
     {
-        $this->scheduleEventsList []= $scheduleEventsList;
+        $this->scheduleEventsList[] = $scheduleEventsList;
         return $this;
     }
 

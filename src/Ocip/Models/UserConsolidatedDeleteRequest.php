@@ -35,18 +35,21 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName deleteExistingDevices
+     * @Type bool
      * @var bool|null
      */
     private $deleteExistingDevices = null;
 
     /**
      * @ElementName unassignPhoneNumbers
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;
@@ -54,19 +57,17 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -76,21 +77,28 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deleteExistingDevices
      *
-     * @ElementName deleteExistingDevices
-     * @return bool|null
+     * @return bool
      */
     public function getDeleteExistingDevices()
     {
-        return $this->deleteExistingDevices;
+        return $this->deleteExistingDevices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteExistingDevices;
     }
 
     /**
      * Setter for deleteExistingDevices
      *
-     * @ElementName deleteExistingDevices
-     * @param bool|null $deleteExistingDevices
+     * @param bool $deleteExistingDevices
      * @return $this
      */
     public function setDeleteExistingDevices($deleteExistingDevices)
@@ -100,26 +108,42 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeleteExistingDevices()
+    {
+        $this->deleteExistingDevices = null;
+        return $this;
+    }
+
+    /**
      * Getter for unassignPhoneNumbers
      *
-     * @ElementName unassignPhoneNumbers
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      */
     public function getUnassignPhoneNumbers()
     {
-        return $this->unassignPhoneNumbers;
+        return $this->unassignPhoneNumbers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unassignPhoneNumbers;
     }
 
     /**
      * Setter for unassignPhoneNumbers
      *
-     * @ElementName unassignPhoneNumbers
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null $unassignPhoneNumbers
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers
      * @return $this
      */
     public function setUnassignPhoneNumbers(\CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers)
     {
         $this->unassignPhoneNumbers = $unassignPhoneNumbers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnassignPhoneNumbers()
+    {
+        $this->unassignPhoneNumbers = null;
         return $this;
     }
 

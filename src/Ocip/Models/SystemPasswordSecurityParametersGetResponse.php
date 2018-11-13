@@ -15,12 +15,14 @@ class SystemPasswordSecurityParametersGetResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName useExistingHashing
+     * @Type bool
      * @var bool|null
      */
     private $useExistingHashing = null;
 
     /**
      * @ElementName enforcePasswordChangeOnExpiry
+     * @Type bool
      * @var bool|null
      */
     private $enforcePasswordChangeOnExpiry = null;
@@ -28,19 +30,17 @@ class SystemPasswordSecurityParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for useExistingHashing
      *
-     * @ElementName useExistingHashing
-     * @return bool|null
+     * @return bool
      */
     public function getUseExistingHashing()
     {
-        return $this->useExistingHashing;
+        return $this->useExistingHashing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useExistingHashing;
     }
 
     /**
      * Setter for useExistingHashing
      *
-     * @ElementName useExistingHashing
-     * @param bool|null $useExistingHashing
+     * @param bool $useExistingHashing
      * @return $this
      */
     public function setUseExistingHashing($useExistingHashing)
@@ -50,26 +50,42 @@ class SystemPasswordSecurityParametersGetResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseExistingHashing()
+    {
+        $this->useExistingHashing = null;
+        return $this;
+    }
+
+    /**
      * Getter for enforcePasswordChangeOnExpiry
      *
-     * @ElementName enforcePasswordChangeOnExpiry
-     * @return bool|null
+     * @return bool
      */
     public function getEnforcePasswordChangeOnExpiry()
     {
-        return $this->enforcePasswordChangeOnExpiry;
+        return $this->enforcePasswordChangeOnExpiry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enforcePasswordChangeOnExpiry;
     }
 
     /**
      * Setter for enforcePasswordChangeOnExpiry
      *
-     * @ElementName enforcePasswordChangeOnExpiry
-     * @param bool|null $enforcePasswordChangeOnExpiry
+     * @param bool $enforcePasswordChangeOnExpiry
      * @return $this
      */
     public function setEnforcePasswordChangeOnExpiry($enforcePasswordChangeOnExpiry)
     {
         $this->enforcePasswordChangeOnExpiry = $enforcePasswordChangeOnExpiry;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnforcePasswordChangeOnExpiry()
+    {
+        $this->enforcePasswordChangeOnExpiry = null;
         return $this;
     }
 

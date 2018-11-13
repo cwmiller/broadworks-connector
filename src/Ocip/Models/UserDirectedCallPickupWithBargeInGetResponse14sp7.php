@@ -14,12 +14,14 @@ class UserDirectedCallPickupWithBargeInGetResponse14sp7 extends \CWM\BroadWorksC
 
     /**
      * @ElementName enableBargeInWarningTone
+     * @Type bool
      * @var bool|null
      */
     private $enableBargeInWarningTone = null;
 
     /**
      * @ElementName enableAutomaticTargetSelection
+     * @Type bool
      * @var bool|null
      */
     private $enableAutomaticTargetSelection = null;
@@ -27,19 +29,17 @@ class UserDirectedCallPickupWithBargeInGetResponse14sp7 extends \CWM\BroadWorksC
     /**
      * Getter for enableBargeInWarningTone
      *
-     * @ElementName enableBargeInWarningTone
-     * @return bool|null
+     * @return bool
      */
     public function getEnableBargeInWarningTone()
     {
-        return $this->enableBargeInWarningTone;
+        return $this->enableBargeInWarningTone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableBargeInWarningTone;
     }
 
     /**
      * Setter for enableBargeInWarningTone
      *
-     * @ElementName enableBargeInWarningTone
-     * @param bool|null $enableBargeInWarningTone
+     * @param bool $enableBargeInWarningTone
      * @return $this
      */
     public function setEnableBargeInWarningTone($enableBargeInWarningTone)
@@ -49,26 +49,42 @@ class UserDirectedCallPickupWithBargeInGetResponse14sp7 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableBargeInWarningTone()
+    {
+        $this->enableBargeInWarningTone = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutomaticTargetSelection
      *
-     * @ElementName enableAutomaticTargetSelection
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutomaticTargetSelection()
     {
-        return $this->enableAutomaticTargetSelection;
+        return $this->enableAutomaticTargetSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutomaticTargetSelection;
     }
 
     /**
      * Setter for enableAutomaticTargetSelection
      *
-     * @ElementName enableAutomaticTargetSelection
-     * @param bool|null $enableAutomaticTargetSelection
+     * @param bool $enableAutomaticTargetSelection
      * @return $this
      */
     public function setEnableAutomaticTargetSelection($enableAutomaticTargetSelection)
     {
         $this->enableAutomaticTargetSelection = $enableAutomaticTargetSelection;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableAutomaticTargetSelection()
+    {
+        $this->enableAutomaticTargetSelection = null;
         return $this;
     }
 

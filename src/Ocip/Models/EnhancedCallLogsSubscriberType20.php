@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EnhancedCallLogsSubscriberType20 ROUTE_POINT()
  * @method static EnhancedCallLogsSubscriberType20 USER()
  * @method static EnhancedCallLogsSubscriberType20 VOICEXML()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnhancedCallLogsSubscriberType20 extends \MyCLabs\Enum\Enum
 {

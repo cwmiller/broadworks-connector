@@ -16,18 +16,21 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName enabled
+     * @Type bool
      * @var bool|null
      */
     private $enabled = null;
 
     /**
      * @ElementName sampleIntervalSeconds
+     * @Type int
      * @var int|null
      */
     private $sampleIntervalSeconds = null;
 
     /**
      * @ElementName protectionRate
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,6 +38,7 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName protectionAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction|null
      */
     private $protectionAction = null;
@@ -42,19 +46,17 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
     /**
      * Getter for enabled
      *
-     * @ElementName enabled
-     * @return bool|null
+     * @return bool
      */
     public function getEnabled()
     {
-        return $this->enabled;
+        return $this->enabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enabled;
     }
 
     /**
      * Setter for enabled
      *
-     * @ElementName enabled
-     * @param bool|null $enabled
+     * @param bool $enabled
      * @return $this
      */
     public function setEnabled($enabled)
@@ -64,21 +66,28 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnabled()
+    {
+        $this->enabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for sampleIntervalSeconds
      *
-     * @ElementName sampleIntervalSeconds
-     * @return int|null
+     * @return int
      */
     public function getSampleIntervalSeconds()
     {
-        return $this->sampleIntervalSeconds;
+        return $this->sampleIntervalSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sampleIntervalSeconds;
     }
 
     /**
      * Setter for sampleIntervalSeconds
      *
-     * @ElementName sampleIntervalSeconds
-     * @param int|null $sampleIntervalSeconds
+     * @param int $sampleIntervalSeconds
      * @return $this
      */
     public function setSampleIntervalSeconds($sampleIntervalSeconds)
@@ -88,52 +97,77 @@ class SystemEmergencyCallDDoSProtectionModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSampleIntervalSeconds()
+    {
+        $this->sampleIntervalSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for protectionRate
      *
-     * @ElementName protectionRate
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getProtectionRate()
     {
-        return $this->protectionRate;
+        return $this->protectionRate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protectionRate;
     }
 
     /**
      * Setter for protectionRate
      *
-     * @ElementName protectionRate
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $protectionRate
+     * @param int|null $protectionRate
      * @return $this
      */
     public function setProtectionRate($protectionRate)
     {
-        $this->protectionRate = $protectionRate;
+        if ($protectionRate === null) {
+            $this->protectionRate = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->protectionRate = $protectionRate;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProtectionRate()
+    {
+        $this->protectionRate = null;
         return $this;
     }
 
     /**
      * Getter for protectionAction
      *
-     * @ElementName protectionAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction
      */
     public function getProtectionAction()
     {
-        return $this->protectionAction;
+        return $this->protectionAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protectionAction;
     }
 
     /**
      * Setter for protectionAction
      *
-     * @ElementName protectionAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction|null $protectionAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ProtectionAction $protectionAction
      * @return $this
      */
     public function setProtectionAction(\CWM\BroadWorksConnector\Ocip\Models\ProtectionAction $protectionAction)
     {
         $this->protectionAction = $protectionAction;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProtectionAction()
+    {
+        $this->protectionAction = null;
         return $this;
     }
 

@@ -12,12 +12,14 @@ class HourMinute
 
     /**
      * @ElementName hour
+     * @Type int
      * @var int|null
      */
     private $hour = null;
 
     /**
      * @ElementName minute
+     * @Type int
      * @var int|null
      */
     private $minute = null;
@@ -25,19 +27,17 @@ class HourMinute
     /**
      * Getter for hour
      *
-     * @ElementName hour
-     * @return int|null
+     * @return int
      */
     public function getHour()
     {
-        return $this->hour;
+        return $this->hour instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hour;
     }
 
     /**
      * Setter for hour
      *
-     * @ElementName hour
-     * @param int|null $hour
+     * @param int $hour
      * @return $this
      */
     public function setHour($hour)
@@ -47,26 +47,42 @@ class HourMinute
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHour()
+    {
+        $this->hour = null;
+        return $this;
+    }
+
+    /**
      * Getter for minute
      *
-     * @ElementName minute
-     * @return int|null
+     * @return int
      */
     public function getMinute()
     {
-        return $this->minute;
+        return $this->minute instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minute;
     }
 
     /**
      * Setter for minute
      *
-     * @ElementName minute
-     * @param int|null $minute
+     * @param int $minute
      * @return $this
      */
     public function setMinute($minute)
     {
         $this->minute = $minute;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMinute()
+    {
+        $this->minute = null;
         return $this;
     }
 

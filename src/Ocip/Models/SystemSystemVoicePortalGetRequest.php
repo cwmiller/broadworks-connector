@@ -20,6 +20,7 @@ class SystemSystemVoicePortalGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName systemVoicePortalId
+     * @Type string
      * @var string|null
      */
     private $systemVoicePortalId = null;
@@ -27,24 +28,31 @@ class SystemSystemVoicePortalGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for systemVoicePortalId
      *
-     * @ElementName systemVoicePortalId
-     * @return string|null
+     * @return string
      */
     public function getSystemVoicePortalId()
     {
-        return $this->systemVoicePortalId;
+        return $this->systemVoicePortalId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemVoicePortalId;
     }
 
     /**
      * Setter for systemVoicePortalId
      *
-     * @ElementName systemVoicePortalId
-     * @param string|null $systemVoicePortalId
+     * @param string $systemVoicePortalId
      * @return $this
      */
     public function setSystemVoicePortalId($systemVoicePortalId)
     {
         $this->systemVoicePortalId = $systemVoicePortalId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSystemVoicePortalId()
+    {
+        $this->systemVoicePortalId = null;
         return $this;
     }
 

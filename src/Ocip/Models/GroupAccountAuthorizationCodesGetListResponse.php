@@ -14,6 +14,8 @@ class GroupAccountAuthorizationCodesGetListResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName codeEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[]
      */
     private $codeEntry = array(
@@ -23,18 +25,16 @@ class GroupAccountAuthorizationCodesGetListResponse extends \CWM\BroadWorksConne
     /**
      * Getter for codeEntry
      *
-     * @ElementName codeEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[]
      */
     public function getCodeEntry()
     {
-        return $this->codeEntry;
+        return $this->codeEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->codeEntry;
     }
 
     /**
      * Setter for codeEntry
      *
-     * @ElementName codeEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[] $codeEntry
      * @return $this
      */
@@ -45,15 +45,23 @@ class GroupAccountAuthorizationCodesGetListResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCodeEntry()
+    {
+        $this->codeEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for codeEntry
      *
-     * @ElementName codeEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry $codeEntry
      * @return $this
      */
     public function addCodeEntry($codeEntry)
     {
-        $this->codeEntry []= $codeEntry;
+        $this->codeEntry[] = $codeEntry;
         return $this;
     }
 

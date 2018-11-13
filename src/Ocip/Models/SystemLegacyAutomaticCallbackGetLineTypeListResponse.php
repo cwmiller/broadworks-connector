@@ -18,6 +18,7 @@ class SystemLegacyAutomaticCallbackGetLineTypeListResponse extends \CWM\BroadWor
 
     /**
      * @ElementName lineTypeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $lineTypeTable = null;
@@ -25,24 +26,31 @@ class SystemLegacyAutomaticCallbackGetLineTypeListResponse extends \CWM\BroadWor
     /**
      * Getter for lineTypeTable
      *
-     * @ElementName lineTypeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getLineTypeTable()
     {
-        return $this->lineTypeTable;
+        return $this->lineTypeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lineTypeTable;
     }
 
     /**
      * Setter for lineTypeTable
      *
-     * @ElementName lineTypeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $lineTypeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $lineTypeTable
      * @return $this
      */
     public function setLineTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $lineTypeTable)
     {
         $this->lineTypeTable = $lineTypeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLineTypeTable()
+    {
+        $this->lineTypeTable = null;
         return $this;
     }
 

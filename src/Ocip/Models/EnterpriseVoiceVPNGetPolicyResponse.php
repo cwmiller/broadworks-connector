@@ -14,36 +14,43 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName minExtensionLength
+     * @Type int
      * @var int|null
      */
     private $minExtensionLength = null;
 
     /**
      * @ElementName maxExtensionLength
+     * @Type int
      * @var int|null
      */
     private $maxExtensionLength = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName routeGroupId
+     * @Type string
      * @var string|null
      */
     private $routeGroupId = null;
 
     /**
      * @ElementName policySelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     private $policySelection = null;
 
     /**
      * @ElementName digitManipulation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]
      */
     private $digitManipulation = array(
@@ -52,6 +59,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName treatmentId
+     * @Type string
      * @var string|null
      */
     private $treatmentId = null;
@@ -59,19 +67,17 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for minExtensionLength
      *
-     * @ElementName minExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getMinExtensionLength()
     {
-        return $this->minExtensionLength;
+        return $this->minExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minExtensionLength;
     }
 
     /**
      * Setter for minExtensionLength
      *
-     * @ElementName minExtensionLength
-     * @param int|null $minExtensionLength
+     * @param int $minExtensionLength
      * @return $this
      */
     public function setMinExtensionLength($minExtensionLength)
@@ -81,21 +87,28 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinExtensionLength()
+    {
+        $this->minExtensionLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxExtensionLength
      *
-     * @ElementName maxExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getMaxExtensionLength()
     {
-        return $this->maxExtensionLength;
+        return $this->maxExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxExtensionLength;
     }
 
     /**
      * Setter for maxExtensionLength
      *
-     * @ElementName maxExtensionLength
-     * @param int|null $maxExtensionLength
+     * @param int $maxExtensionLength
      * @return $this
      */
     public function setMaxExtensionLength($maxExtensionLength)
@@ -105,21 +118,28 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxExtensionLength()
+    {
+        $this->maxExtensionLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -129,21 +149,28 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeGroupId
      *
-     * @ElementName routeGroupId
-     * @return string|null
+     * @return string
      */
     public function getRouteGroupId()
     {
-        return $this->routeGroupId;
+        return $this->routeGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeGroupId;
     }
 
     /**
      * Setter for routeGroupId
      *
-     * @ElementName routeGroupId
-     * @param string|null $routeGroupId
+     * @param string $routeGroupId
      * @return $this
      */
     public function setRouteGroupId($routeGroupId)
@@ -153,21 +180,28 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteGroupId()
+    {
+        $this->routeGroupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for policySelection
      *
-     * @ElementName policySelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
      */
     public function getPolicySelection()
     {
-        return $this->policySelection;
+        return $this->policySelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->policySelection;
     }
 
     /**
      * Setter for policySelection
      *
-     * @ElementName policySelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null $policySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection $policySelection
      * @return $this
      */
     public function setPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection $policySelection)
@@ -177,20 +211,27 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPolicySelection()
+    {
+        $this->policySelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for digitManipulation
      *
-     * @ElementName digitManipulation
      * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]
      */
     public function getDigitManipulation()
     {
-        return $this->digitManipulation;
+        return $this->digitManipulation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitManipulation;
     }
 
     /**
      * Setter for digitManipulation
      *
-     * @ElementName digitManipulation
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[] $digitManipulation
      * @return $this
      */
@@ -201,39 +242,54 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitManipulation()
+    {
+        $this->digitManipulation = null;
+        return $this;
+    }
+
+    /**
      * Adder for digitManipulation
      *
-     * @ElementName digitManipulation
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation $digitManipulation
      * @return $this
      */
     public function addDigitManipulation($digitManipulation)
     {
-        $this->digitManipulation []= $digitManipulation;
+        $this->digitManipulation[] = $digitManipulation;
         return $this;
     }
 
     /**
      * Getter for treatmentId
      *
-     * @ElementName treatmentId
-     * @return string|null
+     * @return string
      */
     public function getTreatmentId()
     {
-        return $this->treatmentId;
+        return $this->treatmentId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentId;
     }
 
     /**
      * Setter for treatmentId
      *
-     * @ElementName treatmentId
-     * @param string|null $treatmentId
+     * @param string $treatmentId
      * @return $this
      */
     public function setTreatmentId($treatmentId)
     {
         $this->treatmentId = $treatmentId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentId()
+    {
+        $this->treatmentId = null;
         return $this;
     }
 

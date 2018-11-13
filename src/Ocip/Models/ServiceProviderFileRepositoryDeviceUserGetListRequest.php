@@ -17,12 +17,14 @@ class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName fileRepositoryName
+     * @Type string
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -30,19 +32,17 @@ class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -52,26 +52,42 @@ class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @return string|null
+     * @return string
      */
     public function getFileRepositoryName()
     {
-        return $this->fileRepositoryName;
+        return $this->fileRepositoryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileRepositoryName;
     }
 
     /**
      * Setter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @param string|null $fileRepositoryName
+     * @param string $fileRepositoryName
      * @return $this
      */
     public function setFileRepositoryName($fileRepositoryName)
     {
         $this->fileRepositoryName = $fileRepositoryName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileRepositoryName()
+    {
+        $this->fileRepositoryName = null;
         return $this;
     }
 

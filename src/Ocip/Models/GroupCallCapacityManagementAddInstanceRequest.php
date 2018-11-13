@@ -16,48 +16,57 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName maxActiveCallsAllowed
+     * @Type int
      * @var int|null
      */
     private $maxActiveCallsAllowed = null;
 
     /**
      * @ElementName maxIncomingActiveCallsAllowed
+     * @Type int
      * @var int|null
      */
     private $maxIncomingActiveCallsAllowed = null;
 
     /**
      * @ElementName maxOutgoingActiveCallsAllowed
+     * @Type int
      * @var int|null
      */
     private $maxOutgoingActiveCallsAllowed = null;
 
     /**
      * @ElementName becomeDefaultGroupForNewUsers
+     * @Type bool
      * @var bool|null
      */
     private $becomeDefaultGroupForNewUsers = null;
 
     /**
      * @ElementName userId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $userId = array(
@@ -67,19 +76,17 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -89,21 +96,28 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -113,21 +127,28 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -137,21 +158,28 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxActiveCallsAllowed
      *
-     * @ElementName maxActiveCallsAllowed
-     * @return int|null
+     * @return int
      */
     public function getMaxActiveCallsAllowed()
     {
-        return $this->maxActiveCallsAllowed;
+        return $this->maxActiveCallsAllowed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxActiveCallsAllowed;
     }
 
     /**
      * Setter for maxActiveCallsAllowed
      *
-     * @ElementName maxActiveCallsAllowed
-     * @param int|null $maxActiveCallsAllowed
+     * @param int $maxActiveCallsAllowed
      * @return $this
      */
     public function setMaxActiveCallsAllowed($maxActiveCallsAllowed)
@@ -161,21 +189,28 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxActiveCallsAllowed()
+    {
+        $this->maxActiveCallsAllowed = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxIncomingActiveCallsAllowed
      *
-     * @ElementName maxIncomingActiveCallsAllowed
-     * @return int|null
+     * @return int
      */
     public function getMaxIncomingActiveCallsAllowed()
     {
-        return $this->maxIncomingActiveCallsAllowed;
+        return $this->maxIncomingActiveCallsAllowed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxIncomingActiveCallsAllowed;
     }
 
     /**
      * Setter for maxIncomingActiveCallsAllowed
      *
-     * @ElementName maxIncomingActiveCallsAllowed
-     * @param int|null $maxIncomingActiveCallsAllowed
+     * @param int $maxIncomingActiveCallsAllowed
      * @return $this
      */
     public function setMaxIncomingActiveCallsAllowed($maxIncomingActiveCallsAllowed)
@@ -185,21 +220,28 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxIncomingActiveCallsAllowed()
+    {
+        $this->maxIncomingActiveCallsAllowed = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxOutgoingActiveCallsAllowed
      *
-     * @ElementName maxOutgoingActiveCallsAllowed
-     * @return int|null
+     * @return int
      */
     public function getMaxOutgoingActiveCallsAllowed()
     {
-        return $this->maxOutgoingActiveCallsAllowed;
+        return $this->maxOutgoingActiveCallsAllowed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxOutgoingActiveCallsAllowed;
     }
 
     /**
      * Setter for maxOutgoingActiveCallsAllowed
      *
-     * @ElementName maxOutgoingActiveCallsAllowed
-     * @param int|null $maxOutgoingActiveCallsAllowed
+     * @param int $maxOutgoingActiveCallsAllowed
      * @return $this
      */
     public function setMaxOutgoingActiveCallsAllowed($maxOutgoingActiveCallsAllowed)
@@ -209,21 +251,28 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxOutgoingActiveCallsAllowed()
+    {
+        $this->maxOutgoingActiveCallsAllowed = null;
+        return $this;
+    }
+
+    /**
      * Getter for becomeDefaultGroupForNewUsers
      *
-     * @ElementName becomeDefaultGroupForNewUsers
-     * @return bool|null
+     * @return bool
      */
     public function getBecomeDefaultGroupForNewUsers()
     {
-        return $this->becomeDefaultGroupForNewUsers;
+        return $this->becomeDefaultGroupForNewUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->becomeDefaultGroupForNewUsers;
     }
 
     /**
      * Setter for becomeDefaultGroupForNewUsers
      *
-     * @ElementName becomeDefaultGroupForNewUsers
-     * @param bool|null $becomeDefaultGroupForNewUsers
+     * @param bool $becomeDefaultGroupForNewUsers
      * @return $this
      */
     public function setBecomeDefaultGroupForNewUsers($becomeDefaultGroupForNewUsers)
@@ -233,20 +282,27 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBecomeDefaultGroupForNewUsers()
+    {
+        $this->becomeDefaultGroupForNewUsers = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
      * @return string[]
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
      * @param string[] $userId
      * @return $this
      */
@@ -257,15 +313,23 @@ class GroupCallCapacityManagementAddInstanceRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Adder for userId
      *
-     * @ElementName userId
      * @param string $userId
      * @return $this
      */
     public function addUserId(string $userId)
     {
-        $this->userId []= $userId;
+        $this->userId[] = $userId;
         return $this;
     }
 

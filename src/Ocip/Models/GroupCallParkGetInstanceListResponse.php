@@ -14,6 +14,8 @@ class GroupCallParkGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName name
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $name = array(
@@ -23,18 +25,16 @@ class GroupCallParkGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for name
      *
-     * @ElementName name
      * @return string[]
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
      * @param string[] $name
      * @return $this
      */
@@ -45,15 +45,23 @@ class GroupCallParkGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Adder for name
      *
-     * @ElementName name
      * @param string $name
      * @return $this
      */
     public function addName(string $name)
     {
-        $this->name []= $name;
+        $this->name[] = $name;
         return $this;
     }
 

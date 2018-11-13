@@ -19,6 +19,7 @@ class SystemPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName carrier
+     * @Type string
      * @var string|null
      */
     private $carrier = null;
@@ -26,24 +27,31 @@ class SystemPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for carrier
      *
-     * @ElementName carrier
-     * @return string|null
+     * @return string
      */
     public function getCarrier()
     {
-        return $this->carrier;
+        return $this->carrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->carrier;
     }
 
     /**
      * Setter for carrier
      *
-     * @ElementName carrier
-     * @param string|null $carrier
+     * @param string $carrier
      * @return $this
      */
     public function setCarrier($carrier)
     {
         $this->carrier = $carrier;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCarrier()
+    {
+        $this->carrier = null;
         return $this;
     }
 

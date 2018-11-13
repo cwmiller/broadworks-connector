@@ -18,18 +18,22 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName imrn
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $imrn = array(
@@ -38,6 +42,8 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName imrnRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $imrnRange = array(
@@ -47,19 +53,17 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +73,28 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -93,20 +104,27 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for imrn
      *
-     * @ElementName imrn
      * @return string[]
      */
     public function getImrn()
     {
-        return $this->imrn;
+        return $this->imrn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imrn;
     }
 
     /**
      * Setter for imrn
      *
-     * @ElementName imrn
      * @param string[] $imrn
      * @return $this
      */
@@ -117,33 +135,39 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetImrn()
+    {
+        $this->imrn = null;
+        return $this;
+    }
+
+    /**
      * Adder for imrn
      *
-     * @ElementName imrn
      * @param string $imrn
      * @return $this
      */
     public function addImrn(string $imrn)
     {
-        $this->imrn []= $imrn;
+        $this->imrn[] = $imrn;
         return $this;
     }
 
     /**
      * Getter for imrnRange
      *
-     * @ElementName imrnRange
      * @return \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     public function getImrnRange()
     {
-        return $this->imrnRange;
+        return $this->imrnRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imrnRange;
     }
 
     /**
      * Setter for imrnRange
      *
-     * @ElementName imrnRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $imrnRange
      * @return $this
      */
@@ -154,15 +178,23 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetImrnRange()
+    {
+        $this->imrnRange = null;
+        return $this;
+    }
+
+    /**
      * Adder for imrnRange
      *
-     * @ElementName imrnRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange $imrnRange
      * @return $this
      */
     public function addImrnRange($imrnRange)
     {
-        $this->imrnRange []= $imrnRange;
+        $this->imrnRange[] = $imrnRange;
         return $this;
     }
 

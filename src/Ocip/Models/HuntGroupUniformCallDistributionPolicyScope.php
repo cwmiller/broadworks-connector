@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static HuntGroupUniformCallDistributionPolicyScope AGENT()
  * @method static HuntGroupUniformCallDistributionPolicyScope HUNT_GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class HuntGroupUniformCallDistributionPolicyScope extends \MyCLabs\Enum\Enum
 {

@@ -19,18 +19,22 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -39,6 +43,7 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName defaultNetworkClassOfService
+     * @Type string
      * @var string|null
      */
     private $defaultNetworkClassOfService = null;
@@ -46,19 +51,17 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -68,21 +71,28 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -92,20 +102,27 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @return string[]
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @param string[] $networkClassOfService
      * @return $this
      */
@@ -116,39 +133,54 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Adder for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @param string $networkClassOfService
      * @return $this
      */
     public function addNetworkClassOfService(string $networkClassOfService)
     {
-        $this->networkClassOfService []= $networkClassOfService;
+        $this->networkClassOfService[] = $networkClassOfService;
         return $this;
     }
 
     /**
      * Getter for defaultNetworkClassOfService
      *
-     * @ElementName defaultNetworkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getDefaultNetworkClassOfService()
     {
-        return $this->defaultNetworkClassOfService;
+        return $this->defaultNetworkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultNetworkClassOfService;
     }
 
     /**
      * Setter for defaultNetworkClassOfService
      *
-     * @ElementName defaultNetworkClassOfService
-     * @param string|null $defaultNetworkClassOfService
+     * @param string $defaultNetworkClassOfService
      * @return $this
      */
     public function setDefaultNetworkClassOfService($defaultNetworkClassOfService)
     {
         $this->defaultNetworkClassOfService = $defaultNetworkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultNetworkClassOfService()
+    {
+        $this->defaultNetworkClassOfService = null;
         return $this;
     }
 

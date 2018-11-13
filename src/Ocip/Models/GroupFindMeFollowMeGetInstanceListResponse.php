@@ -18,6 +18,7 @@ class GroupFindMeFollowMeGetInstanceListResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName findMeFollowMeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $findMeFollowMeTable = null;
@@ -25,24 +26,31 @@ class GroupFindMeFollowMeGetInstanceListResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for findMeFollowMeTable
      *
-     * @ElementName findMeFollowMeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getFindMeFollowMeTable()
     {
-        return $this->findMeFollowMeTable;
+        return $this->findMeFollowMeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->findMeFollowMeTable;
     }
 
     /**
      * Setter for findMeFollowMeTable
      *
-     * @ElementName findMeFollowMeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $findMeFollowMeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $findMeFollowMeTable
      * @return $this
      */
     public function setFindMeFollowMeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $findMeFollowMeTable)
     {
         $this->findMeFollowMeTable = $findMeFollowMeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFindMeFollowMeTable()
+    {
+        $this->findMeFollowMeTable = null;
         return $this;
     }
 

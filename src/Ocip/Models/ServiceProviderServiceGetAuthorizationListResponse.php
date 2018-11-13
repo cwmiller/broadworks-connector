@@ -23,12 +23,14 @@ class ServiceProviderServiceGetAuthorizationListResponse extends \CWM\BroadWorks
 
     /**
      * @ElementName groupServicesAuthorizationTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupServicesAuthorizationTable = null;
 
     /**
      * @ElementName userServicesAuthorizationTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userServicesAuthorizationTable = null;
@@ -36,19 +38,17 @@ class ServiceProviderServiceGetAuthorizationListResponse extends \CWM\BroadWorks
     /**
      * Getter for groupServicesAuthorizationTable
      *
-     * @ElementName groupServicesAuthorizationTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getGroupServicesAuthorizationTable()
     {
-        return $this->groupServicesAuthorizationTable;
+        return $this->groupServicesAuthorizationTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupServicesAuthorizationTable;
     }
 
     /**
      * Setter for groupServicesAuthorizationTable
      *
-     * @ElementName groupServicesAuthorizationTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupServicesAuthorizationTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupServicesAuthorizationTable
      * @return $this
      */
     public function setGroupServicesAuthorizationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupServicesAuthorizationTable)
@@ -58,26 +58,42 @@ class ServiceProviderServiceGetAuthorizationListResponse extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupServicesAuthorizationTable()
+    {
+        $this->groupServicesAuthorizationTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for userServicesAuthorizationTable
      *
-     * @ElementName userServicesAuthorizationTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserServicesAuthorizationTable()
     {
-        return $this->userServicesAuthorizationTable;
+        return $this->userServicesAuthorizationTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServicesAuthorizationTable;
     }
 
     /**
      * Setter for userServicesAuthorizationTable
      *
-     * @ElementName userServicesAuthorizationTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userServicesAuthorizationTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServicesAuthorizationTable
      * @return $this
      */
     public function setUserServicesAuthorizationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServicesAuthorizationTable)
     {
         $this->userServicesAuthorizationTable = $userServicesAuthorizationTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserServicesAuthorizationTable()
+    {
+        $this->userServicesAuthorizationTable = null;
         return $this;
     }
 

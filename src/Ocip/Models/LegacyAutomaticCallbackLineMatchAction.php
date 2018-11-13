@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static LegacyAutomaticCallbackLineMatchAction ACCEPT()
  * @method static LegacyAutomaticCallbackLineMatchAction DENY()
- * @ValueType string
+ * @EnumValueType string
  */
 class LegacyAutomaticCallbackLineMatchAction extends \MyCLabs\Enum\Enum
 {

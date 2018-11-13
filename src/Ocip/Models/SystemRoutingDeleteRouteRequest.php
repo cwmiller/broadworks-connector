@@ -16,6 +16,7 @@ class SystemRoutingDeleteRouteRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName routeName
+     * @Type string
      * @var string|null
      */
     private $routeName = null;
@@ -23,24 +24,31 @@ class SystemRoutingDeleteRouteRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for routeName
      *
-     * @ElementName routeName
-     * @return string|null
+     * @return string
      */
     public function getRouteName()
     {
-        return $this->routeName;
+        return $this->routeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeName;
     }
 
     /**
      * Setter for routeName
      *
-     * @ElementName routeName
-     * @param string|null $routeName
+     * @param string $routeName
      * @return $this
      */
     public function setRouteName($routeName)
     {
         $this->routeName = $routeName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRouteName()
+    {
+        $this->routeName = null;
         return $this;
     }
 

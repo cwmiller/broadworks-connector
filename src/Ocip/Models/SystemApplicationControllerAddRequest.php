@@ -17,18 +17,21 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName subscriberId
+     * @Type string
      * @var string|null
      */
     private $subscriberId = null;
 
     /**
      * @ElementName channelSetId
+     * @Type string
      * @var string|null
      */
     private $channelSetId = null;
@@ -36,19 +39,17 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -58,21 +59,28 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for subscriberId
      *
-     * @ElementName subscriberId
-     * @return string|null
+     * @return string
      */
     public function getSubscriberId()
     {
-        return $this->subscriberId;
+        return $this->subscriberId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->subscriberId;
     }
 
     /**
      * Setter for subscriberId
      *
-     * @ElementName subscriberId
-     * @param string|null $subscriberId
+     * @param string $subscriberId
      * @return $this
      */
     public function setSubscriberId($subscriberId)
@@ -82,26 +90,42 @@ class SystemApplicationControllerAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSubscriberId()
+    {
+        $this->subscriberId = null;
+        return $this;
+    }
+
+    /**
      * Getter for channelSetId
      *
-     * @ElementName channelSetId
-     * @return string|null
+     * @return string
      */
     public function getChannelSetId()
     {
-        return $this->channelSetId;
+        return $this->channelSetId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->channelSetId;
     }
 
     /**
      * Setter for channelSetId
      *
-     * @ElementName channelSetId
-     * @param string|null $channelSetId
+     * @param string $channelSetId
      * @return $this
      */
     public function setChannelSetId($channelSetId)
     {
         $this->channelSetId = $channelSetId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetChannelSetId()
+    {
+        $this->channelSetId = null;
         return $this;
     }
 

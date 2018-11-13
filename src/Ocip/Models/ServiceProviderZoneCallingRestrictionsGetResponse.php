@@ -14,24 +14,28 @@ class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName enableZoneCallingRestrictions
+     * @Type bool
      * @var bool|null
      */
     private $enableZoneCallingRestrictions = null;
 
     /**
      * @ElementName enableOriginationRoamingRestrictions
+     * @Type bool
      * @var bool|null
      */
     private $enableOriginationRoamingRestrictions = null;
 
     /**
      * @ElementName enableEmergencyOriginationRoamingRestrictions
+     * @Type bool
      * @var bool|null
      */
     private $enableEmergencyOriginationRoamingRestrictions = null;
 
     /**
      * @ElementName enableTerminationRoamingRestrictions
+     * @Type bool
      * @var bool|null
      */
     private $enableTerminationRoamingRestrictions = null;
@@ -39,19 +43,17 @@ class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * Getter for enableZoneCallingRestrictions
      *
-     * @ElementName enableZoneCallingRestrictions
-     * @return bool|null
+     * @return bool
      */
     public function getEnableZoneCallingRestrictions()
     {
-        return $this->enableZoneCallingRestrictions;
+        return $this->enableZoneCallingRestrictions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableZoneCallingRestrictions;
     }
 
     /**
      * Setter for enableZoneCallingRestrictions
      *
-     * @ElementName enableZoneCallingRestrictions
-     * @param bool|null $enableZoneCallingRestrictions
+     * @param bool $enableZoneCallingRestrictions
      * @return $this
      */
     public function setEnableZoneCallingRestrictions($enableZoneCallingRestrictions)
@@ -61,21 +63,28 @@ class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableZoneCallingRestrictions()
+    {
+        $this->enableZoneCallingRestrictions = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableOriginationRoamingRestrictions
      *
-     * @ElementName enableOriginationRoamingRestrictions
-     * @return bool|null
+     * @return bool
      */
     public function getEnableOriginationRoamingRestrictions()
     {
-        return $this->enableOriginationRoamingRestrictions;
+        return $this->enableOriginationRoamingRestrictions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableOriginationRoamingRestrictions;
     }
 
     /**
      * Setter for enableOriginationRoamingRestrictions
      *
-     * @ElementName enableOriginationRoamingRestrictions
-     * @param bool|null $enableOriginationRoamingRestrictions
+     * @param bool $enableOriginationRoamingRestrictions
      * @return $this
      */
     public function setEnableOriginationRoamingRestrictions($enableOriginationRoamingRestrictions)
@@ -85,21 +94,28 @@ class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableOriginationRoamingRestrictions()
+    {
+        $this->enableOriginationRoamingRestrictions = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableEmergencyOriginationRoamingRestrictions
      *
-     * @ElementName enableEmergencyOriginationRoamingRestrictions
-     * @return bool|null
+     * @return bool
      */
     public function getEnableEmergencyOriginationRoamingRestrictions()
     {
-        return $this->enableEmergencyOriginationRoamingRestrictions;
+        return $this->enableEmergencyOriginationRoamingRestrictions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableEmergencyOriginationRoamingRestrictions;
     }
 
     /**
      * Setter for enableEmergencyOriginationRoamingRestrictions
      *
-     * @ElementName enableEmergencyOriginationRoamingRestrictions
-     * @param bool|null $enableEmergencyOriginationRoamingRestrictions
+     * @param bool $enableEmergencyOriginationRoamingRestrictions
      * @return $this
      */
     public function setEnableEmergencyOriginationRoamingRestrictions($enableEmergencyOriginationRoamingRestrictions)
@@ -109,26 +125,42 @@ class ServiceProviderZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableEmergencyOriginationRoamingRestrictions()
+    {
+        $this->enableEmergencyOriginationRoamingRestrictions = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableTerminationRoamingRestrictions
      *
-     * @ElementName enableTerminationRoamingRestrictions
-     * @return bool|null
+     * @return bool
      */
     public function getEnableTerminationRoamingRestrictions()
     {
-        return $this->enableTerminationRoamingRestrictions;
+        return $this->enableTerminationRoamingRestrictions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableTerminationRoamingRestrictions;
     }
 
     /**
      * Setter for enableTerminationRoamingRestrictions
      *
-     * @ElementName enableTerminationRoamingRestrictions
-     * @param bool|null $enableTerminationRoamingRestrictions
+     * @param bool $enableTerminationRoamingRestrictions
      * @return $this
      */
     public function setEnableTerminationRoamingRestrictions($enableTerminationRoamingRestrictions)
     {
         $this->enableTerminationRoamingRestrictions = $enableTerminationRoamingRestrictions;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableTerminationRoamingRestrictions()
+    {
+        $this->enableTerminationRoamingRestrictions = null;
         return $this;
     }
 

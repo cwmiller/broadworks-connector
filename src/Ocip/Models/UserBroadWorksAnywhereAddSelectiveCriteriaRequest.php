@@ -16,30 +16,35 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName criteriaName
+     * @Type string
      * @var string|null
      */
     private $criteriaName = null;
 
     /**
      * @ElementName timeSchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName fromDnCriteria
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -47,19 +52,17 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -69,21 +72,28 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -93,21 +103,28 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaName
      *
-     * @ElementName criteriaName
-     * @return string|null
+     * @return string
      */
     public function getCriteriaName()
     {
-        return $this->criteriaName;
+        return $this->criteriaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaName;
     }
 
     /**
      * Setter for criteriaName
      *
-     * @ElementName criteriaName
-     * @param string|null $criteriaName
+     * @param string $criteriaName
      * @return $this
      */
     public function setCriteriaName($criteriaName)
@@ -117,21 +134,28 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaName()
+    {
+        $this->criteriaName = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      */
     public function getTimeSchedule()
     {
-        return $this->timeSchedule;
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
     }
 
     /**
      * Setter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule
      * @return $this
      */
     public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
@@ -141,26 +165,42 @@ class UserBroadWorksAnywhereAddSelectiveCriteriaRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
+        return $this;
+    }
+
+    /**
      * Getter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
      */
     public function getFromDnCriteria()
     {
-        return $this->fromDnCriteria;
+        return $this->fromDnCriteria instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fromDnCriteria;
     }
 
     /**
      * Setter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null $fromDnCriteria
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn $fromDnCriteria
      * @return $this
      */
     public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn $fromDnCriteria)
     {
         $this->fromDnCriteria = $fromDnCriteria;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFromDnCriteria()
+    {
+        $this->fromDnCriteria = null;
         return $this;
     }
 

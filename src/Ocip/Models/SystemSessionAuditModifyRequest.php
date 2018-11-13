@@ -18,18 +18,21 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName intervalSeconds
+     * @Type int
      * @var int|null
      */
     private $intervalSeconds = null;
 
     /**
      * @ElementName timeoutPeriodSeconds
+     * @Type int
      * @var int|null
      */
     private $timeoutPeriodSeconds = null;
@@ -37,19 +40,17 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -59,21 +60,28 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for intervalSeconds
      *
-     * @ElementName intervalSeconds
-     * @return int|null
+     * @return int
      */
     public function getIntervalSeconds()
     {
-        return $this->intervalSeconds;
+        return $this->intervalSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->intervalSeconds;
     }
 
     /**
      * Setter for intervalSeconds
      *
-     * @ElementName intervalSeconds
-     * @param int|null $intervalSeconds
+     * @param int $intervalSeconds
      * @return $this
      */
     public function setIntervalSeconds($intervalSeconds)
@@ -83,26 +91,42 @@ class SystemSessionAuditModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIntervalSeconds()
+    {
+        $this->intervalSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeoutPeriodSeconds
      *
-     * @ElementName timeoutPeriodSeconds
-     * @return int|null
+     * @return int
      */
     public function getTimeoutPeriodSeconds()
     {
-        return $this->timeoutPeriodSeconds;
+        return $this->timeoutPeriodSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeoutPeriodSeconds;
     }
 
     /**
      * Setter for timeoutPeriodSeconds
      *
-     * @ElementName timeoutPeriodSeconds
-     * @param int|null $timeoutPeriodSeconds
+     * @param int $timeoutPeriodSeconds
      * @return $this
      */
     public function setTimeoutPeriodSeconds($timeoutPeriodSeconds)
     {
         $this->timeoutPeriodSeconds = $timeoutPeriodSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeoutPeriodSeconds()
+    {
+        $this->timeoutPeriodSeconds = null;
         return $this;
     }
 

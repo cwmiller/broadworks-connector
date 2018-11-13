@@ -27,72 +27,84 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName unassignPhoneNumbers
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;
 
     /**
      * @ElementName addPhoneNumberToGroup
+     * @Type bool
      * @var bool|null
      */
     private $addPhoneNumberToGroup = null;
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName enableExtendedScope
+     * @Type bool
      * @var bool|null
      */
     private $enableExtendedScope = null;
 
     /**
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
+     * @Type bool
      * @var bool|null
      */
     private $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
 
     /**
      * @ElementName useVoicePortalWizard
+     * @Type bool
      * @var bool|null
      */
     private $useVoicePortalWizard = null;
 
     /**
      * @ElementName voicePortalExternalRoutingScope
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     private $voicePortalExternalRoutingScope = null;
 
     /**
      * @ElementName useExternalRouting
+     * @Type bool
      * @var bool|null
      */
     private $useExternalRouting = null;
 
     /**
      * @ElementName externalRoutingAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -100,6 +112,7 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
 
     /**
      * @ElementName homeZoneName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -107,18 +120,21 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
 
     /**
      * @ElementName voicePortalGreetingSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
 
     /**
      * @ElementName voicePortalGreetingFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -126,12 +142,14 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
 
     /**
      * @ElementName voiceMessagingGreetingSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
 
     /**
      * @ElementName voiceMessagingGreetingFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -140,19 +158,17 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -162,21 +178,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -186,21 +209,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for unassignPhoneNumbers
      *
-     * @ElementName unassignPhoneNumbers
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
      */
     public function getUnassignPhoneNumbers()
     {
-        return $this->unassignPhoneNumbers;
+        return $this->unassignPhoneNumbers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unassignPhoneNumbers;
     }
 
     /**
      * Setter for unassignPhoneNumbers
      *
-     * @ElementName unassignPhoneNumbers
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null $unassignPhoneNumbers
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers
      * @return $this
      */
     public function setUnassignPhoneNumbers(\CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel $unassignPhoneNumbers)
@@ -210,21 +240,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUnassignPhoneNumbers()
+    {
+        $this->unassignPhoneNumbers = null;
+        return $this;
+    }
+
+    /**
      * Getter for addPhoneNumberToGroup
      *
-     * @ElementName addPhoneNumberToGroup
-     * @return bool|null
+     * @return bool
      */
     public function getAddPhoneNumberToGroup()
     {
-        return $this->addPhoneNumberToGroup;
+        return $this->addPhoneNumberToGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addPhoneNumberToGroup;
     }
 
     /**
      * Setter for addPhoneNumberToGroup
      *
-     * @ElementName addPhoneNumberToGroup
-     * @param bool|null $addPhoneNumberToGroup
+     * @param bool $addPhoneNumberToGroup
      * @return $this
      */
     public function setAddPhoneNumberToGroup($addPhoneNumberToGroup)
@@ -234,21 +271,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddPhoneNumberToGroup()
+    {
+        $this->addPhoneNumberToGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
@@ -258,21 +302,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -282,21 +333,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableExtendedScope
      *
-     * @ElementName enableExtendedScope
-     * @return bool|null
+     * @return bool
      */
     public function getEnableExtendedScope()
     {
-        return $this->enableExtendedScope;
+        return $this->enableExtendedScope instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableExtendedScope;
     }
 
     /**
      * Setter for enableExtendedScope
      *
-     * @ElementName enableExtendedScope
-     * @param bool|null $enableExtendedScope
+     * @param bool $enableExtendedScope
      * @return $this
      */
     public function setEnableExtendedScope($enableExtendedScope)
@@ -306,21 +364,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableExtendedScope()
+    {
+        $this->enableExtendedScope = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      *
-     * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
-     * @return bool|null
+     * @return bool
      */
     public function getAllowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin()
     {
-        return $this->allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin;
+        return $this->allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin;
     }
 
     /**
      * Setter for allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      *
-     * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
-     * @param bool|null $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
+     * @param bool $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      * @return $this
      */
     public function setAllowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin($allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin)
@@ -330,21 +395,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin()
+    {
+        $this->allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
+        return $this;
+    }
+
+    /**
      * Getter for useVoicePortalWizard
      *
-     * @ElementName useVoicePortalWizard
-     * @return bool|null
+     * @return bool
      */
     public function getUseVoicePortalWizard()
     {
-        return $this->useVoicePortalWizard;
+        return $this->useVoicePortalWizard instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useVoicePortalWizard;
     }
 
     /**
      * Setter for useVoicePortalWizard
      *
-     * @ElementName useVoicePortalWizard
-     * @param bool|null $useVoicePortalWizard
+     * @param bool $useVoicePortalWizard
      * @return $this
      */
     public function setUseVoicePortalWizard($useVoicePortalWizard)
@@ -354,21 +426,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseVoicePortalWizard()
+    {
+        $this->useVoicePortalWizard = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalExternalRoutingScope
      *
-     * @ElementName voicePortalExternalRoutingScope
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope
      */
     public function getVoicePortalExternalRoutingScope()
     {
-        return $this->voicePortalExternalRoutingScope;
+        return $this->voicePortalExternalRoutingScope instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalExternalRoutingScope;
     }
 
     /**
      * Setter for voicePortalExternalRoutingScope
      *
-     * @ElementName voicePortalExternalRoutingScope
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null $voicePortalExternalRoutingScope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope $voicePortalExternalRoutingScope
      * @return $this
      */
     public function setVoicePortalExternalRoutingScope(\CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope $voicePortalExternalRoutingScope)
@@ -378,21 +457,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalExternalRoutingScope()
+    {
+        $this->voicePortalExternalRoutingScope = null;
+        return $this;
+    }
+
+    /**
      * Getter for useExternalRouting
      *
-     * @ElementName useExternalRouting
-     * @return bool|null
+     * @return bool
      */
     public function getUseExternalRouting()
     {
-        return $this->useExternalRouting;
+        return $this->useExternalRouting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useExternalRouting;
     }
 
     /**
      * Setter for useExternalRouting
      *
-     * @ElementName useExternalRouting
-     * @param bool|null $useExternalRouting
+     * @param bool $useExternalRouting
      * @return $this
      */
     public function setUseExternalRouting($useExternalRouting)
@@ -402,73 +488,98 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseExternalRouting()
+    {
+        $this->useExternalRouting = null;
+        return $this;
+    }
+
+    /**
      * Getter for externalRoutingAddress
      *
-     * @ElementName externalRoutingAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExternalRoutingAddress()
     {
-        return $this->externalRoutingAddress;
+        return $this->externalRoutingAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalRoutingAddress;
     }
 
     /**
      * Setter for externalRoutingAddress
      *
-     * @ElementName externalRoutingAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $externalRoutingAddress
+     * @param string|null $externalRoutingAddress
      * @return $this
      */
     public function setExternalRoutingAddress($externalRoutingAddress)
     {
-        $this->externalRoutingAddress = $externalRoutingAddress;
+        if ($externalRoutingAddress === null) {
+            $this->externalRoutingAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->externalRoutingAddress = $externalRoutingAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExternalRoutingAddress()
+    {
+        $this->externalRoutingAddress = null;
         return $this;
     }
 
     /**
      * Getter for homeZoneName
      *
-     * @ElementName homeZoneName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getHomeZoneName()
     {
-        return $this->homeZoneName;
+        return $this->homeZoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZoneName;
     }
 
     /**
      * Setter for homeZoneName
      *
-     * @ElementName homeZoneName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $homeZoneName
+     * @param string|null $homeZoneName
      * @return $this
      */
     public function setHomeZoneName($homeZoneName)
     {
-        $this->homeZoneName = $homeZoneName;
+        if ($homeZoneName === null) {
+            $this->homeZoneName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->homeZoneName = $homeZoneName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHomeZoneName()
+    {
+        $this->homeZoneName = null;
         return $this;
     }
 
     /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
@@ -478,21 +589,28 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalGreetingSelection
      *
-     * @ElementName voicePortalGreetingSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      */
     public function getVoicePortalGreetingSelection()
     {
-        return $this->voicePortalGreetingSelection;
+        return $this->voicePortalGreetingSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalGreetingSelection;
     }
 
     /**
      * Setter for voicePortalGreetingSelection
      *
-     * @ElementName voicePortalGreetingSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voicePortalGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voicePortalGreetingSelection
      * @return $this
      */
     public function setVoicePortalGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voicePortalGreetingSelection)
@@ -502,47 +620,63 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalGreetingSelection()
+    {
+        $this->voicePortalGreetingSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalGreetingFile
      *
-     * @ElementName voicePortalGreetingFile
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     public function getVoicePortalGreetingFile()
     {
-        return $this->voicePortalGreetingFile;
+        return $this->voicePortalGreetingFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalGreetingFile;
     }
 
     /**
      * Setter for voicePortalGreetingFile
      *
-     * @ElementName voicePortalGreetingFile
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $voicePortalGreetingFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $voicePortalGreetingFile
      * @return $this
      */
     public function setVoicePortalGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $voicePortalGreetingFile)
     {
-        $this->voicePortalGreetingFile = $voicePortalGreetingFile;
+        if ($voicePortalGreetingFile === null) {
+            $this->voicePortalGreetingFile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->voicePortalGreetingFile = $voicePortalGreetingFile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoicePortalGreetingFile()
+    {
+        $this->voicePortalGreetingFile = null;
         return $this;
     }
 
     /**
      * Getter for voiceMessagingGreetingSelection
      *
-     * @ElementName voiceMessagingGreetingSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      */
     public function getVoiceMessagingGreetingSelection()
     {
-        return $this->voiceMessagingGreetingSelection;
+        return $this->voiceMessagingGreetingSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessagingGreetingSelection;
     }
 
     /**
      * Setter for voiceMessagingGreetingSelection
      *
-     * @ElementName voiceMessagingGreetingSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voiceMessagingGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voiceMessagingGreetingSelection
      * @return $this
      */
     public function setVoiceMessagingGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voiceMessagingGreetingSelection)
@@ -552,28 +686,46 @@ class GroupVoiceMessagingGroupConsolidatedModifyVoicePortalRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessagingGreetingSelection()
+    {
+        $this->voiceMessagingGreetingSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessagingGreetingFile
      *
-     * @ElementName voiceMessagingGreetingFile
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     public function getVoiceMessagingGreetingFile()
     {
-        return $this->voiceMessagingGreetingFile;
+        return $this->voiceMessagingGreetingFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessagingGreetingFile;
     }
 
     /**
      * Setter for voiceMessagingGreetingFile
      *
-     * @ElementName voiceMessagingGreetingFile
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null|\CWM\BroadWorksConnector\Ocip\Nil $voiceMessagingGreetingFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $voiceMessagingGreetingFile
      * @return $this
      */
     public function setVoiceMessagingGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $voiceMessagingGreetingFile)
     {
-        $this->voiceMessagingGreetingFile = $voiceMessagingGreetingFile;
+        if ($voiceMessagingGreetingFile === null) {
+            $this->voiceMessagingGreetingFile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->voiceMessagingGreetingFile = $voiceMessagingGreetingFile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoiceMessagingGreetingFile()
+    {
+        $this->voiceMessagingGreetingFile = null;
         return $this;
     }
 

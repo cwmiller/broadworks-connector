@@ -14,18 +14,21 @@ class UserVideoAddOnGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName maxOriginatingCallDelaySeconds
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds
      * @var \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null
      */
     private $maxOriginatingCallDelaySeconds = null;
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
     private $accessDeviceEndpoint = null;
@@ -33,19 +36,17 @@ class UserVideoAddOnGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -55,21 +56,28 @@ class UserVideoAddOnGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxOriginatingCallDelaySeconds
      *
-     * @ElementName maxOriginatingCallDelaySeconds
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds
      */
     public function getMaxOriginatingCallDelaySeconds()
     {
-        return $this->maxOriginatingCallDelaySeconds;
+        return $this->maxOriginatingCallDelaySeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxOriginatingCallDelaySeconds;
     }
 
     /**
      * Setter for maxOriginatingCallDelaySeconds
      *
-     * @ElementName maxOriginatingCallDelaySeconds
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds|null $maxOriginatingCallDelaySeconds
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds $maxOriginatingCallDelaySeconds
      * @return $this
      */
     public function setMaxOriginatingCallDelaySeconds(\CWM\BroadWorksConnector\Ocip\Models\VideoAddOnMaxOriginatingCallDelaySeconds $maxOriginatingCallDelaySeconds)
@@ -79,26 +87,42 @@ class UserVideoAddOnGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxOriginatingCallDelaySeconds()
+    {
+        $this->maxOriginatingCallDelaySeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null $accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint)
     {
         $this->accessDeviceEndpoint = $accessDeviceEndpoint;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
         return $this;
     }
 

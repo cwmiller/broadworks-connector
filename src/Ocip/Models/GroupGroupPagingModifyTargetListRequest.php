@@ -16,12 +16,14 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName targetUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -52,28 +52,46 @@ class GroupGroupPagingModifyTargetListRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for targetUserIdList
      *
-     * @ElementName targetUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getTargetUserIdList()
     {
-        return $this->targetUserIdList;
+        return $this->targetUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->targetUserIdList;
     }
 
     /**
      * Setter for targetUserIdList
      *
-     * @ElementName targetUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $targetUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $targetUserIdList
      * @return $this
      */
     public function setTargetUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $targetUserIdList)
     {
-        $this->targetUserIdList = $targetUserIdList;
+        if ($targetUserIdList === null) {
+            $this->targetUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->targetUserIdList = $targetUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTargetUserIdList()
+    {
+        $this->targetUserIdList = null;
         return $this;
     }
 

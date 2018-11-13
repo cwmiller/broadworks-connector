@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceManagementEventStatusForCancel QUEUED()
  * @method static DeviceManagementEventStatusForCancel IN_PROGRESS()
  * @method static DeviceManagementEventStatusForCancel STALE()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementEventStatusForCancel extends \MyCLabs\Enum\Enum
 {

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CLIDPolicy USE_DN()
  * @method static CLIDPolicy USE_CONFIGURABLE_CLID()
- * @ValueType string
+ * @EnumValueType string
  */
 class CLIDPolicy extends \MyCLabs\Enum\Enum
 {

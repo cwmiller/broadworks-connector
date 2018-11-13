@@ -22,72 +22,84 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName announcementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
 
     /**
      * @ElementName inboundCallMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     private $inboundCallMode = null;
 
     /**
      * @ElementName alternateBlockingAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $alternateBlockingAnnouncement = null;
 
     /**
      * @ElementName exemptInboundMobilityCalls
+     * @Type bool
      * @var bool|null
      */
     private $exemptInboundMobilityCalls = null;
 
     /**
      * @ElementName disableParallelRingingToNetworkLocations
+     * @Type bool
      * @var bool|null
      */
     private $disableParallelRingingToNetworkLocations = null;
 
     /**
      * @ElementName routeToVoiceMail
+     * @Type bool
      * @var bool|null
      */
     private $routeToVoiceMail = null;
 
     /**
      * @ElementName playNewPhoneNumber
+     * @Type bool
      * @var bool|null
      */
     private $playNewPhoneNumber = null;
 
     /**
      * @ElementName newPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -95,12 +107,14 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
+     * @Type bool
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -108,24 +122,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName outboundCallMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null
      */
     private $outboundCallMode = null;
 
     /**
      * @ElementName exemptOutboundMobilityCalls
+     * @Type bool
      * @var bool|null
      */
     private $exemptOutboundMobilityCalls = null;
 
     /**
      * @ElementName rerouteOutboundCalls
+     * @Type bool
      * @var bool|null
      */
     private $rerouteOutboundCalls = null;
 
     /**
      * @ElementName outboundReroutePhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -134,19 +152,17 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -156,21 +172,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -180,21 +203,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementSelection
      *
-     * @ElementName announcementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      */
     public function getAnnouncementSelection()
     {
-        return $this->announcementSelection;
+        return $this->announcementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementSelection;
     }
 
     /**
      * Setter for announcementSelection
      *
-     * @ElementName announcementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection
      * @return $this
      */
     public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
@@ -204,21 +234,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementSelection()
+    {
+        $this->announcementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
@@ -228,21 +265,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $videoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile)
@@ -252,21 +296,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for inboundCallMode
      *
-     * @ElementName inboundCallMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall
      */
     public function getInboundCallMode()
     {
-        return $this->inboundCallMode;
+        return $this->inboundCallMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->inboundCallMode;
     }
 
     /**
      * Setter for inboundCallMode
      *
-     * @ElementName inboundCallMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null $inboundCallMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall $inboundCallMode
      * @return $this
      */
     public function setInboundCallMode(\CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall $inboundCallMode)
@@ -276,21 +327,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInboundCallMode()
+    {
+        $this->inboundCallMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateBlockingAnnouncement
      *
-     * @ElementName alternateBlockingAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getAlternateBlockingAnnouncement()
     {
-        return $this->alternateBlockingAnnouncement;
+        return $this->alternateBlockingAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateBlockingAnnouncement;
     }
 
     /**
      * Setter for alternateBlockingAnnouncement
      *
-     * @ElementName alternateBlockingAnnouncement
-     * @param bool|null $alternateBlockingAnnouncement
+     * @param bool $alternateBlockingAnnouncement
      * @return $this
      */
     public function setAlternateBlockingAnnouncement($alternateBlockingAnnouncement)
@@ -300,21 +358,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateBlockingAnnouncement()
+    {
+        $this->alternateBlockingAnnouncement = null;
+        return $this;
+    }
+
+    /**
      * Getter for exemptInboundMobilityCalls
      *
-     * @ElementName exemptInboundMobilityCalls
-     * @return bool|null
+     * @return bool
      */
     public function getExemptInboundMobilityCalls()
     {
-        return $this->exemptInboundMobilityCalls;
+        return $this->exemptInboundMobilityCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exemptInboundMobilityCalls;
     }
 
     /**
      * Setter for exemptInboundMobilityCalls
      *
-     * @ElementName exemptInboundMobilityCalls
-     * @param bool|null $exemptInboundMobilityCalls
+     * @param bool $exemptInboundMobilityCalls
      * @return $this
      */
     public function setExemptInboundMobilityCalls($exemptInboundMobilityCalls)
@@ -324,21 +389,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExemptInboundMobilityCalls()
+    {
+        $this->exemptInboundMobilityCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for disableParallelRingingToNetworkLocations
      *
-     * @ElementName disableParallelRingingToNetworkLocations
-     * @return bool|null
+     * @return bool
      */
     public function getDisableParallelRingingToNetworkLocations()
     {
-        return $this->disableParallelRingingToNetworkLocations;
+        return $this->disableParallelRingingToNetworkLocations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableParallelRingingToNetworkLocations;
     }
 
     /**
      * Setter for disableParallelRingingToNetworkLocations
      *
-     * @ElementName disableParallelRingingToNetworkLocations
-     * @param bool|null $disableParallelRingingToNetworkLocations
+     * @param bool $disableParallelRingingToNetworkLocations
      * @return $this
      */
     public function setDisableParallelRingingToNetworkLocations($disableParallelRingingToNetworkLocations)
@@ -348,21 +420,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisableParallelRingingToNetworkLocations()
+    {
+        $this->disableParallelRingingToNetworkLocations = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeToVoiceMail
      *
-     * @ElementName routeToVoiceMail
-     * @return bool|null
+     * @return bool
      */
     public function getRouteToVoiceMail()
     {
-        return $this->routeToVoiceMail;
+        return $this->routeToVoiceMail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeToVoiceMail;
     }
 
     /**
      * Setter for routeToVoiceMail
      *
-     * @ElementName routeToVoiceMail
-     * @param bool|null $routeToVoiceMail
+     * @param bool $routeToVoiceMail
      * @return $this
      */
     public function setRouteToVoiceMail($routeToVoiceMail)
@@ -372,21 +451,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteToVoiceMail()
+    {
+        $this->routeToVoiceMail = null;
+        return $this;
+    }
+
+    /**
      * Getter for playNewPhoneNumber
      *
-     * @ElementName playNewPhoneNumber
-     * @return bool|null
+     * @return bool
      */
     public function getPlayNewPhoneNumber()
     {
-        return $this->playNewPhoneNumber;
+        return $this->playNewPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playNewPhoneNumber;
     }
 
     /**
      * Setter for playNewPhoneNumber
      *
-     * @ElementName playNewPhoneNumber
-     * @param bool|null $playNewPhoneNumber
+     * @param bool $playNewPhoneNumber
      * @return $this
      */
     public function setPlayNewPhoneNumber($playNewPhoneNumber)
@@ -396,47 +482,63 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayNewPhoneNumber()
+    {
+        $this->playNewPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for newPhoneNumber
      *
-     * @ElementName newPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNewPhoneNumber()
     {
-        return $this->newPhoneNumber;
+        return $this->newPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newPhoneNumber;
     }
 
     /**
      * Setter for newPhoneNumber
      *
-     * @ElementName newPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $newPhoneNumber
+     * @param string|null $newPhoneNumber
      * @return $this
      */
     public function setNewPhoneNumber($newPhoneNumber)
     {
-        $this->newPhoneNumber = $newPhoneNumber;
+        if ($newPhoneNumber === null) {
+            $this->newPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->newPhoneNumber = $newPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewPhoneNumber()
+    {
+        $this->newPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for transferOnZeroToPhoneNumber
      *
-     * @ElementName transferOnZeroToPhoneNumber
-     * @return bool|null
+     * @return bool
      */
     public function getTransferOnZeroToPhoneNumber()
     {
-        return $this->transferOnZeroToPhoneNumber;
+        return $this->transferOnZeroToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferOnZeroToPhoneNumber;
     }
 
     /**
      * Setter for transferOnZeroToPhoneNumber
      *
-     * @ElementName transferOnZeroToPhoneNumber
-     * @param bool|null $transferOnZeroToPhoneNumber
+     * @param bool $transferOnZeroToPhoneNumber
      * @return $this
      */
     public function setTransferOnZeroToPhoneNumber($transferOnZeroToPhoneNumber)
@@ -446,47 +548,63 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransferOnZeroToPhoneNumber()
+    {
+        $this->transferOnZeroToPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
+     * @param string|null $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
     {
-        $this->transferPhoneNumber = $transferPhoneNumber;
+        if ($transferPhoneNumber === null) {
+            $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->transferPhoneNumber = $transferPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for outboundCallMode
      *
-     * @ElementName outboundCallMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall
      */
     public function getOutboundCallMode()
     {
-        return $this->outboundCallMode;
+        return $this->outboundCallMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outboundCallMode;
     }
 
     /**
      * Setter for outboundCallMode
      *
-     * @ElementName outboundCallMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null $outboundCallMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall $outboundCallMode
      * @return $this
      */
     public function setOutboundCallMode(\CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall $outboundCallMode)
@@ -496,21 +614,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOutboundCallMode()
+    {
+        $this->outboundCallMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for exemptOutboundMobilityCalls
      *
-     * @ElementName exemptOutboundMobilityCalls
-     * @return bool|null
+     * @return bool
      */
     public function getExemptOutboundMobilityCalls()
     {
-        return $this->exemptOutboundMobilityCalls;
+        return $this->exemptOutboundMobilityCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exemptOutboundMobilityCalls;
     }
 
     /**
      * Setter for exemptOutboundMobilityCalls
      *
-     * @ElementName exemptOutboundMobilityCalls
-     * @param bool|null $exemptOutboundMobilityCalls
+     * @param bool $exemptOutboundMobilityCalls
      * @return $this
      */
     public function setExemptOutboundMobilityCalls($exemptOutboundMobilityCalls)
@@ -520,21 +645,28 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExemptOutboundMobilityCalls()
+    {
+        $this->exemptOutboundMobilityCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for rerouteOutboundCalls
      *
-     * @ElementName rerouteOutboundCalls
-     * @return bool|null
+     * @return bool
      */
     public function getRerouteOutboundCalls()
     {
-        return $this->rerouteOutboundCalls;
+        return $this->rerouteOutboundCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rerouteOutboundCalls;
     }
 
     /**
      * Setter for rerouteOutboundCalls
      *
-     * @ElementName rerouteOutboundCalls
-     * @param bool|null $rerouteOutboundCalls
+     * @param bool $rerouteOutboundCalls
      * @return $this
      */
     public function setRerouteOutboundCalls($rerouteOutboundCalls)
@@ -544,28 +676,46 @@ class UserInterceptUserModifyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRerouteOutboundCalls()
+    {
+        $this->rerouteOutboundCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for outboundReroutePhoneNumber
      *
-     * @ElementName outboundReroutePhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getOutboundReroutePhoneNumber()
     {
-        return $this->outboundReroutePhoneNumber;
+        return $this->outboundReroutePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outboundReroutePhoneNumber;
     }
 
     /**
      * Setter for outboundReroutePhoneNumber
      *
-     * @ElementName outboundReroutePhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $outboundReroutePhoneNumber
+     * @param string|null $outboundReroutePhoneNumber
      * @return $this
      */
     public function setOutboundReroutePhoneNumber($outboundReroutePhoneNumber)
     {
-        $this->outboundReroutePhoneNumber = $outboundReroutePhoneNumber;
+        if ($outboundReroutePhoneNumber === null) {
+            $this->outboundReroutePhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->outboundReroutePhoneNumber = $outboundReroutePhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOutboundReroutePhoneNumber()
+    {
+        $this->outboundReroutePhoneNumber = null;
         return $this;
     }
 

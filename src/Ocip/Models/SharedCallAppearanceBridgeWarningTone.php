@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SharedCallAppearanceBridgeWarningTone NONE()
  * @method static SharedCallAppearanceBridgeWarningTone BARGE_IN()
  * @method static SharedCallAppearanceBridgeWarningTone BARGE_IN_AND_REPEAT()
- * @ValueType string
+ * @EnumValueType string
  */
 class SharedCallAppearanceBridgeWarningTone extends \MyCLabs\Enum\Enum
 {

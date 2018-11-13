@@ -10,36 +10,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMe
 
     /**
      * @ElementName activateConfGreeting
+     * @Type string
      * @var string|null
      */
     private $activateConfGreeting = null;
 
     /**
      * @ElementName deactivateConfGreeting
+     * @Type string
      * @var string|null
      */
     private $deactivateConfGreeting = null;
 
     /**
      * @ElementName recordNewConfGreeting
+     * @Type string
      * @var string|null
      */
     private $recordNewConfGreeting = null;
 
     /**
      * @ElementName listenToCurrentConfGreeting
+     * @Type string
      * @var string|null
      */
     private $listenToCurrentConfGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -47,19 +53,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMe
     /**
      * Getter for activateConfGreeting
      *
-     * @ElementName activateConfGreeting
-     * @return string|null
+     * @return string
      */
     public function getActivateConfGreeting()
     {
-        return $this->activateConfGreeting;
+        return $this->activateConfGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateConfGreeting;
     }
 
     /**
      * Setter for activateConfGreeting
      *
-     * @ElementName activateConfGreeting
-     * @param string|null $activateConfGreeting
+     * @param string $activateConfGreeting
      * @return $this
      */
     public function setActivateConfGreeting($activateConfGreeting)
@@ -69,21 +73,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetActivateConfGreeting()
+    {
+        $this->activateConfGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for deactivateConfGreeting
      *
-     * @ElementName deactivateConfGreeting
-     * @return string|null
+     * @return string
      */
     public function getDeactivateConfGreeting()
     {
-        return $this->deactivateConfGreeting;
+        return $this->deactivateConfGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deactivateConfGreeting;
     }
 
     /**
      * Setter for deactivateConfGreeting
      *
-     * @ElementName deactivateConfGreeting
-     * @param string|null $deactivateConfGreeting
+     * @param string $deactivateConfGreeting
      * @return $this
      */
     public function setDeactivateConfGreeting($deactivateConfGreeting)
@@ -93,21 +104,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeactivateConfGreeting()
+    {
+        $this->deactivateConfGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for recordNewConfGreeting
      *
-     * @ElementName recordNewConfGreeting
-     * @return string|null
+     * @return string
      */
     public function getRecordNewConfGreeting()
     {
-        return $this->recordNewConfGreeting;
+        return $this->recordNewConfGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordNewConfGreeting;
     }
 
     /**
      * Setter for recordNewConfGreeting
      *
-     * @ElementName recordNewConfGreeting
-     * @param string|null $recordNewConfGreeting
+     * @param string $recordNewConfGreeting
      * @return $this
      */
     public function setRecordNewConfGreeting($recordNewConfGreeting)
@@ -117,21 +135,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecordNewConfGreeting()
+    {
+        $this->recordNewConfGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for listenToCurrentConfGreeting
      *
-     * @ElementName listenToCurrentConfGreeting
-     * @return string|null
+     * @return string
      */
     public function getListenToCurrentConfGreeting()
     {
-        return $this->listenToCurrentConfGreeting;
+        return $this->listenToCurrentConfGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentConfGreeting;
     }
 
     /**
      * Setter for listenToCurrentConfGreeting
      *
-     * @ElementName listenToCurrentConfGreeting
-     * @param string|null $listenToCurrentConfGreeting
+     * @param string $listenToCurrentConfGreeting
      * @return $this
      */
     public function setListenToCurrentConfGreeting($listenToCurrentConfGreeting)
@@ -141,21 +166,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListenToCurrentConfGreeting()
+    {
+        $this->listenToCurrentConfGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -165,26 +197,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

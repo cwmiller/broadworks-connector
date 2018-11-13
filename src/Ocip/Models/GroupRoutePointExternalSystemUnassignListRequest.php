@@ -16,18 +16,22 @@ class GroupRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName routePointExternalSystem
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $routePointExternalSystem = array(
@@ -37,19 +41,17 @@ class GroupRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksCo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -59,21 +61,28 @@ class GroupRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -83,20 +92,27 @@ class GroupRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for routePointExternalSystem
      *
-     * @ElementName routePointExternalSystem
      * @return string[]
      */
     public function getRoutePointExternalSystem()
     {
-        return $this->routePointExternalSystem;
+        return $this->routePointExternalSystem instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routePointExternalSystem;
     }
 
     /**
      * Setter for routePointExternalSystem
      *
-     * @ElementName routePointExternalSystem
      * @param string[] $routePointExternalSystem
      * @return $this
      */
@@ -107,15 +123,23 @@ class GroupRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRoutePointExternalSystem()
+    {
+        $this->routePointExternalSystem = null;
+        return $this;
+    }
+
+    /**
      * Adder for routePointExternalSystem
      *
-     * @ElementName routePointExternalSystem
      * @param string $routePointExternalSystem
      * @return $this
      */
     public function addRoutePointExternalSystem(string $routePointExternalSystem)
     {
-        $this->routePointExternalSystem []= $routePointExternalSystem;
+        $this->routePointExternalSystem[] = $routePointExternalSystem;
         return $this;
     }
 

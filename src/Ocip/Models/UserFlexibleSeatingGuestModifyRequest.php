@@ -24,30 +24,35 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName enableAssociationLimit
+     * @Type bool
      * @var bool|null
      */
     private $enableAssociationLimit = null;
 
     /**
      * @ElementName associationLimitHours
+     * @Type int
      * @var int|null
      */
     private $associationLimitHours = null;
 
     /**
      * @ElementName unlockPhonePINCode
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -55,6 +60,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -62,6 +68,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName hostUserId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -70,19 +77,17 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -92,21 +97,28 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -116,21 +128,28 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAssociationLimit
      *
-     * @ElementName enableAssociationLimit
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAssociationLimit()
     {
-        return $this->enableAssociationLimit;
+        return $this->enableAssociationLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAssociationLimit;
     }
 
     /**
      * Setter for enableAssociationLimit
      *
-     * @ElementName enableAssociationLimit
-     * @param bool|null $enableAssociationLimit
+     * @param bool $enableAssociationLimit
      * @return $this
      */
     public function setEnableAssociationLimit($enableAssociationLimit)
@@ -140,21 +159,28 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAssociationLimit()
+    {
+        $this->enableAssociationLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @return int|null
+     * @return int
      */
     public function getAssociationLimitHours()
     {
-        return $this->associationLimitHours;
+        return $this->associationLimitHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->associationLimitHours;
     }
 
     /**
      * Setter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @param int|null $associationLimitHours
+     * @param int $associationLimitHours
      * @return $this
      */
     public function setAssociationLimitHours($associationLimitHours)
@@ -164,80 +190,116 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssociationLimitHours()
+    {
+        $this->associationLimitHours = null;
+        return $this;
+    }
+
+    /**
      * Getter for unlockPhonePINCode
      *
-     * @ElementName unlockPhonePINCode
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getUnlockPhonePINCode()
     {
-        return $this->unlockPhonePINCode;
+        return $this->unlockPhonePINCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unlockPhonePINCode;
     }
 
     /**
      * Setter for unlockPhonePINCode
      *
-     * @ElementName unlockPhonePINCode
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $unlockPhonePINCode
+     * @param string|null $unlockPhonePINCode
      * @return $this
      */
     public function setUnlockPhonePINCode($unlockPhonePINCode)
     {
-        $this->unlockPhonePINCode = $unlockPhonePINCode;
+        if ($unlockPhonePINCode === null) {
+            $this->unlockPhonePINCode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->unlockPhonePINCode = $unlockPhonePINCode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnlockPhonePINCode()
+    {
+        $this->unlockPhonePINCode = null;
         return $this;
     }
 
     /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify $accessDeviceEndpoint)
     {
-        $this->accessDeviceEndpoint = $accessDeviceEndpoint;
+        if ($accessDeviceEndpoint === null) {
+            $this->accessDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->accessDeviceEndpoint = $accessDeviceEndpoint;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
         return $this;
     }
 
     /**
      * Getter for hostUserId
      *
-     * @ElementName hostUserId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getHostUserId()
     {
-        return $this->hostUserId;
+        return $this->hostUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostUserId;
     }
 
     /**
      * Setter for hostUserId
      *
-     * @ElementName hostUserId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $hostUserId
+     * @param string|null $hostUserId
      * @return $this
      */
     public function setHostUserId($hostUserId)
     {
-        $this->hostUserId = $hostUserId;
+        if ($hostUserId === null) {
+            $this->hostUserId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->hostUserId = $hostUserId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHostUserId()
+    {
+        $this->hostUserId = null;
         return $this;
     }
 

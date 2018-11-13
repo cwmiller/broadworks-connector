@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * OPTIMIZE_FOR_USER_SERVICES()
  * @method static TrunkGroupPilotUserCallOptimizationPolicy
  * OPTIMIZE_FOR_HIGH_CALL_VOLUME()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupPilotUserCallOptimizationPolicy extends \MyCLabs\Enum\Enum
 {

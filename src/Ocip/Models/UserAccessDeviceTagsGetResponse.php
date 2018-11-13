@@ -15,6 +15,7 @@ class UserAccessDeviceTagsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName deviceTagsTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceTagsTable = null;
@@ -22,24 +23,31 @@ class UserAccessDeviceTagsGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for deviceTagsTable
      *
-     * @ElementName deviceTagsTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDeviceTagsTable()
     {
-        return $this->deviceTagsTable;
+        return $this->deviceTagsTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceTagsTable;
     }
 
     /**
      * Setter for deviceTagsTable
      *
-     * @ElementName deviceTagsTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceTagsTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTagsTable
      * @return $this
      */
     public function setDeviceTagsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTagsTable)
     {
         $this->deviceTagsTable = $deviceTagsTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceTagsTable()
+    {
+        $this->deviceTagsTable = null;
         return $this;
     }
 

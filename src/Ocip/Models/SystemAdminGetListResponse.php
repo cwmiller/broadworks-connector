@@ -16,6 +16,7 @@ class SystemAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName systemAdminTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $systemAdminTable = null;
@@ -23,24 +24,31 @@ class SystemAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for systemAdminTable
      *
-     * @ElementName systemAdminTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSystemAdminTable()
     {
-        return $this->systemAdminTable;
+        return $this->systemAdminTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemAdminTable;
     }
 
     /**
      * Setter for systemAdminTable
      *
-     * @ElementName systemAdminTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $systemAdminTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemAdminTable
      * @return $this
      */
     public function setSystemAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemAdminTable)
     {
         $this->systemAdminTable = $systemAdminTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSystemAdminTable()
+    {
+        $this->systemAdminTable = null;
         return $this;
     }
 

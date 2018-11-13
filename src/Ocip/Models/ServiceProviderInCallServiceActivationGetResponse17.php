@@ -14,12 +14,14 @@ class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWork
 
     /**
      * @ElementName flashActivationDigits
+     * @Type string
      * @var string|null
      */
     private $flashActivationDigits = null;
 
     /**
      * @ElementName callTransferActivationDigits
+     * @Type string
      * @var string|null
      */
     private $callTransferActivationDigits = null;
@@ -27,19 +29,17 @@ class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWork
     /**
      * Getter for flashActivationDigits
      *
-     * @ElementName flashActivationDigits
-     * @return string|null
+     * @return string
      */
     public function getFlashActivationDigits()
     {
-        return $this->flashActivationDigits;
+        return $this->flashActivationDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->flashActivationDigits;
     }
 
     /**
      * Setter for flashActivationDigits
      *
-     * @ElementName flashActivationDigits
-     * @param string|null $flashActivationDigits
+     * @param string $flashActivationDigits
      * @return $this
      */
     public function setFlashActivationDigits($flashActivationDigits)
@@ -49,26 +49,42 @@ class ServiceProviderInCallServiceActivationGetResponse17 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFlashActivationDigits()
+    {
+        $this->flashActivationDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for callTransferActivationDigits
      *
-     * @ElementName callTransferActivationDigits
-     * @return string|null
+     * @return string
      */
     public function getCallTransferActivationDigits()
     {
-        return $this->callTransferActivationDigits;
+        return $this->callTransferActivationDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callTransferActivationDigits;
     }
 
     /**
      * Setter for callTransferActivationDigits
      *
-     * @ElementName callTransferActivationDigits
-     * @param string|null $callTransferActivationDigits
+     * @param string $callTransferActivationDigits
      * @return $this
      */
     public function setCallTransferActivationDigits($callTransferActivationDigits)
     {
         $this->callTransferActivationDigits = $callTransferActivationDigits;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallTransferActivationDigits()
+    {
+        $this->callTransferActivationDigits = null;
         return $this;
     }
 

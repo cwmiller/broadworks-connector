@@ -22,6 +22,8 @@ class SystemAccountingReorderChargingFunctionElementServerRequest extends \CWM\B
 
     /**
      * @ElementName orderedAddressList
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $orderedAddressList = array(
@@ -31,18 +33,16 @@ class SystemAccountingReorderChargingFunctionElementServerRequest extends \CWM\B
     /**
      * Getter for orderedAddressList
      *
-     * @ElementName orderedAddressList
      * @return string[]
      */
     public function getOrderedAddressList()
     {
-        return $this->orderedAddressList;
+        return $this->orderedAddressList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->orderedAddressList;
     }
 
     /**
      * Setter for orderedAddressList
      *
-     * @ElementName orderedAddressList
      * @param string[] $orderedAddressList
      * @return $this
      */
@@ -53,15 +53,23 @@ class SystemAccountingReorderChargingFunctionElementServerRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOrderedAddressList()
+    {
+        $this->orderedAddressList = null;
+        return $this;
+    }
+
+    /**
      * Adder for orderedAddressList
      *
-     * @ElementName orderedAddressList
      * @param string $orderedAddressList
      * @return $this
      */
     public function addOrderedAddressList(string $orderedAddressList)
     {
-        $this->orderedAddressList []= $orderedAddressList;
+        $this->orderedAddressList[] = $orderedAddressList;
         return $this;
     }
 

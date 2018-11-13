@@ -28,42 +28,49 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName maximumBridgeParticipants
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     private $maximumBridgeParticipants = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
 
     /**
      * @ElementName isDefault
+     * @Type bool
      * @var bool|null
      */
     private $isDefault = null;
 
     /**
      * @ElementName maxCollaborateRoomParticipants
+     * @Type int
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
 
     /**
      * @ElementName supportOutdial
+     * @Type bool
      * @var bool|null
      */
     private $supportOutdial = null;
 
     /**
      * @ElementName collaborateOwnerUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -72,19 +79,17 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile)
@@ -94,21 +99,28 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumBridgeParticipants
      *
-     * @ElementName maximumBridgeParticipants
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
      */
     public function getMaximumBridgeParticipants()
     {
-        return $this->maximumBridgeParticipants;
+        return $this->maximumBridgeParticipants instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumBridgeParticipants;
     }
 
     /**
      * Setter for maximumBridgeParticipants
      *
-     * @ElementName maximumBridgeParticipants
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null $maximumBridgeParticipants
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants $maximumBridgeParticipants
      * @return $this
      */
     public function setMaximumBridgeParticipants(\CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants $maximumBridgeParticipants)
@@ -118,21 +130,28 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumBridgeParticipants()
+    {
+        $this->maximumBridgeParticipants = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
@@ -142,21 +161,28 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Getter for isDefault
      *
-     * @ElementName isDefault
-     * @return bool|null
+     * @return bool
      */
     public function getIsDefault()
     {
-        return $this->isDefault;
+        return $this->isDefault instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isDefault;
     }
 
     /**
      * Setter for isDefault
      *
-     * @ElementName isDefault
-     * @param bool|null $isDefault
+     * @param bool $isDefault
      * @return $this
      */
     public function setIsDefault($isDefault)
@@ -166,21 +192,28 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsDefault()
+    {
+        $this->isDefault = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCollaborateRoomParticipants
      *
-     * @ElementName maxCollaborateRoomParticipants
-     * @return int|null
+     * @return int
      */
     public function getMaxCollaborateRoomParticipants()
     {
-        return $this->maxCollaborateRoomParticipants;
+        return $this->maxCollaborateRoomParticipants instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCollaborateRoomParticipants;
     }
 
     /**
      * Setter for maxCollaborateRoomParticipants
      *
-     * @ElementName maxCollaborateRoomParticipants
-     * @param int|null $maxCollaborateRoomParticipants
+     * @param int $maxCollaborateRoomParticipants
      * @return $this
      */
     public function setMaxCollaborateRoomParticipants($maxCollaborateRoomParticipants)
@@ -190,21 +223,28 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxCollaborateRoomParticipants()
+    {
+        $this->maxCollaborateRoomParticipants = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportOutdial
      *
-     * @ElementName supportOutdial
-     * @return bool|null
+     * @return bool
      */
     public function getSupportOutdial()
     {
-        return $this->supportOutdial;
+        return $this->supportOutdial instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportOutdial;
     }
 
     /**
      * Setter for supportOutdial
      *
-     * @ElementName supportOutdial
-     * @param bool|null $supportOutdial
+     * @param bool $supportOutdial
      * @return $this
      */
     public function setSupportOutdial($supportOutdial)
@@ -214,28 +254,46 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportOutdial()
+    {
+        $this->supportOutdial = null;
+        return $this;
+    }
+
+    /**
      * Getter for collaborateOwnerUserTable
      *
-     * @ElementName collaborateOwnerUserTable
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     public function getCollaborateOwnerUserTable()
     {
-        return $this->collaborateOwnerUserTable;
+        return $this->collaborateOwnerUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collaborateOwnerUserTable;
     }
 
     /**
      * Setter for collaborateOwnerUserTable
      *
-     * @ElementName collaborateOwnerUserTable
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil $collaborateOwnerUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $collaborateOwnerUserTable
      * @return $this
      */
     public function setCollaborateOwnerUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $collaborateOwnerUserTable)
     {
-        $this->collaborateOwnerUserTable = $collaborateOwnerUserTable;
+        if ($collaborateOwnerUserTable === null) {
+            $this->collaborateOwnerUserTable = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->collaborateOwnerUserTable = $collaborateOwnerUserTable;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCollaborateOwnerUserTable()
+    {
+        $this->collaborateOwnerUserTable = null;
         return $this;
     }
 

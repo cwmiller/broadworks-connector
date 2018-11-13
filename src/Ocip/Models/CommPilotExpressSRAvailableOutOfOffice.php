@@ -13,18 +13,21 @@ class CommPilotExpressSRAvailableOutOfOffice
 
     /**
      * @ElementName remotePhoneNumber
+     * @Type string
      * @var string|null
      */
     private $remotePhoneNumber = null;
 
     /**
      * @ElementName noAnswerSetting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer|null
      */
     private $noAnswerSetting = null;
 
     /**
      * @ElementName incomingCallNotify
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null
      */
     private $incomingCallNotify = null;
@@ -32,19 +35,17 @@ class CommPilotExpressSRAvailableOutOfOffice
     /**
      * Getter for remotePhoneNumber
      *
-     * @ElementName remotePhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getRemotePhoneNumber()
     {
-        return $this->remotePhoneNumber;
+        return $this->remotePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->remotePhoneNumber;
     }
 
     /**
      * Setter for remotePhoneNumber
      *
-     * @ElementName remotePhoneNumber
-     * @param string|null $remotePhoneNumber
+     * @param string $remotePhoneNumber
      * @return $this
      */
     public function setRemotePhoneNumber($remotePhoneNumber)
@@ -54,21 +55,28 @@ class CommPilotExpressSRAvailableOutOfOffice
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRemotePhoneNumber()
+    {
+        $this->remotePhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerSetting
      *
-     * @ElementName noAnswerSetting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer
      */
     public function getNoAnswerSetting()
     {
-        return $this->noAnswerSetting;
+        return $this->noAnswerSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerSetting;
     }
 
     /**
      * Setter for noAnswerSetting
      *
-     * @ElementName noAnswerSetting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer|null $noAnswerSetting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer $noAnswerSetting
      * @return $this
      */
     public function setNoAnswerSetting(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer $noAnswerSetting)
@@ -78,26 +86,42 @@ class CommPilotExpressSRAvailableOutOfOffice
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerSetting()
+    {
+        $this->noAnswerSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for incomingCallNotify
      *
-     * @ElementName incomingCallNotify
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify
      */
     public function getIncomingCallNotify()
     {
-        return $this->incomingCallNotify;
+        return $this->incomingCallNotify instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingCallNotify;
     }
 
     /**
      * Setter for incomingCallNotify
      *
-     * @ElementName incomingCallNotify
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null $incomingCallNotify
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify $incomingCallNotify
      * @return $this
      */
     public function setIncomingCallNotify(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify $incomingCallNotify)
     {
         $this->incomingCallNotify = $incomingCallNotify;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncomingCallNotify()
+    {
+        $this->incomingCallNotify = null;
         return $this;
     }
 

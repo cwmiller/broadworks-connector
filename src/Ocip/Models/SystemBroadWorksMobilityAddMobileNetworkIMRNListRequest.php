@@ -19,12 +19,15 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
 
     /**
      * @ElementName mobileNetworkName
+     * @Type string
      * @var string|null
      */
     private $mobileNetworkName = null;
 
     /**
      * @ElementName imrnNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $imrnNumber = array(
@@ -33,6 +36,8 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
 
     /**
      * @ElementName numberRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $numberRange = array(
@@ -42,19 +47,17 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
     /**
      * Getter for mobileNetworkName
      *
-     * @ElementName mobileNetworkName
-     * @return string|null
+     * @return string
      */
     public function getMobileNetworkName()
     {
-        return $this->mobileNetworkName;
+        return $this->mobileNetworkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileNetworkName;
     }
 
     /**
      * Setter for mobileNetworkName
      *
-     * @ElementName mobileNetworkName
-     * @param string|null $mobileNetworkName
+     * @param string $mobileNetworkName
      * @return $this
      */
     public function setMobileNetworkName($mobileNetworkName)
@@ -64,20 +67,27 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileNetworkName()
+    {
+        $this->mobileNetworkName = null;
+        return $this;
+    }
+
+    /**
      * Getter for imrnNumber
      *
-     * @ElementName imrnNumber
      * @return string[]
      */
     public function getImrnNumber()
     {
-        return $this->imrnNumber;
+        return $this->imrnNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imrnNumber;
     }
 
     /**
      * Setter for imrnNumber
      *
-     * @ElementName imrnNumber
      * @param string[] $imrnNumber
      * @return $this
      */
@@ -88,33 +98,39 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetImrnNumber()
+    {
+        $this->imrnNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for imrnNumber
      *
-     * @ElementName imrnNumber
      * @param string $imrnNumber
      * @return $this
      */
     public function addImrnNumber(string $imrnNumber)
     {
-        $this->imrnNumber []= $imrnNumber;
+        $this->imrnNumber[] = $imrnNumber;
         return $this;
     }
 
     /**
      * Getter for numberRange
      *
-     * @ElementName numberRange
      * @return \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     public function getNumberRange()
     {
-        return $this->numberRange;
+        return $this->numberRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberRange;
     }
 
     /**
      * Setter for numberRange
      *
-     * @ElementName numberRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $numberRange
      * @return $this
      */
@@ -125,15 +141,23 @@ class SystemBroadWorksMobilityAddMobileNetworkIMRNListRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberRange()
+    {
+        $this->numberRange = null;
+        return $this;
+    }
+
+    /**
      * Adder for numberRange
      *
-     * @ElementName numberRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange $numberRange
      * @return $this
      */
     public function addNumberRange($numberRange)
     {
-        $this->numberRange []= $numberRange;
+        $this->numberRange[] = $numberRange;
         return $this;
     }
 

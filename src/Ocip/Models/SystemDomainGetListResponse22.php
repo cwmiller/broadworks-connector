@@ -17,12 +17,14 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName systemDefaultDomain
+     * @Type string
      * @var string|null
      */
     private $systemDefaultDomain = null;
 
     /**
      * @ElementName domainTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $domainTable = null;
@@ -30,19 +32,17 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for systemDefaultDomain
      *
-     * @ElementName systemDefaultDomain
-     * @return string|null
+     * @return string
      */
     public function getSystemDefaultDomain()
     {
-        return $this->systemDefaultDomain;
+        return $this->systemDefaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemDefaultDomain;
     }
 
     /**
      * Setter for systemDefaultDomain
      *
-     * @ElementName systemDefaultDomain
-     * @param string|null $systemDefaultDomain
+     * @param string $systemDefaultDomain
      * @return $this
      */
     public function setSystemDefaultDomain($systemDefaultDomain)
@@ -52,26 +52,42 @@ class SystemDomainGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSystemDefaultDomain()
+    {
+        $this->systemDefaultDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for domainTable
      *
-     * @ElementName domainTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDomainTable()
     {
-        return $this->domainTable;
+        return $this->domainTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->domainTable;
     }
 
     /**
      * Setter for domainTable
      *
-     * @ElementName domainTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $domainTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $domainTable
      * @return $this
      */
     public function setDomainTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $domainTable)
     {
         $this->domainTable = $domainTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDomainTable()
+    {
+        $this->domainTable = null;
         return $this;
     }
 

@@ -12,6 +12,8 @@ class ReplacementConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEnd
 
     /**
      * @ElementName sharedCallAppearanceAccessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint[]
      */
     private $sharedCallAppearanceAccessDeviceEndpoint = array(
@@ -21,18 +23,16 @@ class ReplacementConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEnd
     /**
      * Getter for sharedCallAppearanceAccessDeviceEndpoint
      *
-     * @ElementName sharedCallAppearanceAccessDeviceEndpoint
      * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint[]
      */
     public function getSharedCallAppearanceAccessDeviceEndpoint()
     {
-        return $this->sharedCallAppearanceAccessDeviceEndpoint;
+        return $this->sharedCallAppearanceAccessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sharedCallAppearanceAccessDeviceEndpoint;
     }
 
     /**
      * Setter for sharedCallAppearanceAccessDeviceEndpoint
      *
-     * @ElementName sharedCallAppearanceAccessDeviceEndpoint
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint[] $sharedCallAppearanceAccessDeviceEndpoint
      * @return $this
      */
@@ -43,15 +43,23 @@ class ReplacementConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEnd
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSharedCallAppearanceAccessDeviceEndpoint()
+    {
+        $this->sharedCallAppearanceAccessDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Adder for sharedCallAppearanceAccessDeviceEndpoint
      *
-     * @ElementName sharedCallAppearanceAccessDeviceEndpoint
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint $sharedCallAppearanceAccessDeviceEndpoint
      * @return $this
      */
     public function addSharedCallAppearanceAccessDeviceEndpoint($sharedCallAppearanceAccessDeviceEndpoint)
     {
-        $this->sharedCallAppearanceAccessDeviceEndpoint []= $sharedCallAppearanceAccessDeviceEndpoint;
+        $this->sharedCallAppearanceAccessDeviceEndpoint[] = $sharedCallAppearanceAccessDeviceEndpoint;
         return $this;
     }
 

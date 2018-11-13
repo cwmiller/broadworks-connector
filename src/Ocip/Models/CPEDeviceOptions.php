@@ -13,30 +13,35 @@ class CPEDeviceOptions
 
     /**
      * @ElementName enableMonitoring
+     * @Type bool
      * @var bool|null
      */
     private $enableMonitoring = null;
 
     /**
      * @ElementName resetEvent
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
      */
     private $resetEvent = null;
 
     /**
      * @ElementName configType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
 
     /**
      * @ElementName systemFileName
+     * @Type string
      * @var string|null
      */
     private $systemFileName = null;
 
     /**
      * @ElementName deviceFileFormat
+     * @Type string
      * @var string|null
      */
     private $deviceFileFormat = null;
@@ -44,19 +49,17 @@ class CPEDeviceOptions
     /**
      * Getter for enableMonitoring
      *
-     * @ElementName enableMonitoring
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMonitoring()
     {
-        return $this->enableMonitoring;
+        return $this->enableMonitoring instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMonitoring;
     }
 
     /**
      * Setter for enableMonitoring
      *
-     * @ElementName enableMonitoring
-     * @param bool|null $enableMonitoring
+     * @param bool $enableMonitoring
      * @return $this
      */
     public function setEnableMonitoring($enableMonitoring)
@@ -66,21 +69,28 @@ class CPEDeviceOptions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMonitoring()
+    {
+        $this->enableMonitoring = null;
+        return $this;
+    }
+
+    /**
      * Getter for resetEvent
      *
-     * @ElementName resetEvent
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType
      */
     public function getResetEvent()
     {
-        return $this->resetEvent;
+        return $this->resetEvent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resetEvent;
     }
 
     /**
      * Setter for resetEvent
      *
-     * @ElementName resetEvent
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null $resetEvent
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType $resetEvent
      * @return $this
      */
     public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType $resetEvent)
@@ -90,21 +100,28 @@ class CPEDeviceOptions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResetEvent()
+    {
+        $this->resetEvent = null;
+        return $this;
+    }
+
+    /**
      * Getter for configType
      *
-     * @ElementName configType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      */
     public function getConfigType()
     {
-        return $this->configType;
+        return $this->configType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configType;
     }
 
     /**
      * Setter for configType
      *
-     * @ElementName configType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null $configType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configType
      * @return $this
      */
     public function setConfigType(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configType)
@@ -114,21 +131,28 @@ class CPEDeviceOptions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigType()
+    {
+        $this->configType = null;
+        return $this;
+    }
+
+    /**
      * Getter for systemFileName
      *
-     * @ElementName systemFileName
-     * @return string|null
+     * @return string
      */
     public function getSystemFileName()
     {
-        return $this->systemFileName;
+        return $this->systemFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemFileName;
     }
 
     /**
      * Setter for systemFileName
      *
-     * @ElementName systemFileName
-     * @param string|null $systemFileName
+     * @param string $systemFileName
      * @return $this
      */
     public function setSystemFileName($systemFileName)
@@ -138,26 +162,42 @@ class CPEDeviceOptions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSystemFileName()
+    {
+        $this->systemFileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceFileFormat
      *
-     * @ElementName deviceFileFormat
-     * @return string|null
+     * @return string
      */
     public function getDeviceFileFormat()
     {
-        return $this->deviceFileFormat;
+        return $this->deviceFileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceFileFormat;
     }
 
     /**
      * Setter for deviceFileFormat
      *
-     * @ElementName deviceFileFormat
-     * @param string|null $deviceFileFormat
+     * @param string $deviceFileFormat
      * @return $this
      */
     public function setDeviceFileFormat($deviceFileFormat)
     {
         $this->deviceFileFormat = $deviceFileFormat;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceFileFormat()
+    {
+        $this->deviceFileFormat = null;
         return $this;
     }
 

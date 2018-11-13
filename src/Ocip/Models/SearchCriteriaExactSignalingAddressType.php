@@ -12,6 +12,7 @@ class SearchCriteriaExactSignalingAddressType extends SearchCriteria
 
     /**
      * @ElementName profile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactSignalingAddressType extends SearchCriteria
     /**
      * Getter for profile
      *
-     * @ElementName profile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
      */
     public function getProfile()
     {
-        return $this->profile;
+        return $this->profile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profile;
     }
 
     /**
      * Setter for profile
      *
-     * @ElementName profile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile
      * @return $this
      */
     public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile)
     {
         $this->profile = $profile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfile()
+    {
+        $this->profile = null;
         return $this;
     }
 

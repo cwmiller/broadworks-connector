@@ -16,12 +16,14 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName configurationServerURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -52,28 +52,46 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for configurationServerURL
      *
-     * @ElementName configurationServerURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getConfigurationServerURL()
     {
-        return $this->configurationServerURL;
+        return $this->configurationServerURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurationServerURL;
     }
 
     /**
      * Setter for configurationServerURL
      *
-     * @ElementName configurationServerURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $configurationServerURL
+     * @param string|null $configurationServerURL
      * @return $this
      */
     public function setConfigurationServerURL($configurationServerURL)
     {
-        $this->configurationServerURL = $configurationServerURL;
+        if ($configurationServerURL === null) {
+            $this->configurationServerURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->configurationServerURL = $configurationServerURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConfigurationServerURL()
+    {
+        $this->configurationServerURL = null;
         return $this;
     }
 

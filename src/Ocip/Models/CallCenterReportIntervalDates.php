@@ -12,24 +12,28 @@ class CallCenterReportIntervalDates
 
     /**
      * @ElementName startDate
+     * @Type string
      * @var string|null
      */
     private $startDate = null;
 
     /**
      * @ElementName startTime
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $startTime = null;
 
     /**
      * @ElementName endDate
+     * @Type string
      * @var string|null
      */
     private $endDate = null;
 
     /**
      * @ElementName endTime
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $endTime = null;
@@ -37,19 +41,17 @@ class CallCenterReportIntervalDates
     /**
      * Getter for startDate
      *
-     * @ElementName startDate
-     * @return string|null
+     * @return string
      */
     public function getStartDate()
     {
-        return $this->startDate;
+        return $this->startDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startDate;
     }
 
     /**
      * Setter for startDate
      *
-     * @ElementName startDate
-     * @param string|null $startDate
+     * @param string $startDate
      * @return $this
      */
     public function setStartDate($startDate)
@@ -59,21 +61,28 @@ class CallCenterReportIntervalDates
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartDate()
+    {
+        $this->startDate = null;
+        return $this;
+    }
+
+    /**
      * Getter for startTime
      *
-     * @ElementName startTime
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      */
     public function getStartTime()
     {
-        return $this->startTime;
+        return $this->startTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startTime;
     }
 
     /**
      * Setter for startTime
      *
-     * @ElementName startTime
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null $startTime
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute $startTime
      * @return $this
      */
     public function setStartTime(\CWM\BroadWorksConnector\Ocip\Models\HourMinute $startTime)
@@ -83,21 +92,28 @@ class CallCenterReportIntervalDates
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartTime()
+    {
+        $this->startTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for endDate
      *
-     * @ElementName endDate
-     * @return string|null
+     * @return string
      */
     public function getEndDate()
     {
-        return $this->endDate;
+        return $this->endDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endDate;
     }
 
     /**
      * Setter for endDate
      *
-     * @ElementName endDate
-     * @param string|null $endDate
+     * @param string $endDate
      * @return $this
      */
     public function setEndDate($endDate)
@@ -107,26 +123,42 @@ class CallCenterReportIntervalDates
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndDate()
+    {
+        $this->endDate = null;
+        return $this;
+    }
+
+    /**
      * Getter for endTime
      *
-     * @ElementName endTime
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      */
     public function getEndTime()
     {
-        return $this->endTime;
+        return $this->endTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endTime;
     }
 
     /**
      * Setter for endTime
      *
-     * @ElementName endTime
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null $endTime
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute $endTime
      * @return $this
      */
     public function setEndTime(\CWM\BroadWorksConnector\Ocip\Models\HourMinute $endTime)
     {
         $this->endTime = $endTime;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEndTime()
+    {
+        $this->endTime = null;
         return $this;
     }
 

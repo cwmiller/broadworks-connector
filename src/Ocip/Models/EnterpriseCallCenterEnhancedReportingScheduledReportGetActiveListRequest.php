@@ -19,18 +19,22 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaCallCenterScheduledReportName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[]
      */
     private $searchCriteriaCallCenterScheduledReportName = array(
@@ -39,12 +43,14 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
 
     /**
      * @ElementName searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null
      */
     private $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
 
     /**
      * @ElementName searchCriteriaExactCallCenterReportTemplateKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey|null
      */
     private $searchCriteriaExactCallCenterReportTemplateKey = null;
@@ -52,19 +58,17 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -74,21 +78,28 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -98,20 +109,27 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaCallCenterScheduledReportName
      *
-     * @ElementName searchCriteriaCallCenterScheduledReportName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[]
      */
     public function getSearchCriteriaCallCenterScheduledReportName()
     {
-        return $this->searchCriteriaCallCenterScheduledReportName;
+        return $this->searchCriteriaCallCenterScheduledReportName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaCallCenterScheduledReportName;
     }
 
     /**
      * Setter for searchCriteriaCallCenterScheduledReportName
      *
-     * @ElementName searchCriteriaCallCenterScheduledReportName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[] $searchCriteriaCallCenterScheduledReportName
      * @return $this
      */
@@ -122,34 +140,40 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaCallCenterScheduledReportName()
+    {
+        $this->searchCriteriaCallCenterScheduledReportName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaCallCenterScheduledReportName
      *
-     * @ElementName searchCriteriaCallCenterScheduledReportName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName $searchCriteriaCallCenterScheduledReportName
      * @return $this
      */
     public function addSearchCriteriaCallCenterScheduledReportName($searchCriteriaCallCenterScheduledReportName)
     {
-        $this->searchCriteriaCallCenterScheduledReportName []= $searchCriteriaCallCenterScheduledReportName;
+        $this->searchCriteriaCallCenterScheduledReportName[] = $searchCriteriaCallCenterScheduledReportName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      *
-     * @ElementName searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      */
     public function getSearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor()
     {
-        return $this->searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor;
+        return $this->searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor;
     }
 
     /**
      * Setter for searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      *
-     * @ElementName searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @return $this
      */
     public function setSearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor)
@@ -159,26 +183,42 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor()
+    {
+        $this->searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactCallCenterReportTemplateKey
      *
-     * @ElementName searchCriteriaExactCallCenterReportTemplateKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey
      */
     public function getSearchCriteriaExactCallCenterReportTemplateKey()
     {
-        return $this->searchCriteriaExactCallCenterReportTemplateKey;
+        return $this->searchCriteriaExactCallCenterReportTemplateKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactCallCenterReportTemplateKey;
     }
 
     /**
      * Setter for searchCriteriaExactCallCenterReportTemplateKey
      *
-     * @ElementName searchCriteriaExactCallCenterReportTemplateKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey|null $searchCriteriaExactCallCenterReportTemplateKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey $searchCriteriaExactCallCenterReportTemplateKey
      * @return $this
      */
     public function setSearchCriteriaExactCallCenterReportTemplateKey(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey $searchCriteriaExactCallCenterReportTemplateKey)
     {
         $this->searchCriteriaExactCallCenterReportTemplateKey = $searchCriteriaExactCallCenterReportTemplateKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactCallCenterReportTemplateKey()
+    {
+        $this->searchCriteriaExactCallCenterReportTemplateKey = null;
         return $this;
     }
 

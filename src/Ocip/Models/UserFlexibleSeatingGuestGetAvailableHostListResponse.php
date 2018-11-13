@@ -18,6 +18,7 @@ class UserFlexibleSeatingGuestGetAvailableHostListResponse extends \CWM\BroadWor
 
     /**
      * @ElementName hostUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $hostUserTable = null;
@@ -25,24 +26,31 @@ class UserFlexibleSeatingGuestGetAvailableHostListResponse extends \CWM\BroadWor
     /**
      * Getter for hostUserTable
      *
-     * @ElementName hostUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getHostUserTable()
     {
-        return $this->hostUserTable;
+        return $this->hostUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostUserTable;
     }
 
     /**
      * Setter for hostUserTable
      *
-     * @ElementName hostUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $hostUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $hostUserTable
      * @return $this
      */
     public function setHostUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $hostUserTable)
     {
         $this->hostUserTable = $hostUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHostUserTable()
+    {
+        $this->hostUserTable = null;
         return $this;
     }
 

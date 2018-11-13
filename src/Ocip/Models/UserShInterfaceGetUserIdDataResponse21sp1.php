@@ -18,6 +18,8 @@ class UserShInterfaceGetUserIdDataResponse21sp1 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName entry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry21sp1
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry21sp1[]
      */
     private $entry = array(
@@ -27,18 +29,16 @@ class UserShInterfaceGetUserIdDataResponse21sp1 extends \CWM\BroadWorksConnector
     /**
      * Getter for entry
      *
-     * @ElementName entry
      * @return \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry21sp1[]
      */
     public function getEntry()
     {
-        return $this->entry;
+        return $this->entry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entry;
     }
 
     /**
      * Setter for entry
      *
-     * @ElementName entry
      * @param \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry21sp1[] $entry
      * @return $this
      */
@@ -49,15 +49,23 @@ class UserShInterfaceGetUserIdDataResponse21sp1 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntry()
+    {
+        $this->entry = null;
+        return $this;
+    }
+
+    /**
      * Adder for entry
      *
-     * @ElementName entry
      * @param \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserIdDataEntry21sp1 $entry
      * @return $this
      */
     public function addEntry($entry)
     {
-        $this->entry []= $entry;
+        $this->entry[] = $entry;
         return $this;
     }
 

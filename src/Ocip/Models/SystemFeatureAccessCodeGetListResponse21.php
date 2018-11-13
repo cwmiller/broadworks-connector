@@ -17,6 +17,8 @@ class SystemFeatureAccessCodeGetListResponse21 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName featureAccessCode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeReadEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeReadEntry[]
      */
     private $featureAccessCode = array(
@@ -26,18 +28,16 @@ class SystemFeatureAccessCodeGetListResponse21 extends \CWM\BroadWorksConnector\
     /**
      * Getter for featureAccessCode
      *
-     * @ElementName featureAccessCode
      * @return \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeReadEntry[]
      */
     public function getFeatureAccessCode()
     {
-        return $this->featureAccessCode;
+        return $this->featureAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->featureAccessCode;
     }
 
     /**
      * Setter for featureAccessCode
      *
-     * @ElementName featureAccessCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeReadEntry[] $featureAccessCode
      * @return $this
      */
@@ -48,15 +48,23 @@ class SystemFeatureAccessCodeGetListResponse21 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFeatureAccessCode()
+    {
+        $this->featureAccessCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for featureAccessCode
      *
-     * @ElementName featureAccessCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeReadEntry $featureAccessCode
      * @return $this
      */
     public function addFeatureAccessCode($featureAccessCode)
     {
-        $this->featureAccessCode []= $featureAccessCode;
+        $this->featureAccessCode[] = $featureAccessCode;
         return $this;
     }
 

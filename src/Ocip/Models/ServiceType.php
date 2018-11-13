@@ -21,7 +21,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceType MEET_ME_CONFERENCE_BRIDGE()
  * @method static ServiceType ROUTE_POINT()
  * @method static ServiceType VOICEXML()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceType extends \MyCLabs\Enum\Enum
 {

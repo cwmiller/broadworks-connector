@@ -12,12 +12,14 @@ class AlternateUserIdEntry
 
     /**
      * @ElementName alternateUserId
+     * @Type string
      * @var string|null
      */
     private $alternateUserId = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -25,19 +27,17 @@ class AlternateUserIdEntry
     /**
      * Getter for alternateUserId
      *
-     * @ElementName alternateUserId
-     * @return string|null
+     * @return string
      */
     public function getAlternateUserId()
     {
-        return $this->alternateUserId;
+        return $this->alternateUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateUserId;
     }
 
     /**
      * Setter for alternateUserId
      *
-     * @ElementName alternateUserId
-     * @param string|null $alternateUserId
+     * @param string $alternateUserId
      * @return $this
      */
     public function setAlternateUserId($alternateUserId)
@@ -47,26 +47,42 @@ class AlternateUserIdEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateUserId()
+    {
+        $this->alternateUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

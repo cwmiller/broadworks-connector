@@ -16,6 +16,7 @@ class SystemEnhancedCallLogsSchemaInstanceGetListResponse extends \CWM\BroadWork
 
     /**
      * @ElementName schemaInstanceUsageTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $schemaInstanceUsageTable = null;
@@ -23,24 +24,31 @@ class SystemEnhancedCallLogsSchemaInstanceGetListResponse extends \CWM\BroadWork
     /**
      * Getter for schemaInstanceUsageTable
      *
-     * @ElementName schemaInstanceUsageTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSchemaInstanceUsageTable()
     {
-        return $this->schemaInstanceUsageTable;
+        return $this->schemaInstanceUsageTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->schemaInstanceUsageTable;
     }
 
     /**
      * Setter for schemaInstanceUsageTable
      *
-     * @ElementName schemaInstanceUsageTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $schemaInstanceUsageTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $schemaInstanceUsageTable
      * @return $this
      */
     public function setSchemaInstanceUsageTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $schemaInstanceUsageTable)
     {
         $this->schemaInstanceUsageTable = $schemaInstanceUsageTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSchemaInstanceUsageTable()
+    {
+        $this->schemaInstanceUsageTable = null;
         return $this;
     }
 

@@ -19,24 +19,28 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName countLongConnectionsToMediaServer
+     * @Type bool
      * @var bool|null
      */
     private $countLongConnectionsToMediaServer = null;
 
     /**
      * @ElementName sacHandlingForMoH
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     private $sacHandlingForMoH = null;
 
     /**
      * @ElementName blockVMDepositDueToSACLimits
+     * @Type bool
      * @var bool|null
      */
     private $blockVMDepositDueToSACLimits = null;
 
     /**
      * @ElementName sacCodecSelectionPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     private $sacCodecSelectionPolicy = null;
@@ -44,19 +48,17 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * Getter for countLongConnectionsToMediaServer
      *
-     * @ElementName countLongConnectionsToMediaServer
-     * @return bool|null
+     * @return bool
      */
     public function getCountLongConnectionsToMediaServer()
     {
-        return $this->countLongConnectionsToMediaServer;
+        return $this->countLongConnectionsToMediaServer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countLongConnectionsToMediaServer;
     }
 
     /**
      * Setter for countLongConnectionsToMediaServer
      *
-     * @ElementName countLongConnectionsToMediaServer
-     * @param bool|null $countLongConnectionsToMediaServer
+     * @param bool $countLongConnectionsToMediaServer
      * @return $this
      */
     public function setCountLongConnectionsToMediaServer($countLongConnectionsToMediaServer)
@@ -66,21 +68,28 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountLongConnectionsToMediaServer()
+    {
+        $this->countLongConnectionsToMediaServer = null;
+        return $this;
+    }
+
+    /**
      * Getter for sacHandlingForMoH
      *
-     * @ElementName sacHandlingForMoH
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
      */
     public function getSacHandlingForMoH()
     {
-        return $this->sacHandlingForMoH;
+        return $this->sacHandlingForMoH instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sacHandlingForMoH;
     }
 
     /**
      * Setter for sacHandlingForMoH
      *
-     * @ElementName sacHandlingForMoH
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null $sacHandlingForMoH
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType $sacHandlingForMoH
      * @return $this
      */
     public function setSacHandlingForMoH(\CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType $sacHandlingForMoH)
@@ -90,21 +99,28 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSacHandlingForMoH()
+    {
+        $this->sacHandlingForMoH = null;
+        return $this;
+    }
+
+    /**
      * Getter for blockVMDepositDueToSACLimits
      *
-     * @ElementName blockVMDepositDueToSACLimits
-     * @return bool|null
+     * @return bool
      */
     public function getBlockVMDepositDueToSACLimits()
     {
-        return $this->blockVMDepositDueToSACLimits;
+        return $this->blockVMDepositDueToSACLimits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->blockVMDepositDueToSACLimits;
     }
 
     /**
      * Setter for blockVMDepositDueToSACLimits
      *
-     * @ElementName blockVMDepositDueToSACLimits
-     * @param bool|null $blockVMDepositDueToSACLimits
+     * @param bool $blockVMDepositDueToSACLimits
      * @return $this
      */
     public function setBlockVMDepositDueToSACLimits($blockVMDepositDueToSACLimits)
@@ -114,26 +130,42 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBlockVMDepositDueToSACLimits()
+    {
+        $this->blockVMDepositDueToSACLimits = null;
+        return $this;
+    }
+
+    /**
      * Getter for sacCodecSelectionPolicy
      *
-     * @ElementName sacCodecSelectionPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
      */
     public function getSacCodecSelectionPolicy()
     {
-        return $this->sacCodecSelectionPolicy;
+        return $this->sacCodecSelectionPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sacCodecSelectionPolicy;
     }
 
     /**
      * Setter for sacCodecSelectionPolicy
      *
-     * @ElementName sacCodecSelectionPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null $sacCodecSelectionPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType $sacCodecSelectionPolicy
      * @return $this
      */
     public function setSacCodecSelectionPolicy(\CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType $sacCodecSelectionPolicy)
     {
         $this->sacCodecSelectionPolicy = $sacCodecSelectionPolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSacCodecSelectionPolicy()
+    {
+        $this->sacCodecSelectionPolicy = null;
         return $this;
     }
 

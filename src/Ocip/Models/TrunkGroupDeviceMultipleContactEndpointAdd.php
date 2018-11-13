@@ -13,18 +13,22 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName contact
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $contact = array(
@@ -34,19 +38,17 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -56,21 +58,28 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -80,20 +89,27 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for contact
      *
-     * @ElementName contact
      * @return string[]
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
      * @param string[] $contact
      * @return $this
      */
@@ -104,15 +120,23 @@ class TrunkGroupDeviceMultipleContactEndpointAdd
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Adder for contact
      *
-     * @ElementName contact
      * @param string $contact
      * @return $this
      */
     public function addContact(string $contact)
     {
-        $this->contact []= $contact;
+        $this->contact[] = $contact;
         return $this;
     }
 

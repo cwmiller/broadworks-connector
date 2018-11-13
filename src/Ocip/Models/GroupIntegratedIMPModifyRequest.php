@@ -16,24 +16,28 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName useServiceProviderSetting
+     * @Type bool
      * @var bool|null
      */
     private $useServiceProviderSetting = null;
 
     /**
      * @ElementName serviceDomain
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -42,19 +46,17 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -64,21 +66,28 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -88,21 +97,28 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useServiceProviderSetting
      *
-     * @ElementName useServiceProviderSetting
-     * @return bool|null
+     * @return bool
      */
     public function getUseServiceProviderSetting()
     {
-        return $this->useServiceProviderSetting;
+        return $this->useServiceProviderSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useServiceProviderSetting;
     }
 
     /**
      * Setter for useServiceProviderSetting
      *
-     * @ElementName useServiceProviderSetting
-     * @param bool|null $useServiceProviderSetting
+     * @param bool $useServiceProviderSetting
      * @return $this
      */
     public function setUseServiceProviderSetting($useServiceProviderSetting)
@@ -112,28 +128,46 @@ class GroupIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseServiceProviderSetting()
+    {
+        $this->useServiceProviderSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getServiceDomain()
     {
-        return $this->serviceDomain;
+        return $this->serviceDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceDomain;
     }
 
     /**
      * Setter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceDomain
+     * @param string|null $serviceDomain
      * @return $this
      */
     public function setServiceDomain($serviceDomain)
     {
-        $this->serviceDomain = $serviceDomain;
+        if ($serviceDomain === null) {
+            $this->serviceDomain = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serviceDomain = $serviceDomain;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceDomain()
+    {
+        $this->serviceDomain = null;
         return $this;
     }
 

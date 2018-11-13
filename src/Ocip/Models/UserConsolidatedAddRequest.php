@@ -80,84 +80,99 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName groupProperties
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupProperties
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupProperties|null
      */
     private $groupProperties = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName addPhoneNumberToGroup
+     * @Type bool
      * @var bool|null
      */
     private $addPhoneNumberToGroup = null;
 
     /**
      * @ElementName lastName
+     * @Type string
      * @var string|null
      */
     private $lastName = null;
 
     /**
      * @ElementName firstName
+     * @Type string
      * @var string|null
      */
     private $firstName = null;
 
     /**
      * @ElementName callingLineIdLastName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdFirstName = null;
 
     /**
      * @ElementName nameDialingName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NameDialingName
      * @var \CWM\BroadWorksConnector\Ocip\Models\NameDialingName|null
      */
     private $nameDialingName = null;
 
     /**
      * @ElementName hiraganaLastName
+     * @Type string
      * @var string|null
      */
     private $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
+     * @Type string
      * @var string|null
      */
     private $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName alternateUserId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[]
      */
     private $alternateUserId = array(
@@ -166,48 +181,57 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName extension
+     * @Type string
      * @var string|null
      */
     private $extension = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName password
+     * @Type string
      * @var string|null
      */
     private $password = null;
 
     /**
      * @ElementName passcode
+     * @Type string
      * @var string|null
      */
     private $passcode = null;
 
     /**
      * @ElementName department
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName alias
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $alias = array(
@@ -216,18 +240,22 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd|null
      */
     private $accessDeviceEndpoint = null;
 
     /**
      * @ElementName trunkAddressing
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactAdd
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactAdd|null
      */
     private $trunkAddressing = null;
 
     /**
      * @ElementName sharedCallAppearanceAccessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint[]
      */
     private $sharedCallAppearanceAccessDeviceEndpoint = array(
@@ -236,54 +264,64 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName title
+     * @Type string
      * @var string|null
      */
     private $title = null;
 
     /**
      * @ElementName pagerPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $pagerPhoneNumber = null;
 
     /**
      * @ElementName mobilePhoneNumber
+     * @Type string
      * @var string|null
      */
     private $mobilePhoneNumber = null;
 
     /**
      * @ElementName emailAddress
+     * @Type string
      * @var string|null
      */
     private $emailAddress = null;
 
     /**
      * @ElementName yahooId
+     * @Type string
      * @var string|null
      */
     private $yahooId = null;
 
     /**
      * @ElementName addressLocation
+     * @Type string
      * @var string|null
      */
     private $addressLocation = null;
 
     /**
      * @ElementName address
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
 
     /**
      * @ElementName userService
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[]
      */
     private $userService = array(
@@ -292,6 +330,8 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName servicePack
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment[]
      */
     private $servicePack = array(
@@ -300,12 +340,14 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName thirdPartyVoiceMailServerSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
      */
     private $thirdPartyVoiceMailServerSelection = null;
 
     /**
      * @ElementName thirdPartyVoiceMailServerUserServer
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -313,12 +355,14 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName thirdPartyVoiceMailServerMailboxIdType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
      */
     private $thirdPartyVoiceMailServerMailboxIdType = null;
 
     /**
      * @ElementName thirdPartyVoiceMailMailboxURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -326,6 +370,7 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName sipAuthenticationData
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPAuthenticationUserNamePassword
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPAuthenticationUserNamePassword|null
      */
     private $sipAuthenticationData = null;
@@ -333,19 +378,17 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -355,21 +398,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -379,21 +429,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupProperties
      *
-     * @ElementName groupProperties
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupProperties|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupProperties
      */
     public function getGroupProperties()
     {
-        return $this->groupProperties;
+        return $this->groupProperties instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupProperties;
     }
 
     /**
      * Setter for groupProperties
      *
-     * @ElementName groupProperties
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupProperties|null $groupProperties
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupProperties $groupProperties
      * @return $this
      */
     public function setGroupProperties(\CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupProperties $groupProperties)
@@ -403,21 +460,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupProperties()
+    {
+        $this->groupProperties = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -427,21 +491,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for addPhoneNumberToGroup
      *
-     * @ElementName addPhoneNumberToGroup
-     * @return bool|null
+     * @return bool
      */
     public function getAddPhoneNumberToGroup()
     {
-        return $this->addPhoneNumberToGroup;
+        return $this->addPhoneNumberToGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addPhoneNumberToGroup;
     }
 
     /**
      * Setter for addPhoneNumberToGroup
      *
-     * @ElementName addPhoneNumberToGroup
-     * @param bool|null $addPhoneNumberToGroup
+     * @param bool $addPhoneNumberToGroup
      * @return $this
      */
     public function setAddPhoneNumberToGroup($addPhoneNumberToGroup)
@@ -451,21 +522,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddPhoneNumberToGroup()
+    {
+        $this->addPhoneNumberToGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @return string|null
+     * @return string
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @param string|null $lastName
+     * @param string $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -475,21 +553,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @return string|null
+     * @return string
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @param string|null $firstName
+     * @param string $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -499,21 +584,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdLastName()
     {
-        return $this->callingLineIdLastName;
+        return $this->callingLineIdLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdLastName;
     }
 
     /**
      * Setter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @param string|null $callingLineIdLastName
+     * @param string $callingLineIdLastName
      * @return $this
      */
     public function setCallingLineIdLastName($callingLineIdLastName)
@@ -523,21 +615,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdLastName()
+    {
+        $this->callingLineIdLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdFirstName()
     {
-        return $this->callingLineIdFirstName;
+        return $this->callingLineIdFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdFirstName;
     }
 
     /**
      * Setter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @param string|null $callingLineIdFirstName
+     * @param string $callingLineIdFirstName
      * @return $this
      */
     public function setCallingLineIdFirstName($callingLineIdFirstName)
@@ -547,21 +646,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdFirstName()
+    {
+        $this->callingLineIdFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for nameDialingName
      *
-     * @ElementName nameDialingName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NameDialingName|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NameDialingName
      */
     public function getNameDialingName()
     {
-        return $this->nameDialingName;
+        return $this->nameDialingName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nameDialingName;
     }
 
     /**
      * Setter for nameDialingName
      *
-     * @ElementName nameDialingName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NameDialingName|null $nameDialingName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NameDialingName $nameDialingName
      * @return $this
      */
     public function setNameDialingName(\CWM\BroadWorksConnector\Ocip\Models\NameDialingName $nameDialingName)
@@ -571,21 +677,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNameDialingName()
+    {
+        $this->nameDialingName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hiraganaLastName
      *
-     * @ElementName hiraganaLastName
-     * @return string|null
+     * @return string
      */
     public function getHiraganaLastName()
     {
-        return $this->hiraganaLastName;
+        return $this->hiraganaLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hiraganaLastName;
     }
 
     /**
      * Setter for hiraganaLastName
      *
-     * @ElementName hiraganaLastName
-     * @param string|null $hiraganaLastName
+     * @param string $hiraganaLastName
      * @return $this
      */
     public function setHiraganaLastName($hiraganaLastName)
@@ -595,21 +708,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHiraganaLastName()
+    {
+        $this->hiraganaLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hiraganaFirstName
      *
-     * @ElementName hiraganaFirstName
-     * @return string|null
+     * @return string
      */
     public function getHiraganaFirstName()
     {
-        return $this->hiraganaFirstName;
+        return $this->hiraganaFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hiraganaFirstName;
     }
 
     /**
      * Setter for hiraganaFirstName
      *
-     * @ElementName hiraganaFirstName
-     * @param string|null $hiraganaFirstName
+     * @param string $hiraganaFirstName
      * @return $this
      */
     public function setHiraganaFirstName($hiraganaFirstName)
@@ -619,21 +739,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHiraganaFirstName()
+    {
+        $this->hiraganaFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -643,20 +770,27 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateUserId
      *
-     * @ElementName alternateUserId
      * @return \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[]
      */
     public function getAlternateUserId()
     {
-        return $this->alternateUserId;
+        return $this->alternateUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateUserId;
     }
 
     /**
      * Setter for alternateUserId
      *
-     * @ElementName alternateUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry[] $alternateUserId
      * @return $this
      */
@@ -667,34 +801,40 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateUserId()
+    {
+        $this->alternateUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for alternateUserId
      *
-     * @ElementName alternateUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateUserIdEntry $alternateUserId
      * @return $this
      */
     public function addAlternateUserId($alternateUserId)
     {
-        $this->alternateUserId []= $alternateUserId;
+        $this->alternateUserId[] = $alternateUserId;
         return $this;
     }
 
     /**
      * Getter for extension
      *
-     * @ElementName extension
-     * @return string|null
+     * @return string
      */
     public function getExtension()
     {
-        return $this->extension;
+        return $this->extension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extension;
     }
 
     /**
      * Setter for extension
      *
-     * @ElementName extension
-     * @param string|null $extension
+     * @param string $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -704,21 +844,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtension()
+    {
+        $this->extension = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdPhoneNumber()
     {
-        return $this->callingLineIdPhoneNumber;
+        return $this->callingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @param string $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
@@ -728,21 +875,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdPhoneNumber()
+    {
+        $this->callingLineIdPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for password
      *
-     * @ElementName password
-     * @return string|null
+     * @return string
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param string|null $password
+     * @param string $password
      * @return $this
      */
     public function setPassword($password)
@@ -752,21 +906,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
+        return $this;
+    }
+
+    /**
      * Getter for passcode
      *
-     * @ElementName passcode
-     * @return string|null
+     * @return string
      */
     public function getPasscode()
     {
-        return $this->passcode;
+        return $this->passcode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcode;
     }
 
     /**
      * Setter for passcode
      *
-     * @ElementName passcode
-     * @param string|null $passcode
+     * @param string $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -776,21 +937,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasscode()
+    {
+        $this->passcode = null;
+        return $this;
+    }
+
+    /**
      * Getter for department
      *
-     * @ElementName department
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      */
     public function getDepartment()
     {
-        return $this->department;
+        return $this->department instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->department;
     }
 
     /**
      * Setter for department
      *
-     * @ElementName department
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department
      * @return $this
      */
     public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
@@ -800,21 +968,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartment()
+    {
+        $this->department = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -824,21 +999,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -848,20 +1030,27 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for alias
      *
-     * @ElementName alias
      * @return string[]
      */
     public function getAlias()
     {
-        return $this->alias;
+        return $this->alias instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alias;
     }
 
     /**
      * Setter for alias
      *
-     * @ElementName alias
      * @param string[] $alias
      * @return $this
      */
@@ -872,34 +1061,40 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlias()
+    {
+        $this->alias = null;
+        return $this;
+    }
+
+    /**
      * Adder for alias
      *
-     * @ElementName alias
      * @param string $alias
      * @return $this
      */
     public function addAlias(string $alias)
     {
-        $this->alias []= $alias;
+        $this->alias[] = $alias;
         return $this;
     }
 
     /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd|null $accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\ConsolidatedAccessDeviceMultipleIdentityEndpointAndContactAdd $accessDeviceEndpoint)
@@ -909,21 +1104,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Getter for trunkAddressing
      *
-     * @ElementName trunkAddressing
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactAdd|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactAdd
      */
     public function getTrunkAddressing()
     {
-        return $this->trunkAddressing;
+        return $this->trunkAddressing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkAddressing;
     }
 
     /**
      * Setter for trunkAddressing
      *
-     * @ElementName trunkAddressing
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactAdd|null $trunkAddressing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactAdd $trunkAddressing
      * @return $this
      */
     public function setTrunkAddressing(\CWM\BroadWorksConnector\Ocip\Models\TrunkAddressingMultipleContactAdd $trunkAddressing)
@@ -933,20 +1135,27 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkAddressing()
+    {
+        $this->trunkAddressing = null;
+        return $this;
+    }
+
+    /**
      * Getter for sharedCallAppearanceAccessDeviceEndpoint
      *
-     * @ElementName sharedCallAppearanceAccessDeviceEndpoint
      * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint[]
      */
     public function getSharedCallAppearanceAccessDeviceEndpoint()
     {
-        return $this->sharedCallAppearanceAccessDeviceEndpoint;
+        return $this->sharedCallAppearanceAccessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sharedCallAppearanceAccessDeviceEndpoint;
     }
 
     /**
      * Setter for sharedCallAppearanceAccessDeviceEndpoint
      *
-     * @ElementName sharedCallAppearanceAccessDeviceEndpoint
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint[] $sharedCallAppearanceAccessDeviceEndpoint
      * @return $this
      */
@@ -957,34 +1166,40 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSharedCallAppearanceAccessDeviceEndpoint()
+    {
+        $this->sharedCallAppearanceAccessDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Adder for sharedCallAppearanceAccessDeviceEndpoint
      *
-     * @ElementName sharedCallAppearanceAccessDeviceEndpoint
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedSharedCallAppearanceAccessDeviceMultipleIdentityEndpoint $sharedCallAppearanceAccessDeviceEndpoint
      * @return $this
      */
     public function addSharedCallAppearanceAccessDeviceEndpoint($sharedCallAppearanceAccessDeviceEndpoint)
     {
-        $this->sharedCallAppearanceAccessDeviceEndpoint []= $sharedCallAppearanceAccessDeviceEndpoint;
+        $this->sharedCallAppearanceAccessDeviceEndpoint[] = $sharedCallAppearanceAccessDeviceEndpoint;
         return $this;
     }
 
     /**
      * Getter for title
      *
-     * @ElementName title
-     * @return string|null
+     * @return string
      */
     public function getTitle()
     {
-        return $this->title;
+        return $this->title instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->title;
     }
 
     /**
      * Setter for title
      *
-     * @ElementName title
-     * @param string|null $title
+     * @param string $title
      * @return $this
      */
     public function setTitle($title)
@@ -994,21 +1209,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTitle()
+    {
+        $this->title = null;
+        return $this;
+    }
+
+    /**
      * Getter for pagerPhoneNumber
      *
-     * @ElementName pagerPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPagerPhoneNumber()
     {
-        return $this->pagerPhoneNumber;
+        return $this->pagerPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pagerPhoneNumber;
     }
 
     /**
      * Setter for pagerPhoneNumber
      *
-     * @ElementName pagerPhoneNumber
-     * @param string|null $pagerPhoneNumber
+     * @param string $pagerPhoneNumber
      * @return $this
      */
     public function setPagerPhoneNumber($pagerPhoneNumber)
@@ -1018,21 +1240,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPagerPhoneNumber()
+    {
+        $this->pagerPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getMobilePhoneNumber()
     {
-        return $this->mobilePhoneNumber;
+        return $this->mobilePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilePhoneNumber;
     }
 
     /**
      * Setter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @param string|null $mobilePhoneNumber
+     * @param string $mobilePhoneNumber
      * @return $this
      */
     public function setMobilePhoneNumber($mobilePhoneNumber)
@@ -1042,21 +1271,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilePhoneNumber()
+    {
+        $this->mobilePhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for emailAddress
      *
-     * @ElementName emailAddress
-     * @return string|null
+     * @return string
      */
     public function getEmailAddress()
     {
-        return $this->emailAddress;
+        return $this->emailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emailAddress;
     }
 
     /**
      * Setter for emailAddress
      *
-     * @ElementName emailAddress
-     * @param string|null $emailAddress
+     * @param string $emailAddress
      * @return $this
      */
     public function setEmailAddress($emailAddress)
@@ -1066,21 +1302,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEmailAddress()
+    {
+        $this->emailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for yahooId
      *
-     * @ElementName yahooId
-     * @return string|null
+     * @return string
      */
     public function getYahooId()
     {
-        return $this->yahooId;
+        return $this->yahooId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->yahooId;
     }
 
     /**
      * Setter for yahooId
      *
-     * @ElementName yahooId
-     * @param string|null $yahooId
+     * @param string $yahooId
      * @return $this
      */
     public function setYahooId($yahooId)
@@ -1090,21 +1333,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetYahooId()
+    {
+        $this->yahooId = null;
+        return $this;
+    }
+
+    /**
      * Getter for addressLocation
      *
-     * @ElementName addressLocation
-     * @return string|null
+     * @return string
      */
     public function getAddressLocation()
     {
-        return $this->addressLocation;
+        return $this->addressLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addressLocation;
     }
 
     /**
      * Setter for addressLocation
      *
-     * @ElementName addressLocation
-     * @param string|null $addressLocation
+     * @param string $addressLocation
      * @return $this
      */
     public function setAddressLocation($addressLocation)
@@ -1114,21 +1364,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddressLocation()
+    {
+        $this->addressLocation = null;
+        return $this;
+    }
+
+    /**
      * Getter for address
      *
-     * @ElementName address
-     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address
      * @return $this
      */
     public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
@@ -1138,21 +1395,28 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
@@ -1162,20 +1426,27 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Getter for userService
      *
-     * @ElementName userService
      * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[]
      */
     public function getUserService()
     {
-        return $this->userService;
+        return $this->userService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userService;
     }
 
     /**
      * Setter for userService
      *
-     * @ElementName userService
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[] $userService
      * @return $this
      */
@@ -1186,33 +1457,39 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserService()
+    {
+        $this->userService = null;
+        return $this;
+    }
+
+    /**
      * Adder for userService
      *
-     * @ElementName userService
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment $userService
      * @return $this
      */
     public function addUserService($userService)
     {
-        $this->userService []= $userService;
+        $this->userService[] = $userService;
         return $this;
     }
 
     /**
      * Getter for servicePack
      *
-     * @ElementName servicePack
      * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment[]
      */
     public function getServicePack()
     {
-        return $this->servicePack;
+        return $this->servicePack instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePack;
     }
 
     /**
      * Setter for servicePack
      *
-     * @ElementName servicePack
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment[] $servicePack
      * @return $this
      */
@@ -1223,34 +1500,40 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePack()
+    {
+        $this->servicePack = null;
+        return $this;
+    }
+
+    /**
      * Adder for servicePack
      *
-     * @ElementName servicePack
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment $servicePack
      * @return $this
      */
     public function addServicePack($servicePack)
     {
-        $this->servicePack []= $servicePack;
+        $this->servicePack[] = $servicePack;
         return $this;
     }
 
     /**
      * Getter for thirdPartyVoiceMailServerSelection
      *
-     * @ElementName thirdPartyVoiceMailServerSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection
      */
     public function getThirdPartyVoiceMailServerSelection()
     {
-        return $this->thirdPartyVoiceMailServerSelection;
+        return $this->thirdPartyVoiceMailServerSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thirdPartyVoiceMailServerSelection;
     }
 
     /**
      * Setter for thirdPartyVoiceMailServerSelection
      *
-     * @ElementName thirdPartyVoiceMailServerSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null $thirdPartyVoiceMailServerSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection $thirdPartyVoiceMailServerSelection
      * @return $this
      */
     public function setThirdPartyVoiceMailServerSelection(\CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection $thirdPartyVoiceMailServerSelection)
@@ -1260,47 +1543,63 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThirdPartyVoiceMailServerSelection()
+    {
+        $this->thirdPartyVoiceMailServerSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for thirdPartyVoiceMailServerUserServer
      *
-     * @ElementName thirdPartyVoiceMailServerUserServer
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getThirdPartyVoiceMailServerUserServer()
     {
-        return $this->thirdPartyVoiceMailServerUserServer;
+        return $this->thirdPartyVoiceMailServerUserServer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thirdPartyVoiceMailServerUserServer;
     }
 
     /**
      * Setter for thirdPartyVoiceMailServerUserServer
      *
-     * @ElementName thirdPartyVoiceMailServerUserServer
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $thirdPartyVoiceMailServerUserServer
+     * @param string|null $thirdPartyVoiceMailServerUserServer
      * @return $this
      */
     public function setThirdPartyVoiceMailServerUserServer($thirdPartyVoiceMailServerUserServer)
     {
-        $this->thirdPartyVoiceMailServerUserServer = $thirdPartyVoiceMailServerUserServer;
+        if ($thirdPartyVoiceMailServerUserServer === null) {
+            $this->thirdPartyVoiceMailServerUserServer = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thirdPartyVoiceMailServerUserServer = $thirdPartyVoiceMailServerUserServer;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThirdPartyVoiceMailServerUserServer()
+    {
+        $this->thirdPartyVoiceMailServerUserServer = null;
         return $this;
     }
 
     /**
      * Getter for thirdPartyVoiceMailServerMailboxIdType
      *
-     * @ElementName thirdPartyVoiceMailServerMailboxIdType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType
      */
     public function getThirdPartyVoiceMailServerMailboxIdType()
     {
-        return $this->thirdPartyVoiceMailServerMailboxIdType;
+        return $this->thirdPartyVoiceMailServerMailboxIdType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thirdPartyVoiceMailServerMailboxIdType;
     }
 
     /**
      * Setter for thirdPartyVoiceMailServerMailboxIdType
      *
-     * @ElementName thirdPartyVoiceMailServerMailboxIdType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null $thirdPartyVoiceMailServerMailboxIdType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType $thirdPartyVoiceMailServerMailboxIdType
      * @return $this
      */
     public function setThirdPartyVoiceMailServerMailboxIdType(\CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType $thirdPartyVoiceMailServerMailboxIdType)
@@ -1310,52 +1609,77 @@ class UserConsolidatedAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThirdPartyVoiceMailServerMailboxIdType()
+    {
+        $this->thirdPartyVoiceMailServerMailboxIdType = null;
+        return $this;
+    }
+
+    /**
      * Getter for thirdPartyVoiceMailMailboxURL
      *
-     * @ElementName thirdPartyVoiceMailMailboxURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getThirdPartyVoiceMailMailboxURL()
     {
-        return $this->thirdPartyVoiceMailMailboxURL;
+        return $this->thirdPartyVoiceMailMailboxURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thirdPartyVoiceMailMailboxURL;
     }
 
     /**
      * Setter for thirdPartyVoiceMailMailboxURL
      *
-     * @ElementName thirdPartyVoiceMailMailboxURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $thirdPartyVoiceMailMailboxURL
+     * @param string|null $thirdPartyVoiceMailMailboxURL
      * @return $this
      */
     public function setThirdPartyVoiceMailMailboxURL($thirdPartyVoiceMailMailboxURL)
     {
-        $this->thirdPartyVoiceMailMailboxURL = $thirdPartyVoiceMailMailboxURL;
+        if ($thirdPartyVoiceMailMailboxURL === null) {
+            $this->thirdPartyVoiceMailMailboxURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thirdPartyVoiceMailMailboxURL = $thirdPartyVoiceMailMailboxURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThirdPartyVoiceMailMailboxURL()
+    {
+        $this->thirdPartyVoiceMailMailboxURL = null;
         return $this;
     }
 
     /**
      * Getter for sipAuthenticationData
      *
-     * @ElementName sipAuthenticationData
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SIPAuthenticationUserNamePassword|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SIPAuthenticationUserNamePassword
      */
     public function getSipAuthenticationData()
     {
-        return $this->sipAuthenticationData;
+        return $this->sipAuthenticationData instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipAuthenticationData;
     }
 
     /**
      * Setter for sipAuthenticationData
      *
-     * @ElementName sipAuthenticationData
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SIPAuthenticationUserNamePassword|null $sipAuthenticationData
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SIPAuthenticationUserNamePassword $sipAuthenticationData
      * @return $this
      */
     public function setSipAuthenticationData(\CWM\BroadWorksConnector\Ocip\Models\SIPAuthenticationUserNamePassword $sipAuthenticationData)
     {
         $this->sipAuthenticationData = $sipAuthenticationData;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipAuthenticationData()
+    {
+        $this->sipAuthenticationData = null;
         return $this;
     }
 

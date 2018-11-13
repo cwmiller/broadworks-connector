@@ -10,6 +10,8 @@ class UserEnhancedCallLogsGetListResponse21sp1LegacyEntry
 
     /**
      * @ElementName callLog
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
     private $callLog = array(
@@ -19,18 +21,16 @@ class UserEnhancedCallLogsGetListResponse21sp1LegacyEntry
     /**
      * Getter for callLog
      *
-     * @ElementName callLog
      * @return \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
     public function getCallLog()
     {
-        return $this->callLog;
+        return $this->callLog instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLog;
     }
 
     /**
      * Setter for callLog
      *
-     * @ElementName callLog
      * @param \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[] $callLog
      * @return $this
      */
@@ -41,15 +41,23 @@ class UserEnhancedCallLogsGetListResponse21sp1LegacyEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallLog()
+    {
+        $this->callLog = null;
+        return $this;
+    }
+
+    /**
      * Adder for callLog
      *
-     * @ElementName callLog
      * @param \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry $callLog
      * @return $this
      */
     public function addCallLog($callLog)
     {
-        $this->callLog []= $callLog;
+        $this->callLog[] = $callLog;
         return $this;
     }
 

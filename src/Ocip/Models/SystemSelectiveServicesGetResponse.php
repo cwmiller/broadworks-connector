@@ -14,6 +14,7 @@ class SystemSelectiveServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName scheduleCombination
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
     private $scheduleCombination = null;
@@ -21,24 +22,31 @@ class SystemSelectiveServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for scheduleCombination
      *
-     * @ElementName scheduleCombination
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
      */
     public function getScheduleCombination()
     {
-        return $this->scheduleCombination;
+        return $this->scheduleCombination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleCombination;
     }
 
     /**
      * Setter for scheduleCombination
      *
-     * @ElementName scheduleCombination
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null $scheduleCombination
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType $scheduleCombination
      * @return $this
      */
     public function setScheduleCombination(\CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType $scheduleCombination)
     {
         $this->scheduleCombination = $scheduleCombination;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScheduleCombination()
+    {
+        $this->scheduleCombination = null;
         return $this;
     }
 

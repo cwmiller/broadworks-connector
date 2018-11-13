@@ -16,24 +16,28 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName enterpriseId
+     * @Type string
      * @var string|null
      */
     private $enterpriseId = null;
 
     /**
      * @ElementName departmentName
+     * @Type string
      * @var string|null
      */
     private $departmentName = null;
 
     /**
      * @ElementName newDepartmentName
+     * @Type string
      * @var string|null
      */
     private $newDepartmentName = null;
 
     /**
      * @ElementName newParentDepartmentKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -42,19 +46,17 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for enterpriseId
      *
-     * @ElementName enterpriseId
-     * @return string|null
+     * @return string
      */
     public function getEnterpriseId()
     {
-        return $this->enterpriseId;
+        return $this->enterpriseId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseId;
     }
 
     /**
      * Setter for enterpriseId
      *
-     * @ElementName enterpriseId
-     * @param string|null $enterpriseId
+     * @param string $enterpriseId
      * @return $this
      */
     public function setEnterpriseId($enterpriseId)
@@ -64,21 +66,28 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnterpriseId()
+    {
+        $this->enterpriseId = null;
+        return $this;
+    }
+
+    /**
      * Getter for departmentName
      *
-     * @ElementName departmentName
-     * @return string|null
+     * @return string
      */
     public function getDepartmentName()
     {
-        return $this->departmentName;
+        return $this->departmentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentName;
     }
 
     /**
      * Setter for departmentName
      *
-     * @ElementName departmentName
-     * @param string|null $departmentName
+     * @param string $departmentName
      * @return $this
      */
     public function setDepartmentName($departmentName)
@@ -88,21 +97,28 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentName()
+    {
+        $this->departmentName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newDepartmentName
      *
-     * @ElementName newDepartmentName
-     * @return string|null
+     * @return string
      */
     public function getNewDepartmentName()
     {
-        return $this->newDepartmentName;
+        return $this->newDepartmentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newDepartmentName;
     }
 
     /**
      * Setter for newDepartmentName
      *
-     * @ElementName newDepartmentName
-     * @param string|null $newDepartmentName
+     * @param string $newDepartmentName
      * @return $this
      */
     public function setNewDepartmentName($newDepartmentName)
@@ -112,28 +128,46 @@ class EnterpriseDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewDepartmentName()
+    {
+        $this->newDepartmentName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newParentDepartmentKey
      *
-     * @ElementName newParentDepartmentKey
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null
      */
     public function getNewParentDepartmentKey()
     {
-        return $this->newParentDepartmentKey;
+        return $this->newParentDepartmentKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newParentDepartmentKey;
     }
 
     /**
      * Setter for newParentDepartmentKey
      *
-     * @ElementName newParentDepartmentKey
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $newParentDepartmentKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null $newParentDepartmentKey
      * @return $this
      */
     public function setNewParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey $newParentDepartmentKey)
     {
-        $this->newParentDepartmentKey = $newParentDepartmentKey;
+        if ($newParentDepartmentKey === null) {
+            $this->newParentDepartmentKey = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->newParentDepartmentKey = $newParentDepartmentKey;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewParentDepartmentKey()
+    {
+        $this->newParentDepartmentKey = null;
         return $this;
     }
 

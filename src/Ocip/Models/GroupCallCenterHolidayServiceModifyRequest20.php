@@ -17,18 +17,21 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
 
     /**
      * @ElementName holidaySchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,6 +39,7 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -43,42 +47,49 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName playAnnouncementBeforeAction
+     * @Type bool
      * @var bool|null
      */
     private $playAnnouncementBeforeAction = null;
 
     /**
      * @ElementName audioMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
     /**
      * @ElementName audioUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $audioUrlList = null;
 
     /**
      * @ElementName audioFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $audioFileList = null;
 
     /**
      * @ElementName videoMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
     /**
      * @ElementName videoUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $videoUrlList = null;
 
     /**
      * @ElementName videoFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $videoFileList = null;
@@ -86,19 +97,17 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -108,21 +117,28 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction $action)
@@ -132,73 +148,98 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     public function getHolidaySchedule()
     {
-        return $this->holidaySchedule;
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
     }
 
     /**
      * Setter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
-        $this->holidaySchedule = $holidaySchedule;
+        if ($holidaySchedule === null) {
+            $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holidaySchedule = $holidaySchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
         return $this;
     }
 
     /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
+     * @param string|null $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
     {
-        $this->transferPhoneNumber = $transferPhoneNumber;
+        if ($transferPhoneNumber === null) {
+            $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->transferPhoneNumber = $transferPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for playAnnouncementBeforeAction
      *
-     * @ElementName playAnnouncementBeforeAction
-     * @return bool|null
+     * @return bool
      */
     public function getPlayAnnouncementBeforeAction()
     {
-        return $this->playAnnouncementBeforeAction;
+        return $this->playAnnouncementBeforeAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playAnnouncementBeforeAction;
     }
 
     /**
      * Setter for playAnnouncementBeforeAction
      *
-     * @ElementName playAnnouncementBeforeAction
-     * @param bool|null $playAnnouncementBeforeAction
+     * @param bool $playAnnouncementBeforeAction
      * @return $this
      */
     public function setPlayAnnouncementBeforeAction($playAnnouncementBeforeAction)
@@ -208,21 +249,28 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayAnnouncementBeforeAction()
+    {
+        $this->playAnnouncementBeforeAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioMessageSelection()
     {
-        return $this->audioMessageSelection;
+        return $this->audioMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMessageSelection;
     }
 
     /**
      * Setter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection
      * @return $this
      */
     public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
@@ -232,21 +280,28 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMessageSelection()
+    {
+        $this->audioMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioUrlList
      *
-     * @ElementName audioUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      */
     public function getAudioUrlList()
     {
-        return $this->audioUrlList;
+        return $this->audioUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioUrlList;
     }
 
     /**
      * Setter for audioUrlList
      *
-     * @ElementName audioUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $audioUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $audioUrlList
      * @return $this
      */
     public function setAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $audioUrlList)
@@ -256,21 +311,28 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioUrlList()
+    {
+        $this->audioUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileList
      *
-     * @ElementName audioFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      */
     public function getAudioFileList()
     {
-        return $this->audioFileList;
+        return $this->audioFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileList;
     }
 
     /**
      * Setter for audioFileList
      *
-     * @ElementName audioFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $audioFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $audioFileList
      * @return $this
      */
     public function setAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $audioFileList)
@@ -280,21 +342,28 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileList()
+    {
+        $this->audioFileList = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoMessageSelection()
     {
-        return $this->videoMessageSelection;
+        return $this->videoMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMessageSelection;
     }
 
     /**
      * Setter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection
      * @return $this
      */
     public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
@@ -304,21 +373,28 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoMessageSelection()
+    {
+        $this->videoMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoUrlList
      *
-     * @ElementName videoUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      */
     public function getVideoUrlList()
     {
-        return $this->videoUrlList;
+        return $this->videoUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoUrlList;
     }
 
     /**
      * Setter for videoUrlList
      *
-     * @ElementName videoUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $videoUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $videoUrlList
      * @return $this
      */
     public function setVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $videoUrlList)
@@ -328,26 +404,42 @@ class GroupCallCenterHolidayServiceModifyRequest20 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoUrlList()
+    {
+        $this->videoUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileList
      *
-     * @ElementName videoFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      */
     public function getVideoFileList()
     {
-        return $this->videoFileList;
+        return $this->videoFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileList;
     }
 
     /**
      * Setter for videoFileList
      *
-     * @ElementName videoFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $videoFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $videoFileList
      * @return $this
      */
     public function setVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $videoFileList)
     {
         $this->videoFileList = $videoFileList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFileList()
+    {
+        $this->videoFileList = null;
         return $this;
     }
 

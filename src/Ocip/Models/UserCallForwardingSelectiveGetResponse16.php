@@ -38,24 +38,28 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName defaultForwardToPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $defaultForwardToPhoneNumber = null;
 
     /**
      * @ElementName playRingReminder
+     * @Type bool
      * @var bool|null
      */
     private $playRingReminder = null;
 
     /**
      * @ElementName criteriaTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;
@@ -63,19 +67,17 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -85,21 +87,28 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultForwardToPhoneNumber
      *
-     * @ElementName defaultForwardToPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getDefaultForwardToPhoneNumber()
     {
-        return $this->defaultForwardToPhoneNumber;
+        return $this->defaultForwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultForwardToPhoneNumber;
     }
 
     /**
      * Setter for defaultForwardToPhoneNumber
      *
-     * @ElementName defaultForwardToPhoneNumber
-     * @param string|null $defaultForwardToPhoneNumber
+     * @param string $defaultForwardToPhoneNumber
      * @return $this
      */
     public function setDefaultForwardToPhoneNumber($defaultForwardToPhoneNumber)
@@ -109,21 +118,28 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultForwardToPhoneNumber()
+    {
+        $this->defaultForwardToPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for playRingReminder
      *
-     * @ElementName playRingReminder
-     * @return bool|null
+     * @return bool
      */
     public function getPlayRingReminder()
     {
-        return $this->playRingReminder;
+        return $this->playRingReminder instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playRingReminder;
     }
 
     /**
      * Setter for playRingReminder
      *
-     * @ElementName playRingReminder
-     * @param bool|null $playRingReminder
+     * @param bool $playRingReminder
      * @return $this
      */
     public function setPlayRingReminder($playRingReminder)
@@ -133,26 +149,42 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayRingReminder()
+    {
+        $this->playRingReminder = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCriteriaTable()
     {
-        return $this->criteriaTable;
+        return $this->criteriaTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaTable;
     }
 
     /**
      * Setter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable
      * @return $this
      */
     public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCriteriaTable()
+    {
+        $this->criteriaTable = null;
         return $this;
     }
 

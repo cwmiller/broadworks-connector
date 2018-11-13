@@ -25,30 +25,35 @@ class CPEDeviceOptions16sp1
 
     /**
      * @ElementName enableMonitoring
+     * @Type bool
      * @var bool|null
      */
     private $enableMonitoring = null;
 
     /**
      * @ElementName configType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
 
     /**
      * @ElementName systemFileName
+     * @Type string
      * @var string|null
      */
     private $systemFileName = null;
 
     /**
      * @ElementName deviceFileFormat
+     * @Type string
      * @var string|null
      */
     private $deviceFileFormat = null;
 
     /**
      * @ElementName deviceManagementDeviceTypeOptions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16|null
      */
     private $deviceManagementDeviceTypeOptions = null;
@@ -56,19 +61,17 @@ class CPEDeviceOptions16sp1
     /**
      * Getter for enableMonitoring
      *
-     * @ElementName enableMonitoring
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMonitoring()
     {
-        return $this->enableMonitoring;
+        return $this->enableMonitoring instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMonitoring;
     }
 
     /**
      * Setter for enableMonitoring
      *
-     * @ElementName enableMonitoring
-     * @param bool|null $enableMonitoring
+     * @param bool $enableMonitoring
      * @return $this
      */
     public function setEnableMonitoring($enableMonitoring)
@@ -78,21 +81,28 @@ class CPEDeviceOptions16sp1
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMonitoring()
+    {
+        $this->enableMonitoring = null;
+        return $this;
+    }
+
+    /**
      * Getter for configType
      *
-     * @ElementName configType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      */
     public function getConfigType()
     {
-        return $this->configType;
+        return $this->configType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configType;
     }
 
     /**
      * Setter for configType
      *
-     * @ElementName configType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null $configType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configType
      * @return $this
      */
     public function setConfigType(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configType)
@@ -102,21 +112,28 @@ class CPEDeviceOptions16sp1
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigType()
+    {
+        $this->configType = null;
+        return $this;
+    }
+
+    /**
      * Getter for systemFileName
      *
-     * @ElementName systemFileName
-     * @return string|null
+     * @return string
      */
     public function getSystemFileName()
     {
-        return $this->systemFileName;
+        return $this->systemFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemFileName;
     }
 
     /**
      * Setter for systemFileName
      *
-     * @ElementName systemFileName
-     * @param string|null $systemFileName
+     * @param string $systemFileName
      * @return $this
      */
     public function setSystemFileName($systemFileName)
@@ -126,21 +143,28 @@ class CPEDeviceOptions16sp1
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSystemFileName()
+    {
+        $this->systemFileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceFileFormat
      *
-     * @ElementName deviceFileFormat
-     * @return string|null
+     * @return string
      */
     public function getDeviceFileFormat()
     {
-        return $this->deviceFileFormat;
+        return $this->deviceFileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceFileFormat;
     }
 
     /**
      * Setter for deviceFileFormat
      *
-     * @ElementName deviceFileFormat
-     * @param string|null $deviceFileFormat
+     * @param string $deviceFileFormat
      * @return $this
      */
     public function setDeviceFileFormat($deviceFileFormat)
@@ -150,26 +174,42 @@ class CPEDeviceOptions16sp1
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceFileFormat()
+    {
+        $this->deviceFileFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceManagementDeviceTypeOptions
      *
-     * @ElementName deviceManagementDeviceTypeOptions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16
      */
     public function getDeviceManagementDeviceTypeOptions()
     {
-        return $this->deviceManagementDeviceTypeOptions;
+        return $this->deviceManagementDeviceTypeOptions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceManagementDeviceTypeOptions;
     }
 
     /**
      * Setter for deviceManagementDeviceTypeOptions
      *
-     * @ElementName deviceManagementDeviceTypeOptions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16|null $deviceManagementDeviceTypeOptions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16 $deviceManagementDeviceTypeOptions
      * @return $this
      */
     public function setDeviceManagementDeviceTypeOptions(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16 $deviceManagementDeviceTypeOptions)
     {
         $this->deviceManagementDeviceTypeOptions = $deviceManagementDeviceTypeOptions;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceManagementDeviceTypeOptions()
+    {
+        $this->deviceManagementDeviceTypeOptions = null;
         return $this;
     }
 

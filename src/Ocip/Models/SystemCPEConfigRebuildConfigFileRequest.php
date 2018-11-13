@@ -18,18 +18,21 @@ class SystemCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName rebuildType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceConfigRebuildType
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceConfigRebuildType|null
      */
     private $rebuildType = null;
 
     /**
      * @ElementName force
+     * @Type bool
      * @var bool|null
      */
     private $force = null;
@@ -37,19 +40,17 @@ class SystemCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -59,21 +60,28 @@ class SystemCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for rebuildType
      *
-     * @ElementName rebuildType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceConfigRebuildType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceConfigRebuildType
      */
     public function getRebuildType()
     {
-        return $this->rebuildType;
+        return $this->rebuildType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rebuildType;
     }
 
     /**
      * Setter for rebuildType
      *
-     * @ElementName rebuildType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceConfigRebuildType|null $rebuildType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceConfigRebuildType $rebuildType
      * @return $this
      */
     public function setRebuildType(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceConfigRebuildType $rebuildType)
@@ -83,26 +91,42 @@ class SystemCPEConfigRebuildConfigFileRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRebuildType()
+    {
+        $this->rebuildType = null;
+        return $this;
+    }
+
+    /**
      * Getter for force
      *
-     * @ElementName force
-     * @return bool|null
+     * @return bool
      */
     public function getForce()
     {
-        return $this->force;
+        return $this->force instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->force;
     }
 
     /**
      * Setter for force
      *
-     * @ElementName force
-     * @param bool|null $force
+     * @param bool $force
      * @return $this
      */
     public function setForce($force)
     {
         $this->force = $force;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForce()
+    {
+        $this->force = null;
         return $this;
     }
 

@@ -15,6 +15,8 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleL
 
     /**
      * @ElementName rule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule[]
      */
     private $rule = array(
@@ -24,18 +26,16 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleL
     /**
      * Getter for rule
      *
-     * @ElementName rule
      * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule[]
      */
     public function getRule()
     {
-        return $this->rule;
+        return $this->rule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rule;
     }
 
     /**
      * Setter for rule
      *
-     * @ElementName rule
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule[] $rule
      * @return $this
      */
@@ -46,15 +46,23 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleL
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRule()
+    {
+        $this->rule = null;
+        return $this;
+    }
+
+    /**
      * Adder for rule
      *
-     * @ElementName rule
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule $rule
      * @return $this
      */
     public function addRule($rule)
     {
-        $this->rule []= $rule;
+        $this->rule[] = $rule;
         return $this;
     }
 

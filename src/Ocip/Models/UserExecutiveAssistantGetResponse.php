@@ -23,18 +23,21 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName enableDivert
+     * @Type bool
      * @var bool|null
      */
     private $enableDivert = null;
 
     /**
      * @ElementName divertToPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $divertToPhoneNumber = null;
 
     /**
      * @ElementName executiveTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $executiveTable = null;
@@ -42,19 +45,17 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for enableDivert
      *
-     * @ElementName enableDivert
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDivert()
     {
-        return $this->enableDivert;
+        return $this->enableDivert instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDivert;
     }
 
     /**
      * Setter for enableDivert
      *
-     * @ElementName enableDivert
-     * @param bool|null $enableDivert
+     * @param bool $enableDivert
      * @return $this
      */
     public function setEnableDivert($enableDivert)
@@ -64,21 +65,28 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableDivert()
+    {
+        $this->enableDivert = null;
+        return $this;
+    }
+
+    /**
      * Getter for divertToPhoneNumber
      *
-     * @ElementName divertToPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getDivertToPhoneNumber()
     {
-        return $this->divertToPhoneNumber;
+        return $this->divertToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->divertToPhoneNumber;
     }
 
     /**
      * Setter for divertToPhoneNumber
      *
-     * @ElementName divertToPhoneNumber
-     * @param string|null $divertToPhoneNumber
+     * @param string $divertToPhoneNumber
      * @return $this
      */
     public function setDivertToPhoneNumber($divertToPhoneNumber)
@@ -88,26 +96,42 @@ class UserExecutiveAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDivertToPhoneNumber()
+    {
+        $this->divertToPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for executiveTable
      *
-     * @ElementName executiveTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getExecutiveTable()
     {
-        return $this->executiveTable;
+        return $this->executiveTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->executiveTable;
     }
 
     /**
      * Setter for executiveTable
      *
-     * @ElementName executiveTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $executiveTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $executiveTable
      * @return $this
      */
     public function setExecutiveTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $executiveTable)
     {
         $this->executiveTable = $executiveTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExecutiveTable()
+    {
+        $this->executiveTable = null;
         return $this;
     }
 

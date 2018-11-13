@@ -17,6 +17,7 @@ class EnterpriseVoiceVPNGetPolicyListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName locationList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $locationList = null;
@@ -24,24 +25,31 @@ class EnterpriseVoiceVPNGetPolicyListResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for locationList
      *
-     * @ElementName locationList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getLocationList()
     {
-        return $this->locationList;
+        return $this->locationList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locationList;
     }
 
     /**
      * Setter for locationList
      *
-     * @ElementName locationList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $locationList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $locationList
      * @return $this
      */
     public function setLocationList(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $locationList)
     {
         $this->locationList = $locationList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLocationList()
+    {
+        $this->locationList = null;
         return $this;
     }
 

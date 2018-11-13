@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupExtensionAccess FULL()
  * @method static GroupExtensionAccess READ_ONLY()
  * @method static GroupExtensionAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupExtensionAccess extends \MyCLabs\Enum\Enum
 {

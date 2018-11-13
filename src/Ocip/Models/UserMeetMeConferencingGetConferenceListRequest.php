@@ -17,12 +17,14 @@ class UserMeetMeConferencingGetConferenceListRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName bridgeId
+     * @Type string
      * @var string|null
      */
     private $bridgeId = null;
@@ -30,19 +32,17 @@ class UserMeetMeConferencingGetConferenceListRequest extends \CWM\BroadWorksConn
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,26 +52,42 @@ class UserMeetMeConferencingGetConferenceListRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for bridgeId
      *
-     * @ElementName bridgeId
-     * @return string|null
+     * @return string
      */
     public function getBridgeId()
     {
-        return $this->bridgeId;
+        return $this->bridgeId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bridgeId;
     }
 
     /**
      * Setter for bridgeId
      *
-     * @ElementName bridgeId
-     * @param string|null $bridgeId
+     * @param string $bridgeId
      * @return $this
      */
     public function setBridgeId($bridgeId)
     {
         $this->bridgeId = $bridgeId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBridgeId()
+    {
+        $this->bridgeId = null;
         return $this;
     }
 

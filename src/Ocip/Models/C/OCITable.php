@@ -17,6 +17,8 @@ class OCITable
 
     /**
      * @ElementName colHeading
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $colHeading = array(
@@ -25,6 +27,8 @@ class OCITable
 
     /**
      * @ElementName row
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow[]
      */
     private $row = array(
@@ -34,18 +38,16 @@ class OCITable
     /**
      * Getter for colHeading
      *
-     * @ElementName colHeading
      * @return string[]
      */
     public function getColHeading()
     {
-        return $this->colHeading;
+        return $this->colHeading instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->colHeading;
     }
 
     /**
      * Setter for colHeading
      *
-     * @ElementName colHeading
      * @param string[] $colHeading
      * @return $this
      */
@@ -56,33 +58,39 @@ class OCITable
     }
 
     /**
+     * @return $this
+     */
+    public function unsetColHeading()
+    {
+        $this->colHeading = null;
+        return $this;
+    }
+
+    /**
      * Adder for colHeading
      *
-     * @ElementName colHeading
      * @param string $colHeading
      * @return $this
      */
     public function addColHeading(string $colHeading)
     {
-        $this->colHeading []= $colHeading;
+        $this->colHeading[] = $colHeading;
         return $this;
     }
 
     /**
      * Getter for row
      *
-     * @ElementName row
      * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow[]
      */
     public function getRow()
     {
-        return $this->row;
+        return $this->row instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->row;
     }
 
     /**
      * Setter for row
      *
-     * @ElementName row
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow[] $row
      * @return $this
      */
@@ -93,15 +101,23 @@ class OCITable
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRow()
+    {
+        $this->row = null;
+        return $this;
+    }
+
+    /**
      * Adder for row
      *
-     * @ElementName row
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow $row
      * @return $this
      */
     public function addRow($row)
     {
-        $this->row []= $row;
+        $this->row[] = $row;
         return $this;
     }
 

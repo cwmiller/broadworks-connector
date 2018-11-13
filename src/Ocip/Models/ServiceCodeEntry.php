@@ -12,12 +12,14 @@ class ServiceCodeEntry
 
     /**
      * @ElementName serviceCode
+     * @Type string
      * @var string|null
      */
     private $serviceCode = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -25,19 +27,17 @@ class ServiceCodeEntry
     /**
      * Getter for serviceCode
      *
-     * @ElementName serviceCode
-     * @return string|null
+     * @return string
      */
     public function getServiceCode()
     {
-        return $this->serviceCode;
+        return $this->serviceCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceCode;
     }
 
     /**
      * Setter for serviceCode
      *
-     * @ElementName serviceCode
-     * @param string|null $serviceCode
+     * @param string $serviceCode
      * @return $this
      */
     public function setServiceCode($serviceCode)
@@ -47,26 +47,42 @@ class ServiceCodeEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceCode()
+    {
+        $this->serviceCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

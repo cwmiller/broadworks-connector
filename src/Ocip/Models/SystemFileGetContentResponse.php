@@ -15,6 +15,7 @@ class SystemFileGetContentResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName fileContent
+     * @Type string
      * @var string|null
      */
     private $fileContent = null;
@@ -22,24 +23,31 @@ class SystemFileGetContentResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for fileContent
      *
-     * @ElementName fileContent
-     * @return string|null
+     * @return string
      */
     public function getFileContent()
     {
-        return $this->fileContent;
+        return $this->fileContent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileContent;
     }
 
     /**
      * Setter for fileContent
      *
-     * @ElementName fileContent
-     * @param string|null $fileContent
+     * @param string $fileContent
      * @return $this
      */
     public function setFileContent($fileContent)
     {
         $this->fileContent = $fileContent;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileContent()
+    {
+        $this->fileContent = null;
         return $this;
     }
 

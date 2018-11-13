@@ -17,12 +17,14 @@ class UserCallPoliciesGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName redirectedCallsCOLPPrivacy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
      */
     private $redirectedCallsCOLPPrivacy = null;
 
     /**
      * @ElementName callBeingForwardedResponseCallType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
      */
     private $callBeingForwardedResponseCallType = null;
@@ -30,19 +32,17 @@ class UserCallPoliciesGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for redirectedCallsCOLPPrivacy
      *
-     * @ElementName redirectedCallsCOLPPrivacy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls
      */
     public function getRedirectedCallsCOLPPrivacy()
     {
-        return $this->redirectedCallsCOLPPrivacy;
+        return $this->redirectedCallsCOLPPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectedCallsCOLPPrivacy;
     }
 
     /**
      * Setter for redirectedCallsCOLPPrivacy
      *
-     * @ElementName redirectedCallsCOLPPrivacy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls|null $redirectedCallsCOLPPrivacy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls $redirectedCallsCOLPPrivacy
      * @return $this
      */
     public function setRedirectedCallsCOLPPrivacy(\CWM\BroadWorksConnector\Ocip\Models\ConnectedLineIdentificationPrivacyOnRedirectedCalls $redirectedCallsCOLPPrivacy)
@@ -52,26 +52,42 @@ class UserCallPoliciesGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectedCallsCOLPPrivacy()
+    {
+        $this->redirectedCallsCOLPPrivacy = null;
+        return $this;
+    }
+
+    /**
      * Getter for callBeingForwardedResponseCallType
      *
-     * @ElementName callBeingForwardedResponseCallType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType
      */
     public function getCallBeingForwardedResponseCallType()
     {
-        return $this->callBeingForwardedResponseCallType;
+        return $this->callBeingForwardedResponseCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callBeingForwardedResponseCallType;
     }
 
     /**
      * Setter for callBeingForwardedResponseCallType
      *
-     * @ElementName callBeingForwardedResponseCallType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType|null $callBeingForwardedResponseCallType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType $callBeingForwardedResponseCallType
      * @return $this
      */
     public function setCallBeingForwardedResponseCallType(\CWM\BroadWorksConnector\Ocip\Models\CallBeingForwardedResponseCallType $callBeingForwardedResponseCallType)
     {
         $this->callBeingForwardedResponseCallType = $callBeingForwardedResponseCallType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallBeingForwardedResponseCallType()
+    {
+        $this->callBeingForwardedResponseCallType = null;
         return $this;
     }
 

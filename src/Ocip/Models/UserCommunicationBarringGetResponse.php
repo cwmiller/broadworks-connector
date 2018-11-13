@@ -15,12 +15,14 @@ class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName useGroupSetting
+     * @Type bool
      * @var bool|null
      */
     private $useGroupSetting = null;
 
     /**
      * @ElementName profileName
+     * @Type string
      * @var string|null
      */
     private $profileName = null;
@@ -28,19 +30,17 @@ class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for useGroupSetting
      *
-     * @ElementName useGroupSetting
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupSetting()
     {
-        return $this->useGroupSetting;
+        return $this->useGroupSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupSetting;
     }
 
     /**
      * Setter for useGroupSetting
      *
-     * @ElementName useGroupSetting
-     * @param bool|null $useGroupSetting
+     * @param bool $useGroupSetting
      * @return $this
      */
     public function setUseGroupSetting($useGroupSetting)
@@ -50,26 +50,42 @@ class UserCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupSetting()
+    {
+        $this->useGroupSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileName
      *
-     * @ElementName profileName
-     * @return string|null
+     * @return string
      */
     public function getProfileName()
     {
-        return $this->profileName;
+        return $this->profileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileName;
     }
 
     /**
      * Setter for profileName
      *
-     * @ElementName profileName
-     * @param string|null $profileName
+     * @param string $profileName
      * @return $this
      */
     public function setProfileName($profileName)
     {
         $this->profileName = $profileName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfileName()
+    {
+        $this->profileName = null;
         return $this;
     }
 

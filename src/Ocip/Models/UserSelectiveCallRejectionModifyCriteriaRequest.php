@@ -16,24 +16,28 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName criteriaName
+     * @Type string
      * @var string|null
      */
     private $criteriaName = null;
 
     /**
      * @ElementName newCriteriaName
+     * @Type string
      * @var string|null
      */
     private $newCriteriaName = null;
 
     /**
      * @ElementName timeSchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,12 +45,14 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName fromDnCriteria
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     private $fromDnCriteria = null;
 
     /**
      * @ElementName holidaySchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -54,6 +60,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName blacklisted
+     * @Type bool
      * @Nillable
      * @var bool|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -62,19 +69,17 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -84,21 +89,28 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaName
      *
-     * @ElementName criteriaName
-     * @return string|null
+     * @return string
      */
     public function getCriteriaName()
     {
-        return $this->criteriaName;
+        return $this->criteriaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaName;
     }
 
     /**
      * Setter for criteriaName
      *
-     * @ElementName criteriaName
-     * @param string|null $criteriaName
+     * @param string $criteriaName
      * @return $this
      */
     public function setCriteriaName($criteriaName)
@@ -108,21 +120,28 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaName()
+    {
+        $this->criteriaName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newCriteriaName
      *
-     * @ElementName newCriteriaName
-     * @return string|null
+     * @return string
      */
     public function getNewCriteriaName()
     {
-        return $this->newCriteriaName;
+        return $this->newCriteriaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newCriteriaName;
     }
 
     /**
      * Setter for newCriteriaName
      *
-     * @ElementName newCriteriaName
-     * @param string|null $newCriteriaName
+     * @param string $newCriteriaName
      * @return $this
      */
     public function setNewCriteriaName($newCriteriaName)
@@ -132,47 +151,63 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewCriteriaName()
+    {
+        $this->newCriteriaName = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     public function getTimeSchedule()
     {
-        return $this->timeSchedule;
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
     }
 
     /**
      * Setter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
     public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
     {
-        $this->timeSchedule = $timeSchedule;
+        if ($timeSchedule === null) {
+            $this->timeSchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->timeSchedule = $timeSchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
         return $this;
     }
 
     /**
      * Getter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      */
     public function getFromDnCriteria()
     {
-        return $this->fromDnCriteria;
+        return $this->fromDnCriteria instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fromDnCriteria;
     }
 
     /**
      * Setter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null $fromDnCriteria
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify $fromDnCriteria
      * @return $this
      */
     public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify $fromDnCriteria)
@@ -182,54 +217,81 @@ class UserSelectiveCallRejectionModifyCriteriaRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFromDnCriteria()
+    {
+        $this->fromDnCriteria = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     public function getHolidaySchedule()
     {
-        return $this->holidaySchedule;
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
     }
 
     /**
      * Setter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
-        $this->holidaySchedule = $holidaySchedule;
+        if ($holidaySchedule === null) {
+            $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holidaySchedule = $holidaySchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
         return $this;
     }
 
     /**
      * Getter for blacklisted
      *
-     * @ElementName blacklisted
-     * @Nillable
-     * @return bool|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return bool|null
      */
     public function getBlacklisted()
     {
-        return $this->blacklisted;
+        return $this->blacklisted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->blacklisted;
     }
 
     /**
      * Setter for blacklisted
      *
-     * @ElementName blacklisted
-     * @Nillable
-     * @param bool|null|\CWM\BroadWorksConnector\Ocip\Nil $blacklisted
+     * @param bool|null $blacklisted
      * @return $this
      */
     public function setBlacklisted($blacklisted)
     {
-        $this->blacklisted = $blacklisted;
+        if ($blacklisted === null) {
+            $this->blacklisted = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->blacklisted = $blacklisted;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBlacklisted()
+    {
+        $this->blacklisted = null;
         return $this;
     }
 

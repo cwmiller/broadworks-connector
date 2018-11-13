@@ -31,60 +31,70 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
 
     /**
      * @ElementName isExtendedCallingLineIdActive
+     * @Type bool
      * @var bool|null
      */
     private $isExtendedCallingLineIdActive = null;
 
     /**
      * @ElementName isRingTimeOutActive
+     * @Type bool
      * @var bool|null
      */
     private $isRingTimeOutActive = null;
 
     /**
      * @ElementName ringTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
 
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
+     * @Type bool
      * @var bool|null
      */
     private $allowEmergencyRemoteOfficeOriginations = null;
 
     /**
      * @ElementName maxNoAnswerNumberOfRings
+     * @Type int
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;
 
     /**
      * @ElementName minNoAnswerNumberOfRings
+     * @Type int
      * @var int|null
      */
     private $minNoAnswerNumberOfRings = null;
 
     /**
      * @ElementName incomingCallToUserAliasMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
      */
     private $incomingCallToUserAliasMode = null;
 
     /**
      * @ElementName bypassTerminationLoopDetection
+     * @Type bool
      * @var bool|null
      */
     private $bypassTerminationLoopDetection = null;
 
     /**
      * @ElementName honorCLIDBlockingForEmergencyCalls
+     * @Type bool
      * @var bool|null
      */
     private $honorCLIDBlockingForEmergencyCalls = null;
 
     /**
      * @ElementName useUnicodeIdentityName
+     * @Type bool
      * @var bool|null
      */
     private $useUnicodeIdentityName = null;
@@ -92,19 +102,17 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     /**
      * Getter for isExtendedCallingLineIdActive
      *
-     * @ElementName isExtendedCallingLineIdActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsExtendedCallingLineIdActive()
     {
-        return $this->isExtendedCallingLineIdActive;
+        return $this->isExtendedCallingLineIdActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isExtendedCallingLineIdActive;
     }
 
     /**
      * Setter for isExtendedCallingLineIdActive
      *
-     * @ElementName isExtendedCallingLineIdActive
-     * @param bool|null $isExtendedCallingLineIdActive
+     * @param bool $isExtendedCallingLineIdActive
      * @return $this
      */
     public function setIsExtendedCallingLineIdActive($isExtendedCallingLineIdActive)
@@ -114,21 +122,28 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsExtendedCallingLineIdActive()
+    {
+        $this->isExtendedCallingLineIdActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for isRingTimeOutActive
      *
-     * @ElementName isRingTimeOutActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsRingTimeOutActive()
     {
-        return $this->isRingTimeOutActive;
+        return $this->isRingTimeOutActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isRingTimeOutActive;
     }
 
     /**
      * Setter for isRingTimeOutActive
      *
-     * @ElementName isRingTimeOutActive
-     * @param bool|null $isRingTimeOutActive
+     * @param bool $isRingTimeOutActive
      * @return $this
      */
     public function setIsRingTimeOutActive($isRingTimeOutActive)
@@ -138,21 +153,28 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsRingTimeOutActive()
+    {
+        $this->isRingTimeOutActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for ringTimeoutSeconds
      *
-     * @ElementName ringTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getRingTimeoutSeconds()
     {
-        return $this->ringTimeoutSeconds;
+        return $this->ringTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ringTimeoutSeconds;
     }
 
     /**
      * Setter for ringTimeoutSeconds
      *
-     * @ElementName ringTimeoutSeconds
-     * @param int|null $ringTimeoutSeconds
+     * @param int $ringTimeoutSeconds
      * @return $this
      */
     public function setRingTimeoutSeconds($ringTimeoutSeconds)
@@ -162,21 +184,28 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRingTimeoutSeconds()
+    {
+        $this->ringTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowEmergencyRemoteOfficeOriginations
      *
-     * @ElementName allowEmergencyRemoteOfficeOriginations
-     * @return bool|null
+     * @return bool
      */
     public function getAllowEmergencyRemoteOfficeOriginations()
     {
-        return $this->allowEmergencyRemoteOfficeOriginations;
+        return $this->allowEmergencyRemoteOfficeOriginations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowEmergencyRemoteOfficeOriginations;
     }
 
     /**
      * Setter for allowEmergencyRemoteOfficeOriginations
      *
-     * @ElementName allowEmergencyRemoteOfficeOriginations
-     * @param bool|null $allowEmergencyRemoteOfficeOriginations
+     * @param bool $allowEmergencyRemoteOfficeOriginations
      * @return $this
      */
     public function setAllowEmergencyRemoteOfficeOriginations($allowEmergencyRemoteOfficeOriginations)
@@ -186,21 +215,28 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowEmergencyRemoteOfficeOriginations()
+    {
+        $this->allowEmergencyRemoteOfficeOriginations = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxNoAnswerNumberOfRings
      *
-     * @ElementName maxNoAnswerNumberOfRings
-     * @return int|null
+     * @return int
      */
     public function getMaxNoAnswerNumberOfRings()
     {
-        return $this->maxNoAnswerNumberOfRings;
+        return $this->maxNoAnswerNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxNoAnswerNumberOfRings;
     }
 
     /**
      * Setter for maxNoAnswerNumberOfRings
      *
-     * @ElementName maxNoAnswerNumberOfRings
-     * @param int|null $maxNoAnswerNumberOfRings
+     * @param int $maxNoAnswerNumberOfRings
      * @return $this
      */
     public function setMaxNoAnswerNumberOfRings($maxNoAnswerNumberOfRings)
@@ -210,21 +246,28 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxNoAnswerNumberOfRings()
+    {
+        $this->maxNoAnswerNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for minNoAnswerNumberOfRings
      *
-     * @ElementName minNoAnswerNumberOfRings
-     * @return int|null
+     * @return int
      */
     public function getMinNoAnswerNumberOfRings()
     {
-        return $this->minNoAnswerNumberOfRings;
+        return $this->minNoAnswerNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minNoAnswerNumberOfRings;
     }
 
     /**
      * Setter for minNoAnswerNumberOfRings
      *
-     * @ElementName minNoAnswerNumberOfRings
-     * @param int|null $minNoAnswerNumberOfRings
+     * @param int $minNoAnswerNumberOfRings
      * @return $this
      */
     public function setMinNoAnswerNumberOfRings($minNoAnswerNumberOfRings)
@@ -234,21 +277,28 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinNoAnswerNumberOfRings()
+    {
+        $this->minNoAnswerNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for incomingCallToUserAliasMode
      *
-     * @ElementName incomingCallToUserAliasMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode
      */
     public function getIncomingCallToUserAliasMode()
     {
-        return $this->incomingCallToUserAliasMode;
+        return $this->incomingCallToUserAliasMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingCallToUserAliasMode;
     }
 
     /**
      * Setter for incomingCallToUserAliasMode
      *
-     * @ElementName incomingCallToUserAliasMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null $incomingCallToUserAliasMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode $incomingCallToUserAliasMode
      * @return $this
      */
     public function setIncomingCallToUserAliasMode(\CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode $incomingCallToUserAliasMode)
@@ -258,21 +308,28 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncomingCallToUserAliasMode()
+    {
+        $this->incomingCallToUserAliasMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for bypassTerminationLoopDetection
      *
-     * @ElementName bypassTerminationLoopDetection
-     * @return bool|null
+     * @return bool
      */
     public function getBypassTerminationLoopDetection()
     {
-        return $this->bypassTerminationLoopDetection;
+        return $this->bypassTerminationLoopDetection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bypassTerminationLoopDetection;
     }
 
     /**
      * Setter for bypassTerminationLoopDetection
      *
-     * @ElementName bypassTerminationLoopDetection
-     * @param bool|null $bypassTerminationLoopDetection
+     * @param bool $bypassTerminationLoopDetection
      * @return $this
      */
     public function setBypassTerminationLoopDetection($bypassTerminationLoopDetection)
@@ -282,21 +339,28 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBypassTerminationLoopDetection()
+    {
+        $this->bypassTerminationLoopDetection = null;
+        return $this;
+    }
+
+    /**
      * Getter for honorCLIDBlockingForEmergencyCalls
      *
-     * @ElementName honorCLIDBlockingForEmergencyCalls
-     * @return bool|null
+     * @return bool
      */
     public function getHonorCLIDBlockingForEmergencyCalls()
     {
-        return $this->honorCLIDBlockingForEmergencyCalls;
+        return $this->honorCLIDBlockingForEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->honorCLIDBlockingForEmergencyCalls;
     }
 
     /**
      * Setter for honorCLIDBlockingForEmergencyCalls
      *
-     * @ElementName honorCLIDBlockingForEmergencyCalls
-     * @param bool|null $honorCLIDBlockingForEmergencyCalls
+     * @param bool $honorCLIDBlockingForEmergencyCalls
      * @return $this
      */
     public function setHonorCLIDBlockingForEmergencyCalls($honorCLIDBlockingForEmergencyCalls)
@@ -306,26 +370,42 @@ class SystemSubscriberModifyCallProcessingParametersRequest14sp7 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHonorCLIDBlockingForEmergencyCalls()
+    {
+        $this->honorCLIDBlockingForEmergencyCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for useUnicodeIdentityName
      *
-     * @ElementName useUnicodeIdentityName
-     * @return bool|null
+     * @return bool
      */
     public function getUseUnicodeIdentityName()
     {
-        return $this->useUnicodeIdentityName;
+        return $this->useUnicodeIdentityName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useUnicodeIdentityName;
     }
 
     /**
      * Setter for useUnicodeIdentityName
      *
-     * @ElementName useUnicodeIdentityName
-     * @param bool|null $useUnicodeIdentityName
+     * @param bool $useUnicodeIdentityName
      * @return $this
      */
     public function setUseUnicodeIdentityName($useUnicodeIdentityName)
     {
         $this->useUnicodeIdentityName = $useUnicodeIdentityName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseUnicodeIdentityName()
+    {
+        $this->useUnicodeIdentityName = null;
         return $this;
     }
 

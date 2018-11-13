@@ -17,18 +17,21 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName scheduleCombination
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
      */
     private $scheduleCombination = null;
 
     /**
      * @ElementName screenPrivateNumber
+     * @Type bool
      * @var bool|null
      */
     private $screenPrivateNumber = null;
 
     /**
      * @ElementName emptyHolidayScheduleIsOutOfSchedule
+     * @Type bool
      * @var bool|null
      */
     private $emptyHolidayScheduleIsOutOfSchedule = null;
@@ -36,19 +39,17 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for scheduleCombination
      *
-     * @ElementName scheduleCombination
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType
      */
     public function getScheduleCombination()
     {
-        return $this->scheduleCombination;
+        return $this->scheduleCombination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleCombination;
     }
 
     /**
      * Setter for scheduleCombination
      *
-     * @ElementName scheduleCombination
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType|null $scheduleCombination
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType $scheduleCombination
      * @return $this
      */
     public function setScheduleCombination(\CWM\BroadWorksConnector\Ocip\Models\ScheduleCombinationType $scheduleCombination)
@@ -58,21 +59,28 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleCombination()
+    {
+        $this->scheduleCombination = null;
+        return $this;
+    }
+
+    /**
      * Getter for screenPrivateNumber
      *
-     * @ElementName screenPrivateNumber
-     * @return bool|null
+     * @return bool
      */
     public function getScreenPrivateNumber()
     {
-        return $this->screenPrivateNumber;
+        return $this->screenPrivateNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->screenPrivateNumber;
     }
 
     /**
      * Setter for screenPrivateNumber
      *
-     * @ElementName screenPrivateNumber
-     * @param bool|null $screenPrivateNumber
+     * @param bool $screenPrivateNumber
      * @return $this
      */
     public function setScreenPrivateNumber($screenPrivateNumber)
@@ -82,26 +90,42 @@ class SystemSelectiveServicesModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScreenPrivateNumber()
+    {
+        $this->screenPrivateNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for emptyHolidayScheduleIsOutOfSchedule
      *
-     * @ElementName emptyHolidayScheduleIsOutOfSchedule
-     * @return bool|null
+     * @return bool
      */
     public function getEmptyHolidayScheduleIsOutOfSchedule()
     {
-        return $this->emptyHolidayScheduleIsOutOfSchedule;
+        return $this->emptyHolidayScheduleIsOutOfSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emptyHolidayScheduleIsOutOfSchedule;
     }
 
     /**
      * Setter for emptyHolidayScheduleIsOutOfSchedule
      *
-     * @ElementName emptyHolidayScheduleIsOutOfSchedule
-     * @param bool|null $emptyHolidayScheduleIsOutOfSchedule
+     * @param bool $emptyHolidayScheduleIsOutOfSchedule
      * @return $this
      */
     public function setEmptyHolidayScheduleIsOutOfSchedule($emptyHolidayScheduleIsOutOfSchedule)
     {
         $this->emptyHolidayScheduleIsOutOfSchedule = $emptyHolidayScheduleIsOutOfSchedule;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmptyHolidayScheduleIsOutOfSchedule()
+    {
+        $this->emptyHolidayScheduleIsOutOfSchedule = null;
         return $this;
     }
 

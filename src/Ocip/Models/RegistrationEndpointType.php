@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static RegistrationEndpointType PRIMARY()
  * @method static RegistrationEndpointType SHARED_CALL_APPEARANCE()
  * @method static RegistrationEndpointType VIDEO_ADD_ON()
- * @ValueType string
+ * @EnumValueType string
  */
 class RegistrationEndpointType extends \MyCLabs\Enum\Enum
 {

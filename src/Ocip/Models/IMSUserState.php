@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static IMSUserState REGISTERED()
  * @method static IMSUserState REGISTERED_UNREG_SERVICES()
  * @method static IMSUserState AUTHENTICATION_PENDING()
- * @ValueType string
+ * @EnumValueType string
  */
 class IMSUserState extends \MyCLabs\Enum\Enum
 {

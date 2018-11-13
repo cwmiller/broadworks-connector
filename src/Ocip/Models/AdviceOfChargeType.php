@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static AdviceOfChargeType DURING_CALL()
  * @method static AdviceOfChargeType END_OF_CALL()
- * @ValueType string
+ * @EnumValueType string
  */
 class AdviceOfChargeType extends \MyCLabs\Enum\Enum
 {

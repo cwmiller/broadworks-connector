@@ -16,18 +16,21 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName useSPLevelAoCSettings
+     * @Type bool
      * @var bool|null
      */
     private $useSPLevelAoCSettings = null;
 
     /**
      * @ElementName delayBetweenNotificationSeconds
+     * @Type int
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
@@ -35,19 +38,17 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -57,21 +58,28 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSPLevelAoCSettings
      *
-     * @ElementName useSPLevelAoCSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseSPLevelAoCSettings()
     {
-        return $this->useSPLevelAoCSettings;
+        return $this->useSPLevelAoCSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSPLevelAoCSettings;
     }
 
     /**
      * Setter for useSPLevelAoCSettings
      *
-     * @ElementName useSPLevelAoCSettings
-     * @param bool|null $useSPLevelAoCSettings
+     * @param bool $useSPLevelAoCSettings
      * @return $this
      */
     public function setUseSPLevelAoCSettings($useSPLevelAoCSettings)
@@ -81,26 +89,42 @@ class ServiceProviderAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSPLevelAoCSettings()
+    {
+        $this->useSPLevelAoCSettings = null;
+        return $this;
+    }
+
+    /**
      * Getter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @return int|null
+     * @return int
      */
     public function getDelayBetweenNotificationSeconds()
     {
-        return $this->delayBetweenNotificationSeconds;
+        return $this->delayBetweenNotificationSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->delayBetweenNotificationSeconds;
     }
 
     /**
      * Setter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @param int|null $delayBetweenNotificationSeconds
+     * @param int $delayBetweenNotificationSeconds
      * @return $this
      */
     public function setDelayBetweenNotificationSeconds($delayBetweenNotificationSeconds)
     {
         $this->delayBetweenNotificationSeconds = $delayBetweenNotificationSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDelayBetweenNotificationSeconds()
+    {
+        $this->delayBetweenNotificationSeconds = null;
         return $this;
     }
 

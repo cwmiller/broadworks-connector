@@ -16,12 +16,14 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName prefixDigits
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,6 +31,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName serverNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,6 +39,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName serverPort
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -43,6 +47,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName timeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $timeoutSeconds = null;
@@ -50,19 +55,17 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -72,104 +75,147 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for prefixDigits
      *
-     * @ElementName prefixDigits
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPrefixDigits()
     {
-        return $this->prefixDigits;
+        return $this->prefixDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefixDigits;
     }
 
     /**
      * Setter for prefixDigits
      *
-     * @ElementName prefixDigits
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $prefixDigits
+     * @param string|null $prefixDigits
      * @return $this
      */
     public function setPrefixDigits($prefixDigits)
     {
-        $this->prefixDigits = $prefixDigits;
+        if ($prefixDigits === null) {
+            $this->prefixDigits = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->prefixDigits = $prefixDigits;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrefixDigits()
+    {
+        $this->prefixDigits = null;
         return $this;
     }
 
     /**
      * Getter for serverNetAddress
      *
-     * @ElementName serverNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getServerNetAddress()
     {
-        return $this->serverNetAddress;
+        return $this->serverNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serverNetAddress;
     }
 
     /**
      * Setter for serverNetAddress
      *
-     * @ElementName serverNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serverNetAddress
+     * @param string|null $serverNetAddress
      * @return $this
      */
     public function setServerNetAddress($serverNetAddress)
     {
-        $this->serverNetAddress = $serverNetAddress;
+        if ($serverNetAddress === null) {
+            $this->serverNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serverNetAddress = $serverNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServerNetAddress()
+    {
+        $this->serverNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for serverPort
      *
-     * @ElementName serverPort
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getServerPort()
     {
-        return $this->serverPort;
+        return $this->serverPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serverPort;
     }
 
     /**
      * Setter for serverPort
      *
-     * @ElementName serverPort
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $serverPort
+     * @param int|null $serverPort
      * @return $this
      */
     public function setServerPort($serverPort)
     {
-        $this->serverPort = $serverPort;
+        if ($serverPort === null) {
+            $this->serverPort = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serverPort = $serverPort;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServerPort()
+    {
+        $this->serverPort = null;
         return $this;
     }
 
     /**
      * Getter for timeoutSeconds
      *
-     * @ElementName timeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getTimeoutSeconds()
     {
-        return $this->timeoutSeconds;
+        return $this->timeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeoutSeconds;
     }
 
     /**
      * Setter for timeoutSeconds
      *
-     * @ElementName timeoutSeconds
-     * @param int|null $timeoutSeconds
+     * @param int $timeoutSeconds
      * @return $this
      */
     public function setTimeoutSeconds($timeoutSeconds)
     {
         $this->timeoutSeconds = $timeoutSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeoutSeconds()
+    {
+        $this->timeoutSeconds = null;
         return $this;
     }
 

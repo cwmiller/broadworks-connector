@@ -17,6 +17,8 @@ class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName phoneNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $phoneNumber = array(
@@ -26,18 +28,16 @@ class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
      * @return string[]
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
      * @param string[] $phoneNumber
      * @return $this
      */
@@ -48,15 +48,23 @@ class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for phoneNumber
      *
-     * @ElementName phoneNumber
      * @param string $phoneNumber
      * @return $this
      */
     public function addPhoneNumber(string $phoneNumber)
     {
-        $this->phoneNumber []= $phoneNumber;
+        $this->phoneNumber[] = $phoneNumber;
         return $this;
     }
 

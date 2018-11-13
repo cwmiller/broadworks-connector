@@ -17,6 +17,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusRequest21 extends \CWM\BroadWo
 
     /**
      * @ElementName getDefaultMenuKeys
+     * @Type bool
      * @var bool|null
      */
     private $getDefaultMenuKeys = null;
@@ -24,24 +25,31 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusRequest21 extends \CWM\BroadWo
     /**
      * Getter for getDefaultMenuKeys
      *
-     * @ElementName getDefaultMenuKeys
-     * @return bool|null
+     * @return bool
      */
     public function getGetDefaultMenuKeys()
     {
-        return $this->getDefaultMenuKeys;
+        return $this->getDefaultMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->getDefaultMenuKeys;
     }
 
     /**
      * Setter for getDefaultMenuKeys
      *
-     * @ElementName getDefaultMenuKeys
-     * @param bool|null $getDefaultMenuKeys
+     * @param bool $getDefaultMenuKeys
      * @return $this
      */
     public function setGetDefaultMenuKeys($getDefaultMenuKeys)
     {
         $this->getDefaultMenuKeys = $getDefaultMenuKeys;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGetDefaultMenuKeys()
+    {
+        $this->getDefaultMenuKeys = null;
         return $this;
     }
 

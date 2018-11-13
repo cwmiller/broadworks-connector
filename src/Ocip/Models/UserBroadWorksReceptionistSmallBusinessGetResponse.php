@@ -19,6 +19,7 @@ class UserBroadWorksReceptionistSmallBusinessGetResponse extends \CWM\BroadWorks
 
     /**
      * @ElementName monitoredUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;
@@ -26,24 +27,31 @@ class UserBroadWorksReceptionistSmallBusinessGetResponse extends \CWM\BroadWorks
     /**
      * Getter for monitoredUserTable
      *
-     * @ElementName monitoredUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMonitoredUserTable()
     {
-        return $this->monitoredUserTable;
+        return $this->monitoredUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->monitoredUserTable;
     }
 
     /**
      * Setter for monitoredUserTable
      *
-     * @ElementName monitoredUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $monitoredUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $monitoredUserTable
      * @return $this
      */
     public function setMonitoredUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $monitoredUserTable)
     {
         $this->monitoredUserTable = $monitoredUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMonitoredUserTable()
+    {
+        $this->monitoredUserTable = null;
         return $this;
     }
 

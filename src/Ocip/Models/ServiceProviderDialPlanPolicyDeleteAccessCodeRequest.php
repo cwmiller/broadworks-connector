@@ -17,12 +17,14 @@ class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWor
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName accessCode
+     * @Type string
      * @var string|null
      */
     private $accessCode = null;
@@ -30,19 +32,17 @@ class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWor
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -52,26 +52,42 @@ class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessCode
      *
-     * @ElementName accessCode
-     * @return string|null
+     * @return string
      */
     public function getAccessCode()
     {
-        return $this->accessCode;
+        return $this->accessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessCode;
     }
 
     /**
      * Setter for accessCode
      *
-     * @ElementName accessCode
-     * @param string|null $accessCode
+     * @param string $accessCode
      * @return $this
      */
     public function setAccessCode($accessCode)
     {
         $this->accessCode = $accessCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessCode()
+    {
+        $this->accessCode = null;
         return $this;
     }
 

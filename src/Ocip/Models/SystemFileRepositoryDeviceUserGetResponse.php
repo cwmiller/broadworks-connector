@@ -14,18 +14,21 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName allowPut
+     * @Type bool
      * @var bool|null
      */
     private $allowPut = null;
 
     /**
      * @ElementName allowDelete
+     * @Type bool
      * @var bool|null
      */
     private $allowDelete = null;
 
     /**
      * @ElementName allowGet
+     * @Type bool
      * @var bool|null
      */
     private $allowGet = null;
@@ -33,19 +36,17 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for allowPut
      *
-     * @ElementName allowPut
-     * @return bool|null
+     * @return bool
      */
     public function getAllowPut()
     {
-        return $this->allowPut;
+        return $this->allowPut instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowPut;
     }
 
     /**
      * Setter for allowPut
      *
-     * @ElementName allowPut
-     * @param bool|null $allowPut
+     * @param bool $allowPut
      * @return $this
      */
     public function setAllowPut($allowPut)
@@ -55,21 +56,28 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowPut()
+    {
+        $this->allowPut = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowDelete
      *
-     * @ElementName allowDelete
-     * @return bool|null
+     * @return bool
      */
     public function getAllowDelete()
     {
-        return $this->allowDelete;
+        return $this->allowDelete instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowDelete;
     }
 
     /**
      * Setter for allowDelete
      *
-     * @ElementName allowDelete
-     * @param bool|null $allowDelete
+     * @param bool $allowDelete
      * @return $this
      */
     public function setAllowDelete($allowDelete)
@@ -79,26 +87,42 @@ class SystemFileRepositoryDeviceUserGetResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowDelete()
+    {
+        $this->allowDelete = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowGet
      *
-     * @ElementName allowGet
-     * @return bool|null
+     * @return bool
      */
     public function getAllowGet()
     {
-        return $this->allowGet;
+        return $this->allowGet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowGet;
     }
 
     /**
      * Setter for allowGet
      *
-     * @ElementName allowGet
-     * @param bool|null $allowGet
+     * @param bool $allowGet
      * @return $this
      */
     public function setAllowGet($allowGet)
     {
         $this->allowGet = $allowGet;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowGet()
+    {
+        $this->allowGet = null;
         return $this;
     }
 

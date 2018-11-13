@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CPEDeviceResetEventType RESYNC()
  * @method static CPEDeviceResetEventType CHECK_SYNC()
- * @ValueType string
+ * @EnumValueType string
  */
 class CPEDeviceResetEventType extends \MyCLabs\Enum\Enum
 {

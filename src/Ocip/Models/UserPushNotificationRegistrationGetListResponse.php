@@ -27,6 +27,7 @@ class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName registrationsTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $registrationsTable = null;
@@ -34,24 +35,31 @@ class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksCon
     /**
      * Getter for registrationsTable
      *
-     * @ElementName registrationsTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRegistrationsTable()
     {
-        return $this->registrationsTable;
+        return $this->registrationsTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->registrationsTable;
     }
 
     /**
      * Setter for registrationsTable
      *
-     * @ElementName registrationsTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $registrationsTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $registrationsTable
      * @return $this
      */
     public function setRegistrationsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $registrationsTable)
     {
         $this->registrationsTable = $registrationsTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRegistrationsTable()
+    {
+        $this->registrationsTable = null;
         return $this;
     }
 

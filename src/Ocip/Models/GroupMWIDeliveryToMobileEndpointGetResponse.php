@@ -18,12 +18,14 @@ class GroupMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName useSettingLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
      */
     private $useSettingLevel = null;
 
     /**
      * @ElementName templateActivationTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $templateActivationTable = null;
@@ -31,19 +33,17 @@ class GroupMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for useSettingLevel
      *
-     * @ElementName useSettingLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel
      */
     public function getUseSettingLevel()
     {
-        return $this->useSettingLevel;
+        return $this->useSettingLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSettingLevel;
     }
 
     /**
      * Setter for useSettingLevel
      *
-     * @ElementName useSettingLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel $useSettingLevel
      * @return $this
      */
     public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel $useSettingLevel)
@@ -53,26 +53,42 @@ class GroupMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSettingLevel()
+    {
+        $this->useSettingLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for templateActivationTable
      *
-     * @ElementName templateActivationTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getTemplateActivationTable()
     {
-        return $this->templateActivationTable;
+        return $this->templateActivationTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateActivationTable;
     }
 
     /**
      * Setter for templateActivationTable
      *
-     * @ElementName templateActivationTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $templateActivationTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $templateActivationTable
      * @return $this
      */
     public function setTemplateActivationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $templateActivationTable)
     {
         $this->templateActivationTable = $templateActivationTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTemplateActivationTable()
+    {
+        $this->templateActivationTable = null;
         return $this;
     }
 

@@ -17,18 +17,22 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
 
     /**
      * @ElementName zoneName
+     * @Type string
      * @var string|null
      */
     private $zoneName = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaPhysicalLocation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation[]
      */
     private $searchCriteriaPhysicalLocation = array(
@@ -38,19 +42,17 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
     /**
      * Getter for zoneName
      *
-     * @ElementName zoneName
-     * @return string|null
+     * @return string
      */
     public function getZoneName()
     {
-        return $this->zoneName;
+        return $this->zoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zoneName;
     }
 
     /**
      * Setter for zoneName
      *
-     * @ElementName zoneName
-     * @param string|null $zoneName
+     * @param string $zoneName
      * @return $this
      */
     public function setZoneName($zoneName)
@@ -60,21 +62,28 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetZoneName()
+    {
+        $this->zoneName = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -84,20 +93,27 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaPhysicalLocation
      *
-     * @ElementName searchCriteriaPhysicalLocation
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation[]
      */
     public function getSearchCriteriaPhysicalLocation()
     {
-        return $this->searchCriteriaPhysicalLocation;
+        return $this->searchCriteriaPhysicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaPhysicalLocation;
     }
 
     /**
      * Setter for searchCriteriaPhysicalLocation
      *
-     * @ElementName searchCriteriaPhysicalLocation
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation[] $searchCriteriaPhysicalLocation
      * @return $this
      */
@@ -108,15 +124,23 @@ class SystemZoneLocationBasedPhysicalLocationGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaPhysicalLocation()
+    {
+        $this->searchCriteriaPhysicalLocation = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaPhysicalLocation
      *
-     * @ElementName searchCriteriaPhysicalLocation
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPhysicalLocation $searchCriteriaPhysicalLocation
      * @return $this
      */
     public function addSearchCriteriaPhysicalLocation($searchCriteriaPhysicalLocation)
     {
-        $this->searchCriteriaPhysicalLocation []= $searchCriteriaPhysicalLocation;
+        $this->searchCriteriaPhysicalLocation[] = $searchCriteriaPhysicalLocation;
         return $this;
     }
 

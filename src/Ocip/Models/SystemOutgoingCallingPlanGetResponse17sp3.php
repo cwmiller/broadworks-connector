@@ -14,12 +14,14 @@ class SystemOutgoingCallingPlanGetResponse17sp3 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName directTransferScreening
+     * @Type bool
      * @var bool|null
      */
     private $directTransferScreening = null;
 
     /**
      * @ElementName enableEnhancedTollCallTyping
+     * @Type bool
      * @var bool|null
      */
     private $enableEnhancedTollCallTyping = null;
@@ -27,19 +29,17 @@ class SystemOutgoingCallingPlanGetResponse17sp3 extends \CWM\BroadWorksConnector
     /**
      * Getter for directTransferScreening
      *
-     * @ElementName directTransferScreening
-     * @return bool|null
+     * @return bool
      */
     public function getDirectTransferScreening()
     {
-        return $this->directTransferScreening;
+        return $this->directTransferScreening instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->directTransferScreening;
     }
 
     /**
      * Setter for directTransferScreening
      *
-     * @ElementName directTransferScreening
-     * @param bool|null $directTransferScreening
+     * @param bool $directTransferScreening
      * @return $this
      */
     public function setDirectTransferScreening($directTransferScreening)
@@ -49,26 +49,42 @@ class SystemOutgoingCallingPlanGetResponse17sp3 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDirectTransferScreening()
+    {
+        $this->directTransferScreening = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableEnhancedTollCallTyping
      *
-     * @ElementName enableEnhancedTollCallTyping
-     * @return bool|null
+     * @return bool
      */
     public function getEnableEnhancedTollCallTyping()
     {
-        return $this->enableEnhancedTollCallTyping;
+        return $this->enableEnhancedTollCallTyping instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableEnhancedTollCallTyping;
     }
 
     /**
      * Setter for enableEnhancedTollCallTyping
      *
-     * @ElementName enableEnhancedTollCallTyping
-     * @param bool|null $enableEnhancedTollCallTyping
+     * @param bool $enableEnhancedTollCallTyping
      * @return $this
      */
     public function setEnableEnhancedTollCallTyping($enableEnhancedTollCallTyping)
     {
         $this->enableEnhancedTollCallTyping = $enableEnhancedTollCallTyping;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableEnhancedTollCallTyping()
+    {
+        $this->enableEnhancedTollCallTyping = null;
         return $this;
     }
 

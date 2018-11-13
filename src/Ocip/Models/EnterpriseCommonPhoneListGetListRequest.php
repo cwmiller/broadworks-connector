@@ -30,24 +30,29 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaModeOr
+     * @Type bool
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
 
     /**
      * @ElementName searchCriteriaEnterpriseCommonPhoneListName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[]
      */
     private $searchCriteriaEnterpriseCommonPhoneListName = array(
@@ -56,6 +61,8 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName searchCriteriaEnterpriseCommonPhoneListNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[]
      */
     private $searchCriteriaEnterpriseCommonPhoneListNumber = array(
@@ -65,19 +72,17 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -87,21 +92,28 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -111,21 +123,28 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaModeOr
      *
-     * @ElementName searchCriteriaModeOr
-     * @return bool|null
+     * @return bool
      */
     public function getSearchCriteriaModeOr()
     {
-        return $this->searchCriteriaModeOr;
+        return $this->searchCriteriaModeOr instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaModeOr;
     }
 
     /**
      * Setter for searchCriteriaModeOr
      *
-     * @ElementName searchCriteriaModeOr
-     * @param bool|null $searchCriteriaModeOr
+     * @param bool $searchCriteriaModeOr
      * @return $this
      */
     public function setSearchCriteriaModeOr($searchCriteriaModeOr)
@@ -135,20 +154,27 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaModeOr()
+    {
+        $this->searchCriteriaModeOr = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaEnterpriseCommonPhoneListName
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[]
      */
     public function getSearchCriteriaEnterpriseCommonPhoneListName()
     {
-        return $this->searchCriteriaEnterpriseCommonPhoneListName;
+        return $this->searchCriteriaEnterpriseCommonPhoneListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaEnterpriseCommonPhoneListName;
     }
 
     /**
      * Setter for searchCriteriaEnterpriseCommonPhoneListName
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[] $searchCriteriaEnterpriseCommonPhoneListName
      * @return $this
      */
@@ -159,33 +185,39 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaEnterpriseCommonPhoneListName()
+    {
+        $this->searchCriteriaEnterpriseCommonPhoneListName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaEnterpriseCommonPhoneListName
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName $searchCriteriaEnterpriseCommonPhoneListName
      * @return $this
      */
     public function addSearchCriteriaEnterpriseCommonPhoneListName($searchCriteriaEnterpriseCommonPhoneListName)
     {
-        $this->searchCriteriaEnterpriseCommonPhoneListName []= $searchCriteriaEnterpriseCommonPhoneListName;
+        $this->searchCriteriaEnterpriseCommonPhoneListName[] = $searchCriteriaEnterpriseCommonPhoneListName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaEnterpriseCommonPhoneListNumber
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[]
      */
     public function getSearchCriteriaEnterpriseCommonPhoneListNumber()
     {
-        return $this->searchCriteriaEnterpriseCommonPhoneListNumber;
+        return $this->searchCriteriaEnterpriseCommonPhoneListNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaEnterpriseCommonPhoneListNumber;
     }
 
     /**
      * Setter for searchCriteriaEnterpriseCommonPhoneListNumber
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[] $searchCriteriaEnterpriseCommonPhoneListNumber
      * @return $this
      */
@@ -196,15 +228,23 @@ class EnterpriseCommonPhoneListGetListRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaEnterpriseCommonPhoneListNumber()
+    {
+        $this->searchCriteriaEnterpriseCommonPhoneListNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaEnterpriseCommonPhoneListNumber
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber $searchCriteriaEnterpriseCommonPhoneListNumber
      * @return $this
      */
     public function addSearchCriteriaEnterpriseCommonPhoneListNumber($searchCriteriaEnterpriseCommonPhoneListNumber)
     {
-        $this->searchCriteriaEnterpriseCommonPhoneListNumber []= $searchCriteriaEnterpriseCommonPhoneListNumber;
+        $this->searchCriteriaEnterpriseCommonPhoneListNumber[] = $searchCriteriaEnterpriseCommonPhoneListNumber;
         return $this;
     }
 

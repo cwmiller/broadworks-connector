@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static HoldAnnouncementMethodMode INACTIVE()
  * @method static HoldAnnouncementMethodMode BANDWIDTH_ATTRIBUTES()
- * @ValueType string
+ * @EnumValueType string
  */
 class HoldAnnouncementMethodMode extends \MyCLabs\Enum\Enum
 {

@@ -12,36 +12,42 @@ class CallCenterAgentDailyStatistics13mp8
 
     /**
      * @ElementName numberOfCallsReceived
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsReceived = null;
 
     /**
      * @ElementName numberOfCallsNotAnswered
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsNotAnswered = null;
 
     /**
      * @ElementName averageTimePerCallSeconds
+     * @Type int
      * @var int|null
      */
     private $averageTimePerCallSeconds = null;
 
     /**
      * @ElementName timeInCallsSeconds
+     * @Type int
      * @var int|null
      */
     private $timeInCallsSeconds = null;
 
     /**
      * @ElementName timeLoggedOffSeconds
+     * @Type int
      * @var int|null
      */
     private $timeLoggedOffSeconds = null;
 
     /**
      * @ElementName timeLoggedOnAndIdleSeconds
+     * @Type int
      * @var int|null
      */
     private $timeLoggedOnAndIdleSeconds = null;
@@ -49,19 +55,17 @@ class CallCenterAgentDailyStatistics13mp8
     /**
      * Getter for numberOfCallsReceived
      *
-     * @ElementName numberOfCallsReceived
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsReceived()
     {
-        return $this->numberOfCallsReceived;
+        return $this->numberOfCallsReceived instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsReceived;
     }
 
     /**
      * Setter for numberOfCallsReceived
      *
-     * @ElementName numberOfCallsReceived
-     * @param int|null $numberOfCallsReceived
+     * @param int $numberOfCallsReceived
      * @return $this
      */
     public function setNumberOfCallsReceived($numberOfCallsReceived)
@@ -71,21 +75,28 @@ class CallCenterAgentDailyStatistics13mp8
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsReceived()
+    {
+        $this->numberOfCallsReceived = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfCallsNotAnswered
      *
-     * @ElementName numberOfCallsNotAnswered
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsNotAnswered()
     {
-        return $this->numberOfCallsNotAnswered;
+        return $this->numberOfCallsNotAnswered instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsNotAnswered;
     }
 
     /**
      * Setter for numberOfCallsNotAnswered
      *
-     * @ElementName numberOfCallsNotAnswered
-     * @param int|null $numberOfCallsNotAnswered
+     * @param int $numberOfCallsNotAnswered
      * @return $this
      */
     public function setNumberOfCallsNotAnswered($numberOfCallsNotAnswered)
@@ -95,21 +106,28 @@ class CallCenterAgentDailyStatistics13mp8
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsNotAnswered()
+    {
+        $this->numberOfCallsNotAnswered = null;
+        return $this;
+    }
+
+    /**
      * Getter for averageTimePerCallSeconds
      *
-     * @ElementName averageTimePerCallSeconds
-     * @return int|null
+     * @return int
      */
     public function getAverageTimePerCallSeconds()
     {
-        return $this->averageTimePerCallSeconds;
+        return $this->averageTimePerCallSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->averageTimePerCallSeconds;
     }
 
     /**
      * Setter for averageTimePerCallSeconds
      *
-     * @ElementName averageTimePerCallSeconds
-     * @param int|null $averageTimePerCallSeconds
+     * @param int $averageTimePerCallSeconds
      * @return $this
      */
     public function setAverageTimePerCallSeconds($averageTimePerCallSeconds)
@@ -119,21 +137,28 @@ class CallCenterAgentDailyStatistics13mp8
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAverageTimePerCallSeconds()
+    {
+        $this->averageTimePerCallSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeInCallsSeconds
      *
-     * @ElementName timeInCallsSeconds
-     * @return int|null
+     * @return int
      */
     public function getTimeInCallsSeconds()
     {
-        return $this->timeInCallsSeconds;
+        return $this->timeInCallsSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeInCallsSeconds;
     }
 
     /**
      * Setter for timeInCallsSeconds
      *
-     * @ElementName timeInCallsSeconds
-     * @param int|null $timeInCallsSeconds
+     * @param int $timeInCallsSeconds
      * @return $this
      */
     public function setTimeInCallsSeconds($timeInCallsSeconds)
@@ -143,21 +168,28 @@ class CallCenterAgentDailyStatistics13mp8
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeInCallsSeconds()
+    {
+        $this->timeInCallsSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeLoggedOffSeconds
      *
-     * @ElementName timeLoggedOffSeconds
-     * @return int|null
+     * @return int
      */
     public function getTimeLoggedOffSeconds()
     {
-        return $this->timeLoggedOffSeconds;
+        return $this->timeLoggedOffSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeLoggedOffSeconds;
     }
 
     /**
      * Setter for timeLoggedOffSeconds
      *
-     * @ElementName timeLoggedOffSeconds
-     * @param int|null $timeLoggedOffSeconds
+     * @param int $timeLoggedOffSeconds
      * @return $this
      */
     public function setTimeLoggedOffSeconds($timeLoggedOffSeconds)
@@ -167,26 +199,42 @@ class CallCenterAgentDailyStatistics13mp8
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeLoggedOffSeconds()
+    {
+        $this->timeLoggedOffSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeLoggedOnAndIdleSeconds
      *
-     * @ElementName timeLoggedOnAndIdleSeconds
-     * @return int|null
+     * @return int
      */
     public function getTimeLoggedOnAndIdleSeconds()
     {
-        return $this->timeLoggedOnAndIdleSeconds;
+        return $this->timeLoggedOnAndIdleSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeLoggedOnAndIdleSeconds;
     }
 
     /**
      * Setter for timeLoggedOnAndIdleSeconds
      *
-     * @ElementName timeLoggedOnAndIdleSeconds
-     * @param int|null $timeLoggedOnAndIdleSeconds
+     * @param int $timeLoggedOnAndIdleSeconds
      * @return $this
      */
     public function setTimeLoggedOnAndIdleSeconds($timeLoggedOnAndIdleSeconds)
     {
         $this->timeLoggedOnAndIdleSeconds = $timeLoggedOnAndIdleSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeLoggedOnAndIdleSeconds()
+    {
+        $this->timeLoggedOnAndIdleSeconds = null;
         return $this;
     }
 

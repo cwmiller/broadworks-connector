@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static BroadWorksMobilityPhoneToRing FIXED()
  * @method static BroadWorksMobilityPhoneToRing MOBILE()
  * @method static BroadWorksMobilityPhoneToRing BOTH()
- * @ValueType string
+ * @EnumValueType string
  */
 class BroadWorksMobilityPhoneToRing extends \MyCLabs\Enum\Enum
 {

@@ -13,12 +13,14 @@ class CommPilotExpressRedirectionModify
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction|null
      */
     private $action = null;
 
     /**
      * @ElementName forwardingPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -27,19 +29,17 @@ class CommPilotExpressRedirectionModify
     /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionAction $action)
@@ -49,28 +49,46 @@ class CommPilotExpressRedirectionModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardingPhoneNumber
      *
-     * @ElementName forwardingPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getForwardingPhoneNumber()
     {
-        return $this->forwardingPhoneNumber;
+        return $this->forwardingPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardingPhoneNumber;
     }
 
     /**
      * Setter for forwardingPhoneNumber
      *
-     * @ElementName forwardingPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardingPhoneNumber
+     * @param string|null $forwardingPhoneNumber
      * @return $this
      */
     public function setForwardingPhoneNumber($forwardingPhoneNumber)
     {
-        $this->forwardingPhoneNumber = $forwardingPhoneNumber;
+        if ($forwardingPhoneNumber === null) {
+            $this->forwardingPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->forwardingPhoneNumber = $forwardingPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForwardingPhoneNumber()
+    {
+        $this->forwardingPhoneNumber = null;
         return $this;
     }
 

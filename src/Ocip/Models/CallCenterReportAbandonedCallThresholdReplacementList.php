@@ -13,6 +13,8 @@ class CallCenterReportAbandonedCallThresholdReplacementList
 
     /**
      * @ElementName abandonedCallThresholdSeconds
+     * @Type int
+     * @Array
      * @var int[]
      */
     private $abandonedCallThresholdSeconds = array(
@@ -22,18 +24,16 @@ class CallCenterReportAbandonedCallThresholdReplacementList
     /**
      * Getter for abandonedCallThresholdSeconds
      *
-     * @ElementName abandonedCallThresholdSeconds
      * @return int[]
      */
     public function getAbandonedCallThresholdSeconds()
     {
-        return $this->abandonedCallThresholdSeconds;
+        return $this->abandonedCallThresholdSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abandonedCallThresholdSeconds;
     }
 
     /**
      * Setter for abandonedCallThresholdSeconds
      *
-     * @ElementName abandonedCallThresholdSeconds
      * @param int[] $abandonedCallThresholdSeconds
      * @return $this
      */
@@ -44,15 +44,23 @@ class CallCenterReportAbandonedCallThresholdReplacementList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAbandonedCallThresholdSeconds()
+    {
+        $this->abandonedCallThresholdSeconds = null;
+        return $this;
+    }
+
+    /**
      * Adder for abandonedCallThresholdSeconds
      *
-     * @ElementName abandonedCallThresholdSeconds
      * @param int $abandonedCallThresholdSeconds
      * @return $this
      */
     public function addAbandonedCallThresholdSeconds(int $abandonedCallThresholdSeconds)
     {
-        $this->abandonedCallThresholdSeconds []= $abandonedCallThresholdSeconds;
+        $this->abandonedCallThresholdSeconds[] = $abandonedCallThresholdSeconds;
         return $this;
     }
 

@@ -12,6 +12,7 @@ class SequentialRingLocationModify
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,12 +20,14 @@ class SequentialRingLocationModify
 
     /**
      * @ElementName numberOfRings
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     private $numberOfRings = null;
 
     /**
      * @ElementName answerConfirmationRequired
+     * @Type bool
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
@@ -32,45 +35,52 @@ class SequentialRingLocationModify
     /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
+     * @param string|null $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
     {
-        $this->phoneNumber = $phoneNumber;
+        if ($phoneNumber === null) {
+            $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->phoneNumber = $phoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
      */
     public function getNumberOfRings()
     {
-        return $this->numberOfRings;
+        return $this->numberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfRings;
     }
 
     /**
      * Setter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null $numberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings $numberOfRings
      * @return $this
      */
     public function setNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings $numberOfRings)
@@ -80,26 +90,42 @@ class SequentialRingLocationModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfRings()
+    {
+        $this->numberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @return bool|null
+     * @return bool
      */
     public function getAnswerConfirmationRequired()
     {
-        return $this->answerConfirmationRequired;
+        return $this->answerConfirmationRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerConfirmationRequired;
     }
 
     /**
      * Setter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @param bool|null $answerConfirmationRequired
+     * @param bool $answerConfirmationRequired
      * @return $this
      */
     public function setAnswerConfirmationRequired($answerConfirmationRequired)
     {
         $this->answerConfirmationRequired = $answerConfirmationRequired;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnswerConfirmationRequired()
+    {
+        $this->answerConfirmationRequired = null;
         return $this;
     }
 

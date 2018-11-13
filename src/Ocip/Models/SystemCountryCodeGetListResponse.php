@@ -23,12 +23,14 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName defaultCountryCode
+     * @Type string
      * @var string|null
      */
     private $defaultCountryCode = null;
 
     /**
      * @ElementName countryCodeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $countryCodeTable = null;
@@ -36,19 +38,17 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for defaultCountryCode
      *
-     * @ElementName defaultCountryCode
-     * @return string|null
+     * @return string
      */
     public function getDefaultCountryCode()
     {
-        return $this->defaultCountryCode;
+        return $this->defaultCountryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultCountryCode;
     }
 
     /**
      * Setter for defaultCountryCode
      *
-     * @ElementName defaultCountryCode
-     * @param string|null $defaultCountryCode
+     * @param string $defaultCountryCode
      * @return $this
      */
     public function setDefaultCountryCode($defaultCountryCode)
@@ -58,26 +58,42 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultCountryCode()
+    {
+        $this->defaultCountryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for countryCodeTable
      *
-     * @ElementName countryCodeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCountryCodeTable()
     {
-        return $this->countryCodeTable;
+        return $this->countryCodeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCodeTable;
     }
 
     /**
      * Setter for countryCodeTable
      *
-     * @ElementName countryCodeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $countryCodeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $countryCodeTable
      * @return $this
      */
     public function setCountryCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $countryCodeTable)
     {
         $this->countryCodeTable = $countryCodeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCountryCodeTable()
+    {
+        $this->countryCodeTable = null;
         return $this;
     }
 

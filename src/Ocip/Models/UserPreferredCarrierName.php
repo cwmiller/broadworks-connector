@@ -13,12 +13,14 @@ class UserPreferredCarrierName
 
     /**
      * @ElementName useGroupPreferredCarrier
+     * @Type bool
      * @var bool|null
      */
     private $useGroupPreferredCarrier = null;
 
     /**
      * @ElementName carrier
+     * @Type string
      * @var string|null
      */
     private $carrier = null;
@@ -26,19 +28,17 @@ class UserPreferredCarrierName
     /**
      * Getter for useGroupPreferredCarrier
      *
-     * @ElementName useGroupPreferredCarrier
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupPreferredCarrier()
     {
-        return $this->useGroupPreferredCarrier;
+        return $this->useGroupPreferredCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupPreferredCarrier;
     }
 
     /**
      * Setter for useGroupPreferredCarrier
      *
-     * @ElementName useGroupPreferredCarrier
-     * @param bool|null $useGroupPreferredCarrier
+     * @param bool $useGroupPreferredCarrier
      * @return $this
      */
     public function setUseGroupPreferredCarrier($useGroupPreferredCarrier)
@@ -48,26 +48,42 @@ class UserPreferredCarrierName
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupPreferredCarrier()
+    {
+        $this->useGroupPreferredCarrier = null;
+        return $this;
+    }
+
+    /**
      * Getter for carrier
      *
-     * @ElementName carrier
-     * @return string|null
+     * @return string
      */
     public function getCarrier()
     {
-        return $this->carrier;
+        return $this->carrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->carrier;
     }
 
     /**
      * Setter for carrier
      *
-     * @ElementName carrier
-     * @param string|null $carrier
+     * @param string $carrier
      * @return $this
      */
     public function setCarrier($carrier)
     {
         $this->carrier = $carrier;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCarrier()
+    {
+        $this->carrier = null;
         return $this;
     }
 

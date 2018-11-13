@@ -14,6 +14,8 @@ class ServiceProviderIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName imrn
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $imrn = array(
@@ -23,18 +25,16 @@ class ServiceProviderIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for imrn
      *
-     * @ElementName imrn
      * @return string[]
      */
     public function getImrn()
     {
-        return $this->imrn;
+        return $this->imrn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imrn;
     }
 
     /**
      * Setter for imrn
      *
-     * @ElementName imrn
      * @param string[] $imrn
      * @return $this
      */
@@ -45,15 +45,23 @@ class ServiceProviderIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetImrn()
+    {
+        $this->imrn = null;
+        return $this;
+    }
+
+    /**
      * Adder for imrn
      *
-     * @ElementName imrn
      * @param string $imrn
      * @return $this
      */
     public function addImrn(string $imrn)
     {
-        $this->imrn []= $imrn;
+        $this->imrn[] = $imrn;
         return $this;
     }
 

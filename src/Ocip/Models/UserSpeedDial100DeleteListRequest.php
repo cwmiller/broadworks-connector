@@ -16,12 +16,15 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName speedCode
+     * @Type int
+     * @Array
      * @var int[]
      */
     private $speedCode = array(
@@ -31,19 +34,17 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for speedCode
      *
-     * @ElementName speedCode
      * @return int[]
      */
     public function getSpeedCode()
     {
-        return $this->speedCode;
+        return $this->speedCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->speedCode;
     }
 
     /**
      * Setter for speedCode
      *
-     * @ElementName speedCode
      * @param int[] $speedCode
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSpeedCode()
+    {
+        $this->speedCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for speedCode
      *
-     * @ElementName speedCode
      * @param int $speedCode
      * @return $this
      */
     public function addSpeedCode(int $speedCode)
     {
-        $this->speedCode []= $speedCode;
+        $this->speedCode[] = $speedCode;
         return $this;
     }
 

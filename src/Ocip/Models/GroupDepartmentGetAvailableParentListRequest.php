@@ -22,18 +22,21 @@ class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName departmentName
+     * @Type string
      * @var string|null
      */
     private $departmentName = null;
@@ -41,19 +44,17 @@ class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -63,21 +64,28 @@ class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -87,26 +95,42 @@ class GroupDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for departmentName
      *
-     * @ElementName departmentName
-     * @return string|null
+     * @return string
      */
     public function getDepartmentName()
     {
-        return $this->departmentName;
+        return $this->departmentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentName;
     }
 
     /**
      * Setter for departmentName
      *
-     * @ElementName departmentName
-     * @param string|null $departmentName
+     * @param string $departmentName
      * @return $this
      */
     public function setDepartmentName($departmentName)
     {
         $this->departmentName = $departmentName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDepartmentName()
+    {
+        $this->departmentName = null;
         return $this;
     }
 

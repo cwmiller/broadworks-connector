@@ -16,12 +16,15 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName digitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $digitPattern = array(
@@ -31,19 +34,17 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,20 +54,27 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for digitPattern
      *
-     * @ElementName digitPattern
      * @return string[]
      */
     public function getDigitPattern()
     {
-        return $this->digitPattern;
+        return $this->digitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPattern;
     }
 
     /**
      * Setter for digitPattern
      *
-     * @ElementName digitPattern
      * @param string[] $digitPattern
      * @return $this
      */
@@ -77,15 +85,23 @@ class ServiceProviderNumberPortabilityQueryAddListRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPattern()
+    {
+        $this->digitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for digitPattern
      *
-     * @ElementName digitPattern
      * @param string $digitPattern
      * @return $this
      */
     public function addDigitPattern(string $digitPattern)
     {
-        $this->digitPattern []= $digitPattern;
+        $this->digitPattern[] = $digitPattern;
         return $this;
     }
 

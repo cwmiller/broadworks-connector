@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static LineOrderingTaskStatus NOTSTARTED()
  * @method static LineOrderingTaskStatus PENDING()
  * @method static LineOrderingTaskStatus PROCESSING()
- * @ValueType string
+ * @EnumValueType string
  */
 class LineOrderingTaskStatus extends \MyCLabs\Enum\Enum
 {

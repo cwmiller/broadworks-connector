@@ -10,24 +10,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys
 
     /**
      * @ElementName recordAudio
+     * @Type string
      * @var string|null
      */
     private $recordAudio = null;
 
     /**
      * @ElementName recordAudioVideo
+     * @Type string
      * @var string|null
      */
     private $recordAudioVideo = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -35,19 +39,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys
     /**
      * Getter for recordAudio
      *
-     * @ElementName recordAudio
-     * @return string|null
+     * @return string
      */
     public function getRecordAudio()
     {
-        return $this->recordAudio;
+        return $this->recordAudio instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordAudio;
     }
 
     /**
      * Setter for recordAudio
      *
-     * @ElementName recordAudio
-     * @param string|null $recordAudio
+     * @param string $recordAudio
      * @return $this
      */
     public function setRecordAudio($recordAudio)
@@ -57,21 +59,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecordAudio()
+    {
+        $this->recordAudio = null;
+        return $this;
+    }
+
+    /**
      * Getter for recordAudioVideo
      *
-     * @ElementName recordAudioVideo
-     * @return string|null
+     * @return string
      */
     public function getRecordAudioVideo()
     {
-        return $this->recordAudioVideo;
+        return $this->recordAudioVideo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordAudioVideo;
     }
 
     /**
      * Setter for recordAudioVideo
      *
-     * @ElementName recordAudioVideo
-     * @param string|null $recordAudioVideo
+     * @param string $recordAudioVideo
      * @return $this
      */
     public function setRecordAudioVideo($recordAudioVideo)
@@ -81,21 +90,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecordAudioVideo()
+    {
+        $this->recordAudioVideo = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -105,26 +121,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

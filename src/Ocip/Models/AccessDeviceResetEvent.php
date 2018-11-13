@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static AccessDeviceResetEvent RESYNC()
  * @method static AccessDeviceResetEvent CHECKSYNC()
- * @ValueType string
+ * @EnumValueType string
  */
 class AccessDeviceResetEvent extends \MyCLabs\Enum\Enum
 {

@@ -14,12 +14,14 @@ class SystemExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName minExtensionLength
+     * @Type int
      * @var int|null
      */
     private $minExtensionLength = null;
 
     /**
      * @ElementName maxExtensionLength
+     * @Type int
      * @var int|null
      */
     private $maxExtensionLength = null;
@@ -27,19 +29,17 @@ class SystemExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for minExtensionLength
      *
-     * @ElementName minExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getMinExtensionLength()
     {
-        return $this->minExtensionLength;
+        return $this->minExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minExtensionLength;
     }
 
     /**
      * Setter for minExtensionLength
      *
-     * @ElementName minExtensionLength
-     * @param int|null $minExtensionLength
+     * @param int $minExtensionLength
      * @return $this
      */
     public function setMinExtensionLength($minExtensionLength)
@@ -49,26 +49,42 @@ class SystemExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinExtensionLength()
+    {
+        $this->minExtensionLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxExtensionLength
      *
-     * @ElementName maxExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getMaxExtensionLength()
     {
-        return $this->maxExtensionLength;
+        return $this->maxExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxExtensionLength;
     }
 
     /**
      * Setter for maxExtensionLength
      *
-     * @ElementName maxExtensionLength
-     * @param int|null $maxExtensionLength
+     * @param int $maxExtensionLength
      * @return $this
      */
     public function setMaxExtensionLength($maxExtensionLength)
     {
         $this->maxExtensionLength = $maxExtensionLength;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxExtensionLength()
+    {
+        $this->maxExtensionLength = null;
         return $this;
     }
 

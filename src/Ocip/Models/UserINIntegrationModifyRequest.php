@@ -16,12 +16,14 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName originatingServiceKey
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,6 +31,7 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName terminatingServiceKey
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,19 +40,17 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -59,54 +60,81 @@ class UserINIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for originatingServiceKey
      *
-     * @ElementName originatingServiceKey
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getOriginatingServiceKey()
     {
-        return $this->originatingServiceKey;
+        return $this->originatingServiceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatingServiceKey;
     }
 
     /**
      * Setter for originatingServiceKey
      *
-     * @ElementName originatingServiceKey
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingServiceKey
+     * @param int|null $originatingServiceKey
      * @return $this
      */
     public function setOriginatingServiceKey($originatingServiceKey)
     {
-        $this->originatingServiceKey = $originatingServiceKey;
+        if ($originatingServiceKey === null) {
+            $this->originatingServiceKey = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->originatingServiceKey = $originatingServiceKey;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOriginatingServiceKey()
+    {
+        $this->originatingServiceKey = null;
         return $this;
     }
 
     /**
      * Getter for terminatingServiceKey
      *
-     * @ElementName terminatingServiceKey
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getTerminatingServiceKey()
     {
-        return $this->terminatingServiceKey;
+        return $this->terminatingServiceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->terminatingServiceKey;
     }
 
     /**
      * Setter for terminatingServiceKey
      *
-     * @ElementName terminatingServiceKey
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $terminatingServiceKey
+     * @param int|null $terminatingServiceKey
      * @return $this
      */
     public function setTerminatingServiceKey($terminatingServiceKey)
     {
-        $this->terminatingServiceKey = $terminatingServiceKey;
+        if ($terminatingServiceKey === null) {
+            $this->terminatingServiceKey = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->terminatingServiceKey = $terminatingServiceKey;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTerminatingServiceKey()
+    {
+        $this->terminatingServiceKey = null;
         return $this;
     }
 

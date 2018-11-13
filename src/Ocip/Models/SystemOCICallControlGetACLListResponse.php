@@ -15,6 +15,7 @@ class SystemOCICallControlGetACLListResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName aclTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $aclTable = null;
@@ -22,24 +23,31 @@ class SystemOCICallControlGetACLListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for aclTable
      *
-     * @ElementName aclTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAclTable()
     {
-        return $this->aclTable;
+        return $this->aclTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->aclTable;
     }
 
     /**
      * Setter for aclTable
      *
-     * @ElementName aclTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $aclTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $aclTable
      * @return $this
      */
     public function setAclTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $aclTable)
     {
         $this->aclTable = $aclTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAclTable()
+    {
+        $this->aclTable = null;
         return $this;
     }
 

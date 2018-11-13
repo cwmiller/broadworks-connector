@@ -21,60 +21,71 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName eventQueueType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType|null
      */
     private $eventQueueType = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventStatusInProgressOrPending
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending|null
      */
     private $searchCriteriaExactDeviceManagementEventStatusInProgressOrPending = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventStatusCompleted
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted|null
      */
     private $searchCriteriaExactDeviceManagementEventStatusCompleted = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction|null
      */
     private $searchCriteriaExactDeviceManagementEventAction = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel|null
      */
     private $searchCriteriaExactDeviceManagementEventLevel = null;
 
     /**
      * @ElementName searchCriteriaExactDeviceManagementEventType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType|null
      */
     private $searchCriteriaExactDeviceManagementEventType = null;
 
     /**
      * @ElementName searchCriteriaDeviceManagementEventAdditionalInfo
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventAdditionalInfo
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventAdditionalInfo[]
      */
     private $searchCriteriaDeviceManagementEventAdditionalInfo = array(
@@ -83,6 +94,8 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName searchCriteriaDeviceManagementEventLoginId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventLoginId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventLoginId[]
      */
     private $searchCriteriaDeviceManagementEventLoginId = array(
@@ -92,19 +105,17 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -114,21 +125,28 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -138,21 +156,28 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for eventQueueType
      *
-     * @ElementName eventQueueType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType
      */
     public function getEventQueueType()
     {
-        return $this->eventQueueType;
+        return $this->eventQueueType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eventQueueType;
     }
 
     /**
      * Setter for eventQueueType
      *
-     * @ElementName eventQueueType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType|null $eventQueueType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType $eventQueueType
      * @return $this
      */
     public function setEventQueueType(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventQueueType $eventQueueType)
@@ -162,21 +187,28 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEventQueueType()
+    {
+        $this->eventQueueType = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -186,21 +218,28 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactDeviceManagementEventStatusInProgressOrPending
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventStatusInProgressOrPending
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending
      */
     public function getSearchCriteriaExactDeviceManagementEventStatusInProgressOrPending()
     {
-        return $this->searchCriteriaExactDeviceManagementEventStatusInProgressOrPending;
+        return $this->searchCriteriaExactDeviceManagementEventStatusInProgressOrPending instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDeviceManagementEventStatusInProgressOrPending;
     }
 
     /**
      * Setter for searchCriteriaExactDeviceManagementEventStatusInProgressOrPending
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventStatusInProgressOrPending
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending|null $searchCriteriaExactDeviceManagementEventStatusInProgressOrPending
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending $searchCriteriaExactDeviceManagementEventStatusInProgressOrPending
      * @return $this
      */
     public function setSearchCriteriaExactDeviceManagementEventStatusInProgressOrPending(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusInProgressOrPending $searchCriteriaExactDeviceManagementEventStatusInProgressOrPending)
@@ -210,21 +249,28 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDeviceManagementEventStatusInProgressOrPending()
+    {
+        $this->searchCriteriaExactDeviceManagementEventStatusInProgressOrPending = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactDeviceManagementEventStatusCompleted
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventStatusCompleted
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted
      */
     public function getSearchCriteriaExactDeviceManagementEventStatusCompleted()
     {
-        return $this->searchCriteriaExactDeviceManagementEventStatusCompleted;
+        return $this->searchCriteriaExactDeviceManagementEventStatusCompleted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDeviceManagementEventStatusCompleted;
     }
 
     /**
      * Setter for searchCriteriaExactDeviceManagementEventStatusCompleted
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventStatusCompleted
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted|null $searchCriteriaExactDeviceManagementEventStatusCompleted
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted $searchCriteriaExactDeviceManagementEventStatusCompleted
      * @return $this
      */
     public function setSearchCriteriaExactDeviceManagementEventStatusCompleted(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventStatusCompleted $searchCriteriaExactDeviceManagementEventStatusCompleted)
@@ -234,21 +280,28 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDeviceManagementEventStatusCompleted()
+    {
+        $this->searchCriteriaExactDeviceManagementEventStatusCompleted = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactDeviceManagementEventAction
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction
      */
     public function getSearchCriteriaExactDeviceManagementEventAction()
     {
-        return $this->searchCriteriaExactDeviceManagementEventAction;
+        return $this->searchCriteriaExactDeviceManagementEventAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDeviceManagementEventAction;
     }
 
     /**
      * Setter for searchCriteriaExactDeviceManagementEventAction
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction|null $searchCriteriaExactDeviceManagementEventAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction $searchCriteriaExactDeviceManagementEventAction
      * @return $this
      */
     public function setSearchCriteriaExactDeviceManagementEventAction(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventAction $searchCriteriaExactDeviceManagementEventAction)
@@ -258,21 +311,28 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDeviceManagementEventAction()
+    {
+        $this->searchCriteriaExactDeviceManagementEventAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactDeviceManagementEventLevel
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel
      */
     public function getSearchCriteriaExactDeviceManagementEventLevel()
     {
-        return $this->searchCriteriaExactDeviceManagementEventLevel;
+        return $this->searchCriteriaExactDeviceManagementEventLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDeviceManagementEventLevel;
     }
 
     /**
      * Setter for searchCriteriaExactDeviceManagementEventLevel
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel|null $searchCriteriaExactDeviceManagementEventLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel $searchCriteriaExactDeviceManagementEventLevel
      * @return $this
      */
     public function setSearchCriteriaExactDeviceManagementEventLevel(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventLevel $searchCriteriaExactDeviceManagementEventLevel)
@@ -282,21 +342,28 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDeviceManagementEventLevel()
+    {
+        $this->searchCriteriaExactDeviceManagementEventLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactDeviceManagementEventType
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType
      */
     public function getSearchCriteriaExactDeviceManagementEventType()
     {
-        return $this->searchCriteriaExactDeviceManagementEventType;
+        return $this->searchCriteriaExactDeviceManagementEventType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDeviceManagementEventType;
     }
 
     /**
      * Setter for searchCriteriaExactDeviceManagementEventType
      *
-     * @ElementName searchCriteriaExactDeviceManagementEventType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType|null $searchCriteriaExactDeviceManagementEventType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType $searchCriteriaExactDeviceManagementEventType
      * @return $this
      */
     public function setSearchCriteriaExactDeviceManagementEventType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceManagementEventType $searchCriteriaExactDeviceManagementEventType)
@@ -306,20 +373,27 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDeviceManagementEventType()
+    {
+        $this->searchCriteriaExactDeviceManagementEventType = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaDeviceManagementEventAdditionalInfo
      *
-     * @ElementName searchCriteriaDeviceManagementEventAdditionalInfo
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventAdditionalInfo[]
      */
     public function getSearchCriteriaDeviceManagementEventAdditionalInfo()
     {
-        return $this->searchCriteriaDeviceManagementEventAdditionalInfo;
+        return $this->searchCriteriaDeviceManagementEventAdditionalInfo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDeviceManagementEventAdditionalInfo;
     }
 
     /**
      * Setter for searchCriteriaDeviceManagementEventAdditionalInfo
      *
-     * @ElementName searchCriteriaDeviceManagementEventAdditionalInfo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventAdditionalInfo[] $searchCriteriaDeviceManagementEventAdditionalInfo
      * @return $this
      */
@@ -330,33 +404,39 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDeviceManagementEventAdditionalInfo()
+    {
+        $this->searchCriteriaDeviceManagementEventAdditionalInfo = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDeviceManagementEventAdditionalInfo
      *
-     * @ElementName searchCriteriaDeviceManagementEventAdditionalInfo
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventAdditionalInfo $searchCriteriaDeviceManagementEventAdditionalInfo
      * @return $this
      */
     public function addSearchCriteriaDeviceManagementEventAdditionalInfo($searchCriteriaDeviceManagementEventAdditionalInfo)
     {
-        $this->searchCriteriaDeviceManagementEventAdditionalInfo []= $searchCriteriaDeviceManagementEventAdditionalInfo;
+        $this->searchCriteriaDeviceManagementEventAdditionalInfo[] = $searchCriteriaDeviceManagementEventAdditionalInfo;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaDeviceManagementEventLoginId
      *
-     * @ElementName searchCriteriaDeviceManagementEventLoginId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventLoginId[]
      */
     public function getSearchCriteriaDeviceManagementEventLoginId()
     {
-        return $this->searchCriteriaDeviceManagementEventLoginId;
+        return $this->searchCriteriaDeviceManagementEventLoginId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDeviceManagementEventLoginId;
     }
 
     /**
      * Setter for searchCriteriaDeviceManagementEventLoginId
      *
-     * @ElementName searchCriteriaDeviceManagementEventLoginId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventLoginId[] $searchCriteriaDeviceManagementEventLoginId
      * @return $this
      */
@@ -367,15 +447,23 @@ class GroupDeviceManagementEventGetListRequest22 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDeviceManagementEventLoginId()
+    {
+        $this->searchCriteriaDeviceManagementEventLoginId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDeviceManagementEventLoginId
      *
-     * @ElementName searchCriteriaDeviceManagementEventLoginId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceManagementEventLoginId $searchCriteriaDeviceManagementEventLoginId
      * @return $this
      */
     public function addSearchCriteriaDeviceManagementEventLoginId($searchCriteriaDeviceManagementEventLoginId)
     {
-        $this->searchCriteriaDeviceManagementEventLoginId []= $searchCriteriaDeviceManagementEventLoginId;
+        $this->searchCriteriaDeviceManagementEventLoginId[] = $searchCriteriaDeviceManagementEventLoginId;
         return $this;
     }
 

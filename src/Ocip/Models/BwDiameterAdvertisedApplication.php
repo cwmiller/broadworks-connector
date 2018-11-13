@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static BwDiameterAdvertisedApplication BASE()
  * @method static BwDiameterAdvertisedApplication _3GPP()
- * @ValueType string
+ * @EnumValueType string
  */
 class BwDiameterAdvertisedApplication extends \MyCLabs\Enum\Enum
 {

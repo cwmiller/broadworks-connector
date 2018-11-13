@@ -20,18 +20,21 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName useGroupSetting
+     * @Type bool
      * @var bool|null
      */
     private $useGroupSetting = null;
 
     /**
      * @ElementName profileName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -40,19 +43,17 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -62,21 +63,28 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupSetting
      *
-     * @ElementName useGroupSetting
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupSetting()
     {
-        return $this->useGroupSetting;
+        return $this->useGroupSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupSetting;
     }
 
     /**
      * Setter for useGroupSetting
      *
-     * @ElementName useGroupSetting
-     * @param bool|null $useGroupSetting
+     * @param bool $useGroupSetting
      * @return $this
      */
     public function setUseGroupSetting($useGroupSetting)
@@ -86,28 +94,46 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupSetting()
+    {
+        $this->useGroupSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileName
      *
-     * @ElementName profileName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getProfileName()
     {
-        return $this->profileName;
+        return $this->profileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileName;
     }
 
     /**
      * Setter for profileName
      *
-     * @ElementName profileName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $profileName
+     * @param string|null $profileName
      * @return $this
      */
     public function setProfileName($profileName)
     {
-        $this->profileName = $profileName;
+        if ($profileName === null) {
+            $this->profileName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->profileName = $profileName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfileName()
+    {
+        $this->profileName = null;
         return $this;
     }
 

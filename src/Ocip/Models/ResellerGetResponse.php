@@ -14,6 +14,7 @@ class ResellerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
 
     /**
      * @ElementName resellerName
+     * @Type string
      * @var string|null
      */
     private $resellerName = null;
@@ -21,24 +22,31 @@ class ResellerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     /**
      * Getter for resellerName
      *
-     * @ElementName resellerName
-     * @return string|null
+     * @return string
      */
     public function getResellerName()
     {
-        return $this->resellerName;
+        return $this->resellerName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerName;
     }
 
     /**
      * Setter for resellerName
      *
-     * @ElementName resellerName
-     * @param string|null $resellerName
+     * @param string $resellerName
      * @return $this
      */
     public function setResellerName($resellerName)
     {
         $this->resellerName = $resellerName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerName()
+    {
+        $this->resellerName = null;
         return $this;
     }
 

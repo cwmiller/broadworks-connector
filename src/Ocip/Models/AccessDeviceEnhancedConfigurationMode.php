@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AccessDeviceEnhancedConfigurationMode _DEFAULT()
  * @method static AccessDeviceEnhancedConfigurationMode MANUAL()
  * @method static AccessDeviceEnhancedConfigurationMode CUSTOM()
- * @ValueType string
+ * @EnumValueType string
  */
 class AccessDeviceEnhancedConfigurationMode extends \MyCLabs\Enum\Enum
 {

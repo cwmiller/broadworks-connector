@@ -15,48 +15,57 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
 
     /**
      * @ElementName numberOfCallsQueuedNow
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsQueuedNow = null;
 
     /**
      * @ElementName generateDailyReport
+     * @Type bool
      * @var bool|null
      */
     private $generateDailyReport = null;
 
     /**
      * @ElementName collectionPeriodMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
 
     /**
      * @ElementName reportingEmailAddress1
+     * @Type string
      * @var string|null
      */
     private $reportingEmailAddress1 = null;
 
     /**
      * @ElementName reportingEmailAddress2
+     * @Type string
      * @var string|null
      */
     private $reportingEmailAddress2 = null;
 
     /**
      * @ElementName queueStatisticsYesterday
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null
      */
     private $queueStatisticsYesterday = null;
 
     /**
      * @ElementName queueStatisticsToday
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null
      */
     private $queueStatisticsToday = null;
 
     /**
      * @ElementName agentStatistics
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics13mp8
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics13mp8[]
      */
     private $agentStatistics = array(
@@ -66,19 +75,17 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     /**
      * Getter for numberOfCallsQueuedNow
      *
-     * @ElementName numberOfCallsQueuedNow
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsQueuedNow()
     {
-        return $this->numberOfCallsQueuedNow;
+        return $this->numberOfCallsQueuedNow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsQueuedNow;
     }
 
     /**
      * Setter for numberOfCallsQueuedNow
      *
-     * @ElementName numberOfCallsQueuedNow
-     * @param int|null $numberOfCallsQueuedNow
+     * @param int $numberOfCallsQueuedNow
      * @return $this
      */
     public function setNumberOfCallsQueuedNow($numberOfCallsQueuedNow)
@@ -88,21 +95,28 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsQueuedNow()
+    {
+        $this->numberOfCallsQueuedNow = null;
+        return $this;
+    }
+
+    /**
      * Getter for generateDailyReport
      *
-     * @ElementName generateDailyReport
-     * @return bool|null
+     * @return bool
      */
     public function getGenerateDailyReport()
     {
-        return $this->generateDailyReport;
+        return $this->generateDailyReport instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->generateDailyReport;
     }
 
     /**
      * Setter for generateDailyReport
      *
-     * @ElementName generateDailyReport
-     * @param bool|null $generateDailyReport
+     * @param bool $generateDailyReport
      * @return $this
      */
     public function setGenerateDailyReport($generateDailyReport)
@@ -112,21 +126,28 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGenerateDailyReport()
+    {
+        $this->generateDailyReport = null;
+        return $this;
+    }
+
+    /**
      * Getter for collectionPeriodMinutes
      *
-     * @ElementName collectionPeriodMinutes
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
      */
     public function getCollectionPeriodMinutes()
     {
-        return $this->collectionPeriodMinutes;
+        return $this->collectionPeriodMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collectionPeriodMinutes;
     }
 
     /**
      * Setter for collectionPeriodMinutes
      *
-     * @ElementName collectionPeriodMinutes
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null $collectionPeriodMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes $collectionPeriodMinutes
      * @return $this
      */
     public function setCollectionPeriodMinutes(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes $collectionPeriodMinutes)
@@ -136,21 +157,28 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCollectionPeriodMinutes()
+    {
+        $this->collectionPeriodMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportingEmailAddress1
      *
-     * @ElementName reportingEmailAddress1
-     * @return string|null
+     * @return string
      */
     public function getReportingEmailAddress1()
     {
-        return $this->reportingEmailAddress1;
+        return $this->reportingEmailAddress1 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingEmailAddress1;
     }
 
     /**
      * Setter for reportingEmailAddress1
      *
-     * @ElementName reportingEmailAddress1
-     * @param string|null $reportingEmailAddress1
+     * @param string $reportingEmailAddress1
      * @return $this
      */
     public function setReportingEmailAddress1($reportingEmailAddress1)
@@ -160,21 +188,28 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportingEmailAddress1()
+    {
+        $this->reportingEmailAddress1 = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportingEmailAddress2
      *
-     * @ElementName reportingEmailAddress2
-     * @return string|null
+     * @return string
      */
     public function getReportingEmailAddress2()
     {
-        return $this->reportingEmailAddress2;
+        return $this->reportingEmailAddress2 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingEmailAddress2;
     }
 
     /**
      * Setter for reportingEmailAddress2
      *
-     * @ElementName reportingEmailAddress2
-     * @param string|null $reportingEmailAddress2
+     * @param string $reportingEmailAddress2
      * @return $this
      */
     public function setReportingEmailAddress2($reportingEmailAddress2)
@@ -184,21 +219,28 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportingEmailAddress2()
+    {
+        $this->reportingEmailAddress2 = null;
+        return $this;
+    }
+
+    /**
      * Getter for queueStatisticsYesterday
      *
-     * @ElementName queueStatisticsYesterday
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8
      */
     public function getQueueStatisticsYesterday()
     {
-        return $this->queueStatisticsYesterday;
+        return $this->queueStatisticsYesterday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->queueStatisticsYesterday;
     }
 
     /**
      * Setter for queueStatisticsYesterday
      *
-     * @ElementName queueStatisticsYesterday
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null $queueStatisticsYesterday
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8 $queueStatisticsYesterday
      * @return $this
      */
     public function setQueueStatisticsYesterday(\CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8 $queueStatisticsYesterday)
@@ -208,21 +250,28 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetQueueStatisticsYesterday()
+    {
+        $this->queueStatisticsYesterday = null;
+        return $this;
+    }
+
+    /**
      * Getter for queueStatisticsToday
      *
-     * @ElementName queueStatisticsToday
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8
      */
     public function getQueueStatisticsToday()
     {
-        return $this->queueStatisticsToday;
+        return $this->queueStatisticsToday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->queueStatisticsToday;
     }
 
     /**
      * Setter for queueStatisticsToday
      *
-     * @ElementName queueStatisticsToday
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8|null $queueStatisticsToday
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8 $queueStatisticsToday
      * @return $this
      */
     public function setQueueStatisticsToday(\CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueStatistics13mp8 $queueStatisticsToday)
@@ -232,20 +281,27 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetQueueStatisticsToday()
+    {
+        $this->queueStatisticsToday = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentStatistics
      *
-     * @ElementName agentStatistics
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics13mp8[]
      */
     public function getAgentStatistics()
     {
-        return $this->agentStatistics;
+        return $this->agentStatistics instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentStatistics;
     }
 
     /**
      * Setter for agentStatistics
      *
-     * @ElementName agentStatistics
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics13mp8[] $agentStatistics
      * @return $this
      */
@@ -256,15 +312,23 @@ class GroupCallCenterGetInstanceStatisticsResponse13mp8 extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentStatistics()
+    {
+        $this->agentStatistics = null;
+        return $this;
+    }
+
+    /**
      * Adder for agentStatistics
      *
-     * @ElementName agentStatistics
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentStatistics13mp8 $agentStatistics
      * @return $this
      */
     public function addAgentStatistics($agentStatistics)
     {
-        $this->agentStatistics []= $agentStatistics;
+        $this->agentStatistics[] = $agentStatistics;
         return $this;
     }
 

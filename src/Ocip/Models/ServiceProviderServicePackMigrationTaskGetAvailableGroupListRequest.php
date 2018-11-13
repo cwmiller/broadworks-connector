@@ -18,18 +18,22 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaGroupId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -38,6 +42,8 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
 
     /**
      * @ElementName searchCriteriaGroupName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(
@@ -47,19 +53,17 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +73,28 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -93,20 +104,27 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     public function getSearchCriteriaGroupId()
     {
-        return $this->searchCriteriaGroupId;
+        return $this->searchCriteriaGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupId;
     }
 
     /**
      * Setter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
@@ -117,33 +135,39 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupId()
+    {
+        $this->searchCriteriaGroupId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId $searchCriteriaGroupId
      * @return $this
      */
     public function addSearchCriteriaGroupId($searchCriteriaGroupId)
     {
-        $this->searchCriteriaGroupId []= $searchCriteriaGroupId;
+        $this->searchCriteriaGroupId[] = $searchCriteriaGroupId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaGroupName
      *
-     * @ElementName searchCriteriaGroupName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     public function getSearchCriteriaGroupName()
     {
-        return $this->searchCriteriaGroupName;
+        return $this->searchCriteriaGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupName;
     }
 
     /**
      * Setter for searchCriteriaGroupName
      *
-     * @ElementName searchCriteriaGroupName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[] $searchCriteriaGroupName
      * @return $this
      */
@@ -154,15 +178,23 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest extend
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupName()
+    {
+        $this->searchCriteriaGroupName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupName
      *
-     * @ElementName searchCriteriaGroupName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName $searchCriteriaGroupName
      * @return $this
      */
     public function addSearchCriteriaGroupName($searchCriteriaGroupName)
     {
-        $this->searchCriteriaGroupName []= $searchCriteriaGroupName;
+        $this->searchCriteriaGroupName[] = $searchCriteriaGroupName;
         return $this;
     }
 

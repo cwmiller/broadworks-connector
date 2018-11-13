@@ -17,18 +17,21 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName deactivationReason
+     * @Type string
      * @var string|null
      */
     private $deactivationReason = null;
@@ -36,19 +39,17 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -58,21 +59,28 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -82,26 +90,42 @@ class EnterpriseBroadWorksMobileManagerActivationRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for deactivationReason
      *
-     * @ElementName deactivationReason
-     * @return string|null
+     * @return string
      */
     public function getDeactivationReason()
     {
-        return $this->deactivationReason;
+        return $this->deactivationReason instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deactivationReason;
     }
 
     /**
      * Setter for deactivationReason
      *
-     * @ElementName deactivationReason
-     * @param string|null $deactivationReason
+     * @param string $deactivationReason
      * @return $this
      */
     public function setDeactivationReason($deactivationReason)
     {
         $this->deactivationReason = $deactivationReason;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeactivationReason()
+    {
+        $this->deactivationReason = null;
         return $this;
     }
 

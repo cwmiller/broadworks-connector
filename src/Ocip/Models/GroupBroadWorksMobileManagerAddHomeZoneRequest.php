@@ -16,42 +16,49 @@ class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName homeZoneDomainName
+     * @Type string
      * @var string|null
      */
     private $homeZoneDomainName = null;
 
     /**
      * @ElementName mobileCountryCode
+     * @Type string
      * @var string|null
      */
     private $mobileCountryCode = null;
 
     /**
      * @ElementName mobileNetworkCode
+     * @Type string
      * @var string|null
      */
     private $mobileNetworkCode = null;
 
     /**
      * @ElementName locationAreaCode
+     * @Type string
      * @var string|null
      */
     private $locationAreaCode = null;
 
     /**
      * @ElementName cellIdentity
+     * @Type string
      * @var string|null
      */
     private $cellIdentity = null;
@@ -59,19 +66,17 @@ class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConn
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -81,21 +86,28 @@ class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -105,21 +117,28 @@ class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for homeZoneDomainName
      *
-     * @ElementName homeZoneDomainName
-     * @return string|null
+     * @return string
      */
     public function getHomeZoneDomainName()
     {
-        return $this->homeZoneDomainName;
+        return $this->homeZoneDomainName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZoneDomainName;
     }
 
     /**
      * Setter for homeZoneDomainName
      *
-     * @ElementName homeZoneDomainName
-     * @param string|null $homeZoneDomainName
+     * @param string $homeZoneDomainName
      * @return $this
      */
     public function setHomeZoneDomainName($homeZoneDomainName)
@@ -129,21 +148,28 @@ class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHomeZoneDomainName()
+    {
+        $this->homeZoneDomainName = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobileCountryCode
      *
-     * @ElementName mobileCountryCode
-     * @return string|null
+     * @return string
      */
     public function getMobileCountryCode()
     {
-        return $this->mobileCountryCode;
+        return $this->mobileCountryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileCountryCode;
     }
 
     /**
      * Setter for mobileCountryCode
      *
-     * @ElementName mobileCountryCode
-     * @param string|null $mobileCountryCode
+     * @param string $mobileCountryCode
      * @return $this
      */
     public function setMobileCountryCode($mobileCountryCode)
@@ -153,21 +179,28 @@ class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileCountryCode()
+    {
+        $this->mobileCountryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobileNetworkCode
      *
-     * @ElementName mobileNetworkCode
-     * @return string|null
+     * @return string
      */
     public function getMobileNetworkCode()
     {
-        return $this->mobileNetworkCode;
+        return $this->mobileNetworkCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileNetworkCode;
     }
 
     /**
      * Setter for mobileNetworkCode
      *
-     * @ElementName mobileNetworkCode
-     * @param string|null $mobileNetworkCode
+     * @param string $mobileNetworkCode
      * @return $this
      */
     public function setMobileNetworkCode($mobileNetworkCode)
@@ -177,21 +210,28 @@ class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileNetworkCode()
+    {
+        $this->mobileNetworkCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for locationAreaCode
      *
-     * @ElementName locationAreaCode
-     * @return string|null
+     * @return string
      */
     public function getLocationAreaCode()
     {
-        return $this->locationAreaCode;
+        return $this->locationAreaCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locationAreaCode;
     }
 
     /**
      * Setter for locationAreaCode
      *
-     * @ElementName locationAreaCode
-     * @param string|null $locationAreaCode
+     * @param string $locationAreaCode
      * @return $this
      */
     public function setLocationAreaCode($locationAreaCode)
@@ -201,26 +241,42 @@ class GroupBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocationAreaCode()
+    {
+        $this->locationAreaCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for cellIdentity
      *
-     * @ElementName cellIdentity
-     * @return string|null
+     * @return string
      */
     public function getCellIdentity()
     {
-        return $this->cellIdentity;
+        return $this->cellIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cellIdentity;
     }
 
     /**
      * Setter for cellIdentity
      *
-     * @ElementName cellIdentity
-     * @param string|null $cellIdentity
+     * @param string $cellIdentity
      * @return $this
      */
     public function setCellIdentity($cellIdentity)
     {
         $this->cellIdentity = $cellIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCellIdentity()
+    {
+        $this->cellIdentity = null;
         return $this;
     }
 

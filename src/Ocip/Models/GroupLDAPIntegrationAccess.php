@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupLDAPIntegrationAccess FULL()
  * @method static GroupLDAPIntegrationAccess READ_ONLY()
  * @method static GroupLDAPIntegrationAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupLDAPIntegrationAccess extends \MyCLabs\Enum\Enum
 {

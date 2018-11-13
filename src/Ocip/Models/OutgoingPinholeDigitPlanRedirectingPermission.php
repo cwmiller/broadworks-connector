@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static OutgoingPinholeDigitPlanRedirectingPermission IGNORE()
  * @method static OutgoingPinholeDigitPlanRedirectingPermission ALLOW()
- * @ValueType string
+ * @EnumValueType string
  */
 class OutgoingPinholeDigitPlanRedirectingPermission extends \MyCLabs\Enum\Enum
 {

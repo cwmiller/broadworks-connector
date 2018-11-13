@@ -14,6 +14,7 @@ class UserOutgoingCallingPlanAuthorizationCodeGetResponse extends \CWM\BroadWork
 
     /**
      * @ElementName useCustomSettings
+     * @Type bool
      * @var bool|null
      */
     private $useCustomSettings = null;
@@ -21,24 +22,31 @@ class UserOutgoingCallingPlanAuthorizationCodeGetResponse extends \CWM\BroadWork
     /**
      * Getter for useCustomSettings
      *
-     * @ElementName useCustomSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseCustomSettings()
     {
-        return $this->useCustomSettings;
+        return $this->useCustomSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useCustomSettings;
     }
 
     /**
      * Setter for useCustomSettings
      *
-     * @ElementName useCustomSettings
-     * @param bool|null $useCustomSettings
+     * @param bool $useCustomSettings
      * @return $this
      */
     public function setUseCustomSettings($useCustomSettings)
     {
         $this->useCustomSettings = $useCustomSettings;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseCustomSettings()
+    {
+        $this->useCustomSettings = null;
         return $this;
     }
 

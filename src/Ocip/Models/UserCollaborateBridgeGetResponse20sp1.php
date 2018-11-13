@@ -16,30 +16,36 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName bridgeId
+     * @Type string
      * @var string|null
      */
     private $bridgeId = null;
 
     /**
      * @ElementName bridgeName
+     * @Type string
      * @var string|null
      */
     private $bridgeName = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
+     * @Type string
      * @var string|null
      */
     private $extension = null;
 
     /**
      * @ElementName alternateNumberEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21[]
      */
     private $alternateNumberEntry = array(
@@ -48,12 +54,14 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName supportOutDial
+     * @Type bool
      * @var bool|null
      */
     private $supportOutDial = null;
 
     /**
      * @ElementName maxCollaborateRoomParticipants
+     * @Type int
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -61,19 +69,17 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for bridgeId
      *
-     * @ElementName bridgeId
-     * @return string|null
+     * @return string
      */
     public function getBridgeId()
     {
-        return $this->bridgeId;
+        return $this->bridgeId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bridgeId;
     }
 
     /**
      * Setter for bridgeId
      *
-     * @ElementName bridgeId
-     * @param string|null $bridgeId
+     * @param string $bridgeId
      * @return $this
      */
     public function setBridgeId($bridgeId)
@@ -83,21 +89,28 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBridgeId()
+    {
+        $this->bridgeId = null;
+        return $this;
+    }
+
+    /**
      * Getter for bridgeName
      *
-     * @ElementName bridgeName
-     * @return string|null
+     * @return string
      */
     public function getBridgeName()
     {
-        return $this->bridgeName;
+        return $this->bridgeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bridgeName;
     }
 
     /**
      * Setter for bridgeName
      *
-     * @ElementName bridgeName
-     * @param string|null $bridgeName
+     * @param string $bridgeName
      * @return $this
      */
     public function setBridgeName($bridgeName)
@@ -107,21 +120,28 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBridgeName()
+    {
+        $this->bridgeName = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -131,21 +151,28 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for extension
      *
-     * @ElementName extension
-     * @return string|null
+     * @return string
      */
     public function getExtension()
     {
-        return $this->extension;
+        return $this->extension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extension;
     }
 
     /**
      * Setter for extension
      *
-     * @ElementName extension
-     * @param string|null $extension
+     * @param string $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -155,20 +182,27 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtension()
+    {
+        $this->extension = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateNumberEntry
      *
-     * @ElementName alternateNumberEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21[]
      */
     public function getAlternateNumberEntry()
     {
-        return $this->alternateNumberEntry;
+        return $this->alternateNumberEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateNumberEntry;
     }
 
     /**
      * Setter for alternateNumberEntry
      *
-     * @ElementName alternateNumberEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21[] $alternateNumberEntry
      * @return $this
      */
@@ -179,34 +213,40 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateNumberEntry()
+    {
+        $this->alternateNumberEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for alternateNumberEntry
      *
-     * @ElementName alternateNumberEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21 $alternateNumberEntry
      * @return $this
      */
     public function addAlternateNumberEntry($alternateNumberEntry)
     {
-        $this->alternateNumberEntry []= $alternateNumberEntry;
+        $this->alternateNumberEntry[] = $alternateNumberEntry;
         return $this;
     }
 
     /**
      * Getter for supportOutDial
      *
-     * @ElementName supportOutDial
-     * @return bool|null
+     * @return bool
      */
     public function getSupportOutDial()
     {
-        return $this->supportOutDial;
+        return $this->supportOutDial instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportOutDial;
     }
 
     /**
      * Setter for supportOutDial
      *
-     * @ElementName supportOutDial
-     * @param bool|null $supportOutDial
+     * @param bool $supportOutDial
      * @return $this
      */
     public function setSupportOutDial($supportOutDial)
@@ -216,26 +256,42 @@ class UserCollaborateBridgeGetResponse20sp1 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportOutDial()
+    {
+        $this->supportOutDial = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCollaborateRoomParticipants
      *
-     * @ElementName maxCollaborateRoomParticipants
-     * @return int|null
+     * @return int
      */
     public function getMaxCollaborateRoomParticipants()
     {
-        return $this->maxCollaborateRoomParticipants;
+        return $this->maxCollaborateRoomParticipants instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCollaborateRoomParticipants;
     }
 
     /**
      * Setter for maxCollaborateRoomParticipants
      *
-     * @ElementName maxCollaborateRoomParticipants
-     * @param int|null $maxCollaborateRoomParticipants
+     * @param int $maxCollaborateRoomParticipants
      * @return $this
      */
     public function setMaxCollaborateRoomParticipants($maxCollaborateRoomParticipants)
     {
         $this->maxCollaborateRoomParticipants = $maxCollaborateRoomParticipants;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxCollaborateRoomParticipants()
+    {
+        $this->maxCollaborateRoomParticipants = null;
         return $this;
     }
 

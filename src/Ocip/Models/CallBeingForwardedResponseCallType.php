@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallBeingForwardedResponseCallType NEVER()
  * @method static CallBeingForwardedResponseCallType INTERNAL_CALLS()
  * @method static CallBeingForwardedResponseCallType ALL_CALLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallBeingForwardedResponseCallType extends \MyCLabs\Enum\Enum
 {

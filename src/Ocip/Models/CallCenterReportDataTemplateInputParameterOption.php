@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterReportDataTemplateInputParameterOption REQUIRED()
  * @method static CallCenterReportDataTemplateInputParameterOption DOES_NOT_APPLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportDataTemplateInputParameterOption extends \MyCLabs\Enum\Enum
 {

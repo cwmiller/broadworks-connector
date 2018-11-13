@@ -19,12 +19,15 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaResellerId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(
@@ -33,6 +36,8 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
 
     /**
      * @ElementName searchCriteriaResellerName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName[]
      */
     private $searchCriteriaResellerName = array(
@@ -42,19 +47,17 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -64,20 +67,27 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaResellerId
      *
-     * @ElementName searchCriteriaResellerId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     public function getSearchCriteriaResellerId()
     {
-        return $this->searchCriteriaResellerId;
+        return $this->searchCriteriaResellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaResellerId;
     }
 
     /**
      * Setter for searchCriteriaResellerId
      *
-     * @ElementName searchCriteriaResellerId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
      * @return $this
      */
@@ -88,33 +98,39 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaResellerId()
+    {
+        $this->searchCriteriaResellerId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaResellerId
      *
-     * @ElementName searchCriteriaResellerId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId $searchCriteriaResellerId
      * @return $this
      */
     public function addSearchCriteriaResellerId($searchCriteriaResellerId)
     {
-        $this->searchCriteriaResellerId []= $searchCriteriaResellerId;
+        $this->searchCriteriaResellerId[] = $searchCriteriaResellerId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaResellerName
      *
-     * @ElementName searchCriteriaResellerName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName[]
      */
     public function getSearchCriteriaResellerName()
     {
-        return $this->searchCriteriaResellerName;
+        return $this->searchCriteriaResellerName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaResellerName;
     }
 
     /**
      * Setter for searchCriteriaResellerName
      *
-     * @ElementName searchCriteriaResellerName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName[] $searchCriteriaResellerName
      * @return $this
      */
@@ -125,15 +141,23 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaResellerName()
+    {
+        $this->searchCriteriaResellerName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaResellerName
      *
-     * @ElementName searchCriteriaResellerName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName $searchCriteriaResellerName
      * @return $this
      */
     public function addSearchCriteriaResellerName($searchCriteriaResellerName)
     {
-        $this->searchCriteriaResellerName []= $searchCriteriaResellerName;
+        $this->searchCriteriaResellerName[] = $searchCriteriaResellerName;
         return $this;
     }
 

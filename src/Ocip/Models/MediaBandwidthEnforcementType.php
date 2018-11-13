@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static MediaBandwidthEnforcementType ALLOW_ALL()
  * @method static MediaBandwidthEnforcementType ALLOW_UNSPECIFIED()
  * @method static MediaBandwidthEnforcementType ENFORCE_ALL()
- * @ValueType string
+ * @EnumValueType string
  */
 class MediaBandwidthEnforcementType extends \MyCLabs\Enum\Enum
 {

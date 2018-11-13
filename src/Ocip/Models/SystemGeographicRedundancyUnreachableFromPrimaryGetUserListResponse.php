@@ -21,6 +21,7 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse extend
 
     /**
      * @ElementName unreachableFromPrimaryUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $unreachableFromPrimaryUserTable = null;
@@ -28,24 +29,31 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse extend
     /**
      * Getter for unreachableFromPrimaryUserTable
      *
-     * @ElementName unreachableFromPrimaryUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUnreachableFromPrimaryUserTable()
     {
-        return $this->unreachableFromPrimaryUserTable;
+        return $this->unreachableFromPrimaryUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unreachableFromPrimaryUserTable;
     }
 
     /**
      * Setter for unreachableFromPrimaryUserTable
      *
-     * @ElementName unreachableFromPrimaryUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $unreachableFromPrimaryUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $unreachableFromPrimaryUserTable
      * @return $this
      */
     public function setUnreachableFromPrimaryUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $unreachableFromPrimaryUserTable)
     {
         $this->unreachableFromPrimaryUserTable = $unreachableFromPrimaryUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnreachableFromPrimaryUserTable()
+    {
+        $this->unreachableFromPrimaryUserTable = null;
         return $this;
     }
 

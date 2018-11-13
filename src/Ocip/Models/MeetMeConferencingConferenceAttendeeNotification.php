@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PLAY_RECORDED_NAME()
  * @method static MeetMeConferencingConferenceAttendeeNotification
  * NO_NOTIFICATION()
- * @ValueType string
+ * @EnumValueType string
  */
 class MeetMeConferencingConferenceAttendeeNotification extends \MyCLabs\Enum\Enum
 {

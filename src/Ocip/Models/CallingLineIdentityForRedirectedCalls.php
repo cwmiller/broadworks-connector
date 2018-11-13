@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * REDIRECTING_USER_IDENTITY_FOR_EXTERNAL_REDIRECTIONS()
  * @method static CallingLineIdentityForRedirectedCalls
  * REDIRECTING_USER_IDENTITY_FOR_ALL_REDIRECTIONS()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallingLineIdentityForRedirectedCalls extends \MyCLabs\Enum\Enum
 {

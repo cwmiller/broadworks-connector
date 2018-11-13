@@ -10,18 +10,21 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
 
     /**
      * @ElementName startTime
+     * @Type string
      * @var string|null
      */
     private $startTime = null;
 
     /**
      * @ElementName duration
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
     private $duration = null;
 
     /**
      * @ElementName recurrence
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     private $recurrence = null;
@@ -29,19 +32,17 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
     /**
      * Getter for startTime
      *
-     * @ElementName startTime
-     * @return string|null
+     * @return string
      */
     public function getStartTime()
     {
-        return $this->startTime;
+        return $this->startTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startTime;
     }
 
     /**
      * Setter for startTime
      *
-     * @ElementName startTime
-     * @param string|null $startTime
+     * @param string $startTime
      * @return $this
      */
     public function setStartTime($startTime)
@@ -51,21 +52,28 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartTime()
+    {
+        $this->startTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for duration
      *
-     * @ElementName duration
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
      */
     public function getDuration()
     {
-        return $this->duration;
+        return $this->duration instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->duration;
     }
 
     /**
      * Setter for duration
      *
-     * @ElementName duration
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null $duration
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration $duration
      * @return $this
      */
     public function setDuration(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration $duration)
@@ -75,26 +83,42 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDuration()
+    {
+        $this->duration = null;
+        return $this;
+    }
+
+    /**
      * Getter for recurrence
      *
-     * @ElementName recurrence
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Recurrence
      */
     public function getRecurrence()
     {
-        return $this->recurrence;
+        return $this->recurrence instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recurrence;
     }
 
     /**
      * Setter for recurrence
      *
-     * @ElementName recurrence
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null $recurrence
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Recurrence $recurrence
      * @return $this
      */
     public function setRecurrence(\CWM\BroadWorksConnector\Ocip\Models\Recurrence $recurrence)
     {
         $this->recurrence = $recurrence;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecurrence()
+    {
+        $this->recurrence = null;
         return $this;
     }
 

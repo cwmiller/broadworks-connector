@@ -17,18 +17,21 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName maximumTargetUsers
+     * @Type int
      * @var int|null
      */
     private $maximumTargetUsers = null;
@@ -36,19 +39,17 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -58,21 +59,28 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -82,26 +90,42 @@ class GroupGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumTargetUsers
      *
-     * @ElementName maximumTargetUsers
-     * @return int|null
+     * @return int
      */
     public function getMaximumTargetUsers()
     {
-        return $this->maximumTargetUsers;
+        return $this->maximumTargetUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumTargetUsers;
     }
 
     /**
      * Setter for maximumTargetUsers
      *
-     * @ElementName maximumTargetUsers
-     * @param int|null $maximumTargetUsers
+     * @param int $maximumTargetUsers
      * @return $this
      */
     public function setMaximumTargetUsers($maximumTargetUsers)
     {
         $this->maximumTargetUsers = $maximumTargetUsers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaximumTargetUsers()
+    {
+        $this->maximumTargetUsers = null;
         return $this;
     }
 

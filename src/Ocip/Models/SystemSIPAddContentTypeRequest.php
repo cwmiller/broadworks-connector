@@ -16,12 +16,14 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName contentType
+     * @Type string
      * @var string|null
      */
     private $contentType = null;
 
     /**
      * @ElementName interface
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface|null
      */
     private $interface = null;
@@ -29,19 +31,17 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for contentType
      *
-     * @ElementName contentType
-     * @return string|null
+     * @return string
      */
     public function getContentType()
     {
-        return $this->contentType;
+        return $this->contentType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contentType;
     }
 
     /**
      * Setter for contentType
      *
-     * @ElementName contentType
-     * @param string|null $contentType
+     * @param string $contentType
      * @return $this
      */
     public function setContentType($contentType)
@@ -51,26 +51,42 @@ class SystemSIPAddContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContentType()
+    {
+        $this->contentType = null;
+        return $this;
+    }
+
+    /**
      * Getter for interface
      *
-     * @ElementName interface
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface
      */
     public function getInterface()
     {
-        return $this->interface;
+        return $this->interface instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interface;
     }
 
     /**
      * Setter for interface
      *
-     * @ElementName interface
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface|null $interface
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface $interface
      * @return $this
      */
     public function setInterface(\CWM\BroadWorksConnector\Ocip\Models\SystemSIPSupportedInterface $interface)
     {
         $this->interface = $interface;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInterface()
+    {
+        $this->interface = null;
         return $this;
     }
 

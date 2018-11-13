@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SystemVoicePortalScope SERVICE_PROVIDER()
  * @method static SystemVoicePortalScope SYSTEM()
- * @ValueType string
+ * @EnumValueType string
  */
 class SystemVoicePortalScope extends \MyCLabs\Enum\Enum
 {

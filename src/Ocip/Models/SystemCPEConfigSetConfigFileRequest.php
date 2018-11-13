@@ -16,12 +16,14 @@ class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName configFile
+     * @Type string
      * @var string|null
      */
     private $configFile = null;
@@ -29,19 +31,17 @@ class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -51,26 +51,42 @@ class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for configFile
      *
-     * @ElementName configFile
-     * @return string|null
+     * @return string
      */
     public function getConfigFile()
     {
-        return $this->configFile;
+        return $this->configFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configFile;
     }
 
     /**
      * Setter for configFile
      *
-     * @ElementName configFile
-     * @param string|null $configFile
+     * @param string $configFile
      * @return $this
      */
     public function setConfigFile($configFile)
     {
         $this->configFile = $configFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConfigFile()
+    {
+        $this->configFile = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class SystemBroadWorksMobilityServiceAccessCodeGetListResponse21 extends \CWM\Br
 
     /**
      * @ElementName serviceAccessCodeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceAccessCodeTable = null;
@@ -23,24 +24,31 @@ class SystemBroadWorksMobilityServiceAccessCodeGetListResponse21 extends \CWM\Br
     /**
      * Getter for serviceAccessCodeTable
      *
-     * @ElementName serviceAccessCodeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServiceAccessCodeTable()
     {
-        return $this->serviceAccessCodeTable;
+        return $this->serviceAccessCodeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceAccessCodeTable;
     }
 
     /**
      * Setter for serviceAccessCodeTable
      *
-     * @ElementName serviceAccessCodeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceAccessCodeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceAccessCodeTable
      * @return $this
      */
     public function setServiceAccessCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceAccessCodeTable)
     {
         $this->serviceAccessCodeTable = $serviceAccessCodeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceAccessCodeTable()
+    {
+        $this->serviceAccessCodeTable = null;
         return $this;
     }
 

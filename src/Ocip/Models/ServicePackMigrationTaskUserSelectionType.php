@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServicePackMigrationTaskUserSelectionType ALL()
  * @method static ServicePackMigrationTaskUserSelectionType ANY()
  * @method static ServicePackMigrationTaskUserSelectionType NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServicePackMigrationTaskUserSelectionType extends \MyCLabs\Enum\Enum
 {

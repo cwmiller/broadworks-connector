@@ -10,12 +10,14 @@ class CollaborateRoomScheduleScheduleReservationless
 
     /**
      * @ElementName startTime
+     * @Type string
      * @var string|null
      */
     private $startTime = null;
 
     /**
      * @ElementName endTime
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,19 +26,17 @@ class CollaborateRoomScheduleScheduleReservationless
     /**
      * Getter for startTime
      *
-     * @ElementName startTime
-     * @return string|null
+     * @return string
      */
     public function getStartTime()
     {
-        return $this->startTime;
+        return $this->startTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startTime;
     }
 
     /**
      * Setter for startTime
      *
-     * @ElementName startTime
-     * @param string|null $startTime
+     * @param string $startTime
      * @return $this
      */
     public function setStartTime($startTime)
@@ -46,28 +46,46 @@ class CollaborateRoomScheduleScheduleReservationless
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartTime()
+    {
+        $this->startTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for endTime
      *
-     * @ElementName endTime
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getEndTime()
     {
-        return $this->endTime;
+        return $this->endTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endTime;
     }
 
     /**
      * Setter for endTime
      *
-     * @ElementName endTime
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $endTime
+     * @param string|null $endTime
      * @return $this
      */
     public function setEndTime($endTime)
     {
-        $this->endTime = $endTime;
+        if ($endTime === null) {
+            $this->endTime = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->endTime = $endTime;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEndTime()
+    {
+        $this->endTime = null;
         return $this;
     }
 

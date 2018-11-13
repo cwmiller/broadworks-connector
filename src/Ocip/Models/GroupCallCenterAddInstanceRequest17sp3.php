@@ -20,156 +20,182 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $type = null;
 
     /**
      * @ElementName policy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
 
     /**
      * @ElementName enableVideo
+     * @Type bool
      * @var bool|null
      */
     private $enableVideo = null;
 
     /**
      * @ElementName queueLength
+     * @Type int
      * @var int|null
      */
     private $queueLength = null;
 
     /**
      * @ElementName enableReporting
+     * @Type bool
      * @var bool|null
      */
     private $enableReporting = null;
 
     /**
      * @ElementName reportingServerName
+     * @Type string
      * @var string|null
      */
     private $reportingServerName = null;
 
     /**
      * @ElementName allowCallerToDialEscapeDigit
+     * @Type bool
      * @var bool|null
      */
     private $allowCallerToDialEscapeDigit = null;
 
     /**
      * @ElementName escapeDigit
+     * @Type string
      * @var string|null
      */
     private $escapeDigit = null;
 
     /**
      * @ElementName resetCallStatisticsUponEntryInQueue
+     * @Type bool
      * @var bool|null
      */
     private $resetCallStatisticsUponEntryInQueue = null;
 
     /**
      * @ElementName allowAgentLogoff
+     * @Type bool
      * @var bool|null
      */
     private $allowAgentLogoff = null;
 
     /**
      * @ElementName allowCallWaitingForAgents
+     * @Type bool
      * @var bool|null
      */
     private $allowCallWaitingForAgents = null;
 
     /**
      * @ElementName allowCallsToAgentsInWrapUp
+     * @Type bool
      * @var bool|null
      */
     private $allowCallsToAgentsInWrapUp = null;
 
     /**
      * @ElementName overrideAgentWrapUpTime
+     * @Type bool
      * @var bool|null
      */
     private $overrideAgentWrapUpTime = null;
 
     /**
      * @ElementName wrapUpSeconds
+     * @Type int
      * @var int|null
      */
     private $wrapUpSeconds = null;
 
     /**
      * @ElementName forceDeliveryOfCalls
+     * @Type bool
      * @var bool|null
      */
     private $forceDeliveryOfCalls = null;
 
     /**
      * @ElementName forceDeliveryWaitTimeSeconds
+     * @Type int
      * @var int|null
      */
     private $forceDeliveryWaitTimeSeconds = null;
 
     /**
      * @ElementName enableAutomaticStateChangeForAgents
+     * @Type bool
      * @var bool|null
      */
     private $enableAutomaticStateChangeForAgents = null;
 
     /**
      * @ElementName agentStateAfterCall
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
      */
     private $agentStateAfterCall = null;
 
     /**
      * @ElementName agentUnavailableCode
+     * @Type string
      * @var string|null
      */
     private $agentUnavailableCode = null;
 
     /**
      * @ElementName externalPreferredAudioCodec
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $externalPreferredAudioCodec = null;
 
     /**
      * @ElementName internalPreferredAudioCodec
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $internalPreferredAudioCodec = null;
 
     /**
      * @ElementName playRingingWhenOfferingCall
+     * @Type bool
      * @var bool|null
      */
     private $playRingingWhenOfferingCall = null;
@@ -177,19 +203,17 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -199,21 +223,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -223,21 +254,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -247,21 +285,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileCallCenter $serviceInstanceProfile)
@@ -271,21 +316,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for type
      *
-     * @ElementName type
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
      */
     public function getType()
     {
-        return $this->type;
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
     }
 
     /**
      * Setter for type
      *
-     * @ElementName type
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterType $type
      * @return $this
      */
     public function setType(\CWM\BroadWorksConnector\Ocip\Models\CallCenterType $type)
@@ -295,21 +347,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
+        return $this;
+    }
+
+    /**
      * Getter for policy
      *
-     * @ElementName policy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
      */
     public function getPolicy()
     {
-        return $this->policy;
+        return $this->policy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->policy;
     }
 
     /**
      * Setter for policy
      *
-     * @ElementName policy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null $policy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy
      * @return $this
      */
     public function setPolicy(\CWM\BroadWorksConnector\Ocip\Models\HuntPolicy $policy)
@@ -319,21 +378,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPolicy()
+    {
+        $this->policy = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableVideo
      *
-     * @ElementName enableVideo
-     * @return bool|null
+     * @return bool
      */
     public function getEnableVideo()
     {
-        return $this->enableVideo;
+        return $this->enableVideo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableVideo;
     }
 
     /**
      * Setter for enableVideo
      *
-     * @ElementName enableVideo
-     * @param bool|null $enableVideo
+     * @param bool $enableVideo
      * @return $this
      */
     public function setEnableVideo($enableVideo)
@@ -343,21 +409,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableVideo()
+    {
+        $this->enableVideo = null;
+        return $this;
+    }
+
+    /**
      * Getter for queueLength
      *
-     * @ElementName queueLength
-     * @return int|null
+     * @return int
      */
     public function getQueueLength()
     {
-        return $this->queueLength;
+        return $this->queueLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->queueLength;
     }
 
     /**
      * Setter for queueLength
      *
-     * @ElementName queueLength
-     * @param int|null $queueLength
+     * @param int $queueLength
      * @return $this
      */
     public function setQueueLength($queueLength)
@@ -367,21 +440,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetQueueLength()
+    {
+        $this->queueLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableReporting
      *
-     * @ElementName enableReporting
-     * @return bool|null
+     * @return bool
      */
     public function getEnableReporting()
     {
-        return $this->enableReporting;
+        return $this->enableReporting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableReporting;
     }
 
     /**
      * Setter for enableReporting
      *
-     * @ElementName enableReporting
-     * @param bool|null $enableReporting
+     * @param bool $enableReporting
      * @return $this
      */
     public function setEnableReporting($enableReporting)
@@ -391,21 +471,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableReporting()
+    {
+        $this->enableReporting = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportingServerName
      *
-     * @ElementName reportingServerName
-     * @return string|null
+     * @return string
      */
     public function getReportingServerName()
     {
-        return $this->reportingServerName;
+        return $this->reportingServerName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingServerName;
     }
 
     /**
      * Setter for reportingServerName
      *
-     * @ElementName reportingServerName
-     * @param string|null $reportingServerName
+     * @param string $reportingServerName
      * @return $this
      */
     public function setReportingServerName($reportingServerName)
@@ -415,21 +502,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportingServerName()
+    {
+        $this->reportingServerName = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowCallerToDialEscapeDigit
      *
-     * @ElementName allowCallerToDialEscapeDigit
-     * @return bool|null
+     * @return bool
      */
     public function getAllowCallerToDialEscapeDigit()
     {
-        return $this->allowCallerToDialEscapeDigit;
+        return $this->allowCallerToDialEscapeDigit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCallerToDialEscapeDigit;
     }
 
     /**
      * Setter for allowCallerToDialEscapeDigit
      *
-     * @ElementName allowCallerToDialEscapeDigit
-     * @param bool|null $allowCallerToDialEscapeDigit
+     * @param bool $allowCallerToDialEscapeDigit
      * @return $this
      */
     public function setAllowCallerToDialEscapeDigit($allowCallerToDialEscapeDigit)
@@ -439,21 +533,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowCallerToDialEscapeDigit()
+    {
+        $this->allowCallerToDialEscapeDigit = null;
+        return $this;
+    }
+
+    /**
      * Getter for escapeDigit
      *
-     * @ElementName escapeDigit
-     * @return string|null
+     * @return string
      */
     public function getEscapeDigit()
     {
-        return $this->escapeDigit;
+        return $this->escapeDigit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->escapeDigit;
     }
 
     /**
      * Setter for escapeDigit
      *
-     * @ElementName escapeDigit
-     * @param string|null $escapeDigit
+     * @param string $escapeDigit
      * @return $this
      */
     public function setEscapeDigit($escapeDigit)
@@ -463,21 +564,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEscapeDigit()
+    {
+        $this->escapeDigit = null;
+        return $this;
+    }
+
+    /**
      * Getter for resetCallStatisticsUponEntryInQueue
      *
-     * @ElementName resetCallStatisticsUponEntryInQueue
-     * @return bool|null
+     * @return bool
      */
     public function getResetCallStatisticsUponEntryInQueue()
     {
-        return $this->resetCallStatisticsUponEntryInQueue;
+        return $this->resetCallStatisticsUponEntryInQueue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resetCallStatisticsUponEntryInQueue;
     }
 
     /**
      * Setter for resetCallStatisticsUponEntryInQueue
      *
-     * @ElementName resetCallStatisticsUponEntryInQueue
-     * @param bool|null $resetCallStatisticsUponEntryInQueue
+     * @param bool $resetCallStatisticsUponEntryInQueue
      * @return $this
      */
     public function setResetCallStatisticsUponEntryInQueue($resetCallStatisticsUponEntryInQueue)
@@ -487,21 +595,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResetCallStatisticsUponEntryInQueue()
+    {
+        $this->resetCallStatisticsUponEntryInQueue = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowAgentLogoff
      *
-     * @ElementName allowAgentLogoff
-     * @return bool|null
+     * @return bool
      */
     public function getAllowAgentLogoff()
     {
-        return $this->allowAgentLogoff;
+        return $this->allowAgentLogoff instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowAgentLogoff;
     }
 
     /**
      * Setter for allowAgentLogoff
      *
-     * @ElementName allowAgentLogoff
-     * @param bool|null $allowAgentLogoff
+     * @param bool $allowAgentLogoff
      * @return $this
      */
     public function setAllowAgentLogoff($allowAgentLogoff)
@@ -511,21 +626,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowAgentLogoff()
+    {
+        $this->allowAgentLogoff = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowCallWaitingForAgents
      *
-     * @ElementName allowCallWaitingForAgents
-     * @return bool|null
+     * @return bool
      */
     public function getAllowCallWaitingForAgents()
     {
-        return $this->allowCallWaitingForAgents;
+        return $this->allowCallWaitingForAgents instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCallWaitingForAgents;
     }
 
     /**
      * Setter for allowCallWaitingForAgents
      *
-     * @ElementName allowCallWaitingForAgents
-     * @param bool|null $allowCallWaitingForAgents
+     * @param bool $allowCallWaitingForAgents
      * @return $this
      */
     public function setAllowCallWaitingForAgents($allowCallWaitingForAgents)
@@ -535,21 +657,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowCallWaitingForAgents()
+    {
+        $this->allowCallWaitingForAgents = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowCallsToAgentsInWrapUp
      *
-     * @ElementName allowCallsToAgentsInWrapUp
-     * @return bool|null
+     * @return bool
      */
     public function getAllowCallsToAgentsInWrapUp()
     {
-        return $this->allowCallsToAgentsInWrapUp;
+        return $this->allowCallsToAgentsInWrapUp instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowCallsToAgentsInWrapUp;
     }
 
     /**
      * Setter for allowCallsToAgentsInWrapUp
      *
-     * @ElementName allowCallsToAgentsInWrapUp
-     * @param bool|null $allowCallsToAgentsInWrapUp
+     * @param bool $allowCallsToAgentsInWrapUp
      * @return $this
      */
     public function setAllowCallsToAgentsInWrapUp($allowCallsToAgentsInWrapUp)
@@ -559,21 +688,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowCallsToAgentsInWrapUp()
+    {
+        $this->allowCallsToAgentsInWrapUp = null;
+        return $this;
+    }
+
+    /**
      * Getter for overrideAgentWrapUpTime
      *
-     * @ElementName overrideAgentWrapUpTime
-     * @return bool|null
+     * @return bool
      */
     public function getOverrideAgentWrapUpTime()
     {
-        return $this->overrideAgentWrapUpTime;
+        return $this->overrideAgentWrapUpTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideAgentWrapUpTime;
     }
 
     /**
      * Setter for overrideAgentWrapUpTime
      *
-     * @ElementName overrideAgentWrapUpTime
-     * @param bool|null $overrideAgentWrapUpTime
+     * @param bool $overrideAgentWrapUpTime
      * @return $this
      */
     public function setOverrideAgentWrapUpTime($overrideAgentWrapUpTime)
@@ -583,21 +719,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOverrideAgentWrapUpTime()
+    {
+        $this->overrideAgentWrapUpTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for wrapUpSeconds
      *
-     * @ElementName wrapUpSeconds
-     * @return int|null
+     * @return int
      */
     public function getWrapUpSeconds()
     {
-        return $this->wrapUpSeconds;
+        return $this->wrapUpSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->wrapUpSeconds;
     }
 
     /**
      * Setter for wrapUpSeconds
      *
-     * @ElementName wrapUpSeconds
-     * @param int|null $wrapUpSeconds
+     * @param int $wrapUpSeconds
      * @return $this
      */
     public function setWrapUpSeconds($wrapUpSeconds)
@@ -607,21 +750,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetWrapUpSeconds()
+    {
+        $this->wrapUpSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceDeliveryOfCalls
      *
-     * @ElementName forceDeliveryOfCalls
-     * @return bool|null
+     * @return bool
      */
     public function getForceDeliveryOfCalls()
     {
-        return $this->forceDeliveryOfCalls;
+        return $this->forceDeliveryOfCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceDeliveryOfCalls;
     }
 
     /**
      * Setter for forceDeliveryOfCalls
      *
-     * @ElementName forceDeliveryOfCalls
-     * @param bool|null $forceDeliveryOfCalls
+     * @param bool $forceDeliveryOfCalls
      * @return $this
      */
     public function setForceDeliveryOfCalls($forceDeliveryOfCalls)
@@ -631,21 +781,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForceDeliveryOfCalls()
+    {
+        $this->forceDeliveryOfCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceDeliveryWaitTimeSeconds
      *
-     * @ElementName forceDeliveryWaitTimeSeconds
-     * @return int|null
+     * @return int
      */
     public function getForceDeliveryWaitTimeSeconds()
     {
-        return $this->forceDeliveryWaitTimeSeconds;
+        return $this->forceDeliveryWaitTimeSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceDeliveryWaitTimeSeconds;
     }
 
     /**
      * Setter for forceDeliveryWaitTimeSeconds
      *
-     * @ElementName forceDeliveryWaitTimeSeconds
-     * @param int|null $forceDeliveryWaitTimeSeconds
+     * @param int $forceDeliveryWaitTimeSeconds
      * @return $this
      */
     public function setForceDeliveryWaitTimeSeconds($forceDeliveryWaitTimeSeconds)
@@ -655,21 +812,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForceDeliveryWaitTimeSeconds()
+    {
+        $this->forceDeliveryWaitTimeSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutomaticStateChangeForAgents
      *
-     * @ElementName enableAutomaticStateChangeForAgents
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutomaticStateChangeForAgents()
     {
-        return $this->enableAutomaticStateChangeForAgents;
+        return $this->enableAutomaticStateChangeForAgents instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutomaticStateChangeForAgents;
     }
 
     /**
      * Setter for enableAutomaticStateChangeForAgents
      *
-     * @ElementName enableAutomaticStateChangeForAgents
-     * @param bool|null $enableAutomaticStateChangeForAgents
+     * @param bool $enableAutomaticStateChangeForAgents
      * @return $this
      */
     public function setEnableAutomaticStateChangeForAgents($enableAutomaticStateChangeForAgents)
@@ -679,21 +843,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAutomaticStateChangeForAgents()
+    {
+        $this->enableAutomaticStateChangeForAgents = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentStateAfterCall
      *
-     * @ElementName agentStateAfterCall
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState
      */
     public function getAgentStateAfterCall()
     {
-        return $this->agentStateAfterCall;
+        return $this->agentStateAfterCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentStateAfterCall;
     }
 
     /**
      * Setter for agentStateAfterCall
      *
-     * @ElementName agentStateAfterCall
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState|null $agentStateAfterCall
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState $agentStateAfterCall
      * @return $this
      */
     public function setAgentStateAfterCall(\CWM\BroadWorksConnector\Ocip\Models\AgentACDAutomaticState $agentStateAfterCall)
@@ -703,21 +874,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentStateAfterCall()
+    {
+        $this->agentStateAfterCall = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentUnavailableCode
      *
-     * @ElementName agentUnavailableCode
-     * @return string|null
+     * @return string
      */
     public function getAgentUnavailableCode()
     {
-        return $this->agentUnavailableCode;
+        return $this->agentUnavailableCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUnavailableCode;
     }
 
     /**
      * Setter for agentUnavailableCode
      *
-     * @ElementName agentUnavailableCode
-     * @param string|null $agentUnavailableCode
+     * @param string $agentUnavailableCode
      * @return $this
      */
     public function setAgentUnavailableCode($agentUnavailableCode)
@@ -727,21 +905,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUnavailableCode()
+    {
+        $this->agentUnavailableCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for externalPreferredAudioCodec
      *
-     * @ElementName externalPreferredAudioCodec
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      */
     public function getExternalPreferredAudioCodec()
     {
-        return $this->externalPreferredAudioCodec;
+        return $this->externalPreferredAudioCodec instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalPreferredAudioCodec;
     }
 
     /**
      * Setter for externalPreferredAudioCodec
      *
-     * @ElementName externalPreferredAudioCodec
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null $externalPreferredAudioCodec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $externalPreferredAudioCodec
      * @return $this
      */
     public function setExternalPreferredAudioCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $externalPreferredAudioCodec)
@@ -751,21 +936,28 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExternalPreferredAudioCodec()
+    {
+        $this->externalPreferredAudioCodec = null;
+        return $this;
+    }
+
+    /**
      * Getter for internalPreferredAudioCodec
      *
-     * @ElementName internalPreferredAudioCodec
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
      */
     public function getInternalPreferredAudioCodec()
     {
-        return $this->internalPreferredAudioCodec;
+        return $this->internalPreferredAudioCodec instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internalPreferredAudioCodec;
     }
 
     /**
      * Setter for internalPreferredAudioCodec
      *
-     * @ElementName internalPreferredAudioCodec
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null $internalPreferredAudioCodec
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $internalPreferredAudioCodec
      * @return $this
      */
     public function setInternalPreferredAudioCodec(\CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec $internalPreferredAudioCodec)
@@ -775,26 +967,42 @@ class GroupCallCenterAddInstanceRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInternalPreferredAudioCodec()
+    {
+        $this->internalPreferredAudioCodec = null;
+        return $this;
+    }
+
+    /**
      * Getter for playRingingWhenOfferingCall
      *
-     * @ElementName playRingingWhenOfferingCall
-     * @return bool|null
+     * @return bool
      */
     public function getPlayRingingWhenOfferingCall()
     {
-        return $this->playRingingWhenOfferingCall;
+        return $this->playRingingWhenOfferingCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playRingingWhenOfferingCall;
     }
 
     /**
      * Setter for playRingingWhenOfferingCall
      *
-     * @ElementName playRingingWhenOfferingCall
-     * @param bool|null $playRingingWhenOfferingCall
+     * @param bool $playRingingWhenOfferingCall
      * @return $this
      */
     public function setPlayRingingWhenOfferingCall($playRingingWhenOfferingCall)
     {
         $this->playRingingWhenOfferingCall = $playRingingWhenOfferingCall;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayRingingWhenOfferingCall()
+    {
+        $this->playRingingWhenOfferingCall = null;
         return $this;
     }
 

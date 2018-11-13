@@ -16,12 +16,15 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName prefix
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $prefix = array(
@@ -31,19 +34,17 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,20 +54,27 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for prefix
      *
-     * @ElementName prefix
      * @return string[]
      */
     public function getPrefix()
     {
-        return $this->prefix;
+        return $this->prefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefix;
     }
 
     /**
      * Setter for prefix
      *
-     * @ElementName prefix
      * @param string[] $prefix
      * @return $this
      */
@@ -77,15 +85,23 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixAddListRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrefix()
+    {
+        $this->prefix = null;
+        return $this;
+    }
+
+    /**
      * Adder for prefix
      *
-     * @ElementName prefix
      * @param string $prefix
      * @return $this
      */
     public function addPrefix(string $prefix)
     {
-        $this->prefix []= $prefix;
+        $this->prefix[] = $prefix;
         return $this;
     }
 

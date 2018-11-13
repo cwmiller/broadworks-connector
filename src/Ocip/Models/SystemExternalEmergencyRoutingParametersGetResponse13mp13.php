@@ -15,30 +15,35 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
 
     /**
      * @ElementName serviceURI
+     * @Type string
      * @var string|null
      */
     private $serviceURI = null;
 
     /**
      * @ElementName defaultEmergencyNumber
+     * @Type string
      * @var string|null
      */
     private $defaultEmergencyNumber = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName supportsDNSSRV
+     * @Type bool
      * @var bool|null
      */
     private $supportsDNSSRV = null;
 
     /**
      * @ElementName connectionTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $connectionTimeoutSeconds = null;
@@ -46,19 +51,17 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     /**
      * Getter for serviceURI
      *
-     * @ElementName serviceURI
-     * @return string|null
+     * @return string
      */
     public function getServiceURI()
     {
-        return $this->serviceURI;
+        return $this->serviceURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceURI;
     }
 
     /**
      * Setter for serviceURI
      *
-     * @ElementName serviceURI
-     * @param string|null $serviceURI
+     * @param string $serviceURI
      * @return $this
      */
     public function setServiceURI($serviceURI)
@@ -68,21 +71,28 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceURI()
+    {
+        $this->serviceURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultEmergencyNumber
      *
-     * @ElementName defaultEmergencyNumber
-     * @return string|null
+     * @return string
      */
     public function getDefaultEmergencyNumber()
     {
-        return $this->defaultEmergencyNumber;
+        return $this->defaultEmergencyNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultEmergencyNumber;
     }
 
     /**
      * Setter for defaultEmergencyNumber
      *
-     * @ElementName defaultEmergencyNumber
-     * @param string|null $defaultEmergencyNumber
+     * @param string $defaultEmergencyNumber
      * @return $this
      */
     public function setDefaultEmergencyNumber($defaultEmergencyNumber)
@@ -92,21 +102,28 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultEmergencyNumber()
+    {
+        $this->defaultEmergencyNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -116,21 +133,28 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportsDNSSRV
      *
-     * @ElementName supportsDNSSRV
-     * @return bool|null
+     * @return bool
      */
     public function getSupportsDNSSRV()
     {
-        return $this->supportsDNSSRV;
+        return $this->supportsDNSSRV instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportsDNSSRV;
     }
 
     /**
      * Setter for supportsDNSSRV
      *
-     * @ElementName supportsDNSSRV
-     * @param bool|null $supportsDNSSRV
+     * @param bool $supportsDNSSRV
      * @return $this
      */
     public function setSupportsDNSSRV($supportsDNSSRV)
@@ -140,26 +164,42 @@ class SystemExternalEmergencyRoutingParametersGetResponse13mp13 extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportsDNSSRV()
+    {
+        $this->supportsDNSSRV = null;
+        return $this;
+    }
+
+    /**
      * Getter for connectionTimeoutSeconds
      *
-     * @ElementName connectionTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getConnectionTimeoutSeconds()
     {
-        return $this->connectionTimeoutSeconds;
+        return $this->connectionTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->connectionTimeoutSeconds;
     }
 
     /**
      * Setter for connectionTimeoutSeconds
      *
-     * @ElementName connectionTimeoutSeconds
-     * @param int|null $connectionTimeoutSeconds
+     * @param int $connectionTimeoutSeconds
      * @return $this
      */
     public function setConnectionTimeoutSeconds($connectionTimeoutSeconds)
     {
         $this->connectionTimeoutSeconds = $connectionTimeoutSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConnectionTimeoutSeconds()
+    {
+        $this->connectionTimeoutSeconds = null;
         return $this;
     }
 

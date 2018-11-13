@@ -14,102 +14,119 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName isAuditActive
+     * @Type bool
      * @var bool|null
      */
     private $isAuditActive = null;
 
     /**
      * @ElementName auditIntervalSeconds
+     * @Type int
      * @var int|null
      */
     private $auditIntervalSeconds = null;
 
     /**
      * @ElementName auditTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $auditTimeoutSeconds = null;
 
     /**
      * @ElementName releaseCallOnAuditFailure
+     * @Type bool
      * @var bool|null
      */
     private $releaseCallOnAuditFailure = null;
 
     /**
      * @ElementName isSIPRefreshAllowedOnAudit
+     * @Type bool
      * @var bool|null
      */
     private $isSIPRefreshAllowedOnAudit = null;
 
     /**
      * @ElementName allowUpdateForSIPRefresh
+     * @Type bool
      * @var bool|null
      */
     private $allowUpdateForSIPRefresh = null;
 
     /**
      * @ElementName isSIPSessionTimerActive
+     * @Type bool
      * @var bool|null
      */
     private $isSIPSessionTimerActive = null;
 
     /**
      * @ElementName sipSessionExpiresMinimumSeconds
+     * @Type int
      * @var int|null
      */
     private $sipSessionExpiresMinimumSeconds = null;
 
     /**
      * @ElementName enforceSIPSessionExpiresMaximum
+     * @Type bool
      * @var bool|null
      */
     private $enforceSIPSessionExpiresMaximum = null;
 
     /**
      * @ElementName sipSessionExpiresMaximumSeconds
+     * @Type int
      * @var int|null
      */
     private $sipSessionExpiresMaximumSeconds = null;
 
     /**
      * @ElementName sipSessionExpiresTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $sipSessionExpiresTimerSeconds = null;
 
     /**
      * @ElementName alwaysUseSessionTimerWhenSupported
+     * @Type bool
      * @var bool|null
      */
     private $alwaysUseSessionTimerWhenSupported = null;
 
     /**
      * @ElementName preferredSessionTimerRefresher
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher|null
      */
     private $preferredSessionTimerRefresher = null;
 
     /**
      * @ElementName enableEmergencyCallAlarmTimer
+     * @Type bool
      * @var bool|null
      */
     private $enableEmergencyCallAlarmTimer = null;
 
     /**
      * @ElementName emergencyCallAlarmMinutes
+     * @Type int
      * @var int|null
      */
     private $emergencyCallAlarmMinutes = null;
 
     /**
      * @ElementName enableEmergencyCallCleanupTimer
+     * @Type bool
      * @var bool|null
      */
     private $enableEmergencyCallCleanupTimer = null;
 
     /**
      * @ElementName emergencyCallCleanupMinutes
+     * @Type int
      * @var int|null
      */
     private $emergencyCallCleanupMinutes = null;
@@ -117,19 +134,17 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for isAuditActive
      *
-     * @ElementName isAuditActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsAuditActive()
     {
-        return $this->isAuditActive;
+        return $this->isAuditActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAuditActive;
     }
 
     /**
      * Setter for isAuditActive
      *
-     * @ElementName isAuditActive
-     * @param bool|null $isAuditActive
+     * @param bool $isAuditActive
      * @return $this
      */
     public function setIsAuditActive($isAuditActive)
@@ -139,21 +154,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsAuditActive()
+    {
+        $this->isAuditActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for auditIntervalSeconds
      *
-     * @ElementName auditIntervalSeconds
-     * @return int|null
+     * @return int
      */
     public function getAuditIntervalSeconds()
     {
-        return $this->auditIntervalSeconds;
+        return $this->auditIntervalSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->auditIntervalSeconds;
     }
 
     /**
      * Setter for auditIntervalSeconds
      *
-     * @ElementName auditIntervalSeconds
-     * @param int|null $auditIntervalSeconds
+     * @param int $auditIntervalSeconds
      * @return $this
      */
     public function setAuditIntervalSeconds($auditIntervalSeconds)
@@ -163,21 +185,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAuditIntervalSeconds()
+    {
+        $this->auditIntervalSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for auditTimeoutSeconds
      *
-     * @ElementName auditTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getAuditTimeoutSeconds()
     {
-        return $this->auditTimeoutSeconds;
+        return $this->auditTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->auditTimeoutSeconds;
     }
 
     /**
      * Setter for auditTimeoutSeconds
      *
-     * @ElementName auditTimeoutSeconds
-     * @param int|null $auditTimeoutSeconds
+     * @param int $auditTimeoutSeconds
      * @return $this
      */
     public function setAuditTimeoutSeconds($auditTimeoutSeconds)
@@ -187,21 +216,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAuditTimeoutSeconds()
+    {
+        $this->auditTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for releaseCallOnAuditFailure
      *
-     * @ElementName releaseCallOnAuditFailure
-     * @return bool|null
+     * @return bool
      */
     public function getReleaseCallOnAuditFailure()
     {
-        return $this->releaseCallOnAuditFailure;
+        return $this->releaseCallOnAuditFailure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->releaseCallOnAuditFailure;
     }
 
     /**
      * Setter for releaseCallOnAuditFailure
      *
-     * @ElementName releaseCallOnAuditFailure
-     * @param bool|null $releaseCallOnAuditFailure
+     * @param bool $releaseCallOnAuditFailure
      * @return $this
      */
     public function setReleaseCallOnAuditFailure($releaseCallOnAuditFailure)
@@ -211,21 +247,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReleaseCallOnAuditFailure()
+    {
+        $this->releaseCallOnAuditFailure = null;
+        return $this;
+    }
+
+    /**
      * Getter for isSIPRefreshAllowedOnAudit
      *
-     * @ElementName isSIPRefreshAllowedOnAudit
-     * @return bool|null
+     * @return bool
      */
     public function getIsSIPRefreshAllowedOnAudit()
     {
-        return $this->isSIPRefreshAllowedOnAudit;
+        return $this->isSIPRefreshAllowedOnAudit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isSIPRefreshAllowedOnAudit;
     }
 
     /**
      * Setter for isSIPRefreshAllowedOnAudit
      *
-     * @ElementName isSIPRefreshAllowedOnAudit
-     * @param bool|null $isSIPRefreshAllowedOnAudit
+     * @param bool $isSIPRefreshAllowedOnAudit
      * @return $this
      */
     public function setIsSIPRefreshAllowedOnAudit($isSIPRefreshAllowedOnAudit)
@@ -235,21 +278,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsSIPRefreshAllowedOnAudit()
+    {
+        $this->isSIPRefreshAllowedOnAudit = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowUpdateForSIPRefresh
      *
-     * @ElementName allowUpdateForSIPRefresh
-     * @return bool|null
+     * @return bool
      */
     public function getAllowUpdateForSIPRefresh()
     {
-        return $this->allowUpdateForSIPRefresh;
+        return $this->allowUpdateForSIPRefresh instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowUpdateForSIPRefresh;
     }
 
     /**
      * Setter for allowUpdateForSIPRefresh
      *
-     * @ElementName allowUpdateForSIPRefresh
-     * @param bool|null $allowUpdateForSIPRefresh
+     * @param bool $allowUpdateForSIPRefresh
      * @return $this
      */
     public function setAllowUpdateForSIPRefresh($allowUpdateForSIPRefresh)
@@ -259,21 +309,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowUpdateForSIPRefresh()
+    {
+        $this->allowUpdateForSIPRefresh = null;
+        return $this;
+    }
+
+    /**
      * Getter for isSIPSessionTimerActive
      *
-     * @ElementName isSIPSessionTimerActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsSIPSessionTimerActive()
     {
-        return $this->isSIPSessionTimerActive;
+        return $this->isSIPSessionTimerActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isSIPSessionTimerActive;
     }
 
     /**
      * Setter for isSIPSessionTimerActive
      *
-     * @ElementName isSIPSessionTimerActive
-     * @param bool|null $isSIPSessionTimerActive
+     * @param bool $isSIPSessionTimerActive
      * @return $this
      */
     public function setIsSIPSessionTimerActive($isSIPSessionTimerActive)
@@ -283,21 +340,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsSIPSessionTimerActive()
+    {
+        $this->isSIPSessionTimerActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipSessionExpiresMinimumSeconds
      *
-     * @ElementName sipSessionExpiresMinimumSeconds
-     * @return int|null
+     * @return int
      */
     public function getSipSessionExpiresMinimumSeconds()
     {
-        return $this->sipSessionExpiresMinimumSeconds;
+        return $this->sipSessionExpiresMinimumSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipSessionExpiresMinimumSeconds;
     }
 
     /**
      * Setter for sipSessionExpiresMinimumSeconds
      *
-     * @ElementName sipSessionExpiresMinimumSeconds
-     * @param int|null $sipSessionExpiresMinimumSeconds
+     * @param int $sipSessionExpiresMinimumSeconds
      * @return $this
      */
     public function setSipSessionExpiresMinimumSeconds($sipSessionExpiresMinimumSeconds)
@@ -307,21 +371,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSipSessionExpiresMinimumSeconds()
+    {
+        $this->sipSessionExpiresMinimumSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enforceSIPSessionExpiresMaximum
      *
-     * @ElementName enforceSIPSessionExpiresMaximum
-     * @return bool|null
+     * @return bool
      */
     public function getEnforceSIPSessionExpiresMaximum()
     {
-        return $this->enforceSIPSessionExpiresMaximum;
+        return $this->enforceSIPSessionExpiresMaximum instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enforceSIPSessionExpiresMaximum;
     }
 
     /**
      * Setter for enforceSIPSessionExpiresMaximum
      *
-     * @ElementName enforceSIPSessionExpiresMaximum
-     * @param bool|null $enforceSIPSessionExpiresMaximum
+     * @param bool $enforceSIPSessionExpiresMaximum
      * @return $this
      */
     public function setEnforceSIPSessionExpiresMaximum($enforceSIPSessionExpiresMaximum)
@@ -331,21 +402,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnforceSIPSessionExpiresMaximum()
+    {
+        $this->enforceSIPSessionExpiresMaximum = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipSessionExpiresMaximumSeconds
      *
-     * @ElementName sipSessionExpiresMaximumSeconds
-     * @return int|null
+     * @return int
      */
     public function getSipSessionExpiresMaximumSeconds()
     {
-        return $this->sipSessionExpiresMaximumSeconds;
+        return $this->sipSessionExpiresMaximumSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipSessionExpiresMaximumSeconds;
     }
 
     /**
      * Setter for sipSessionExpiresMaximumSeconds
      *
-     * @ElementName sipSessionExpiresMaximumSeconds
-     * @param int|null $sipSessionExpiresMaximumSeconds
+     * @param int $sipSessionExpiresMaximumSeconds
      * @return $this
      */
     public function setSipSessionExpiresMaximumSeconds($sipSessionExpiresMaximumSeconds)
@@ -355,21 +433,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSipSessionExpiresMaximumSeconds()
+    {
+        $this->sipSessionExpiresMaximumSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipSessionExpiresTimerSeconds
      *
-     * @ElementName sipSessionExpiresTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getSipSessionExpiresTimerSeconds()
     {
-        return $this->sipSessionExpiresTimerSeconds;
+        return $this->sipSessionExpiresTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipSessionExpiresTimerSeconds;
     }
 
     /**
      * Setter for sipSessionExpiresTimerSeconds
      *
-     * @ElementName sipSessionExpiresTimerSeconds
-     * @param int|null $sipSessionExpiresTimerSeconds
+     * @param int $sipSessionExpiresTimerSeconds
      * @return $this
      */
     public function setSipSessionExpiresTimerSeconds($sipSessionExpiresTimerSeconds)
@@ -379,21 +464,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSipSessionExpiresTimerSeconds()
+    {
+        $this->sipSessionExpiresTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for alwaysUseSessionTimerWhenSupported
      *
-     * @ElementName alwaysUseSessionTimerWhenSupported
-     * @return bool|null
+     * @return bool
      */
     public function getAlwaysUseSessionTimerWhenSupported()
     {
-        return $this->alwaysUseSessionTimerWhenSupported;
+        return $this->alwaysUseSessionTimerWhenSupported instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alwaysUseSessionTimerWhenSupported;
     }
 
     /**
      * Setter for alwaysUseSessionTimerWhenSupported
      *
-     * @ElementName alwaysUseSessionTimerWhenSupported
-     * @param bool|null $alwaysUseSessionTimerWhenSupported
+     * @param bool $alwaysUseSessionTimerWhenSupported
      * @return $this
      */
     public function setAlwaysUseSessionTimerWhenSupported($alwaysUseSessionTimerWhenSupported)
@@ -403,21 +495,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlwaysUseSessionTimerWhenSupported()
+    {
+        $this->alwaysUseSessionTimerWhenSupported = null;
+        return $this;
+    }
+
+    /**
      * Getter for preferredSessionTimerRefresher
      *
-     * @ElementName preferredSessionTimerRefresher
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher
      */
     public function getPreferredSessionTimerRefresher()
     {
-        return $this->preferredSessionTimerRefresher;
+        return $this->preferredSessionTimerRefresher instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preferredSessionTimerRefresher;
     }
 
     /**
      * Setter for preferredSessionTimerRefresher
      *
-     * @ElementName preferredSessionTimerRefresher
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher|null $preferredSessionTimerRefresher
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher $preferredSessionTimerRefresher
      * @return $this
      */
     public function setPreferredSessionTimerRefresher(\CWM\BroadWorksConnector\Ocip\Models\SessionTimerRefresher $preferredSessionTimerRefresher)
@@ -427,21 +526,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreferredSessionTimerRefresher()
+    {
+        $this->preferredSessionTimerRefresher = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableEmergencyCallAlarmTimer
      *
-     * @ElementName enableEmergencyCallAlarmTimer
-     * @return bool|null
+     * @return bool
      */
     public function getEnableEmergencyCallAlarmTimer()
     {
-        return $this->enableEmergencyCallAlarmTimer;
+        return $this->enableEmergencyCallAlarmTimer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableEmergencyCallAlarmTimer;
     }
 
     /**
      * Setter for enableEmergencyCallAlarmTimer
      *
-     * @ElementName enableEmergencyCallAlarmTimer
-     * @param bool|null $enableEmergencyCallAlarmTimer
+     * @param bool $enableEmergencyCallAlarmTimer
      * @return $this
      */
     public function setEnableEmergencyCallAlarmTimer($enableEmergencyCallAlarmTimer)
@@ -451,21 +557,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableEmergencyCallAlarmTimer()
+    {
+        $this->enableEmergencyCallAlarmTimer = null;
+        return $this;
+    }
+
+    /**
      * Getter for emergencyCallAlarmMinutes
      *
-     * @ElementName emergencyCallAlarmMinutes
-     * @return int|null
+     * @return int
      */
     public function getEmergencyCallAlarmMinutes()
     {
-        return $this->emergencyCallAlarmMinutes;
+        return $this->emergencyCallAlarmMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emergencyCallAlarmMinutes;
     }
 
     /**
      * Setter for emergencyCallAlarmMinutes
      *
-     * @ElementName emergencyCallAlarmMinutes
-     * @param int|null $emergencyCallAlarmMinutes
+     * @param int $emergencyCallAlarmMinutes
      * @return $this
      */
     public function setEmergencyCallAlarmMinutes($emergencyCallAlarmMinutes)
@@ -475,21 +588,28 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEmergencyCallAlarmMinutes()
+    {
+        $this->emergencyCallAlarmMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableEmergencyCallCleanupTimer
      *
-     * @ElementName enableEmergencyCallCleanupTimer
-     * @return bool|null
+     * @return bool
      */
     public function getEnableEmergencyCallCleanupTimer()
     {
-        return $this->enableEmergencyCallCleanupTimer;
+        return $this->enableEmergencyCallCleanupTimer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableEmergencyCallCleanupTimer;
     }
 
     /**
      * Setter for enableEmergencyCallCleanupTimer
      *
-     * @ElementName enableEmergencyCallCleanupTimer
-     * @param bool|null $enableEmergencyCallCleanupTimer
+     * @param bool $enableEmergencyCallCleanupTimer
      * @return $this
      */
     public function setEnableEmergencyCallCleanupTimer($enableEmergencyCallCleanupTimer)
@@ -499,26 +619,42 @@ class SystemSessionAuditGetResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableEmergencyCallCleanupTimer()
+    {
+        $this->enableEmergencyCallCleanupTimer = null;
+        return $this;
+    }
+
+    /**
      * Getter for emergencyCallCleanupMinutes
      *
-     * @ElementName emergencyCallCleanupMinutes
-     * @return int|null
+     * @return int
      */
     public function getEmergencyCallCleanupMinutes()
     {
-        return $this->emergencyCallCleanupMinutes;
+        return $this->emergencyCallCleanupMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emergencyCallCleanupMinutes;
     }
 
     /**
      * Setter for emergencyCallCleanupMinutes
      *
-     * @ElementName emergencyCallCleanupMinutes
-     * @param int|null $emergencyCallCleanupMinutes
+     * @param int $emergencyCallCleanupMinutes
      * @return $this
      */
     public function setEmergencyCallCleanupMinutes($emergencyCallCleanupMinutes)
     {
         $this->emergencyCallCleanupMinutes = $emergencyCallCleanupMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmergencyCallCleanupMinutes()
+    {
+        $this->emergencyCallCleanupMinutes = null;
         return $this;
     }
 

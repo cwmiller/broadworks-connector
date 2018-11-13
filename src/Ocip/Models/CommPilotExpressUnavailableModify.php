@@ -12,12 +12,14 @@ class CommPilotExpressUnavailableModify
 
     /**
      * @ElementName incomingCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify|null
      */
     private $incomingCalls = null;
 
     /**
      * @ElementName voiceMailGreeting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting|null
      */
     private $voiceMailGreeting = null;
@@ -25,19 +27,17 @@ class CommPilotExpressUnavailableModify
     /**
      * Getter for incomingCalls
      *
-     * @ElementName incomingCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify
      */
     public function getIncomingCalls()
     {
-        return $this->incomingCalls;
+        return $this->incomingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingCalls;
     }
 
     /**
      * Setter for incomingCalls
      *
-     * @ElementName incomingCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify|null $incomingCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify $incomingCalls
      * @return $this
      */
     public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirectionWithExceptionModify $incomingCalls)
@@ -47,26 +47,42 @@ class CommPilotExpressUnavailableModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncomingCalls()
+    {
+        $this->incomingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMailGreeting
      *
-     * @ElementName voiceMailGreeting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting
      */
     public function getVoiceMailGreeting()
     {
-        return $this->voiceMailGreeting;
+        return $this->voiceMailGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMailGreeting;
     }
 
     /**
      * Setter for voiceMailGreeting
      *
-     * @ElementName voiceMailGreeting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting|null $voiceMailGreeting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting $voiceMailGreeting
      * @return $this
      */
     public function setVoiceMailGreeting(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressVoiceMailGreeting $voiceMailGreeting)
     {
         $this->voiceMailGreeting = $voiceMailGreeting;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoiceMailGreeting()
+    {
+        $this->voiceMailGreeting = null;
         return $this;
     }
 

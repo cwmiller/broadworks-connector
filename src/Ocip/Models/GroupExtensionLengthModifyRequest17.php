@@ -16,30 +16,35 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName minExtensionLength
+     * @Type int
      * @var int|null
      */
     private $minExtensionLength = null;
 
     /**
      * @ElementName maxExtensionLength
+     * @Type int
      * @var int|null
      */
     private $maxExtensionLength = null;
 
     /**
      * @ElementName defaultExtensionLength
+     * @Type int
      * @var int|null
      */
     private $defaultExtensionLength = null;
@@ -47,19 +52,17 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +72,28 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -93,21 +103,28 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for minExtensionLength
      *
-     * @ElementName minExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getMinExtensionLength()
     {
-        return $this->minExtensionLength;
+        return $this->minExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minExtensionLength;
     }
 
     /**
      * Setter for minExtensionLength
      *
-     * @ElementName minExtensionLength
-     * @param int|null $minExtensionLength
+     * @param int $minExtensionLength
      * @return $this
      */
     public function setMinExtensionLength($minExtensionLength)
@@ -117,21 +134,28 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinExtensionLength()
+    {
+        $this->minExtensionLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxExtensionLength
      *
-     * @ElementName maxExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getMaxExtensionLength()
     {
-        return $this->maxExtensionLength;
+        return $this->maxExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxExtensionLength;
     }
 
     /**
      * Setter for maxExtensionLength
      *
-     * @ElementName maxExtensionLength
-     * @param int|null $maxExtensionLength
+     * @param int $maxExtensionLength
      * @return $this
      */
     public function setMaxExtensionLength($maxExtensionLength)
@@ -141,26 +165,42 @@ class GroupExtensionLengthModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxExtensionLength()
+    {
+        $this->maxExtensionLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultExtensionLength
      *
-     * @ElementName defaultExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getDefaultExtensionLength()
     {
-        return $this->defaultExtensionLength;
+        return $this->defaultExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultExtensionLength;
     }
 
     /**
      * Setter for defaultExtensionLength
      *
-     * @ElementName defaultExtensionLength
-     * @param int|null $defaultExtensionLength
+     * @param int $defaultExtensionLength
      * @return $this
      */
     public function setDefaultExtensionLength($defaultExtensionLength)
     {
         $this->defaultExtensionLength = $defaultExtensionLength;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultExtensionLength()
+    {
+        $this->defaultExtensionLength = null;
         return $this;
     }
 

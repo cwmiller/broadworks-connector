@@ -16,24 +16,28 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName protocol
+     * @Type string
      * @var string|null
      */
     private $protocol = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,6 +45,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName port
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,6 +53,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName outboundProxyServerNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -55,6 +61,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName stunServerNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -62,6 +69,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName macAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -69,6 +77,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serialNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -76,6 +85,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -83,6 +93,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName physicalLocation
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -90,30 +101,35 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName transportProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
 
     /**
      * @ElementName mobilityManagerProvisioningURL
+     * @Type string
      * @var string|null
      */
     private $mobilityManagerProvisioningURL = null;
 
     /**
      * @ElementName mobilityManagerProvisioningUserName
+     * @Type string
      * @var string|null
      */
     private $mobilityManagerProvisioningUserName = null;
 
     /**
      * @ElementName mobilityManagerProvisioningPassword
+     * @Type string
      * @var string|null
      */
     private $mobilityManagerProvisioningPassword = null;
 
     /**
      * @ElementName mobilityManagerDefaultOriginatingServiceKey
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -121,6 +137,7 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName mobilityManagerDefaultTerminatingServiceKey
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -128,12 +145,14 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName useCustomUserNamePassword
+     * @Type bool
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
 
     /**
      * @ElementName accessDeviceCredentials
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -142,19 +161,17 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -164,21 +181,28 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -188,21 +212,28 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for protocol
      *
-     * @ElementName protocol
-     * @return string|null
+     * @return string
      */
     public function getProtocol()
     {
-        return $this->protocol;
+        return $this->protocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocol;
     }
 
     /**
      * Setter for protocol
      *
-     * @ElementName protocol
-     * @param string|null $protocol
+     * @param string $protocol
      * @return $this
      */
     public function setProtocol($protocol)
@@ -212,229 +243,308 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProtocol()
+    {
+        $this->protocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $netAddress
+     * @param string|null $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
     {
-        $this->netAddress = $netAddress;
+        if ($netAddress === null) {
+            $this->netAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->netAddress = $netAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
         return $this;
     }
 
     /**
      * Getter for port
      *
-     * @ElementName port
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $port
+     * @param int|null $port
      * @return $this
      */
     public function setPort($port)
     {
-        $this->port = $port;
+        if ($port === null) {
+            $this->port = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->port = $port;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
         return $this;
     }
 
     /**
      * Getter for outboundProxyServerNetAddress
      *
-     * @ElementName outboundProxyServerNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getOutboundProxyServerNetAddress()
     {
-        return $this->outboundProxyServerNetAddress;
+        return $this->outboundProxyServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outboundProxyServerNetAddress;
     }
 
     /**
      * Setter for outboundProxyServerNetAddress
      *
-     * @ElementName outboundProxyServerNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $outboundProxyServerNetAddress
+     * @param string|null $outboundProxyServerNetAddress
      * @return $this
      */
     public function setOutboundProxyServerNetAddress($outboundProxyServerNetAddress)
     {
-        $this->outboundProxyServerNetAddress = $outboundProxyServerNetAddress;
+        if ($outboundProxyServerNetAddress === null) {
+            $this->outboundProxyServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->outboundProxyServerNetAddress = $outboundProxyServerNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOutboundProxyServerNetAddress()
+    {
+        $this->outboundProxyServerNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for stunServerNetAddress
      *
-     * @ElementName stunServerNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getStunServerNetAddress()
     {
-        return $this->stunServerNetAddress;
+        return $this->stunServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->stunServerNetAddress;
     }
 
     /**
      * Setter for stunServerNetAddress
      *
-     * @ElementName stunServerNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $stunServerNetAddress
+     * @param string|null $stunServerNetAddress
      * @return $this
      */
     public function setStunServerNetAddress($stunServerNetAddress)
     {
-        $this->stunServerNetAddress = $stunServerNetAddress;
+        if ($stunServerNetAddress === null) {
+            $this->stunServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->stunServerNetAddress = $stunServerNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStunServerNetAddress()
+    {
+        $this->stunServerNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for macAddress
      *
-     * @ElementName macAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getMacAddress()
     {
-        return $this->macAddress;
+        return $this->macAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macAddress;
     }
 
     /**
      * Setter for macAddress
      *
-     * @ElementName macAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $macAddress
+     * @param string|null $macAddress
      * @return $this
      */
     public function setMacAddress($macAddress)
     {
-        $this->macAddress = $macAddress;
+        if ($macAddress === null) {
+            $this->macAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->macAddress = $macAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMacAddress()
+    {
+        $this->macAddress = null;
         return $this;
     }
 
     /**
      * Getter for serialNumber
      *
-     * @ElementName serialNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSerialNumber()
     {
-        return $this->serialNumber;
+        return $this->serialNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serialNumber;
     }
 
     /**
      * Setter for serialNumber
      *
-     * @ElementName serialNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serialNumber
+     * @param string|null $serialNumber
      * @return $this
      */
     public function setSerialNumber($serialNumber)
     {
-        $this->serialNumber = $serialNumber;
+        if ($serialNumber === null) {
+            $this->serialNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serialNumber = $serialNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSerialNumber()
+    {
+        $this->serialNumber = null;
         return $this;
     }
 
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPhysicalLocation()
     {
-        return $this->physicalLocation;
+        return $this->physicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->physicalLocation;
     }
 
     /**
      * Setter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $physicalLocation
+     * @param string|null $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)
     {
-        $this->physicalLocation = $physicalLocation;
+        if ($physicalLocation === null) {
+            $this->physicalLocation = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->physicalLocation = $physicalLocation;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhysicalLocation()
+    {
+        $this->physicalLocation = null;
         return $this;
     }
 
     /**
      * Getter for transportProtocol
      *
-     * @ElementName transportProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      */
     public function getTransportProtocol()
     {
-        return $this->transportProtocol;
+        return $this->transportProtocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transportProtocol;
     }
 
     /**
      * Setter for transportProtocol
      *
-     * @ElementName transportProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol
      * @return $this
      */
     public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
@@ -444,21 +554,28 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransportProtocol()
+    {
+        $this->transportProtocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilityManagerProvisioningURL
      *
-     * @ElementName mobilityManagerProvisioningURL
-     * @return string|null
+     * @return string
      */
     public function getMobilityManagerProvisioningURL()
     {
-        return $this->mobilityManagerProvisioningURL;
+        return $this->mobilityManagerProvisioningURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilityManagerProvisioningURL;
     }
 
     /**
      * Setter for mobilityManagerProvisioningURL
      *
-     * @ElementName mobilityManagerProvisioningURL
-     * @param string|null $mobilityManagerProvisioningURL
+     * @param string $mobilityManagerProvisioningURL
      * @return $this
      */
     public function setMobilityManagerProvisioningURL($mobilityManagerProvisioningURL)
@@ -468,21 +585,28 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilityManagerProvisioningURL()
+    {
+        $this->mobilityManagerProvisioningURL = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilityManagerProvisioningUserName
      *
-     * @ElementName mobilityManagerProvisioningUserName
-     * @return string|null
+     * @return string
      */
     public function getMobilityManagerProvisioningUserName()
     {
-        return $this->mobilityManagerProvisioningUserName;
+        return $this->mobilityManagerProvisioningUserName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilityManagerProvisioningUserName;
     }
 
     /**
      * Setter for mobilityManagerProvisioningUserName
      *
-     * @ElementName mobilityManagerProvisioningUserName
-     * @param string|null $mobilityManagerProvisioningUserName
+     * @param string $mobilityManagerProvisioningUserName
      * @return $this
      */
     public function setMobilityManagerProvisioningUserName($mobilityManagerProvisioningUserName)
@@ -492,21 +616,28 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilityManagerProvisioningUserName()
+    {
+        $this->mobilityManagerProvisioningUserName = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilityManagerProvisioningPassword
      *
-     * @ElementName mobilityManagerProvisioningPassword
-     * @return string|null
+     * @return string
      */
     public function getMobilityManagerProvisioningPassword()
     {
-        return $this->mobilityManagerProvisioningPassword;
+        return $this->mobilityManagerProvisioningPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilityManagerProvisioningPassword;
     }
 
     /**
      * Setter for mobilityManagerProvisioningPassword
      *
-     * @ElementName mobilityManagerProvisioningPassword
-     * @param string|null $mobilityManagerProvisioningPassword
+     * @param string $mobilityManagerProvisioningPassword
      * @return $this
      */
     public function setMobilityManagerProvisioningPassword($mobilityManagerProvisioningPassword)
@@ -516,73 +647,98 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilityManagerProvisioningPassword()
+    {
+        $this->mobilityManagerProvisioningPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilityManagerDefaultOriginatingServiceKey
      *
-     * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getMobilityManagerDefaultOriginatingServiceKey()
     {
-        return $this->mobilityManagerDefaultOriginatingServiceKey;
+        return $this->mobilityManagerDefaultOriginatingServiceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilityManagerDefaultOriginatingServiceKey;
     }
 
     /**
      * Setter for mobilityManagerDefaultOriginatingServiceKey
      *
-     * @ElementName mobilityManagerDefaultOriginatingServiceKey
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilityManagerDefaultOriginatingServiceKey
+     * @param int|null $mobilityManagerDefaultOriginatingServiceKey
      * @return $this
      */
     public function setMobilityManagerDefaultOriginatingServiceKey($mobilityManagerDefaultOriginatingServiceKey)
     {
-        $this->mobilityManagerDefaultOriginatingServiceKey = $mobilityManagerDefaultOriginatingServiceKey;
+        if ($mobilityManagerDefaultOriginatingServiceKey === null) {
+            $this->mobilityManagerDefaultOriginatingServiceKey = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->mobilityManagerDefaultOriginatingServiceKey = $mobilityManagerDefaultOriginatingServiceKey;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobilityManagerDefaultOriginatingServiceKey()
+    {
+        $this->mobilityManagerDefaultOriginatingServiceKey = null;
         return $this;
     }
 
     /**
      * Getter for mobilityManagerDefaultTerminatingServiceKey
      *
-     * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getMobilityManagerDefaultTerminatingServiceKey()
     {
-        return $this->mobilityManagerDefaultTerminatingServiceKey;
+        return $this->mobilityManagerDefaultTerminatingServiceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilityManagerDefaultTerminatingServiceKey;
     }
 
     /**
      * Setter for mobilityManagerDefaultTerminatingServiceKey
      *
-     * @ElementName mobilityManagerDefaultTerminatingServiceKey
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $mobilityManagerDefaultTerminatingServiceKey
+     * @param int|null $mobilityManagerDefaultTerminatingServiceKey
      * @return $this
      */
     public function setMobilityManagerDefaultTerminatingServiceKey($mobilityManagerDefaultTerminatingServiceKey)
     {
-        $this->mobilityManagerDefaultTerminatingServiceKey = $mobilityManagerDefaultTerminatingServiceKey;
+        if ($mobilityManagerDefaultTerminatingServiceKey === null) {
+            $this->mobilityManagerDefaultTerminatingServiceKey = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->mobilityManagerDefaultTerminatingServiceKey = $mobilityManagerDefaultTerminatingServiceKey;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobilityManagerDefaultTerminatingServiceKey()
+    {
+        $this->mobilityManagerDefaultTerminatingServiceKey = null;
         return $this;
     }
 
     /**
      * Getter for useCustomUserNamePassword
      *
-     * @ElementName useCustomUserNamePassword
-     * @return bool|null
+     * @return bool
      */
     public function getUseCustomUserNamePassword()
     {
-        return $this->useCustomUserNamePassword;
+        return $this->useCustomUserNamePassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useCustomUserNamePassword;
     }
 
     /**
      * Setter for useCustomUserNamePassword
      *
-     * @ElementName useCustomUserNamePassword
-     * @param bool|null $useCustomUserNamePassword
+     * @param bool $useCustomUserNamePassword
      * @return $this
      */
     public function setUseCustomUserNamePassword($useCustomUserNamePassword)
@@ -592,28 +748,46 @@ class ServiceProviderAccessDeviceModifyRequest14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseCustomUserNamePassword()
+    {
+        $this->useCustomUserNamePassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessDeviceCredentials
      *
-     * @ElementName accessDeviceCredentials
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     public function getAccessDeviceCredentials()
     {
-        return $this->accessDeviceCredentials;
+        return $this->accessDeviceCredentials instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceCredentials;
     }
 
     /**
      * Setter for accessDeviceCredentials
      *
-     * @ElementName accessDeviceCredentials
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceCredentials
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null $accessDeviceCredentials
      * @return $this
      */
     public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16 $accessDeviceCredentials)
     {
-        $this->accessDeviceCredentials = $accessDeviceCredentials;
+        if ($accessDeviceCredentials === null) {
+            $this->accessDeviceCredentials = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->accessDeviceCredentials = $accessDeviceCredentials;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessDeviceCredentials()
+    {
+        $this->accessDeviceCredentials = null;
         return $this;
     }
 

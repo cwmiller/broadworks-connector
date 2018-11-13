@@ -16,24 +16,28 @@ class UserAlternateUserIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName alternateUserId
+     * @Type string
      * @var string|null
      */
     private $alternateUserId = null;
 
     /**
      * @ElementName newAlternateUserId
+     * @Type string
      * @var string|null
      */
     private $newAlternateUserId = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -42,19 +46,17 @@ class UserAlternateUserIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -64,21 +66,28 @@ class UserAlternateUserIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateUserId
      *
-     * @ElementName alternateUserId
-     * @return string|null
+     * @return string
      */
     public function getAlternateUserId()
     {
-        return $this->alternateUserId;
+        return $this->alternateUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateUserId;
     }
 
     /**
      * Setter for alternateUserId
      *
-     * @ElementName alternateUserId
-     * @param string|null $alternateUserId
+     * @param string $alternateUserId
      * @return $this
      */
     public function setAlternateUserId($alternateUserId)
@@ -88,21 +97,28 @@ class UserAlternateUserIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateUserId()
+    {
+        $this->alternateUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for newAlternateUserId
      *
-     * @ElementName newAlternateUserId
-     * @return string|null
+     * @return string
      */
     public function getNewAlternateUserId()
     {
-        return $this->newAlternateUserId;
+        return $this->newAlternateUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newAlternateUserId;
     }
 
     /**
      * Setter for newAlternateUserId
      *
-     * @ElementName newAlternateUserId
-     * @param string|null $newAlternateUserId
+     * @param string $newAlternateUserId
      * @return $this
      */
     public function setNewAlternateUserId($newAlternateUserId)
@@ -112,28 +128,46 @@ class UserAlternateUserIdModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewAlternateUserId()
+    {
+        $this->newAlternateUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static DeviceManagementEventType AUTOMATIC()
  * @method static DeviceManagementEventType MANUAL()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementEventType extends \MyCLabs\Enum\Enum
 {

@@ -22,6 +22,7 @@ class SystemDeviceManagementAutoRebuildConfigGetListResponse extends \CWM\BroadW
 
     /**
      * @ElementName autoRebuildConfigTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $autoRebuildConfigTable = null;
@@ -29,24 +30,31 @@ class SystemDeviceManagementAutoRebuildConfigGetListResponse extends \CWM\BroadW
     /**
      * Getter for autoRebuildConfigTable
      *
-     * @ElementName autoRebuildConfigTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAutoRebuildConfigTable()
     {
-        return $this->autoRebuildConfigTable;
+        return $this->autoRebuildConfigTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->autoRebuildConfigTable;
     }
 
     /**
      * Setter for autoRebuildConfigTable
      *
-     * @ElementName autoRebuildConfigTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $autoRebuildConfigTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $autoRebuildConfigTable
      * @return $this
      */
     public function setAutoRebuildConfigTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $autoRebuildConfigTable)
     {
         $this->autoRebuildConfigTable = $autoRebuildConfigTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAutoRebuildConfigTable()
+    {
+        $this->autoRebuildConfigTable = null;
         return $this;
     }
 

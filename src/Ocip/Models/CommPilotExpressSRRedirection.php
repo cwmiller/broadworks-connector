@@ -13,12 +13,14 @@ class CommPilotExpressSRRedirection
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction|null
      */
     private $action = null;
 
     /**
      * @ElementName forwardingPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $forwardingPhoneNumber = null;
@@ -26,19 +28,17 @@ class CommPilotExpressSRRedirection
     /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionAction $action)
@@ -48,26 +48,42 @@ class CommPilotExpressSRRedirection
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardingPhoneNumber
      *
-     * @ElementName forwardingPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getForwardingPhoneNumber()
     {
-        return $this->forwardingPhoneNumber;
+        return $this->forwardingPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardingPhoneNumber;
     }
 
     /**
      * Setter for forwardingPhoneNumber
      *
-     * @ElementName forwardingPhoneNumber
-     * @param string|null $forwardingPhoneNumber
+     * @param string $forwardingPhoneNumber
      * @return $this
      */
     public function setForwardingPhoneNumber($forwardingPhoneNumber)
     {
         $this->forwardingPhoneNumber = $forwardingPhoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForwardingPhoneNumber()
+    {
+        $this->forwardingPhoneNumber = null;
         return $this;
     }
 

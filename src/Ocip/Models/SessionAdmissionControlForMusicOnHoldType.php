@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SessionAdmissionControlForMusicOnHoldType DO_NOT_PLAY()
  * @method static SessionAdmissionControlForMusicOnHoldType PLAY_AND_COUNT()
- * @ValueType string
+ * @EnumValueType string
  */
 class SessionAdmissionControlForMusicOnHoldType extends \MyCLabs\Enum\Enum
 {

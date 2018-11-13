@@ -16,12 +16,15 @@ class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName entryName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $entryName = array(
@@ -31,19 +34,17 @@ class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for entryName
      *
-     * @ElementName entryName
      * @return string[]
      */
     public function getEntryName()
     {
-        return $this->entryName;
+        return $this->entryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entryName;
     }
 
     /**
      * Setter for entryName
      *
-     * @ElementName entryName
      * @param string[] $entryName
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserPersonalPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntryName()
+    {
+        $this->entryName = null;
+        return $this;
+    }
+
+    /**
      * Adder for entryName
      *
-     * @ElementName entryName
      * @param string $entryName
      * @return $this
      */
     public function addEntryName(string $entryName)
     {
-        $this->entryName []= $entryName;
+        $this->entryName[] = $entryName;
         return $this;
     }
 

@@ -12,6 +12,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
 
     /**
      * @ElementName recordNewGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,6 +20,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
 
     /**
      * @ElementName listenToCurrentGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
 
     /**
      * @ElementName revertToSystemDefaultGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,12 +36,14 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,97 +52,122 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
     /**
      * Getter for recordNewGreeting
      *
-     * @ElementName recordNewGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRecordNewGreeting()
     {
-        return $this->recordNewGreeting;
+        return $this->recordNewGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordNewGreeting;
     }
 
     /**
      * Setter for recordNewGreeting
      *
-     * @ElementName recordNewGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordNewGreeting
+     * @param string|null $recordNewGreeting
      * @return $this
      */
     public function setRecordNewGreeting($recordNewGreeting)
     {
-        $this->recordNewGreeting = $recordNewGreeting;
+        if ($recordNewGreeting === null) {
+            $this->recordNewGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->recordNewGreeting = $recordNewGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecordNewGreeting()
+    {
+        $this->recordNewGreeting = null;
         return $this;
     }
 
     /**
      * Getter for listenToCurrentGreeting
      *
-     * @ElementName listenToCurrentGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getListenToCurrentGreeting()
     {
-        return $this->listenToCurrentGreeting;
+        return $this->listenToCurrentGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentGreeting;
     }
 
     /**
      * Setter for listenToCurrentGreeting
      *
-     * @ElementName listenToCurrentGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentGreeting
+     * @param string|null $listenToCurrentGreeting
      * @return $this
      */
     public function setListenToCurrentGreeting($listenToCurrentGreeting)
     {
-        $this->listenToCurrentGreeting = $listenToCurrentGreeting;
+        if ($listenToCurrentGreeting === null) {
+            $this->listenToCurrentGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->listenToCurrentGreeting = $listenToCurrentGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetListenToCurrentGreeting()
+    {
+        $this->listenToCurrentGreeting = null;
         return $this;
     }
 
     /**
      * Getter for revertToSystemDefaultGreeting
      *
-     * @ElementName revertToSystemDefaultGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRevertToSystemDefaultGreeting()
     {
-        return $this->revertToSystemDefaultGreeting;
+        return $this->revertToSystemDefaultGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->revertToSystemDefaultGreeting;
     }
 
     /**
      * Setter for revertToSystemDefaultGreeting
      *
-     * @ElementName revertToSystemDefaultGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $revertToSystemDefaultGreeting
+     * @param string|null $revertToSystemDefaultGreeting
      * @return $this
      */
     public function setRevertToSystemDefaultGreeting($revertToSystemDefaultGreeting)
     {
-        $this->revertToSystemDefaultGreeting = $revertToSystemDefaultGreeting;
+        if ($revertToSystemDefaultGreeting === null) {
+            $this->revertToSystemDefaultGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->revertToSystemDefaultGreeting = $revertToSystemDefaultGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRevertToSystemDefaultGreeting()
+    {
+        $this->revertToSystemDefaultGreeting = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -147,28 +177,46 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysModifyEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

@@ -17,6 +17,7 @@ class SystemPushNotificationAllowedApplicationGetListResponse extends \CWM\Broad
 
     /**
      * @ElementName applicationTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $applicationTable = null;
@@ -24,24 +25,31 @@ class SystemPushNotificationAllowedApplicationGetListResponse extends \CWM\Broad
     /**
      * Getter for applicationTable
      *
-     * @ElementName applicationTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getApplicationTable()
     {
-        return $this->applicationTable;
+        return $this->applicationTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationTable;
     }
 
     /**
      * Setter for applicationTable
      *
-     * @ElementName applicationTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $applicationTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $applicationTable
      * @return $this
      */
     public function setApplicationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $applicationTable)
     {
         $this->applicationTable = $applicationTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationTable()
+    {
+        $this->applicationTable = null;
         return $this;
     }
 

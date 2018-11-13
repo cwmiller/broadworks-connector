@@ -19,12 +19,15 @@ class ServiceProviderIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName imrn
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $imrn = array(
@@ -33,6 +36,8 @@ class ServiceProviderIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName imrnRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $imrnRange = array(
@@ -42,19 +47,17 @@ class ServiceProviderIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -64,20 +67,27 @@ class ServiceProviderIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for imrn
      *
-     * @ElementName imrn
      * @return string[]
      */
     public function getImrn()
     {
-        return $this->imrn;
+        return $this->imrn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imrn;
     }
 
     /**
      * Setter for imrn
      *
-     * @ElementName imrn
      * @param string[] $imrn
      * @return $this
      */
@@ -88,33 +98,39 @@ class ServiceProviderIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetImrn()
+    {
+        $this->imrn = null;
+        return $this;
+    }
+
+    /**
      * Adder for imrn
      *
-     * @ElementName imrn
      * @param string $imrn
      * @return $this
      */
     public function addImrn(string $imrn)
     {
-        $this->imrn []= $imrn;
+        $this->imrn[] = $imrn;
         return $this;
     }
 
     /**
      * Getter for imrnRange
      *
-     * @ElementName imrnRange
      * @return \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     public function getImrnRange()
     {
-        return $this->imrnRange;
+        return $this->imrnRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imrnRange;
     }
 
     /**
      * Setter for imrnRange
      *
-     * @ElementName imrnRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $imrnRange
      * @return $this
      */
@@ -125,15 +141,23 @@ class ServiceProviderIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetImrnRange()
+    {
+        $this->imrnRange = null;
+        return $this;
+    }
+
+    /**
      * Adder for imrnRange
      *
-     * @ElementName imrnRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange $imrnRange
      * @return $this
      */
     public function addImrnRange($imrnRange)
     {
-        $this->imrnRange []= $imrnRange;
+        $this->imrnRange[] = $imrnRange;
         return $this;
     }
 

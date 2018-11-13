@@ -24,6 +24,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetActiveListResponse exten
 
     /**
      * @ElementName scheduledReportTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $scheduledReportTable = null;
@@ -31,24 +32,31 @@ class GroupCallCenterEnhancedReportingScheduledReportGetActiveListResponse exten
     /**
      * Getter for scheduledReportTable
      *
-     * @ElementName scheduledReportTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getScheduledReportTable()
     {
-        return $this->scheduledReportTable;
+        return $this->scheduledReportTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduledReportTable;
     }
 
     /**
      * Setter for scheduledReportTable
      *
-     * @ElementName scheduledReportTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $scheduledReportTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $scheduledReportTable
      * @return $this
      */
     public function setScheduledReportTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $scheduledReportTable)
     {
         $this->scheduledReportTable = $scheduledReportTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScheduledReportTable()
+    {
+        $this->scheduledReportTable = null;
         return $this;
     }
 

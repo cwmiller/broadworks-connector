@@ -10,30 +10,35 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19ChangeBusyOrNoAnswer
 
     /**
      * @ElementName recordNewGreeting
+     * @Type string
      * @var string|null
      */
     private $recordNewGreeting = null;
 
     /**
      * @ElementName listenToCurrentGreeting
+     * @Type string
      * @var string|null
      */
     private $listenToCurrentGreeting = null;
 
     /**
      * @ElementName revertToSystemDefaultGreeting
+     * @Type string
      * @var string|null
      */
     private $revertToSystemDefaultGreeting = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -41,19 +46,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19ChangeBusyOrNoAnswer
     /**
      * Getter for recordNewGreeting
      *
-     * @ElementName recordNewGreeting
-     * @return string|null
+     * @return string
      */
     public function getRecordNewGreeting()
     {
-        return $this->recordNewGreeting;
+        return $this->recordNewGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordNewGreeting;
     }
 
     /**
      * Setter for recordNewGreeting
      *
-     * @ElementName recordNewGreeting
-     * @param string|null $recordNewGreeting
+     * @param string $recordNewGreeting
      * @return $this
      */
     public function setRecordNewGreeting($recordNewGreeting)
@@ -63,21 +66,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19ChangeBusyOrNoAnswer
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecordNewGreeting()
+    {
+        $this->recordNewGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for listenToCurrentGreeting
      *
-     * @ElementName listenToCurrentGreeting
-     * @return string|null
+     * @return string
      */
     public function getListenToCurrentGreeting()
     {
-        return $this->listenToCurrentGreeting;
+        return $this->listenToCurrentGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentGreeting;
     }
 
     /**
      * Setter for listenToCurrentGreeting
      *
-     * @ElementName listenToCurrentGreeting
-     * @param string|null $listenToCurrentGreeting
+     * @param string $listenToCurrentGreeting
      * @return $this
      */
     public function setListenToCurrentGreeting($listenToCurrentGreeting)
@@ -87,21 +97,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19ChangeBusyOrNoAnswer
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListenToCurrentGreeting()
+    {
+        $this->listenToCurrentGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for revertToSystemDefaultGreeting
      *
-     * @ElementName revertToSystemDefaultGreeting
-     * @return string|null
+     * @return string
      */
     public function getRevertToSystemDefaultGreeting()
     {
-        return $this->revertToSystemDefaultGreeting;
+        return $this->revertToSystemDefaultGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->revertToSystemDefaultGreeting;
     }
 
     /**
      * Setter for revertToSystemDefaultGreeting
      *
-     * @ElementName revertToSystemDefaultGreeting
-     * @param string|null $revertToSystemDefaultGreeting
+     * @param string $revertToSystemDefaultGreeting
      * @return $this
      */
     public function setRevertToSystemDefaultGreeting($revertToSystemDefaultGreeting)
@@ -111,21 +128,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19ChangeBusyOrNoAnswer
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRevertToSystemDefaultGreeting()
+    {
+        $this->revertToSystemDefaultGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -135,26 +159,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19ChangeBusyOrNoAnswer
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

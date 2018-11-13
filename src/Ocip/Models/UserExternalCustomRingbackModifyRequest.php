@@ -26,24 +26,28 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName useSettingLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null
      */
     private $useSettingLevel = null;
 
     /**
      * @ElementName sipRequestURI
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,19 +56,17 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -74,21 +76,28 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -98,21 +107,28 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSettingLevel
      *
-     * @ElementName useSettingLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel
      */
     public function getUseSettingLevel()
     {
-        return $this->useSettingLevel;
+        return $this->useSettingLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSettingLevel;
     }
 
     /**
      * Setter for useSettingLevel
      *
-     * @ElementName useSettingLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null $useSettingLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel $useSettingLevel
      * @return $this
      */
     public function setUseSettingLevel(\CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel $useSettingLevel)
@@ -122,28 +138,46 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSettingLevel()
+    {
+        $this->useSettingLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipRequestURI
      *
-     * @ElementName sipRequestURI
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSipRequestURI()
     {
-        return $this->sipRequestURI;
+        return $this->sipRequestURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipRequestURI;
     }
 
     /**
      * Setter for sipRequestURI
      *
-     * @ElementName sipRequestURI
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $sipRequestURI
+     * @param string|null $sipRequestURI
      * @return $this
      */
     public function setSipRequestURI($sipRequestURI)
     {
-        $this->sipRequestURI = $sipRequestURI;
+        if ($sipRequestURI === null) {
+            $this->sipRequestURI = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->sipRequestURI = $sipRequestURI;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipRequestURI()
+    {
+        $this->sipRequestURI = null;
         return $this;
     }
 

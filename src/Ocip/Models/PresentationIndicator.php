@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static PresentationIndicator ANONYMOUS_UNAVAILABLE()
  * @method static PresentationIndicator _PUBLIC()
  * @method static PresentationIndicator UNAVAILABLE()
- * @ValueType string
+ * @EnumValueType string
  */
 class PresentationIndicator extends \MyCLabs\Enum\Enum
 {

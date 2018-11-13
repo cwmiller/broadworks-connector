@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AudioFileCodec G726()
  * @method static AudioFileCodec AMR()
  * @method static AudioFileCodec AMR_WB()
- * @ValueType string
+ * @EnumValueType string
  */
 class AudioFileCodec extends \MyCLabs\Enum\Enum
 {

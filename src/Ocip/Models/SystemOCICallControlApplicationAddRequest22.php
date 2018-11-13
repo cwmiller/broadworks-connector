@@ -16,36 +16,42 @@ class SystemOCICallControlApplicationAddRequest22 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName applicationId
+     * @Type string
      * @var string|null
      */
     private $applicationId = null;
 
     /**
      * @ElementName enableSystemWide
+     * @Type bool
      * @var bool|null
      */
     private $enableSystemWide = null;
 
     /**
      * @ElementName notificationTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $notificationTimeoutSeconds = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName maxEventChannelsPerSet
+     * @Type int
      * @var int|null
      */
     private $maxEventChannelsPerSet = null;
 
     /**
      * @ElementName unresponsiveChannelSetGracePeriodSeconds
+     * @Type int
      * @var int|null
      */
     private $unresponsiveChannelSetGracePeriodSeconds = null;
@@ -53,19 +59,17 @@ class SystemOCICallControlApplicationAddRequest22 extends \CWM\BroadWorksConnect
     /**
      * Getter for applicationId
      *
-     * @ElementName applicationId
-     * @return string|null
+     * @return string
      */
     public function getApplicationId()
     {
-        return $this->applicationId;
+        return $this->applicationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationId;
     }
 
     /**
      * Setter for applicationId
      *
-     * @ElementName applicationId
-     * @param string|null $applicationId
+     * @param string $applicationId
      * @return $this
      */
     public function setApplicationId($applicationId)
@@ -75,21 +79,28 @@ class SystemOCICallControlApplicationAddRequest22 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationId()
+    {
+        $this->applicationId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableSystemWide
      *
-     * @ElementName enableSystemWide
-     * @return bool|null
+     * @return bool
      */
     public function getEnableSystemWide()
     {
-        return $this->enableSystemWide;
+        return $this->enableSystemWide instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableSystemWide;
     }
 
     /**
      * Setter for enableSystemWide
      *
-     * @ElementName enableSystemWide
-     * @param bool|null $enableSystemWide
+     * @param bool $enableSystemWide
      * @return $this
      */
     public function setEnableSystemWide($enableSystemWide)
@@ -99,21 +110,28 @@ class SystemOCICallControlApplicationAddRequest22 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableSystemWide()
+    {
+        $this->enableSystemWide = null;
+        return $this;
+    }
+
+    /**
      * Getter for notificationTimeoutSeconds
      *
-     * @ElementName notificationTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getNotificationTimeoutSeconds()
     {
-        return $this->notificationTimeoutSeconds;
+        return $this->notificationTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->notificationTimeoutSeconds;
     }
 
     /**
      * Setter for notificationTimeoutSeconds
      *
-     * @ElementName notificationTimeoutSeconds
-     * @param int|null $notificationTimeoutSeconds
+     * @param int $notificationTimeoutSeconds
      * @return $this
      */
     public function setNotificationTimeoutSeconds($notificationTimeoutSeconds)
@@ -123,21 +141,28 @@ class SystemOCICallControlApplicationAddRequest22 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNotificationTimeoutSeconds()
+    {
+        $this->notificationTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -147,21 +172,28 @@ class SystemOCICallControlApplicationAddRequest22 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxEventChannelsPerSet
      *
-     * @ElementName maxEventChannelsPerSet
-     * @return int|null
+     * @return int
      */
     public function getMaxEventChannelsPerSet()
     {
-        return $this->maxEventChannelsPerSet;
+        return $this->maxEventChannelsPerSet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxEventChannelsPerSet;
     }
 
     /**
      * Setter for maxEventChannelsPerSet
      *
-     * @ElementName maxEventChannelsPerSet
-     * @param int|null $maxEventChannelsPerSet
+     * @param int $maxEventChannelsPerSet
      * @return $this
      */
     public function setMaxEventChannelsPerSet($maxEventChannelsPerSet)
@@ -171,26 +203,42 @@ class SystemOCICallControlApplicationAddRequest22 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxEventChannelsPerSet()
+    {
+        $this->maxEventChannelsPerSet = null;
+        return $this;
+    }
+
+    /**
      * Getter for unresponsiveChannelSetGracePeriodSeconds
      *
-     * @ElementName unresponsiveChannelSetGracePeriodSeconds
-     * @return int|null
+     * @return int
      */
     public function getUnresponsiveChannelSetGracePeriodSeconds()
     {
-        return $this->unresponsiveChannelSetGracePeriodSeconds;
+        return $this->unresponsiveChannelSetGracePeriodSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unresponsiveChannelSetGracePeriodSeconds;
     }
 
     /**
      * Setter for unresponsiveChannelSetGracePeriodSeconds
      *
-     * @ElementName unresponsiveChannelSetGracePeriodSeconds
-     * @param int|null $unresponsiveChannelSetGracePeriodSeconds
+     * @param int $unresponsiveChannelSetGracePeriodSeconds
      * @return $this
      */
     public function setUnresponsiveChannelSetGracePeriodSeconds($unresponsiveChannelSetGracePeriodSeconds)
     {
         $this->unresponsiveChannelSetGracePeriodSeconds = $unresponsiveChannelSetGracePeriodSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnresponsiveChannelSetGracePeriodSeconds()
+    {
+        $this->unresponsiveChannelSetGracePeriodSeconds = null;
         return $this;
     }
 

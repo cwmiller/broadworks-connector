@@ -12,12 +12,14 @@ class PublicUserIdentity
 
     /**
      * @ElementName sipURI
+     * @Type string
      * @var string|null
      */
     private $sipURI = null;
 
     /**
      * @ElementName telURI
+     * @Type string
      * @var string|null
      */
     private $telURI = null;
@@ -25,19 +27,17 @@ class PublicUserIdentity
     /**
      * Getter for sipURI
      *
-     * @ElementName sipURI
-     * @return string|null
+     * @return string
      */
     public function getSipURI()
     {
-        return $this->sipURI;
+        return $this->sipURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipURI;
     }
 
     /**
      * Setter for sipURI
      *
-     * @ElementName sipURI
-     * @param string|null $sipURI
+     * @param string $sipURI
      * @return $this
      */
     public function setSipURI($sipURI)
@@ -47,26 +47,42 @@ class PublicUserIdentity
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSipURI()
+    {
+        $this->sipURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for telURI
      *
-     * @ElementName telURI
-     * @return string|null
+     * @return string
      */
     public function getTelURI()
     {
-        return $this->telURI;
+        return $this->telURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->telURI;
     }
 
     /**
      * Setter for telURI
      *
-     * @ElementName telURI
-     * @param string|null $telURI
+     * @param string $telURI
      * @return $this
      */
     public function setTelURI($telURI)
     {
         $this->telURI = $telURI;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTelURI()
+    {
+        $this->telURI = null;
         return $this;
     }
 

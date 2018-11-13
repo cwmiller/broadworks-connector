@@ -16,18 +16,21 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName extensionLength
+     * @Type int
      * @var int|null
      */
     private $extensionLength = null;
@@ -35,19 +38,17 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -57,21 +58,28 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -81,26 +89,42 @@ class GroupExtensionLengthModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for extensionLength
      *
-     * @ElementName extensionLength
-     * @return int|null
+     * @return int
      */
     public function getExtensionLength()
     {
-        return $this->extensionLength;
+        return $this->extensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extensionLength;
     }
 
     /**
      * Setter for extensionLength
      *
-     * @ElementName extensionLength
-     * @param int|null $extensionLength
+     * @param int $extensionLength
      * @return $this
      */
     public function setExtensionLength($extensionLength)
     {
         $this->extensionLength = $extensionLength;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExtensionLength()
+    {
+        $this->extensionLength = null;
         return $this;
     }
 

@@ -31,12 +31,15 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
 
     /**
      * @ElementName searchCriteriaDn
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -45,6 +48,8 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName searchCriteriaServiceProviderId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -53,6 +58,7 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName searchCriteriaExactOrganizationType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     private $searchCriteriaExactOrganizationType = null;
@@ -60,19 +66,17 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
@@ -82,20 +86,27 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     public function getSearchCriteriaDn()
     {
-        return $this->searchCriteriaDn;
+        return $this->searchCriteriaDn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDn;
     }
 
     /**
      * Setter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
@@ -106,33 +117,39 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDn()
+    {
+        $this->searchCriteriaDn = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn $searchCriteriaDn
      * @return $this
      */
     public function addSearchCriteriaDn($searchCriteriaDn)
     {
-        $this->searchCriteriaDn []= $searchCriteriaDn;
+        $this->searchCriteriaDn[] = $searchCriteriaDn;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaServiceProviderId
      *
-     * @ElementName searchCriteriaServiceProviderId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     public function getSearchCriteriaServiceProviderId()
     {
-        return $this->searchCriteriaServiceProviderId;
+        return $this->searchCriteriaServiceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaServiceProviderId;
     }
 
     /**
      * Setter for searchCriteriaServiceProviderId
      *
-     * @ElementName searchCriteriaServiceProviderId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
@@ -143,39 +160,54 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaServiceProviderId()
+    {
+        $this->searchCriteriaServiceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaServiceProviderId
      *
-     * @ElementName searchCriteriaServiceProviderId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId $searchCriteriaServiceProviderId
      * @return $this
      */
     public function addSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
     {
-        $this->searchCriteriaServiceProviderId []= $searchCriteriaServiceProviderId;
+        $this->searchCriteriaServiceProviderId[] = $searchCriteriaServiceProviderId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactOrganizationType
      *
-     * @ElementName searchCriteriaExactOrganizationType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      */
     public function getSearchCriteriaExactOrganizationType()
     {
-        return $this->searchCriteriaExactOrganizationType;
+        return $this->searchCriteriaExactOrganizationType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactOrganizationType;
     }
 
     /**
      * Setter for searchCriteriaExactOrganizationType
      *
-     * @ElementName searchCriteriaExactOrganizationType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null $searchCriteriaExactOrganizationType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType
      * @return $this
      */
     public function setSearchCriteriaExactOrganizationType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType)
     {
         $this->searchCriteriaExactOrganizationType = $searchCriteriaExactOrganizationType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactOrganizationType()
+    {
+        $this->searchCriteriaExactOrganizationType = null;
         return $this;
     }
 

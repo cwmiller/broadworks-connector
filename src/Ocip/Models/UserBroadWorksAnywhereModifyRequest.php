@@ -17,18 +17,21 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName alertAllLocationsForClickToDialCalls
+     * @Type bool
      * @var bool|null
      */
     private $alertAllLocationsForClickToDialCalls = null;
 
     /**
      * @ElementName alertAllLocationsForGroupPagingCalls
+     * @Type bool
      * @var bool|null
      */
     private $alertAllLocationsForGroupPagingCalls = null;
@@ -36,19 +39,17 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -58,21 +59,28 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertAllLocationsForClickToDialCalls
      *
-     * @ElementName alertAllLocationsForClickToDialCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlertAllLocationsForClickToDialCalls()
     {
-        return $this->alertAllLocationsForClickToDialCalls;
+        return $this->alertAllLocationsForClickToDialCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertAllLocationsForClickToDialCalls;
     }
 
     /**
      * Setter for alertAllLocationsForClickToDialCalls
      *
-     * @ElementName alertAllLocationsForClickToDialCalls
-     * @param bool|null $alertAllLocationsForClickToDialCalls
+     * @param bool $alertAllLocationsForClickToDialCalls
      * @return $this
      */
     public function setAlertAllLocationsForClickToDialCalls($alertAllLocationsForClickToDialCalls)
@@ -82,26 +90,42 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertAllLocationsForClickToDialCalls()
+    {
+        $this->alertAllLocationsForClickToDialCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertAllLocationsForGroupPagingCalls
      *
-     * @ElementName alertAllLocationsForGroupPagingCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlertAllLocationsForGroupPagingCalls()
     {
-        return $this->alertAllLocationsForGroupPagingCalls;
+        return $this->alertAllLocationsForGroupPagingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertAllLocationsForGroupPagingCalls;
     }
 
     /**
      * Setter for alertAllLocationsForGroupPagingCalls
      *
-     * @ElementName alertAllLocationsForGroupPagingCalls
-     * @param bool|null $alertAllLocationsForGroupPagingCalls
+     * @param bool $alertAllLocationsForGroupPagingCalls
      * @return $this
      */
     public function setAlertAllLocationsForGroupPagingCalls($alertAllLocationsForGroupPagingCalls)
     {
         $this->alertAllLocationsForGroupPagingCalls = $alertAllLocationsForGroupPagingCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlertAllLocationsForGroupPagingCalls()
+    {
+        $this->alertAllLocationsForGroupPagingCalls = null;
         return $this;
     }
 

@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
 
     /**
      * @ElementName activateExtendedAwayGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
 
     /**
      * @ElementName deactivateExtendedAwayGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
 
     /**
      * @ElementName recordNewGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,6 +34,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
 
     /**
      * @ElementName listenToCurrentGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,6 +42,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
 
     /**
      * @ElementName enableMessageDeposit
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,6 +50,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
 
     /**
      * @ElementName disableMessageDeposit
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,12 +58,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -66,175 +74,227 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
     /**
      * Getter for activateExtendedAwayGreeting
      *
-     * @ElementName activateExtendedAwayGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getActivateExtendedAwayGreeting()
     {
-        return $this->activateExtendedAwayGreeting;
+        return $this->activateExtendedAwayGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateExtendedAwayGreeting;
     }
 
     /**
      * Setter for activateExtendedAwayGreeting
      *
-     * @ElementName activateExtendedAwayGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateExtendedAwayGreeting
+     * @param string|null $activateExtendedAwayGreeting
      * @return $this
      */
     public function setActivateExtendedAwayGreeting($activateExtendedAwayGreeting)
     {
-        $this->activateExtendedAwayGreeting = $activateExtendedAwayGreeting;
+        if ($activateExtendedAwayGreeting === null) {
+            $this->activateExtendedAwayGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->activateExtendedAwayGreeting = $activateExtendedAwayGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetActivateExtendedAwayGreeting()
+    {
+        $this->activateExtendedAwayGreeting = null;
         return $this;
     }
 
     /**
      * Getter for deactivateExtendedAwayGreeting
      *
-     * @ElementName deactivateExtendedAwayGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDeactivateExtendedAwayGreeting()
     {
-        return $this->deactivateExtendedAwayGreeting;
+        return $this->deactivateExtendedAwayGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deactivateExtendedAwayGreeting;
     }
 
     /**
      * Setter for deactivateExtendedAwayGreeting
      *
-     * @ElementName deactivateExtendedAwayGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deactivateExtendedAwayGreeting
+     * @param string|null $deactivateExtendedAwayGreeting
      * @return $this
      */
     public function setDeactivateExtendedAwayGreeting($deactivateExtendedAwayGreeting)
     {
-        $this->deactivateExtendedAwayGreeting = $deactivateExtendedAwayGreeting;
+        if ($deactivateExtendedAwayGreeting === null) {
+            $this->deactivateExtendedAwayGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deactivateExtendedAwayGreeting = $deactivateExtendedAwayGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeactivateExtendedAwayGreeting()
+    {
+        $this->deactivateExtendedAwayGreeting = null;
         return $this;
     }
 
     /**
      * Getter for recordNewGreeting
      *
-     * @ElementName recordNewGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRecordNewGreeting()
     {
-        return $this->recordNewGreeting;
+        return $this->recordNewGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordNewGreeting;
     }
 
     /**
      * Setter for recordNewGreeting
      *
-     * @ElementName recordNewGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordNewGreeting
+     * @param string|null $recordNewGreeting
      * @return $this
      */
     public function setRecordNewGreeting($recordNewGreeting)
     {
-        $this->recordNewGreeting = $recordNewGreeting;
+        if ($recordNewGreeting === null) {
+            $this->recordNewGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->recordNewGreeting = $recordNewGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecordNewGreeting()
+    {
+        $this->recordNewGreeting = null;
         return $this;
     }
 
     /**
      * Getter for listenToCurrentGreeting
      *
-     * @ElementName listenToCurrentGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getListenToCurrentGreeting()
     {
-        return $this->listenToCurrentGreeting;
+        return $this->listenToCurrentGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentGreeting;
     }
 
     /**
      * Setter for listenToCurrentGreeting
      *
-     * @ElementName listenToCurrentGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentGreeting
+     * @param string|null $listenToCurrentGreeting
      * @return $this
      */
     public function setListenToCurrentGreeting($listenToCurrentGreeting)
     {
-        $this->listenToCurrentGreeting = $listenToCurrentGreeting;
+        if ($listenToCurrentGreeting === null) {
+            $this->listenToCurrentGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->listenToCurrentGreeting = $listenToCurrentGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetListenToCurrentGreeting()
+    {
+        $this->listenToCurrentGreeting = null;
         return $this;
     }
 
     /**
      * Getter for enableMessageDeposit
      *
-     * @ElementName enableMessageDeposit
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getEnableMessageDeposit()
     {
-        return $this->enableMessageDeposit;
+        return $this->enableMessageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMessageDeposit;
     }
 
     /**
      * Setter for enableMessageDeposit
      *
-     * @ElementName enableMessageDeposit
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $enableMessageDeposit
+     * @param string|null $enableMessageDeposit
      * @return $this
      */
     public function setEnableMessageDeposit($enableMessageDeposit)
     {
-        $this->enableMessageDeposit = $enableMessageDeposit;
+        if ($enableMessageDeposit === null) {
+            $this->enableMessageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->enableMessageDeposit = $enableMessageDeposit;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableMessageDeposit()
+    {
+        $this->enableMessageDeposit = null;
         return $this;
     }
 
     /**
      * Getter for disableMessageDeposit
      *
-     * @ElementName disableMessageDeposit
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDisableMessageDeposit()
     {
-        return $this->disableMessageDeposit;
+        return $this->disableMessageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableMessageDeposit;
     }
 
     /**
      * Setter for disableMessageDeposit
      *
-     * @ElementName disableMessageDeposit
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disableMessageDeposit
+     * @param string|null $disableMessageDeposit
      * @return $this
      */
     public function setDisableMessageDeposit($disableMessageDeposit)
     {
-        $this->disableMessageDeposit = $disableMessageDeposit;
+        if ($disableMessageDeposit === null) {
+            $this->disableMessageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->disableMessageDeposit = $disableMessageDeposit;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDisableMessageDeposit()
+    {
+        $this->disableMessageDeposit = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -244,28 +304,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

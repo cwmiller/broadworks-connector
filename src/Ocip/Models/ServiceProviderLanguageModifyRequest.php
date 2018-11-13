@@ -19,18 +19,21 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName becomeDefaultLanguage
+     * @Type bool
      * @var bool|null
      */
     private $becomeDefaultLanguage = null;
@@ -38,19 +41,17 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -60,21 +61,28 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -84,26 +92,42 @@ class ServiceProviderLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for becomeDefaultLanguage
      *
-     * @ElementName becomeDefaultLanguage
-     * @return bool|null
+     * @return bool
      */
     public function getBecomeDefaultLanguage()
     {
-        return $this->becomeDefaultLanguage;
+        return $this->becomeDefaultLanguage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->becomeDefaultLanguage;
     }
 
     /**
      * Setter for becomeDefaultLanguage
      *
-     * @ElementName becomeDefaultLanguage
-     * @param bool|null $becomeDefaultLanguage
+     * @param bool $becomeDefaultLanguage
      * @return $this
      */
     public function setBecomeDefaultLanguage($becomeDefaultLanguage)
     {
         $this->becomeDefaultLanguage = $becomeDefaultLanguage;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBecomeDefaultLanguage()
+    {
+        $this->becomeDefaultLanguage = null;
         return $this;
     }
 

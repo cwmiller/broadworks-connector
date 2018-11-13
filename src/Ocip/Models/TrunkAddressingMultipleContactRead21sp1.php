@@ -16,30 +16,35 @@ class TrunkAddressingMultipleContactRead21sp1
 
     /**
      * @ElementName trunkGroupDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
      */
     private $trunkGroupDeviceEndpoint = null;
 
     /**
      * @ElementName enterpriseTrunkName
+     * @Type string
      * @var string|null
      */
     private $enterpriseTrunkName = null;
 
     /**
      * @ElementName alternateTrunkIdentity
+     * @Type string
      * @var string|null
      */
     private $alternateTrunkIdentity = null;
 
     /**
      * @ElementName alternateTrunkIdentityDomain
+     * @Type string
      * @var string|null
      */
     private $alternateTrunkIdentityDomain = null;
 
     /**
      * @ElementName physicalLocation
+     * @Type string
      * @var string|null
      */
     private $physicalLocation = null;
@@ -47,19 +52,17 @@ class TrunkAddressingMultipleContactRead21sp1
     /**
      * Getter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead
      */
     public function getTrunkGroupDeviceEndpoint()
     {
-        return $this->trunkGroupDeviceEndpoint;
+        return $this->trunkGroupDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupDeviceEndpoint;
     }
 
     /**
      * Setter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead|null $trunkGroupDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead $trunkGroupDeviceEndpoint
      * @return $this
      */
     public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointRead $trunkGroupDeviceEndpoint)
@@ -69,21 +72,28 @@ class TrunkAddressingMultipleContactRead21sp1
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupDeviceEndpoint()
+    {
+        $this->trunkGroupDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Getter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @return string|null
+     * @return string
      */
     public function getEnterpriseTrunkName()
     {
-        return $this->enterpriseTrunkName;
+        return $this->enterpriseTrunkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseTrunkName;
     }
 
     /**
      * Setter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @param string|null $enterpriseTrunkName
+     * @param string $enterpriseTrunkName
      * @return $this
      */
     public function setEnterpriseTrunkName($enterpriseTrunkName)
@@ -93,21 +103,28 @@ class TrunkAddressingMultipleContactRead21sp1
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnterpriseTrunkName()
+    {
+        $this->enterpriseTrunkName = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateTrunkIdentity
      *
-     * @ElementName alternateTrunkIdentity
-     * @return string|null
+     * @return string
      */
     public function getAlternateTrunkIdentity()
     {
-        return $this->alternateTrunkIdentity;
+        return $this->alternateTrunkIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateTrunkIdentity;
     }
 
     /**
      * Setter for alternateTrunkIdentity
      *
-     * @ElementName alternateTrunkIdentity
-     * @param string|null $alternateTrunkIdentity
+     * @param string $alternateTrunkIdentity
      * @return $this
      */
     public function setAlternateTrunkIdentity($alternateTrunkIdentity)
@@ -117,21 +134,28 @@ class TrunkAddressingMultipleContactRead21sp1
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateTrunkIdentity()
+    {
+        $this->alternateTrunkIdentity = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateTrunkIdentityDomain
      *
-     * @ElementName alternateTrunkIdentityDomain
-     * @return string|null
+     * @return string
      */
     public function getAlternateTrunkIdentityDomain()
     {
-        return $this->alternateTrunkIdentityDomain;
+        return $this->alternateTrunkIdentityDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateTrunkIdentityDomain;
     }
 
     /**
      * Setter for alternateTrunkIdentityDomain
      *
-     * @ElementName alternateTrunkIdentityDomain
-     * @param string|null $alternateTrunkIdentityDomain
+     * @param string $alternateTrunkIdentityDomain
      * @return $this
      */
     public function setAlternateTrunkIdentityDomain($alternateTrunkIdentityDomain)
@@ -141,26 +165,42 @@ class TrunkAddressingMultipleContactRead21sp1
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateTrunkIdentityDomain()
+    {
+        $this->alternateTrunkIdentityDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @return string|null
+     * @return string
      */
     public function getPhysicalLocation()
     {
-        return $this->physicalLocation;
+        return $this->physicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->physicalLocation;
     }
 
     /**
      * Setter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @param string|null $physicalLocation
+     * @param string $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)
     {
         $this->physicalLocation = $physicalLocation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhysicalLocation()
+    {
+        $this->physicalLocation = null;
         return $this;
     }
 

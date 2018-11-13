@@ -16,18 +16,21 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
     private $action = null;
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,42 +38,49 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName overflowAfterTimeout
+     * @Type bool
      * @var bool|null
      */
     private $overflowAfterTimeout = null;
 
     /**
      * @ElementName timeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $timeoutSeconds = null;
 
     /**
      * @ElementName playAnnouncementBeforeOverflowProcessing
+     * @Type bool
      * @var bool|null
      */
     private $playAnnouncementBeforeOverflowProcessing = null;
 
     /**
      * @ElementName audioMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
     /**
      * @ElementName videoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $videoFile = null;
@@ -78,19 +88,17 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -100,21 +108,28 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction $action)
@@ -124,47 +139,63 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
+     * @param string|null $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
     {
-        $this->transferPhoneNumber = $transferPhoneNumber;
+        if ($transferPhoneNumber === null) {
+            $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->transferPhoneNumber = $transferPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for overflowAfterTimeout
      *
-     * @ElementName overflowAfterTimeout
-     * @return bool|null
+     * @return bool
      */
     public function getOverflowAfterTimeout()
     {
-        return $this->overflowAfterTimeout;
+        return $this->overflowAfterTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overflowAfterTimeout;
     }
 
     /**
      * Setter for overflowAfterTimeout
      *
-     * @ElementName overflowAfterTimeout
-     * @param bool|null $overflowAfterTimeout
+     * @param bool $overflowAfterTimeout
      * @return $this
      */
     public function setOverflowAfterTimeout($overflowAfterTimeout)
@@ -174,21 +205,28 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOverflowAfterTimeout()
+    {
+        $this->overflowAfterTimeout = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeoutSeconds
      *
-     * @ElementName timeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getTimeoutSeconds()
     {
-        return $this->timeoutSeconds;
+        return $this->timeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeoutSeconds;
     }
 
     /**
      * Setter for timeoutSeconds
      *
-     * @ElementName timeoutSeconds
-     * @param int|null $timeoutSeconds
+     * @param int $timeoutSeconds
      * @return $this
      */
     public function setTimeoutSeconds($timeoutSeconds)
@@ -198,21 +236,28 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeoutSeconds()
+    {
+        $this->timeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for playAnnouncementBeforeOverflowProcessing
      *
-     * @ElementName playAnnouncementBeforeOverflowProcessing
-     * @return bool|null
+     * @return bool
      */
     public function getPlayAnnouncementBeforeOverflowProcessing()
     {
-        return $this->playAnnouncementBeforeOverflowProcessing;
+        return $this->playAnnouncementBeforeOverflowProcessing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playAnnouncementBeforeOverflowProcessing;
     }
 
     /**
      * Setter for playAnnouncementBeforeOverflowProcessing
      *
-     * @ElementName playAnnouncementBeforeOverflowProcessing
-     * @param bool|null $playAnnouncementBeforeOverflowProcessing
+     * @param bool $playAnnouncementBeforeOverflowProcessing
      * @return $this
      */
     public function setPlayAnnouncementBeforeOverflowProcessing($playAnnouncementBeforeOverflowProcessing)
@@ -222,21 +267,28 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayAnnouncementBeforeOverflowProcessing()
+    {
+        $this->playAnnouncementBeforeOverflowProcessing = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioMessageSelection()
     {
-        return $this->audioMessageSelection;
+        return $this->audioMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMessageSelection;
     }
 
     /**
      * Setter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection
      * @return $this
      */
     public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
@@ -246,21 +298,28 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMessageSelection()
+    {
+        $this->audioMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $audioFile)
@@ -270,21 +329,28 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoMessageSelection()
     {
-        return $this->videoMessageSelection;
+        return $this->videoMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMessageSelection;
     }
 
     /**
      * Setter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection
      * @return $this
      */
     public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
@@ -294,26 +360,42 @@ class GroupCallCenterOverflowModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoMessageSelection()
+    {
+        $this->videoMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null $videoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource $videoFile)
     {
         $this->videoFile = $videoFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
         return $this;
     }
 

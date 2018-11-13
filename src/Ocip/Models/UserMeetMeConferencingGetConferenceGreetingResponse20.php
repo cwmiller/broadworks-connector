@@ -15,12 +15,14 @@ class UserMeetMeConferencingGetConferenceGreetingResponse20 extends \CWM\BroadWo
 
     /**
      * @ElementName playEntranceGreeting
+     * @Type bool
      * @var bool|null
      */
     private $playEntranceGreeting = null;
 
     /**
      * @ElementName entranceGreetingFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $entranceGreetingFile = null;
@@ -28,19 +30,17 @@ class UserMeetMeConferencingGetConferenceGreetingResponse20 extends \CWM\BroadWo
     /**
      * Getter for playEntranceGreeting
      *
-     * @ElementName playEntranceGreeting
-     * @return bool|null
+     * @return bool
      */
     public function getPlayEntranceGreeting()
     {
-        return $this->playEntranceGreeting;
+        return $this->playEntranceGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playEntranceGreeting;
     }
 
     /**
      * Setter for playEntranceGreeting
      *
-     * @ElementName playEntranceGreeting
-     * @param bool|null $playEntranceGreeting
+     * @param bool $playEntranceGreeting
      * @return $this
      */
     public function setPlayEntranceGreeting($playEntranceGreeting)
@@ -50,26 +50,42 @@ class UserMeetMeConferencingGetConferenceGreetingResponse20 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayEntranceGreeting()
+    {
+        $this->playEntranceGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for entranceGreetingFile
      *
-     * @ElementName entranceGreetingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      */
     public function getEntranceGreetingFile()
     {
-        return $this->entranceGreetingFile;
+        return $this->entranceGreetingFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entranceGreetingFile;
     }
 
     /**
      * Setter for entranceGreetingFile
      *
-     * @ElementName entranceGreetingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null $entranceGreetingFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $entranceGreetingFile
      * @return $this
      */
     public function setEntranceGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $entranceGreetingFile)
     {
         $this->entranceGreetingFile = $entranceGreetingFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEntranceGreetingFile()
+    {
+        $this->entranceGreetingFile = null;
         return $this;
     }
 

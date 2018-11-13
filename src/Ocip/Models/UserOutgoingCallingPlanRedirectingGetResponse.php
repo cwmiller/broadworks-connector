@@ -14,12 +14,14 @@ class UserOutgoingCallingPlanRedirectingGetResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName useCustomSettings
+     * @Type bool
      * @var bool|null
      */
     private $useCustomSettings = null;
 
     /**
      * @ElementName userPermissions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissions
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissions|null
      */
     private $userPermissions = null;
@@ -27,19 +29,17 @@ class UserOutgoingCallingPlanRedirectingGetResponse extends \CWM\BroadWorksConne
     /**
      * Getter for useCustomSettings
      *
-     * @ElementName useCustomSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseCustomSettings()
     {
-        return $this->useCustomSettings;
+        return $this->useCustomSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useCustomSettings;
     }
 
     /**
      * Setter for useCustomSettings
      *
-     * @ElementName useCustomSettings
-     * @param bool|null $useCustomSettings
+     * @param bool $useCustomSettings
      * @return $this
      */
     public function setUseCustomSettings($useCustomSettings)
@@ -49,26 +49,42 @@ class UserOutgoingCallingPlanRedirectingGetResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseCustomSettings()
+    {
+        $this->useCustomSettings = null;
+        return $this;
+    }
+
+    /**
      * Getter for userPermissions
      *
-     * @ElementName userPermissions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissions|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissions
      */
     public function getUserPermissions()
     {
-        return $this->userPermissions;
+        return $this->userPermissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userPermissions;
     }
 
     /**
      * Setter for userPermissions
      *
-     * @ElementName userPermissions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissions|null $userPermissions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissions $userPermissions
      * @return $this
      */
     public function setUserPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissions $userPermissions)
     {
         $this->userPermissions = $userPermissions;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserPermissions()
+    {
+        $this->userPermissions = null;
         return $this;
     }
 

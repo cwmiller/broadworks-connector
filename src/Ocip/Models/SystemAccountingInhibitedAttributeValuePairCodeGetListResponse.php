@@ -17,6 +17,7 @@ class SystemAccountingInhibitedAttributeValuePairCodeGetListResponse extends \CW
 
     /**
      * @ElementName inhibitedAttributeValuePairCodeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $inhibitedAttributeValuePairCodeTable = null;
@@ -24,24 +25,31 @@ class SystemAccountingInhibitedAttributeValuePairCodeGetListResponse extends \CW
     /**
      * Getter for inhibitedAttributeValuePairCodeTable
      *
-     * @ElementName inhibitedAttributeValuePairCodeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getInhibitedAttributeValuePairCodeTable()
     {
-        return $this->inhibitedAttributeValuePairCodeTable;
+        return $this->inhibitedAttributeValuePairCodeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->inhibitedAttributeValuePairCodeTable;
     }
 
     /**
      * Setter for inhibitedAttributeValuePairCodeTable
      *
-     * @ElementName inhibitedAttributeValuePairCodeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $inhibitedAttributeValuePairCodeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $inhibitedAttributeValuePairCodeTable
      * @return $this
      */
     public function setInhibitedAttributeValuePairCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $inhibitedAttributeValuePairCodeTable)
     {
         $this->inhibitedAttributeValuePairCodeTable = $inhibitedAttributeValuePairCodeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInhibitedAttributeValuePairCodeTable()
+    {
+        $this->inhibitedAttributeValuePairCodeTable = null;
         return $this;
     }
 

@@ -14,72 +14,84 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
 
     /**
      * @ElementName allowEnableViaFAC
+     * @Type bool
      * @var bool|null
      */
     private $allowEnableViaFAC = null;
 
     /**
      * @ElementName playAnnouncementBeforeForwarding
+     * @Type bool
      * @var bool|null
      */
     private $playAnnouncementBeforeForwarding = null;
 
     /**
      * @ElementName audioMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
     /**
      * @ElementName audioFileUrl
+     * @Type string
      * @var string|null
      */
     private $audioFileUrl = null;
 
     /**
      * @ElementName audioFileDescription
+     * @Type string
      * @var string|null
      */
     private $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
     /**
      * @ElementName videoMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
     /**
      * @ElementName videoFileUrl
+     * @Type string
      * @var string|null
      */
     private $videoFileUrl = null;
 
     /**
      * @ElementName videoFileDescription
+     * @Type string
      * @var string|null
      */
     private $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -87,19 +99,17 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -109,21 +119,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getForwardToPhoneNumber()
     {
-        return $this->forwardToPhoneNumber;
+        return $this->forwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardToPhoneNumber;
     }
 
     /**
      * Setter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @param string|null $forwardToPhoneNumber
+     * @param string $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
@@ -133,21 +150,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForwardToPhoneNumber()
+    {
+        $this->forwardToPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowEnableViaFAC
      *
-     * @ElementName allowEnableViaFAC
-     * @return bool|null
+     * @return bool
      */
     public function getAllowEnableViaFAC()
     {
-        return $this->allowEnableViaFAC;
+        return $this->allowEnableViaFAC instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowEnableViaFAC;
     }
 
     /**
      * Setter for allowEnableViaFAC
      *
-     * @ElementName allowEnableViaFAC
-     * @param bool|null $allowEnableViaFAC
+     * @param bool $allowEnableViaFAC
      * @return $this
      */
     public function setAllowEnableViaFAC($allowEnableViaFAC)
@@ -157,21 +181,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowEnableViaFAC()
+    {
+        $this->allowEnableViaFAC = null;
+        return $this;
+    }
+
+    /**
      * Getter for playAnnouncementBeforeForwarding
      *
-     * @ElementName playAnnouncementBeforeForwarding
-     * @return bool|null
+     * @return bool
      */
     public function getPlayAnnouncementBeforeForwarding()
     {
-        return $this->playAnnouncementBeforeForwarding;
+        return $this->playAnnouncementBeforeForwarding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playAnnouncementBeforeForwarding;
     }
 
     /**
      * Setter for playAnnouncementBeforeForwarding
      *
-     * @ElementName playAnnouncementBeforeForwarding
-     * @param bool|null $playAnnouncementBeforeForwarding
+     * @param bool $playAnnouncementBeforeForwarding
      * @return $this
      */
     public function setPlayAnnouncementBeforeForwarding($playAnnouncementBeforeForwarding)
@@ -181,21 +212,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayAnnouncementBeforeForwarding()
+    {
+        $this->playAnnouncementBeforeForwarding = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioMessageSelection()
     {
-        return $this->audioMessageSelection;
+        return $this->audioMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMessageSelection;
     }
 
     /**
      * Setter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection
      * @return $this
      */
     public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
@@ -205,21 +243,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMessageSelection()
+    {
+        $this->audioMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileUrl
      *
-     * @ElementName audioFileUrl
-     * @return string|null
+     * @return string
      */
     public function getAudioFileUrl()
     {
-        return $this->audioFileUrl;
+        return $this->audioFileUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileUrl;
     }
 
     /**
      * Setter for audioFileUrl
      *
-     * @ElementName audioFileUrl
-     * @param string|null $audioFileUrl
+     * @param string $audioFileUrl
      * @return $this
      */
     public function setAudioFileUrl($audioFileUrl)
@@ -229,21 +274,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileUrl()
+    {
+        $this->audioFileUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @return string|null
+     * @return string
      */
     public function getAudioFileDescription()
     {
-        return $this->audioFileDescription;
+        return $this->audioFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileDescription;
     }
 
     /**
      * Setter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @param string|null $audioFileDescription
+     * @param string $audioFileDescription
      * @return $this
      */
     public function setAudioFileDescription($audioFileDescription)
@@ -253,21 +305,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileDescription()
+    {
+        $this->audioFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMediaType
      *
-     * @ElementName audioMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getAudioMediaType()
     {
-        return $this->audioMediaType;
+        return $this->audioMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMediaType;
     }
 
     /**
      * Setter for audioMediaType
      *
-     * @ElementName audioMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType
      * @return $this
      */
     public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
@@ -277,21 +336,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMediaType()
+    {
+        $this->audioMediaType = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoMessageSelection()
     {
-        return $this->videoMessageSelection;
+        return $this->videoMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMessageSelection;
     }
 
     /**
      * Setter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection
      * @return $this
      */
     public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
@@ -301,21 +367,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoMessageSelection()
+    {
+        $this->videoMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileUrl
      *
-     * @ElementName videoFileUrl
-     * @return string|null
+     * @return string
      */
     public function getVideoFileUrl()
     {
-        return $this->videoFileUrl;
+        return $this->videoFileUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileUrl;
     }
 
     /**
      * Setter for videoFileUrl
      *
-     * @ElementName videoFileUrl
-     * @param string|null $videoFileUrl
+     * @param string $videoFileUrl
      * @return $this
      */
     public function setVideoFileUrl($videoFileUrl)
@@ -325,21 +398,28 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFileUrl()
+    {
+        $this->videoFileUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVideoFileDescription()
     {
-        return $this->videoFileDescription;
+        return $this->videoFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileDescription;
     }
 
     /**
      * Setter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @param string|null $videoFileDescription
+     * @param string $videoFileDescription
      * @return $this
      */
     public function setVideoFileDescription($videoFileDescription)
@@ -349,26 +429,42 @@ class GroupCallCenterForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFileDescription()
+    {
+        $this->videoFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMediaType
      *
-     * @ElementName videoMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getVideoMediaType()
     {
-        return $this->videoMediaType;
+        return $this->videoMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMediaType;
     }
 
     /**
      * Setter for videoMediaType
      *
-     * @ElementName videoMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType
      * @return $this
      */
     public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
     {
         $this->videoMediaType = $videoMediaType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoMediaType()
+    {
+        $this->videoMediaType = null;
         return $this;
     }
 

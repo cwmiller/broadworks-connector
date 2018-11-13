@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static DiameterPeerMode ACTIVE()
  * @method static DiameterPeerMode STANDBY()
- * @ValueType string
+ * @EnumValueType string
  */
 class DiameterPeerMode extends \MyCLabs\Enum\Enum
 {

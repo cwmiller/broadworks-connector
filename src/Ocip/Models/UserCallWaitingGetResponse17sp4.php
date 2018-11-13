@@ -17,12 +17,14 @@ class UserCallWaitingGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName disableCallingLineIdDelivery
+     * @Type bool
      * @var bool|null
      */
     private $disableCallingLineIdDelivery = null;
@@ -30,19 +32,17 @@ class UserCallWaitingGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -52,26 +52,42 @@ class UserCallWaitingGetResponse17sp4 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for disableCallingLineIdDelivery
      *
-     * @ElementName disableCallingLineIdDelivery
-     * @return bool|null
+     * @return bool
      */
     public function getDisableCallingLineIdDelivery()
     {
-        return $this->disableCallingLineIdDelivery;
+        return $this->disableCallingLineIdDelivery instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableCallingLineIdDelivery;
     }
 
     /**
      * Setter for disableCallingLineIdDelivery
      *
-     * @ElementName disableCallingLineIdDelivery
-     * @param bool|null $disableCallingLineIdDelivery
+     * @param bool $disableCallingLineIdDelivery
      * @return $this
      */
     public function setDisableCallingLineIdDelivery($disableCallingLineIdDelivery)
     {
         $this->disableCallingLineIdDelivery = $disableCallingLineIdDelivery;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDisableCallingLineIdDelivery()
+    {
+        $this->disableCallingLineIdDelivery = null;
         return $this;
     }
 

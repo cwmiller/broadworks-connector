@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SIPForkingSupport MULTIPLE_DIALOGS_WITH_ERROR_CORRECTION()
  * @method static SIPForkingSupport MULTIPLE_DIALOGS()
  * @method static SIPForkingSupport SINGLE_DIALOG_WITH_UPDATE_IF_ALLOWED()
- * @ValueType string
+ * @EnumValueType string
  */
 class SIPForkingSupport extends \MyCLabs\Enum\Enum
 {

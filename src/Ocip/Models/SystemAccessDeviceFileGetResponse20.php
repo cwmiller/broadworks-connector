@@ -14,42 +14,49 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName fileSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
 
     /**
      * @ElementName configurationFileName
+     * @Type string
      * @var string|null
      */
     private $configurationFileName = null;
 
     /**
      * @ElementName accessUrl
+     * @Type string
      * @var string|null
      */
     private $accessUrl = null;
 
     /**
      * @ElementName repositoryUrl
+     * @Type string
      * @var string|null
      */
     private $repositoryUrl = null;
 
     /**
      * @ElementName templateUrl
+     * @Type string
      * @var string|null
      */
     private $templateUrl = null;
 
     /**
      * @ElementName extendedCaptureEnabled
+     * @Type bool
      * @var bool|null
      */
     private $extendedCaptureEnabled = null;
 
     /**
      * @ElementName extendedCaptureURL
+     * @Type string
      * @var string|null
      */
     private $extendedCaptureURL = null;
@@ -57,19 +64,17 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for fileSource
      *
-     * @ElementName fileSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
      */
     public function getFileSource()
     {
-        return $this->fileSource;
+        return $this->fileSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileSource;
     }
 
     /**
      * Setter for fileSource
      *
-     * @ElementName fileSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null $fileSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode $fileSource
      * @return $this
      */
     public function setFileSource(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode $fileSource)
@@ -79,21 +84,28 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileSource()
+    {
+        $this->fileSource = null;
+        return $this;
+    }
+
+    /**
      * Getter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @return string|null
+     * @return string
      */
     public function getConfigurationFileName()
     {
-        return $this->configurationFileName;
+        return $this->configurationFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurationFileName;
     }
 
     /**
      * Setter for configurationFileName
      *
-     * @ElementName configurationFileName
-     * @param string|null $configurationFileName
+     * @param string $configurationFileName
      * @return $this
      */
     public function setConfigurationFileName($configurationFileName)
@@ -103,21 +115,28 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigurationFileName()
+    {
+        $this->configurationFileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessUrl
      *
-     * @ElementName accessUrl
-     * @return string|null
+     * @return string
      */
     public function getAccessUrl()
     {
-        return $this->accessUrl;
+        return $this->accessUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessUrl;
     }
 
     /**
      * Setter for accessUrl
      *
-     * @ElementName accessUrl
-     * @param string|null $accessUrl
+     * @param string $accessUrl
      * @return $this
      */
     public function setAccessUrl($accessUrl)
@@ -127,21 +146,28 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessUrl()
+    {
+        $this->accessUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for repositoryUrl
      *
-     * @ElementName repositoryUrl
-     * @return string|null
+     * @return string
      */
     public function getRepositoryUrl()
     {
-        return $this->repositoryUrl;
+        return $this->repositoryUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repositoryUrl;
     }
 
     /**
      * Setter for repositoryUrl
      *
-     * @ElementName repositoryUrl
-     * @param string|null $repositoryUrl
+     * @param string $repositoryUrl
      * @return $this
      */
     public function setRepositoryUrl($repositoryUrl)
@@ -151,21 +177,28 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRepositoryUrl()
+    {
+        $this->repositoryUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for templateUrl
      *
-     * @ElementName templateUrl
-     * @return string|null
+     * @return string
      */
     public function getTemplateUrl()
     {
-        return $this->templateUrl;
+        return $this->templateUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateUrl;
     }
 
     /**
      * Setter for templateUrl
      *
-     * @ElementName templateUrl
-     * @param string|null $templateUrl
+     * @param string $templateUrl
      * @return $this
      */
     public function setTemplateUrl($templateUrl)
@@ -175,21 +208,28 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTemplateUrl()
+    {
+        $this->templateUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedCaptureEnabled
      *
-     * @ElementName extendedCaptureEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getExtendedCaptureEnabled()
     {
-        return $this->extendedCaptureEnabled;
+        return $this->extendedCaptureEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedCaptureEnabled;
     }
 
     /**
      * Setter for extendedCaptureEnabled
      *
-     * @ElementName extendedCaptureEnabled
-     * @param bool|null $extendedCaptureEnabled
+     * @param bool $extendedCaptureEnabled
      * @return $this
      */
     public function setExtendedCaptureEnabled($extendedCaptureEnabled)
@@ -199,26 +239,42 @@ class SystemAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtendedCaptureEnabled()
+    {
+        $this->extendedCaptureEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedCaptureURL
      *
-     * @ElementName extendedCaptureURL
-     * @return string|null
+     * @return string
      */
     public function getExtendedCaptureURL()
     {
-        return $this->extendedCaptureURL;
+        return $this->extendedCaptureURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedCaptureURL;
     }
 
     /**
      * Setter for extendedCaptureURL
      *
-     * @ElementName extendedCaptureURL
-     * @param string|null $extendedCaptureURL
+     * @param string $extendedCaptureURL
      * @return $this
      */
     public function setExtendedCaptureURL($extendedCaptureURL)
     {
         $this->extendedCaptureURL = $extendedCaptureURL;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExtendedCaptureURL()
+    {
+        $this->extendedCaptureURL = null;
         return $this;
     }
 

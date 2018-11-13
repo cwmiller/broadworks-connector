@@ -16,30 +16,35 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
 
     /**
      * @ElementName firstName
+     * @Type string
      * @var string|null
      */
     private $firstName = null;
 
     /**
      * @ElementName lastName
+     * @Type string
      * @var string|null
      */
     private $lastName = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName adminType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     private $adminType = null;
 
     /**
      * @ElementName readOnly
+     * @Type bool
      * @var bool|null
      */
     private $readOnly = null;
@@ -47,19 +52,17 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @return string|null
+     * @return string
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @param string|null $firstName
+     * @param string $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -69,21 +72,28 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @return string|null
+     * @return string
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @param string|null $lastName
+     * @param string $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -93,21 +103,28 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -117,21 +134,28 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for adminType
      *
-     * @ElementName adminType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType
      */
     public function getAdminType()
     {
-        return $this->adminType;
+        return $this->adminType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->adminType;
     }
 
     /**
      * Setter for adminType
      *
-     * @ElementName adminType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null $adminType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType $adminType
      * @return $this
      */
     public function setAdminType(\CWM\BroadWorksConnector\Ocip\Models\SystemAdminType $adminType)
@@ -141,26 +165,42 @@ class SystemAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAdminType()
+    {
+        $this->adminType = null;
+        return $this;
+    }
+
+    /**
      * Getter for readOnly
      *
-     * @ElementName readOnly
-     * @return bool|null
+     * @return bool
      */
     public function getReadOnly()
     {
-        return $this->readOnly;
+        return $this->readOnly instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->readOnly;
     }
 
     /**
      * Setter for readOnly
      *
-     * @ElementName readOnly
-     * @param bool|null $readOnly
+     * @param bool $readOnly
      * @return $this
      */
     public function setReadOnly($readOnly)
     {
         $this->readOnly = $readOnly;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReadOnly()
+    {
+        $this->readOnly = null;
         return $this;
     }
 

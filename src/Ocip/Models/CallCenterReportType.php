@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterReportType AGENT()
  * @method static CallCenterReportType CALL_CENTER_DNIS()
  * @method static CallCenterReportType CALL_CENTER()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportType extends \MyCLabs\Enum\Enum
 {

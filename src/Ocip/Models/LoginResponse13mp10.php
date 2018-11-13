@@ -14,18 +14,21 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
 
     /**
      * @ElementName loginType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
 
     /**
      * @ElementName locale
+     * @Type string
      * @var string|null
      */
     private $locale = null;
 
     /**
      * @ElementName encoding
+     * @Type string
      * @var string|null
      */
     private $encoding = null;
@@ -33,19 +36,17 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     /**
      * Getter for loginType
      *
-     * @ElementName loginType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType
      */
     public function getLoginType()
     {
-        return $this->loginType;
+        return $this->loginType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->loginType;
     }
 
     /**
      * Setter for loginType
      *
-     * @ElementName loginType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType|null $loginType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType $loginType
      * @return $this
      */
     public function setLoginType(\CWM\BroadWorksConnector\Ocip\Models\LoginType $loginType)
@@ -55,21 +56,28 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLoginType()
+    {
+        $this->loginType = null;
+        return $this;
+    }
+
+    /**
      * Getter for locale
      *
-     * @ElementName locale
-     * @return string|null
+     * @return string
      */
     public function getLocale()
     {
-        return $this->locale;
+        return $this->locale instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locale;
     }
 
     /**
      * Setter for locale
      *
-     * @ElementName locale
-     * @param string|null $locale
+     * @param string $locale
      * @return $this
      */
     public function setLocale($locale)
@@ -79,26 +87,42 @@ class LoginResponse13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIData
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocale()
+    {
+        $this->locale = null;
+        return $this;
+    }
+
+    /**
      * Getter for encoding
      *
-     * @ElementName encoding
-     * @return string|null
+     * @return string
      */
     public function getEncoding()
     {
-        return $this->encoding;
+        return $this->encoding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->encoding;
     }
 
     /**
      * Setter for encoding
      *
-     * @ElementName encoding
-     * @param string|null $encoding
+     * @param string $encoding
      * @return $this
      */
     public function setEncoding($encoding)
     {
         $this->encoding = $encoding;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEncoding()
+    {
+        $this->encoding = null;
         return $this;
     }
 

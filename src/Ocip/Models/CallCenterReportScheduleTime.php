@@ -12,18 +12,21 @@ class CallCenterReportScheduleTime
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName scheduleDate
+     * @Type string
      * @var string|null
      */
     private $scheduleDate = null;
 
     /**
      * @ElementName scheduleTime
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $scheduleTime = null;
@@ -31,19 +34,17 @@ class CallCenterReportScheduleTime
     /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -53,21 +54,28 @@ class CallCenterReportScheduleTime
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleDate
      *
-     * @ElementName scheduleDate
-     * @return string|null
+     * @return string
      */
     public function getScheduleDate()
     {
-        return $this->scheduleDate;
+        return $this->scheduleDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleDate;
     }
 
     /**
      * Setter for scheduleDate
      *
-     * @ElementName scheduleDate
-     * @param string|null $scheduleDate
+     * @param string $scheduleDate
      * @return $this
      */
     public function setScheduleDate($scheduleDate)
@@ -77,26 +85,42 @@ class CallCenterReportScheduleTime
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleDate()
+    {
+        $this->scheduleDate = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleTime
      *
-     * @ElementName scheduleTime
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HourMinute
      */
     public function getScheduleTime()
     {
-        return $this->scheduleTime;
+        return $this->scheduleTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleTime;
     }
 
     /**
      * Setter for scheduleTime
      *
-     * @ElementName scheduleTime
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null $scheduleTime
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HourMinute $scheduleTime
      * @return $this
      */
     public function setScheduleTime(\CWM\BroadWorksConnector\Ocip\Models\HourMinute $scheduleTime)
     {
         $this->scheduleTime = $scheduleTime;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScheduleTime()
+    {
+        $this->scheduleTime = null;
         return $this;
     }
 

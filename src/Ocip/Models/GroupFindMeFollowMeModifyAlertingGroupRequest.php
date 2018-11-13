@@ -16,24 +16,28 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName alertingGroupName
+     * @Type string
      * @var string|null
      */
     private $alertingGroupName = null;
 
     /**
      * @ElementName newAlertingGroupName
+     * @Type string
      * @var string|null
      */
     private $newAlertingGroupName = null;
 
     /**
      * @ElementName alertingGroupDescription
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,24 +45,28 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName useDiversionInhibitor
+     * @Type bool
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
 
     /**
      * @ElementName answerConfirmationRequired
+     * @Type bool
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
 
     /**
      * @ElementName numberOfRings
+     * @Type int
      * @var int|null
      */
     private $numberOfRings = null;
 
     /**
      * @ElementName phoneNumberOrUserList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -66,6 +74,8 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName criteriaActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(
@@ -75,19 +85,17 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -97,21 +105,28 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingGroupName
      *
-     * @ElementName alertingGroupName
-     * @return string|null
+     * @return string
      */
     public function getAlertingGroupName()
     {
-        return $this->alertingGroupName;
+        return $this->alertingGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingGroupName;
     }
 
     /**
      * Setter for alertingGroupName
      *
-     * @ElementName alertingGroupName
-     * @param string|null $alertingGroupName
+     * @param string $alertingGroupName
      * @return $this
      */
     public function setAlertingGroupName($alertingGroupName)
@@ -121,21 +136,28 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingGroupName()
+    {
+        $this->alertingGroupName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newAlertingGroupName
      *
-     * @ElementName newAlertingGroupName
-     * @return string|null
+     * @return string
      */
     public function getNewAlertingGroupName()
     {
-        return $this->newAlertingGroupName;
+        return $this->newAlertingGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newAlertingGroupName;
     }
 
     /**
      * Setter for newAlertingGroupName
      *
-     * @ElementName newAlertingGroupName
-     * @param string|null $newAlertingGroupName
+     * @param string $newAlertingGroupName
      * @return $this
      */
     public function setNewAlertingGroupName($newAlertingGroupName)
@@ -145,47 +167,63 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewAlertingGroupName()
+    {
+        $this->newAlertingGroupName = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingGroupDescription
      *
-     * @ElementName alertingGroupDescription
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAlertingGroupDescription()
     {
-        return $this->alertingGroupDescription;
+        return $this->alertingGroupDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingGroupDescription;
     }
 
     /**
      * Setter for alertingGroupDescription
      *
-     * @ElementName alertingGroupDescription
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alertingGroupDescription
+     * @param string|null $alertingGroupDescription
      * @return $this
      */
     public function setAlertingGroupDescription($alertingGroupDescription)
     {
-        $this->alertingGroupDescription = $alertingGroupDescription;
+        if ($alertingGroupDescription === null) {
+            $this->alertingGroupDescription = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->alertingGroupDescription = $alertingGroupDescription;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlertingGroupDescription()
+    {
+        $this->alertingGroupDescription = null;
         return $this;
     }
 
     /**
      * Getter for useDiversionInhibitor
      *
-     * @ElementName useDiversionInhibitor
-     * @return bool|null
+     * @return bool
      */
     public function getUseDiversionInhibitor()
     {
-        return $this->useDiversionInhibitor;
+        return $this->useDiversionInhibitor instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDiversionInhibitor;
     }
 
     /**
      * Setter for useDiversionInhibitor
      *
-     * @ElementName useDiversionInhibitor
-     * @param bool|null $useDiversionInhibitor
+     * @param bool $useDiversionInhibitor
      * @return $this
      */
     public function setUseDiversionInhibitor($useDiversionInhibitor)
@@ -195,21 +233,28 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDiversionInhibitor()
+    {
+        $this->useDiversionInhibitor = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @return bool|null
+     * @return bool
      */
     public function getAnswerConfirmationRequired()
     {
-        return $this->answerConfirmationRequired;
+        return $this->answerConfirmationRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerConfirmationRequired;
     }
 
     /**
      * Setter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @param bool|null $answerConfirmationRequired
+     * @param bool $answerConfirmationRequired
      * @return $this
      */
     public function setAnswerConfirmationRequired($answerConfirmationRequired)
@@ -219,21 +264,28 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnswerConfirmationRequired()
+    {
+        $this->answerConfirmationRequired = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @return int|null
+     * @return int
      */
     public function getNumberOfRings()
     {
-        return $this->numberOfRings;
+        return $this->numberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfRings;
     }
 
     /**
      * Setter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @param int|null $numberOfRings
+     * @param int $numberOfRings
      * @return $this
      */
     public function setNumberOfRings($numberOfRings)
@@ -243,46 +295,62 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfRings()
+    {
+        $this->numberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumberOrUserList
      *
-     * @ElementName phoneNumberOrUserList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null
      */
     public function getPhoneNumberOrUserList()
     {
-        return $this->phoneNumberOrUserList;
+        return $this->phoneNumberOrUserList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumberOrUserList;
     }
 
     /**
      * Setter for phoneNumberOrUserList
      *
-     * @ElementName phoneNumberOrUserList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumberOrUserList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList|null $phoneNumberOrUserList
      * @return $this
      */
     public function setPhoneNumberOrUserList(\CWM\BroadWorksConnector\Ocip\Models\FindMeFollowMeAlertingGroupReplacementOutgoingDNSIPURIorUserIdList $phoneNumberOrUserList)
     {
-        $this->phoneNumberOrUserList = $phoneNumberOrUserList;
+        if ($phoneNumberOrUserList === null) {
+            $this->phoneNumberOrUserList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->phoneNumberOrUserList = $phoneNumberOrUserList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumberOrUserList()
+    {
+        $this->phoneNumberOrUserList = null;
         return $this;
     }
 
     /**
      * Getter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     public function getCriteriaActivation()
     {
-        return $this->criteriaActivation;
+        return $this->criteriaActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaActivation;
     }
 
     /**
      * Setter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
@@ -293,15 +361,23 @@ class GroupFindMeFollowMeModifyAlertingGroupRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaActivation()
+    {
+        $this->criteriaActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation $criteriaActivation
      * @return $this
      */
     public function addCriteriaActivation($criteriaActivation)
     {
-        $this->criteriaActivation []= $criteriaActivation;
+        $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
 

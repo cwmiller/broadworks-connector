@@ -16,18 +16,21 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName statusName
+     * @Type string
      * @var string|null
      */
     private $statusName = null;
 
     /**
      * @ElementName newStatusName
+     * @Type string
      * @var string|null
      */
     private $newStatusName = null;
 
     /**
      * @ElementName treatmentFileName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,19 +39,17 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
     /**
      * Getter for statusName
      *
-     * @ElementName statusName
-     * @return string|null
+     * @return string
      */
     public function getStatusName()
     {
-        return $this->statusName;
+        return $this->statusName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statusName;
     }
 
     /**
      * Setter for statusName
      *
-     * @ElementName statusName
-     * @param string|null $statusName
+     * @param string $statusName
      * @return $this
      */
     public function setStatusName($statusName)
@@ -58,21 +59,28 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatusName()
+    {
+        $this->statusName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newStatusName
      *
-     * @ElementName newStatusName
-     * @return string|null
+     * @return string
      */
     public function getNewStatusName()
     {
-        return $this->newStatusName;
+        return $this->newStatusName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newStatusName;
     }
 
     /**
      * Setter for newStatusName
      *
-     * @ElementName newStatusName
-     * @param string|null $newStatusName
+     * @param string $newStatusName
      * @return $this
      */
     public function setNewStatusName($newStatusName)
@@ -82,28 +90,46 @@ class SystemNumberPortabilityQueryStatusModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewStatusName()
+    {
+        $this->newStatusName = null;
+        return $this;
+    }
+
+    /**
      * Getter for treatmentFileName
      *
-     * @ElementName treatmentFileName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTreatmentFileName()
     {
-        return $this->treatmentFileName;
+        return $this->treatmentFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentFileName;
     }
 
     /**
      * Setter for treatmentFileName
      *
-     * @ElementName treatmentFileName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $treatmentFileName
+     * @param string|null $treatmentFileName
      * @return $this
      */
     public function setTreatmentFileName($treatmentFileName)
     {
-        $this->treatmentFileName = $treatmentFileName;
+        if ($treatmentFileName === null) {
+            $this->treatmentFileName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->treatmentFileName = $treatmentFileName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentFileName()
+    {
+        $this->treatmentFileName = null;
         return $this;
     }
 

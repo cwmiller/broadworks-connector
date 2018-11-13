@@ -17,12 +17,15 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName addMatchDigitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $addMatchDigitPattern = array(
@@ -31,6 +34,8 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
 
     /**
      * @ElementName deleteMatchDigitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $deleteMatchDigitPattern = array(
@@ -39,6 +44,7 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
 
     /**
      * @ElementName enableWhiteList
+     * @Type bool
      * @var bool|null
      */
     private $enableWhiteList = null;
@@ -46,19 +52,17 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -68,20 +72,27 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for addMatchDigitPattern
      *
-     * @ElementName addMatchDigitPattern
      * @return string[]
      */
     public function getAddMatchDigitPattern()
     {
-        return $this->addMatchDigitPattern;
+        return $this->addMatchDigitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addMatchDigitPattern;
     }
 
     /**
      * Setter for addMatchDigitPattern
      *
-     * @ElementName addMatchDigitPattern
      * @param string[] $addMatchDigitPattern
      * @return $this
      */
@@ -92,33 +103,39 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddMatchDigitPattern()
+    {
+        $this->addMatchDigitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for addMatchDigitPattern
      *
-     * @ElementName addMatchDigitPattern
      * @param string $addMatchDigitPattern
      * @return $this
      */
     public function addAddMatchDigitPattern(string $addMatchDigitPattern)
     {
-        $this->addMatchDigitPattern []= $addMatchDigitPattern;
+        $this->addMatchDigitPattern[] = $addMatchDigitPattern;
         return $this;
     }
 
     /**
      * Getter for deleteMatchDigitPattern
      *
-     * @ElementName deleteMatchDigitPattern
      * @return string[]
      */
     public function getDeleteMatchDigitPattern()
     {
-        return $this->deleteMatchDigitPattern;
+        return $this->deleteMatchDigitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteMatchDigitPattern;
     }
 
     /**
      * Setter for deleteMatchDigitPattern
      *
-     * @ElementName deleteMatchDigitPattern
      * @param string[] $deleteMatchDigitPattern
      * @return $this
      */
@@ -129,39 +146,54 @@ class ServiceProviderSessionAdmissionControlWhiteListModifyRequest extends \CWM\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeleteMatchDigitPattern()
+    {
+        $this->deleteMatchDigitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for deleteMatchDigitPattern
      *
-     * @ElementName deleteMatchDigitPattern
      * @param string $deleteMatchDigitPattern
      * @return $this
      */
     public function addDeleteMatchDigitPattern(string $deleteMatchDigitPattern)
     {
-        $this->deleteMatchDigitPattern []= $deleteMatchDigitPattern;
+        $this->deleteMatchDigitPattern[] = $deleteMatchDigitPattern;
         return $this;
     }
 
     /**
      * Getter for enableWhiteList
      *
-     * @ElementName enableWhiteList
-     * @return bool|null
+     * @return bool
      */
     public function getEnableWhiteList()
     {
-        return $this->enableWhiteList;
+        return $this->enableWhiteList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableWhiteList;
     }
 
     /**
      * Setter for enableWhiteList
      *
-     * @ElementName enableWhiteList
-     * @param bool|null $enableWhiteList
+     * @param bool $enableWhiteList
      * @return $this
      */
     public function setEnableWhiteList($enableWhiteList)
     {
         $this->enableWhiteList = $enableWhiteList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableWhiteList()
+    {
+        $this->enableWhiteList = null;
         return $this;
     }
 

@@ -16,114 +16,133 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
 
     /**
      * @ElementName disallowAuthenticationName
+     * @Type bool
      * @var bool|null
      */
     private $disallowAuthenticationName = null;
 
     /**
      * @ElementName disallowOldPassword
+     * @Type bool
      * @var bool|null
      */
     private $disallowOldPassword = null;
 
     /**
      * @ElementName disallowReversedOldPassword
+     * @Type bool
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
 
     /**
      * @ElementName restrictMinDigits
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinDigits = null;
 
     /**
      * @ElementName minDigits
+     * @Type int
      * @var int|null
      */
     private $minDigits = null;
 
     /**
      * @ElementName restrictMinUpperCaseLetters
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
 
     /**
      * @ElementName minUpperCaseLetters
+     * @Type int
      * @var int|null
      */
     private $minUpperCaseLetters = null;
 
     /**
      * @ElementName restrictMinLowerCaseLetters
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
 
     /**
      * @ElementName minLowerCaseLetters
+     * @Type int
      * @var int|null
      */
     private $minLowerCaseLetters = null;
 
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minNonAlphanumericCharacters
+     * @Type int
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minLength
+     * @Type int
      * @var int|null
      */
     private $minLength = null;
 
     /**
      * @ElementName sendPermanentLockoutNotification
+     * @Type bool
      * @var bool|null
      */
     private $sendPermanentLockoutNotification = null;
 
     /**
      * @ElementName permanentLockoutNotifyEmailAddress
+     * @Type string
      * @var string|null
      */
     private $permanentLockoutNotifyEmailAddress = null;
 
     /**
      * @ElementName deviceProfileAuthenticationLockoutType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $deviceProfileAuthenticationLockoutType = null;
 
     /**
      * @ElementName deviceProfileTemporaryLockoutThreshold
+     * @Type int
      * @var int|null
      */
     private $deviceProfileTemporaryLockoutThreshold = null;
 
     /**
      * @ElementName deviceProfileWaitAlgorithm
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $deviceProfileWaitAlgorithm = null;
 
     /**
      * @ElementName deviceProfileLockoutFixedMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $deviceProfileLockoutFixedMinutes = null;
 
     /**
      * @ElementName deviceProfilePermanentLockoutThreshold
+     * @Type int
      * @var int|null
      */
     private $deviceProfilePermanentLockoutThreshold = null;
@@ -131,19 +150,17 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     /**
      * Getter for disallowAuthenticationName
      *
-     * @ElementName disallowAuthenticationName
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowAuthenticationName()
     {
-        return $this->disallowAuthenticationName;
+        return $this->disallowAuthenticationName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowAuthenticationName;
     }
 
     /**
      * Setter for disallowAuthenticationName
      *
-     * @ElementName disallowAuthenticationName
-     * @param bool|null $disallowAuthenticationName
+     * @param bool $disallowAuthenticationName
      * @return $this
      */
     public function setDisallowAuthenticationName($disallowAuthenticationName)
@@ -153,21 +170,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowAuthenticationName()
+    {
+        $this->disallowAuthenticationName = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowOldPassword
      *
-     * @ElementName disallowOldPassword
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowOldPassword()
     {
-        return $this->disallowOldPassword;
+        return $this->disallowOldPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowOldPassword;
     }
 
     /**
      * Setter for disallowOldPassword
      *
-     * @ElementName disallowOldPassword
-     * @param bool|null $disallowOldPassword
+     * @param bool $disallowOldPassword
      * @return $this
      */
     public function setDisallowOldPassword($disallowOldPassword)
@@ -177,21 +201,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowOldPassword()
+    {
+        $this->disallowOldPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowReversedOldPassword
      *
-     * @ElementName disallowReversedOldPassword
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowReversedOldPassword()
     {
-        return $this->disallowReversedOldPassword;
+        return $this->disallowReversedOldPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowReversedOldPassword;
     }
 
     /**
      * Setter for disallowReversedOldPassword
      *
-     * @ElementName disallowReversedOldPassword
-     * @param bool|null $disallowReversedOldPassword
+     * @param bool $disallowReversedOldPassword
      * @return $this
      */
     public function setDisallowReversedOldPassword($disallowReversedOldPassword)
@@ -201,21 +232,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowReversedOldPassword()
+    {
+        $this->disallowReversedOldPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinDigits
      *
-     * @ElementName restrictMinDigits
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinDigits()
     {
-        return $this->restrictMinDigits;
+        return $this->restrictMinDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinDigits;
     }
 
     /**
      * Setter for restrictMinDigits
      *
-     * @ElementName restrictMinDigits
-     * @param bool|null $restrictMinDigits
+     * @param bool $restrictMinDigits
      * @return $this
      */
     public function setRestrictMinDigits($restrictMinDigits)
@@ -225,21 +263,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinDigits()
+    {
+        $this->restrictMinDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for minDigits
      *
-     * @ElementName minDigits
-     * @return int|null
+     * @return int
      */
     public function getMinDigits()
     {
-        return $this->minDigits;
+        return $this->minDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minDigits;
     }
 
     /**
      * Setter for minDigits
      *
-     * @ElementName minDigits
-     * @param int|null $minDigits
+     * @param int $minDigits
      * @return $this
      */
     public function setMinDigits($minDigits)
@@ -249,21 +294,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinDigits()
+    {
+        $this->minDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinUpperCaseLetters
      *
-     * @ElementName restrictMinUpperCaseLetters
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinUpperCaseLetters()
     {
-        return $this->restrictMinUpperCaseLetters;
+        return $this->restrictMinUpperCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinUpperCaseLetters;
     }
 
     /**
      * Setter for restrictMinUpperCaseLetters
      *
-     * @ElementName restrictMinUpperCaseLetters
-     * @param bool|null $restrictMinUpperCaseLetters
+     * @param bool $restrictMinUpperCaseLetters
      * @return $this
      */
     public function setRestrictMinUpperCaseLetters($restrictMinUpperCaseLetters)
@@ -273,21 +325,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinUpperCaseLetters()
+    {
+        $this->restrictMinUpperCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minUpperCaseLetters
      *
-     * @ElementName minUpperCaseLetters
-     * @return int|null
+     * @return int
      */
     public function getMinUpperCaseLetters()
     {
-        return $this->minUpperCaseLetters;
+        return $this->minUpperCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minUpperCaseLetters;
     }
 
     /**
      * Setter for minUpperCaseLetters
      *
-     * @ElementName minUpperCaseLetters
-     * @param int|null $minUpperCaseLetters
+     * @param int $minUpperCaseLetters
      * @return $this
      */
     public function setMinUpperCaseLetters($minUpperCaseLetters)
@@ -297,21 +356,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinUpperCaseLetters()
+    {
+        $this->minUpperCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinLowerCaseLetters
      *
-     * @ElementName restrictMinLowerCaseLetters
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinLowerCaseLetters()
     {
-        return $this->restrictMinLowerCaseLetters;
+        return $this->restrictMinLowerCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinLowerCaseLetters;
     }
 
     /**
      * Setter for restrictMinLowerCaseLetters
      *
-     * @ElementName restrictMinLowerCaseLetters
-     * @param bool|null $restrictMinLowerCaseLetters
+     * @param bool $restrictMinLowerCaseLetters
      * @return $this
      */
     public function setRestrictMinLowerCaseLetters($restrictMinLowerCaseLetters)
@@ -321,21 +387,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinLowerCaseLetters()
+    {
+        $this->restrictMinLowerCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minLowerCaseLetters
      *
-     * @ElementName minLowerCaseLetters
-     * @return int|null
+     * @return int
      */
     public function getMinLowerCaseLetters()
     {
-        return $this->minLowerCaseLetters;
+        return $this->minLowerCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minLowerCaseLetters;
     }
 
     /**
      * Setter for minLowerCaseLetters
      *
-     * @ElementName minLowerCaseLetters
-     * @param int|null $minLowerCaseLetters
+     * @param int $minLowerCaseLetters
      * @return $this
      */
     public function setMinLowerCaseLetters($minLowerCaseLetters)
@@ -345,21 +418,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinLowerCaseLetters()
+    {
+        $this->minLowerCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinNonAlphanumericCharacters
      *
-     * @ElementName restrictMinNonAlphanumericCharacters
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinNonAlphanumericCharacters()
     {
-        return $this->restrictMinNonAlphanumericCharacters;
+        return $this->restrictMinNonAlphanumericCharacters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinNonAlphanumericCharacters;
     }
 
     /**
      * Setter for restrictMinNonAlphanumericCharacters
      *
-     * @ElementName restrictMinNonAlphanumericCharacters
-     * @param bool|null $restrictMinNonAlphanumericCharacters
+     * @param bool $restrictMinNonAlphanumericCharacters
      * @return $this
      */
     public function setRestrictMinNonAlphanumericCharacters($restrictMinNonAlphanumericCharacters)
@@ -369,21 +449,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinNonAlphanumericCharacters()
+    {
+        $this->restrictMinNonAlphanumericCharacters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minNonAlphanumericCharacters
      *
-     * @ElementName minNonAlphanumericCharacters
-     * @return int|null
+     * @return int
      */
     public function getMinNonAlphanumericCharacters()
     {
-        return $this->minNonAlphanumericCharacters;
+        return $this->minNonAlphanumericCharacters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minNonAlphanumericCharacters;
     }
 
     /**
      * Setter for minNonAlphanumericCharacters
      *
-     * @ElementName minNonAlphanumericCharacters
-     * @param int|null $minNonAlphanumericCharacters
+     * @param int $minNonAlphanumericCharacters
      * @return $this
      */
     public function setMinNonAlphanumericCharacters($minNonAlphanumericCharacters)
@@ -393,21 +480,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinNonAlphanumericCharacters()
+    {
+        $this->minNonAlphanumericCharacters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minLength
      *
-     * @ElementName minLength
-     * @return int|null
+     * @return int
      */
     public function getMinLength()
     {
-        return $this->minLength;
+        return $this->minLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minLength;
     }
 
     /**
      * Setter for minLength
      *
-     * @ElementName minLength
-     * @param int|null $minLength
+     * @param int $minLength
      * @return $this
      */
     public function setMinLength($minLength)
@@ -417,21 +511,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinLength()
+    {
+        $this->minLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendPermanentLockoutNotification
      *
-     * @ElementName sendPermanentLockoutNotification
-     * @return bool|null
+     * @return bool
      */
     public function getSendPermanentLockoutNotification()
     {
-        return $this->sendPermanentLockoutNotification;
+        return $this->sendPermanentLockoutNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendPermanentLockoutNotification;
     }
 
     /**
      * Setter for sendPermanentLockoutNotification
      *
-     * @ElementName sendPermanentLockoutNotification
-     * @param bool|null $sendPermanentLockoutNotification
+     * @param bool $sendPermanentLockoutNotification
      * @return $this
      */
     public function setSendPermanentLockoutNotification($sendPermanentLockoutNotification)
@@ -441,21 +542,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendPermanentLockoutNotification()
+    {
+        $this->sendPermanentLockoutNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for permanentLockoutNotifyEmailAddress
      *
-     * @ElementName permanentLockoutNotifyEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getPermanentLockoutNotifyEmailAddress()
     {
-        return $this->permanentLockoutNotifyEmailAddress;
+        return $this->permanentLockoutNotifyEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->permanentLockoutNotifyEmailAddress;
     }
 
     /**
      * Setter for permanentLockoutNotifyEmailAddress
      *
-     * @ElementName permanentLockoutNotifyEmailAddress
-     * @param string|null $permanentLockoutNotifyEmailAddress
+     * @param string $permanentLockoutNotifyEmailAddress
      * @return $this
      */
     public function setPermanentLockoutNotifyEmailAddress($permanentLockoutNotifyEmailAddress)
@@ -465,21 +573,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPermanentLockoutNotifyEmailAddress()
+    {
+        $this->permanentLockoutNotifyEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceProfileAuthenticationLockoutType
      *
-     * @ElementName deviceProfileAuthenticationLockoutType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
      */
     public function getDeviceProfileAuthenticationLockoutType()
     {
-        return $this->deviceProfileAuthenticationLockoutType;
+        return $this->deviceProfileAuthenticationLockoutType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceProfileAuthenticationLockoutType;
     }
 
     /**
      * Setter for deviceProfileAuthenticationLockoutType
      *
-     * @ElementName deviceProfileAuthenticationLockoutType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null $deviceProfileAuthenticationLockoutType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType $deviceProfileAuthenticationLockoutType
      * @return $this
      */
     public function setDeviceProfileAuthenticationLockoutType(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType $deviceProfileAuthenticationLockoutType)
@@ -489,21 +604,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceProfileAuthenticationLockoutType()
+    {
+        $this->deviceProfileAuthenticationLockoutType = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceProfileTemporaryLockoutThreshold
      *
-     * @ElementName deviceProfileTemporaryLockoutThreshold
-     * @return int|null
+     * @return int
      */
     public function getDeviceProfileTemporaryLockoutThreshold()
     {
-        return $this->deviceProfileTemporaryLockoutThreshold;
+        return $this->deviceProfileTemporaryLockoutThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceProfileTemporaryLockoutThreshold;
     }
 
     /**
      * Setter for deviceProfileTemporaryLockoutThreshold
      *
-     * @ElementName deviceProfileTemporaryLockoutThreshold
-     * @param int|null $deviceProfileTemporaryLockoutThreshold
+     * @param int $deviceProfileTemporaryLockoutThreshold
      * @return $this
      */
     public function setDeviceProfileTemporaryLockoutThreshold($deviceProfileTemporaryLockoutThreshold)
@@ -513,21 +635,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceProfileTemporaryLockoutThreshold()
+    {
+        $this->deviceProfileTemporaryLockoutThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceProfileWaitAlgorithm
      *
-     * @ElementName deviceProfileWaitAlgorithm
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
      */
     public function getDeviceProfileWaitAlgorithm()
     {
-        return $this->deviceProfileWaitAlgorithm;
+        return $this->deviceProfileWaitAlgorithm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceProfileWaitAlgorithm;
     }
 
     /**
      * Setter for deviceProfileWaitAlgorithm
      *
-     * @ElementName deviceProfileWaitAlgorithm
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null $deviceProfileWaitAlgorithm
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType $deviceProfileWaitAlgorithm
      * @return $this
      */
     public function setDeviceProfileWaitAlgorithm(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType $deviceProfileWaitAlgorithm)
@@ -537,21 +666,28 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceProfileWaitAlgorithm()
+    {
+        $this->deviceProfileWaitAlgorithm = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceProfileLockoutFixedMinutes
      *
-     * @ElementName deviceProfileLockoutFixedMinutes
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
      */
     public function getDeviceProfileLockoutFixedMinutes()
     {
-        return $this->deviceProfileLockoutFixedMinutes;
+        return $this->deviceProfileLockoutFixedMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceProfileLockoutFixedMinutes;
     }
 
     /**
      * Setter for deviceProfileLockoutFixedMinutes
      *
-     * @ElementName deviceProfileLockoutFixedMinutes
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null $deviceProfileLockoutFixedMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes $deviceProfileLockoutFixedMinutes
      * @return $this
      */
     public function setDeviceProfileLockoutFixedMinutes(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes $deviceProfileLockoutFixedMinutes)
@@ -561,26 +697,42 @@ class SystemDeviceProfileAuthenticationPasswordRulesGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceProfileLockoutFixedMinutes()
+    {
+        $this->deviceProfileLockoutFixedMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceProfilePermanentLockoutThreshold
      *
-     * @ElementName deviceProfilePermanentLockoutThreshold
-     * @return int|null
+     * @return int
      */
     public function getDeviceProfilePermanentLockoutThreshold()
     {
-        return $this->deviceProfilePermanentLockoutThreshold;
+        return $this->deviceProfilePermanentLockoutThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceProfilePermanentLockoutThreshold;
     }
 
     /**
      * Setter for deviceProfilePermanentLockoutThreshold
      *
-     * @ElementName deviceProfilePermanentLockoutThreshold
-     * @param int|null $deviceProfilePermanentLockoutThreshold
+     * @param int $deviceProfilePermanentLockoutThreshold
      * @return $this
      */
     public function setDeviceProfilePermanentLockoutThreshold($deviceProfilePermanentLockoutThreshold)
     {
         $this->deviceProfilePermanentLockoutThreshold = $deviceProfilePermanentLockoutThreshold;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceProfilePermanentLockoutThreshold()
+    {
+        $this->deviceProfilePermanentLockoutThreshold = null;
         return $this;
     }
 

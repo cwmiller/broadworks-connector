@@ -17,60 +17,70 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName announcementInterruption
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt
      * @var \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
      */
     private $announcementInterruption = null;
 
     /**
      * @ElementName interruptionDigitSequence
+     * @Type string
      * @var string|null
      */
     private $interruptionDigitSequence = null;
 
     /**
      * @ElementName audioSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
 
     /**
      * @ElementName audioFileDescription
+     * @Type string
      * @var string|null
      */
     private $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
     /**
      * @ElementName audioFileUrl
+     * @Type string
      * @var string|null
      */
     private $audioFileUrl = null;
 
     /**
      * @ElementName videoSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
 
     /**
      * @ElementName videoFileDescription
+     * @Type string
      * @var string|null
      */
     private $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
 
     /**
      * @ElementName videoFileUrl
+     * @Type string
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -78,19 +88,17 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for announcementInterruption
      *
-     * @ElementName announcementInterruption
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt
      */
     public function getAnnouncementInterruption()
     {
-        return $this->announcementInterruption;
+        return $this->announcementInterruption instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementInterruption;
     }
 
     /**
      * Setter for announcementInterruption
      *
-     * @ElementName announcementInterruption
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt|null $announcementInterruption
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt $announcementInterruption
      * @return $this
      */
     public function setAnnouncementInterruption(\CWM\BroadWorksConnector\Ocip\Models\PreAlertingAnnouncementInterrupt $announcementInterruption)
@@ -100,21 +108,28 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementInterruption()
+    {
+        $this->announcementInterruption = null;
+        return $this;
+    }
+
+    /**
      * Getter for interruptionDigitSequence
      *
-     * @ElementName interruptionDigitSequence
-     * @return string|null
+     * @return string
      */
     public function getInterruptionDigitSequence()
     {
-        return $this->interruptionDigitSequence;
+        return $this->interruptionDigitSequence instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interruptionDigitSequence;
     }
 
     /**
      * Setter for interruptionDigitSequence
      *
-     * @ElementName interruptionDigitSequence
-     * @param string|null $interruptionDigitSequence
+     * @param string $interruptionDigitSequence
      * @return $this
      */
     public function setInterruptionDigitSequence($interruptionDigitSequence)
@@ -124,21 +139,28 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInterruptionDigitSequence()
+    {
+        $this->interruptionDigitSequence = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioSelection
      *
-     * @ElementName audioSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioSelection()
     {
-        return $this->audioSelection;
+        return $this->audioSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioSelection;
     }
 
     /**
      * Setter for audioSelection
      *
-     * @ElementName audioSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection
      * @return $this
      */
     public function setAudioSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioSelection)
@@ -148,21 +170,28 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioSelection()
+    {
+        $this->audioSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @return string|null
+     * @return string
      */
     public function getAudioFileDescription()
     {
-        return $this->audioFileDescription;
+        return $this->audioFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileDescription;
     }
 
     /**
      * Setter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @param string|null $audioFileDescription
+     * @param string $audioFileDescription
      * @return $this
      */
     public function setAudioFileDescription($audioFileDescription)
@@ -172,21 +201,28 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileDescription()
+    {
+        $this->audioFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMediaType
      *
-     * @ElementName audioMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getAudioMediaType()
     {
-        return $this->audioMediaType;
+        return $this->audioMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMediaType;
     }
 
     /**
      * Setter for audioMediaType
      *
-     * @ElementName audioMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType
      * @return $this
      */
     public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
@@ -196,21 +232,28 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMediaType()
+    {
+        $this->audioMediaType = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileUrl
      *
-     * @ElementName audioFileUrl
-     * @return string|null
+     * @return string
      */
     public function getAudioFileUrl()
     {
-        return $this->audioFileUrl;
+        return $this->audioFileUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileUrl;
     }
 
     /**
      * Setter for audioFileUrl
      *
-     * @ElementName audioFileUrl
-     * @param string|null $audioFileUrl
+     * @param string $audioFileUrl
      * @return $this
      */
     public function setAudioFileUrl($audioFileUrl)
@@ -220,21 +263,28 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileUrl()
+    {
+        $this->audioFileUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoSelection
      *
-     * @ElementName videoSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoSelection()
     {
-        return $this->videoSelection;
+        return $this->videoSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoSelection;
     }
 
     /**
      * Setter for videoSelection
      *
-     * @ElementName videoSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection
      * @return $this
      */
     public function setVideoSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoSelection)
@@ -244,21 +294,28 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoSelection()
+    {
+        $this->videoSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVideoFileDescription()
     {
-        return $this->videoFileDescription;
+        return $this->videoFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileDescription;
     }
 
     /**
      * Setter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @param string|null $videoFileDescription
+     * @param string $videoFileDescription
      * @return $this
      */
     public function setVideoFileDescription($videoFileDescription)
@@ -268,21 +325,28 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFileDescription()
+    {
+        $this->videoFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMediaType
      *
-     * @ElementName videoMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getVideoMediaType()
     {
-        return $this->videoMediaType;
+        return $this->videoMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMediaType;
     }
 
     /**
      * Setter for videoMediaType
      *
-     * @ElementName videoMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType
      * @return $this
      */
     public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
@@ -292,26 +356,42 @@ class EnterprisePreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoMediaType()
+    {
+        $this->videoMediaType = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileUrl
      *
-     * @ElementName videoFileUrl
-     * @return string|null
+     * @return string
      */
     public function getVideoFileUrl()
     {
-        return $this->videoFileUrl;
+        return $this->videoFileUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileUrl;
     }
 
     /**
      * Setter for videoFileUrl
      *
-     * @ElementName videoFileUrl
-     * @param string|null $videoFileUrl
+     * @param string $videoFileUrl
      * @return $this
      */
     public function setVideoFileUrl($videoFileUrl)
     {
         $this->videoFileUrl = $videoFileUrl;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFileUrl()
+    {
+        $this->videoFileUrl = null;
         return $this;
     }
 

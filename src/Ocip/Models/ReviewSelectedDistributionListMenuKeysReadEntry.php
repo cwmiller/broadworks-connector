@@ -12,6 +12,7 @@ class ReviewSelectedDistributionListMenuKeysReadEntry
 
     /**
      * @ElementName interruptPlaybackAndReturnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $interruptPlaybackAndReturnToPreviousMenu = null;
@@ -19,24 +20,31 @@ class ReviewSelectedDistributionListMenuKeysReadEntry
     /**
      * Getter for interruptPlaybackAndReturnToPreviousMenu
      *
-     * @ElementName interruptPlaybackAndReturnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getInterruptPlaybackAndReturnToPreviousMenu()
     {
-        return $this->interruptPlaybackAndReturnToPreviousMenu;
+        return $this->interruptPlaybackAndReturnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interruptPlaybackAndReturnToPreviousMenu;
     }
 
     /**
      * Setter for interruptPlaybackAndReturnToPreviousMenu
      *
-     * @ElementName interruptPlaybackAndReturnToPreviousMenu
-     * @param string|null $interruptPlaybackAndReturnToPreviousMenu
+     * @param string $interruptPlaybackAndReturnToPreviousMenu
      * @return $this
      */
     public function setInterruptPlaybackAndReturnToPreviousMenu($interruptPlaybackAndReturnToPreviousMenu)
     {
         $this->interruptPlaybackAndReturnToPreviousMenu = $interruptPlaybackAndReturnToPreviousMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInterruptPlaybackAndReturnToPreviousMenu()
+    {
+        $this->interruptPlaybackAndReturnToPreviousMenu = null;
         return $this;
     }
 

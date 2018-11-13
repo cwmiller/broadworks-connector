@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SearchMode STARTS_WITH()
  * @method static SearchMode CONTAINS()
  * @method static SearchMode EQUAL_TO()
- * @ValueType string
+ * @EnumValueType string
  */
 class SearchMode extends \MyCLabs\Enum\Enum
 {

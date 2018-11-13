@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallingNameRetrievalSourceIdentity PRESENTATION_IDENTITY()
  * @method static CallingNameRetrievalSourceIdentity ASSERTED_IDENTITY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallingNameRetrievalSourceIdentity extends \MyCLabs\Enum\Enum
 {

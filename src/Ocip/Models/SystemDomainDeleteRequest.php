@@ -16,6 +16,7 @@ class SystemDomainDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
 
     /**
      * @ElementName domain
+     * @Type string
      * @var string|null
      */
     private $domain = null;
@@ -23,24 +24,31 @@ class SystemDomainDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * Getter for domain
      *
-     * @ElementName domain
-     * @return string|null
+     * @return string
      */
     public function getDomain()
     {
-        return $this->domain;
+        return $this->domain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->domain;
     }
 
     /**
      * Setter for domain
      *
-     * @ElementName domain
-     * @param string|null $domain
+     * @param string $domain
      * @return $this
      */
     public function setDomain($domain)
     {
         $this->domain = $domain;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDomain()
+    {
+        $this->domain = null;
         return $this;
     }
 

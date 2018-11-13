@@ -16,6 +16,8 @@ class SystemInterceptUserDeleteDnListRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName phoneNumbers
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $phoneNumbers = array(
@@ -25,18 +27,16 @@ class SystemInterceptUserDeleteDnListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for phoneNumbers
      *
-     * @ElementName phoneNumbers
      * @return string[]
      */
     public function getPhoneNumbers()
     {
-        return $this->phoneNumbers;
+        return $this->phoneNumbers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumbers;
     }
 
     /**
      * Setter for phoneNumbers
      *
-     * @ElementName phoneNumbers
      * @param string[] $phoneNumbers
      * @return $this
      */
@@ -47,15 +47,23 @@ class SystemInterceptUserDeleteDnListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumbers()
+    {
+        $this->phoneNumbers = null;
+        return $this;
+    }
+
+    /**
      * Adder for phoneNumbers
      *
-     * @ElementName phoneNumbers
      * @param string $phoneNumbers
      * @return $this
      */
     public function addPhoneNumbers(string $phoneNumbers)
     {
-        $this->phoneNumbers []= $phoneNumbers;
+        $this->phoneNumbers[] = $phoneNumbers;
         return $this;
     }
 

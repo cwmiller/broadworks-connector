@@ -20,42 +20,49 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName useSystemServiceDomain
+     * @Type bool
      * @var bool|null
      */
     private $useSystemServiceDomain = null;
 
     /**
      * @ElementName serviceDomain
+     * @Type string
      * @var string|null
      */
     private $serviceDomain = null;
 
     /**
      * @ElementName servicePort
+     * @Type int
      * @var int|null
      */
     private $servicePort = null;
 
     /**
      * @ElementName useSystemMessagingServer
+     * @Type bool
      * @var bool|null
      */
     private $useSystemMessagingServer = null;
 
     /**
      * @ElementName provisioningUrl
+     * @Type string
      * @var string|null
      */
     private $provisioningUrl = null;
 
     /**
      * @ElementName provisioningUserId
+     * @Type string
      * @var string|null
      */
     private $provisioningUserId = null;
 
     /**
      * @ElementName boshURL
+     * @Type string
      * @var string|null
      */
     private $boshURL = null;
@@ -63,19 +70,17 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     /**
      * Getter for useSystemServiceDomain
      *
-     * @ElementName useSystemServiceDomain
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemServiceDomain()
     {
-        return $this->useSystemServiceDomain;
+        return $this->useSystemServiceDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemServiceDomain;
     }
 
     /**
      * Setter for useSystemServiceDomain
      *
-     * @ElementName useSystemServiceDomain
-     * @param bool|null $useSystemServiceDomain
+     * @param bool $useSystemServiceDomain
      * @return $this
      */
     public function setUseSystemServiceDomain($useSystemServiceDomain)
@@ -85,21 +90,28 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemServiceDomain()
+    {
+        $this->useSystemServiceDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @return string|null
+     * @return string
      */
     public function getServiceDomain()
     {
-        return $this->serviceDomain;
+        return $this->serviceDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceDomain;
     }
 
     /**
      * Setter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @param string|null $serviceDomain
+     * @param string $serviceDomain
      * @return $this
      */
     public function setServiceDomain($serviceDomain)
@@ -109,21 +121,28 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceDomain()
+    {
+        $this->serviceDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePort
      *
-     * @ElementName servicePort
-     * @return int|null
+     * @return int
      */
     public function getServicePort()
     {
-        return $this->servicePort;
+        return $this->servicePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePort;
     }
 
     /**
      * Setter for servicePort
      *
-     * @ElementName servicePort
-     * @param int|null $servicePort
+     * @param int $servicePort
      * @return $this
      */
     public function setServicePort($servicePort)
@@ -133,21 +152,28 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePort()
+    {
+        $this->servicePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSystemMessagingServer
      *
-     * @ElementName useSystemMessagingServer
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemMessagingServer()
     {
-        return $this->useSystemMessagingServer;
+        return $this->useSystemMessagingServer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemMessagingServer;
     }
 
     /**
      * Setter for useSystemMessagingServer
      *
-     * @ElementName useSystemMessagingServer
-     * @param bool|null $useSystemMessagingServer
+     * @param bool $useSystemMessagingServer
      * @return $this
      */
     public function setUseSystemMessagingServer($useSystemMessagingServer)
@@ -157,21 +183,28 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemMessagingServer()
+    {
+        $this->useSystemMessagingServer = null;
+        return $this;
+    }
+
+    /**
      * Getter for provisioningUrl
      *
-     * @ElementName provisioningUrl
-     * @return string|null
+     * @return string
      */
     public function getProvisioningUrl()
     {
-        return $this->provisioningUrl;
+        return $this->provisioningUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningUrl;
     }
 
     /**
      * Setter for provisioningUrl
      *
-     * @ElementName provisioningUrl
-     * @param string|null $provisioningUrl
+     * @param string $provisioningUrl
      * @return $this
      */
     public function setProvisioningUrl($provisioningUrl)
@@ -181,21 +214,28 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProvisioningUrl()
+    {
+        $this->provisioningUrl = null;
+        return $this;
+    }
+
+    /**
      * Getter for provisioningUserId
      *
-     * @ElementName provisioningUserId
-     * @return string|null
+     * @return string
      */
     public function getProvisioningUserId()
     {
-        return $this->provisioningUserId;
+        return $this->provisioningUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningUserId;
     }
 
     /**
      * Setter for provisioningUserId
      *
-     * @ElementName provisioningUserId
-     * @param string|null $provisioningUserId
+     * @param string $provisioningUserId
      * @return $this
      */
     public function setProvisioningUserId($provisioningUserId)
@@ -205,26 +245,42 @@ class ServiceProviderIntegratedIMPGetResponse21 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProvisioningUserId()
+    {
+        $this->provisioningUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for boshURL
      *
-     * @ElementName boshURL
-     * @return string|null
+     * @return string
      */
     public function getBoshURL()
     {
-        return $this->boshURL;
+        return $this->boshURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->boshURL;
     }
 
     /**
      * Setter for boshURL
      *
-     * @ElementName boshURL
-     * @param string|null $boshURL
+     * @param string $boshURL
      * @return $this
      */
     public function setBoshURL($boshURL)
     {
         $this->boshURL = $boshURL;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBoshURL()
+    {
+        $this->boshURL = null;
         return $this;
     }
 

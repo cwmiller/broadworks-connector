@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceProviderAdminType NORMAL()
  * @method static ServiceProviderAdminType CUSTOMER()
  * @method static ServiceProviderAdminType PASSWORD_RESET_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminType extends \MyCLabs\Enum\Enum
 {

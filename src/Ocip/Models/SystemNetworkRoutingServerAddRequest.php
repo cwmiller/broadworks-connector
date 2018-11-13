@@ -16,30 +16,35 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName port
+     * @Type int
      * @var int|null
      */
     private $port = null;
 
     /**
      * @ElementName transportProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
 
     /**
      * @ElementName poll
+     * @Type bool
      * @var bool|null
      */
     private $poll = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -47,19 +52,17 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -69,21 +72,28 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for port
      *
-     * @ElementName port
-     * @return int|null
+     * @return int
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @param int|null $port
+     * @param int $port
      * @return $this
      */
     public function setPort($port)
@@ -93,21 +103,28 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
+        return $this;
+    }
+
+    /**
      * Getter for transportProtocol
      *
-     * @ElementName transportProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      */
     public function getTransportProtocol()
     {
-        return $this->transportProtocol;
+        return $this->transportProtocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transportProtocol;
     }
 
     /**
      * Setter for transportProtocol
      *
-     * @ElementName transportProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol
      * @return $this
      */
     public function setTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportProtocol)
@@ -117,21 +134,28 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransportProtocol()
+    {
+        $this->transportProtocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for poll
      *
-     * @ElementName poll
-     * @return bool|null
+     * @return bool
      */
     public function getPoll()
     {
-        return $this->poll;
+        return $this->poll instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->poll;
     }
 
     /**
      * Setter for poll
      *
-     * @ElementName poll
-     * @param bool|null $poll
+     * @param bool $poll
      * @return $this
      */
     public function setPoll($poll)
@@ -141,26 +165,42 @@ class SystemNetworkRoutingServerAddRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPoll()
+    {
+        $this->poll = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

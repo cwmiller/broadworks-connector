@@ -12,12 +12,14 @@ class DeviceManagementLanguageMapping
 
     /**
      * @ElementName broadWorksLanguage
+     * @Type string
      * @var string|null
      */
     private $broadWorksLanguage = null;
 
     /**
      * @ElementName deviceLanguage
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,19 +28,17 @@ class DeviceManagementLanguageMapping
     /**
      * Getter for broadWorksLanguage
      *
-     * @ElementName broadWorksLanguage
-     * @return string|null
+     * @return string
      */
     public function getBroadWorksLanguage()
     {
-        return $this->broadWorksLanguage;
+        return $this->broadWorksLanguage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->broadWorksLanguage;
     }
 
     /**
      * Setter for broadWorksLanguage
      *
-     * @ElementName broadWorksLanguage
-     * @param string|null $broadWorksLanguage
+     * @param string $broadWorksLanguage
      * @return $this
      */
     public function setBroadWorksLanguage($broadWorksLanguage)
@@ -48,28 +48,46 @@ class DeviceManagementLanguageMapping
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBroadWorksLanguage()
+    {
+        $this->broadWorksLanguage = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceLanguage
      *
-     * @ElementName deviceLanguage
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDeviceLanguage()
     {
-        return $this->deviceLanguage;
+        return $this->deviceLanguage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceLanguage;
     }
 
     /**
      * Setter for deviceLanguage
      *
-     * @ElementName deviceLanguage
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceLanguage
+     * @param string|null $deviceLanguage
      * @return $this
      */
     public function setDeviceLanguage($deviceLanguage)
     {
-        $this->deviceLanguage = $deviceLanguage;
+        if ($deviceLanguage === null) {
+            $this->deviceLanguage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deviceLanguage = $deviceLanguage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceLanguage()
+    {
+        $this->deviceLanguage = null;
         return $this;
     }
 

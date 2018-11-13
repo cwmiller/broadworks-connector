@@ -14,12 +14,15 @@ class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName assignedSubscriberType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21[]
      */
     private $assignedSubscriberType = array(
@@ -29,19 +32,17 @@ class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConn
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -51,20 +52,27 @@ class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for assignedSubscriberType
      *
-     * @ElementName assignedSubscriberType
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21[]
      */
     public function getAssignedSubscriberType()
     {
-        return $this->assignedSubscriberType;
+        return $this->assignedSubscriberType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assignedSubscriberType;
     }
 
     /**
      * Setter for assignedSubscriberType
      *
-     * @ElementName assignedSubscriberType
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21[] $assignedSubscriberType
      * @return $this
      */
@@ -75,15 +83,23 @@ class SystemCallProcessingPolicyProfileGetResponse21 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssignedSubscriberType()
+    {
+        $this->assignedSubscriberType = null;
+        return $this;
+    }
+
+    /**
      * Adder for assignedSubscriberType
      *
-     * @ElementName assignedSubscriberType
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallProcessingPolicyProfileSubscriberType21 $assignedSubscriberType
      * @return $this
      */
     public function addAssignedSubscriberType($assignedSubscriberType)
     {
-        $this->assignedSubscriberType []= $assignedSubscriberType;
+        $this->assignedSubscriberType[] = $assignedSubscriberType;
         return $this;
     }
 

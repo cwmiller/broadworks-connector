@@ -20,12 +20,15 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaServiceCode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode[]
      */
     private $searchCriteriaServiceCode = array(
@@ -34,6 +37,8 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName searchCriteriaServiceCodeDescription
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription[]
      */
     private $searchCriteriaServiceCodeDescription = array(
@@ -43,19 +48,17 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -65,20 +68,27 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaServiceCode
      *
-     * @ElementName searchCriteriaServiceCode
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode[]
      */
     public function getSearchCriteriaServiceCode()
     {
-        return $this->searchCriteriaServiceCode;
+        return $this->searchCriteriaServiceCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaServiceCode;
     }
 
     /**
      * Setter for searchCriteriaServiceCode
      *
-     * @ElementName searchCriteriaServiceCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode[] $searchCriteriaServiceCode
      * @return $this
      */
@@ -89,33 +99,39 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaServiceCode()
+    {
+        $this->searchCriteriaServiceCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaServiceCode
      *
-     * @ElementName searchCriteriaServiceCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode $searchCriteriaServiceCode
      * @return $this
      */
     public function addSearchCriteriaServiceCode($searchCriteriaServiceCode)
     {
-        $this->searchCriteriaServiceCode []= $searchCriteriaServiceCode;
+        $this->searchCriteriaServiceCode[] = $searchCriteriaServiceCode;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaServiceCodeDescription
      *
-     * @ElementName searchCriteriaServiceCodeDescription
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription[]
      */
     public function getSearchCriteriaServiceCodeDescription()
     {
-        return $this->searchCriteriaServiceCodeDescription;
+        return $this->searchCriteriaServiceCodeDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaServiceCodeDescription;
     }
 
     /**
      * Setter for searchCriteriaServiceCodeDescription
      *
-     * @ElementName searchCriteriaServiceCodeDescription
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription[] $searchCriteriaServiceCodeDescription
      * @return $this
      */
@@ -126,15 +142,23 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaServiceCodeDescription()
+    {
+        $this->searchCriteriaServiceCodeDescription = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaServiceCodeDescription
      *
-     * @ElementName searchCriteriaServiceCodeDescription
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription $searchCriteriaServiceCodeDescription
      * @return $this
      */
     public function addSearchCriteriaServiceCodeDescription($searchCriteriaServiceCodeDescription)
     {
-        $this->searchCriteriaServiceCodeDescription []= $searchCriteriaServiceCodeDescription;
+        $this->searchCriteriaServiceCodeDescription[] = $searchCriteriaServiceCodeDescription;
         return $this;
     }
 

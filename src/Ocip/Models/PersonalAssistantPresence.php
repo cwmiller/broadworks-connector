@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static PersonalAssistantPresence TRAINING()
  * @method static PersonalAssistantPresence UNAVAILABLE()
  * @method static PersonalAssistantPresence VACATION()
- * @ValueType string
+ * @EnumValueType string
  */
 class PersonalAssistantPresence extends \MyCLabs\Enum\Enum
 {

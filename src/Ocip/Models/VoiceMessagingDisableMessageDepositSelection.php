@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static VoiceMessagingDisableMessageDepositSelection DISCONNECT()
  * @method static VoiceMessagingDisableMessageDepositSelection FORWARD()
- * @ValueType string
+ * @EnumValueType string
  */
 class VoiceMessagingDisableMessageDepositSelection extends \MyCLabs\Enum\Enum
 {

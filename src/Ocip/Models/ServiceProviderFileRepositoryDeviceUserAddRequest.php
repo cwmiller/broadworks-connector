@@ -16,42 +16,49 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName fileRepositoryName
+     * @Type string
      * @var string|null
      */
     private $fileRepositoryName = null;
 
     /**
      * @ElementName userName
+     * @Type string
      * @var string|null
      */
     private $userName = null;
 
     /**
      * @ElementName password
+     * @Type string
      * @var string|null
      */
     private $password = null;
 
     /**
      * @ElementName allowPut
+     * @Type bool
      * @var bool|null
      */
     private $allowPut = null;
 
     /**
      * @ElementName allowDelete
+     * @Type bool
      * @var bool|null
      */
     private $allowDelete = null;
 
     /**
      * @ElementName allowGet
+     * @Type bool
      * @var bool|null
      */
     private $allowGet = null;
@@ -59,19 +66,17 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -81,21 +86,28 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @return string|null
+     * @return string
      */
     public function getFileRepositoryName()
     {
-        return $this->fileRepositoryName;
+        return $this->fileRepositoryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileRepositoryName;
     }
 
     /**
      * Setter for fileRepositoryName
      *
-     * @ElementName fileRepositoryName
-     * @param string|null $fileRepositoryName
+     * @param string $fileRepositoryName
      * @return $this
      */
     public function setFileRepositoryName($fileRepositoryName)
@@ -105,21 +117,28 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileRepositoryName()
+    {
+        $this->fileRepositoryName = null;
+        return $this;
+    }
+
+    /**
      * Getter for userName
      *
-     * @ElementName userName
-     * @return string|null
+     * @return string
      */
     public function getUserName()
     {
-        return $this->userName;
+        return $this->userName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userName;
     }
 
     /**
      * Setter for userName
      *
-     * @ElementName userName
-     * @param string|null $userName
+     * @param string $userName
      * @return $this
      */
     public function setUserName($userName)
@@ -129,21 +148,28 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserName()
+    {
+        $this->userName = null;
+        return $this;
+    }
+
+    /**
      * Getter for password
      *
-     * @ElementName password
-     * @return string|null
+     * @return string
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param string|null $password
+     * @param string $password
      * @return $this
      */
     public function setPassword($password)
@@ -153,21 +179,28 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowPut
      *
-     * @ElementName allowPut
-     * @return bool|null
+     * @return bool
      */
     public function getAllowPut()
     {
-        return $this->allowPut;
+        return $this->allowPut instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowPut;
     }
 
     /**
      * Setter for allowPut
      *
-     * @ElementName allowPut
-     * @param bool|null $allowPut
+     * @param bool $allowPut
      * @return $this
      */
     public function setAllowPut($allowPut)
@@ -177,21 +210,28 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowPut()
+    {
+        $this->allowPut = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowDelete
      *
-     * @ElementName allowDelete
-     * @return bool|null
+     * @return bool
      */
     public function getAllowDelete()
     {
-        return $this->allowDelete;
+        return $this->allowDelete instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowDelete;
     }
 
     /**
      * Setter for allowDelete
      *
-     * @ElementName allowDelete
-     * @param bool|null $allowDelete
+     * @param bool $allowDelete
      * @return $this
      */
     public function setAllowDelete($allowDelete)
@@ -201,26 +241,42 @@ class ServiceProviderFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowDelete()
+    {
+        $this->allowDelete = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowGet
      *
-     * @ElementName allowGet
-     * @return bool|null
+     * @return bool
      */
     public function getAllowGet()
     {
-        return $this->allowGet;
+        return $this->allowGet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowGet;
     }
 
     /**
      * Setter for allowGet
      *
-     * @ElementName allowGet
-     * @param bool|null $allowGet
+     * @param bool $allowGet
      * @return $this
      */
     public function setAllowGet($allowGet)
     {
         $this->allowGet = $allowGet;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowGet()
+    {
+        $this->allowGet = null;
         return $this;
     }
 

@@ -12,30 +12,35 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
 
     /**
      * @ElementName generateDailyReport
+     * @Type bool
      * @var bool|null
      */
     private $generateDailyReport = null;
 
     /**
      * @ElementName collectionPeriodMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
 
     /**
      * @ElementName reportingEmailAddress1
+     * @Type string
      * @var string|null
      */
     private $reportingEmailAddress1 = null;
 
     /**
      * @ElementName reportingEmailAddress2
+     * @Type string
      * @var string|null
      */
     private $reportingEmailAddress2 = null;
 
     /**
      * @ElementName statisticsSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null
      */
     private $statisticsSource = null;
@@ -43,19 +48,17 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     /**
      * Getter for generateDailyReport
      *
-     * @ElementName generateDailyReport
-     * @return bool|null
+     * @return bool
      */
     public function getGenerateDailyReport()
     {
-        return $this->generateDailyReport;
+        return $this->generateDailyReport instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->generateDailyReport;
     }
 
     /**
      * Setter for generateDailyReport
      *
-     * @ElementName generateDailyReport
-     * @param bool|null $generateDailyReport
+     * @param bool $generateDailyReport
      * @return $this
      */
     public function setGenerateDailyReport($generateDailyReport)
@@ -65,21 +68,28 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGenerateDailyReport()
+    {
+        $this->generateDailyReport = null;
+        return $this;
+    }
+
+    /**
      * Getter for collectionPeriodMinutes
      *
-     * @ElementName collectionPeriodMinutes
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
      */
     public function getCollectionPeriodMinutes()
     {
-        return $this->collectionPeriodMinutes;
+        return $this->collectionPeriodMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collectionPeriodMinutes;
     }
 
     /**
      * Setter for collectionPeriodMinutes
      *
-     * @ElementName collectionPeriodMinutes
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null $collectionPeriodMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes $collectionPeriodMinutes
      * @return $this
      */
     public function setCollectionPeriodMinutes(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes $collectionPeriodMinutes)
@@ -89,21 +99,28 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCollectionPeriodMinutes()
+    {
+        $this->collectionPeriodMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportingEmailAddress1
      *
-     * @ElementName reportingEmailAddress1
-     * @return string|null
+     * @return string
      */
     public function getReportingEmailAddress1()
     {
-        return $this->reportingEmailAddress1;
+        return $this->reportingEmailAddress1 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingEmailAddress1;
     }
 
     /**
      * Setter for reportingEmailAddress1
      *
-     * @ElementName reportingEmailAddress1
-     * @param string|null $reportingEmailAddress1
+     * @param string $reportingEmailAddress1
      * @return $this
      */
     public function setReportingEmailAddress1($reportingEmailAddress1)
@@ -113,21 +130,28 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportingEmailAddress1()
+    {
+        $this->reportingEmailAddress1 = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportingEmailAddress2
      *
-     * @ElementName reportingEmailAddress2
-     * @return string|null
+     * @return string
      */
     public function getReportingEmailAddress2()
     {
-        return $this->reportingEmailAddress2;
+        return $this->reportingEmailAddress2 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingEmailAddress2;
     }
 
     /**
      * Setter for reportingEmailAddress2
      *
-     * @ElementName reportingEmailAddress2
-     * @param string|null $reportingEmailAddress2
+     * @param string $reportingEmailAddress2
      * @return $this
      */
     public function setReportingEmailAddress2($reportingEmailAddress2)
@@ -137,26 +161,42 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportingEmailAddress2()
+    {
+        $this->reportingEmailAddress2 = null;
+        return $this;
+    }
+
+    /**
      * Getter for statisticsSource
      *
-     * @ElementName statisticsSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource
      */
     public function getStatisticsSource()
     {
-        return $this->statisticsSource;
+        return $this->statisticsSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statisticsSource;
     }
 
     /**
      * Setter for statisticsSource
      *
-     * @ElementName statisticsSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null $statisticsSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource $statisticsSource
      * @return $this
      */
     public function setStatisticsSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource $statisticsSource)
     {
         $this->statisticsSource = $statisticsSource;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatisticsSource()
+    {
+        $this->statisticsSource = null;
         return $this;
     }
 

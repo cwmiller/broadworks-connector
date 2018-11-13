@@ -16,18 +16,21 @@ class AccessDeviceMultipleContactEndpointModify
 
     /**
      * @ElementName accessDevice
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName contactList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,6 +38,7 @@ class AccessDeviceMultipleContactEndpointModify
 
     /**
      * @ElementName portNumber
+     * @Type int
      * @var int|null
      */
     private $portNumber = null;
@@ -42,19 +46,17 @@ class AccessDeviceMultipleContactEndpointModify
     /**
      * Getter for accessDevice
      *
-     * @ElementName accessDevice
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      */
     public function getAccessDevice()
     {
-        return $this->accessDevice;
+        return $this->accessDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDevice;
     }
 
     /**
      * Setter for accessDevice
      *
-     * @ElementName accessDevice
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice
      * @return $this
      */
     public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
@@ -64,21 +66,28 @@ class AccessDeviceMultipleContactEndpointModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDevice()
+    {
+        $this->accessDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -88,52 +97,77 @@ class AccessDeviceMultipleContactEndpointModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for contactList
      *
-     * @ElementName contactList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null
      */
     public function getContactList()
     {
-        return $this->contactList;
+        return $this->contactList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contactList;
     }
 
     /**
      * Setter for contactList
      *
-     * @ElementName contactList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil $contactList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null $contactList
      * @return $this
      */
     public function setContactList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList $contactList)
     {
-        $this->contactList = $contactList;
+        if ($contactList === null) {
+            $this->contactList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->contactList = $contactList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetContactList()
+    {
+        $this->contactList = null;
         return $this;
     }
 
     /**
      * Getter for portNumber
      *
-     * @ElementName portNumber
-     * @return int|null
+     * @return int
      */
     public function getPortNumber()
     {
-        return $this->portNumber;
+        return $this->portNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->portNumber;
     }
 
     /**
      * Setter for portNumber
      *
-     * @ElementName portNumber
-     * @param int|null $portNumber
+     * @param int $portNumber
      * @return $this
      */
     public function setPortNumber($portNumber)
     {
         $this->portNumber = $portNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPortNumber()
+    {
+        $this->portNumber = null;
         return $this;
     }
 

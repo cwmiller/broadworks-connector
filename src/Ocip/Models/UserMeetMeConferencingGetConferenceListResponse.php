@@ -22,6 +22,7 @@ class UserMeetMeConferencingGetConferenceListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName conferenceTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceTable = null;
@@ -29,24 +30,31 @@ class UserMeetMeConferencingGetConferenceListResponse extends \CWM\BroadWorksCon
     /**
      * Getter for conferenceTable
      *
-     * @ElementName conferenceTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getConferenceTable()
     {
-        return $this->conferenceTable;
+        return $this->conferenceTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceTable;
     }
 
     /**
      * Setter for conferenceTable
      *
-     * @ElementName conferenceTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceTable
      * @return $this
      */
     public function setConferenceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceTable)
     {
         $this->conferenceTable = $conferenceTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConferenceTable()
+    {
+        $this->conferenceTable = null;
         return $this;
     }
 

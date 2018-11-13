@@ -18,18 +18,21 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName listURI
+     * @Type string
      * @var string|null
      */
     private $listURI = null;
 
     /**
      * @ElementName enableCallParkNotification
+     * @Type bool
      * @var bool|null
      */
     private $enableCallParkNotification = null;
 
     /**
      * @ElementName monitoredUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;
@@ -37,19 +40,17 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for listURI
      *
-     * @ElementName listURI
-     * @return string|null
+     * @return string
      */
     public function getListURI()
     {
-        return $this->listURI;
+        return $this->listURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listURI;
     }
 
     /**
      * Setter for listURI
      *
-     * @ElementName listURI
-     * @param string|null $listURI
+     * @param string $listURI
      * @return $this
      */
     public function setListURI($listURI)
@@ -59,21 +60,28 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListURI()
+    {
+        $this->listURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCallParkNotification
      *
-     * @ElementName enableCallParkNotification
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCallParkNotification()
     {
-        return $this->enableCallParkNotification;
+        return $this->enableCallParkNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCallParkNotification;
     }
 
     /**
      * Setter for enableCallParkNotification
      *
-     * @ElementName enableCallParkNotification
-     * @param bool|null $enableCallParkNotification
+     * @param bool $enableCallParkNotification
      * @return $this
      */
     public function setEnableCallParkNotification($enableCallParkNotification)
@@ -83,26 +91,42 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableCallParkNotification()
+    {
+        $this->enableCallParkNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for monitoredUserTable
      *
-     * @ElementName monitoredUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMonitoredUserTable()
     {
-        return $this->monitoredUserTable;
+        return $this->monitoredUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->monitoredUserTable;
     }
 
     /**
      * Setter for monitoredUserTable
      *
-     * @ElementName monitoredUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $monitoredUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $monitoredUserTable
      * @return $this
      */
     public function setMonitoredUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $monitoredUserTable)
     {
         $this->monitoredUserTable = $monitoredUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMonitoredUserTable()
+    {
+        $this->monitoredUserTable = null;
         return $this;
     }
 

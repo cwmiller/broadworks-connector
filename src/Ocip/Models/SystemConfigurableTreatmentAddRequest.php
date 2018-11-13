@@ -16,108 +16,126 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName treatmentId
+     * @Type string
      * @var string|null
      */
     private $treatmentId = null;
 
     /**
      * @ElementName chargeIndicator
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
     private $chargeIndicator = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName accessSIPStatusCode
+     * @Type int
      * @var int|null
      */
     private $accessSIPStatusCode = null;
 
     /**
      * @ElementName accessSIPStatusMessage
+     * @Type string
      * @var string|null
      */
     private $accessSIPStatusMessage = null;
 
     /**
      * @ElementName networkSIPStatusCode
+     * @Type int
      * @var int|null
      */
     private $networkSIPStatusCode = null;
 
     /**
      * @ElementName networkSIPStatusMessage
+     * @Type string
      * @var string|null
      */
     private $networkSIPStatusMessage = null;
 
     /**
      * @ElementName q850CauseValue
+     * @Type int
      * @var int|null
      */
     private $q850CauseValue = null;
 
     /**
      * @ElementName q850Text
+     * @Type string
      * @var string|null
      */
     private $q850Text = null;
 
     /**
      * @ElementName accessTreatmentAudioFile
+     * @Type string
      * @var string|null
      */
     private $accessTreatmentAudioFile = null;
 
     /**
      * @ElementName accessTreatmentVideoFile
+     * @Type string
      * @var string|null
      */
     private $accessTreatmentVideoFile = null;
 
     /**
      * @ElementName networkTreatmentAudioFile
+     * @Type string
      * @var string|null
      */
     private $networkTreatmentAudioFile = null;
 
     /**
      * @ElementName networkTreatmentVideoFile
+     * @Type string
      * @var string|null
      */
     private $networkTreatmentVideoFile = null;
 
     /**
      * @ElementName cdrTerminationCause
+     * @Type string
      * @var string|null
      */
     private $cdrTerminationCause = null;
 
     /**
      * @ElementName routeAdvance
+     * @Type bool
      * @var bool|null
      */
     private $routeAdvance = null;
 
     /**
      * @ElementName internalReleaseCause
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     private $internalReleaseCause = null;
 
     /**
      * @ElementName accessSendReasonHeader
+     * @Type bool
      * @var bool|null
      */
     private $accessSendReasonHeader = null;
 
     /**
      * @ElementName networkSendReasonHeader
+     * @Type bool
      * @var bool|null
      */
     private $networkSendReasonHeader = null;
@@ -125,19 +143,17 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for treatmentId
      *
-     * @ElementName treatmentId
-     * @return string|null
+     * @return string
      */
     public function getTreatmentId()
     {
-        return $this->treatmentId;
+        return $this->treatmentId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentId;
     }
 
     /**
      * Setter for treatmentId
      *
-     * @ElementName treatmentId
-     * @param string|null $treatmentId
+     * @param string $treatmentId
      * @return $this
      */
     public function setTreatmentId($treatmentId)
@@ -147,21 +163,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTreatmentId()
+    {
+        $this->treatmentId = null;
+        return $this;
+    }
+
+    /**
      * Getter for chargeIndicator
      *
-     * @ElementName chargeIndicator
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator
      */
     public function getChargeIndicator()
     {
-        return $this->chargeIndicator;
+        return $this->chargeIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->chargeIndicator;
     }
 
     /**
      * Setter for chargeIndicator
      *
-     * @ElementName chargeIndicator
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null $chargeIndicator
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator $chargeIndicator
      * @return $this
      */
     public function setChargeIndicator(\CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator $chargeIndicator)
@@ -171,21 +194,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChargeIndicator()
+    {
+        $this->chargeIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -195,21 +225,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessSIPStatusCode
      *
-     * @ElementName accessSIPStatusCode
-     * @return int|null
+     * @return int
      */
     public function getAccessSIPStatusCode()
     {
-        return $this->accessSIPStatusCode;
+        return $this->accessSIPStatusCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessSIPStatusCode;
     }
 
     /**
      * Setter for accessSIPStatusCode
      *
-     * @ElementName accessSIPStatusCode
-     * @param int|null $accessSIPStatusCode
+     * @param int $accessSIPStatusCode
      * @return $this
      */
     public function setAccessSIPStatusCode($accessSIPStatusCode)
@@ -219,21 +256,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessSIPStatusCode()
+    {
+        $this->accessSIPStatusCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessSIPStatusMessage
      *
-     * @ElementName accessSIPStatusMessage
-     * @return string|null
+     * @return string
      */
     public function getAccessSIPStatusMessage()
     {
-        return $this->accessSIPStatusMessage;
+        return $this->accessSIPStatusMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessSIPStatusMessage;
     }
 
     /**
      * Setter for accessSIPStatusMessage
      *
-     * @ElementName accessSIPStatusMessage
-     * @param string|null $accessSIPStatusMessage
+     * @param string $accessSIPStatusMessage
      * @return $this
      */
     public function setAccessSIPStatusMessage($accessSIPStatusMessage)
@@ -243,21 +287,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessSIPStatusMessage()
+    {
+        $this->accessSIPStatusMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkSIPStatusCode
      *
-     * @ElementName networkSIPStatusCode
-     * @return int|null
+     * @return int
      */
     public function getNetworkSIPStatusCode()
     {
-        return $this->networkSIPStatusCode;
+        return $this->networkSIPStatusCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkSIPStatusCode;
     }
 
     /**
      * Setter for networkSIPStatusCode
      *
-     * @ElementName networkSIPStatusCode
-     * @param int|null $networkSIPStatusCode
+     * @param int $networkSIPStatusCode
      * @return $this
      */
     public function setNetworkSIPStatusCode($networkSIPStatusCode)
@@ -267,21 +318,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkSIPStatusCode()
+    {
+        $this->networkSIPStatusCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkSIPStatusMessage
      *
-     * @ElementName networkSIPStatusMessage
-     * @return string|null
+     * @return string
      */
     public function getNetworkSIPStatusMessage()
     {
-        return $this->networkSIPStatusMessage;
+        return $this->networkSIPStatusMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkSIPStatusMessage;
     }
 
     /**
      * Setter for networkSIPStatusMessage
      *
-     * @ElementName networkSIPStatusMessage
-     * @param string|null $networkSIPStatusMessage
+     * @param string $networkSIPStatusMessage
      * @return $this
      */
     public function setNetworkSIPStatusMessage($networkSIPStatusMessage)
@@ -291,21 +349,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkSIPStatusMessage()
+    {
+        $this->networkSIPStatusMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for q850CauseValue
      *
-     * @ElementName q850CauseValue
-     * @return int|null
+     * @return int
      */
     public function getQ850CauseValue()
     {
-        return $this->q850CauseValue;
+        return $this->q850CauseValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->q850CauseValue;
     }
 
     /**
      * Setter for q850CauseValue
      *
-     * @ElementName q850CauseValue
-     * @param int|null $q850CauseValue
+     * @param int $q850CauseValue
      * @return $this
      */
     public function setQ850CauseValue($q850CauseValue)
@@ -315,21 +380,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetQ850CauseValue()
+    {
+        $this->q850CauseValue = null;
+        return $this;
+    }
+
+    /**
      * Getter for q850Text
      *
-     * @ElementName q850Text
-     * @return string|null
+     * @return string
      */
     public function getQ850Text()
     {
-        return $this->q850Text;
+        return $this->q850Text instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->q850Text;
     }
 
     /**
      * Setter for q850Text
      *
-     * @ElementName q850Text
-     * @param string|null $q850Text
+     * @param string $q850Text
      * @return $this
      */
     public function setQ850Text($q850Text)
@@ -339,21 +411,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetQ850Text()
+    {
+        $this->q850Text = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessTreatmentAudioFile
      *
-     * @ElementName accessTreatmentAudioFile
-     * @return string|null
+     * @return string
      */
     public function getAccessTreatmentAudioFile()
     {
-        return $this->accessTreatmentAudioFile;
+        return $this->accessTreatmentAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessTreatmentAudioFile;
     }
 
     /**
      * Setter for accessTreatmentAudioFile
      *
-     * @ElementName accessTreatmentAudioFile
-     * @param string|null $accessTreatmentAudioFile
+     * @param string $accessTreatmentAudioFile
      * @return $this
      */
     public function setAccessTreatmentAudioFile($accessTreatmentAudioFile)
@@ -363,21 +442,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessTreatmentAudioFile()
+    {
+        $this->accessTreatmentAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessTreatmentVideoFile
      *
-     * @ElementName accessTreatmentVideoFile
-     * @return string|null
+     * @return string
      */
     public function getAccessTreatmentVideoFile()
     {
-        return $this->accessTreatmentVideoFile;
+        return $this->accessTreatmentVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessTreatmentVideoFile;
     }
 
     /**
      * Setter for accessTreatmentVideoFile
      *
-     * @ElementName accessTreatmentVideoFile
-     * @param string|null $accessTreatmentVideoFile
+     * @param string $accessTreatmentVideoFile
      * @return $this
      */
     public function setAccessTreatmentVideoFile($accessTreatmentVideoFile)
@@ -387,21 +473,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessTreatmentVideoFile()
+    {
+        $this->accessTreatmentVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkTreatmentAudioFile
      *
-     * @ElementName networkTreatmentAudioFile
-     * @return string|null
+     * @return string
      */
     public function getNetworkTreatmentAudioFile()
     {
-        return $this->networkTreatmentAudioFile;
+        return $this->networkTreatmentAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkTreatmentAudioFile;
     }
 
     /**
      * Setter for networkTreatmentAudioFile
      *
-     * @ElementName networkTreatmentAudioFile
-     * @param string|null $networkTreatmentAudioFile
+     * @param string $networkTreatmentAudioFile
      * @return $this
      */
     public function setNetworkTreatmentAudioFile($networkTreatmentAudioFile)
@@ -411,21 +504,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkTreatmentAudioFile()
+    {
+        $this->networkTreatmentAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkTreatmentVideoFile
      *
-     * @ElementName networkTreatmentVideoFile
-     * @return string|null
+     * @return string
      */
     public function getNetworkTreatmentVideoFile()
     {
-        return $this->networkTreatmentVideoFile;
+        return $this->networkTreatmentVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkTreatmentVideoFile;
     }
 
     /**
      * Setter for networkTreatmentVideoFile
      *
-     * @ElementName networkTreatmentVideoFile
-     * @param string|null $networkTreatmentVideoFile
+     * @param string $networkTreatmentVideoFile
      * @return $this
      */
     public function setNetworkTreatmentVideoFile($networkTreatmentVideoFile)
@@ -435,21 +535,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkTreatmentVideoFile()
+    {
+        $this->networkTreatmentVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for cdrTerminationCause
      *
-     * @ElementName cdrTerminationCause
-     * @return string|null
+     * @return string
      */
     public function getCdrTerminationCause()
     {
-        return $this->cdrTerminationCause;
+        return $this->cdrTerminationCause instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cdrTerminationCause;
     }
 
     /**
      * Setter for cdrTerminationCause
      *
-     * @ElementName cdrTerminationCause
-     * @param string|null $cdrTerminationCause
+     * @param string $cdrTerminationCause
      * @return $this
      */
     public function setCdrTerminationCause($cdrTerminationCause)
@@ -459,21 +566,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCdrTerminationCause()
+    {
+        $this->cdrTerminationCause = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeAdvance
      *
-     * @ElementName routeAdvance
-     * @return bool|null
+     * @return bool
      */
     public function getRouteAdvance()
     {
-        return $this->routeAdvance;
+        return $this->routeAdvance instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeAdvance;
     }
 
     /**
      * Setter for routeAdvance
      *
-     * @ElementName routeAdvance
-     * @param bool|null $routeAdvance
+     * @param bool $routeAdvance
      * @return $this
      */
     public function setRouteAdvance($routeAdvance)
@@ -483,21 +597,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteAdvance()
+    {
+        $this->routeAdvance = null;
+        return $this;
+    }
+
+    /**
      * Getter for internalReleaseCause
      *
-     * @ElementName internalReleaseCause
-     * @return \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
      */
     public function getInternalReleaseCause()
     {
-        return $this->internalReleaseCause;
+        return $this->internalReleaseCause instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internalReleaseCause;
     }
 
     /**
      * Setter for internalReleaseCause
      *
-     * @ElementName internalReleaseCause
-     * @param \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null $internalReleaseCause
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16 $internalReleaseCause
      * @return $this
      */
     public function setInternalReleaseCause(\CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16 $internalReleaseCause)
@@ -507,21 +628,28 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInternalReleaseCause()
+    {
+        $this->internalReleaseCause = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessSendReasonHeader
      *
-     * @ElementName accessSendReasonHeader
-     * @return bool|null
+     * @return bool
      */
     public function getAccessSendReasonHeader()
     {
-        return $this->accessSendReasonHeader;
+        return $this->accessSendReasonHeader instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessSendReasonHeader;
     }
 
     /**
      * Setter for accessSendReasonHeader
      *
-     * @ElementName accessSendReasonHeader
-     * @param bool|null $accessSendReasonHeader
+     * @param bool $accessSendReasonHeader
      * @return $this
      */
     public function setAccessSendReasonHeader($accessSendReasonHeader)
@@ -531,26 +659,42 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessSendReasonHeader()
+    {
+        $this->accessSendReasonHeader = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkSendReasonHeader
      *
-     * @ElementName networkSendReasonHeader
-     * @return bool|null
+     * @return bool
      */
     public function getNetworkSendReasonHeader()
     {
-        return $this->networkSendReasonHeader;
+        return $this->networkSendReasonHeader instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkSendReasonHeader;
     }
 
     /**
      * Setter for networkSendReasonHeader
      *
-     * @ElementName networkSendReasonHeader
-     * @param bool|null $networkSendReasonHeader
+     * @param bool $networkSendReasonHeader
      * @return $this
      */
     public function setNetworkSendReasonHeader($networkSendReasonHeader)
     {
         $this->networkSendReasonHeader = $networkSendReasonHeader;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkSendReasonHeader()
+    {
+        $this->networkSendReasonHeader = null;
         return $this;
     }
 

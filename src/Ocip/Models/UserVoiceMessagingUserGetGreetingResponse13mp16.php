@@ -17,60 +17,70 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
 
     /**
      * @ElementName busyAnnouncementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $busyAnnouncementSelection = null;
 
     /**
      * @ElementName busyPersonalAudioFile
+     * @Type string
      * @var string|null
      */
     private $busyPersonalAudioFile = null;
 
     /**
      * @ElementName busyPersonalVideoFile
+     * @Type string
      * @var string|null
      */
     private $busyPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerAnnouncementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     private $noAnswerAnnouncementSelection = null;
 
     /**
      * @ElementName noAnswerPersonalAudioFile
+     * @Type string
      * @var string|null
      */
     private $noAnswerPersonalAudioFile = null;
 
     /**
      * @ElementName noAnswerPersonalVideoFile
+     * @Type string
      * @var string|null
      */
     private $noAnswerPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting01
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead|null
      */
     private $noAnswerAlternateGreeting01 = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting02
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead|null
      */
     private $noAnswerAlternateGreeting02 = null;
 
     /**
      * @ElementName noAnswerAlternateGreeting03
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead|null
      */
     private $noAnswerAlternateGreeting03 = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
@@ -78,19 +88,17 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * Getter for busyAnnouncementSelection
      *
-     * @ElementName busyAnnouncementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      */
     public function getBusyAnnouncementSelection()
     {
-        return $this->busyAnnouncementSelection;
+        return $this->busyAnnouncementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyAnnouncementSelection;
     }
 
     /**
      * Setter for busyAnnouncementSelection
      *
-     * @ElementName busyAnnouncementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $busyAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection
      * @return $this
      */
     public function setBusyAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection)
@@ -100,21 +108,28 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyAnnouncementSelection()
+    {
+        $this->busyAnnouncementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyPersonalAudioFile
      *
-     * @ElementName busyPersonalAudioFile
-     * @return string|null
+     * @return string
      */
     public function getBusyPersonalAudioFile()
     {
-        return $this->busyPersonalAudioFile;
+        return $this->busyPersonalAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyPersonalAudioFile;
     }
 
     /**
      * Setter for busyPersonalAudioFile
      *
-     * @ElementName busyPersonalAudioFile
-     * @param string|null $busyPersonalAudioFile
+     * @param string $busyPersonalAudioFile
      * @return $this
      */
     public function setBusyPersonalAudioFile($busyPersonalAudioFile)
@@ -124,21 +139,28 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyPersonalAudioFile()
+    {
+        $this->busyPersonalAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyPersonalVideoFile
      *
-     * @ElementName busyPersonalVideoFile
-     * @return string|null
+     * @return string
      */
     public function getBusyPersonalVideoFile()
     {
-        return $this->busyPersonalVideoFile;
+        return $this->busyPersonalVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyPersonalVideoFile;
     }
 
     /**
      * Setter for busyPersonalVideoFile
      *
-     * @ElementName busyPersonalVideoFile
-     * @param string|null $busyPersonalVideoFile
+     * @param string $busyPersonalVideoFile
      * @return $this
      */
     public function setBusyPersonalVideoFile($busyPersonalVideoFile)
@@ -148,21 +170,28 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyPersonalVideoFile()
+    {
+        $this->busyPersonalVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerAnnouncementSelection
      *
-     * @ElementName noAnswerAnnouncementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
      */
     public function getNoAnswerAnnouncementSelection()
     {
-        return $this->noAnswerAnnouncementSelection;
+        return $this->noAnswerAnnouncementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerAnnouncementSelection;
     }
 
     /**
      * Setter for noAnswerAnnouncementSelection
      *
-     * @ElementName noAnswerAnnouncementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null $noAnswerAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection
      * @return $this
      */
     public function setNoAnswerAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection)
@@ -172,21 +201,28 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerAnnouncementSelection()
+    {
+        $this->noAnswerAnnouncementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerPersonalAudioFile
      *
-     * @ElementName noAnswerPersonalAudioFile
-     * @return string|null
+     * @return string
      */
     public function getNoAnswerPersonalAudioFile()
     {
-        return $this->noAnswerPersonalAudioFile;
+        return $this->noAnswerPersonalAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerPersonalAudioFile;
     }
 
     /**
      * Setter for noAnswerPersonalAudioFile
      *
-     * @ElementName noAnswerPersonalAudioFile
-     * @param string|null $noAnswerPersonalAudioFile
+     * @param string $noAnswerPersonalAudioFile
      * @return $this
      */
     public function setNoAnswerPersonalAudioFile($noAnswerPersonalAudioFile)
@@ -196,21 +232,28 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerPersonalAudioFile()
+    {
+        $this->noAnswerPersonalAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerPersonalVideoFile
      *
-     * @ElementName noAnswerPersonalVideoFile
-     * @return string|null
+     * @return string
      */
     public function getNoAnswerPersonalVideoFile()
     {
-        return $this->noAnswerPersonalVideoFile;
+        return $this->noAnswerPersonalVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerPersonalVideoFile;
     }
 
     /**
      * Setter for noAnswerPersonalVideoFile
      *
-     * @ElementName noAnswerPersonalVideoFile
-     * @param string|null $noAnswerPersonalVideoFile
+     * @param string $noAnswerPersonalVideoFile
      * @return $this
      */
     public function setNoAnswerPersonalVideoFile($noAnswerPersonalVideoFile)
@@ -220,21 +263,28 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerPersonalVideoFile()
+    {
+        $this->noAnswerPersonalVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerAlternateGreeting01
      *
-     * @ElementName noAnswerAlternateGreeting01
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead
      */
     public function getNoAnswerAlternateGreeting01()
     {
-        return $this->noAnswerAlternateGreeting01;
+        return $this->noAnswerAlternateGreeting01 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerAlternateGreeting01;
     }
 
     /**
      * Setter for noAnswerAlternateGreeting01
      *
-     * @ElementName noAnswerAlternateGreeting01
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead|null $noAnswerAlternateGreeting01
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead $noAnswerAlternateGreeting01
      * @return $this
      */
     public function setNoAnswerAlternateGreeting01(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead $noAnswerAlternateGreeting01)
@@ -244,21 +294,28 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerAlternateGreeting01()
+    {
+        $this->noAnswerAlternateGreeting01 = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerAlternateGreeting02
      *
-     * @ElementName noAnswerAlternateGreeting02
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead
      */
     public function getNoAnswerAlternateGreeting02()
     {
-        return $this->noAnswerAlternateGreeting02;
+        return $this->noAnswerAlternateGreeting02 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerAlternateGreeting02;
     }
 
     /**
      * Setter for noAnswerAlternateGreeting02
      *
-     * @ElementName noAnswerAlternateGreeting02
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead|null $noAnswerAlternateGreeting02
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead $noAnswerAlternateGreeting02
      * @return $this
      */
     public function setNoAnswerAlternateGreeting02(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead $noAnswerAlternateGreeting02)
@@ -268,21 +325,28 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerAlternateGreeting02()
+    {
+        $this->noAnswerAlternateGreeting02 = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerAlternateGreeting03
      *
-     * @ElementName noAnswerAlternateGreeting03
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead
      */
     public function getNoAnswerAlternateGreeting03()
     {
-        return $this->noAnswerAlternateGreeting03;
+        return $this->noAnswerAlternateGreeting03 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerAlternateGreeting03;
     }
 
     /**
      * Setter for noAnswerAlternateGreeting03
      *
-     * @ElementName noAnswerAlternateGreeting03
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead|null $noAnswerAlternateGreeting03
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead $noAnswerAlternateGreeting03
      * @return $this
      */
     public function setNoAnswerAlternateGreeting03(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingRead $noAnswerAlternateGreeting03)
@@ -292,26 +356,42 @@ class UserVoiceMessagingUserGetGreetingResponse13mp16 extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerAlternateGreeting03()
+    {
+        $this->noAnswerAlternateGreeting03 = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
      */
     public function getNoAnswerNumberOfRings()
     {
-        return $this->noAnswerNumberOfRings;
+        return $this->noAnswerNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerNumberOfRings;
     }
 
     /**
      * Setter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null $noAnswerNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings
      * @return $this
      */
     public function setNoAnswerNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings)
     {
         $this->noAnswerNumberOfRings = $noAnswerNumberOfRings;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNoAnswerNumberOfRings()
+    {
+        $this->noAnswerNumberOfRings = null;
         return $this;
     }
 

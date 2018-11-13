@@ -16,6 +16,8 @@ class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName alternateCallIndicator
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $alternateCallIndicator = array(
@@ -25,18 +27,16 @@ class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
      * @return string[]
      */
     public function getAlternateCallIndicator()
     {
-        return $this->alternateCallIndicator;
+        return $this->alternateCallIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateCallIndicator;
     }
 
     /**
      * Setter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
      * @param string[] $alternateCallIndicator
      * @return $this
      */
@@ -47,15 +47,23 @@ class SystemExpensiveCallTypeGetListResponse extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateCallIndicator()
+    {
+        $this->alternateCallIndicator = null;
+        return $this;
+    }
+
+    /**
      * Adder for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
      * @param string $alternateCallIndicator
      * @return $this
      */
     public function addAlternateCallIndicator(string $alternateCallIndicator)
     {
-        $this->alternateCallIndicator []= $alternateCallIndicator;
+        $this->alternateCallIndicator[] = $alternateCallIndicator;
         return $this;
     }
 

@@ -15,30 +15,35 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serverPort
+     * @Type int
      * @var int|null
      */
     private $serverPort = null;
 
     /**
      * @ElementName enableConnectionPing
+     * @Type bool
      * @var bool|null
      */
     private $enableConnectionPing = null;
 
     /**
      * @ElementName connectionPingIntervalSeconds
+     * @Type int
      * @var int|null
      */
     private $connectionPingIntervalSeconds = null;
 
     /**
      * @ElementName alterPasswords
+     * @Type bool
      * @var bool|null
      */
     private $alterPasswords = null;
 
     /**
      * @ElementName enablePublicIdentityReporting
+     * @Type bool
      * @var bool|null
      */
     private $enablePublicIdentityReporting = null;
@@ -46,19 +51,17 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     /**
      * Getter for serverPort
      *
-     * @ElementName serverPort
-     * @return int|null
+     * @return int
      */
     public function getServerPort()
     {
-        return $this->serverPort;
+        return $this->serverPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serverPort;
     }
 
     /**
      * Setter for serverPort
      *
-     * @ElementName serverPort
-     * @param int|null $serverPort
+     * @param int $serverPort
      * @return $this
      */
     public function setServerPort($serverPort)
@@ -68,21 +71,28 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServerPort()
+    {
+        $this->serverPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableConnectionPing
      *
-     * @ElementName enableConnectionPing
-     * @return bool|null
+     * @return bool
      */
     public function getEnableConnectionPing()
     {
-        return $this->enableConnectionPing;
+        return $this->enableConnectionPing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableConnectionPing;
     }
 
     /**
      * Setter for enableConnectionPing
      *
-     * @ElementName enableConnectionPing
-     * @param bool|null $enableConnectionPing
+     * @param bool $enableConnectionPing
      * @return $this
      */
     public function setEnableConnectionPing($enableConnectionPing)
@@ -92,21 +102,28 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableConnectionPing()
+    {
+        $this->enableConnectionPing = null;
+        return $this;
+    }
+
+    /**
      * Getter for connectionPingIntervalSeconds
      *
-     * @ElementName connectionPingIntervalSeconds
-     * @return int|null
+     * @return int
      */
     public function getConnectionPingIntervalSeconds()
     {
-        return $this->connectionPingIntervalSeconds;
+        return $this->connectionPingIntervalSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->connectionPingIntervalSeconds;
     }
 
     /**
      * Setter for connectionPingIntervalSeconds
      *
-     * @ElementName connectionPingIntervalSeconds
-     * @param int|null $connectionPingIntervalSeconds
+     * @param int $connectionPingIntervalSeconds
      * @return $this
      */
     public function setConnectionPingIntervalSeconds($connectionPingIntervalSeconds)
@@ -116,21 +133,28 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConnectionPingIntervalSeconds()
+    {
+        $this->connectionPingIntervalSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for alterPasswords
      *
-     * @ElementName alterPasswords
-     * @return bool|null
+     * @return bool
      */
     public function getAlterPasswords()
     {
-        return $this->alterPasswords;
+        return $this->alterPasswords instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alterPasswords;
     }
 
     /**
      * Setter for alterPasswords
      *
-     * @ElementName alterPasswords
-     * @param bool|null $alterPasswords
+     * @param bool $alterPasswords
      * @return $this
      */
     public function setAlterPasswords($alterPasswords)
@@ -140,26 +164,42 @@ class SystemOCIReportingParametersGetResponse14sp1 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlterPasswords()
+    {
+        $this->alterPasswords = null;
+        return $this;
+    }
+
+    /**
      * Getter for enablePublicIdentityReporting
      *
-     * @ElementName enablePublicIdentityReporting
-     * @return bool|null
+     * @return bool
      */
     public function getEnablePublicIdentityReporting()
     {
-        return $this->enablePublicIdentityReporting;
+        return $this->enablePublicIdentityReporting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enablePublicIdentityReporting;
     }
 
     /**
      * Setter for enablePublicIdentityReporting
      *
-     * @ElementName enablePublicIdentityReporting
-     * @param bool|null $enablePublicIdentityReporting
+     * @param bool $enablePublicIdentityReporting
      * @return $this
      */
     public function setEnablePublicIdentityReporting($enablePublicIdentityReporting)
     {
         $this->enablePublicIdentityReporting = $enablePublicIdentityReporting;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnablePublicIdentityReporting()
+    {
+        $this->enablePublicIdentityReporting = null;
         return $this;
     }
 

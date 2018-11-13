@@ -17,12 +17,15 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName name
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $name = array(
@@ -32,19 +35,17 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -54,20 +55,27 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
      * @return string[]
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
      * @param string[] $name
      * @return $this
      */
@@ -78,15 +86,23 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Adder for name
      *
-     * @ElementName name
      * @param string $name
      * @return $this
      */
     public function addName(string $name)
     {
-        $this->name []= $name;
+        $this->name[] = $name;
         return $this;
     }
 

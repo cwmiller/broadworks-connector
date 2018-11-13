@@ -18,12 +18,15 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName alertingGroupName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $alertingGroupName = array(
@@ -33,19 +36,17 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -55,20 +56,27 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingGroupName
      *
-     * @ElementName alertingGroupName
      * @return string[]
      */
     public function getAlertingGroupName()
     {
-        return $this->alertingGroupName;
+        return $this->alertingGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingGroupName;
     }
 
     /**
      * Setter for alertingGroupName
      *
-     * @ElementName alertingGroupName
      * @param string[] $alertingGroupName
      * @return $this
      */
@@ -79,15 +87,23 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingGroupName()
+    {
+        $this->alertingGroupName = null;
+        return $this;
+    }
+
+    /**
      * Adder for alertingGroupName
      *
-     * @ElementName alertingGroupName
      * @param string $alertingGroupName
      * @return $this
      */
     public function addAlertingGroupName(string $alertingGroupName)
     {
-        $this->alertingGroupName []= $alertingGroupName;
+        $this->alertingGroupName[] = $alertingGroupName;
         return $this;
     }
 

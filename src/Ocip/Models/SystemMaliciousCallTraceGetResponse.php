@@ -23,12 +23,14 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName playMCTWarningAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $playMCTWarningAnnouncement = null;
 
     /**
      * @ElementName userTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;
@@ -36,19 +38,17 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for playMCTWarningAnnouncement
      *
-     * @ElementName playMCTWarningAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getPlayMCTWarningAnnouncement()
     {
-        return $this->playMCTWarningAnnouncement;
+        return $this->playMCTWarningAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playMCTWarningAnnouncement;
     }
 
     /**
      * Setter for playMCTWarningAnnouncement
      *
-     * @ElementName playMCTWarningAnnouncement
-     * @param bool|null $playMCTWarningAnnouncement
+     * @param bool $playMCTWarningAnnouncement
      * @return $this
      */
     public function setPlayMCTWarningAnnouncement($playMCTWarningAnnouncement)
@@ -58,26 +58,42 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayMCTWarningAnnouncement()
+    {
+        $this->playMCTWarningAnnouncement = null;
+        return $this;
+    }
+
+    /**
      * Getter for userTable
      *
-     * @ElementName userTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserTable()
     {
-        return $this->userTable;
+        return $this->userTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userTable;
     }
 
     /**
      * Setter for userTable
      *
-     * @ElementName userTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable
      * @return $this
      */
     public function setUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable)
     {
         $this->userTable = $userTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserTable()
+    {
+        $this->userTable = null;
         return $this;
     }
 

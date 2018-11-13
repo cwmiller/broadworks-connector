@@ -18,6 +18,7 @@ class SystemSIPDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName deviceTypeFilesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceTypeFilesTable = null;
@@ -25,24 +26,31 @@ class SystemSIPDeviceTypeFileGetListResponse14sp8 extends \CWM\BroadWorksConnect
     /**
      * Getter for deviceTypeFilesTable
      *
-     * @ElementName deviceTypeFilesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDeviceTypeFilesTable()
     {
-        return $this->deviceTypeFilesTable;
+        return $this->deviceTypeFilesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceTypeFilesTable;
     }
 
     /**
      * Setter for deviceTypeFilesTable
      *
-     * @ElementName deviceTypeFilesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceTypeFilesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTypeFilesTable
      * @return $this
      */
     public function setDeviceTypeFilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTypeFilesTable)
     {
         $this->deviceTypeFilesTable = $deviceTypeFilesTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceTypeFilesTable()
+    {
+        $this->deviceTypeFilesTable = null;
         return $this;
     }
 

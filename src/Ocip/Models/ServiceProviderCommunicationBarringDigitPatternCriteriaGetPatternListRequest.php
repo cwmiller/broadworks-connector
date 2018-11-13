@@ -19,24 +19,29 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaDigitPattern
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[]
      */
     private $searchCriteriaDigitPattern = array(
@@ -46,19 +51,17 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -68,21 +71,28 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -92,21 +102,28 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -116,20 +133,27 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaDigitPattern
      *
-     * @ElementName searchCriteriaDigitPattern
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[]
      */
     public function getSearchCriteriaDigitPattern()
     {
-        return $this->searchCriteriaDigitPattern;
+        return $this->searchCriteriaDigitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDigitPattern;
     }
 
     /**
      * Setter for searchCriteriaDigitPattern
      *
-     * @ElementName searchCriteriaDigitPattern
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[] $searchCriteriaDigitPattern
      * @return $this
      */
@@ -140,15 +164,23 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDigitPattern()
+    {
+        $this->searchCriteriaDigitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDigitPattern
      *
-     * @ElementName searchCriteriaDigitPattern
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern $searchCriteriaDigitPattern
      * @return $this
      */
     public function addSearchCriteriaDigitPattern($searchCriteriaDigitPattern)
     {
-        $this->searchCriteriaDigitPattern []= $searchCriteriaDigitPattern;
+        $this->searchCriteriaDigitPattern[] = $searchCriteriaDigitPattern;
         return $this;
     }
 

@@ -16,6 +16,8 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName groupServiceEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AssignedGroupServicesEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AssignedGroupServicesEntry[]
      */
     private $groupServiceEntry = array(
@@ -24,6 +26,8 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userServiceEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AssignedUserServicesEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AssignedUserServicesEntry[]
      */
     private $userServiceEntry = array(
@@ -33,18 +37,16 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for groupServiceEntry
      *
-     * @ElementName groupServiceEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\AssignedGroupServicesEntry[]
      */
     public function getGroupServiceEntry()
     {
-        return $this->groupServiceEntry;
+        return $this->groupServiceEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupServiceEntry;
     }
 
     /**
      * Setter for groupServiceEntry
      *
-     * @ElementName groupServiceEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AssignedGroupServicesEntry[] $groupServiceEntry
      * @return $this
      */
@@ -55,33 +57,39 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupServiceEntry()
+    {
+        $this->groupServiceEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for groupServiceEntry
      *
-     * @ElementName groupServiceEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AssignedGroupServicesEntry $groupServiceEntry
      * @return $this
      */
     public function addGroupServiceEntry($groupServiceEntry)
     {
-        $this->groupServiceEntry []= $groupServiceEntry;
+        $this->groupServiceEntry[] = $groupServiceEntry;
         return $this;
     }
 
     /**
      * Getter for userServiceEntry
      *
-     * @ElementName userServiceEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\AssignedUserServicesEntry[]
      */
     public function getUserServiceEntry()
     {
-        return $this->userServiceEntry;
+        return $this->userServiceEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServiceEntry;
     }
 
     /**
      * Setter for userServiceEntry
      *
-     * @ElementName userServiceEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AssignedUserServicesEntry[] $userServiceEntry
      * @return $this
      */
@@ -92,15 +100,23 @@ class UserAssignedServicesGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserServiceEntry()
+    {
+        $this->userServiceEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for userServiceEntry
      *
-     * @ElementName userServiceEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AssignedUserServicesEntry $userServiceEntry
      * @return $this
      */
     public function addUserServiceEntry($userServiceEntry)
     {
-        $this->userServiceEntry []= $userServiceEntry;
+        $this->userServiceEntry[] = $userServiceEntry;
         return $this;
     }
 

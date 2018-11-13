@@ -14,6 +14,8 @@ class ReplacementUserServiceList
 
     /**
      * @ElementName serviceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(
@@ -23,18 +25,16 @@ class ReplacementUserServiceList
     /**
      * Getter for serviceName
      *
-     * @ElementName serviceName
      * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getServiceName()
     {
-        return $this->serviceName;
+        return $this->serviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceName;
     }
 
     /**
      * Setter for serviceName
      *
-     * @ElementName serviceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $serviceName
      * @return $this
      */
@@ -45,15 +45,23 @@ class ReplacementUserServiceList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceName()
+    {
+        $this->serviceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for serviceName
      *
-     * @ElementName serviceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $serviceName
      * @return $this
      */
     public function addServiceName($serviceName)
     {
-        $this->serviceName []= $serviceName;
+        $this->serviceName[] = $serviceName;
         return $this;
     }
 

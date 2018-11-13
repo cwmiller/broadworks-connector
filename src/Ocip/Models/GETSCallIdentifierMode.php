@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GETSCallIdentifierMode REQUEST_URI()
  * @method static GETSCallIdentifierMode RPH()
  * @method static GETSCallIdentifierMode RPH_REQUEST_URI()
- * @ValueType string
+ * @EnumValueType string
  */
 class GETSCallIdentifierMode extends \MyCLabs\Enum\Enum
 {

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterStrandedCallProcessingAction NIGHT_SERVICE()
  * @method static CallCenterStrandedCallProcessingAction RINGING()
  * @method static CallCenterStrandedCallProcessingAction ANNOUNCEMENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterStrandedCallProcessingAction extends \MyCLabs\Enum\Enum
 {

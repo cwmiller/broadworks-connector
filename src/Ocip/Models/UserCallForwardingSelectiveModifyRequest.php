@@ -16,18 +16,21 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName defaultForwardToPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,12 +38,15 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName playRingReminder
+     * @Type bool
      * @var bool|null
      */
     private $playRingReminder = null;
 
     /**
      * @ElementName criteriaActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(
@@ -50,19 +56,17 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -72,21 +76,28 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -96,47 +107,63 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultForwardToPhoneNumber
      *
-     * @ElementName defaultForwardToPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDefaultForwardToPhoneNumber()
     {
-        return $this->defaultForwardToPhoneNumber;
+        return $this->defaultForwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultForwardToPhoneNumber;
     }
 
     /**
      * Setter for defaultForwardToPhoneNumber
      *
-     * @ElementName defaultForwardToPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultForwardToPhoneNumber
+     * @param string|null $defaultForwardToPhoneNumber
      * @return $this
      */
     public function setDefaultForwardToPhoneNumber($defaultForwardToPhoneNumber)
     {
-        $this->defaultForwardToPhoneNumber = $defaultForwardToPhoneNumber;
+        if ($defaultForwardToPhoneNumber === null) {
+            $this->defaultForwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->defaultForwardToPhoneNumber = $defaultForwardToPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultForwardToPhoneNumber()
+    {
+        $this->defaultForwardToPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for playRingReminder
      *
-     * @ElementName playRingReminder
-     * @return bool|null
+     * @return bool
      */
     public function getPlayRingReminder()
     {
-        return $this->playRingReminder;
+        return $this->playRingReminder instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playRingReminder;
     }
 
     /**
      * Setter for playRingReminder
      *
-     * @ElementName playRingReminder
-     * @param bool|null $playRingReminder
+     * @param bool $playRingReminder
      * @return $this
      */
     public function setPlayRingReminder($playRingReminder)
@@ -146,20 +173,27 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayRingReminder()
+    {
+        $this->playRingReminder = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     public function getCriteriaActivation()
     {
-        return $this->criteriaActivation;
+        return $this->criteriaActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaActivation;
     }
 
     /**
      * Setter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
@@ -170,15 +204,23 @@ class UserCallForwardingSelectiveModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaActivation()
+    {
+        $this->criteriaActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation $criteriaActivation
      * @return $this
      */
     public function addCriteriaActivation($criteriaActivation)
     {
-        $this->criteriaActivation []= $criteriaActivation;
+        $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
 

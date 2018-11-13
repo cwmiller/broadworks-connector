@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static TrunkGroupSupportConnectedIdentityPolicy ENABLED()
  * @method static TrunkGroupSupportConnectedIdentityPolicy DISABLED()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupSupportConnectedIdentityPolicy extends \MyCLabs\Enum\Enum
 {

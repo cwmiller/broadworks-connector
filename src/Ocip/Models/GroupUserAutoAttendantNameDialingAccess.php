@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupUserAutoAttendantNameDialingAccess FULL()
  * @method static GroupUserAutoAttendantNameDialingAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupUserAutoAttendantNameDialingAccess extends \MyCLabs\Enum\Enum
 {

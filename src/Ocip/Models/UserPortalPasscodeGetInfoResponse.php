@@ -14,24 +14,28 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName isLoginDisabled
+     * @Type bool
      * @var bool|null
      */
     private $isLoginDisabled = null;
 
     /**
      * @ElementName expirationDays
+     * @Type int
      * @var int|null
      */
     private $expirationDays = null;
 
     /**
      * @ElementName doesNotExpire
+     * @Type bool
      * @var bool|null
      */
     private $doesNotExpire = null;
 
     /**
      * @ElementName passcode
+     * @Type string
      * @var string|null
      */
     private $passcode = null;
@@ -39,19 +43,17 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for isLoginDisabled
      *
-     * @ElementName isLoginDisabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsLoginDisabled()
     {
-        return $this->isLoginDisabled;
+        return $this->isLoginDisabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isLoginDisabled;
     }
 
     /**
      * Setter for isLoginDisabled
      *
-     * @ElementName isLoginDisabled
-     * @param bool|null $isLoginDisabled
+     * @param bool $isLoginDisabled
      * @return $this
      */
     public function setIsLoginDisabled($isLoginDisabled)
@@ -61,21 +63,28 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsLoginDisabled()
+    {
+        $this->isLoginDisabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for expirationDays
      *
-     * @ElementName expirationDays
-     * @return int|null
+     * @return int
      */
     public function getExpirationDays()
     {
-        return $this->expirationDays;
+        return $this->expirationDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->expirationDays;
     }
 
     /**
      * Setter for expirationDays
      *
-     * @ElementName expirationDays
-     * @param int|null $expirationDays
+     * @param int $expirationDays
      * @return $this
      */
     public function setExpirationDays($expirationDays)
@@ -85,21 +94,28 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExpirationDays()
+    {
+        $this->expirationDays = null;
+        return $this;
+    }
+
+    /**
      * Getter for doesNotExpire
      *
-     * @ElementName doesNotExpire
-     * @return bool|null
+     * @return bool
      */
     public function getDoesNotExpire()
     {
-        return $this->doesNotExpire;
+        return $this->doesNotExpire instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->doesNotExpire;
     }
 
     /**
      * Setter for doesNotExpire
      *
-     * @ElementName doesNotExpire
-     * @param bool|null $doesNotExpire
+     * @param bool $doesNotExpire
      * @return $this
      */
     public function setDoesNotExpire($doesNotExpire)
@@ -109,26 +125,42 @@ class UserPortalPasscodeGetInfoResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDoesNotExpire()
+    {
+        $this->doesNotExpire = null;
+        return $this;
+    }
+
+    /**
      * Getter for passcode
      *
-     * @ElementName passcode
-     * @return string|null
+     * @return string
      */
     public function getPasscode()
     {
-        return $this->passcode;
+        return $this->passcode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcode;
     }
 
     /**
      * Setter for passcode
      *
-     * @ElementName passcode
-     * @param string|null $passcode
+     * @param string $passcode
      * @return $this
      */
     public function setPasscode($passcode)
     {
         $this->passcode = $passcode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPasscode()
+    {
+        $this->passcode = null;
         return $this;
     }
 

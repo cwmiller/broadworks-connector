@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static DTMFTransmissionMethod SIGNALING()
  * @method static DTMFTransmissionMethod RTP()
- * @ValueType string
+ * @EnumValueType string
  */
 class DTMFTransmissionMethod extends \MyCLabs\Enum\Enum
 {

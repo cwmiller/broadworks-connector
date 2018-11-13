@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ServiceProviderAdminCommunicationBarringAccess FULL()
  * @method static ServiceProviderAdminCommunicationBarringAccess READ_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminCommunicationBarringAccess extends \MyCLabs\Enum\Enum
 {

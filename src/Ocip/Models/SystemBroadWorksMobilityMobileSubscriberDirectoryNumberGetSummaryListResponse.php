@@ -24,6 +24,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRespo
 
     /**
      * @ElementName mobileSubscriberDirectoryNumbersSummaryTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumbersSummaryTable = null;
@@ -31,24 +32,31 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRespo
     /**
      * Getter for mobileSubscriberDirectoryNumbersSummaryTable
      *
-     * @ElementName mobileSubscriberDirectoryNumbersSummaryTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMobileSubscriberDirectoryNumbersSummaryTable()
     {
-        return $this->mobileSubscriberDirectoryNumbersSummaryTable;
+        return $this->mobileSubscriberDirectoryNumbersSummaryTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileSubscriberDirectoryNumbersSummaryTable;
     }
 
     /**
      * Setter for mobileSubscriberDirectoryNumbersSummaryTable
      *
-     * @ElementName mobileSubscriberDirectoryNumbersSummaryTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mobileSubscriberDirectoryNumbersSummaryTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileSubscriberDirectoryNumbersSummaryTable
      * @return $this
      */
     public function setMobileSubscriberDirectoryNumbersSummaryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mobileSubscriberDirectoryNumbersSummaryTable)
     {
         $this->mobileSubscriberDirectoryNumbersSummaryTable = $mobileSubscriberDirectoryNumbersSummaryTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobileSubscriberDirectoryNumbersSummaryTable()
+    {
+        $this->mobileSubscriberDirectoryNumbersSummaryTable = null;
         return $this;
     }
 

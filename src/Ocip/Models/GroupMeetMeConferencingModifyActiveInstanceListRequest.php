@@ -16,6 +16,8 @@ class GroupMeetMeConferencingModifyActiveInstanceListRequest extends \CWM\BroadW
 
     /**
      * @ElementName serviceActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
     private $serviceActivation = array(
@@ -25,18 +27,16 @@ class GroupMeetMeConferencingModifyActiveInstanceListRequest extends \CWM\BroadW
     /**
      * Getter for serviceActivation
      *
-     * @ElementName serviceActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
     public function getServiceActivation()
     {
-        return $this->serviceActivation;
+        return $this->serviceActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceActivation;
     }
 
     /**
      * Setter for serviceActivation
      *
-     * @ElementName serviceActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[] $serviceActivation
      * @return $this
      */
@@ -47,15 +47,23 @@ class GroupMeetMeConferencingModifyActiveInstanceListRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceActivation()
+    {
+        $this->serviceActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for serviceActivation
      *
-     * @ElementName serviceActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation $serviceActivation
      * @return $this
      */
     public function addServiceActivation($serviceActivation)
     {
-        $this->serviceActivation []= $serviceActivation;
+        $this->serviceActivation[] = $serviceActivation;
         return $this;
     }
 

@@ -14,54 +14,63 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName isActiveDuringCallHold
+     * @Type bool
      * @var bool|null
      */
     private $isActiveDuringCallHold = null;
 
     /**
      * @ElementName isActiveDuringCallPark
+     * @Type bool
      * @var bool|null
      */
     private $isActiveDuringCallPark = null;
 
     /**
      * @ElementName isActiveDuringBusyCampOn
+     * @Type bool
      * @var bool|null
      */
     private $isActiveDuringBusyCampOn = null;
 
     /**
      * @ElementName messageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
      */
     private $messageSelection = null;
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
     private $accessDeviceEndpoint = null;
 
     /**
      * @ElementName enableVideo
+     * @Type bool
      * @var bool|null
      */
     private $enableVideo = null;
 
     /**
      * @ElementName audioFileDescription
+     * @Type string
      * @var string|null
      */
     private $audioFileDescription = null;
 
     /**
      * @ElementName videoFileDescription
+     * @Type string
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -69,19 +78,17 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -91,21 +98,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveDuringCallHold
      *
-     * @ElementName isActiveDuringCallHold
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveDuringCallHold()
     {
-        return $this->isActiveDuringCallHold;
+        return $this->isActiveDuringCallHold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveDuringCallHold;
     }
 
     /**
      * Setter for isActiveDuringCallHold
      *
-     * @ElementName isActiveDuringCallHold
-     * @param bool|null $isActiveDuringCallHold
+     * @param bool $isActiveDuringCallHold
      * @return $this
      */
     public function setIsActiveDuringCallHold($isActiveDuringCallHold)
@@ -115,21 +129,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveDuringCallHold()
+    {
+        $this->isActiveDuringCallHold = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveDuringCallPark
      *
-     * @ElementName isActiveDuringCallPark
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveDuringCallPark()
     {
-        return $this->isActiveDuringCallPark;
+        return $this->isActiveDuringCallPark instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveDuringCallPark;
     }
 
     /**
      * Setter for isActiveDuringCallPark
      *
-     * @ElementName isActiveDuringCallPark
-     * @param bool|null $isActiveDuringCallPark
+     * @param bool $isActiveDuringCallPark
      * @return $this
      */
     public function setIsActiveDuringCallPark($isActiveDuringCallPark)
@@ -139,21 +160,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveDuringCallPark()
+    {
+        $this->isActiveDuringCallPark = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveDuringBusyCampOn
      *
-     * @ElementName isActiveDuringBusyCampOn
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveDuringBusyCampOn()
     {
-        return $this->isActiveDuringBusyCampOn;
+        return $this->isActiveDuringBusyCampOn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveDuringBusyCampOn;
     }
 
     /**
      * Setter for isActiveDuringBusyCampOn
      *
-     * @ElementName isActiveDuringBusyCampOn
-     * @param bool|null $isActiveDuringBusyCampOn
+     * @param bool $isActiveDuringBusyCampOn
      * @return $this
      */
     public function setIsActiveDuringBusyCampOn($isActiveDuringBusyCampOn)
@@ -163,21 +191,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveDuringBusyCampOn()
+    {
+        $this->isActiveDuringBusyCampOn = null;
+        return $this;
+    }
+
+    /**
      * Getter for messageSelection
      *
-     * @ElementName messageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection
      */
     public function getMessageSelection()
     {
-        return $this->messageSelection;
+        return $this->messageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->messageSelection;
     }
 
     /**
      * Setter for messageSelection
      *
-     * @ElementName messageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection|null $messageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection $messageSelection
      * @return $this
      */
     public function setMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldMessageSelection $messageSelection)
@@ -187,21 +222,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMessageSelection()
+    {
+        $this->messageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null $accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint)
@@ -211,21 +253,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableVideo
      *
-     * @ElementName enableVideo
-     * @return bool|null
+     * @return bool
      */
     public function getEnableVideo()
     {
-        return $this->enableVideo;
+        return $this->enableVideo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableVideo;
     }
 
     /**
      * Setter for enableVideo
      *
-     * @ElementName enableVideo
-     * @param bool|null $enableVideo
+     * @param bool $enableVideo
      * @return $this
      */
     public function setEnableVideo($enableVideo)
@@ -235,21 +284,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableVideo()
+    {
+        $this->enableVideo = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @return string|null
+     * @return string
      */
     public function getAudioFileDescription()
     {
-        return $this->audioFileDescription;
+        return $this->audioFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileDescription;
     }
 
     /**
      * Setter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @param string|null $audioFileDescription
+     * @param string $audioFileDescription
      * @return $this
      */
     public function setAudioFileDescription($audioFileDescription)
@@ -259,26 +315,42 @@ class GroupMusicOnHoldGetInstanceResponse14sp4 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileDescription()
+    {
+        $this->audioFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVideoFileDescription()
     {
-        return $this->videoFileDescription;
+        return $this->videoFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileDescription;
     }
 
     /**
      * Setter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @param string|null $videoFileDescription
+     * @param string $videoFileDescription
      * @return $this
      */
     public function setVideoFileDescription($videoFileDescription)
     {
         $this->videoFileDescription = $videoFileDescription;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFileDescription()
+    {
+        $this->videoFileDescription = null;
         return $this;
     }
 

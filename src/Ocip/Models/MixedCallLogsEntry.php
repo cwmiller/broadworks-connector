@@ -12,36 +12,42 @@ class MixedCallLogsEntry
 
     /**
      * @ElementName callLogType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
 
     /**
      * @ElementName callLogId
+     * @Type string
      * @var string|null
      */
     private $callLogId = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName time
+     * @Type string
      * @var string|null
      */
     private $time = null;
@@ -49,19 +55,17 @@ class MixedCallLogsEntry
     /**
      * Getter for callLogType
      *
-     * @ElementName callLogType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      */
     public function getCallLogType()
     {
-        return $this->callLogType;
+        return $this->callLogType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLogType;
     }
 
     /**
      * Setter for callLogType
      *
-     * @ElementName callLogType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null $callLogType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsType $callLogType
      * @return $this
      */
     public function setCallLogType(\CWM\BroadWorksConnector\Ocip\Models\CallLogsType $callLogType)
@@ -71,21 +75,28 @@ class MixedCallLogsEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallLogType()
+    {
+        $this->callLogType = null;
+        return $this;
+    }
+
+    /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
@@ -95,21 +106,28 @@ class MixedCallLogsEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for callLogId
      *
-     * @ElementName callLogId
-     * @return string|null
+     * @return string
      */
     public function getCallLogId()
     {
-        return $this->callLogId;
+        return $this->callLogId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLogId;
     }
 
     /**
      * Setter for callLogId
      *
-     * @ElementName callLogId
-     * @param string|null $callLogId
+     * @param string $callLogId
      * @return $this
      */
     public function setCallLogId($callLogId)
@@ -119,21 +137,28 @@ class MixedCallLogsEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallLogId()
+    {
+        $this->callLogId = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -143,21 +168,28 @@ class MixedCallLogsEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -167,26 +199,42 @@ class MixedCallLogsEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for time
      *
-     * @ElementName time
-     * @return string|null
+     * @return string
      */
     public function getTime()
     {
-        return $this->time;
+        return $this->time instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->time;
     }
 
     /**
      * Setter for time
      *
-     * @ElementName time
-     * @param string|null $time
+     * @param string $time
      * @return $this
      */
     public function setTime($time)
     {
         $this->time = $time;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTime()
+    {
+        $this->time = null;
         return $this;
     }
 

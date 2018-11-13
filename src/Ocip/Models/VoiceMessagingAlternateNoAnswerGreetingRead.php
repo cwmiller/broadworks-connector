@@ -13,18 +13,21 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName audioFile
+     * @Type string
      * @var string|null
      */
     private $audioFile = null;
 
     /**
      * @ElementName videoFile
+     * @Type string
      * @var string|null
      */
     private $videoFile = null;
@@ -32,19 +35,17 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -54,21 +55,28 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @return string|null
+     * @return string
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @param string|null $audioFile
+     * @param string $audioFile
      * @return $this
      */
     public function setAudioFile($audioFile)
@@ -78,26 +86,42 @@ class VoiceMessagingAlternateNoAnswerGreetingRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @return string|null
+     * @return string
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @param string|null $videoFile
+     * @param string $videoFile
      * @return $this
      */
     public function setVideoFile($videoFile)
     {
         $this->videoFile = $videoFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
         return $this;
     }
 

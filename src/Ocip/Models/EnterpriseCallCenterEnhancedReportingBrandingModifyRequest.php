@@ -16,18 +16,21 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName brandingChoice
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
     private $brandingChoice = null;
 
     /**
      * @ElementName brandingFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $brandingFile = null;
@@ -35,19 +38,17 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -57,21 +58,28 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for brandingChoice
      *
-     * @ElementName brandingChoice
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice
      */
     public function getBrandingChoice()
     {
-        return $this->brandingChoice;
+        return $this->brandingChoice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->brandingChoice;
     }
 
     /**
      * Setter for brandingChoice
      *
-     * @ElementName brandingChoice
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null $brandingChoice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice $brandingChoice
      * @return $this
      */
     public function setBrandingChoice(\CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice $brandingChoice)
@@ -81,26 +89,42 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBrandingChoice()
+    {
+        $this->brandingChoice = null;
+        return $this;
+    }
+
+    /**
      * Getter for brandingFile
      *
-     * @ElementName brandingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getBrandingFile()
     {
-        return $this->brandingFile;
+        return $this->brandingFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->brandingFile;
     }
 
     /**
      * Setter for brandingFile
      *
-     * @ElementName brandingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $brandingFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $brandingFile
      * @return $this
      */
     public function setBrandingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $brandingFile)
     {
         $this->brandingFile = $brandingFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBrandingFile()
+    {
+        $this->brandingFile = null;
         return $this;
     }
 

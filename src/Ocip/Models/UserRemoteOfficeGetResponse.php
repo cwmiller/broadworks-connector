@@ -14,12 +14,14 @@ class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName remoteOfficePhoneNumber
+     * @Type string
      * @var string|null
      */
     private $remoteOfficePhoneNumber = null;
@@ -27,19 +29,17 @@ class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -49,26 +49,42 @@ class UserRemoteOfficeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for remoteOfficePhoneNumber
      *
-     * @ElementName remoteOfficePhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getRemoteOfficePhoneNumber()
     {
-        return $this->remoteOfficePhoneNumber;
+        return $this->remoteOfficePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->remoteOfficePhoneNumber;
     }
 
     /**
      * Setter for remoteOfficePhoneNumber
      *
-     * @ElementName remoteOfficePhoneNumber
-     * @param string|null $remoteOfficePhoneNumber
+     * @param string $remoteOfficePhoneNumber
      * @return $this
      */
     public function setRemoteOfficePhoneNumber($remoteOfficePhoneNumber)
     {
         $this->remoteOfficePhoneNumber = $remoteOfficePhoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRemoteOfficePhoneNumber()
+    {
+        $this->remoteOfficePhoneNumber = null;
         return $this;
     }
 

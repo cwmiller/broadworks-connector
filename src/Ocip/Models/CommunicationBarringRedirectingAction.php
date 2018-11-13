@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CommunicationBarringRedirectingAction ALLOW()
  * @method static CommunicationBarringRedirectingAction ALLOW_TIMED()
  * @method static CommunicationBarringRedirectingAction BLOCK()
- * @ValueType string
+ * @EnumValueType string
  */
 class CommunicationBarringRedirectingAction extends \MyCLabs\Enum\Enum
 {

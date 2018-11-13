@@ -18,6 +18,7 @@ class SystemRedundancyParametersGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName rollBackTimerMinutes
+     * @Type int
      * @var int|null
      */
     private $rollBackTimerMinutes = null;
@@ -25,24 +26,31 @@ class SystemRedundancyParametersGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for rollBackTimerMinutes
      *
-     * @ElementName rollBackTimerMinutes
-     * @return int|null
+     * @return int
      */
     public function getRollBackTimerMinutes()
     {
-        return $this->rollBackTimerMinutes;
+        return $this->rollBackTimerMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rollBackTimerMinutes;
     }
 
     /**
      * Setter for rollBackTimerMinutes
      *
-     * @ElementName rollBackTimerMinutes
-     * @param int|null $rollBackTimerMinutes
+     * @param int $rollBackTimerMinutes
      * @return $this
      */
     public function setRollBackTimerMinutes($rollBackTimerMinutes)
     {
         $this->rollBackTimerMinutes = $rollBackTimerMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRollBackTimerMinutes()
+    {
+        $this->rollBackTimerMinutes = null;
         return $this;
     }
 

@@ -29,30 +29,36 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName isExtendedInfoRequested
+     * @Type bool
      * @var bool|null
      */
     private $isExtendedInfoRequested = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaUserLastName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -61,6 +67,8 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName searchCriteriaUserFirstName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -69,6 +77,8 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName searchCriteriaDn
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -77,6 +87,8 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName searchCriteriaGroupLocationCode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     private $searchCriteriaGroupLocationCode = array(
@@ -85,6 +97,8 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName searchCriteriaExtension
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -93,6 +107,8 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName searchCriteriaMobilePhoneNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[]
      */
     private $searchCriteriaMobilePhoneNumber = array(
@@ -101,6 +117,8 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName searchCriteriaEmailAddress
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -109,6 +127,8 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName searchCriteriaYahooId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId[]
      */
     private $searchCriteriaYahooId = array(
@@ -117,18 +137,22 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName searchCriteriaExactUserGroup
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaImpId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(
@@ -138,19 +162,17 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -160,21 +182,28 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -184,21 +213,28 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isExtendedInfoRequested
      *
-     * @ElementName isExtendedInfoRequested
-     * @return bool|null
+     * @return bool
      */
     public function getIsExtendedInfoRequested()
     {
-        return $this->isExtendedInfoRequested;
+        return $this->isExtendedInfoRequested instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isExtendedInfoRequested;
     }
 
     /**
      * Setter for isExtendedInfoRequested
      *
-     * @ElementName isExtendedInfoRequested
-     * @param bool|null $isExtendedInfoRequested
+     * @param bool $isExtendedInfoRequested
      * @return $this
      */
     public function setIsExtendedInfoRequested($isExtendedInfoRequested)
@@ -208,21 +244,28 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsExtendedInfoRequested()
+    {
+        $this->isExtendedInfoRequested = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -232,20 +275,27 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     public function getSearchCriteriaUserLastName()
     {
-        return $this->searchCriteriaUserLastName;
+        return $this->searchCriteriaUserLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserLastName;
     }
 
     /**
      * Setter for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
@@ -256,33 +306,39 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserLastName()
+    {
+        $this->searchCriteriaUserLastName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName $searchCriteriaUserLastName
      * @return $this
      */
     public function addSearchCriteriaUserLastName($searchCriteriaUserLastName)
     {
-        $this->searchCriteriaUserLastName []= $searchCriteriaUserLastName;
+        $this->searchCriteriaUserLastName[] = $searchCriteriaUserLastName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     public function getSearchCriteriaUserFirstName()
     {
-        return $this->searchCriteriaUserFirstName;
+        return $this->searchCriteriaUserFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserFirstName;
     }
 
     /**
      * Setter for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
@@ -293,33 +349,39 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserFirstName()
+    {
+        $this->searchCriteriaUserFirstName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName $searchCriteriaUserFirstName
      * @return $this
      */
     public function addSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
     {
-        $this->searchCriteriaUserFirstName []= $searchCriteriaUserFirstName;
+        $this->searchCriteriaUserFirstName[] = $searchCriteriaUserFirstName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     public function getSearchCriteriaDn()
     {
-        return $this->searchCriteriaDn;
+        return $this->searchCriteriaDn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDn;
     }
 
     /**
      * Setter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
@@ -330,33 +392,39 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDn()
+    {
+        $this->searchCriteriaDn = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn $searchCriteriaDn
      * @return $this
      */
     public function addSearchCriteriaDn($searchCriteriaDn)
     {
-        $this->searchCriteriaDn []= $searchCriteriaDn;
+        $this->searchCriteriaDn[] = $searchCriteriaDn;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaGroupLocationCode
      *
-     * @ElementName searchCriteriaGroupLocationCode
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     public function getSearchCriteriaGroupLocationCode()
     {
-        return $this->searchCriteriaGroupLocationCode;
+        return $this->searchCriteriaGroupLocationCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupLocationCode;
     }
 
     /**
      * Setter for searchCriteriaGroupLocationCode
      *
-     * @ElementName searchCriteriaGroupLocationCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[] $searchCriteriaGroupLocationCode
      * @return $this
      */
@@ -367,33 +435,39 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupLocationCode()
+    {
+        $this->searchCriteriaGroupLocationCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupLocationCode
      *
-     * @ElementName searchCriteriaGroupLocationCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode $searchCriteriaGroupLocationCode
      * @return $this
      */
     public function addSearchCriteriaGroupLocationCode($searchCriteriaGroupLocationCode)
     {
-        $this->searchCriteriaGroupLocationCode []= $searchCriteriaGroupLocationCode;
+        $this->searchCriteriaGroupLocationCode[] = $searchCriteriaGroupLocationCode;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     public function getSearchCriteriaExtension()
     {
-        return $this->searchCriteriaExtension;
+        return $this->searchCriteriaExtension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExtension;
     }
 
     /**
      * Setter for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[] $searchCriteriaExtension
      * @return $this
      */
@@ -404,33 +478,39 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExtension()
+    {
+        $this->searchCriteriaExtension = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension $searchCriteriaExtension
      * @return $this
      */
     public function addSearchCriteriaExtension($searchCriteriaExtension)
     {
-        $this->searchCriteriaExtension []= $searchCriteriaExtension;
+        $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaMobilePhoneNumber
      *
-     * @ElementName searchCriteriaMobilePhoneNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[]
      */
     public function getSearchCriteriaMobilePhoneNumber()
     {
-        return $this->searchCriteriaMobilePhoneNumber;
+        return $this->searchCriteriaMobilePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaMobilePhoneNumber;
     }
 
     /**
      * Setter for searchCriteriaMobilePhoneNumber
      *
-     * @ElementName searchCriteriaMobilePhoneNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[] $searchCriteriaMobilePhoneNumber
      * @return $this
      */
@@ -441,33 +521,39 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaMobilePhoneNumber()
+    {
+        $this->searchCriteriaMobilePhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaMobilePhoneNumber
      *
-     * @ElementName searchCriteriaMobilePhoneNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber $searchCriteriaMobilePhoneNumber
      * @return $this
      */
     public function addSearchCriteriaMobilePhoneNumber($searchCriteriaMobilePhoneNumber)
     {
-        $this->searchCriteriaMobilePhoneNumber []= $searchCriteriaMobilePhoneNumber;
+        $this->searchCriteriaMobilePhoneNumber[] = $searchCriteriaMobilePhoneNumber;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaEmailAddress
      *
-     * @ElementName searchCriteriaEmailAddress
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     public function getSearchCriteriaEmailAddress()
     {
-        return $this->searchCriteriaEmailAddress;
+        return $this->searchCriteriaEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaEmailAddress;
     }
 
     /**
      * Setter for searchCriteriaEmailAddress
      *
-     * @ElementName searchCriteriaEmailAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[] $searchCriteriaEmailAddress
      * @return $this
      */
@@ -478,33 +564,39 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaEmailAddress()
+    {
+        $this->searchCriteriaEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaEmailAddress
      *
-     * @ElementName searchCriteriaEmailAddress
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress $searchCriteriaEmailAddress
      * @return $this
      */
     public function addSearchCriteriaEmailAddress($searchCriteriaEmailAddress)
     {
-        $this->searchCriteriaEmailAddress []= $searchCriteriaEmailAddress;
+        $this->searchCriteriaEmailAddress[] = $searchCriteriaEmailAddress;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaYahooId
      *
-     * @ElementName searchCriteriaYahooId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId[]
      */
     public function getSearchCriteriaYahooId()
     {
-        return $this->searchCriteriaYahooId;
+        return $this->searchCriteriaYahooId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaYahooId;
     }
 
     /**
      * Setter for searchCriteriaYahooId
      *
-     * @ElementName searchCriteriaYahooId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId[] $searchCriteriaYahooId
      * @return $this
      */
@@ -515,34 +607,40 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaYahooId()
+    {
+        $this->searchCriteriaYahooId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaYahooId
      *
-     * @ElementName searchCriteriaYahooId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaYahooId $searchCriteriaYahooId
      * @return $this
      */
     public function addSearchCriteriaYahooId($searchCriteriaYahooId)
     {
-        $this->searchCriteriaYahooId []= $searchCriteriaYahooId;
+        $this->searchCriteriaYahooId[] = $searchCriteriaYahooId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactUserGroup
      *
-     * @ElementName searchCriteriaExactUserGroup
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
      */
     public function getSearchCriteriaExactUserGroup()
     {
-        return $this->searchCriteriaExactUserGroup;
+        return $this->searchCriteriaExactUserGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactUserGroup;
     }
 
     /**
      * Setter for searchCriteriaExactUserGroup
      *
-     * @ElementName searchCriteriaExactUserGroup
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null $searchCriteriaExactUserGroup
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup $searchCriteriaExactUserGroup
      * @return $this
      */
     public function setSearchCriteriaExactUserGroup(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup $searchCriteriaExactUserGroup)
@@ -552,21 +650,28 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactUserGroup()
+    {
+        $this->searchCriteriaExactUserGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactUserDepartment
      *
-     * @ElementName searchCriteriaExactUserDepartment
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      */
     public function getSearchCriteriaExactUserDepartment()
     {
-        return $this->searchCriteriaExactUserDepartment;
+        return $this->searchCriteriaExactUserDepartment instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactUserDepartment;
     }
 
     /**
      * Setter for searchCriteriaExactUserDepartment
      *
-     * @ElementName searchCriteriaExactUserDepartment
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null $searchCriteriaExactUserDepartment
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment $searchCriteriaExactUserDepartment
      * @return $this
      */
     public function setSearchCriteriaExactUserDepartment(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment $searchCriteriaExactUserDepartment)
@@ -576,20 +681,27 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactUserDepartment()
+    {
+        $this->searchCriteriaExactUserDepartment = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaImpId
      *
-     * @ElementName searchCriteriaImpId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     public function getSearchCriteriaImpId()
     {
-        return $this->searchCriteriaImpId;
+        return $this->searchCriteriaImpId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaImpId;
     }
 
     /**
      * Setter for searchCriteriaImpId
      *
-     * @ElementName searchCriteriaImpId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[] $searchCriteriaImpId
      * @return $this
      */
@@ -600,15 +712,23 @@ class GroupPhoneDirectoryGetListRequest17sp3 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaImpId()
+    {
+        $this->searchCriteriaImpId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaImpId
      *
-     * @ElementName searchCriteriaImpId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId $searchCriteriaImpId
      * @return $this
      */
     public function addSearchCriteriaImpId($searchCriteriaImpId)
     {
-        $this->searchCriteriaImpId []= $searchCriteriaImpId;
+        $this->searchCriteriaImpId[] = $searchCriteriaImpId;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CollaborateRoomType INSTANT_ROOM()
  * @method static CollaborateRoomType MY_ROOM()
  * @method static CollaborateRoomType PROJECT_ROOM()
- * @ValueType string
+ * @EnumValueType string
  */
 class CollaborateRoomType extends \MyCLabs\Enum\Enum
 {

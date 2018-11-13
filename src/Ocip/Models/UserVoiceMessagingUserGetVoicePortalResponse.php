@@ -16,18 +16,21 @@ class UserVoiceMessagingUserGetVoicePortalResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName usePersonalizedName
+     * @Type bool
      * @var bool|null
      */
     private $usePersonalizedName = null;
 
     /**
      * @ElementName voicePortalAutoLogin
+     * @Type bool
      * @var bool|null
      */
     private $voicePortalAutoLogin = null;
 
     /**
      * @ElementName personalizedNameAudioFileDescription
+     * @Type string
      * @var string|null
      */
     private $personalizedNameAudioFileDescription = null;
@@ -35,19 +38,17 @@ class UserVoiceMessagingUserGetVoicePortalResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for usePersonalizedName
      *
-     * @ElementName usePersonalizedName
-     * @return bool|null
+     * @return bool
      */
     public function getUsePersonalizedName()
     {
-        return $this->usePersonalizedName;
+        return $this->usePersonalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usePersonalizedName;
     }
 
     /**
      * Setter for usePersonalizedName
      *
-     * @ElementName usePersonalizedName
-     * @param bool|null $usePersonalizedName
+     * @param bool $usePersonalizedName
      * @return $this
      */
     public function setUsePersonalizedName($usePersonalizedName)
@@ -57,21 +58,28 @@ class UserVoiceMessagingUserGetVoicePortalResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUsePersonalizedName()
+    {
+        $this->usePersonalizedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalAutoLogin
      *
-     * @ElementName voicePortalAutoLogin
-     * @return bool|null
+     * @return bool
      */
     public function getVoicePortalAutoLogin()
     {
-        return $this->voicePortalAutoLogin;
+        return $this->voicePortalAutoLogin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalAutoLogin;
     }
 
     /**
      * Setter for voicePortalAutoLogin
      *
-     * @ElementName voicePortalAutoLogin
-     * @param bool|null $voicePortalAutoLogin
+     * @param bool $voicePortalAutoLogin
      * @return $this
      */
     public function setVoicePortalAutoLogin($voicePortalAutoLogin)
@@ -81,26 +89,42 @@ class UserVoiceMessagingUserGetVoicePortalResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalAutoLogin()
+    {
+        $this->voicePortalAutoLogin = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalizedNameAudioFileDescription
      *
-     * @ElementName personalizedNameAudioFileDescription
-     * @return string|null
+     * @return string
      */
     public function getPersonalizedNameAudioFileDescription()
     {
-        return $this->personalizedNameAudioFileDescription;
+        return $this->personalizedNameAudioFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedNameAudioFileDescription;
     }
 
     /**
      * Setter for personalizedNameAudioFileDescription
      *
-     * @ElementName personalizedNameAudioFileDescription
-     * @param string|null $personalizedNameAudioFileDescription
+     * @param string $personalizedNameAudioFileDescription
      * @return $this
      */
     public function setPersonalizedNameAudioFileDescription($personalizedNameAudioFileDescription)
     {
         $this->personalizedNameAudioFileDescription = $personalizedNameAudioFileDescription;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPersonalizedNameAudioFileDescription()
+    {
+        $this->personalizedNameAudioFileDescription = null;
         return $this;
     }
 

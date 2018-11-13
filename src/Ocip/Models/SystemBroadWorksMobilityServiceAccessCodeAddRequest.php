@@ -18,18 +18,21 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
 
     /**
      * @ElementName serviceAccessCode
+     * @Type string
      * @var string|null
      */
     private $serviceAccessCode = null;
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -37,19 +40,17 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
     /**
      * Getter for serviceAccessCode
      *
-     * @ElementName serviceAccessCode
-     * @return string|null
+     * @return string
      */
     public function getServiceAccessCode()
     {
-        return $this->serviceAccessCode;
+        return $this->serviceAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceAccessCode;
     }
 
     /**
      * Setter for serviceAccessCode
      *
-     * @ElementName serviceAccessCode
-     * @param string|null $serviceAccessCode
+     * @param string $serviceAccessCode
      * @return $this
      */
     public function setServiceAccessCode($serviceAccessCode)
@@ -59,21 +60,28 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceAccessCode()
+    {
+        $this->serviceAccessCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
@@ -83,26 +91,42 @@ class SystemBroadWorksMobilityServiceAccessCodeAddRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

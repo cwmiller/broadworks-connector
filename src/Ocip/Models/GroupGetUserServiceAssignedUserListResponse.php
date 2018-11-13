@@ -19,6 +19,7 @@ class GroupGetUserServiceAssignedUserListResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName userListTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userListTable = null;
@@ -26,24 +27,31 @@ class GroupGetUserServiceAssignedUserListResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for userListTable
      *
-     * @ElementName userListTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserListTable()
     {
-        return $this->userListTable;
+        return $this->userListTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userListTable;
     }
 
     /**
      * Setter for userListTable
      *
-     * @ElementName userListTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userListTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userListTable
      * @return $this
      */
     public function setUserListTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userListTable)
     {
         $this->userListTable = $userListTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserListTable()
+    {
+        $this->userListTable = null;
         return $this;
     }
 

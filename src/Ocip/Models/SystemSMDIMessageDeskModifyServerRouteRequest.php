@@ -17,12 +17,14 @@ class SystemSMDIMessageDeskModifyServerRouteRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName routeDestination
+     * @Type string
      * @var string|null
      */
     private $routeDestination = null;
 
     /**
      * @ElementName deviceNameList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList|null
      */
     private $deviceNameList = null;
@@ -30,19 +32,17 @@ class SystemSMDIMessageDeskModifyServerRouteRequest extends \CWM\BroadWorksConne
     /**
      * Getter for routeDestination
      *
-     * @ElementName routeDestination
-     * @return string|null
+     * @return string
      */
     public function getRouteDestination()
     {
-        return $this->routeDestination;
+        return $this->routeDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeDestination;
     }
 
     /**
      * Setter for routeDestination
      *
-     * @ElementName routeDestination
-     * @param string|null $routeDestination
+     * @param string $routeDestination
      * @return $this
      */
     public function setRouteDestination($routeDestination)
@@ -52,26 +52,42 @@ class SystemSMDIMessageDeskModifyServerRouteRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteDestination()
+    {
+        $this->routeDestination = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceNameList
      *
-     * @ElementName deviceNameList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList
      */
     public function getDeviceNameList()
     {
-        return $this->deviceNameList;
+        return $this->deviceNameList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceNameList;
     }
 
     /**
      * Setter for deviceNameList
      *
-     * @ElementName deviceNameList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList|null $deviceNameList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList $deviceNameList
      * @return $this
      */
     public function setDeviceNameList(\CWM\BroadWorksConnector\Ocip\Models\SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList $deviceNameList)
     {
         $this->deviceNameList = $deviceNameList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceNameList()
+    {
+        $this->deviceNameList = null;
         return $this;
     }
 

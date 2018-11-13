@@ -19,18 +19,21 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName maxLoggedCalls
+     * @Type int
      * @var int|null
      */
     private $maxLoggedCalls = null;
 
     /**
      * @ElementName callExpirationDays
+     * @Type int
      * @var int|null
      */
     private $callExpirationDays = null;
@@ -38,19 +41,17 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -60,21 +61,28 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxLoggedCalls
      *
-     * @ElementName maxLoggedCalls
-     * @return int|null
+     * @return int
      */
     public function getMaxLoggedCalls()
     {
-        return $this->maxLoggedCalls;
+        return $this->maxLoggedCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxLoggedCalls;
     }
 
     /**
      * Setter for maxLoggedCalls
      *
-     * @ElementName maxLoggedCalls
-     * @param int|null $maxLoggedCalls
+     * @param int $maxLoggedCalls
      * @return $this
      */
     public function setMaxLoggedCalls($maxLoggedCalls)
@@ -84,26 +92,42 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxLoggedCalls()
+    {
+        $this->maxLoggedCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for callExpirationDays
      *
-     * @ElementName callExpirationDays
-     * @return int|null
+     * @return int
      */
     public function getCallExpirationDays()
     {
-        return $this->callExpirationDays;
+        return $this->callExpirationDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callExpirationDays;
     }
 
     /**
      * Setter for callExpirationDays
      *
-     * @ElementName callExpirationDays
-     * @param int|null $callExpirationDays
+     * @param int $callExpirationDays
      * @return $this
      */
     public function setCallExpirationDays($callExpirationDays)
     {
         $this->callExpirationDays = $callExpirationDays;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallExpirationDays()
+    {
+        $this->callExpirationDays = null;
         return $this;
     }
 

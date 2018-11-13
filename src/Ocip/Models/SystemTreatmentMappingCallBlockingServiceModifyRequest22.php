@@ -16,12 +16,14 @@ class SystemTreatmentMappingCallBlockingServiceModifyRequest22 extends \CWM\Broa
 
     /**
      * @ElementName callBlockingService
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22|null
      */
     private $callBlockingService = null;
 
     /**
      * @ElementName treatmentId
+     * @Type string
      * @var string|null
      */
     private $treatmentId = null;
@@ -29,19 +31,17 @@ class SystemTreatmentMappingCallBlockingServiceModifyRequest22 extends \CWM\Broa
     /**
      * Getter for callBlockingService
      *
-     * @ElementName callBlockingService
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22
      */
     public function getCallBlockingService()
     {
-        return $this->callBlockingService;
+        return $this->callBlockingService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callBlockingService;
     }
 
     /**
      * Setter for callBlockingService
      *
-     * @ElementName callBlockingService
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22|null $callBlockingService
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22 $callBlockingService
      * @return $this
      */
     public function setCallBlockingService(\CWM\BroadWorksConnector\Ocip\Models\CallBlockingService22 $callBlockingService)
@@ -51,26 +51,42 @@ class SystemTreatmentMappingCallBlockingServiceModifyRequest22 extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallBlockingService()
+    {
+        $this->callBlockingService = null;
+        return $this;
+    }
+
+    /**
      * Getter for treatmentId
      *
-     * @ElementName treatmentId
-     * @return string|null
+     * @return string
      */
     public function getTreatmentId()
     {
-        return $this->treatmentId;
+        return $this->treatmentId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentId;
     }
 
     /**
      * Setter for treatmentId
      *
-     * @ElementName treatmentId
-     * @param string|null $treatmentId
+     * @param string $treatmentId
      * @return $this
      */
     public function setTreatmentId($treatmentId)
     {
         $this->treatmentId = $treatmentId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentId()
+    {
+        $this->treatmentId = null;
         return $this;
     }
 

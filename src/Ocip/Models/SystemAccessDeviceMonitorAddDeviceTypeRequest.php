@@ -16,12 +16,14 @@ class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName addAllDeviceTypes
+     * @Type bool
      * @var bool|null
      */
     private $addAllDeviceTypes = null;
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
@@ -29,19 +31,17 @@ class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * Getter for addAllDeviceTypes
      *
-     * @ElementName addAllDeviceTypes
-     * @return bool|null
+     * @return bool
      */
     public function getAddAllDeviceTypes()
     {
-        return $this->addAllDeviceTypes;
+        return $this->addAllDeviceTypes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addAllDeviceTypes;
     }
 
     /**
      * Setter for addAllDeviceTypes
      *
-     * @ElementName addAllDeviceTypes
-     * @param bool|null $addAllDeviceTypes
+     * @param bool $addAllDeviceTypes
      * @return $this
      */
     public function setAddAllDeviceTypes($addAllDeviceTypes)
@@ -51,26 +51,42 @@ class SystemAccessDeviceMonitorAddDeviceTypeRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddAllDeviceTypes()
+    {
+        $this->addAllDeviceTypes = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
     {
         $this->deviceType = $deviceType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
         return $this;
     }
 

@@ -12,18 +12,21 @@ class ProfileAndServiceCallForwardAlwaysInfo
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
 
     /**
      * @ElementName isRingSplashActive
+     * @Type bool
      * @var bool|null
      */
     private $isRingSplashActive = null;
@@ -31,19 +34,17 @@ class ProfileAndServiceCallForwardAlwaysInfo
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -53,21 +54,28 @@ class ProfileAndServiceCallForwardAlwaysInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getForwardToPhoneNumber()
     {
-        return $this->forwardToPhoneNumber;
+        return $this->forwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardToPhoneNumber;
     }
 
     /**
      * Setter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @param string|null $forwardToPhoneNumber
+     * @param string $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
@@ -77,26 +85,42 @@ class ProfileAndServiceCallForwardAlwaysInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForwardToPhoneNumber()
+    {
+        $this->forwardToPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for isRingSplashActive
      *
-     * @ElementName isRingSplashActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsRingSplashActive()
     {
-        return $this->isRingSplashActive;
+        return $this->isRingSplashActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isRingSplashActive;
     }
 
     /**
      * Setter for isRingSplashActive
      *
-     * @ElementName isRingSplashActive
-     * @param bool|null $isRingSplashActive
+     * @param bool $isRingSplashActive
      * @return $this
      */
     public function setIsRingSplashActive($isRingSplashActive)
     {
         $this->isRingSplashActive = $isRingSplashActive;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsRingSplashActive()
+    {
+        $this->isRingSplashActive = null;
         return $this;
     }
 

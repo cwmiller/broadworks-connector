@@ -16,6 +16,7 @@ class UserPersonalAssistantExclusionNumberGetListResponse extends \CWM\BroadWork
 
     /**
      * @ElementName exclusionNumberTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $exclusionNumberTable = null;
@@ -23,24 +24,31 @@ class UserPersonalAssistantExclusionNumberGetListResponse extends \CWM\BroadWork
     /**
      * Getter for exclusionNumberTable
      *
-     * @ElementName exclusionNumberTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getExclusionNumberTable()
     {
-        return $this->exclusionNumberTable;
+        return $this->exclusionNumberTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exclusionNumberTable;
     }
 
     /**
      * Setter for exclusionNumberTable
      *
-     * @ElementName exclusionNumberTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $exclusionNumberTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $exclusionNumberTable
      * @return $this
      */
     public function setExclusionNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $exclusionNumberTable)
     {
         $this->exclusionNumberTable = $exclusionNumberTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExclusionNumberTable()
+    {
+        $this->exclusionNumberTable = null;
         return $this;
     }
 

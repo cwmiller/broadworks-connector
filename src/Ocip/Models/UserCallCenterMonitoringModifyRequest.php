@@ -16,12 +16,14 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName playToneToAgentForSilentMonitoring
+     * @Type bool
      * @var bool|null
      */
     private $playToneToAgentForSilentMonitoring = null;
@@ -29,19 +31,17 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -51,26 +51,42 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for playToneToAgentForSilentMonitoring
      *
-     * @ElementName playToneToAgentForSilentMonitoring
-     * @return bool|null
+     * @return bool
      */
     public function getPlayToneToAgentForSilentMonitoring()
     {
-        return $this->playToneToAgentForSilentMonitoring;
+        return $this->playToneToAgentForSilentMonitoring instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playToneToAgentForSilentMonitoring;
     }
 
     /**
      * Setter for playToneToAgentForSilentMonitoring
      *
-     * @ElementName playToneToAgentForSilentMonitoring
-     * @param bool|null $playToneToAgentForSilentMonitoring
+     * @param bool $playToneToAgentForSilentMonitoring
      * @return $this
      */
     public function setPlayToneToAgentForSilentMonitoring($playToneToAgentForSilentMonitoring)
     {
         $this->playToneToAgentForSilentMonitoring = $playToneToAgentForSilentMonitoring;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayToneToAgentForSilentMonitoring()
+    {
+        $this->playToneToAgentForSilentMonitoring = null;
         return $this;
     }
 

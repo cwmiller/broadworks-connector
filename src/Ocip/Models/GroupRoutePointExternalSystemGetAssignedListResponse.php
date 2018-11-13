@@ -16,6 +16,7 @@ class GroupRoutePointExternalSystemGetAssignedListResponse extends \CWM\BroadWor
 
     /**
      * @ElementName externalSystemTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $externalSystemTable = null;
@@ -23,24 +24,31 @@ class GroupRoutePointExternalSystemGetAssignedListResponse extends \CWM\BroadWor
     /**
      * Getter for externalSystemTable
      *
-     * @ElementName externalSystemTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getExternalSystemTable()
     {
-        return $this->externalSystemTable;
+        return $this->externalSystemTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalSystemTable;
     }
 
     /**
      * Setter for externalSystemTable
      *
-     * @ElementName externalSystemTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $externalSystemTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $externalSystemTable
      * @return $this
      */
     public function setExternalSystemTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $externalSystemTable)
     {
         $this->externalSystemTable = $externalSystemTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExternalSystemTable()
+    {
+        $this->externalSystemTable = null;
         return $this;
     }
 

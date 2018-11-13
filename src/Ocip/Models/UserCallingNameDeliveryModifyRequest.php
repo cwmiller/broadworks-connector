@@ -16,18 +16,21 @@ class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActiveForExternalCalls
+     * @Type bool
      * @var bool|null
      */
     private $isActiveForExternalCalls = null;
 
     /**
      * @ElementName isActiveForInternalCalls
+     * @Type bool
      * @var bool|null
      */
     private $isActiveForInternalCalls = null;
@@ -35,19 +38,17 @@ class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveForExternalCalls
      *
-     * @ElementName isActiveForExternalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveForExternalCalls()
     {
-        return $this->isActiveForExternalCalls;
+        return $this->isActiveForExternalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveForExternalCalls;
     }
 
     /**
      * Setter for isActiveForExternalCalls
      *
-     * @ElementName isActiveForExternalCalls
-     * @param bool|null $isActiveForExternalCalls
+     * @param bool $isActiveForExternalCalls
      * @return $this
      */
     public function setIsActiveForExternalCalls($isActiveForExternalCalls)
@@ -81,26 +89,42 @@ class UserCallingNameDeliveryModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveForExternalCalls()
+    {
+        $this->isActiveForExternalCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveForInternalCalls
      *
-     * @ElementName isActiveForInternalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveForInternalCalls()
     {
-        return $this->isActiveForInternalCalls;
+        return $this->isActiveForInternalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveForInternalCalls;
     }
 
     /**
      * Setter for isActiveForInternalCalls
      *
-     * @ElementName isActiveForInternalCalls
-     * @param bool|null $isActiveForInternalCalls
+     * @param bool $isActiveForInternalCalls
      * @return $this
      */
     public function setIsActiveForInternalCalls($isActiveForInternalCalls)
     {
         $this->isActiveForInternalCalls = $isActiveForInternalCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsActiveForInternalCalls()
+    {
+        $this->isActiveForInternalCalls = null;
         return $this;
     }
 

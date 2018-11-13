@@ -16,6 +16,7 @@ class UserSMDIMessageDeskGetServerListResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName smdiServerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $smdiServerTable = null;
@@ -23,24 +24,31 @@ class UserSMDIMessageDeskGetServerListResponse extends \CWM\BroadWorksConnector\
     /**
      * Getter for smdiServerTable
      *
-     * @ElementName smdiServerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSmdiServerTable()
     {
-        return $this->smdiServerTable;
+        return $this->smdiServerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->smdiServerTable;
     }
 
     /**
      * Setter for smdiServerTable
      *
-     * @ElementName smdiServerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $smdiServerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $smdiServerTable
      * @return $this
      */
     public function setSmdiServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $smdiServerTable)
     {
         $this->smdiServerTable = $smdiServerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSmdiServerTable()
+    {
+        $this->smdiServerTable = null;
         return $this;
     }
 

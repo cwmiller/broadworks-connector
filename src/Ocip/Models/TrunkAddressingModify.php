@@ -12,6 +12,7 @@ class TrunkAddressingModify
 
     /**
      * @ElementName trunkGroupDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,6 +20,7 @@ class TrunkAddressingModify
 
     /**
      * @ElementName enterpriseTrunkName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class TrunkAddressingModify
 
     /**
      * @ElementName alternateTrunkIdentity
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -34,78 +37,105 @@ class TrunkAddressingModify
     /**
      * Getter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null
      */
     public function getTrunkGroupDeviceEndpoint()
     {
-        return $this->trunkGroupDeviceEndpoint;
+        return $this->trunkGroupDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupDeviceEndpoint;
     }
 
     /**
      * Setter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil $trunkGroupDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null $trunkGroupDeviceEndpoint
      * @return $this
      */
     public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify $trunkGroupDeviceEndpoint)
     {
-        $this->trunkGroupDeviceEndpoint = $trunkGroupDeviceEndpoint;
+        if ($trunkGroupDeviceEndpoint === null) {
+            $this->trunkGroupDeviceEndpoint = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->trunkGroupDeviceEndpoint = $trunkGroupDeviceEndpoint;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrunkGroupDeviceEndpoint()
+    {
+        $this->trunkGroupDeviceEndpoint = null;
         return $this;
     }
 
     /**
      * Getter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getEnterpriseTrunkName()
     {
-        return $this->enterpriseTrunkName;
+        return $this->enterpriseTrunkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseTrunkName;
     }
 
     /**
      * Setter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $enterpriseTrunkName
+     * @param string|null $enterpriseTrunkName
      * @return $this
      */
     public function setEnterpriseTrunkName($enterpriseTrunkName)
     {
-        $this->enterpriseTrunkName = $enterpriseTrunkName;
+        if ($enterpriseTrunkName === null) {
+            $this->enterpriseTrunkName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->enterpriseTrunkName = $enterpriseTrunkName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnterpriseTrunkName()
+    {
+        $this->enterpriseTrunkName = null;
         return $this;
     }
 
     /**
      * Getter for alternateTrunkIdentity
      *
-     * @ElementName alternateTrunkIdentity
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAlternateTrunkIdentity()
     {
-        return $this->alternateTrunkIdentity;
+        return $this->alternateTrunkIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateTrunkIdentity;
     }
 
     /**
      * Setter for alternateTrunkIdentity
      *
-     * @ElementName alternateTrunkIdentity
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alternateTrunkIdentity
+     * @param string|null $alternateTrunkIdentity
      * @return $this
      */
     public function setAlternateTrunkIdentity($alternateTrunkIdentity)
     {
-        $this->alternateTrunkIdentity = $alternateTrunkIdentity;
+        if ($alternateTrunkIdentity === null) {
+            $this->alternateTrunkIdentity = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->alternateTrunkIdentity = $alternateTrunkIdentity;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlternateTrunkIdentity()
+    {
+        $this->alternateTrunkIdentity = null;
         return $this;
     }
 

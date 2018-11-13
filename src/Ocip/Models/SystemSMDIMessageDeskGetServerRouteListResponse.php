@@ -16,6 +16,7 @@ class SystemSMDIMessageDeskGetServerRouteListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName smdiServerRouteTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $smdiServerRouteTable = null;
@@ -23,24 +24,31 @@ class SystemSMDIMessageDeskGetServerRouteListResponse extends \CWM\BroadWorksCon
     /**
      * Getter for smdiServerRouteTable
      *
-     * @ElementName smdiServerRouteTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSmdiServerRouteTable()
     {
-        return $this->smdiServerRouteTable;
+        return $this->smdiServerRouteTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->smdiServerRouteTable;
     }
 
     /**
      * Setter for smdiServerRouteTable
      *
-     * @ElementName smdiServerRouteTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $smdiServerRouteTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $smdiServerRouteTable
      * @return $this
      */
     public function setSmdiServerRouteTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $smdiServerRouteTable)
     {
         $this->smdiServerRouteTable = $smdiServerRouteTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSmdiServerRouteTable()
+    {
+        $this->smdiServerRouteTable = null;
         return $this;
     }
 

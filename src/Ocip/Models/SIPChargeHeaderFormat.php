@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SIPChargeHeaderFormat PCHARGEINFOTEL()
  * @method static SIPChargeHeaderFormat PAITELURI()
  * @method static SIPChargeHeaderFormat DIVERSIONSIP()
- * @ValueType string
+ * @EnumValueType string
  */
 class SIPChargeHeaderFormat extends \MyCLabs\Enum\Enum
 {

@@ -14,18 +14,21 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
 
     /**
      * @ElementName scheduledReportSearchIntervalMinutes
+     * @Type int
      * @var int|null
      */
     private $scheduledReportSearchIntervalMinutes = null;
 
     /**
      * @ElementName maximumScheduledReportsPerInterval
+     * @Type int
      * @var int|null
      */
     private $maximumScheduledReportsPerInterval = null;
 
     /**
      * @ElementName deleteScheduledReportDaysAfterCompletion
+     * @Type int
      * @var int|null
      */
     private $deleteScheduledReportDaysAfterCompletion = null;
@@ -33,19 +36,17 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
     /**
      * Getter for scheduledReportSearchIntervalMinutes
      *
-     * @ElementName scheduledReportSearchIntervalMinutes
-     * @return int|null
+     * @return int
      */
     public function getScheduledReportSearchIntervalMinutes()
     {
-        return $this->scheduledReportSearchIntervalMinutes;
+        return $this->scheduledReportSearchIntervalMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduledReportSearchIntervalMinutes;
     }
 
     /**
      * Setter for scheduledReportSearchIntervalMinutes
      *
-     * @ElementName scheduledReportSearchIntervalMinutes
-     * @param int|null $scheduledReportSearchIntervalMinutes
+     * @param int $scheduledReportSearchIntervalMinutes
      * @return $this
      */
     public function setScheduledReportSearchIntervalMinutes($scheduledReportSearchIntervalMinutes)
@@ -55,21 +56,28 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduledReportSearchIntervalMinutes()
+    {
+        $this->scheduledReportSearchIntervalMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumScheduledReportsPerInterval
      *
-     * @ElementName maximumScheduledReportsPerInterval
-     * @return int|null
+     * @return int
      */
     public function getMaximumScheduledReportsPerInterval()
     {
-        return $this->maximumScheduledReportsPerInterval;
+        return $this->maximumScheduledReportsPerInterval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumScheduledReportsPerInterval;
     }
 
     /**
      * Setter for maximumScheduledReportsPerInterval
      *
-     * @ElementName maximumScheduledReportsPerInterval
-     * @param int|null $maximumScheduledReportsPerInterval
+     * @param int $maximumScheduledReportsPerInterval
      * @return $this
      */
     public function setMaximumScheduledReportsPerInterval($maximumScheduledReportsPerInterval)
@@ -79,26 +87,42 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersGetResponse extend
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumScheduledReportsPerInterval()
+    {
+        $this->maximumScheduledReportsPerInterval = null;
+        return $this;
+    }
+
+    /**
      * Getter for deleteScheduledReportDaysAfterCompletion
      *
-     * @ElementName deleteScheduledReportDaysAfterCompletion
-     * @return int|null
+     * @return int
      */
     public function getDeleteScheduledReportDaysAfterCompletion()
     {
-        return $this->deleteScheduledReportDaysAfterCompletion;
+        return $this->deleteScheduledReportDaysAfterCompletion instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteScheduledReportDaysAfterCompletion;
     }
 
     /**
      * Setter for deleteScheduledReportDaysAfterCompletion
      *
-     * @ElementName deleteScheduledReportDaysAfterCompletion
-     * @param int|null $deleteScheduledReportDaysAfterCompletion
+     * @param int $deleteScheduledReportDaysAfterCompletion
      * @return $this
      */
     public function setDeleteScheduledReportDaysAfterCompletion($deleteScheduledReportDaysAfterCompletion)
     {
         $this->deleteScheduledReportDaysAfterCompletion = $deleteScheduledReportDaysAfterCompletion;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeleteScheduledReportDaysAfterCompletion()
+    {
+        $this->deleteScheduledReportDaysAfterCompletion = null;
         return $this;
     }
 

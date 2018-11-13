@@ -21,12 +21,14 @@ class EnhancedCallLogsCallAuthorizationCodeFilter
 
     /**
      * @ElementName callsWithCodes
+     * @Type bool
      * @var bool|null
      */
     private $callsWithCodes = null;
 
     /**
      * @ElementName authorizationCode
+     * @Type string
      * @var string|null
      */
     private $authorizationCode = null;
@@ -34,19 +36,17 @@ class EnhancedCallLogsCallAuthorizationCodeFilter
     /**
      * Getter for callsWithCodes
      *
-     * @ElementName callsWithCodes
-     * @return bool|null
+     * @return bool
      */
     public function getCallsWithCodes()
     {
-        return $this->callsWithCodes;
+        return $this->callsWithCodes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callsWithCodes;
     }
 
     /**
      * Setter for callsWithCodes
      *
-     * @ElementName callsWithCodes
-     * @param bool|null $callsWithCodes
+     * @param bool $callsWithCodes
      * @return $this
      */
     public function setCallsWithCodes($callsWithCodes)
@@ -56,26 +56,42 @@ class EnhancedCallLogsCallAuthorizationCodeFilter
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallsWithCodes()
+    {
+        $this->callsWithCodes = null;
+        return $this;
+    }
+
+    /**
      * Getter for authorizationCode
      *
-     * @ElementName authorizationCode
-     * @return string|null
+     * @return string
      */
     public function getAuthorizationCode()
     {
-        return $this->authorizationCode;
+        return $this->authorizationCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->authorizationCode;
     }
 
     /**
      * Setter for authorizationCode
      *
-     * @ElementName authorizationCode
-     * @param string|null $authorizationCode
+     * @param string $authorizationCode
      * @return $this
      */
     public function setAuthorizationCode($authorizationCode)
     {
         $this->authorizationCode = $authorizationCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAuthorizationCode()
+    {
+        $this->authorizationCode = null;
         return $this;
     }
 

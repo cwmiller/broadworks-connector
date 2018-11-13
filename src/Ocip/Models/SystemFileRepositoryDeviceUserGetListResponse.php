@@ -16,6 +16,7 @@ class SystemFileRepositoryDeviceUserGetListResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName fileRepositoryUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $fileRepositoryUserTable = null;
@@ -23,24 +24,31 @@ class SystemFileRepositoryDeviceUserGetListResponse extends \CWM\BroadWorksConne
     /**
      * Getter for fileRepositoryUserTable
      *
-     * @ElementName fileRepositoryUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getFileRepositoryUserTable()
     {
-        return $this->fileRepositoryUserTable;
+        return $this->fileRepositoryUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileRepositoryUserTable;
     }
 
     /**
      * Setter for fileRepositoryUserTable
      *
-     * @ElementName fileRepositoryUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $fileRepositoryUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $fileRepositoryUserTable
      * @return $this
      */
     public function setFileRepositoryUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $fileRepositoryUserTable)
     {
         $this->fileRepositoryUserTable = $fileRepositoryUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileRepositoryUserTable()
+    {
+        $this->fileRepositoryUserTable = null;
         return $this;
     }
 

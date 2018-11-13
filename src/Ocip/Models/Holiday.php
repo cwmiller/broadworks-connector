@@ -12,18 +12,21 @@ class Holiday
 
     /**
      * @ElementName holidayName
+     * @Type string
      * @var string|null
      */
     private $holidayName = null;
 
     /**
      * @ElementName startDate
+     * @Type string
      * @var string|null
      */
     private $startDate = null;
 
     /**
      * @ElementName endDate
+     * @Type string
      * @var string|null
      */
     private $endDate = null;
@@ -31,19 +34,17 @@ class Holiday
     /**
      * Getter for holidayName
      *
-     * @ElementName holidayName
-     * @return string|null
+     * @return string
      */
     public function getHolidayName()
     {
-        return $this->holidayName;
+        return $this->holidayName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidayName;
     }
 
     /**
      * Setter for holidayName
      *
-     * @ElementName holidayName
-     * @param string|null $holidayName
+     * @param string $holidayName
      * @return $this
      */
     public function setHolidayName($holidayName)
@@ -53,21 +54,28 @@ class Holiday
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHolidayName()
+    {
+        $this->holidayName = null;
+        return $this;
+    }
+
+    /**
      * Getter for startDate
      *
-     * @ElementName startDate
-     * @return string|null
+     * @return string
      */
     public function getStartDate()
     {
-        return $this->startDate;
+        return $this->startDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startDate;
     }
 
     /**
      * Setter for startDate
      *
-     * @ElementName startDate
-     * @param string|null $startDate
+     * @param string $startDate
      * @return $this
      */
     public function setStartDate($startDate)
@@ -77,26 +85,42 @@ class Holiday
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartDate()
+    {
+        $this->startDate = null;
+        return $this;
+    }
+
+    /**
      * Getter for endDate
      *
-     * @ElementName endDate
-     * @return string|null
+     * @return string
      */
     public function getEndDate()
     {
-        return $this->endDate;
+        return $this->endDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endDate;
     }
 
     /**
      * Setter for endDate
      *
-     * @ElementName endDate
-     * @param string|null $endDate
+     * @param string $endDate
      * @return $this
      */
     public function setEndDate($endDate)
     {
         $this->endDate = $endDate;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEndDate()
+    {
+        $this->endDate = null;
         return $this;
     }
 

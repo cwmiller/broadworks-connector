@@ -16,12 +16,14 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName homeZoneName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,28 +52,46 @@ class UserZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for homeZoneName
      *
-     * @ElementName homeZoneName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getHomeZoneName()
     {
-        return $this->homeZoneName;
+        return $this->homeZoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZoneName;
     }
 
     /**
      * Setter for homeZoneName
      *
-     * @ElementName homeZoneName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $homeZoneName
+     * @param string|null $homeZoneName
      * @return $this
      */
     public function setHomeZoneName($homeZoneName)
     {
-        $this->homeZoneName = $homeZoneName;
+        if ($homeZoneName === null) {
+            $this->homeZoneName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->homeZoneName = $homeZoneName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHomeZoneName()
+    {
+        $this->homeZoneName = null;
         return $this;
     }
 

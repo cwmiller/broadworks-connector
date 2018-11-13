@@ -18,6 +18,7 @@ class ServiceProviderAccessDeviceGetListResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName accessDeviceTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $accessDeviceTable = null;
@@ -25,24 +26,31 @@ class ServiceProviderAccessDeviceGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for accessDeviceTable
      *
-     * @ElementName accessDeviceTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAccessDeviceTable()
     {
-        return $this->accessDeviceTable;
+        return $this->accessDeviceTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceTable;
     }
 
     /**
      * Setter for accessDeviceTable
      *
-     * @ElementName accessDeviceTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $accessDeviceTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $accessDeviceTable
      * @return $this
      */
     public function setAccessDeviceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $accessDeviceTable)
     {
         $this->accessDeviceTable = $accessDeviceTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessDeviceTable()
+    {
+        $this->accessDeviceTable = null;
         return $this;
     }
 

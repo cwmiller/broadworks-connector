@@ -24,18 +24,21 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName callLogType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
 
     /**
      * @ElementName responsePagingControl
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -43,19 +46,17 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -65,21 +66,28 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for callLogType
      *
-     * @ElementName callLogType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      */
     public function getCallLogType()
     {
-        return $this->callLogType;
+        return $this->callLogType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLogType;
     }
 
     /**
      * Setter for callLogType
      *
-     * @ElementName callLogType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null $callLogType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsType $callLogType
      * @return $this
      */
     public function setCallLogType(\CWM\BroadWorksConnector\Ocip\Models\CallLogsType $callLogType)
@@ -89,26 +97,42 @@ class UserEnhancedCallLogsGetListRequest16 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallLogType()
+    {
+        $this->callLogType = null;
+        return $this;
+    }
+
+    /**
      * Getter for responsePagingControl
      *
-     * @ElementName responsePagingControl
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      */
     public function getResponsePagingControl()
     {
-        return $this->responsePagingControl;
+        return $this->responsePagingControl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responsePagingControl;
     }
 
     /**
      * Setter for responsePagingControl
      *
-     * @ElementName responsePagingControl
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null $responsePagingControl
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl
      * @return $this
      */
     public function setResponsePagingControl(\CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl)
     {
         $this->responsePagingControl = $responsePagingControl;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResponsePagingControl()
+    {
+        $this->responsePagingControl = null;
         return $this;
     }
 

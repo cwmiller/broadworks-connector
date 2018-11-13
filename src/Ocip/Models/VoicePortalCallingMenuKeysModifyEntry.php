@@ -12,12 +12,14 @@ class VoicePortalCallingMenuKeysModifyEntry
 
     /**
      * @ElementName endCurrentCallAndGoBackToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $endCurrentCallAndGoBackToPreviousMenu = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -25,19 +27,17 @@ class VoicePortalCallingMenuKeysModifyEntry
     /**
      * Getter for endCurrentCallAndGoBackToPreviousMenu
      *
-     * @ElementName endCurrentCallAndGoBackToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getEndCurrentCallAndGoBackToPreviousMenu()
     {
-        return $this->endCurrentCallAndGoBackToPreviousMenu;
+        return $this->endCurrentCallAndGoBackToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endCurrentCallAndGoBackToPreviousMenu;
     }
 
     /**
      * Setter for endCurrentCallAndGoBackToPreviousMenu
      *
-     * @ElementName endCurrentCallAndGoBackToPreviousMenu
-     * @param string|null $endCurrentCallAndGoBackToPreviousMenu
+     * @param string $endCurrentCallAndGoBackToPreviousMenu
      * @return $this
      */
     public function setEndCurrentCallAndGoBackToPreviousMenu($endCurrentCallAndGoBackToPreviousMenu)
@@ -47,26 +47,42 @@ class VoicePortalCallingMenuKeysModifyEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndCurrentCallAndGoBackToPreviousMenu()
+    {
+        $this->endCurrentCallAndGoBackToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
     {
         $this->returnToPreviousMenu = $returnToPreviousMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
         return $this;
     }
 

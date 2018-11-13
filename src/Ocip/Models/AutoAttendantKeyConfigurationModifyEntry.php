@@ -22,6 +22,7 @@ class AutoAttendantKeyConfigurationModifyEntry
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,12 +30,14 @@ class AutoAttendantKeyConfigurationModifyEntry
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     private $action = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -42,6 +45,7 @@ class AutoAttendantKeyConfigurationModifyEntry
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -49,6 +53,7 @@ class AutoAttendantKeyConfigurationModifyEntry
 
     /**
      * @ElementName videoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -56,6 +61,7 @@ class AutoAttendantKeyConfigurationModifyEntry
 
     /**
      * @ElementName submenuId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -64,45 +70,52 @@ class AutoAttendantKeyConfigurationModifyEntry
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction $action)
@@ -112,106 +125,151 @@ class AutoAttendantKeyConfigurationModifyEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumber
+     * @param string|null $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
     {
-        $this->phoneNumber = $phoneNumber;
+        if ($phoneNumber === null) {
+            $this->phoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->phoneNumber = $phoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
     {
-        $this->audioFile = $audioFile;
+        if ($audioFile === null) {
+            $this->audioFile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->audioFile = $audioFile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
         return $this;
     }
 
     /**
      * Getter for videoFile
      *
-     * @ElementName videoFile
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     public function getVideoFile()
     {
-        return $this->videoFile;
+        return $this->videoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFile;
     }
 
     /**
      * Setter for videoFile
      *
-     * @ElementName videoFile
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null|\CWM\BroadWorksConnector\Ocip\Nil $videoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $videoFile
      * @return $this
      */
     public function setVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $videoFile)
     {
-        $this->videoFile = $videoFile;
+        if ($videoFile === null) {
+            $this->videoFile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->videoFile = $videoFile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFile()
+    {
+        $this->videoFile = null;
         return $this;
     }
 
     /**
      * Getter for submenuId
      *
-     * @ElementName submenuId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSubmenuId()
     {
-        return $this->submenuId;
+        return $this->submenuId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->submenuId;
     }
 
     /**
      * Setter for submenuId
      *
-     * @ElementName submenuId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $submenuId
+     * @param string|null $submenuId
      * @return $this
      */
     public function setSubmenuId($submenuId)
     {
-        $this->submenuId = $submenuId;
+        if ($submenuId === null) {
+            $this->submenuId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->submenuId = $submenuId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSubmenuId()
+    {
+        $this->submenuId = null;
         return $this;
     }
 

@@ -17,12 +17,14 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName publicUserIdentity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;
 
     /**
      * @ElementName SCSCFName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,6 +32,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName IMSUserState
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;
@@ -37,19 +40,17 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for publicUserIdentity
      *
-     * @ElementName publicUserIdentity
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
      */
     public function getPublicUserIdentity()
     {
-        return $this->publicUserIdentity;
+        return $this->publicUserIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicUserIdentity;
     }
 
     /**
      * Setter for publicUserIdentity
      *
-     * @ElementName publicUserIdentity
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null $publicUserIdentity
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity $publicUserIdentity
      * @return $this
      */
     public function setPublicUserIdentity(\CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity $publicUserIdentity)
@@ -59,52 +60,77 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPublicUserIdentity()
+    {
+        $this->publicUserIdentity = null;
+        return $this;
+    }
+
+    /**
      * Getter for SCSCFName
      *
-     * @ElementName SCSCFName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSCSCFName()
     {
-        return $this->SCSCFName;
+        return $this->SCSCFName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->SCSCFName;
     }
 
     /**
      * Setter for SCSCFName
      *
-     * @ElementName SCSCFName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $SCSCFName
+     * @param string|null $SCSCFName
      * @return $this
      */
     public function setSCSCFName($SCSCFName)
     {
-        $this->SCSCFName = $SCSCFName;
+        if ($SCSCFName === null) {
+            $this->SCSCFName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->SCSCFName = $SCSCFName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSCSCFName()
+    {
+        $this->SCSCFName = null;
         return $this;
     }
 
     /**
      * Getter for IMSUserState
      *
-     * @ElementName IMSUserState
-     * @return \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
      */
     public function getIMSUserState()
     {
-        return $this->IMSUserState;
+        return $this->IMSUserState instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->IMSUserState;
     }
 
     /**
      * Setter for IMSUserState
      *
-     * @ElementName IMSUserState
-     * @param \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null $IMSUserState
+     * @param \CWM\BroadWorksConnector\Ocip\Models\IMSUserState $IMSUserState
      * @return $this
      */
     public function setIMSUserState(\CWM\BroadWorksConnector\Ocip\Models\IMSUserState $IMSUserState)
     {
         $this->IMSUserState = $IMSUserState;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIMSUserState()
+    {
+        $this->IMSUserState = null;
         return $this;
     }
 

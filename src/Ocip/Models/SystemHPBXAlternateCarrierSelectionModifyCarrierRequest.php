@@ -16,30 +16,35 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName newName
+     * @Type string
      * @var string|null
      */
     private $newName = null;
 
     /**
      * @ElementName prefix
+     * @Type string
      * @var string|null
      */
     private $prefix = null;
 
     /**
      * @ElementName domain
+     * @Type string
      * @var string|null
      */
     private $domain = null;
 
     /**
      * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType
      * @var \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null
      */
     private $type = null;
@@ -47,19 +52,17 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -69,21 +72,28 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for newName
      *
-     * @ElementName newName
-     * @return string|null
+     * @return string
      */
     public function getNewName()
     {
-        return $this->newName;
+        return $this->newName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newName;
     }
 
     /**
      * Setter for newName
      *
-     * @ElementName newName
-     * @param string|null $newName
+     * @param string $newName
      * @return $this
      */
     public function setNewName($newName)
@@ -93,21 +103,28 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewName()
+    {
+        $this->newName = null;
+        return $this;
+    }
+
+    /**
      * Getter for prefix
      *
-     * @ElementName prefix
-     * @return string|null
+     * @return string
      */
     public function getPrefix()
     {
-        return $this->prefix;
+        return $this->prefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefix;
     }
 
     /**
      * Setter for prefix
      *
-     * @ElementName prefix
-     * @param string|null $prefix
+     * @param string $prefix
      * @return $this
      */
     public function setPrefix($prefix)
@@ -117,21 +134,28 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrefix()
+    {
+        $this->prefix = null;
+        return $this;
+    }
+
+    /**
      * Getter for domain
      *
-     * @ElementName domain
-     * @return string|null
+     * @return string
      */
     public function getDomain()
     {
-        return $this->domain;
+        return $this->domain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->domain;
     }
 
     /**
      * Setter for domain
      *
-     * @ElementName domain
-     * @param string|null $domain
+     * @param string $domain
      * @return $this
      */
     public function setDomain($domain)
@@ -141,26 +165,42 @@ class SystemHPBXAlternateCarrierSelectionModifyCarrierRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDomain()
+    {
+        $this->domain = null;
+        return $this;
+    }
+
+    /**
      * Getter for type
      *
-     * @ElementName type
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType
      */
     public function getType()
     {
-        return $this->type;
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
     }
 
     /**
      * Setter for type
      *
-     * @ElementName type
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType $type
      * @return $this
      */
     public function setType(\CWM\BroadWorksConnector\Ocip\Models\HPBXAlternateCarrierType $type)
     {
         $this->type = $type;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
         return $this;
     }
 

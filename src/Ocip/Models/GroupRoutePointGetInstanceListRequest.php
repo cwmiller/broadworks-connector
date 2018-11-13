@@ -20,30 +20,36 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName groupDepartmentName
+     * @Type string
      * @var string|null
      */
     private $groupDepartmentName = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaRoutePointName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
     private $searchCriteriaRoutePointName = array(
@@ -53,19 +59,17 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -75,21 +79,28 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -99,21 +110,28 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupDepartmentName
      *
-     * @ElementName groupDepartmentName
-     * @return string|null
+     * @return string
      */
     public function getGroupDepartmentName()
     {
-        return $this->groupDepartmentName;
+        return $this->groupDepartmentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupDepartmentName;
     }
 
     /**
      * Setter for groupDepartmentName
      *
-     * @ElementName groupDepartmentName
-     * @param string|null $groupDepartmentName
+     * @param string $groupDepartmentName
      * @return $this
      */
     public function setGroupDepartmentName($groupDepartmentName)
@@ -123,21 +141,28 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupDepartmentName()
+    {
+        $this->groupDepartmentName = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -147,20 +172,27 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaRoutePointName
      *
-     * @ElementName searchCriteriaRoutePointName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
     public function getSearchCriteriaRoutePointName()
     {
-        return $this->searchCriteriaRoutePointName;
+        return $this->searchCriteriaRoutePointName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaRoutePointName;
     }
 
     /**
      * Setter for searchCriteriaRoutePointName
      *
-     * @ElementName searchCriteriaRoutePointName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[] $searchCriteriaRoutePointName
      * @return $this
      */
@@ -171,15 +203,23 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaRoutePointName()
+    {
+        $this->searchCriteriaRoutePointName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaRoutePointName
      *
-     * @ElementName searchCriteriaRoutePointName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName $searchCriteriaRoutePointName
      * @return $this
      */
     public function addSearchCriteriaRoutePointName($searchCriteriaRoutePointName)
     {
-        $this->searchCriteriaRoutePointName []= $searchCriteriaRoutePointName;
+        $this->searchCriteriaRoutePointName[] = $searchCriteriaRoutePointName;
         return $this;
     }
 

@@ -14,6 +14,8 @@ class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName mediaSetName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $mediaSetName = array(
@@ -23,18 +25,16 @@ class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for mediaSetName
      *
-     * @ElementName mediaSetName
      * @return string[]
      */
     public function getMediaSetName()
     {
-        return $this->mediaSetName;
+        return $this->mediaSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaSetName;
     }
 
     /**
      * Setter for mediaSetName
      *
-     * @ElementName mediaSetName
      * @param string[] $mediaSetName
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemMediaSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMediaSetName()
+    {
+        $this->mediaSetName = null;
+        return $this;
+    }
+
+    /**
      * Adder for mediaSetName
      *
-     * @ElementName mediaSetName
      * @param string $mediaSetName
      * @return $this
      */
     public function addMediaSetName(string $mediaSetName)
     {
-        $this->mediaSetName []= $mediaSetName;
+        $this->mediaSetName[] = $mediaSetName;
         return $this;
     }
 

@@ -16,12 +16,14 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName newUserId
+     * @Type string
      * @var string|null
      */
     private $newUserId = null;
@@ -29,19 +31,17 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -51,26 +51,42 @@ class UserModifyUserIdRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for newUserId
      *
-     * @ElementName newUserId
-     * @return string|null
+     * @return string
      */
     public function getNewUserId()
     {
-        return $this->newUserId;
+        return $this->newUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newUserId;
     }
 
     /**
      * Setter for newUserId
      *
-     * @ElementName newUserId
-     * @param string|null $newUserId
+     * @param string $newUserId
      * @return $this
      */
     public function setNewUserId($newUserId)
     {
         $this->newUserId = $newUserId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewUserId()
+    {
+        $this->newUserId = null;
         return $this;
     }
 

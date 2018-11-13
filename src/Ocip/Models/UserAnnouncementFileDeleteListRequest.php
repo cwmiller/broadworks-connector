@@ -16,12 +16,15 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName announcementFileKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
     private $announcementFileKey = array(
@@ -31,19 +34,17 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementFileKey
      *
-     * @ElementName announcementFileKey
      * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
     public function getAnnouncementFileKey()
     {
-        return $this->announcementFileKey;
+        return $this->announcementFileKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileKey;
     }
 
     /**
      * Setter for announcementFileKey
      *
-     * @ElementName announcementFileKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[] $announcementFileKey
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileKey()
+    {
+        $this->announcementFileKey = null;
+        return $this;
+    }
+
+    /**
      * Adder for announcementFileKey
      *
-     * @ElementName announcementFileKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $announcementFileKey
      * @return $this
      */
     public function addAnnouncementFileKey($announcementFileKey)
     {
-        $this->announcementFileKey []= $announcementFileKey;
+        $this->announcementFileKey[] = $announcementFileKey;
         return $this;
     }
 

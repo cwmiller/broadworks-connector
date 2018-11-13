@@ -18,6 +18,7 @@ class UserRoutePointSupervisorGetListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName supervisorTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $supervisorTable = null;
@@ -25,24 +26,31 @@ class UserRoutePointSupervisorGetListResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for supervisorTable
      *
-     * @ElementName supervisorTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSupervisorTable()
     {
-        return $this->supervisorTable;
+        return $this->supervisorTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supervisorTable;
     }
 
     /**
      * Setter for supervisorTable
      *
-     * @ElementName supervisorTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $supervisorTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $supervisorTable
      * @return $this
      */
     public function setSupervisorTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $supervisorTable)
     {
         $this->supervisorTable = $supervisorTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupervisorTable()
+    {
+        $this->supervisorTable = null;
         return $this;
     }
 

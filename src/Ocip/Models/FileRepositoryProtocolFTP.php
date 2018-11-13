@@ -12,12 +12,14 @@ class FileRepositoryProtocolFTP
 
     /**
      * @ElementName ftpPassive
+     * @Type bool
      * @var bool|null
      */
     private $ftpPassive = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
@@ -25,19 +27,17 @@ class FileRepositoryProtocolFTP
     /**
      * Getter for ftpPassive
      *
-     * @ElementName ftpPassive
-     * @return bool|null
+     * @return bool
      */
     public function getFtpPassive()
     {
-        return $this->ftpPassive;
+        return $this->ftpPassive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpPassive;
     }
 
     /**
      * Setter for ftpPassive
      *
-     * @ElementName ftpPassive
-     * @param bool|null $ftpPassive
+     * @param bool $ftpPassive
      * @return $this
      */
     public function setFtpPassive($ftpPassive)
@@ -47,26 +47,42 @@ class FileRepositoryProtocolFTP
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpPassive()
+    {
+        $this->ftpPassive = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
     {
         $this->netAddress = $netAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupNightForwardingGroupServiceActivationMode AUTO_ON()
  * @method static GroupNightForwardingGroupServiceActivationMode ON()
  * @method static GroupNightForwardingGroupServiceActivationMode OFF()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupNightForwardingGroupServiceActivationMode extends \MyCLabs\Enum\Enum
 {

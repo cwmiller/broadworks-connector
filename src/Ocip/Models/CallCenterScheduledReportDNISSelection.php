@@ -12,18 +12,22 @@ class CallCenterScheduledReportDNISSelection
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName allDNIS
+     * @Type bool
      * @var bool|null
      */
     private $allDNIS = null;
 
     /**
      * @ElementName name
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $name = array(
@@ -33,19 +37,17 @@ class CallCenterScheduledReportDNISSelection
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -55,21 +57,28 @@ class CallCenterScheduledReportDNISSelection
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for allDNIS
      *
-     * @ElementName allDNIS
-     * @return bool|null
+     * @return bool
      */
     public function getAllDNIS()
     {
-        return $this->allDNIS;
+        return $this->allDNIS instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allDNIS;
     }
 
     /**
      * Setter for allDNIS
      *
-     * @ElementName allDNIS
-     * @param bool|null $allDNIS
+     * @param bool $allDNIS
      * @return $this
      */
     public function setAllDNIS($allDNIS)
@@ -79,20 +88,27 @@ class CallCenterScheduledReportDNISSelection
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllDNIS()
+    {
+        $this->allDNIS = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
      * @return string[]
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
      * @param string[] $name
      * @return $this
      */
@@ -103,15 +119,23 @@ class CallCenterScheduledReportDNISSelection
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Adder for name
      *
-     * @ElementName name
      * @param string $name
      * @return $this
      */
     public function addName(string $name)
     {
-        $this->name []= $name;
+        $this->name[] = $name;
         return $this;
     }
 

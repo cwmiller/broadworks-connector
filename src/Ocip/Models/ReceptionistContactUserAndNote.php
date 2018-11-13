@@ -12,18 +12,21 @@ class ReceptionistContactUserAndNote
 
     /**
      * @ElementName contactUserId
+     * @Type string
      * @var string|null
      */
     private $contactUserId = null;
 
     /**
      * @ElementName vonUser
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
      */
     private $vonUser = null;
 
     /**
      * @ElementName note
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -32,19 +35,17 @@ class ReceptionistContactUserAndNote
     /**
      * Getter for contactUserId
      *
-     * @ElementName contactUserId
-     * @return string|null
+     * @return string
      */
     public function getContactUserId()
     {
-        return $this->contactUserId;
+        return $this->contactUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contactUserId;
     }
 
     /**
      * Setter for contactUserId
      *
-     * @ElementName contactUserId
-     * @param string|null $contactUserId
+     * @param string $contactUserId
      * @return $this
      */
     public function setContactUserId($contactUserId)
@@ -54,21 +55,28 @@ class ReceptionistContactUserAndNote
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContactUserId()
+    {
+        $this->contactUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for vonUser
      *
-     * @ElementName vonUser
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey
      */
     public function getVonUser()
     {
-        return $this->vonUser;
+        return $this->vonUser instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->vonUser;
     }
 
     /**
      * Setter for vonUser
      *
-     * @ElementName vonUser
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null $vonUser
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey $vonUser
      * @return $this
      */
     public function setVonUser(\CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey $vonUser)
@@ -78,28 +86,46 @@ class ReceptionistContactUserAndNote
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVonUser()
+    {
+        $this->vonUser = null;
+        return $this;
+    }
+
+    /**
      * Getter for note
      *
-     * @ElementName note
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNote()
     {
-        return $this->note;
+        return $this->note instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->note;
     }
 
     /**
      * Setter for note
      *
-     * @ElementName note
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $note
+     * @param string|null $note
      * @return $this
      */
     public function setNote($note)
     {
-        $this->note = $note;
+        if ($note === null) {
+            $this->note = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->note = $note;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNote()
+    {
+        $this->note = null;
         return $this;
     }
 

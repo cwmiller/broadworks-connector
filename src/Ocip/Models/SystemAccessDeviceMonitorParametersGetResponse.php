@@ -15,6 +15,7 @@ class SystemAccessDeviceMonitorParametersGetResponse extends \CWM\BroadWorksConn
 
     /**
      * @ElementName pollingIntervalMinutes
+     * @Type int
      * @var int|null
      */
     private $pollingIntervalMinutes = null;
@@ -22,24 +23,31 @@ class SystemAccessDeviceMonitorParametersGetResponse extends \CWM\BroadWorksConn
     /**
      * Getter for pollingIntervalMinutes
      *
-     * @ElementName pollingIntervalMinutes
-     * @return int|null
+     * @return int
      */
     public function getPollingIntervalMinutes()
     {
-        return $this->pollingIntervalMinutes;
+        return $this->pollingIntervalMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pollingIntervalMinutes;
     }
 
     /**
      * Setter for pollingIntervalMinutes
      *
-     * @ElementName pollingIntervalMinutes
-     * @param int|null $pollingIntervalMinutes
+     * @param int $pollingIntervalMinutes
      * @return $this
      */
     public function setPollingIntervalMinutes($pollingIntervalMinutes)
     {
         $this->pollingIntervalMinutes = $pollingIntervalMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPollingIntervalMinutes()
+    {
+        $this->pollingIntervalMinutes = null;
         return $this;
     }
 

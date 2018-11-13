@@ -14,6 +14,7 @@ class SystemSpeedDial100GetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName prefix
+     * @Type string
      * @var string|null
      */
     private $prefix = null;
@@ -21,24 +22,31 @@ class SystemSpeedDial100GetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for prefix
      *
-     * @ElementName prefix
-     * @return string|null
+     * @return string
      */
     public function getPrefix()
     {
-        return $this->prefix;
+        return $this->prefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefix;
     }
 
     /**
      * Setter for prefix
      *
-     * @ElementName prefix
-     * @param string|null $prefix
+     * @param string $prefix
      * @return $this
      */
     public function setPrefix($prefix)
     {
         $this->prefix = $prefix;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrefix()
+    {
+        $this->prefix = null;
         return $this;
     }
 

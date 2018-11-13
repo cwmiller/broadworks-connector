@@ -21,6 +21,7 @@ class EnterpriseUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName userCallWaitingTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userCallWaitingTable = null;
@@ -28,24 +29,31 @@ class EnterpriseUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksCo
     /**
      * Getter for userCallWaitingTable
      *
-     * @ElementName userCallWaitingTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserCallWaitingTable()
     {
-        return $this->userCallWaitingTable;
+        return $this->userCallWaitingTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userCallWaitingTable;
     }
 
     /**
      * Setter for userCallWaitingTable
      *
-     * @ElementName userCallWaitingTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userCallWaitingTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userCallWaitingTable
      * @return $this
      */
     public function setUserCallWaitingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userCallWaitingTable)
     {
         $this->userCallWaitingTable = $userCallWaitingTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserCallWaitingTable()
+    {
+        $this->userCallWaitingTable = null;
         return $this;
     }
 

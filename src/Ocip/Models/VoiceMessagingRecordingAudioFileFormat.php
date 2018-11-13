@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static VoiceMessagingRecordingAudioFileFormat WAV()
  * @method static VoiceMessagingRecordingAudioFileFormat MP3()
- * @ValueType string
+ * @EnumValueType string
  */
 class VoiceMessagingRecordingAudioFileFormat extends \MyCLabs\Enum\Enum
 {

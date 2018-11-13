@@ -15,6 +15,7 @@ class SystemSIPDeviceTypeServiceGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName supportsPolycomPhoneServices
+     * @Type bool
      * @var bool|null
      */
     private $supportsPolycomPhoneServices = null;
@@ -22,24 +23,31 @@ class SystemSIPDeviceTypeServiceGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for supportsPolycomPhoneServices
      *
-     * @ElementName supportsPolycomPhoneServices
-     * @return bool|null
+     * @return bool
      */
     public function getSupportsPolycomPhoneServices()
     {
-        return $this->supportsPolycomPhoneServices;
+        return $this->supportsPolycomPhoneServices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportsPolycomPhoneServices;
     }
 
     /**
      * Setter for supportsPolycomPhoneServices
      *
-     * @ElementName supportsPolycomPhoneServices
-     * @param bool|null $supportsPolycomPhoneServices
+     * @param bool $supportsPolycomPhoneServices
      * @return $this
      */
     public function setSupportsPolycomPhoneServices($supportsPolycomPhoneServices)
     {
         $this->supportsPolycomPhoneServices = $supportsPolycomPhoneServices;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupportsPolycomPhoneServices()
+    {
+        $this->supportsPolycomPhoneServices = null;
         return $this;
     }
 

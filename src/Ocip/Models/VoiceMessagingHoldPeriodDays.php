@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static VoiceMessagingHoldPeriodDays _15()
  * @method static VoiceMessagingHoldPeriodDays _30()
  * @method static VoiceMessagingHoldPeriodDays _60()
- * @ValueType int
+ * @EnumValueType int
  */
 class VoiceMessagingHoldPeriodDays extends \MyCLabs\Enum\Enum
 {

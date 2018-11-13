@@ -16,18 +16,21 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName forwardToPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,42 +38,49 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName playAnnouncementBeforeForwarding
+     * @Type bool
      * @var bool|null
      */
     private $playAnnouncementBeforeForwarding = null;
 
     /**
      * @ElementName audioMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
     /**
      * @ElementName audioUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $audioUrlList = null;
 
     /**
      * @ElementName audioFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $audioFileList = null;
 
     /**
      * @ElementName videoMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
     /**
      * @ElementName videoUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $videoUrlList = null;
 
     /**
      * @ElementName videoFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $videoFileList = null;
@@ -78,19 +88,17 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -100,21 +108,28 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -124,47 +139,63 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getForwardToPhoneNumber()
     {
-        return $this->forwardToPhoneNumber;
+        return $this->forwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardToPhoneNumber;
     }
 
     /**
      * Setter for forwardToPhoneNumber
      *
-     * @ElementName forwardToPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardToPhoneNumber
+     * @param string|null $forwardToPhoneNumber
      * @return $this
      */
     public function setForwardToPhoneNumber($forwardToPhoneNumber)
     {
-        $this->forwardToPhoneNumber = $forwardToPhoneNumber;
+        if ($forwardToPhoneNumber === null) {
+            $this->forwardToPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->forwardToPhoneNumber = $forwardToPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForwardToPhoneNumber()
+    {
+        $this->forwardToPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for playAnnouncementBeforeForwarding
      *
-     * @ElementName playAnnouncementBeforeForwarding
-     * @return bool|null
+     * @return bool
      */
     public function getPlayAnnouncementBeforeForwarding()
     {
-        return $this->playAnnouncementBeforeForwarding;
+        return $this->playAnnouncementBeforeForwarding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playAnnouncementBeforeForwarding;
     }
 
     /**
      * Setter for playAnnouncementBeforeForwarding
      *
-     * @ElementName playAnnouncementBeforeForwarding
-     * @param bool|null $playAnnouncementBeforeForwarding
+     * @param bool $playAnnouncementBeforeForwarding
      * @return $this
      */
     public function setPlayAnnouncementBeforeForwarding($playAnnouncementBeforeForwarding)
@@ -174,21 +205,28 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayAnnouncementBeforeForwarding()
+    {
+        $this->playAnnouncementBeforeForwarding = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioMessageSelection()
     {
-        return $this->audioMessageSelection;
+        return $this->audioMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMessageSelection;
     }
 
     /**
      * Setter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection
      * @return $this
      */
     public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
@@ -198,21 +236,28 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMessageSelection()
+    {
+        $this->audioMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioUrlList
      *
-     * @ElementName audioUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      */
     public function getAudioUrlList()
     {
-        return $this->audioUrlList;
+        return $this->audioUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioUrlList;
     }
 
     /**
      * Setter for audioUrlList
      *
-     * @ElementName audioUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $audioUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $audioUrlList
      * @return $this
      */
     public function setAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $audioUrlList)
@@ -222,21 +267,28 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioUrlList()
+    {
+        $this->audioUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileList
      *
-     * @ElementName audioFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      */
     public function getAudioFileList()
     {
-        return $this->audioFileList;
+        return $this->audioFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileList;
     }
 
     /**
      * Setter for audioFileList
      *
-     * @ElementName audioFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $audioFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $audioFileList
      * @return $this
      */
     public function setAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $audioFileList)
@@ -246,21 +298,28 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileList()
+    {
+        $this->audioFileList = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoMessageSelection()
     {
-        return $this->videoMessageSelection;
+        return $this->videoMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMessageSelection;
     }
 
     /**
      * Setter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection
      * @return $this
      */
     public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
@@ -270,21 +329,28 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoMessageSelection()
+    {
+        $this->videoMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoUrlList
      *
-     * @ElementName videoUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
      */
     public function getVideoUrlList()
     {
-        return $this->videoUrlList;
+        return $this->videoUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoUrlList;
     }
 
     /**
      * Setter for videoUrlList
      *
-     * @ElementName videoUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null $videoUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $videoUrlList
      * @return $this
      */
     public function setVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify $videoUrlList)
@@ -294,26 +360,42 @@ class GroupRoutePointForcedForwardingModifyRequest20 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoUrlList()
+    {
+        $this->videoUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileList
      *
-     * @ElementName videoFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
      */
     public function getVideoFileList()
     {
-        return $this->videoFileList;
+        return $this->videoFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileList;
     }
 
     /**
      * Setter for videoFileList
      *
-     * @ElementName videoFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null $videoFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $videoFileList
      * @return $this
      */
     public function setVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20 $videoFileList)
     {
         $this->videoFileList = $videoFileList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFileList()
+    {
+        $this->videoFileList = null;
         return $this;
     }
 

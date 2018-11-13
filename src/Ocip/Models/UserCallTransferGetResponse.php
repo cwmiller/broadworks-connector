@@ -14,24 +14,28 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName isRecallActive
+     * @Type bool
      * @var bool|null
      */
     private $isRecallActive = null;
 
     /**
      * @ElementName recallNumberOfRings
+     * @Type int
      * @var int|null
      */
     private $recallNumberOfRings = null;
 
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
+     * @Type bool
      * @var bool|null
      */
     private $useDiversionInhibitorForBlindTransfer = null;
 
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
+     * @Type bool
      * @var bool|null
      */
     private $useDiversionInhibitorForConsultativeCalls = null;
@@ -39,19 +43,17 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for isRecallActive
      *
-     * @ElementName isRecallActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsRecallActive()
     {
-        return $this->isRecallActive;
+        return $this->isRecallActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isRecallActive;
     }
 
     /**
      * Setter for isRecallActive
      *
-     * @ElementName isRecallActive
-     * @param bool|null $isRecallActive
+     * @param bool $isRecallActive
      * @return $this
      */
     public function setIsRecallActive($isRecallActive)
@@ -61,21 +63,28 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsRecallActive()
+    {
+        $this->isRecallActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for recallNumberOfRings
      *
-     * @ElementName recallNumberOfRings
-     * @return int|null
+     * @return int
      */
     public function getRecallNumberOfRings()
     {
-        return $this->recallNumberOfRings;
+        return $this->recallNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallNumberOfRings;
     }
 
     /**
      * Setter for recallNumberOfRings
      *
-     * @ElementName recallNumberOfRings
-     * @param int|null $recallNumberOfRings
+     * @param int $recallNumberOfRings
      * @return $this
      */
     public function setRecallNumberOfRings($recallNumberOfRings)
@@ -85,21 +94,28 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecallNumberOfRings()
+    {
+        $this->recallNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDiversionInhibitorForBlindTransfer
      *
-     * @ElementName useDiversionInhibitorForBlindTransfer
-     * @return bool|null
+     * @return bool
      */
     public function getUseDiversionInhibitorForBlindTransfer()
     {
-        return $this->useDiversionInhibitorForBlindTransfer;
+        return $this->useDiversionInhibitorForBlindTransfer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDiversionInhibitorForBlindTransfer;
     }
 
     /**
      * Setter for useDiversionInhibitorForBlindTransfer
      *
-     * @ElementName useDiversionInhibitorForBlindTransfer
-     * @param bool|null $useDiversionInhibitorForBlindTransfer
+     * @param bool $useDiversionInhibitorForBlindTransfer
      * @return $this
      */
     public function setUseDiversionInhibitorForBlindTransfer($useDiversionInhibitorForBlindTransfer)
@@ -109,26 +125,42 @@ class UserCallTransferGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDiversionInhibitorForBlindTransfer()
+    {
+        $this->useDiversionInhibitorForBlindTransfer = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDiversionInhibitorForConsultativeCalls
      *
-     * @ElementName useDiversionInhibitorForConsultativeCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseDiversionInhibitorForConsultativeCalls()
     {
-        return $this->useDiversionInhibitorForConsultativeCalls;
+        return $this->useDiversionInhibitorForConsultativeCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDiversionInhibitorForConsultativeCalls;
     }
 
     /**
      * Setter for useDiversionInhibitorForConsultativeCalls
      *
-     * @ElementName useDiversionInhibitorForConsultativeCalls
-     * @param bool|null $useDiversionInhibitorForConsultativeCalls
+     * @param bool $useDiversionInhibitorForConsultativeCalls
      * @return $this
      */
     public function setUseDiversionInhibitorForConsultativeCalls($useDiversionInhibitorForConsultativeCalls)
     {
         $this->useDiversionInhibitorForConsultativeCalls = $useDiversionInhibitorForConsultativeCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseDiversionInhibitorForConsultativeCalls()
+    {
+        $this->useDiversionInhibitorForConsultativeCalls = null;
         return $this;
     }
 

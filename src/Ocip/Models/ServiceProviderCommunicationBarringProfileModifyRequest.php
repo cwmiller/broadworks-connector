@@ -23,24 +23,28 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName newName
+     * @Type string
      * @var string|null
      */
     private $newName = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,12 +52,14 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName originatingDefaultAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     private $originatingDefaultAction = null;
 
     /**
      * @ElementName originatingDefaultTreatmentId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -61,6 +67,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName originatingDefaultTransferNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -68,6 +75,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName originatingDefaultCallTimeout
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -75,6 +83,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName originatingRule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -82,12 +91,14 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName redirectingDefaultAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $redirectingDefaultAction = null;
 
     /**
      * @ElementName redirectingDefaultCallTimeout
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -95,6 +106,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName redirectingRule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -102,12 +114,14 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName callMeNowDefaultAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $callMeNowDefaultAction = null;
 
     /**
      * @ElementName callMeNowDefaultCallTimeout
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -115,6 +129,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName callMeNowRule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -122,12 +137,14 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName incomingDefaultAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $incomingDefaultAction = null;
 
     /**
      * @ElementName incomingDefaultCallTimeout
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -135,6 +152,7 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName incomingRule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -142,12 +160,14 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
 
     /**
      * @ElementName becomeDefault
+     * @Type bool
      * @var bool|null
      */
     private $becomeDefault = null;
 
     /**
      * @ElementName applyToAttendedCallTransfers
+     * @Type bool
      * @var bool|null
      */
     private $applyToAttendedCallTransfers = null;
@@ -155,19 +175,17 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -177,21 +195,28 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -201,21 +226,28 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for newName
      *
-     * @ElementName newName
-     * @return string|null
+     * @return string
      */
     public function getNewName()
     {
-        return $this->newName;
+        return $this->newName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newName;
     }
 
     /**
      * Setter for newName
      *
-     * @ElementName newName
-     * @param string|null $newName
+     * @param string $newName
      * @return $this
      */
     public function setNewName($newName)
@@ -225,47 +257,63 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewName()
+    {
+        $this->newName = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for originatingDefaultAction
      *
-     * @ElementName originatingDefaultAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
      */
     public function getOriginatingDefaultAction()
     {
-        return $this->originatingDefaultAction;
+        return $this->originatingDefaultAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatingDefaultAction;
     }
 
     /**
      * Setter for originatingDefaultAction
      *
-     * @ElementName originatingDefaultAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null $originatingDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction $originatingDefaultAction
      * @return $this
      */
     public function setOriginatingDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction $originatingDefaultAction)
@@ -275,125 +323,168 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOriginatingDefaultAction()
+    {
+        $this->originatingDefaultAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for originatingDefaultTreatmentId
      *
-     * @ElementName originatingDefaultTreatmentId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getOriginatingDefaultTreatmentId()
     {
-        return $this->originatingDefaultTreatmentId;
+        return $this->originatingDefaultTreatmentId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatingDefaultTreatmentId;
     }
 
     /**
      * Setter for originatingDefaultTreatmentId
      *
-     * @ElementName originatingDefaultTreatmentId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingDefaultTreatmentId
+     * @param string|null $originatingDefaultTreatmentId
      * @return $this
      */
     public function setOriginatingDefaultTreatmentId($originatingDefaultTreatmentId)
     {
-        $this->originatingDefaultTreatmentId = $originatingDefaultTreatmentId;
+        if ($originatingDefaultTreatmentId === null) {
+            $this->originatingDefaultTreatmentId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->originatingDefaultTreatmentId = $originatingDefaultTreatmentId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOriginatingDefaultTreatmentId()
+    {
+        $this->originatingDefaultTreatmentId = null;
         return $this;
     }
 
     /**
      * Getter for originatingDefaultTransferNumber
      *
-     * @ElementName originatingDefaultTransferNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getOriginatingDefaultTransferNumber()
     {
-        return $this->originatingDefaultTransferNumber;
+        return $this->originatingDefaultTransferNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatingDefaultTransferNumber;
     }
 
     /**
      * Setter for originatingDefaultTransferNumber
      *
-     * @ElementName originatingDefaultTransferNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingDefaultTransferNumber
+     * @param string|null $originatingDefaultTransferNumber
      * @return $this
      */
     public function setOriginatingDefaultTransferNumber($originatingDefaultTransferNumber)
     {
-        $this->originatingDefaultTransferNumber = $originatingDefaultTransferNumber;
+        if ($originatingDefaultTransferNumber === null) {
+            $this->originatingDefaultTransferNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->originatingDefaultTransferNumber = $originatingDefaultTransferNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOriginatingDefaultTransferNumber()
+    {
+        $this->originatingDefaultTransferNumber = null;
         return $this;
     }
 
     /**
      * Getter for originatingDefaultCallTimeout
      *
-     * @ElementName originatingDefaultCallTimeout
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getOriginatingDefaultCallTimeout()
     {
-        return $this->originatingDefaultCallTimeout;
+        return $this->originatingDefaultCallTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatingDefaultCallTimeout;
     }
 
     /**
      * Setter for originatingDefaultCallTimeout
      *
-     * @ElementName originatingDefaultCallTimeout
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingDefaultCallTimeout
+     * @param int|null $originatingDefaultCallTimeout
      * @return $this
      */
     public function setOriginatingDefaultCallTimeout($originatingDefaultCallTimeout)
     {
-        $this->originatingDefaultCallTimeout = $originatingDefaultCallTimeout;
+        if ($originatingDefaultCallTimeout === null) {
+            $this->originatingDefaultCallTimeout = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->originatingDefaultCallTimeout = $originatingDefaultCallTimeout;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOriginatingDefaultCallTimeout()
+    {
+        $this->originatingDefaultCallTimeout = null;
         return $this;
     }
 
     /**
      * Getter for originatingRule
      *
-     * @ElementName originatingRule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null
      */
     public function getOriginatingRule()
     {
-        return $this->originatingRule;
+        return $this->originatingRule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatingRule;
     }
 
     /**
      * Setter for originatingRule
      *
-     * @ElementName originatingRule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil $originatingRule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList|null $originatingRule
      * @return $this
      */
     public function setOriginatingRule(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalOriginatingRuleList $originatingRule)
     {
-        $this->originatingRule = $originatingRule;
+        if ($originatingRule === null) {
+            $this->originatingRule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->originatingRule = $originatingRule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOriginatingRule()
+    {
+        $this->originatingRule = null;
         return $this;
     }
 
     /**
      * Getter for redirectingDefaultAction
      *
-     * @ElementName redirectingDefaultAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
      */
     public function getRedirectingDefaultAction()
     {
-        return $this->redirectingDefaultAction;
+        return $this->redirectingDefaultAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectingDefaultAction;
     }
 
     /**
      * Setter for redirectingDefaultAction
      *
-     * @ElementName redirectingDefaultAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null $redirectingDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction $redirectingDefaultAction
      * @return $this
      */
     public function setRedirectingDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction $redirectingDefaultAction)
@@ -403,73 +494,98 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectingDefaultAction()
+    {
+        $this->redirectingDefaultAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for redirectingDefaultCallTimeout
      *
-     * @ElementName redirectingDefaultCallTimeout
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getRedirectingDefaultCallTimeout()
     {
-        return $this->redirectingDefaultCallTimeout;
+        return $this->redirectingDefaultCallTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectingDefaultCallTimeout;
     }
 
     /**
      * Setter for redirectingDefaultCallTimeout
      *
-     * @ElementName redirectingDefaultCallTimeout
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $redirectingDefaultCallTimeout
+     * @param int|null $redirectingDefaultCallTimeout
      * @return $this
      */
     public function setRedirectingDefaultCallTimeout($redirectingDefaultCallTimeout)
     {
-        $this->redirectingDefaultCallTimeout = $redirectingDefaultCallTimeout;
+        if ($redirectingDefaultCallTimeout === null) {
+            $this->redirectingDefaultCallTimeout = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->redirectingDefaultCallTimeout = $redirectingDefaultCallTimeout;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRedirectingDefaultCallTimeout()
+    {
+        $this->redirectingDefaultCallTimeout = null;
         return $this;
     }
 
     /**
      * Getter for redirectingRule
      *
-     * @ElementName redirectingRule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null
      */
     public function getRedirectingRule()
     {
-        return $this->redirectingRule;
+        return $this->redirectingRule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectingRule;
     }
 
     /**
      * Setter for redirectingRule
      *
-     * @ElementName redirectingRule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil $redirectingRule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList|null $redirectingRule
      * @return $this
      */
     public function setRedirectingRule(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalRedirectingRuleList $redirectingRule)
     {
-        $this->redirectingRule = $redirectingRule;
+        if ($redirectingRule === null) {
+            $this->redirectingRule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->redirectingRule = $redirectingRule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRedirectingRule()
+    {
+        $this->redirectingRule = null;
         return $this;
     }
 
     /**
      * Getter for callMeNowDefaultAction
      *
-     * @ElementName callMeNowDefaultAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
      */
     public function getCallMeNowDefaultAction()
     {
-        return $this->callMeNowDefaultAction;
+        return $this->callMeNowDefaultAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callMeNowDefaultAction;
     }
 
     /**
      * Setter for callMeNowDefaultAction
      *
-     * @ElementName callMeNowDefaultAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null $callMeNowDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction $callMeNowDefaultAction
      * @return $this
      */
     public function setCallMeNowDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction $callMeNowDefaultAction)
@@ -479,73 +595,98 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallMeNowDefaultAction()
+    {
+        $this->callMeNowDefaultAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for callMeNowDefaultCallTimeout
      *
-     * @ElementName callMeNowDefaultCallTimeout
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getCallMeNowDefaultCallTimeout()
     {
-        return $this->callMeNowDefaultCallTimeout;
+        return $this->callMeNowDefaultCallTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callMeNowDefaultCallTimeout;
     }
 
     /**
      * Setter for callMeNowDefaultCallTimeout
      *
-     * @ElementName callMeNowDefaultCallTimeout
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $callMeNowDefaultCallTimeout
+     * @param int|null $callMeNowDefaultCallTimeout
      * @return $this
      */
     public function setCallMeNowDefaultCallTimeout($callMeNowDefaultCallTimeout)
     {
-        $this->callMeNowDefaultCallTimeout = $callMeNowDefaultCallTimeout;
+        if ($callMeNowDefaultCallTimeout === null) {
+            $this->callMeNowDefaultCallTimeout = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callMeNowDefaultCallTimeout = $callMeNowDefaultCallTimeout;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallMeNowDefaultCallTimeout()
+    {
+        $this->callMeNowDefaultCallTimeout = null;
         return $this;
     }
 
     /**
      * Getter for callMeNowRule
      *
-     * @ElementName callMeNowRule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null
      */
     public function getCallMeNowRule()
     {
-        return $this->callMeNowRule;
+        return $this->callMeNowRule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callMeNowRule;
     }
 
     /**
      * Setter for callMeNowRule
      *
-     * @ElementName callMeNowRule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null|\CWM\BroadWorksConnector\Ocip\Nil $callMeNowRule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList|null $callMeNowRule
      * @return $this
      */
     public function setCallMeNowRule(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleList $callMeNowRule)
     {
-        $this->callMeNowRule = $callMeNowRule;
+        if ($callMeNowRule === null) {
+            $this->callMeNowRule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callMeNowRule = $callMeNowRule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallMeNowRule()
+    {
+        $this->callMeNowRule = null;
         return $this;
     }
 
     /**
      * Getter for incomingDefaultAction
      *
-     * @ElementName incomingDefaultAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
      */
     public function getIncomingDefaultAction()
     {
-        return $this->incomingDefaultAction;
+        return $this->incomingDefaultAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingDefaultAction;
     }
 
     /**
      * Setter for incomingDefaultAction
      *
-     * @ElementName incomingDefaultAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null $incomingDefaultAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction $incomingDefaultAction
      * @return $this
      */
     public function setIncomingDefaultAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction $incomingDefaultAction)
@@ -555,73 +696,98 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncomingDefaultAction()
+    {
+        $this->incomingDefaultAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for incomingDefaultCallTimeout
      *
-     * @ElementName incomingDefaultCallTimeout
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getIncomingDefaultCallTimeout()
     {
-        return $this->incomingDefaultCallTimeout;
+        return $this->incomingDefaultCallTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingDefaultCallTimeout;
     }
 
     /**
      * Setter for incomingDefaultCallTimeout
      *
-     * @ElementName incomingDefaultCallTimeout
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $incomingDefaultCallTimeout
+     * @param int|null $incomingDefaultCallTimeout
      * @return $this
      */
     public function setIncomingDefaultCallTimeout($incomingDefaultCallTimeout)
     {
-        $this->incomingDefaultCallTimeout = $incomingDefaultCallTimeout;
+        if ($incomingDefaultCallTimeout === null) {
+            $this->incomingDefaultCallTimeout = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->incomingDefaultCallTimeout = $incomingDefaultCallTimeout;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncomingDefaultCallTimeout()
+    {
+        $this->incomingDefaultCallTimeout = null;
         return $this;
     }
 
     /**
      * Getter for incomingRule
      *
-     * @ElementName incomingRule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null
      */
     public function getIncomingRule()
     {
-        return $this->incomingRule;
+        return $this->incomingRule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingRule;
     }
 
     /**
      * Setter for incomingRule
      *
-     * @ElementName incomingRule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null|\CWM\BroadWorksConnector\Ocip\Nil $incomingRule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1|null $incomingRule
      * @return $this
      */
     public function setIncomingRule(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringIncomingRuleList19sp1 $incomingRule)
     {
-        $this->incomingRule = $incomingRule;
+        if ($incomingRule === null) {
+            $this->incomingRule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->incomingRule = $incomingRule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncomingRule()
+    {
+        $this->incomingRule = null;
         return $this;
     }
 
     /**
      * Getter for becomeDefault
      *
-     * @ElementName becomeDefault
-     * @return bool|null
+     * @return bool
      */
     public function getBecomeDefault()
     {
-        return $this->becomeDefault;
+        return $this->becomeDefault instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->becomeDefault;
     }
 
     /**
      * Setter for becomeDefault
      *
-     * @ElementName becomeDefault
-     * @param bool|null $becomeDefault
+     * @param bool $becomeDefault
      * @return $this
      */
     public function setBecomeDefault($becomeDefault)
@@ -631,26 +797,42 @@ class ServiceProviderCommunicationBarringProfileModifyRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBecomeDefault()
+    {
+        $this->becomeDefault = null;
+        return $this;
+    }
+
+    /**
      * Getter for applyToAttendedCallTransfers
      *
-     * @ElementName applyToAttendedCallTransfers
-     * @return bool|null
+     * @return bool
      */
     public function getApplyToAttendedCallTransfers()
     {
-        return $this->applyToAttendedCallTransfers;
+        return $this->applyToAttendedCallTransfers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applyToAttendedCallTransfers;
     }
 
     /**
      * Setter for applyToAttendedCallTransfers
      *
-     * @ElementName applyToAttendedCallTransfers
-     * @param bool|null $applyToAttendedCallTransfers
+     * @param bool $applyToAttendedCallTransfers
      * @return $this
      */
     public function setApplyToAttendedCallTransfers($applyToAttendedCallTransfers)
     {
         $this->applyToAttendedCallTransfers = $applyToAttendedCallTransfers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplyToAttendedCallTransfers()
+    {
+        $this->applyToAttendedCallTransfers = null;
         return $this;
     }
 

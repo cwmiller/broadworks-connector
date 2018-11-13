@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToNone
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToBusinessTrip
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToGoneForTheDay
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,6 +34,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToLunch
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,6 +42,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToMeeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,6 +50,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToOutOfOffice
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,6 +58,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToTemporarilyOut
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -59,6 +66,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToTraining
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -66,6 +74,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToUnavailable
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -73,6 +82,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName setPresenceToVacation
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -80,12 +90,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -94,279 +106,367 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
     /**
      * Getter for setPresenceToNone
      *
-     * @ElementName setPresenceToNone
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToNone()
     {
-        return $this->setPresenceToNone;
+        return $this->setPresenceToNone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToNone;
     }
 
     /**
      * Setter for setPresenceToNone
      *
-     * @ElementName setPresenceToNone
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToNone
+     * @param string|null $setPresenceToNone
      * @return $this
      */
     public function setSetPresenceToNone($setPresenceToNone)
     {
-        $this->setPresenceToNone = $setPresenceToNone;
+        if ($setPresenceToNone === null) {
+            $this->setPresenceToNone = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToNone = $setPresenceToNone;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToNone()
+    {
+        $this->setPresenceToNone = null;
         return $this;
     }
 
     /**
      * Getter for setPresenceToBusinessTrip
      *
-     * @ElementName setPresenceToBusinessTrip
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToBusinessTrip()
     {
-        return $this->setPresenceToBusinessTrip;
+        return $this->setPresenceToBusinessTrip instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToBusinessTrip;
     }
 
     /**
      * Setter for setPresenceToBusinessTrip
      *
-     * @ElementName setPresenceToBusinessTrip
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToBusinessTrip
+     * @param string|null $setPresenceToBusinessTrip
      * @return $this
      */
     public function setSetPresenceToBusinessTrip($setPresenceToBusinessTrip)
     {
-        $this->setPresenceToBusinessTrip = $setPresenceToBusinessTrip;
+        if ($setPresenceToBusinessTrip === null) {
+            $this->setPresenceToBusinessTrip = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToBusinessTrip = $setPresenceToBusinessTrip;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToBusinessTrip()
+    {
+        $this->setPresenceToBusinessTrip = null;
         return $this;
     }
 
     /**
      * Getter for setPresenceToGoneForTheDay
      *
-     * @ElementName setPresenceToGoneForTheDay
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToGoneForTheDay()
     {
-        return $this->setPresenceToGoneForTheDay;
+        return $this->setPresenceToGoneForTheDay instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToGoneForTheDay;
     }
 
     /**
      * Setter for setPresenceToGoneForTheDay
      *
-     * @ElementName setPresenceToGoneForTheDay
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToGoneForTheDay
+     * @param string|null $setPresenceToGoneForTheDay
      * @return $this
      */
     public function setSetPresenceToGoneForTheDay($setPresenceToGoneForTheDay)
     {
-        $this->setPresenceToGoneForTheDay = $setPresenceToGoneForTheDay;
+        if ($setPresenceToGoneForTheDay === null) {
+            $this->setPresenceToGoneForTheDay = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToGoneForTheDay = $setPresenceToGoneForTheDay;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToGoneForTheDay()
+    {
+        $this->setPresenceToGoneForTheDay = null;
         return $this;
     }
 
     /**
      * Getter for setPresenceToLunch
      *
-     * @ElementName setPresenceToLunch
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToLunch()
     {
-        return $this->setPresenceToLunch;
+        return $this->setPresenceToLunch instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToLunch;
     }
 
     /**
      * Setter for setPresenceToLunch
      *
-     * @ElementName setPresenceToLunch
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToLunch
+     * @param string|null $setPresenceToLunch
      * @return $this
      */
     public function setSetPresenceToLunch($setPresenceToLunch)
     {
-        $this->setPresenceToLunch = $setPresenceToLunch;
+        if ($setPresenceToLunch === null) {
+            $this->setPresenceToLunch = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToLunch = $setPresenceToLunch;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToLunch()
+    {
+        $this->setPresenceToLunch = null;
         return $this;
     }
 
     /**
      * Getter for setPresenceToMeeting
      *
-     * @ElementName setPresenceToMeeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToMeeting()
     {
-        return $this->setPresenceToMeeting;
+        return $this->setPresenceToMeeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToMeeting;
     }
 
     /**
      * Setter for setPresenceToMeeting
      *
-     * @ElementName setPresenceToMeeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToMeeting
+     * @param string|null $setPresenceToMeeting
      * @return $this
      */
     public function setSetPresenceToMeeting($setPresenceToMeeting)
     {
-        $this->setPresenceToMeeting = $setPresenceToMeeting;
+        if ($setPresenceToMeeting === null) {
+            $this->setPresenceToMeeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToMeeting = $setPresenceToMeeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToMeeting()
+    {
+        $this->setPresenceToMeeting = null;
         return $this;
     }
 
     /**
      * Getter for setPresenceToOutOfOffice
      *
-     * @ElementName setPresenceToOutOfOffice
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToOutOfOffice()
     {
-        return $this->setPresenceToOutOfOffice;
+        return $this->setPresenceToOutOfOffice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToOutOfOffice;
     }
 
     /**
      * Setter for setPresenceToOutOfOffice
      *
-     * @ElementName setPresenceToOutOfOffice
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToOutOfOffice
+     * @param string|null $setPresenceToOutOfOffice
      * @return $this
      */
     public function setSetPresenceToOutOfOffice($setPresenceToOutOfOffice)
     {
-        $this->setPresenceToOutOfOffice = $setPresenceToOutOfOffice;
+        if ($setPresenceToOutOfOffice === null) {
+            $this->setPresenceToOutOfOffice = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToOutOfOffice = $setPresenceToOutOfOffice;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToOutOfOffice()
+    {
+        $this->setPresenceToOutOfOffice = null;
         return $this;
     }
 
     /**
      * Getter for setPresenceToTemporarilyOut
      *
-     * @ElementName setPresenceToTemporarilyOut
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToTemporarilyOut()
     {
-        return $this->setPresenceToTemporarilyOut;
+        return $this->setPresenceToTemporarilyOut instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToTemporarilyOut;
     }
 
     /**
      * Setter for setPresenceToTemporarilyOut
      *
-     * @ElementName setPresenceToTemporarilyOut
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToTemporarilyOut
+     * @param string|null $setPresenceToTemporarilyOut
      * @return $this
      */
     public function setSetPresenceToTemporarilyOut($setPresenceToTemporarilyOut)
     {
-        $this->setPresenceToTemporarilyOut = $setPresenceToTemporarilyOut;
+        if ($setPresenceToTemporarilyOut === null) {
+            $this->setPresenceToTemporarilyOut = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToTemporarilyOut = $setPresenceToTemporarilyOut;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToTemporarilyOut()
+    {
+        $this->setPresenceToTemporarilyOut = null;
         return $this;
     }
 
     /**
      * Getter for setPresenceToTraining
      *
-     * @ElementName setPresenceToTraining
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToTraining()
     {
-        return $this->setPresenceToTraining;
+        return $this->setPresenceToTraining instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToTraining;
     }
 
     /**
      * Setter for setPresenceToTraining
      *
-     * @ElementName setPresenceToTraining
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToTraining
+     * @param string|null $setPresenceToTraining
      * @return $this
      */
     public function setSetPresenceToTraining($setPresenceToTraining)
     {
-        $this->setPresenceToTraining = $setPresenceToTraining;
+        if ($setPresenceToTraining === null) {
+            $this->setPresenceToTraining = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToTraining = $setPresenceToTraining;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToTraining()
+    {
+        $this->setPresenceToTraining = null;
         return $this;
     }
 
     /**
      * Getter for setPresenceToUnavailable
      *
-     * @ElementName setPresenceToUnavailable
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToUnavailable()
     {
-        return $this->setPresenceToUnavailable;
+        return $this->setPresenceToUnavailable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToUnavailable;
     }
 
     /**
      * Setter for setPresenceToUnavailable
      *
-     * @ElementName setPresenceToUnavailable
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToUnavailable
+     * @param string|null $setPresenceToUnavailable
      * @return $this
      */
     public function setSetPresenceToUnavailable($setPresenceToUnavailable)
     {
-        $this->setPresenceToUnavailable = $setPresenceToUnavailable;
+        if ($setPresenceToUnavailable === null) {
+            $this->setPresenceToUnavailable = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToUnavailable = $setPresenceToUnavailable;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToUnavailable()
+    {
+        $this->setPresenceToUnavailable = null;
         return $this;
     }
 
     /**
      * Getter for setPresenceToVacation
      *
-     * @ElementName setPresenceToVacation
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSetPresenceToVacation()
     {
-        return $this->setPresenceToVacation;
+        return $this->setPresenceToVacation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setPresenceToVacation;
     }
 
     /**
      * Setter for setPresenceToVacation
      *
-     * @ElementName setPresenceToVacation
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $setPresenceToVacation
+     * @param string|null $setPresenceToVacation
      * @return $this
      */
     public function setSetPresenceToVacation($setPresenceToVacation)
     {
-        $this->setPresenceToVacation = $setPresenceToVacation;
+        if ($setPresenceToVacation === null) {
+            $this->setPresenceToVacation = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->setPresenceToVacation = $setPresenceToVacation;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetPresenceToVacation()
+    {
+        $this->setPresenceToVacation = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -376,28 +476,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19PersonalAssistantM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

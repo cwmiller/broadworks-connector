@@ -16,12 +16,15 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName domain
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $domain = array(
@@ -31,19 +34,17 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,20 +54,27 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for domain
      *
-     * @ElementName domain
      * @return string[]
      */
     public function getDomain()
     {
-        return $this->domain;
+        return $this->domain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->domain;
     }
 
     /**
      * Setter for domain
      *
-     * @ElementName domain
      * @param string[] $domain
      * @return $this
      */
@@ -77,15 +85,23 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDomain()
+    {
+        $this->domain = null;
+        return $this;
+    }
+
+    /**
      * Adder for domain
      *
-     * @ElementName domain
      * @param string $domain
      * @return $this
      */
     public function addDomain(string $domain)
     {
-        $this->domain []= $domain;
+        $this->domain[] = $domain;
         return $this;
     }
 

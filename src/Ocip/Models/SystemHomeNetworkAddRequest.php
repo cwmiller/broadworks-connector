@@ -16,6 +16,7 @@ class SystemHomeNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName mscAddress
+     * @Type string
      * @var string|null
      */
     private $mscAddress = null;
@@ -23,24 +24,31 @@ class SystemHomeNetworkAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for mscAddress
      *
-     * @ElementName mscAddress
-     * @return string|null
+     * @return string
      */
     public function getMscAddress()
     {
-        return $this->mscAddress;
+        return $this->mscAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mscAddress;
     }
 
     /**
      * Setter for mscAddress
      *
-     * @ElementName mscAddress
-     * @param string|null $mscAddress
+     * @param string $mscAddress
      * @return $this
      */
     public function setMscAddress($mscAddress)
     {
         $this->mscAddress = $mscAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMscAddress()
+    {
+        $this->mscAddress = null;
         return $this;
     }
 

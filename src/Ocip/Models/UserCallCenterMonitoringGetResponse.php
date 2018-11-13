@@ -14,6 +14,7 @@ class UserCallCenterMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName playToneToAgentForSilentMonitoring
+     * @Type bool
      * @var bool|null
      */
     private $playToneToAgentForSilentMonitoring = null;
@@ -21,24 +22,31 @@ class UserCallCenterMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for playToneToAgentForSilentMonitoring
      *
-     * @ElementName playToneToAgentForSilentMonitoring
-     * @return bool|null
+     * @return bool
      */
     public function getPlayToneToAgentForSilentMonitoring()
     {
-        return $this->playToneToAgentForSilentMonitoring;
+        return $this->playToneToAgentForSilentMonitoring instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playToneToAgentForSilentMonitoring;
     }
 
     /**
      * Setter for playToneToAgentForSilentMonitoring
      *
-     * @ElementName playToneToAgentForSilentMonitoring
-     * @param bool|null $playToneToAgentForSilentMonitoring
+     * @param bool $playToneToAgentForSilentMonitoring
      * @return $this
      */
     public function setPlayToneToAgentForSilentMonitoring($playToneToAgentForSilentMonitoring)
     {
         $this->playToneToAgentForSilentMonitoring = $playToneToAgentForSilentMonitoring;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayToneToAgentForSilentMonitoring()
+    {
+        $this->playToneToAgentForSilentMonitoring = null;
         return $this;
     }
 

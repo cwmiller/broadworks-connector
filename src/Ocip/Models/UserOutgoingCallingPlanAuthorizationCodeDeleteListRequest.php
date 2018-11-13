@@ -16,12 +16,15 @@ class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\Bro
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName code
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $code = array(
@@ -31,19 +34,17 @@ class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\Bro
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for code
      *
-     * @ElementName code
      * @return string[]
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->code;
     }
 
     /**
      * Setter for code
      *
-     * @ElementName code
      * @param string[] $code
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserOutgoingCallingPlanAuthorizationCodeDeleteListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCode()
+    {
+        $this->code = null;
+        return $this;
+    }
+
+    /**
      * Adder for code
      *
-     * @ElementName code
      * @param string $code
      * @return $this
      */
     public function addCode(string $code)
     {
-        $this->code []= $code;
+        $this->code[] = $code;
         return $this;
     }
 

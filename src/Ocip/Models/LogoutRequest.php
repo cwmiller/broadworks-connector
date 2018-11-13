@@ -19,12 +19,14 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName reason
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason
      * @var \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason|null
      */
     private $reason = null;
@@ -32,19 +34,17 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -54,26 +54,42 @@ class LogoutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for reason
      *
-     * @ElementName reason
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason
      */
     public function getReason()
     {
-        return $this->reason;
+        return $this->reason instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reason;
     }
 
     /**
      * Setter for reason
      *
-     * @ElementName reason
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason|null $reason
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason $reason
      * @return $this
      */
     public function setReason(\CWM\BroadWorksConnector\Ocip\Models\LogoutRequestReason $reason)
     {
         $this->reason = $reason;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReason()
+    {
+        $this->reason = null;
         return $this;
     }
 

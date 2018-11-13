@@ -16,6 +16,7 @@ class SystemRoutingGetTranslationListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName routingTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routingTable = null;
@@ -23,24 +24,31 @@ class SystemRoutingGetTranslationListResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for routingTable
      *
-     * @ElementName routingTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRoutingTable()
     {
-        return $this->routingTable;
+        return $this->routingTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routingTable;
     }
 
     /**
      * Setter for routingTable
      *
-     * @ElementName routingTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routingTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routingTable
      * @return $this
      */
     public function setRoutingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routingTable)
     {
         $this->routingTable = $routingTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoutingTable()
+    {
+        $this->routingTable = null;
         return $this;
     }
 

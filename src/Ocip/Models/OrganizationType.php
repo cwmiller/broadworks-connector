@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static OrganizationType SERVICE_PROVIDER()
  * @method static OrganizationType ENTERPRISE()
- * @ValueType string
+ * @EnumValueType string
  */
 class OrganizationType extends \MyCLabs\Enum\Enum
 {

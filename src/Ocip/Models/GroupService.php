@@ -38,7 +38,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupService TRUNK_GROUP()
  * @method static GroupService VOICE_MESSAGING_GROUP()
  * @method static GroupService VOICEXML()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupService extends \MyCLabs\Enum\Enum
 {

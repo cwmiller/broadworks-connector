@@ -27,7 +27,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static VoiceMessagingNumberOfRings _18()
  * @method static VoiceMessagingNumberOfRings _19()
  * @method static VoiceMessagingNumberOfRings _20()
- * @ValueType int
+ * @EnumValueType int
  */
 class VoiceMessagingNumberOfRings extends \MyCLabs\Enum\Enum
 {

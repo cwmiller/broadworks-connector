@@ -17,12 +17,14 @@ class ServiceProviderServicePackGetServiceUsageListRequest extends \CWM\BroadWor
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName serviceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $serviceName = null;
@@ -30,19 +32,17 @@ class ServiceProviderServicePackGetServiceUsageListRequest extends \CWM\BroadWor
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -52,26 +52,42 @@ class ServiceProviderServicePackGetServiceUsageListRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceName
      *
-     * @ElementName serviceName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService
      */
     public function getServiceName()
     {
-        return $this->serviceName;
+        return $this->serviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceName;
     }
 
     /**
      * Setter for serviceName
      *
-     * @ElementName serviceName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService|null $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $serviceName
      * @return $this
      */
     public function setServiceName(\CWM\BroadWorksConnector\Ocip\Models\UserService $serviceName)
     {
         $this->serviceName = $serviceName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceName()
+    {
+        $this->serviceName = null;
         return $this;
     }
 

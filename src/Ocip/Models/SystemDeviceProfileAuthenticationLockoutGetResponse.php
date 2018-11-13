@@ -20,6 +20,7 @@ class SystemDeviceProfileAuthenticationLockoutGetResponse extends \CWM\BroadWork
 
     /**
      * @ElementName lockoutTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $lockoutTable = null;
@@ -27,24 +28,31 @@ class SystemDeviceProfileAuthenticationLockoutGetResponse extends \CWM\BroadWork
     /**
      * Getter for lockoutTable
      *
-     * @ElementName lockoutTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getLockoutTable()
     {
-        return $this->lockoutTable;
+        return $this->lockoutTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lockoutTable;
     }
 
     /**
      * Setter for lockoutTable
      *
-     * @ElementName lockoutTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $lockoutTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $lockoutTable
      * @return $this
      */
     public function setLockoutTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $lockoutTable)
     {
         $this->lockoutTable = $lockoutTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLockoutTable()
+    {
+        $this->lockoutTable = null;
         return $this;
     }
 

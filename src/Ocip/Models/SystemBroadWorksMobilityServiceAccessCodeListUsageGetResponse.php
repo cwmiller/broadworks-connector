@@ -14,6 +14,8 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM
 
     /**
      * @ElementName mobileNetworkName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $mobileNetworkName = array(
@@ -23,18 +25,16 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM
     /**
      * Getter for mobileNetworkName
      *
-     * @ElementName mobileNetworkName
      * @return string[]
      */
     public function getMobileNetworkName()
     {
-        return $this->mobileNetworkName;
+        return $this->mobileNetworkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileNetworkName;
     }
 
     /**
      * Setter for mobileNetworkName
      *
-     * @ElementName mobileNetworkName
      * @param string[] $mobileNetworkName
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileNetworkName()
+    {
+        $this->mobileNetworkName = null;
+        return $this;
+    }
+
+    /**
      * Adder for mobileNetworkName
      *
-     * @ElementName mobileNetworkName
      * @param string $mobileNetworkName
      * @return $this
      */
     public function addMobileNetworkName(string $mobileNetworkName)
     {
-        $this->mobileNetworkName []= $mobileNetworkName;
+        $this->mobileNetworkName[] = $mobileNetworkName;
         return $this;
     }
 

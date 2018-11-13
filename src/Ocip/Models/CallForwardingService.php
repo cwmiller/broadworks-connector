@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallForwardingService CALL_FORWARDING_NO_ANSWER()
  * @method static CallForwardingService CALL_FORWARDING_NOT_REACHABLE()
  * @method static CallForwardingService CALL_FORWARDING_SELECTIVE()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallForwardingService extends \MyCLabs\Enum\Enum
 {

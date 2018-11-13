@@ -17,6 +17,7 @@ class ServiceProviderPreferredCarrierGetListResponse extends \CWM\BroadWorksConn
 
     /**
      * @ElementName serviceProviderCarrierTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderCarrierTable = null;
@@ -24,24 +25,31 @@ class ServiceProviderPreferredCarrierGetListResponse extends \CWM\BroadWorksConn
     /**
      * Getter for serviceProviderCarrierTable
      *
-     * @ElementName serviceProviderCarrierTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServiceProviderCarrierTable()
     {
-        return $this->serviceProviderCarrierTable;
+        return $this->serviceProviderCarrierTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderCarrierTable;
     }
 
     /**
      * Setter for serviceProviderCarrierTable
      *
-     * @ElementName serviceProviderCarrierTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderCarrierTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderCarrierTable
      * @return $this
      */
     public function setServiceProviderCarrierTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderCarrierTable)
     {
         $this->serviceProviderCarrierTable = $serviceProviderCarrierTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceProviderCarrierTable()
+    {
+        $this->serviceProviderCarrierTable = null;
         return $this;
     }
 

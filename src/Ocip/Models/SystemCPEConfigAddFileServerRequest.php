@@ -18,36 +18,42 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName ftpHostNetAddress
+     * @Type string
      * @var string|null
      */
     private $ftpHostNetAddress = null;
 
     /**
      * @ElementName ftpUserId
+     * @Type string
      * @var string|null
      */
     private $ftpUserId = null;
 
     /**
      * @ElementName ftpUserPassword
+     * @Type string
      * @var string|null
      */
     private $ftpUserPassword = null;
 
     /**
      * @ElementName cpeFileDirectory
+     * @Type string
      * @var string|null
      */
     private $cpeFileDirectory = null;
 
     /**
      * @ElementName passiveFTP
+     * @Type bool
      * @var bool|null
      */
     private $passiveFTP = null;
@@ -55,19 +61,17 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -77,21 +81,28 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpHostNetAddress
      *
-     * @ElementName ftpHostNetAddress
-     * @return string|null
+     * @return string
      */
     public function getFtpHostNetAddress()
     {
-        return $this->ftpHostNetAddress;
+        return $this->ftpHostNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpHostNetAddress;
     }
 
     /**
      * Setter for ftpHostNetAddress
      *
-     * @ElementName ftpHostNetAddress
-     * @param string|null $ftpHostNetAddress
+     * @param string $ftpHostNetAddress
      * @return $this
      */
     public function setFtpHostNetAddress($ftpHostNetAddress)
@@ -101,21 +112,28 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpHostNetAddress()
+    {
+        $this->ftpHostNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpUserId
      *
-     * @ElementName ftpUserId
-     * @return string|null
+     * @return string
      */
     public function getFtpUserId()
     {
-        return $this->ftpUserId;
+        return $this->ftpUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpUserId;
     }
 
     /**
      * Setter for ftpUserId
      *
-     * @ElementName ftpUserId
-     * @param string|null $ftpUserId
+     * @param string $ftpUserId
      * @return $this
      */
     public function setFtpUserId($ftpUserId)
@@ -125,21 +143,28 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpUserId()
+    {
+        $this->ftpUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpUserPassword
      *
-     * @ElementName ftpUserPassword
-     * @return string|null
+     * @return string
      */
     public function getFtpUserPassword()
     {
-        return $this->ftpUserPassword;
+        return $this->ftpUserPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpUserPassword;
     }
 
     /**
      * Setter for ftpUserPassword
      *
-     * @ElementName ftpUserPassword
-     * @param string|null $ftpUserPassword
+     * @param string $ftpUserPassword
      * @return $this
      */
     public function setFtpUserPassword($ftpUserPassword)
@@ -149,21 +174,28 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpUserPassword()
+    {
+        $this->ftpUserPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for cpeFileDirectory
      *
-     * @ElementName cpeFileDirectory
-     * @return string|null
+     * @return string
      */
     public function getCpeFileDirectory()
     {
-        return $this->cpeFileDirectory;
+        return $this->cpeFileDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cpeFileDirectory;
     }
 
     /**
      * Setter for cpeFileDirectory
      *
-     * @ElementName cpeFileDirectory
-     * @param string|null $cpeFileDirectory
+     * @param string $cpeFileDirectory
      * @return $this
      */
     public function setCpeFileDirectory($cpeFileDirectory)
@@ -173,26 +205,42 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCpeFileDirectory()
+    {
+        $this->cpeFileDirectory = null;
+        return $this;
+    }
+
+    /**
      * Getter for passiveFTP
      *
-     * @ElementName passiveFTP
-     * @return bool|null
+     * @return bool
      */
     public function getPassiveFTP()
     {
-        return $this->passiveFTP;
+        return $this->passiveFTP instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passiveFTP;
     }
 
     /**
      * Setter for passiveFTP
      *
-     * @ElementName passiveFTP
-     * @param bool|null $passiveFTP
+     * @param bool $passiveFTP
      * @return $this
      */
     public function setPassiveFTP($passiveFTP)
     {
         $this->passiveFTP = $passiveFTP;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPassiveFTP()
+    {
+        $this->passiveFTP = null;
         return $this;
     }
 

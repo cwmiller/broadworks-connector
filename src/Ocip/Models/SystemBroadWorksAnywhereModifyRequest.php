@@ -16,6 +16,7 @@ class SystemBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName enableTransferNotification
+     * @Type bool
      * @var bool|null
      */
     private $enableTransferNotification = null;
@@ -23,24 +24,31 @@ class SystemBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for enableTransferNotification
      *
-     * @ElementName enableTransferNotification
-     * @return bool|null
+     * @return bool
      */
     public function getEnableTransferNotification()
     {
-        return $this->enableTransferNotification;
+        return $this->enableTransferNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableTransferNotification;
     }
 
     /**
      * Setter for enableTransferNotification
      *
-     * @ElementName enableTransferNotification
-     * @param bool|null $enableTransferNotification
+     * @param bool $enableTransferNotification
      * @return $this
      */
     public function setEnableTransferNotification($enableTransferNotification)
     {
         $this->enableTransferNotification = $enableTransferNotification;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableTransferNotification()
+    {
+        $this->enableTransferNotification = null;
         return $this;
     }
 

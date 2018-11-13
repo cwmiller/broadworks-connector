@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static BwDiameterPeerInstance XS()
  * @method static BwDiameterPeerInstance PS()
- * @ValueType string
+ * @EnumValueType string
  */
 class BwDiameterPeerInstance extends \MyCLabs\Enum\Enum
 {

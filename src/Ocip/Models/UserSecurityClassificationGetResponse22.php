@@ -17,12 +17,14 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName securityClassification
+     * @Type string
      * @var string|null
      */
     private $securityClassification = null;
 
     /**
      * @ElementName customizedSecurityClassification
+     * @Type string
      * @var string|null
      */
     private $customizedSecurityClassification = null;
@@ -30,19 +32,17 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
     /**
      * Getter for securityClassification
      *
-     * @ElementName securityClassification
-     * @return string|null
+     * @return string
      */
     public function getSecurityClassification()
     {
-        return $this->securityClassification;
+        return $this->securityClassification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityClassification;
     }
 
     /**
      * Setter for securityClassification
      *
-     * @ElementName securityClassification
-     * @param string|null $securityClassification
+     * @param string $securityClassification
      * @return $this
      */
     public function setSecurityClassification($securityClassification)
@@ -52,26 +52,42 @@ class UserSecurityClassificationGetResponse22 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecurityClassification()
+    {
+        $this->securityClassification = null;
+        return $this;
+    }
+
+    /**
      * Getter for customizedSecurityClassification
      *
-     * @ElementName customizedSecurityClassification
-     * @return string|null
+     * @return string
      */
     public function getCustomizedSecurityClassification()
     {
-        return $this->customizedSecurityClassification;
+        return $this->customizedSecurityClassification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->customizedSecurityClassification;
     }
 
     /**
      * Setter for customizedSecurityClassification
      *
-     * @ElementName customizedSecurityClassification
-     * @param string|null $customizedSecurityClassification
+     * @param string $customizedSecurityClassification
      * @return $this
      */
     public function setCustomizedSecurityClassification($customizedSecurityClassification)
     {
         $this->customizedSecurityClassification = $customizedSecurityClassification;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCustomizedSecurityClassification()
+    {
+        $this->customizedSecurityClassification = null;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static VoicePortalExternalRoutingScope SYSTEM()
  * @method static VoicePortalExternalRoutingScope GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class VoicePortalExternalRoutingScope extends \MyCLabs\Enum\Enum
 {

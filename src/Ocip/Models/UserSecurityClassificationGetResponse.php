@@ -14,6 +14,7 @@ class UserSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName securityClassification
+     * @Type string
      * @var string|null
      */
     private $securityClassification = null;
@@ -21,24 +22,31 @@ class UserSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for securityClassification
      *
-     * @ElementName securityClassification
-     * @return string|null
+     * @return string
      */
     public function getSecurityClassification()
     {
-        return $this->securityClassification;
+        return $this->securityClassification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityClassification;
     }
 
     /**
      * Setter for securityClassification
      *
-     * @ElementName securityClassification
-     * @param string|null $securityClassification
+     * @param string $securityClassification
      * @return $this
      */
     public function setSecurityClassification($securityClassification)
     {
         $this->securityClassification = $securityClassification;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecurityClassification()
+    {
+        $this->securityClassification = null;
         return $this;
     }
 

@@ -16,12 +16,15 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeDeleteListRequest extend
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName numberRangeStart
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $numberRangeStart = array(
@@ -31,19 +34,17 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeDeleteListRequest extend
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,20 +54,27 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeDeleteListRequest extend
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberRangeStart
      *
-     * @ElementName numberRangeStart
      * @return string[]
      */
     public function getNumberRangeStart()
     {
-        return $this->numberRangeStart;
+        return $this->numberRangeStart instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberRangeStart;
     }
 
     /**
      * Setter for numberRangeStart
      *
-     * @ElementName numberRangeStart
      * @param string[] $numberRangeStart
      * @return $this
      */
@@ -77,15 +85,23 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeDeleteListRequest extend
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberRangeStart()
+    {
+        $this->numberRangeStart = null;
+        return $this;
+    }
+
+    /**
      * Adder for numberRangeStart
      *
-     * @ElementName numberRangeStart
      * @param string $numberRangeStart
      * @return $this
      */
     public function addNumberRangeStart(string $numberRangeStart)
     {
-        $this->numberRangeStart []= $numberRangeStart;
+        $this->numberRangeStart[] = $numberRangeStart;
         return $this;
     }
 

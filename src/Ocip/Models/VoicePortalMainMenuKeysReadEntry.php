@@ -12,72 +12,84 @@ class VoicePortalMainMenuKeysReadEntry
 
     /**
      * @ElementName voiceMessaging
+     * @Type string
      * @var string|null
      */
     private $voiceMessaging = null;
 
     /**
      * @ElementName commPilotExpressProfile
+     * @Type string
      * @var string|null
      */
     private $commPilotExpressProfile = null;
 
     /**
      * @ElementName greetings
+     * @Type string
      * @var string|null
      */
     private $greetings = null;
 
     /**
      * @ElementName callForwardingOptions
+     * @Type string
      * @var string|null
      */
     private $callForwardingOptions = null;
 
     /**
      * @ElementName voicePortalCalling
+     * @Type string
      * @var string|null
      */
     private $voicePortalCalling = null;
 
     /**
      * @ElementName hoteling
+     * @Type string
      * @var string|null
      */
     private $hoteling = null;
 
     /**
      * @ElementName passcode
+     * @Type string
      * @var string|null
      */
     private $passcode = null;
 
     /**
      * @ElementName exitVoicePortal
+     * @Type string
      * @var string|null
      */
     private $exitVoicePortal = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
 
     /**
      * @ElementName externalRouting
+     * @Type string
      * @var string|null
      */
     private $externalRouting = null;
 
     /**
      * @ElementName announcement
+     * @Type string
      * @var string|null
      */
     private $announcement = null;
 
     /**
      * @ElementName personalAssistant
+     * @Type string
      * @var string|null
      */
     private $personalAssistant = null;
@@ -85,19 +97,17 @@ class VoicePortalMainMenuKeysReadEntry
     /**
      * Getter for voiceMessaging
      *
-     * @ElementName voiceMessaging
-     * @return string|null
+     * @return string
      */
     public function getVoiceMessaging()
     {
-        return $this->voiceMessaging;
+        return $this->voiceMessaging instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessaging;
     }
 
     /**
      * Setter for voiceMessaging
      *
-     * @ElementName voiceMessaging
-     * @param string|null $voiceMessaging
+     * @param string $voiceMessaging
      * @return $this
      */
     public function setVoiceMessaging($voiceMessaging)
@@ -107,21 +117,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessaging()
+    {
+        $this->voiceMessaging = null;
+        return $this;
+    }
+
+    /**
      * Getter for commPilotExpressProfile
      *
-     * @ElementName commPilotExpressProfile
-     * @return string|null
+     * @return string
      */
     public function getCommPilotExpressProfile()
     {
-        return $this->commPilotExpressProfile;
+        return $this->commPilotExpressProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->commPilotExpressProfile;
     }
 
     /**
      * Setter for commPilotExpressProfile
      *
-     * @ElementName commPilotExpressProfile
-     * @param string|null $commPilotExpressProfile
+     * @param string $commPilotExpressProfile
      * @return $this
      */
     public function setCommPilotExpressProfile($commPilotExpressProfile)
@@ -131,21 +148,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCommPilotExpressProfile()
+    {
+        $this->commPilotExpressProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for greetings
      *
-     * @ElementName greetings
-     * @return string|null
+     * @return string
      */
     public function getGreetings()
     {
-        return $this->greetings;
+        return $this->greetings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->greetings;
     }
 
     /**
      * Setter for greetings
      *
-     * @ElementName greetings
-     * @param string|null $greetings
+     * @param string $greetings
      * @return $this
      */
     public function setGreetings($greetings)
@@ -155,21 +179,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGreetings()
+    {
+        $this->greetings = null;
+        return $this;
+    }
+
+    /**
      * Getter for callForwardingOptions
      *
-     * @ElementName callForwardingOptions
-     * @return string|null
+     * @return string
      */
     public function getCallForwardingOptions()
     {
-        return $this->callForwardingOptions;
+        return $this->callForwardingOptions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callForwardingOptions;
     }
 
     /**
      * Setter for callForwardingOptions
      *
-     * @ElementName callForwardingOptions
-     * @param string|null $callForwardingOptions
+     * @param string $callForwardingOptions
      * @return $this
      */
     public function setCallForwardingOptions($callForwardingOptions)
@@ -179,21 +210,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallForwardingOptions()
+    {
+        $this->callForwardingOptions = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalCalling
      *
-     * @ElementName voicePortalCalling
-     * @return string|null
+     * @return string
      */
     public function getVoicePortalCalling()
     {
-        return $this->voicePortalCalling;
+        return $this->voicePortalCalling instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalCalling;
     }
 
     /**
      * Setter for voicePortalCalling
      *
-     * @ElementName voicePortalCalling
-     * @param string|null $voicePortalCalling
+     * @param string $voicePortalCalling
      * @return $this
      */
     public function setVoicePortalCalling($voicePortalCalling)
@@ -203,21 +241,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalCalling()
+    {
+        $this->voicePortalCalling = null;
+        return $this;
+    }
+
+    /**
      * Getter for hoteling
      *
-     * @ElementName hoteling
-     * @return string|null
+     * @return string
      */
     public function getHoteling()
     {
-        return $this->hoteling;
+        return $this->hoteling instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hoteling;
     }
 
     /**
      * Setter for hoteling
      *
-     * @ElementName hoteling
-     * @param string|null $hoteling
+     * @param string $hoteling
      * @return $this
      */
     public function setHoteling($hoteling)
@@ -227,21 +272,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHoteling()
+    {
+        $this->hoteling = null;
+        return $this;
+    }
+
+    /**
      * Getter for passcode
      *
-     * @ElementName passcode
-     * @return string|null
+     * @return string
      */
     public function getPasscode()
     {
-        return $this->passcode;
+        return $this->passcode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcode;
     }
 
     /**
      * Setter for passcode
      *
-     * @ElementName passcode
-     * @param string|null $passcode
+     * @param string $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -251,21 +303,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasscode()
+    {
+        $this->passcode = null;
+        return $this;
+    }
+
+    /**
      * Getter for exitVoicePortal
      *
-     * @ElementName exitVoicePortal
-     * @return string|null
+     * @return string
      */
     public function getExitVoicePortal()
     {
-        return $this->exitVoicePortal;
+        return $this->exitVoicePortal instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exitVoicePortal;
     }
 
     /**
      * Setter for exitVoicePortal
      *
-     * @ElementName exitVoicePortal
-     * @param string|null $exitVoicePortal
+     * @param string $exitVoicePortal
      * @return $this
      */
     public function setExitVoicePortal($exitVoicePortal)
@@ -275,21 +334,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExitVoicePortal()
+    {
+        $this->exitVoicePortal = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
@@ -299,21 +365,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for externalRouting
      *
-     * @ElementName externalRouting
-     * @return string|null
+     * @return string
      */
     public function getExternalRouting()
     {
-        return $this->externalRouting;
+        return $this->externalRouting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalRouting;
     }
 
     /**
      * Setter for externalRouting
      *
-     * @ElementName externalRouting
-     * @param string|null $externalRouting
+     * @param string $externalRouting
      * @return $this
      */
     public function setExternalRouting($externalRouting)
@@ -323,21 +396,28 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExternalRouting()
+    {
+        $this->externalRouting = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcement
      *
-     * @ElementName announcement
-     * @return string|null
+     * @return string
      */
     public function getAnnouncement()
     {
-        return $this->announcement;
+        return $this->announcement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcement;
     }
 
     /**
      * Setter for announcement
      *
-     * @ElementName announcement
-     * @param string|null $announcement
+     * @param string $announcement
      * @return $this
      */
     public function setAnnouncement($announcement)
@@ -347,26 +427,42 @@ class VoicePortalMainMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncement()
+    {
+        $this->announcement = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalAssistant
      *
-     * @ElementName personalAssistant
-     * @return string|null
+     * @return string
      */
     public function getPersonalAssistant()
     {
-        return $this->personalAssistant;
+        return $this->personalAssistant instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalAssistant;
     }
 
     /**
      * Setter for personalAssistant
      *
-     * @ElementName personalAssistant
-     * @param string|null $personalAssistant
+     * @param string $personalAssistant
      * @return $this
      */
     public function setPersonalAssistant($personalAssistant)
     {
         $this->personalAssistant = $personalAssistant;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPersonalAssistant()
+    {
+        $this->personalAssistant = null;
         return $this;
     }
 

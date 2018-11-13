@@ -15,6 +15,7 @@ class SystemAccountingGetRadiusServerListResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName radiusServerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $radiusServerTable = null;
@@ -22,24 +23,31 @@ class SystemAccountingGetRadiusServerListResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for radiusServerTable
      *
-     * @ElementName radiusServerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRadiusServerTable()
     {
-        return $this->radiusServerTable;
+        return $this->radiusServerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->radiusServerTable;
     }
 
     /**
      * Setter for radiusServerTable
      *
-     * @ElementName radiusServerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $radiusServerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $radiusServerTable
      * @return $this
      */
     public function setRadiusServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $radiusServerTable)
     {
         $this->radiusServerTable = $radiusServerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRadiusServerTable()
+    {
+        $this->radiusServerTable = null;
         return $this;
     }
 

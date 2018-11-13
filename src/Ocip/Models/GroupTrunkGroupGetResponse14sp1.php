@@ -16,24 +16,28 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName maxActiveCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxActiveCalls = null;
 
     /**
      * @ElementName maxAvailableActiveCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxAvailableActiveCalls = null;
 
     /**
      * @ElementName burstingMaxActiveCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxActiveCalls = null;
 
     /**
      * @ElementName burstingMaxAvailableActiveCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxAvailableActiveCalls = null;
@@ -41,19 +45,17 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for maxActiveCalls
      *
-     * @ElementName maxActiveCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      */
     public function getMaxActiveCalls()
     {
-        return $this->maxActiveCalls;
+        return $this->maxActiveCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxActiveCalls;
     }
 
     /**
      * Setter for maxActiveCalls
      *
-     * @ElementName maxActiveCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $maxActiveCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxActiveCalls
      * @return $this
      */
     public function setMaxActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxActiveCalls)
@@ -63,21 +65,28 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxActiveCalls()
+    {
+        $this->maxActiveCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxAvailableActiveCalls
      *
-     * @ElementName maxAvailableActiveCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      */
     public function getMaxAvailableActiveCalls()
     {
-        return $this->maxAvailableActiveCalls;
+        return $this->maxAvailableActiveCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxAvailableActiveCalls;
     }
 
     /**
      * Setter for maxAvailableActiveCalls
      *
-     * @ElementName maxAvailableActiveCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $maxAvailableActiveCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxAvailableActiveCalls
      * @return $this
      */
     public function setMaxAvailableActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $maxAvailableActiveCalls)
@@ -87,21 +96,28 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxAvailableActiveCalls()
+    {
+        $this->maxAvailableActiveCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for burstingMaxActiveCalls
      *
-     * @ElementName burstingMaxActiveCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      */
     public function getBurstingMaxActiveCalls()
     {
-        return $this->burstingMaxActiveCalls;
+        return $this->burstingMaxActiveCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->burstingMaxActiveCalls;
     }
 
     /**
      * Setter for burstingMaxActiveCalls
      *
-     * @ElementName burstingMaxActiveCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $burstingMaxActiveCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $burstingMaxActiveCalls
      * @return $this
      */
     public function setBurstingMaxActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $burstingMaxActiveCalls)
@@ -111,26 +127,42 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBurstingMaxActiveCalls()
+    {
+        $this->burstingMaxActiveCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for burstingMaxAvailableActiveCalls
      *
-     * @ElementName burstingMaxAvailableActiveCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      */
     public function getBurstingMaxAvailableActiveCalls()
     {
-        return $this->burstingMaxAvailableActiveCalls;
+        return $this->burstingMaxAvailableActiveCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->burstingMaxAvailableActiveCalls;
     }
 
     /**
      * Setter for burstingMaxAvailableActiveCalls
      *
-     * @ElementName burstingMaxAvailableActiveCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $burstingMaxAvailableActiveCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $burstingMaxAvailableActiveCalls
      * @return $this
      */
     public function setBurstingMaxAvailableActiveCalls(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $burstingMaxAvailableActiveCalls)
     {
         $this->burstingMaxAvailableActiveCalls = $burstingMaxAvailableActiveCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBurstingMaxAvailableActiveCalls()
+    {
+        $this->burstingMaxAvailableActiveCalls = null;
         return $this;
     }
 

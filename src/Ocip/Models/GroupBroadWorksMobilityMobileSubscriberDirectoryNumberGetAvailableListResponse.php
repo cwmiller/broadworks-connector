@@ -18,6 +18,8 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResp
 
     /**
      * @ElementName mobileSubscriberDirectoryNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(
@@ -27,18 +29,16 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResp
     /**
      * Getter for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @return string[]
      */
     public function getMobileSubscriberDirectoryNumber()
     {
-        return $this->mobileSubscriberDirectoryNumber;
+        return $this->mobileSubscriberDirectoryNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileSubscriberDirectoryNumber;
     }
 
     /**
      * Setter for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @param string[] $mobileSubscriberDirectoryNumber
      * @return $this
      */
@@ -49,15 +49,23 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResp
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileSubscriberDirectoryNumber()
+    {
+        $this->mobileSubscriberDirectoryNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @param string $mobileSubscriberDirectoryNumber
      * @return $this
      */
     public function addMobileSubscriberDirectoryNumber(string $mobileSubscriberDirectoryNumber)
     {
-        $this->mobileSubscriberDirectoryNumber []= $mobileSubscriberDirectoryNumber;
+        $this->mobileSubscriberDirectoryNumber[] = $mobileSubscriberDirectoryNumber;
         return $this;
     }
 

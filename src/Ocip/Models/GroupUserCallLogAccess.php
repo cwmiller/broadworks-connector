@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GroupUserCallLogAccess FULL()
  * @method static GroupUserCallLogAccess READ_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupUserCallLogAccess extends \MyCLabs\Enum\Enum
 {

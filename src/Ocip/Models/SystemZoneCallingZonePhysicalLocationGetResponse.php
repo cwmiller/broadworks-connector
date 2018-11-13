@@ -14,6 +14,7 @@ class SystemZoneCallingZonePhysicalLocationGetResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName physicalLocation
+     * @Type string
      * @var string|null
      */
     private $physicalLocation = null;
@@ -21,24 +22,31 @@ class SystemZoneCallingZonePhysicalLocationGetResponse extends \CWM\BroadWorksCo
     /**
      * Getter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @return string|null
+     * @return string
      */
     public function getPhysicalLocation()
     {
-        return $this->physicalLocation;
+        return $this->physicalLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->physicalLocation;
     }
 
     /**
      * Setter for physicalLocation
      *
-     * @ElementName physicalLocation
-     * @param string|null $physicalLocation
+     * @param string $physicalLocation
      * @return $this
      */
     public function setPhysicalLocation($physicalLocation)
     {
         $this->physicalLocation = $physicalLocation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhysicalLocation()
+    {
+        $this->physicalLocation = null;
         return $this;
     }
 

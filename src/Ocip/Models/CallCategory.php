@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCategory _PRIVATE()
  * @method static CallCategory EMERGENCY()
  * @method static CallCategory OTHER()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCategory extends \MyCLabs\Enum\Enum
 {

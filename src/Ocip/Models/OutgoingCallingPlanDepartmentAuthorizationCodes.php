@@ -12,18 +12,22 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
 
     /**
      * @ElementName departmentKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
 
     /**
      * @ElementName departmentName
+     * @Type string
      * @var string|null
      */
     private $departmentName = null;
 
     /**
      * @ElementName codeEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
     private $codeEntry = array(
@@ -33,19 +37,17 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
     /**
      * Getter for departmentKey
      *
-     * @ElementName departmentKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      */
     public function getDepartmentKey()
     {
-        return $this->departmentKey;
+        return $this->departmentKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentKey;
     }
 
     /**
      * Setter for departmentKey
      *
-     * @ElementName departmentKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey
      * @return $this
      */
     public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
@@ -55,21 +57,28 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentKey()
+    {
+        $this->departmentKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for departmentName
      *
-     * @ElementName departmentName
-     * @return string|null
+     * @return string
      */
     public function getDepartmentName()
     {
-        return $this->departmentName;
+        return $this->departmentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentName;
     }
 
     /**
      * Setter for departmentName
      *
-     * @ElementName departmentName
-     * @param string|null $departmentName
+     * @param string $departmentName
      * @return $this
      */
     public function setDepartmentName($departmentName)
@@ -79,20 +88,27 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentName()
+    {
+        $this->departmentName = null;
+        return $this;
+    }
+
+    /**
      * Getter for codeEntry
      *
-     * @ElementName codeEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
     public function getCodeEntry()
     {
-        return $this->codeEntry;
+        return $this->codeEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->codeEntry;
     }
 
     /**
      * Setter for codeEntry
      *
-     * @ElementName codeEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[] $codeEntry
      * @return $this
      */
@@ -103,15 +119,23 @@ class OutgoingCallingPlanDepartmentAuthorizationCodes
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCodeEntry()
+    {
+        $this->codeEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for codeEntry
      *
-     * @ElementName codeEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry $codeEntry
      * @return $this
      */
     public function addCodeEntry($codeEntry)
     {
-        $this->codeEntry []= $codeEntry;
+        $this->codeEntry[] = $codeEntry;
         return $this;
     }
 

@@ -17,6 +17,7 @@ class ServiceProviderInCallServiceActivationGetResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName activationDigits
+     * @Type string
      * @var string|null
      */
     private $activationDigits = null;
@@ -24,24 +25,31 @@ class ServiceProviderInCallServiceActivationGetResponse extends \CWM\BroadWorksC
     /**
      * Getter for activationDigits
      *
-     * @ElementName activationDigits
-     * @return string|null
+     * @return string
      */
     public function getActivationDigits()
     {
-        return $this->activationDigits;
+        return $this->activationDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activationDigits;
     }
 
     /**
      * Setter for activationDigits
      *
-     * @ElementName activationDigits
-     * @param string|null $activationDigits
+     * @param string $activationDigits
      * @return $this
      */
     public function setActivationDigits($activationDigits)
     {
         $this->activationDigits = $activationDigits;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetActivationDigits()
+    {
+        $this->activationDigits = null;
         return $this;
     }
 

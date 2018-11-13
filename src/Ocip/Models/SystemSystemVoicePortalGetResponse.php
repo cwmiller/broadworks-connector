@@ -17,96 +17,112 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName callingLineIdName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdName = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName publicUserIdentity
+     * @Type string
      * @var string|null
      */
     private $publicUserIdentity = null;
 
     /**
      * @ElementName networkVoicePortalNumber
+     * @Type string
      * @var string|null
      */
     private $networkVoicePortalNumber = null;
 
     /**
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
+     * @Type bool
      * @var bool|null
      */
     private $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
 
     /**
      * @ElementName useVoicePortalWizard
+     * @Type bool
      * @var bool|null
      */
     private $useVoicePortalWizard = null;
 
     /**
      * @ElementName isDefault
+     * @Type bool
      * @var bool|null
      */
     private $isDefault = null;
 
     /**
      * @ElementName useVoicePortalDefaultGreeting
+     * @Type bool
      * @var bool|null
      */
     private $useVoicePortalDefaultGreeting = null;
 
     /**
      * @ElementName voicePortalGreetingFileDescription
+     * @Type string
      * @var string|null
      */
     private $voicePortalGreetingFileDescription = null;
 
     /**
      * @ElementName voicePortalGreetingMediaFileType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $voicePortalGreetingMediaFileType = null;
 
     /**
      * @ElementName useVoiceMessagingDefaultGreeting
+     * @Type bool
      * @var bool|null
      */
     private $useVoiceMessagingDefaultGreeting = null;
 
     /**
      * @ElementName voiceMessagingGreetingFileDescription
+     * @Type string
      * @var string|null
      */
     private $voiceMessagingGreetingFileDescription = null;
 
     /**
      * @ElementName voiceMessagingGreetingMediaFileType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $voiceMessagingGreetingMediaFileType = null;
@@ -114,19 +130,17 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -136,21 +150,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdName()
     {
-        return $this->callingLineIdName;
+        return $this->callingLineIdName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdName;
     }
 
     /**
      * Setter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @param string|null $callingLineIdName
+     * @param string $callingLineIdName
      * @return $this
      */
     public function setCallingLineIdName($callingLineIdName)
@@ -160,21 +181,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdName()
+    {
+        $this->callingLineIdName = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -184,21 +212,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -208,21 +243,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -232,21 +274,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for publicUserIdentity
      *
-     * @ElementName publicUserIdentity
-     * @return string|null
+     * @return string
      */
     public function getPublicUserIdentity()
     {
-        return $this->publicUserIdentity;
+        return $this->publicUserIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicUserIdentity;
     }
 
     /**
      * Setter for publicUserIdentity
      *
-     * @ElementName publicUserIdentity
-     * @param string|null $publicUserIdentity
+     * @param string $publicUserIdentity
      * @return $this
      */
     public function setPublicUserIdentity($publicUserIdentity)
@@ -256,21 +305,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPublicUserIdentity()
+    {
+        $this->publicUserIdentity = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkVoicePortalNumber
      *
-     * @ElementName networkVoicePortalNumber
-     * @return string|null
+     * @return string
      */
     public function getNetworkVoicePortalNumber()
     {
-        return $this->networkVoicePortalNumber;
+        return $this->networkVoicePortalNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkVoicePortalNumber;
     }
 
     /**
      * Setter for networkVoicePortalNumber
      *
-     * @ElementName networkVoicePortalNumber
-     * @param string|null $networkVoicePortalNumber
+     * @param string $networkVoicePortalNumber
      * @return $this
      */
     public function setNetworkVoicePortalNumber($networkVoicePortalNumber)
@@ -280,21 +336,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkVoicePortalNumber()
+    {
+        $this->networkVoicePortalNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      *
-     * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
-     * @return bool|null
+     * @return bool
      */
     public function getAllowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin()
     {
-        return $this->allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin;
+        return $this->allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin;
     }
 
     /**
      * Setter for allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      *
-     * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
-     * @param bool|null $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
+     * @param bool $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      * @return $this
      */
     public function setAllowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin($allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin)
@@ -304,21 +367,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin()
+    {
+        $this->allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
+        return $this;
+    }
+
+    /**
      * Getter for useVoicePortalWizard
      *
-     * @ElementName useVoicePortalWizard
-     * @return bool|null
+     * @return bool
      */
     public function getUseVoicePortalWizard()
     {
-        return $this->useVoicePortalWizard;
+        return $this->useVoicePortalWizard instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useVoicePortalWizard;
     }
 
     /**
      * Setter for useVoicePortalWizard
      *
-     * @ElementName useVoicePortalWizard
-     * @param bool|null $useVoicePortalWizard
+     * @param bool $useVoicePortalWizard
      * @return $this
      */
     public function setUseVoicePortalWizard($useVoicePortalWizard)
@@ -328,21 +398,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseVoicePortalWizard()
+    {
+        $this->useVoicePortalWizard = null;
+        return $this;
+    }
+
+    /**
      * Getter for isDefault
      *
-     * @ElementName isDefault
-     * @return bool|null
+     * @return bool
      */
     public function getIsDefault()
     {
-        return $this->isDefault;
+        return $this->isDefault instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isDefault;
     }
 
     /**
      * Setter for isDefault
      *
-     * @ElementName isDefault
-     * @param bool|null $isDefault
+     * @param bool $isDefault
      * @return $this
      */
     public function setIsDefault($isDefault)
@@ -352,21 +429,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsDefault()
+    {
+        $this->isDefault = null;
+        return $this;
+    }
+
+    /**
      * Getter for useVoicePortalDefaultGreeting
      *
-     * @ElementName useVoicePortalDefaultGreeting
-     * @return bool|null
+     * @return bool
      */
     public function getUseVoicePortalDefaultGreeting()
     {
-        return $this->useVoicePortalDefaultGreeting;
+        return $this->useVoicePortalDefaultGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useVoicePortalDefaultGreeting;
     }
 
     /**
      * Setter for useVoicePortalDefaultGreeting
      *
-     * @ElementName useVoicePortalDefaultGreeting
-     * @param bool|null $useVoicePortalDefaultGreeting
+     * @param bool $useVoicePortalDefaultGreeting
      * @return $this
      */
     public function setUseVoicePortalDefaultGreeting($useVoicePortalDefaultGreeting)
@@ -376,21 +460,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseVoicePortalDefaultGreeting()
+    {
+        $this->useVoicePortalDefaultGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalGreetingFileDescription
      *
-     * @ElementName voicePortalGreetingFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVoicePortalGreetingFileDescription()
     {
-        return $this->voicePortalGreetingFileDescription;
+        return $this->voicePortalGreetingFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalGreetingFileDescription;
     }
 
     /**
      * Setter for voicePortalGreetingFileDescription
      *
-     * @ElementName voicePortalGreetingFileDescription
-     * @param string|null $voicePortalGreetingFileDescription
+     * @param string $voicePortalGreetingFileDescription
      * @return $this
      */
     public function setVoicePortalGreetingFileDescription($voicePortalGreetingFileDescription)
@@ -400,21 +491,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalGreetingFileDescription()
+    {
+        $this->voicePortalGreetingFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalGreetingMediaFileType
      *
-     * @ElementName voicePortalGreetingMediaFileType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getVoicePortalGreetingMediaFileType()
     {
-        return $this->voicePortalGreetingMediaFileType;
+        return $this->voicePortalGreetingMediaFileType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalGreetingMediaFileType;
     }
 
     /**
      * Setter for voicePortalGreetingMediaFileType
      *
-     * @ElementName voicePortalGreetingMediaFileType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $voicePortalGreetingMediaFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $voicePortalGreetingMediaFileType
      * @return $this
      */
     public function setVoicePortalGreetingMediaFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $voicePortalGreetingMediaFileType)
@@ -424,21 +522,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalGreetingMediaFileType()
+    {
+        $this->voicePortalGreetingMediaFileType = null;
+        return $this;
+    }
+
+    /**
      * Getter for useVoiceMessagingDefaultGreeting
      *
-     * @ElementName useVoiceMessagingDefaultGreeting
-     * @return bool|null
+     * @return bool
      */
     public function getUseVoiceMessagingDefaultGreeting()
     {
-        return $this->useVoiceMessagingDefaultGreeting;
+        return $this->useVoiceMessagingDefaultGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useVoiceMessagingDefaultGreeting;
     }
 
     /**
      * Setter for useVoiceMessagingDefaultGreeting
      *
-     * @ElementName useVoiceMessagingDefaultGreeting
-     * @param bool|null $useVoiceMessagingDefaultGreeting
+     * @param bool $useVoiceMessagingDefaultGreeting
      * @return $this
      */
     public function setUseVoiceMessagingDefaultGreeting($useVoiceMessagingDefaultGreeting)
@@ -448,21 +553,28 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseVoiceMessagingDefaultGreeting()
+    {
+        $this->useVoiceMessagingDefaultGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessagingGreetingFileDescription
      *
-     * @ElementName voiceMessagingGreetingFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVoiceMessagingGreetingFileDescription()
     {
-        return $this->voiceMessagingGreetingFileDescription;
+        return $this->voiceMessagingGreetingFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessagingGreetingFileDescription;
     }
 
     /**
      * Setter for voiceMessagingGreetingFileDescription
      *
-     * @ElementName voiceMessagingGreetingFileDescription
-     * @param string|null $voiceMessagingGreetingFileDescription
+     * @param string $voiceMessagingGreetingFileDescription
      * @return $this
      */
     public function setVoiceMessagingGreetingFileDescription($voiceMessagingGreetingFileDescription)
@@ -472,26 +584,42 @@ class SystemSystemVoicePortalGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessagingGreetingFileDescription()
+    {
+        $this->voiceMessagingGreetingFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessagingGreetingMediaFileType
      *
-     * @ElementName voiceMessagingGreetingMediaFileType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getVoiceMessagingGreetingMediaFileType()
     {
-        return $this->voiceMessagingGreetingMediaFileType;
+        return $this->voiceMessagingGreetingMediaFileType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessagingGreetingMediaFileType;
     }
 
     /**
      * Setter for voiceMessagingGreetingMediaFileType
      *
-     * @ElementName voiceMessagingGreetingMediaFileType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $voiceMessagingGreetingMediaFileType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $voiceMessagingGreetingMediaFileType
      * @return $this
      */
     public function setVoiceMessagingGreetingMediaFileType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $voiceMessagingGreetingMediaFileType)
     {
         $this->voiceMessagingGreetingMediaFileType = $voiceMessagingGreetingMediaFileType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoiceMessagingGreetingMediaFileType()
+    {
+        $this->voiceMessagingGreetingMediaFileType = null;
         return $this;
     }
 

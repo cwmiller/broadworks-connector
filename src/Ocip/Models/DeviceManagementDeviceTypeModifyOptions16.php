@@ -12,18 +12,21 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName deviceAccessProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
 
     /**
      * @ElementName tagMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
     private $tagMode = null;
 
     /**
      * @ElementName tagSet
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,30 +34,35 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName allowDeviceProfileCustomTagSet
+     * @Type bool
      * @var bool|null
      */
     private $allowDeviceProfileCustomTagSet = null;
 
     /**
      * @ElementName allowGroupCustomTagSet
+     * @Type bool
      * @var bool|null
      */
     private $allowGroupCustomTagSet = null;
 
     /**
      * @ElementName allowSpCustomTagSet
+     * @Type bool
      * @var bool|null
      */
     private $allowSpCustomTagSet = null;
 
     /**
      * @ElementName sendEmailUponResetFailure
+     * @Type bool
      * @var bool|null
      */
     private $sendEmailUponResetFailure = null;
 
     /**
      * @ElementName deviceAccessNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -62,6 +70,7 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName deviceAccessPort
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -69,6 +78,7 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName deviceAccessContext
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -76,6 +86,7 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName defaultDeviceLanguage
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -83,6 +94,7 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName defaultDeviceEncoding
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -90,6 +102,7 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName accessDeviceCredentials
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -97,36 +110,42 @@ class DeviceManagementDeviceTypeModifyOptions16
 
     /**
      * @ElementName useHttpDigestAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
 
     /**
      * @ElementName macBasedFileAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
 
     /**
      * @ElementName userNamePasswordFileAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
 
     /**
      * @ElementName macInNonRequestURI
+     * @Type bool
      * @var bool|null
      */
     private $macInNonRequestURI = null;
 
     /**
      * @ElementName macInCert
+     * @Type bool
      * @var bool|null
      */
     private $macInCert = null;
 
     /**
      * @ElementName macFormatInNonRequestURI
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -135,19 +154,17 @@ class DeviceManagementDeviceTypeModifyOptions16
     /**
      * Getter for deviceAccessProtocol
      *
-     * @ElementName deviceAccessProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
      */
     public function getDeviceAccessProtocol()
     {
-        return $this->deviceAccessProtocol;
+        return $this->deviceAccessProtocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessProtocol;
     }
 
     /**
      * Setter for deviceAccessProtocol
      *
-     * @ElementName deviceAccessProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null $deviceAccessProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16 $deviceAccessProtocol
      * @return $this
      */
     public function setDeviceAccessProtocol(\CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16 $deviceAccessProtocol)
@@ -157,21 +174,28 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceAccessProtocol()
+    {
+        $this->deviceAccessProtocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagMode
      *
-     * @ElementName tagMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode
      */
     public function getTagMode()
     {
-        return $this->tagMode;
+        return $this->tagMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagMode;
     }
 
     /**
      * Setter for tagMode
      *
-     * @ElementName tagMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null $tagMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode $tagMode
      * @return $this
      */
     public function setTagMode(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode $tagMode)
@@ -181,47 +205,63 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagMode()
+    {
+        $this->tagMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagSet
      *
-     * @ElementName tagSet
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTagSet()
     {
-        return $this->tagSet;
+        return $this->tagSet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagSet;
     }
 
     /**
      * Setter for tagSet
      *
-     * @ElementName tagSet
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagSet
+     * @param string|null $tagSet
      * @return $this
      */
     public function setTagSet($tagSet)
     {
-        $this->tagSet = $tagSet;
+        if ($tagSet === null) {
+            $this->tagSet = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->tagSet = $tagSet;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagSet()
+    {
+        $this->tagSet = null;
         return $this;
     }
 
     /**
      * Getter for allowDeviceProfileCustomTagSet
      *
-     * @ElementName allowDeviceProfileCustomTagSet
-     * @return bool|null
+     * @return bool
      */
     public function getAllowDeviceProfileCustomTagSet()
     {
-        return $this->allowDeviceProfileCustomTagSet;
+        return $this->allowDeviceProfileCustomTagSet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowDeviceProfileCustomTagSet;
     }
 
     /**
      * Setter for allowDeviceProfileCustomTagSet
      *
-     * @ElementName allowDeviceProfileCustomTagSet
-     * @param bool|null $allowDeviceProfileCustomTagSet
+     * @param bool $allowDeviceProfileCustomTagSet
      * @return $this
      */
     public function setAllowDeviceProfileCustomTagSet($allowDeviceProfileCustomTagSet)
@@ -231,21 +271,28 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowDeviceProfileCustomTagSet()
+    {
+        $this->allowDeviceProfileCustomTagSet = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowGroupCustomTagSet
      *
-     * @ElementName allowGroupCustomTagSet
-     * @return bool|null
+     * @return bool
      */
     public function getAllowGroupCustomTagSet()
     {
-        return $this->allowGroupCustomTagSet;
+        return $this->allowGroupCustomTagSet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowGroupCustomTagSet;
     }
 
     /**
      * Setter for allowGroupCustomTagSet
      *
-     * @ElementName allowGroupCustomTagSet
-     * @param bool|null $allowGroupCustomTagSet
+     * @param bool $allowGroupCustomTagSet
      * @return $this
      */
     public function setAllowGroupCustomTagSet($allowGroupCustomTagSet)
@@ -255,21 +302,28 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowGroupCustomTagSet()
+    {
+        $this->allowGroupCustomTagSet = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowSpCustomTagSet
      *
-     * @ElementName allowSpCustomTagSet
-     * @return bool|null
+     * @return bool
      */
     public function getAllowSpCustomTagSet()
     {
-        return $this->allowSpCustomTagSet;
+        return $this->allowSpCustomTagSet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowSpCustomTagSet;
     }
 
     /**
      * Setter for allowSpCustomTagSet
      *
-     * @ElementName allowSpCustomTagSet
-     * @param bool|null $allowSpCustomTagSet
+     * @param bool $allowSpCustomTagSet
      * @return $this
      */
     public function setAllowSpCustomTagSet($allowSpCustomTagSet)
@@ -279,21 +333,28 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowSpCustomTagSet()
+    {
+        $this->allowSpCustomTagSet = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendEmailUponResetFailure
      *
-     * @ElementName sendEmailUponResetFailure
-     * @return bool|null
+     * @return bool
      */
     public function getSendEmailUponResetFailure()
     {
-        return $this->sendEmailUponResetFailure;
+        return $this->sendEmailUponResetFailure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendEmailUponResetFailure;
     }
 
     /**
      * Setter for sendEmailUponResetFailure
      *
-     * @ElementName sendEmailUponResetFailure
-     * @param bool|null $sendEmailUponResetFailure
+     * @param bool $sendEmailUponResetFailure
      * @return $this
      */
     public function setSendEmailUponResetFailure($sendEmailUponResetFailure)
@@ -303,177 +364,238 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendEmailUponResetFailure()
+    {
+        $this->sendEmailUponResetFailure = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceAccessNetAddress
      *
-     * @ElementName deviceAccessNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDeviceAccessNetAddress()
     {
-        return $this->deviceAccessNetAddress;
+        return $this->deviceAccessNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessNetAddress;
     }
 
     /**
      * Setter for deviceAccessNetAddress
      *
-     * @ElementName deviceAccessNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceAccessNetAddress
+     * @param string|null $deviceAccessNetAddress
      * @return $this
      */
     public function setDeviceAccessNetAddress($deviceAccessNetAddress)
     {
-        $this->deviceAccessNetAddress = $deviceAccessNetAddress;
+        if ($deviceAccessNetAddress === null) {
+            $this->deviceAccessNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deviceAccessNetAddress = $deviceAccessNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceAccessNetAddress()
+    {
+        $this->deviceAccessNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for deviceAccessPort
      *
-     * @ElementName deviceAccessPort
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getDeviceAccessPort()
     {
-        return $this->deviceAccessPort;
+        return $this->deviceAccessPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessPort;
     }
 
     /**
      * Setter for deviceAccessPort
      *
-     * @ElementName deviceAccessPort
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceAccessPort
+     * @param int|null $deviceAccessPort
      * @return $this
      */
     public function setDeviceAccessPort($deviceAccessPort)
     {
-        $this->deviceAccessPort = $deviceAccessPort;
+        if ($deviceAccessPort === null) {
+            $this->deviceAccessPort = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deviceAccessPort = $deviceAccessPort;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceAccessPort()
+    {
+        $this->deviceAccessPort = null;
         return $this;
     }
 
     /**
      * Getter for deviceAccessContext
      *
-     * @ElementName deviceAccessContext
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDeviceAccessContext()
     {
-        return $this->deviceAccessContext;
+        return $this->deviceAccessContext instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessContext;
     }
 
     /**
      * Setter for deviceAccessContext
      *
-     * @ElementName deviceAccessContext
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deviceAccessContext
+     * @param string|null $deviceAccessContext
      * @return $this
      */
     public function setDeviceAccessContext($deviceAccessContext)
     {
-        $this->deviceAccessContext = $deviceAccessContext;
+        if ($deviceAccessContext === null) {
+            $this->deviceAccessContext = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deviceAccessContext = $deviceAccessContext;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceAccessContext()
+    {
+        $this->deviceAccessContext = null;
         return $this;
     }
 
     /**
      * Getter for defaultDeviceLanguage
      *
-     * @ElementName defaultDeviceLanguage
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDefaultDeviceLanguage()
     {
-        return $this->defaultDeviceLanguage;
+        return $this->defaultDeviceLanguage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultDeviceLanguage;
     }
 
     /**
      * Setter for defaultDeviceLanguage
      *
-     * @ElementName defaultDeviceLanguage
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultDeviceLanguage
+     * @param string|null $defaultDeviceLanguage
      * @return $this
      */
     public function setDefaultDeviceLanguage($defaultDeviceLanguage)
     {
-        $this->defaultDeviceLanguage = $defaultDeviceLanguage;
+        if ($defaultDeviceLanguage === null) {
+            $this->defaultDeviceLanguage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->defaultDeviceLanguage = $defaultDeviceLanguage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultDeviceLanguage()
+    {
+        $this->defaultDeviceLanguage = null;
         return $this;
     }
 
     /**
      * Getter for defaultDeviceEncoding
      *
-     * @ElementName defaultDeviceEncoding
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDefaultDeviceEncoding()
     {
-        return $this->defaultDeviceEncoding;
+        return $this->defaultDeviceEncoding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultDeviceEncoding;
     }
 
     /**
      * Setter for defaultDeviceEncoding
      *
-     * @ElementName defaultDeviceEncoding
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultDeviceEncoding
+     * @param string|null $defaultDeviceEncoding
      * @return $this
      */
     public function setDefaultDeviceEncoding($defaultDeviceEncoding)
     {
-        $this->defaultDeviceEncoding = $defaultDeviceEncoding;
+        if ($defaultDeviceEncoding === null) {
+            $this->defaultDeviceEncoding = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->defaultDeviceEncoding = $defaultDeviceEncoding;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultDeviceEncoding()
+    {
+        $this->defaultDeviceEncoding = null;
         return $this;
     }
 
     /**
      * Getter for accessDeviceCredentials
      *
-     * @ElementName accessDeviceCredentials
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     public function getAccessDeviceCredentials()
     {
-        return $this->accessDeviceCredentials;
+        return $this->accessDeviceCredentials instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceCredentials;
     }
 
     /**
      * Setter for accessDeviceCredentials
      *
-     * @ElementName accessDeviceCredentials
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null|\CWM\BroadWorksConnector\Ocip\Nil $accessDeviceCredentials
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null $accessDeviceCredentials
      * @return $this
      */
     public function setAccessDeviceCredentials(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16 $accessDeviceCredentials)
     {
-        $this->accessDeviceCredentials = $accessDeviceCredentials;
+        if ($accessDeviceCredentials === null) {
+            $this->accessDeviceCredentials = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->accessDeviceCredentials = $accessDeviceCredentials;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessDeviceCredentials()
+    {
+        $this->accessDeviceCredentials = null;
         return $this;
     }
 
     /**
      * Getter for useHttpDigestAuthentication
      *
-     * @ElementName useHttpDigestAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getUseHttpDigestAuthentication()
     {
-        return $this->useHttpDigestAuthentication;
+        return $this->useHttpDigestAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useHttpDigestAuthentication;
     }
 
     /**
      * Setter for useHttpDigestAuthentication
      *
-     * @ElementName useHttpDigestAuthentication
-     * @param bool|null $useHttpDigestAuthentication
+     * @param bool $useHttpDigestAuthentication
      * @return $this
      */
     public function setUseHttpDigestAuthentication($useHttpDigestAuthentication)
@@ -483,21 +605,28 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseHttpDigestAuthentication()
+    {
+        $this->useHttpDigestAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for macBasedFileAuthentication
      *
-     * @ElementName macBasedFileAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getMacBasedFileAuthentication()
     {
-        return $this->macBasedFileAuthentication;
+        return $this->macBasedFileAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macBasedFileAuthentication;
     }
 
     /**
      * Setter for macBasedFileAuthentication
      *
-     * @ElementName macBasedFileAuthentication
-     * @param bool|null $macBasedFileAuthentication
+     * @param bool $macBasedFileAuthentication
      * @return $this
      */
     public function setMacBasedFileAuthentication($macBasedFileAuthentication)
@@ -507,21 +636,28 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacBasedFileAuthentication()
+    {
+        $this->macBasedFileAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for userNamePasswordFileAuthentication
      *
-     * @ElementName userNamePasswordFileAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getUserNamePasswordFileAuthentication()
     {
-        return $this->userNamePasswordFileAuthentication;
+        return $this->userNamePasswordFileAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userNamePasswordFileAuthentication;
     }
 
     /**
      * Setter for userNamePasswordFileAuthentication
      *
-     * @ElementName userNamePasswordFileAuthentication
-     * @param bool|null $userNamePasswordFileAuthentication
+     * @param bool $userNamePasswordFileAuthentication
      * @return $this
      */
     public function setUserNamePasswordFileAuthentication($userNamePasswordFileAuthentication)
@@ -531,21 +667,28 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserNamePasswordFileAuthentication()
+    {
+        $this->userNamePasswordFileAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for macInNonRequestURI
      *
-     * @ElementName macInNonRequestURI
-     * @return bool|null
+     * @return bool
      */
     public function getMacInNonRequestURI()
     {
-        return $this->macInNonRequestURI;
+        return $this->macInNonRequestURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macInNonRequestURI;
     }
 
     /**
      * Setter for macInNonRequestURI
      *
-     * @ElementName macInNonRequestURI
-     * @param bool|null $macInNonRequestURI
+     * @param bool $macInNonRequestURI
      * @return $this
      */
     public function setMacInNonRequestURI($macInNonRequestURI)
@@ -555,21 +698,28 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacInNonRequestURI()
+    {
+        $this->macInNonRequestURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for macInCert
      *
-     * @ElementName macInCert
-     * @return bool|null
+     * @return bool
      */
     public function getMacInCert()
     {
-        return $this->macInCert;
+        return $this->macInCert instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macInCert;
     }
 
     /**
      * Setter for macInCert
      *
-     * @ElementName macInCert
-     * @param bool|null $macInCert
+     * @param bool $macInCert
      * @return $this
      */
     public function setMacInCert($macInCert)
@@ -579,28 +729,46 @@ class DeviceManagementDeviceTypeModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMacInCert()
+    {
+        $this->macInCert = null;
+        return $this;
+    }
+
+    /**
      * Getter for macFormatInNonRequestURI
      *
-     * @ElementName macFormatInNonRequestURI
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getMacFormatInNonRequestURI()
     {
-        return $this->macFormatInNonRequestURI;
+        return $this->macFormatInNonRequestURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macFormatInNonRequestURI;
     }
 
     /**
      * Setter for macFormatInNonRequestURI
      *
-     * @ElementName macFormatInNonRequestURI
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $macFormatInNonRequestURI
+     * @param string|null $macFormatInNonRequestURI
      * @return $this
      */
     public function setMacFormatInNonRequestURI($macFormatInNonRequestURI)
     {
-        $this->macFormatInNonRequestURI = $macFormatInNonRequestURI;
+        if ($macFormatInNonRequestURI === null) {
+            $this->macFormatInNonRequestURI = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->macFormatInNonRequestURI = $macFormatInNonRequestURI;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMacFormatInNonRequestURI()
+    {
+        $this->macFormatInNonRequestURI = null;
         return $this;
     }
 

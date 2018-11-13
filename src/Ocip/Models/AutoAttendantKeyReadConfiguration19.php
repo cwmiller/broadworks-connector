@@ -13,12 +13,14 @@ class AutoAttendantKeyReadConfiguration19
 
     /**
      * @ElementName key
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null
      */
     private $key = null;
 
     /**
      * @ElementName entry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationReadEntry19
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationReadEntry19|null
      */
     private $entry = null;
@@ -26,19 +28,17 @@ class AutoAttendantKeyReadConfiguration19
     /**
      * Getter for key
      *
-     * @ElementName key
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey
      */
     public function getKey()
     {
-        return $this->key;
+        return $this->key instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->key;
     }
 
     /**
      * Setter for key
      *
-     * @ElementName key
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey|null $key
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey $key
      * @return $this
      */
     public function setKey(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantMenuKey $key)
@@ -48,26 +48,42 @@ class AutoAttendantKeyReadConfiguration19
     }
 
     /**
+     * @return $this
+     */
+    public function unsetKey()
+    {
+        $this->key = null;
+        return $this;
+    }
+
+    /**
      * Getter for entry
      *
-     * @ElementName entry
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationReadEntry19|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationReadEntry19
      */
     public function getEntry()
     {
-        return $this->entry;
+        return $this->entry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entry;
     }
 
     /**
      * Setter for entry
      *
-     * @ElementName entry
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationReadEntry19|null $entry
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationReadEntry19 $entry
      * @return $this
      */
     public function setEntry(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfigurationReadEntry19 $entry)
     {
         $this->entry = $entry;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEntry()
+    {
+        $this->entry = null;
         return $this;
     }
 

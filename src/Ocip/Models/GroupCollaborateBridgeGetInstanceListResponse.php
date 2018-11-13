@@ -17,6 +17,7 @@ class GroupCollaborateBridgeGetInstanceListResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName collaborateBridgeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $collaborateBridgeTable = null;
@@ -24,24 +25,31 @@ class GroupCollaborateBridgeGetInstanceListResponse extends \CWM\BroadWorksConne
     /**
      * Getter for collaborateBridgeTable
      *
-     * @ElementName collaborateBridgeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCollaborateBridgeTable()
     {
-        return $this->collaborateBridgeTable;
+        return $this->collaborateBridgeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collaborateBridgeTable;
     }
 
     /**
      * Setter for collaborateBridgeTable
      *
-     * @ElementName collaborateBridgeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $collaborateBridgeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $collaborateBridgeTable
      * @return $this
      */
     public function setCollaborateBridgeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $collaborateBridgeTable)
     {
         $this->collaborateBridgeTable = $collaborateBridgeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCollaborateBridgeTable()
+    {
+        $this->collaborateBridgeTable = null;
         return $this;
     }
 

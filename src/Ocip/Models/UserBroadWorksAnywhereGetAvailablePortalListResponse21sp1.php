@@ -16,6 +16,7 @@ class UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1 extends \CWM\Bro
 
     /**
      * @ElementName portalTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $portalTable = null;
@@ -23,24 +24,31 @@ class UserBroadWorksAnywhereGetAvailablePortalListResponse21sp1 extends \CWM\Bro
     /**
      * Getter for portalTable
      *
-     * @ElementName portalTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getPortalTable()
     {
-        return $this->portalTable;
+        return $this->portalTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->portalTable;
     }
 
     /**
      * Setter for portalTable
      *
-     * @ElementName portalTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $portalTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $portalTable
      * @return $this
      */
     public function setPortalTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $portalTable)
     {
         $this->portalTable = $portalTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPortalTable()
+    {
+        $this->portalTable = null;
         return $this;
     }
 

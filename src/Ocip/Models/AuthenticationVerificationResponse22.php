@@ -29,396 +29,463 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName passwordExpiresDays
+     * @Type int
      * @var int|null
      */
     private $passwordExpiresDays = null;
 
     /**
      * @ElementName isAccountDisabled
+     * @Type bool
      * @var bool|null
      */
     private $isAccountDisabled = null;
 
     /**
      * @ElementName loginType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
 
     /**
      * @ElementName firstName
+     * @Type string
      * @var string|null
      */
     private $firstName = null;
 
     /**
      * @ElementName lastName
+     * @Type string
      * @var string|null
      */
     private $lastName = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName userDomain
+     * @Type string
      * @var string|null
      */
     private $userDomain = null;
 
     /**
      * @ElementName inactivityTimerMinutes
+     * @Type int
      * @var int|null
      */
     private $inactivityTimerMinutes = null;
 
     /**
      * @ElementName isReadOnlyAdmin
+     * @Type bool
      * @var bool|null
      */
     private $isReadOnlyAdmin = null;
 
     /**
      * @ElementName isIMSMode
+     * @Type bool
      * @var bool|null
      */
     private $isIMSMode = null;
 
     /**
      * @ElementName deploymentMode
+     * @Type string
      * @var string|null
      */
     private $deploymentMode = null;
 
     /**
      * @ElementName deploymentInstance
+     * @Type string
      * @var string|null
      */
     private $deploymentInstance = null;
 
     /**
      * @ElementName serviceProviderAdminType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     private $serviceProviderAdminType = null;
 
     /**
      * @ElementName locale
+     * @Type string
      * @var string|null
      */
     private $locale = null;
 
     /**
      * @ElementName encoding
+     * @Type string
      * @var string|null
      */
     private $encoding = null;
 
     /**
      * @ElementName isEnterprise
+     * @Type bool
      * @var bool|null
      */
     private $isEnterprise = null;
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName groupExtensionAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupExtensionAccess = null;
 
     /**
      * @ElementName groupDeptAdminUserAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupDeptAdminUserAccess = null;
 
     /**
      * @ElementName groupDeptAdminTrunkGroupAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupDeptAdminTrunkGroupAccess = null;
 
     /**
      * @ElementName groupDeptAdminPhoneNumberExtensionAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupDeptAdminPhoneNumberExtensionAccess = null;
 
     /**
      * @ElementName groupDeptAdminCallingLineIdNumberAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupDeptAdminCallingLineIdNumberAccess = null;
 
     /**
      * @ElementName groupUserAuthAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupUserAuthAccess = null;
 
     /**
      * @ElementName groupUserProfileAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupUserProfileAccess = null;
 
     /**
      * @ElementName groupUserEnhancedCallLogsAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupUserEnhancedCallLogsAccess = null;
 
     /**
      * @ElementName groupVoiceMessagingAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupVoiceMessagingAccess = null;
 
     /**
      * @ElementName groupCallingPlanAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupCallingPlanAccess = null;
 
     /**
      * @ElementName groupUserGroupDirectoryAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupUserGroupDirectoryAccess = null;
 
     /**
      * @ElementName groupUserAutoAttendantNameDialingAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupUserAutoAttendantNameDialingAccess = null;
 
     /**
      * @ElementName groupAdminGroupProfileAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminGroupProfileAccess = null;
 
     /**
      * @ElementName groupAdminUserAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminUserAccess = null;
 
     /**
      * @ElementName groupAdminAdminAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminAdminAccess = null;
 
     /**
      * @ElementName groupAdminDepartmentAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminDepartmentAccess = null;
 
     /**
      * @ElementName groupAdminDeviceAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminDeviceAccess = null;
 
     /**
      * @ElementName groupAdminNumberAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminNumberAccess = null;
 
     /**
      * @ElementName groupAdminCallingLineIdNumberAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminCallingLineIdNumberAccess = null;
 
     /**
      * @ElementName groupAdminServiceAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminServiceAccess = null;
 
     /**
      * @ElementName groupAdminFtrAccessCodeAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminFtrAccessCodeAccess = null;
 
     /**
      * @ElementName groupAdminEnhancedServiceAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminEnhancedServiceAccess = null;
 
     /**
      * @ElementName groupAdminTrunkGroupAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminTrunkGroupAccess = null;
 
     /**
      * @ElementName groupAdminVerifyTranslationAndRoutingAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminVerifyTranslationAndRoutingAccess = null;
 
     /**
      * @ElementName groupAdminSessionAdmissionControlAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminSessionAdmissionControlAccess = null;
 
     /**
      * @ElementName groupAdminOfficeZoneAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminOfficeZoneAccess = null;
 
     /**
      * @ElementName groupAdminNumberActivationAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminNumberActivationAccess = null;
 
     /**
      * @ElementName groupAdminDialableCallerIDAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminDialableCallerIDAccess = null;
 
     /**
      * @ElementName groupAdminCommunicationBarringUserProfileAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $groupAdminCommunicationBarringUserProfileAccess = null;
 
     /**
      * @ElementName svcProvAdminProfileAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminProfileAccess = null;
 
     /**
      * @ElementName svcProvAdminGroupAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminGroupAccess = null;
 
     /**
      * @ElementName svcProvAdminUserAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminUserAccess = null;
 
     /**
      * @ElementName svcProvAdminAdminAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminAdminAccess = null;
 
     /**
      * @ElementName svcProvAdminDepartmentAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminDepartmentAccess = null;
 
     /**
      * @ElementName svcProvAdminDeviceAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminDeviceAccess = null;
 
     /**
      * @ElementName svcProvAdminNumberAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminNumberAccess = null;
 
     /**
      * @ElementName svcProvAdminCallingLineIdNumberAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminCallingLineIdNumberAccess = null;
 
     /**
      * @ElementName svcProvAdminServicePackAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminServicePackAccess = null;
 
     /**
      * @ElementName svcProvAdminServiceAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminServiceAccess = null;
 
     /**
      * @ElementName svcProvAdminSessionAdmissionControlAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminSessionAdmissionControlAccess = null;
 
     /**
      * @ElementName svcProvAdminWebBrandingAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminWebBrandingAccess = null;
 
     /**
      * @ElementName svcProvAdminOfficeZoneAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminOfficeZoneAccess = null;
 
     /**
      * @ElementName svcProvAdminNetworkPolicyAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminNetworkPolicyAccess = null;
 
     /**
      * @ElementName svcProvAdminCommunicationBarringAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminCommunicationBarringAccess = null;
 
     /**
      * @ElementName svcProvAdminVerifyTranslationAndRoutingAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminVerifyTranslationAndRoutingAccess = null;
 
     /**
      * @ElementName enterpriseAdminNumberActivationAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $enterpriseAdminNumberActivationAccess = null;
 
     /**
      * @ElementName svcProvAdminDialableCallerIDAccess
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      * @var \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
      */
     private $svcProvAdminDialableCallerIDAccess = null;
 
     /**
      * @ElementName activatedFeatureId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $activatedFeatureId = array(
@@ -427,6 +494,8 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName visibleClientApplication
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $visibleClientApplication = array(
@@ -435,126 +504,147 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName eclUsingDbs
+     * @Type bool
      * @var bool|null
      */
     private $eclUsingDbs = null;
 
     /**
      * @ElementName personalizedNameMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $personalizedNameMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName answerConfimationMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $answerConfimationMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName voiceMessageGreetingMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $voiceMessageGreetingMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName voiceMessageGreetingMaxVideoFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $voiceMessageGreetingMaxVideoFileSizeKilobytes = null;
 
     /**
      * @ElementName autoAttendantGreetingMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $autoAttendantGreetingMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName autoAttendantGreetingMaxVideoFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $autoAttendantGreetingMaxVideoFileSizeKilobytes = null;
 
     /**
      * @ElementName musicOnHoldMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $musicOnHoldMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName videoOnHoldMaxVideoFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $videoOnHoldMaxVideoFileSizeKilobytes = null;
 
     /**
      * @ElementName ringbackMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $ringbackMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName ringbackMaxVideoFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $ringbackMaxVideoFileSizeKilobytes = null;
 
     /**
      * @ElementName interceptMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $interceptMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName interceptMaxVideoFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $interceptMaxVideoFileSizeKilobytes = null;
 
     /**
      * @ElementName callCenterMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $callCenterMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName callCenterMaxVideoFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $callCenterMaxVideoFileSizeKilobytes = null;
 
     /**
      * @ElementName preAlertingMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $preAlertingMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName preAlertingMaxVideoFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $preAlertingMaxVideoFileSizeKilobytes = null;
 
     /**
      * @ElementName conferenceGreetingMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $conferenceGreetingMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName securityClassificationAnncMaxAudioFileSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $securityClassificationAnncMaxAudioFileSizeKilobytes = null;
 
     /**
      * @ElementName announcementRepositoryAudioFileMaxSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $announcementRepositoryAudioFileMaxSizeKilobytes = null;
 
     /**
      * @ElementName announcementRepositoryVideoFileMaxSizeKilobytes
+     * @Type int
      * @var int|null
      */
     private $announcementRepositoryVideoFileMaxSizeKilobytes = null;
@@ -562,19 +652,17 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for passwordExpiresDays
      *
-     * @ElementName passwordExpiresDays
-     * @return int|null
+     * @return int
      */
     public function getPasswordExpiresDays()
     {
-        return $this->passwordExpiresDays;
+        return $this->passwordExpiresDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passwordExpiresDays;
     }
 
     /**
      * Setter for passwordExpiresDays
      *
-     * @ElementName passwordExpiresDays
-     * @param int|null $passwordExpiresDays
+     * @param int $passwordExpiresDays
      * @return $this
      */
     public function setPasswordExpiresDays($passwordExpiresDays)
@@ -584,21 +672,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasswordExpiresDays()
+    {
+        $this->passwordExpiresDays = null;
+        return $this;
+    }
+
+    /**
      * Getter for isAccountDisabled
      *
-     * @ElementName isAccountDisabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsAccountDisabled()
     {
-        return $this->isAccountDisabled;
+        return $this->isAccountDisabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAccountDisabled;
     }
 
     /**
      * Setter for isAccountDisabled
      *
-     * @ElementName isAccountDisabled
-     * @param bool|null $isAccountDisabled
+     * @param bool $isAccountDisabled
      * @return $this
      */
     public function setIsAccountDisabled($isAccountDisabled)
@@ -608,21 +703,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsAccountDisabled()
+    {
+        $this->isAccountDisabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for loginType
      *
-     * @ElementName loginType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType
      */
     public function getLoginType()
     {
-        return $this->loginType;
+        return $this->loginType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->loginType;
     }
 
     /**
      * Setter for loginType
      *
-     * @ElementName loginType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType|null $loginType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType $loginType
      * @return $this
      */
     public function setLoginType(\CWM\BroadWorksConnector\Ocip\Models\LoginType $loginType)
@@ -632,21 +734,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLoginType()
+    {
+        $this->loginType = null;
+        return $this;
+    }
+
+    /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @return string|null
+     * @return string
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @param string|null $firstName
+     * @param string $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -656,21 +765,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @return string|null
+     * @return string
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @param string|null $lastName
+     * @param string $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -680,21 +796,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -704,21 +827,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userDomain
      *
-     * @ElementName userDomain
-     * @return string|null
+     * @return string
      */
     public function getUserDomain()
     {
-        return $this->userDomain;
+        return $this->userDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userDomain;
     }
 
     /**
      * Setter for userDomain
      *
-     * @ElementName userDomain
-     * @param string|null $userDomain
+     * @param string $userDomain
      * @return $this
      */
     public function setUserDomain($userDomain)
@@ -728,21 +858,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserDomain()
+    {
+        $this->userDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for inactivityTimerMinutes
      *
-     * @ElementName inactivityTimerMinutes
-     * @return int|null
+     * @return int
      */
     public function getInactivityTimerMinutes()
     {
-        return $this->inactivityTimerMinutes;
+        return $this->inactivityTimerMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->inactivityTimerMinutes;
     }
 
     /**
      * Setter for inactivityTimerMinutes
      *
-     * @ElementName inactivityTimerMinutes
-     * @param int|null $inactivityTimerMinutes
+     * @param int $inactivityTimerMinutes
      * @return $this
      */
     public function setInactivityTimerMinutes($inactivityTimerMinutes)
@@ -752,21 +889,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInactivityTimerMinutes()
+    {
+        $this->inactivityTimerMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for isReadOnlyAdmin
      *
-     * @ElementName isReadOnlyAdmin
-     * @return bool|null
+     * @return bool
      */
     public function getIsReadOnlyAdmin()
     {
-        return $this->isReadOnlyAdmin;
+        return $this->isReadOnlyAdmin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isReadOnlyAdmin;
     }
 
     /**
      * Setter for isReadOnlyAdmin
      *
-     * @ElementName isReadOnlyAdmin
-     * @param bool|null $isReadOnlyAdmin
+     * @param bool $isReadOnlyAdmin
      * @return $this
      */
     public function setIsReadOnlyAdmin($isReadOnlyAdmin)
@@ -776,21 +920,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsReadOnlyAdmin()
+    {
+        $this->isReadOnlyAdmin = null;
+        return $this;
+    }
+
+    /**
      * Getter for isIMSMode
      *
-     * @ElementName isIMSMode
-     * @return bool|null
+     * @return bool
      */
     public function getIsIMSMode()
     {
-        return $this->isIMSMode;
+        return $this->isIMSMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isIMSMode;
     }
 
     /**
      * Setter for isIMSMode
      *
-     * @ElementName isIMSMode
-     * @param bool|null $isIMSMode
+     * @param bool $isIMSMode
      * @return $this
      */
     public function setIsIMSMode($isIMSMode)
@@ -800,21 +951,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsIMSMode()
+    {
+        $this->isIMSMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for deploymentMode
      *
-     * @ElementName deploymentMode
-     * @return string|null
+     * @return string
      */
     public function getDeploymentMode()
     {
-        return $this->deploymentMode;
+        return $this->deploymentMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deploymentMode;
     }
 
     /**
      * Setter for deploymentMode
      *
-     * @ElementName deploymentMode
-     * @param string|null $deploymentMode
+     * @param string $deploymentMode
      * @return $this
      */
     public function setDeploymentMode($deploymentMode)
@@ -824,21 +982,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeploymentMode()
+    {
+        $this->deploymentMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for deploymentInstance
      *
-     * @ElementName deploymentInstance
-     * @return string|null
+     * @return string
      */
     public function getDeploymentInstance()
     {
-        return $this->deploymentInstance;
+        return $this->deploymentInstance instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deploymentInstance;
     }
 
     /**
      * Setter for deploymentInstance
      *
-     * @ElementName deploymentInstance
-     * @param string|null $deploymentInstance
+     * @param string $deploymentInstance
      * @return $this
      */
     public function setDeploymentInstance($deploymentInstance)
@@ -848,21 +1013,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeploymentInstance()
+    {
+        $this->deploymentInstance = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceProviderAdminType
      *
-     * @ElementName serviceProviderAdminType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
      */
     public function getServiceProviderAdminType()
     {
-        return $this->serviceProviderAdminType;
+        return $this->serviceProviderAdminType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderAdminType;
     }
 
     /**
      * Setter for serviceProviderAdminType
      *
-     * @ElementName serviceProviderAdminType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null $serviceProviderAdminType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType $serviceProviderAdminType
      * @return $this
      */
     public function setServiceProviderAdminType(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType $serviceProviderAdminType)
@@ -872,21 +1044,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderAdminType()
+    {
+        $this->serviceProviderAdminType = null;
+        return $this;
+    }
+
+    /**
      * Getter for locale
      *
-     * @ElementName locale
-     * @return string|null
+     * @return string
      */
     public function getLocale()
     {
-        return $this->locale;
+        return $this->locale instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locale;
     }
 
     /**
      * Setter for locale
      *
-     * @ElementName locale
-     * @param string|null $locale
+     * @param string $locale
      * @return $this
      */
     public function setLocale($locale)
@@ -896,21 +1075,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocale()
+    {
+        $this->locale = null;
+        return $this;
+    }
+
+    /**
      * Getter for encoding
      *
-     * @ElementName encoding
-     * @return string|null
+     * @return string
      */
     public function getEncoding()
     {
-        return $this->encoding;
+        return $this->encoding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->encoding;
     }
 
     /**
      * Setter for encoding
      *
-     * @ElementName encoding
-     * @param string|null $encoding
+     * @param string $encoding
      * @return $this
      */
     public function setEncoding($encoding)
@@ -920,21 +1106,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEncoding()
+    {
+        $this->encoding = null;
+        return $this;
+    }
+
+    /**
      * Getter for isEnterprise
      *
-     * @ElementName isEnterprise
-     * @return bool|null
+     * @return bool
      */
     public function getIsEnterprise()
     {
-        return $this->isEnterprise;
+        return $this->isEnterprise instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isEnterprise;
     }
 
     /**
      * Setter for isEnterprise
      *
-     * @ElementName isEnterprise
-     * @param bool|null $isEnterprise
+     * @param bool $isEnterprise
      * @return $this
      */
     public function setIsEnterprise($isEnterprise)
@@ -944,21 +1137,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsEnterprise()
+    {
+        $this->isEnterprise = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -968,21 +1168,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -992,21 +1199,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupExtensionAccess
      *
-     * @ElementName groupExtensionAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupExtensionAccess()
     {
-        return $this->groupExtensionAccess;
+        return $this->groupExtensionAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupExtensionAccess;
     }
 
     /**
      * Setter for groupExtensionAccess
      *
-     * @ElementName groupExtensionAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupExtensionAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupExtensionAccess
      * @return $this
      */
     public function setGroupExtensionAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupExtensionAccess)
@@ -1016,21 +1230,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupExtensionAccess()
+    {
+        $this->groupExtensionAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupDeptAdminUserAccess
      *
-     * @ElementName groupDeptAdminUserAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupDeptAdminUserAccess()
     {
-        return $this->groupDeptAdminUserAccess;
+        return $this->groupDeptAdminUserAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupDeptAdminUserAccess;
     }
 
     /**
      * Setter for groupDeptAdminUserAccess
      *
-     * @ElementName groupDeptAdminUserAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupDeptAdminUserAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupDeptAdminUserAccess
      * @return $this
      */
     public function setGroupDeptAdminUserAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupDeptAdminUserAccess)
@@ -1040,21 +1261,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupDeptAdminUserAccess()
+    {
+        $this->groupDeptAdminUserAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupDeptAdminTrunkGroupAccess
      *
-     * @ElementName groupDeptAdminTrunkGroupAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupDeptAdminTrunkGroupAccess()
     {
-        return $this->groupDeptAdminTrunkGroupAccess;
+        return $this->groupDeptAdminTrunkGroupAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupDeptAdminTrunkGroupAccess;
     }
 
     /**
      * Setter for groupDeptAdminTrunkGroupAccess
      *
-     * @ElementName groupDeptAdminTrunkGroupAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupDeptAdminTrunkGroupAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupDeptAdminTrunkGroupAccess
      * @return $this
      */
     public function setGroupDeptAdminTrunkGroupAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupDeptAdminTrunkGroupAccess)
@@ -1064,21 +1292,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupDeptAdminTrunkGroupAccess()
+    {
+        $this->groupDeptAdminTrunkGroupAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupDeptAdminPhoneNumberExtensionAccess
      *
-     * @ElementName groupDeptAdminPhoneNumberExtensionAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupDeptAdminPhoneNumberExtensionAccess()
     {
-        return $this->groupDeptAdminPhoneNumberExtensionAccess;
+        return $this->groupDeptAdminPhoneNumberExtensionAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupDeptAdminPhoneNumberExtensionAccess;
     }
 
     /**
      * Setter for groupDeptAdminPhoneNumberExtensionAccess
      *
-     * @ElementName groupDeptAdminPhoneNumberExtensionAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupDeptAdminPhoneNumberExtensionAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupDeptAdminPhoneNumberExtensionAccess
      * @return $this
      */
     public function setGroupDeptAdminPhoneNumberExtensionAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupDeptAdminPhoneNumberExtensionAccess)
@@ -1088,21 +1323,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupDeptAdminPhoneNumberExtensionAccess()
+    {
+        $this->groupDeptAdminPhoneNumberExtensionAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupDeptAdminCallingLineIdNumberAccess
      *
-     * @ElementName groupDeptAdminCallingLineIdNumberAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupDeptAdminCallingLineIdNumberAccess()
     {
-        return $this->groupDeptAdminCallingLineIdNumberAccess;
+        return $this->groupDeptAdminCallingLineIdNumberAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupDeptAdminCallingLineIdNumberAccess;
     }
 
     /**
      * Setter for groupDeptAdminCallingLineIdNumberAccess
      *
-     * @ElementName groupDeptAdminCallingLineIdNumberAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupDeptAdminCallingLineIdNumberAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupDeptAdminCallingLineIdNumberAccess
      * @return $this
      */
     public function setGroupDeptAdminCallingLineIdNumberAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupDeptAdminCallingLineIdNumberAccess)
@@ -1112,21 +1354,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupDeptAdminCallingLineIdNumberAccess()
+    {
+        $this->groupDeptAdminCallingLineIdNumberAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupUserAuthAccess
      *
-     * @ElementName groupUserAuthAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupUserAuthAccess()
     {
-        return $this->groupUserAuthAccess;
+        return $this->groupUserAuthAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupUserAuthAccess;
     }
 
     /**
      * Setter for groupUserAuthAccess
      *
-     * @ElementName groupUserAuthAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupUserAuthAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserAuthAccess
      * @return $this
      */
     public function setGroupUserAuthAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserAuthAccess)
@@ -1136,21 +1385,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupUserAuthAccess()
+    {
+        $this->groupUserAuthAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupUserProfileAccess
      *
-     * @ElementName groupUserProfileAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupUserProfileAccess()
     {
-        return $this->groupUserProfileAccess;
+        return $this->groupUserProfileAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupUserProfileAccess;
     }
 
     /**
      * Setter for groupUserProfileAccess
      *
-     * @ElementName groupUserProfileAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupUserProfileAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserProfileAccess
      * @return $this
      */
     public function setGroupUserProfileAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserProfileAccess)
@@ -1160,21 +1416,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupUserProfileAccess()
+    {
+        $this->groupUserProfileAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupUserEnhancedCallLogsAccess
      *
-     * @ElementName groupUserEnhancedCallLogsAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupUserEnhancedCallLogsAccess()
     {
-        return $this->groupUserEnhancedCallLogsAccess;
+        return $this->groupUserEnhancedCallLogsAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupUserEnhancedCallLogsAccess;
     }
 
     /**
      * Setter for groupUserEnhancedCallLogsAccess
      *
-     * @ElementName groupUserEnhancedCallLogsAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupUserEnhancedCallLogsAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserEnhancedCallLogsAccess
      * @return $this
      */
     public function setGroupUserEnhancedCallLogsAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserEnhancedCallLogsAccess)
@@ -1184,21 +1447,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupUserEnhancedCallLogsAccess()
+    {
+        $this->groupUserEnhancedCallLogsAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupVoiceMessagingAccess
      *
-     * @ElementName groupVoiceMessagingAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupVoiceMessagingAccess()
     {
-        return $this->groupVoiceMessagingAccess;
+        return $this->groupVoiceMessagingAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupVoiceMessagingAccess;
     }
 
     /**
      * Setter for groupVoiceMessagingAccess
      *
-     * @ElementName groupVoiceMessagingAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupVoiceMessagingAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupVoiceMessagingAccess
      * @return $this
      */
     public function setGroupVoiceMessagingAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupVoiceMessagingAccess)
@@ -1208,21 +1478,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupVoiceMessagingAccess()
+    {
+        $this->groupVoiceMessagingAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupCallingPlanAccess
      *
-     * @ElementName groupCallingPlanAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupCallingPlanAccess()
     {
-        return $this->groupCallingPlanAccess;
+        return $this->groupCallingPlanAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupCallingPlanAccess;
     }
 
     /**
      * Setter for groupCallingPlanAccess
      *
-     * @ElementName groupCallingPlanAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupCallingPlanAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupCallingPlanAccess
      * @return $this
      */
     public function setGroupCallingPlanAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupCallingPlanAccess)
@@ -1232,21 +1509,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupCallingPlanAccess()
+    {
+        $this->groupCallingPlanAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupUserGroupDirectoryAccess
      *
-     * @ElementName groupUserGroupDirectoryAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupUserGroupDirectoryAccess()
     {
-        return $this->groupUserGroupDirectoryAccess;
+        return $this->groupUserGroupDirectoryAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupUserGroupDirectoryAccess;
     }
 
     /**
      * Setter for groupUserGroupDirectoryAccess
      *
-     * @ElementName groupUserGroupDirectoryAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupUserGroupDirectoryAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserGroupDirectoryAccess
      * @return $this
      */
     public function setGroupUserGroupDirectoryAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserGroupDirectoryAccess)
@@ -1256,21 +1540,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupUserGroupDirectoryAccess()
+    {
+        $this->groupUserGroupDirectoryAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupUserAutoAttendantNameDialingAccess
      *
-     * @ElementName groupUserAutoAttendantNameDialingAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupUserAutoAttendantNameDialingAccess()
     {
-        return $this->groupUserAutoAttendantNameDialingAccess;
+        return $this->groupUserAutoAttendantNameDialingAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupUserAutoAttendantNameDialingAccess;
     }
 
     /**
      * Setter for groupUserAutoAttendantNameDialingAccess
      *
-     * @ElementName groupUserAutoAttendantNameDialingAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupUserAutoAttendantNameDialingAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserAutoAttendantNameDialingAccess
      * @return $this
      */
     public function setGroupUserAutoAttendantNameDialingAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupUserAutoAttendantNameDialingAccess)
@@ -1280,21 +1571,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupUserAutoAttendantNameDialingAccess()
+    {
+        $this->groupUserAutoAttendantNameDialingAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminGroupProfileAccess
      *
-     * @ElementName groupAdminGroupProfileAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminGroupProfileAccess()
     {
-        return $this->groupAdminGroupProfileAccess;
+        return $this->groupAdminGroupProfileAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminGroupProfileAccess;
     }
 
     /**
      * Setter for groupAdminGroupProfileAccess
      *
-     * @ElementName groupAdminGroupProfileAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminGroupProfileAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminGroupProfileAccess
      * @return $this
      */
     public function setGroupAdminGroupProfileAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminGroupProfileAccess)
@@ -1304,21 +1602,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminGroupProfileAccess()
+    {
+        $this->groupAdminGroupProfileAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminUserAccess
      *
-     * @ElementName groupAdminUserAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminUserAccess()
     {
-        return $this->groupAdminUserAccess;
+        return $this->groupAdminUserAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminUserAccess;
     }
 
     /**
      * Setter for groupAdminUserAccess
      *
-     * @ElementName groupAdminUserAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminUserAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminUserAccess
      * @return $this
      */
     public function setGroupAdminUserAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminUserAccess)
@@ -1328,21 +1633,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminUserAccess()
+    {
+        $this->groupAdminUserAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminAdminAccess
      *
-     * @ElementName groupAdminAdminAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminAdminAccess()
     {
-        return $this->groupAdminAdminAccess;
+        return $this->groupAdminAdminAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminAdminAccess;
     }
 
     /**
      * Setter for groupAdminAdminAccess
      *
-     * @ElementName groupAdminAdminAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminAdminAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminAdminAccess
      * @return $this
      */
     public function setGroupAdminAdminAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminAdminAccess)
@@ -1352,21 +1664,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminAdminAccess()
+    {
+        $this->groupAdminAdminAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminDepartmentAccess
      *
-     * @ElementName groupAdminDepartmentAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminDepartmentAccess()
     {
-        return $this->groupAdminDepartmentAccess;
+        return $this->groupAdminDepartmentAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminDepartmentAccess;
     }
 
     /**
      * Setter for groupAdminDepartmentAccess
      *
-     * @ElementName groupAdminDepartmentAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminDepartmentAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminDepartmentAccess
      * @return $this
      */
     public function setGroupAdminDepartmentAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminDepartmentAccess)
@@ -1376,21 +1695,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminDepartmentAccess()
+    {
+        $this->groupAdminDepartmentAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminDeviceAccess
      *
-     * @ElementName groupAdminDeviceAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminDeviceAccess()
     {
-        return $this->groupAdminDeviceAccess;
+        return $this->groupAdminDeviceAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminDeviceAccess;
     }
 
     /**
      * Setter for groupAdminDeviceAccess
      *
-     * @ElementName groupAdminDeviceAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminDeviceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminDeviceAccess
      * @return $this
      */
     public function setGroupAdminDeviceAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminDeviceAccess)
@@ -1400,21 +1726,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminDeviceAccess()
+    {
+        $this->groupAdminDeviceAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminNumberAccess
      *
-     * @ElementName groupAdminNumberAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminNumberAccess()
     {
-        return $this->groupAdminNumberAccess;
+        return $this->groupAdminNumberAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminNumberAccess;
     }
 
     /**
      * Setter for groupAdminNumberAccess
      *
-     * @ElementName groupAdminNumberAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminNumberAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminNumberAccess
      * @return $this
      */
     public function setGroupAdminNumberAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminNumberAccess)
@@ -1424,21 +1757,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminNumberAccess()
+    {
+        $this->groupAdminNumberAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminCallingLineIdNumberAccess
      *
-     * @ElementName groupAdminCallingLineIdNumberAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminCallingLineIdNumberAccess()
     {
-        return $this->groupAdminCallingLineIdNumberAccess;
+        return $this->groupAdminCallingLineIdNumberAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminCallingLineIdNumberAccess;
     }
 
     /**
      * Setter for groupAdminCallingLineIdNumberAccess
      *
-     * @ElementName groupAdminCallingLineIdNumberAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminCallingLineIdNumberAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminCallingLineIdNumberAccess
      * @return $this
      */
     public function setGroupAdminCallingLineIdNumberAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminCallingLineIdNumberAccess)
@@ -1448,21 +1788,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminCallingLineIdNumberAccess()
+    {
+        $this->groupAdminCallingLineIdNumberAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminServiceAccess
      *
-     * @ElementName groupAdminServiceAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminServiceAccess()
     {
-        return $this->groupAdminServiceAccess;
+        return $this->groupAdminServiceAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminServiceAccess;
     }
 
     /**
      * Setter for groupAdminServiceAccess
      *
-     * @ElementName groupAdminServiceAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminServiceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminServiceAccess
      * @return $this
      */
     public function setGroupAdminServiceAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminServiceAccess)
@@ -1472,21 +1819,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminServiceAccess()
+    {
+        $this->groupAdminServiceAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminFtrAccessCodeAccess
      *
-     * @ElementName groupAdminFtrAccessCodeAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminFtrAccessCodeAccess()
     {
-        return $this->groupAdminFtrAccessCodeAccess;
+        return $this->groupAdminFtrAccessCodeAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminFtrAccessCodeAccess;
     }
 
     /**
      * Setter for groupAdminFtrAccessCodeAccess
      *
-     * @ElementName groupAdminFtrAccessCodeAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminFtrAccessCodeAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminFtrAccessCodeAccess
      * @return $this
      */
     public function setGroupAdminFtrAccessCodeAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminFtrAccessCodeAccess)
@@ -1496,21 +1850,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminFtrAccessCodeAccess()
+    {
+        $this->groupAdminFtrAccessCodeAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminEnhancedServiceAccess
      *
-     * @ElementName groupAdminEnhancedServiceAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminEnhancedServiceAccess()
     {
-        return $this->groupAdminEnhancedServiceAccess;
+        return $this->groupAdminEnhancedServiceAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminEnhancedServiceAccess;
     }
 
     /**
      * Setter for groupAdminEnhancedServiceAccess
      *
-     * @ElementName groupAdminEnhancedServiceAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminEnhancedServiceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminEnhancedServiceAccess
      * @return $this
      */
     public function setGroupAdminEnhancedServiceAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminEnhancedServiceAccess)
@@ -1520,21 +1881,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminEnhancedServiceAccess()
+    {
+        $this->groupAdminEnhancedServiceAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminTrunkGroupAccess
      *
-     * @ElementName groupAdminTrunkGroupAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminTrunkGroupAccess()
     {
-        return $this->groupAdminTrunkGroupAccess;
+        return $this->groupAdminTrunkGroupAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminTrunkGroupAccess;
     }
 
     /**
      * Setter for groupAdminTrunkGroupAccess
      *
-     * @ElementName groupAdminTrunkGroupAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminTrunkGroupAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminTrunkGroupAccess
      * @return $this
      */
     public function setGroupAdminTrunkGroupAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminTrunkGroupAccess)
@@ -1544,21 +1912,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminTrunkGroupAccess()
+    {
+        $this->groupAdminTrunkGroupAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminVerifyTranslationAndRoutingAccess
      *
-     * @ElementName groupAdminVerifyTranslationAndRoutingAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminVerifyTranslationAndRoutingAccess()
     {
-        return $this->groupAdminVerifyTranslationAndRoutingAccess;
+        return $this->groupAdminVerifyTranslationAndRoutingAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminVerifyTranslationAndRoutingAccess;
     }
 
     /**
      * Setter for groupAdminVerifyTranslationAndRoutingAccess
      *
-     * @ElementName groupAdminVerifyTranslationAndRoutingAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminVerifyTranslationAndRoutingAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminVerifyTranslationAndRoutingAccess
      * @return $this
      */
     public function setGroupAdminVerifyTranslationAndRoutingAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminVerifyTranslationAndRoutingAccess)
@@ -1568,21 +1943,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminVerifyTranslationAndRoutingAccess()
+    {
+        $this->groupAdminVerifyTranslationAndRoutingAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminSessionAdmissionControlAccess
      *
-     * @ElementName groupAdminSessionAdmissionControlAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminSessionAdmissionControlAccess()
     {
-        return $this->groupAdminSessionAdmissionControlAccess;
+        return $this->groupAdminSessionAdmissionControlAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminSessionAdmissionControlAccess;
     }
 
     /**
      * Setter for groupAdminSessionAdmissionControlAccess
      *
-     * @ElementName groupAdminSessionAdmissionControlAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminSessionAdmissionControlAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminSessionAdmissionControlAccess
      * @return $this
      */
     public function setGroupAdminSessionAdmissionControlAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminSessionAdmissionControlAccess)
@@ -1592,21 +1974,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminSessionAdmissionControlAccess()
+    {
+        $this->groupAdminSessionAdmissionControlAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminOfficeZoneAccess
      *
-     * @ElementName groupAdminOfficeZoneAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminOfficeZoneAccess()
     {
-        return $this->groupAdminOfficeZoneAccess;
+        return $this->groupAdminOfficeZoneAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminOfficeZoneAccess;
     }
 
     /**
      * Setter for groupAdminOfficeZoneAccess
      *
-     * @ElementName groupAdminOfficeZoneAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminOfficeZoneAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminOfficeZoneAccess
      * @return $this
      */
     public function setGroupAdminOfficeZoneAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminOfficeZoneAccess)
@@ -1616,21 +2005,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminOfficeZoneAccess()
+    {
+        $this->groupAdminOfficeZoneAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminNumberActivationAccess
      *
-     * @ElementName groupAdminNumberActivationAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminNumberActivationAccess()
     {
-        return $this->groupAdminNumberActivationAccess;
+        return $this->groupAdminNumberActivationAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminNumberActivationAccess;
     }
 
     /**
      * Setter for groupAdminNumberActivationAccess
      *
-     * @ElementName groupAdminNumberActivationAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminNumberActivationAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminNumberActivationAccess
      * @return $this
      */
     public function setGroupAdminNumberActivationAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminNumberActivationAccess)
@@ -1640,21 +2036,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminNumberActivationAccess()
+    {
+        $this->groupAdminNumberActivationAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminDialableCallerIDAccess
      *
-     * @ElementName groupAdminDialableCallerIDAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminDialableCallerIDAccess()
     {
-        return $this->groupAdminDialableCallerIDAccess;
+        return $this->groupAdminDialableCallerIDAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminDialableCallerIDAccess;
     }
 
     /**
      * Setter for groupAdminDialableCallerIDAccess
      *
-     * @ElementName groupAdminDialableCallerIDAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminDialableCallerIDAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminDialableCallerIDAccess
      * @return $this
      */
     public function setGroupAdminDialableCallerIDAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminDialableCallerIDAccess)
@@ -1664,21 +2067,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminDialableCallerIDAccess()
+    {
+        $this->groupAdminDialableCallerIDAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupAdminCommunicationBarringUserProfileAccess
      *
-     * @ElementName groupAdminCommunicationBarringUserProfileAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getGroupAdminCommunicationBarringUserProfileAccess()
     {
-        return $this->groupAdminCommunicationBarringUserProfileAccess;
+        return $this->groupAdminCommunicationBarringUserProfileAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupAdminCommunicationBarringUserProfileAccess;
     }
 
     /**
      * Setter for groupAdminCommunicationBarringUserProfileAccess
      *
-     * @ElementName groupAdminCommunicationBarringUserProfileAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $groupAdminCommunicationBarringUserProfileAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminCommunicationBarringUserProfileAccess
      * @return $this
      */
     public function setGroupAdminCommunicationBarringUserProfileAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $groupAdminCommunicationBarringUserProfileAccess)
@@ -1688,21 +2098,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupAdminCommunicationBarringUserProfileAccess()
+    {
+        $this->groupAdminCommunicationBarringUserProfileAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminProfileAccess
      *
-     * @ElementName svcProvAdminProfileAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminProfileAccess()
     {
-        return $this->svcProvAdminProfileAccess;
+        return $this->svcProvAdminProfileAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminProfileAccess;
     }
 
     /**
      * Setter for svcProvAdminProfileAccess
      *
-     * @ElementName svcProvAdminProfileAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminProfileAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminProfileAccess
      * @return $this
      */
     public function setSvcProvAdminProfileAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminProfileAccess)
@@ -1712,21 +2129,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminProfileAccess()
+    {
+        $this->svcProvAdminProfileAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminGroupAccess
      *
-     * @ElementName svcProvAdminGroupAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminGroupAccess()
     {
-        return $this->svcProvAdminGroupAccess;
+        return $this->svcProvAdminGroupAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminGroupAccess;
     }
 
     /**
      * Setter for svcProvAdminGroupAccess
      *
-     * @ElementName svcProvAdminGroupAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminGroupAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminGroupAccess
      * @return $this
      */
     public function setSvcProvAdminGroupAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminGroupAccess)
@@ -1736,21 +2160,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminGroupAccess()
+    {
+        $this->svcProvAdminGroupAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminUserAccess
      *
-     * @ElementName svcProvAdminUserAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminUserAccess()
     {
-        return $this->svcProvAdminUserAccess;
+        return $this->svcProvAdminUserAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminUserAccess;
     }
 
     /**
      * Setter for svcProvAdminUserAccess
      *
-     * @ElementName svcProvAdminUserAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminUserAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminUserAccess
      * @return $this
      */
     public function setSvcProvAdminUserAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminUserAccess)
@@ -1760,21 +2191,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminUserAccess()
+    {
+        $this->svcProvAdminUserAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminAdminAccess
      *
-     * @ElementName svcProvAdminAdminAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminAdminAccess()
     {
-        return $this->svcProvAdminAdminAccess;
+        return $this->svcProvAdminAdminAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminAdminAccess;
     }
 
     /**
      * Setter for svcProvAdminAdminAccess
      *
-     * @ElementName svcProvAdminAdminAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminAdminAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminAdminAccess
      * @return $this
      */
     public function setSvcProvAdminAdminAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminAdminAccess)
@@ -1784,21 +2222,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminAdminAccess()
+    {
+        $this->svcProvAdminAdminAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminDepartmentAccess
      *
-     * @ElementName svcProvAdminDepartmentAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminDepartmentAccess()
     {
-        return $this->svcProvAdminDepartmentAccess;
+        return $this->svcProvAdminDepartmentAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminDepartmentAccess;
     }
 
     /**
      * Setter for svcProvAdminDepartmentAccess
      *
-     * @ElementName svcProvAdminDepartmentAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminDepartmentAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminDepartmentAccess
      * @return $this
      */
     public function setSvcProvAdminDepartmentAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminDepartmentAccess)
@@ -1808,21 +2253,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminDepartmentAccess()
+    {
+        $this->svcProvAdminDepartmentAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminDeviceAccess
      *
-     * @ElementName svcProvAdminDeviceAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminDeviceAccess()
     {
-        return $this->svcProvAdminDeviceAccess;
+        return $this->svcProvAdminDeviceAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminDeviceAccess;
     }
 
     /**
      * Setter for svcProvAdminDeviceAccess
      *
-     * @ElementName svcProvAdminDeviceAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminDeviceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminDeviceAccess
      * @return $this
      */
     public function setSvcProvAdminDeviceAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminDeviceAccess)
@@ -1832,21 +2284,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminDeviceAccess()
+    {
+        $this->svcProvAdminDeviceAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminNumberAccess
      *
-     * @ElementName svcProvAdminNumberAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminNumberAccess()
     {
-        return $this->svcProvAdminNumberAccess;
+        return $this->svcProvAdminNumberAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminNumberAccess;
     }
 
     /**
      * Setter for svcProvAdminNumberAccess
      *
-     * @ElementName svcProvAdminNumberAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminNumberAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminNumberAccess
      * @return $this
      */
     public function setSvcProvAdminNumberAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminNumberAccess)
@@ -1856,21 +2315,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminNumberAccess()
+    {
+        $this->svcProvAdminNumberAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminCallingLineIdNumberAccess
      *
-     * @ElementName svcProvAdminCallingLineIdNumberAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminCallingLineIdNumberAccess()
     {
-        return $this->svcProvAdminCallingLineIdNumberAccess;
+        return $this->svcProvAdminCallingLineIdNumberAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminCallingLineIdNumberAccess;
     }
 
     /**
      * Setter for svcProvAdminCallingLineIdNumberAccess
      *
-     * @ElementName svcProvAdminCallingLineIdNumberAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminCallingLineIdNumberAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminCallingLineIdNumberAccess
      * @return $this
      */
     public function setSvcProvAdminCallingLineIdNumberAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminCallingLineIdNumberAccess)
@@ -1880,21 +2346,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminCallingLineIdNumberAccess()
+    {
+        $this->svcProvAdminCallingLineIdNumberAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminServicePackAccess
      *
-     * @ElementName svcProvAdminServicePackAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminServicePackAccess()
     {
-        return $this->svcProvAdminServicePackAccess;
+        return $this->svcProvAdminServicePackAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminServicePackAccess;
     }
 
     /**
      * Setter for svcProvAdminServicePackAccess
      *
-     * @ElementName svcProvAdminServicePackAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminServicePackAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminServicePackAccess
      * @return $this
      */
     public function setSvcProvAdminServicePackAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminServicePackAccess)
@@ -1904,21 +2377,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminServicePackAccess()
+    {
+        $this->svcProvAdminServicePackAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminServiceAccess
      *
-     * @ElementName svcProvAdminServiceAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminServiceAccess()
     {
-        return $this->svcProvAdminServiceAccess;
+        return $this->svcProvAdminServiceAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminServiceAccess;
     }
 
     /**
      * Setter for svcProvAdminServiceAccess
      *
-     * @ElementName svcProvAdminServiceAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminServiceAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminServiceAccess
      * @return $this
      */
     public function setSvcProvAdminServiceAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminServiceAccess)
@@ -1928,21 +2408,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminServiceAccess()
+    {
+        $this->svcProvAdminServiceAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminSessionAdmissionControlAccess
      *
-     * @ElementName svcProvAdminSessionAdmissionControlAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminSessionAdmissionControlAccess()
     {
-        return $this->svcProvAdminSessionAdmissionControlAccess;
+        return $this->svcProvAdminSessionAdmissionControlAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminSessionAdmissionControlAccess;
     }
 
     /**
      * Setter for svcProvAdminSessionAdmissionControlAccess
      *
-     * @ElementName svcProvAdminSessionAdmissionControlAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminSessionAdmissionControlAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminSessionAdmissionControlAccess
      * @return $this
      */
     public function setSvcProvAdminSessionAdmissionControlAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminSessionAdmissionControlAccess)
@@ -1952,21 +2439,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminSessionAdmissionControlAccess()
+    {
+        $this->svcProvAdminSessionAdmissionControlAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminWebBrandingAccess
      *
-     * @ElementName svcProvAdminWebBrandingAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminWebBrandingAccess()
     {
-        return $this->svcProvAdminWebBrandingAccess;
+        return $this->svcProvAdminWebBrandingAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminWebBrandingAccess;
     }
 
     /**
      * Setter for svcProvAdminWebBrandingAccess
      *
-     * @ElementName svcProvAdminWebBrandingAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminWebBrandingAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminWebBrandingAccess
      * @return $this
      */
     public function setSvcProvAdminWebBrandingAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminWebBrandingAccess)
@@ -1976,21 +2470,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminWebBrandingAccess()
+    {
+        $this->svcProvAdminWebBrandingAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminOfficeZoneAccess
      *
-     * @ElementName svcProvAdminOfficeZoneAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminOfficeZoneAccess()
     {
-        return $this->svcProvAdminOfficeZoneAccess;
+        return $this->svcProvAdminOfficeZoneAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminOfficeZoneAccess;
     }
 
     /**
      * Setter for svcProvAdminOfficeZoneAccess
      *
-     * @ElementName svcProvAdminOfficeZoneAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminOfficeZoneAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminOfficeZoneAccess
      * @return $this
      */
     public function setSvcProvAdminOfficeZoneAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminOfficeZoneAccess)
@@ -2000,21 +2501,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminOfficeZoneAccess()
+    {
+        $this->svcProvAdminOfficeZoneAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminNetworkPolicyAccess
      *
-     * @ElementName svcProvAdminNetworkPolicyAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminNetworkPolicyAccess()
     {
-        return $this->svcProvAdminNetworkPolicyAccess;
+        return $this->svcProvAdminNetworkPolicyAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminNetworkPolicyAccess;
     }
 
     /**
      * Setter for svcProvAdminNetworkPolicyAccess
      *
-     * @ElementName svcProvAdminNetworkPolicyAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminNetworkPolicyAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminNetworkPolicyAccess
      * @return $this
      */
     public function setSvcProvAdminNetworkPolicyAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminNetworkPolicyAccess)
@@ -2024,21 +2532,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminNetworkPolicyAccess()
+    {
+        $this->svcProvAdminNetworkPolicyAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminCommunicationBarringAccess
      *
-     * @ElementName svcProvAdminCommunicationBarringAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminCommunicationBarringAccess()
     {
-        return $this->svcProvAdminCommunicationBarringAccess;
+        return $this->svcProvAdminCommunicationBarringAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminCommunicationBarringAccess;
     }
 
     /**
      * Setter for svcProvAdminCommunicationBarringAccess
      *
-     * @ElementName svcProvAdminCommunicationBarringAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminCommunicationBarringAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminCommunicationBarringAccess
      * @return $this
      */
     public function setSvcProvAdminCommunicationBarringAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminCommunicationBarringAccess)
@@ -2048,21 +2563,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminCommunicationBarringAccess()
+    {
+        $this->svcProvAdminCommunicationBarringAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminVerifyTranslationAndRoutingAccess
      *
-     * @ElementName svcProvAdminVerifyTranslationAndRoutingAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminVerifyTranslationAndRoutingAccess()
     {
-        return $this->svcProvAdminVerifyTranslationAndRoutingAccess;
+        return $this->svcProvAdminVerifyTranslationAndRoutingAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminVerifyTranslationAndRoutingAccess;
     }
 
     /**
      * Setter for svcProvAdminVerifyTranslationAndRoutingAccess
      *
-     * @ElementName svcProvAdminVerifyTranslationAndRoutingAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminVerifyTranslationAndRoutingAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminVerifyTranslationAndRoutingAccess
      * @return $this
      */
     public function setSvcProvAdminVerifyTranslationAndRoutingAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminVerifyTranslationAndRoutingAccess)
@@ -2072,21 +2594,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminVerifyTranslationAndRoutingAccess()
+    {
+        $this->svcProvAdminVerifyTranslationAndRoutingAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for enterpriseAdminNumberActivationAccess
      *
-     * @ElementName enterpriseAdminNumberActivationAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getEnterpriseAdminNumberActivationAccess()
     {
-        return $this->enterpriseAdminNumberActivationAccess;
+        return $this->enterpriseAdminNumberActivationAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseAdminNumberActivationAccess;
     }
 
     /**
      * Setter for enterpriseAdminNumberActivationAccess
      *
-     * @ElementName enterpriseAdminNumberActivationAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $enterpriseAdminNumberActivationAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $enterpriseAdminNumberActivationAccess
      * @return $this
      */
     public function setEnterpriseAdminNumberActivationAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $enterpriseAdminNumberActivationAccess)
@@ -2096,21 +2625,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnterpriseAdminNumberActivationAccess()
+    {
+        $this->enterpriseAdminNumberActivationAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for svcProvAdminDialableCallerIDAccess
      *
-     * @ElementName svcProvAdminDialableCallerIDAccess
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess
      */
     public function getSvcProvAdminDialableCallerIDAccess()
     {
-        return $this->svcProvAdminDialableCallerIDAccess;
+        return $this->svcProvAdminDialableCallerIDAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->svcProvAdminDialableCallerIDAccess;
     }
 
     /**
      * Setter for svcProvAdminDialableCallerIDAccess
      *
-     * @ElementName svcProvAdminDialableCallerIDAccess
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess|null $svcProvAdminDialableCallerIDAccess
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminDialableCallerIDAccess
      * @return $this
      */
     public function setSvcProvAdminDialableCallerIDAccess(\CWM\BroadWorksConnector\Ocip\Models\PolicyAccess $svcProvAdminDialableCallerIDAccess)
@@ -2120,20 +2656,27 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSvcProvAdminDialableCallerIDAccess()
+    {
+        $this->svcProvAdminDialableCallerIDAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for activatedFeatureId
      *
-     * @ElementName activatedFeatureId
      * @return string[]
      */
     public function getActivatedFeatureId()
     {
-        return $this->activatedFeatureId;
+        return $this->activatedFeatureId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activatedFeatureId;
     }
 
     /**
      * Setter for activatedFeatureId
      *
-     * @ElementName activatedFeatureId
      * @param string[] $activatedFeatureId
      * @return $this
      */
@@ -2144,33 +2687,39 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetActivatedFeatureId()
+    {
+        $this->activatedFeatureId = null;
+        return $this;
+    }
+
+    /**
      * Adder for activatedFeatureId
      *
-     * @ElementName activatedFeatureId
      * @param string $activatedFeatureId
      * @return $this
      */
     public function addActivatedFeatureId(string $activatedFeatureId)
     {
-        $this->activatedFeatureId []= $activatedFeatureId;
+        $this->activatedFeatureId[] = $activatedFeatureId;
         return $this;
     }
 
     /**
      * Getter for visibleClientApplication
      *
-     * @ElementName visibleClientApplication
      * @return string[]
      */
     public function getVisibleClientApplication()
     {
-        return $this->visibleClientApplication;
+        return $this->visibleClientApplication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->visibleClientApplication;
     }
 
     /**
      * Setter for visibleClientApplication
      *
-     * @ElementName visibleClientApplication
      * @param string[] $visibleClientApplication
      * @return $this
      */
@@ -2181,34 +2730,40 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVisibleClientApplication()
+    {
+        $this->visibleClientApplication = null;
+        return $this;
+    }
+
+    /**
      * Adder for visibleClientApplication
      *
-     * @ElementName visibleClientApplication
      * @param string $visibleClientApplication
      * @return $this
      */
     public function addVisibleClientApplication(string $visibleClientApplication)
     {
-        $this->visibleClientApplication []= $visibleClientApplication;
+        $this->visibleClientApplication[] = $visibleClientApplication;
         return $this;
     }
 
     /**
      * Getter for eclUsingDbs
      *
-     * @ElementName eclUsingDbs
-     * @return bool|null
+     * @return bool
      */
     public function getEclUsingDbs()
     {
-        return $this->eclUsingDbs;
+        return $this->eclUsingDbs instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eclUsingDbs;
     }
 
     /**
      * Setter for eclUsingDbs
      *
-     * @ElementName eclUsingDbs
-     * @param bool|null $eclUsingDbs
+     * @param bool $eclUsingDbs
      * @return $this
      */
     public function setEclUsingDbs($eclUsingDbs)
@@ -2218,21 +2773,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEclUsingDbs()
+    {
+        $this->eclUsingDbs = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalizedNameMaxAudioFileSizeKilobytes
      *
-     * @ElementName personalizedNameMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getPersonalizedNameMaxAudioFileSizeKilobytes()
     {
-        return $this->personalizedNameMaxAudioFileSizeKilobytes;
+        return $this->personalizedNameMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedNameMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for personalizedNameMaxAudioFileSizeKilobytes
      *
-     * @ElementName personalizedNameMaxAudioFileSizeKilobytes
-     * @param int|null $personalizedNameMaxAudioFileSizeKilobytes
+     * @param int $personalizedNameMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setPersonalizedNameMaxAudioFileSizeKilobytes($personalizedNameMaxAudioFileSizeKilobytes)
@@ -2242,21 +2804,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalizedNameMaxAudioFileSizeKilobytes()
+    {
+        $this->personalizedNameMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerConfimationMaxAudioFileSizeKilobytes
      *
-     * @ElementName answerConfimationMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getAnswerConfimationMaxAudioFileSizeKilobytes()
     {
-        return $this->answerConfimationMaxAudioFileSizeKilobytes;
+        return $this->answerConfimationMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerConfimationMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for answerConfimationMaxAudioFileSizeKilobytes
      *
-     * @ElementName answerConfimationMaxAudioFileSizeKilobytes
-     * @param int|null $answerConfimationMaxAudioFileSizeKilobytes
+     * @param int $answerConfimationMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setAnswerConfimationMaxAudioFileSizeKilobytes($answerConfimationMaxAudioFileSizeKilobytes)
@@ -2266,21 +2835,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnswerConfimationMaxAudioFileSizeKilobytes()
+    {
+        $this->answerConfimationMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessageGreetingMaxAudioFileSizeKilobytes
      *
-     * @ElementName voiceMessageGreetingMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getVoiceMessageGreetingMaxAudioFileSizeKilobytes()
     {
-        return $this->voiceMessageGreetingMaxAudioFileSizeKilobytes;
+        return $this->voiceMessageGreetingMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessageGreetingMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for voiceMessageGreetingMaxAudioFileSizeKilobytes
      *
-     * @ElementName voiceMessageGreetingMaxAudioFileSizeKilobytes
-     * @param int|null $voiceMessageGreetingMaxAudioFileSizeKilobytes
+     * @param int $voiceMessageGreetingMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setVoiceMessageGreetingMaxAudioFileSizeKilobytes($voiceMessageGreetingMaxAudioFileSizeKilobytes)
@@ -2290,21 +2866,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessageGreetingMaxAudioFileSizeKilobytes()
+    {
+        $this->voiceMessageGreetingMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessageGreetingMaxVideoFileSizeKilobytes
      *
-     * @ElementName voiceMessageGreetingMaxVideoFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getVoiceMessageGreetingMaxVideoFileSizeKilobytes()
     {
-        return $this->voiceMessageGreetingMaxVideoFileSizeKilobytes;
+        return $this->voiceMessageGreetingMaxVideoFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessageGreetingMaxVideoFileSizeKilobytes;
     }
 
     /**
      * Setter for voiceMessageGreetingMaxVideoFileSizeKilobytes
      *
-     * @ElementName voiceMessageGreetingMaxVideoFileSizeKilobytes
-     * @param int|null $voiceMessageGreetingMaxVideoFileSizeKilobytes
+     * @param int $voiceMessageGreetingMaxVideoFileSizeKilobytes
      * @return $this
      */
     public function setVoiceMessageGreetingMaxVideoFileSizeKilobytes($voiceMessageGreetingMaxVideoFileSizeKilobytes)
@@ -2314,21 +2897,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessageGreetingMaxVideoFileSizeKilobytes()
+    {
+        $this->voiceMessageGreetingMaxVideoFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for autoAttendantGreetingMaxAudioFileSizeKilobytes
      *
-     * @ElementName autoAttendantGreetingMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getAutoAttendantGreetingMaxAudioFileSizeKilobytes()
     {
-        return $this->autoAttendantGreetingMaxAudioFileSizeKilobytes;
+        return $this->autoAttendantGreetingMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->autoAttendantGreetingMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for autoAttendantGreetingMaxAudioFileSizeKilobytes
      *
-     * @ElementName autoAttendantGreetingMaxAudioFileSizeKilobytes
-     * @param int|null $autoAttendantGreetingMaxAudioFileSizeKilobytes
+     * @param int $autoAttendantGreetingMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setAutoAttendantGreetingMaxAudioFileSizeKilobytes($autoAttendantGreetingMaxAudioFileSizeKilobytes)
@@ -2338,21 +2928,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAutoAttendantGreetingMaxAudioFileSizeKilobytes()
+    {
+        $this->autoAttendantGreetingMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for autoAttendantGreetingMaxVideoFileSizeKilobytes
      *
-     * @ElementName autoAttendantGreetingMaxVideoFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getAutoAttendantGreetingMaxVideoFileSizeKilobytes()
     {
-        return $this->autoAttendantGreetingMaxVideoFileSizeKilobytes;
+        return $this->autoAttendantGreetingMaxVideoFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->autoAttendantGreetingMaxVideoFileSizeKilobytes;
     }
 
     /**
      * Setter for autoAttendantGreetingMaxVideoFileSizeKilobytes
      *
-     * @ElementName autoAttendantGreetingMaxVideoFileSizeKilobytes
-     * @param int|null $autoAttendantGreetingMaxVideoFileSizeKilobytes
+     * @param int $autoAttendantGreetingMaxVideoFileSizeKilobytes
      * @return $this
      */
     public function setAutoAttendantGreetingMaxVideoFileSizeKilobytes($autoAttendantGreetingMaxVideoFileSizeKilobytes)
@@ -2362,21 +2959,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAutoAttendantGreetingMaxVideoFileSizeKilobytes()
+    {
+        $this->autoAttendantGreetingMaxVideoFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for musicOnHoldMaxAudioFileSizeKilobytes
      *
-     * @ElementName musicOnHoldMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getMusicOnHoldMaxAudioFileSizeKilobytes()
     {
-        return $this->musicOnHoldMaxAudioFileSizeKilobytes;
+        return $this->musicOnHoldMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->musicOnHoldMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for musicOnHoldMaxAudioFileSizeKilobytes
      *
-     * @ElementName musicOnHoldMaxAudioFileSizeKilobytes
-     * @param int|null $musicOnHoldMaxAudioFileSizeKilobytes
+     * @param int $musicOnHoldMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setMusicOnHoldMaxAudioFileSizeKilobytes($musicOnHoldMaxAudioFileSizeKilobytes)
@@ -2386,21 +2990,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMusicOnHoldMaxAudioFileSizeKilobytes()
+    {
+        $this->musicOnHoldMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoOnHoldMaxVideoFileSizeKilobytes
      *
-     * @ElementName videoOnHoldMaxVideoFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getVideoOnHoldMaxVideoFileSizeKilobytes()
     {
-        return $this->videoOnHoldMaxVideoFileSizeKilobytes;
+        return $this->videoOnHoldMaxVideoFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoOnHoldMaxVideoFileSizeKilobytes;
     }
 
     /**
      * Setter for videoOnHoldMaxVideoFileSizeKilobytes
      *
-     * @ElementName videoOnHoldMaxVideoFileSizeKilobytes
-     * @param int|null $videoOnHoldMaxVideoFileSizeKilobytes
+     * @param int $videoOnHoldMaxVideoFileSizeKilobytes
      * @return $this
      */
     public function setVideoOnHoldMaxVideoFileSizeKilobytes($videoOnHoldMaxVideoFileSizeKilobytes)
@@ -2410,21 +3021,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoOnHoldMaxVideoFileSizeKilobytes()
+    {
+        $this->videoOnHoldMaxVideoFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for ringbackMaxAudioFileSizeKilobytes
      *
-     * @ElementName ringbackMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getRingbackMaxAudioFileSizeKilobytes()
     {
-        return $this->ringbackMaxAudioFileSizeKilobytes;
+        return $this->ringbackMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ringbackMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for ringbackMaxAudioFileSizeKilobytes
      *
-     * @ElementName ringbackMaxAudioFileSizeKilobytes
-     * @param int|null $ringbackMaxAudioFileSizeKilobytes
+     * @param int $ringbackMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setRingbackMaxAudioFileSizeKilobytes($ringbackMaxAudioFileSizeKilobytes)
@@ -2434,21 +3052,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRingbackMaxAudioFileSizeKilobytes()
+    {
+        $this->ringbackMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for ringbackMaxVideoFileSizeKilobytes
      *
-     * @ElementName ringbackMaxVideoFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getRingbackMaxVideoFileSizeKilobytes()
     {
-        return $this->ringbackMaxVideoFileSizeKilobytes;
+        return $this->ringbackMaxVideoFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ringbackMaxVideoFileSizeKilobytes;
     }
 
     /**
      * Setter for ringbackMaxVideoFileSizeKilobytes
      *
-     * @ElementName ringbackMaxVideoFileSizeKilobytes
-     * @param int|null $ringbackMaxVideoFileSizeKilobytes
+     * @param int $ringbackMaxVideoFileSizeKilobytes
      * @return $this
      */
     public function setRingbackMaxVideoFileSizeKilobytes($ringbackMaxVideoFileSizeKilobytes)
@@ -2458,21 +3083,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRingbackMaxVideoFileSizeKilobytes()
+    {
+        $this->ringbackMaxVideoFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for interceptMaxAudioFileSizeKilobytes
      *
-     * @ElementName interceptMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getInterceptMaxAudioFileSizeKilobytes()
     {
-        return $this->interceptMaxAudioFileSizeKilobytes;
+        return $this->interceptMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interceptMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for interceptMaxAudioFileSizeKilobytes
      *
-     * @ElementName interceptMaxAudioFileSizeKilobytes
-     * @param int|null $interceptMaxAudioFileSizeKilobytes
+     * @param int $interceptMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setInterceptMaxAudioFileSizeKilobytes($interceptMaxAudioFileSizeKilobytes)
@@ -2482,21 +3114,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInterceptMaxAudioFileSizeKilobytes()
+    {
+        $this->interceptMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for interceptMaxVideoFileSizeKilobytes
      *
-     * @ElementName interceptMaxVideoFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getInterceptMaxVideoFileSizeKilobytes()
     {
-        return $this->interceptMaxVideoFileSizeKilobytes;
+        return $this->interceptMaxVideoFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interceptMaxVideoFileSizeKilobytes;
     }
 
     /**
      * Setter for interceptMaxVideoFileSizeKilobytes
      *
-     * @ElementName interceptMaxVideoFileSizeKilobytes
-     * @param int|null $interceptMaxVideoFileSizeKilobytes
+     * @param int $interceptMaxVideoFileSizeKilobytes
      * @return $this
      */
     public function setInterceptMaxVideoFileSizeKilobytes($interceptMaxVideoFileSizeKilobytes)
@@ -2506,21 +3145,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInterceptMaxVideoFileSizeKilobytes()
+    {
+        $this->interceptMaxVideoFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCenterMaxAudioFileSizeKilobytes
      *
-     * @ElementName callCenterMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getCallCenterMaxAudioFileSizeKilobytes()
     {
-        return $this->callCenterMaxAudioFileSizeKilobytes;
+        return $this->callCenterMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenterMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for callCenterMaxAudioFileSizeKilobytes
      *
-     * @ElementName callCenterMaxAudioFileSizeKilobytes
-     * @param int|null $callCenterMaxAudioFileSizeKilobytes
+     * @param int $callCenterMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setCallCenterMaxAudioFileSizeKilobytes($callCenterMaxAudioFileSizeKilobytes)
@@ -2530,21 +3176,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallCenterMaxAudioFileSizeKilobytes()
+    {
+        $this->callCenterMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCenterMaxVideoFileSizeKilobytes
      *
-     * @ElementName callCenterMaxVideoFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getCallCenterMaxVideoFileSizeKilobytes()
     {
-        return $this->callCenterMaxVideoFileSizeKilobytes;
+        return $this->callCenterMaxVideoFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenterMaxVideoFileSizeKilobytes;
     }
 
     /**
      * Setter for callCenterMaxVideoFileSizeKilobytes
      *
-     * @ElementName callCenterMaxVideoFileSizeKilobytes
-     * @param int|null $callCenterMaxVideoFileSizeKilobytes
+     * @param int $callCenterMaxVideoFileSizeKilobytes
      * @return $this
      */
     public function setCallCenterMaxVideoFileSizeKilobytes($callCenterMaxVideoFileSizeKilobytes)
@@ -2554,21 +3207,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallCenterMaxVideoFileSizeKilobytes()
+    {
+        $this->callCenterMaxVideoFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for preAlertingMaxAudioFileSizeKilobytes
      *
-     * @ElementName preAlertingMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getPreAlertingMaxAudioFileSizeKilobytes()
     {
-        return $this->preAlertingMaxAudioFileSizeKilobytes;
+        return $this->preAlertingMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preAlertingMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for preAlertingMaxAudioFileSizeKilobytes
      *
-     * @ElementName preAlertingMaxAudioFileSizeKilobytes
-     * @param int|null $preAlertingMaxAudioFileSizeKilobytes
+     * @param int $preAlertingMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setPreAlertingMaxAudioFileSizeKilobytes($preAlertingMaxAudioFileSizeKilobytes)
@@ -2578,21 +3238,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreAlertingMaxAudioFileSizeKilobytes()
+    {
+        $this->preAlertingMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for preAlertingMaxVideoFileSizeKilobytes
      *
-     * @ElementName preAlertingMaxVideoFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getPreAlertingMaxVideoFileSizeKilobytes()
     {
-        return $this->preAlertingMaxVideoFileSizeKilobytes;
+        return $this->preAlertingMaxVideoFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preAlertingMaxVideoFileSizeKilobytes;
     }
 
     /**
      * Setter for preAlertingMaxVideoFileSizeKilobytes
      *
-     * @ElementName preAlertingMaxVideoFileSizeKilobytes
-     * @param int|null $preAlertingMaxVideoFileSizeKilobytes
+     * @param int $preAlertingMaxVideoFileSizeKilobytes
      * @return $this
      */
     public function setPreAlertingMaxVideoFileSizeKilobytes($preAlertingMaxVideoFileSizeKilobytes)
@@ -2602,21 +3269,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreAlertingMaxVideoFileSizeKilobytes()
+    {
+        $this->preAlertingMaxVideoFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceGreetingMaxAudioFileSizeKilobytes
      *
-     * @ElementName conferenceGreetingMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getConferenceGreetingMaxAudioFileSizeKilobytes()
     {
-        return $this->conferenceGreetingMaxAudioFileSizeKilobytes;
+        return $this->conferenceGreetingMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceGreetingMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for conferenceGreetingMaxAudioFileSizeKilobytes
      *
-     * @ElementName conferenceGreetingMaxAudioFileSizeKilobytes
-     * @param int|null $conferenceGreetingMaxAudioFileSizeKilobytes
+     * @param int $conferenceGreetingMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setConferenceGreetingMaxAudioFileSizeKilobytes($conferenceGreetingMaxAudioFileSizeKilobytes)
@@ -2626,21 +3300,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceGreetingMaxAudioFileSizeKilobytes()
+    {
+        $this->conferenceGreetingMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for securityClassificationAnncMaxAudioFileSizeKilobytes
      *
-     * @ElementName securityClassificationAnncMaxAudioFileSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getSecurityClassificationAnncMaxAudioFileSizeKilobytes()
     {
-        return $this->securityClassificationAnncMaxAudioFileSizeKilobytes;
+        return $this->securityClassificationAnncMaxAudioFileSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityClassificationAnncMaxAudioFileSizeKilobytes;
     }
 
     /**
      * Setter for securityClassificationAnncMaxAudioFileSizeKilobytes
      *
-     * @ElementName securityClassificationAnncMaxAudioFileSizeKilobytes
-     * @param int|null $securityClassificationAnncMaxAudioFileSizeKilobytes
+     * @param int $securityClassificationAnncMaxAudioFileSizeKilobytes
      * @return $this
      */
     public function setSecurityClassificationAnncMaxAudioFileSizeKilobytes($securityClassificationAnncMaxAudioFileSizeKilobytes)
@@ -2650,21 +3331,28 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecurityClassificationAnncMaxAudioFileSizeKilobytes()
+    {
+        $this->securityClassificationAnncMaxAudioFileSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementRepositoryAudioFileMaxSizeKilobytes
      *
-     * @ElementName announcementRepositoryAudioFileMaxSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getAnnouncementRepositoryAudioFileMaxSizeKilobytes()
     {
-        return $this->announcementRepositoryAudioFileMaxSizeKilobytes;
+        return $this->announcementRepositoryAudioFileMaxSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementRepositoryAudioFileMaxSizeKilobytes;
     }
 
     /**
      * Setter for announcementRepositoryAudioFileMaxSizeKilobytes
      *
-     * @ElementName announcementRepositoryAudioFileMaxSizeKilobytes
-     * @param int|null $announcementRepositoryAudioFileMaxSizeKilobytes
+     * @param int $announcementRepositoryAudioFileMaxSizeKilobytes
      * @return $this
      */
     public function setAnnouncementRepositoryAudioFileMaxSizeKilobytes($announcementRepositoryAudioFileMaxSizeKilobytes)
@@ -2674,26 +3362,42 @@ class AuthenticationVerificationResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementRepositoryAudioFileMaxSizeKilobytes()
+    {
+        $this->announcementRepositoryAudioFileMaxSizeKilobytes = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementRepositoryVideoFileMaxSizeKilobytes
      *
-     * @ElementName announcementRepositoryVideoFileMaxSizeKilobytes
-     * @return int|null
+     * @return int
      */
     public function getAnnouncementRepositoryVideoFileMaxSizeKilobytes()
     {
-        return $this->announcementRepositoryVideoFileMaxSizeKilobytes;
+        return $this->announcementRepositoryVideoFileMaxSizeKilobytes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementRepositoryVideoFileMaxSizeKilobytes;
     }
 
     /**
      * Setter for announcementRepositoryVideoFileMaxSizeKilobytes
      *
-     * @ElementName announcementRepositoryVideoFileMaxSizeKilobytes
-     * @param int|null $announcementRepositoryVideoFileMaxSizeKilobytes
+     * @param int $announcementRepositoryVideoFileMaxSizeKilobytes
      * @return $this
      */
     public function setAnnouncementRepositoryVideoFileMaxSizeKilobytes($announcementRepositoryVideoFileMaxSizeKilobytes)
     {
         $this->announcementRepositoryVideoFileMaxSizeKilobytes = $announcementRepositoryVideoFileMaxSizeKilobytes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementRepositoryVideoFileMaxSizeKilobytes()
+    {
+        $this->announcementRepositoryVideoFileMaxSizeKilobytes = null;
         return $this;
     }
 

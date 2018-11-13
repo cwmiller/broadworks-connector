@@ -17,18 +17,21 @@ class SystemNetworkServerSyncParametersGetResponse16 extends \CWM\BroadWorksConn
 
     /**
      * @ElementName enableSync
+     * @Type bool
      * @var bool|null
      */
     private $enableSync = null;
 
     /**
      * @ElementName syncLinePorts
+     * @Type bool
      * @var bool|null
      */
     private $syncLinePorts = null;
 
     /**
      * @ElementName syncDeviceManagementInfo
+     * @Type bool
      * @var bool|null
      */
     private $syncDeviceManagementInfo = null;
@@ -36,19 +39,17 @@ class SystemNetworkServerSyncParametersGetResponse16 extends \CWM\BroadWorksConn
     /**
      * Getter for enableSync
      *
-     * @ElementName enableSync
-     * @return bool|null
+     * @return bool
      */
     public function getEnableSync()
     {
-        return $this->enableSync;
+        return $this->enableSync instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableSync;
     }
 
     /**
      * Setter for enableSync
      *
-     * @ElementName enableSync
-     * @param bool|null $enableSync
+     * @param bool $enableSync
      * @return $this
      */
     public function setEnableSync($enableSync)
@@ -58,21 +59,28 @@ class SystemNetworkServerSyncParametersGetResponse16 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableSync()
+    {
+        $this->enableSync = null;
+        return $this;
+    }
+
+    /**
      * Getter for syncLinePorts
      *
-     * @ElementName syncLinePorts
-     * @return bool|null
+     * @return bool
      */
     public function getSyncLinePorts()
     {
-        return $this->syncLinePorts;
+        return $this->syncLinePorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->syncLinePorts;
     }
 
     /**
      * Setter for syncLinePorts
      *
-     * @ElementName syncLinePorts
-     * @param bool|null $syncLinePorts
+     * @param bool $syncLinePorts
      * @return $this
      */
     public function setSyncLinePorts($syncLinePorts)
@@ -82,26 +90,42 @@ class SystemNetworkServerSyncParametersGetResponse16 extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSyncLinePorts()
+    {
+        $this->syncLinePorts = null;
+        return $this;
+    }
+
+    /**
      * Getter for syncDeviceManagementInfo
      *
-     * @ElementName syncDeviceManagementInfo
-     * @return bool|null
+     * @return bool
      */
     public function getSyncDeviceManagementInfo()
     {
-        return $this->syncDeviceManagementInfo;
+        return $this->syncDeviceManagementInfo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->syncDeviceManagementInfo;
     }
 
     /**
      * Setter for syncDeviceManagementInfo
      *
-     * @ElementName syncDeviceManagementInfo
-     * @param bool|null $syncDeviceManagementInfo
+     * @param bool $syncDeviceManagementInfo
      * @return $this
      */
     public function setSyncDeviceManagementInfo($syncDeviceManagementInfo)
     {
         $this->syncDeviceManagementInfo = $syncDeviceManagementInfo;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSyncDeviceManagementInfo()
+    {
+        $this->syncDeviceManagementInfo = null;
         return $this;
     }
 

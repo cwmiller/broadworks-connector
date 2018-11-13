@@ -16,6 +16,7 @@ class SystemSMDIMessageDeskDeleteServerRouteRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName routeDestination
+     * @Type string
      * @var string|null
      */
     private $routeDestination = null;
@@ -23,24 +24,31 @@ class SystemSMDIMessageDeskDeleteServerRouteRequest extends \CWM\BroadWorksConne
     /**
      * Getter for routeDestination
      *
-     * @ElementName routeDestination
-     * @return string|null
+     * @return string
      */
     public function getRouteDestination()
     {
-        return $this->routeDestination;
+        return $this->routeDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeDestination;
     }
 
     /**
      * Setter for routeDestination
      *
-     * @ElementName routeDestination
-     * @param string|null $routeDestination
+     * @param string $routeDestination
      * @return $this
      */
     public function setRouteDestination($routeDestination)
     {
         $this->routeDestination = $routeDestination;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRouteDestination()
+    {
+        $this->routeDestination = null;
         return $this;
     }
 

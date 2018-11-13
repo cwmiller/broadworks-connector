@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static RingPattern LONG_LONG()
  * @method static RingPattern SHORT_SHORT_LONG()
  * @method static RingPattern SHORT_LONG_SHORT()
- * @ValueType string
+ * @EnumValueType string
  */
 class RingPattern extends \MyCLabs\Enum\Enum
 {

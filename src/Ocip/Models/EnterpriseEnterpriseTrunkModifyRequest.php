@@ -16,36 +16,42 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName enterpriseTrunkName
+     * @Type string
      * @var string|null
      */
     private $enterpriseTrunkName = null;
 
     /**
      * @ElementName newEnterpriseTrunkName
+     * @Type string
      * @var string|null
      */
     private $newEnterpriseTrunkName = null;
 
     /**
      * @ElementName maximumRerouteAttempts
+     * @Type int
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
 
     /**
      * @ElementName routeExhaustionAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
 
     /**
      * @ElementName routeExhaustionForwardAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -53,24 +59,28 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName orderedRouting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestOrderedRouting
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestOrderedRouting|null
      */
     private $orderedRouting = null;
 
     /**
      * @ElementName priorityWeightedRouting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;
 
     /**
      * @ElementName enableCapacityManagement
+     * @Type bool
      * @var bool|null
      */
     private $enableCapacityManagement = null;
 
     /**
      * @ElementName maxActiveCalls
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -78,6 +88,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName capacityExceededTrapInitialCalls
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -85,6 +96,7 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName capacityExceededTrapOffsetCalls
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -93,19 +105,17 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -115,21 +125,28 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @return string|null
+     * @return string
      */
     public function getEnterpriseTrunkName()
     {
-        return $this->enterpriseTrunkName;
+        return $this->enterpriseTrunkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseTrunkName;
     }
 
     /**
      * Setter for enterpriseTrunkName
      *
-     * @ElementName enterpriseTrunkName
-     * @param string|null $enterpriseTrunkName
+     * @param string $enterpriseTrunkName
      * @return $this
      */
     public function setEnterpriseTrunkName($enterpriseTrunkName)
@@ -139,21 +156,28 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnterpriseTrunkName()
+    {
+        $this->enterpriseTrunkName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newEnterpriseTrunkName
      *
-     * @ElementName newEnterpriseTrunkName
-     * @return string|null
+     * @return string
      */
     public function getNewEnterpriseTrunkName()
     {
-        return $this->newEnterpriseTrunkName;
+        return $this->newEnterpriseTrunkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newEnterpriseTrunkName;
     }
 
     /**
      * Setter for newEnterpriseTrunkName
      *
-     * @ElementName newEnterpriseTrunkName
-     * @param string|null $newEnterpriseTrunkName
+     * @param string $newEnterpriseTrunkName
      * @return $this
      */
     public function setNewEnterpriseTrunkName($newEnterpriseTrunkName)
@@ -163,21 +187,28 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewEnterpriseTrunkName()
+    {
+        $this->newEnterpriseTrunkName = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumRerouteAttempts
      *
-     * @ElementName maximumRerouteAttempts
-     * @return int|null
+     * @return int
      */
     public function getMaximumRerouteAttempts()
     {
-        return $this->maximumRerouteAttempts;
+        return $this->maximumRerouteAttempts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumRerouteAttempts;
     }
 
     /**
      * Setter for maximumRerouteAttempts
      *
-     * @ElementName maximumRerouteAttempts
-     * @param int|null $maximumRerouteAttempts
+     * @param int $maximumRerouteAttempts
      * @return $this
      */
     public function setMaximumRerouteAttempts($maximumRerouteAttempts)
@@ -187,21 +218,28 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumRerouteAttempts()
+    {
+        $this->maximumRerouteAttempts = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeExhaustionAction
      *
-     * @ElementName routeExhaustionAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
      */
     public function getRouteExhaustionAction()
     {
-        return $this->routeExhaustionAction;
+        return $this->routeExhaustionAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeExhaustionAction;
     }
 
     /**
      * Setter for routeExhaustionAction
      *
-     * @ElementName routeExhaustionAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null $routeExhaustionAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction $routeExhaustionAction
      * @return $this
      */
     public function setRouteExhaustionAction(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction $routeExhaustionAction)
@@ -211,47 +249,63 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteExhaustionAction()
+    {
+        $this->routeExhaustionAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeExhaustionForwardAddress
      *
-     * @ElementName routeExhaustionForwardAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRouteExhaustionForwardAddress()
     {
-        return $this->routeExhaustionForwardAddress;
+        return $this->routeExhaustionForwardAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeExhaustionForwardAddress;
     }
 
     /**
      * Setter for routeExhaustionForwardAddress
      *
-     * @ElementName routeExhaustionForwardAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $routeExhaustionForwardAddress
+     * @param string|null $routeExhaustionForwardAddress
      * @return $this
      */
     public function setRouteExhaustionForwardAddress($routeExhaustionForwardAddress)
     {
-        $this->routeExhaustionForwardAddress = $routeExhaustionForwardAddress;
+        if ($routeExhaustionForwardAddress === null) {
+            $this->routeExhaustionForwardAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->routeExhaustionForwardAddress = $routeExhaustionForwardAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRouteExhaustionForwardAddress()
+    {
+        $this->routeExhaustionForwardAddress = null;
         return $this;
     }
 
     /**
      * Getter for orderedRouting
      *
-     * @ElementName orderedRouting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestOrderedRouting|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestOrderedRouting
      */
     public function getOrderedRouting()
     {
-        return $this->orderedRouting;
+        return $this->orderedRouting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->orderedRouting;
     }
 
     /**
      * Setter for orderedRouting
      *
-     * @ElementName orderedRouting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestOrderedRouting|null $orderedRouting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestOrderedRouting $orderedRouting
      * @return $this
      */
     public function setOrderedRouting(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestOrderedRouting $orderedRouting)
@@ -261,21 +315,28 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOrderedRouting()
+    {
+        $this->orderedRouting = null;
+        return $this;
+    }
+
+    /**
      * Getter for priorityWeightedRouting
      *
-     * @ElementName priorityWeightedRouting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting
      */
     public function getPriorityWeightedRouting()
     {
-        return $this->priorityWeightedRouting;
+        return $this->priorityWeightedRouting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priorityWeightedRouting;
     }
 
     /**
      * Setter for priorityWeightedRouting
      *
-     * @ElementName priorityWeightedRouting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting|null $priorityWeightedRouting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting $priorityWeightedRouting
      * @return $this
      */
     public function setPriorityWeightedRouting(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkModifyRequestPriorityWeightedRouting $priorityWeightedRouting)
@@ -285,21 +346,28 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPriorityWeightedRouting()
+    {
+        $this->priorityWeightedRouting = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCapacityManagement
      *
-     * @ElementName enableCapacityManagement
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCapacityManagement()
     {
-        return $this->enableCapacityManagement;
+        return $this->enableCapacityManagement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCapacityManagement;
     }
 
     /**
      * Setter for enableCapacityManagement
      *
-     * @ElementName enableCapacityManagement
-     * @param bool|null $enableCapacityManagement
+     * @param bool $enableCapacityManagement
      * @return $this
      */
     public function setEnableCapacityManagement($enableCapacityManagement)
@@ -309,80 +377,116 @@ class EnterpriseEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableCapacityManagement()
+    {
+        $this->enableCapacityManagement = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxActiveCalls
      *
-     * @ElementName maxActiveCalls
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getMaxActiveCalls()
     {
-        return $this->maxActiveCalls;
+        return $this->maxActiveCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxActiveCalls;
     }
 
     /**
      * Setter for maxActiveCalls
      *
-     * @ElementName maxActiveCalls
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $maxActiveCalls
+     * @param int|null $maxActiveCalls
      * @return $this
      */
     public function setMaxActiveCalls($maxActiveCalls)
     {
-        $this->maxActiveCalls = $maxActiveCalls;
+        if ($maxActiveCalls === null) {
+            $this->maxActiveCalls = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->maxActiveCalls = $maxActiveCalls;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxActiveCalls()
+    {
+        $this->maxActiveCalls = null;
         return $this;
     }
 
     /**
      * Getter for capacityExceededTrapInitialCalls
      *
-     * @ElementName capacityExceededTrapInitialCalls
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getCapacityExceededTrapInitialCalls()
     {
-        return $this->capacityExceededTrapInitialCalls;
+        return $this->capacityExceededTrapInitialCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->capacityExceededTrapInitialCalls;
     }
 
     /**
      * Setter for capacityExceededTrapInitialCalls
      *
-     * @ElementName capacityExceededTrapInitialCalls
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $capacityExceededTrapInitialCalls
+     * @param int|null $capacityExceededTrapInitialCalls
      * @return $this
      */
     public function setCapacityExceededTrapInitialCalls($capacityExceededTrapInitialCalls)
     {
-        $this->capacityExceededTrapInitialCalls = $capacityExceededTrapInitialCalls;
+        if ($capacityExceededTrapInitialCalls === null) {
+            $this->capacityExceededTrapInitialCalls = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->capacityExceededTrapInitialCalls = $capacityExceededTrapInitialCalls;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCapacityExceededTrapInitialCalls()
+    {
+        $this->capacityExceededTrapInitialCalls = null;
         return $this;
     }
 
     /**
      * Getter for capacityExceededTrapOffsetCalls
      *
-     * @ElementName capacityExceededTrapOffsetCalls
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getCapacityExceededTrapOffsetCalls()
     {
-        return $this->capacityExceededTrapOffsetCalls;
+        return $this->capacityExceededTrapOffsetCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->capacityExceededTrapOffsetCalls;
     }
 
     /**
      * Setter for capacityExceededTrapOffsetCalls
      *
-     * @ElementName capacityExceededTrapOffsetCalls
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $capacityExceededTrapOffsetCalls
+     * @param int|null $capacityExceededTrapOffsetCalls
      * @return $this
      */
     public function setCapacityExceededTrapOffsetCalls($capacityExceededTrapOffsetCalls)
     {
-        $this->capacityExceededTrapOffsetCalls = $capacityExceededTrapOffsetCalls;
+        if ($capacityExceededTrapOffsetCalls === null) {
+            $this->capacityExceededTrapOffsetCalls = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->capacityExceededTrapOffsetCalls = $capacityExceededTrapOffsetCalls;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCapacityExceededTrapOffsetCalls()
+    {
+        $this->capacityExceededTrapOffsetCalls = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ExecutiveAlertingCallingLineIdPhoneNumberMode EXECUTIVE()
  * @method static ExecutiveAlertingCallingLineIdPhoneNumberMode ORIGINATOR()
  * @method static ExecutiveAlertingCallingLineIdPhoneNumberMode CUSTOM()
- * @ValueType string
+ * @EnumValueType string
  */
 class ExecutiveAlertingCallingLineIdPhoneNumberMode extends \MyCLabs\Enum\Enum
 {

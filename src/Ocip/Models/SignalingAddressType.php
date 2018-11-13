@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SignalingAddressType NON_INTELLIGENT_PROXY_ADDRESSING()
  * @method static SignalingAddressType INTELLIGENT_DEVICE_ADDRESSING()
  * @method static SignalingAddressType INTELLIGENT_PROXY_ADDRESSING()
- * @ValueType string
+ * @EnumValueType string
  */
 class SignalingAddressType extends \MyCLabs\Enum\Enum
 {

@@ -13,12 +13,14 @@ class CollaborateBridgeMaximumParticipants
 
     /**
      * @ElementName unlimited
+     * @Type bool
      * @var bool|null
      */
     private $unlimited = null;
 
     /**
      * @ElementName quantity
+     * @Type int
      * @var int|null
      */
     private $quantity = null;
@@ -26,19 +28,17 @@ class CollaborateBridgeMaximumParticipants
     /**
      * Getter for unlimited
      *
-     * @ElementName unlimited
-     * @return bool|null
+     * @return bool
      */
     public function getUnlimited()
     {
-        return $this->unlimited;
+        return $this->unlimited instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unlimited;
     }
 
     /**
      * Setter for unlimited
      *
-     * @ElementName unlimited
-     * @param bool|null $unlimited
+     * @param bool $unlimited
      * @return $this
      */
     public function setUnlimited($unlimited)
@@ -48,26 +48,42 @@ class CollaborateBridgeMaximumParticipants
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUnlimited()
+    {
+        $this->unlimited = null;
+        return $this;
+    }
+
+    /**
      * Getter for quantity
      *
-     * @ElementName quantity
-     * @return int|null
+     * @return int
      */
     public function getQuantity()
     {
-        return $this->quantity;
+        return $this->quantity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->quantity;
     }
 
     /**
      * Setter for quantity
      *
-     * @ElementName quantity
-     * @param int|null $quantity
+     * @param int $quantity
      * @return $this
      */
     public function setQuantity($quantity)
     {
         $this->quantity = $quantity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetQuantity()
+    {
+        $this->quantity = null;
         return $this;
     }
 

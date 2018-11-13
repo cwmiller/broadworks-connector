@@ -16,66 +16,78 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName ringBaseLocationFirst
+     * @Type bool
      * @var bool|null
      */
     private $ringBaseLocationFirst = null;
 
     /**
      * @ElementName baseLocationNumberOfRings
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     private $baseLocationNumberOfRings = null;
 
     /**
      * @ElementName continueIfBaseLocationIsBusy
+     * @Type bool
      * @var bool|null
      */
     private $continueIfBaseLocationIsBusy = null;
 
     /**
      * @ElementName callerMayStopSearch
+     * @Type bool
      * @var bool|null
      */
     private $callerMayStopSearch = null;
 
     /**
      * @ElementName Location01
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
      */
     private $Location01 = null;
 
     /**
      * @ElementName Location02
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
      */
     private $Location02 = null;
 
     /**
      * @ElementName Location03
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
      */
     private $Location03 = null;
 
     /**
      * @ElementName Location04
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
      */
     private $Location04 = null;
 
     /**
      * @ElementName Location05
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
      */
     private $Location05 = null;
 
     /**
      * @ElementName criteriaActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(
@@ -85,19 +97,17 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -107,21 +117,28 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for ringBaseLocationFirst
      *
-     * @ElementName ringBaseLocationFirst
-     * @return bool|null
+     * @return bool
      */
     public function getRingBaseLocationFirst()
     {
-        return $this->ringBaseLocationFirst;
+        return $this->ringBaseLocationFirst instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ringBaseLocationFirst;
     }
 
     /**
      * Setter for ringBaseLocationFirst
      *
-     * @ElementName ringBaseLocationFirst
-     * @param bool|null $ringBaseLocationFirst
+     * @param bool $ringBaseLocationFirst
      * @return $this
      */
     public function setRingBaseLocationFirst($ringBaseLocationFirst)
@@ -131,21 +148,28 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRingBaseLocationFirst()
+    {
+        $this->ringBaseLocationFirst = null;
+        return $this;
+    }
+
+    /**
      * Getter for baseLocationNumberOfRings
      *
-     * @ElementName baseLocationNumberOfRings
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
      */
     public function getBaseLocationNumberOfRings()
     {
-        return $this->baseLocationNumberOfRings;
+        return $this->baseLocationNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->baseLocationNumberOfRings;
     }
 
     /**
      * Setter for baseLocationNumberOfRings
      *
-     * @ElementName baseLocationNumberOfRings
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null $baseLocationNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings $baseLocationNumberOfRings
      * @return $this
      */
     public function setBaseLocationNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings $baseLocationNumberOfRings)
@@ -155,21 +179,28 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBaseLocationNumberOfRings()
+    {
+        $this->baseLocationNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for continueIfBaseLocationIsBusy
      *
-     * @ElementName continueIfBaseLocationIsBusy
-     * @return bool|null
+     * @return bool
      */
     public function getContinueIfBaseLocationIsBusy()
     {
-        return $this->continueIfBaseLocationIsBusy;
+        return $this->continueIfBaseLocationIsBusy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->continueIfBaseLocationIsBusy;
     }
 
     /**
      * Setter for continueIfBaseLocationIsBusy
      *
-     * @ElementName continueIfBaseLocationIsBusy
-     * @param bool|null $continueIfBaseLocationIsBusy
+     * @param bool $continueIfBaseLocationIsBusy
      * @return $this
      */
     public function setContinueIfBaseLocationIsBusy($continueIfBaseLocationIsBusy)
@@ -179,21 +210,28 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContinueIfBaseLocationIsBusy()
+    {
+        $this->continueIfBaseLocationIsBusy = null;
+        return $this;
+    }
+
+    /**
      * Getter for callerMayStopSearch
      *
-     * @ElementName callerMayStopSearch
-     * @return bool|null
+     * @return bool
      */
     public function getCallerMayStopSearch()
     {
-        return $this->callerMayStopSearch;
+        return $this->callerMayStopSearch instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callerMayStopSearch;
     }
 
     /**
      * Setter for callerMayStopSearch
      *
-     * @ElementName callerMayStopSearch
-     * @param bool|null $callerMayStopSearch
+     * @param bool $callerMayStopSearch
      * @return $this
      */
     public function setCallerMayStopSearch($callerMayStopSearch)
@@ -203,21 +241,28 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallerMayStopSearch()
+    {
+        $this->callerMayStopSearch = null;
+        return $this;
+    }
+
+    /**
      * Getter for Location01
      *
-     * @ElementName Location01
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      */
     public function getLocation01()
     {
-        return $this->Location01;
+        return $this->Location01 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->Location01;
     }
 
     /**
      * Setter for Location01
      *
-     * @ElementName Location01
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location01
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location01
      * @return $this
      */
     public function setLocation01(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location01)
@@ -227,21 +272,28 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocation01()
+    {
+        $this->Location01 = null;
+        return $this;
+    }
+
+    /**
      * Getter for Location02
      *
-     * @ElementName Location02
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      */
     public function getLocation02()
     {
-        return $this->Location02;
+        return $this->Location02 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->Location02;
     }
 
     /**
      * Setter for Location02
      *
-     * @ElementName Location02
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location02
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location02
      * @return $this
      */
     public function setLocation02(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location02)
@@ -251,21 +303,28 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocation02()
+    {
+        $this->Location02 = null;
+        return $this;
+    }
+
+    /**
      * Getter for Location03
      *
-     * @ElementName Location03
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      */
     public function getLocation03()
     {
-        return $this->Location03;
+        return $this->Location03 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->Location03;
     }
 
     /**
      * Setter for Location03
      *
-     * @ElementName Location03
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location03
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location03
      * @return $this
      */
     public function setLocation03(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location03)
@@ -275,21 +334,28 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocation03()
+    {
+        $this->Location03 = null;
+        return $this;
+    }
+
+    /**
      * Getter for Location04
      *
-     * @ElementName Location04
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      */
     public function getLocation04()
     {
-        return $this->Location04;
+        return $this->Location04 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->Location04;
     }
 
     /**
      * Setter for Location04
      *
-     * @ElementName Location04
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location04
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location04
      * @return $this
      */
     public function setLocation04(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location04)
@@ -299,21 +365,28 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocation04()
+    {
+        $this->Location04 = null;
+        return $this;
+    }
+
+    /**
      * Getter for Location05
      *
-     * @ElementName Location05
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify
      */
     public function getLocation05()
     {
-        return $this->Location05;
+        return $this->Location05 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->Location05;
     }
 
     /**
      * Setter for Location05
      *
-     * @ElementName Location05
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify|null $Location05
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location05
      * @return $this
      */
     public function setLocation05(\CWM\BroadWorksConnector\Ocip\Models\SequentialRingLocationModify $Location05)
@@ -323,20 +396,27 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocation05()
+    {
+        $this->Location05 = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     public function getCriteriaActivation()
     {
-        return $this->criteriaActivation;
+        return $this->criteriaActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaActivation;
     }
 
     /**
      * Setter for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[] $criteriaActivation
      * @return $this
      */
@@ -347,15 +427,23 @@ class UserSequentialRingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaActivation()
+    {
+        $this->criteriaActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for criteriaActivation
      *
-     * @ElementName criteriaActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation $criteriaActivation
      * @return $this
      */
     public function addCriteriaActivation($criteriaActivation)
     {
-        $this->criteriaActivation []= $criteriaActivation;
+        $this->criteriaActivation[] = $criteriaActivation;
         return $this;
     }
 

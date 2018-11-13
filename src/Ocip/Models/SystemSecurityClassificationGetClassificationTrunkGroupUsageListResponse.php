@@ -17,6 +17,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse e
 
     /**
      * @ElementName usageTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;
@@ -24,24 +25,31 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse e
     /**
      * Getter for usageTable
      *
-     * @ElementName usageTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUsageTable()
     {
-        return $this->usageTable;
+        return $this->usageTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usageTable;
     }
 
     /**
      * Setter for usageTable
      *
-     * @ElementName usageTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $usageTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $usageTable
      * @return $this
      */
     public function setUsageTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $usageTable)
     {
         $this->usageTable = $usageTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUsageTable()
+    {
+        $this->usageTable = null;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static EnterpriseTrunkRouteExhaustionAction NONE()
  * @method static EnterpriseTrunkRouteExhaustionAction FORWARD()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseTrunkRouteExhaustionAction extends \MyCLabs\Enum\Enum
 {

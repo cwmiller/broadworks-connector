@@ -14,12 +14,14 @@ class SystemSubscriberGetLoginParametersResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName maxFailedLoginAttempts
+     * @Type int
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName minLoginIdLength
+     * @Type int
      * @var int|null
      */
     private $minLoginIdLength = null;
@@ -27,19 +29,17 @@ class SystemSubscriberGetLoginParametersResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for maxFailedLoginAttempts
      *
-     * @ElementName maxFailedLoginAttempts
-     * @return int|null
+     * @return int
      */
     public function getMaxFailedLoginAttempts()
     {
-        return $this->maxFailedLoginAttempts;
+        return $this->maxFailedLoginAttempts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxFailedLoginAttempts;
     }
 
     /**
      * Setter for maxFailedLoginAttempts
      *
-     * @ElementName maxFailedLoginAttempts
-     * @param int|null $maxFailedLoginAttempts
+     * @param int $maxFailedLoginAttempts
      * @return $this
      */
     public function setMaxFailedLoginAttempts($maxFailedLoginAttempts)
@@ -49,26 +49,42 @@ class SystemSubscriberGetLoginParametersResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxFailedLoginAttempts()
+    {
+        $this->maxFailedLoginAttempts = null;
+        return $this;
+    }
+
+    /**
      * Getter for minLoginIdLength
      *
-     * @ElementName minLoginIdLength
-     * @return int|null
+     * @return int
      */
     public function getMinLoginIdLength()
     {
-        return $this->minLoginIdLength;
+        return $this->minLoginIdLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minLoginIdLength;
     }
 
     /**
      * Setter for minLoginIdLength
      *
-     * @ElementName minLoginIdLength
-     * @param int|null $minLoginIdLength
+     * @param int $minLoginIdLength
      * @return $this
      */
     public function setMinLoginIdLength($minLoginIdLength)
     {
         $this->minLoginIdLength = $minLoginIdLength;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMinLoginIdLength()
+    {
+        $this->minLoginIdLength = null;
         return $this;
     }
 

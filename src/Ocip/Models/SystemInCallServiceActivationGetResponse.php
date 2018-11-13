@@ -16,6 +16,7 @@ class SystemInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName defaultActivationDigits
+     * @Type string
      * @var string|null
      */
     private $defaultActivationDigits = null;
@@ -23,24 +24,31 @@ class SystemInCallServiceActivationGetResponse extends \CWM\BroadWorksConnector\
     /**
      * Getter for defaultActivationDigits
      *
-     * @ElementName defaultActivationDigits
-     * @return string|null
+     * @return string
      */
     public function getDefaultActivationDigits()
     {
-        return $this->defaultActivationDigits;
+        return $this->defaultActivationDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultActivationDigits;
     }
 
     /**
      * Setter for defaultActivationDigits
      *
-     * @ElementName defaultActivationDigits
-     * @param string|null $defaultActivationDigits
+     * @param string $defaultActivationDigits
      * @return $this
      */
     public function setDefaultActivationDigits($defaultActivationDigits)
     {
         $this->defaultActivationDigits = $defaultActivationDigits;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultActivationDigits()
+    {
+        $this->defaultActivationDigits = null;
         return $this;
     }
 

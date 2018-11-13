@@ -16,24 +16,28 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
 
     /**
      * @ElementName address
+     * @Type string
      * @var string|null
      */
     private $address = null;
 
     /**
      * @ElementName isNetAddressExtended
+     * @Type bool
      * @var bool|null
      */
     private $isNetAddressExtended = null;
 
     /**
      * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null
      */
     private $type = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -41,19 +45,17 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
     /**
      * Getter for address
      *
-     * @ElementName address
-     * @return string|null
+     * @return string
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param string|null $address
+     * @param string $address
      * @return $this
      */
     public function setAddress($address)
@@ -63,21 +65,28 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
+        return $this;
+    }
+
+    /**
      * Getter for isNetAddressExtended
      *
-     * @ElementName isNetAddressExtended
-     * @return bool|null
+     * @return bool
      */
     public function getIsNetAddressExtended()
     {
-        return $this->isNetAddressExtended;
+        return $this->isNetAddressExtended instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isNetAddressExtended;
     }
 
     /**
      * Setter for isNetAddressExtended
      *
-     * @ElementName isNetAddressExtended
-     * @param bool|null $isNetAddressExtended
+     * @param bool $isNetAddressExtended
      * @return $this
      */
     public function setIsNetAddressExtended($isNetAddressExtended)
@@ -87,21 +96,28 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsNetAddressExtended()
+    {
+        $this->isNetAddressExtended = null;
+        return $this;
+    }
+
+    /**
      * Getter for type
      *
-     * @ElementName type
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType
      */
     public function getType()
     {
-        return $this->type;
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
     }
 
     /**
      * Setter for type
      *
-     * @ElementName type
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType $type
      * @return $this
      */
     public function setType(\CWM\BroadWorksConnector\Ocip\Models\ChargingFunctionElementServerType $type)
@@ -111,26 +127,42 @@ class SystemAccountingAddChargingFunctionElementServerRequest extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class SystemClassmarkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName classmarkTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $classmarkTable = null;
@@ -23,24 +24,31 @@ class SystemClassmarkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for classmarkTable
      *
-     * @ElementName classmarkTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getClassmarkTable()
     {
-        return $this->classmarkTable;
+        return $this->classmarkTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->classmarkTable;
     }
 
     /**
      * Setter for classmarkTable
      *
-     * @ElementName classmarkTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $classmarkTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $classmarkTable
      * @return $this
      */
     public function setClassmarkTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $classmarkTable)
     {
         $this->classmarkTable = $classmarkTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetClassmarkTable()
+    {
+        $this->classmarkTable = null;
         return $this;
     }
 

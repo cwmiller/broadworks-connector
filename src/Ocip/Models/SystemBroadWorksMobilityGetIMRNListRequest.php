@@ -18,6 +18,8 @@ class SystemBroadWorksMobilityGetIMRNListRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName searchCriteriaIMRN
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[]
      */
     private $searchCriteriaIMRN = array(
@@ -27,18 +29,16 @@ class SystemBroadWorksMobilityGetIMRNListRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for searchCriteriaIMRN
      *
-     * @ElementName searchCriteriaIMRN
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[]
      */
     public function getSearchCriteriaIMRN()
     {
-        return $this->searchCriteriaIMRN;
+        return $this->searchCriteriaIMRN instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaIMRN;
     }
 
     /**
      * Setter for searchCriteriaIMRN
      *
-     * @ElementName searchCriteriaIMRN
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[] $searchCriteriaIMRN
      * @return $this
      */
@@ -49,15 +49,23 @@ class SystemBroadWorksMobilityGetIMRNListRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaIMRN()
+    {
+        $this->searchCriteriaIMRN = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaIMRN
      *
-     * @ElementName searchCriteriaIMRN
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN $searchCriteriaIMRN
      * @return $this
      */
     public function addSearchCriteriaIMRN($searchCriteriaIMRN)
     {
-        $this->searchCriteriaIMRN []= $searchCriteriaIMRN;
+        $this->searchCriteriaIMRN[] = $searchCriteriaIMRN;
         return $this;
     }
 

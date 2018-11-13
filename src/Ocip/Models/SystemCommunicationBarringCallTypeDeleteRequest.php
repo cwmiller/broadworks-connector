@@ -16,6 +16,7 @@ class SystemCommunicationBarringCallTypeDeleteRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName callType
+     * @Type string
      * @var string|null
      */
     private $callType = null;
@@ -23,24 +24,31 @@ class SystemCommunicationBarringCallTypeDeleteRequest extends \CWM\BroadWorksCon
     /**
      * Getter for callType
      *
-     * @ElementName callType
-     * @return string|null
+     * @return string
      */
     public function getCallType()
     {
-        return $this->callType;
+        return $this->callType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callType;
     }
 
     /**
      * Setter for callType
      *
-     * @ElementName callType
-     * @param string|null $callType
+     * @param string $callType
      * @return $this
      */
     public function setCallType($callType)
     {
         $this->callType = $callType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallType()
+    {
+        $this->callType = null;
         return $this;
     }
 

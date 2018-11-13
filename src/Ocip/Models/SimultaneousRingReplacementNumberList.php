@@ -14,6 +14,8 @@ class SimultaneousRingReplacementNumberList
 
     /**
      * @ElementName simultaneousRingNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     private $simultaneousRingNumber = array(
@@ -23,18 +25,16 @@ class SimultaneousRingReplacementNumberList
     /**
      * Getter for simultaneousRingNumber
      *
-     * @ElementName simultaneousRingNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     public function getSimultaneousRingNumber()
     {
-        return $this->simultaneousRingNumber;
+        return $this->simultaneousRingNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->simultaneousRingNumber;
     }
 
     /**
      * Setter for simultaneousRingNumber
      *
-     * @ElementName simultaneousRingNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[] $simultaneousRingNumber
      * @return $this
      */
@@ -45,15 +45,23 @@ class SimultaneousRingReplacementNumberList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSimultaneousRingNumber()
+    {
+        $this->simultaneousRingNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for simultaneousRingNumber
      *
-     * @ElementName simultaneousRingNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber $simultaneousRingNumber
      * @return $this
      */
     public function addSimultaneousRingNumber($simultaneousRingNumber)
     {
-        $this->simultaneousRingNumber []= $simultaneousRingNumber;
+        $this->simultaneousRingNumber[] = $simultaneousRingNumber;
         return $this;
     }
 

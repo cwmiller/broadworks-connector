@@ -13,6 +13,7 @@ class SearchCriteriaExactDeviceManagementEventType extends SearchCriteria
 
     /**
      * @ElementName dmEventType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null
      */
     private $dmEventType = null;
@@ -20,24 +21,31 @@ class SearchCriteriaExactDeviceManagementEventType extends SearchCriteria
     /**
      * Getter for dmEventType
      *
-     * @ElementName dmEventType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType
      */
     public function getDmEventType()
     {
-        return $this->dmEventType;
+        return $this->dmEventType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dmEventType;
     }
 
     /**
      * Setter for dmEventType
      *
-     * @ElementName dmEventType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null $dmEventType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType $dmEventType
      * @return $this
      */
     public function setDmEventType(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType $dmEventType)
     {
         $this->dmEventType = $dmEventType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDmEventType()
+    {
+        $this->dmEventType = null;
         return $this;
     }
 

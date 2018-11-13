@@ -15,18 +15,21 @@ class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName alertAllLocationsForClickToDialCalls
+     * @Type bool
      * @var bool|null
      */
     private $alertAllLocationsForClickToDialCalls = null;
 
     /**
      * @ElementName alertAllLocationsForGroupPagingCalls
+     * @Type bool
      * @var bool|null
      */
     private $alertAllLocationsForGroupPagingCalls = null;
 
     /**
      * @ElementName phoneNumberTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $phoneNumberTable = null;
@@ -34,19 +37,17 @@ class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for alertAllLocationsForClickToDialCalls
      *
-     * @ElementName alertAllLocationsForClickToDialCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlertAllLocationsForClickToDialCalls()
     {
-        return $this->alertAllLocationsForClickToDialCalls;
+        return $this->alertAllLocationsForClickToDialCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertAllLocationsForClickToDialCalls;
     }
 
     /**
      * Setter for alertAllLocationsForClickToDialCalls
      *
-     * @ElementName alertAllLocationsForClickToDialCalls
-     * @param bool|null $alertAllLocationsForClickToDialCalls
+     * @param bool $alertAllLocationsForClickToDialCalls
      * @return $this
      */
     public function setAlertAllLocationsForClickToDialCalls($alertAllLocationsForClickToDialCalls)
@@ -56,21 +57,28 @@ class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertAllLocationsForClickToDialCalls()
+    {
+        $this->alertAllLocationsForClickToDialCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertAllLocationsForGroupPagingCalls
      *
-     * @ElementName alertAllLocationsForGroupPagingCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlertAllLocationsForGroupPagingCalls()
     {
-        return $this->alertAllLocationsForGroupPagingCalls;
+        return $this->alertAllLocationsForGroupPagingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertAllLocationsForGroupPagingCalls;
     }
 
     /**
      * Setter for alertAllLocationsForGroupPagingCalls
      *
-     * @ElementName alertAllLocationsForGroupPagingCalls
-     * @param bool|null $alertAllLocationsForGroupPagingCalls
+     * @param bool $alertAllLocationsForGroupPagingCalls
      * @return $this
      */
     public function setAlertAllLocationsForGroupPagingCalls($alertAllLocationsForGroupPagingCalls)
@@ -80,26 +88,42 @@ class UserBroadWorksAnywhereGetResponse16sp2 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertAllLocationsForGroupPagingCalls()
+    {
+        $this->alertAllLocationsForGroupPagingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumberTable
      *
-     * @ElementName phoneNumberTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getPhoneNumberTable()
     {
-        return $this->phoneNumberTable;
+        return $this->phoneNumberTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumberTable;
     }
 
     /**
      * Setter for phoneNumberTable
      *
-     * @ElementName phoneNumberTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $phoneNumberTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $phoneNumberTable
      * @return $this
      */
     public function setPhoneNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $phoneNumberTable)
     {
         $this->phoneNumberTable = $phoneNumberTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumberTable()
+    {
+        $this->phoneNumberTable = null;
         return $this;
     }
 

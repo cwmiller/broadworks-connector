@@ -23,72 +23,84 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName alertAllAppearancesForClickToDialCalls
+     * @Type bool
      * @var bool|null
      */
     private $alertAllAppearancesForClickToDialCalls = null;
 
     /**
      * @ElementName alertAllAppearancesForGroupPagingCalls
+     * @Type bool
      * @var bool|null
      */
     private $alertAllAppearancesForGroupPagingCalls = null;
 
     /**
      * @ElementName allowSCACallRetrieve
+     * @Type bool
      * @var bool|null
      */
     private $allowSCACallRetrieve = null;
 
     /**
      * @ElementName multipleCallArrangementIsActive
+     * @Type bool
      * @var bool|null
      */
     private $multipleCallArrangementIsActive = null;
 
     /**
      * @ElementName allowBridgingBetweenLocations
+     * @Type bool
      * @var bool|null
      */
     private $allowBridgingBetweenLocations = null;
 
     /**
      * @ElementName bridgeWarningTone
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     private $bridgeWarningTone = null;
 
     /**
      * @ElementName enableCallParkNotification
+     * @Type bool
      * @var bool|null
      */
     private $enableCallParkNotification = null;
 
     /**
      * @ElementName useUserPrimaryWithAlternateCallsSetting
+     * @Type bool
      * @var bool|null
      */
     private $useUserPrimaryWithAlternateCallsSetting = null;
 
     /**
      * @ElementName allowSimultaneousPrimaryAndAlternateCalls
+     * @Type bool
      * @var bool|null
      */
     private $allowSimultaneousPrimaryAndAlternateCalls = null;
 
     /**
      * @ElementName restrictCallRetrieveOfPrimaryCall
+     * @Type bool
      * @var bool|null
      */
     private $restrictCallRetrieveOfPrimaryCall = null;
 
     /**
      * @ElementName restrictCallBridgingOfPrimaryCall
+     * @Type bool
      * @var bool|null
      */
     private $restrictCallBridgingOfPrimaryCall = null;
@@ -96,19 +108,17 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -118,21 +128,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertAllAppearancesForClickToDialCalls
      *
-     * @ElementName alertAllAppearancesForClickToDialCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlertAllAppearancesForClickToDialCalls()
     {
-        return $this->alertAllAppearancesForClickToDialCalls;
+        return $this->alertAllAppearancesForClickToDialCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertAllAppearancesForClickToDialCalls;
     }
 
     /**
      * Setter for alertAllAppearancesForClickToDialCalls
      *
-     * @ElementName alertAllAppearancesForClickToDialCalls
-     * @param bool|null $alertAllAppearancesForClickToDialCalls
+     * @param bool $alertAllAppearancesForClickToDialCalls
      * @return $this
      */
     public function setAlertAllAppearancesForClickToDialCalls($alertAllAppearancesForClickToDialCalls)
@@ -142,21 +159,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertAllAppearancesForClickToDialCalls()
+    {
+        $this->alertAllAppearancesForClickToDialCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertAllAppearancesForGroupPagingCalls
      *
-     * @ElementName alertAllAppearancesForGroupPagingCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAlertAllAppearancesForGroupPagingCalls()
     {
-        return $this->alertAllAppearancesForGroupPagingCalls;
+        return $this->alertAllAppearancesForGroupPagingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertAllAppearancesForGroupPagingCalls;
     }
 
     /**
      * Setter for alertAllAppearancesForGroupPagingCalls
      *
-     * @ElementName alertAllAppearancesForGroupPagingCalls
-     * @param bool|null $alertAllAppearancesForGroupPagingCalls
+     * @param bool $alertAllAppearancesForGroupPagingCalls
      * @return $this
      */
     public function setAlertAllAppearancesForGroupPagingCalls($alertAllAppearancesForGroupPagingCalls)
@@ -166,21 +190,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertAllAppearancesForGroupPagingCalls()
+    {
+        $this->alertAllAppearancesForGroupPagingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowSCACallRetrieve
      *
-     * @ElementName allowSCACallRetrieve
-     * @return bool|null
+     * @return bool
      */
     public function getAllowSCACallRetrieve()
     {
-        return $this->allowSCACallRetrieve;
+        return $this->allowSCACallRetrieve instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowSCACallRetrieve;
     }
 
     /**
      * Setter for allowSCACallRetrieve
      *
-     * @ElementName allowSCACallRetrieve
-     * @param bool|null $allowSCACallRetrieve
+     * @param bool $allowSCACallRetrieve
      * @return $this
      */
     public function setAllowSCACallRetrieve($allowSCACallRetrieve)
@@ -190,21 +221,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowSCACallRetrieve()
+    {
+        $this->allowSCACallRetrieve = null;
+        return $this;
+    }
+
+    /**
      * Getter for multipleCallArrangementIsActive
      *
-     * @ElementName multipleCallArrangementIsActive
-     * @return bool|null
+     * @return bool
      */
     public function getMultipleCallArrangementIsActive()
     {
-        return $this->multipleCallArrangementIsActive;
+        return $this->multipleCallArrangementIsActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->multipleCallArrangementIsActive;
     }
 
     /**
      * Setter for multipleCallArrangementIsActive
      *
-     * @ElementName multipleCallArrangementIsActive
-     * @param bool|null $multipleCallArrangementIsActive
+     * @param bool $multipleCallArrangementIsActive
      * @return $this
      */
     public function setMultipleCallArrangementIsActive($multipleCallArrangementIsActive)
@@ -214,21 +252,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMultipleCallArrangementIsActive()
+    {
+        $this->multipleCallArrangementIsActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowBridgingBetweenLocations
      *
-     * @ElementName allowBridgingBetweenLocations
-     * @return bool|null
+     * @return bool
      */
     public function getAllowBridgingBetweenLocations()
     {
-        return $this->allowBridgingBetweenLocations;
+        return $this->allowBridgingBetweenLocations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowBridgingBetweenLocations;
     }
 
     /**
      * Setter for allowBridgingBetweenLocations
      *
-     * @ElementName allowBridgingBetweenLocations
-     * @param bool|null $allowBridgingBetweenLocations
+     * @param bool $allowBridgingBetweenLocations
      * @return $this
      */
     public function setAllowBridgingBetweenLocations($allowBridgingBetweenLocations)
@@ -238,21 +283,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowBridgingBetweenLocations()
+    {
+        $this->allowBridgingBetweenLocations = null;
+        return $this;
+    }
+
+    /**
      * Getter for bridgeWarningTone
      *
-     * @ElementName bridgeWarningTone
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
      */
     public function getBridgeWarningTone()
     {
-        return $this->bridgeWarningTone;
+        return $this->bridgeWarningTone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bridgeWarningTone;
     }
 
     /**
      * Setter for bridgeWarningTone
      *
-     * @ElementName bridgeWarningTone
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null $bridgeWarningTone
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone $bridgeWarningTone
      * @return $this
      */
     public function setBridgeWarningTone(\CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone $bridgeWarningTone)
@@ -262,21 +314,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBridgeWarningTone()
+    {
+        $this->bridgeWarningTone = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCallParkNotification
      *
-     * @ElementName enableCallParkNotification
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCallParkNotification()
     {
-        return $this->enableCallParkNotification;
+        return $this->enableCallParkNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCallParkNotification;
     }
 
     /**
      * Setter for enableCallParkNotification
      *
-     * @ElementName enableCallParkNotification
-     * @param bool|null $enableCallParkNotification
+     * @param bool $enableCallParkNotification
      * @return $this
      */
     public function setEnableCallParkNotification($enableCallParkNotification)
@@ -286,21 +345,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableCallParkNotification()
+    {
+        $this->enableCallParkNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for useUserPrimaryWithAlternateCallsSetting
      *
-     * @ElementName useUserPrimaryWithAlternateCallsSetting
-     * @return bool|null
+     * @return bool
      */
     public function getUseUserPrimaryWithAlternateCallsSetting()
     {
-        return $this->useUserPrimaryWithAlternateCallsSetting;
+        return $this->useUserPrimaryWithAlternateCallsSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useUserPrimaryWithAlternateCallsSetting;
     }
 
     /**
      * Setter for useUserPrimaryWithAlternateCallsSetting
      *
-     * @ElementName useUserPrimaryWithAlternateCallsSetting
-     * @param bool|null $useUserPrimaryWithAlternateCallsSetting
+     * @param bool $useUserPrimaryWithAlternateCallsSetting
      * @return $this
      */
     public function setUseUserPrimaryWithAlternateCallsSetting($useUserPrimaryWithAlternateCallsSetting)
@@ -310,21 +376,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseUserPrimaryWithAlternateCallsSetting()
+    {
+        $this->useUserPrimaryWithAlternateCallsSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowSimultaneousPrimaryAndAlternateCalls
      *
-     * @ElementName allowSimultaneousPrimaryAndAlternateCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAllowSimultaneousPrimaryAndAlternateCalls()
     {
-        return $this->allowSimultaneousPrimaryAndAlternateCalls;
+        return $this->allowSimultaneousPrimaryAndAlternateCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowSimultaneousPrimaryAndAlternateCalls;
     }
 
     /**
      * Setter for allowSimultaneousPrimaryAndAlternateCalls
      *
-     * @ElementName allowSimultaneousPrimaryAndAlternateCalls
-     * @param bool|null $allowSimultaneousPrimaryAndAlternateCalls
+     * @param bool $allowSimultaneousPrimaryAndAlternateCalls
      * @return $this
      */
     public function setAllowSimultaneousPrimaryAndAlternateCalls($allowSimultaneousPrimaryAndAlternateCalls)
@@ -334,21 +407,28 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowSimultaneousPrimaryAndAlternateCalls()
+    {
+        $this->allowSimultaneousPrimaryAndAlternateCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictCallRetrieveOfPrimaryCall
      *
-     * @ElementName restrictCallRetrieveOfPrimaryCall
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictCallRetrieveOfPrimaryCall()
     {
-        return $this->restrictCallRetrieveOfPrimaryCall;
+        return $this->restrictCallRetrieveOfPrimaryCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictCallRetrieveOfPrimaryCall;
     }
 
     /**
      * Setter for restrictCallRetrieveOfPrimaryCall
      *
-     * @ElementName restrictCallRetrieveOfPrimaryCall
-     * @param bool|null $restrictCallRetrieveOfPrimaryCall
+     * @param bool $restrictCallRetrieveOfPrimaryCall
      * @return $this
      */
     public function setRestrictCallRetrieveOfPrimaryCall($restrictCallRetrieveOfPrimaryCall)
@@ -358,26 +438,42 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictCallRetrieveOfPrimaryCall()
+    {
+        $this->restrictCallRetrieveOfPrimaryCall = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictCallBridgingOfPrimaryCall
      *
-     * @ElementName restrictCallBridgingOfPrimaryCall
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictCallBridgingOfPrimaryCall()
     {
-        return $this->restrictCallBridgingOfPrimaryCall;
+        return $this->restrictCallBridgingOfPrimaryCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictCallBridgingOfPrimaryCall;
     }
 
     /**
      * Setter for restrictCallBridgingOfPrimaryCall
      *
-     * @ElementName restrictCallBridgingOfPrimaryCall
-     * @param bool|null $restrictCallBridgingOfPrimaryCall
+     * @param bool $restrictCallBridgingOfPrimaryCall
      * @return $this
      */
     public function setRestrictCallBridgingOfPrimaryCall($restrictCallBridgingOfPrimaryCall)
     {
         $this->restrictCallBridgingOfPrimaryCall = $restrictCallBridgingOfPrimaryCall;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRestrictCallBridgingOfPrimaryCall()
+    {
+        $this->restrictCallBridgingOfPrimaryCall = null;
         return $this;
     }
 

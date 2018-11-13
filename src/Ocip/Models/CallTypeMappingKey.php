@@ -12,12 +12,14 @@ class CallTypeMappingKey
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
 
     /**
      * @ElementName digitMap
+     * @Type string
      * @var string|null
      */
     private $digitMap = null;
@@ -25,19 +27,17 @@ class CallTypeMappingKey
     /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
@@ -47,26 +47,42 @@ class CallTypeMappingKey
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for digitMap
      *
-     * @ElementName digitMap
-     * @return string|null
+     * @return string
      */
     public function getDigitMap()
     {
-        return $this->digitMap;
+        return $this->digitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitMap;
     }
 
     /**
      * Setter for digitMap
      *
-     * @ElementName digitMap
-     * @param string|null $digitMap
+     * @param string $digitMap
      * @return $this
      */
     public function setDigitMap($digitMap)
     {
         $this->digitMap = $digitMap;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDigitMap()
+    {
+        $this->digitMap = null;
         return $this;
     }
 

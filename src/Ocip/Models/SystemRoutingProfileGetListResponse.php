@@ -15,6 +15,8 @@ class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName routingProfile
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $routingProfile = array(
@@ -24,18 +26,16 @@ class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for routingProfile
      *
-     * @ElementName routingProfile
      * @return string[]
      */
     public function getRoutingProfile()
     {
-        return $this->routingProfile;
+        return $this->routingProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routingProfile;
     }
 
     /**
      * Setter for routingProfile
      *
-     * @ElementName routingProfile
      * @param string[] $routingProfile
      * @return $this
      */
@@ -46,15 +46,23 @@ class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRoutingProfile()
+    {
+        $this->routingProfile = null;
+        return $this;
+    }
+
+    /**
      * Adder for routingProfile
      *
-     * @ElementName routingProfile
      * @param string $routingProfile
      * @return $this
      */
     public function addRoutingProfile(string $routingProfile)
     {
-        $this->routingProfile []= $routingProfile;
+        $this->routingProfile[] = $routingProfile;
         return $this;
     }
 

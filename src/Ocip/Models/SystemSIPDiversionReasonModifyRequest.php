@@ -16,12 +16,14 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName diversionReason
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason
      * @var \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason|null
      */
     private $diversionReason = null;
 
     /**
      * @ElementName causeValue
+     * @Type string
      * @var string|null
      */
     private $causeValue = null;
@@ -29,19 +31,17 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for diversionReason
      *
-     * @ElementName diversionReason
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason
      */
     public function getDiversionReason()
     {
-        return $this->diversionReason;
+        return $this->diversionReason instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->diversionReason;
     }
 
     /**
      * Setter for diversionReason
      *
-     * @ElementName diversionReason
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason|null $diversionReason
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason $diversionReason
      * @return $this
      */
     public function setDiversionReason(\CWM\BroadWorksConnector\Ocip\Models\SIPDiversionReason $diversionReason)
@@ -51,26 +51,42 @@ class SystemSIPDiversionReasonModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDiversionReason()
+    {
+        $this->diversionReason = null;
+        return $this;
+    }
+
+    /**
      * Getter for causeValue
      *
-     * @ElementName causeValue
-     * @return string|null
+     * @return string
      */
     public function getCauseValue()
     {
-        return $this->causeValue;
+        return $this->causeValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->causeValue;
     }
 
     /**
      * Setter for causeValue
      *
-     * @ElementName causeValue
-     * @param string|null $causeValue
+     * @param string $causeValue
      * @return $this
      */
     public function setCauseValue($causeValue)
     {
         $this->causeValue = $causeValue;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCauseValue()
+    {
+        $this->causeValue = null;
         return $this;
     }
 

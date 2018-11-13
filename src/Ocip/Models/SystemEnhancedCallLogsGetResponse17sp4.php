@@ -31,78 +31,91 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName isSendEnabled
+     * @Type bool
      * @var bool|null
      */
     private $isSendEnabled = null;
 
     /**
      * @ElementName server1NetAddress
+     * @Type string
      * @var string|null
      */
     private $server1NetAddress = null;
 
     /**
      * @ElementName server1SendPort
+     * @Type int
      * @var int|null
      */
     private $server1SendPort = null;
 
     /**
      * @ElementName server1RetrievePort
+     * @Type int
      * @var int|null
      */
     private $server1RetrievePort = null;
 
     /**
      * @ElementName server2NetAddress
+     * @Type string
      * @var string|null
      */
     private $server2NetAddress = null;
 
     /**
      * @ElementName server2SendPort
+     * @Type int
      * @var int|null
      */
     private $server2SendPort = null;
 
     /**
      * @ElementName server2RetrievePort
+     * @Type int
      * @var int|null
      */
     private $server2RetrievePort = null;
 
     /**
      * @ElementName sharedSecret
+     * @Type string
      * @var string|null
      */
     private $sharedSecret = null;
 
     /**
      * @ElementName retransmissionDelayMilliSeconds
+     * @Type int
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
 
     /**
      * @ElementName maxTransmissions
+     * @Type int
      * @var int|null
      */
     private $maxTransmissions = null;
 
     /**
      * @ElementName soapTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $soapTimeoutSeconds = null;
 
     /**
      * @ElementName useDBS
+     * @Type bool
      * @var bool|null
      */
     private $useDBS = null;
 
     /**
      * @ElementName maxNonPagedResponseSize
+     * @Type int
      * @var int|null
      */
     private $maxNonPagedResponseSize = null;
@@ -110,19 +123,17 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for isSendEnabled
      *
-     * @ElementName isSendEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsSendEnabled()
     {
-        return $this->isSendEnabled;
+        return $this->isSendEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isSendEnabled;
     }
 
     /**
      * Setter for isSendEnabled
      *
-     * @ElementName isSendEnabled
-     * @param bool|null $isSendEnabled
+     * @param bool $isSendEnabled
      * @return $this
      */
     public function setIsSendEnabled($isSendEnabled)
@@ -132,21 +143,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsSendEnabled()
+    {
+        $this->isSendEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for server1NetAddress
      *
-     * @ElementName server1NetAddress
-     * @return string|null
+     * @return string
      */
     public function getServer1NetAddress()
     {
-        return $this->server1NetAddress;
+        return $this->server1NetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->server1NetAddress;
     }
 
     /**
      * Setter for server1NetAddress
      *
-     * @ElementName server1NetAddress
-     * @param string|null $server1NetAddress
+     * @param string $server1NetAddress
      * @return $this
      */
     public function setServer1NetAddress($server1NetAddress)
@@ -156,21 +174,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServer1NetAddress()
+    {
+        $this->server1NetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for server1SendPort
      *
-     * @ElementName server1SendPort
-     * @return int|null
+     * @return int
      */
     public function getServer1SendPort()
     {
-        return $this->server1SendPort;
+        return $this->server1SendPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->server1SendPort;
     }
 
     /**
      * Setter for server1SendPort
      *
-     * @ElementName server1SendPort
-     * @param int|null $server1SendPort
+     * @param int $server1SendPort
      * @return $this
      */
     public function setServer1SendPort($server1SendPort)
@@ -180,21 +205,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServer1SendPort()
+    {
+        $this->server1SendPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for server1RetrievePort
      *
-     * @ElementName server1RetrievePort
-     * @return int|null
+     * @return int
      */
     public function getServer1RetrievePort()
     {
-        return $this->server1RetrievePort;
+        return $this->server1RetrievePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->server1RetrievePort;
     }
 
     /**
      * Setter for server1RetrievePort
      *
-     * @ElementName server1RetrievePort
-     * @param int|null $server1RetrievePort
+     * @param int $server1RetrievePort
      * @return $this
      */
     public function setServer1RetrievePort($server1RetrievePort)
@@ -204,21 +236,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServer1RetrievePort()
+    {
+        $this->server1RetrievePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for server2NetAddress
      *
-     * @ElementName server2NetAddress
-     * @return string|null
+     * @return string
      */
     public function getServer2NetAddress()
     {
-        return $this->server2NetAddress;
+        return $this->server2NetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->server2NetAddress;
     }
 
     /**
      * Setter for server2NetAddress
      *
-     * @ElementName server2NetAddress
-     * @param string|null $server2NetAddress
+     * @param string $server2NetAddress
      * @return $this
      */
     public function setServer2NetAddress($server2NetAddress)
@@ -228,21 +267,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServer2NetAddress()
+    {
+        $this->server2NetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for server2SendPort
      *
-     * @ElementName server2SendPort
-     * @return int|null
+     * @return int
      */
     public function getServer2SendPort()
     {
-        return $this->server2SendPort;
+        return $this->server2SendPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->server2SendPort;
     }
 
     /**
      * Setter for server2SendPort
      *
-     * @ElementName server2SendPort
-     * @param int|null $server2SendPort
+     * @param int $server2SendPort
      * @return $this
      */
     public function setServer2SendPort($server2SendPort)
@@ -252,21 +298,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServer2SendPort()
+    {
+        $this->server2SendPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for server2RetrievePort
      *
-     * @ElementName server2RetrievePort
-     * @return int|null
+     * @return int
      */
     public function getServer2RetrievePort()
     {
-        return $this->server2RetrievePort;
+        return $this->server2RetrievePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->server2RetrievePort;
     }
 
     /**
      * Setter for server2RetrievePort
      *
-     * @ElementName server2RetrievePort
-     * @param int|null $server2RetrievePort
+     * @param int $server2RetrievePort
      * @return $this
      */
     public function setServer2RetrievePort($server2RetrievePort)
@@ -276,21 +329,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServer2RetrievePort()
+    {
+        $this->server2RetrievePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for sharedSecret
      *
-     * @ElementName sharedSecret
-     * @return string|null
+     * @return string
      */
     public function getSharedSecret()
     {
-        return $this->sharedSecret;
+        return $this->sharedSecret instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sharedSecret;
     }
 
     /**
      * Setter for sharedSecret
      *
-     * @ElementName sharedSecret
-     * @param string|null $sharedSecret
+     * @param string $sharedSecret
      * @return $this
      */
     public function setSharedSecret($sharedSecret)
@@ -300,21 +360,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSharedSecret()
+    {
+        $this->sharedSecret = null;
+        return $this;
+    }
+
+    /**
      * Getter for retransmissionDelayMilliSeconds
      *
-     * @ElementName retransmissionDelayMilliSeconds
-     * @return int|null
+     * @return int
      */
     public function getRetransmissionDelayMilliSeconds()
     {
-        return $this->retransmissionDelayMilliSeconds;
+        return $this->retransmissionDelayMilliSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->retransmissionDelayMilliSeconds;
     }
 
     /**
      * Setter for retransmissionDelayMilliSeconds
      *
-     * @ElementName retransmissionDelayMilliSeconds
-     * @param int|null $retransmissionDelayMilliSeconds
+     * @param int $retransmissionDelayMilliSeconds
      * @return $this
      */
     public function setRetransmissionDelayMilliSeconds($retransmissionDelayMilliSeconds)
@@ -324,21 +391,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRetransmissionDelayMilliSeconds()
+    {
+        $this->retransmissionDelayMilliSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxTransmissions
      *
-     * @ElementName maxTransmissions
-     * @return int|null
+     * @return int
      */
     public function getMaxTransmissions()
     {
-        return $this->maxTransmissions;
+        return $this->maxTransmissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxTransmissions;
     }
 
     /**
      * Setter for maxTransmissions
      *
-     * @ElementName maxTransmissions
-     * @param int|null $maxTransmissions
+     * @param int $maxTransmissions
      * @return $this
      */
     public function setMaxTransmissions($maxTransmissions)
@@ -348,21 +422,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxTransmissions()
+    {
+        $this->maxTransmissions = null;
+        return $this;
+    }
+
+    /**
      * Getter for soapTimeoutSeconds
      *
-     * @ElementName soapTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getSoapTimeoutSeconds()
     {
-        return $this->soapTimeoutSeconds;
+        return $this->soapTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->soapTimeoutSeconds;
     }
 
     /**
      * Setter for soapTimeoutSeconds
      *
-     * @ElementName soapTimeoutSeconds
-     * @param int|null $soapTimeoutSeconds
+     * @param int $soapTimeoutSeconds
      * @return $this
      */
     public function setSoapTimeoutSeconds($soapTimeoutSeconds)
@@ -372,21 +453,28 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSoapTimeoutSeconds()
+    {
+        $this->soapTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDBS
      *
-     * @ElementName useDBS
-     * @return bool|null
+     * @return bool
      */
     public function getUseDBS()
     {
-        return $this->useDBS;
+        return $this->useDBS instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDBS;
     }
 
     /**
      * Setter for useDBS
      *
-     * @ElementName useDBS
-     * @param bool|null $useDBS
+     * @param bool $useDBS
      * @return $this
      */
     public function setUseDBS($useDBS)
@@ -396,26 +484,42 @@ class SystemEnhancedCallLogsGetResponse17sp4 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDBS()
+    {
+        $this->useDBS = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxNonPagedResponseSize
      *
-     * @ElementName maxNonPagedResponseSize
-     * @return int|null
+     * @return int
      */
     public function getMaxNonPagedResponseSize()
     {
-        return $this->maxNonPagedResponseSize;
+        return $this->maxNonPagedResponseSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxNonPagedResponseSize;
     }
 
     /**
      * Setter for maxNonPagedResponseSize
      *
-     * @ElementName maxNonPagedResponseSize
-     * @param int|null $maxNonPagedResponseSize
+     * @param int $maxNonPagedResponseSize
      * @return $this
      */
     public function setMaxNonPagedResponseSize($maxNonPagedResponseSize)
     {
         $this->maxNonPagedResponseSize = $maxNonPagedResponseSize;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxNonPagedResponseSize()
+    {
+        $this->maxNonPagedResponseSize = null;
         return $this;
     }
 

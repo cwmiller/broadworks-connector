@@ -16,12 +16,14 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWor
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName reportingServer
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null
      */
     private $reportingServer = null;
@@ -29,19 +31,17 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWor
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -51,26 +51,42 @@ class EnterpriseCallCenterEnhancedReportingModifyRequest19 extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportingServer
      *
-     * @ElementName reportingServer
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19
      */
     public function getReportingServer()
     {
-        return $this->reportingServer;
+        return $this->reportingServer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingServer;
     }
 
     /**
      * Setter for reportingServer
      *
-     * @ElementName reportingServer
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19|null $reportingServer
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19 $reportingServer
      * @return $this
      */
     public function setReportingServer(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportServerChoice19 $reportingServer)
     {
         $this->reportingServer = $reportingServer;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReportingServer()
+    {
+        $this->reportingServer = null;
         return $this;
     }
 

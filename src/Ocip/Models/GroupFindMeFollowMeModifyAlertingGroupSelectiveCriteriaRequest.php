@@ -19,30 +19,35 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName alertingGroupName
+     * @Type string
      * @var string|null
      */
     private $alertingGroupName = null;
 
     /**
      * @ElementName criteriaName
+     * @Type string
      * @var string|null
      */
     private $criteriaName = null;
 
     /**
      * @ElementName newCriteriaName
+     * @Type string
      * @var string|null
      */
     private $newCriteriaName = null;
 
     /**
      * @ElementName timeSchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -50,12 +55,14 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
 
     /**
      * @ElementName fromDnCriteria
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     private $fromDnCriteria = null;
 
     /**
      * @ElementName holidaySchedule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -63,12 +70,14 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
 
     /**
      * @ElementName blacklisted
+     * @Type bool
      * @var bool|null
      */
     private $blacklisted = null;
 
     /**
      * @ElementName callToNumberList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -77,19 +86,17 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -99,21 +106,28 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingGroupName
      *
-     * @ElementName alertingGroupName
-     * @return string|null
+     * @return string
      */
     public function getAlertingGroupName()
     {
-        return $this->alertingGroupName;
+        return $this->alertingGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingGroupName;
     }
 
     /**
      * Setter for alertingGroupName
      *
-     * @ElementName alertingGroupName
-     * @param string|null $alertingGroupName
+     * @param string $alertingGroupName
      * @return $this
      */
     public function setAlertingGroupName($alertingGroupName)
@@ -123,21 +137,28 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingGroupName()
+    {
+        $this->alertingGroupName = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaName
      *
-     * @ElementName criteriaName
-     * @return string|null
+     * @return string
      */
     public function getCriteriaName()
     {
-        return $this->criteriaName;
+        return $this->criteriaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaName;
     }
 
     /**
      * Setter for criteriaName
      *
-     * @ElementName criteriaName
-     * @param string|null $criteriaName
+     * @param string $criteriaName
      * @return $this
      */
     public function setCriteriaName($criteriaName)
@@ -147,21 +168,28 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCriteriaName()
+    {
+        $this->criteriaName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newCriteriaName
      *
-     * @ElementName newCriteriaName
-     * @return string|null
+     * @return string
      */
     public function getNewCriteriaName()
     {
-        return $this->newCriteriaName;
+        return $this->newCriteriaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newCriteriaName;
     }
 
     /**
      * Setter for newCriteriaName
      *
-     * @ElementName newCriteriaName
-     * @param string|null $newCriteriaName
+     * @param string $newCriteriaName
      * @return $this
      */
     public function setNewCriteriaName($newCriteriaName)
@@ -171,47 +199,63 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewCriteriaName()
+    {
+        $this->newCriteriaName = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     public function getTimeSchedule()
     {
-        return $this->timeSchedule;
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
     }
 
     /**
      * Setter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null $timeSchedule
      * @return $this
      */
     public function setTimeSchedule(\CWM\BroadWorksConnector\Ocip\Models\TimeSchedule $timeSchedule)
     {
-        $this->timeSchedule = $timeSchedule;
+        if ($timeSchedule === null) {
+            $this->timeSchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->timeSchedule = $timeSchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
         return $this;
     }
 
     /**
      * Getter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
      */
     public function getFromDnCriteria()
     {
-        return $this->fromDnCriteria;
+        return $this->fromDnCriteria instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fromDnCriteria;
     }
 
     /**
      * Setter for fromDnCriteria
      *
-     * @ElementName fromDnCriteria
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null $fromDnCriteria
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify $fromDnCriteria
      * @return $this
      */
     public function setFromDnCriteria(\CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify $fromDnCriteria)
@@ -221,47 +265,63 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFromDnCriteria()
+    {
+        $this->fromDnCriteria = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     public function getHolidaySchedule()
     {
-        return $this->holidaySchedule;
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
     }
 
     /**
      * Setter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule(\CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule $holidaySchedule)
     {
-        $this->holidaySchedule = $holidaySchedule;
+        if ($holidaySchedule === null) {
+            $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holidaySchedule = $holidaySchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
         return $this;
     }
 
     /**
      * Getter for blacklisted
      *
-     * @ElementName blacklisted
-     * @return bool|null
+     * @return bool
      */
     public function getBlacklisted()
     {
-        return $this->blacklisted;
+        return $this->blacklisted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->blacklisted;
     }
 
     /**
      * Setter for blacklisted
      *
-     * @ElementName blacklisted
-     * @param bool|null $blacklisted
+     * @param bool $blacklisted
      * @return $this
      */
     public function setBlacklisted($blacklisted)
@@ -271,28 +331,46 @@ class GroupFindMeFollowMeModifyAlertingGroupSelectiveCriteriaRequest extends \CW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBlacklisted()
+    {
+        $this->blacklisted = null;
+        return $this;
+    }
+
+    /**
      * Getter for callToNumberList
      *
-     * @ElementName callToNumberList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null
      */
     public function getCallToNumberList()
     {
-        return $this->callToNumberList;
+        return $this->callToNumberList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callToNumberList;
     }
 
     /**
      * Setter for callToNumberList
      *
-     * @ElementName callToNumberList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil $callToNumberList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null $callToNumberList
      * @return $this
      */
     public function setCallToNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList $callToNumberList)
     {
-        $this->callToNumberList = $callToNumberList;
+        if ($callToNumberList === null) {
+            $this->callToNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callToNumberList = $callToNumberList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallToNumberList()
+    {
+        $this->callToNumberList = null;
         return $this;
     }
 

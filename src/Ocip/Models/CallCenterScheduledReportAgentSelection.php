@@ -12,12 +12,15 @@ class CallCenterScheduledReportAgentSelection
 
     /**
      * @ElementName allAgent
+     * @Type bool
      * @var bool|null
      */
     private $allAgent = null;
 
     /**
      * @ElementName agentUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $agentUserId = array(
@@ -27,19 +30,17 @@ class CallCenterScheduledReportAgentSelection
     /**
      * Getter for allAgent
      *
-     * @ElementName allAgent
-     * @return bool|null
+     * @return bool
      */
     public function getAllAgent()
     {
-        return $this->allAgent;
+        return $this->allAgent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allAgent;
     }
 
     /**
      * Setter for allAgent
      *
-     * @ElementName allAgent
-     * @param bool|null $allAgent
+     * @param bool $allAgent
      * @return $this
      */
     public function setAllAgent($allAgent)
@@ -49,20 +50,27 @@ class CallCenterScheduledReportAgentSelection
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllAgent()
+    {
+        $this->allAgent = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
      * @return string[]
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
      * @param string[] $agentUserId
      * @return $this
      */
@@ -73,15 +81,23 @@ class CallCenterScheduledReportAgentSelection
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for agentUserId
      *
-     * @ElementName agentUserId
      * @param string $agentUserId
      * @return $this
      */
     public function addAgentUserId(string $agentUserId)
     {
-        $this->agentUserId []= $agentUserId;
+        $this->agentUserId[] = $agentUserId;
         return $this;
     }
 

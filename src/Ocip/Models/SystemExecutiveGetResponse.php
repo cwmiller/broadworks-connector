@@ -14,6 +14,7 @@ class SystemExecutiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName treatVirtualOnNetCallsAsInternal
+     * @Type bool
      * @var bool|null
      */
     private $treatVirtualOnNetCallsAsInternal = null;
@@ -21,24 +22,31 @@ class SystemExecutiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for treatVirtualOnNetCallsAsInternal
      *
-     * @ElementName treatVirtualOnNetCallsAsInternal
-     * @return bool|null
+     * @return bool
      */
     public function getTreatVirtualOnNetCallsAsInternal()
     {
-        return $this->treatVirtualOnNetCallsAsInternal;
+        return $this->treatVirtualOnNetCallsAsInternal instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatVirtualOnNetCallsAsInternal;
     }
 
     /**
      * Setter for treatVirtualOnNetCallsAsInternal
      *
-     * @ElementName treatVirtualOnNetCallsAsInternal
-     * @param bool|null $treatVirtualOnNetCallsAsInternal
+     * @param bool $treatVirtualOnNetCallsAsInternal
      * @return $this
      */
     public function setTreatVirtualOnNetCallsAsInternal($treatVirtualOnNetCallsAsInternal)
     {
         $this->treatVirtualOnNetCallsAsInternal = $treatVirtualOnNetCallsAsInternal;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatVirtualOnNetCallsAsInternal()
+    {
+        $this->treatVirtualOnNetCallsAsInternal = null;
         return $this;
     }
 

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static NsScreeningFailurePolicy DISPLAY_RECEIVED_CALLER_ID()
  * @method static NsScreeningFailurePolicy RESTRICT_NUMBER()
  * @method static NsScreeningFailurePolicy RESTRICT_NAME_AND_NUMBER()
- * @ValueType string
+ * @EnumValueType string
  */
 class NsScreeningFailurePolicy extends \MyCLabs\Enum\Enum
 {

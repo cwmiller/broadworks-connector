@@ -12,6 +12,8 @@ class MWIDeliveryToMobileEndpointTemplateBody
 
     /**
      * @ElementName line
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine[]
      */
     private $line = array(
@@ -21,18 +23,16 @@ class MWIDeliveryToMobileEndpointTemplateBody
     /**
      * Getter for line
      *
-     * @ElementName line
      * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine[]
      */
     public function getLine()
     {
-        return $this->line;
+        return $this->line instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->line;
     }
 
     /**
      * Setter for line
      *
-     * @ElementName line
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine[] $line
      * @return $this
      */
@@ -43,15 +43,23 @@ class MWIDeliveryToMobileEndpointTemplateBody
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLine()
+    {
+        $this->line = null;
+        return $this;
+    }
+
+    /**
      * Adder for line
      *
-     * @ElementName line
      * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateLine $line
      * @return $this
      */
     public function addLine($line)
     {
-        $this->line []= $line;
+        $this->line[] = $line;
         return $this;
     }
 

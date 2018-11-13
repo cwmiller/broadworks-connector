@@ -16,6 +16,7 @@ class UserHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName holidayScheduleTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $holidayScheduleTable = null;
@@ -23,24 +24,31 @@ class UserHolidayScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for holidayScheduleTable
      *
-     * @ElementName holidayScheduleTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getHolidayScheduleTable()
     {
-        return $this->holidayScheduleTable;
+        return $this->holidayScheduleTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidayScheduleTable;
     }
 
     /**
      * Setter for holidayScheduleTable
      *
-     * @ElementName holidayScheduleTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $holidayScheduleTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $holidayScheduleTable
      * @return $this
      */
     public function setHolidayScheduleTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $holidayScheduleTable)
     {
         $this->holidayScheduleTable = $holidayScheduleTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidayScheduleTable()
+    {
+        $this->holidayScheduleTable = null;
         return $this;
     }
 

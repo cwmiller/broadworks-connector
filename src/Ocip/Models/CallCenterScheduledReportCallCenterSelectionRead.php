@@ -13,12 +13,15 @@ class CallCenterScheduledReportCallCenterSelectionRead
 
     /**
      * @ElementName allCallCenter
+     * @Type bool
      * @var bool|null
      */
     private $allCallCenter = null;
 
     /**
      * @ElementName currentUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $currentUserId = array(
@@ -27,6 +30,8 @@ class CallCenterScheduledReportCallCenterSelectionRead
 
     /**
      * @ElementName pastUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $pastUserId = array(
@@ -36,19 +41,17 @@ class CallCenterScheduledReportCallCenterSelectionRead
     /**
      * Getter for allCallCenter
      *
-     * @ElementName allCallCenter
-     * @return bool|null
+     * @return bool
      */
     public function getAllCallCenter()
     {
-        return $this->allCallCenter;
+        return $this->allCallCenter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allCallCenter;
     }
 
     /**
      * Setter for allCallCenter
      *
-     * @ElementName allCallCenter
-     * @param bool|null $allCallCenter
+     * @param bool $allCallCenter
      * @return $this
      */
     public function setAllCallCenter($allCallCenter)
@@ -58,20 +61,27 @@ class CallCenterScheduledReportCallCenterSelectionRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllCallCenter()
+    {
+        $this->allCallCenter = null;
+        return $this;
+    }
+
+    /**
      * Getter for currentUserId
      *
-     * @ElementName currentUserId
      * @return string[]
      */
     public function getCurrentUserId()
     {
-        return $this->currentUserId;
+        return $this->currentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->currentUserId;
     }
 
     /**
      * Setter for currentUserId
      *
-     * @ElementName currentUserId
      * @param string[] $currentUserId
      * @return $this
      */
@@ -82,33 +92,39 @@ class CallCenterScheduledReportCallCenterSelectionRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCurrentUserId()
+    {
+        $this->currentUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for currentUserId
      *
-     * @ElementName currentUserId
      * @param string $currentUserId
      * @return $this
      */
     public function addCurrentUserId(string $currentUserId)
     {
-        $this->currentUserId []= $currentUserId;
+        $this->currentUserId[] = $currentUserId;
         return $this;
     }
 
     /**
      * Getter for pastUserId
      *
-     * @ElementName pastUserId
      * @return string[]
      */
     public function getPastUserId()
     {
-        return $this->pastUserId;
+        return $this->pastUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pastUserId;
     }
 
     /**
      * Setter for pastUserId
      *
-     * @ElementName pastUserId
      * @param string[] $pastUserId
      * @return $this
      */
@@ -119,15 +135,23 @@ class CallCenterScheduledReportCallCenterSelectionRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPastUserId()
+    {
+        $this->pastUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for pastUserId
      *
-     * @ElementName pastUserId
      * @param string $pastUserId
      * @return $this
      */
     public function addPastUserId(string $pastUserId)
     {
-        $this->pastUserId []= $pastUserId;
+        $this->pastUserId[] = $pastUserId;
         return $this;
     }
 

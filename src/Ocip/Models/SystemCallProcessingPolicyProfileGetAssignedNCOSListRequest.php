@@ -18,6 +18,7 @@ class SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest extends \CWM\B
 
     /**
      * @ElementName profileName
+     * @Type string
      * @var string|null
      */
     private $profileName = null;
@@ -25,24 +26,31 @@ class SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest extends \CWM\B
     /**
      * Getter for profileName
      *
-     * @ElementName profileName
-     * @return string|null
+     * @return string
      */
     public function getProfileName()
     {
-        return $this->profileName;
+        return $this->profileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileName;
     }
 
     /**
      * Setter for profileName
      *
-     * @ElementName profileName
-     * @param string|null $profileName
+     * @param string $profileName
      * @return $this
      */
     public function setProfileName($profileName)
     {
         $this->profileName = $profileName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfileName()
+    {
+        $this->profileName = null;
         return $this;
     }
 

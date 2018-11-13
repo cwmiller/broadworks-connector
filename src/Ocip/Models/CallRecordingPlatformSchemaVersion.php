@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallRecordingPlatformSchemaVersion _1_0()
  * @method static CallRecordingPlatformSchemaVersion _2_0()
  * @method static CallRecordingPlatformSchemaVersion _3_0()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallRecordingPlatformSchemaVersion extends \MyCLabs\Enum\Enum
 {

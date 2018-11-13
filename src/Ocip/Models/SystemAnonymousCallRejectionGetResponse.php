@@ -15,12 +15,14 @@ class SystemAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName paiRequired
+     * @Type bool
      * @var bool|null
      */
     private $paiRequired = null;
 
     /**
      * @ElementName screenOnlyLocalCalls
+     * @Type bool
      * @var bool|null
      */
     private $screenOnlyLocalCalls = null;
@@ -28,19 +30,17 @@ class SystemAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for paiRequired
      *
-     * @ElementName paiRequired
-     * @return bool|null
+     * @return bool
      */
     public function getPaiRequired()
     {
-        return $this->paiRequired;
+        return $this->paiRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->paiRequired;
     }
 
     /**
      * Setter for paiRequired
      *
-     * @ElementName paiRequired
-     * @param bool|null $paiRequired
+     * @param bool $paiRequired
      * @return $this
      */
     public function setPaiRequired($paiRequired)
@@ -50,26 +50,42 @@ class SystemAnonymousCallRejectionGetResponse extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPaiRequired()
+    {
+        $this->paiRequired = null;
+        return $this;
+    }
+
+    /**
      * Getter for screenOnlyLocalCalls
      *
-     * @ElementName screenOnlyLocalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getScreenOnlyLocalCalls()
     {
-        return $this->screenOnlyLocalCalls;
+        return $this->screenOnlyLocalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->screenOnlyLocalCalls;
     }
 
     /**
      * Setter for screenOnlyLocalCalls
      *
-     * @ElementName screenOnlyLocalCalls
-     * @param bool|null $screenOnlyLocalCalls
+     * @param bool $screenOnlyLocalCalls
      * @return $this
      */
     public function setScreenOnlyLocalCalls($screenOnlyLocalCalls)
     {
         $this->screenOnlyLocalCalls = $screenOnlyLocalCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScreenOnlyLocalCalls()
+    {
+        $this->screenOnlyLocalCalls = null;
         return $this;
     }
 

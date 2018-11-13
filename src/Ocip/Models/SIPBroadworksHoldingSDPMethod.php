@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SIPBroadworksHoldingSDPMethod HOLD_SDP()
  * @method static SIPBroadworksHoldingSDPMethod MODIFIED_ADDRESS_SDP()
- * @ValueType string
+ * @EnumValueType string
  */
 class SIPBroadworksHoldingSDPMethod extends \MyCLabs\Enum\Enum
 {

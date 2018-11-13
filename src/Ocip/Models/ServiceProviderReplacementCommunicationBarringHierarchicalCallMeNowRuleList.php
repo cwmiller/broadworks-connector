@@ -15,6 +15,8 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleLis
 
     /**
      * @ElementName rule
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule[]
      */
     private $rule = array(
@@ -24,18 +26,16 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleLis
     /**
      * Getter for rule
      *
-     * @ElementName rule
      * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule[]
      */
     public function getRule()
     {
-        return $this->rule;
+        return $this->rule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rule;
     }
 
     /**
      * Setter for rule
      *
-     * @ElementName rule
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule[] $rule
      * @return $this
      */
@@ -46,15 +46,23 @@ class ServiceProviderReplacementCommunicationBarringHierarchicalCallMeNowRuleLis
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRule()
+    {
+        $this->rule = null;
+        return $this;
+    }
+
+    /**
      * Adder for rule
      *
-     * @ElementName rule
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule $rule
      * @return $this
      */
     public function addRule($rule)
     {
-        $this->rule []= $rule;
+        $this->rule[] = $rule;
         return $this;
     }
 

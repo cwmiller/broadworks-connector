@@ -16,6 +16,7 @@ class ServiceProviderDialPlanPolicyGetAccessCodeListResponse extends \CWM\BroadW
 
     /**
      * @ElementName accessCodeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $accessCodeTable = null;
@@ -23,24 +24,31 @@ class ServiceProviderDialPlanPolicyGetAccessCodeListResponse extends \CWM\BroadW
     /**
      * Getter for accessCodeTable
      *
-     * @ElementName accessCodeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAccessCodeTable()
     {
-        return $this->accessCodeTable;
+        return $this->accessCodeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessCodeTable;
     }
 
     /**
      * Setter for accessCodeTable
      *
-     * @ElementName accessCodeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $accessCodeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $accessCodeTable
      * @return $this
      */
     public function setAccessCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $accessCodeTable)
     {
         $this->accessCodeTable = $accessCodeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessCodeTable()
+    {
+        $this->accessCodeTable = null;
         return $this;
     }
 

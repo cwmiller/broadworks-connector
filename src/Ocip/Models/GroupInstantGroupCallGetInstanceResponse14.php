@@ -15,12 +15,15 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName destinationPhoneNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -29,12 +32,14 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName isAnswerTimeoutEnabled
+     * @Type bool
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
 
     /**
      * @ElementName answerTimeoutMinutes
+     * @Type int
      * @var int|null
      */
     private $answerTimeoutMinutes = null;
@@ -42,19 +47,17 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile $serviceInstanceProfile)
@@ -64,20 +67,27 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for destinationPhoneNumber
      *
-     * @ElementName destinationPhoneNumber
      * @return string[]
      */
     public function getDestinationPhoneNumber()
     {
-        return $this->destinationPhoneNumber;
+        return $this->destinationPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->destinationPhoneNumber;
     }
 
     /**
      * Setter for destinationPhoneNumber
      *
-     * @ElementName destinationPhoneNumber
      * @param string[] $destinationPhoneNumber
      * @return $this
      */
@@ -88,34 +98,40 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDestinationPhoneNumber()
+    {
+        $this->destinationPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for destinationPhoneNumber
      *
-     * @ElementName destinationPhoneNumber
      * @param string $destinationPhoneNumber
      * @return $this
      */
     public function addDestinationPhoneNumber(string $destinationPhoneNumber)
     {
-        $this->destinationPhoneNumber []= $destinationPhoneNumber;
+        $this->destinationPhoneNumber[] = $destinationPhoneNumber;
         return $this;
     }
 
     /**
      * Getter for isAnswerTimeoutEnabled
      *
-     * @ElementName isAnswerTimeoutEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsAnswerTimeoutEnabled()
     {
-        return $this->isAnswerTimeoutEnabled;
+        return $this->isAnswerTimeoutEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAnswerTimeoutEnabled;
     }
 
     /**
      * Setter for isAnswerTimeoutEnabled
      *
-     * @ElementName isAnswerTimeoutEnabled
-     * @param bool|null $isAnswerTimeoutEnabled
+     * @param bool $isAnswerTimeoutEnabled
      * @return $this
      */
     public function setIsAnswerTimeoutEnabled($isAnswerTimeoutEnabled)
@@ -125,26 +141,42 @@ class GroupInstantGroupCallGetInstanceResponse14 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsAnswerTimeoutEnabled()
+    {
+        $this->isAnswerTimeoutEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerTimeoutMinutes
      *
-     * @ElementName answerTimeoutMinutes
-     * @return int|null
+     * @return int
      */
     public function getAnswerTimeoutMinutes()
     {
-        return $this->answerTimeoutMinutes;
+        return $this->answerTimeoutMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerTimeoutMinutes;
     }
 
     /**
      * Setter for answerTimeoutMinutes
      *
-     * @ElementName answerTimeoutMinutes
-     * @param int|null $answerTimeoutMinutes
+     * @param int $answerTimeoutMinutes
      * @return $this
      */
     public function setAnswerTimeoutMinutes($answerTimeoutMinutes)
     {
         $this->answerTimeoutMinutes = $answerTimeoutMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnswerTimeoutMinutes()
+    {
+        $this->answerTimeoutMinutes = null;
         return $this;
     }
 

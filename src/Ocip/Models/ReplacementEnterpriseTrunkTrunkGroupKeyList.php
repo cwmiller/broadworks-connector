@@ -15,6 +15,8 @@ class ReplacementEnterpriseTrunkTrunkGroupKeyList
 
     /**
      * @ElementName trunkGroupList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey[]
      */
     private $trunkGroupList = array(
@@ -24,18 +26,16 @@ class ReplacementEnterpriseTrunkTrunkGroupKeyList
     /**
      * Getter for trunkGroupList
      *
-     * @ElementName trunkGroupList
      * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey[]
      */
     public function getTrunkGroupList()
     {
-        return $this->trunkGroupList;
+        return $this->trunkGroupList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupList;
     }
 
     /**
      * Setter for trunkGroupList
      *
-     * @ElementName trunkGroupList
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey[] $trunkGroupList
      * @return $this
      */
@@ -46,15 +46,23 @@ class ReplacementEnterpriseTrunkTrunkGroupKeyList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupList()
+    {
+        $this->trunkGroupList = null;
+        return $this;
+    }
+
+    /**
      * Adder for trunkGroupList
      *
-     * @ElementName trunkGroupList
      * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkTrunkGroupKey $trunkGroupList
      * @return $this
      */
     public function addTrunkGroupList($trunkGroupList)
     {
-        $this->trunkGroupList []= $trunkGroupList;
+        $this->trunkGroupList[] = $trunkGroupList;
         return $this;
     }
 

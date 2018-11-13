@@ -15,6 +15,7 @@ class SystemMediaServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName mediaServerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mediaServerTable = null;
@@ -22,24 +23,31 @@ class SystemMediaServerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for mediaServerTable
      *
-     * @ElementName mediaServerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getMediaServerTable()
     {
-        return $this->mediaServerTable;
+        return $this->mediaServerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaServerTable;
     }
 
     /**
      * Setter for mediaServerTable
      *
-     * @ElementName mediaServerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $mediaServerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mediaServerTable
      * @return $this
      */
     public function setMediaServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $mediaServerTable)
     {
         $this->mediaServerTable = $mediaServerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMediaServerTable()
+    {
+        $this->mediaServerTable = null;
         return $this;
     }
 

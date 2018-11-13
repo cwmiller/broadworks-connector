@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * IGNORE_IF_UNSCREENED_CALLS_DISALLOWED()
  * @method static TrunkGroupUnscreenedRedirectionHandling
  * REJECT_IF_UNSCREENED_CALLS_DISALLOWED()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupUnscreenedRedirectionHandling extends \MyCLabs\Enum\Enum
 {

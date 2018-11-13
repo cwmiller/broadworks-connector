@@ -17,18 +17,21 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName outgoingSMDIMWIPhoneNumberList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,19 +40,17 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -59,21 +60,28 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -83,28 +91,46 @@ class UserVoiceMessagingUserModifyOutgoingSMDIMWIRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for outgoingSMDIMWIPhoneNumberList
      *
-     * @ElementName outgoingSMDIMWIPhoneNumberList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null
      */
     public function getOutgoingSMDIMWIPhoneNumberList()
     {
-        return $this->outgoingSMDIMWIPhoneNumberList;
+        return $this->outgoingSMDIMWIPhoneNumberList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outgoingSMDIMWIPhoneNumberList;
     }
 
     /**
      * Setter for outgoingSMDIMWIPhoneNumberList
      *
-     * @ElementName outgoingSMDIMWIPhoneNumberList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null|\CWM\BroadWorksConnector\Ocip\Nil $outgoingSMDIMWIPhoneNumberList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList|null $outgoingSMDIMWIPhoneNumberList
      * @return $this
      */
     public function setOutgoingSMDIMWIPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNList $outgoingSMDIMWIPhoneNumberList)
     {
-        $this->outgoingSMDIMWIPhoneNumberList = $outgoingSMDIMWIPhoneNumberList;
+        if ($outgoingSMDIMWIPhoneNumberList === null) {
+            $this->outgoingSMDIMWIPhoneNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->outgoingSMDIMWIPhoneNumberList = $outgoingSMDIMWIPhoneNumberList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOutgoingSMDIMWIPhoneNumberList()
+    {
+        $this->outgoingSMDIMWIPhoneNumberList = null;
         return $this;
     }
 

@@ -14,6 +14,7 @@ class SystemInterceptUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName emergencyAndRepairIntercept
+     * @Type bool
      * @var bool|null
      */
     private $emergencyAndRepairIntercept = null;
@@ -21,24 +22,31 @@ class SystemInterceptUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for emergencyAndRepairIntercept
      *
-     * @ElementName emergencyAndRepairIntercept
-     * @return bool|null
+     * @return bool
      */
     public function getEmergencyAndRepairIntercept()
     {
-        return $this->emergencyAndRepairIntercept;
+        return $this->emergencyAndRepairIntercept instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emergencyAndRepairIntercept;
     }
 
     /**
      * Setter for emergencyAndRepairIntercept
      *
-     * @ElementName emergencyAndRepairIntercept
-     * @param bool|null $emergencyAndRepairIntercept
+     * @param bool $emergencyAndRepairIntercept
      * @return $this
      */
     public function setEmergencyAndRepairIntercept($emergencyAndRepairIntercept)
     {
         $this->emergencyAndRepairIntercept = $emergencyAndRepairIntercept;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmergencyAndRepairIntercept()
+    {
+        $this->emergencyAndRepairIntercept = null;
         return $this;
     }
 

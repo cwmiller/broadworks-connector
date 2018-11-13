@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static DeviceTypeLevel SYSTEM()
  * @method static DeviceTypeLevel RESELLER()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceTypeLevel extends \MyCLabs\Enum\Enum
 {

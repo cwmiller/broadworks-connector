@@ -14,6 +14,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -21,6 +22,8 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
 
     /**
      * @ElementName digitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $digitPattern = array(
@@ -30,44 +33,51 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for digitPattern
      *
-     * @ElementName digitPattern
      * @return string[]
      */
     public function getDigitPattern()
     {
-        return $this->digitPattern;
+        return $this->digitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPattern;
     }
 
     /**
      * Setter for digitPattern
      *
-     * @ElementName digitPattern
      * @param string[] $digitPattern
      * @return $this
      */
@@ -78,15 +88,23 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPattern()
+    {
+        $this->digitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for digitPattern
      *
-     * @ElementName digitPattern
      * @param string $digitPattern
      * @return $this
      */
     public function addDigitPattern(string $digitPattern)
     {
-        $this->digitPattern []= $digitPattern;
+        $this->digitPattern[] = $digitPattern;
         return $this;
     }
 

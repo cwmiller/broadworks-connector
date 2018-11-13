@@ -19,18 +19,21 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName receptionistUserId
+     * @Type string
      * @var string|null
      */
     private $receptionistUserId = null;
 
     /**
      * @ElementName contactUserId
+     * @Type string
      * @var string|null
      */
     private $contactUserId = null;
 
     /**
      * @ElementName vonUser
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
      */
     private $vonUser = null;
@@ -38,19 +41,17 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     /**
      * Getter for receptionistUserId
      *
-     * @ElementName receptionistUserId
-     * @return string|null
+     * @return string
      */
     public function getReceptionistUserId()
     {
-        return $this->receptionistUserId;
+        return $this->receptionistUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->receptionistUserId;
     }
 
     /**
      * Setter for receptionistUserId
      *
-     * @ElementName receptionistUserId
-     * @param string|null $receptionistUserId
+     * @param string $receptionistUserId
      * @return $this
      */
     public function setReceptionistUserId($receptionistUserId)
@@ -60,21 +61,28 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReceptionistUserId()
+    {
+        $this->receptionistUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for contactUserId
      *
-     * @ElementName contactUserId
-     * @return string|null
+     * @return string
      */
     public function getContactUserId()
     {
-        return $this->contactUserId;
+        return $this->contactUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contactUserId;
     }
 
     /**
      * Setter for contactUserId
      *
-     * @ElementName contactUserId
-     * @param string|null $contactUserId
+     * @param string $contactUserId
      * @return $this
      */
     public function setContactUserId($contactUserId)
@@ -84,26 +92,42 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContactUserId()
+    {
+        $this->contactUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for vonUser
      *
-     * @ElementName vonUser
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey
      */
     public function getVonUser()
     {
-        return $this->vonUser;
+        return $this->vonUser instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->vonUser;
     }
 
     /**
      * Setter for vonUser
      *
-     * @ElementName vonUser
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null $vonUser
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey $vonUser
      * @return $this
      */
     public function setVonUser(\CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey $vonUser)
     {
         $this->vonUser = $vonUser;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVonUser()
+    {
+        $this->vonUser = null;
         return $this;
     }
 

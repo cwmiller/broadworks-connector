@@ -12,6 +12,7 @@ class FaxMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName saveFaxMessageAndSkipToNext
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,6 +20,7 @@ class FaxMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName previousFaxMessage
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class FaxMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName playEnvelope
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,6 +36,7 @@ class FaxMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName nextFaxMessage
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -40,6 +44,7 @@ class FaxMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName deleteFaxMessage
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +52,7 @@ class FaxMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName printFaxMessage
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -54,6 +60,7 @@ class FaxMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -62,182 +69,245 @@ class FaxMessagingMenuKeysModifyEntry
     /**
      * Getter for saveFaxMessageAndSkipToNext
      *
-     * @ElementName saveFaxMessageAndSkipToNext
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSaveFaxMessageAndSkipToNext()
     {
-        return $this->saveFaxMessageAndSkipToNext;
+        return $this->saveFaxMessageAndSkipToNext instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->saveFaxMessageAndSkipToNext;
     }
 
     /**
      * Setter for saveFaxMessageAndSkipToNext
      *
-     * @ElementName saveFaxMessageAndSkipToNext
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $saveFaxMessageAndSkipToNext
+     * @param string|null $saveFaxMessageAndSkipToNext
      * @return $this
      */
     public function setSaveFaxMessageAndSkipToNext($saveFaxMessageAndSkipToNext)
     {
-        $this->saveFaxMessageAndSkipToNext = $saveFaxMessageAndSkipToNext;
+        if ($saveFaxMessageAndSkipToNext === null) {
+            $this->saveFaxMessageAndSkipToNext = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->saveFaxMessageAndSkipToNext = $saveFaxMessageAndSkipToNext;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSaveFaxMessageAndSkipToNext()
+    {
+        $this->saveFaxMessageAndSkipToNext = null;
         return $this;
     }
 
     /**
      * Getter for previousFaxMessage
      *
-     * @ElementName previousFaxMessage
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPreviousFaxMessage()
     {
-        return $this->previousFaxMessage;
+        return $this->previousFaxMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->previousFaxMessage;
     }
 
     /**
      * Setter for previousFaxMessage
      *
-     * @ElementName previousFaxMessage
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $previousFaxMessage
+     * @param string|null $previousFaxMessage
      * @return $this
      */
     public function setPreviousFaxMessage($previousFaxMessage)
     {
-        $this->previousFaxMessage = $previousFaxMessage;
+        if ($previousFaxMessage === null) {
+            $this->previousFaxMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->previousFaxMessage = $previousFaxMessage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPreviousFaxMessage()
+    {
+        $this->previousFaxMessage = null;
         return $this;
     }
 
     /**
      * Getter for playEnvelope
      *
-     * @ElementName playEnvelope
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPlayEnvelope()
     {
-        return $this->playEnvelope;
+        return $this->playEnvelope instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playEnvelope;
     }
 
     /**
      * Setter for playEnvelope
      *
-     * @ElementName playEnvelope
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $playEnvelope
+     * @param string|null $playEnvelope
      * @return $this
      */
     public function setPlayEnvelope($playEnvelope)
     {
-        $this->playEnvelope = $playEnvelope;
+        if ($playEnvelope === null) {
+            $this->playEnvelope = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->playEnvelope = $playEnvelope;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayEnvelope()
+    {
+        $this->playEnvelope = null;
         return $this;
     }
 
     /**
      * Getter for nextFaxMessage
      *
-     * @ElementName nextFaxMessage
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNextFaxMessage()
     {
-        return $this->nextFaxMessage;
+        return $this->nextFaxMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nextFaxMessage;
     }
 
     /**
      * Setter for nextFaxMessage
      *
-     * @ElementName nextFaxMessage
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $nextFaxMessage
+     * @param string|null $nextFaxMessage
      * @return $this
      */
     public function setNextFaxMessage($nextFaxMessage)
     {
-        $this->nextFaxMessage = $nextFaxMessage;
+        if ($nextFaxMessage === null) {
+            $this->nextFaxMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->nextFaxMessage = $nextFaxMessage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNextFaxMessage()
+    {
+        $this->nextFaxMessage = null;
         return $this;
     }
 
     /**
      * Getter for deleteFaxMessage
      *
-     * @ElementName deleteFaxMessage
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDeleteFaxMessage()
     {
-        return $this->deleteFaxMessage;
+        return $this->deleteFaxMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteFaxMessage;
     }
 
     /**
      * Setter for deleteFaxMessage
      *
-     * @ElementName deleteFaxMessage
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deleteFaxMessage
+     * @param string|null $deleteFaxMessage
      * @return $this
      */
     public function setDeleteFaxMessage($deleteFaxMessage)
     {
-        $this->deleteFaxMessage = $deleteFaxMessage;
+        if ($deleteFaxMessage === null) {
+            $this->deleteFaxMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deleteFaxMessage = $deleteFaxMessage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeleteFaxMessage()
+    {
+        $this->deleteFaxMessage = null;
         return $this;
     }
 
     /**
      * Getter for printFaxMessage
      *
-     * @ElementName printFaxMessage
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPrintFaxMessage()
     {
-        return $this->printFaxMessage;
+        return $this->printFaxMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->printFaxMessage;
     }
 
     /**
      * Setter for printFaxMessage
      *
-     * @ElementName printFaxMessage
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $printFaxMessage
+     * @param string|null $printFaxMessage
      * @return $this
      */
     public function setPrintFaxMessage($printFaxMessage)
     {
-        $this->printFaxMessage = $printFaxMessage;
+        if ($printFaxMessage === null) {
+            $this->printFaxMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->printFaxMessage = $printFaxMessage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrintFaxMessage()
+    {
+        $this->printFaxMessage = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $returnToPreviousMenu
+     * @param string|null $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
     {
-        $this->returnToPreviousMenu = $returnToPreviousMenu;
+        if ($returnToPreviousMenu === null) {
+            $this->returnToPreviousMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->returnToPreviousMenu = $returnToPreviousMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceTypeConfigurationOptionType NOT_SUPPORTED()
  * @method static DeviceTypeConfigurationOptionType DEVICE_MANAGEMENT()
  * @method static DeviceTypeConfigurationOptionType LEGACY()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceTypeConfigurationOptionType extends \MyCLabs\Enum\Enum
 {

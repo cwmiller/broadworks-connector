@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static TrunkGroupUserCreationTaskStatus PROCESSING()
  * @method static TrunkGroupUserCreationTaskStatus COMPLETED()
  * @method static TrunkGroupUserCreationTaskStatus FAILED()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupUserCreationTaskStatus extends \MyCLabs\Enum\Enum
 {

@@ -214,7 +214,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static UserService VOICE_MESSAGING_USER_VIDEO()
  * @method static UserService VOICE_PORTAL_CALLING()
  * @method static UserService ZONE_CALLING_RESTRICTIONS()
- * @ValueType string
+ * @EnumValueType string
  */
 class UserService extends \MyCLabs\Enum\Enum
 {

@@ -14,24 +14,28 @@ class VerifyTranslationAndRoutingParameters
 
     /**
      * @ElementName origination
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination
      * @var \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination|null
      */
     private $origination = null;
 
     /**
      * @ElementName destination
+     * @Type string
      * @var string|null
      */
     private $destination = null;
 
     /**
      * @ElementName contact
+     * @Type string
      * @var string|null
      */
     private $contact = null;
 
     /**
      * @ElementName diversion
+     * @Type string
      * @var string|null
      */
     private $diversion = null;
@@ -39,19 +43,17 @@ class VerifyTranslationAndRoutingParameters
     /**
      * Getter for origination
      *
-     * @ElementName origination
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination
      */
     public function getOrigination()
     {
-        return $this->origination;
+        return $this->origination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->origination;
     }
 
     /**
      * Setter for origination
      *
-     * @ElementName origination
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination|null $origination
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination $origination
      * @return $this
      */
     public function setOrigination(\CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination $origination)
@@ -61,21 +63,28 @@ class VerifyTranslationAndRoutingParameters
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOrigination()
+    {
+        $this->origination = null;
+        return $this;
+    }
+
+    /**
      * Getter for destination
      *
-     * @ElementName destination
-     * @return string|null
+     * @return string
      */
     public function getDestination()
     {
-        return $this->destination;
+        return $this->destination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->destination;
     }
 
     /**
      * Setter for destination
      *
-     * @ElementName destination
-     * @param string|null $destination
+     * @param string $destination
      * @return $this
      */
     public function setDestination($destination)
@@ -85,21 +94,28 @@ class VerifyTranslationAndRoutingParameters
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDestination()
+    {
+        $this->destination = null;
+        return $this;
+    }
+
+    /**
      * Getter for contact
      *
-     * @ElementName contact
-     * @return string|null
+     * @return string
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
-     * @param string|null $contact
+     * @param string $contact
      * @return $this
      */
     public function setContact($contact)
@@ -109,26 +125,42 @@ class VerifyTranslationAndRoutingParameters
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Getter for diversion
      *
-     * @ElementName diversion
-     * @return string|null
+     * @return string
      */
     public function getDiversion()
     {
-        return $this->diversion;
+        return $this->diversion instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->diversion;
     }
 
     /**
      * Setter for diversion
      *
-     * @ElementName diversion
-     * @param string|null $diversion
+     * @param string $diversion
      * @return $this
      */
     public function setDiversion($diversion)
     {
         $this->diversion = $diversion;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDiversion()
+    {
+        $this->diversion = null;
         return $this;
     }
 

@@ -10,42 +10,49 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
 
     /**
      * @ElementName saveFaxMessageAndSkipToNext
+     * @Type string
      * @var string|null
      */
     private $saveFaxMessageAndSkipToNext = null;
 
     /**
      * @ElementName previousFaxMessage
+     * @Type string
      * @var string|null
      */
     private $previousFaxMessage = null;
 
     /**
      * @ElementName playEnvelope
+     * @Type string
      * @var string|null
      */
     private $playEnvelope = null;
 
     /**
      * @ElementName nextFaxMessage
+     * @Type string
      * @var string|null
      */
     private $nextFaxMessage = null;
 
     /**
      * @ElementName deleteFaxMessage
+     * @Type string
      * @var string|null
      */
     private $deleteFaxMessage = null;
 
     /**
      * @ElementName printFaxMessage
+     * @Type string
      * @var string|null
      */
     private $printFaxMessage = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -53,19 +60,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
     /**
      * Getter for saveFaxMessageAndSkipToNext
      *
-     * @ElementName saveFaxMessageAndSkipToNext
-     * @return string|null
+     * @return string
      */
     public function getSaveFaxMessageAndSkipToNext()
     {
-        return $this->saveFaxMessageAndSkipToNext;
+        return $this->saveFaxMessageAndSkipToNext instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->saveFaxMessageAndSkipToNext;
     }
 
     /**
      * Setter for saveFaxMessageAndSkipToNext
      *
-     * @ElementName saveFaxMessageAndSkipToNext
-     * @param string|null $saveFaxMessageAndSkipToNext
+     * @param string $saveFaxMessageAndSkipToNext
      * @return $this
      */
     public function setSaveFaxMessageAndSkipToNext($saveFaxMessageAndSkipToNext)
@@ -75,21 +80,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSaveFaxMessageAndSkipToNext()
+    {
+        $this->saveFaxMessageAndSkipToNext = null;
+        return $this;
+    }
+
+    /**
      * Getter for previousFaxMessage
      *
-     * @ElementName previousFaxMessage
-     * @return string|null
+     * @return string
      */
     public function getPreviousFaxMessage()
     {
-        return $this->previousFaxMessage;
+        return $this->previousFaxMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->previousFaxMessage;
     }
 
     /**
      * Setter for previousFaxMessage
      *
-     * @ElementName previousFaxMessage
-     * @param string|null $previousFaxMessage
+     * @param string $previousFaxMessage
      * @return $this
      */
     public function setPreviousFaxMessage($previousFaxMessage)
@@ -99,21 +111,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreviousFaxMessage()
+    {
+        $this->previousFaxMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for playEnvelope
      *
-     * @ElementName playEnvelope
-     * @return string|null
+     * @return string
      */
     public function getPlayEnvelope()
     {
-        return $this->playEnvelope;
+        return $this->playEnvelope instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playEnvelope;
     }
 
     /**
      * Setter for playEnvelope
      *
-     * @ElementName playEnvelope
-     * @param string|null $playEnvelope
+     * @param string $playEnvelope
      * @return $this
      */
     public function setPlayEnvelope($playEnvelope)
@@ -123,21 +142,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayEnvelope()
+    {
+        $this->playEnvelope = null;
+        return $this;
+    }
+
+    /**
      * Getter for nextFaxMessage
      *
-     * @ElementName nextFaxMessage
-     * @return string|null
+     * @return string
      */
     public function getNextFaxMessage()
     {
-        return $this->nextFaxMessage;
+        return $this->nextFaxMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nextFaxMessage;
     }
 
     /**
      * Setter for nextFaxMessage
      *
-     * @ElementName nextFaxMessage
-     * @param string|null $nextFaxMessage
+     * @param string $nextFaxMessage
      * @return $this
      */
     public function setNextFaxMessage($nextFaxMessage)
@@ -147,21 +173,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNextFaxMessage()
+    {
+        $this->nextFaxMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for deleteFaxMessage
      *
-     * @ElementName deleteFaxMessage
-     * @return string|null
+     * @return string
      */
     public function getDeleteFaxMessage()
     {
-        return $this->deleteFaxMessage;
+        return $this->deleteFaxMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteFaxMessage;
     }
 
     /**
      * Setter for deleteFaxMessage
      *
-     * @ElementName deleteFaxMessage
-     * @param string|null $deleteFaxMessage
+     * @param string $deleteFaxMessage
      * @return $this
      */
     public function setDeleteFaxMessage($deleteFaxMessage)
@@ -171,21 +204,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeleteFaxMessage()
+    {
+        $this->deleteFaxMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for printFaxMessage
      *
-     * @ElementName printFaxMessage
-     * @return string|null
+     * @return string
      */
     public function getPrintFaxMessage()
     {
-        return $this->printFaxMessage;
+        return $this->printFaxMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->printFaxMessage;
     }
 
     /**
      * Setter for printFaxMessage
      *
-     * @ElementName printFaxMessage
-     * @param string|null $printFaxMessage
+     * @param string $printFaxMessage
      * @return $this
      */
     public function setPrintFaxMessage($printFaxMessage)
@@ -195,26 +235,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1FaxMessagingMenuK
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrintFaxMessage()
+    {
+        $this->printFaxMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
     {
         $this->returnToPreviousMenu = $returnToPreviousMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
         return $this;
     }
 

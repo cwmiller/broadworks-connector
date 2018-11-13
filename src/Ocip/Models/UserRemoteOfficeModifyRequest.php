@@ -16,18 +16,21 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName remoteOfficePhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,19 +39,17 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -58,21 +59,28 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -82,28 +90,46 @@ class UserRemoteOfficeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for remoteOfficePhoneNumber
      *
-     * @ElementName remoteOfficePhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRemoteOfficePhoneNumber()
     {
-        return $this->remoteOfficePhoneNumber;
+        return $this->remoteOfficePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->remoteOfficePhoneNumber;
     }
 
     /**
      * Setter for remoteOfficePhoneNumber
      *
-     * @ElementName remoteOfficePhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $remoteOfficePhoneNumber
+     * @param string|null $remoteOfficePhoneNumber
      * @return $this
      */
     public function setRemoteOfficePhoneNumber($remoteOfficePhoneNumber)
     {
-        $this->remoteOfficePhoneNumber = $remoteOfficePhoneNumber;
+        if ($remoteOfficePhoneNumber === null) {
+            $this->remoteOfficePhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->remoteOfficePhoneNumber = $remoteOfficePhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRemoteOfficePhoneNumber()
+    {
+        $this->remoteOfficePhoneNumber = null;
         return $this;
     }
 

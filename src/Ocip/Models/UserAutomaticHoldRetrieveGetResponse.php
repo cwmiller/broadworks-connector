@@ -14,12 +14,14 @@ class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName recallTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $recallTimerSeconds = null;
@@ -27,19 +29,17 @@ class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -49,26 +49,42 @@ class UserAutomaticHoldRetrieveGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for recallTimerSeconds
      *
-     * @ElementName recallTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getRecallTimerSeconds()
     {
-        return $this->recallTimerSeconds;
+        return $this->recallTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallTimerSeconds;
     }
 
     /**
      * Setter for recallTimerSeconds
      *
-     * @ElementName recallTimerSeconds
-     * @param int|null $recallTimerSeconds
+     * @param int $recallTimerSeconds
      * @return $this
      */
     public function setRecallTimerSeconds($recallTimerSeconds)
     {
         $this->recallTimerSeconds = $recallTimerSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecallTimerSeconds()
+    {
+        $this->recallTimerSeconds = null;
         return $this;
     }
 

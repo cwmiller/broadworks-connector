@@ -18,6 +18,8 @@ class SystemCLIDDeliveryPrefixDeleteListRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName prefix
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[]
      */
     private $prefix = array(
@@ -27,18 +29,16 @@ class SystemCLIDDeliveryPrefixDeleteListRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for prefix
      *
-     * @ElementName prefix
      * @return \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[]
      */
     public function getPrefix()
     {
-        return $this->prefix;
+        return $this->prefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefix;
     }
 
     /**
      * Setter for prefix
      *
-     * @ElementName prefix
      * @param \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix[] $prefix
      * @return $this
      */
@@ -49,15 +49,23 @@ class SystemCLIDDeliveryPrefixDeleteListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrefix()
+    {
+        $this->prefix = null;
+        return $this;
+    }
+
+    /**
      * Adder for prefix
      *
-     * @ElementName prefix
      * @param \CWM\BroadWorksConnector\Ocip\Models\CLIDDeliveryPrefix $prefix
      * @return $this
      */
     public function addPrefix($prefix)
     {
-        $this->prefix []= $prefix;
+        $this->prefix[] = $prefix;
         return $this;
     }
 

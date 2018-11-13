@@ -16,6 +16,7 @@ class SystemMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName playMCTWarningAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $playMCTWarningAnnouncement = null;
@@ -23,24 +24,31 @@ class SystemMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for playMCTWarningAnnouncement
      *
-     * @ElementName playMCTWarningAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getPlayMCTWarningAnnouncement()
     {
-        return $this->playMCTWarningAnnouncement;
+        return $this->playMCTWarningAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playMCTWarningAnnouncement;
     }
 
     /**
      * Setter for playMCTWarningAnnouncement
      *
-     * @ElementName playMCTWarningAnnouncement
-     * @param bool|null $playMCTWarningAnnouncement
+     * @param bool $playMCTWarningAnnouncement
      * @return $this
      */
     public function setPlayMCTWarningAnnouncement($playMCTWarningAnnouncement)
     {
         $this->playMCTWarningAnnouncement = $playMCTWarningAnnouncement;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayMCTWarningAnnouncement()
+    {
+        $this->playMCTWarningAnnouncement = null;
         return $this;
     }
 

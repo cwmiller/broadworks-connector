@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static OutgoingPinholeDigitPlanCallMeNowPermission IGNORE()
  * @method static OutgoingPinholeDigitPlanCallMeNowPermission ALLOW()
- * @ValueType string
+ * @EnumValueType string
  */
 class OutgoingPinholeDigitPlanCallMeNowPermission extends \MyCLabs\Enum\Enum
 {

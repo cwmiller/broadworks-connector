@@ -16,18 +16,22 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName incomingCalls
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;
 
     /**
      * @ElementName simRingPhoneNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $simRingPhoneNumber = array(
@@ -37,19 +41,17 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -59,21 +61,28 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for incomingCalls
      *
-     * @ElementName incomingCalls
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
      */
     public function getIncomingCalls()
     {
-        return $this->incomingCalls;
+        return $this->incomingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingCalls;
     }
 
     /**
      * Setter for incomingCalls
      *
-     * @ElementName incomingCalls
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null $incomingCalls
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection $incomingCalls
      * @return $this
      */
     public function setIncomingCalls(\CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection $incomingCalls)
@@ -83,20 +92,27 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncomingCalls()
+    {
+        $this->incomingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for simRingPhoneNumber
      *
-     * @ElementName simRingPhoneNumber
      * @return string[]
      */
     public function getSimRingPhoneNumber()
     {
-        return $this->simRingPhoneNumber;
+        return $this->simRingPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->simRingPhoneNumber;
     }
 
     /**
      * Setter for simRingPhoneNumber
      *
-     * @ElementName simRingPhoneNumber
      * @param string[] $simRingPhoneNumber
      * @return $this
      */
@@ -107,15 +123,23 @@ class UserSimultaneousRingFamilyGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSimRingPhoneNumber()
+    {
+        $this->simRingPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for simRingPhoneNumber
      *
-     * @ElementName simRingPhoneNumber
      * @param string $simRingPhoneNumber
      * @return $this
      */
     public function addSimRingPhoneNumber(string $simRingPhoneNumber)
     {
-        $this->simRingPhoneNumber []= $simRingPhoneNumber;
+        $this->simRingPhoneNumber[] = $simRingPhoneNumber;
         return $this;
     }
 

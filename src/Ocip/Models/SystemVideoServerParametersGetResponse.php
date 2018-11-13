@@ -15,18 +15,21 @@ class SystemVideoServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName videoServerResponseTimerMilliseconds
+     * @Type int
      * @var int|null
      */
     private $videoServerResponseTimerMilliseconds = null;
 
     /**
      * @ElementName videoServerSelectionRouteTimerMilliseconds
+     * @Type int
      * @var int|null
      */
     private $videoServerSelectionRouteTimerMilliseconds = null;
 
     /**
      * @ElementName useStaticVideoServerDevice
+     * @Type bool
      * @var bool|null
      */
     private $useStaticVideoServerDevice = null;
@@ -34,19 +37,17 @@ class SystemVideoServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for videoServerResponseTimerMilliseconds
      *
-     * @ElementName videoServerResponseTimerMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getVideoServerResponseTimerMilliseconds()
     {
-        return $this->videoServerResponseTimerMilliseconds;
+        return $this->videoServerResponseTimerMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoServerResponseTimerMilliseconds;
     }
 
     /**
      * Setter for videoServerResponseTimerMilliseconds
      *
-     * @ElementName videoServerResponseTimerMilliseconds
-     * @param int|null $videoServerResponseTimerMilliseconds
+     * @param int $videoServerResponseTimerMilliseconds
      * @return $this
      */
     public function setVideoServerResponseTimerMilliseconds($videoServerResponseTimerMilliseconds)
@@ -56,21 +57,28 @@ class SystemVideoServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoServerResponseTimerMilliseconds()
+    {
+        $this->videoServerResponseTimerMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoServerSelectionRouteTimerMilliseconds
      *
-     * @ElementName videoServerSelectionRouteTimerMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getVideoServerSelectionRouteTimerMilliseconds()
     {
-        return $this->videoServerSelectionRouteTimerMilliseconds;
+        return $this->videoServerSelectionRouteTimerMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoServerSelectionRouteTimerMilliseconds;
     }
 
     /**
      * Setter for videoServerSelectionRouteTimerMilliseconds
      *
-     * @ElementName videoServerSelectionRouteTimerMilliseconds
-     * @param int|null $videoServerSelectionRouteTimerMilliseconds
+     * @param int $videoServerSelectionRouteTimerMilliseconds
      * @return $this
      */
     public function setVideoServerSelectionRouteTimerMilliseconds($videoServerSelectionRouteTimerMilliseconds)
@@ -80,26 +88,42 @@ class SystemVideoServerParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoServerSelectionRouteTimerMilliseconds()
+    {
+        $this->videoServerSelectionRouteTimerMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for useStaticVideoServerDevice
      *
-     * @ElementName useStaticVideoServerDevice
-     * @return bool|null
+     * @return bool
      */
     public function getUseStaticVideoServerDevice()
     {
-        return $this->useStaticVideoServerDevice;
+        return $this->useStaticVideoServerDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useStaticVideoServerDevice;
     }
 
     /**
      * Setter for useStaticVideoServerDevice
      *
-     * @ElementName useStaticVideoServerDevice
-     * @param bool|null $useStaticVideoServerDevice
+     * @param bool $useStaticVideoServerDevice
      * @return $this
      */
     public function setUseStaticVideoServerDevice($useStaticVideoServerDevice)
     {
         $this->useStaticVideoServerDevice = $useStaticVideoServerDevice;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseStaticVideoServerDevice()
+    {
+        $this->useStaticVideoServerDevice = null;
         return $this;
     }
 

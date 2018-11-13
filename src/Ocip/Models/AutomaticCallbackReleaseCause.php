@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AutomaticCallbackReleaseCause TEMPORARILY_UNAVAILABLE()
  * @method static AutomaticCallbackReleaseCause USER_NOT_FOUND()
  * @method static AutomaticCallbackReleaseCause REQUEST_TIMEOUT()
- * @ValueType string
+ * @EnumValueType string
  */
 class AutomaticCallbackReleaseCause extends \MyCLabs\Enum\Enum
 {

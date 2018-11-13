@@ -13,12 +13,14 @@ class CallCenterReportPastInterval
 
     /**
      * @ElementName number
+     * @Type int
      * @var int|null
      */
     private $number = null;
 
     /**
      * @ElementName timeUnit
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit|null
      */
     private $timeUnit = null;
@@ -26,19 +28,17 @@ class CallCenterReportPastInterval
     /**
      * Getter for number
      *
-     * @ElementName number
-     * @return int|null
+     * @return int
      */
     public function getNumber()
     {
-        return $this->number;
+        return $this->number instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->number;
     }
 
     /**
      * Setter for number
      *
-     * @ElementName number
-     * @param int|null $number
+     * @param int $number
      * @return $this
      */
     public function setNumber($number)
@@ -48,26 +48,42 @@ class CallCenterReportPastInterval
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumber()
+    {
+        $this->number = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeUnit
      *
-     * @ElementName timeUnit
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit
      */
     public function getTimeUnit()
     {
-        return $this->timeUnit;
+        return $this->timeUnit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeUnit;
     }
 
     /**
      * Setter for timeUnit
      *
-     * @ElementName timeUnit
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit|null $timeUnit
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit $timeUnit
      * @return $this
      */
     public function setTimeUnit(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportIntervalTimeUnit $timeUnit)
     {
         $this->timeUnit = $timeUnit;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeUnit()
+    {
+        $this->timeUnit = null;
         return $this;
     }
 

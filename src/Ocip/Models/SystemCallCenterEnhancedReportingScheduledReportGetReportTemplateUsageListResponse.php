@@ -23,6 +23,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageList
 
     /**
      * @ElementName scheduleReportTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $scheduleReportTable = null;
@@ -30,24 +31,31 @@ class SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageList
     /**
      * Getter for scheduleReportTable
      *
-     * @ElementName scheduleReportTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getScheduleReportTable()
     {
-        return $this->scheduleReportTable;
+        return $this->scheduleReportTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleReportTable;
     }
 
     /**
      * Setter for scheduleReportTable
      *
-     * @ElementName scheduleReportTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $scheduleReportTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $scheduleReportTable
      * @return $this
      */
     public function setScheduleReportTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $scheduleReportTable)
     {
         $this->scheduleReportTable = $scheduleReportTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScheduleReportTable()
+    {
+        $this->scheduleReportTable = null;
         return $this;
     }
 

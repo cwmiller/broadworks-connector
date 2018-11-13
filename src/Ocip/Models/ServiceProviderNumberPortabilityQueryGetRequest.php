@@ -18,18 +18,22 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName includeDigitPatterns
+     * @Type bool
      * @var bool|null
      */
     private $includeDigitPatterns = null;
 
     /**
      * @ElementName searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern[]
      */
     private $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern = array(
@@ -38,6 +42,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -45,19 +50,17 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -67,21 +70,28 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeDigitPatterns
      *
-     * @ElementName includeDigitPatterns
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeDigitPatterns()
     {
-        return $this->includeDigitPatterns;
+        return $this->includeDigitPatterns instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeDigitPatterns;
     }
 
     /**
      * Setter for includeDigitPatterns
      *
-     * @ElementName includeDigitPatterns
-     * @param bool|null $includeDigitPatterns
+     * @param bool $includeDigitPatterns
      * @return $this
      */
     public function setIncludeDigitPatterns($includeDigitPatterns)
@@ -91,20 +101,27 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeDigitPatterns()
+    {
+        $this->includeDigitPatterns = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      *
-     * @ElementName searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern[]
      */
     public function getSearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern()
     {
-        return $this->searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern;
+        return $this->searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern;
     }
 
     /**
      * Setter for searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      *
-     * @ElementName searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern[] $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @return $this
      */
@@ -115,39 +132,54 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern()
+    {
+        $this->searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      *
-     * @ElementName searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @return $this
      */
     public function addSearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern($searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern)
     {
-        $this->searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern []= $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern;
+        $this->searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern[] = $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern;
         return $this;
     }
 
     /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
     {
         $this->responseSizeLimit = $responseSizeLimit;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
         return $this;
     }
 

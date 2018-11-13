@@ -16,6 +16,7 @@ class SystemAdviceOfChargeCostInformationSourceDeleteRequest extends \CWM\BroadW
 
     /**
      * @ElementName peerIdentity
+     * @Type string
      * @var string|null
      */
     private $peerIdentity = null;
@@ -23,24 +24,31 @@ class SystemAdviceOfChargeCostInformationSourceDeleteRequest extends \CWM\BroadW
     /**
      * Getter for peerIdentity
      *
-     * @ElementName peerIdentity
-     * @return string|null
+     * @return string
      */
     public function getPeerIdentity()
     {
-        return $this->peerIdentity;
+        return $this->peerIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->peerIdentity;
     }
 
     /**
      * Setter for peerIdentity
      *
-     * @ElementName peerIdentity
-     * @param string|null $peerIdentity
+     * @param string $peerIdentity
      * @return $this
      */
     public function setPeerIdentity($peerIdentity)
     {
         $this->peerIdentity = $peerIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPeerIdentity()
+    {
+        $this->peerIdentity = null;
         return $this;
     }
 

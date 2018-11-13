@@ -16,12 +16,14 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName mscAddress
+     * @Type string
      * @var string|null
      */
     private $mscAddress = null;
 
     /**
      * @ElementName networkTranslationIndex
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for mscAddress
      *
-     * @ElementName mscAddress
-     * @return string|null
+     * @return string
      */
     public function getMscAddress()
     {
-        return $this->mscAddress;
+        return $this->mscAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mscAddress;
     }
 
     /**
      * Setter for mscAddress
      *
-     * @ElementName mscAddress
-     * @param string|null $mscAddress
+     * @param string $mscAddress
      * @return $this
      */
     public function setMscAddress($mscAddress)
@@ -52,28 +52,46 @@ class SystemRoamingNetworkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMscAddress()
+    {
+        $this->mscAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkTranslationIndex
      *
-     * @ElementName networkTranslationIndex
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNetworkTranslationIndex()
     {
-        return $this->networkTranslationIndex;
+        return $this->networkTranslationIndex instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkTranslationIndex;
     }
 
     /**
      * Setter for networkTranslationIndex
      *
-     * @ElementName networkTranslationIndex
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $networkTranslationIndex
+     * @param string|null $networkTranslationIndex
      * @return $this
      */
     public function setNetworkTranslationIndex($networkTranslationIndex)
     {
-        $this->networkTranslationIndex = $networkTranslationIndex;
+        if ($networkTranslationIndex === null) {
+            $this->networkTranslationIndex = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->networkTranslationIndex = $networkTranslationIndex;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkTranslationIndex()
+    {
+        $this->networkTranslationIndex = null;
         return $this;
     }
 

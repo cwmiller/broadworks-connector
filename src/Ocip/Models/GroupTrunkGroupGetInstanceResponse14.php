@@ -17,42 +17,49 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
     private $accessDeviceEndpoint = null;
 
     /**
      * @ElementName maxActiveCalls
+     * @Type int
      * @var int|null
      */
     private $maxActiveCalls = null;
 
     /**
      * @ElementName maxIncomingCalls
+     * @Type int
      * @var int|null
      */
     private $maxIncomingCalls = null;
 
     /**
      * @ElementName maxOutgoingCalls
+     * @Type int
      * @var int|null
      */
     private $maxOutgoingCalls = null;
 
     /**
      * @ElementName requireAuthentication
+     * @Type bool
      * @var bool|null
      */
     private $requireAuthentication = null;
 
     /**
      * @ElementName sipAuthenticationUserName
+     * @Type string
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -60,19 +67,17 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile $serviceInstanceProfile)
@@ -82,21 +87,28 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null $accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint)
@@ -106,21 +118,28 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxActiveCalls
      *
-     * @ElementName maxActiveCalls
-     * @return int|null
+     * @return int
      */
     public function getMaxActiveCalls()
     {
-        return $this->maxActiveCalls;
+        return $this->maxActiveCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxActiveCalls;
     }
 
     /**
      * Setter for maxActiveCalls
      *
-     * @ElementName maxActiveCalls
-     * @param int|null $maxActiveCalls
+     * @param int $maxActiveCalls
      * @return $this
      */
     public function setMaxActiveCalls($maxActiveCalls)
@@ -130,21 +149,28 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxActiveCalls()
+    {
+        $this->maxActiveCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxIncomingCalls
      *
-     * @ElementName maxIncomingCalls
-     * @return int|null
+     * @return int
      */
     public function getMaxIncomingCalls()
     {
-        return $this->maxIncomingCalls;
+        return $this->maxIncomingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxIncomingCalls;
     }
 
     /**
      * Setter for maxIncomingCalls
      *
-     * @ElementName maxIncomingCalls
-     * @param int|null $maxIncomingCalls
+     * @param int $maxIncomingCalls
      * @return $this
      */
     public function setMaxIncomingCalls($maxIncomingCalls)
@@ -154,21 +180,28 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxIncomingCalls()
+    {
+        $this->maxIncomingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxOutgoingCalls
      *
-     * @ElementName maxOutgoingCalls
-     * @return int|null
+     * @return int
      */
     public function getMaxOutgoingCalls()
     {
-        return $this->maxOutgoingCalls;
+        return $this->maxOutgoingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxOutgoingCalls;
     }
 
     /**
      * Setter for maxOutgoingCalls
      *
-     * @ElementName maxOutgoingCalls
-     * @param int|null $maxOutgoingCalls
+     * @param int $maxOutgoingCalls
      * @return $this
      */
     public function setMaxOutgoingCalls($maxOutgoingCalls)
@@ -178,21 +211,28 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxOutgoingCalls()
+    {
+        $this->maxOutgoingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for requireAuthentication
      *
-     * @ElementName requireAuthentication
-     * @return bool|null
+     * @return bool
      */
     public function getRequireAuthentication()
     {
-        return $this->requireAuthentication;
+        return $this->requireAuthentication instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requireAuthentication;
     }
 
     /**
      * Setter for requireAuthentication
      *
-     * @ElementName requireAuthentication
-     * @param bool|null $requireAuthentication
+     * @param bool $requireAuthentication
      * @return $this
      */
     public function setRequireAuthentication($requireAuthentication)
@@ -202,26 +242,42 @@ class GroupTrunkGroupGetInstanceResponse14 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequireAuthentication()
+    {
+        $this->requireAuthentication = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipAuthenticationUserName
      *
-     * @ElementName sipAuthenticationUserName
-     * @return string|null
+     * @return string
      */
     public function getSipAuthenticationUserName()
     {
-        return $this->sipAuthenticationUserName;
+        return $this->sipAuthenticationUserName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipAuthenticationUserName;
     }
 
     /**
      * Setter for sipAuthenticationUserName
      *
-     * @ElementName sipAuthenticationUserName
-     * @param string|null $sipAuthenticationUserName
+     * @param string $sipAuthenticationUserName
      * @return $this
      */
     public function setSipAuthenticationUserName($sipAuthenticationUserName)
     {
         $this->sipAuthenticationUserName = $sipAuthenticationUserName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipAuthenticationUserName()
+    {
+        $this->sipAuthenticationUserName = null;
         return $this;
     }
 

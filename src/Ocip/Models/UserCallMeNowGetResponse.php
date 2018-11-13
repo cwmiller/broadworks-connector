@@ -17,18 +17,21 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName answerConfirmation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     private $answerConfirmation = null;
 
     /**
      * @ElementName criteriaTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;
@@ -36,19 +39,17 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -58,21 +59,28 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerConfirmation
      *
-     * @ElementName answerConfirmation
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation
      */
     public function getAnswerConfirmation()
     {
-        return $this->answerConfirmation;
+        return $this->answerConfirmation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerConfirmation;
     }
 
     /**
      * Setter for answerConfirmation
      *
-     * @ElementName answerConfirmation
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null $answerConfirmation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation $answerConfirmation
      * @return $this
      */
     public function setAnswerConfirmation(\CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation $answerConfirmation)
@@ -82,26 +90,42 @@ class UserCallMeNowGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnswerConfirmation()
+    {
+        $this->answerConfirmation = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCriteriaTable()
     {
-        return $this->criteriaTable;
+        return $this->criteriaTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaTable;
     }
 
     /**
      * Setter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable
      * @return $this
      */
     public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCriteriaTable()
+    {
+        $this->criteriaTable = null;
         return $this;
     }
 

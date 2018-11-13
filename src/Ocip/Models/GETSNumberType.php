@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static GETSNumberType AN()
  * @method static GETSNumberType NT()
- * @ValueType string
+ * @EnumValueType string
  */
 class GETSNumberType extends \MyCLabs\Enum\Enum
 {

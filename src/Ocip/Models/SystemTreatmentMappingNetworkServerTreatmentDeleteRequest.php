@@ -16,6 +16,7 @@ class SystemTreatmentMappingNetworkServerTreatmentDeleteRequest extends \CWM\Bro
 
     /**
      * @ElementName nsTreatment
+     * @Type string
      * @var string|null
      */
     private $nsTreatment = null;
@@ -23,24 +24,31 @@ class SystemTreatmentMappingNetworkServerTreatmentDeleteRequest extends \CWM\Bro
     /**
      * Getter for nsTreatment
      *
-     * @ElementName nsTreatment
-     * @return string|null
+     * @return string
      */
     public function getNsTreatment()
     {
-        return $this->nsTreatment;
+        return $this->nsTreatment instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nsTreatment;
     }
 
     /**
      * Setter for nsTreatment
      *
-     * @ElementName nsTreatment
-     * @param string|null $nsTreatment
+     * @param string $nsTreatment
      * @return $this
      */
     public function setNsTreatment($nsTreatment)
     {
         $this->nsTreatment = $nsTreatment;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNsTreatment()
+    {
+        $this->nsTreatment = null;
         return $this;
     }
 

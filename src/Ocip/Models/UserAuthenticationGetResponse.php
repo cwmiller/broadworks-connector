@@ -14,6 +14,7 @@ class UserAuthenticationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userName
+     * @Type string
      * @var string|null
      */
     private $userName = null;
@@ -21,24 +22,31 @@ class UserAuthenticationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userName
      *
-     * @ElementName userName
-     * @return string|null
+     * @return string
      */
     public function getUserName()
     {
-        return $this->userName;
+        return $this->userName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userName;
     }
 
     /**
      * Setter for userName
      *
-     * @ElementName userName
-     * @param string|null $userName
+     * @param string $userName
      * @return $this
      */
     public function setUserName($userName)
     {
         $this->userName = $userName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserName()
+    {
+        $this->userName = null;
         return $this;
     }
 

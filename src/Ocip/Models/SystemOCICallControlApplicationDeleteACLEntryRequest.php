@@ -16,12 +16,14 @@ class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWor
 
     /**
      * @ElementName applicationId
+     * @Type string
      * @var string|null
      */
     private $applicationId = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
@@ -29,19 +31,17 @@ class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWor
     /**
      * Getter for applicationId
      *
-     * @ElementName applicationId
-     * @return string|null
+     * @return string
      */
     public function getApplicationId()
     {
-        return $this->applicationId;
+        return $this->applicationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationId;
     }
 
     /**
      * Setter for applicationId
      *
-     * @ElementName applicationId
-     * @param string|null $applicationId
+     * @param string $applicationId
      * @return $this
      */
     public function setApplicationId($applicationId)
@@ -51,26 +51,42 @@ class SystemOCICallControlApplicationDeleteACLEntryRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationId()
+    {
+        $this->applicationId = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
     {
         $this->netAddress = $netAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
         return $this;
     }
 

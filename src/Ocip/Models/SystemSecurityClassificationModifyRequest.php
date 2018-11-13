@@ -19,18 +19,22 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName meetMeAnncThreshold
+     * @Type int
      * @var int|null
      */
     private $meetMeAnncThreshold = null;
 
     /**
      * @ElementName playTrunkUserSecurityClassificationAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $playTrunkUserSecurityClassificationAnnouncement = null;
 
     /**
      * @ElementName securityClassificationName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $securityClassificationName = array(
@@ -40,19 +44,17 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for meetMeAnncThreshold
      *
-     * @ElementName meetMeAnncThreshold
-     * @return int|null
+     * @return int
      */
     public function getMeetMeAnncThreshold()
     {
-        return $this->meetMeAnncThreshold;
+        return $this->meetMeAnncThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->meetMeAnncThreshold;
     }
 
     /**
      * Setter for meetMeAnncThreshold
      *
-     * @ElementName meetMeAnncThreshold
-     * @param int|null $meetMeAnncThreshold
+     * @param int $meetMeAnncThreshold
      * @return $this
      */
     public function setMeetMeAnncThreshold($meetMeAnncThreshold)
@@ -62,21 +64,28 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMeetMeAnncThreshold()
+    {
+        $this->meetMeAnncThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for playTrunkUserSecurityClassificationAnnouncement
      *
-     * @ElementName playTrunkUserSecurityClassificationAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getPlayTrunkUserSecurityClassificationAnnouncement()
     {
-        return $this->playTrunkUserSecurityClassificationAnnouncement;
+        return $this->playTrunkUserSecurityClassificationAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playTrunkUserSecurityClassificationAnnouncement;
     }
 
     /**
      * Setter for playTrunkUserSecurityClassificationAnnouncement
      *
-     * @ElementName playTrunkUserSecurityClassificationAnnouncement
-     * @param bool|null $playTrunkUserSecurityClassificationAnnouncement
+     * @param bool $playTrunkUserSecurityClassificationAnnouncement
      * @return $this
      */
     public function setPlayTrunkUserSecurityClassificationAnnouncement($playTrunkUserSecurityClassificationAnnouncement)
@@ -86,20 +95,27 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayTrunkUserSecurityClassificationAnnouncement()
+    {
+        $this->playTrunkUserSecurityClassificationAnnouncement = null;
+        return $this;
+    }
+
+    /**
      * Getter for securityClassificationName
      *
-     * @ElementName securityClassificationName
      * @return string[]
      */
     public function getSecurityClassificationName()
     {
-        return $this->securityClassificationName;
+        return $this->securityClassificationName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityClassificationName;
     }
 
     /**
      * Setter for securityClassificationName
      *
-     * @ElementName securityClassificationName
      * @param string[] $securityClassificationName
      * @return $this
      */
@@ -110,15 +126,23 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecurityClassificationName()
+    {
+        $this->securityClassificationName = null;
+        return $this;
+    }
+
+    /**
      * Adder for securityClassificationName
      *
-     * @ElementName securityClassificationName
      * @param string $securityClassificationName
      * @return $this
      */
     public function addSecurityClassificationName(string $securityClassificationName)
     {
-        $this->securityClassificationName []= $securityClassificationName;
+        $this->securityClassificationName[] = $securityClassificationName;
         return $this;
     }
 

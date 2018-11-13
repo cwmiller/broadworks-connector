@@ -12,12 +12,14 @@ class CallCenterAgentAvailability extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName available
+     * @Type bool
      * @var bool|null
      */
     private $available = null;
@@ -25,19 +27,17 @@ class CallCenterAgentAvailability extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -47,26 +47,42 @@ class CallCenterAgentAvailability extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for available
      *
-     * @ElementName available
-     * @return bool|null
+     * @return bool
      */
     public function getAvailable()
     {
-        return $this->available;
+        return $this->available instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->available;
     }
 
     /**
      * Setter for available
      *
-     * @ElementName available
-     * @param bool|null $available
+     * @param bool $available
      * @return $this
      */
     public function setAvailable($available)
     {
         $this->available = $available;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAvailable()
+    {
+        $this->available = null;
         return $this;
     }
 

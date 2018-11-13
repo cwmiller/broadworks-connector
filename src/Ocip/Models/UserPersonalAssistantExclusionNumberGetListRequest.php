@@ -17,12 +17,15 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName searchCriteriaPersonalAssistantExclusionNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber[]
      */
     private $searchCriteriaPersonalAssistantExclusionNumber = array(
@@ -31,6 +34,8 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaPersonalAssistantExclusionNumberDescription
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription[]
      */
     private $searchCriteriaPersonalAssistantExclusionNumberDescription = array(
@@ -39,6 +44,7 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -46,19 +52,17 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -68,20 +72,27 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaPersonalAssistantExclusionNumber
      *
-     * @ElementName searchCriteriaPersonalAssistantExclusionNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber[]
      */
     public function getSearchCriteriaPersonalAssistantExclusionNumber()
     {
-        return $this->searchCriteriaPersonalAssistantExclusionNumber;
+        return $this->searchCriteriaPersonalAssistantExclusionNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaPersonalAssistantExclusionNumber;
     }
 
     /**
      * Setter for searchCriteriaPersonalAssistantExclusionNumber
      *
-     * @ElementName searchCriteriaPersonalAssistantExclusionNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber[] $searchCriteriaPersonalAssistantExclusionNumber
      * @return $this
      */
@@ -92,33 +103,39 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaPersonalAssistantExclusionNumber()
+    {
+        $this->searchCriteriaPersonalAssistantExclusionNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaPersonalAssistantExclusionNumber
      *
-     * @ElementName searchCriteriaPersonalAssistantExclusionNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumber $searchCriteriaPersonalAssistantExclusionNumber
      * @return $this
      */
     public function addSearchCriteriaPersonalAssistantExclusionNumber($searchCriteriaPersonalAssistantExclusionNumber)
     {
-        $this->searchCriteriaPersonalAssistantExclusionNumber []= $searchCriteriaPersonalAssistantExclusionNumber;
+        $this->searchCriteriaPersonalAssistantExclusionNumber[] = $searchCriteriaPersonalAssistantExclusionNumber;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaPersonalAssistantExclusionNumberDescription
      *
-     * @ElementName searchCriteriaPersonalAssistantExclusionNumberDescription
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription[]
      */
     public function getSearchCriteriaPersonalAssistantExclusionNumberDescription()
     {
-        return $this->searchCriteriaPersonalAssistantExclusionNumberDescription;
+        return $this->searchCriteriaPersonalAssistantExclusionNumberDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaPersonalAssistantExclusionNumberDescription;
     }
 
     /**
      * Setter for searchCriteriaPersonalAssistantExclusionNumberDescription
      *
-     * @ElementName searchCriteriaPersonalAssistantExclusionNumberDescription
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription[] $searchCriteriaPersonalAssistantExclusionNumberDescription
      * @return $this
      */
@@ -129,39 +146,54 @@ class UserPersonalAssistantExclusionNumberGetListRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaPersonalAssistantExclusionNumberDescription()
+    {
+        $this->searchCriteriaPersonalAssistantExclusionNumberDescription = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaPersonalAssistantExclusionNumberDescription
      *
-     * @ElementName searchCriteriaPersonalAssistantExclusionNumberDescription
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaPersonalAssistantExclusionNumberDescription $searchCriteriaPersonalAssistantExclusionNumberDescription
      * @return $this
      */
     public function addSearchCriteriaPersonalAssistantExclusionNumberDescription($searchCriteriaPersonalAssistantExclusionNumberDescription)
     {
-        $this->searchCriteriaPersonalAssistantExclusionNumberDescription []= $searchCriteriaPersonalAssistantExclusionNumberDescription;
+        $this->searchCriteriaPersonalAssistantExclusionNumberDescription[] = $searchCriteriaPersonalAssistantExclusionNumberDescription;
         return $this;
     }
 
     /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
     {
         $this->responseSizeLimit = $responseSizeLimit;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
         return $this;
     }
 

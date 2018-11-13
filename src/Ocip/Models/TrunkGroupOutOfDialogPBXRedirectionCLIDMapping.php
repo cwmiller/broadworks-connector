@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ENABLED_AND_IGNORE_POLICIES()
  * @method static TrunkGroupOutOfDialogPBXRedirectionCLIDMapping
  * ENABLED_AND_APPLY_POLICIES()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupOutOfDialogPBXRedirectionCLIDMapping extends \MyCLabs\Enum\Enum
 {

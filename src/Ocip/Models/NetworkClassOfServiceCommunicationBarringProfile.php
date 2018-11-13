@@ -14,12 +14,14 @@ class NetworkClassOfServiceCommunicationBarringProfile
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName isPrimary
+     * @Type bool
      * @var bool|null
      */
     private $isPrimary = null;
@@ -27,19 +29,17 @@ class NetworkClassOfServiceCommunicationBarringProfile
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -49,26 +49,42 @@ class NetworkClassOfServiceCommunicationBarringProfile
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for isPrimary
      *
-     * @ElementName isPrimary
-     * @return bool|null
+     * @return bool
      */
     public function getIsPrimary()
     {
-        return $this->isPrimary;
+        return $this->isPrimary instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isPrimary;
     }
 
     /**
      * Setter for isPrimary
      *
-     * @ElementName isPrimary
-     * @param bool|null $isPrimary
+     * @param bool $isPrimary
      * @return $this
      */
     public function setIsPrimary($isPrimary)
     {
         $this->isPrimary = $isPrimary;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsPrimary()
+    {
+        $this->isPrimary = null;
         return $this;
     }
 

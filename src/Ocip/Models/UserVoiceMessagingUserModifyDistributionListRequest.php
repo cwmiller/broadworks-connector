@@ -16,18 +16,21 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName listId
+     * @Type int
      * @var int|null
      */
     private $listId = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,6 +38,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
 
     /**
      * @ElementName phoneNumberList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -43,19 +47,17 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -65,21 +67,28 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for listId
      *
-     * @ElementName listId
-     * @return int|null
+     * @return int
      */
     public function getListId()
     {
-        return $this->listId;
+        return $this->listId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listId;
     }
 
     /**
      * Setter for listId
      *
-     * @ElementName listId
-     * @param int|null $listId
+     * @param int $listId
      * @return $this
      */
     public function setListId($listId)
@@ -89,54 +98,81 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListId()
+    {
+        $this->listId = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for phoneNumberList
      *
-     * @ElementName phoneNumberList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null
      */
     public function getPhoneNumberList()
     {
-        return $this->phoneNumberList;
+        return $this->phoneNumberList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumberList;
     }
 
     /**
      * Setter for phoneNumberList
      *
-     * @ElementName phoneNumberList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil $phoneNumberList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null $phoneNumberList
      * @return $this
      */
     public function setPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $phoneNumberList)
     {
-        $this->phoneNumberList = $phoneNumberList;
+        if ($phoneNumberList === null) {
+            $this->phoneNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->phoneNumberList = $phoneNumberList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumberList()
+    {
+        $this->phoneNumberList = null;
         return $this;
     }
 

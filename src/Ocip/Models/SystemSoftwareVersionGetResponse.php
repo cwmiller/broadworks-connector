@@ -14,6 +14,7 @@ class SystemSoftwareVersionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName version
+     * @Type string
      * @var string|null
      */
     private $version = null;
@@ -21,24 +22,31 @@ class SystemSoftwareVersionGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for version
      *
-     * @ElementName version
-     * @return string|null
+     * @return string
      */
     public function getVersion()
     {
-        return $this->version;
+        return $this->version instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->version;
     }
 
     /**
      * Setter for version
      *
-     * @ElementName version
-     * @param string|null $version
+     * @param string $version
      * @return $this
      */
     public function setVersion($version)
     {
         $this->version = $version;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVersion()
+    {
+        $this->version = null;
         return $this;
     }
 

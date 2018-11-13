@@ -20,6 +20,7 @@ class SystemDeviceManagementTagGetListResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName tagsTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $tagsTable = null;
@@ -27,24 +28,31 @@ class SystemDeviceManagementTagGetListResponse extends \CWM\BroadWorksConnector\
     /**
      * Getter for tagsTable
      *
-     * @ElementName tagsTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getTagsTable()
     {
-        return $this->tagsTable;
+        return $this->tagsTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagsTable;
     }
 
     /**
      * Setter for tagsTable
      *
-     * @ElementName tagsTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $tagsTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $tagsTable
      * @return $this
      */
     public function setTagsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $tagsTable)
     {
         $this->tagsTable = $tagsTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagsTable()
+    {
+        $this->tagsTable = null;
         return $this;
     }
 

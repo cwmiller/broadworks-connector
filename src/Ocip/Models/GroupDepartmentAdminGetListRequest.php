@@ -17,6 +17,7 @@ class GroupDepartmentAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName departmentKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     private $departmentKey = null;
@@ -24,24 +25,31 @@ class GroupDepartmentAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for departmentKey
      *
-     * @ElementName departmentKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
      */
     public function getDepartmentKey()
     {
-        return $this->departmentKey;
+        return $this->departmentKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentKey;
     }
 
     /**
      * Setter for departmentKey
      *
-     * @ElementName departmentKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null $departmentKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey $departmentKey
      * @return $this
      */
     public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey $departmentKey)
     {
         $this->departmentKey = $departmentKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDepartmentKey()
+    {
+        $this->departmentKey = null;
         return $this;
     }
 

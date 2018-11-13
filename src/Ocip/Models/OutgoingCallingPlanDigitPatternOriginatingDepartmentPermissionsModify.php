@@ -13,12 +13,14 @@ class OutgoingCallingPlanDigitPatternOriginatingDepartmentPermissionsModify
 
     /**
      * @ElementName departmentKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
 
     /**
      * @ElementName digitPatternPermissions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions|null
      */
     private $digitPatternPermissions = null;
@@ -26,19 +28,17 @@ class OutgoingCallingPlanDigitPatternOriginatingDepartmentPermissionsModify
     /**
      * Getter for departmentKey
      *
-     * @ElementName departmentKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      */
     public function getDepartmentKey()
     {
-        return $this->departmentKey;
+        return $this->departmentKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentKey;
     }
 
     /**
      * Setter for departmentKey
      *
-     * @ElementName departmentKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $departmentKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey
      * @return $this
      */
     public function setDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $departmentKey)
@@ -48,26 +48,42 @@ class OutgoingCallingPlanDigitPatternOriginatingDepartmentPermissionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentKey()
+    {
+        $this->departmentKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for digitPatternPermissions
      *
-     * @ElementName digitPatternPermissions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions
      */
     public function getDigitPatternPermissions()
     {
-        return $this->digitPatternPermissions;
+        return $this->digitPatternPermissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPatternPermissions;
     }
 
     /**
      * Setter for digitPatternPermissions
      *
-     * @ElementName digitPatternPermissions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions|null $digitPatternPermissions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions $digitPatternPermissions
      * @return $this
      */
     public function setDigitPatternPermissions(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions $digitPatternPermissions)
     {
         $this->digitPatternPermissions = $digitPatternPermissions;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDigitPatternPermissions()
+    {
+        $this->digitPatternPermissions = null;
         return $this;
     }
 

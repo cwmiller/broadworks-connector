@@ -15,6 +15,8 @@ class ReplacementAgentWeightList
 
     /**
      * @ElementName agentWeight
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[]
      */
     private $agentWeight = array(
@@ -24,18 +26,16 @@ class ReplacementAgentWeightList
     /**
      * Getter for agentWeight
      *
-     * @ElementName agentWeight
      * @return \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[]
      */
     public function getAgentWeight()
     {
-        return $this->agentWeight;
+        return $this->agentWeight instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentWeight;
     }
 
     /**
      * Setter for agentWeight
      *
-     * @ElementName agentWeight
      * @param \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[] $agentWeight
      * @return $this
      */
@@ -46,15 +46,23 @@ class ReplacementAgentWeightList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentWeight()
+    {
+        $this->agentWeight = null;
+        return $this;
+    }
+
+    /**
      * Adder for agentWeight
      *
-     * @ElementName agentWeight
      * @param \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight $agentWeight
      * @return $this
      */
     public function addAgentWeight($agentWeight)
     {
-        $this->agentWeight []= $agentWeight;
+        $this->agentWeight[] = $agentWeight;
         return $this;
     }
 

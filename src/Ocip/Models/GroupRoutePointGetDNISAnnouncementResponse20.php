@@ -14,6 +14,7 @@ class GroupRoutePointGetDNISAnnouncementResponse20 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName mediaOnHoldSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20|null
      */
     private $mediaOnHoldSource = null;
@@ -21,24 +22,31 @@ class GroupRoutePointGetDNISAnnouncementResponse20 extends \CWM\BroadWorksConnec
     /**
      * Getter for mediaOnHoldSource
      *
-     * @ElementName mediaOnHoldSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20
      */
     public function getMediaOnHoldSource()
     {
-        return $this->mediaOnHoldSource;
+        return $this->mediaOnHoldSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaOnHoldSource;
     }
 
     /**
      * Setter for mediaOnHoldSource
      *
-     * @ElementName mediaOnHoldSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20|null $mediaOnHoldSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20 $mediaOnHoldSource
      * @return $this
      */
     public function setMediaOnHoldSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceRead20 $mediaOnHoldSource)
     {
         $this->mediaOnHoldSource = $mediaOnHoldSource;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMediaOnHoldSource()
+    {
+        $this->mediaOnHoldSource = null;
         return $this;
     }
 

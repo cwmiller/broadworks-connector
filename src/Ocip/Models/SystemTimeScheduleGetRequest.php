@@ -17,6 +17,7 @@ class SystemTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName timeScheduleName
+     * @Type string
      * @var string|null
      */
     private $timeScheduleName = null;
@@ -24,24 +25,31 @@ class SystemTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for timeScheduleName
      *
-     * @ElementName timeScheduleName
-     * @return string|null
+     * @return string
      */
     public function getTimeScheduleName()
     {
-        return $this->timeScheduleName;
+        return $this->timeScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeScheduleName;
     }
 
     /**
      * Setter for timeScheduleName
      *
-     * @ElementName timeScheduleName
-     * @param string|null $timeScheduleName
+     * @param string $timeScheduleName
      * @return $this
      */
     public function setTimeScheduleName($timeScheduleName)
     {
         $this->timeScheduleName = $timeScheduleName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeScheduleName()
+    {
+        $this->timeScheduleName = null;
         return $this;
     }
 

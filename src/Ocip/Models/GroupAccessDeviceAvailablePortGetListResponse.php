@@ -16,6 +16,8 @@ class GroupAccessDeviceAvailablePortGetListResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName portNumber
+     * @Type int
+     * @Array
      * @var int[]
      */
     private $portNumber = array(
@@ -25,18 +27,16 @@ class GroupAccessDeviceAvailablePortGetListResponse extends \CWM\BroadWorksConne
     /**
      * Getter for portNumber
      *
-     * @ElementName portNumber
      * @return int[]
      */
     public function getPortNumber()
     {
-        return $this->portNumber;
+        return $this->portNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->portNumber;
     }
 
     /**
      * Setter for portNumber
      *
-     * @ElementName portNumber
      * @param int[] $portNumber
      * @return $this
      */
@@ -47,15 +47,23 @@ class GroupAccessDeviceAvailablePortGetListResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPortNumber()
+    {
+        $this->portNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for portNumber
      *
-     * @ElementName portNumber
      * @param int $portNumber
      * @return $this
      */
     public function addPortNumber(int $portNumber)
     {
-        $this->portNumber []= $portNumber;
+        $this->portNumber[] = $portNumber;
         return $this;
     }
 

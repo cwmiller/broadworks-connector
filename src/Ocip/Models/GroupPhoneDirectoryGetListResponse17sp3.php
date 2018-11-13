@@ -26,6 +26,7 @@ class GroupPhoneDirectoryGetListResponse17sp3 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName directoryTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;
@@ -33,24 +34,31 @@ class GroupPhoneDirectoryGetListResponse17sp3 extends \CWM\BroadWorksConnector\O
     /**
      * Getter for directoryTable
      *
-     * @ElementName directoryTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDirectoryTable()
     {
-        return $this->directoryTable;
+        return $this->directoryTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->directoryTable;
     }
 
     /**
      * Setter for directoryTable
      *
-     * @ElementName directoryTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $directoryTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $directoryTable
      * @return $this
      */
     public function setDirectoryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $directoryTable)
     {
         $this->directoryTable = $directoryTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDirectoryTable()
+    {
+        $this->directoryTable = null;
         return $this;
     }
 

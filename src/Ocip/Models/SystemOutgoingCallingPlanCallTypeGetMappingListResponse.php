@@ -16,6 +16,7 @@ class SystemOutgoingCallingPlanCallTypeGetMappingListResponse extends \CWM\Broad
 
     /**
      * @ElementName callTypeMapping
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callTypeMapping = null;
@@ -23,24 +24,31 @@ class SystemOutgoingCallingPlanCallTypeGetMappingListResponse extends \CWM\Broad
     /**
      * Getter for callTypeMapping
      *
-     * @ElementName callTypeMapping
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCallTypeMapping()
     {
-        return $this->callTypeMapping;
+        return $this->callTypeMapping instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callTypeMapping;
     }
 
     /**
      * Setter for callTypeMapping
      *
-     * @ElementName callTypeMapping
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callTypeMapping
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callTypeMapping
      * @return $this
      */
     public function setCallTypeMapping(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callTypeMapping)
     {
         $this->callTypeMapping = $callTypeMapping;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallTypeMapping()
+    {
+        $this->callTypeMapping = null;
         return $this;
     }
 

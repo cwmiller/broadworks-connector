@@ -16,6 +16,7 @@ class SystemExpensiveCallTypeGetListResponse16sp1 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName alternateCallIndicatorTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $alternateCallIndicatorTable = null;
@@ -23,24 +24,31 @@ class SystemExpensiveCallTypeGetListResponse16sp1 extends \CWM\BroadWorksConnect
     /**
      * Getter for alternateCallIndicatorTable
      *
-     * @ElementName alternateCallIndicatorTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAlternateCallIndicatorTable()
     {
-        return $this->alternateCallIndicatorTable;
+        return $this->alternateCallIndicatorTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateCallIndicatorTable;
     }
 
     /**
      * Setter for alternateCallIndicatorTable
      *
-     * @ElementName alternateCallIndicatorTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $alternateCallIndicatorTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $alternateCallIndicatorTable
      * @return $this
      */
     public function setAlternateCallIndicatorTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $alternateCallIndicatorTable)
     {
         $this->alternateCallIndicatorTable = $alternateCallIndicatorTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlternateCallIndicatorTable()
+    {
+        $this->alternateCallIndicatorTable = null;
         return $this;
     }
 

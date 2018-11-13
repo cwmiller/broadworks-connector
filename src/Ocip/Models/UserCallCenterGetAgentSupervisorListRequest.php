@@ -17,12 +17,14 @@ class UserCallCenterGetAgentSupervisorListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName agentUserId
+     * @Type string
      * @var string|null
      */
     private $agentUserId = null;
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
@@ -30,19 +32,17 @@ class UserCallCenterGetAgentSupervisorListRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
-     * @return string|null
+     * @return string
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
-     * @param string|null $agentUserId
+     * @param string $agentUserId
      * @return $this
      */
     public function setAgentUserId($agentUserId)
@@ -52,26 +52,42 @@ class UserCallCenterGetAgentSupervisorListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
     {
         $this->serviceUserId = $serviceUserId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
         return $this;
     }
 

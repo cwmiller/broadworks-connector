@@ -14,6 +14,7 @@ class GroupInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName inventoryReportTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $inventoryReportTable = null;
@@ -21,24 +22,31 @@ class GroupInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for inventoryReportTable
      *
-     * @ElementName inventoryReportTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getInventoryReportTable()
     {
-        return $this->inventoryReportTable;
+        return $this->inventoryReportTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->inventoryReportTable;
     }
 
     /**
      * Setter for inventoryReportTable
      *
-     * @ElementName inventoryReportTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $inventoryReportTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $inventoryReportTable
      * @return $this
      */
     public function setInventoryReportTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $inventoryReportTable)
     {
         $this->inventoryReportTable = $inventoryReportTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInventoryReportTable()
+    {
+        $this->inventoryReportTable = null;
         return $this;
     }
 

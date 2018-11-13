@@ -19,12 +19,14 @@ class UserCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
 
     /**
      * @ElementName agentACDState
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDState
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     private $agentACDState = null;
 
     /**
      * @ElementName userTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;
@@ -32,19 +34,17 @@ class UserCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * Getter for agentACDState
      *
-     * @ElementName agentACDState
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDState
      */
     public function getAgentACDState()
     {
-        return $this->agentACDState;
+        return $this->agentACDState instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentACDState;
     }
 
     /**
      * Setter for agentACDState
      *
-     * @ElementName agentACDState
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null $agentACDState
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDState $agentACDState
      * @return $this
      */
     public function setAgentACDState(\CWM\BroadWorksConnector\Ocip\Models\AgentACDState $agentACDState)
@@ -54,26 +54,42 @@ class UserCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentACDState()
+    {
+        $this->agentACDState = null;
+        return $this;
+    }
+
+    /**
      * Getter for userTable
      *
-     * @ElementName userTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserTable()
     {
-        return $this->userTable;
+        return $this->userTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userTable;
     }
 
     /**
      * Setter for userTable
      *
-     * @ElementName userTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable
      * @return $this
      */
     public function setUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable)
     {
         $this->userTable = $userTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserTable()
+    {
+        $this->userTable = null;
         return $this;
     }
 

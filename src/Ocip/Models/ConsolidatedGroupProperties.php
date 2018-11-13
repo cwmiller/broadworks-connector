@@ -10,54 +10,64 @@ class ConsolidatedGroupProperties
 
     /**
      * @ElementName defaultDomain
+     * @Type string
      * @var string|null
      */
     private $defaultDomain = null;
 
     /**
      * @ElementName userLimit
+     * @Type int
      * @var int|null
      */
     private $userLimit = null;
 
     /**
      * @ElementName groupName
+     * @Type string
      * @var string|null
      */
     private $groupName = null;
 
     /**
      * @ElementName callingLineIdName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdName = null;
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName locationDialingCode
+     * @Type string
      * @var string|null
      */
     private $locationDialingCode = null;
 
     /**
      * @ElementName contact
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
 
     /**
      * @ElementName address
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -66,12 +76,15 @@ class ConsolidatedGroupProperties
 
     /**
      * @ElementName defaultNetworkClassOfService
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
     private $defaultNetworkClassOfService = null;
 
     /**
      * @ElementName groupService
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment[]
      */
     private $groupService = array(
@@ -80,6 +93,7 @@ class ConsolidatedGroupProperties
 
     /**
      * @ElementName servicePolicy
+     * @Type string
      * @var string|null
      */
     private $servicePolicy = null;
@@ -87,19 +101,17 @@ class ConsolidatedGroupProperties
     /**
      * Getter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @return string|null
+     * @return string
      */
     public function getDefaultDomain()
     {
-        return $this->defaultDomain;
+        return $this->defaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultDomain;
     }
 
     /**
      * Setter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @param string|null $defaultDomain
+     * @param string $defaultDomain
      * @return $this
      */
     public function setDefaultDomain($defaultDomain)
@@ -109,21 +121,28 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultDomain()
+    {
+        $this->defaultDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for userLimit
      *
-     * @ElementName userLimit
-     * @return int|null
+     * @return int
      */
     public function getUserLimit()
     {
-        return $this->userLimit;
+        return $this->userLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userLimit;
     }
 
     /**
      * Setter for userLimit
      *
-     * @ElementName userLimit
-     * @param int|null $userLimit
+     * @param int $userLimit
      * @return $this
      */
     public function setUserLimit($userLimit)
@@ -133,21 +152,28 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserLimit()
+    {
+        $this->userLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupName
      *
-     * @ElementName groupName
-     * @return string|null
+     * @return string
      */
     public function getGroupName()
     {
-        return $this->groupName;
+        return $this->groupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupName;
     }
 
     /**
      * Setter for groupName
      *
-     * @ElementName groupName
-     * @param string|null $groupName
+     * @param string $groupName
      * @return $this
      */
     public function setGroupName($groupName)
@@ -157,21 +183,28 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupName()
+    {
+        $this->groupName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdName()
     {
-        return $this->callingLineIdName;
+        return $this->callingLineIdName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdName;
     }
 
     /**
      * Setter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @param string|null $callingLineIdName
+     * @param string $callingLineIdName
      * @return $this
      */
     public function setCallingLineIdName($callingLineIdName)
@@ -181,21 +214,28 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdName()
+    {
+        $this->callingLineIdName = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -205,21 +245,28 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for locationDialingCode
      *
-     * @ElementName locationDialingCode
-     * @return string|null
+     * @return string
      */
     public function getLocationDialingCode()
     {
-        return $this->locationDialingCode;
+        return $this->locationDialingCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locationDialingCode;
     }
 
     /**
      * Setter for locationDialingCode
      *
-     * @ElementName locationDialingCode
-     * @param string|null $locationDialingCode
+     * @param string $locationDialingCode
      * @return $this
      */
     public function setLocationDialingCode($locationDialingCode)
@@ -229,21 +276,28 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLocationDialingCode()
+    {
+        $this->locationDialingCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for contact
      *
-     * @ElementName contact
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Contact|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Contact
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Contact|null $contact
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Contact $contact
      * @return $this
      */
     public function setContact(\CWM\BroadWorksConnector\Ocip\Models\Contact $contact)
@@ -253,21 +307,28 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Getter for address
      *
-     * @ElementName address
-     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address
      * @return $this
      */
     public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
@@ -277,20 +338,27 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @return string[]
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @param string[] $networkClassOfService
      * @return $this
      */
@@ -301,34 +369,40 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Adder for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @param string $networkClassOfService
      * @return $this
      */
     public function addNetworkClassOfService(string $networkClassOfService)
     {
-        $this->networkClassOfService []= $networkClassOfService;
+        $this->networkClassOfService[] = $networkClassOfService;
         return $this;
     }
 
     /**
      * Getter for defaultNetworkClassOfService
      *
-     * @ElementName defaultNetworkClassOfService
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
      */
     public function getDefaultNetworkClassOfService()
     {
-        return $this->defaultNetworkClassOfService;
+        return $this->defaultNetworkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultNetworkClassOfService;
     }
 
     /**
      * Setter for defaultNetworkClassOfService
      *
-     * @ElementName defaultNetworkClassOfService
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null $defaultNetworkClassOfService
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService $defaultNetworkClassOfService
      * @return $this
      */
     public function setDefaultNetworkClassOfService(\CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService $defaultNetworkClassOfService)
@@ -338,20 +412,27 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultNetworkClassOfService()
+    {
+        $this->defaultNetworkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupService
      *
-     * @ElementName groupService
      * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment[]
      */
     public function getGroupService()
     {
-        return $this->groupService;
+        return $this->groupService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupService;
     }
 
     /**
      * Setter for groupService
      *
-     * @ElementName groupService
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment[] $groupService
      * @return $this
      */
@@ -362,39 +443,54 @@ class ConsolidatedGroupProperties
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupService()
+    {
+        $this->groupService = null;
+        return $this;
+    }
+
+    /**
      * Adder for groupService
      *
-     * @ElementName groupService
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment $groupService
      * @return $this
      */
     public function addGroupService($groupService)
     {
-        $this->groupService []= $groupService;
+        $this->groupService[] = $groupService;
         return $this;
     }
 
     /**
      * Getter for servicePolicy
      *
-     * @ElementName servicePolicy
-     * @return string|null
+     * @return string
      */
     public function getServicePolicy()
     {
-        return $this->servicePolicy;
+        return $this->servicePolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePolicy;
     }
 
     /**
      * Setter for servicePolicy
      *
-     * @ElementName servicePolicy
-     * @param string|null $servicePolicy
+     * @param string $servicePolicy
      * @return $this
      */
     public function setServicePolicy($servicePolicy)
     {
         $this->servicePolicy = $servicePolicy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServicePolicy()
+    {
+        $this->servicePolicy = null;
         return $this;
     }
 

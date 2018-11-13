@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static TrunkGroupImplicitRegistrationSetSupportPolicy ENABLED()
  * @method static TrunkGroupImplicitRegistrationSetSupportPolicy DISABLED()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupImplicitRegistrationSetSupportPolicy extends \MyCLabs\Enum\Enum
 {

@@ -16,72 +16,84 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName enableLocationServices
+     * @Type bool
      * @var bool|null
      */
     private $enableLocationServices = null;
 
     /**
      * @ElementName enableMSRNLookup
+     * @Type bool
      * @var bool|null
      */
     private $enableMSRNLookup = null;
 
     /**
      * @ElementName enableMobileStateChecking
+     * @Type bool
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
 
     /**
      * @ElementName denyCallOriginations
+     * @Type bool
      * @var bool|null
      */
     private $denyCallOriginations = null;
 
     /**
      * @ElementName denyCallTerminations
+     * @Type bool
      * @var bool|null
      */
     private $denyCallTerminations = null;
 
     /**
      * @ElementName imrnTimeoutMillisecnds
+     * @Type int
      * @var int|null
      */
     private $imrnTimeoutMillisecnds = null;
 
     /**
      * @ElementName scfSignalingNetAddress
+     * @Type string
      * @var string|null
      */
     private $scfSignalingNetAddress = null;
 
     /**
      * @ElementName scfSignalingPort
+     * @Type int
      * @var int|null
      */
     private $scfSignalingPort = null;
 
     /**
      * @ElementName refreshPeriodSeconds
+     * @Type int
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
 
     /**
      * @ElementName maxConsecutiveFailures
+     * @Type int
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
 
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
+     * @Type int
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
 
     /**
      * @ElementName enableAnnouncementSuppression
+     * @Type bool
      * @var bool|null
      */
     private $enableAnnouncementSuppression = null;
@@ -89,19 +101,17 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * Getter for enableLocationServices
      *
-     * @ElementName enableLocationServices
-     * @return bool|null
+     * @return bool
      */
     public function getEnableLocationServices()
     {
-        return $this->enableLocationServices;
+        return $this->enableLocationServices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableLocationServices;
     }
 
     /**
      * Setter for enableLocationServices
      *
-     * @ElementName enableLocationServices
-     * @param bool|null $enableLocationServices
+     * @param bool $enableLocationServices
      * @return $this
      */
     public function setEnableLocationServices($enableLocationServices)
@@ -111,21 +121,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableLocationServices()
+    {
+        $this->enableLocationServices = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableMSRNLookup
      *
-     * @ElementName enableMSRNLookup
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMSRNLookup()
     {
-        return $this->enableMSRNLookup;
+        return $this->enableMSRNLookup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMSRNLookup;
     }
 
     /**
      * Setter for enableMSRNLookup
      *
-     * @ElementName enableMSRNLookup
-     * @param bool|null $enableMSRNLookup
+     * @param bool $enableMSRNLookup
      * @return $this
      */
     public function setEnableMSRNLookup($enableMSRNLookup)
@@ -135,21 +152,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMSRNLookup()
+    {
+        $this->enableMSRNLookup = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableMobileStateChecking
      *
-     * @ElementName enableMobileStateChecking
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMobileStateChecking()
     {
-        return $this->enableMobileStateChecking;
+        return $this->enableMobileStateChecking instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMobileStateChecking;
     }
 
     /**
      * Setter for enableMobileStateChecking
      *
-     * @ElementName enableMobileStateChecking
-     * @param bool|null $enableMobileStateChecking
+     * @param bool $enableMobileStateChecking
      * @return $this
      */
     public function setEnableMobileStateChecking($enableMobileStateChecking)
@@ -159,21 +183,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMobileStateChecking()
+    {
+        $this->enableMobileStateChecking = null;
+        return $this;
+    }
+
+    /**
      * Getter for denyCallOriginations
      *
-     * @ElementName denyCallOriginations
-     * @return bool|null
+     * @return bool
      */
     public function getDenyCallOriginations()
     {
-        return $this->denyCallOriginations;
+        return $this->denyCallOriginations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->denyCallOriginations;
     }
 
     /**
      * Setter for denyCallOriginations
      *
-     * @ElementName denyCallOriginations
-     * @param bool|null $denyCallOriginations
+     * @param bool $denyCallOriginations
      * @return $this
      */
     public function setDenyCallOriginations($denyCallOriginations)
@@ -183,21 +214,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDenyCallOriginations()
+    {
+        $this->denyCallOriginations = null;
+        return $this;
+    }
+
+    /**
      * Getter for denyCallTerminations
      *
-     * @ElementName denyCallTerminations
-     * @return bool|null
+     * @return bool
      */
     public function getDenyCallTerminations()
     {
-        return $this->denyCallTerminations;
+        return $this->denyCallTerminations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->denyCallTerminations;
     }
 
     /**
      * Setter for denyCallTerminations
      *
-     * @ElementName denyCallTerminations
-     * @param bool|null $denyCallTerminations
+     * @param bool $denyCallTerminations
      * @return $this
      */
     public function setDenyCallTerminations($denyCallTerminations)
@@ -207,21 +245,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDenyCallTerminations()
+    {
+        $this->denyCallTerminations = null;
+        return $this;
+    }
+
+    /**
      * Getter for imrnTimeoutMillisecnds
      *
-     * @ElementName imrnTimeoutMillisecnds
-     * @return int|null
+     * @return int
      */
     public function getImrnTimeoutMillisecnds()
     {
-        return $this->imrnTimeoutMillisecnds;
+        return $this->imrnTimeoutMillisecnds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imrnTimeoutMillisecnds;
     }
 
     /**
      * Setter for imrnTimeoutMillisecnds
      *
-     * @ElementName imrnTimeoutMillisecnds
-     * @param int|null $imrnTimeoutMillisecnds
+     * @param int $imrnTimeoutMillisecnds
      * @return $this
      */
     public function setImrnTimeoutMillisecnds($imrnTimeoutMillisecnds)
@@ -231,21 +276,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetImrnTimeoutMillisecnds()
+    {
+        $this->imrnTimeoutMillisecnds = null;
+        return $this;
+    }
+
+    /**
      * Getter for scfSignalingNetAddress
      *
-     * @ElementName scfSignalingNetAddress
-     * @return string|null
+     * @return string
      */
     public function getScfSignalingNetAddress()
     {
-        return $this->scfSignalingNetAddress;
+        return $this->scfSignalingNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scfSignalingNetAddress;
     }
 
     /**
      * Setter for scfSignalingNetAddress
      *
-     * @ElementName scfSignalingNetAddress
-     * @param string|null $scfSignalingNetAddress
+     * @param string $scfSignalingNetAddress
      * @return $this
      */
     public function setScfSignalingNetAddress($scfSignalingNetAddress)
@@ -255,21 +307,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScfSignalingNetAddress()
+    {
+        $this->scfSignalingNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for scfSignalingPort
      *
-     * @ElementName scfSignalingPort
-     * @return int|null
+     * @return int
      */
     public function getScfSignalingPort()
     {
-        return $this->scfSignalingPort;
+        return $this->scfSignalingPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scfSignalingPort;
     }
 
     /**
      * Setter for scfSignalingPort
      *
-     * @ElementName scfSignalingPort
-     * @param int|null $scfSignalingPort
+     * @param int $scfSignalingPort
      * @return $this
      */
     public function setScfSignalingPort($scfSignalingPort)
@@ -279,21 +338,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScfSignalingPort()
+    {
+        $this->scfSignalingPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for refreshPeriodSeconds
      *
-     * @ElementName refreshPeriodSeconds
-     * @return int|null
+     * @return int
      */
     public function getRefreshPeriodSeconds()
     {
-        return $this->refreshPeriodSeconds;
+        return $this->refreshPeriodSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->refreshPeriodSeconds;
     }
 
     /**
      * Setter for refreshPeriodSeconds
      *
-     * @ElementName refreshPeriodSeconds
-     * @param int|null $refreshPeriodSeconds
+     * @param int $refreshPeriodSeconds
      * @return $this
      */
     public function setRefreshPeriodSeconds($refreshPeriodSeconds)
@@ -303,21 +369,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRefreshPeriodSeconds()
+    {
+        $this->refreshPeriodSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxConsecutiveFailures
      *
-     * @ElementName maxConsecutiveFailures
-     * @return int|null
+     * @return int
      */
     public function getMaxConsecutiveFailures()
     {
-        return $this->maxConsecutiveFailures;
+        return $this->maxConsecutiveFailures instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxConsecutiveFailures;
     }
 
     /**
      * Setter for maxConsecutiveFailures
      *
-     * @ElementName maxConsecutiveFailures
-     * @param int|null $maxConsecutiveFailures
+     * @param int $maxConsecutiveFailures
      * @return $this
      */
     public function setMaxConsecutiveFailures($maxConsecutiveFailures)
@@ -327,21 +400,28 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxConsecutiveFailures()
+    {
+        $this->maxConsecutiveFailures = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxResponseWaitTimeMilliseconds
      *
-     * @ElementName maxResponseWaitTimeMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getMaxResponseWaitTimeMilliseconds()
     {
-        return $this->maxResponseWaitTimeMilliseconds;
+        return $this->maxResponseWaitTimeMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxResponseWaitTimeMilliseconds;
     }
 
     /**
      * Setter for maxResponseWaitTimeMilliseconds
      *
-     * @ElementName maxResponseWaitTimeMilliseconds
-     * @param int|null $maxResponseWaitTimeMilliseconds
+     * @param int $maxResponseWaitTimeMilliseconds
      * @return $this
      */
     public function setMaxResponseWaitTimeMilliseconds($maxResponseWaitTimeMilliseconds)
@@ -351,26 +431,42 @@ class SystemBroadWorksMobilityGetResponse19sp1 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxResponseWaitTimeMilliseconds()
+    {
+        $this->maxResponseWaitTimeMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAnnouncementSuppression
      *
-     * @ElementName enableAnnouncementSuppression
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAnnouncementSuppression()
     {
-        return $this->enableAnnouncementSuppression;
+        return $this->enableAnnouncementSuppression instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAnnouncementSuppression;
     }
 
     /**
      * Setter for enableAnnouncementSuppression
      *
-     * @ElementName enableAnnouncementSuppression
-     * @param bool|null $enableAnnouncementSuppression
+     * @param bool $enableAnnouncementSuppression
      * @return $this
      */
     public function setEnableAnnouncementSuppression($enableAnnouncementSuppression)
     {
         $this->enableAnnouncementSuppression = $enableAnnouncementSuppression;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableAnnouncementSuppression()
+    {
+        $this->enableAnnouncementSuppression = null;
         return $this;
     }
 

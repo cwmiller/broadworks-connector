@@ -13,24 +13,28 @@ class VerifyTranslationAndRoutingOrigination
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName phone
+     * @Type string
      * @var string|null
      */
     private $phone = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName url
+     * @Type string
      * @var string|null
      */
     private $url = null;
@@ -38,19 +42,17 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -60,21 +62,28 @@ class VerifyTranslationAndRoutingOrigination
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for phone
      *
-     * @ElementName phone
-     * @return string|null
+     * @return string
      */
     public function getPhone()
     {
-        return $this->phone;
+        return $this->phone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phone;
     }
 
     /**
      * Setter for phone
      *
-     * @ElementName phone
-     * @param string|null $phone
+     * @param string $phone
      * @return $this
      */
     public function setPhone($phone)
@@ -84,21 +93,28 @@ class VerifyTranslationAndRoutingOrigination
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhone()
+    {
+        $this->phone = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -108,26 +124,42 @@ class VerifyTranslationAndRoutingOrigination
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for url
      *
-     * @ElementName url
-     * @return string|null
+     * @return string
      */
     public function getUrl()
     {
-        return $this->url;
+        return $this->url instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url;
     }
 
     /**
      * Setter for url
      *
-     * @ElementName url
-     * @param string|null $url
+     * @param string $url
      * @return $this
      */
     public function setUrl($url)
     {
         $this->url = $url;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUrl()
+    {
+        $this->url = null;
         return $this;
     }
 

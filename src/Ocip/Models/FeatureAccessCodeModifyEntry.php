@@ -13,18 +13,21 @@ class FeatureAccessCodeModifyEntry
 
     /**
      * @ElementName featureAccessCodeName
+     * @Type string
      * @var string|null
      */
     private $featureAccessCodeName = null;
 
     /**
      * @ElementName mainCode
+     * @Type string
      * @var string|null
      */
     private $mainCode = null;
 
     /**
      * @ElementName alternateCode
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -32,6 +35,7 @@ class FeatureAccessCodeModifyEntry
 
     /**
      * @ElementName enableFAC
+     * @Type bool
      * @var bool|null
      */
     private $enableFAC = null;
@@ -39,19 +43,17 @@ class FeatureAccessCodeModifyEntry
     /**
      * Getter for featureAccessCodeName
      *
-     * @ElementName featureAccessCodeName
-     * @return string|null
+     * @return string
      */
     public function getFeatureAccessCodeName()
     {
-        return $this->featureAccessCodeName;
+        return $this->featureAccessCodeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->featureAccessCodeName;
     }
 
     /**
      * Setter for featureAccessCodeName
      *
-     * @ElementName featureAccessCodeName
-     * @param string|null $featureAccessCodeName
+     * @param string $featureAccessCodeName
      * @return $this
      */
     public function setFeatureAccessCodeName($featureAccessCodeName)
@@ -61,21 +63,28 @@ class FeatureAccessCodeModifyEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFeatureAccessCodeName()
+    {
+        $this->featureAccessCodeName = null;
+        return $this;
+    }
+
+    /**
      * Getter for mainCode
      *
-     * @ElementName mainCode
-     * @return string|null
+     * @return string
      */
     public function getMainCode()
     {
-        return $this->mainCode;
+        return $this->mainCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mainCode;
     }
 
     /**
      * Setter for mainCode
      *
-     * @ElementName mainCode
-     * @param string|null $mainCode
+     * @param string $mainCode
      * @return $this
      */
     public function setMainCode($mainCode)
@@ -85,52 +94,77 @@ class FeatureAccessCodeModifyEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMainCode()
+    {
+        $this->mainCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateCode
      *
-     * @ElementName alternateCode
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAlternateCode()
     {
-        return $this->alternateCode;
+        return $this->alternateCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateCode;
     }
 
     /**
      * Setter for alternateCode
      *
-     * @ElementName alternateCode
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $alternateCode
+     * @param string|null $alternateCode
      * @return $this
      */
     public function setAlternateCode($alternateCode)
     {
-        $this->alternateCode = $alternateCode;
+        if ($alternateCode === null) {
+            $this->alternateCode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->alternateCode = $alternateCode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlternateCode()
+    {
+        $this->alternateCode = null;
         return $this;
     }
 
     /**
      * Getter for enableFAC
      *
-     * @ElementName enableFAC
-     * @return bool|null
+     * @return bool
      */
     public function getEnableFAC()
     {
-        return $this->enableFAC;
+        return $this->enableFAC instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableFAC;
     }
 
     /**
      * Setter for enableFAC
      *
-     * @ElementName enableFAC
-     * @param bool|null $enableFAC
+     * @param bool $enableFAC
      * @return $this
      */
     public function setEnableFAC($enableFAC)
     {
         $this->enableFAC = $enableFAC;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableFAC()
+    {
+        $this->enableFAC = null;
         return $this;
     }
 

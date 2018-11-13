@@ -16,12 +16,14 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName numberActivationMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
      */
     private $numberActivationMode = null;
 
     /**
      * @ElementName enableEnterpriseTrunkNumberRangeActivation
+     * @Type bool
      * @var bool|null
      */
     private $enableEnterpriseTrunkNumberRangeActivation = null;
@@ -29,19 +31,17 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for numberActivationMode
      *
-     * @ElementName numberActivationMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode
      */
     public function getNumberActivationMode()
     {
-        return $this->numberActivationMode;
+        return $this->numberActivationMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberActivationMode;
     }
 
     /**
      * Setter for numberActivationMode
      *
-     * @ElementName numberActivationMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null $numberActivationMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode $numberActivationMode
      * @return $this
      */
     public function setNumberActivationMode(\CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode $numberActivationMode)
@@ -51,26 +51,42 @@ class SystemNumberActivationGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberActivationMode()
+    {
+        $this->numberActivationMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableEnterpriseTrunkNumberRangeActivation
      *
-     * @ElementName enableEnterpriseTrunkNumberRangeActivation
-     * @return bool|null
+     * @return bool
      */
     public function getEnableEnterpriseTrunkNumberRangeActivation()
     {
-        return $this->enableEnterpriseTrunkNumberRangeActivation;
+        return $this->enableEnterpriseTrunkNumberRangeActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableEnterpriseTrunkNumberRangeActivation;
     }
 
     /**
      * Setter for enableEnterpriseTrunkNumberRangeActivation
      *
-     * @ElementName enableEnterpriseTrunkNumberRangeActivation
-     * @param bool|null $enableEnterpriseTrunkNumberRangeActivation
+     * @param bool $enableEnterpriseTrunkNumberRangeActivation
      * @return $this
      */
     public function setEnableEnterpriseTrunkNumberRangeActivation($enableEnterpriseTrunkNumberRangeActivation)
     {
         $this->enableEnterpriseTrunkNumberRangeActivation = $enableEnterpriseTrunkNumberRangeActivation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableEnterpriseTrunkNumberRangeActivation()
+    {
+        $this->enableEnterpriseTrunkNumberRangeActivation = null;
         return $this;
     }
 

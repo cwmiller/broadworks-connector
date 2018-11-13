@@ -20,120 +20,141 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
 
     /**
      * @ElementName taskName
+     * @Type string
      * @var string|null
      */
     private $taskName = null;
 
     /**
      * @ElementName startTimestamp
+     * @Type string
      * @var string|null
      */
     private $startTimestamp = null;
 
     /**
      * @ElementName maxDurationHours
+     * @Type int
      * @var int|null
      */
     private $maxDurationHours = null;
 
     /**
      * @ElementName sendReportEmail
+     * @Type bool
      * @var bool|null
      */
     private $sendReportEmail = null;
 
     /**
      * @ElementName reportDeliveryEmailAddress
+     * @Type string
      * @var string|null
      */
     private $reportDeliveryEmailAddress = null;
 
     /**
      * @ElementName abortOnError
+     * @Type bool
      * @var bool|null
      */
     private $abortOnError = null;
 
     /**
      * @ElementName abortErrorThreshold
+     * @Type int
      * @var int|null
      */
     private $abortErrorThreshold = null;
 
     /**
      * @ElementName reportAllUsers
+     * @Type bool
      * @var bool|null
      */
     private $reportAllUsers = null;
 
     /**
      * @ElementName automaticallyIncrementServiceQuantity
+     * @Type bool
      * @var bool|null
      */
     private $automaticallyIncrementServiceQuantity = null;
 
     /**
      * @ElementName errorCount
+     * @Type int
      * @var int|null
      */
     private $errorCount = null;
 
     /**
      * @ElementName status
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus|null
      */
     private $status = null;
 
     /**
      * @ElementName groupsProcessed
+     * @Type int
      * @var int|null
      */
     private $groupsProcessed = null;
 
     /**
      * @ElementName groupsTotal
+     * @Type int
      * @var int|null
      */
     private $groupsTotal = null;
 
     /**
      * @ElementName usersProcessed
+     * @Type int
      * @var int|null
      */
     private $usersProcessed = null;
 
     /**
      * @ElementName usersTotal
+     * @Type int
      * @var int|null
      */
     private $usersTotal = null;
 
     /**
      * @ElementName userSelectionType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
      */
     private $userSelectionType = null;
 
     /**
      * @ElementName reportFilePathName
+     * @Type string
      * @var string|null
      */
     private $reportFilePathName = null;
 
     /**
      * @ElementName migrateAllGroups
+     * @Type bool
      * @var bool|null
      */
     private $migrateAllGroups = null;
 
     /**
      * @ElementName groupTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupTable = null;
 
     /**
      * @ElementName userSelectionServicePackName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $userSelectionServicePackName = array(
@@ -142,6 +163,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
 
     /**
      * @ElementName userSelectionServiceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $userSelectionServiceName = array(
@@ -150,6 +173,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
 
     /**
      * @ElementName removeServicePackName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $removeServicePackName = array(
@@ -158,6 +183,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
 
     /**
      * @ElementName removeServiceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $removeServiceName = array(
@@ -166,6 +193,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
 
     /**
      * @ElementName assignServicePackName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $assignServicePackName = array(
@@ -174,6 +203,8 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
 
     /**
      * @ElementName assignServiceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $assignServiceName = array(
@@ -183,19 +214,17 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     /**
      * Getter for taskName
      *
-     * @ElementName taskName
-     * @return string|null
+     * @return string
      */
     public function getTaskName()
     {
-        return $this->taskName;
+        return $this->taskName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->taskName;
     }
 
     /**
      * Setter for taskName
      *
-     * @ElementName taskName
-     * @param string|null $taskName
+     * @param string $taskName
      * @return $this
      */
     public function setTaskName($taskName)
@@ -205,21 +234,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTaskName()
+    {
+        $this->taskName = null;
+        return $this;
+    }
+
+    /**
      * Getter for startTimestamp
      *
-     * @ElementName startTimestamp
-     * @return string|null
+     * @return string
      */
     public function getStartTimestamp()
     {
-        return $this->startTimestamp;
+        return $this->startTimestamp instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startTimestamp;
     }
 
     /**
      * Setter for startTimestamp
      *
-     * @ElementName startTimestamp
-     * @param string|null $startTimestamp
+     * @param string $startTimestamp
      * @return $this
      */
     public function setStartTimestamp($startTimestamp)
@@ -229,21 +265,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartTimestamp()
+    {
+        $this->startTimestamp = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxDurationHours
      *
-     * @ElementName maxDurationHours
-     * @return int|null
+     * @return int
      */
     public function getMaxDurationHours()
     {
-        return $this->maxDurationHours;
+        return $this->maxDurationHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxDurationHours;
     }
 
     /**
      * Setter for maxDurationHours
      *
-     * @ElementName maxDurationHours
-     * @param int|null $maxDurationHours
+     * @param int $maxDurationHours
      * @return $this
      */
     public function setMaxDurationHours($maxDurationHours)
@@ -253,21 +296,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxDurationHours()
+    {
+        $this->maxDurationHours = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendReportEmail
      *
-     * @ElementName sendReportEmail
-     * @return bool|null
+     * @return bool
      */
     public function getSendReportEmail()
     {
-        return $this->sendReportEmail;
+        return $this->sendReportEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendReportEmail;
     }
 
     /**
      * Setter for sendReportEmail
      *
-     * @ElementName sendReportEmail
-     * @param bool|null $sendReportEmail
+     * @param bool $sendReportEmail
      * @return $this
      */
     public function setSendReportEmail($sendReportEmail)
@@ -277,21 +327,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendReportEmail()
+    {
+        $this->sendReportEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportDeliveryEmailAddress
      *
-     * @ElementName reportDeliveryEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getReportDeliveryEmailAddress()
     {
-        return $this->reportDeliveryEmailAddress;
+        return $this->reportDeliveryEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportDeliveryEmailAddress;
     }
 
     /**
      * Setter for reportDeliveryEmailAddress
      *
-     * @ElementName reportDeliveryEmailAddress
-     * @param string|null $reportDeliveryEmailAddress
+     * @param string $reportDeliveryEmailAddress
      * @return $this
      */
     public function setReportDeliveryEmailAddress($reportDeliveryEmailAddress)
@@ -301,21 +358,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportDeliveryEmailAddress()
+    {
+        $this->reportDeliveryEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for abortOnError
      *
-     * @ElementName abortOnError
-     * @return bool|null
+     * @return bool
      */
     public function getAbortOnError()
     {
-        return $this->abortOnError;
+        return $this->abortOnError instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abortOnError;
     }
 
     /**
      * Setter for abortOnError
      *
-     * @ElementName abortOnError
-     * @param bool|null $abortOnError
+     * @param bool $abortOnError
      * @return $this
      */
     public function setAbortOnError($abortOnError)
@@ -325,21 +389,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAbortOnError()
+    {
+        $this->abortOnError = null;
+        return $this;
+    }
+
+    /**
      * Getter for abortErrorThreshold
      *
-     * @ElementName abortErrorThreshold
-     * @return int|null
+     * @return int
      */
     public function getAbortErrorThreshold()
     {
-        return $this->abortErrorThreshold;
+        return $this->abortErrorThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abortErrorThreshold;
     }
 
     /**
      * Setter for abortErrorThreshold
      *
-     * @ElementName abortErrorThreshold
-     * @param int|null $abortErrorThreshold
+     * @param int $abortErrorThreshold
      * @return $this
      */
     public function setAbortErrorThreshold($abortErrorThreshold)
@@ -349,21 +420,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAbortErrorThreshold()
+    {
+        $this->abortErrorThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportAllUsers
      *
-     * @ElementName reportAllUsers
-     * @return bool|null
+     * @return bool
      */
     public function getReportAllUsers()
     {
-        return $this->reportAllUsers;
+        return $this->reportAllUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportAllUsers;
     }
 
     /**
      * Setter for reportAllUsers
      *
-     * @ElementName reportAllUsers
-     * @param bool|null $reportAllUsers
+     * @param bool $reportAllUsers
      * @return $this
      */
     public function setReportAllUsers($reportAllUsers)
@@ -373,21 +451,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportAllUsers()
+    {
+        $this->reportAllUsers = null;
+        return $this;
+    }
+
+    /**
      * Getter for automaticallyIncrementServiceQuantity
      *
-     * @ElementName automaticallyIncrementServiceQuantity
-     * @return bool|null
+     * @return bool
      */
     public function getAutomaticallyIncrementServiceQuantity()
     {
-        return $this->automaticallyIncrementServiceQuantity;
+        return $this->automaticallyIncrementServiceQuantity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->automaticallyIncrementServiceQuantity;
     }
 
     /**
      * Setter for automaticallyIncrementServiceQuantity
      *
-     * @ElementName automaticallyIncrementServiceQuantity
-     * @param bool|null $automaticallyIncrementServiceQuantity
+     * @param bool $automaticallyIncrementServiceQuantity
      * @return $this
      */
     public function setAutomaticallyIncrementServiceQuantity($automaticallyIncrementServiceQuantity)
@@ -397,21 +482,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAutomaticallyIncrementServiceQuantity()
+    {
+        $this->automaticallyIncrementServiceQuantity = null;
+        return $this;
+    }
+
+    /**
      * Getter for errorCount
      *
-     * @ElementName errorCount
-     * @return int|null
+     * @return int
      */
     public function getErrorCount()
     {
-        return $this->errorCount;
+        return $this->errorCount instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->errorCount;
     }
 
     /**
      * Setter for errorCount
      *
-     * @ElementName errorCount
-     * @param int|null $errorCount
+     * @param int $errorCount
      * @return $this
      */
     public function setErrorCount($errorCount)
@@ -421,21 +513,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetErrorCount()
+    {
+        $this->errorCount = null;
+        return $this;
+    }
+
+    /**
      * Getter for status
      *
-     * @ElementName status
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus
      */
     public function getStatus()
     {
-        return $this->status;
+        return $this->status instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->status;
     }
 
     /**
      * Setter for status
      *
-     * @ElementName status
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus|null $status
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus $status
      * @return $this
      */
     public function setStatus(\CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskStatus $status)
@@ -445,21 +544,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatus()
+    {
+        $this->status = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupsProcessed
      *
-     * @ElementName groupsProcessed
-     * @return int|null
+     * @return int
      */
     public function getGroupsProcessed()
     {
-        return $this->groupsProcessed;
+        return $this->groupsProcessed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupsProcessed;
     }
 
     /**
      * Setter for groupsProcessed
      *
-     * @ElementName groupsProcessed
-     * @param int|null $groupsProcessed
+     * @param int $groupsProcessed
      * @return $this
      */
     public function setGroupsProcessed($groupsProcessed)
@@ -469,21 +575,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupsProcessed()
+    {
+        $this->groupsProcessed = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupsTotal
      *
-     * @ElementName groupsTotal
-     * @return int|null
+     * @return int
      */
     public function getGroupsTotal()
     {
-        return $this->groupsTotal;
+        return $this->groupsTotal instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupsTotal;
     }
 
     /**
      * Setter for groupsTotal
      *
-     * @ElementName groupsTotal
-     * @param int|null $groupsTotal
+     * @param int $groupsTotal
      * @return $this
      */
     public function setGroupsTotal($groupsTotal)
@@ -493,21 +606,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupsTotal()
+    {
+        $this->groupsTotal = null;
+        return $this;
+    }
+
+    /**
      * Getter for usersProcessed
      *
-     * @ElementName usersProcessed
-     * @return int|null
+     * @return int
      */
     public function getUsersProcessed()
     {
-        return $this->usersProcessed;
+        return $this->usersProcessed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usersProcessed;
     }
 
     /**
      * Setter for usersProcessed
      *
-     * @ElementName usersProcessed
-     * @param int|null $usersProcessed
+     * @param int $usersProcessed
      * @return $this
      */
     public function setUsersProcessed($usersProcessed)
@@ -517,21 +637,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUsersProcessed()
+    {
+        $this->usersProcessed = null;
+        return $this;
+    }
+
+    /**
      * Getter for usersTotal
      *
-     * @ElementName usersTotal
-     * @return int|null
+     * @return int
      */
     public function getUsersTotal()
     {
-        return $this->usersTotal;
+        return $this->usersTotal instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usersTotal;
     }
 
     /**
      * Setter for usersTotal
      *
-     * @ElementName usersTotal
-     * @param int|null $usersTotal
+     * @param int $usersTotal
      * @return $this
      */
     public function setUsersTotal($usersTotal)
@@ -541,21 +668,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUsersTotal()
+    {
+        $this->usersTotal = null;
+        return $this;
+    }
+
+    /**
      * Getter for userSelectionType
      *
-     * @ElementName userSelectionType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType
      */
     public function getUserSelectionType()
     {
-        return $this->userSelectionType;
+        return $this->userSelectionType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userSelectionType;
     }
 
     /**
      * Setter for userSelectionType
      *
-     * @ElementName userSelectionType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null $userSelectionType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType $userSelectionType
      * @return $this
      */
     public function setUserSelectionType(\CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType $userSelectionType)
@@ -565,21 +699,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserSelectionType()
+    {
+        $this->userSelectionType = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportFilePathName
      *
-     * @ElementName reportFilePathName
-     * @return string|null
+     * @return string
      */
     public function getReportFilePathName()
     {
-        return $this->reportFilePathName;
+        return $this->reportFilePathName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportFilePathName;
     }
 
     /**
      * Setter for reportFilePathName
      *
-     * @ElementName reportFilePathName
-     * @param string|null $reportFilePathName
+     * @param string $reportFilePathName
      * @return $this
      */
     public function setReportFilePathName($reportFilePathName)
@@ -589,21 +730,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportFilePathName()
+    {
+        $this->reportFilePathName = null;
+        return $this;
+    }
+
+    /**
      * Getter for migrateAllGroups
      *
-     * @ElementName migrateAllGroups
-     * @return bool|null
+     * @return bool
      */
     public function getMigrateAllGroups()
     {
-        return $this->migrateAllGroups;
+        return $this->migrateAllGroups instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->migrateAllGroups;
     }
 
     /**
      * Setter for migrateAllGroups
      *
-     * @ElementName migrateAllGroups
-     * @param bool|null $migrateAllGroups
+     * @param bool $migrateAllGroups
      * @return $this
      */
     public function setMigrateAllGroups($migrateAllGroups)
@@ -613,21 +761,28 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMigrateAllGroups()
+    {
+        $this->migrateAllGroups = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupTable
      *
-     * @ElementName groupTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getGroupTable()
     {
-        return $this->groupTable;
+        return $this->groupTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupTable;
     }
 
     /**
      * Setter for groupTable
      *
-     * @ElementName groupTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupTable
      * @return $this
      */
     public function setGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupTable)
@@ -637,20 +792,27 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupTable()
+    {
+        $this->groupTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for userSelectionServicePackName
      *
-     * @ElementName userSelectionServicePackName
      * @return string[]
      */
     public function getUserSelectionServicePackName()
     {
-        return $this->userSelectionServicePackName;
+        return $this->userSelectionServicePackName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userSelectionServicePackName;
     }
 
     /**
      * Setter for userSelectionServicePackName
      *
-     * @ElementName userSelectionServicePackName
      * @param string[] $userSelectionServicePackName
      * @return $this
      */
@@ -661,33 +823,39 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserSelectionServicePackName()
+    {
+        $this->userSelectionServicePackName = null;
+        return $this;
+    }
+
+    /**
      * Adder for userSelectionServicePackName
      *
-     * @ElementName userSelectionServicePackName
      * @param string $userSelectionServicePackName
      * @return $this
      */
     public function addUserSelectionServicePackName(string $userSelectionServicePackName)
     {
-        $this->userSelectionServicePackName []= $userSelectionServicePackName;
+        $this->userSelectionServicePackName[] = $userSelectionServicePackName;
         return $this;
     }
 
     /**
      * Getter for userSelectionServiceName
      *
-     * @ElementName userSelectionServiceName
      * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getUserSelectionServiceName()
     {
-        return $this->userSelectionServiceName;
+        return $this->userSelectionServiceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userSelectionServiceName;
     }
 
     /**
      * Setter for userSelectionServiceName
      *
-     * @ElementName userSelectionServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $userSelectionServiceName
      * @return $this
      */
@@ -698,33 +866,39 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserSelectionServiceName()
+    {
+        $this->userSelectionServiceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for userSelectionServiceName
      *
-     * @ElementName userSelectionServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $userSelectionServiceName
      * @return $this
      */
     public function addUserSelectionServiceName($userSelectionServiceName)
     {
-        $this->userSelectionServiceName []= $userSelectionServiceName;
+        $this->userSelectionServiceName[] = $userSelectionServiceName;
         return $this;
     }
 
     /**
      * Getter for removeServicePackName
      *
-     * @ElementName removeServicePackName
      * @return string[]
      */
     public function getRemoveServicePackName()
     {
-        return $this->removeServicePackName;
+        return $this->removeServicePackName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->removeServicePackName;
     }
 
     /**
      * Setter for removeServicePackName
      *
-     * @ElementName removeServicePackName
      * @param string[] $removeServicePackName
      * @return $this
      */
@@ -735,33 +909,39 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRemoveServicePackName()
+    {
+        $this->removeServicePackName = null;
+        return $this;
+    }
+
+    /**
      * Adder for removeServicePackName
      *
-     * @ElementName removeServicePackName
      * @param string $removeServicePackName
      * @return $this
      */
     public function addRemoveServicePackName(string $removeServicePackName)
     {
-        $this->removeServicePackName []= $removeServicePackName;
+        $this->removeServicePackName[] = $removeServicePackName;
         return $this;
     }
 
     /**
      * Getter for removeServiceName
      *
-     * @ElementName removeServiceName
      * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getRemoveServiceName()
     {
-        return $this->removeServiceName;
+        return $this->removeServiceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->removeServiceName;
     }
 
     /**
      * Setter for removeServiceName
      *
-     * @ElementName removeServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $removeServiceName
      * @return $this
      */
@@ -772,33 +952,39 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRemoveServiceName()
+    {
+        $this->removeServiceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for removeServiceName
      *
-     * @ElementName removeServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $removeServiceName
      * @return $this
      */
     public function addRemoveServiceName($removeServiceName)
     {
-        $this->removeServiceName []= $removeServiceName;
+        $this->removeServiceName[] = $removeServiceName;
         return $this;
     }
 
     /**
      * Getter for assignServicePackName
      *
-     * @ElementName assignServicePackName
      * @return string[]
      */
     public function getAssignServicePackName()
     {
-        return $this->assignServicePackName;
+        return $this->assignServicePackName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assignServicePackName;
     }
 
     /**
      * Setter for assignServicePackName
      *
-     * @ElementName assignServicePackName
      * @param string[] $assignServicePackName
      * @return $this
      */
@@ -809,33 +995,39 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssignServicePackName()
+    {
+        $this->assignServicePackName = null;
+        return $this;
+    }
+
+    /**
      * Adder for assignServicePackName
      *
-     * @ElementName assignServicePackName
      * @param string $assignServicePackName
      * @return $this
      */
     public function addAssignServicePackName(string $assignServicePackName)
     {
-        $this->assignServicePackName []= $assignServicePackName;
+        $this->assignServicePackName[] = $assignServicePackName;
         return $this;
     }
 
     /**
      * Getter for assignServiceName
      *
-     * @ElementName assignServiceName
      * @return \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     public function getAssignServiceName()
     {
-        return $this->assignServiceName;
+        return $this->assignServiceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assignServiceName;
     }
 
     /**
      * Setter for assignServiceName
      *
-     * @ElementName assignServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserService[] $assignServiceName
      * @return $this
      */
@@ -846,15 +1038,23 @@ class ServiceProviderServicePackMigrationTaskGetResponse14sp4 extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssignServiceName()
+    {
+        $this->assignServiceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for assignServiceName
      *
-     * @ElementName assignServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $assignServiceName
      * @return $this
      */
     public function addAssignServiceName($assignServiceName)
     {
-        $this->assignServiceName []= $assignServiceName;
+        $this->assignServiceName[] = $assignServiceName;
         return $this;
     }
 

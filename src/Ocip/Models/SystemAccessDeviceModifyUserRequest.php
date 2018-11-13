@@ -20,24 +20,28 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName privateIdentity
+     * @Type string
      * @var string|null
      */
     private $privateIdentity = null;
 
     /**
      * @ElementName isPrimaryLinePort
+     * @Type bool
      * @var bool|null
      */
     private $isPrimaryLinePort = null;
@@ -45,19 +49,17 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -67,21 +69,28 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -91,21 +100,28 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for privateIdentity
      *
-     * @ElementName privateIdentity
-     * @return string|null
+     * @return string
      */
     public function getPrivateIdentity()
     {
-        return $this->privateIdentity;
+        return $this->privateIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->privateIdentity;
     }
 
     /**
      * Setter for privateIdentity
      *
-     * @ElementName privateIdentity
-     * @param string|null $privateIdentity
+     * @param string $privateIdentity
      * @return $this
      */
     public function setPrivateIdentity($privateIdentity)
@@ -115,26 +131,42 @@ class SystemAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrivateIdentity()
+    {
+        $this->privateIdentity = null;
+        return $this;
+    }
+
+    /**
      * Getter for isPrimaryLinePort
      *
-     * @ElementName isPrimaryLinePort
-     * @return bool|null
+     * @return bool
      */
     public function getIsPrimaryLinePort()
     {
-        return $this->isPrimaryLinePort;
+        return $this->isPrimaryLinePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isPrimaryLinePort;
     }
 
     /**
      * Setter for isPrimaryLinePort
      *
-     * @ElementName isPrimaryLinePort
-     * @param bool|null $isPrimaryLinePort
+     * @param bool $isPrimaryLinePort
      * @return $this
      */
     public function setIsPrimaryLinePort($isPrimaryLinePort)
     {
         $this->isPrimaryLinePort = $isPrimaryLinePort;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsPrimaryLinePort()
+    {
+        $this->isPrimaryLinePort = null;
         return $this;
     }
 

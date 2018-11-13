@@ -24,108 +24,126 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName rulesApplyTo
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null
      */
     private $rulesApplyTo = null;
 
     /**
      * @ElementName allowWebAddExternalAuthenticationUsers
+     * @Type bool
      * @var bool|null
      */
     private $allowWebAddExternalAuthenticationUsers = null;
 
     /**
      * @ElementName disallowUserId
+     * @Type bool
      * @var bool|null
      */
     private $disallowUserId = null;
 
     /**
      * @ElementName disallowOldPassword
+     * @Type bool
      * @var bool|null
      */
     private $disallowOldPassword = null;
 
     /**
      * @ElementName disallowReversedOldPassword
+     * @Type bool
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
 
     /**
      * @ElementName restrictMinDigits
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinDigits = null;
 
     /**
      * @ElementName minDigits
+     * @Type int
      * @var int|null
      */
     private $minDigits = null;
 
     /**
      * @ElementName restrictMinUpperCaseLetters
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
 
     /**
      * @ElementName minUpperCaseLetters
+     * @Type int
      * @var int|null
      */
     private $minUpperCaseLetters = null;
 
     /**
      * @ElementName restrictMinLowerCaseLetters
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
 
     /**
      * @ElementName minLowerCaseLetters
+     * @Type int
      * @var int|null
      */
     private $minLowerCaseLetters = null;
 
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minNonAlphanumericCharacters
+     * @Type int
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minLength
+     * @Type int
      * @var int|null
      */
     private $minLength = null;
 
     /**
      * @ElementName maxFailedLoginAttempts
+     * @Type int
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
 
     /**
      * @ElementName passwordExpiresDays
+     * @Type int
      * @var int|null
      */
     private $passwordExpiresDays = null;
 
     /**
      * @ElementName sendLoginDisabledNotifyEmail
+     * @Type bool
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
 
     /**
      * @ElementName loginDisabledNotifyEmailAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -133,18 +151,21 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName disallowPreviousPasswords
+     * @Type bool
      * @var bool|null
      */
     private $disallowPreviousPasswords = null;
 
     /**
      * @ElementName numberOfPreviousPasswords
+     * @Type int
      * @var int|null
      */
     private $numberOfPreviousPasswords = null;
 
     /**
      * @ElementName forcePasswordChangeAfterReset
+     * @Type bool
      * @var bool|null
      */
     private $forcePasswordChangeAfterReset = null;
@@ -152,19 +173,17 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for rulesApplyTo
      *
-     * @ElementName rulesApplyTo
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo
      */
     public function getRulesApplyTo()
     {
-        return $this->rulesApplyTo;
+        return $this->rulesApplyTo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rulesApplyTo;
     }
 
     /**
      * Setter for rulesApplyTo
      *
-     * @ElementName rulesApplyTo
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null $rulesApplyTo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo $rulesApplyTo
      * @return $this
      */
     public function setRulesApplyTo(\CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo $rulesApplyTo)
@@ -174,21 +193,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRulesApplyTo()
+    {
+        $this->rulesApplyTo = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowWebAddExternalAuthenticationUsers
      *
-     * @ElementName allowWebAddExternalAuthenticationUsers
-     * @return bool|null
+     * @return bool
      */
     public function getAllowWebAddExternalAuthenticationUsers()
     {
-        return $this->allowWebAddExternalAuthenticationUsers;
+        return $this->allowWebAddExternalAuthenticationUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowWebAddExternalAuthenticationUsers;
     }
 
     /**
      * Setter for allowWebAddExternalAuthenticationUsers
      *
-     * @ElementName allowWebAddExternalAuthenticationUsers
-     * @param bool|null $allowWebAddExternalAuthenticationUsers
+     * @param bool $allowWebAddExternalAuthenticationUsers
      * @return $this
      */
     public function setAllowWebAddExternalAuthenticationUsers($allowWebAddExternalAuthenticationUsers)
@@ -198,21 +224,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowWebAddExternalAuthenticationUsers()
+    {
+        $this->allowWebAddExternalAuthenticationUsers = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowUserId
      *
-     * @ElementName disallowUserId
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowUserId()
     {
-        return $this->disallowUserId;
+        return $this->disallowUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowUserId;
     }
 
     /**
      * Setter for disallowUserId
      *
-     * @ElementName disallowUserId
-     * @param bool|null $disallowUserId
+     * @param bool $disallowUserId
      * @return $this
      */
     public function setDisallowUserId($disallowUserId)
@@ -222,21 +255,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowUserId()
+    {
+        $this->disallowUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowOldPassword
      *
-     * @ElementName disallowOldPassword
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowOldPassword()
     {
-        return $this->disallowOldPassword;
+        return $this->disallowOldPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowOldPassword;
     }
 
     /**
      * Setter for disallowOldPassword
      *
-     * @ElementName disallowOldPassword
-     * @param bool|null $disallowOldPassword
+     * @param bool $disallowOldPassword
      * @return $this
      */
     public function setDisallowOldPassword($disallowOldPassword)
@@ -246,21 +286,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowOldPassword()
+    {
+        $this->disallowOldPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowReversedOldPassword
      *
-     * @ElementName disallowReversedOldPassword
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowReversedOldPassword()
     {
-        return $this->disallowReversedOldPassword;
+        return $this->disallowReversedOldPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowReversedOldPassword;
     }
 
     /**
      * Setter for disallowReversedOldPassword
      *
-     * @ElementName disallowReversedOldPassword
-     * @param bool|null $disallowReversedOldPassword
+     * @param bool $disallowReversedOldPassword
      * @return $this
      */
     public function setDisallowReversedOldPassword($disallowReversedOldPassword)
@@ -270,21 +317,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowReversedOldPassword()
+    {
+        $this->disallowReversedOldPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinDigits
      *
-     * @ElementName restrictMinDigits
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinDigits()
     {
-        return $this->restrictMinDigits;
+        return $this->restrictMinDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinDigits;
     }
 
     /**
      * Setter for restrictMinDigits
      *
-     * @ElementName restrictMinDigits
-     * @param bool|null $restrictMinDigits
+     * @param bool $restrictMinDigits
      * @return $this
      */
     public function setRestrictMinDigits($restrictMinDigits)
@@ -294,21 +348,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinDigits()
+    {
+        $this->restrictMinDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for minDigits
      *
-     * @ElementName minDigits
-     * @return int|null
+     * @return int
      */
     public function getMinDigits()
     {
-        return $this->minDigits;
+        return $this->minDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minDigits;
     }
 
     /**
      * Setter for minDigits
      *
-     * @ElementName minDigits
-     * @param int|null $minDigits
+     * @param int $minDigits
      * @return $this
      */
     public function setMinDigits($minDigits)
@@ -318,21 +379,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinDigits()
+    {
+        $this->minDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinUpperCaseLetters
      *
-     * @ElementName restrictMinUpperCaseLetters
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinUpperCaseLetters()
     {
-        return $this->restrictMinUpperCaseLetters;
+        return $this->restrictMinUpperCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinUpperCaseLetters;
     }
 
     /**
      * Setter for restrictMinUpperCaseLetters
      *
-     * @ElementName restrictMinUpperCaseLetters
-     * @param bool|null $restrictMinUpperCaseLetters
+     * @param bool $restrictMinUpperCaseLetters
      * @return $this
      */
     public function setRestrictMinUpperCaseLetters($restrictMinUpperCaseLetters)
@@ -342,21 +410,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinUpperCaseLetters()
+    {
+        $this->restrictMinUpperCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minUpperCaseLetters
      *
-     * @ElementName minUpperCaseLetters
-     * @return int|null
+     * @return int
      */
     public function getMinUpperCaseLetters()
     {
-        return $this->minUpperCaseLetters;
+        return $this->minUpperCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minUpperCaseLetters;
     }
 
     /**
      * Setter for minUpperCaseLetters
      *
-     * @ElementName minUpperCaseLetters
-     * @param int|null $minUpperCaseLetters
+     * @param int $minUpperCaseLetters
      * @return $this
      */
     public function setMinUpperCaseLetters($minUpperCaseLetters)
@@ -366,21 +441,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinUpperCaseLetters()
+    {
+        $this->minUpperCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinLowerCaseLetters
      *
-     * @ElementName restrictMinLowerCaseLetters
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinLowerCaseLetters()
     {
-        return $this->restrictMinLowerCaseLetters;
+        return $this->restrictMinLowerCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinLowerCaseLetters;
     }
 
     /**
      * Setter for restrictMinLowerCaseLetters
      *
-     * @ElementName restrictMinLowerCaseLetters
-     * @param bool|null $restrictMinLowerCaseLetters
+     * @param bool $restrictMinLowerCaseLetters
      * @return $this
      */
     public function setRestrictMinLowerCaseLetters($restrictMinLowerCaseLetters)
@@ -390,21 +472,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinLowerCaseLetters()
+    {
+        $this->restrictMinLowerCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minLowerCaseLetters
      *
-     * @ElementName minLowerCaseLetters
-     * @return int|null
+     * @return int
      */
     public function getMinLowerCaseLetters()
     {
-        return $this->minLowerCaseLetters;
+        return $this->minLowerCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minLowerCaseLetters;
     }
 
     /**
      * Setter for minLowerCaseLetters
      *
-     * @ElementName minLowerCaseLetters
-     * @param int|null $minLowerCaseLetters
+     * @param int $minLowerCaseLetters
      * @return $this
      */
     public function setMinLowerCaseLetters($minLowerCaseLetters)
@@ -414,21 +503,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinLowerCaseLetters()
+    {
+        $this->minLowerCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinNonAlphanumericCharacters
      *
-     * @ElementName restrictMinNonAlphanumericCharacters
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinNonAlphanumericCharacters()
     {
-        return $this->restrictMinNonAlphanumericCharacters;
+        return $this->restrictMinNonAlphanumericCharacters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinNonAlphanumericCharacters;
     }
 
     /**
      * Setter for restrictMinNonAlphanumericCharacters
      *
-     * @ElementName restrictMinNonAlphanumericCharacters
-     * @param bool|null $restrictMinNonAlphanumericCharacters
+     * @param bool $restrictMinNonAlphanumericCharacters
      * @return $this
      */
     public function setRestrictMinNonAlphanumericCharacters($restrictMinNonAlphanumericCharacters)
@@ -438,21 +534,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinNonAlphanumericCharacters()
+    {
+        $this->restrictMinNonAlphanumericCharacters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minNonAlphanumericCharacters
      *
-     * @ElementName minNonAlphanumericCharacters
-     * @return int|null
+     * @return int
      */
     public function getMinNonAlphanumericCharacters()
     {
-        return $this->minNonAlphanumericCharacters;
+        return $this->minNonAlphanumericCharacters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minNonAlphanumericCharacters;
     }
 
     /**
      * Setter for minNonAlphanumericCharacters
      *
-     * @ElementName minNonAlphanumericCharacters
-     * @param int|null $minNonAlphanumericCharacters
+     * @param int $minNonAlphanumericCharacters
      * @return $this
      */
     public function setMinNonAlphanumericCharacters($minNonAlphanumericCharacters)
@@ -462,21 +565,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinNonAlphanumericCharacters()
+    {
+        $this->minNonAlphanumericCharacters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minLength
      *
-     * @ElementName minLength
-     * @return int|null
+     * @return int
      */
     public function getMinLength()
     {
-        return $this->minLength;
+        return $this->minLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minLength;
     }
 
     /**
      * Setter for minLength
      *
-     * @ElementName minLength
-     * @param int|null $minLength
+     * @param int $minLength
      * @return $this
      */
     public function setMinLength($minLength)
@@ -486,21 +596,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinLength()
+    {
+        $this->minLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxFailedLoginAttempts
      *
-     * @ElementName maxFailedLoginAttempts
-     * @return int|null
+     * @return int
      */
     public function getMaxFailedLoginAttempts()
     {
-        return $this->maxFailedLoginAttempts;
+        return $this->maxFailedLoginAttempts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxFailedLoginAttempts;
     }
 
     /**
      * Setter for maxFailedLoginAttempts
      *
-     * @ElementName maxFailedLoginAttempts
-     * @param int|null $maxFailedLoginAttempts
+     * @param int $maxFailedLoginAttempts
      * @return $this
      */
     public function setMaxFailedLoginAttempts($maxFailedLoginAttempts)
@@ -510,21 +627,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxFailedLoginAttempts()
+    {
+        $this->maxFailedLoginAttempts = null;
+        return $this;
+    }
+
+    /**
      * Getter for passwordExpiresDays
      *
-     * @ElementName passwordExpiresDays
-     * @return int|null
+     * @return int
      */
     public function getPasswordExpiresDays()
     {
-        return $this->passwordExpiresDays;
+        return $this->passwordExpiresDays instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passwordExpiresDays;
     }
 
     /**
      * Setter for passwordExpiresDays
      *
-     * @ElementName passwordExpiresDays
-     * @param int|null $passwordExpiresDays
+     * @param int $passwordExpiresDays
      * @return $this
      */
     public function setPasswordExpiresDays($passwordExpiresDays)
@@ -534,21 +658,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasswordExpiresDays()
+    {
+        $this->passwordExpiresDays = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendLoginDisabledNotifyEmail
      *
-     * @ElementName sendLoginDisabledNotifyEmail
-     * @return bool|null
+     * @return bool
      */
     public function getSendLoginDisabledNotifyEmail()
     {
-        return $this->sendLoginDisabledNotifyEmail;
+        return $this->sendLoginDisabledNotifyEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendLoginDisabledNotifyEmail;
     }
 
     /**
      * Setter for sendLoginDisabledNotifyEmail
      *
-     * @ElementName sendLoginDisabledNotifyEmail
-     * @param bool|null $sendLoginDisabledNotifyEmail
+     * @param bool $sendLoginDisabledNotifyEmail
      * @return $this
      */
     public function setSendLoginDisabledNotifyEmail($sendLoginDisabledNotifyEmail)
@@ -558,47 +689,63 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendLoginDisabledNotifyEmail()
+    {
+        $this->sendLoginDisabledNotifyEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for loginDisabledNotifyEmailAddress
      *
-     * @ElementName loginDisabledNotifyEmailAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getLoginDisabledNotifyEmailAddress()
     {
-        return $this->loginDisabledNotifyEmailAddress;
+        return $this->loginDisabledNotifyEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->loginDisabledNotifyEmailAddress;
     }
 
     /**
      * Setter for loginDisabledNotifyEmailAddress
      *
-     * @ElementName loginDisabledNotifyEmailAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $loginDisabledNotifyEmailAddress
+     * @param string|null $loginDisabledNotifyEmailAddress
      * @return $this
      */
     public function setLoginDisabledNotifyEmailAddress($loginDisabledNotifyEmailAddress)
     {
-        $this->loginDisabledNotifyEmailAddress = $loginDisabledNotifyEmailAddress;
+        if ($loginDisabledNotifyEmailAddress === null) {
+            $this->loginDisabledNotifyEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->loginDisabledNotifyEmailAddress = $loginDisabledNotifyEmailAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLoginDisabledNotifyEmailAddress()
+    {
+        $this->loginDisabledNotifyEmailAddress = null;
         return $this;
     }
 
     /**
      * Getter for disallowPreviousPasswords
      *
-     * @ElementName disallowPreviousPasswords
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowPreviousPasswords()
     {
-        return $this->disallowPreviousPasswords;
+        return $this->disallowPreviousPasswords instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowPreviousPasswords;
     }
 
     /**
      * Setter for disallowPreviousPasswords
      *
-     * @ElementName disallowPreviousPasswords
-     * @param bool|null $disallowPreviousPasswords
+     * @param bool $disallowPreviousPasswords
      * @return $this
      */
     public function setDisallowPreviousPasswords($disallowPreviousPasswords)
@@ -608,21 +755,28 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowPreviousPasswords()
+    {
+        $this->disallowPreviousPasswords = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfPreviousPasswords
      *
-     * @ElementName numberOfPreviousPasswords
-     * @return int|null
+     * @return int
      */
     public function getNumberOfPreviousPasswords()
     {
-        return $this->numberOfPreviousPasswords;
+        return $this->numberOfPreviousPasswords instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfPreviousPasswords;
     }
 
     /**
      * Setter for numberOfPreviousPasswords
      *
-     * @ElementName numberOfPreviousPasswords
-     * @param int|null $numberOfPreviousPasswords
+     * @param int $numberOfPreviousPasswords
      * @return $this
      */
     public function setNumberOfPreviousPasswords($numberOfPreviousPasswords)
@@ -632,26 +786,42 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfPreviousPasswords()
+    {
+        $this->numberOfPreviousPasswords = null;
+        return $this;
+    }
+
+    /**
      * Getter for forcePasswordChangeAfterReset
      *
-     * @ElementName forcePasswordChangeAfterReset
-     * @return bool|null
+     * @return bool
      */
     public function getForcePasswordChangeAfterReset()
     {
-        return $this->forcePasswordChangeAfterReset;
+        return $this->forcePasswordChangeAfterReset instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forcePasswordChangeAfterReset;
     }
 
     /**
      * Setter for forcePasswordChangeAfterReset
      *
-     * @ElementName forcePasswordChangeAfterReset
-     * @param bool|null $forcePasswordChangeAfterReset
+     * @param bool $forcePasswordChangeAfterReset
      * @return $this
      */
     public function setForcePasswordChangeAfterReset($forcePasswordChangeAfterReset)
     {
         $this->forcePasswordChangeAfterReset = $forcePasswordChangeAfterReset;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForcePasswordChangeAfterReset()
+    {
+        $this->forcePasswordChangeAfterReset = null;
         return $this;
     }
 

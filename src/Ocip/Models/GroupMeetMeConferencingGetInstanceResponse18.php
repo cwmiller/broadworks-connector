@@ -19,60 +19,70 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17sp4
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17sp4|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName allocatedPorts
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
 
     /**
      * @ElementName allowIndividualOutDial
+     * @Type bool
      * @var bool|null
      */
     private $allowIndividualOutDial = null;
 
     /**
      * @ElementName operatorNumber
+     * @Type string
      * @var string|null
      */
     private $operatorNumber = null;
 
     /**
      * @ElementName conferenceHostUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceHostUserTable = null;
 
     /**
      * @ElementName playWarningPrompt
+     * @Type bool
      * @var bool|null
      */
     private $playWarningPrompt = null;
 
     /**
      * @ElementName conferenceEndWarningPromptMinutes
+     * @Type int
      * @var int|null
      */
     private $conferenceEndWarningPromptMinutes = null;
 
     /**
      * @ElementName enableMaxConferenceDuration
+     * @Type bool
      * @var bool|null
      */
     private $enableMaxConferenceDuration = null;
 
     /**
      * @ElementName maxConferenceDurationMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
     private $maxConferenceDurationMinutes = null;
@@ -80,19 +90,17 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17sp4|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17sp4
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17sp4|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17sp4 $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile17sp4 $serviceInstanceProfile)
@@ -102,21 +110,28 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for allocatedPorts
      *
-     * @ElementName allocatedPorts
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      */
     public function getAllocatedPorts()
     {
-        return $this->allocatedPorts;
+        return $this->allocatedPorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allocatedPorts;
     }
 
     /**
      * Setter for allocatedPorts
      *
-     * @ElementName allocatedPorts
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null $allocatedPorts
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts
      * @return $this
      */
     public function setAllocatedPorts(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts)
@@ -126,21 +141,28 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllocatedPorts()
+    {
+        $this->allocatedPorts = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
@@ -150,21 +172,28 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowIndividualOutDial
      *
-     * @ElementName allowIndividualOutDial
-     * @return bool|null
+     * @return bool
      */
     public function getAllowIndividualOutDial()
     {
-        return $this->allowIndividualOutDial;
+        return $this->allowIndividualOutDial instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowIndividualOutDial;
     }
 
     /**
      * Setter for allowIndividualOutDial
      *
-     * @ElementName allowIndividualOutDial
-     * @param bool|null $allowIndividualOutDial
+     * @param bool $allowIndividualOutDial
      * @return $this
      */
     public function setAllowIndividualOutDial($allowIndividualOutDial)
@@ -174,21 +203,28 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowIndividualOutDial()
+    {
+        $this->allowIndividualOutDial = null;
+        return $this;
+    }
+
+    /**
      * Getter for operatorNumber
      *
-     * @ElementName operatorNumber
-     * @return string|null
+     * @return string
      */
     public function getOperatorNumber()
     {
-        return $this->operatorNumber;
+        return $this->operatorNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->operatorNumber;
     }
 
     /**
      * Setter for operatorNumber
      *
-     * @ElementName operatorNumber
-     * @param string|null $operatorNumber
+     * @param string $operatorNumber
      * @return $this
      */
     public function setOperatorNumber($operatorNumber)
@@ -198,21 +234,28 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOperatorNumber()
+    {
+        $this->operatorNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceHostUserTable
      *
-     * @ElementName conferenceHostUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getConferenceHostUserTable()
     {
-        return $this->conferenceHostUserTable;
+        return $this->conferenceHostUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceHostUserTable;
     }
 
     /**
      * Setter for conferenceHostUserTable
      *
-     * @ElementName conferenceHostUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceHostUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceHostUserTable
      * @return $this
      */
     public function setConferenceHostUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceHostUserTable)
@@ -222,21 +265,28 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceHostUserTable()
+    {
+        $this->conferenceHostUserTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for playWarningPrompt
      *
-     * @ElementName playWarningPrompt
-     * @return bool|null
+     * @return bool
      */
     public function getPlayWarningPrompt()
     {
-        return $this->playWarningPrompt;
+        return $this->playWarningPrompt instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playWarningPrompt;
     }
 
     /**
      * Setter for playWarningPrompt
      *
-     * @ElementName playWarningPrompt
-     * @param bool|null $playWarningPrompt
+     * @param bool $playWarningPrompt
      * @return $this
      */
     public function setPlayWarningPrompt($playWarningPrompt)
@@ -246,21 +296,28 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayWarningPrompt()
+    {
+        $this->playWarningPrompt = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceEndWarningPromptMinutes
      *
-     * @ElementName conferenceEndWarningPromptMinutes
-     * @return int|null
+     * @return int
      */
     public function getConferenceEndWarningPromptMinutes()
     {
-        return $this->conferenceEndWarningPromptMinutes;
+        return $this->conferenceEndWarningPromptMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceEndWarningPromptMinutes;
     }
 
     /**
      * Setter for conferenceEndWarningPromptMinutes
      *
-     * @ElementName conferenceEndWarningPromptMinutes
-     * @param int|null $conferenceEndWarningPromptMinutes
+     * @param int $conferenceEndWarningPromptMinutes
      * @return $this
      */
     public function setConferenceEndWarningPromptMinutes($conferenceEndWarningPromptMinutes)
@@ -270,21 +327,28 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceEndWarningPromptMinutes()
+    {
+        $this->conferenceEndWarningPromptMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableMaxConferenceDuration
      *
-     * @ElementName enableMaxConferenceDuration
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMaxConferenceDuration()
     {
-        return $this->enableMaxConferenceDuration;
+        return $this->enableMaxConferenceDuration instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMaxConferenceDuration;
     }
 
     /**
      * Setter for enableMaxConferenceDuration
      *
-     * @ElementName enableMaxConferenceDuration
-     * @param bool|null $enableMaxConferenceDuration
+     * @param bool $enableMaxConferenceDuration
      * @return $this
      */
     public function setEnableMaxConferenceDuration($enableMaxConferenceDuration)
@@ -294,26 +358,42 @@ class GroupMeetMeConferencingGetInstanceResponse18 extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMaxConferenceDuration()
+    {
+        $this->enableMaxConferenceDuration = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxConferenceDurationMinutes
      *
-     * @ElementName maxConferenceDurationMinutes
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
      */
     public function getMaxConferenceDurationMinutes()
     {
-        return $this->maxConferenceDurationMinutes;
+        return $this->maxConferenceDurationMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxConferenceDurationMinutes;
     }
 
     /**
      * Setter for maxConferenceDurationMinutes
      *
-     * @ElementName maxConferenceDurationMinutes
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null $maxConferenceDurationMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration $maxConferenceDurationMinutes
      * @return $this
      */
     public function setMaxConferenceDurationMinutes(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration $maxConferenceDurationMinutes)
     {
         $this->maxConferenceDurationMinutes = $maxConferenceDurationMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxConferenceDurationMinutes()
+    {
+        $this->maxConferenceDurationMinutes = null;
         return $this;
     }
 

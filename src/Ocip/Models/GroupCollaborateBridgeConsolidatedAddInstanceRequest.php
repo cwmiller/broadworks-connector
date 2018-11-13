@@ -26,60 +26,71 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName addPhoneNumberToGroup
+     * @Type bool
      * @var bool|null
      */
     private $addPhoneNumberToGroup = null;
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName maximumBridgeParticipants
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     private $maximumBridgeParticipants = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
 
     /**
      * @ElementName maxCollaborateRoomParticipants
+     * @Type int
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
 
     /**
      * @ElementName supportOutdial
+     * @Type bool
      * @var bool|null
      */
     private $supportOutdial = null;
 
     /**
      * @ElementName collaborateOwnerUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $collaborateOwnerUserId = array(
@@ -88,6 +99,8 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
 
     /**
      * @ElementName service
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[]
      */
     private $service = array(
@@ -97,19 +110,17 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -119,21 +130,28 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -143,21 +161,28 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -167,21 +192,28 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for addPhoneNumberToGroup
      *
-     * @ElementName addPhoneNumberToGroup
-     * @return bool|null
+     * @return bool
      */
     public function getAddPhoneNumberToGroup()
     {
-        return $this->addPhoneNumberToGroup;
+        return $this->addPhoneNumberToGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addPhoneNumberToGroup;
     }
 
     /**
      * Setter for addPhoneNumberToGroup
      *
-     * @ElementName addPhoneNumberToGroup
-     * @param bool|null $addPhoneNumberToGroup
+     * @param bool $addPhoneNumberToGroup
      * @return $this
      */
     public function setAddPhoneNumberToGroup($addPhoneNumberToGroup)
@@ -191,21 +223,28 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddPhoneNumberToGroup()
+    {
+        $this->addPhoneNumberToGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile $serviceInstanceProfile)
@@ -215,21 +254,28 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumBridgeParticipants
      *
-     * @ElementName maximumBridgeParticipants
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
      */
     public function getMaximumBridgeParticipants()
     {
-        return $this->maximumBridgeParticipants;
+        return $this->maximumBridgeParticipants instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumBridgeParticipants;
     }
 
     /**
      * Setter for maximumBridgeParticipants
      *
-     * @ElementName maximumBridgeParticipants
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null $maximumBridgeParticipants
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants $maximumBridgeParticipants
      * @return $this
      */
     public function setMaximumBridgeParticipants(\CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants $maximumBridgeParticipants)
@@ -239,21 +285,28 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumBridgeParticipants()
+    {
+        $this->maximumBridgeParticipants = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
@@ -263,21 +316,28 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCollaborateRoomParticipants
      *
-     * @ElementName maxCollaborateRoomParticipants
-     * @return int|null
+     * @return int
      */
     public function getMaxCollaborateRoomParticipants()
     {
-        return $this->maxCollaborateRoomParticipants;
+        return $this->maxCollaborateRoomParticipants instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCollaborateRoomParticipants;
     }
 
     /**
      * Setter for maxCollaborateRoomParticipants
      *
-     * @ElementName maxCollaborateRoomParticipants
-     * @param int|null $maxCollaborateRoomParticipants
+     * @param int $maxCollaborateRoomParticipants
      * @return $this
      */
     public function setMaxCollaborateRoomParticipants($maxCollaborateRoomParticipants)
@@ -287,21 +347,28 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxCollaborateRoomParticipants()
+    {
+        $this->maxCollaborateRoomParticipants = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportOutdial
      *
-     * @ElementName supportOutdial
-     * @return bool|null
+     * @return bool
      */
     public function getSupportOutdial()
     {
-        return $this->supportOutdial;
+        return $this->supportOutdial instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportOutdial;
     }
 
     /**
      * Setter for supportOutdial
      *
-     * @ElementName supportOutdial
-     * @param bool|null $supportOutdial
+     * @param bool $supportOutdial
      * @return $this
      */
     public function setSupportOutdial($supportOutdial)
@@ -311,20 +378,27 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportOutdial()
+    {
+        $this->supportOutdial = null;
+        return $this;
+    }
+
+    /**
      * Getter for collaborateOwnerUserId
      *
-     * @ElementName collaborateOwnerUserId
      * @return string[]
      */
     public function getCollaborateOwnerUserId()
     {
-        return $this->collaborateOwnerUserId;
+        return $this->collaborateOwnerUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collaborateOwnerUserId;
     }
 
     /**
      * Setter for collaborateOwnerUserId
      *
-     * @ElementName collaborateOwnerUserId
      * @param string[] $collaborateOwnerUserId
      * @return $this
      */
@@ -335,33 +409,39 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCollaborateOwnerUserId()
+    {
+        $this->collaborateOwnerUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for collaborateOwnerUserId
      *
-     * @ElementName collaborateOwnerUserId
      * @param string $collaborateOwnerUserId
      * @return $this
      */
     public function addCollaborateOwnerUserId(string $collaborateOwnerUserId)
     {
-        $this->collaborateOwnerUserId []= $collaborateOwnerUserId;
+        $this->collaborateOwnerUserId[] = $collaborateOwnerUserId;
         return $this;
     }
 
     /**
      * Getter for service
      *
-     * @ElementName service
      * @return \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[]
      */
     public function getService()
     {
-        return $this->service;
+        return $this->service instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->service;
     }
 
     /**
      * Setter for service
      *
-     * @ElementName service
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment[] $service
      * @return $this
      */
@@ -372,15 +452,23 @@ class GroupCollaborateBridgeConsolidatedAddInstanceRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetService()
+    {
+        $this->service = null;
+        return $this;
+    }
+
+    /**
      * Adder for service
      *
-     * @ElementName service
      * @param \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedUserServiceAssignment $service
      * @return $this
      */
     public function addService($service)
     {
-        $this->service []= $service;
+        $this->service[] = $service;
         return $this;
     }
 

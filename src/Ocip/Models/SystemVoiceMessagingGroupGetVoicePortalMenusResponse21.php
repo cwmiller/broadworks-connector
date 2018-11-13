@@ -14,222 +14,259 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
 
     /**
      * @ElementName useVoicePortalCustomization
+     * @Type bool
      * @var bool|null
      */
     private $useVoicePortalCustomization = null;
 
     /**
      * @ElementName voicePortalMainMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalMainMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalMainMenuKeys|null
      */
     private $voicePortalMainMenuKeys = null;
 
     /**
      * @ElementName announcementMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys|null
      */
     private $announcementMenuKeys = null;
 
     /**
      * @ElementName announcementRecordingMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordingMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordingMenuKeys|null
      */
     private $announcementRecordingMenuKeys = null;
 
     /**
      * @ElementName greetingsMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingsMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingsMenuKeys|null
      */
     private $greetingsMenuKeys = null;
 
     /**
      * @ElementName conferenceGreetingMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMenuKeys|null
      */
     private $conferenceGreetingMenuKeys = null;
 
     /**
      * @ElementName voiceMessagingMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoiceMessagingMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoiceMessagingMenuKeys|null
      */
     private $voiceMessagingMenuKeys = null;
 
     /**
      * @ElementName playGreetingMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys|null
      */
     private $playGreetingMenuKeys = null;
 
     /**
      * @ElementName changeBusyOrNoAnswerGreetingMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys|null
      */
     private $changeBusyOrNoAnswerGreetingMenuKeys = null;
 
     /**
      * @ElementName changeExtendedAwayGreetingMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGreetingMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGreetingMenuKeys|null
      */
     private $changeExtendedAwayGreetingMenuKeys = null;
 
     /**
      * @ElementName recordNewGreetingOrPersonalizedNameMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21RecordNewGreetingOrPersonalizedNameMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21RecordNewGreetingOrPersonalizedNameMenuKeys|null
      */
     private $recordNewGreetingOrPersonalizedNameMenuKeys = null;
 
     /**
      * @ElementName deleteAllMessagesMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DeleteAllMessagesMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DeleteAllMessagesMenuKeys|null
      */
     private $deleteAllMessagesMenuKeys = null;
 
     /**
      * @ElementName commPilotExpressProfileMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProfileMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProfileMenuKeys|null
      */
     private $commPilotExpressProfileMenuKeys = null;
 
     /**
      * @ElementName personalizedNameMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenuKeys|null
      */
     private $personalizedNameMenuKeys = null;
 
     /**
      * @ElementName callForwardingOptionsMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOptionsMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOptionsMenuKeys|null
      */
     private $callForwardingOptionsMenuKeys = null;
 
     /**
      * @ElementName changeCallForwardingDestinationMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCallForwardingDestinationMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCallForwardingDestinationMenuKeys|null
      */
     private $changeCallForwardingDestinationMenuKeys = null;
 
     /**
      * @ElementName voicePortalCallingMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalCallingMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalCallingMenuKeys|null
      */
     private $voicePortalCallingMenuKeys = null;
 
     /**
      * @ElementName hotelingMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21HotelingMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21HotelingMenuKeys|null
      */
     private $hotelingMenuKeys = null;
 
     /**
      * @ElementName passcodeMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys|null
      */
     private $passcodeMenuKeys = null;
 
     /**
      * @ElementName playMessagesMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys|null
      */
     private $playMessagesMenuKeys = null;
 
     /**
      * @ElementName playMessageMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys|null
      */
     private $playMessageMenuKeys = null;
 
     /**
      * @ElementName additionalMessageOptionsMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOptionsMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOptionsMenuKeys|null
      */
     private $additionalMessageOptionsMenuKeys = null;
 
     /**
      * @ElementName forwardOrComposeMessageMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMessageMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMessageMenuKeys|null
      */
     private $forwardOrComposeMessageMenuKeys = null;
 
     /**
      * @ElementName replyMessageMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys|null
      */
     private $replyMessageMenuKeys = null;
 
     /**
      * @ElementName sendToDistributionListMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys|null
      */
     private $sendToDistributionListMenuKeys = null;
 
     /**
      * @ElementName selectDistributionListMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionListMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionListMenuKeys|null
      */
     private $selectDistributionListMenuKeys = null;
 
     /**
      * @ElementName reviewSelectedDistributionListMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReviewSelectedDistributionListMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReviewSelectedDistributionListMenuKeys|null
      */
     private $reviewSelectedDistributionListMenuKeys = null;
 
     /**
      * @ElementName sendMessageToSelectedDistributionListMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendMessageToSelectedDistributionListMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendMessageToSelectedDistributionListMenuKeys|null
      */
     private $sendMessageToSelectedDistributionListMenuKeys = null;
 
     /**
      * @ElementName sendToAllGroupMembersMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToAllGroupMembersMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToAllGroupMembersMenuKeys|null
      */
     private $sendToAllGroupMembersMenuKeys = null;
 
     /**
      * @ElementName sendToPersonMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys|null
      */
     private $sendToPersonMenuKeys = null;
 
     /**
      * @ElementName changeCurrentIntroductionOrMessageOrReplyMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCurrentIntroductionOrMessageOrReplyMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCurrentIntroductionOrMessageOrReplyMenuKeys|null
      */
     private $changeCurrentIntroductionOrMessageOrReplyMenuKeys = null;
 
     /**
      * @ElementName voicePortalLoginMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalLoginMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalLoginMenuKeys|null
      */
     private $voicePortalLoginMenuKeys = null;
 
     /**
      * @ElementName faxMessagingMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21FaxMessagingMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21FaxMessagingMenuKeys|null
      */
     private $faxMessagingMenuKeys = null;
 
     /**
      * @ElementName messageDepositMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKeys|null
      */
     private $messageDepositMenuKeys = null;
 
     /**
      * @ElementName disableMessageDepositMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DisableMessageDepositMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DisableMessageDepositMenuKeys|null
      */
     private $disableMessageDepositMenuKeys = null;
 
     /**
      * @ElementName greetingOnlyForwardingDestinationMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingOnlyForwardingDestinationMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingOnlyForwardingDestinationMenuKeys|null
      */
     private $greetingOnlyForwardingDestinationMenuKeys = null;
 
     /**
      * @ElementName personalAssistantMenuKeys
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys|null
      */
     private $personalAssistantMenuKeys = null;
@@ -237,19 +274,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     /**
      * Getter for useVoicePortalCustomization
      *
-     * @ElementName useVoicePortalCustomization
-     * @return bool|null
+     * @return bool
      */
     public function getUseVoicePortalCustomization()
     {
-        return $this->useVoicePortalCustomization;
+        return $this->useVoicePortalCustomization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useVoicePortalCustomization;
     }
 
     /**
      * Setter for useVoicePortalCustomization
      *
-     * @ElementName useVoicePortalCustomization
-     * @param bool|null $useVoicePortalCustomization
+     * @param bool $useVoicePortalCustomization
      * @return $this
      */
     public function setUseVoicePortalCustomization($useVoicePortalCustomization)
@@ -259,21 +294,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseVoicePortalCustomization()
+    {
+        $this->useVoicePortalCustomization = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalMainMenuKeys
      *
-     * @ElementName voicePortalMainMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalMainMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalMainMenuKeys
      */
     public function getVoicePortalMainMenuKeys()
     {
-        return $this->voicePortalMainMenuKeys;
+        return $this->voicePortalMainMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalMainMenuKeys;
     }
 
     /**
      * Setter for voicePortalMainMenuKeys
      *
-     * @ElementName voicePortalMainMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalMainMenuKeys|null $voicePortalMainMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalMainMenuKeys $voicePortalMainMenuKeys
      * @return $this
      */
     public function setVoicePortalMainMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalMainMenuKeys $voicePortalMainMenuKeys)
@@ -283,21 +325,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalMainMenuKeys()
+    {
+        $this->voicePortalMainMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementMenuKeys
      *
-     * @ElementName announcementMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys
      */
     public function getAnnouncementMenuKeys()
     {
-        return $this->announcementMenuKeys;
+        return $this->announcementMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementMenuKeys;
     }
 
     /**
      * Setter for announcementMenuKeys
      *
-     * @ElementName announcementMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys|null $announcementMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys $announcementMenuKeys
      * @return $this
      */
     public function setAnnouncementMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementMenuKeys $announcementMenuKeys)
@@ -307,21 +356,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementMenuKeys()
+    {
+        $this->announcementMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementRecordingMenuKeys
      *
-     * @ElementName announcementRecordingMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordingMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordingMenuKeys
      */
     public function getAnnouncementRecordingMenuKeys()
     {
-        return $this->announcementRecordingMenuKeys;
+        return $this->announcementRecordingMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementRecordingMenuKeys;
     }
 
     /**
      * Setter for announcementRecordingMenuKeys
      *
-     * @ElementName announcementRecordingMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordingMenuKeys|null $announcementRecordingMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordingMenuKeys $announcementRecordingMenuKeys
      * @return $this
      */
     public function setAnnouncementRecordingMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AnnouncementRecordingMenuKeys $announcementRecordingMenuKeys)
@@ -331,21 +387,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementRecordingMenuKeys()
+    {
+        $this->announcementRecordingMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for greetingsMenuKeys
      *
-     * @ElementName greetingsMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingsMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingsMenuKeys
      */
     public function getGreetingsMenuKeys()
     {
-        return $this->greetingsMenuKeys;
+        return $this->greetingsMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->greetingsMenuKeys;
     }
 
     /**
      * Setter for greetingsMenuKeys
      *
-     * @ElementName greetingsMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingsMenuKeys|null $greetingsMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingsMenuKeys $greetingsMenuKeys
      * @return $this
      */
     public function setGreetingsMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingsMenuKeys $greetingsMenuKeys)
@@ -355,21 +418,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGreetingsMenuKeys()
+    {
+        $this->greetingsMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceGreetingMenuKeys
      *
-     * @ElementName conferenceGreetingMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMenuKeys
      */
     public function getConferenceGreetingMenuKeys()
     {
-        return $this->conferenceGreetingMenuKeys;
+        return $this->conferenceGreetingMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceGreetingMenuKeys;
     }
 
     /**
      * Setter for conferenceGreetingMenuKeys
      *
-     * @ElementName conferenceGreetingMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMenuKeys|null $conferenceGreetingMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMenuKeys $conferenceGreetingMenuKeys
      * @return $this
      */
     public function setConferenceGreetingMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ConferenceGreetingMenuKeys $conferenceGreetingMenuKeys)
@@ -379,21 +449,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceGreetingMenuKeys()
+    {
+        $this->conferenceGreetingMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessagingMenuKeys
      *
-     * @ElementName voiceMessagingMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoiceMessagingMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoiceMessagingMenuKeys
      */
     public function getVoiceMessagingMenuKeys()
     {
-        return $this->voiceMessagingMenuKeys;
+        return $this->voiceMessagingMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessagingMenuKeys;
     }
 
     /**
      * Setter for voiceMessagingMenuKeys
      *
-     * @ElementName voiceMessagingMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoiceMessagingMenuKeys|null $voiceMessagingMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoiceMessagingMenuKeys $voiceMessagingMenuKeys
      * @return $this
      */
     public function setVoiceMessagingMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoiceMessagingMenuKeys $voiceMessagingMenuKeys)
@@ -403,21 +480,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessagingMenuKeys()
+    {
+        $this->voiceMessagingMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for playGreetingMenuKeys
      *
-     * @ElementName playGreetingMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys
      */
     public function getPlayGreetingMenuKeys()
     {
-        return $this->playGreetingMenuKeys;
+        return $this->playGreetingMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playGreetingMenuKeys;
     }
 
     /**
      * Setter for playGreetingMenuKeys
      *
-     * @ElementName playGreetingMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys|null $playGreetingMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys $playGreetingMenuKeys
      * @return $this
      */
     public function setPlayGreetingMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayGreetingMenuKeys $playGreetingMenuKeys)
@@ -427,21 +511,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayGreetingMenuKeys()
+    {
+        $this->playGreetingMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeBusyOrNoAnswerGreetingMenuKeys
      *
-     * @ElementName changeBusyOrNoAnswerGreetingMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys
      */
     public function getChangeBusyOrNoAnswerGreetingMenuKeys()
     {
-        return $this->changeBusyOrNoAnswerGreetingMenuKeys;
+        return $this->changeBusyOrNoAnswerGreetingMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeBusyOrNoAnswerGreetingMenuKeys;
     }
 
     /**
      * Setter for changeBusyOrNoAnswerGreetingMenuKeys
      *
-     * @ElementName changeBusyOrNoAnswerGreetingMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys|null $changeBusyOrNoAnswerGreetingMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys $changeBusyOrNoAnswerGreetingMenuKeys
      * @return $this
      */
     public function setChangeBusyOrNoAnswerGreetingMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys $changeBusyOrNoAnswerGreetingMenuKeys)
@@ -451,21 +542,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeBusyOrNoAnswerGreetingMenuKeys()
+    {
+        $this->changeBusyOrNoAnswerGreetingMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeExtendedAwayGreetingMenuKeys
      *
-     * @ElementName changeExtendedAwayGreetingMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGreetingMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGreetingMenuKeys
      */
     public function getChangeExtendedAwayGreetingMenuKeys()
     {
-        return $this->changeExtendedAwayGreetingMenuKeys;
+        return $this->changeExtendedAwayGreetingMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeExtendedAwayGreetingMenuKeys;
     }
 
     /**
      * Setter for changeExtendedAwayGreetingMenuKeys
      *
-     * @ElementName changeExtendedAwayGreetingMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGreetingMenuKeys|null $changeExtendedAwayGreetingMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGreetingMenuKeys $changeExtendedAwayGreetingMenuKeys
      * @return $this
      */
     public function setChangeExtendedAwayGreetingMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeExtendedAwayGreetingMenuKeys $changeExtendedAwayGreetingMenuKeys)
@@ -475,21 +573,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeExtendedAwayGreetingMenuKeys()
+    {
+        $this->changeExtendedAwayGreetingMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for recordNewGreetingOrPersonalizedNameMenuKeys
      *
-     * @ElementName recordNewGreetingOrPersonalizedNameMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21RecordNewGreetingOrPersonalizedNameMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21RecordNewGreetingOrPersonalizedNameMenuKeys
      */
     public function getRecordNewGreetingOrPersonalizedNameMenuKeys()
     {
-        return $this->recordNewGreetingOrPersonalizedNameMenuKeys;
+        return $this->recordNewGreetingOrPersonalizedNameMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordNewGreetingOrPersonalizedNameMenuKeys;
     }
 
     /**
      * Setter for recordNewGreetingOrPersonalizedNameMenuKeys
      *
-     * @ElementName recordNewGreetingOrPersonalizedNameMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21RecordNewGreetingOrPersonalizedNameMenuKeys|null $recordNewGreetingOrPersonalizedNameMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21RecordNewGreetingOrPersonalizedNameMenuKeys $recordNewGreetingOrPersonalizedNameMenuKeys
      * @return $this
      */
     public function setRecordNewGreetingOrPersonalizedNameMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21RecordNewGreetingOrPersonalizedNameMenuKeys $recordNewGreetingOrPersonalizedNameMenuKeys)
@@ -499,21 +604,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecordNewGreetingOrPersonalizedNameMenuKeys()
+    {
+        $this->recordNewGreetingOrPersonalizedNameMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for deleteAllMessagesMenuKeys
      *
-     * @ElementName deleteAllMessagesMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DeleteAllMessagesMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DeleteAllMessagesMenuKeys
      */
     public function getDeleteAllMessagesMenuKeys()
     {
-        return $this->deleteAllMessagesMenuKeys;
+        return $this->deleteAllMessagesMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteAllMessagesMenuKeys;
     }
 
     /**
      * Setter for deleteAllMessagesMenuKeys
      *
-     * @ElementName deleteAllMessagesMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DeleteAllMessagesMenuKeys|null $deleteAllMessagesMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DeleteAllMessagesMenuKeys $deleteAllMessagesMenuKeys
      * @return $this
      */
     public function setDeleteAllMessagesMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DeleteAllMessagesMenuKeys $deleteAllMessagesMenuKeys)
@@ -523,21 +635,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeleteAllMessagesMenuKeys()
+    {
+        $this->deleteAllMessagesMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for commPilotExpressProfileMenuKeys
      *
-     * @ElementName commPilotExpressProfileMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProfileMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProfileMenuKeys
      */
     public function getCommPilotExpressProfileMenuKeys()
     {
-        return $this->commPilotExpressProfileMenuKeys;
+        return $this->commPilotExpressProfileMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->commPilotExpressProfileMenuKeys;
     }
 
     /**
      * Setter for commPilotExpressProfileMenuKeys
      *
-     * @ElementName commPilotExpressProfileMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProfileMenuKeys|null $commPilotExpressProfileMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProfileMenuKeys $commPilotExpressProfileMenuKeys
      * @return $this
      */
     public function setCommPilotExpressProfileMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CommPilotExpressProfileMenuKeys $commPilotExpressProfileMenuKeys)
@@ -547,21 +666,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCommPilotExpressProfileMenuKeys()
+    {
+        $this->commPilotExpressProfileMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalizedNameMenuKeys
      *
-     * @ElementName personalizedNameMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenuKeys
      */
     public function getPersonalizedNameMenuKeys()
     {
-        return $this->personalizedNameMenuKeys;
+        return $this->personalizedNameMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedNameMenuKeys;
     }
 
     /**
      * Setter for personalizedNameMenuKeys
      *
-     * @ElementName personalizedNameMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenuKeys|null $personalizedNameMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenuKeys $personalizedNameMenuKeys
      * @return $this
      */
     public function setPersonalizedNameMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalizedNameMenuKeys $personalizedNameMenuKeys)
@@ -571,21 +697,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalizedNameMenuKeys()
+    {
+        $this->personalizedNameMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for callForwardingOptionsMenuKeys
      *
-     * @ElementName callForwardingOptionsMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOptionsMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOptionsMenuKeys
      */
     public function getCallForwardingOptionsMenuKeys()
     {
-        return $this->callForwardingOptionsMenuKeys;
+        return $this->callForwardingOptionsMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callForwardingOptionsMenuKeys;
     }
 
     /**
      * Setter for callForwardingOptionsMenuKeys
      *
-     * @ElementName callForwardingOptionsMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOptionsMenuKeys|null $callForwardingOptionsMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOptionsMenuKeys $callForwardingOptionsMenuKeys
      * @return $this
      */
     public function setCallForwardingOptionsMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOptionsMenuKeys $callForwardingOptionsMenuKeys)
@@ -595,21 +728,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallForwardingOptionsMenuKeys()
+    {
+        $this->callForwardingOptionsMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeCallForwardingDestinationMenuKeys
      *
-     * @ElementName changeCallForwardingDestinationMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCallForwardingDestinationMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCallForwardingDestinationMenuKeys
      */
     public function getChangeCallForwardingDestinationMenuKeys()
     {
-        return $this->changeCallForwardingDestinationMenuKeys;
+        return $this->changeCallForwardingDestinationMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeCallForwardingDestinationMenuKeys;
     }
 
     /**
      * Setter for changeCallForwardingDestinationMenuKeys
      *
-     * @ElementName changeCallForwardingDestinationMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCallForwardingDestinationMenuKeys|null $changeCallForwardingDestinationMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCallForwardingDestinationMenuKeys $changeCallForwardingDestinationMenuKeys
      * @return $this
      */
     public function setChangeCallForwardingDestinationMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCallForwardingDestinationMenuKeys $changeCallForwardingDestinationMenuKeys)
@@ -619,21 +759,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeCallForwardingDestinationMenuKeys()
+    {
+        $this->changeCallForwardingDestinationMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalCallingMenuKeys
      *
-     * @ElementName voicePortalCallingMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalCallingMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalCallingMenuKeys
      */
     public function getVoicePortalCallingMenuKeys()
     {
-        return $this->voicePortalCallingMenuKeys;
+        return $this->voicePortalCallingMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalCallingMenuKeys;
     }
 
     /**
      * Setter for voicePortalCallingMenuKeys
      *
-     * @ElementName voicePortalCallingMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalCallingMenuKeys|null $voicePortalCallingMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalCallingMenuKeys $voicePortalCallingMenuKeys
      * @return $this
      */
     public function setVoicePortalCallingMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalCallingMenuKeys $voicePortalCallingMenuKeys)
@@ -643,21 +790,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalCallingMenuKeys()
+    {
+        $this->voicePortalCallingMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for hotelingMenuKeys
      *
-     * @ElementName hotelingMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21HotelingMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21HotelingMenuKeys
      */
     public function getHotelingMenuKeys()
     {
-        return $this->hotelingMenuKeys;
+        return $this->hotelingMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hotelingMenuKeys;
     }
 
     /**
      * Setter for hotelingMenuKeys
      *
-     * @ElementName hotelingMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21HotelingMenuKeys|null $hotelingMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21HotelingMenuKeys $hotelingMenuKeys
      * @return $this
      */
     public function setHotelingMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21HotelingMenuKeys $hotelingMenuKeys)
@@ -667,21 +821,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHotelingMenuKeys()
+    {
+        $this->hotelingMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for passcodeMenuKeys
      *
-     * @ElementName passcodeMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys
      */
     public function getPasscodeMenuKeys()
     {
-        return $this->passcodeMenuKeys;
+        return $this->passcodeMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcodeMenuKeys;
     }
 
     /**
      * Setter for passcodeMenuKeys
      *
-     * @ElementName passcodeMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys|null $passcodeMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys $passcodeMenuKeys
      * @return $this
      */
     public function setPasscodeMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys $passcodeMenuKeys)
@@ -691,21 +852,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasscodeMenuKeys()
+    {
+        $this->passcodeMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for playMessagesMenuKeys
      *
-     * @ElementName playMessagesMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys
      */
     public function getPlayMessagesMenuKeys()
     {
-        return $this->playMessagesMenuKeys;
+        return $this->playMessagesMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playMessagesMenuKeys;
     }
 
     /**
      * Setter for playMessagesMenuKeys
      *
-     * @ElementName playMessagesMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys|null $playMessagesMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys $playMessagesMenuKeys
      * @return $this
      */
     public function setPlayMessagesMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessagesMenuKeys $playMessagesMenuKeys)
@@ -715,21 +883,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayMessagesMenuKeys()
+    {
+        $this->playMessagesMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for playMessageMenuKeys
      *
-     * @ElementName playMessageMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys
      */
     public function getPlayMessageMenuKeys()
     {
-        return $this->playMessageMenuKeys;
+        return $this->playMessageMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playMessageMenuKeys;
     }
 
     /**
      * Setter for playMessageMenuKeys
      *
-     * @ElementName playMessageMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys|null $playMessageMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys $playMessageMenuKeys
      * @return $this
      */
     public function setPlayMessageMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys $playMessageMenuKeys)
@@ -739,21 +914,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayMessageMenuKeys()
+    {
+        $this->playMessageMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for additionalMessageOptionsMenuKeys
      *
-     * @ElementName additionalMessageOptionsMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOptionsMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOptionsMenuKeys
      */
     public function getAdditionalMessageOptionsMenuKeys()
     {
-        return $this->additionalMessageOptionsMenuKeys;
+        return $this->additionalMessageOptionsMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->additionalMessageOptionsMenuKeys;
     }
 
     /**
      * Setter for additionalMessageOptionsMenuKeys
      *
-     * @ElementName additionalMessageOptionsMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOptionsMenuKeys|null $additionalMessageOptionsMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOptionsMenuKeys $additionalMessageOptionsMenuKeys
      * @return $this
      */
     public function setAdditionalMessageOptionsMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21AdditionalMessageOptionsMenuKeys $additionalMessageOptionsMenuKeys)
@@ -763,21 +945,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAdditionalMessageOptionsMenuKeys()
+    {
+        $this->additionalMessageOptionsMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardOrComposeMessageMenuKeys
      *
-     * @ElementName forwardOrComposeMessageMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMessageMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMessageMenuKeys
      */
     public function getForwardOrComposeMessageMenuKeys()
     {
-        return $this->forwardOrComposeMessageMenuKeys;
+        return $this->forwardOrComposeMessageMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardOrComposeMessageMenuKeys;
     }
 
     /**
      * Setter for forwardOrComposeMessageMenuKeys
      *
-     * @ElementName forwardOrComposeMessageMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMessageMenuKeys|null $forwardOrComposeMessageMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMessageMenuKeys $forwardOrComposeMessageMenuKeys
      * @return $this
      */
     public function setForwardOrComposeMessageMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ForwardOrComposeMessageMenuKeys $forwardOrComposeMessageMenuKeys)
@@ -787,21 +976,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForwardOrComposeMessageMenuKeys()
+    {
+        $this->forwardOrComposeMessageMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for replyMessageMenuKeys
      *
-     * @ElementName replyMessageMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys
      */
     public function getReplyMessageMenuKeys()
     {
-        return $this->replyMessageMenuKeys;
+        return $this->replyMessageMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->replyMessageMenuKeys;
     }
 
     /**
      * Setter for replyMessageMenuKeys
      *
-     * @ElementName replyMessageMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys|null $replyMessageMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys $replyMessageMenuKeys
      * @return $this
      */
     public function setReplyMessageMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReplyMessageMenuKeys $replyMessageMenuKeys)
@@ -811,21 +1007,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReplyMessageMenuKeys()
+    {
+        $this->replyMessageMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendToDistributionListMenuKeys
      *
-     * @ElementName sendToDistributionListMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys
      */
     public function getSendToDistributionListMenuKeys()
     {
-        return $this->sendToDistributionListMenuKeys;
+        return $this->sendToDistributionListMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendToDistributionListMenuKeys;
     }
 
     /**
      * Setter for sendToDistributionListMenuKeys
      *
-     * @ElementName sendToDistributionListMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys|null $sendToDistributionListMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys $sendToDistributionListMenuKeys
      * @return $this
      */
     public function setSendToDistributionListMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToDistributionListMenuKeys $sendToDistributionListMenuKeys)
@@ -835,21 +1038,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendToDistributionListMenuKeys()
+    {
+        $this->sendToDistributionListMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for selectDistributionListMenuKeys
      *
-     * @ElementName selectDistributionListMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionListMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionListMenuKeys
      */
     public function getSelectDistributionListMenuKeys()
     {
-        return $this->selectDistributionListMenuKeys;
+        return $this->selectDistributionListMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->selectDistributionListMenuKeys;
     }
 
     /**
      * Setter for selectDistributionListMenuKeys
      *
-     * @ElementName selectDistributionListMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionListMenuKeys|null $selectDistributionListMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionListMenuKeys $selectDistributionListMenuKeys
      * @return $this
      */
     public function setSelectDistributionListMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SelectDistributionListMenuKeys $selectDistributionListMenuKeys)
@@ -859,21 +1069,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSelectDistributionListMenuKeys()
+    {
+        $this->selectDistributionListMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for reviewSelectedDistributionListMenuKeys
      *
-     * @ElementName reviewSelectedDistributionListMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReviewSelectedDistributionListMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReviewSelectedDistributionListMenuKeys
      */
     public function getReviewSelectedDistributionListMenuKeys()
     {
-        return $this->reviewSelectedDistributionListMenuKeys;
+        return $this->reviewSelectedDistributionListMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reviewSelectedDistributionListMenuKeys;
     }
 
     /**
      * Setter for reviewSelectedDistributionListMenuKeys
      *
-     * @ElementName reviewSelectedDistributionListMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReviewSelectedDistributionListMenuKeys|null $reviewSelectedDistributionListMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReviewSelectedDistributionListMenuKeys $reviewSelectedDistributionListMenuKeys
      * @return $this
      */
     public function setReviewSelectedDistributionListMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ReviewSelectedDistributionListMenuKeys $reviewSelectedDistributionListMenuKeys)
@@ -883,21 +1100,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReviewSelectedDistributionListMenuKeys()
+    {
+        $this->reviewSelectedDistributionListMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendMessageToSelectedDistributionListMenuKeys
      *
-     * @ElementName sendMessageToSelectedDistributionListMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendMessageToSelectedDistributionListMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendMessageToSelectedDistributionListMenuKeys
      */
     public function getSendMessageToSelectedDistributionListMenuKeys()
     {
-        return $this->sendMessageToSelectedDistributionListMenuKeys;
+        return $this->sendMessageToSelectedDistributionListMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendMessageToSelectedDistributionListMenuKeys;
     }
 
     /**
      * Setter for sendMessageToSelectedDistributionListMenuKeys
      *
-     * @ElementName sendMessageToSelectedDistributionListMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendMessageToSelectedDistributionListMenuKeys|null $sendMessageToSelectedDistributionListMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendMessageToSelectedDistributionListMenuKeys $sendMessageToSelectedDistributionListMenuKeys
      * @return $this
      */
     public function setSendMessageToSelectedDistributionListMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendMessageToSelectedDistributionListMenuKeys $sendMessageToSelectedDistributionListMenuKeys)
@@ -907,21 +1131,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendMessageToSelectedDistributionListMenuKeys()
+    {
+        $this->sendMessageToSelectedDistributionListMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendToAllGroupMembersMenuKeys
      *
-     * @ElementName sendToAllGroupMembersMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToAllGroupMembersMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToAllGroupMembersMenuKeys
      */
     public function getSendToAllGroupMembersMenuKeys()
     {
-        return $this->sendToAllGroupMembersMenuKeys;
+        return $this->sendToAllGroupMembersMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendToAllGroupMembersMenuKeys;
     }
 
     /**
      * Setter for sendToAllGroupMembersMenuKeys
      *
-     * @ElementName sendToAllGroupMembersMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToAllGroupMembersMenuKeys|null $sendToAllGroupMembersMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToAllGroupMembersMenuKeys $sendToAllGroupMembersMenuKeys
      * @return $this
      */
     public function setSendToAllGroupMembersMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToAllGroupMembersMenuKeys $sendToAllGroupMembersMenuKeys)
@@ -931,21 +1162,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendToAllGroupMembersMenuKeys()
+    {
+        $this->sendToAllGroupMembersMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendToPersonMenuKeys
      *
-     * @ElementName sendToPersonMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys
      */
     public function getSendToPersonMenuKeys()
     {
-        return $this->sendToPersonMenuKeys;
+        return $this->sendToPersonMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendToPersonMenuKeys;
     }
 
     /**
      * Setter for sendToPersonMenuKeys
      *
-     * @ElementName sendToPersonMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys|null $sendToPersonMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys $sendToPersonMenuKeys
      * @return $this
      */
     public function setSendToPersonMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21SendToPersonMenuKeys $sendToPersonMenuKeys)
@@ -955,21 +1193,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendToPersonMenuKeys()
+    {
+        $this->sendToPersonMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeCurrentIntroductionOrMessageOrReplyMenuKeys
      *
-     * @ElementName changeCurrentIntroductionOrMessageOrReplyMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCurrentIntroductionOrMessageOrReplyMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCurrentIntroductionOrMessageOrReplyMenuKeys
      */
     public function getChangeCurrentIntroductionOrMessageOrReplyMenuKeys()
     {
-        return $this->changeCurrentIntroductionOrMessageOrReplyMenuKeys;
+        return $this->changeCurrentIntroductionOrMessageOrReplyMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeCurrentIntroductionOrMessageOrReplyMenuKeys;
     }
 
     /**
      * Setter for changeCurrentIntroductionOrMessageOrReplyMenuKeys
      *
-     * @ElementName changeCurrentIntroductionOrMessageOrReplyMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCurrentIntroductionOrMessageOrReplyMenuKeys|null $changeCurrentIntroductionOrMessageOrReplyMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCurrentIntroductionOrMessageOrReplyMenuKeys $changeCurrentIntroductionOrMessageOrReplyMenuKeys
      * @return $this
      */
     public function setChangeCurrentIntroductionOrMessageOrReplyMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeCurrentIntroductionOrMessageOrReplyMenuKeys $changeCurrentIntroductionOrMessageOrReplyMenuKeys)
@@ -979,21 +1224,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeCurrentIntroductionOrMessageOrReplyMenuKeys()
+    {
+        $this->changeCurrentIntroductionOrMessageOrReplyMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalLoginMenuKeys
      *
-     * @ElementName voicePortalLoginMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalLoginMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalLoginMenuKeys
      */
     public function getVoicePortalLoginMenuKeys()
     {
-        return $this->voicePortalLoginMenuKeys;
+        return $this->voicePortalLoginMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalLoginMenuKeys;
     }
 
     /**
      * Setter for voicePortalLoginMenuKeys
      *
-     * @ElementName voicePortalLoginMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalLoginMenuKeys|null $voicePortalLoginMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalLoginMenuKeys $voicePortalLoginMenuKeys
      * @return $this
      */
     public function setVoicePortalLoginMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21VoicePortalLoginMenuKeys $voicePortalLoginMenuKeys)
@@ -1003,21 +1255,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalLoginMenuKeys()
+    {
+        $this->voicePortalLoginMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for faxMessagingMenuKeys
      *
-     * @ElementName faxMessagingMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21FaxMessagingMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21FaxMessagingMenuKeys
      */
     public function getFaxMessagingMenuKeys()
     {
-        return $this->faxMessagingMenuKeys;
+        return $this->faxMessagingMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->faxMessagingMenuKeys;
     }
 
     /**
      * Setter for faxMessagingMenuKeys
      *
-     * @ElementName faxMessagingMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21FaxMessagingMenuKeys|null $faxMessagingMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21FaxMessagingMenuKeys $faxMessagingMenuKeys
      * @return $this
      */
     public function setFaxMessagingMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21FaxMessagingMenuKeys $faxMessagingMenuKeys)
@@ -1027,21 +1286,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFaxMessagingMenuKeys()
+    {
+        $this->faxMessagingMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for messageDepositMenuKeys
      *
-     * @ElementName messageDepositMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKeys
      */
     public function getMessageDepositMenuKeys()
     {
-        return $this->messageDepositMenuKeys;
+        return $this->messageDepositMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->messageDepositMenuKeys;
     }
 
     /**
      * Setter for messageDepositMenuKeys
      *
-     * @ElementName messageDepositMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKeys|null $messageDepositMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKeys $messageDepositMenuKeys
      * @return $this
      */
     public function setMessageDepositMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21MessageDepositMenuKeys $messageDepositMenuKeys)
@@ -1051,21 +1317,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMessageDepositMenuKeys()
+    {
+        $this->messageDepositMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for disableMessageDepositMenuKeys
      *
-     * @ElementName disableMessageDepositMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DisableMessageDepositMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DisableMessageDepositMenuKeys
      */
     public function getDisableMessageDepositMenuKeys()
     {
-        return $this->disableMessageDepositMenuKeys;
+        return $this->disableMessageDepositMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableMessageDepositMenuKeys;
     }
 
     /**
      * Setter for disableMessageDepositMenuKeys
      *
-     * @ElementName disableMessageDepositMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DisableMessageDepositMenuKeys|null $disableMessageDepositMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DisableMessageDepositMenuKeys $disableMessageDepositMenuKeys
      * @return $this
      */
     public function setDisableMessageDepositMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21DisableMessageDepositMenuKeys $disableMessageDepositMenuKeys)
@@ -1075,21 +1348,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisableMessageDepositMenuKeys()
+    {
+        $this->disableMessageDepositMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for greetingOnlyForwardingDestinationMenuKeys
      *
-     * @ElementName greetingOnlyForwardingDestinationMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingOnlyForwardingDestinationMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingOnlyForwardingDestinationMenuKeys
      */
     public function getGreetingOnlyForwardingDestinationMenuKeys()
     {
-        return $this->greetingOnlyForwardingDestinationMenuKeys;
+        return $this->greetingOnlyForwardingDestinationMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->greetingOnlyForwardingDestinationMenuKeys;
     }
 
     /**
      * Setter for greetingOnlyForwardingDestinationMenuKeys
      *
-     * @ElementName greetingOnlyForwardingDestinationMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingOnlyForwardingDestinationMenuKeys|null $greetingOnlyForwardingDestinationMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingOnlyForwardingDestinationMenuKeys $greetingOnlyForwardingDestinationMenuKeys
      * @return $this
      */
     public function setGreetingOnlyForwardingDestinationMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21GreetingOnlyForwardingDestinationMenuKeys $greetingOnlyForwardingDestinationMenuKeys)
@@ -1099,26 +1379,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21 extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGreetingOnlyForwardingDestinationMenuKeys()
+    {
+        $this->greetingOnlyForwardingDestinationMenuKeys = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalAssistantMenuKeys
      *
-     * @ElementName personalAssistantMenuKeys
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys
      */
     public function getPersonalAssistantMenuKeys()
     {
-        return $this->personalAssistantMenuKeys;
+        return $this->personalAssistantMenuKeys instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalAssistantMenuKeys;
     }
 
     /**
      * Setter for personalAssistantMenuKeys
      *
-     * @ElementName personalAssistantMenuKeys
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys|null $personalAssistantMenuKeys
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys $personalAssistantMenuKeys
      * @return $this
      */
     public function setPersonalAssistantMenuKeys(\CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys $personalAssistantMenuKeys)
     {
         $this->personalAssistantMenuKeys = $personalAssistantMenuKeys;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPersonalAssistantMenuKeys()
+    {
+        $this->personalAssistantMenuKeys = null;
         return $this;
     }
 

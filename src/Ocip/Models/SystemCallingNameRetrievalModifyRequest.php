@@ -19,12 +19,14 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName queryTimerMilliSeconds
+     * @Type int
      * @var int|null
      */
     private $queryTimerMilliSeconds = null;
 
     /**
      * @ElementName serverNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -32,6 +34,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serverPort
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -39,6 +42,7 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serverTransportProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $serverTransportProtocol = null;
@@ -46,19 +50,17 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for queryTimerMilliSeconds
      *
-     * @ElementName queryTimerMilliSeconds
-     * @return int|null
+     * @return int
      */
     public function getQueryTimerMilliSeconds()
     {
-        return $this->queryTimerMilliSeconds;
+        return $this->queryTimerMilliSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->queryTimerMilliSeconds;
     }
 
     /**
      * Setter for queryTimerMilliSeconds
      *
-     * @ElementName queryTimerMilliSeconds
-     * @param int|null $queryTimerMilliSeconds
+     * @param int $queryTimerMilliSeconds
      * @return $this
      */
     public function setQueryTimerMilliSeconds($queryTimerMilliSeconds)
@@ -68,78 +70,112 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetQueryTimerMilliSeconds()
+    {
+        $this->queryTimerMilliSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for serverNetAddress
      *
-     * @ElementName serverNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getServerNetAddress()
     {
-        return $this->serverNetAddress;
+        return $this->serverNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serverNetAddress;
     }
 
     /**
      * Setter for serverNetAddress
      *
-     * @ElementName serverNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serverNetAddress
+     * @param string|null $serverNetAddress
      * @return $this
      */
     public function setServerNetAddress($serverNetAddress)
     {
-        $this->serverNetAddress = $serverNetAddress;
+        if ($serverNetAddress === null) {
+            $this->serverNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serverNetAddress = $serverNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServerNetAddress()
+    {
+        $this->serverNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for serverPort
      *
-     * @ElementName serverPort
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getServerPort()
     {
-        return $this->serverPort;
+        return $this->serverPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serverPort;
     }
 
     /**
      * Setter for serverPort
      *
-     * @ElementName serverPort
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $serverPort
+     * @param int|null $serverPort
      * @return $this
      */
     public function setServerPort($serverPort)
     {
-        $this->serverPort = $serverPort;
+        if ($serverPort === null) {
+            $this->serverPort = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serverPort = $serverPort;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServerPort()
+    {
+        $this->serverPort = null;
         return $this;
     }
 
     /**
      * Getter for serverTransportProtocol
      *
-     * @ElementName serverTransportProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      */
     public function getServerTransportProtocol()
     {
-        return $this->serverTransportProtocol;
+        return $this->serverTransportProtocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serverTransportProtocol;
     }
 
     /**
      * Setter for serverTransportProtocol
      *
-     * @ElementName serverTransportProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $serverTransportProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $serverTransportProtocol
      * @return $this
      */
     public function setServerTransportProtocol(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $serverTransportProtocol)
     {
         $this->serverTransportProtocol = $serverTransportProtocol;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServerTransportProtocol()
+    {
+        $this->serverTransportProtocol = null;
         return $this;
     }
 

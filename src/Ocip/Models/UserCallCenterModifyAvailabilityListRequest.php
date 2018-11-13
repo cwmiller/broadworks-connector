@@ -20,12 +20,15 @@ class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName callCenterAvailability
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability[]
      */
     private $callCenterAvailability = array(
@@ -35,19 +38,17 @@ class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,20 +58,27 @@ class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCenterAvailability
      *
-     * @ElementName callCenterAvailability
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability[]
      */
     public function getCallCenterAvailability()
     {
-        return $this->callCenterAvailability;
+        return $this->callCenterAvailability instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenterAvailability;
     }
 
     /**
      * Setter for callCenterAvailability
      *
-     * @ElementName callCenterAvailability
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability[] $callCenterAvailability
      * @return $this
      */
@@ -81,15 +89,23 @@ class UserCallCenterModifyAvailabilityListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallCenterAvailability()
+    {
+        $this->callCenterAvailability = null;
+        return $this;
+    }
+
+    /**
      * Adder for callCenterAvailability
      *
-     * @ElementName callCenterAvailability
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentAvailability $callCenterAvailability
      * @return $this
      */
     public function addCallCenterAvailability($callCenterAvailability)
     {
-        $this->callCenterAvailability []= $callCenterAvailability;
+        $this->callCenterAvailability[] = $callCenterAvailability;
         return $this;
     }
 

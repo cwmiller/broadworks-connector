@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EmergencyZonesProhibition
  * PROHIBIT_ALL_REGISTRATIONS_AND_CALL_ORIGINATIONS()
  * @method static EmergencyZonesProhibition PROHIBIT_EMERGENCY_CALL_ORIGINATIONS()
- * @ValueType string
+ * @EnumValueType string
  */
 class EmergencyZonesProhibition extends \MyCLabs\Enum\Enum
 {

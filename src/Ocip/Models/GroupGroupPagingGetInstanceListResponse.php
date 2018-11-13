@@ -18,6 +18,7 @@ class GroupGroupPagingGetInstanceListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName pagingGroupTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $pagingGroupTable = null;
@@ -25,24 +26,31 @@ class GroupGroupPagingGetInstanceListResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for pagingGroupTable
      *
-     * @ElementName pagingGroupTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getPagingGroupTable()
     {
-        return $this->pagingGroupTable;
+        return $this->pagingGroupTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pagingGroupTable;
     }
 
     /**
      * Setter for pagingGroupTable
      *
-     * @ElementName pagingGroupTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $pagingGroupTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $pagingGroupTable
      * @return $this
      */
     public function setPagingGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $pagingGroupTable)
     {
         $this->pagingGroupTable = $pagingGroupTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPagingGroupTable()
+    {
+        $this->pagingGroupTable = null;
         return $this;
     }
 

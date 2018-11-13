@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceProviderAdminAccessDeviceAccess
  * ASSOCIATE_USER_WITH_DEVICE()
  * @method static ServiceProviderAdminAccessDeviceAccess READ_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminAccessDeviceAccess extends \MyCLabs\Enum\Enum
 {

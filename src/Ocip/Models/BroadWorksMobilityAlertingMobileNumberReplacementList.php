@@ -13,6 +13,8 @@ class BroadWorksMobilityAlertingMobileNumberReplacementList
 
     /**
      * @ElementName mobileNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $mobileNumber = array(
@@ -22,18 +24,16 @@ class BroadWorksMobilityAlertingMobileNumberReplacementList
     /**
      * Getter for mobileNumber
      *
-     * @ElementName mobileNumber
      * @return string[]
      */
     public function getMobileNumber()
     {
-        return $this->mobileNumber;
+        return $this->mobileNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileNumber;
     }
 
     /**
      * Setter for mobileNumber
      *
-     * @ElementName mobileNumber
      * @param string[] $mobileNumber
      * @return $this
      */
@@ -44,15 +44,23 @@ class BroadWorksMobilityAlertingMobileNumberReplacementList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileNumber()
+    {
+        $this->mobileNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for mobileNumber
      *
-     * @ElementName mobileNumber
      * @param string $mobileNumber
      * @return $this
      */
     public function addMobileNumber(string $mobileNumber)
     {
-        $this->mobileNumber []= $mobileNumber;
+        $this->mobileNumber[] = $mobileNumber;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ExternalCustomRingbackSettingLevel SERVICE_PROVIDER()
  * @method static ExternalCustomRingbackSettingLevel USER()
- * @ValueType string
+ * @EnumValueType string
  */
 class ExternalCustomRingbackSettingLevel extends \MyCLabs\Enum\Enum
 {

@@ -13,12 +13,14 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowPermission
 
     /**
      * @ElementName digitPatternName
+     * @Type string
      * @var string|null
      */
     private $digitPatternName = null;
 
     /**
      * @ElementName permission
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission|null
      */
     private $permission = null;
@@ -26,19 +28,17 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowPermission
     /**
      * Getter for digitPatternName
      *
-     * @ElementName digitPatternName
-     * @return string|null
+     * @return string
      */
     public function getDigitPatternName()
     {
-        return $this->digitPatternName;
+        return $this->digitPatternName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPatternName;
     }
 
     /**
      * Setter for digitPatternName
      *
-     * @ElementName digitPatternName
-     * @param string|null $digitPatternName
+     * @param string $digitPatternName
      * @return $this
      */
     public function setDigitPatternName($digitPatternName)
@@ -48,26 +48,42 @@ class OutgoingPinholeDigitPlanDigitPatternCallMeNowPermission
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPatternName()
+    {
+        $this->digitPatternName = null;
+        return $this;
+    }
+
+    /**
      * Getter for permission
      *
-     * @ElementName permission
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission
      */
     public function getPermission()
     {
-        return $this->permission;
+        return $this->permission instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->permission;
     }
 
     /**
      * Setter for permission
      *
-     * @ElementName permission
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission|null $permission
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission $permission
      * @return $this
      */
     public function setPermission(\CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanCallMeNowPermission $permission)
     {
         $this->permission = $permission;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPermission()
+    {
+        $this->permission = null;
         return $this;
     }
 

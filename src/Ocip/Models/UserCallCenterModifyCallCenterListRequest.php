@@ -16,12 +16,14 @@ class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName agentUserId
+     * @Type string
      * @var string|null
      */
     private $agentUserId = null;
 
     /**
      * @ElementName serviceUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
-     * @return string|null
+     * @return string
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
-     * @param string|null $agentUserId
+     * @param string $agentUserId
      * @return $this
      */
     public function setAgentUserId($agentUserId)
@@ -52,28 +52,46 @@ class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceUserIdList
      *
-     * @ElementName serviceUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getServiceUserIdList()
     {
-        return $this->serviceUserIdList;
+        return $this->serviceUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserIdList;
     }
 
     /**
      * Setter for serviceUserIdList
      *
-     * @ElementName serviceUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $serviceUserIdList
      * @return $this
      */
     public function setServiceUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $serviceUserIdList)
     {
-        $this->serviceUserIdList = $serviceUserIdList;
+        if ($serviceUserIdList === null) {
+            $this->serviceUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serviceUserIdList = $serviceUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceUserIdList()
+    {
+        $this->serviceUserIdList = null;
         return $this;
     }
 

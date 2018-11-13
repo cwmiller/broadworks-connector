@@ -18,12 +18,14 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName callCenterType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $callCenterType = null;
@@ -31,19 +33,17 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -53,26 +53,42 @@ class GroupCallCenterGetUnlicensedAgentListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCenterType
      *
-     * @ElementName callCenterType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
      */
     public function getCallCenterType()
     {
-        return $this->callCenterType;
+        return $this->callCenterType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenterType;
     }
 
     /**
      * Setter for callCenterType
      *
-     * @ElementName callCenterType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null $callCenterType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterType $callCenterType
      * @return $this
      */
     public function setCallCenterType(\CWM\BroadWorksConnector\Ocip\Models\CallCenterType $callCenterType)
     {
         $this->callCenterType = $callCenterType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallCenterType()
+    {
+        $this->callCenterType = null;
         return $this;
     }
 

@@ -16,36 +16,42 @@ class PasswordForUser
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName generatePassword
+     * @Type bool
      * @var bool|null
      */
     private $generatePassword = null;
 
     /**
      * @ElementName generatePasscode
+     * @Type bool
      * @var bool|null
      */
     private $generatePasscode = null;
 
     /**
      * @ElementName generateSipPassword
+     * @Type bool
      * @var bool|null
      */
     private $generateSipPassword = null;
@@ -53,19 +59,17 @@ class PasswordForUser
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -75,21 +79,28 @@ class PasswordForUser
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -99,21 +110,28 @@ class PasswordForUser
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -123,21 +141,28 @@ class PasswordForUser
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for generatePassword
      *
-     * @ElementName generatePassword
-     * @return bool|null
+     * @return bool
      */
     public function getGeneratePassword()
     {
-        return $this->generatePassword;
+        return $this->generatePassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->generatePassword;
     }
 
     /**
      * Setter for generatePassword
      *
-     * @ElementName generatePassword
-     * @param bool|null $generatePassword
+     * @param bool $generatePassword
      * @return $this
      */
     public function setGeneratePassword($generatePassword)
@@ -147,21 +172,28 @@ class PasswordForUser
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGeneratePassword()
+    {
+        $this->generatePassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for generatePasscode
      *
-     * @ElementName generatePasscode
-     * @return bool|null
+     * @return bool
      */
     public function getGeneratePasscode()
     {
-        return $this->generatePasscode;
+        return $this->generatePasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->generatePasscode;
     }
 
     /**
      * Setter for generatePasscode
      *
-     * @ElementName generatePasscode
-     * @param bool|null $generatePasscode
+     * @param bool $generatePasscode
      * @return $this
      */
     public function setGeneratePasscode($generatePasscode)
@@ -171,26 +203,42 @@ class PasswordForUser
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGeneratePasscode()
+    {
+        $this->generatePasscode = null;
+        return $this;
+    }
+
+    /**
      * Getter for generateSipPassword
      *
-     * @ElementName generateSipPassword
-     * @return bool|null
+     * @return bool
      */
     public function getGenerateSipPassword()
     {
-        return $this->generateSipPassword;
+        return $this->generateSipPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->generateSipPassword;
     }
 
     /**
      * Setter for generateSipPassword
      *
-     * @ElementName generateSipPassword
-     * @param bool|null $generateSipPassword
+     * @param bool $generateSipPassword
      * @return $this
      */
     public function setGenerateSipPassword($generateSipPassword)
     {
         $this->generateSipPassword = $generateSipPassword;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGenerateSipPassword()
+    {
+        $this->generateSipPassword = null;
         return $this;
     }
 

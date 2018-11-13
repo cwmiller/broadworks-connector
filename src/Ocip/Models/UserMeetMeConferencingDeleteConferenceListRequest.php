@@ -16,12 +16,15 @@ class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName conferenceKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey[]
      */
     private $conferenceKey = array(
@@ -31,19 +34,17 @@ class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksC
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceKey
      *
-     * @ElementName conferenceKey
      * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey[]
      */
     public function getConferenceKey()
     {
-        return $this->conferenceKey;
+        return $this->conferenceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceKey;
     }
 
     /**
      * Setter for conferenceKey
      *
-     * @ElementName conferenceKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey[] $conferenceKey
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserMeetMeConferencingDeleteConferenceListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceKey()
+    {
+        $this->conferenceKey = null;
+        return $this;
+    }
+
+    /**
      * Adder for conferenceKey
      *
-     * @ElementName conferenceKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey $conferenceKey
      * @return $this
      */
     public function addConferenceKey($conferenceKey)
     {
-        $this->conferenceKey []= $conferenceKey;
+        $this->conferenceKey[] = $conferenceKey;
         return $this;
     }
 

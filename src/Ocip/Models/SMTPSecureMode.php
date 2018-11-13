@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SMTPSecureMode DISABLED()
  * @method static SMTPSecureMode SMTPS()
  * @method static SMTPSecureMode STARTTLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class SMTPSecureMode extends \MyCLabs\Enum\Enum
 {

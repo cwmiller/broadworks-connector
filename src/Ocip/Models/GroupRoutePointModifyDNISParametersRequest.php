@@ -16,18 +16,21 @@ class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName displayDNISNumber
+     * @Type bool
      * @var bool|null
      */
     private $displayDNISNumber = null;
 
     /**
      * @ElementName displayDNISName
+     * @Type bool
      * @var bool|null
      */
     private $displayDNISName = null;
@@ -35,19 +38,17 @@ class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -57,21 +58,28 @@ class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for displayDNISNumber
      *
-     * @ElementName displayDNISNumber
-     * @return bool|null
+     * @return bool
      */
     public function getDisplayDNISNumber()
     {
-        return $this->displayDNISNumber;
+        return $this->displayDNISNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->displayDNISNumber;
     }
 
     /**
      * Setter for displayDNISNumber
      *
-     * @ElementName displayDNISNumber
-     * @param bool|null $displayDNISNumber
+     * @param bool $displayDNISNumber
      * @return $this
      */
     public function setDisplayDNISNumber($displayDNISNumber)
@@ -81,26 +89,42 @@ class GroupRoutePointModifyDNISParametersRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisplayDNISNumber()
+    {
+        $this->displayDNISNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for displayDNISName
      *
-     * @ElementName displayDNISName
-     * @return bool|null
+     * @return bool
      */
     public function getDisplayDNISName()
     {
-        return $this->displayDNISName;
+        return $this->displayDNISName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->displayDNISName;
     }
 
     /**
      * Setter for displayDNISName
      *
-     * @ElementName displayDNISName
-     * @param bool|null $displayDNISName
+     * @param bool $displayDNISName
      * @return $this
      */
     public function setDisplayDNISName($displayDNISName)
     {
         $this->displayDNISName = $displayDNISName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDisplayDNISName()
+    {
+        $this->displayDNISName = null;
         return $this;
     }
 

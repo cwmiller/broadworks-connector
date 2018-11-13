@@ -18,6 +18,7 @@ class UserPrivacyGetAvailableMonitorsUserListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName availableMonitorsTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableMonitorsTable = null;
@@ -25,24 +26,31 @@ class UserPrivacyGetAvailableMonitorsUserListResponse extends \CWM\BroadWorksCon
     /**
      * Getter for availableMonitorsTable
      *
-     * @ElementName availableMonitorsTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAvailableMonitorsTable()
     {
-        return $this->availableMonitorsTable;
+        return $this->availableMonitorsTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->availableMonitorsTable;
     }
 
     /**
      * Setter for availableMonitorsTable
      *
-     * @ElementName availableMonitorsTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $availableMonitorsTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableMonitorsTable
      * @return $this
      */
     public function setAvailableMonitorsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $availableMonitorsTable)
     {
         $this->availableMonitorsTable = $availableMonitorsTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAvailableMonitorsTable()
+    {
+        $this->availableMonitorsTable = null;
         return $this;
     }
 

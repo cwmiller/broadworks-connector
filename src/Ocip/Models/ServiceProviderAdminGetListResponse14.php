@@ -20,6 +20,7 @@ class ServiceProviderAdminGetListResponse14 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName serviceProviderAdminTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderAdminTable = null;
@@ -27,24 +28,31 @@ class ServiceProviderAdminGetListResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for serviceProviderAdminTable
      *
-     * @ElementName serviceProviderAdminTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServiceProviderAdminTable()
     {
-        return $this->serviceProviderAdminTable;
+        return $this->serviceProviderAdminTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderAdminTable;
     }
 
     /**
      * Setter for serviceProviderAdminTable
      *
-     * @ElementName serviceProviderAdminTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderAdminTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderAdminTable
      * @return $this
      */
     public function setServiceProviderAdminTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderAdminTable)
     {
         $this->serviceProviderAdminTable = $serviceProviderAdminTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceProviderAdminTable()
+    {
+        $this->serviceProviderAdminTable = null;
         return $this;
     }
 

@@ -18,6 +18,7 @@ class UserCallCenterGetSupervisorCallCenterListRequest extends \CWM\BroadWorksCo
 
     /**
      * @ElementName supervisorUserId
+     * @Type string
      * @var string|null
      */
     private $supervisorUserId = null;
@@ -25,24 +26,31 @@ class UserCallCenterGetSupervisorCallCenterListRequest extends \CWM\BroadWorksCo
     /**
      * Getter for supervisorUserId
      *
-     * @ElementName supervisorUserId
-     * @return string|null
+     * @return string
      */
     public function getSupervisorUserId()
     {
-        return $this->supervisorUserId;
+        return $this->supervisorUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supervisorUserId;
     }
 
     /**
      * Setter for supervisorUserId
      *
-     * @ElementName supervisorUserId
-     * @param string|null $supervisorUserId
+     * @param string $supervisorUserId
      * @return $this
      */
     public function setSupervisorUserId($supervisorUserId)
     {
         $this->supervisorUserId = $supervisorUserId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupervisorUserId()
+    {
+        $this->supervisorUserId = null;
         return $this;
     }
 

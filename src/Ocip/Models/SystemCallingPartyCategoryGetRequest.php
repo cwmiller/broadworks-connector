@@ -17,6 +17,7 @@ class SystemCallingPartyCategoryGetRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName category
+     * @Type string
      * @var string|null
      */
     private $category = null;
@@ -24,24 +25,31 @@ class SystemCallingPartyCategoryGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for category
      *
-     * @ElementName category
-     * @return string|null
+     * @return string
      */
     public function getCategory()
     {
-        return $this->category;
+        return $this->category instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->category;
     }
 
     /**
      * Setter for category
      *
-     * @ElementName category
-     * @param string|null $category
+     * @param string $category
      * @return $this
      */
     public function setCategory($category)
     {
         $this->category = $category;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCategory()
+    {
+        $this->category = null;
         return $this;
     }
 

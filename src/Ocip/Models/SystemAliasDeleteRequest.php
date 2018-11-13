@@ -16,6 +16,7 @@ class SystemAliasDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName aliasNetAddress
+     * @Type string
      * @var string|null
      */
     private $aliasNetAddress = null;
@@ -23,24 +24,31 @@ class SystemAliasDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * Getter for aliasNetAddress
      *
-     * @ElementName aliasNetAddress
-     * @return string|null
+     * @return string
      */
     public function getAliasNetAddress()
     {
-        return $this->aliasNetAddress;
+        return $this->aliasNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->aliasNetAddress;
     }
 
     /**
      * Setter for aliasNetAddress
      *
-     * @ElementName aliasNetAddress
-     * @param string|null $aliasNetAddress
+     * @param string $aliasNetAddress
      * @return $this
      */
     public function setAliasNetAddress($aliasNetAddress)
     {
         $this->aliasNetAddress = $aliasNetAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAliasNetAddress()
+    {
+        $this->aliasNetAddress = null;
         return $this;
     }
 

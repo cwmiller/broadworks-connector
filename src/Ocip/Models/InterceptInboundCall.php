@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static InterceptInboundCall INTERCEPT_ALL()
  * @method static InterceptInboundCall ALLOW_ALL()
  * @method static InterceptInboundCall ALLOW_SYSTEM_DNS()
- * @ValueType string
+ * @EnumValueType string
  */
 class InterceptInboundCall extends \MyCLabs\Enum\Enum
 {

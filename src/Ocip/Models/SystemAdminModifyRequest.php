@@ -19,12 +19,14 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName firstName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -32,6 +34,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName lastName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -39,12 +42,14 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName password
+     * @Type string
      * @var string|null
      */
     private $password = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
@@ -52,19 +57,17 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -74,73 +77,98 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $firstName
+     * @param string|null $firstName
      * @return $this
      */
     public function setFirstName($firstName)
     {
-        $this->firstName = $firstName;
+        if ($firstName === null) {
+            $this->firstName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->firstName = $firstName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
         return $this;
     }
 
     /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $lastName
+     * @param string|null $lastName
      * @return $this
      */
     public function setLastName($lastName)
     {
-        $this->lastName = $lastName;
+        if ($lastName === null) {
+            $this->lastName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->lastName = $lastName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
         return $this;
     }
 
     /**
      * Getter for password
      *
-     * @ElementName password
-     * @return string|null
+     * @return string
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param string|null $password
+     * @param string $password
      * @return $this
      */
     public function setPassword($password)
@@ -150,26 +178,42 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
     {
         $this->language = $language;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
         return $this;
     }
 

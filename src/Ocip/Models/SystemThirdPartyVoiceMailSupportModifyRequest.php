@@ -19,12 +19,14 @@ class SystemThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName overrideAltCallerIdForVMRetrieval
+     * @Type bool
      * @var bool|null
      */
     private $overrideAltCallerIdForVMRetrieval = null;
 
     /**
      * @ElementName stripDiversionOnVMDestinationRetrieval
+     * @Type bool
      * @var bool|null
      */
     private $stripDiversionOnVMDestinationRetrieval = null;
@@ -32,19 +34,17 @@ class SystemThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConne
     /**
      * Getter for overrideAltCallerIdForVMRetrieval
      *
-     * @ElementName overrideAltCallerIdForVMRetrieval
-     * @return bool|null
+     * @return bool
      */
     public function getOverrideAltCallerIdForVMRetrieval()
     {
-        return $this->overrideAltCallerIdForVMRetrieval;
+        return $this->overrideAltCallerIdForVMRetrieval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideAltCallerIdForVMRetrieval;
     }
 
     /**
      * Setter for overrideAltCallerIdForVMRetrieval
      *
-     * @ElementName overrideAltCallerIdForVMRetrieval
-     * @param bool|null $overrideAltCallerIdForVMRetrieval
+     * @param bool $overrideAltCallerIdForVMRetrieval
      * @return $this
      */
     public function setOverrideAltCallerIdForVMRetrieval($overrideAltCallerIdForVMRetrieval)
@@ -54,26 +54,42 @@ class SystemThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOverrideAltCallerIdForVMRetrieval()
+    {
+        $this->overrideAltCallerIdForVMRetrieval = null;
+        return $this;
+    }
+
+    /**
      * Getter for stripDiversionOnVMDestinationRetrieval
      *
-     * @ElementName stripDiversionOnVMDestinationRetrieval
-     * @return bool|null
+     * @return bool
      */
     public function getStripDiversionOnVMDestinationRetrieval()
     {
-        return $this->stripDiversionOnVMDestinationRetrieval;
+        return $this->stripDiversionOnVMDestinationRetrieval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->stripDiversionOnVMDestinationRetrieval;
     }
 
     /**
      * Setter for stripDiversionOnVMDestinationRetrieval
      *
-     * @ElementName stripDiversionOnVMDestinationRetrieval
-     * @param bool|null $stripDiversionOnVMDestinationRetrieval
+     * @param bool $stripDiversionOnVMDestinationRetrieval
      * @return $this
      */
     public function setStripDiversionOnVMDestinationRetrieval($stripDiversionOnVMDestinationRetrieval)
     {
         $this->stripDiversionOnVMDestinationRetrieval = $stripDiversionOnVMDestinationRetrieval;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStripDiversionOnVMDestinationRetrieval()
+    {
+        $this->stripDiversionOnVMDestinationRetrieval = null;
         return $this;
     }
 

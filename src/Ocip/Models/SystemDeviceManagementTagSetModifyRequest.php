@@ -16,12 +16,14 @@ class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName tagSetName
+     * @Type string
      * @var string|null
      */
     private $tagSetName = null;
 
     /**
      * @ElementName newTagSetName
+     * @Type string
      * @var string|null
      */
     private $newTagSetName = null;
@@ -29,19 +31,17 @@ class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for tagSetName
      *
-     * @ElementName tagSetName
-     * @return string|null
+     * @return string
      */
     public function getTagSetName()
     {
-        return $this->tagSetName;
+        return $this->tagSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagSetName;
     }
 
     /**
      * Setter for tagSetName
      *
-     * @ElementName tagSetName
-     * @param string|null $tagSetName
+     * @param string $tagSetName
      * @return $this
      */
     public function setTagSetName($tagSetName)
@@ -51,26 +51,42 @@ class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagSetName()
+    {
+        $this->tagSetName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newTagSetName
      *
-     * @ElementName newTagSetName
-     * @return string|null
+     * @return string
      */
     public function getNewTagSetName()
     {
-        return $this->newTagSetName;
+        return $this->newTagSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newTagSetName;
     }
 
     /**
      * Setter for newTagSetName
      *
-     * @ElementName newTagSetName
-     * @param string|null $newTagSetName
+     * @param string $newTagSetName
      * @return $this
      */
     public function setNewTagSetName($newTagSetName)
     {
         $this->newTagSetName = $newTagSetName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewTagSetName()
+    {
+        $this->newTagSetName = null;
         return $this;
     }
 

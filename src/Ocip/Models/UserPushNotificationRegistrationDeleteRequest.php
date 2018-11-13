@@ -16,6 +16,7 @@ class UserPushNotificationRegistrationDeleteRequest extends \CWM\BroadWorksConne
 
     /**
      * @ElementName registrationId
+     * @Type string
      * @var string|null
      */
     private $registrationId = null;
@@ -23,24 +24,31 @@ class UserPushNotificationRegistrationDeleteRequest extends \CWM\BroadWorksConne
     /**
      * Getter for registrationId
      *
-     * @ElementName registrationId
-     * @return string|null
+     * @return string
      */
     public function getRegistrationId()
     {
-        return $this->registrationId;
+        return $this->registrationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->registrationId;
     }
 
     /**
      * Setter for registrationId
      *
-     * @ElementName registrationId
-     * @param string|null $registrationId
+     * @param string $registrationId
      * @return $this
      */
     public function setRegistrationId($registrationId)
     {
         $this->registrationId = $registrationId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRegistrationId()
+    {
+        $this->registrationId = null;
         return $this;
     }
 

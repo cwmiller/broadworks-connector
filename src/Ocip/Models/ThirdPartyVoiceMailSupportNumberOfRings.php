@@ -27,7 +27,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ThirdPartyVoiceMailSupportNumberOfRings _18()
  * @method static ThirdPartyVoiceMailSupportNumberOfRings _19()
  * @method static ThirdPartyVoiceMailSupportNumberOfRings _20()
- * @ValueType int
+ * @EnumValueType int
  */
 class ThirdPartyVoiceMailSupportNumberOfRings extends \MyCLabs\Enum\Enum
 {

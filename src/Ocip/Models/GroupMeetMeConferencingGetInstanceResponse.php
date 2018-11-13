@@ -17,36 +17,42 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName allocatedPorts
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
 
     /**
      * @ElementName allowIndividualOutDial
+     * @Type bool
      * @var bool|null
      */
     private $allowIndividualOutDial = null;
 
     /**
      * @ElementName operatorNumber
+     * @Type string
      * @var string|null
      */
     private $operatorNumber = null;
 
     /**
      * @ElementName conferenceHostUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceHostUserTable = null;
@@ -54,19 +60,17 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile $serviceInstanceProfile)
@@ -76,21 +80,28 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for allocatedPorts
      *
-     * @ElementName allocatedPorts
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      */
     public function getAllocatedPorts()
     {
-        return $this->allocatedPorts;
+        return $this->allocatedPorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allocatedPorts;
     }
 
     /**
      * Setter for allocatedPorts
      *
-     * @ElementName allocatedPorts
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null $allocatedPorts
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts
      * @return $this
      */
     public function setAllocatedPorts(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts)
@@ -100,21 +111,28 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllocatedPorts()
+    {
+        $this->allocatedPorts = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
@@ -124,21 +142,28 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowIndividualOutDial
      *
-     * @ElementName allowIndividualOutDial
-     * @return bool|null
+     * @return bool
      */
     public function getAllowIndividualOutDial()
     {
-        return $this->allowIndividualOutDial;
+        return $this->allowIndividualOutDial instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowIndividualOutDial;
     }
 
     /**
      * Setter for allowIndividualOutDial
      *
-     * @ElementName allowIndividualOutDial
-     * @param bool|null $allowIndividualOutDial
+     * @param bool $allowIndividualOutDial
      * @return $this
      */
     public function setAllowIndividualOutDial($allowIndividualOutDial)
@@ -148,21 +173,28 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowIndividualOutDial()
+    {
+        $this->allowIndividualOutDial = null;
+        return $this;
+    }
+
+    /**
      * Getter for operatorNumber
      *
-     * @ElementName operatorNumber
-     * @return string|null
+     * @return string
      */
     public function getOperatorNumber()
     {
-        return $this->operatorNumber;
+        return $this->operatorNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->operatorNumber;
     }
 
     /**
      * Setter for operatorNumber
      *
-     * @ElementName operatorNumber
-     * @param string|null $operatorNumber
+     * @param string $operatorNumber
      * @return $this
      */
     public function setOperatorNumber($operatorNumber)
@@ -172,26 +204,42 @@ class GroupMeetMeConferencingGetInstanceResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOperatorNumber()
+    {
+        $this->operatorNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceHostUserTable
      *
-     * @ElementName conferenceHostUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getConferenceHostUserTable()
     {
-        return $this->conferenceHostUserTable;
+        return $this->conferenceHostUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceHostUserTable;
     }
 
     /**
      * Setter for conferenceHostUserTable
      *
-     * @ElementName conferenceHostUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceHostUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceHostUserTable
      * @return $this
      */
     public function setConferenceHostUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceHostUserTable)
     {
         $this->conferenceHostUserTable = $conferenceHostUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConferenceHostUserTable()
+    {
+        $this->conferenceHostUserTable = null;
         return $this;
     }
 

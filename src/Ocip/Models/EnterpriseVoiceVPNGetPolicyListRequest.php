@@ -20,18 +20,22 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaGroupLocationCode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     private $searchCriteriaGroupLocationCode = array(
@@ -40,6 +44,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName searchCriteriaExactPolicySelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection|null
      */
     private $searchCriteriaExactPolicySelection = null;
@@ -47,19 +52,17 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +72,28 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -93,20 +103,27 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaGroupLocationCode
      *
-     * @ElementName searchCriteriaGroupLocationCode
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     public function getSearchCriteriaGroupLocationCode()
     {
-        return $this->searchCriteriaGroupLocationCode;
+        return $this->searchCriteriaGroupLocationCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupLocationCode;
     }
 
     /**
      * Setter for searchCriteriaGroupLocationCode
      *
-     * @ElementName searchCriteriaGroupLocationCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[] $searchCriteriaGroupLocationCode
      * @return $this
      */
@@ -117,39 +134,54 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupLocationCode()
+    {
+        $this->searchCriteriaGroupLocationCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupLocationCode
      *
-     * @ElementName searchCriteriaGroupLocationCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode $searchCriteriaGroupLocationCode
      * @return $this
      */
     public function addSearchCriteriaGroupLocationCode($searchCriteriaGroupLocationCode)
     {
-        $this->searchCriteriaGroupLocationCode []= $searchCriteriaGroupLocationCode;
+        $this->searchCriteriaGroupLocationCode[] = $searchCriteriaGroupLocationCode;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactPolicySelection
      *
-     * @ElementName searchCriteriaExactPolicySelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection
      */
     public function getSearchCriteriaExactPolicySelection()
     {
-        return $this->searchCriteriaExactPolicySelection;
+        return $this->searchCriteriaExactPolicySelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactPolicySelection;
     }
 
     /**
      * Setter for searchCriteriaExactPolicySelection
      *
-     * @ElementName searchCriteriaExactPolicySelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection|null $searchCriteriaExactPolicySelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection $searchCriteriaExactPolicySelection
      * @return $this
      */
     public function setSearchCriteriaExactPolicySelection(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection $searchCriteriaExactPolicySelection)
     {
         $this->searchCriteriaExactPolicySelection = $searchCriteriaExactPolicySelection;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactPolicySelection()
+    {
+        $this->searchCriteriaExactPolicySelection = null;
         return $this;
     }
 

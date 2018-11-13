@@ -16,6 +16,7 @@ class GroupOfficeZoneGetAssignedListResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName officeZoneTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $officeZoneTable = null;
@@ -23,24 +24,31 @@ class GroupOfficeZoneGetAssignedListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for officeZoneTable
      *
-     * @ElementName officeZoneTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getOfficeZoneTable()
     {
-        return $this->officeZoneTable;
+        return $this->officeZoneTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->officeZoneTable;
     }
 
     /**
      * Setter for officeZoneTable
      *
-     * @ElementName officeZoneTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $officeZoneTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $officeZoneTable
      * @return $this
      */
     public function setOfficeZoneTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $officeZoneTable)
     {
         $this->officeZoneTable = $officeZoneTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOfficeZoneTable()
+    {
+        $this->officeZoneTable = null;
         return $this;
     }
 

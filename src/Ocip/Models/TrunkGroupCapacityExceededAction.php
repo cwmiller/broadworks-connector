@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static TrunkGroupCapacityExceededAction FORWARD()
  * @method static TrunkGroupCapacityExceededAction REROUTE()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupCapacityExceededAction extends \MyCLabs\Enum\Enum
 {

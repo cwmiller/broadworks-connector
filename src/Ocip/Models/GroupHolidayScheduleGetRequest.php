@@ -17,18 +17,21 @@ class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName holidayScheduleName
+     * @Type string
      * @var string|null
      */
     private $holidayScheduleName = null;
@@ -36,19 +39,17 @@ class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -58,21 +59,28 @@ class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -82,26 +90,42 @@ class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
-     * @return string|null
+     * @return string
      */
     public function getHolidayScheduleName()
     {
-        return $this->holidayScheduleName;
+        return $this->holidayScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidayScheduleName;
     }
 
     /**
      * Setter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
-     * @param string|null $holidayScheduleName
+     * @param string $holidayScheduleName
      * @return $this
      */
     public function setHolidayScheduleName($holidayScheduleName)
     {
         $this->holidayScheduleName = $holidayScheduleName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidayScheduleName()
+    {
+        $this->holidayScheduleName = null;
         return $this;
     }
 

@@ -16,84 +16,98 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName disallowAuthenticationName
+     * @Type bool
      * @var bool|null
      */
     private $disallowAuthenticationName = null;
 
     /**
      * @ElementName disallowOldPassword
+     * @Type bool
      * @var bool|null
      */
     private $disallowOldPassword = null;
 
     /**
      * @ElementName disallowReversedOldPassword
+     * @Type bool
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
 
     /**
      * @ElementName restrictMinDigits
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinDigits = null;
 
     /**
      * @ElementName minDigits
+     * @Type int
      * @var int|null
      */
     private $minDigits = null;
 
     /**
      * @ElementName restrictMinUpperCaseLetters
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
 
     /**
      * @ElementName minUpperCaseLetters
+     * @Type int
      * @var int|null
      */
     private $minUpperCaseLetters = null;
 
     /**
      * @ElementName restrictMinLowerCaseLetters
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
 
     /**
      * @ElementName minLowerCaseLetters
+     * @Type int
      * @var int|null
      */
     private $minLowerCaseLetters = null;
 
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
+     * @Type bool
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minNonAlphanumericCharacters
+     * @Type int
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
 
     /**
      * @ElementName minLength
+     * @Type int
      * @var int|null
      */
     private $minLength = null;
 
     /**
      * @ElementName sendPermanentLockoutNotification
+     * @Type bool
      * @var bool|null
      */
     private $sendPermanentLockoutNotification = null;
 
     /**
      * @ElementName permanentLockoutNotifyEmailAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -101,60 +115,70 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName endpointAuthenticationLockoutType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $endpointAuthenticationLockoutType = null;
 
     /**
      * @ElementName endpointTemporaryLockoutThreshold
+     * @Type int
      * @var int|null
      */
     private $endpointTemporaryLockoutThreshold = null;
 
     /**
      * @ElementName endpointWaitAlgorithm
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $endpointWaitAlgorithm = null;
 
     /**
      * @ElementName endpointLockoutFixedMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $endpointLockoutFixedMinutes = null;
 
     /**
      * @ElementName endpointPermanentLockoutThreshold
+     * @Type int
      * @var int|null
      */
     private $endpointPermanentLockoutThreshold = null;
 
     /**
      * @ElementName trunkGroupAuthenticationLockoutType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $trunkGroupAuthenticationLockoutType = null;
 
     /**
      * @ElementName trunkGroupTemporaryLockoutThreshold
+     * @Type int
      * @var int|null
      */
     private $trunkGroupTemporaryLockoutThreshold = null;
 
     /**
      * @ElementName trunkGroupWaitAlgorithm
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $trunkGroupWaitAlgorithm = null;
 
     /**
      * @ElementName trunkGroupLockoutFixedMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $trunkGroupLockoutFixedMinutes = null;
 
     /**
      * @ElementName trunkGroupPermanentLockoutThreshold
+     * @Type int
      * @var int|null
      */
     private $trunkGroupPermanentLockoutThreshold = null;
@@ -162,19 +186,17 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     /**
      * Getter for disallowAuthenticationName
      *
-     * @ElementName disallowAuthenticationName
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowAuthenticationName()
     {
-        return $this->disallowAuthenticationName;
+        return $this->disallowAuthenticationName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowAuthenticationName;
     }
 
     /**
      * Setter for disallowAuthenticationName
      *
-     * @ElementName disallowAuthenticationName
-     * @param bool|null $disallowAuthenticationName
+     * @param bool $disallowAuthenticationName
      * @return $this
      */
     public function setDisallowAuthenticationName($disallowAuthenticationName)
@@ -184,21 +206,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowAuthenticationName()
+    {
+        $this->disallowAuthenticationName = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowOldPassword
      *
-     * @ElementName disallowOldPassword
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowOldPassword()
     {
-        return $this->disallowOldPassword;
+        return $this->disallowOldPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowOldPassword;
     }
 
     /**
      * Setter for disallowOldPassword
      *
-     * @ElementName disallowOldPassword
-     * @param bool|null $disallowOldPassword
+     * @param bool $disallowOldPassword
      * @return $this
      */
     public function setDisallowOldPassword($disallowOldPassword)
@@ -208,21 +237,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowOldPassword()
+    {
+        $this->disallowOldPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for disallowReversedOldPassword
      *
-     * @ElementName disallowReversedOldPassword
-     * @return bool|null
+     * @return bool
      */
     public function getDisallowReversedOldPassword()
     {
-        return $this->disallowReversedOldPassword;
+        return $this->disallowReversedOldPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disallowReversedOldPassword;
     }
 
     /**
      * Setter for disallowReversedOldPassword
      *
-     * @ElementName disallowReversedOldPassword
-     * @param bool|null $disallowReversedOldPassword
+     * @param bool $disallowReversedOldPassword
      * @return $this
      */
     public function setDisallowReversedOldPassword($disallowReversedOldPassword)
@@ -232,21 +268,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisallowReversedOldPassword()
+    {
+        $this->disallowReversedOldPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinDigits
      *
-     * @ElementName restrictMinDigits
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinDigits()
     {
-        return $this->restrictMinDigits;
+        return $this->restrictMinDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinDigits;
     }
 
     /**
      * Setter for restrictMinDigits
      *
-     * @ElementName restrictMinDigits
-     * @param bool|null $restrictMinDigits
+     * @param bool $restrictMinDigits
      * @return $this
      */
     public function setRestrictMinDigits($restrictMinDigits)
@@ -256,21 +299,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinDigits()
+    {
+        $this->restrictMinDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for minDigits
      *
-     * @ElementName minDigits
-     * @return int|null
+     * @return int
      */
     public function getMinDigits()
     {
-        return $this->minDigits;
+        return $this->minDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minDigits;
     }
 
     /**
      * Setter for minDigits
      *
-     * @ElementName minDigits
-     * @param int|null $minDigits
+     * @param int $minDigits
      * @return $this
      */
     public function setMinDigits($minDigits)
@@ -280,21 +330,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinDigits()
+    {
+        $this->minDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinUpperCaseLetters
      *
-     * @ElementName restrictMinUpperCaseLetters
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinUpperCaseLetters()
     {
-        return $this->restrictMinUpperCaseLetters;
+        return $this->restrictMinUpperCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinUpperCaseLetters;
     }
 
     /**
      * Setter for restrictMinUpperCaseLetters
      *
-     * @ElementName restrictMinUpperCaseLetters
-     * @param bool|null $restrictMinUpperCaseLetters
+     * @param bool $restrictMinUpperCaseLetters
      * @return $this
      */
     public function setRestrictMinUpperCaseLetters($restrictMinUpperCaseLetters)
@@ -304,21 +361,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinUpperCaseLetters()
+    {
+        $this->restrictMinUpperCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minUpperCaseLetters
      *
-     * @ElementName minUpperCaseLetters
-     * @return int|null
+     * @return int
      */
     public function getMinUpperCaseLetters()
     {
-        return $this->minUpperCaseLetters;
+        return $this->minUpperCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minUpperCaseLetters;
     }
 
     /**
      * Setter for minUpperCaseLetters
      *
-     * @ElementName minUpperCaseLetters
-     * @param int|null $minUpperCaseLetters
+     * @param int $minUpperCaseLetters
      * @return $this
      */
     public function setMinUpperCaseLetters($minUpperCaseLetters)
@@ -328,21 +392,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinUpperCaseLetters()
+    {
+        $this->minUpperCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinLowerCaseLetters
      *
-     * @ElementName restrictMinLowerCaseLetters
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinLowerCaseLetters()
     {
-        return $this->restrictMinLowerCaseLetters;
+        return $this->restrictMinLowerCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinLowerCaseLetters;
     }
 
     /**
      * Setter for restrictMinLowerCaseLetters
      *
-     * @ElementName restrictMinLowerCaseLetters
-     * @param bool|null $restrictMinLowerCaseLetters
+     * @param bool $restrictMinLowerCaseLetters
      * @return $this
      */
     public function setRestrictMinLowerCaseLetters($restrictMinLowerCaseLetters)
@@ -352,21 +423,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinLowerCaseLetters()
+    {
+        $this->restrictMinLowerCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minLowerCaseLetters
      *
-     * @ElementName minLowerCaseLetters
-     * @return int|null
+     * @return int
      */
     public function getMinLowerCaseLetters()
     {
-        return $this->minLowerCaseLetters;
+        return $this->minLowerCaseLetters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minLowerCaseLetters;
     }
 
     /**
      * Setter for minLowerCaseLetters
      *
-     * @ElementName minLowerCaseLetters
-     * @param int|null $minLowerCaseLetters
+     * @param int $minLowerCaseLetters
      * @return $this
      */
     public function setMinLowerCaseLetters($minLowerCaseLetters)
@@ -376,21 +454,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinLowerCaseLetters()
+    {
+        $this->minLowerCaseLetters = null;
+        return $this;
+    }
+
+    /**
      * Getter for restrictMinNonAlphanumericCharacters
      *
-     * @ElementName restrictMinNonAlphanumericCharacters
-     * @return bool|null
+     * @return bool
      */
     public function getRestrictMinNonAlphanumericCharacters()
     {
-        return $this->restrictMinNonAlphanumericCharacters;
+        return $this->restrictMinNonAlphanumericCharacters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->restrictMinNonAlphanumericCharacters;
     }
 
     /**
      * Setter for restrictMinNonAlphanumericCharacters
      *
-     * @ElementName restrictMinNonAlphanumericCharacters
-     * @param bool|null $restrictMinNonAlphanumericCharacters
+     * @param bool $restrictMinNonAlphanumericCharacters
      * @return $this
      */
     public function setRestrictMinNonAlphanumericCharacters($restrictMinNonAlphanumericCharacters)
@@ -400,21 +485,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRestrictMinNonAlphanumericCharacters()
+    {
+        $this->restrictMinNonAlphanumericCharacters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minNonAlphanumericCharacters
      *
-     * @ElementName minNonAlphanumericCharacters
-     * @return int|null
+     * @return int
      */
     public function getMinNonAlphanumericCharacters()
     {
-        return $this->minNonAlphanumericCharacters;
+        return $this->minNonAlphanumericCharacters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minNonAlphanumericCharacters;
     }
 
     /**
      * Setter for minNonAlphanumericCharacters
      *
-     * @ElementName minNonAlphanumericCharacters
-     * @param int|null $minNonAlphanumericCharacters
+     * @param int $minNonAlphanumericCharacters
      * @return $this
      */
     public function setMinNonAlphanumericCharacters($minNonAlphanumericCharacters)
@@ -424,21 +516,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinNonAlphanumericCharacters()
+    {
+        $this->minNonAlphanumericCharacters = null;
+        return $this;
+    }
+
+    /**
      * Getter for minLength
      *
-     * @ElementName minLength
-     * @return int|null
+     * @return int
      */
     public function getMinLength()
     {
-        return $this->minLength;
+        return $this->minLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minLength;
     }
 
     /**
      * Setter for minLength
      *
-     * @ElementName minLength
-     * @param int|null $minLength
+     * @param int $minLength
      * @return $this
      */
     public function setMinLength($minLength)
@@ -448,21 +547,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinLength()
+    {
+        $this->minLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendPermanentLockoutNotification
      *
-     * @ElementName sendPermanentLockoutNotification
-     * @return bool|null
+     * @return bool
      */
     public function getSendPermanentLockoutNotification()
     {
-        return $this->sendPermanentLockoutNotification;
+        return $this->sendPermanentLockoutNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendPermanentLockoutNotification;
     }
 
     /**
      * Setter for sendPermanentLockoutNotification
      *
-     * @ElementName sendPermanentLockoutNotification
-     * @param bool|null $sendPermanentLockoutNotification
+     * @param bool $sendPermanentLockoutNotification
      * @return $this
      */
     public function setSendPermanentLockoutNotification($sendPermanentLockoutNotification)
@@ -472,47 +578,63 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendPermanentLockoutNotification()
+    {
+        $this->sendPermanentLockoutNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for permanentLockoutNotifyEmailAddress
      *
-     * @ElementName permanentLockoutNotifyEmailAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPermanentLockoutNotifyEmailAddress()
     {
-        return $this->permanentLockoutNotifyEmailAddress;
+        return $this->permanentLockoutNotifyEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->permanentLockoutNotifyEmailAddress;
     }
 
     /**
      * Setter for permanentLockoutNotifyEmailAddress
      *
-     * @ElementName permanentLockoutNotifyEmailAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $permanentLockoutNotifyEmailAddress
+     * @param string|null $permanentLockoutNotifyEmailAddress
      * @return $this
      */
     public function setPermanentLockoutNotifyEmailAddress($permanentLockoutNotifyEmailAddress)
     {
-        $this->permanentLockoutNotifyEmailAddress = $permanentLockoutNotifyEmailAddress;
+        if ($permanentLockoutNotifyEmailAddress === null) {
+            $this->permanentLockoutNotifyEmailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->permanentLockoutNotifyEmailAddress = $permanentLockoutNotifyEmailAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPermanentLockoutNotifyEmailAddress()
+    {
+        $this->permanentLockoutNotifyEmailAddress = null;
         return $this;
     }
 
     /**
      * Getter for endpointAuthenticationLockoutType
      *
-     * @ElementName endpointAuthenticationLockoutType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
      */
     public function getEndpointAuthenticationLockoutType()
     {
-        return $this->endpointAuthenticationLockoutType;
+        return $this->endpointAuthenticationLockoutType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endpointAuthenticationLockoutType;
     }
 
     /**
      * Setter for endpointAuthenticationLockoutType
      *
-     * @ElementName endpointAuthenticationLockoutType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null $endpointAuthenticationLockoutType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType $endpointAuthenticationLockoutType
      * @return $this
      */
     public function setEndpointAuthenticationLockoutType(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType $endpointAuthenticationLockoutType)
@@ -522,21 +644,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndpointAuthenticationLockoutType()
+    {
+        $this->endpointAuthenticationLockoutType = null;
+        return $this;
+    }
+
+    /**
      * Getter for endpointTemporaryLockoutThreshold
      *
-     * @ElementName endpointTemporaryLockoutThreshold
-     * @return int|null
+     * @return int
      */
     public function getEndpointTemporaryLockoutThreshold()
     {
-        return $this->endpointTemporaryLockoutThreshold;
+        return $this->endpointTemporaryLockoutThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endpointTemporaryLockoutThreshold;
     }
 
     /**
      * Setter for endpointTemporaryLockoutThreshold
      *
-     * @ElementName endpointTemporaryLockoutThreshold
-     * @param int|null $endpointTemporaryLockoutThreshold
+     * @param int $endpointTemporaryLockoutThreshold
      * @return $this
      */
     public function setEndpointTemporaryLockoutThreshold($endpointTemporaryLockoutThreshold)
@@ -546,21 +675,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndpointTemporaryLockoutThreshold()
+    {
+        $this->endpointTemporaryLockoutThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for endpointWaitAlgorithm
      *
-     * @ElementName endpointWaitAlgorithm
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
      */
     public function getEndpointWaitAlgorithm()
     {
-        return $this->endpointWaitAlgorithm;
+        return $this->endpointWaitAlgorithm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endpointWaitAlgorithm;
     }
 
     /**
      * Setter for endpointWaitAlgorithm
      *
-     * @ElementName endpointWaitAlgorithm
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null $endpointWaitAlgorithm
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType $endpointWaitAlgorithm
      * @return $this
      */
     public function setEndpointWaitAlgorithm(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType $endpointWaitAlgorithm)
@@ -570,21 +706,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndpointWaitAlgorithm()
+    {
+        $this->endpointWaitAlgorithm = null;
+        return $this;
+    }
+
+    /**
      * Getter for endpointLockoutFixedMinutes
      *
-     * @ElementName endpointLockoutFixedMinutes
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
      */
     public function getEndpointLockoutFixedMinutes()
     {
-        return $this->endpointLockoutFixedMinutes;
+        return $this->endpointLockoutFixedMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endpointLockoutFixedMinutes;
     }
 
     /**
      * Setter for endpointLockoutFixedMinutes
      *
-     * @ElementName endpointLockoutFixedMinutes
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null $endpointLockoutFixedMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes $endpointLockoutFixedMinutes
      * @return $this
      */
     public function setEndpointLockoutFixedMinutes(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes $endpointLockoutFixedMinutes)
@@ -594,21 +737,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndpointLockoutFixedMinutes()
+    {
+        $this->endpointLockoutFixedMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for endpointPermanentLockoutThreshold
      *
-     * @ElementName endpointPermanentLockoutThreshold
-     * @return int|null
+     * @return int
      */
     public function getEndpointPermanentLockoutThreshold()
     {
-        return $this->endpointPermanentLockoutThreshold;
+        return $this->endpointPermanentLockoutThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endpointPermanentLockoutThreshold;
     }
 
     /**
      * Setter for endpointPermanentLockoutThreshold
      *
-     * @ElementName endpointPermanentLockoutThreshold
-     * @param int|null $endpointPermanentLockoutThreshold
+     * @param int $endpointPermanentLockoutThreshold
      * @return $this
      */
     public function setEndpointPermanentLockoutThreshold($endpointPermanentLockoutThreshold)
@@ -618,21 +768,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndpointPermanentLockoutThreshold()
+    {
+        $this->endpointPermanentLockoutThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for trunkGroupAuthenticationLockoutType
      *
-     * @ElementName trunkGroupAuthenticationLockoutType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
      */
     public function getTrunkGroupAuthenticationLockoutType()
     {
-        return $this->trunkGroupAuthenticationLockoutType;
+        return $this->trunkGroupAuthenticationLockoutType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupAuthenticationLockoutType;
     }
 
     /**
      * Setter for trunkGroupAuthenticationLockoutType
      *
-     * @ElementName trunkGroupAuthenticationLockoutType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null $trunkGroupAuthenticationLockoutType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType $trunkGroupAuthenticationLockoutType
      * @return $this
      */
     public function setTrunkGroupAuthenticationLockoutType(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType $trunkGroupAuthenticationLockoutType)
@@ -642,21 +799,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupAuthenticationLockoutType()
+    {
+        $this->trunkGroupAuthenticationLockoutType = null;
+        return $this;
+    }
+
+    /**
      * Getter for trunkGroupTemporaryLockoutThreshold
      *
-     * @ElementName trunkGroupTemporaryLockoutThreshold
-     * @return int|null
+     * @return int
      */
     public function getTrunkGroupTemporaryLockoutThreshold()
     {
-        return $this->trunkGroupTemporaryLockoutThreshold;
+        return $this->trunkGroupTemporaryLockoutThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupTemporaryLockoutThreshold;
     }
 
     /**
      * Setter for trunkGroupTemporaryLockoutThreshold
      *
-     * @ElementName trunkGroupTemporaryLockoutThreshold
-     * @param int|null $trunkGroupTemporaryLockoutThreshold
+     * @param int $trunkGroupTemporaryLockoutThreshold
      * @return $this
      */
     public function setTrunkGroupTemporaryLockoutThreshold($trunkGroupTemporaryLockoutThreshold)
@@ -666,21 +830,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupTemporaryLockoutThreshold()
+    {
+        $this->trunkGroupTemporaryLockoutThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for trunkGroupWaitAlgorithm
      *
-     * @ElementName trunkGroupWaitAlgorithm
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
      */
     public function getTrunkGroupWaitAlgorithm()
     {
-        return $this->trunkGroupWaitAlgorithm;
+        return $this->trunkGroupWaitAlgorithm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupWaitAlgorithm;
     }
 
     /**
      * Setter for trunkGroupWaitAlgorithm
      *
-     * @ElementName trunkGroupWaitAlgorithm
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null $trunkGroupWaitAlgorithm
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType $trunkGroupWaitAlgorithm
      * @return $this
      */
     public function setTrunkGroupWaitAlgorithm(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType $trunkGroupWaitAlgorithm)
@@ -690,21 +861,28 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupWaitAlgorithm()
+    {
+        $this->trunkGroupWaitAlgorithm = null;
+        return $this;
+    }
+
+    /**
      * Getter for trunkGroupLockoutFixedMinutes
      *
-     * @ElementName trunkGroupLockoutFixedMinutes
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
      */
     public function getTrunkGroupLockoutFixedMinutes()
     {
-        return $this->trunkGroupLockoutFixedMinutes;
+        return $this->trunkGroupLockoutFixedMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupLockoutFixedMinutes;
     }
 
     /**
      * Setter for trunkGroupLockoutFixedMinutes
      *
-     * @ElementName trunkGroupLockoutFixedMinutes
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null $trunkGroupLockoutFixedMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes $trunkGroupLockoutFixedMinutes
      * @return $this
      */
     public function setTrunkGroupLockoutFixedMinutes(\CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes $trunkGroupLockoutFixedMinutes)
@@ -714,26 +892,42 @@ class SystemSIPAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupLockoutFixedMinutes()
+    {
+        $this->trunkGroupLockoutFixedMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for trunkGroupPermanentLockoutThreshold
      *
-     * @ElementName trunkGroupPermanentLockoutThreshold
-     * @return int|null
+     * @return int
      */
     public function getTrunkGroupPermanentLockoutThreshold()
     {
-        return $this->trunkGroupPermanentLockoutThreshold;
+        return $this->trunkGroupPermanentLockoutThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupPermanentLockoutThreshold;
     }
 
     /**
      * Setter for trunkGroupPermanentLockoutThreshold
      *
-     * @ElementName trunkGroupPermanentLockoutThreshold
-     * @param int|null $trunkGroupPermanentLockoutThreshold
+     * @param int $trunkGroupPermanentLockoutThreshold
      * @return $this
      */
     public function setTrunkGroupPermanentLockoutThreshold($trunkGroupPermanentLockoutThreshold)
     {
         $this->trunkGroupPermanentLockoutThreshold = $trunkGroupPermanentLockoutThreshold;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrunkGroupPermanentLockoutThreshold()
+    {
+        $this->trunkGroupPermanentLockoutThreshold = null;
         return $this;
     }
 

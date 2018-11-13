@@ -28,12 +28,15 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaDeviceType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[]
      */
     private $searchCriteriaDeviceType = array(
@@ -42,12 +45,15 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName searchCriteriaExactSignalingAddressType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType|null
      */
     private $searchCriteriaExactSignalingAddressType = null;
 
     /**
      * @ElementName searchCriteriaResellerId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(
@@ -56,6 +62,7 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName includeSystemLevel
+     * @Type bool
      * @var bool|null
      */
     private $includeSystemLevel = null;
@@ -63,19 +70,17 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -85,20 +90,27 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaDeviceType
      *
-     * @ElementName searchCriteriaDeviceType
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[]
      */
     public function getSearchCriteriaDeviceType()
     {
-        return $this->searchCriteriaDeviceType;
+        return $this->searchCriteriaDeviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDeviceType;
     }
 
     /**
      * Setter for searchCriteriaDeviceType
      *
-     * @ElementName searchCriteriaDeviceType
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[] $searchCriteriaDeviceType
      * @return $this
      */
@@ -109,34 +121,40 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDeviceType()
+    {
+        $this->searchCriteriaDeviceType = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDeviceType
      *
-     * @ElementName searchCriteriaDeviceType
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType $searchCriteriaDeviceType
      * @return $this
      */
     public function addSearchCriteriaDeviceType($searchCriteriaDeviceType)
     {
-        $this->searchCriteriaDeviceType []= $searchCriteriaDeviceType;
+        $this->searchCriteriaDeviceType[] = $searchCriteriaDeviceType;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactSignalingAddressType
      *
-     * @ElementName searchCriteriaExactSignalingAddressType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType
      */
     public function getSearchCriteriaExactSignalingAddressType()
     {
-        return $this->searchCriteriaExactSignalingAddressType;
+        return $this->searchCriteriaExactSignalingAddressType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactSignalingAddressType;
     }
 
     /**
      * Setter for searchCriteriaExactSignalingAddressType
      *
-     * @ElementName searchCriteriaExactSignalingAddressType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType|null $searchCriteriaExactSignalingAddressType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType $searchCriteriaExactSignalingAddressType
      * @return $this
      */
     public function setSearchCriteriaExactSignalingAddressType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType $searchCriteriaExactSignalingAddressType)
@@ -146,20 +164,27 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactSignalingAddressType()
+    {
+        $this->searchCriteriaExactSignalingAddressType = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaResellerId
      *
-     * @ElementName searchCriteriaResellerId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     public function getSearchCriteriaResellerId()
     {
-        return $this->searchCriteriaResellerId;
+        return $this->searchCriteriaResellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaResellerId;
     }
 
     /**
      * Setter for searchCriteriaResellerId
      *
-     * @ElementName searchCriteriaResellerId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[] $searchCriteriaResellerId
      * @return $this
      */
@@ -170,39 +195,54 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaResellerId()
+    {
+        $this->searchCriteriaResellerId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaResellerId
      *
-     * @ElementName searchCriteriaResellerId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId $searchCriteriaResellerId
      * @return $this
      */
     public function addSearchCriteriaResellerId($searchCriteriaResellerId)
     {
-        $this->searchCriteriaResellerId []= $searchCriteriaResellerId;
+        $this->searchCriteriaResellerId[] = $searchCriteriaResellerId;
         return $this;
     }
 
     /**
      * Getter for includeSystemLevel
      *
-     * @ElementName includeSystemLevel
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeSystemLevel()
     {
-        return $this->includeSystemLevel;
+        return $this->includeSystemLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeSystemLevel;
     }
 
     /**
      * Setter for includeSystemLevel
      *
-     * @ElementName includeSystemLevel
-     * @param bool|null $includeSystemLevel
+     * @param bool $includeSystemLevel
      * @return $this
      */
     public function setIncludeSystemLevel($includeSystemLevel)
     {
         $this->includeSystemLevel = $includeSystemLevel;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncludeSystemLevel()
+    {
+        $this->includeSystemLevel = null;
         return $this;
     }
 

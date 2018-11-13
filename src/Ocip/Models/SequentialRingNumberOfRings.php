@@ -27,7 +27,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SequentialRingNumberOfRings _18()
  * @method static SequentialRingNumberOfRings _19()
  * @method static SequentialRingNumberOfRings _20()
- * @ValueType int
+ * @EnumValueType int
  */
 class SequentialRingNumberOfRings extends \MyCLabs\Enum\Enum
 {

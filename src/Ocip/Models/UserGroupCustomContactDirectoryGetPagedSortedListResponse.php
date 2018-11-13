@@ -36,12 +36,14 @@ class UserGroupCustomContactDirectoryGetPagedSortedListResponse extends \CWM\Bro
 
     /**
      * @ElementName totalNumberOfRows
+     * @Type int
      * @var int|null
      */
     private $totalNumberOfRows = null;
 
     /**
      * @ElementName userTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;
@@ -49,19 +51,17 @@ class UserGroupCustomContactDirectoryGetPagedSortedListResponse extends \CWM\Bro
     /**
      * Getter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @return int|null
+     * @return int
      */
     public function getTotalNumberOfRows()
     {
-        return $this->totalNumberOfRows;
+        return $this->totalNumberOfRows instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalNumberOfRows;
     }
 
     /**
      * Setter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @param int|null $totalNumberOfRows
+     * @param int $totalNumberOfRows
      * @return $this
      */
     public function setTotalNumberOfRows($totalNumberOfRows)
@@ -71,26 +71,42 @@ class UserGroupCustomContactDirectoryGetPagedSortedListResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTotalNumberOfRows()
+    {
+        $this->totalNumberOfRows = null;
+        return $this;
+    }
+
+    /**
      * Getter for userTable
      *
-     * @ElementName userTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserTable()
     {
-        return $this->userTable;
+        return $this->userTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userTable;
     }
 
     /**
      * Setter for userTable
      *
-     * @ElementName userTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable
      * @return $this
      */
     public function setUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable)
     {
         $this->userTable = $userTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserTable()
+    {
+        $this->userTable = null;
         return $this;
     }
 

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterReportSamplingPeriod DAILY()
  * @method static CallCenterReportSamplingPeriod WEEKLY()
  * @method static CallCenterReportSamplingPeriod MONTHLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportSamplingPeriod extends \MyCLabs\Enum\Enum
 {

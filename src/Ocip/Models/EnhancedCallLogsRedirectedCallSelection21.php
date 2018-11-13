@@ -20,12 +20,15 @@ class EnhancedCallLogsRedirectedCallSelection21
 
     /**
      * @ElementName redirectedCall
+     * @Type bool
      * @var bool|null
      */
     private $redirectedCall = null;
 
     /**
      * @ElementName redirectType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21[]
      */
     private $redirectType = array(
@@ -35,19 +38,17 @@ class EnhancedCallLogsRedirectedCallSelection21
     /**
      * Getter for redirectedCall
      *
-     * @ElementName redirectedCall
-     * @return bool|null
+     * @return bool
      */
     public function getRedirectedCall()
     {
-        return $this->redirectedCall;
+        return $this->redirectedCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectedCall;
     }
 
     /**
      * Setter for redirectedCall
      *
-     * @ElementName redirectedCall
-     * @param bool|null $redirectedCall
+     * @param bool $redirectedCall
      * @return $this
      */
     public function setRedirectedCall($redirectedCall)
@@ -57,20 +58,27 @@ class EnhancedCallLogsRedirectedCallSelection21
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectedCall()
+    {
+        $this->redirectedCall = null;
+        return $this;
+    }
+
+    /**
      * Getter for redirectType
      *
-     * @ElementName redirectType
      * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21[]
      */
     public function getRedirectType()
     {
-        return $this->redirectType;
+        return $this->redirectType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectType;
     }
 
     /**
      * Setter for redirectType
      *
-     * @ElementName redirectType
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21[] $redirectType
      * @return $this
      */
@@ -81,15 +89,23 @@ class EnhancedCallLogsRedirectedCallSelection21
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectType()
+    {
+        $this->redirectType = null;
+        return $this;
+    }
+
+    /**
      * Adder for redirectType
      *
-     * @ElementName redirectType
      * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21 $redirectType
      * @return $this
      */
     public function addRedirectType($redirectType)
     {
-        $this->redirectType []= $redirectType;
+        $this->redirectType[] = $redirectType;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterEnhancedReportingBrandingChoice SYSTEM()
  * @method static CallCenterEnhancedReportingBrandingChoice CUSTOM()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterEnhancedReportingBrandingChoice extends \MyCLabs\Enum\Enum
 {

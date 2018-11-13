@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static VoiceMessagingStorageMode CLOUD()
  * @method static VoiceMessagingStorageMode MAIL_SERVER()
- * @ValueType string
+ * @EnumValueType string
  */
 class VoiceMessagingStorageMode extends \MyCLabs\Enum\Enum
 {

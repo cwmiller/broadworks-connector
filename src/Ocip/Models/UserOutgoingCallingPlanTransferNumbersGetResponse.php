@@ -14,12 +14,14 @@ class UserOutgoingCallingPlanTransferNumbersGetResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName useCustomSettings
+     * @Type bool
      * @var bool|null
      */
     private $useCustomSettings = null;
 
     /**
      * @ElementName userNumbers
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers|null
      */
     private $userNumbers = null;
@@ -27,19 +29,17 @@ class UserOutgoingCallingPlanTransferNumbersGetResponse extends \CWM\BroadWorksC
     /**
      * Getter for useCustomSettings
      *
-     * @ElementName useCustomSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseCustomSettings()
     {
-        return $this->useCustomSettings;
+        return $this->useCustomSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useCustomSettings;
     }
 
     /**
      * Setter for useCustomSettings
      *
-     * @ElementName useCustomSettings
-     * @param bool|null $useCustomSettings
+     * @param bool $useCustomSettings
      * @return $this
      */
     public function setUseCustomSettings($useCustomSettings)
@@ -49,26 +49,42 @@ class UserOutgoingCallingPlanTransferNumbersGetResponse extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseCustomSettings()
+    {
+        $this->useCustomSettings = null;
+        return $this;
+    }
+
+    /**
      * Getter for userNumbers
      *
-     * @ElementName userNumbers
-     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers
      */
     public function getUserNumbers()
     {
-        return $this->userNumbers;
+        return $this->userNumbers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userNumbers;
     }
 
     /**
      * Setter for userNumbers
      *
-     * @ElementName userNumbers
-     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers|null $userNumbers
+     * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers $userNumbers
      * @return $this
      */
     public function setUserNumbers(\CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanTransferNumbers $userNumbers)
     {
         $this->userNumbers = $userNumbers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserNumbers()
+    {
+        $this->userNumbers = null;
         return $this;
     }
 

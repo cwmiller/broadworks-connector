@@ -16,18 +16,21 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName processCbcCarrierSelection
+     * @Type bool
      * @var bool|null
      */
     private $processCbcCarrierSelection = null;
 
     /**
      * @ElementName preselectedLocalCarrier
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,6 +38,7 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
 
     /**
      * @ElementName preselectedDistantCarrier
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -43,19 +47,17 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -65,21 +67,28 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for processCbcCarrierSelection
      *
-     * @ElementName processCbcCarrierSelection
-     * @return bool|null
+     * @return bool
      */
     public function getProcessCbcCarrierSelection()
     {
-        return $this->processCbcCarrierSelection;
+        return $this->processCbcCarrierSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->processCbcCarrierSelection;
     }
 
     /**
      * Setter for processCbcCarrierSelection
      *
-     * @ElementName processCbcCarrierSelection
-     * @param bool|null $processCbcCarrierSelection
+     * @param bool $processCbcCarrierSelection
      * @return $this
      */
     public function setProcessCbcCarrierSelection($processCbcCarrierSelection)
@@ -89,54 +98,81 @@ class ServiceProviderHPBXAlternateCarrierSelectionModifyRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProcessCbcCarrierSelection()
+    {
+        $this->processCbcCarrierSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for preselectedLocalCarrier
      *
-     * @ElementName preselectedLocalCarrier
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPreselectedLocalCarrier()
     {
-        return $this->preselectedLocalCarrier;
+        return $this->preselectedLocalCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preselectedLocalCarrier;
     }
 
     /**
      * Setter for preselectedLocalCarrier
      *
-     * @ElementName preselectedLocalCarrier
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $preselectedLocalCarrier
+     * @param string|null $preselectedLocalCarrier
      * @return $this
      */
     public function setPreselectedLocalCarrier($preselectedLocalCarrier)
     {
-        $this->preselectedLocalCarrier = $preselectedLocalCarrier;
+        if ($preselectedLocalCarrier === null) {
+            $this->preselectedLocalCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->preselectedLocalCarrier = $preselectedLocalCarrier;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPreselectedLocalCarrier()
+    {
+        $this->preselectedLocalCarrier = null;
         return $this;
     }
 
     /**
      * Getter for preselectedDistantCarrier
      *
-     * @ElementName preselectedDistantCarrier
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPreselectedDistantCarrier()
     {
-        return $this->preselectedDistantCarrier;
+        return $this->preselectedDistantCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preselectedDistantCarrier;
     }
 
     /**
      * Setter for preselectedDistantCarrier
      *
-     * @ElementName preselectedDistantCarrier
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $preselectedDistantCarrier
+     * @param string|null $preselectedDistantCarrier
      * @return $this
      */
     public function setPreselectedDistantCarrier($preselectedDistantCarrier)
     {
-        $this->preselectedDistantCarrier = $preselectedDistantCarrier;
+        if ($preselectedDistantCarrier === null) {
+            $this->preselectedDistantCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->preselectedDistantCarrier = $preselectedDistantCarrier;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPreselectedDistantCarrier()
+    {
+        $this->preselectedDistantCarrier = null;
         return $this;
     }
 

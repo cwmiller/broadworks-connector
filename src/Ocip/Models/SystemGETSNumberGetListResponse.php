@@ -15,6 +15,7 @@ class SystemGETSNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName reservedNumberTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $reservedNumberTable = null;
@@ -22,24 +23,31 @@ class SystemGETSNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for reservedNumberTable
      *
-     * @ElementName reservedNumberTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getReservedNumberTable()
     {
-        return $this->reservedNumberTable;
+        return $this->reservedNumberTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reservedNumberTable;
     }
 
     /**
      * Setter for reservedNumberTable
      *
-     * @ElementName reservedNumberTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $reservedNumberTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reservedNumberTable
      * @return $this
      */
     public function setReservedNumberTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reservedNumberTable)
     {
         $this->reservedNumberTable = $reservedNumberTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReservedNumberTable()
+    {
+        $this->reservedNumberTable = null;
         return $this;
     }
 

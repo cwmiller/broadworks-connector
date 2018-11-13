@@ -12,12 +12,14 @@ class PhoneListEntry
 
     /**
      * @ElementName entryName
+     * @Type string
      * @var string|null
      */
     private $entryName = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
@@ -25,19 +27,17 @@ class PhoneListEntry
     /**
      * Getter for entryName
      *
-     * @ElementName entryName
-     * @return string|null
+     * @return string
      */
     public function getEntryName()
     {
-        return $this->entryName;
+        return $this->entryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entryName;
     }
 
     /**
      * Setter for entryName
      *
-     * @ElementName entryName
-     * @param string|null $entryName
+     * @param string $entryName
      * @return $this
      */
     public function setEntryName($entryName)
@@ -47,26 +47,42 @@ class PhoneListEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntryName()
+    {
+        $this->entryName = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
         return $this;
     }
 

@@ -12,6 +12,7 @@ class SearchCriteriaExactServiceType extends SearchCriteria
 
     /**
      * @ElementName serviceType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceType|null
      */
     private $serviceType = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactServiceType extends SearchCriteria
     /**
      * Getter for serviceType
      *
-     * @ElementName serviceType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceType
      */
     public function getServiceType()
     {
-        return $this->serviceType;
+        return $this->serviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceType;
     }
 
     /**
      * Setter for serviceType
      *
-     * @ElementName serviceType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceType|null $serviceType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceType $serviceType
      * @return $this
      */
     public function setServiceType(\CWM\BroadWorksConnector\Ocip\Models\ServiceType $serviceType)
     {
         $this->serviceType = $serviceType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceType()
+    {
+        $this->serviceType = null;
         return $this;
     }
 

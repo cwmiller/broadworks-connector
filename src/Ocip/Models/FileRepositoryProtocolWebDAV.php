@@ -13,12 +13,14 @@ class FileRepositoryProtocolWebDAV
 
     /**
      * @ElementName secure
+     * @Type bool
      * @var bool|null
      */
     private $secure = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
@@ -26,19 +28,17 @@ class FileRepositoryProtocolWebDAV
     /**
      * Getter for secure
      *
-     * @ElementName secure
-     * @return bool|null
+     * @return bool
      */
     public function getSecure()
     {
-        return $this->secure;
+        return $this->secure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secure;
     }
 
     /**
      * Setter for secure
      *
-     * @ElementName secure
-     * @param bool|null $secure
+     * @param bool $secure
      * @return $this
      */
     public function setSecure($secure)
@@ -48,26 +48,42 @@ class FileRepositoryProtocolWebDAV
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecure()
+    {
+        $this->secure = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
     {
         $this->netAddress = $netAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
         return $this;
     }
 

@@ -14,18 +14,21 @@ class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName enableExchangeIntegration
+     * @Type bool
      * @var bool|null
      */
     private $enableExchangeIntegration = null;
 
     /**
      * @ElementName exchangeURL
+     * @Type string
      * @var string|null
      */
     private $exchangeURL = null;
 
     /**
      * @ElementName exchangeUserName
+     * @Type string
      * @var string|null
      */
     private $exchangeUserName = null;
@@ -33,19 +36,17 @@ class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for enableExchangeIntegration
      *
-     * @ElementName enableExchangeIntegration
-     * @return bool|null
+     * @return bool
      */
     public function getEnableExchangeIntegration()
     {
-        return $this->enableExchangeIntegration;
+        return $this->enableExchangeIntegration instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableExchangeIntegration;
     }
 
     /**
      * Setter for enableExchangeIntegration
      *
-     * @ElementName enableExchangeIntegration
-     * @param bool|null $enableExchangeIntegration
+     * @param bool $enableExchangeIntegration
      * @return $this
      */
     public function setEnableExchangeIntegration($enableExchangeIntegration)
@@ -55,21 +56,28 @@ class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableExchangeIntegration()
+    {
+        $this->enableExchangeIntegration = null;
+        return $this;
+    }
+
+    /**
      * Getter for exchangeURL
      *
-     * @ElementName exchangeURL
-     * @return string|null
+     * @return string
      */
     public function getExchangeURL()
     {
-        return $this->exchangeURL;
+        return $this->exchangeURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exchangeURL;
     }
 
     /**
      * Setter for exchangeURL
      *
-     * @ElementName exchangeURL
-     * @param string|null $exchangeURL
+     * @param string $exchangeURL
      * @return $this
      */
     public function setExchangeURL($exchangeURL)
@@ -79,26 +87,42 @@ class GroupExchangeIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExchangeURL()
+    {
+        $this->exchangeURL = null;
+        return $this;
+    }
+
+    /**
      * Getter for exchangeUserName
      *
-     * @ElementName exchangeUserName
-     * @return string|null
+     * @return string
      */
     public function getExchangeUserName()
     {
-        return $this->exchangeUserName;
+        return $this->exchangeUserName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exchangeUserName;
     }
 
     /**
      * Setter for exchangeUserName
      *
-     * @ElementName exchangeUserName
-     * @param string|null $exchangeUserName
+     * @param string $exchangeUserName
      * @return $this
      */
     public function setExchangeUserName($exchangeUserName)
     {
         $this->exchangeUserName = $exchangeUserName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExchangeUserName()
+    {
+        $this->exchangeUserName = null;
         return $this;
     }
 

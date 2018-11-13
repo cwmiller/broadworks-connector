@@ -17,12 +17,14 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\Broad
 
     /**
      * @ElementName totalNumberOfRows
+     * @Type int
      * @var int|null
      */
     private $totalNumberOfRows = null;
 
     /**
      * @ElementName enterpriseCommonPhoneListTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $enterpriseCommonPhoneListTable = null;
@@ -30,19 +32,17 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\Broad
     /**
      * Getter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @return int|null
+     * @return int
      */
     public function getTotalNumberOfRows()
     {
-        return $this->totalNumberOfRows;
+        return $this->totalNumberOfRows instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalNumberOfRows;
     }
 
     /**
      * Setter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @param int|null $totalNumberOfRows
+     * @param int $totalNumberOfRows
      * @return $this
      */
     public function setTotalNumberOfRows($totalNumberOfRows)
@@ -52,26 +52,42 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\Broad
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTotalNumberOfRows()
+    {
+        $this->totalNumberOfRows = null;
+        return $this;
+    }
+
+    /**
      * Getter for enterpriseCommonPhoneListTable
      *
-     * @ElementName enterpriseCommonPhoneListTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getEnterpriseCommonPhoneListTable()
     {
-        return $this->enterpriseCommonPhoneListTable;
+        return $this->enterpriseCommonPhoneListTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseCommonPhoneListTable;
     }
 
     /**
      * Setter for enterpriseCommonPhoneListTable
      *
-     * @ElementName enterpriseCommonPhoneListTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $enterpriseCommonPhoneListTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $enterpriseCommonPhoneListTable
      * @return $this
      */
     public function setEnterpriseCommonPhoneListTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $enterpriseCommonPhoneListTable)
     {
         $this->enterpriseCommonPhoneListTable = $enterpriseCommonPhoneListTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnterpriseCommonPhoneListTable()
+    {
+        $this->enterpriseCommonPhoneListTable = null;
         return $this;
     }
 

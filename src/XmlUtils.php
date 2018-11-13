@@ -6,7 +6,6 @@ use CWM\BroadWorksConnector\Ocip\Nil;
 use DOMDocument;
 use DOMElement;
 use MyCLabs\Enum\Enum;
-use RuntimeException;
 use ReflectionClass;
 
 class XmlUtils
@@ -34,16 +33,22 @@ class XmlUtils
                 $refClass = new ReflectionClass($className);
             }
 
+            // Now that we know the class name that corresponds to the element, we can initialize it.
+            // Enum types require passing the value to the constructor. All other models are initialized with an empty constructor.
+
             if (self::isEnum($refClass)) {
+                // An EnumValueType annotation is expected to be on all enums which includes the scalar type the enum uses.
                 $annotations = self::getAnnotations($refClass->getDocComment());
 
-                if (!array_key_exists('ValueType', $annotations)) {
-                    throw new RuntimeException('No @ValueType attribute found on enum ' . $refClass->getName());
+                if (!array_key_exists('EnumValueType', $annotations)) {
+                    throw new XmlException('No @EnumValueType attribute found on enum ' . $refClass->getName());
                 }
 
-                $valueType = $annotations['ValueType'];
+                $valueType = $annotations['EnumValueType'];
                 $nodeValue = $element->nodeValue;
 
+                // Enums can really only be ints or strings. If it is an int, the value of the element is casted since
+                // all node values are strings.
                 if ($valueType === 'int') {
                     $nodeValue = (int)$nodeValue;
                 }
@@ -53,51 +58,57 @@ class XmlUtils
                 $instance = new $className();
             }
 
+            // Iterate over all children in the XML element
             $childElements = $element->childNodes;
             for ($i = 0; $i < $childElements->length; $i++) {
                 $childElement = $childElements->item($i);
+                $isNil = ($childElement instanceof DOMElement) && $childElement->getAttribute('xsi:nil') === 'true';
+                $elementName = $childElement->localName;
+                $propertyName = lcfirst($elementName);
 
-                // First try to set the element by seeing if there's an add function (in case it's an array)
-                // If not, try set
-                $setterName = 'add' . ucwords($childElement->localName);
+                if ($refClass->hasProperty($propertyName)) {
+                    $refProperty = $refClass->getProperty($propertyName);
+                    $annotations = self::getAnnotations($refProperty->getDocComment());
+                    $nodeValue = null;
 
-                if (!$refClass->hasMethod($setterName)) {
-                    $setterName = 'set' . ucwords($childElement->localName);
-                }
+                    if (!array_key_exists('Type', $annotations)) {
+                        throw new XmlException(sprintf('No @Type attribute found on property %s::%s', $refClass->getName(), $refProperty->getName()));
+                    }
 
-                if ($refClass->hasMethod($setterName)) {
-                    $setter = $refClass->getMethod($setterName);
-                    $annotations = self::getAnnotations($setter->getDocComment());
+                    $type = $annotations['Type'];
+                    $isArray = array_key_exists('Array', $annotations);
 
-                    if (array_key_exists('param', $annotations)) {
-                        $types = explode(' ', $annotations['param'], 2)[0];
+                    // Set the property as accessible so we can modify it even though it's private
+                    $refProperty->setAccessible(true);
 
-                        $types = array_filter(explode('|', $types), function ($type) {
-                            return $type !== 'null';
-                        });
-
-                        if (count($types) > 0) {
-                            $type = array_pop($types);
-                            if (self::isScalar($type)) {
-                                switch ($type) {
-                                    case 'int':
-                                        $nodeValue = (int)$childElement->nodeValue;
-                                        break;
-                                    case 'bool':
-                                        $nodeValue = $childElement->nodeValue === 'true';
-                                        break;
-                                    case 'float':
-                                        $nodeValue = (float)$childElement->nodeValue;
-                                        break;
-                                    default:
-                                        $nodeValue = (string)$childElement->nodeValue;
-                                }
-
-                                $setter->invoke($instance, $nodeValue);
-                            } else {
-                                $setter->invoke($instance, self::fromXml($childElement, $type, $baseNamespace));
+                    if ($isNil) {
+                        $nodeValue = new Nil();
+                    } else {
+                        if (self::isScalar($type)) {
+                            switch ($type) {
+                                case 'int':
+                                    $nodeValue = (int)$childElement->nodeValue;
+                                    break;
+                                case 'bool':
+                                    $nodeValue = $childElement->nodeValue === 'true';
+                                    break;
+                                case 'float':
+                                    $nodeValue = (float)$childElement->nodeValue;
+                                    break;
+                                default:
+                                    $nodeValue = (string)$childElement->nodeValue;
                             }
+                        } else {
+                            $nodeValue = self::fromXml($childElement, $type, $baseNamespace);
                         }
+                    }
+
+                    if ($isArray) {
+                        $values = $refProperty->getValue($instance);
+                        $values[] = $nodeValue;
+                        $refProperty->setValue($instance, $values);
+                    } else {
+                        $refProperty->setValue($instance, $nodeValue);
                     }
                 }
             }
@@ -116,50 +127,50 @@ class XmlUtils
     public static function toXml($obj, DOMElement $element, DOMDocument $document)
     {
         try {
-            $ref = new ReflectionClass($obj);
+            $refClass = new ReflectionClass($obj);
 
-            if (self::extendsAbstract($ref)) {
-                $element->setAttribute('xsi:type', $ref->getShortName());
+            if (self::extendsAbstract($refClass)) {
+                $element->setAttribute('xsi:type', $refClass->getShortName());
             }
 
-            foreach ($ref->getMethods() as $method) {
-                $methodName = $method->getName();
-                if (strpos($methodName, 'get') === 0) {
-                    $annotations = self::getAnnotations($method->getDocComment());
+            $refProperties = $refClass->getProperties();
 
-                    if (array_key_exists('ElementName', $annotations)) {
-                        $propertyName = $annotations['ElementName'];
-                        $value = $method->invoke($obj);
+            foreach ($refProperties as $refProperty) {
+                $refProperty->setAccessible(true);
+                $annotations = self::getAnnotations($refProperty->getDocComment());
 
-                        // Omit null values from the XML
-                        if ($value !== null) {
-                            if (!is_array($value)) {
-                                $values = array($value);
+                if (array_key_exists('ElementName', $annotations)) {
+                    $propertyName = $annotations['ElementName'];
+                    $value = $refProperty->getValue($obj);
+
+                    // Omit null values from the XML
+                    if ($value !== null) {
+                        if (!is_array($value)) {
+                            $values = array($value);
+                        } else {
+                            $values = $value;
+                        }
+
+                        foreach ($values as $value) {
+                            $child = $document->createElement($propertyName);
+
+                            if (($value instanceof Nil) && array_key_exists('Nillable', $annotations)) {
+                                $child->setAttribute('xsi:nil', 'true');
+                            } else if ($value instanceof Enum) {
+                                $child->appendChild($document->createTextNode($value->getValue()));
+                            } else if (is_object($value)) {
+                                self::toXml($value, $child, $document);
                             } else {
-                                $values = $value;
-                            }
-
-                            foreach ($values as $value) {
-                                $child = $document->createElement($propertyName);
-
-                                if (($value instanceof Nil) && array_key_exists('Nillable', $annotations)) {
-                                    $child->setAttribute('xsi:nil', 'true');
-                                } else if ($value instanceof Enum) {
-                                    $child->appendChild($document->createTextNode($value->getValue()));
-                                } else if (is_object($value)) {
-                                    self::toXml($value, $child, $document);
+                                if (is_bool($value)) {
+                                    $value = $value === true ? 'true' : 'false';
                                 } else {
-                                    if (is_bool($value)) {
-                                        $value = $value === true ? 'true' : 'false';
-                                    } else {
-                                        $value = (string)$value;
-                                    }
-
-                                    $child->appendChild($document->createTextNode($value));
+                                    $value = (string)$value;
                                 }
 
-                                $element->appendChild($child);
+                                $child->appendChild($document->createTextNode($value));
                             }
+
+                            $element->appendChild($child);
                         }
                     }
                 }

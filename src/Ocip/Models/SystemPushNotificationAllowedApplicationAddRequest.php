@@ -17,12 +17,14 @@ class SystemPushNotificationAllowedApplicationAddRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName applicationId
+     * @Type string
      * @var string|null
      */
     private $applicationId = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -30,19 +32,17 @@ class SystemPushNotificationAllowedApplicationAddRequest extends \CWM\BroadWorks
     /**
      * Getter for applicationId
      *
-     * @ElementName applicationId
-     * @return string|null
+     * @return string
      */
     public function getApplicationId()
     {
-        return $this->applicationId;
+        return $this->applicationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationId;
     }
 
     /**
      * Setter for applicationId
      *
-     * @ElementName applicationId
-     * @param string|null $applicationId
+     * @param string $applicationId
      * @return $this
      */
     public function setApplicationId($applicationId)
@@ -52,26 +52,42 @@ class SystemPushNotificationAllowedApplicationAddRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationId()
+    {
+        $this->applicationId = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

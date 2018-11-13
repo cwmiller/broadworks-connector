@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ScheduleCombinationType UNION()
  * @method static ScheduleCombinationType INTERSECTION()
- * @ValueType string
+ * @EnumValueType string
  */
 class ScheduleCombinationType extends \MyCLabs\Enum\Enum
 {

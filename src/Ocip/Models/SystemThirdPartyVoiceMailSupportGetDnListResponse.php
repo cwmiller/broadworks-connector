@@ -17,6 +17,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName thirdPartyVoiceMailSupportTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $thirdPartyVoiceMailSupportTable = null;
@@ -24,24 +25,31 @@ class SystemThirdPartyVoiceMailSupportGetDnListResponse extends \CWM\BroadWorksC
     /**
      * Getter for thirdPartyVoiceMailSupportTable
      *
-     * @ElementName thirdPartyVoiceMailSupportTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getThirdPartyVoiceMailSupportTable()
     {
-        return $this->thirdPartyVoiceMailSupportTable;
+        return $this->thirdPartyVoiceMailSupportTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thirdPartyVoiceMailSupportTable;
     }
 
     /**
      * Setter for thirdPartyVoiceMailSupportTable
      *
-     * @ElementName thirdPartyVoiceMailSupportTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $thirdPartyVoiceMailSupportTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $thirdPartyVoiceMailSupportTable
      * @return $this
      */
     public function setThirdPartyVoiceMailSupportTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $thirdPartyVoiceMailSupportTable)
     {
         $this->thirdPartyVoiceMailSupportTable = $thirdPartyVoiceMailSupportTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThirdPartyVoiceMailSupportTable()
+    {
+        $this->thirdPartyVoiceMailSupportTable = null;
         return $this;
     }
 

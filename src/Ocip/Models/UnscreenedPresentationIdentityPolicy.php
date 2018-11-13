@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UNSCREENED_PRESENTATION_IDENTITY()
  * @method static UnscreenedPresentationIdentityPolicy
  * UNSCREENED_PRESENTATION_IDENTITY_WITH_PROFILE_DOMAIN()
- * @ValueType string
+ * @EnumValueType string
  */
 class UnscreenedPresentationIdentityPolicy extends \MyCLabs\Enum\Enum
 {

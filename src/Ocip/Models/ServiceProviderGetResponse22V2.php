@@ -26,84 +26,98 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName isEnterprise
+     * @Type bool
      * @var bool|null
      */
     private $isEnterprise = null;
 
     /**
      * @ElementName useCustomRoutingProfile
+     * @Type bool
      * @var bool|null
      */
     private $useCustomRoutingProfile = null;
 
     /**
      * @ElementName defaultDomain
+     * @Type string
      * @var string|null
      */
     private $defaultDomain = null;
 
     /**
      * @ElementName serviceProviderName
+     * @Type string
      * @var string|null
      */
     private $serviceProviderName = null;
 
     /**
      * @ElementName supportEmail
+     * @Type string
      * @var string|null
      */
     private $supportEmail = null;
 
     /**
      * @ElementName contact
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
 
     /**
      * @ElementName address
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
 
     /**
      * @ElementName useServiceProviderLanguages
+     * @Type bool
      * @var bool|null
      */
     private $useServiceProviderLanguages = null;
 
     /**
      * @ElementName servicePolicy
+     * @Type string
      * @var string|null
      */
     private $servicePolicy = null;
 
     /**
      * @ElementName callProcessingSliceId
+     * @Type string
      * @var string|null
      */
     private $callProcessingSliceId = null;
 
     /**
      * @ElementName provisioningSliceId
+     * @Type string
      * @var string|null
      */
     private $provisioningSliceId = null;
 
     /**
      * @ElementName subscriberPartition
+     * @Type string
      * @var string|null
      */
     private $subscriberPartition = null;
 
     /**
      * @ElementName preferredDataCenter
+     * @Type string
      * @var string|null
      */
     private $preferredDataCenter = null;
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
@@ -111,19 +125,17 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for isEnterprise
      *
-     * @ElementName isEnterprise
-     * @return bool|null
+     * @return bool
      */
     public function getIsEnterprise()
     {
-        return $this->isEnterprise;
+        return $this->isEnterprise instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isEnterprise;
     }
 
     /**
      * Setter for isEnterprise
      *
-     * @ElementName isEnterprise
-     * @param bool|null $isEnterprise
+     * @param bool $isEnterprise
      * @return $this
      */
     public function setIsEnterprise($isEnterprise)
@@ -133,21 +145,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsEnterprise()
+    {
+        $this->isEnterprise = null;
+        return $this;
+    }
+
+    /**
      * Getter for useCustomRoutingProfile
      *
-     * @ElementName useCustomRoutingProfile
-     * @return bool|null
+     * @return bool
      */
     public function getUseCustomRoutingProfile()
     {
-        return $this->useCustomRoutingProfile;
+        return $this->useCustomRoutingProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useCustomRoutingProfile;
     }
 
     /**
      * Setter for useCustomRoutingProfile
      *
-     * @ElementName useCustomRoutingProfile
-     * @param bool|null $useCustomRoutingProfile
+     * @param bool $useCustomRoutingProfile
      * @return $this
      */
     public function setUseCustomRoutingProfile($useCustomRoutingProfile)
@@ -157,21 +176,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseCustomRoutingProfile()
+    {
+        $this->useCustomRoutingProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @return string|null
+     * @return string
      */
     public function getDefaultDomain()
     {
-        return $this->defaultDomain;
+        return $this->defaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultDomain;
     }
 
     /**
      * Setter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @param string|null $defaultDomain
+     * @param string $defaultDomain
      * @return $this
      */
     public function setDefaultDomain($defaultDomain)
@@ -181,21 +207,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultDomain()
+    {
+        $this->defaultDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceProviderName
      *
-     * @ElementName serviceProviderName
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderName()
     {
-        return $this->serviceProviderName;
+        return $this->serviceProviderName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderName;
     }
 
     /**
      * Setter for serviceProviderName
      *
-     * @ElementName serviceProviderName
-     * @param string|null $serviceProviderName
+     * @param string $serviceProviderName
      * @return $this
      */
     public function setServiceProviderName($serviceProviderName)
@@ -205,21 +238,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderName()
+    {
+        $this->serviceProviderName = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportEmail
      *
-     * @ElementName supportEmail
-     * @return string|null
+     * @return string
      */
     public function getSupportEmail()
     {
-        return $this->supportEmail;
+        return $this->supportEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportEmail;
     }
 
     /**
      * Setter for supportEmail
      *
-     * @ElementName supportEmail
-     * @param string|null $supportEmail
+     * @param string $supportEmail
      * @return $this
      */
     public function setSupportEmail($supportEmail)
@@ -229,21 +269,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportEmail()
+    {
+        $this->supportEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for contact
      *
-     * @ElementName contact
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Contact|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Contact
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Contact|null $contact
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Contact $contact
      * @return $this
      */
     public function setContact(\CWM\BroadWorksConnector\Ocip\Models\Contact $contact)
@@ -253,21 +300,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Getter for address
      *
-     * @ElementName address
-     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address
      * @return $this
      */
     public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
@@ -277,21 +331,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
+        return $this;
+    }
+
+    /**
      * Getter for useServiceProviderLanguages
      *
-     * @ElementName useServiceProviderLanguages
-     * @return bool|null
+     * @return bool
      */
     public function getUseServiceProviderLanguages()
     {
-        return $this->useServiceProviderLanguages;
+        return $this->useServiceProviderLanguages instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useServiceProviderLanguages;
     }
 
     /**
      * Setter for useServiceProviderLanguages
      *
-     * @ElementName useServiceProviderLanguages
-     * @param bool|null $useServiceProviderLanguages
+     * @param bool $useServiceProviderLanguages
      * @return $this
      */
     public function setUseServiceProviderLanguages($useServiceProviderLanguages)
@@ -301,21 +362,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseServiceProviderLanguages()
+    {
+        $this->useServiceProviderLanguages = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePolicy
      *
-     * @ElementName servicePolicy
-     * @return string|null
+     * @return string
      */
     public function getServicePolicy()
     {
-        return $this->servicePolicy;
+        return $this->servicePolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePolicy;
     }
 
     /**
      * Setter for servicePolicy
      *
-     * @ElementName servicePolicy
-     * @param string|null $servicePolicy
+     * @param string $servicePolicy
      * @return $this
      */
     public function setServicePolicy($servicePolicy)
@@ -325,21 +393,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePolicy()
+    {
+        $this->servicePolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for callProcessingSliceId
      *
-     * @ElementName callProcessingSliceId
-     * @return string|null
+     * @return string
      */
     public function getCallProcessingSliceId()
     {
-        return $this->callProcessingSliceId;
+        return $this->callProcessingSliceId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callProcessingSliceId;
     }
 
     /**
      * Setter for callProcessingSliceId
      *
-     * @ElementName callProcessingSliceId
-     * @param string|null $callProcessingSliceId
+     * @param string $callProcessingSliceId
      * @return $this
      */
     public function setCallProcessingSliceId($callProcessingSliceId)
@@ -349,21 +424,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallProcessingSliceId()
+    {
+        $this->callProcessingSliceId = null;
+        return $this;
+    }
+
+    /**
      * Getter for provisioningSliceId
      *
-     * @ElementName provisioningSliceId
-     * @return string|null
+     * @return string
      */
     public function getProvisioningSliceId()
     {
-        return $this->provisioningSliceId;
+        return $this->provisioningSliceId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningSliceId;
     }
 
     /**
      * Setter for provisioningSliceId
      *
-     * @ElementName provisioningSliceId
-     * @param string|null $provisioningSliceId
+     * @param string $provisioningSliceId
      * @return $this
      */
     public function setProvisioningSliceId($provisioningSliceId)
@@ -373,21 +455,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProvisioningSliceId()
+    {
+        $this->provisioningSliceId = null;
+        return $this;
+    }
+
+    /**
      * Getter for subscriberPartition
      *
-     * @ElementName subscriberPartition
-     * @return string|null
+     * @return string
      */
     public function getSubscriberPartition()
     {
-        return $this->subscriberPartition;
+        return $this->subscriberPartition instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->subscriberPartition;
     }
 
     /**
      * Setter for subscriberPartition
      *
-     * @ElementName subscriberPartition
-     * @param string|null $subscriberPartition
+     * @param string $subscriberPartition
      * @return $this
      */
     public function setSubscriberPartition($subscriberPartition)
@@ -397,21 +486,28 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSubscriberPartition()
+    {
+        $this->subscriberPartition = null;
+        return $this;
+    }
+
+    /**
      * Getter for preferredDataCenter
      *
-     * @ElementName preferredDataCenter
-     * @return string|null
+     * @return string
      */
     public function getPreferredDataCenter()
     {
-        return $this->preferredDataCenter;
+        return $this->preferredDataCenter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preferredDataCenter;
     }
 
     /**
      * Setter for preferredDataCenter
      *
-     * @ElementName preferredDataCenter
-     * @param string|null $preferredDataCenter
+     * @param string $preferredDataCenter
      * @return $this
      */
     public function setPreferredDataCenter($preferredDataCenter)
@@ -421,26 +517,42 @@ class ServiceProviderGetResponse22V2 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreferredDataCenter()
+    {
+        $this->preferredDataCenter = null;
+        return $this;
+    }
+
+    /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
     {
         $this->resellerId = $resellerId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
         return $this;
     }
 

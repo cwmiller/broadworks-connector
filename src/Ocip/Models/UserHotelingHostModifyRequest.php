@@ -16,36 +16,42 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName enforceAssociationLimit
+     * @Type bool
      * @var bool|null
      */
     private $enforceAssociationLimit = null;
 
     /**
      * @ElementName associationLimitHours
+     * @Type int
      * @var int|null
      */
     private $associationLimitHours = null;
 
     /**
      * @ElementName accessLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
     private $accessLevel = null;
 
     /**
      * @ElementName removeGuestAssociation
+     * @Type bool
      * @var bool|null
      */
     private $removeGuestAssociation = null;
@@ -53,19 +59,17 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -75,21 +79,28 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -99,21 +110,28 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for enforceAssociationLimit
      *
-     * @ElementName enforceAssociationLimit
-     * @return bool|null
+     * @return bool
      */
     public function getEnforceAssociationLimit()
     {
-        return $this->enforceAssociationLimit;
+        return $this->enforceAssociationLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enforceAssociationLimit;
     }
 
     /**
      * Setter for enforceAssociationLimit
      *
-     * @ElementName enforceAssociationLimit
-     * @param bool|null $enforceAssociationLimit
+     * @param bool $enforceAssociationLimit
      * @return $this
      */
     public function setEnforceAssociationLimit($enforceAssociationLimit)
@@ -123,21 +141,28 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnforceAssociationLimit()
+    {
+        $this->enforceAssociationLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @return int|null
+     * @return int
      */
     public function getAssociationLimitHours()
     {
-        return $this->associationLimitHours;
+        return $this->associationLimitHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->associationLimitHours;
     }
 
     /**
      * Setter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @param int|null $associationLimitHours
+     * @param int $associationLimitHours
      * @return $this
      */
     public function setAssociationLimitHours($associationLimitHours)
@@ -147,21 +172,28 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssociationLimitHours()
+    {
+        $this->associationLimitHours = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessLevel
      *
-     * @ElementName accessLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel
      */
     public function getAccessLevel()
     {
-        return $this->accessLevel;
+        return $this->accessLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessLevel;
     }
 
     /**
      * Setter for accessLevel
      *
-     * @ElementName accessLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null $accessLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel $accessLevel
      * @return $this
      */
     public function setAccessLevel(\CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel $accessLevel)
@@ -171,26 +203,42 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessLevel()
+    {
+        $this->accessLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for removeGuestAssociation
      *
-     * @ElementName removeGuestAssociation
-     * @return bool|null
+     * @return bool
      */
     public function getRemoveGuestAssociation()
     {
-        return $this->removeGuestAssociation;
+        return $this->removeGuestAssociation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->removeGuestAssociation;
     }
 
     /**
      * Setter for removeGuestAssociation
      *
-     * @ElementName removeGuestAssociation
-     * @param bool|null $removeGuestAssociation
+     * @param bool $removeGuestAssociation
      * @return $this
      */
     public function setRemoveGuestAssociation($removeGuestAssociation)
     {
         $this->removeGuestAssociation = $removeGuestAssociation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRemoveGuestAssociation()
+    {
+        $this->removeGuestAssociation = null;
         return $this;
     }
 

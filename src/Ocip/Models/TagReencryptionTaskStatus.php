@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static TagReencryptionTaskStatus NOT_STARTED()
  * @method static TagReencryptionTaskStatus PROCESSING()
- * @ValueType string
+ * @EnumValueType string
  */
 class TagReencryptionTaskStatus extends \MyCLabs\Enum\Enum
 {

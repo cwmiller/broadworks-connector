@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterMediaOnHoldMessageSelection URL()
  * @method static CallCenterMediaOnHoldMessageSelection CUSTOM()
  * @method static CallCenterMediaOnHoldMessageSelection EXTERNAL()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterMediaOnHoldMessageSelection extends \MyCLabs\Enum\Enum
 {

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * DIRECT_ROUTE_TRUNK_IDENTITY()
  * @method static DirectRouteOutgoingTrunkIdentityPolicy
  * TRUNK_GROUP_TRUNK_IDENTITY()
- * @ValueType string
+ * @EnumValueType string
  */
 class DirectRouteOutgoingTrunkIdentityPolicy extends \MyCLabs\Enum\Enum
 {

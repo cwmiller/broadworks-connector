@@ -16,18 +16,21 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName scheduleName
+     * @Type string
      * @var string|null
      */
     private $scheduleName = null;
 
     /**
      * @ElementName scheduleType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $scheduleType = null;
@@ -35,19 +38,17 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -57,21 +58,28 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleName
      *
-     * @ElementName scheduleName
-     * @return string|null
+     * @return string
      */
     public function getScheduleName()
     {
-        return $this->scheduleName;
+        return $this->scheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleName;
     }
 
     /**
      * Setter for scheduleName
      *
-     * @ElementName scheduleName
-     * @param string|null $scheduleName
+     * @param string $scheduleName
      * @return $this
      */
     public function setScheduleName($scheduleName)
@@ -81,26 +89,42 @@ class ServiceProviderScheduleAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScheduleName()
+    {
+        $this->scheduleName = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleType
      *
-     * @ElementName scheduleType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
      */
     public function getScheduleType()
     {
-        return $this->scheduleType;
+        return $this->scheduleType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleType;
     }
 
     /**
      * Setter for scheduleType
      *
-     * @ElementName scheduleType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null $scheduleType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleType $scheduleType
      * @return $this
      */
     public function setScheduleType(\CWM\BroadWorksConnector\Ocip\Models\ScheduleType $scheduleType)
     {
         $this->scheduleType = $scheduleType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScheduleType()
+    {
+        $this->scheduleType = null;
         return $this;
     }
 

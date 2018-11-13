@@ -17,24 +17,29 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaCommunicationBarringAuthorizationCode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode[]
      */
     private $searchCriteriaCommunicationBarringAuthorizationCode = array(
@@ -43,6 +48,8 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
 
     /**
      * @ElementName searchCriteriaCommunicationBarringAuthorizationCodeDescription
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription[]
      */
     private $searchCriteriaCommunicationBarringAuthorizationCodeDescription = array(
@@ -51,6 +58,8 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
 
     /**
      * @ElementName searchCriteriaNetworkClassOfServiceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName[]
      */
     private $searchCriteriaNetworkClassOfServiceName = array(
@@ -60,19 +69,17 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -82,21 +89,28 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -106,21 +120,28 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -130,20 +151,27 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaCommunicationBarringAuthorizationCode
      *
-     * @ElementName searchCriteriaCommunicationBarringAuthorizationCode
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode[]
      */
     public function getSearchCriteriaCommunicationBarringAuthorizationCode()
     {
-        return $this->searchCriteriaCommunicationBarringAuthorizationCode;
+        return $this->searchCriteriaCommunicationBarringAuthorizationCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaCommunicationBarringAuthorizationCode;
     }
 
     /**
      * Setter for searchCriteriaCommunicationBarringAuthorizationCode
      *
-     * @ElementName searchCriteriaCommunicationBarringAuthorizationCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode[] $searchCriteriaCommunicationBarringAuthorizationCode
      * @return $this
      */
@@ -154,33 +182,39 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaCommunicationBarringAuthorizationCode()
+    {
+        $this->searchCriteriaCommunicationBarringAuthorizationCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaCommunicationBarringAuthorizationCode
      *
-     * @ElementName searchCriteriaCommunicationBarringAuthorizationCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCode $searchCriteriaCommunicationBarringAuthorizationCode
      * @return $this
      */
     public function addSearchCriteriaCommunicationBarringAuthorizationCode($searchCriteriaCommunicationBarringAuthorizationCode)
     {
-        $this->searchCriteriaCommunicationBarringAuthorizationCode []= $searchCriteriaCommunicationBarringAuthorizationCode;
+        $this->searchCriteriaCommunicationBarringAuthorizationCode[] = $searchCriteriaCommunicationBarringAuthorizationCode;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaCommunicationBarringAuthorizationCodeDescription
      *
-     * @ElementName searchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription[]
      */
     public function getSearchCriteriaCommunicationBarringAuthorizationCodeDescription()
     {
-        return $this->searchCriteriaCommunicationBarringAuthorizationCodeDescription;
+        return $this->searchCriteriaCommunicationBarringAuthorizationCodeDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaCommunicationBarringAuthorizationCodeDescription;
     }
 
     /**
      * Setter for searchCriteriaCommunicationBarringAuthorizationCodeDescription
      *
-     * @ElementName searchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription[] $searchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @return $this
      */
@@ -191,33 +225,39 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaCommunicationBarringAuthorizationCodeDescription()
+    {
+        $this->searchCriteriaCommunicationBarringAuthorizationCodeDescription = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaCommunicationBarringAuthorizationCodeDescription
      *
-     * @ElementName searchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCommunicationBarringAuthorizationCodeDescription $searchCriteriaCommunicationBarringAuthorizationCodeDescription
      * @return $this
      */
     public function addSearchCriteriaCommunicationBarringAuthorizationCodeDescription($searchCriteriaCommunicationBarringAuthorizationCodeDescription)
     {
-        $this->searchCriteriaCommunicationBarringAuthorizationCodeDescription []= $searchCriteriaCommunicationBarringAuthorizationCodeDescription;
+        $this->searchCriteriaCommunicationBarringAuthorizationCodeDescription[] = $searchCriteriaCommunicationBarringAuthorizationCodeDescription;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaNetworkClassOfServiceName
      *
-     * @ElementName searchCriteriaNetworkClassOfServiceName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName[]
      */
     public function getSearchCriteriaNetworkClassOfServiceName()
     {
-        return $this->searchCriteriaNetworkClassOfServiceName;
+        return $this->searchCriteriaNetworkClassOfServiceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaNetworkClassOfServiceName;
     }
 
     /**
      * Setter for searchCriteriaNetworkClassOfServiceName
      *
-     * @ElementName searchCriteriaNetworkClassOfServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName[] $searchCriteriaNetworkClassOfServiceName
      * @return $this
      */
@@ -228,15 +268,23 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaNetworkClassOfServiceName()
+    {
+        $this->searchCriteriaNetworkClassOfServiceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaNetworkClassOfServiceName
      *
-     * @ElementName searchCriteriaNetworkClassOfServiceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNetworkClassOfServiceName $searchCriteriaNetworkClassOfServiceName
      * @return $this
      */
     public function addSearchCriteriaNetworkClassOfServiceName($searchCriteriaNetworkClassOfServiceName)
     {
-        $this->searchCriteriaNetworkClassOfServiceName []= $searchCriteriaNetworkClassOfServiceName;
+        $this->searchCriteriaNetworkClassOfServiceName[] = $searchCriteriaNetworkClassOfServiceName;
         return $this;
     }
 

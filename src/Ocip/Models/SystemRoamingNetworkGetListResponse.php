@@ -16,6 +16,7 @@ class SystemRoamingNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName roamingNetworkTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $roamingNetworkTable = null;
@@ -23,24 +24,31 @@ class SystemRoamingNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for roamingNetworkTable
      *
-     * @ElementName roamingNetworkTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRoamingNetworkTable()
     {
-        return $this->roamingNetworkTable;
+        return $this->roamingNetworkTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->roamingNetworkTable;
     }
 
     /**
      * Setter for roamingNetworkTable
      *
-     * @ElementName roamingNetworkTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $roamingNetworkTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $roamingNetworkTable
      * @return $this
      */
     public function setRoamingNetworkTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $roamingNetworkTable)
     {
         $this->roamingNetworkTable = $roamingNetworkTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoamingNetworkTable()
+    {
+        $this->roamingNetworkTable = null;
         return $this;
     }
 

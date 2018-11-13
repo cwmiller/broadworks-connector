@@ -16,30 +16,35 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     private $type = null;
 
     /**
      * @ElementName isEnabled
+     * @Type bool
      * @var bool|null
      */
     private $isEnabled = null;
 
     /**
      * @ElementName templateBody
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
      */
     private $templateBody = null;
@@ -47,19 +52,17 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +72,28 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -93,21 +103,28 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for type
      *
-     * @ElementName type
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
      */
     public function getType()
     {
-        return $this->type;
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
     }
 
     /**
      * Setter for type
      *
-     * @ElementName type
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType $type
      * @return $this
      */
     public function setType(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType $type)
@@ -117,21 +134,28 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
     }
 
     /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
+        return $this;
+    }
+
+    /**
      * Getter for isEnabled
      *
-     * @ElementName isEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsEnabled()
     {
-        return $this->isEnabled;
+        return $this->isEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isEnabled;
     }
 
     /**
      * Setter for isEnabled
      *
-     * @ElementName isEnabled
-     * @param bool|null $isEnabled
+     * @param bool $isEnabled
      * @return $this
      */
     public function setIsEnabled($isEnabled)
@@ -141,26 +165,42 @@ class ServiceProviderMWIDeliveryToMobileEndpointCustomTemplateModifyRequest exte
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsEnabled()
+    {
+        $this->isEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for templateBody
      *
-     * @ElementName templateBody
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody
      */
     public function getTemplateBody()
     {
-        return $this->templateBody;
+        return $this->templateBody instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateBody;
     }
 
     /**
      * Setter for templateBody
      *
-     * @ElementName templateBody
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null $templateBody
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody $templateBody
      * @return $this
      */
     public function setTemplateBody(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody $templateBody)
     {
         $this->templateBody = $templateBody;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTemplateBody()
+    {
+        $this->templateBody = null;
         return $this;
     }
 

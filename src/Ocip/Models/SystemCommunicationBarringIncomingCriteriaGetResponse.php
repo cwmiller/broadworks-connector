@@ -16,24 +16,29 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName timeSchedule
+     * @Type string
      * @var string|null
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
+     * @Type string
      * @var string|null
      */
     private $holidaySchedule = null;
 
     /**
      * @ElementName matchNumberPortabilityStatus
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $matchNumberPortabilityStatus = array(
@@ -43,19 +48,17 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -65,21 +68,28 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @return string|null
+     * @return string
      */
     public function getTimeSchedule()
     {
-        return $this->timeSchedule;
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
     }
 
     /**
      * Setter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @param string|null $timeSchedule
+     * @param string $timeSchedule
      * @return $this
      */
     public function setTimeSchedule($timeSchedule)
@@ -89,21 +99,28 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @return string|null
+     * @return string
      */
     public function getHolidaySchedule()
     {
-        return $this->holidaySchedule;
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
     }
 
     /**
      * Setter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @param string|null $holidaySchedule
+     * @param string $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule($holidaySchedule)
@@ -113,20 +130,27 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchNumberPortabilityStatus
      *
-     * @ElementName matchNumberPortabilityStatus
      * @return string[]
      */
     public function getMatchNumberPortabilityStatus()
     {
-        return $this->matchNumberPortabilityStatus;
+        return $this->matchNumberPortabilityStatus instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchNumberPortabilityStatus;
     }
 
     /**
      * Setter for matchNumberPortabilityStatus
      *
-     * @ElementName matchNumberPortabilityStatus
      * @param string[] $matchNumberPortabilityStatus
      * @return $this
      */
@@ -137,15 +161,23 @@ class SystemCommunicationBarringIncomingCriteriaGetResponse extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchNumberPortabilityStatus()
+    {
+        $this->matchNumberPortabilityStatus = null;
+        return $this;
+    }
+
+    /**
      * Adder for matchNumberPortabilityStatus
      *
-     * @ElementName matchNumberPortabilityStatus
      * @param string $matchNumberPortabilityStatus
      * @return $this
      */
     public function addMatchNumberPortabilityStatus(string $matchNumberPortabilityStatus)
     {
-        $this->matchNumberPortabilityStatus []= $matchNumberPortabilityStatus;
+        $this->matchNumberPortabilityStatus[] = $matchNumberPortabilityStatus;
         return $this;
     }
 

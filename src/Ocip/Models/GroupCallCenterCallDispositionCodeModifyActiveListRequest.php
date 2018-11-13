@@ -16,18 +16,22 @@ class GroupCallCenterCallDispositionCodeModifyActiveListRequest extends \CWM\Bro
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName callDispositionCodeActivation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[]
      */
     private $callDispositionCodeActivation = array(
@@ -37,19 +41,17 @@ class GroupCallCenterCallDispositionCodeModifyActiveListRequest extends \CWM\Bro
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -59,21 +61,28 @@ class GroupCallCenterCallDispositionCodeModifyActiveListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -83,20 +92,27 @@ class GroupCallCenterCallDispositionCodeModifyActiveListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for callDispositionCodeActivation
      *
-     * @ElementName callDispositionCodeActivation
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[]
      */
     public function getCallDispositionCodeActivation()
     {
-        return $this->callDispositionCodeActivation;
+        return $this->callDispositionCodeActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callDispositionCodeActivation;
     }
 
     /**
      * Setter for callDispositionCodeActivation
      *
-     * @ElementName callDispositionCodeActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[] $callDispositionCodeActivation
      * @return $this
      */
@@ -107,15 +123,23 @@ class GroupCallCenterCallDispositionCodeModifyActiveListRequest extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallDispositionCodeActivation()
+    {
+        $this->callDispositionCodeActivation = null;
+        return $this;
+    }
+
+    /**
      * Adder for callDispositionCodeActivation
      *
-     * @ElementName callDispositionCodeActivation
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation $callDispositionCodeActivation
      * @return $this
      */
     public function addCallDispositionCodeActivation($callDispositionCodeActivation)
     {
-        $this->callDispositionCodeActivation []= $callDispositionCodeActivation;
+        $this->callDispositionCodeActivation[] = $callDispositionCodeActivation;
         return $this;
     }
 

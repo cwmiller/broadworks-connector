@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static AuthenticationLockoutWaitAlgorithmType DOUBLE()
  * @method static AuthenticationLockoutWaitAlgorithmType FIXED()
- * @ValueType string
+ * @EnumValueType string
  */
 class AuthenticationLockoutWaitAlgorithmType extends \MyCLabs\Enum\Enum
 {

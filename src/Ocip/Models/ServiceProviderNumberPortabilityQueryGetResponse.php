@@ -16,24 +16,29 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName enableNumberPortabilityQueryForOutgoingCalls
+     * @Type bool
      * @var bool|null
      */
     private $enableNumberPortabilityQueryForOutgoingCalls = null;
 
     /**
      * @ElementName enableNumberPortabilityQueryForIncomingCalls
+     * @Type bool
      * @var bool|null
      */
     private $enableNumberPortabilityQueryForIncomingCalls = null;
 
     /**
      * @ElementName enableNumberPortabilityQueryForNetworkCallsOnly
+     * @Type bool
      * @var bool|null
      */
     private $enableNumberPortabilityQueryForNetworkCallsOnly = null;
 
     /**
      * @ElementName digitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $digitPattern = array(
@@ -43,19 +48,17 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
     /**
      * Getter for enableNumberPortabilityQueryForOutgoingCalls
      *
-     * @ElementName enableNumberPortabilityQueryForOutgoingCalls
-     * @return bool|null
+     * @return bool
      */
     public function getEnableNumberPortabilityQueryForOutgoingCalls()
     {
-        return $this->enableNumberPortabilityQueryForOutgoingCalls;
+        return $this->enableNumberPortabilityQueryForOutgoingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableNumberPortabilityQueryForOutgoingCalls;
     }
 
     /**
      * Setter for enableNumberPortabilityQueryForOutgoingCalls
      *
-     * @ElementName enableNumberPortabilityQueryForOutgoingCalls
-     * @param bool|null $enableNumberPortabilityQueryForOutgoingCalls
+     * @param bool $enableNumberPortabilityQueryForOutgoingCalls
      * @return $this
      */
     public function setEnableNumberPortabilityQueryForOutgoingCalls($enableNumberPortabilityQueryForOutgoingCalls)
@@ -65,21 +68,28 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableNumberPortabilityQueryForOutgoingCalls()
+    {
+        $this->enableNumberPortabilityQueryForOutgoingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableNumberPortabilityQueryForIncomingCalls
      *
-     * @ElementName enableNumberPortabilityQueryForIncomingCalls
-     * @return bool|null
+     * @return bool
      */
     public function getEnableNumberPortabilityQueryForIncomingCalls()
     {
-        return $this->enableNumberPortabilityQueryForIncomingCalls;
+        return $this->enableNumberPortabilityQueryForIncomingCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableNumberPortabilityQueryForIncomingCalls;
     }
 
     /**
      * Setter for enableNumberPortabilityQueryForIncomingCalls
      *
-     * @ElementName enableNumberPortabilityQueryForIncomingCalls
-     * @param bool|null $enableNumberPortabilityQueryForIncomingCalls
+     * @param bool $enableNumberPortabilityQueryForIncomingCalls
      * @return $this
      */
     public function setEnableNumberPortabilityQueryForIncomingCalls($enableNumberPortabilityQueryForIncomingCalls)
@@ -89,21 +99,28 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableNumberPortabilityQueryForIncomingCalls()
+    {
+        $this->enableNumberPortabilityQueryForIncomingCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableNumberPortabilityQueryForNetworkCallsOnly
      *
-     * @ElementName enableNumberPortabilityQueryForNetworkCallsOnly
-     * @return bool|null
+     * @return bool
      */
     public function getEnableNumberPortabilityQueryForNetworkCallsOnly()
     {
-        return $this->enableNumberPortabilityQueryForNetworkCallsOnly;
+        return $this->enableNumberPortabilityQueryForNetworkCallsOnly instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableNumberPortabilityQueryForNetworkCallsOnly;
     }
 
     /**
      * Setter for enableNumberPortabilityQueryForNetworkCallsOnly
      *
-     * @ElementName enableNumberPortabilityQueryForNetworkCallsOnly
-     * @param bool|null $enableNumberPortabilityQueryForNetworkCallsOnly
+     * @param bool $enableNumberPortabilityQueryForNetworkCallsOnly
      * @return $this
      */
     public function setEnableNumberPortabilityQueryForNetworkCallsOnly($enableNumberPortabilityQueryForNetworkCallsOnly)
@@ -113,20 +130,27 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableNumberPortabilityQueryForNetworkCallsOnly()
+    {
+        $this->enableNumberPortabilityQueryForNetworkCallsOnly = null;
+        return $this;
+    }
+
+    /**
      * Getter for digitPattern
      *
-     * @ElementName digitPattern
      * @return string[]
      */
     public function getDigitPattern()
     {
-        return $this->digitPattern;
+        return $this->digitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPattern;
     }
 
     /**
      * Setter for digitPattern
      *
-     * @ElementName digitPattern
      * @param string[] $digitPattern
      * @return $this
      */
@@ -137,15 +161,23 @@ class ServiceProviderNumberPortabilityQueryGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPattern()
+    {
+        $this->digitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for digitPattern
      *
-     * @ElementName digitPattern
      * @param string $digitPattern
      * @return $this
      */
     public function addDigitPattern(string $digitPattern)
     {
-        $this->digitPattern []= $digitPattern;
+        $this->digitPattern[] = $digitPattern;
         return $this;
     }
 

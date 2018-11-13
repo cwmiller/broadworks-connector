@@ -17,12 +17,14 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName statisticsRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null
      */
     private $statisticsRange = null;
@@ -30,19 +32,17 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -52,26 +52,42 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for statisticsRange
      *
-     * @ElementName statisticsRange
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange
      */
     public function getStatisticsRange()
     {
-        return $this->statisticsRange;
+        return $this->statisticsRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statisticsRange;
     }
 
     /**
      * Setter for statisticsRange
      *
-     * @ElementName statisticsRange
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null $statisticsRange
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange $statisticsRange
      * @return $this
      */
     public function setStatisticsRange(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange $statisticsRange)
     {
         $this->statisticsRange = $statisticsRange;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatisticsRange()
+    {
+        $this->statisticsRange = null;
         return $this;
     }
 

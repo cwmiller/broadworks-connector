@@ -15,102 +15,119 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName enableScreening
+     * @Type bool
      * @var bool|null
      */
     private $enableScreening = null;
 
     /**
      * @ElementName screeningAlertType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType|null
      */
     private $screeningAlertType = null;
 
     /**
      * @ElementName alertBroadWorksMobilityLocation
+     * @Type bool
      * @var bool|null
      */
     private $alertBroadWorksMobilityLocation = null;
 
     /**
      * @ElementName alertBroadWorksAnywhereLocations
+     * @Type bool
      * @var bool|null
      */
     private $alertBroadWorksAnywhereLocations = null;
 
     /**
      * @ElementName alertSharedCallAppearanceLocations
+     * @Type bool
      * @var bool|null
      */
     private $alertSharedCallAppearanceLocations = null;
 
     /**
      * @ElementName alertingMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode|null
      */
     private $alertingMode = null;
 
     /**
      * @ElementName alertingCallingLineIdNameMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode|null
      */
     private $alertingCallingLineIdNameMode = null;
 
     /**
      * @ElementName alertingCustomCallingLineIdName
+     * @Type string
      * @var string|null
      */
     private $alertingCustomCallingLineIdName = null;
 
     /**
      * @ElementName unicodeAlertingCustomCallingLineIdName
+     * @Type string
      * @var string|null
      */
     private $unicodeAlertingCustomCallingLineIdName = null;
 
     /**
      * @ElementName alertingCallingLineIdPhoneNumberMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode|null
      */
     private $alertingCallingLineIdPhoneNumberMode = null;
 
     /**
      * @ElementName alertingCustomCallingLineIdPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $alertingCustomCallingLineIdPhoneNumber = null;
 
     /**
      * @ElementName callPushRecallNumberOfRings
+     * @Type int
      * @var int|null
      */
     private $callPushRecallNumberOfRings = null;
 
     /**
      * @ElementName nextAssistantNumberOfRings
+     * @Type int
      * @var int|null
      */
     private $nextAssistantNumberOfRings = null;
 
     /**
      * @ElementName enableRollover
+     * @Type bool
      * @var bool|null
      */
     private $enableRollover = null;
 
     /**
      * @ElementName rolloverWaitTimeSeconds
+     * @Type int
      * @var int|null
      */
     private $rolloverWaitTimeSeconds = null;
 
     /**
      * @ElementName rolloverAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType|null
      */
     private $rolloverAction = null;
 
     /**
      * @ElementName rolloverForwardToPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $rolloverForwardToPhoneNumber = null;
@@ -118,19 +135,17 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for enableScreening
      *
-     * @ElementName enableScreening
-     * @return bool|null
+     * @return bool
      */
     public function getEnableScreening()
     {
-        return $this->enableScreening;
+        return $this->enableScreening instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableScreening;
     }
 
     /**
      * Setter for enableScreening
      *
-     * @ElementName enableScreening
-     * @param bool|null $enableScreening
+     * @param bool $enableScreening
      * @return $this
      */
     public function setEnableScreening($enableScreening)
@@ -140,21 +155,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableScreening()
+    {
+        $this->enableScreening = null;
+        return $this;
+    }
+
+    /**
      * Getter for screeningAlertType
      *
-     * @ElementName screeningAlertType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType
      */
     public function getScreeningAlertType()
     {
-        return $this->screeningAlertType;
+        return $this->screeningAlertType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->screeningAlertType;
     }
 
     /**
      * Setter for screeningAlertType
      *
-     * @ElementName screeningAlertType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType|null $screeningAlertType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType $screeningAlertType
      * @return $this
      */
     public function setScreeningAlertType(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveScreeningAlertType $screeningAlertType)
@@ -164,21 +186,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScreeningAlertType()
+    {
+        $this->screeningAlertType = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertBroadWorksMobilityLocation
      *
-     * @ElementName alertBroadWorksMobilityLocation
-     * @return bool|null
+     * @return bool
      */
     public function getAlertBroadWorksMobilityLocation()
     {
-        return $this->alertBroadWorksMobilityLocation;
+        return $this->alertBroadWorksMobilityLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertBroadWorksMobilityLocation;
     }
 
     /**
      * Setter for alertBroadWorksMobilityLocation
      *
-     * @ElementName alertBroadWorksMobilityLocation
-     * @param bool|null $alertBroadWorksMobilityLocation
+     * @param bool $alertBroadWorksMobilityLocation
      * @return $this
      */
     public function setAlertBroadWorksMobilityLocation($alertBroadWorksMobilityLocation)
@@ -188,21 +217,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertBroadWorksMobilityLocation()
+    {
+        $this->alertBroadWorksMobilityLocation = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertBroadWorksAnywhereLocations
      *
-     * @ElementName alertBroadWorksAnywhereLocations
-     * @return bool|null
+     * @return bool
      */
     public function getAlertBroadWorksAnywhereLocations()
     {
-        return $this->alertBroadWorksAnywhereLocations;
+        return $this->alertBroadWorksAnywhereLocations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertBroadWorksAnywhereLocations;
     }
 
     /**
      * Setter for alertBroadWorksAnywhereLocations
      *
-     * @ElementName alertBroadWorksAnywhereLocations
-     * @param bool|null $alertBroadWorksAnywhereLocations
+     * @param bool $alertBroadWorksAnywhereLocations
      * @return $this
      */
     public function setAlertBroadWorksAnywhereLocations($alertBroadWorksAnywhereLocations)
@@ -212,21 +248,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertBroadWorksAnywhereLocations()
+    {
+        $this->alertBroadWorksAnywhereLocations = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertSharedCallAppearanceLocations
      *
-     * @ElementName alertSharedCallAppearanceLocations
-     * @return bool|null
+     * @return bool
      */
     public function getAlertSharedCallAppearanceLocations()
     {
-        return $this->alertSharedCallAppearanceLocations;
+        return $this->alertSharedCallAppearanceLocations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertSharedCallAppearanceLocations;
     }
 
     /**
      * Setter for alertSharedCallAppearanceLocations
      *
-     * @ElementName alertSharedCallAppearanceLocations
-     * @param bool|null $alertSharedCallAppearanceLocations
+     * @param bool $alertSharedCallAppearanceLocations
      * @return $this
      */
     public function setAlertSharedCallAppearanceLocations($alertSharedCallAppearanceLocations)
@@ -236,21 +279,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertSharedCallAppearanceLocations()
+    {
+        $this->alertSharedCallAppearanceLocations = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingMode
      *
-     * @ElementName alertingMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode
      */
     public function getAlertingMode()
     {
-        return $this->alertingMode;
+        return $this->alertingMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingMode;
     }
 
     /**
      * Setter for alertingMode
      *
-     * @ElementName alertingMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode|null $alertingMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode $alertingMode
      * @return $this
      */
     public function setAlertingMode(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingMode $alertingMode)
@@ -260,21 +310,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingMode()
+    {
+        $this->alertingMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingCallingLineIdNameMode
      *
-     * @ElementName alertingCallingLineIdNameMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode
      */
     public function getAlertingCallingLineIdNameMode()
     {
-        return $this->alertingCallingLineIdNameMode;
+        return $this->alertingCallingLineIdNameMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingCallingLineIdNameMode;
     }
 
     /**
      * Setter for alertingCallingLineIdNameMode
      *
-     * @ElementName alertingCallingLineIdNameMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode|null $alertingCallingLineIdNameMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode $alertingCallingLineIdNameMode
      * @return $this
      */
     public function setAlertingCallingLineIdNameMode(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdNameMode $alertingCallingLineIdNameMode)
@@ -284,21 +341,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingCallingLineIdNameMode()
+    {
+        $this->alertingCallingLineIdNameMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingCustomCallingLineIdName
      *
-     * @ElementName alertingCustomCallingLineIdName
-     * @return string|null
+     * @return string
      */
     public function getAlertingCustomCallingLineIdName()
     {
-        return $this->alertingCustomCallingLineIdName;
+        return $this->alertingCustomCallingLineIdName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingCustomCallingLineIdName;
     }
 
     /**
      * Setter for alertingCustomCallingLineIdName
      *
-     * @ElementName alertingCustomCallingLineIdName
-     * @param string|null $alertingCustomCallingLineIdName
+     * @param string $alertingCustomCallingLineIdName
      * @return $this
      */
     public function setAlertingCustomCallingLineIdName($alertingCustomCallingLineIdName)
@@ -308,21 +372,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingCustomCallingLineIdName()
+    {
+        $this->alertingCustomCallingLineIdName = null;
+        return $this;
+    }
+
+    /**
      * Getter for unicodeAlertingCustomCallingLineIdName
      *
-     * @ElementName unicodeAlertingCustomCallingLineIdName
-     * @return string|null
+     * @return string
      */
     public function getUnicodeAlertingCustomCallingLineIdName()
     {
-        return $this->unicodeAlertingCustomCallingLineIdName;
+        return $this->unicodeAlertingCustomCallingLineIdName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unicodeAlertingCustomCallingLineIdName;
     }
 
     /**
      * Setter for unicodeAlertingCustomCallingLineIdName
      *
-     * @ElementName unicodeAlertingCustomCallingLineIdName
-     * @param string|null $unicodeAlertingCustomCallingLineIdName
+     * @param string $unicodeAlertingCustomCallingLineIdName
      * @return $this
      */
     public function setUnicodeAlertingCustomCallingLineIdName($unicodeAlertingCustomCallingLineIdName)
@@ -332,21 +403,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUnicodeAlertingCustomCallingLineIdName()
+    {
+        $this->unicodeAlertingCustomCallingLineIdName = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingCallingLineIdPhoneNumberMode
      *
-     * @ElementName alertingCallingLineIdPhoneNumberMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode
      */
     public function getAlertingCallingLineIdPhoneNumberMode()
     {
-        return $this->alertingCallingLineIdPhoneNumberMode;
+        return $this->alertingCallingLineIdPhoneNumberMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingCallingLineIdPhoneNumberMode;
     }
 
     /**
      * Setter for alertingCallingLineIdPhoneNumberMode
      *
-     * @ElementName alertingCallingLineIdPhoneNumberMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode|null $alertingCallingLineIdPhoneNumberMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode $alertingCallingLineIdPhoneNumberMode
      * @return $this
      */
     public function setAlertingCallingLineIdPhoneNumberMode(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveAlertingCallingLineIdPhoneNumberMode $alertingCallingLineIdPhoneNumberMode)
@@ -356,21 +434,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingCallingLineIdPhoneNumberMode()
+    {
+        $this->alertingCallingLineIdPhoneNumberMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertingCustomCallingLineIdPhoneNumber
      *
-     * @ElementName alertingCustomCallingLineIdPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getAlertingCustomCallingLineIdPhoneNumber()
     {
-        return $this->alertingCustomCallingLineIdPhoneNumber;
+        return $this->alertingCustomCallingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingCustomCallingLineIdPhoneNumber;
     }
 
     /**
      * Setter for alertingCustomCallingLineIdPhoneNumber
      *
-     * @ElementName alertingCustomCallingLineIdPhoneNumber
-     * @param string|null $alertingCustomCallingLineIdPhoneNumber
+     * @param string $alertingCustomCallingLineIdPhoneNumber
      * @return $this
      */
     public function setAlertingCustomCallingLineIdPhoneNumber($alertingCustomCallingLineIdPhoneNumber)
@@ -380,21 +465,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingCustomCallingLineIdPhoneNumber()
+    {
+        $this->alertingCustomCallingLineIdPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for callPushRecallNumberOfRings
      *
-     * @ElementName callPushRecallNumberOfRings
-     * @return int|null
+     * @return int
      */
     public function getCallPushRecallNumberOfRings()
     {
-        return $this->callPushRecallNumberOfRings;
+        return $this->callPushRecallNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callPushRecallNumberOfRings;
     }
 
     /**
      * Setter for callPushRecallNumberOfRings
      *
-     * @ElementName callPushRecallNumberOfRings
-     * @param int|null $callPushRecallNumberOfRings
+     * @param int $callPushRecallNumberOfRings
      * @return $this
      */
     public function setCallPushRecallNumberOfRings($callPushRecallNumberOfRings)
@@ -404,21 +496,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallPushRecallNumberOfRings()
+    {
+        $this->callPushRecallNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for nextAssistantNumberOfRings
      *
-     * @ElementName nextAssistantNumberOfRings
-     * @return int|null
+     * @return int
      */
     public function getNextAssistantNumberOfRings()
     {
-        return $this->nextAssistantNumberOfRings;
+        return $this->nextAssistantNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nextAssistantNumberOfRings;
     }
 
     /**
      * Setter for nextAssistantNumberOfRings
      *
-     * @ElementName nextAssistantNumberOfRings
-     * @param int|null $nextAssistantNumberOfRings
+     * @param int $nextAssistantNumberOfRings
      * @return $this
      */
     public function setNextAssistantNumberOfRings($nextAssistantNumberOfRings)
@@ -428,21 +527,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNextAssistantNumberOfRings()
+    {
+        $this->nextAssistantNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableRollover
      *
-     * @ElementName enableRollover
-     * @return bool|null
+     * @return bool
      */
     public function getEnableRollover()
     {
-        return $this->enableRollover;
+        return $this->enableRollover instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableRollover;
     }
 
     /**
      * Setter for enableRollover
      *
-     * @ElementName enableRollover
-     * @param bool|null $enableRollover
+     * @param bool $enableRollover
      * @return $this
      */
     public function setEnableRollover($enableRollover)
@@ -452,21 +558,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableRollover()
+    {
+        $this->enableRollover = null;
+        return $this;
+    }
+
+    /**
      * Getter for rolloverWaitTimeSeconds
      *
-     * @ElementName rolloverWaitTimeSeconds
-     * @return int|null
+     * @return int
      */
     public function getRolloverWaitTimeSeconds()
     {
-        return $this->rolloverWaitTimeSeconds;
+        return $this->rolloverWaitTimeSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rolloverWaitTimeSeconds;
     }
 
     /**
      * Setter for rolloverWaitTimeSeconds
      *
-     * @ElementName rolloverWaitTimeSeconds
-     * @param int|null $rolloverWaitTimeSeconds
+     * @param int $rolloverWaitTimeSeconds
      * @return $this
      */
     public function setRolloverWaitTimeSeconds($rolloverWaitTimeSeconds)
@@ -476,21 +589,28 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRolloverWaitTimeSeconds()
+    {
+        $this->rolloverWaitTimeSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for rolloverAction
      *
-     * @ElementName rolloverAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType
      */
     public function getRolloverAction()
     {
-        return $this->rolloverAction;
+        return $this->rolloverAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rolloverAction;
     }
 
     /**
      * Setter for rolloverAction
      *
-     * @ElementName rolloverAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType|null $rolloverAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType $rolloverAction
      * @return $this
      */
     public function setRolloverAction(\CWM\BroadWorksConnector\Ocip\Models\ExecutiveRolloverActionType $rolloverAction)
@@ -500,26 +620,42 @@ class UserExecutiveGetScreeningAlertingResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRolloverAction()
+    {
+        $this->rolloverAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for rolloverForwardToPhoneNumber
      *
-     * @ElementName rolloverForwardToPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getRolloverForwardToPhoneNumber()
     {
-        return $this->rolloverForwardToPhoneNumber;
+        return $this->rolloverForwardToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rolloverForwardToPhoneNumber;
     }
 
     /**
      * Setter for rolloverForwardToPhoneNumber
      *
-     * @ElementName rolloverForwardToPhoneNumber
-     * @param string|null $rolloverForwardToPhoneNumber
+     * @param string $rolloverForwardToPhoneNumber
      * @return $this
      */
     public function setRolloverForwardToPhoneNumber($rolloverForwardToPhoneNumber)
     {
         $this->rolloverForwardToPhoneNumber = $rolloverForwardToPhoneNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRolloverForwardToPhoneNumber()
+    {
+        $this->rolloverForwardToPhoneNumber = null;
         return $this;
     }
 

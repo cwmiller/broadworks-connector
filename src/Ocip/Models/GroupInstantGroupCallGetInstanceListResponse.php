@@ -18,6 +18,7 @@ class GroupInstantGroupCallGetInstanceListResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName instantGroupCallTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $instantGroupCallTable = null;
@@ -25,24 +26,31 @@ class GroupInstantGroupCallGetInstanceListResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for instantGroupCallTable
      *
-     * @ElementName instantGroupCallTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getInstantGroupCallTable()
     {
-        return $this->instantGroupCallTable;
+        return $this->instantGroupCallTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->instantGroupCallTable;
     }
 
     /**
      * Setter for instantGroupCallTable
      *
-     * @ElementName instantGroupCallTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $instantGroupCallTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $instantGroupCallTable
      * @return $this
      */
     public function setInstantGroupCallTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $instantGroupCallTable)
     {
         $this->instantGroupCallTable = $instantGroupCallTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInstantGroupCallTable()
+    {
+        $this->instantGroupCallTable = null;
         return $this;
     }
 

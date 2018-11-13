@@ -17,18 +17,21 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName fileFormat
+     * @Type string
      * @var string|null
      */
     private $fileFormat = null;
 
     /**
      * @ElementName extendedCaptureOnUploadFromDevice
+     * @Type bool
      * @var bool|null
      */
     private $extendedCaptureOnUploadFromDevice = null;
@@ -36,19 +39,17 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -58,21 +59,28 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileFormat
      *
-     * @ElementName fileFormat
-     * @return string|null
+     * @return string
      */
     public function getFileFormat()
     {
-        return $this->fileFormat;
+        return $this->fileFormat instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileFormat;
     }
 
     /**
      * Setter for fileFormat
      *
-     * @ElementName fileFormat
-     * @param string|null $fileFormat
+     * @param string $fileFormat
      * @return $this
      */
     public function setFileFormat($fileFormat)
@@ -82,26 +90,42 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileFormat()
+    {
+        $this->fileFormat = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedCaptureOnUploadFromDevice
      *
-     * @ElementName extendedCaptureOnUploadFromDevice
-     * @return bool|null
+     * @return bool
      */
     public function getExtendedCaptureOnUploadFromDevice()
     {
-        return $this->extendedCaptureOnUploadFromDevice;
+        return $this->extendedCaptureOnUploadFromDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedCaptureOnUploadFromDevice;
     }
 
     /**
      * Setter for extendedCaptureOnUploadFromDevice
      *
-     * @ElementName extendedCaptureOnUploadFromDevice
-     * @param bool|null $extendedCaptureOnUploadFromDevice
+     * @param bool $extendedCaptureOnUploadFromDevice
      * @return $this
      */
     public function setExtendedCaptureOnUploadFromDevice($extendedCaptureOnUploadFromDevice)
     {
         $this->extendedCaptureOnUploadFromDevice = $extendedCaptureOnUploadFromDevice;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExtendedCaptureOnUploadFromDevice()
+    {
+        $this->extendedCaptureOnUploadFromDevice = null;
         return $this;
     }
 

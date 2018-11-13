@@ -16,6 +16,7 @@ class SystemInventoryReportModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName defaultFromAddress
+     * @Type string
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -23,24 +24,31 @@ class SystemInventoryReportModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @return string|null
+     * @return string
      */
     public function getDefaultFromAddress()
     {
-        return $this->defaultFromAddress;
+        return $this->defaultFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultFromAddress;
     }
 
     /**
      * Setter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @param string|null $defaultFromAddress
+     * @param string $defaultFromAddress
      * @return $this
      */
     public function setDefaultFromAddress($defaultFromAddress)
     {
         $this->defaultFromAddress = $defaultFromAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultFromAddress()
+    {
+        $this->defaultFromAddress = null;
         return $this;
     }
 

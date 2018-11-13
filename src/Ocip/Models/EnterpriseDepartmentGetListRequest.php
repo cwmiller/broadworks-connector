@@ -21,12 +21,14 @@ class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName enterpriseId
+     * @Type string
      * @var string|null
      */
     private $enterpriseId = null;
 
     /**
      * @ElementName includeGroupDepartments
+     * @Type bool
      * @var bool|null
      */
     private $includeGroupDepartments = null;
@@ -34,19 +36,17 @@ class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for enterpriseId
      *
-     * @ElementName enterpriseId
-     * @return string|null
+     * @return string
      */
     public function getEnterpriseId()
     {
-        return $this->enterpriseId;
+        return $this->enterpriseId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseId;
     }
 
     /**
      * Setter for enterpriseId
      *
-     * @ElementName enterpriseId
-     * @param string|null $enterpriseId
+     * @param string $enterpriseId
      * @return $this
      */
     public function setEnterpriseId($enterpriseId)
@@ -56,26 +56,42 @@ class EnterpriseDepartmentGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnterpriseId()
+    {
+        $this->enterpriseId = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeGroupDepartments
      *
-     * @ElementName includeGroupDepartments
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeGroupDepartments()
     {
-        return $this->includeGroupDepartments;
+        return $this->includeGroupDepartments instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeGroupDepartments;
     }
 
     /**
      * Setter for includeGroupDepartments
      *
-     * @ElementName includeGroupDepartments
-     * @param bool|null $includeGroupDepartments
+     * @param bool $includeGroupDepartments
      * @return $this
      */
     public function setIncludeGroupDepartments($includeGroupDepartments)
     {
         $this->includeGroupDepartments = $includeGroupDepartments;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncludeGroupDepartments()
+    {
+        $this->includeGroupDepartments = null;
         return $this;
     }
 

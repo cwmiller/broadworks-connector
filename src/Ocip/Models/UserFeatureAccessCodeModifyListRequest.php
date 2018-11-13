@@ -16,12 +16,15 @@ class UserFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName featureAccessCode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyEntry[]
      */
     private $featureAccessCode = array(
@@ -31,19 +34,17 @@ class UserFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for featureAccessCode
      *
-     * @ElementName featureAccessCode
      * @return \CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyEntry[]
      */
     public function getFeatureAccessCode()
     {
-        return $this->featureAccessCode;
+        return $this->featureAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->featureAccessCode;
     }
 
     /**
      * Setter for featureAccessCode
      *
-     * @ElementName featureAccessCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyEntry[] $featureAccessCode
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFeatureAccessCode()
+    {
+        $this->featureAccessCode = null;
+        return $this;
+    }
+
+    /**
      * Adder for featureAccessCode
      *
-     * @ElementName featureAccessCode
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserFeatureAccessCodeModifyEntry $featureAccessCode
      * @return $this
      */
     public function addFeatureAccessCode($featureAccessCode)
     {
-        $this->featureAccessCode []= $featureAccessCode;
+        $this->featureAccessCode[] = $featureAccessCode;
         return $this;
     }
 

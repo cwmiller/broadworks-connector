@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalLoginM
 
     /**
      * @ElementName accessUsingOtherMailboxId
+     * @Type string
      * @var string|null
      */
     private $accessUsingOtherMailboxId = null;
@@ -17,24 +18,31 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1VoicePortalLoginM
     /**
      * Getter for accessUsingOtherMailboxId
      *
-     * @ElementName accessUsingOtherMailboxId
-     * @return string|null
+     * @return string
      */
     public function getAccessUsingOtherMailboxId()
     {
-        return $this->accessUsingOtherMailboxId;
+        return $this->accessUsingOtherMailboxId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessUsingOtherMailboxId;
     }
 
     /**
      * Setter for accessUsingOtherMailboxId
      *
-     * @ElementName accessUsingOtherMailboxId
-     * @param string|null $accessUsingOtherMailboxId
+     * @param string $accessUsingOtherMailboxId
      * @return $this
      */
     public function setAccessUsingOtherMailboxId($accessUsingOtherMailboxId)
     {
         $this->accessUsingOtherMailboxId = $accessUsingOtherMailboxId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessUsingOtherMailboxId()
+    {
+        $this->accessUsingOtherMailboxId = null;
         return $this;
     }
 

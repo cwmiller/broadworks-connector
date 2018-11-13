@@ -16,12 +16,14 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName originatorUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -52,28 +52,46 @@ class GroupGroupPagingModifyOriginatorListRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for originatorUserIdList
      *
-     * @ElementName originatorUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getOriginatorUserIdList()
     {
-        return $this->originatorUserIdList;
+        return $this->originatorUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatorUserIdList;
     }
 
     /**
      * Setter for originatorUserIdList
      *
-     * @ElementName originatorUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $originatorUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $originatorUserIdList
      * @return $this
      */
     public function setOriginatorUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $originatorUserIdList)
     {
-        $this->originatorUserIdList = $originatorUserIdList;
+        if ($originatorUserIdList === null) {
+            $this->originatorUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->originatorUserIdList = $originatorUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOriginatorUserIdList()
+    {
+        $this->originatorUserIdList = null;
         return $this;
     }
 

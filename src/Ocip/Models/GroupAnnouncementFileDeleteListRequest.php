@@ -16,18 +16,22 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName announcementFileKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
     private $announcementFileKey = array(
@@ -37,19 +41,17 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -59,21 +61,28 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -83,20 +92,27 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementFileKey
      *
-     * @ElementName announcementFileKey
      * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
     public function getAnnouncementFileKey()
     {
-        return $this->announcementFileKey;
+        return $this->announcementFileKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileKey;
     }
 
     /**
      * Setter for announcementFileKey
      *
-     * @ElementName announcementFileKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[] $announcementFileKey
      * @return $this
      */
@@ -107,15 +123,23 @@ class GroupAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileKey()
+    {
+        $this->announcementFileKey = null;
+        return $this;
+    }
+
+    /**
      * Adder for announcementFileKey
      *
-     * @ElementName announcementFileKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey $announcementFileKey
      * @return $this
      */
     public function addAnnouncementFileKey($announcementFileKey)
     {
-        $this->announcementFileKey []= $announcementFileKey;
+        $this->announcementFileKey[] = $announcementFileKey;
         return $this;
     }
 

@@ -10,12 +10,14 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys
 
     /**
      * @ElementName finishEnteringOrReenteringPasscode
+     * @Type string
      * @var string|null
      */
     private $finishEnteringOrReenteringPasscode = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -23,19 +25,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys
     /**
      * Getter for finishEnteringOrReenteringPasscode
      *
-     * @ElementName finishEnteringOrReenteringPasscode
-     * @return string|null
+     * @return string
      */
     public function getFinishEnteringOrReenteringPasscode()
     {
-        return $this->finishEnteringOrReenteringPasscode;
+        return $this->finishEnteringOrReenteringPasscode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->finishEnteringOrReenteringPasscode;
     }
 
     /**
      * Setter for finishEnteringOrReenteringPasscode
      *
-     * @ElementName finishEnteringOrReenteringPasscode
-     * @param string|null $finishEnteringOrReenteringPasscode
+     * @param string $finishEnteringOrReenteringPasscode
      * @return $this
      */
     public function setFinishEnteringOrReenteringPasscode($finishEnteringOrReenteringPasscode)
@@ -45,26 +45,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PasscodeMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFinishEnteringOrReenteringPasscode()
+    {
+        $this->finishEnteringOrReenteringPasscode = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
     {
         $this->returnToPreviousMenu = $returnToPreviousMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
         return $this;
     }
 

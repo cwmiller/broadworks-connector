@@ -16,6 +16,7 @@ class SystemAccountingGetChargingFunctionElementServerListResponse extends \CWM\
 
     /**
      * @ElementName chargingFunctionElementServerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $chargingFunctionElementServerTable = null;
@@ -23,24 +24,31 @@ class SystemAccountingGetChargingFunctionElementServerListResponse extends \CWM\
     /**
      * Getter for chargingFunctionElementServerTable
      *
-     * @ElementName chargingFunctionElementServerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getChargingFunctionElementServerTable()
     {
-        return $this->chargingFunctionElementServerTable;
+        return $this->chargingFunctionElementServerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->chargingFunctionElementServerTable;
     }
 
     /**
      * Setter for chargingFunctionElementServerTable
      *
-     * @ElementName chargingFunctionElementServerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $chargingFunctionElementServerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $chargingFunctionElementServerTable
      * @return $this
      */
     public function setChargingFunctionElementServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $chargingFunctionElementServerTable)
     {
         $this->chargingFunctionElementServerTable = $chargingFunctionElementServerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetChargingFunctionElementServerTable()
+    {
+        $this->chargingFunctionElementServerTable = null;
         return $this;
     }
 

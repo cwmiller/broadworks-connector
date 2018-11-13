@@ -16,30 +16,35 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
+     * @Type int
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
 
     /**
      * @ElementName enableTransfer
+     * @Type bool
      * @var bool|null
      */
     private $enableTransfer = null;
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +52,7 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName bounceCallWhenAgentUnavailable
+     * @Type bool
      * @var bool|null
      */
     private $bounceCallWhenAgentUnavailable = null;
@@ -54,19 +60,17 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -76,21 +80,28 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -100,21 +111,28 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfRingsBeforeBouncingCall
      *
-     * @ElementName numberOfRingsBeforeBouncingCall
-     * @return int|null
+     * @return int
      */
     public function getNumberOfRingsBeforeBouncingCall()
     {
-        return $this->numberOfRingsBeforeBouncingCall;
+        return $this->numberOfRingsBeforeBouncingCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfRingsBeforeBouncingCall;
     }
 
     /**
      * Setter for numberOfRingsBeforeBouncingCall
      *
-     * @ElementName numberOfRingsBeforeBouncingCall
-     * @param int|null $numberOfRingsBeforeBouncingCall
+     * @param int $numberOfRingsBeforeBouncingCall
      * @return $this
      */
     public function setNumberOfRingsBeforeBouncingCall($numberOfRingsBeforeBouncingCall)
@@ -124,21 +142,28 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfRingsBeforeBouncingCall()
+    {
+        $this->numberOfRingsBeforeBouncingCall = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableTransfer
      *
-     * @ElementName enableTransfer
-     * @return bool|null
+     * @return bool
      */
     public function getEnableTransfer()
     {
-        return $this->enableTransfer;
+        return $this->enableTransfer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableTransfer;
     }
 
     /**
      * Setter for enableTransfer
      *
-     * @ElementName enableTransfer
-     * @param bool|null $enableTransfer
+     * @param bool $enableTransfer
      * @return $this
      */
     public function setEnableTransfer($enableTransfer)
@@ -148,52 +173,77 @@ class GroupRoutePointBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableTransfer()
+    {
+        $this->enableTransfer = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
+     * @param string|null $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
     {
-        $this->transferPhoneNumber = $transferPhoneNumber;
+        if ($transferPhoneNumber === null) {
+            $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->transferPhoneNumber = $transferPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for bounceCallWhenAgentUnavailable
      *
-     * @ElementName bounceCallWhenAgentUnavailable
-     * @return bool|null
+     * @return bool
      */
     public function getBounceCallWhenAgentUnavailable()
     {
-        return $this->bounceCallWhenAgentUnavailable;
+        return $this->bounceCallWhenAgentUnavailable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bounceCallWhenAgentUnavailable;
     }
 
     /**
      * Setter for bounceCallWhenAgentUnavailable
      *
-     * @ElementName bounceCallWhenAgentUnavailable
-     * @param bool|null $bounceCallWhenAgentUnavailable
+     * @param bool $bounceCallWhenAgentUnavailable
      * @return $this
      */
     public function setBounceCallWhenAgentUnavailable($bounceCallWhenAgentUnavailable)
     {
         $this->bounceCallWhenAgentUnavailable = $bounceCallWhenAgentUnavailable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBounceCallWhenAgentUnavailable()
+    {
+        $this->bounceCallWhenAgentUnavailable = null;
         return $this;
     }
 

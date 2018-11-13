@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ServiceProviderVoicePortalScope GROUP()
  * @method static ServiceProviderVoicePortalScope SERVICE_PROVIDER()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderVoicePortalScope extends \MyCLabs\Enum\Enum
 {

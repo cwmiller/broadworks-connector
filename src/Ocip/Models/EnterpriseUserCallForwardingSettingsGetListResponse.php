@@ -25,6 +25,7 @@ class EnterpriseUserCallForwardingSettingsGetListResponse extends \CWM\BroadWork
 
     /**
      * @ElementName userCallForwardingTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userCallForwardingTable = null;
@@ -32,24 +33,31 @@ class EnterpriseUserCallForwardingSettingsGetListResponse extends \CWM\BroadWork
     /**
      * Getter for userCallForwardingTable
      *
-     * @ElementName userCallForwardingTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserCallForwardingTable()
     {
-        return $this->userCallForwardingTable;
+        return $this->userCallForwardingTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userCallForwardingTable;
     }
 
     /**
      * Setter for userCallForwardingTable
      *
-     * @ElementName userCallForwardingTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userCallForwardingTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userCallForwardingTable
      * @return $this
      */
     public function setUserCallForwardingTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userCallForwardingTable)
     {
         $this->userCallForwardingTable = $userCallForwardingTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserCallForwardingTable()
+    {
+        $this->userCallForwardingTable = null;
         return $this;
     }
 

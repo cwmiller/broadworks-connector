@@ -16,12 +16,14 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName enableTutorial
+     * @Type bool
      * @var bool|null
      */
     private $enableTutorial = null;
@@ -29,19 +31,17 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -51,26 +51,42 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableTutorial
      *
-     * @ElementName enableTutorial
-     * @return bool|null
+     * @return bool
      */
     public function getEnableTutorial()
     {
-        return $this->enableTutorial;
+        return $this->enableTutorial instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableTutorial;
     }
 
     /**
      * Setter for enableTutorial
      *
-     * @ElementName enableTutorial
-     * @param bool|null $enableTutorial
+     * @param bool $enableTutorial
      * @return $this
      */
     public function setEnableTutorial($enableTutorial)
     {
         $this->enableTutorial = $enableTutorial;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableTutorial()
+    {
+        $this->enableTutorial = null;
         return $this;
     }
 

@@ -10,24 +10,29 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
 
     /**
      * @ElementName profile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
 
     /**
      * @ElementName staticRegistrationCapable
+     * @Type bool
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
 
     /**
      * @ElementName configType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
 
     /**
      * @ElementName protocolChoice
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $protocolChoice = array(
@@ -36,12 +41,14 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
 
     /**
      * @ElementName isIpAddressOptional
+     * @Type bool
      * @var bool|null
      */
     private $isIpAddressOptional = null;
 
     /**
      * @ElementName useDomain
+     * @Type bool
      * @var bool|null
      */
     private $useDomain = null;
@@ -49,19 +56,17 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     /**
      * Getter for profile
      *
-     * @ElementName profile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
      */
     public function getProfile()
     {
-        return $this->profile;
+        return $this->profile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profile;
     }
 
     /**
      * Setter for profile
      *
-     * @ElementName profile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile
      * @return $this
      */
     public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile)
@@ -71,21 +76,28 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfile()
+    {
+        $this->profile = null;
+        return $this;
+    }
+
+    /**
      * Getter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @return bool|null
+     * @return bool
      */
     public function getStaticRegistrationCapable()
     {
-        return $this->staticRegistrationCapable;
+        return $this->staticRegistrationCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->staticRegistrationCapable;
     }
 
     /**
      * Setter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @param bool|null $staticRegistrationCapable
+     * @param bool $staticRegistrationCapable
      * @return $this
      */
     public function setStaticRegistrationCapable($staticRegistrationCapable)
@@ -95,21 +107,28 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStaticRegistrationCapable()
+    {
+        $this->staticRegistrationCapable = null;
+        return $this;
+    }
+
+    /**
      * Getter for configType
      *
-     * @ElementName configType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
      */
     public function getConfigType()
     {
-        return $this->configType;
+        return $this->configType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configType;
     }
 
     /**
      * Setter for configType
      *
-     * @ElementName configType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null $configType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configType
      * @return $this
      */
     public function setConfigType(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14 $configType)
@@ -119,20 +138,27 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigType()
+    {
+        $this->configType = null;
+        return $this;
+    }
+
+    /**
      * Getter for protocolChoice
      *
-     * @ElementName protocolChoice
      * @return string[]
      */
     public function getProtocolChoice()
     {
-        return $this->protocolChoice;
+        return $this->protocolChoice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocolChoice;
     }
 
     /**
      * Setter for protocolChoice
      *
-     * @ElementName protocolChoice
      * @param string[] $protocolChoice
      * @return $this
      */
@@ -143,34 +169,40 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProtocolChoice()
+    {
+        $this->protocolChoice = null;
+        return $this;
+    }
+
+    /**
      * Adder for protocolChoice
      *
-     * @ElementName protocolChoice
      * @param string $protocolChoice
      * @return $this
      */
     public function addProtocolChoice(string $protocolChoice)
     {
-        $this->protocolChoice []= $protocolChoice;
+        $this->protocolChoice[] = $protocolChoice;
         return $this;
     }
 
     /**
      * Getter for isIpAddressOptional
      *
-     * @ElementName isIpAddressOptional
-     * @return bool|null
+     * @return bool
      */
     public function getIsIpAddressOptional()
     {
-        return $this->isIpAddressOptional;
+        return $this->isIpAddressOptional instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isIpAddressOptional;
     }
 
     /**
      * Setter for isIpAddressOptional
      *
-     * @ElementName isIpAddressOptional
-     * @param bool|null $isIpAddressOptional
+     * @param bool $isIpAddressOptional
      * @return $this
      */
     public function setIsIpAddressOptional($isIpAddressOptional)
@@ -180,26 +212,42 @@ class SystemDeviceTypeGetAvailableListResponse14sp1TypeInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsIpAddressOptional()
+    {
+        $this->isIpAddressOptional = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDomain
      *
-     * @ElementName useDomain
-     * @return bool|null
+     * @return bool
      */
     public function getUseDomain()
     {
-        return $this->useDomain;
+        return $this->useDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDomain;
     }
 
     /**
      * Setter for useDomain
      *
-     * @ElementName useDomain
-     * @param bool|null $useDomain
+     * @param bool $useDomain
      * @return $this
      */
     public function setUseDomain($useDomain)
     {
         $this->useDomain = $useDomain;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseDomain()
+    {
+        $this->useDomain = null;
         return $this;
     }
 

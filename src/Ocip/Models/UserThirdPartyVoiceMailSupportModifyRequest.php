@@ -16,36 +16,42 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName busyRedirectToVoiceMail
+     * @Type bool
      * @var bool|null
      */
     private $busyRedirectToVoiceMail = null;
 
     /**
      * @ElementName noAnswerRedirectToVoiceMail
+     * @Type bool
      * @var bool|null
      */
     private $noAnswerRedirectToVoiceMail = null;
 
     /**
      * @ElementName serverSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
      */
     private $serverSelection = null;
 
     /**
      * @ElementName userServer
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -53,12 +59,14 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName mailboxIdType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
      */
     private $mailboxIdType = null;
 
     /**
      * @ElementName mailboxURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -66,18 +74,21 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName noAnswerNumberOfRings
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
 
     /**
      * @ElementName alwaysRedirectToVoiceMail
+     * @Type bool
      * @var bool|null
      */
     private $alwaysRedirectToVoiceMail = null;
 
     /**
      * @ElementName outOfPrimaryZoneRedirectToVoiceMail
+     * @Type bool
      * @var bool|null
      */
     private $outOfPrimaryZoneRedirectToVoiceMail = null;
@@ -85,19 +96,17 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -107,21 +116,28 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -131,21 +147,28 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyRedirectToVoiceMail
      *
-     * @ElementName busyRedirectToVoiceMail
-     * @return bool|null
+     * @return bool
      */
     public function getBusyRedirectToVoiceMail()
     {
-        return $this->busyRedirectToVoiceMail;
+        return $this->busyRedirectToVoiceMail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyRedirectToVoiceMail;
     }
 
     /**
      * Setter for busyRedirectToVoiceMail
      *
-     * @ElementName busyRedirectToVoiceMail
-     * @param bool|null $busyRedirectToVoiceMail
+     * @param bool $busyRedirectToVoiceMail
      * @return $this
      */
     public function setBusyRedirectToVoiceMail($busyRedirectToVoiceMail)
@@ -155,21 +178,28 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyRedirectToVoiceMail()
+    {
+        $this->busyRedirectToVoiceMail = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerRedirectToVoiceMail
      *
-     * @ElementName noAnswerRedirectToVoiceMail
-     * @return bool|null
+     * @return bool
      */
     public function getNoAnswerRedirectToVoiceMail()
     {
-        return $this->noAnswerRedirectToVoiceMail;
+        return $this->noAnswerRedirectToVoiceMail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerRedirectToVoiceMail;
     }
 
     /**
      * Setter for noAnswerRedirectToVoiceMail
      *
-     * @ElementName noAnswerRedirectToVoiceMail
-     * @param bool|null $noAnswerRedirectToVoiceMail
+     * @param bool $noAnswerRedirectToVoiceMail
      * @return $this
      */
     public function setNoAnswerRedirectToVoiceMail($noAnswerRedirectToVoiceMail)
@@ -179,21 +209,28 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerRedirectToVoiceMail()
+    {
+        $this->noAnswerRedirectToVoiceMail = null;
+        return $this;
+    }
+
+    /**
      * Getter for serverSelection
      *
-     * @ElementName serverSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection
      */
     public function getServerSelection()
     {
-        return $this->serverSelection;
+        return $this->serverSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serverSelection;
     }
 
     /**
      * Setter for serverSelection
      *
-     * @ElementName serverSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null $serverSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection $serverSelection
      * @return $this
      */
     public function setServerSelection(\CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection $serverSelection)
@@ -203,47 +240,63 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServerSelection()
+    {
+        $this->serverSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for userServer
      *
-     * @ElementName userServer
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getUserServer()
     {
-        return $this->userServer;
+        return $this->userServer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServer;
     }
 
     /**
      * Setter for userServer
      *
-     * @ElementName userServer
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $userServer
+     * @param string|null $userServer
      * @return $this
      */
     public function setUserServer($userServer)
     {
-        $this->userServer = $userServer;
+        if ($userServer === null) {
+            $this->userServer = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->userServer = $userServer;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserServer()
+    {
+        $this->userServer = null;
         return $this;
     }
 
     /**
      * Getter for mailboxIdType
      *
-     * @ElementName mailboxIdType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType
      */
     public function getMailboxIdType()
     {
-        return $this->mailboxIdType;
+        return $this->mailboxIdType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mailboxIdType;
     }
 
     /**
      * Setter for mailboxIdType
      *
-     * @ElementName mailboxIdType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null $mailboxIdType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType $mailboxIdType
      * @return $this
      */
     public function setMailboxIdType(\CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType $mailboxIdType)
@@ -253,47 +306,63 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMailboxIdType()
+    {
+        $this->mailboxIdType = null;
+        return $this;
+    }
+
+    /**
      * Getter for mailboxURL
      *
-     * @ElementName mailboxURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getMailboxURL()
     {
-        return $this->mailboxURL;
+        return $this->mailboxURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mailboxURL;
     }
 
     /**
      * Setter for mailboxURL
      *
-     * @ElementName mailboxURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $mailboxURL
+     * @param string|null $mailboxURL
      * @return $this
      */
     public function setMailboxURL($mailboxURL)
     {
-        $this->mailboxURL = $mailboxURL;
+        if ($mailboxURL === null) {
+            $this->mailboxURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->mailboxURL = $mailboxURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMailboxURL()
+    {
+        $this->mailboxURL = null;
         return $this;
     }
 
     /**
      * Getter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings
      */
     public function getNoAnswerNumberOfRings()
     {
-        return $this->noAnswerNumberOfRings;
+        return $this->noAnswerNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerNumberOfRings;
     }
 
     /**
      * Setter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null $noAnswerNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings $noAnswerNumberOfRings
      * @return $this
      */
     public function setNoAnswerNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings $noAnswerNumberOfRings)
@@ -303,21 +372,28 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerNumberOfRings()
+    {
+        $this->noAnswerNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for alwaysRedirectToVoiceMail
      *
-     * @ElementName alwaysRedirectToVoiceMail
-     * @return bool|null
+     * @return bool
      */
     public function getAlwaysRedirectToVoiceMail()
     {
-        return $this->alwaysRedirectToVoiceMail;
+        return $this->alwaysRedirectToVoiceMail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alwaysRedirectToVoiceMail;
     }
 
     /**
      * Setter for alwaysRedirectToVoiceMail
      *
-     * @ElementName alwaysRedirectToVoiceMail
-     * @param bool|null $alwaysRedirectToVoiceMail
+     * @param bool $alwaysRedirectToVoiceMail
      * @return $this
      */
     public function setAlwaysRedirectToVoiceMail($alwaysRedirectToVoiceMail)
@@ -327,26 +403,42 @@ class UserThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlwaysRedirectToVoiceMail()
+    {
+        $this->alwaysRedirectToVoiceMail = null;
+        return $this;
+    }
+
+    /**
      * Getter for outOfPrimaryZoneRedirectToVoiceMail
      *
-     * @ElementName outOfPrimaryZoneRedirectToVoiceMail
-     * @return bool|null
+     * @return bool
      */
     public function getOutOfPrimaryZoneRedirectToVoiceMail()
     {
-        return $this->outOfPrimaryZoneRedirectToVoiceMail;
+        return $this->outOfPrimaryZoneRedirectToVoiceMail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outOfPrimaryZoneRedirectToVoiceMail;
     }
 
     /**
      * Setter for outOfPrimaryZoneRedirectToVoiceMail
      *
-     * @ElementName outOfPrimaryZoneRedirectToVoiceMail
-     * @param bool|null $outOfPrimaryZoneRedirectToVoiceMail
+     * @param bool $outOfPrimaryZoneRedirectToVoiceMail
      * @return $this
      */
     public function setOutOfPrimaryZoneRedirectToVoiceMail($outOfPrimaryZoneRedirectToVoiceMail)
     {
         $this->outOfPrimaryZoneRedirectToVoiceMail = $outOfPrimaryZoneRedirectToVoiceMail;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOutOfPrimaryZoneRedirectToVoiceMail()
+    {
+        $this->outOfPrimaryZoneRedirectToVoiceMail = null;
         return $this;
     }
 

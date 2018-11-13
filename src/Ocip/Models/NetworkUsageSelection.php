@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static NetworkUsageSelection
  * FORCE_ALL_EXCEPT_EXTENSION_AND_LOCATION_CALLS()
  * @method static NetworkUsageSelection DO_NOT_FORCE_ENTERPRISE_AND_GROUP_CALLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class NetworkUsageSelection extends \MyCLabs\Enum\Enum
 {

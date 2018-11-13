@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ExecutiveCallFilteringSimpleFilterType ALL_CALLS()
  * @method static ExecutiveCallFilteringSimpleFilterType ALL_INTERNAL_CALLS()
  * @method static ExecutiveCallFilteringSimpleFilterType ALL_EXTERNAL_CALLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class ExecutiveCallFilteringSimpleFilterType extends \MyCLabs\Enum\Enum
 {

@@ -12,12 +12,14 @@ class IncomingCallingPlanDigitPatternPermission
 
     /**
      * @ElementName digitPatternName
+     * @Type string
      * @var string|null
      */
     private $digitPatternName = null;
 
     /**
      * @ElementName allow
+     * @Type bool
      * @var bool|null
      */
     private $allow = null;
@@ -25,19 +27,17 @@ class IncomingCallingPlanDigitPatternPermission
     /**
      * Getter for digitPatternName
      *
-     * @ElementName digitPatternName
-     * @return string|null
+     * @return string
      */
     public function getDigitPatternName()
     {
-        return $this->digitPatternName;
+        return $this->digitPatternName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPatternName;
     }
 
     /**
      * Setter for digitPatternName
      *
-     * @ElementName digitPatternName
-     * @param string|null $digitPatternName
+     * @param string $digitPatternName
      * @return $this
      */
     public function setDigitPatternName($digitPatternName)
@@ -47,26 +47,42 @@ class IncomingCallingPlanDigitPatternPermission
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPatternName()
+    {
+        $this->digitPatternName = null;
+        return $this;
+    }
+
+    /**
      * Getter for allow
      *
-     * @ElementName allow
-     * @return bool|null
+     * @return bool
      */
     public function getAllow()
     {
-        return $this->allow;
+        return $this->allow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allow;
     }
 
     /**
      * Setter for allow
      *
-     * @ElementName allow
-     * @param bool|null $allow
+     * @param bool $allow
      * @return $this
      */
     public function setAllow($allow)
     {
         $this->allow = $allow;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllow()
+    {
+        $this->allow = null;
         return $this;
     }
 

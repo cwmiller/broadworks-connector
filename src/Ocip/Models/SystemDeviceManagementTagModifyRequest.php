@@ -21,24 +21,28 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName systemDefaultTagSet
+     * @Type bool
      * @var bool|null
      */
     private $systemDefaultTagSet = null;
 
     /**
      * @ElementName tagSetName
+     * @Type string
      * @var string|null
      */
     private $tagSetName = null;
 
     /**
      * @ElementName tagName
+     * @Type string
      * @var string|null
      */
     private $tagName = null;
 
     /**
      * @ElementName tagValue
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -46,6 +50,7 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName tagValueToEncrypt
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -53,6 +58,7 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName isTagValueOverridable
+     * @Type bool
      * @var bool|null
      */
     private $isTagValueOverridable = null;
@@ -60,19 +66,17 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for systemDefaultTagSet
      *
-     * @ElementName systemDefaultTagSet
-     * @return bool|null
+     * @return bool
      */
     public function getSystemDefaultTagSet()
     {
-        return $this->systemDefaultTagSet;
+        return $this->systemDefaultTagSet instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemDefaultTagSet;
     }
 
     /**
      * Setter for systemDefaultTagSet
      *
-     * @ElementName systemDefaultTagSet
-     * @param bool|null $systemDefaultTagSet
+     * @param bool $systemDefaultTagSet
      * @return $this
      */
     public function setSystemDefaultTagSet($systemDefaultTagSet)
@@ -82,21 +86,28 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSystemDefaultTagSet()
+    {
+        $this->systemDefaultTagSet = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagSetName
      *
-     * @ElementName tagSetName
-     * @return string|null
+     * @return string
      */
     public function getTagSetName()
     {
-        return $this->tagSetName;
+        return $this->tagSetName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagSetName;
     }
 
     /**
      * Setter for tagSetName
      *
-     * @ElementName tagSetName
-     * @param string|null $tagSetName
+     * @param string $tagSetName
      * @return $this
      */
     public function setTagSetName($tagSetName)
@@ -106,21 +117,28 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagSetName()
+    {
+        $this->tagSetName = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagName
      *
-     * @ElementName tagName
-     * @return string|null
+     * @return string
      */
     public function getTagName()
     {
-        return $this->tagName;
+        return $this->tagName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagName;
     }
 
     /**
      * Setter for tagName
      *
-     * @ElementName tagName
-     * @param string|null $tagName
+     * @param string $tagName
      * @return $this
      */
     public function setTagName($tagName)
@@ -130,78 +148,112 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagName()
+    {
+        $this->tagName = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagValue
      *
-     * @ElementName tagValue
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTagValue()
     {
-        return $this->tagValue;
+        return $this->tagValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagValue;
     }
 
     /**
      * Setter for tagValue
      *
-     * @ElementName tagValue
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagValue
+     * @param string|null $tagValue
      * @return $this
      */
     public function setTagValue($tagValue)
     {
-        $this->tagValue = $tagValue;
+        if ($tagValue === null) {
+            $this->tagValue = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->tagValue = $tagValue;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagValue()
+    {
+        $this->tagValue = null;
         return $this;
     }
 
     /**
      * Getter for tagValueToEncrypt
      *
-     * @ElementName tagValueToEncrypt
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTagValueToEncrypt()
     {
-        return $this->tagValueToEncrypt;
+        return $this->tagValueToEncrypt instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagValueToEncrypt;
     }
 
     /**
      * Setter for tagValueToEncrypt
      *
-     * @ElementName tagValueToEncrypt
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $tagValueToEncrypt
+     * @param string|null $tagValueToEncrypt
      * @return $this
      */
     public function setTagValueToEncrypt($tagValueToEncrypt)
     {
-        $this->tagValueToEncrypt = $tagValueToEncrypt;
+        if ($tagValueToEncrypt === null) {
+            $this->tagValueToEncrypt = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->tagValueToEncrypt = $tagValueToEncrypt;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagValueToEncrypt()
+    {
+        $this->tagValueToEncrypt = null;
         return $this;
     }
 
     /**
      * Getter for isTagValueOverridable
      *
-     * @ElementName isTagValueOverridable
-     * @return bool|null
+     * @return bool
      */
     public function getIsTagValueOverridable()
     {
-        return $this->isTagValueOverridable;
+        return $this->isTagValueOverridable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isTagValueOverridable;
     }
 
     /**
      * Setter for isTagValueOverridable
      *
-     * @ElementName isTagValueOverridable
-     * @param bool|null $isTagValueOverridable
+     * @param bool $isTagValueOverridable
      * @return $this
      */
     public function setIsTagValueOverridable($isTagValueOverridable)
     {
         $this->isTagValueOverridable = $isTagValueOverridable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsTagValueOverridable()
+    {
+        $this->isTagValueOverridable = null;
         return $this;
     }
 

@@ -18,30 +18,35 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName enforceAssociationLimit
+     * @Type bool
      * @var bool|null
      */
     private $enforceAssociationLimit = null;
 
     /**
      * @ElementName associationLimitHours
+     * @Type int
      * @var int|null
      */
     private $associationLimitHours = null;
 
     /**
      * @ElementName accessLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
      */
     private $accessLevel = null;
 
     /**
      * @ElementName removeGuestAssociation
+     * @Type bool
      * @var bool|null
      */
     private $removeGuestAssociation = null;
@@ -49,19 +54,17 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -71,21 +74,28 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enforceAssociationLimit
      *
-     * @ElementName enforceAssociationLimit
-     * @return bool|null
+     * @return bool
      */
     public function getEnforceAssociationLimit()
     {
-        return $this->enforceAssociationLimit;
+        return $this->enforceAssociationLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enforceAssociationLimit;
     }
 
     /**
      * Setter for enforceAssociationLimit
      *
-     * @ElementName enforceAssociationLimit
-     * @param bool|null $enforceAssociationLimit
+     * @param bool $enforceAssociationLimit
      * @return $this
      */
     public function setEnforceAssociationLimit($enforceAssociationLimit)
@@ -95,21 +105,28 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnforceAssociationLimit()
+    {
+        $this->enforceAssociationLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @return int|null
+     * @return int
      */
     public function getAssociationLimitHours()
     {
-        return $this->associationLimitHours;
+        return $this->associationLimitHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->associationLimitHours;
     }
 
     /**
      * Setter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @param int|null $associationLimitHours
+     * @param int $associationLimitHours
      * @return $this
      */
     public function setAssociationLimitHours($associationLimitHours)
@@ -119,21 +136,28 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssociationLimitHours()
+    {
+        $this->associationLimitHours = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessLevel
      *
-     * @ElementName accessLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel
      */
     public function getAccessLevel()
     {
-        return $this->accessLevel;
+        return $this->accessLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessLevel;
     }
 
     /**
      * Setter for accessLevel
      *
-     * @ElementName accessLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null $accessLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel $accessLevel
      * @return $this
      */
     public function setAccessLevel(\CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel $accessLevel)
@@ -143,26 +167,42 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessLevel()
+    {
+        $this->accessLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for removeGuestAssociation
      *
-     * @ElementName removeGuestAssociation
-     * @return bool|null
+     * @return bool
      */
     public function getRemoveGuestAssociation()
     {
-        return $this->removeGuestAssociation;
+        return $this->removeGuestAssociation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->removeGuestAssociation;
     }
 
     /**
      * Setter for removeGuestAssociation
      *
-     * @ElementName removeGuestAssociation
-     * @param bool|null $removeGuestAssociation
+     * @param bool $removeGuestAssociation
      * @return $this
      */
     public function setRemoveGuestAssociation($removeGuestAssociation)
     {
         $this->removeGuestAssociation = $removeGuestAssociation;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRemoveGuestAssociation()
+    {
+        $this->removeGuestAssociation = null;
         return $this;
     }
 

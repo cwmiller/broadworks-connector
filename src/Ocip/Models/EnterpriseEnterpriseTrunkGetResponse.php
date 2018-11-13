@@ -16,30 +16,35 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName maximumRerouteAttempts
+     * @Type int
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
 
     /**
      * @ElementName routeExhaustionAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
 
     /**
      * @ElementName routeExhaustionForwardAddress
+     * @Type string
      * @var string|null
      */
     private $routeExhaustionForwardAddress = null;
 
     /**
      * @ElementName orderedRouting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponseOrderedRouting
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponseOrderedRouting|null
      */
     private $orderedRouting = null;
 
     /**
      * @ElementName priorityWeightedRouting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponsePriorityWeightedRouting
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponsePriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;
@@ -47,19 +52,17 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for maximumRerouteAttempts
      *
-     * @ElementName maximumRerouteAttempts
-     * @return int|null
+     * @return int
      */
     public function getMaximumRerouteAttempts()
     {
-        return $this->maximumRerouteAttempts;
+        return $this->maximumRerouteAttempts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumRerouteAttempts;
     }
 
     /**
      * Setter for maximumRerouteAttempts
      *
-     * @ElementName maximumRerouteAttempts
-     * @param int|null $maximumRerouteAttempts
+     * @param int $maximumRerouteAttempts
      * @return $this
      */
     public function setMaximumRerouteAttempts($maximumRerouteAttempts)
@@ -69,21 +72,28 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumRerouteAttempts()
+    {
+        $this->maximumRerouteAttempts = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeExhaustionAction
      *
-     * @ElementName routeExhaustionAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
      */
     public function getRouteExhaustionAction()
     {
-        return $this->routeExhaustionAction;
+        return $this->routeExhaustionAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeExhaustionAction;
     }
 
     /**
      * Setter for routeExhaustionAction
      *
-     * @ElementName routeExhaustionAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null $routeExhaustionAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction $routeExhaustionAction
      * @return $this
      */
     public function setRouteExhaustionAction(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction $routeExhaustionAction)
@@ -93,21 +103,28 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteExhaustionAction()
+    {
+        $this->routeExhaustionAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeExhaustionForwardAddress
      *
-     * @ElementName routeExhaustionForwardAddress
-     * @return string|null
+     * @return string
      */
     public function getRouteExhaustionForwardAddress()
     {
-        return $this->routeExhaustionForwardAddress;
+        return $this->routeExhaustionForwardAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeExhaustionForwardAddress;
     }
 
     /**
      * Setter for routeExhaustionForwardAddress
      *
-     * @ElementName routeExhaustionForwardAddress
-     * @param string|null $routeExhaustionForwardAddress
+     * @param string $routeExhaustionForwardAddress
      * @return $this
      */
     public function setRouteExhaustionForwardAddress($routeExhaustionForwardAddress)
@@ -117,21 +134,28 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteExhaustionForwardAddress()
+    {
+        $this->routeExhaustionForwardAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for orderedRouting
      *
-     * @ElementName orderedRouting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponseOrderedRouting|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponseOrderedRouting
      */
     public function getOrderedRouting()
     {
-        return $this->orderedRouting;
+        return $this->orderedRouting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->orderedRouting;
     }
 
     /**
      * Setter for orderedRouting
      *
-     * @ElementName orderedRouting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponseOrderedRouting|null $orderedRouting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponseOrderedRouting $orderedRouting
      * @return $this
      */
     public function setOrderedRouting(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponseOrderedRouting $orderedRouting)
@@ -141,26 +165,42 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOrderedRouting()
+    {
+        $this->orderedRouting = null;
+        return $this;
+    }
+
+    /**
      * Getter for priorityWeightedRouting
      *
-     * @ElementName priorityWeightedRouting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponsePriorityWeightedRouting|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponsePriorityWeightedRouting
      */
     public function getPriorityWeightedRouting()
     {
-        return $this->priorityWeightedRouting;
+        return $this->priorityWeightedRouting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priorityWeightedRouting;
     }
 
     /**
      * Setter for priorityWeightedRouting
      *
-     * @ElementName priorityWeightedRouting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponsePriorityWeightedRouting|null $priorityWeightedRouting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponsePriorityWeightedRouting $priorityWeightedRouting
      * @return $this
      */
     public function setPriorityWeightedRouting(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponsePriorityWeightedRouting $priorityWeightedRouting)
     {
         $this->priorityWeightedRouting = $priorityWeightedRouting;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPriorityWeightedRouting()
+    {
+        $this->priorityWeightedRouting = null;
         return $this;
     }
 

@@ -12,12 +12,14 @@ class SIPAuthenticationUserNamePassword
 
     /**
      * @ElementName sipAuthenticationUserName
+     * @Type string
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
 
     /**
      * @ElementName sipAuthenticationPassword
+     * @Type string
      * @var string|null
      */
     private $sipAuthenticationPassword = null;
@@ -25,19 +27,17 @@ class SIPAuthenticationUserNamePassword
     /**
      * Getter for sipAuthenticationUserName
      *
-     * @ElementName sipAuthenticationUserName
-     * @return string|null
+     * @return string
      */
     public function getSipAuthenticationUserName()
     {
-        return $this->sipAuthenticationUserName;
+        return $this->sipAuthenticationUserName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipAuthenticationUserName;
     }
 
     /**
      * Setter for sipAuthenticationUserName
      *
-     * @ElementName sipAuthenticationUserName
-     * @param string|null $sipAuthenticationUserName
+     * @param string $sipAuthenticationUserName
      * @return $this
      */
     public function setSipAuthenticationUserName($sipAuthenticationUserName)
@@ -47,26 +47,42 @@ class SIPAuthenticationUserNamePassword
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSipAuthenticationUserName()
+    {
+        $this->sipAuthenticationUserName = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipAuthenticationPassword
      *
-     * @ElementName sipAuthenticationPassword
-     * @return string|null
+     * @return string
      */
     public function getSipAuthenticationPassword()
     {
-        return $this->sipAuthenticationPassword;
+        return $this->sipAuthenticationPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipAuthenticationPassword;
     }
 
     /**
      * Setter for sipAuthenticationPassword
      *
-     * @ElementName sipAuthenticationPassword
-     * @param string|null $sipAuthenticationPassword
+     * @param string $sipAuthenticationPassword
      * @return $this
      */
     public function setSipAuthenticationPassword($sipAuthenticationPassword)
     {
         $this->sipAuthenticationPassword = $sipAuthenticationPassword;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipAuthenticationPassword()
+    {
+        $this->sipAuthenticationPassword = null;
         return $this;
     }
 

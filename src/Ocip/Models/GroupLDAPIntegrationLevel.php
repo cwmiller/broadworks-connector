@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupLDAPIntegrationLevel SYSTEM()
  * @method static GroupLDAPIntegrationLevel SERVICE_PROVIDER()
  * @method static GroupLDAPIntegrationLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupLDAPIntegrationLevel extends \MyCLabs\Enum\Enum
 {

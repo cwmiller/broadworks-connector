@@ -17,6 +17,8 @@ class OCITableRow
 
     /**
      * @ElementName col
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $col = array(
@@ -26,18 +28,16 @@ class OCITableRow
     /**
      * Getter for col
      *
-     * @ElementName col
      * @return string[]
      */
     public function getCol()
     {
-        return $this->col;
+        return $this->col instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->col;
     }
 
     /**
      * Setter for col
      *
-     * @ElementName col
      * @param string[] $col
      * @return $this
      */
@@ -48,15 +48,23 @@ class OCITableRow
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCol()
+    {
+        $this->col = null;
+        return $this;
+    }
+
+    /**
      * Adder for col
      *
-     * @ElementName col
      * @param string $col
      * @return $this
      */
     public function addCol(string $col)
     {
-        $this->col []= $col;
+        $this->col[] = $col;
         return $this;
     }
 

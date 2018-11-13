@@ -16,36 +16,42 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName enableQueueStatusNotification
+     * @Type bool
      * @var bool|null
      */
     private $enableQueueStatusNotification = null;
 
     /**
      * @ElementName enableQueueDepthThreshold
+     * @Type bool
      * @var bool|null
      */
     private $enableQueueDepthThreshold = null;
 
     /**
      * @ElementName enableWaitingTimeThreshold
+     * @Type bool
      * @var bool|null
      */
     private $enableWaitingTimeThreshold = null;
 
     /**
      * @ElementName numberOfCallsThreshold
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsThreshold = null;
 
     /**
      * @ElementName waitingTimeOfCallsThreshold
+     * @Type int
      * @var int|null
      */
     private $waitingTimeOfCallsThreshold = null;
@@ -53,19 +59,17 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -75,21 +79,28 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableQueueStatusNotification
      *
-     * @ElementName enableQueueStatusNotification
-     * @return bool|null
+     * @return bool
      */
     public function getEnableQueueStatusNotification()
     {
-        return $this->enableQueueStatusNotification;
+        return $this->enableQueueStatusNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableQueueStatusNotification;
     }
 
     /**
      * Setter for enableQueueStatusNotification
      *
-     * @ElementName enableQueueStatusNotification
-     * @param bool|null $enableQueueStatusNotification
+     * @param bool $enableQueueStatusNotification
      * @return $this
      */
     public function setEnableQueueStatusNotification($enableQueueStatusNotification)
@@ -99,21 +110,28 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableQueueStatusNotification()
+    {
+        $this->enableQueueStatusNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableQueueDepthThreshold
      *
-     * @ElementName enableQueueDepthThreshold
-     * @return bool|null
+     * @return bool
      */
     public function getEnableQueueDepthThreshold()
     {
-        return $this->enableQueueDepthThreshold;
+        return $this->enableQueueDepthThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableQueueDepthThreshold;
     }
 
     /**
      * Setter for enableQueueDepthThreshold
      *
-     * @ElementName enableQueueDepthThreshold
-     * @param bool|null $enableQueueDepthThreshold
+     * @param bool $enableQueueDepthThreshold
      * @return $this
      */
     public function setEnableQueueDepthThreshold($enableQueueDepthThreshold)
@@ -123,21 +141,28 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableQueueDepthThreshold()
+    {
+        $this->enableQueueDepthThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableWaitingTimeThreshold
      *
-     * @ElementName enableWaitingTimeThreshold
-     * @return bool|null
+     * @return bool
      */
     public function getEnableWaitingTimeThreshold()
     {
-        return $this->enableWaitingTimeThreshold;
+        return $this->enableWaitingTimeThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableWaitingTimeThreshold;
     }
 
     /**
      * Setter for enableWaitingTimeThreshold
      *
-     * @ElementName enableWaitingTimeThreshold
-     * @param bool|null $enableWaitingTimeThreshold
+     * @param bool $enableWaitingTimeThreshold
      * @return $this
      */
     public function setEnableWaitingTimeThreshold($enableWaitingTimeThreshold)
@@ -147,21 +172,28 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableWaitingTimeThreshold()
+    {
+        $this->enableWaitingTimeThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfCallsThreshold
      *
-     * @ElementName numberOfCallsThreshold
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsThreshold()
     {
-        return $this->numberOfCallsThreshold;
+        return $this->numberOfCallsThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsThreshold;
     }
 
     /**
      * Setter for numberOfCallsThreshold
      *
-     * @ElementName numberOfCallsThreshold
-     * @param int|null $numberOfCallsThreshold
+     * @param int $numberOfCallsThreshold
      * @return $this
      */
     public function setNumberOfCallsThreshold($numberOfCallsThreshold)
@@ -171,26 +203,42 @@ class GroupCallCenterQueueStatusNotificationModifyRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsThreshold()
+    {
+        $this->numberOfCallsThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for waitingTimeOfCallsThreshold
      *
-     * @ElementName waitingTimeOfCallsThreshold
-     * @return int|null
+     * @return int
      */
     public function getWaitingTimeOfCallsThreshold()
     {
-        return $this->waitingTimeOfCallsThreshold;
+        return $this->waitingTimeOfCallsThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->waitingTimeOfCallsThreshold;
     }
 
     /**
      * Setter for waitingTimeOfCallsThreshold
      *
-     * @ElementName waitingTimeOfCallsThreshold
-     * @param int|null $waitingTimeOfCallsThreshold
+     * @param int $waitingTimeOfCallsThreshold
      * @return $this
      */
     public function setWaitingTimeOfCallsThreshold($waitingTimeOfCallsThreshold)
     {
         $this->waitingTimeOfCallsThreshold = $waitingTimeOfCallsThreshold;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWaitingTimeOfCallsThreshold()
+    {
+        $this->waitingTimeOfCallsThreshold = null;
         return $this;
     }
 

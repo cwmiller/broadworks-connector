@@ -15,12 +15,15 @@ class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName zoneName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $zoneName = array(
@@ -29,6 +32,7 @@ class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName primaryZoneName
+     * @Type string
      * @var string|null
      */
     private $primaryZoneName = null;
@@ -36,19 +40,17 @@ class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -58,20 +60,27 @@ class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for zoneName
      *
-     * @ElementName zoneName
      * @return string[]
      */
     public function getZoneName()
     {
-        return $this->zoneName;
+        return $this->zoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->zoneName;
     }
 
     /**
      * Setter for zoneName
      *
-     * @ElementName zoneName
      * @param string[] $zoneName
      * @return $this
      */
@@ -82,39 +91,54 @@ class SystemOfficeZoneGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetZoneName()
+    {
+        $this->zoneName = null;
+        return $this;
+    }
+
+    /**
      * Adder for zoneName
      *
-     * @ElementName zoneName
      * @param string $zoneName
      * @return $this
      */
     public function addZoneName(string $zoneName)
     {
-        $this->zoneName []= $zoneName;
+        $this->zoneName[] = $zoneName;
         return $this;
     }
 
     /**
      * Getter for primaryZoneName
      *
-     * @ElementName primaryZoneName
-     * @return string|null
+     * @return string
      */
     public function getPrimaryZoneName()
     {
-        return $this->primaryZoneName;
+        return $this->primaryZoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->primaryZoneName;
     }
 
     /**
      * Setter for primaryZoneName
      *
-     * @ElementName primaryZoneName
-     * @param string|null $primaryZoneName
+     * @param string $primaryZoneName
      * @return $this
      */
     public function setPrimaryZoneName($primaryZoneName)
     {
         $this->primaryZoneName = $primaryZoneName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrimaryZoneName()
+    {
+        $this->primaryZoneName = null;
         return $this;
     }
 

@@ -14,18 +14,21 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName minExtensionLength
+     * @Type int
      * @var int|null
      */
     private $minExtensionLength = null;
 
     /**
      * @ElementName maxExtensionLength
+     * @Type int
      * @var int|null
      */
     private $maxExtensionLength = null;
 
     /**
      * @ElementName defaultExtensionLength
+     * @Type int
      * @var int|null
      */
     private $defaultExtensionLength = null;
@@ -33,19 +36,17 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for minExtensionLength
      *
-     * @ElementName minExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getMinExtensionLength()
     {
-        return $this->minExtensionLength;
+        return $this->minExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minExtensionLength;
     }
 
     /**
      * Setter for minExtensionLength
      *
-     * @ElementName minExtensionLength
-     * @param int|null $minExtensionLength
+     * @param int $minExtensionLength
      * @return $this
      */
     public function setMinExtensionLength($minExtensionLength)
@@ -55,21 +56,28 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinExtensionLength()
+    {
+        $this->minExtensionLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxExtensionLength
      *
-     * @ElementName maxExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getMaxExtensionLength()
     {
-        return $this->maxExtensionLength;
+        return $this->maxExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxExtensionLength;
     }
 
     /**
      * Setter for maxExtensionLength
      *
-     * @ElementName maxExtensionLength
-     * @param int|null $maxExtensionLength
+     * @param int $maxExtensionLength
      * @return $this
      */
     public function setMaxExtensionLength($maxExtensionLength)
@@ -79,26 +87,42 @@ class GroupExtensionLengthGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxExtensionLength()
+    {
+        $this->maxExtensionLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultExtensionLength
      *
-     * @ElementName defaultExtensionLength
-     * @return int|null
+     * @return int
      */
     public function getDefaultExtensionLength()
     {
-        return $this->defaultExtensionLength;
+        return $this->defaultExtensionLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultExtensionLength;
     }
 
     /**
      * Setter for defaultExtensionLength
      *
-     * @ElementName defaultExtensionLength
-     * @param int|null $defaultExtensionLength
+     * @param int $defaultExtensionLength
      * @return $this
      */
     public function setDefaultExtensionLength($defaultExtensionLength)
     {
         $this->defaultExtensionLength = $defaultExtensionLength;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultExtensionLength()
+    {
+        $this->defaultExtensionLength = null;
         return $this;
     }
 

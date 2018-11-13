@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ALL_ORIGINATING_CALLS()
  * @method static TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy
  * UNSCREENED_ORIGINATING_CALLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupPilotUserCallingLineAssertedIdentityUsagePolicy extends \MyCLabs\Enum\Enum
 {

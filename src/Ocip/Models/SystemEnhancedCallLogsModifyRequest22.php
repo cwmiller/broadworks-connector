@@ -16,12 +16,14 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName maxNonPagedResponseSize
+     * @Type int
      * @var int|null
      */
     private $maxNonPagedResponseSize = null;
 
     /**
      * @ElementName eclQueryApplicationURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,6 +31,7 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName eclQueryDataRepositoryURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,19 +40,17 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for maxNonPagedResponseSize
      *
-     * @ElementName maxNonPagedResponseSize
-     * @return int|null
+     * @return int
      */
     public function getMaxNonPagedResponseSize()
     {
-        return $this->maxNonPagedResponseSize;
+        return $this->maxNonPagedResponseSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxNonPagedResponseSize;
     }
 
     /**
      * Setter for maxNonPagedResponseSize
      *
-     * @ElementName maxNonPagedResponseSize
-     * @param int|null $maxNonPagedResponseSize
+     * @param int $maxNonPagedResponseSize
      * @return $this
      */
     public function setMaxNonPagedResponseSize($maxNonPagedResponseSize)
@@ -59,54 +60,81 @@ class SystemEnhancedCallLogsModifyRequest22 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxNonPagedResponseSize()
+    {
+        $this->maxNonPagedResponseSize = null;
+        return $this;
+    }
+
+    /**
      * Getter for eclQueryApplicationURL
      *
-     * @ElementName eclQueryApplicationURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getEclQueryApplicationURL()
     {
-        return $this->eclQueryApplicationURL;
+        return $this->eclQueryApplicationURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eclQueryApplicationURL;
     }
 
     /**
      * Setter for eclQueryApplicationURL
      *
-     * @ElementName eclQueryApplicationURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $eclQueryApplicationURL
+     * @param string|null $eclQueryApplicationURL
      * @return $this
      */
     public function setEclQueryApplicationURL($eclQueryApplicationURL)
     {
-        $this->eclQueryApplicationURL = $eclQueryApplicationURL;
+        if ($eclQueryApplicationURL === null) {
+            $this->eclQueryApplicationURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->eclQueryApplicationURL = $eclQueryApplicationURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEclQueryApplicationURL()
+    {
+        $this->eclQueryApplicationURL = null;
         return $this;
     }
 
     /**
      * Getter for eclQueryDataRepositoryURL
      *
-     * @ElementName eclQueryDataRepositoryURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getEclQueryDataRepositoryURL()
     {
-        return $this->eclQueryDataRepositoryURL;
+        return $this->eclQueryDataRepositoryURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eclQueryDataRepositoryURL;
     }
 
     /**
      * Setter for eclQueryDataRepositoryURL
      *
-     * @ElementName eclQueryDataRepositoryURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $eclQueryDataRepositoryURL
+     * @param string|null $eclQueryDataRepositoryURL
      * @return $this
      */
     public function setEclQueryDataRepositoryURL($eclQueryDataRepositoryURL)
     {
-        $this->eclQueryDataRepositoryURL = $eclQueryDataRepositoryURL;
+        if ($eclQueryDataRepositoryURL === null) {
+            $this->eclQueryDataRepositoryURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->eclQueryDataRepositoryURL = $eclQueryDataRepositoryURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEclQueryDataRepositoryURL()
+    {
+        $this->eclQueryDataRepositoryURL = null;
         return $this;
     }
 

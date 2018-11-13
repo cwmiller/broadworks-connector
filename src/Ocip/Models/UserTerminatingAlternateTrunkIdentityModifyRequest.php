@@ -16,12 +16,14 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName terminatingTrunkIdentity
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,28 +52,46 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for terminatingTrunkIdentity
      *
-     * @ElementName terminatingTrunkIdentity
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTerminatingTrunkIdentity()
     {
-        return $this->terminatingTrunkIdentity;
+        return $this->terminatingTrunkIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->terminatingTrunkIdentity;
     }
 
     /**
      * Setter for terminatingTrunkIdentity
      *
-     * @ElementName terminatingTrunkIdentity
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $terminatingTrunkIdentity
+     * @param string|null $terminatingTrunkIdentity
      * @return $this
      */
     public function setTerminatingTrunkIdentity($terminatingTrunkIdentity)
     {
-        $this->terminatingTrunkIdentity = $terminatingTrunkIdentity;
+        if ($terminatingTrunkIdentity === null) {
+            $this->terminatingTrunkIdentity = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->terminatingTrunkIdentity = $terminatingTrunkIdentity;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTerminatingTrunkIdentity()
+    {
+        $this->terminatingTrunkIdentity = null;
         return $this;
     }
 

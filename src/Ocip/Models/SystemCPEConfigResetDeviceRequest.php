@@ -16,6 +16,7 @@ class SystemCPEConfigResetDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
@@ -23,24 +24,31 @@ class SystemCPEConfigResetDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
     {
         $this->deviceName = $deviceName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
         return $this;
     }
 

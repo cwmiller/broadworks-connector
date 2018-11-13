@@ -10,36 +10,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
 
     /**
      * @ElementName activateCallForwarding
+     * @Type string
      * @var string|null
      */
     private $activateCallForwarding = null;
 
     /**
      * @ElementName deactivateCallForwarding
+     * @Type string
      * @var string|null
      */
     private $deactivateCallForwarding = null;
 
     /**
      * @ElementName changeCallForwardingDestination
+     * @Type string
      * @var string|null
      */
     private $changeCallForwardingDestination = null;
 
     /**
      * @ElementName listenToCallForwardingStatus
+     * @Type string
      * @var string|null
      */
     private $listenToCallForwardingStatus = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -47,19 +53,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
     /**
      * Getter for activateCallForwarding
      *
-     * @ElementName activateCallForwarding
-     * @return string|null
+     * @return string
      */
     public function getActivateCallForwarding()
     {
-        return $this->activateCallForwarding;
+        return $this->activateCallForwarding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateCallForwarding;
     }
 
     /**
      * Setter for activateCallForwarding
      *
-     * @ElementName activateCallForwarding
-     * @param string|null $activateCallForwarding
+     * @param string $activateCallForwarding
      * @return $this
      */
     public function setActivateCallForwarding($activateCallForwarding)
@@ -69,21 +73,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
     }
 
     /**
+     * @return $this
+     */
+    public function unsetActivateCallForwarding()
+    {
+        $this->activateCallForwarding = null;
+        return $this;
+    }
+
+    /**
      * Getter for deactivateCallForwarding
      *
-     * @ElementName deactivateCallForwarding
-     * @return string|null
+     * @return string
      */
     public function getDeactivateCallForwarding()
     {
-        return $this->deactivateCallForwarding;
+        return $this->deactivateCallForwarding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deactivateCallForwarding;
     }
 
     /**
      * Setter for deactivateCallForwarding
      *
-     * @ElementName deactivateCallForwarding
-     * @param string|null $deactivateCallForwarding
+     * @param string $deactivateCallForwarding
      * @return $this
      */
     public function setDeactivateCallForwarding($deactivateCallForwarding)
@@ -93,21 +104,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeactivateCallForwarding()
+    {
+        $this->deactivateCallForwarding = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeCallForwardingDestination
      *
-     * @ElementName changeCallForwardingDestination
-     * @return string|null
+     * @return string
      */
     public function getChangeCallForwardingDestination()
     {
-        return $this->changeCallForwardingDestination;
+        return $this->changeCallForwardingDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeCallForwardingDestination;
     }
 
     /**
      * Setter for changeCallForwardingDestination
      *
-     * @ElementName changeCallForwardingDestination
-     * @param string|null $changeCallForwardingDestination
+     * @param string $changeCallForwardingDestination
      * @return $this
      */
     public function setChangeCallForwardingDestination($changeCallForwardingDestination)
@@ -117,21 +135,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeCallForwardingDestination()
+    {
+        $this->changeCallForwardingDestination = null;
+        return $this;
+    }
+
+    /**
      * Getter for listenToCallForwardingStatus
      *
-     * @ElementName listenToCallForwardingStatus
-     * @return string|null
+     * @return string
      */
     public function getListenToCallForwardingStatus()
     {
-        return $this->listenToCallForwardingStatus;
+        return $this->listenToCallForwardingStatus instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCallForwardingStatus;
     }
 
     /**
      * Setter for listenToCallForwardingStatus
      *
-     * @ElementName listenToCallForwardingStatus
-     * @param string|null $listenToCallForwardingStatus
+     * @param string $listenToCallForwardingStatus
      * @return $this
      */
     public function setListenToCallForwardingStatus($listenToCallForwardingStatus)
@@ -141,21 +166,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
     }
 
     /**
+     * @return $this
+     */
+    public function unsetListenToCallForwardingStatus()
+    {
+        $this->listenToCallForwardingStatus = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -165,26 +197,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1CallForwardingOpt
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

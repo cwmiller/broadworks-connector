@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static VoiceMessagingMailServerProtocol POP3()
  * @method static VoiceMessagingMailServerProtocol IMAP()
- * @ValueType string
+ * @EnumValueType string
  */
 class VoiceMessagingMailServerProtocol extends \MyCLabs\Enum\Enum
 {

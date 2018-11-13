@@ -17,18 +17,21 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName allowOptInOut
+     * @Type bool
      * @var bool|null
      */
     private $allowOptInOut = null;
 
     /**
      * @ElementName assistantUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,19 +40,17 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -59,21 +60,28 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowOptInOut
      *
-     * @ElementName allowOptInOut
-     * @return bool|null
+     * @return bool
      */
     public function getAllowOptInOut()
     {
-        return $this->allowOptInOut;
+        return $this->allowOptInOut instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowOptInOut;
     }
 
     /**
      * Setter for allowOptInOut
      *
-     * @ElementName allowOptInOut
-     * @param bool|null $allowOptInOut
+     * @param bool $allowOptInOut
      * @return $this
      */
     public function setAllowOptInOut($allowOptInOut)
@@ -83,28 +91,46 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowOptInOut()
+    {
+        $this->allowOptInOut = null;
+        return $this;
+    }
+
+    /**
      * Getter for assistantUserIdList
      *
-     * @ElementName assistantUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getAssistantUserIdList()
     {
-        return $this->assistantUserIdList;
+        return $this->assistantUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assistantUserIdList;
     }
 
     /**
      * Setter for assistantUserIdList
      *
-     * @ElementName assistantUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $assistantUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $assistantUserIdList
      * @return $this
      */
     public function setAssistantUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $assistantUserIdList)
     {
-        $this->assistantUserIdList = $assistantUserIdList;
+        if ($assistantUserIdList === null) {
+            $this->assistantUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->assistantUserIdList = $assistantUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAssistantUserIdList()
+    {
+        $this->assistantUserIdList = null;
         return $this;
     }
 

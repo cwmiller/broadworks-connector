@@ -16,24 +16,28 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName useGroupLevelAoCSettings
+     * @Type bool
      * @var bool|null
      */
     private $useGroupLevelAoCSettings = null;
 
     /**
      * @ElementName delayBetweenNotificationSeconds
+     * @Type int
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
@@ -41,19 +45,17 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -63,21 +65,28 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -87,21 +96,28 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupLevelAoCSettings
      *
-     * @ElementName useGroupLevelAoCSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupLevelAoCSettings()
     {
-        return $this->useGroupLevelAoCSettings;
+        return $this->useGroupLevelAoCSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupLevelAoCSettings;
     }
 
     /**
      * Setter for useGroupLevelAoCSettings
      *
-     * @ElementName useGroupLevelAoCSettings
-     * @param bool|null $useGroupLevelAoCSettings
+     * @param bool $useGroupLevelAoCSettings
      * @return $this
      */
     public function setUseGroupLevelAoCSettings($useGroupLevelAoCSettings)
@@ -111,26 +127,42 @@ class GroupAdviceOfChargeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupLevelAoCSettings()
+    {
+        $this->useGroupLevelAoCSettings = null;
+        return $this;
+    }
+
+    /**
      * Getter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @return int|null
+     * @return int
      */
     public function getDelayBetweenNotificationSeconds()
     {
-        return $this->delayBetweenNotificationSeconds;
+        return $this->delayBetweenNotificationSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->delayBetweenNotificationSeconds;
     }
 
     /**
      * Setter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @param int|null $delayBetweenNotificationSeconds
+     * @param int $delayBetweenNotificationSeconds
      * @return $this
      */
     public function setDelayBetweenNotificationSeconds($delayBetweenNotificationSeconds)
     {
         $this->delayBetweenNotificationSeconds = $delayBetweenNotificationSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDelayBetweenNotificationSeconds()
+    {
+        $this->delayBetweenNotificationSeconds = null;
         return $this;
     }
 

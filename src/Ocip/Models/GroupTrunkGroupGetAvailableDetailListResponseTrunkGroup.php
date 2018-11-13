@@ -10,18 +10,21 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName staticRegistrationCapable
+     * @Type bool
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
+     * @Type bool
      * @var bool|null
      */
     private $useDomain = null;
@@ -29,19 +32,17 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -51,21 +52,28 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @return bool|null
+     * @return bool
      */
     public function getStaticRegistrationCapable()
     {
-        return $this->staticRegistrationCapable;
+        return $this->staticRegistrationCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->staticRegistrationCapable;
     }
 
     /**
      * Setter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @param bool|null $staticRegistrationCapable
+     * @param bool $staticRegistrationCapable
      * @return $this
      */
     public function setStaticRegistrationCapable($staticRegistrationCapable)
@@ -75,26 +83,42 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStaticRegistrationCapable()
+    {
+        $this->staticRegistrationCapable = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDomain
      *
-     * @ElementName useDomain
-     * @return bool|null
+     * @return bool
      */
     public function getUseDomain()
     {
-        return $this->useDomain;
+        return $this->useDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDomain;
     }
 
     /**
      * Setter for useDomain
      *
-     * @ElementName useDomain
-     * @param bool|null $useDomain
+     * @param bool $useDomain
      * @return $this
      */
     public function setUseDomain($useDomain)
     {
         $this->useDomain = $useDomain;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseDomain()
+    {
+        $this->useDomain = null;
         return $this;
     }
 

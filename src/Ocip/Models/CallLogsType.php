@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallLogsType PLACED()
  * @method static CallLogsType RECEIVED()
  * @method static CallLogsType MISSED()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallLogsType extends \MyCLabs\Enum\Enum
 {

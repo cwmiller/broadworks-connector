@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterReportServerChoice19 ENHANCED()
  * @method static CallCenterReportServerChoice19 OFF()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportServerChoice19 extends \MyCLabs\Enum\Enum
 {

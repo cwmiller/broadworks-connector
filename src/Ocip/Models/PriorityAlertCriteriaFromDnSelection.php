@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static PriorityAlertCriteriaFromDnSelection ANY_EXTERNAL()
  * @method static PriorityAlertCriteriaFromDnSelection SPECIFIED_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class PriorityAlertCriteriaFromDnSelection extends \MyCLabs\Enum\Enum
 {

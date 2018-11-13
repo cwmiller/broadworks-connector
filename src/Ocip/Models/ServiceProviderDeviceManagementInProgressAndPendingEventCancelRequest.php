@@ -17,12 +17,15 @@ class ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest exte
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName eventId
+     * @Type int
+     * @Array
      * @var int[]
      */
     private $eventId = array(
@@ -32,19 +35,17 @@ class ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest exte
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -54,20 +55,27 @@ class ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest exte
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for eventId
      *
-     * @ElementName eventId
      * @return int[]
      */
     public function getEventId()
     {
-        return $this->eventId;
+        return $this->eventId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eventId;
     }
 
     /**
      * Setter for eventId
      *
-     * @ElementName eventId
      * @param int[] $eventId
      * @return $this
      */
@@ -78,15 +86,23 @@ class ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest exte
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEventId()
+    {
+        $this->eventId = null;
+        return $this;
+    }
+
+    /**
      * Adder for eventId
      *
-     * @ElementName eventId
      * @param int $eventId
      * @return $this
      */
     public function addEventId(int $eventId)
     {
-        $this->eventId []= $eventId;
+        $this->eventId[] = $eventId;
         return $this;
     }
 

@@ -20,24 +20,28 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName isMusicOnHold
+     * @Type bool
      * @var bool|null
      */
     private $isMusicOnHold = null;
 
     /**
      * @ElementName onlyVideoCapable
+     * @Type bool
      * @var bool|null
      */
     private $onlyVideoCapable = null;
@@ -45,19 +49,17 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -67,21 +69,28 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -91,21 +100,28 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isMusicOnHold
      *
-     * @ElementName isMusicOnHold
-     * @return bool|null
+     * @return bool
      */
     public function getIsMusicOnHold()
     {
-        return $this->isMusicOnHold;
+        return $this->isMusicOnHold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isMusicOnHold;
     }
 
     /**
      * Setter for isMusicOnHold
      *
-     * @ElementName isMusicOnHold
-     * @param bool|null $isMusicOnHold
+     * @param bool $isMusicOnHold
      * @return $this
      */
     public function setIsMusicOnHold($isMusicOnHold)
@@ -115,26 +131,42 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsMusicOnHold()
+    {
+        $this->isMusicOnHold = null;
+        return $this;
+    }
+
+    /**
      * Getter for onlyVideoCapable
      *
-     * @ElementName onlyVideoCapable
-     * @return bool|null
+     * @return bool
      */
     public function getOnlyVideoCapable()
     {
-        return $this->onlyVideoCapable;
+        return $this->onlyVideoCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->onlyVideoCapable;
     }
 
     /**
      * Setter for onlyVideoCapable
      *
-     * @ElementName onlyVideoCapable
-     * @param bool|null $onlyVideoCapable
+     * @param bool $onlyVideoCapable
      * @return $this
      */
     public function setOnlyVideoCapable($onlyVideoCapable)
     {
         $this->onlyVideoCapable = $onlyVideoCapable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOnlyVideoCapable()
+    {
+        $this->onlyVideoCapable = null;
         return $this;
     }
 

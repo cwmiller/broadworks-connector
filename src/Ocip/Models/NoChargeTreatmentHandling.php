@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static NoChargeTreatmentHandling ANSWER()
  * @method static NoChargeTreatmentHandling EARLY_MEDIA()
- * @ValueType string
+ * @EnumValueType string
  */
 class NoChargeTreatmentHandling extends \MyCLabs\Enum\Enum
 {

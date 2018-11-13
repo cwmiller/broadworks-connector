@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SliceType CALL_PROCESSING()
  * @method static SliceType PROVISIONING()
- * @ValueType string
+ * @EnumValueType string
  */
 class SliceType extends \MyCLabs\Enum\Enum
 {

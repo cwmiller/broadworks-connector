@@ -17,6 +17,7 @@ class GroupRoutePointGetDNISAgentListResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName agentTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentTable = null;
@@ -24,24 +25,31 @@ class GroupRoutePointGetDNISAgentListResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for agentTable
      *
-     * @ElementName agentTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAgentTable()
     {
-        return $this->agentTable;
+        return $this->agentTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentTable;
     }
 
     /**
      * Setter for agentTable
      *
-     * @ElementName agentTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentTable
      * @return $this
      */
     public function setAgentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentTable)
     {
         $this->agentTable = $agentTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentTable()
+    {
+        $this->agentTable = null;
         return $this;
     }
 

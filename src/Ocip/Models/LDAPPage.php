@@ -12,12 +12,14 @@ class LDAPPage
 
     /**
      * @ElementName lastPage
+     * @Type bool
      * @var bool|null
      */
     private $lastPage = null;
 
     /**
      * @ElementName number
+     * @Type int
      * @var int|null
      */
     private $number = null;
@@ -25,19 +27,17 @@ class LDAPPage
     /**
      * Getter for lastPage
      *
-     * @ElementName lastPage
-     * @return bool|null
+     * @return bool
      */
     public function getLastPage()
     {
-        return $this->lastPage;
+        return $this->lastPage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastPage;
     }
 
     /**
      * Setter for lastPage
      *
-     * @ElementName lastPage
-     * @param bool|null $lastPage
+     * @param bool $lastPage
      * @return $this
      */
     public function setLastPage($lastPage)
@@ -47,26 +47,42 @@ class LDAPPage
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastPage()
+    {
+        $this->lastPage = null;
+        return $this;
+    }
+
+    /**
      * Getter for number
      *
-     * @ElementName number
-     * @return int|null
+     * @return int
      */
     public function getNumber()
     {
-        return $this->number;
+        return $this->number instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->number;
     }
 
     /**
      * Setter for number
      *
-     * @ElementName number
-     * @param int|null $number
+     * @param int $number
      * @return $this
      */
     public function setNumber($number)
     {
         $this->number = $number;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNumber()
+    {
+        $this->number = null;
         return $this;
     }
 

@@ -14,6 +14,7 @@ class TutorialFlagGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName enableTutorial
+     * @Type bool
      * @var bool|null
      */
     private $enableTutorial = null;
@@ -21,24 +22,31 @@ class TutorialFlagGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * Getter for enableTutorial
      *
-     * @ElementName enableTutorial
-     * @return bool|null
+     * @return bool
      */
     public function getEnableTutorial()
     {
-        return $this->enableTutorial;
+        return $this->enableTutorial instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableTutorial;
     }
 
     /**
      * Setter for enableTutorial
      *
-     * @ElementName enableTutorial
-     * @param bool|null $enableTutorial
+     * @param bool $enableTutorial
      * @return $this
      */
     public function setEnableTutorial($enableTutorial)
     {
         $this->enableTutorial = $enableTutorial;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableTutorial()
+    {
+        $this->enableTutorial = null;
         return $this;
     }
 

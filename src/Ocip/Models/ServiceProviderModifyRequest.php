@@ -28,18 +28,21 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName defaultDomain
+     * @Type string
      * @var string|null
      */
     private $defaultDomain = null;
 
     /**
      * @ElementName serviceProviderName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +50,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName supportEmail
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -54,24 +58,28 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName contact
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
 
     /**
      * @ElementName address
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
 
     /**
      * @ElementName useServiceProviderLanguages
+     * @Type bool
      * @var bool|null
      */
     private $useServiceProviderLanguages = null;
 
     /**
      * @ElementName servicePolicy
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -79,6 +87,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName callProcessingSliceId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -86,6 +95,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName provisioningSliceId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -93,6 +103,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName subscriberPartition
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -100,6 +111,7 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName preferredDataCenter
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -108,19 +120,17 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -130,21 +140,28 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @return string|null
+     * @return string
      */
     public function getDefaultDomain()
     {
-        return $this->defaultDomain;
+        return $this->defaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultDomain;
     }
 
     /**
      * Setter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @param string|null $defaultDomain
+     * @param string $defaultDomain
      * @return $this
      */
     public function setDefaultDomain($defaultDomain)
@@ -154,73 +171,98 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultDomain()
+    {
+        $this->defaultDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceProviderName
      *
-     * @ElementName serviceProviderName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getServiceProviderName()
     {
-        return $this->serviceProviderName;
+        return $this->serviceProviderName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderName;
     }
 
     /**
      * Setter for serviceProviderName
      *
-     * @ElementName serviceProviderName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceProviderName
+     * @param string|null $serviceProviderName
      * @return $this
      */
     public function setServiceProviderName($serviceProviderName)
     {
-        $this->serviceProviderName = $serviceProviderName;
+        if ($serviceProviderName === null) {
+            $this->serviceProviderName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serviceProviderName = $serviceProviderName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceProviderName()
+    {
+        $this->serviceProviderName = null;
         return $this;
     }
 
     /**
      * Getter for supportEmail
      *
-     * @ElementName supportEmail
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSupportEmail()
     {
-        return $this->supportEmail;
+        return $this->supportEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportEmail;
     }
 
     /**
      * Setter for supportEmail
      *
-     * @ElementName supportEmail
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $supportEmail
+     * @param string|null $supportEmail
      * @return $this
      */
     public function setSupportEmail($supportEmail)
     {
-        $this->supportEmail = $supportEmail;
+        if ($supportEmail === null) {
+            $this->supportEmail = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->supportEmail = $supportEmail;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSupportEmail()
+    {
+        $this->supportEmail = null;
         return $this;
     }
 
     /**
      * Getter for contact
      *
-     * @ElementName contact
-     * @return \CWM\BroadWorksConnector\Ocip\Models\Contact|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\Contact
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
-     * @param \CWM\BroadWorksConnector\Ocip\Models\Contact|null $contact
+     * @param \CWM\BroadWorksConnector\Ocip\Models\Contact $contact
      * @return $this
      */
     public function setContact(\CWM\BroadWorksConnector\Ocip\Models\Contact $contact)
@@ -230,21 +272,28 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Getter for address
      *
-     * @ElementName address
-     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address
      * @return $this
      */
     public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
@@ -254,21 +303,28 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
+        return $this;
+    }
+
+    /**
      * Getter for useServiceProviderLanguages
      *
-     * @ElementName useServiceProviderLanguages
-     * @return bool|null
+     * @return bool
      */
     public function getUseServiceProviderLanguages()
     {
-        return $this->useServiceProviderLanguages;
+        return $this->useServiceProviderLanguages instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useServiceProviderLanguages;
     }
 
     /**
      * Setter for useServiceProviderLanguages
      *
-     * @ElementName useServiceProviderLanguages
-     * @param bool|null $useServiceProviderLanguages
+     * @param bool $useServiceProviderLanguages
      * @return $this
      */
     public function setUseServiceProviderLanguages($useServiceProviderLanguages)
@@ -278,132 +334,186 @@ class ServiceProviderModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseServiceProviderLanguages()
+    {
+        $this->useServiceProviderLanguages = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePolicy
      *
-     * @ElementName servicePolicy
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getServicePolicy()
     {
-        return $this->servicePolicy;
+        return $this->servicePolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePolicy;
     }
 
     /**
      * Setter for servicePolicy
      *
-     * @ElementName servicePolicy
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePolicy
+     * @param string|null $servicePolicy
      * @return $this
      */
     public function setServicePolicy($servicePolicy)
     {
-        $this->servicePolicy = $servicePolicy;
+        if ($servicePolicy === null) {
+            $this->servicePolicy = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->servicePolicy = $servicePolicy;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServicePolicy()
+    {
+        $this->servicePolicy = null;
         return $this;
     }
 
     /**
      * Getter for callProcessingSliceId
      *
-     * @ElementName callProcessingSliceId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCallProcessingSliceId()
     {
-        return $this->callProcessingSliceId;
+        return $this->callProcessingSliceId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callProcessingSliceId;
     }
 
     /**
      * Setter for callProcessingSliceId
      *
-     * @ElementName callProcessingSliceId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callProcessingSliceId
+     * @param string|null $callProcessingSliceId
      * @return $this
      */
     public function setCallProcessingSliceId($callProcessingSliceId)
     {
-        $this->callProcessingSliceId = $callProcessingSliceId;
+        if ($callProcessingSliceId === null) {
+            $this->callProcessingSliceId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callProcessingSliceId = $callProcessingSliceId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallProcessingSliceId()
+    {
+        $this->callProcessingSliceId = null;
         return $this;
     }
 
     /**
      * Getter for provisioningSliceId
      *
-     * @ElementName provisioningSliceId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getProvisioningSliceId()
     {
-        return $this->provisioningSliceId;
+        return $this->provisioningSliceId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningSliceId;
     }
 
     /**
      * Setter for provisioningSliceId
      *
-     * @ElementName provisioningSliceId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningSliceId
+     * @param string|null $provisioningSliceId
      * @return $this
      */
     public function setProvisioningSliceId($provisioningSliceId)
     {
-        $this->provisioningSliceId = $provisioningSliceId;
+        if ($provisioningSliceId === null) {
+            $this->provisioningSliceId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->provisioningSliceId = $provisioningSliceId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProvisioningSliceId()
+    {
+        $this->provisioningSliceId = null;
         return $this;
     }
 
     /**
      * Getter for subscriberPartition
      *
-     * @ElementName subscriberPartition
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSubscriberPartition()
     {
-        return $this->subscriberPartition;
+        return $this->subscriberPartition instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->subscriberPartition;
     }
 
     /**
      * Setter for subscriberPartition
      *
-     * @ElementName subscriberPartition
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $subscriberPartition
+     * @param string|null $subscriberPartition
      * @return $this
      */
     public function setSubscriberPartition($subscriberPartition)
     {
-        $this->subscriberPartition = $subscriberPartition;
+        if ($subscriberPartition === null) {
+            $this->subscriberPartition = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->subscriberPartition = $subscriberPartition;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSubscriberPartition()
+    {
+        $this->subscriberPartition = null;
         return $this;
     }
 
     /**
      * Getter for preferredDataCenter
      *
-     * @ElementName preferredDataCenter
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPreferredDataCenter()
     {
-        return $this->preferredDataCenter;
+        return $this->preferredDataCenter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preferredDataCenter;
     }
 
     /**
      * Setter for preferredDataCenter
      *
-     * @ElementName preferredDataCenter
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $preferredDataCenter
+     * @param string|null $preferredDataCenter
      * @return $this
      */
     public function setPreferredDataCenter($preferredDataCenter)
     {
-        $this->preferredDataCenter = $preferredDataCenter;
+        if ($preferredDataCenter === null) {
+            $this->preferredDataCenter = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->preferredDataCenter = $preferredDataCenter;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPreferredDataCenter()
+    {
+        $this->preferredDataCenter = null;
         return $this;
     }
 

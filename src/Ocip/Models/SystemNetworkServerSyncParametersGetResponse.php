@@ -15,6 +15,7 @@ class SystemNetworkServerSyncParametersGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName enableSync
+     * @Type bool
      * @var bool|null
      */
     private $enableSync = null;
@@ -22,24 +23,31 @@ class SystemNetworkServerSyncParametersGetResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for enableSync
      *
-     * @ElementName enableSync
-     * @return bool|null
+     * @return bool
      */
     public function getEnableSync()
     {
-        return $this->enableSync;
+        return $this->enableSync instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableSync;
     }
 
     /**
      * Setter for enableSync
      *
-     * @ElementName enableSync
-     * @param bool|null $enableSync
+     * @param bool $enableSync
      * @return $this
      */
     public function setEnableSync($enableSync)
     {
         $this->enableSync = $enableSync;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableSync()
+    {
+        $this->enableSync = null;
         return $this;
     }
 

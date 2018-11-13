@@ -20,6 +20,7 @@ class GroupEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName endpointTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $endpointTable = null;
@@ -27,24 +28,31 @@ class GroupEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for endpointTable
      *
-     * @ElementName endpointTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getEndpointTable()
     {
-        return $this->endpointTable;
+        return $this->endpointTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endpointTable;
     }
 
     /**
      * Setter for endpointTable
      *
-     * @ElementName endpointTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $endpointTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $endpointTable
      * @return $this
      */
     public function setEndpointTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $endpointTable)
     {
         $this->endpointTable = $endpointTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEndpointTable()
+    {
+        $this->endpointTable = null;
         return $this;
     }
 

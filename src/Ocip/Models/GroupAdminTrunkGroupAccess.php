@@ -20,7 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupAdminTrunkGroupAccess FULL_RESOURCES()
  * @method static GroupAdminTrunkGroupAccess READ_ONLY_RESOURCES()
  * @method static GroupAdminTrunkGroupAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupAdminTrunkGroupAccess extends \MyCLabs\Enum\Enum
 {

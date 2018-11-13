@@ -14,6 +14,8 @@ class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName interfaceNetAddress
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $interfaceNetAddress = array(
@@ -23,18 +25,16 @@ class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for interfaceNetAddress
      *
-     * @ElementName interfaceNetAddress
      * @return string[]
      */
     public function getInterfaceNetAddress()
     {
-        return $this->interfaceNetAddress;
+        return $this->interfaceNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interfaceNetAddress;
     }
 
     /**
      * Setter for interfaceNetAddress
      *
-     * @ElementName interfaceNetAddress
      * @param string[] $interfaceNetAddress
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInterfaceNetAddress()
+    {
+        $this->interfaceNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for interfaceNetAddress
      *
-     * @ElementName interfaceNetAddress
      * @param string $interfaceNetAddress
      * @return $this
      */
     public function addInterfaceNetAddress(string $interfaceNetAddress)
     {
-        $this->interfaceNetAddress []= $interfaceNetAddress;
+        $this->interfaceNetAddress[] = $interfaceNetAddress;
         return $this;
     }
 

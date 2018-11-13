@@ -12,6 +12,7 @@ class GroupServiceIsAssignedResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName isAssigned
+     * @Type bool
      * @var bool|null
      */
     private $isAssigned = null;
@@ -19,24 +20,31 @@ class GroupServiceIsAssignedResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for isAssigned
      *
-     * @ElementName isAssigned
-     * @return bool|null
+     * @return bool
      */
     public function getIsAssigned()
     {
-        return $this->isAssigned;
+        return $this->isAssigned instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAssigned;
     }
 
     /**
      * Setter for isAssigned
      *
-     * @ElementName isAssigned
-     * @param bool|null $isAssigned
+     * @param bool $isAssigned
      * @return $this
      */
     public function setIsAssigned($isAssigned)
     {
         $this->isAssigned = $isAssigned;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsAssigned()
+    {
+        $this->isAssigned = null;
         return $this;
     }
 

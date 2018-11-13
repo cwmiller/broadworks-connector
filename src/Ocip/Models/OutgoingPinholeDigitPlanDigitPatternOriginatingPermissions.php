@@ -13,6 +13,8 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
 
     /**
      * @ElementName digitPatternPermissions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermission
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermission[]
      */
     private $digitPatternPermissions = array(
@@ -22,18 +24,16 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
     /**
      * Getter for digitPatternPermissions
      *
-     * @ElementName digitPatternPermissions
      * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermission[]
      */
     public function getDigitPatternPermissions()
     {
-        return $this->digitPatternPermissions;
+        return $this->digitPatternPermissions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPatternPermissions;
     }
 
     /**
      * Setter for digitPatternPermissions
      *
-     * @ElementName digitPatternPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermission[] $digitPatternPermissions
      * @return $this
      */
@@ -44,15 +44,23 @@ class OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPatternPermissions()
+    {
+        $this->digitPatternPermissions = null;
+        return $this;
+    }
+
+    /**
      * Adder for digitPatternPermissions
      *
-     * @ElementName digitPatternPermissions
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermission $digitPatternPermissions
      * @return $this
      */
     public function addDigitPatternPermissions($digitPatternPermissions)
     {
-        $this->digitPatternPermissions []= $digitPatternPermissions;
+        $this->digitPatternPermissions[] = $digitPatternPermissions;
         return $this;
     }
 

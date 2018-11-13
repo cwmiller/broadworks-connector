@@ -14,12 +14,14 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName defaultFromAddress
+     * @Type string
      * @var string|null
      */
     private $defaultFromAddress = null;
 
     /**
      * @ElementName statisticsSamplingPeriodMinutes
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     private $statisticsSamplingPeriodMinutes = null;
@@ -27,19 +29,17 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @return string|null
+     * @return string
      */
     public function getDefaultFromAddress()
     {
-        return $this->defaultFromAddress;
+        return $this->defaultFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultFromAddress;
     }
 
     /**
      * Setter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @param string|null $defaultFromAddress
+     * @param string $defaultFromAddress
      * @return $this
      */
     public function setDefaultFromAddress($defaultFromAddress)
@@ -49,26 +49,42 @@ class SystemCallCenterGetResponse14sp9 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultFromAddress()
+    {
+        $this->defaultFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for statisticsSamplingPeriodMinutes
      *
-     * @ElementName statisticsSamplingPeriodMinutes
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes
      */
     public function getStatisticsSamplingPeriodMinutes()
     {
-        return $this->statisticsSamplingPeriodMinutes;
+        return $this->statisticsSamplingPeriodMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statisticsSamplingPeriodMinutes;
     }
 
     /**
      * Setter for statisticsSamplingPeriodMinutes
      *
-     * @ElementName statisticsSamplingPeriodMinutes
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null $statisticsSamplingPeriodMinutes
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes $statisticsSamplingPeriodMinutes
      * @return $this
      */
     public function setStatisticsSamplingPeriodMinutes(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes $statisticsSamplingPeriodMinutes)
     {
         $this->statisticsSamplingPeriodMinutes = $statisticsSamplingPeriodMinutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatisticsSamplingPeriodMinutes()
+    {
+        $this->statisticsSamplingPeriodMinutes = null;
         return $this;
     }
 

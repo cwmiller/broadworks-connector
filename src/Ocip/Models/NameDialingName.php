@@ -12,12 +12,14 @@ class NameDialingName
 
     /**
      * @ElementName nameDialingLastName
+     * @Type string
      * @var string|null
      */
     private $nameDialingLastName = null;
 
     /**
      * @ElementName nameDialingFirstName
+     * @Type string
      * @var string|null
      */
     private $nameDialingFirstName = null;
@@ -25,19 +27,17 @@ class NameDialingName
     /**
      * Getter for nameDialingLastName
      *
-     * @ElementName nameDialingLastName
-     * @return string|null
+     * @return string
      */
     public function getNameDialingLastName()
     {
-        return $this->nameDialingLastName;
+        return $this->nameDialingLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nameDialingLastName;
     }
 
     /**
      * Setter for nameDialingLastName
      *
-     * @ElementName nameDialingLastName
-     * @param string|null $nameDialingLastName
+     * @param string $nameDialingLastName
      * @return $this
      */
     public function setNameDialingLastName($nameDialingLastName)
@@ -47,26 +47,42 @@ class NameDialingName
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNameDialingLastName()
+    {
+        $this->nameDialingLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for nameDialingFirstName
      *
-     * @ElementName nameDialingFirstName
-     * @return string|null
+     * @return string
      */
     public function getNameDialingFirstName()
     {
-        return $this->nameDialingFirstName;
+        return $this->nameDialingFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nameDialingFirstName;
     }
 
     /**
      * Setter for nameDialingFirstName
      *
-     * @ElementName nameDialingFirstName
-     * @param string|null $nameDialingFirstName
+     * @param string $nameDialingFirstName
      * @return $this
      */
     public function setNameDialingFirstName($nameDialingFirstName)
     {
         $this->nameDialingFirstName = $nameDialingFirstName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNameDialingFirstName()
+    {
+        $this->nameDialingFirstName = null;
         return $this;
     }
 

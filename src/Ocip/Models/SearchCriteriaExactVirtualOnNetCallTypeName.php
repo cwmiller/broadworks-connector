@@ -13,6 +13,7 @@ class SearchCriteriaExactVirtualOnNetCallTypeName extends SearchCriteria
 
     /**
      * @ElementName virtualOnNetCallTypeName
+     * @Type string
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;
@@ -20,24 +21,31 @@ class SearchCriteriaExactVirtualOnNetCallTypeName extends SearchCriteria
     /**
      * Getter for virtualOnNetCallTypeName
      *
-     * @ElementName virtualOnNetCallTypeName
-     * @return string|null
+     * @return string
      */
     public function getVirtualOnNetCallTypeName()
     {
-        return $this->virtualOnNetCallTypeName;
+        return $this->virtualOnNetCallTypeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetCallTypeName;
     }
 
     /**
      * Setter for virtualOnNetCallTypeName
      *
-     * @ElementName virtualOnNetCallTypeName
-     * @param string|null $virtualOnNetCallTypeName
+     * @param string $virtualOnNetCallTypeName
      * @return $this
      */
     public function setVirtualOnNetCallTypeName($virtualOnNetCallTypeName)
     {
         $this->virtualOnNetCallTypeName = $virtualOnNetCallTypeName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetCallTypeName()
+    {
+        $this->virtualOnNetCallTypeName = null;
         return $this;
     }
 

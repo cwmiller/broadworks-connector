@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SIPPrivacyVersion RFC3323_JAPAN()
  * @method static SIPPrivacyVersion PRIVACY_03()
  * @method static SIPPrivacyVersion PRIVACY_00()
- * @ValueType string
+ * @EnumValueType string
  */
 class SIPPrivacyVersion extends \MyCLabs\Enum\Enum
 {

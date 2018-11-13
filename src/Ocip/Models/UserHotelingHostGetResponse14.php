@@ -16,54 +16,63 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName associationLimitHours
+     * @Type int
      * @var int|null
      */
     private $associationLimitHours = null;
 
     /**
      * @ElementName accessLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
     private $accessLevel = null;
 
     /**
      * @ElementName guestLastName
+     * @Type string
      * @var string|null
      */
     private $guestLastName = null;
 
     /**
      * @ElementName guestFirstName
+     * @Type string
      * @var string|null
      */
     private $guestFirstName = null;
 
     /**
      * @ElementName guestPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $guestPhoneNumber = null;
 
     /**
      * @ElementName guestExtension
+     * @Type string
      * @var string|null
      */
     private $guestExtension = null;
 
     /**
      * @ElementName guestLocationDialingCode
+     * @Type string
      * @var string|null
      */
     private $guestLocationDialingCode = null;
 
     /**
      * @ElementName guestAssociationDateTime
+     * @Type string
      * @var string|null
      */
     private $guestAssociationDateTime = null;
@@ -71,19 +80,17 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -93,21 +100,28 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @return int|null
+     * @return int
      */
     public function getAssociationLimitHours()
     {
-        return $this->associationLimitHours;
+        return $this->associationLimitHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->associationLimitHours;
     }
 
     /**
      * Setter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @param int|null $associationLimitHours
+     * @param int $associationLimitHours
      * @return $this
      */
     public function setAssociationLimitHours($associationLimitHours)
@@ -117,21 +131,28 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssociationLimitHours()
+    {
+        $this->associationLimitHours = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessLevel
      *
-     * @ElementName accessLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel
      */
     public function getAccessLevel()
     {
-        return $this->accessLevel;
+        return $this->accessLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessLevel;
     }
 
     /**
      * Setter for accessLevel
      *
-     * @ElementName accessLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null $accessLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel $accessLevel
      * @return $this
      */
     public function setAccessLevel(\CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel $accessLevel)
@@ -141,21 +162,28 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessLevel()
+    {
+        $this->accessLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for guestLastName
      *
-     * @ElementName guestLastName
-     * @return string|null
+     * @return string
      */
     public function getGuestLastName()
     {
-        return $this->guestLastName;
+        return $this->guestLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->guestLastName;
     }
 
     /**
      * Setter for guestLastName
      *
-     * @ElementName guestLastName
-     * @param string|null $guestLastName
+     * @param string $guestLastName
      * @return $this
      */
     public function setGuestLastName($guestLastName)
@@ -165,21 +193,28 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGuestLastName()
+    {
+        $this->guestLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for guestFirstName
      *
-     * @ElementName guestFirstName
-     * @return string|null
+     * @return string
      */
     public function getGuestFirstName()
     {
-        return $this->guestFirstName;
+        return $this->guestFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->guestFirstName;
     }
 
     /**
      * Setter for guestFirstName
      *
-     * @ElementName guestFirstName
-     * @param string|null $guestFirstName
+     * @param string $guestFirstName
      * @return $this
      */
     public function setGuestFirstName($guestFirstName)
@@ -189,21 +224,28 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGuestFirstName()
+    {
+        $this->guestFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for guestPhoneNumber
      *
-     * @ElementName guestPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getGuestPhoneNumber()
     {
-        return $this->guestPhoneNumber;
+        return $this->guestPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->guestPhoneNumber;
     }
 
     /**
      * Setter for guestPhoneNumber
      *
-     * @ElementName guestPhoneNumber
-     * @param string|null $guestPhoneNumber
+     * @param string $guestPhoneNumber
      * @return $this
      */
     public function setGuestPhoneNumber($guestPhoneNumber)
@@ -213,21 +255,28 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGuestPhoneNumber()
+    {
+        $this->guestPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for guestExtension
      *
-     * @ElementName guestExtension
-     * @return string|null
+     * @return string
      */
     public function getGuestExtension()
     {
-        return $this->guestExtension;
+        return $this->guestExtension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->guestExtension;
     }
 
     /**
      * Setter for guestExtension
      *
-     * @ElementName guestExtension
-     * @param string|null $guestExtension
+     * @param string $guestExtension
      * @return $this
      */
     public function setGuestExtension($guestExtension)
@@ -237,21 +286,28 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGuestExtension()
+    {
+        $this->guestExtension = null;
+        return $this;
+    }
+
+    /**
      * Getter for guestLocationDialingCode
      *
-     * @ElementName guestLocationDialingCode
-     * @return string|null
+     * @return string
      */
     public function getGuestLocationDialingCode()
     {
-        return $this->guestLocationDialingCode;
+        return $this->guestLocationDialingCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->guestLocationDialingCode;
     }
 
     /**
      * Setter for guestLocationDialingCode
      *
-     * @ElementName guestLocationDialingCode
-     * @param string|null $guestLocationDialingCode
+     * @param string $guestLocationDialingCode
      * @return $this
      */
     public function setGuestLocationDialingCode($guestLocationDialingCode)
@@ -261,26 +317,42 @@ class UserHotelingHostGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGuestLocationDialingCode()
+    {
+        $this->guestLocationDialingCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for guestAssociationDateTime
      *
-     * @ElementName guestAssociationDateTime
-     * @return string|null
+     * @return string
      */
     public function getGuestAssociationDateTime()
     {
-        return $this->guestAssociationDateTime;
+        return $this->guestAssociationDateTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->guestAssociationDateTime;
     }
 
     /**
      * Setter for guestAssociationDateTime
      *
-     * @ElementName guestAssociationDateTime
-     * @param string|null $guestAssociationDateTime
+     * @param string $guestAssociationDateTime
      * @return $this
      */
     public function setGuestAssociationDateTime($guestAssociationDateTime)
     {
         $this->guestAssociationDateTime = $guestAssociationDateTime;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGuestAssociationDateTime()
+    {
+        $this->guestAssociationDateTime = null;
         return $this;
     }
 

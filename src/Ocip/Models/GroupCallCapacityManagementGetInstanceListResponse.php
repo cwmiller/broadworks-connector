@@ -16,6 +16,7 @@ class GroupCallCapacityManagementGetInstanceListResponse extends \CWM\BroadWorks
 
     /**
      * @ElementName callCapacityGroupTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCapacityGroupTable = null;
@@ -23,24 +24,31 @@ class GroupCallCapacityManagementGetInstanceListResponse extends \CWM\BroadWorks
     /**
      * Getter for callCapacityGroupTable
      *
-     * @ElementName callCapacityGroupTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCallCapacityGroupTable()
     {
-        return $this->callCapacityGroupTable;
+        return $this->callCapacityGroupTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCapacityGroupTable;
     }
 
     /**
      * Setter for callCapacityGroupTable
      *
-     * @ElementName callCapacityGroupTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callCapacityGroupTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCapacityGroupTable
      * @return $this
      */
     public function setCallCapacityGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCapacityGroupTable)
     {
         $this->callCapacityGroupTable = $callCapacityGroupTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallCapacityGroupTable()
+    {
+        $this->callCapacityGroupTable = null;
         return $this;
     }
 

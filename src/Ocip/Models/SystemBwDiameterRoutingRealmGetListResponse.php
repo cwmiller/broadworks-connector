@@ -14,6 +14,7 @@ class SystemBwDiameterRoutingRealmGetListResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName routingRealmTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routingRealmTable = null;
@@ -21,24 +22,31 @@ class SystemBwDiameterRoutingRealmGetListResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for routingRealmTable
      *
-     * @ElementName routingRealmTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getRoutingRealmTable()
     {
-        return $this->routingRealmTable;
+        return $this->routingRealmTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routingRealmTable;
     }
 
     /**
      * Setter for routingRealmTable
      *
-     * @ElementName routingRealmTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $routingRealmTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routingRealmTable
      * @return $this
      */
     public function setRoutingRealmTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $routingRealmTable)
     {
         $this->routingRealmTable = $routingRealmTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRoutingRealmTable()
+    {
+        $this->routingRealmTable = null;
         return $this;
     }
 

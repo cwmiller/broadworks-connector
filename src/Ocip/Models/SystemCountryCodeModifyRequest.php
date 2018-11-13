@@ -21,30 +21,35 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
 
     /**
      * @ElementName ringPeriodMilliseconds
+     * @Type int
      * @var int|null
      */
     private $ringPeriodMilliseconds = null;
 
     /**
      * @ElementName offHookWarningTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $offHookWarningTimerSeconds = null;
 
     /**
      * @ElementName enableNationalPrefix
+     * @Type bool
      * @var bool|null
      */
     private $enableNationalPrefix = null;
 
     /**
      * @ElementName nationalPrefix
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,24 +57,28 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName becomeDefaultCountryCode
+     * @Type bool
      * @var bool|null
      */
     private $becomeDefaultCountryCode = null;
 
     /**
      * @ElementName maxCallWaitingTones
+     * @Type int
      * @var int|null
      */
     private $maxCallWaitingTones = null;
 
     /**
      * @ElementName timeBetweenCallWaitingTonesMilliseconds
+     * @Type int
      * @var int|null
      */
     private $timeBetweenCallWaitingTonesMilliseconds = null;
 
     /**
      * @ElementName disableNationalPrefixForOffNetCalls
+     * @Type bool
      * @var bool|null
      */
     private $disableNationalPrefixForOffNetCalls = null;
@@ -77,19 +86,17 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
@@ -99,21 +106,28 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for ringPeriodMilliseconds
      *
-     * @ElementName ringPeriodMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getRingPeriodMilliseconds()
     {
-        return $this->ringPeriodMilliseconds;
+        return $this->ringPeriodMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ringPeriodMilliseconds;
     }
 
     /**
      * Setter for ringPeriodMilliseconds
      *
-     * @ElementName ringPeriodMilliseconds
-     * @param int|null $ringPeriodMilliseconds
+     * @param int $ringPeriodMilliseconds
      * @return $this
      */
     public function setRingPeriodMilliseconds($ringPeriodMilliseconds)
@@ -123,21 +137,28 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRingPeriodMilliseconds()
+    {
+        $this->ringPeriodMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for offHookWarningTimerSeconds
      *
-     * @ElementName offHookWarningTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getOffHookWarningTimerSeconds()
     {
-        return $this->offHookWarningTimerSeconds;
+        return $this->offHookWarningTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->offHookWarningTimerSeconds;
     }
 
     /**
      * Setter for offHookWarningTimerSeconds
      *
-     * @ElementName offHookWarningTimerSeconds
-     * @param int|null $offHookWarningTimerSeconds
+     * @param int $offHookWarningTimerSeconds
      * @return $this
      */
     public function setOffHookWarningTimerSeconds($offHookWarningTimerSeconds)
@@ -147,21 +168,28 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOffHookWarningTimerSeconds()
+    {
+        $this->offHookWarningTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableNationalPrefix
      *
-     * @ElementName enableNationalPrefix
-     * @return bool|null
+     * @return bool
      */
     public function getEnableNationalPrefix()
     {
-        return $this->enableNationalPrefix;
+        return $this->enableNationalPrefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableNationalPrefix;
     }
 
     /**
      * Setter for enableNationalPrefix
      *
-     * @ElementName enableNationalPrefix
-     * @param bool|null $enableNationalPrefix
+     * @param bool $enableNationalPrefix
      * @return $this
      */
     public function setEnableNationalPrefix($enableNationalPrefix)
@@ -171,47 +199,63 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableNationalPrefix()
+    {
+        $this->enableNationalPrefix = null;
+        return $this;
+    }
+
+    /**
      * Getter for nationalPrefix
      *
-     * @ElementName nationalPrefix
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getNationalPrefix()
     {
-        return $this->nationalPrefix;
+        return $this->nationalPrefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nationalPrefix;
     }
 
     /**
      * Setter for nationalPrefix
      *
-     * @ElementName nationalPrefix
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $nationalPrefix
+     * @param string|null $nationalPrefix
      * @return $this
      */
     public function setNationalPrefix($nationalPrefix)
     {
-        $this->nationalPrefix = $nationalPrefix;
+        if ($nationalPrefix === null) {
+            $this->nationalPrefix = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->nationalPrefix = $nationalPrefix;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNationalPrefix()
+    {
+        $this->nationalPrefix = null;
         return $this;
     }
 
     /**
      * Getter for becomeDefaultCountryCode
      *
-     * @ElementName becomeDefaultCountryCode
-     * @return bool|null
+     * @return bool
      */
     public function getBecomeDefaultCountryCode()
     {
-        return $this->becomeDefaultCountryCode;
+        return $this->becomeDefaultCountryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->becomeDefaultCountryCode;
     }
 
     /**
      * Setter for becomeDefaultCountryCode
      *
-     * @ElementName becomeDefaultCountryCode
-     * @param bool|null $becomeDefaultCountryCode
+     * @param bool $becomeDefaultCountryCode
      * @return $this
      */
     public function setBecomeDefaultCountryCode($becomeDefaultCountryCode)
@@ -221,21 +265,28 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBecomeDefaultCountryCode()
+    {
+        $this->becomeDefaultCountryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCallWaitingTones
      *
-     * @ElementName maxCallWaitingTones
-     * @return int|null
+     * @return int
      */
     public function getMaxCallWaitingTones()
     {
-        return $this->maxCallWaitingTones;
+        return $this->maxCallWaitingTones instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCallWaitingTones;
     }
 
     /**
      * Setter for maxCallWaitingTones
      *
-     * @ElementName maxCallWaitingTones
-     * @param int|null $maxCallWaitingTones
+     * @param int $maxCallWaitingTones
      * @return $this
      */
     public function setMaxCallWaitingTones($maxCallWaitingTones)
@@ -245,21 +296,28 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxCallWaitingTones()
+    {
+        $this->maxCallWaitingTones = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeBetweenCallWaitingTonesMilliseconds
      *
-     * @ElementName timeBetweenCallWaitingTonesMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getTimeBetweenCallWaitingTonesMilliseconds()
     {
-        return $this->timeBetweenCallWaitingTonesMilliseconds;
+        return $this->timeBetweenCallWaitingTonesMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeBetweenCallWaitingTonesMilliseconds;
     }
 
     /**
      * Setter for timeBetweenCallWaitingTonesMilliseconds
      *
-     * @ElementName timeBetweenCallWaitingTonesMilliseconds
-     * @param int|null $timeBetweenCallWaitingTonesMilliseconds
+     * @param int $timeBetweenCallWaitingTonesMilliseconds
      * @return $this
      */
     public function setTimeBetweenCallWaitingTonesMilliseconds($timeBetweenCallWaitingTonesMilliseconds)
@@ -269,26 +327,42 @@ class SystemCountryCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeBetweenCallWaitingTonesMilliseconds()
+    {
+        $this->timeBetweenCallWaitingTonesMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for disableNationalPrefixForOffNetCalls
      *
-     * @ElementName disableNationalPrefixForOffNetCalls
-     * @return bool|null
+     * @return bool
      */
     public function getDisableNationalPrefixForOffNetCalls()
     {
-        return $this->disableNationalPrefixForOffNetCalls;
+        return $this->disableNationalPrefixForOffNetCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableNationalPrefixForOffNetCalls;
     }
 
     /**
      * Setter for disableNationalPrefixForOffNetCalls
      *
-     * @ElementName disableNationalPrefixForOffNetCalls
-     * @param bool|null $disableNationalPrefixForOffNetCalls
+     * @param bool $disableNationalPrefixForOffNetCalls
      * @return $this
      */
     public function setDisableNationalPrefixForOffNetCalls($disableNationalPrefixForOffNetCalls)
     {
         $this->disableNationalPrefixForOffNetCalls = $disableNationalPrefixForOffNetCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDisableNationalPrefixForOffNetCalls()
+    {
+        $this->disableNationalPrefixForOffNetCalls = null;
         return $this;
     }
 

@@ -29,36 +29,43 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName responsePagingControl
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
 
     /**
      * @ElementName sortByEnterpriseCommonPhoneListNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber|null
      */
     private $sortByEnterpriseCommonPhoneListNumber = null;
 
     /**
      * @ElementName sortByEnterpriseCommonPhoneListName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName|null
      */
     private $sortByEnterpriseCommonPhoneListName = null;
 
     /**
      * @ElementName searchCriteriaModeOr
+     * @Type bool
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
 
     /**
      * @ElementName searchCriteriaEnterpriseCommonPhoneListName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[]
      */
     private $searchCriteriaEnterpriseCommonPhoneListName = array(
@@ -67,6 +74,8 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
 
     /**
      * @ElementName searchCriteriaEnterpriseCommonPhoneListNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[]
      */
     private $searchCriteriaEnterpriseCommonPhoneListNumber = array(
@@ -76,19 +85,17 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -98,21 +105,28 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responsePagingControl
      *
-     * @ElementName responsePagingControl
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      */
     public function getResponsePagingControl()
     {
-        return $this->responsePagingControl;
+        return $this->responsePagingControl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responsePagingControl;
     }
 
     /**
      * Setter for responsePagingControl
      *
-     * @ElementName responsePagingControl
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null $responsePagingControl
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl
      * @return $this
      */
     public function setResponsePagingControl(\CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl)
@@ -122,21 +136,28 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponsePagingControl()
+    {
+        $this->responsePagingControl = null;
+        return $this;
+    }
+
+    /**
      * Getter for sortByEnterpriseCommonPhoneListNumber
      *
-     * @ElementName sortByEnterpriseCommonPhoneListNumber
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber
      */
     public function getSortByEnterpriseCommonPhoneListNumber()
     {
-        return $this->sortByEnterpriseCommonPhoneListNumber;
+        return $this->sortByEnterpriseCommonPhoneListNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sortByEnterpriseCommonPhoneListNumber;
     }
 
     /**
      * Setter for sortByEnterpriseCommonPhoneListNumber
      *
-     * @ElementName sortByEnterpriseCommonPhoneListNumber
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber|null $sortByEnterpriseCommonPhoneListNumber
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber $sortByEnterpriseCommonPhoneListNumber
      * @return $this
      */
     public function setSortByEnterpriseCommonPhoneListNumber(\CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListNumber $sortByEnterpriseCommonPhoneListNumber)
@@ -146,21 +167,28 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSortByEnterpriseCommonPhoneListNumber()
+    {
+        $this->sortByEnterpriseCommonPhoneListNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for sortByEnterpriseCommonPhoneListName
      *
-     * @ElementName sortByEnterpriseCommonPhoneListName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName
      */
     public function getSortByEnterpriseCommonPhoneListName()
     {
-        return $this->sortByEnterpriseCommonPhoneListName;
+        return $this->sortByEnterpriseCommonPhoneListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sortByEnterpriseCommonPhoneListName;
     }
 
     /**
      * Setter for sortByEnterpriseCommonPhoneListName
      *
-     * @ElementName sortByEnterpriseCommonPhoneListName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName|null $sortByEnterpriseCommonPhoneListName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName $sortByEnterpriseCommonPhoneListName
      * @return $this
      */
     public function setSortByEnterpriseCommonPhoneListName(\CWM\BroadWorksConnector\Ocip\Models\SortByEnterpriseCommonPhoneListName $sortByEnterpriseCommonPhoneListName)
@@ -170,21 +198,28 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSortByEnterpriseCommonPhoneListName()
+    {
+        $this->sortByEnterpriseCommonPhoneListName = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaModeOr
      *
-     * @ElementName searchCriteriaModeOr
-     * @return bool|null
+     * @return bool
      */
     public function getSearchCriteriaModeOr()
     {
-        return $this->searchCriteriaModeOr;
+        return $this->searchCriteriaModeOr instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaModeOr;
     }
 
     /**
      * Setter for searchCriteriaModeOr
      *
-     * @ElementName searchCriteriaModeOr
-     * @param bool|null $searchCriteriaModeOr
+     * @param bool $searchCriteriaModeOr
      * @return $this
      */
     public function setSearchCriteriaModeOr($searchCriteriaModeOr)
@@ -194,20 +229,27 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaModeOr()
+    {
+        $this->searchCriteriaModeOr = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaEnterpriseCommonPhoneListName
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[]
      */
     public function getSearchCriteriaEnterpriseCommonPhoneListName()
     {
-        return $this->searchCriteriaEnterpriseCommonPhoneListName;
+        return $this->searchCriteriaEnterpriseCommonPhoneListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaEnterpriseCommonPhoneListName;
     }
 
     /**
      * Setter for searchCriteriaEnterpriseCommonPhoneListName
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName[] $searchCriteriaEnterpriseCommonPhoneListName
      * @return $this
      */
@@ -218,33 +260,39 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaEnterpriseCommonPhoneListName()
+    {
+        $this->searchCriteriaEnterpriseCommonPhoneListName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaEnterpriseCommonPhoneListName
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListName $searchCriteriaEnterpriseCommonPhoneListName
      * @return $this
      */
     public function addSearchCriteriaEnterpriseCommonPhoneListName($searchCriteriaEnterpriseCommonPhoneListName)
     {
-        $this->searchCriteriaEnterpriseCommonPhoneListName []= $searchCriteriaEnterpriseCommonPhoneListName;
+        $this->searchCriteriaEnterpriseCommonPhoneListName[] = $searchCriteriaEnterpriseCommonPhoneListName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaEnterpriseCommonPhoneListNumber
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[]
      */
     public function getSearchCriteriaEnterpriseCommonPhoneListNumber()
     {
-        return $this->searchCriteriaEnterpriseCommonPhoneListNumber;
+        return $this->searchCriteriaEnterpriseCommonPhoneListNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaEnterpriseCommonPhoneListNumber;
     }
 
     /**
      * Setter for searchCriteriaEnterpriseCommonPhoneListNumber
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber[] $searchCriteriaEnterpriseCommonPhoneListNumber
      * @return $this
      */
@@ -255,15 +303,23 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaEnterpriseCommonPhoneListNumber()
+    {
+        $this->searchCriteriaEnterpriseCommonPhoneListNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaEnterpriseCommonPhoneListNumber
      *
-     * @ElementName searchCriteriaEnterpriseCommonPhoneListNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEnterpriseCommonPhoneListNumber $searchCriteriaEnterpriseCommonPhoneListNumber
      * @return $this
      */
     public function addSearchCriteriaEnterpriseCommonPhoneListNumber($searchCriteriaEnterpriseCommonPhoneListNumber)
     {
-        $this->searchCriteriaEnterpriseCommonPhoneListNumber []= $searchCriteriaEnterpriseCommonPhoneListNumber;
+        $this->searchCriteriaEnterpriseCommonPhoneListNumber[] = $searchCriteriaEnterpriseCommonPhoneListNumber;
         return $this;
     }
 

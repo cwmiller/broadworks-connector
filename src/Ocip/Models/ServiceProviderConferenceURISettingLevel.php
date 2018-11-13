@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ServiceProviderConferenceURISettingLevel SYSTEM()
  * @method static ServiceProviderConferenceURISettingLevel SERVICE_PROVIDER()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderConferenceURISettingLevel extends \MyCLabs\Enum\Enum
 {

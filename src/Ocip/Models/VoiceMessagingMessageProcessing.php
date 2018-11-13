@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static VoiceMessagingMessageProcessing
  * UNIFIED_VOICE_AND_EMAIL_MESSAGING()
  * @method static VoiceMessagingMessageProcessing DELIVER_TO_EMAIL_ADDRESS_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class VoiceMessagingMessageProcessing extends \MyCLabs\Enum\Enum
 {

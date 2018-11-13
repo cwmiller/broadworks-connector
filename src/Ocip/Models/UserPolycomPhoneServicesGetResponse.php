@@ -14,24 +14,28 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName integratePhoneDirectoryWithBroadWorks
+     * @Type bool
      * @var bool|null
      */
     private $integratePhoneDirectoryWithBroadWorks = null;
 
     /**
      * @ElementName includeUserPersonalPhoneListInDirectory
+     * @Type bool
      * @var bool|null
      */
     private $includeUserPersonalPhoneListInDirectory = null;
 
     /**
      * @ElementName includeGroupCustomContactDirectoryInDirectory
+     * @Type bool
      * @var bool|null
      */
     private $includeGroupCustomContactDirectoryInDirectory = null;
 
     /**
      * @ElementName groupCustomContactDirectory
+     * @Type string
      * @var string|null
      */
     private $groupCustomContactDirectory = null;
@@ -39,19 +43,17 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for integratePhoneDirectoryWithBroadWorks
      *
-     * @ElementName integratePhoneDirectoryWithBroadWorks
-     * @return bool|null
+     * @return bool
      */
     public function getIntegratePhoneDirectoryWithBroadWorks()
     {
-        return $this->integratePhoneDirectoryWithBroadWorks;
+        return $this->integratePhoneDirectoryWithBroadWorks instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->integratePhoneDirectoryWithBroadWorks;
     }
 
     /**
      * Setter for integratePhoneDirectoryWithBroadWorks
      *
-     * @ElementName integratePhoneDirectoryWithBroadWorks
-     * @param bool|null $integratePhoneDirectoryWithBroadWorks
+     * @param bool $integratePhoneDirectoryWithBroadWorks
      * @return $this
      */
     public function setIntegratePhoneDirectoryWithBroadWorks($integratePhoneDirectoryWithBroadWorks)
@@ -61,21 +63,28 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIntegratePhoneDirectoryWithBroadWorks()
+    {
+        $this->integratePhoneDirectoryWithBroadWorks = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeUserPersonalPhoneListInDirectory
      *
-     * @ElementName includeUserPersonalPhoneListInDirectory
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeUserPersonalPhoneListInDirectory()
     {
-        return $this->includeUserPersonalPhoneListInDirectory;
+        return $this->includeUserPersonalPhoneListInDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeUserPersonalPhoneListInDirectory;
     }
 
     /**
      * Setter for includeUserPersonalPhoneListInDirectory
      *
-     * @ElementName includeUserPersonalPhoneListInDirectory
-     * @param bool|null $includeUserPersonalPhoneListInDirectory
+     * @param bool $includeUserPersonalPhoneListInDirectory
      * @return $this
      */
     public function setIncludeUserPersonalPhoneListInDirectory($includeUserPersonalPhoneListInDirectory)
@@ -85,21 +94,28 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeUserPersonalPhoneListInDirectory()
+    {
+        $this->includeUserPersonalPhoneListInDirectory = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeGroupCustomContactDirectoryInDirectory
      *
-     * @ElementName includeGroupCustomContactDirectoryInDirectory
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeGroupCustomContactDirectoryInDirectory()
     {
-        return $this->includeGroupCustomContactDirectoryInDirectory;
+        return $this->includeGroupCustomContactDirectoryInDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeGroupCustomContactDirectoryInDirectory;
     }
 
     /**
      * Setter for includeGroupCustomContactDirectoryInDirectory
      *
-     * @ElementName includeGroupCustomContactDirectoryInDirectory
-     * @param bool|null $includeGroupCustomContactDirectoryInDirectory
+     * @param bool $includeGroupCustomContactDirectoryInDirectory
      * @return $this
      */
     public function setIncludeGroupCustomContactDirectoryInDirectory($includeGroupCustomContactDirectoryInDirectory)
@@ -109,26 +125,42 @@ class UserPolycomPhoneServicesGetResponse extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeGroupCustomContactDirectoryInDirectory()
+    {
+        $this->includeGroupCustomContactDirectoryInDirectory = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupCustomContactDirectory
      *
-     * @ElementName groupCustomContactDirectory
-     * @return string|null
+     * @return string
      */
     public function getGroupCustomContactDirectory()
     {
-        return $this->groupCustomContactDirectory;
+        return $this->groupCustomContactDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupCustomContactDirectory;
     }
 
     /**
      * Setter for groupCustomContactDirectory
      *
-     * @ElementName groupCustomContactDirectory
-     * @param string|null $groupCustomContactDirectory
+     * @param string $groupCustomContactDirectory
      * @return $this
      */
     public function setGroupCustomContactDirectory($groupCustomContactDirectory)
     {
         $this->groupCustomContactDirectory = $groupCustomContactDirectory;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupCustomContactDirectory()
+    {
+        $this->groupCustomContactDirectory = null;
         return $this;
     }
 

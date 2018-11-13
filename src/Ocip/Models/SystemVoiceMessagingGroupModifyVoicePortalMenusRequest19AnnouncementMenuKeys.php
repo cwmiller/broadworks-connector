@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementMenuKe
 
     /**
      * @ElementName recordAudio
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementMenuKe
 
     /**
      * @ElementName recordAudioVideo
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,12 +26,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementMenuKe
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,71 +42,87 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementMenuKe
     /**
      * Getter for recordAudio
      *
-     * @ElementName recordAudio
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRecordAudio()
     {
-        return $this->recordAudio;
+        return $this->recordAudio instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordAudio;
     }
 
     /**
      * Setter for recordAudio
      *
-     * @ElementName recordAudio
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordAudio
+     * @param string|null $recordAudio
      * @return $this
      */
     public function setRecordAudio($recordAudio)
     {
-        $this->recordAudio = $recordAudio;
+        if ($recordAudio === null) {
+            $this->recordAudio = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->recordAudio = $recordAudio;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecordAudio()
+    {
+        $this->recordAudio = null;
         return $this;
     }
 
     /**
      * Getter for recordAudioVideo
      *
-     * @ElementName recordAudioVideo
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRecordAudioVideo()
     {
-        return $this->recordAudioVideo;
+        return $this->recordAudioVideo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordAudioVideo;
     }
 
     /**
      * Setter for recordAudioVideo
      *
-     * @ElementName recordAudioVideo
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordAudioVideo
+     * @param string|null $recordAudioVideo
      * @return $this
      */
     public function setRecordAudioVideo($recordAudioVideo)
     {
-        $this->recordAudioVideo = $recordAudioVideo;
+        if ($recordAudioVideo === null) {
+            $this->recordAudioVideo = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->recordAudioVideo = $recordAudioVideo;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecordAudioVideo()
+    {
+        $this->recordAudioVideo = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -112,28 +132,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

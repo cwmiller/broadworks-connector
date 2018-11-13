@@ -16,12 +16,15 @@ class ServiceProviderRoutePointExternalSystemAssignListRequest extends \CWM\Broa
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName routePointExternalSystem
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $routePointExternalSystem = array(
@@ -31,19 +34,17 @@ class ServiceProviderRoutePointExternalSystemAssignListRequest extends \CWM\Broa
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,20 +54,27 @@ class ServiceProviderRoutePointExternalSystemAssignListRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for routePointExternalSystem
      *
-     * @ElementName routePointExternalSystem
      * @return string[]
      */
     public function getRoutePointExternalSystem()
     {
-        return $this->routePointExternalSystem;
+        return $this->routePointExternalSystem instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routePointExternalSystem;
     }
 
     /**
      * Setter for routePointExternalSystem
      *
-     * @ElementName routePointExternalSystem
      * @param string[] $routePointExternalSystem
      * @return $this
      */
@@ -77,15 +85,23 @@ class ServiceProviderRoutePointExternalSystemAssignListRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRoutePointExternalSystem()
+    {
+        $this->routePointExternalSystem = null;
+        return $this;
+    }
+
+    /**
      * Adder for routePointExternalSystem
      *
-     * @ElementName routePointExternalSystem
      * @param string $routePointExternalSystem
      * @return $this
      */
     public function addRoutePointExternalSystem(string $routePointExternalSystem)
     {
-        $this->routePointExternalSystem []= $routePointExternalSystem;
+        $this->routePointExternalSystem[] = $routePointExternalSystem;
         return $this;
     }
 

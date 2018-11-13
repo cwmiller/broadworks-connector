@@ -14,54 +14,63 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName enableAssociationLimit
+     * @Type bool
      * @var bool|null
      */
     private $enableAssociationLimit = null;
 
     /**
      * @ElementName associationLimitHours
+     * @Type int
      * @var int|null
      */
     private $associationLimitHours = null;
 
     /**
      * @ElementName hostUserId
+     * @Type string
      * @var string|null
      */
     private $hostUserId = null;
 
     /**
      * @ElementName hostLastName
+     * @Type string
      * @var string|null
      */
     private $hostLastName = null;
 
     /**
      * @ElementName hostFirstName
+     * @Type string
      * @var string|null
      */
     private $hostFirstName = null;
 
     /**
      * @ElementName hostAssociationDateTime
+     * @Type string
      * @var string|null
      */
     private $hostAssociationDateTime = null;
 
     /**
      * @ElementName hostEnforcesAssociationLimit
+     * @Type bool
      * @var bool|null
      */
     private $hostEnforcesAssociationLimit = null;
 
     /**
      * @ElementName hostAssociationLimitHours
+     * @Type int
      * @var int|null
      */
     private $hostAssociationLimitHours = null;
@@ -69,19 +78,17 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -91,21 +98,28 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAssociationLimit
      *
-     * @ElementName enableAssociationLimit
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAssociationLimit()
     {
-        return $this->enableAssociationLimit;
+        return $this->enableAssociationLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAssociationLimit;
     }
 
     /**
      * Setter for enableAssociationLimit
      *
-     * @ElementName enableAssociationLimit
-     * @param bool|null $enableAssociationLimit
+     * @param bool $enableAssociationLimit
      * @return $this
      */
     public function setEnableAssociationLimit($enableAssociationLimit)
@@ -115,21 +129,28 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAssociationLimit()
+    {
+        $this->enableAssociationLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @return int|null
+     * @return int
      */
     public function getAssociationLimitHours()
     {
-        return $this->associationLimitHours;
+        return $this->associationLimitHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->associationLimitHours;
     }
 
     /**
      * Setter for associationLimitHours
      *
-     * @ElementName associationLimitHours
-     * @param int|null $associationLimitHours
+     * @param int $associationLimitHours
      * @return $this
      */
     public function setAssociationLimitHours($associationLimitHours)
@@ -139,21 +160,28 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssociationLimitHours()
+    {
+        $this->associationLimitHours = null;
+        return $this;
+    }
+
+    /**
      * Getter for hostUserId
      *
-     * @ElementName hostUserId
-     * @return string|null
+     * @return string
      */
     public function getHostUserId()
     {
-        return $this->hostUserId;
+        return $this->hostUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostUserId;
     }
 
     /**
      * Setter for hostUserId
      *
-     * @ElementName hostUserId
-     * @param string|null $hostUserId
+     * @param string $hostUserId
      * @return $this
      */
     public function setHostUserId($hostUserId)
@@ -163,21 +191,28 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHostUserId()
+    {
+        $this->hostUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for hostLastName
      *
-     * @ElementName hostLastName
-     * @return string|null
+     * @return string
      */
     public function getHostLastName()
     {
-        return $this->hostLastName;
+        return $this->hostLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostLastName;
     }
 
     /**
      * Setter for hostLastName
      *
-     * @ElementName hostLastName
-     * @param string|null $hostLastName
+     * @param string $hostLastName
      * @return $this
      */
     public function setHostLastName($hostLastName)
@@ -187,21 +222,28 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHostLastName()
+    {
+        $this->hostLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hostFirstName
      *
-     * @ElementName hostFirstName
-     * @return string|null
+     * @return string
      */
     public function getHostFirstName()
     {
-        return $this->hostFirstName;
+        return $this->hostFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostFirstName;
     }
 
     /**
      * Setter for hostFirstName
      *
-     * @ElementName hostFirstName
-     * @param string|null $hostFirstName
+     * @param string $hostFirstName
      * @return $this
      */
     public function setHostFirstName($hostFirstName)
@@ -211,21 +253,28 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHostFirstName()
+    {
+        $this->hostFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hostAssociationDateTime
      *
-     * @ElementName hostAssociationDateTime
-     * @return string|null
+     * @return string
      */
     public function getHostAssociationDateTime()
     {
-        return $this->hostAssociationDateTime;
+        return $this->hostAssociationDateTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostAssociationDateTime;
     }
 
     /**
      * Setter for hostAssociationDateTime
      *
-     * @ElementName hostAssociationDateTime
-     * @param string|null $hostAssociationDateTime
+     * @param string $hostAssociationDateTime
      * @return $this
      */
     public function setHostAssociationDateTime($hostAssociationDateTime)
@@ -235,21 +284,28 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHostAssociationDateTime()
+    {
+        $this->hostAssociationDateTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for hostEnforcesAssociationLimit
      *
-     * @ElementName hostEnforcesAssociationLimit
-     * @return bool|null
+     * @return bool
      */
     public function getHostEnforcesAssociationLimit()
     {
-        return $this->hostEnforcesAssociationLimit;
+        return $this->hostEnforcesAssociationLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostEnforcesAssociationLimit;
     }
 
     /**
      * Setter for hostEnforcesAssociationLimit
      *
-     * @ElementName hostEnforcesAssociationLimit
-     * @param bool|null $hostEnforcesAssociationLimit
+     * @param bool $hostEnforcesAssociationLimit
      * @return $this
      */
     public function setHostEnforcesAssociationLimit($hostEnforcesAssociationLimit)
@@ -259,26 +315,42 @@ class UserHotelingGuestGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHostEnforcesAssociationLimit()
+    {
+        $this->hostEnforcesAssociationLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for hostAssociationLimitHours
      *
-     * @ElementName hostAssociationLimitHours
-     * @return int|null
+     * @return int
      */
     public function getHostAssociationLimitHours()
     {
-        return $this->hostAssociationLimitHours;
+        return $this->hostAssociationLimitHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostAssociationLimitHours;
     }
 
     /**
      * Setter for hostAssociationLimitHours
      *
-     * @ElementName hostAssociationLimitHours
-     * @param int|null $hostAssociationLimitHours
+     * @param int $hostAssociationLimitHours
      * @return $this
      */
     public function setHostAssociationLimitHours($hostAssociationLimitHours)
     {
         $this->hostAssociationLimitHours = $hostAssociationLimitHours;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHostAssociationLimitHours()
+    {
+        $this->hostAssociationLimitHours = null;
         return $this;
     }
 

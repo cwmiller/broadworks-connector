@@ -14,12 +14,14 @@ class UserSMDIMessageDeskGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName messageDeskNumber
+     * @Type string
      * @var string|null
      */
     private $messageDeskNumber = null;
@@ -27,19 +29,17 @@ class UserSMDIMessageDeskGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -49,26 +49,42 @@ class UserSMDIMessageDeskGetResponse extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for messageDeskNumber
      *
-     * @ElementName messageDeskNumber
-     * @return string|null
+     * @return string
      */
     public function getMessageDeskNumber()
     {
-        return $this->messageDeskNumber;
+        return $this->messageDeskNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->messageDeskNumber;
     }
 
     /**
      * Setter for messageDeskNumber
      *
-     * @ElementName messageDeskNumber
-     * @param string|null $messageDeskNumber
+     * @param string $messageDeskNumber
      * @return $this
      */
     public function setMessageDeskNumber($messageDeskNumber)
     {
         $this->messageDeskNumber = $messageDeskNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMessageDeskNumber()
+    {
+        $this->messageDeskNumber = null;
         return $this;
     }
 

@@ -15,6 +15,7 @@ class UserCallCenterGetAvailableCallCenterListResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName callCenterTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;
@@ -22,24 +23,31 @@ class UserCallCenterGetAvailableCallCenterListResponse extends \CWM\BroadWorksCo
     /**
      * Getter for callCenterTable
      *
-     * @ElementName callCenterTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCallCenterTable()
     {
-        return $this->callCenterTable;
+        return $this->callCenterTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenterTable;
     }
 
     /**
      * Setter for callCenterTable
      *
-     * @ElementName callCenterTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callCenterTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCenterTable
      * @return $this
      */
     public function setCallCenterTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCenterTable)
     {
         $this->callCenterTable = $callCenterTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallCenterTable()
+    {
+        $this->callCenterTable = null;
         return $this;
     }
 

@@ -13,6 +13,7 @@ class SystemBwDiameterPeerGetListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName peerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $peerTable = null;
@@ -20,24 +21,31 @@ class SystemBwDiameterPeerGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for peerTable
      *
-     * @ElementName peerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getPeerTable()
     {
-        return $this->peerTable;
+        return $this->peerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->peerTable;
     }
 
     /**
      * Setter for peerTable
      *
-     * @ElementName peerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $peerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $peerTable
      * @return $this
      */
     public function setPeerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $peerTable)
     {
         $this->peerTable = $peerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPeerTable()
+    {
+        $this->peerTable = null;
         return $this;
     }
 

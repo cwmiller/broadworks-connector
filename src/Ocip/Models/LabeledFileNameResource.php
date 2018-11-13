@@ -13,18 +13,21 @@ class LabeledFileNameResource
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName mediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType = null;
 
     /**
      * @ElementName sourceFileName
+     * @Type string
      * @var string|null
      */
     private $sourceFileName = null;
@@ -32,19 +35,17 @@ class LabeledFileNameResource
     /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -54,21 +55,28 @@ class LabeledFileNameResource
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for mediaType
      *
-     * @ElementName mediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getMediaType()
     {
-        return $this->mediaType;
+        return $this->mediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaType;
     }
 
     /**
      * Setter for mediaType
      *
-     * @ElementName mediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $mediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $mediaType
      * @return $this
      */
     public function setMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $mediaType)
@@ -78,26 +86,42 @@ class LabeledFileNameResource
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMediaType()
+    {
+        $this->mediaType = null;
+        return $this;
+    }
+
+    /**
      * Getter for sourceFileName
      *
-     * @ElementName sourceFileName
-     * @return string|null
+     * @return string
      */
     public function getSourceFileName()
     {
-        return $this->sourceFileName;
+        return $this->sourceFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sourceFileName;
     }
 
     /**
      * Setter for sourceFileName
      *
-     * @ElementName sourceFileName
-     * @param string|null $sourceFileName
+     * @param string $sourceFileName
      * @return $this
      */
     public function setSourceFileName($sourceFileName)
     {
         $this->sourceFileName = $sourceFileName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSourceFileName()
+    {
+        $this->sourceFileName = null;
         return $this;
     }
 

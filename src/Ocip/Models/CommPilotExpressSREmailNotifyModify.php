@@ -12,12 +12,14 @@ class CommPilotExpressSREmailNotifyModify
 
     /**
      * @ElementName sendEmail
+     * @Type bool
      * @var bool|null
      */
     private $sendEmail = null;
 
     /**
      * @ElementName emailAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,19 +28,17 @@ class CommPilotExpressSREmailNotifyModify
     /**
      * Getter for sendEmail
      *
-     * @ElementName sendEmail
-     * @return bool|null
+     * @return bool
      */
     public function getSendEmail()
     {
-        return $this->sendEmail;
+        return $this->sendEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendEmail;
     }
 
     /**
      * Setter for sendEmail
      *
-     * @ElementName sendEmail
-     * @param bool|null $sendEmail
+     * @param bool $sendEmail
      * @return $this
      */
     public function setSendEmail($sendEmail)
@@ -48,28 +48,46 @@ class CommPilotExpressSREmailNotifyModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendEmail()
+    {
+        $this->sendEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for emailAddress
      *
-     * @ElementName emailAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getEmailAddress()
     {
-        return $this->emailAddress;
+        return $this->emailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emailAddress;
     }
 
     /**
      * Setter for emailAddress
      *
-     * @ElementName emailAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $emailAddress
+     * @param string|null $emailAddress
      * @return $this
      */
     public function setEmailAddress($emailAddress)
     {
-        $this->emailAddress = $emailAddress;
+        if ($emailAddress === null) {
+            $this->emailAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->emailAddress = $emailAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmailAddress()
+    {
+        $this->emailAddress = null;
         return $this;
     }
 

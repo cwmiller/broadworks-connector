@@ -20,6 +20,7 @@ class SessionStartRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
 
     /**
      * @ElementName normalLogin
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionStartRequestNormalLogin
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionStartRequestNormalLogin|null
      */
     private $normalLogin = null;
@@ -27,24 +28,31 @@ class SessionStartRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequ
     /**
      * Getter for normalLogin
      *
-     * @ElementName normalLogin
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionStartRequestNormalLogin|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SessionStartRequestNormalLogin
      */
     public function getNormalLogin()
     {
-        return $this->normalLogin;
+        return $this->normalLogin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->normalLogin;
     }
 
     /**
      * Setter for normalLogin
      *
-     * @ElementName normalLogin
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionStartRequestNormalLogin|null $normalLogin
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SessionStartRequestNormalLogin $normalLogin
      * @return $this
      */
     public function setNormalLogin(\CWM\BroadWorksConnector\Ocip\Models\SessionStartRequestNormalLogin $normalLogin)
     {
         $this->normalLogin = $normalLogin;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNormalLogin()
+    {
+        $this->normalLogin = null;
         return $this;
     }
 

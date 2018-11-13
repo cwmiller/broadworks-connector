@@ -18,6 +18,7 @@ class SystemCPEConfigGetFileServerListResponse extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName fileServerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $fileServerTable = null;
@@ -25,24 +26,31 @@ class SystemCPEConfigGetFileServerListResponse extends \CWM\BroadWorksConnector\
     /**
      * Getter for fileServerTable
      *
-     * @ElementName fileServerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getFileServerTable()
     {
-        return $this->fileServerTable;
+        return $this->fileServerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileServerTable;
     }
 
     /**
      * Setter for fileServerTable
      *
-     * @ElementName fileServerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $fileServerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $fileServerTable
      * @return $this
      */
     public function setFileServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $fileServerTable)
     {
         $this->fileServerTable = $fileServerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileServerTable()
+    {
+        $this->fileServerTable = null;
         return $this;
     }
 

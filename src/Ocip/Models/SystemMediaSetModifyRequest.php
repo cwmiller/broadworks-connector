@@ -16,12 +16,14 @@ class SystemMediaSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName setName
+     * @Type string
      * @var string|null
      */
     private $setName = null;
 
     /**
      * @ElementName mediaNameList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList|null
      */
     private $mediaNameList = null;
@@ -29,19 +31,17 @@ class SystemMediaSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for setName
      *
-     * @ElementName setName
-     * @return string|null
+     * @return string
      */
     public function getSetName()
     {
-        return $this->setName;
+        return $this->setName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setName;
     }
 
     /**
      * Setter for setName
      *
-     * @ElementName setName
-     * @param string|null $setName
+     * @param string $setName
      * @return $this
      */
     public function setSetName($setName)
@@ -51,26 +51,42 @@ class SystemMediaSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetName()
+    {
+        $this->setName = null;
+        return $this;
+    }
+
+    /**
      * Getter for mediaNameList
      *
-     * @ElementName mediaNameList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList
      */
     public function getMediaNameList()
     {
-        return $this->mediaNameList;
+        return $this->mediaNameList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaNameList;
     }
 
     /**
      * Setter for mediaNameList
      *
-     * @ElementName mediaNameList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList|null $mediaNameList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList $mediaNameList
      * @return $this
      */
     public function setMediaNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementMediaNameList $mediaNameList)
     {
         $this->mediaNameList = $mediaNameList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMediaNameList()
+    {
+        $this->mediaNameList = null;
         return $this;
     }
 

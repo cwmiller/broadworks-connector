@@ -10,6 +10,7 @@ class SystemConfigurableFileSystemGetResponseProtocolFile
 
     /**
      * @ElementName replicated
+     * @Type bool
      * @var bool|null
      */
     private $replicated = null;
@@ -17,24 +18,31 @@ class SystemConfigurableFileSystemGetResponseProtocolFile
     /**
      * Getter for replicated
      *
-     * @ElementName replicated
-     * @return bool|null
+     * @return bool
      */
     public function getReplicated()
     {
-        return $this->replicated;
+        return $this->replicated instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->replicated;
     }
 
     /**
      * Setter for replicated
      *
-     * @ElementName replicated
-     * @param bool|null $replicated
+     * @param bool $replicated
      * @return $this
      */
     public function setReplicated($replicated)
     {
         $this->replicated = $replicated;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReplicated()
+    {
+        $this->replicated = null;
         return $this;
     }
 

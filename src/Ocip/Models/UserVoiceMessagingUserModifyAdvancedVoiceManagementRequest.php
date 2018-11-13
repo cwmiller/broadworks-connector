@@ -16,78 +16,91 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName mailServerSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
     private $mailServerSelection = null;
 
     /**
      * @ElementName groupMailServerEmailAddress
+     * @Type string
      * @var string|null
      */
     private $groupMailServerEmailAddress = null;
 
     /**
      * @ElementName groupMailServerUserId
+     * @Type string
      * @var string|null
      */
     private $groupMailServerUserId = null;
 
     /**
      * @ElementName groupMailServerPassword
+     * @Type string
      * @var string|null
      */
     private $groupMailServerPassword = null;
 
     /**
      * @ElementName useGroupDefaultMailServerFullMailboxLimit
+     * @Type bool
      * @var bool|null
      */
     private $useGroupDefaultMailServerFullMailboxLimit = null;
 
     /**
      * @ElementName groupMailServerFullMailboxLimit
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $groupMailServerFullMailboxLimit = null;
 
     /**
      * @ElementName personalMailServerNetAddress
+     * @Type string
      * @var string|null
      */
     private $personalMailServerNetAddress = null;
 
     /**
      * @ElementName personalMailServerProtocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $personalMailServerProtocol = null;
 
     /**
      * @ElementName personalMailServerRealDeleteForImap
+     * @Type bool
      * @var bool|null
      */
     private $personalMailServerRealDeleteForImap = null;
 
     /**
      * @ElementName personalMailServerEmailAddress
+     * @Type string
      * @var string|null
      */
     private $personalMailServerEmailAddress = null;
 
     /**
      * @ElementName personalMailServerUserId
+     * @Type string
      * @var string|null
      */
     private $personalMailServerUserId = null;
 
     /**
      * @ElementName personalMailServerPassword
+     * @Type string
      * @var string|null
      */
     private $personalMailServerPassword = null;
@@ -95,19 +108,17 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -117,21 +128,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for mailServerSelection
      *
-     * @ElementName mailServerSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection
      */
     public function getMailServerSelection()
     {
-        return $this->mailServerSelection;
+        return $this->mailServerSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mailServerSelection;
     }
 
     /**
      * Setter for mailServerSelection
      *
-     * @ElementName mailServerSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null $mailServerSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection $mailServerSelection
      * @return $this
      */
     public function setMailServerSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection $mailServerSelection)
@@ -141,21 +159,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMailServerSelection()
+    {
+        $this->mailServerSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupMailServerEmailAddress
      *
-     * @ElementName groupMailServerEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getGroupMailServerEmailAddress()
     {
-        return $this->groupMailServerEmailAddress;
+        return $this->groupMailServerEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupMailServerEmailAddress;
     }
 
     /**
      * Setter for groupMailServerEmailAddress
      *
-     * @ElementName groupMailServerEmailAddress
-     * @param string|null $groupMailServerEmailAddress
+     * @param string $groupMailServerEmailAddress
      * @return $this
      */
     public function setGroupMailServerEmailAddress($groupMailServerEmailAddress)
@@ -165,21 +190,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupMailServerEmailAddress()
+    {
+        $this->groupMailServerEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupMailServerUserId
      *
-     * @ElementName groupMailServerUserId
-     * @return string|null
+     * @return string
      */
     public function getGroupMailServerUserId()
     {
-        return $this->groupMailServerUserId;
+        return $this->groupMailServerUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupMailServerUserId;
     }
 
     /**
      * Setter for groupMailServerUserId
      *
-     * @ElementName groupMailServerUserId
-     * @param string|null $groupMailServerUserId
+     * @param string $groupMailServerUserId
      * @return $this
      */
     public function setGroupMailServerUserId($groupMailServerUserId)
@@ -189,21 +221,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupMailServerUserId()
+    {
+        $this->groupMailServerUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupMailServerPassword
      *
-     * @ElementName groupMailServerPassword
-     * @return string|null
+     * @return string
      */
     public function getGroupMailServerPassword()
     {
-        return $this->groupMailServerPassword;
+        return $this->groupMailServerPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupMailServerPassword;
     }
 
     /**
      * Setter for groupMailServerPassword
      *
-     * @ElementName groupMailServerPassword
-     * @param string|null $groupMailServerPassword
+     * @param string $groupMailServerPassword
      * @return $this
      */
     public function setGroupMailServerPassword($groupMailServerPassword)
@@ -213,21 +252,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupMailServerPassword()
+    {
+        $this->groupMailServerPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupDefaultMailServerFullMailboxLimit
      *
-     * @ElementName useGroupDefaultMailServerFullMailboxLimit
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupDefaultMailServerFullMailboxLimit()
     {
-        return $this->useGroupDefaultMailServerFullMailboxLimit;
+        return $this->useGroupDefaultMailServerFullMailboxLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupDefaultMailServerFullMailboxLimit;
     }
 
     /**
      * Setter for useGroupDefaultMailServerFullMailboxLimit
      *
-     * @ElementName useGroupDefaultMailServerFullMailboxLimit
-     * @param bool|null $useGroupDefaultMailServerFullMailboxLimit
+     * @param bool $useGroupDefaultMailServerFullMailboxLimit
      * @return $this
      */
     public function setUseGroupDefaultMailServerFullMailboxLimit($useGroupDefaultMailServerFullMailboxLimit)
@@ -237,21 +283,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupDefaultMailServerFullMailboxLimit()
+    {
+        $this->useGroupDefaultMailServerFullMailboxLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupMailServerFullMailboxLimit
      *
-     * @ElementName groupMailServerFullMailboxLimit
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
      */
     public function getGroupMailServerFullMailboxLimit()
     {
-        return $this->groupMailServerFullMailboxLimit;
+        return $this->groupMailServerFullMailboxLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupMailServerFullMailboxLimit;
     }
 
     /**
      * Setter for groupMailServerFullMailboxLimit
      *
-     * @ElementName groupMailServerFullMailboxLimit
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null $groupMailServerFullMailboxLimit
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes $groupMailServerFullMailboxLimit
      * @return $this
      */
     public function setGroupMailServerFullMailboxLimit(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes $groupMailServerFullMailboxLimit)
@@ -261,21 +314,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupMailServerFullMailboxLimit()
+    {
+        $this->groupMailServerFullMailboxLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalMailServerNetAddress
      *
-     * @ElementName personalMailServerNetAddress
-     * @return string|null
+     * @return string
      */
     public function getPersonalMailServerNetAddress()
     {
-        return $this->personalMailServerNetAddress;
+        return $this->personalMailServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalMailServerNetAddress;
     }
 
     /**
      * Setter for personalMailServerNetAddress
      *
-     * @ElementName personalMailServerNetAddress
-     * @param string|null $personalMailServerNetAddress
+     * @param string $personalMailServerNetAddress
      * @return $this
      */
     public function setPersonalMailServerNetAddress($personalMailServerNetAddress)
@@ -285,21 +345,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalMailServerNetAddress()
+    {
+        $this->personalMailServerNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalMailServerProtocol
      *
-     * @ElementName personalMailServerProtocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
      */
     public function getPersonalMailServerProtocol()
     {
-        return $this->personalMailServerProtocol;
+        return $this->personalMailServerProtocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalMailServerProtocol;
     }
 
     /**
      * Setter for personalMailServerProtocol
      *
-     * @ElementName personalMailServerProtocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null $personalMailServerProtocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol $personalMailServerProtocol
      * @return $this
      */
     public function setPersonalMailServerProtocol(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol $personalMailServerProtocol)
@@ -309,21 +376,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalMailServerProtocol()
+    {
+        $this->personalMailServerProtocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalMailServerRealDeleteForImap
      *
-     * @ElementName personalMailServerRealDeleteForImap
-     * @return bool|null
+     * @return bool
      */
     public function getPersonalMailServerRealDeleteForImap()
     {
-        return $this->personalMailServerRealDeleteForImap;
+        return $this->personalMailServerRealDeleteForImap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalMailServerRealDeleteForImap;
     }
 
     /**
      * Setter for personalMailServerRealDeleteForImap
      *
-     * @ElementName personalMailServerRealDeleteForImap
-     * @param bool|null $personalMailServerRealDeleteForImap
+     * @param bool $personalMailServerRealDeleteForImap
      * @return $this
      */
     public function setPersonalMailServerRealDeleteForImap($personalMailServerRealDeleteForImap)
@@ -333,21 +407,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalMailServerRealDeleteForImap()
+    {
+        $this->personalMailServerRealDeleteForImap = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalMailServerEmailAddress
      *
-     * @ElementName personalMailServerEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getPersonalMailServerEmailAddress()
     {
-        return $this->personalMailServerEmailAddress;
+        return $this->personalMailServerEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalMailServerEmailAddress;
     }
 
     /**
      * Setter for personalMailServerEmailAddress
      *
-     * @ElementName personalMailServerEmailAddress
-     * @param string|null $personalMailServerEmailAddress
+     * @param string $personalMailServerEmailAddress
      * @return $this
      */
     public function setPersonalMailServerEmailAddress($personalMailServerEmailAddress)
@@ -357,21 +438,28 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalMailServerEmailAddress()
+    {
+        $this->personalMailServerEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalMailServerUserId
      *
-     * @ElementName personalMailServerUserId
-     * @return string|null
+     * @return string
      */
     public function getPersonalMailServerUserId()
     {
-        return $this->personalMailServerUserId;
+        return $this->personalMailServerUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalMailServerUserId;
     }
 
     /**
      * Setter for personalMailServerUserId
      *
-     * @ElementName personalMailServerUserId
-     * @param string|null $personalMailServerUserId
+     * @param string $personalMailServerUserId
      * @return $this
      */
     public function setPersonalMailServerUserId($personalMailServerUserId)
@@ -381,26 +469,42 @@ class UserVoiceMessagingUserModifyAdvancedVoiceManagementRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalMailServerUserId()
+    {
+        $this->personalMailServerUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalMailServerPassword
      *
-     * @ElementName personalMailServerPassword
-     * @return string|null
+     * @return string
      */
     public function getPersonalMailServerPassword()
     {
-        return $this->personalMailServerPassword;
+        return $this->personalMailServerPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalMailServerPassword;
     }
 
     /**
      * Setter for personalMailServerPassword
      *
-     * @ElementName personalMailServerPassword
-     * @param string|null $personalMailServerPassword
+     * @param string $personalMailServerPassword
      * @return $this
      */
     public function setPersonalMailServerPassword($personalMailServerPassword)
     {
         $this->personalMailServerPassword = $personalMailServerPassword;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPersonalMailServerPassword()
+    {
+        $this->personalMailServerPassword = null;
         return $this;
     }
 

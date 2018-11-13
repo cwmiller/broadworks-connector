@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallingPlanService INCOMING_CALLING_PLAN()
  * @method static CallingPlanService OUTGOING_CALLING_PLAN()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallingPlanService extends \MyCLabs\Enum\Enum
 {

@@ -12,6 +12,7 @@ class SearchCriteriaExactMobileNetwork extends SearchCriteria
 
     /**
      * @ElementName mobileNetworkName
+     * @Type string
      * @var string|null
      */
     private $mobileNetworkName = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactMobileNetwork extends SearchCriteria
     /**
      * Getter for mobileNetworkName
      *
-     * @ElementName mobileNetworkName
-     * @return string|null
+     * @return string
      */
     public function getMobileNetworkName()
     {
-        return $this->mobileNetworkName;
+        return $this->mobileNetworkName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileNetworkName;
     }
 
     /**
      * Setter for mobileNetworkName
      *
-     * @ElementName mobileNetworkName
-     * @param string|null $mobileNetworkName
+     * @param string $mobileNetworkName
      * @return $this
      */
     public function setMobileNetworkName($mobileNetworkName)
     {
         $this->mobileNetworkName = $mobileNetworkName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMobileNetworkName()
+    {
+        $this->mobileNetworkName = null;
         return $this;
     }
 

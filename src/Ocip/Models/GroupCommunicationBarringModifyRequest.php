@@ -16,24 +16,28 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName useDefaultServiceProviderProfile
+     * @Type bool
      * @var bool|null
      */
     private $useDefaultServiceProviderProfile = null;
 
     /**
      * @ElementName profile
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -42,19 +46,17 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -64,21 +66,28 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -88,21 +97,28 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDefaultServiceProviderProfile
      *
-     * @ElementName useDefaultServiceProviderProfile
-     * @return bool|null
+     * @return bool
      */
     public function getUseDefaultServiceProviderProfile()
     {
-        return $this->useDefaultServiceProviderProfile;
+        return $this->useDefaultServiceProviderProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDefaultServiceProviderProfile;
     }
 
     /**
      * Setter for useDefaultServiceProviderProfile
      *
-     * @ElementName useDefaultServiceProviderProfile
-     * @param bool|null $useDefaultServiceProviderProfile
+     * @param bool $useDefaultServiceProviderProfile
      * @return $this
      */
     public function setUseDefaultServiceProviderProfile($useDefaultServiceProviderProfile)
@@ -112,28 +128,46 @@ class GroupCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDefaultServiceProviderProfile()
+    {
+        $this->useDefaultServiceProviderProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for profile
      *
-     * @ElementName profile
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getProfile()
     {
-        return $this->profile;
+        return $this->profile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profile;
     }
 
     /**
      * Setter for profile
      *
-     * @ElementName profile
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $profile
+     * @param string|null $profile
      * @return $this
      */
     public function setProfile($profile)
     {
-        $this->profile = $profile;
+        if ($profile === null) {
+            $this->profile = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->profile = $profile;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfile()
+    {
+        $this->profile = null;
         return $this;
     }
 

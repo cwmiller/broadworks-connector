@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupAdminProfileAccess FULL()
  * @method static GroupAdminProfileAccess READ_ONLY()
  * @method static GroupAdminProfileAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupAdminProfileAccess extends \MyCLabs\Enum\Enum
 {

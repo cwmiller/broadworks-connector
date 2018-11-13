@@ -16,24 +16,28 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName enableDirectoryPrivacy
+     * @Type bool
      * @var bool|null
      */
     private $enableDirectoryPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
+     * @Type bool
      * @var bool|null
      */
     private $enableAutoAttendantExtensionDialingPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantNameDialingPrivacy
+     * @Type bool
      * @var bool|null
      */
     private $enableAutoAttendantNameDialingPrivacy = null;
@@ -41,19 +45,17 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -63,21 +65,28 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableDirectoryPrivacy
      *
-     * @ElementName enableDirectoryPrivacy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDirectoryPrivacy()
     {
-        return $this->enableDirectoryPrivacy;
+        return $this->enableDirectoryPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDirectoryPrivacy;
     }
 
     /**
      * Setter for enableDirectoryPrivacy
      *
-     * @ElementName enableDirectoryPrivacy
-     * @param bool|null $enableDirectoryPrivacy
+     * @param bool $enableDirectoryPrivacy
      * @return $this
      */
     public function setEnableDirectoryPrivacy($enableDirectoryPrivacy)
@@ -87,21 +96,28 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableDirectoryPrivacy()
+    {
+        $this->enableDirectoryPrivacy = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutoAttendantExtensionDialingPrivacy
      *
-     * @ElementName enableAutoAttendantExtensionDialingPrivacy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutoAttendantExtensionDialingPrivacy()
     {
-        return $this->enableAutoAttendantExtensionDialingPrivacy;
+        return $this->enableAutoAttendantExtensionDialingPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutoAttendantExtensionDialingPrivacy;
     }
 
     /**
      * Setter for enableAutoAttendantExtensionDialingPrivacy
      *
-     * @ElementName enableAutoAttendantExtensionDialingPrivacy
-     * @param bool|null $enableAutoAttendantExtensionDialingPrivacy
+     * @param bool $enableAutoAttendantExtensionDialingPrivacy
      * @return $this
      */
     public function setEnableAutoAttendantExtensionDialingPrivacy($enableAutoAttendantExtensionDialingPrivacy)
@@ -111,26 +127,42 @@ class GroupServiceInstancePrivacyModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAutoAttendantExtensionDialingPrivacy()
+    {
+        $this->enableAutoAttendantExtensionDialingPrivacy = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutoAttendantNameDialingPrivacy
      *
-     * @ElementName enableAutoAttendantNameDialingPrivacy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutoAttendantNameDialingPrivacy()
     {
-        return $this->enableAutoAttendantNameDialingPrivacy;
+        return $this->enableAutoAttendantNameDialingPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutoAttendantNameDialingPrivacy;
     }
 
     /**
      * Setter for enableAutoAttendantNameDialingPrivacy
      *
-     * @ElementName enableAutoAttendantNameDialingPrivacy
-     * @param bool|null $enableAutoAttendantNameDialingPrivacy
+     * @param bool $enableAutoAttendantNameDialingPrivacy
      * @return $this
      */
     public function setEnableAutoAttendantNameDialingPrivacy($enableAutoAttendantNameDialingPrivacy)
     {
         $this->enableAutoAttendantNameDialingPrivacy = $enableAutoAttendantNameDialingPrivacy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableAutoAttendantNameDialingPrivacy()
+    {
+        $this->enableAutoAttendantNameDialingPrivacy = null;
         return $this;
     }
 

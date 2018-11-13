@@ -16,6 +16,7 @@ class SystemCallCenterReportingServerGetListResponse extends \CWM\BroadWorksConn
 
     /**
      * @ElementName reportingServerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $reportingServerTable = null;
@@ -23,24 +24,31 @@ class SystemCallCenterReportingServerGetListResponse extends \CWM\BroadWorksConn
     /**
      * Getter for reportingServerTable
      *
-     * @ElementName reportingServerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getReportingServerTable()
     {
-        return $this->reportingServerTable;
+        return $this->reportingServerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingServerTable;
     }
 
     /**
      * Setter for reportingServerTable
      *
-     * @ElementName reportingServerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $reportingServerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reportingServerTable
      * @return $this
      */
     public function setReportingServerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reportingServerTable)
     {
         $this->reportingServerTable = $reportingServerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReportingServerTable()
+    {
+        $this->reportingServerTable = null;
         return $this;
     }
 

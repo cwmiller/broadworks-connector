@@ -15,66 +15,77 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName enableIPDeviceManagement
+     * @Type bool
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
 
     /**
      * @ElementName ftpConnectTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
 
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
 
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
+     * @Type int
      * @var int|null
      */
     private $pauseBetweenFileRebuildMilliseconds = null;
 
     /**
      * @ElementName deviceAccessAppServerClusterName
+     * @Type string
      * @var string|null
      */
     private $deviceAccessAppServerClusterName = null;
 
     /**
      * @ElementName minTimeBetweenResetMilliseconds
+     * @Type int
      * @var int|null
      */
     private $minTimeBetweenResetMilliseconds = null;
 
     /**
      * @ElementName alwaysPushFilesOnRebuild
+     * @Type bool
      * @var bool|null
      */
     private $alwaysPushFilesOnRebuild = null;
 
     /**
      * @ElementName maxFileOperationRetryAttempts
+     * @Type int
      * @var int|null
      */
     private $maxFileOperationRetryAttempts = null;
 
     /**
      * @ElementName enableAutoRebuildConfig
+     * @Type bool
      * @var bool|null
      */
     private $enableAutoRebuildConfig = null;
 
     /**
      * @ElementName eventQueueSize
+     * @Type int
      * @var int|null
      */
     private $eventQueueSize = null;
 
     /**
      * @ElementName allowDeviceCredentialsRetrieval
+     * @Type bool
      * @var bool|null
      */
     private $allowDeviceCredentialsRetrieval = null;
@@ -82,19 +93,17 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for enableIPDeviceManagement
      *
-     * @ElementName enableIPDeviceManagement
-     * @return bool|null
+     * @return bool
      */
     public function getEnableIPDeviceManagement()
     {
-        return $this->enableIPDeviceManagement;
+        return $this->enableIPDeviceManagement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableIPDeviceManagement;
     }
 
     /**
      * Setter for enableIPDeviceManagement
      *
-     * @ElementName enableIPDeviceManagement
-     * @param bool|null $enableIPDeviceManagement
+     * @param bool $enableIPDeviceManagement
      * @return $this
      */
     public function setEnableIPDeviceManagement($enableIPDeviceManagement)
@@ -104,21 +113,28 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableIPDeviceManagement()
+    {
+        $this->enableIPDeviceManagement = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpConnectTimeoutSeconds
      *
-     * @ElementName ftpConnectTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getFtpConnectTimeoutSeconds()
     {
-        return $this->ftpConnectTimeoutSeconds;
+        return $this->ftpConnectTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpConnectTimeoutSeconds;
     }
 
     /**
      * Setter for ftpConnectTimeoutSeconds
      *
-     * @ElementName ftpConnectTimeoutSeconds
-     * @param int|null $ftpConnectTimeoutSeconds
+     * @param int $ftpConnectTimeoutSeconds
      * @return $this
      */
     public function setFtpConnectTimeoutSeconds($ftpConnectTimeoutSeconds)
@@ -128,21 +144,28 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpConnectTimeoutSeconds()
+    {
+        $this->ftpConnectTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpFileTransferTimeoutSeconds
      *
-     * @ElementName ftpFileTransferTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getFtpFileTransferTimeoutSeconds()
     {
-        return $this->ftpFileTransferTimeoutSeconds;
+        return $this->ftpFileTransferTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpFileTransferTimeoutSeconds;
     }
 
     /**
      * Setter for ftpFileTransferTimeoutSeconds
      *
-     * @ElementName ftpFileTransferTimeoutSeconds
-     * @param int|null $ftpFileTransferTimeoutSeconds
+     * @param int $ftpFileTransferTimeoutSeconds
      * @return $this
      */
     public function setFtpFileTransferTimeoutSeconds($ftpFileTransferTimeoutSeconds)
@@ -152,21 +175,28 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpFileTransferTimeoutSeconds()
+    {
+        $this->ftpFileTransferTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for pauseBetweenFileRebuildMilliseconds
      *
-     * @ElementName pauseBetweenFileRebuildMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getPauseBetweenFileRebuildMilliseconds()
     {
-        return $this->pauseBetweenFileRebuildMilliseconds;
+        return $this->pauseBetweenFileRebuildMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pauseBetweenFileRebuildMilliseconds;
     }
 
     /**
      * Setter for pauseBetweenFileRebuildMilliseconds
      *
-     * @ElementName pauseBetweenFileRebuildMilliseconds
-     * @param int|null $pauseBetweenFileRebuildMilliseconds
+     * @param int $pauseBetweenFileRebuildMilliseconds
      * @return $this
      */
     public function setPauseBetweenFileRebuildMilliseconds($pauseBetweenFileRebuildMilliseconds)
@@ -176,21 +206,28 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPauseBetweenFileRebuildMilliseconds()
+    {
+        $this->pauseBetweenFileRebuildMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceAccessAppServerClusterName
      *
-     * @ElementName deviceAccessAppServerClusterName
-     * @return string|null
+     * @return string
      */
     public function getDeviceAccessAppServerClusterName()
     {
-        return $this->deviceAccessAppServerClusterName;
+        return $this->deviceAccessAppServerClusterName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessAppServerClusterName;
     }
 
     /**
      * Setter for deviceAccessAppServerClusterName
      *
-     * @ElementName deviceAccessAppServerClusterName
-     * @param string|null $deviceAccessAppServerClusterName
+     * @param string $deviceAccessAppServerClusterName
      * @return $this
      */
     public function setDeviceAccessAppServerClusterName($deviceAccessAppServerClusterName)
@@ -200,21 +237,28 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceAccessAppServerClusterName()
+    {
+        $this->deviceAccessAppServerClusterName = null;
+        return $this;
+    }
+
+    /**
      * Getter for minTimeBetweenResetMilliseconds
      *
-     * @ElementName minTimeBetweenResetMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getMinTimeBetweenResetMilliseconds()
     {
-        return $this->minTimeBetweenResetMilliseconds;
+        return $this->minTimeBetweenResetMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minTimeBetweenResetMilliseconds;
     }
 
     /**
      * Setter for minTimeBetweenResetMilliseconds
      *
-     * @ElementName minTimeBetweenResetMilliseconds
-     * @param int|null $minTimeBetweenResetMilliseconds
+     * @param int $minTimeBetweenResetMilliseconds
      * @return $this
      */
     public function setMinTimeBetweenResetMilliseconds($minTimeBetweenResetMilliseconds)
@@ -224,21 +268,28 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinTimeBetweenResetMilliseconds()
+    {
+        $this->minTimeBetweenResetMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for alwaysPushFilesOnRebuild
      *
-     * @ElementName alwaysPushFilesOnRebuild
-     * @return bool|null
+     * @return bool
      */
     public function getAlwaysPushFilesOnRebuild()
     {
-        return $this->alwaysPushFilesOnRebuild;
+        return $this->alwaysPushFilesOnRebuild instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alwaysPushFilesOnRebuild;
     }
 
     /**
      * Setter for alwaysPushFilesOnRebuild
      *
-     * @ElementName alwaysPushFilesOnRebuild
-     * @param bool|null $alwaysPushFilesOnRebuild
+     * @param bool $alwaysPushFilesOnRebuild
      * @return $this
      */
     public function setAlwaysPushFilesOnRebuild($alwaysPushFilesOnRebuild)
@@ -248,21 +299,28 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlwaysPushFilesOnRebuild()
+    {
+        $this->alwaysPushFilesOnRebuild = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxFileOperationRetryAttempts
      *
-     * @ElementName maxFileOperationRetryAttempts
-     * @return int|null
+     * @return int
      */
     public function getMaxFileOperationRetryAttempts()
     {
-        return $this->maxFileOperationRetryAttempts;
+        return $this->maxFileOperationRetryAttempts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxFileOperationRetryAttempts;
     }
 
     /**
      * Setter for maxFileOperationRetryAttempts
      *
-     * @ElementName maxFileOperationRetryAttempts
-     * @param int|null $maxFileOperationRetryAttempts
+     * @param int $maxFileOperationRetryAttempts
      * @return $this
      */
     public function setMaxFileOperationRetryAttempts($maxFileOperationRetryAttempts)
@@ -272,21 +330,28 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxFileOperationRetryAttempts()
+    {
+        $this->maxFileOperationRetryAttempts = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutoRebuildConfig
      *
-     * @ElementName enableAutoRebuildConfig
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutoRebuildConfig()
     {
-        return $this->enableAutoRebuildConfig;
+        return $this->enableAutoRebuildConfig instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutoRebuildConfig;
     }
 
     /**
      * Setter for enableAutoRebuildConfig
      *
-     * @ElementName enableAutoRebuildConfig
-     * @param bool|null $enableAutoRebuildConfig
+     * @param bool $enableAutoRebuildConfig
      * @return $this
      */
     public function setEnableAutoRebuildConfig($enableAutoRebuildConfig)
@@ -296,21 +361,28 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAutoRebuildConfig()
+    {
+        $this->enableAutoRebuildConfig = null;
+        return $this;
+    }
+
+    /**
      * Getter for eventQueueSize
      *
-     * @ElementName eventQueueSize
-     * @return int|null
+     * @return int
      */
     public function getEventQueueSize()
     {
-        return $this->eventQueueSize;
+        return $this->eventQueueSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->eventQueueSize;
     }
 
     /**
      * Setter for eventQueueSize
      *
-     * @ElementName eventQueueSize
-     * @param int|null $eventQueueSize
+     * @param int $eventQueueSize
      * @return $this
      */
     public function setEventQueueSize($eventQueueSize)
@@ -320,26 +392,42 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEventQueueSize()
+    {
+        $this->eventQueueSize = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowDeviceCredentialsRetrieval
      *
-     * @ElementName allowDeviceCredentialsRetrieval
-     * @return bool|null
+     * @return bool
      */
     public function getAllowDeviceCredentialsRetrieval()
     {
-        return $this->allowDeviceCredentialsRetrieval;
+        return $this->allowDeviceCredentialsRetrieval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowDeviceCredentialsRetrieval;
     }
 
     /**
      * Setter for allowDeviceCredentialsRetrieval
      *
-     * @ElementName allowDeviceCredentialsRetrieval
-     * @param bool|null $allowDeviceCredentialsRetrieval
+     * @param bool $allowDeviceCredentialsRetrieval
      * @return $this
      */
     public function setAllowDeviceCredentialsRetrieval($allowDeviceCredentialsRetrieval)
     {
         $this->allowDeviceCredentialsRetrieval = $allowDeviceCredentialsRetrieval;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowDeviceCredentialsRetrieval()
+    {
+        $this->allowDeviceCredentialsRetrieval = null;
         return $this;
     }
 

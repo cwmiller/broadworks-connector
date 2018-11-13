@@ -25,7 +25,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static VoiceMessagingMailboxLengthMinutes _700()
  * @method static VoiceMessagingMailboxLengthMinutes _800()
  * @method static VoiceMessagingMailboxLengthMinutes _900()
- * @ValueType int
+ * @EnumValueType int
  */
 class VoiceMessagingMailboxLengthMinutes extends \MyCLabs\Enum\Enum
 {

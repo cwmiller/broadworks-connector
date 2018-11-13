@@ -16,6 +16,7 @@ class SystemRoutingDeleteTranslationRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName digits
+     * @Type string
      * @var string|null
      */
     private $digits = null;
@@ -23,24 +24,31 @@ class SystemRoutingDeleteTranslationRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for digits
      *
-     * @ElementName digits
-     * @return string|null
+     * @return string
      */
     public function getDigits()
     {
-        return $this->digits;
+        return $this->digits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digits;
     }
 
     /**
      * Setter for digits
      *
-     * @ElementName digits
-     * @param string|null $digits
+     * @param string $digits
      * @return $this
      */
     public function setDigits($digits)
     {
         $this->digits = $digits;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDigits()
+    {
+        $this->digits = null;
         return $this;
     }
 

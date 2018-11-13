@@ -16,18 +16,21 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName mediaServerResponseTimerMilliseconds
+     * @Type int
      * @var int|null
      */
     private $mediaServerResponseTimerMilliseconds = null;
 
     /**
      * @ElementName mediaServerSelectionRouteTimerMilliseconds
+     * @Type int
      * @var int|null
      */
     private $mediaServerSelectionRouteTimerMilliseconds = null;
 
     /**
      * @ElementName useStaticMediaServerDevice
+     * @Type bool
      * @var bool|null
      */
     private $useStaticMediaServerDevice = null;
@@ -35,19 +38,17 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for mediaServerResponseTimerMilliseconds
      *
-     * @ElementName mediaServerResponseTimerMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getMediaServerResponseTimerMilliseconds()
     {
-        return $this->mediaServerResponseTimerMilliseconds;
+        return $this->mediaServerResponseTimerMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaServerResponseTimerMilliseconds;
     }
 
     /**
      * Setter for mediaServerResponseTimerMilliseconds
      *
-     * @ElementName mediaServerResponseTimerMilliseconds
-     * @param int|null $mediaServerResponseTimerMilliseconds
+     * @param int $mediaServerResponseTimerMilliseconds
      * @return $this
      */
     public function setMediaServerResponseTimerMilliseconds($mediaServerResponseTimerMilliseconds)
@@ -57,21 +58,28 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMediaServerResponseTimerMilliseconds()
+    {
+        $this->mediaServerResponseTimerMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for mediaServerSelectionRouteTimerMilliseconds
      *
-     * @ElementName mediaServerSelectionRouteTimerMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getMediaServerSelectionRouteTimerMilliseconds()
     {
-        return $this->mediaServerSelectionRouteTimerMilliseconds;
+        return $this->mediaServerSelectionRouteTimerMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaServerSelectionRouteTimerMilliseconds;
     }
 
     /**
      * Setter for mediaServerSelectionRouteTimerMilliseconds
      *
-     * @ElementName mediaServerSelectionRouteTimerMilliseconds
-     * @param int|null $mediaServerSelectionRouteTimerMilliseconds
+     * @param int $mediaServerSelectionRouteTimerMilliseconds
      * @return $this
      */
     public function setMediaServerSelectionRouteTimerMilliseconds($mediaServerSelectionRouteTimerMilliseconds)
@@ -81,26 +89,42 @@ class SystemMediaServerParametersModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMediaServerSelectionRouteTimerMilliseconds()
+    {
+        $this->mediaServerSelectionRouteTimerMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for useStaticMediaServerDevice
      *
-     * @ElementName useStaticMediaServerDevice
-     * @return bool|null
+     * @return bool
      */
     public function getUseStaticMediaServerDevice()
     {
-        return $this->useStaticMediaServerDevice;
+        return $this->useStaticMediaServerDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useStaticMediaServerDevice;
     }
 
     /**
      * Setter for useStaticMediaServerDevice
      *
-     * @ElementName useStaticMediaServerDevice
-     * @param bool|null $useStaticMediaServerDevice
+     * @param bool $useStaticMediaServerDevice
      * @return $this
      */
     public function setUseStaticMediaServerDevice($useStaticMediaServerDevice)
     {
         $this->useStaticMediaServerDevice = $useStaticMediaServerDevice;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseStaticMediaServerDevice()
+    {
+        $this->useStaticMediaServerDevice = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static IncomingCallToUserAliasMode ENABLED()
  * @method static IncomingCallToUserAliasMode EXPLICITALIAS()
  * @method static IncomingCallToUserAliasMode DISABLED()
- * @ValueType string
+ * @EnumValueType string
  */
 class IncomingCallToUserAliasMode extends \MyCLabs\Enum\Enum
 {

@@ -17,30 +17,35 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName isPremiumOnly
+     * @Type bool
      * @var bool|null
      */
     private $isPremiumOnly = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaCallCenterName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null
      */
     private $searchCriteriaCallCenterName = null;
@@ -48,19 +53,17 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -70,21 +73,28 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isPremiumOnly
      *
-     * @ElementName isPremiumOnly
-     * @return bool|null
+     * @return bool
      */
     public function getIsPremiumOnly()
     {
-        return $this->isPremiumOnly;
+        return $this->isPremiumOnly instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isPremiumOnly;
     }
 
     /**
      * Setter for isPremiumOnly
      *
-     * @ElementName isPremiumOnly
-     * @param bool|null $isPremiumOnly
+     * @param bool $isPremiumOnly
      * @return $this
      */
     public function setIsPremiumOnly($isPremiumOnly)
@@ -94,21 +104,28 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsPremiumOnly()
+    {
+        $this->isPremiumOnly = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -118,21 +135,28 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -142,26 +166,42 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaCallCenterName
      *
-     * @ElementName searchCriteriaCallCenterName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName
      */
     public function getSearchCriteriaCallCenterName()
     {
-        return $this->searchCriteriaCallCenterName;
+        return $this->searchCriteriaCallCenterName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaCallCenterName;
     }
 
     /**
      * Setter for searchCriteriaCallCenterName
      *
-     * @ElementName searchCriteriaCallCenterName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null $searchCriteriaCallCenterName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName $searchCriteriaCallCenterName
      * @return $this
      */
     public function setSearchCriteriaCallCenterName(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName $searchCriteriaCallCenterName)
     {
         $this->searchCriteriaCallCenterName = $searchCriteriaCallCenterName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaCallCenterName()
+    {
+        $this->searchCriteriaCallCenterName = null;
         return $this;
     }
 

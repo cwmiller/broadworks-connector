@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static BroadWorksAnywhereCLIDPrompt ALWAYS_PROMPT()
  * @method static BroadWorksAnywhereCLIDPrompt NEVER_PROMPT()
  * @method static BroadWorksAnywhereCLIDPrompt PROMPT_WHEN_NOT_AVAILABLE()
- * @ValueType string
+ * @EnumValueType string
  */
 class BroadWorksAnywhereCLIDPrompt extends \MyCLabs\Enum\Enum
 {

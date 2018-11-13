@@ -17,7 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TRANSFER_TO_SECOND_TRANSFER_NUMBER()
  * @method static OutgoingCallingPlanOriginatingPermission
  * TRANSFER_TO_THIRD_TRANSFER_NUMBER()
- * @ValueType string
+ * @EnumValueType string
  */
 class OutgoingCallingPlanOriginatingPermission extends \MyCLabs\Enum\Enum
 {

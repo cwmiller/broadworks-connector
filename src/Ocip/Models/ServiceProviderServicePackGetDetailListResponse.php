@@ -18,42 +18,49 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName servicePackName
+     * @Type string
      * @var string|null
      */
     private $servicePackName = null;
 
     /**
      * @ElementName servicePackDescription
+     * @Type string
      * @var string|null
      */
     private $servicePackDescription = null;
 
     /**
      * @ElementName isAvailableForUse
+     * @Type bool
      * @var bool|null
      */
     private $isAvailableForUse = null;
 
     /**
      * @ElementName servicePackQuantity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $servicePackQuantity = null;
 
     /**
      * @ElementName assignedQuantity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $assignedQuantity = null;
 
     /**
      * @ElementName allowedQuantity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $allowedQuantity = null;
 
     /**
      * @ElementName userServiceTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userServiceTable = null;
@@ -61,19 +68,17 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     /**
      * Getter for servicePackName
      *
-     * @ElementName servicePackName
-     * @return string|null
+     * @return string
      */
     public function getServicePackName()
     {
-        return $this->servicePackName;
+        return $this->servicePackName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePackName;
     }
 
     /**
      * Setter for servicePackName
      *
-     * @ElementName servicePackName
-     * @param string|null $servicePackName
+     * @param string $servicePackName
      * @return $this
      */
     public function setServicePackName($servicePackName)
@@ -83,21 +88,28 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePackName()
+    {
+        $this->servicePackName = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePackDescription
      *
-     * @ElementName servicePackDescription
-     * @return string|null
+     * @return string
      */
     public function getServicePackDescription()
     {
-        return $this->servicePackDescription;
+        return $this->servicePackDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePackDescription;
     }
 
     /**
      * Setter for servicePackDescription
      *
-     * @ElementName servicePackDescription
-     * @param string|null $servicePackDescription
+     * @param string $servicePackDescription
      * @return $this
      */
     public function setServicePackDescription($servicePackDescription)
@@ -107,21 +119,28 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePackDescription()
+    {
+        $this->servicePackDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for isAvailableForUse
      *
-     * @ElementName isAvailableForUse
-     * @return bool|null
+     * @return bool
      */
     public function getIsAvailableForUse()
     {
-        return $this->isAvailableForUse;
+        return $this->isAvailableForUse instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAvailableForUse;
     }
 
     /**
      * Setter for isAvailableForUse
      *
-     * @ElementName isAvailableForUse
-     * @param bool|null $isAvailableForUse
+     * @param bool $isAvailableForUse
      * @return $this
      */
     public function setIsAvailableForUse($isAvailableForUse)
@@ -131,21 +150,28 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsAvailableForUse()
+    {
+        $this->isAvailableForUse = null;
+        return $this;
+    }
+
+    /**
      * Getter for servicePackQuantity
      *
-     * @ElementName servicePackQuantity
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      */
     public function getServicePackQuantity()
     {
-        return $this->servicePackQuantity;
+        return $this->servicePackQuantity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePackQuantity;
     }
 
     /**
      * Setter for servicePackQuantity
      *
-     * @ElementName servicePackQuantity
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $servicePackQuantity
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $servicePackQuantity
      * @return $this
      */
     public function setServicePackQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $servicePackQuantity)
@@ -155,21 +181,28 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePackQuantity()
+    {
+        $this->servicePackQuantity = null;
+        return $this;
+    }
+
+    /**
      * Getter for assignedQuantity
      *
-     * @ElementName assignedQuantity
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
      */
     public function getAssignedQuantity()
     {
-        return $this->assignedQuantity;
+        return $this->assignedQuantity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assignedQuantity;
     }
 
     /**
      * Setter for assignedQuantity
      *
-     * @ElementName assignedQuantity
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null $assignedQuantity
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $assignedQuantity
      * @return $this
      */
     public function setAssignedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt $assignedQuantity)
@@ -179,21 +212,28 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssignedQuantity()
+    {
+        $this->assignedQuantity = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowedQuantity
      *
-     * @ElementName allowedQuantity
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      */
     public function getAllowedQuantity()
     {
-        return $this->allowedQuantity;
+        return $this->allowedQuantity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowedQuantity;
     }
 
     /**
      * Setter for allowedQuantity
      *
-     * @ElementName allowedQuantity
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $allowedQuantity
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $allowedQuantity
      * @return $this
      */
     public function setAllowedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $allowedQuantity)
@@ -203,26 +243,42 @@ class ServiceProviderServicePackGetDetailListResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowedQuantity()
+    {
+        $this->allowedQuantity = null;
+        return $this;
+    }
+
+    /**
      * Getter for userServiceTable
      *
-     * @ElementName userServiceTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserServiceTable()
     {
-        return $this->userServiceTable;
+        return $this->userServiceTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServiceTable;
     }
 
     /**
      * Setter for userServiceTable
      *
-     * @ElementName userServiceTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userServiceTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServiceTable
      * @return $this
      */
     public function setUserServiceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServiceTable)
     {
         $this->userServiceTable = $userServiceTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserServiceTable()
+    {
+        $this->userServiceTable = null;
         return $this;
     }
 

@@ -12,36 +12,42 @@ class CommunicationBarringIncomingRule
 
     /**
      * @ElementName digitPatternCriteria
+     * @Type string
      * @var string|null
      */
     private $digitPatternCriteria = null;
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $action = null;
 
     /**
      * @ElementName callTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $callTimeoutSeconds = null;
 
     /**
      * @ElementName timeSchedule
+     * @Type string
      * @var string|null
      */
     private $timeSchedule = null;
 
     /**
      * @ElementName holidaySchedule
+     * @Type string
      * @var string|null
      */
     private $holidaySchedule = null;
 
     /**
      * @ElementName priority
+     * @Type float
      * @var float|null
      */
     private $priority = null;
@@ -49,19 +55,17 @@ class CommunicationBarringIncomingRule
     /**
      * Getter for digitPatternCriteria
      *
-     * @ElementName digitPatternCriteria
-     * @return string|null
+     * @return string
      */
     public function getDigitPatternCriteria()
     {
-        return $this->digitPatternCriteria;
+        return $this->digitPatternCriteria instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitPatternCriteria;
     }
 
     /**
      * Setter for digitPatternCriteria
      *
-     * @ElementName digitPatternCriteria
-     * @param string|null $digitPatternCriteria
+     * @param string $digitPatternCriteria
      * @return $this
      */
     public function setDigitPatternCriteria($digitPatternCriteria)
@@ -71,21 +75,28 @@ class CommunicationBarringIncomingRule
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitPatternCriteria()
+    {
+        $this->digitPatternCriteria = null;
+        return $this;
+    }
+
+    /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction $action)
@@ -95,21 +106,28 @@ class CommunicationBarringIncomingRule
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for callTimeoutSeconds
      *
-     * @ElementName callTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getCallTimeoutSeconds()
     {
-        return $this->callTimeoutSeconds;
+        return $this->callTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callTimeoutSeconds;
     }
 
     /**
      * Setter for callTimeoutSeconds
      *
-     * @ElementName callTimeoutSeconds
-     * @param int|null $callTimeoutSeconds
+     * @param int $callTimeoutSeconds
      * @return $this
      */
     public function setCallTimeoutSeconds($callTimeoutSeconds)
@@ -119,21 +137,28 @@ class CommunicationBarringIncomingRule
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallTimeoutSeconds()
+    {
+        $this->callTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @return string|null
+     * @return string
      */
     public function getTimeSchedule()
     {
-        return $this->timeSchedule;
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
     }
 
     /**
      * Setter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @param string|null $timeSchedule
+     * @param string $timeSchedule
      * @return $this
      */
     public function setTimeSchedule($timeSchedule)
@@ -143,21 +168,28 @@ class CommunicationBarringIncomingRule
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @return string|null
+     * @return string
      */
     public function getHolidaySchedule()
     {
-        return $this->holidaySchedule;
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
     }
 
     /**
      * Setter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @param string|null $holidaySchedule
+     * @param string $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule($holidaySchedule)
@@ -167,26 +199,42 @@ class CommunicationBarringIncomingRule
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
+        return $this;
+    }
+
+    /**
      * Getter for priority
      *
-     * @ElementName priority
-     * @return float|null
+     * @return float
      */
     public function getPriority()
     {
-        return $this->priority;
+        return $this->priority instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priority;
     }
 
     /**
      * Setter for priority
      *
-     * @ElementName priority
-     * @param float|null $priority
+     * @param float $priority
      * @return $this
      */
     public function setPriority($priority)
     {
         $this->priority = $priority;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPriority()
+    {
+        $this->priority = null;
         return $this;
     }
 

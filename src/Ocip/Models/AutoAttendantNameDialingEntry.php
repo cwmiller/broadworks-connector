@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AutoAttendantNameDialingEntry LASTNAME_FIRSTNAME()
  * @method static AutoAttendantNameDialingEntry
  * LASTNAME_FIRSTNAME_OR_FIRSTNAME_LASTNAME()
- * @ValueType string
+ * @EnumValueType string
  */
 class AutoAttendantNameDialingEntry extends \MyCLabs\Enum\Enum
 {

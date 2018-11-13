@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Phone number lookup service type.
  *
  * @method static NumberLookupServiceType BROADWORKS_ANYWHERE()
- * @ValueType string
+ * @EnumValueType string
  */
 class NumberLookupServiceType extends \MyCLabs\Enum\Enum
 {

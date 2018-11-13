@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static GroupDigitCollectionSettingLevel SYSTEM()
  * @method static GroupDigitCollectionSettingLevel SERVICE_PROVIDER()
  * @method static GroupDigitCollectionSettingLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class GroupDigitCollectionSettingLevel extends \MyCLabs\Enum\Enum
 {

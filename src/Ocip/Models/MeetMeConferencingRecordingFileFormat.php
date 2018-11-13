@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static MeetMeConferencingRecordingFileFormat WAV()
  * @method static MeetMeConferencingRecordingFileFormat MP3()
- * @ValueType string
+ * @EnumValueType string
  */
 class MeetMeConferencingRecordingFileFormat extends \MyCLabs\Enum\Enum
 {

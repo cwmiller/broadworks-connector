@@ -15,6 +15,8 @@ class GroupBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName domainName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $domainName = array(
@@ -24,18 +26,16 @@ class GroupBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadWorksC
     /**
      * Getter for domainName
      *
-     * @ElementName domainName
      * @return string[]
      */
     public function getDomainName()
     {
-        return $this->domainName;
+        return $this->domainName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->domainName;
     }
 
     /**
      * Setter for domainName
      *
-     * @ElementName domainName
      * @param string[] $domainName
      * @return $this
      */
@@ -46,15 +46,23 @@ class GroupBroadWorksMobileManagerGetDomainListResponse extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDomainName()
+    {
+        $this->domainName = null;
+        return $this;
+    }
+
+    /**
      * Adder for domainName
      *
-     * @ElementName domainName
      * @param string $domainName
      * @return $this
      */
     public function addDomainName(string $domainName)
     {
-        $this->domainName []= $domainName;
+        $this->domainName[] = $domainName;
         return $this;
     }
 

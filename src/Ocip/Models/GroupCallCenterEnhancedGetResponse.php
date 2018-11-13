@@ -14,12 +14,14 @@ class GroupCallCenterEnhancedGetResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName overrideAgentWrapUpTime
+     * @Type bool
      * @var bool|null
      */
     private $overrideAgentWrapUpTime = null;
 
     /**
      * @ElementName wrapUpSeconds
+     * @Type int
      * @var int|null
      */
     private $wrapUpSeconds = null;
@@ -27,19 +29,17 @@ class GroupCallCenterEnhancedGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for overrideAgentWrapUpTime
      *
-     * @ElementName overrideAgentWrapUpTime
-     * @return bool|null
+     * @return bool
      */
     public function getOverrideAgentWrapUpTime()
     {
-        return $this->overrideAgentWrapUpTime;
+        return $this->overrideAgentWrapUpTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideAgentWrapUpTime;
     }
 
     /**
      * Setter for overrideAgentWrapUpTime
      *
-     * @ElementName overrideAgentWrapUpTime
-     * @param bool|null $overrideAgentWrapUpTime
+     * @param bool $overrideAgentWrapUpTime
      * @return $this
      */
     public function setOverrideAgentWrapUpTime($overrideAgentWrapUpTime)
@@ -49,26 +49,42 @@ class GroupCallCenterEnhancedGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOverrideAgentWrapUpTime()
+    {
+        $this->overrideAgentWrapUpTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for wrapUpSeconds
      *
-     * @ElementName wrapUpSeconds
-     * @return int|null
+     * @return int
      */
     public function getWrapUpSeconds()
     {
-        return $this->wrapUpSeconds;
+        return $this->wrapUpSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->wrapUpSeconds;
     }
 
     /**
      * Setter for wrapUpSeconds
      *
-     * @ElementName wrapUpSeconds
-     * @param int|null $wrapUpSeconds
+     * @param int $wrapUpSeconds
      * @return $this
      */
     public function setWrapUpSeconds($wrapUpSeconds)
     {
         $this->wrapUpSeconds = $wrapUpSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWrapUpSeconds()
+    {
+        $this->wrapUpSeconds = null;
         return $this;
     }
 

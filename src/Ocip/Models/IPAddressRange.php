@@ -12,12 +12,14 @@ class IPAddressRange
 
     /**
      * @ElementName minIpAddress
+     * @Type string
      * @var string|null
      */
     private $minIpAddress = null;
 
     /**
      * @ElementName maxIpAddress
+     * @Type string
      * @var string|null
      */
     private $maxIpAddress = null;
@@ -25,19 +27,17 @@ class IPAddressRange
     /**
      * Getter for minIpAddress
      *
-     * @ElementName minIpAddress
-     * @return string|null
+     * @return string
      */
     public function getMinIpAddress()
     {
-        return $this->minIpAddress;
+        return $this->minIpAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minIpAddress;
     }
 
     /**
      * Setter for minIpAddress
      *
-     * @ElementName minIpAddress
-     * @param string|null $minIpAddress
+     * @param string $minIpAddress
      * @return $this
      */
     public function setMinIpAddress($minIpAddress)
@@ -47,26 +47,42 @@ class IPAddressRange
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMinIpAddress()
+    {
+        $this->minIpAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxIpAddress
      *
-     * @ElementName maxIpAddress
-     * @return string|null
+     * @return string
      */
     public function getMaxIpAddress()
     {
-        return $this->maxIpAddress;
+        return $this->maxIpAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxIpAddress;
     }
 
     /**
      * Setter for maxIpAddress
      *
-     * @ElementName maxIpAddress
-     * @param string|null $maxIpAddress
+     * @param string $maxIpAddress
      * @return $this
      */
     public function setMaxIpAddress($maxIpAddress)
     {
         $this->maxIpAddress = $maxIpAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxIpAddress()
+    {
+        $this->maxIpAddress = null;
         return $this;
     }
 

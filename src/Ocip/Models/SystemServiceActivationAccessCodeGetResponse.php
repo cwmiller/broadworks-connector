@@ -15,24 +15,28 @@ class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName terminatingAccessCode
+     * @Type string
      * @var string|null
      */
     private $terminatingAccessCode = null;
 
     /**
      * @ElementName redirectingAccessCode
+     * @Type string
      * @var string|null
      */
     private $redirectingAccessCode = null;
 
     /**
      * @ElementName clickToDialAccessCode
+     * @Type string
      * @var string|null
      */
     private $clickToDialAccessCode = null;
@@ -40,19 +44,17 @@ class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -62,21 +64,28 @@ class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for terminatingAccessCode
      *
-     * @ElementName terminatingAccessCode
-     * @return string|null
+     * @return string
      */
     public function getTerminatingAccessCode()
     {
-        return $this->terminatingAccessCode;
+        return $this->terminatingAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->terminatingAccessCode;
     }
 
     /**
      * Setter for terminatingAccessCode
      *
-     * @ElementName terminatingAccessCode
-     * @param string|null $terminatingAccessCode
+     * @param string $terminatingAccessCode
      * @return $this
      */
     public function setTerminatingAccessCode($terminatingAccessCode)
@@ -86,21 +95,28 @@ class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTerminatingAccessCode()
+    {
+        $this->terminatingAccessCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for redirectingAccessCode
      *
-     * @ElementName redirectingAccessCode
-     * @return string|null
+     * @return string
      */
     public function getRedirectingAccessCode()
     {
-        return $this->redirectingAccessCode;
+        return $this->redirectingAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectingAccessCode;
     }
 
     /**
      * Setter for redirectingAccessCode
      *
-     * @ElementName redirectingAccessCode
-     * @param string|null $redirectingAccessCode
+     * @param string $redirectingAccessCode
      * @return $this
      */
     public function setRedirectingAccessCode($redirectingAccessCode)
@@ -110,26 +126,42 @@ class SystemServiceActivationAccessCodeGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectingAccessCode()
+    {
+        $this->redirectingAccessCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for clickToDialAccessCode
      *
-     * @ElementName clickToDialAccessCode
-     * @return string|null
+     * @return string
      */
     public function getClickToDialAccessCode()
     {
-        return $this->clickToDialAccessCode;
+        return $this->clickToDialAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->clickToDialAccessCode;
     }
 
     /**
      * Setter for clickToDialAccessCode
      *
-     * @ElementName clickToDialAccessCode
-     * @param string|null $clickToDialAccessCode
+     * @param string $clickToDialAccessCode
      * @return $this
      */
     public function setClickToDialAccessCode($clickToDialAccessCode)
     {
         $this->clickToDialAccessCode = $clickToDialAccessCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetClickToDialAccessCode()
+    {
+        $this->clickToDialAccessCode = null;
         return $this;
     }
 

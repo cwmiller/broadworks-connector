@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EnterpriseInternalCallsCLIDPolicy
  * USE_LOCATION_CODE_PLUS_EXTENSION()
  * @method static EnterpriseInternalCallsCLIDPolicy USE_EXTERNAL_CALLS_POLICY()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseInternalCallsCLIDPolicy extends \MyCLabs\Enum\Enum
 {

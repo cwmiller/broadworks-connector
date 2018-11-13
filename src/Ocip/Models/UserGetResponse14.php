@@ -16,108 +16,127 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName lastName
+     * @Type string
      * @var string|null
      */
     private $lastName = null;
 
     /**
      * @ElementName firstName
+     * @Type string
      * @var string|null
      */
     private $firstName = null;
 
     /**
      * @ElementName callingLineIdLastName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdLastName = null;
 
     /**
      * @ElementName callingLineIdFirstName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdFirstName = null;
 
     /**
      * @ElementName hiraganaLastName
+     * @Type string
      * @var string|null
      */
     private $hiraganaLastName = null;
 
     /**
      * @ElementName hiraganaFirstName
+     * @Type string
      * @var string|null
      */
     private $hiraganaFirstName = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName extension
+     * @Type string
      * @var string|null
      */
     private $extension = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName department
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
 
     /**
      * @ElementName departmentFullPath
+     * @Type string
      * @var string|null
      */
     private $departmentFullPath = null;
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName timeZoneDisplayName
+     * @Type string
      * @var string|null
      */
     private $timeZoneDisplayName = null;
 
     /**
      * @ElementName defaultAlias
+     * @Type string
      * @var string|null
      */
     private $defaultAlias = null;
 
     /**
      * @ElementName alias
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $alias = array(
@@ -126,54 +145,63 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
 
     /**
      * @ElementName accessDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
      */
     private $accessDeviceEndpoint = null;
 
     /**
      * @ElementName trunkGroupDeviceEndpoint
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointRead
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointRead|null
      */
     private $trunkGroupDeviceEndpoint = null;
 
     /**
      * @ElementName title
+     * @Type string
      * @var string|null
      */
     private $title = null;
 
     /**
      * @ElementName pagerPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $pagerPhoneNumber = null;
 
     /**
      * @ElementName mobilePhoneNumber
+     * @Type string
      * @var string|null
      */
     private $mobilePhoneNumber = null;
 
     /**
      * @ElementName emailAddress
+     * @Type string
      * @var string|null
      */
     private $emailAddress = null;
 
     /**
      * @ElementName yahooId
+     * @Type string
      * @var string|null
      */
     private $yahooId = null;
 
     /**
      * @ElementName addressLocation
+     * @Type string
      * @var string|null
      */
     private $addressLocation = null;
 
     /**
      * @ElementName address
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -181,19 +209,17 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -203,21 +229,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -227,21 +260,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastName
      *
-     * @ElementName lastName
-     * @return string|null
+     * @return string
      */
     public function getLastName()
     {
-        return $this->lastName;
+        return $this->lastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastName;
     }
 
     /**
      * Setter for lastName
      *
-     * @ElementName lastName
-     * @param string|null $lastName
+     * @param string $lastName
      * @return $this
      */
     public function setLastName($lastName)
@@ -251,21 +291,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastName()
+    {
+        $this->lastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for firstName
      *
-     * @ElementName firstName
-     * @return string|null
+     * @return string
      */
     public function getFirstName()
     {
-        return $this->firstName;
+        return $this->firstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->firstName;
     }
 
     /**
      * Setter for firstName
      *
-     * @ElementName firstName
-     * @param string|null $firstName
+     * @param string $firstName
      * @return $this
      */
     public function setFirstName($firstName)
@@ -275,21 +322,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFirstName()
+    {
+        $this->firstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdLastName()
     {
-        return $this->callingLineIdLastName;
+        return $this->callingLineIdLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdLastName;
     }
 
     /**
      * Setter for callingLineIdLastName
      *
-     * @ElementName callingLineIdLastName
-     * @param string|null $callingLineIdLastName
+     * @param string $callingLineIdLastName
      * @return $this
      */
     public function setCallingLineIdLastName($callingLineIdLastName)
@@ -299,21 +353,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdLastName()
+    {
+        $this->callingLineIdLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdFirstName()
     {
-        return $this->callingLineIdFirstName;
+        return $this->callingLineIdFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdFirstName;
     }
 
     /**
      * Setter for callingLineIdFirstName
      *
-     * @ElementName callingLineIdFirstName
-     * @param string|null $callingLineIdFirstName
+     * @param string $callingLineIdFirstName
      * @return $this
      */
     public function setCallingLineIdFirstName($callingLineIdFirstName)
@@ -323,21 +384,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdFirstName()
+    {
+        $this->callingLineIdFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hiraganaLastName
      *
-     * @ElementName hiraganaLastName
-     * @return string|null
+     * @return string
      */
     public function getHiraganaLastName()
     {
-        return $this->hiraganaLastName;
+        return $this->hiraganaLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hiraganaLastName;
     }
 
     /**
      * Setter for hiraganaLastName
      *
-     * @ElementName hiraganaLastName
-     * @param string|null $hiraganaLastName
+     * @param string $hiraganaLastName
      * @return $this
      */
     public function setHiraganaLastName($hiraganaLastName)
@@ -347,21 +415,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHiraganaLastName()
+    {
+        $this->hiraganaLastName = null;
+        return $this;
+    }
+
+    /**
      * Getter for hiraganaFirstName
      *
-     * @ElementName hiraganaFirstName
-     * @return string|null
+     * @return string
      */
     public function getHiraganaFirstName()
     {
-        return $this->hiraganaFirstName;
+        return $this->hiraganaFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hiraganaFirstName;
     }
 
     /**
      * Setter for hiraganaFirstName
      *
-     * @ElementName hiraganaFirstName
-     * @param string|null $hiraganaFirstName
+     * @param string $hiraganaFirstName
      * @return $this
      */
     public function setHiraganaFirstName($hiraganaFirstName)
@@ -371,21 +446,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHiraganaFirstName()
+    {
+        $this->hiraganaFirstName = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -395,21 +477,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for extension
      *
-     * @ElementName extension
-     * @return string|null
+     * @return string
      */
     public function getExtension()
     {
-        return $this->extension;
+        return $this->extension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extension;
     }
 
     /**
      * Setter for extension
      *
-     * @ElementName extension
-     * @param string|null $extension
+     * @param string $extension
      * @return $this
      */
     public function setExtension($extension)
@@ -419,21 +508,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtension()
+    {
+        $this->extension = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdPhoneNumber()
     {
-        return $this->callingLineIdPhoneNumber;
+        return $this->callingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @param string $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
@@ -443,21 +539,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdPhoneNumber()
+    {
+        $this->callingLineIdPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for department
      *
-     * @ElementName department
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      */
     public function getDepartment()
     {
-        return $this->department;
+        return $this->department instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->department;
     }
 
     /**
      * Setter for department
      *
-     * @ElementName department
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $department
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department
      * @return $this
      */
     public function setDepartment(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department)
@@ -467,21 +570,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartment()
+    {
+        $this->department = null;
+        return $this;
+    }
+
+    /**
      * Getter for departmentFullPath
      *
-     * @ElementName departmentFullPath
-     * @return string|null
+     * @return string
      */
     public function getDepartmentFullPath()
     {
-        return $this->departmentFullPath;
+        return $this->departmentFullPath instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentFullPath;
     }
 
     /**
      * Setter for departmentFullPath
      *
-     * @ElementName departmentFullPath
-     * @param string|null $departmentFullPath
+     * @param string $departmentFullPath
      * @return $this
      */
     public function setDepartmentFullPath($departmentFullPath)
@@ -491,21 +601,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentFullPath()
+    {
+        $this->departmentFullPath = null;
+        return $this;
+    }
+
+    /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
@@ -515,21 +632,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -539,21 +663,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZoneDisplayName
      *
-     * @ElementName timeZoneDisplayName
-     * @return string|null
+     * @return string
      */
     public function getTimeZoneDisplayName()
     {
-        return $this->timeZoneDisplayName;
+        return $this->timeZoneDisplayName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZoneDisplayName;
     }
 
     /**
      * Setter for timeZoneDisplayName
      *
-     * @ElementName timeZoneDisplayName
-     * @param string|null $timeZoneDisplayName
+     * @param string $timeZoneDisplayName
      * @return $this
      */
     public function setTimeZoneDisplayName($timeZoneDisplayName)
@@ -563,21 +694,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZoneDisplayName()
+    {
+        $this->timeZoneDisplayName = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultAlias
      *
-     * @ElementName defaultAlias
-     * @return string|null
+     * @return string
      */
     public function getDefaultAlias()
     {
-        return $this->defaultAlias;
+        return $this->defaultAlias instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultAlias;
     }
 
     /**
      * Setter for defaultAlias
      *
-     * @ElementName defaultAlias
-     * @param string|null $defaultAlias
+     * @param string $defaultAlias
      * @return $this
      */
     public function setDefaultAlias($defaultAlias)
@@ -587,20 +725,27 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultAlias()
+    {
+        $this->defaultAlias = null;
+        return $this;
+    }
+
+    /**
      * Getter for alias
      *
-     * @ElementName alias
      * @return string[]
      */
     public function getAlias()
     {
-        return $this->alias;
+        return $this->alias instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alias;
     }
 
     /**
      * Setter for alias
      *
-     * @ElementName alias
      * @param string[] $alias
      * @return $this
      */
@@ -611,34 +756,40 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlias()
+    {
+        $this->alias = null;
+        return $this;
+    }
+
+    /**
      * Adder for alias
      *
-     * @ElementName alias
      * @param string $alias
      * @return $this
      */
     public function addAlias(string $alias)
     {
-        $this->alias []= $alias;
+        $this->alias[] = $alias;
         return $this;
     }
 
     /**
      * Getter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14
      */
     public function getAccessDeviceEndpoint()
     {
-        return $this->accessDeviceEndpoint;
+        return $this->accessDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceEndpoint;
     }
 
     /**
      * Setter for accessDeviceEndpoint
      *
-     * @ElementName accessDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14|null $accessDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint
      * @return $this
      */
     public function setAccessDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointRead14 $accessDeviceEndpoint)
@@ -648,21 +799,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDeviceEndpoint()
+    {
+        $this->accessDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Getter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointRead|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointRead
      */
     public function getTrunkGroupDeviceEndpoint()
     {
-        return $this->trunkGroupDeviceEndpoint;
+        return $this->trunkGroupDeviceEndpoint instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupDeviceEndpoint;
     }
 
     /**
      * Setter for trunkGroupDeviceEndpoint
      *
-     * @ElementName trunkGroupDeviceEndpoint
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointRead|null $trunkGroupDeviceEndpoint
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointRead $trunkGroupDeviceEndpoint
      * @return $this
      */
     public function setTrunkGroupDeviceEndpoint(\CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointRead $trunkGroupDeviceEndpoint)
@@ -672,21 +830,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroupDeviceEndpoint()
+    {
+        $this->trunkGroupDeviceEndpoint = null;
+        return $this;
+    }
+
+    /**
      * Getter for title
      *
-     * @ElementName title
-     * @return string|null
+     * @return string
      */
     public function getTitle()
     {
-        return $this->title;
+        return $this->title instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->title;
     }
 
     /**
      * Setter for title
      *
-     * @ElementName title
-     * @param string|null $title
+     * @param string $title
      * @return $this
      */
     public function setTitle($title)
@@ -696,21 +861,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTitle()
+    {
+        $this->title = null;
+        return $this;
+    }
+
+    /**
      * Getter for pagerPhoneNumber
      *
-     * @ElementName pagerPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPagerPhoneNumber()
     {
-        return $this->pagerPhoneNumber;
+        return $this->pagerPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pagerPhoneNumber;
     }
 
     /**
      * Setter for pagerPhoneNumber
      *
-     * @ElementName pagerPhoneNumber
-     * @param string|null $pagerPhoneNumber
+     * @param string $pagerPhoneNumber
      * @return $this
      */
     public function setPagerPhoneNumber($pagerPhoneNumber)
@@ -720,21 +892,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPagerPhoneNumber()
+    {
+        $this->pagerPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getMobilePhoneNumber()
     {
-        return $this->mobilePhoneNumber;
+        return $this->mobilePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobilePhoneNumber;
     }
 
     /**
      * Setter for mobilePhoneNumber
      *
-     * @ElementName mobilePhoneNumber
-     * @param string|null $mobilePhoneNumber
+     * @param string $mobilePhoneNumber
      * @return $this
      */
     public function setMobilePhoneNumber($mobilePhoneNumber)
@@ -744,21 +923,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobilePhoneNumber()
+    {
+        $this->mobilePhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for emailAddress
      *
-     * @ElementName emailAddress
-     * @return string|null
+     * @return string
      */
     public function getEmailAddress()
     {
-        return $this->emailAddress;
+        return $this->emailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emailAddress;
     }
 
     /**
      * Setter for emailAddress
      *
-     * @ElementName emailAddress
-     * @param string|null $emailAddress
+     * @param string $emailAddress
      * @return $this
      */
     public function setEmailAddress($emailAddress)
@@ -768,21 +954,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEmailAddress()
+    {
+        $this->emailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for yahooId
      *
-     * @ElementName yahooId
-     * @return string|null
+     * @return string
      */
     public function getYahooId()
     {
-        return $this->yahooId;
+        return $this->yahooId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->yahooId;
     }
 
     /**
      * Setter for yahooId
      *
-     * @ElementName yahooId
-     * @param string|null $yahooId
+     * @param string $yahooId
      * @return $this
      */
     public function setYahooId($yahooId)
@@ -792,21 +985,28 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetYahooId()
+    {
+        $this->yahooId = null;
+        return $this;
+    }
+
+    /**
      * Getter for addressLocation
      *
-     * @ElementName addressLocation
-     * @return string|null
+     * @return string
      */
     public function getAddressLocation()
     {
-        return $this->addressLocation;
+        return $this->addressLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addressLocation;
     }
 
     /**
      * Setter for addressLocation
      *
-     * @ElementName addressLocation
-     * @param string|null $addressLocation
+     * @param string $addressLocation
      * @return $this
      */
     public function setAddressLocation($addressLocation)
@@ -816,26 +1016,42 @@ class UserGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddressLocation()
+    {
+        $this->addressLocation = null;
+        return $this;
+    }
+
+    /**
      * Getter for address
      *
-     * @ElementName address
-     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->address instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->address;
     }
 
     /**
      * Setter for address
      *
-     * @ElementName address
-     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null $address
+     * @param \CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address
      * @return $this
      */
     public function setAddress(\CWM\BroadWorksConnector\Ocip\Models\StreetAddress $address)
     {
         $this->address = $address;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAddress()
+    {
+        $this->address = null;
         return $this;
     }
 

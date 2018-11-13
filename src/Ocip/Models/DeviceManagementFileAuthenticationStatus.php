@@ -18,7 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * NEED_DIGEST_AUTHENTICATION()
  * @method static DeviceManagementFileAuthenticationStatus
  * NEED_USER_PASSWORD_AUTHENTICATION()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementFileAuthenticationStatus extends \MyCLabs\Enum\Enum
 {

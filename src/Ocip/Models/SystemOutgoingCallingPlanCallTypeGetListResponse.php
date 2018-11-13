@@ -14,6 +14,8 @@ class SystemOutgoingCallingPlanCallTypeGetListResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName callType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType[]
      */
     private $callType = array(
@@ -23,18 +25,16 @@ class SystemOutgoingCallingPlanCallTypeGetListResponse extends \CWM\BroadWorksCo
     /**
      * Getter for callType
      *
-     * @ElementName callType
      * @return \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType[]
      */
     public function getCallType()
     {
-        return $this->callType;
+        return $this->callType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callType;
     }
 
     /**
      * Setter for callType
      *
-     * @ElementName callType
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType[] $callType
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemOutgoingCallingPlanCallTypeGetListResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallType()
+    {
+        $this->callType = null;
+        return $this;
+    }
+
+    /**
      * Adder for callType
      *
-     * @ElementName callType
      * @param \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanCallType $callType
      * @return $this
      */
     public function addCallType($callType)
     {
-        $this->callType []= $callType;
+        $this->callType[] = $callType;
         return $this;
     }
 

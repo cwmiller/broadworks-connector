@@ -17,6 +17,8 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
 
     /**
      * @ElementName servicePackName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $servicePackName = array(
@@ -25,6 +27,8 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
 
     /**
      * @ElementName serviceUtilizationTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable[]
      */
     private $serviceUtilizationTable = array(
@@ -34,18 +38,16 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
     /**
      * Getter for servicePackName
      *
-     * @ElementName servicePackName
      * @return string[]
      */
     public function getServicePackName()
     {
-        return $this->servicePackName;
+        return $this->servicePackName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePackName;
     }
 
     /**
      * Setter for servicePackName
      *
-     * @ElementName servicePackName
      * @param string[] $servicePackName
      * @return $this
      */
@@ -56,33 +58,39 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServicePackName()
+    {
+        $this->servicePackName = null;
+        return $this;
+    }
+
+    /**
      * Adder for servicePackName
      *
-     * @ElementName servicePackName
      * @param string $servicePackName
      * @return $this
      */
     public function addServicePackName(string $servicePackName)
     {
-        $this->servicePackName []= $servicePackName;
+        $this->servicePackName[] = $servicePackName;
         return $this;
     }
 
     /**
      * Getter for serviceUtilizationTable
      *
-     * @ElementName serviceUtilizationTable
      * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable[]
      */
     public function getServiceUtilizationTable()
     {
-        return $this->serviceUtilizationTable;
+        return $this->serviceUtilizationTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUtilizationTable;
     }
 
     /**
      * Setter for serviceUtilizationTable
      *
-     * @ElementName serviceUtilizationTable
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable[] $serviceUtilizationTable
      * @return $this
      */
@@ -93,15 +101,23 @@ class ServiceProviderServicePackGetUtilizationListResponse extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUtilizationTable()
+    {
+        $this->serviceUtilizationTable = null;
+        return $this;
+    }
+
+    /**
      * Adder for serviceUtilizationTable
      *
-     * @ElementName serviceUtilizationTable
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceUtilizationTable
      * @return $this
      */
     public function addServiceUtilizationTable($serviceUtilizationTable)
     {
-        $this->serviceUtilizationTable []= $serviceUtilizationTable;
+        $this->serviceUtilizationTable[] = $serviceUtilizationTable;
         return $this;
     }
 

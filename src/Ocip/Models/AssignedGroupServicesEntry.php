@@ -13,12 +13,14 @@ class AssignedGroupServicesEntry
 
     /**
      * @ElementName serviceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
      */
     private $serviceName = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
@@ -26,19 +28,17 @@ class AssignedGroupServicesEntry
     /**
      * Getter for serviceName
      *
-     * @ElementName serviceName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupService
      */
     public function getServiceName()
     {
-        return $this->serviceName;
+        return $this->serviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceName;
     }
 
     /**
      * Setter for serviceName
      *
-     * @ElementName serviceName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService|null $serviceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupService $serviceName
      * @return $this
      */
     public function setServiceName(\CWM\BroadWorksConnector\Ocip\Models\GroupService $serviceName)
@@ -48,26 +48,42 @@ class AssignedGroupServicesEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceName()
+    {
+        $this->serviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
     {
         $this->isActive = $isActive;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
         return $this;
     }
 

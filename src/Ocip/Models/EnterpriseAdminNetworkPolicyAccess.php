@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static EnterpriseAdminNetworkPolicyAccess FULL()
  * @method static EnterpriseAdminNetworkPolicyAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseAdminNetworkPolicyAccess extends \MyCLabs\Enum\Enum
 {

@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
 
     /**
      * @ElementName recordNewPersonalizedName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
 
     /**
      * @ElementName listenToCurrentPersonalizedName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
 
     /**
      * @ElementName deletePersonalizedName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,12 +34,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,97 +50,122 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
     /**
      * Getter for recordNewPersonalizedName
      *
-     * @ElementName recordNewPersonalizedName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRecordNewPersonalizedName()
     {
-        return $this->recordNewPersonalizedName;
+        return $this->recordNewPersonalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordNewPersonalizedName;
     }
 
     /**
      * Setter for recordNewPersonalizedName
      *
-     * @ElementName recordNewPersonalizedName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recordNewPersonalizedName
+     * @param string|null $recordNewPersonalizedName
      * @return $this
      */
     public function setRecordNewPersonalizedName($recordNewPersonalizedName)
     {
-        $this->recordNewPersonalizedName = $recordNewPersonalizedName;
+        if ($recordNewPersonalizedName === null) {
+            $this->recordNewPersonalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->recordNewPersonalizedName = $recordNewPersonalizedName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecordNewPersonalizedName()
+    {
+        $this->recordNewPersonalizedName = null;
         return $this;
     }
 
     /**
      * Getter for listenToCurrentPersonalizedName
      *
-     * @ElementName listenToCurrentPersonalizedName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getListenToCurrentPersonalizedName()
     {
-        return $this->listenToCurrentPersonalizedName;
+        return $this->listenToCurrentPersonalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCurrentPersonalizedName;
     }
 
     /**
      * Setter for listenToCurrentPersonalizedName
      *
-     * @ElementName listenToCurrentPersonalizedName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCurrentPersonalizedName
+     * @param string|null $listenToCurrentPersonalizedName
      * @return $this
      */
     public function setListenToCurrentPersonalizedName($listenToCurrentPersonalizedName)
     {
-        $this->listenToCurrentPersonalizedName = $listenToCurrentPersonalizedName;
+        if ($listenToCurrentPersonalizedName === null) {
+            $this->listenToCurrentPersonalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->listenToCurrentPersonalizedName = $listenToCurrentPersonalizedName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetListenToCurrentPersonalizedName()
+    {
+        $this->listenToCurrentPersonalizedName = null;
         return $this;
     }
 
     /**
      * Getter for deletePersonalizedName
      *
-     * @ElementName deletePersonalizedName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDeletePersonalizedName()
     {
-        return $this->deletePersonalizedName;
+        return $this->deletePersonalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deletePersonalizedName;
     }
 
     /**
      * Setter for deletePersonalizedName
      *
-     * @ElementName deletePersonalizedName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deletePersonalizedName
+     * @param string|null $deletePersonalizedName
      * @return $this
      */
     public function setDeletePersonalizedName($deletePersonalizedName)
     {
-        $this->deletePersonalizedName = $deletePersonalizedName;
+        if ($deletePersonalizedName === null) {
+            $this->deletePersonalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deletePersonalizedName = $deletePersonalizedName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeletePersonalizedName()
+    {
+        $this->deletePersonalizedName = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -145,28 +175,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenu
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

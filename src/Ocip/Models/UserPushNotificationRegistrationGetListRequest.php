@@ -19,12 +19,14 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName registrationId
+     * @Type string
      * @var string|null
      */
     private $registrationId = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
@@ -32,19 +34,17 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
     /**
      * Getter for registrationId
      *
-     * @ElementName registrationId
-     * @return string|null
+     * @return string
      */
     public function getRegistrationId()
     {
-        return $this->registrationId;
+        return $this->registrationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->registrationId;
     }
 
     /**
      * Setter for registrationId
      *
-     * @ElementName registrationId
-     * @param string|null $registrationId
+     * @param string $registrationId
      * @return $this
      */
     public function setRegistrationId($registrationId)
@@ -54,26 +54,42 @@ class UserPushNotificationRegistrationGetListRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRegistrationId()
+    {
+        $this->registrationId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
     {
         $this->userId = $userId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
         return $this;
     }
 

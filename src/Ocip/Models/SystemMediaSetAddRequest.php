@@ -16,12 +16,15 @@ class SystemMediaSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
 
     /**
      * @ElementName setName
+     * @Type string
      * @var string|null
      */
     private $setName = null;
 
     /**
      * @ElementName mediaName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $mediaName = array(
@@ -31,19 +34,17 @@ class SystemMediaSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * Getter for setName
      *
-     * @ElementName setName
-     * @return string|null
+     * @return string
      */
     public function getSetName()
     {
-        return $this->setName;
+        return $this->setName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setName;
     }
 
     /**
      * Setter for setName
      *
-     * @ElementName setName
-     * @param string|null $setName
+     * @param string $setName
      * @return $this
      */
     public function setSetName($setName)
@@ -53,20 +54,27 @@ class SystemMediaSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSetName()
+    {
+        $this->setName = null;
+        return $this;
+    }
+
+    /**
      * Getter for mediaName
      *
-     * @ElementName mediaName
      * @return string[]
      */
     public function getMediaName()
     {
-        return $this->mediaName;
+        return $this->mediaName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaName;
     }
 
     /**
      * Setter for mediaName
      *
-     * @ElementName mediaName
      * @param string[] $mediaName
      * @return $this
      */
@@ -77,15 +85,23 @@ class SystemMediaSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMediaName()
+    {
+        $this->mediaName = null;
+        return $this;
+    }
+
+    /**
      * Adder for mediaName
      *
-     * @ElementName mediaName
      * @param string $mediaName
      * @return $this
      */
     public function addMediaName(string $mediaName)
     {
-        $this->mediaName []= $mediaName;
+        $this->mediaName[] = $mediaName;
         return $this;
     }
 

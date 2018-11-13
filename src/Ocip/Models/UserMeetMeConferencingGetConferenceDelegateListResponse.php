@@ -18,6 +18,7 @@ class UserMeetMeConferencingGetConferenceDelegateListResponse extends \CWM\Broad
 
     /**
      * @ElementName conferenceDelegateUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceDelegateUserTable = null;
@@ -25,24 +26,31 @@ class UserMeetMeConferencingGetConferenceDelegateListResponse extends \CWM\Broad
     /**
      * Getter for conferenceDelegateUserTable
      *
-     * @ElementName conferenceDelegateUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getConferenceDelegateUserTable()
     {
-        return $this->conferenceDelegateUserTable;
+        return $this->conferenceDelegateUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceDelegateUserTable;
     }
 
     /**
      * Setter for conferenceDelegateUserTable
      *
-     * @ElementName conferenceDelegateUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $conferenceDelegateUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceDelegateUserTable
      * @return $this
      */
     public function setConferenceDelegateUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $conferenceDelegateUserTable)
     {
         $this->conferenceDelegateUserTable = $conferenceDelegateUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConferenceDelegateUserTable()
+    {
+        $this->conferenceDelegateUserTable = null;
         return $this;
     }
 

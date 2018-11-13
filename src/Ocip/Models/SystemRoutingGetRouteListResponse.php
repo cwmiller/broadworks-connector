@@ -14,6 +14,8 @@ class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName routeName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $routeName = array(
@@ -23,18 +25,16 @@ class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for routeName
      *
-     * @ElementName routeName
      * @return string[]
      */
     public function getRouteName()
     {
-        return $this->routeName;
+        return $this->routeName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeName;
     }
 
     /**
      * Setter for routeName
      *
-     * @ElementName routeName
      * @param string[] $routeName
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemRoutingGetRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteName()
+    {
+        $this->routeName = null;
+        return $this;
+    }
+
+    /**
      * Adder for routeName
      *
-     * @ElementName routeName
      * @param string $routeName
      * @return $this
      */
     public function addRouteName(string $routeName)
     {
-        $this->routeName []= $routeName;
+        $this->routeName[] = $routeName;
         return $this;
     }
 

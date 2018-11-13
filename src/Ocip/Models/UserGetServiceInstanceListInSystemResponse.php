@@ -20,6 +20,7 @@ class UserGetServiceInstanceListInSystemResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceInstanceTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceInstanceTable = null;
@@ -27,24 +28,31 @@ class UserGetServiceInstanceListInSystemResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceInstanceTable
      *
-     * @ElementName serviceInstanceTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServiceInstanceTable()
     {
-        return $this->serviceInstanceTable;
+        return $this->serviceInstanceTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceTable;
     }
 
     /**
      * Setter for serviceInstanceTable
      *
-     * @ElementName serviceInstanceTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceInstanceTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceInstanceTable
      * @return $this
      */
     public function setServiceInstanceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceInstanceTable)
     {
         $this->serviceInstanceTable = $serviceInstanceTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceInstanceTable()
+    {
+        $this->serviceInstanceTable = null;
         return $this;
     }
 

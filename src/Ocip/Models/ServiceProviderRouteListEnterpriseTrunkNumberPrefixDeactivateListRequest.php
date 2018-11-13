@@ -19,12 +19,15 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest e
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName numberPrefix
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $numberPrefix = array(
@@ -34,19 +37,17 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest e
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -56,20 +57,27 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest e
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberPrefix
      *
-     * @ElementName numberPrefix
      * @return string[]
      */
     public function getNumberPrefix()
     {
-        return $this->numberPrefix;
+        return $this->numberPrefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberPrefix;
     }
 
     /**
      * Setter for numberPrefix
      *
-     * @ElementName numberPrefix
      * @param string[] $numberPrefix
      * @return $this
      */
@@ -80,15 +88,23 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest e
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberPrefix()
+    {
+        $this->numberPrefix = null;
+        return $this;
+    }
+
+    /**
      * Adder for numberPrefix
      *
-     * @ElementName numberPrefix
      * @param string $numberPrefix
      * @return $this
      */
     public function addNumberPrefix(string $numberPrefix)
     {
-        $this->numberPrefix []= $numberPrefix;
+        $this->numberPrefix[] = $numberPrefix;
         return $this;
     }
 

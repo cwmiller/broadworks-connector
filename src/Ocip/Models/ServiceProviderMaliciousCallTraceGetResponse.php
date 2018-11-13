@@ -16,12 +16,14 @@ class ServiceProviderMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName useSystemPlayMCTWarningAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $useSystemPlayMCTWarningAnnouncement = null;
 
     /**
      * @ElementName playMCTWarningAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $playMCTWarningAnnouncement = null;
@@ -29,19 +31,17 @@ class ServiceProviderMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for useSystemPlayMCTWarningAnnouncement
      *
-     * @ElementName useSystemPlayMCTWarningAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemPlayMCTWarningAnnouncement()
     {
-        return $this->useSystemPlayMCTWarningAnnouncement;
+        return $this->useSystemPlayMCTWarningAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemPlayMCTWarningAnnouncement;
     }
 
     /**
      * Setter for useSystemPlayMCTWarningAnnouncement
      *
-     * @ElementName useSystemPlayMCTWarningAnnouncement
-     * @param bool|null $useSystemPlayMCTWarningAnnouncement
+     * @param bool $useSystemPlayMCTWarningAnnouncement
      * @return $this
      */
     public function setUseSystemPlayMCTWarningAnnouncement($useSystemPlayMCTWarningAnnouncement)
@@ -51,26 +51,42 @@ class ServiceProviderMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemPlayMCTWarningAnnouncement()
+    {
+        $this->useSystemPlayMCTWarningAnnouncement = null;
+        return $this;
+    }
+
+    /**
      * Getter for playMCTWarningAnnouncement
      *
-     * @ElementName playMCTWarningAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getPlayMCTWarningAnnouncement()
     {
-        return $this->playMCTWarningAnnouncement;
+        return $this->playMCTWarningAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playMCTWarningAnnouncement;
     }
 
     /**
      * Setter for playMCTWarningAnnouncement
      *
-     * @ElementName playMCTWarningAnnouncement
-     * @param bool|null $playMCTWarningAnnouncement
+     * @param bool $playMCTWarningAnnouncement
      * @return $this
      */
     public function setPlayMCTWarningAnnouncement($playMCTWarningAnnouncement)
     {
         $this->playMCTWarningAnnouncement = $playMCTWarningAnnouncement;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayMCTWarningAnnouncement()
+    {
+        $this->playMCTWarningAnnouncement = null;
         return $this;
     }
 

@@ -16,18 +16,22 @@ class GroupCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName entryName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $entryName = array(
@@ -37,19 +41,17 @@ class GroupCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -59,21 +61,28 @@ class GroupCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -83,20 +92,27 @@ class GroupCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for entryName
      *
-     * @ElementName entryName
      * @return string[]
      */
     public function getEntryName()
     {
-        return $this->entryName;
+        return $this->entryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entryName;
     }
 
     /**
      * Setter for entryName
      *
-     * @ElementName entryName
      * @param string[] $entryName
      * @return $this
      */
@@ -107,15 +123,23 @@ class GroupCommonPhoneListDeleteListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntryName()
+    {
+        $this->entryName = null;
+        return $this;
+    }
+
+    /**
      * Adder for entryName
      *
-     * @ElementName entryName
      * @param string $entryName
      * @return $this
      */
     public function addEntryName(string $entryName)
     {
-        $this->entryName []= $entryName;
+        $this->entryName[] = $entryName;
         return $this;
     }
 

@@ -15,18 +15,21 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
 
     /**
      * @ElementName enabled
+     * @Type bool
      * @var bool|null
      */
     private $enabled = null;
 
     /**
      * @ElementName heartbeatInterval
+     * @Type int
      * @var int|null
      */
     private $heartbeatInterval = null;
 
     /**
      * @ElementName heartbeatTimeout
+     * @Type int
      * @var int|null
      */
     private $heartbeatTimeout = null;
@@ -34,19 +37,17 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
     /**
      * Getter for enabled
      *
-     * @ElementName enabled
-     * @return bool|null
+     * @return bool
      */
     public function getEnabled()
     {
-        return $this->enabled;
+        return $this->enabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enabled;
     }
 
     /**
      * Setter for enabled
      *
-     * @ElementName enabled
-     * @param bool|null $enabled
+     * @param bool $enabled
      * @return $this
      */
     public function setEnabled($enabled)
@@ -56,21 +57,28 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnabled()
+    {
+        $this->enabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for heartbeatInterval
      *
-     * @ElementName heartbeatInterval
-     * @return int|null
+     * @return int
      */
     public function getHeartbeatInterval()
     {
-        return $this->heartbeatInterval;
+        return $this->heartbeatInterval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->heartbeatInterval;
     }
 
     /**
      * Setter for heartbeatInterval
      *
-     * @ElementName heartbeatInterval
-     * @param int|null $heartbeatInterval
+     * @param int $heartbeatInterval
      * @return $this
      */
     public function setHeartbeatInterval($heartbeatInterval)
@@ -80,26 +88,42 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHeartbeatInterval()
+    {
+        $this->heartbeatInterval = null;
+        return $this;
+    }
+
+    /**
      * Getter for heartbeatTimeout
      *
-     * @ElementName heartbeatTimeout
-     * @return int|null
+     * @return int
      */
     public function getHeartbeatTimeout()
     {
-        return $this->heartbeatTimeout;
+        return $this->heartbeatTimeout instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->heartbeatTimeout;
     }
 
     /**
      * Setter for heartbeatTimeout
      *
-     * @ElementName heartbeatTimeout
-     * @param int|null $heartbeatTimeout
+     * @param int $heartbeatTimeout
      * @return $this
      */
     public function setHeartbeatTimeout($heartbeatTimeout)
     {
         $this->heartbeatTimeout = $heartbeatTimeout;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHeartbeatTimeout()
+    {
+        $this->heartbeatTimeout = null;
         return $this;
     }
 

@@ -19,12 +19,14 @@ class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName serverTimeZone
+     * @Type string
      * @var string|null
      */
     private $serverTimeZone = null;
 
     /**
      * @ElementName timeZoneTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $timeZoneTable = null;
@@ -32,19 +34,17 @@ class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for serverTimeZone
      *
-     * @ElementName serverTimeZone
-     * @return string|null
+     * @return string
      */
     public function getServerTimeZone()
     {
-        return $this->serverTimeZone;
+        return $this->serverTimeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serverTimeZone;
     }
 
     /**
      * Setter for serverTimeZone
      *
-     * @ElementName serverTimeZone
-     * @param string|null $serverTimeZone
+     * @param string $serverTimeZone
      * @return $this
      */
     public function setServerTimeZone($serverTimeZone)
@@ -54,26 +54,42 @@ class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServerTimeZone()
+    {
+        $this->serverTimeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZoneTable
      *
-     * @ElementName timeZoneTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getTimeZoneTable()
     {
-        return $this->timeZoneTable;
+        return $this->timeZoneTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZoneTable;
     }
 
     /**
      * Setter for timeZoneTable
      *
-     * @ElementName timeZoneTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $timeZoneTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $timeZoneTable
      * @return $this
      */
     public function setTimeZoneTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $timeZoneTable)
     {
         $this->timeZoneTable = $timeZoneTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeZoneTable()
+    {
+        $this->timeZoneTable = null;
         return $this;
     }
 

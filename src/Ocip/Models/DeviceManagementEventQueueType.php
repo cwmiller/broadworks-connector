@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static DeviceManagementEventQueueType COMPLETED()
  * @method static DeviceManagementEventQueueType IN_PROGRESS_OR_PENDING()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementEventQueueType extends \MyCLabs\Enum\Enum
 {

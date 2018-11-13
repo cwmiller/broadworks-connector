@@ -16,48 +16,56 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName outboundAlternateNumber
+     * @Type string
      * @var string|null
      */
     private $outboundAlternateNumber = null;
 
     /**
      * @ElementName broadworksCallControl
+     * @Type bool
      * @var bool|null
      */
     private $broadworksCallControl = null;
 
     /**
      * @ElementName useDiversionInhibitor
+     * @Type bool
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
 
     /**
      * @ElementName answerConfirmationRequired
+     * @Type bool
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
@@ -65,19 +73,17 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -87,21 +93,28 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -111,21 +124,28 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
@@ -135,21 +155,28 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -159,21 +186,28 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for outboundAlternateNumber
      *
-     * @ElementName outboundAlternateNumber
-     * @return string|null
+     * @return string
      */
     public function getOutboundAlternateNumber()
     {
-        return $this->outboundAlternateNumber;
+        return $this->outboundAlternateNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outboundAlternateNumber;
     }
 
     /**
      * Setter for outboundAlternateNumber
      *
-     * @ElementName outboundAlternateNumber
-     * @param string|null $outboundAlternateNumber
+     * @param string $outboundAlternateNumber
      * @return $this
      */
     public function setOutboundAlternateNumber($outboundAlternateNumber)
@@ -183,21 +217,28 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOutboundAlternateNumber()
+    {
+        $this->outboundAlternateNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for broadworksCallControl
      *
-     * @ElementName broadworksCallControl
-     * @return bool|null
+     * @return bool
      */
     public function getBroadworksCallControl()
     {
-        return $this->broadworksCallControl;
+        return $this->broadworksCallControl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->broadworksCallControl;
     }
 
     /**
      * Setter for broadworksCallControl
      *
-     * @ElementName broadworksCallControl
-     * @param bool|null $broadworksCallControl
+     * @param bool $broadworksCallControl
      * @return $this
      */
     public function setBroadworksCallControl($broadworksCallControl)
@@ -207,21 +248,28 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBroadworksCallControl()
+    {
+        $this->broadworksCallControl = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDiversionInhibitor
      *
-     * @ElementName useDiversionInhibitor
-     * @return bool|null
+     * @return bool
      */
     public function getUseDiversionInhibitor()
     {
-        return $this->useDiversionInhibitor;
+        return $this->useDiversionInhibitor instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDiversionInhibitor;
     }
 
     /**
      * Setter for useDiversionInhibitor
      *
-     * @ElementName useDiversionInhibitor
-     * @param bool|null $useDiversionInhibitor
+     * @param bool $useDiversionInhibitor
      * @return $this
      */
     public function setUseDiversionInhibitor($useDiversionInhibitor)
@@ -231,26 +279,42 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDiversionInhibitor()
+    {
+        $this->useDiversionInhibitor = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @return bool|null
+     * @return bool
      */
     public function getAnswerConfirmationRequired()
     {
-        return $this->answerConfirmationRequired;
+        return $this->answerConfirmationRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerConfirmationRequired;
     }
 
     /**
      * Setter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @param bool|null $answerConfirmationRequired
+     * @param bool $answerConfirmationRequired
      * @return $this
      */
     public function setAnswerConfirmationRequired($answerConfirmationRequired)
     {
         $this->answerConfirmationRequired = $answerConfirmationRequired;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnswerConfirmationRequired()
+    {
+        $this->answerConfirmationRequired = null;
         return $this;
     }
 

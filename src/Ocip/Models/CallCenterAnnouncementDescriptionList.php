@@ -12,24 +12,28 @@ class CallCenterAnnouncementDescriptionList
 
     /**
      * @ElementName fileDescription1
+     * @Type string
      * @var string|null
      */
     private $fileDescription1 = null;
 
     /**
      * @ElementName fileDescription2
+     * @Type string
      * @var string|null
      */
     private $fileDescription2 = null;
 
     /**
      * @ElementName fileDescription3
+     * @Type string
      * @var string|null
      */
     private $fileDescription3 = null;
 
     /**
      * @ElementName fileDescription4
+     * @Type string
      * @var string|null
      */
     private $fileDescription4 = null;
@@ -37,19 +41,17 @@ class CallCenterAnnouncementDescriptionList
     /**
      * Getter for fileDescription1
      *
-     * @ElementName fileDescription1
-     * @return string|null
+     * @return string
      */
     public function getFileDescription1()
     {
-        return $this->fileDescription1;
+        return $this->fileDescription1 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileDescription1;
     }
 
     /**
      * Setter for fileDescription1
      *
-     * @ElementName fileDescription1
-     * @param string|null $fileDescription1
+     * @param string $fileDescription1
      * @return $this
      */
     public function setFileDescription1($fileDescription1)
@@ -59,21 +61,28 @@ class CallCenterAnnouncementDescriptionList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileDescription1()
+    {
+        $this->fileDescription1 = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileDescription2
      *
-     * @ElementName fileDescription2
-     * @return string|null
+     * @return string
      */
     public function getFileDescription2()
     {
-        return $this->fileDescription2;
+        return $this->fileDescription2 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileDescription2;
     }
 
     /**
      * Setter for fileDescription2
      *
-     * @ElementName fileDescription2
-     * @param string|null $fileDescription2
+     * @param string $fileDescription2
      * @return $this
      */
     public function setFileDescription2($fileDescription2)
@@ -83,21 +92,28 @@ class CallCenterAnnouncementDescriptionList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileDescription2()
+    {
+        $this->fileDescription2 = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileDescription3
      *
-     * @ElementName fileDescription3
-     * @return string|null
+     * @return string
      */
     public function getFileDescription3()
     {
-        return $this->fileDescription3;
+        return $this->fileDescription3 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileDescription3;
     }
 
     /**
      * Setter for fileDescription3
      *
-     * @ElementName fileDescription3
-     * @param string|null $fileDescription3
+     * @param string $fileDescription3
      * @return $this
      */
     public function setFileDescription3($fileDescription3)
@@ -107,26 +123,42 @@ class CallCenterAnnouncementDescriptionList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileDescription3()
+    {
+        $this->fileDescription3 = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileDescription4
      *
-     * @ElementName fileDescription4
-     * @return string|null
+     * @return string
      */
     public function getFileDescription4()
     {
-        return $this->fileDescription4;
+        return $this->fileDescription4 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileDescription4;
     }
 
     /**
      * Setter for fileDescription4
      *
-     * @ElementName fileDescription4
-     * @param string|null $fileDescription4
+     * @param string $fileDescription4
      * @return $this
      */
     public function setFileDescription4($fileDescription4)
     {
         $this->fileDescription4 = $fileDescription4;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileDescription4()
+    {
+        $this->fileDescription4 = null;
         return $this;
     }
 

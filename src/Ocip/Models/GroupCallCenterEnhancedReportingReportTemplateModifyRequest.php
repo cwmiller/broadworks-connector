@@ -16,30 +16,35 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName newName
+     * @Type string
      * @var string|null
      */
     private $newName = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,30 +52,35 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
 
     /**
      * @ElementName xsltTemplate
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $xsltTemplate = null;
 
     /**
      * @ElementName scope
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
     private $scope = null;
 
     /**
      * @ElementName isEnabled
+     * @Type bool
      * @var bool|null
      */
     private $isEnabled = null;
 
     /**
      * @ElementName isRealtimeReport
+     * @Type bool
      * @var bool|null
      */
     private $isRealtimeReport = null;
 
     /**
      * @ElementName filterNumber
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -78,6 +88,7 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
 
     /**
      * @ElementName filterValue
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -86,19 +97,17 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -108,21 +117,28 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -132,21 +148,28 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -156,21 +179,28 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for newName
      *
-     * @ElementName newName
-     * @return string|null
+     * @return string
      */
     public function getNewName()
     {
-        return $this->newName;
+        return $this->newName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newName;
     }
 
     /**
      * Setter for newName
      *
-     * @ElementName newName
-     * @param string|null $newName
+     * @param string $newName
      * @return $this
      */
     public function setNewName($newName)
@@ -180,47 +210,63 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewName()
+    {
+        $this->newName = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for xsltTemplate
      *
-     * @ElementName xsltTemplate
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getXsltTemplate()
     {
-        return $this->xsltTemplate;
+        return $this->xsltTemplate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->xsltTemplate;
     }
 
     /**
      * Setter for xsltTemplate
      *
-     * @ElementName xsltTemplate
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $xsltTemplate
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $xsltTemplate
      * @return $this
      */
     public function setXsltTemplate(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $xsltTemplate)
@@ -230,21 +276,28 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetXsltTemplate()
+    {
+        $this->xsltTemplate = null;
+        return $this;
+    }
+
+    /**
      * Getter for scope
      *
-     * @ElementName scope
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption
      */
     public function getScope()
     {
-        return $this->scope;
+        return $this->scope instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scope;
     }
 
     /**
      * Setter for scope
      *
-     * @ElementName scope
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null $scope
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption $scope
      * @return $this
      */
     public function setScope(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption $scope)
@@ -254,21 +307,28 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScope()
+    {
+        $this->scope = null;
+        return $this;
+    }
+
+    /**
      * Getter for isEnabled
      *
-     * @ElementName isEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsEnabled()
     {
-        return $this->isEnabled;
+        return $this->isEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isEnabled;
     }
 
     /**
      * Setter for isEnabled
      *
-     * @ElementName isEnabled
-     * @param bool|null $isEnabled
+     * @param bool $isEnabled
      * @return $this
      */
     public function setIsEnabled($isEnabled)
@@ -278,21 +338,28 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsEnabled()
+    {
+        $this->isEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for isRealtimeReport
      *
-     * @ElementName isRealtimeReport
-     * @return bool|null
+     * @return bool
      */
     public function getIsRealtimeReport()
     {
-        return $this->isRealtimeReport;
+        return $this->isRealtimeReport instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isRealtimeReport;
     }
 
     /**
      * Setter for isRealtimeReport
      *
-     * @ElementName isRealtimeReport
-     * @param bool|null $isRealtimeReport
+     * @param bool $isRealtimeReport
      * @return $this
      */
     public function setIsRealtimeReport($isRealtimeReport)
@@ -302,54 +369,81 @@ class GroupCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\B
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsRealtimeReport()
+    {
+        $this->isRealtimeReport = null;
+        return $this;
+    }
+
+    /**
      * Getter for filterNumber
      *
-     * @ElementName filterNumber
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getFilterNumber()
     {
-        return $this->filterNumber;
+        return $this->filterNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->filterNumber;
     }
 
     /**
      * Setter for filterNumber
      *
-     * @ElementName filterNumber
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $filterNumber
+     * @param int|null $filterNumber
      * @return $this
      */
     public function setFilterNumber($filterNumber)
     {
-        $this->filterNumber = $filterNumber;
+        if ($filterNumber === null) {
+            $this->filterNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->filterNumber = $filterNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFilterNumber()
+    {
+        $this->filterNumber = null;
         return $this;
     }
 
     /**
      * Getter for filterValue
      *
-     * @ElementName filterValue
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null
      */
     public function getFilterValue()
     {
-        return $this->filterValue;
+        return $this->filterValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->filterValue;
     }
 
     /**
      * Setter for filterValue
      *
-     * @ElementName filterValue
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil $filterValue
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null $filterValue
      * @return $this
      */
     public function setFilterValue(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList $filterValue)
     {
-        $this->filterValue = $filterValue;
+        if ($filterValue === null) {
+            $this->filterValue = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->filterValue = $filterValue;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFilterValue()
+    {
+        $this->filterValue = null;
         return $this;
     }
 

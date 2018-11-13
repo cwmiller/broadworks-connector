@@ -13,24 +13,28 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
 
     /**
      * @ElementName includeOverflowTimeTransferedInServiceLevel
+     * @Type bool
      * @var bool|null
      */
     private $includeOverflowTimeTransferedInServiceLevel = null;
 
     /**
      * @ElementName includeOtherTransfersInServiceLevel
+     * @Type bool
      * @var bool|null
      */
     private $includeOtherTransfersInServiceLevel = null;
 
     /**
      * @ElementName abandonedCallsInServiceLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel|null
      */
     private $abandonedCallsInServiceLevel = null;
 
     /**
      * @ElementName abandonedCallIntervalSeconds
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -39,19 +43,17 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
     /**
      * Getter for includeOverflowTimeTransferedInServiceLevel
      *
-     * @ElementName includeOverflowTimeTransferedInServiceLevel
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeOverflowTimeTransferedInServiceLevel()
     {
-        return $this->includeOverflowTimeTransferedInServiceLevel;
+        return $this->includeOverflowTimeTransferedInServiceLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeOverflowTimeTransferedInServiceLevel;
     }
 
     /**
      * Setter for includeOverflowTimeTransferedInServiceLevel
      *
-     * @ElementName includeOverflowTimeTransferedInServiceLevel
-     * @param bool|null $includeOverflowTimeTransferedInServiceLevel
+     * @param bool $includeOverflowTimeTransferedInServiceLevel
      * @return $this
      */
     public function setIncludeOverflowTimeTransferedInServiceLevel($includeOverflowTimeTransferedInServiceLevel)
@@ -61,21 +63,28 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeOverflowTimeTransferedInServiceLevel()
+    {
+        $this->includeOverflowTimeTransferedInServiceLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeOtherTransfersInServiceLevel
      *
-     * @ElementName includeOtherTransfersInServiceLevel
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeOtherTransfersInServiceLevel()
     {
-        return $this->includeOtherTransfersInServiceLevel;
+        return $this->includeOtherTransfersInServiceLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeOtherTransfersInServiceLevel;
     }
 
     /**
      * Setter for includeOtherTransfersInServiceLevel
      *
-     * @ElementName includeOtherTransfersInServiceLevel
-     * @param bool|null $includeOtherTransfersInServiceLevel
+     * @param bool $includeOtherTransfersInServiceLevel
      * @return $this
      */
     public function setIncludeOtherTransfersInServiceLevel($includeOtherTransfersInServiceLevel)
@@ -85,21 +94,28 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeOtherTransfersInServiceLevel()
+    {
+        $this->includeOtherTransfersInServiceLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for abandonedCallsInServiceLevel
      *
-     * @ElementName abandonedCallsInServiceLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel
      */
     public function getAbandonedCallsInServiceLevel()
     {
-        return $this->abandonedCallsInServiceLevel;
+        return $this->abandonedCallsInServiceLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abandonedCallsInServiceLevel;
     }
 
     /**
      * Setter for abandonedCallsInServiceLevel
      *
-     * @ElementName abandonedCallsInServiceLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel|null $abandonedCallsInServiceLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel $abandonedCallsInServiceLevel
      * @return $this
      */
     public function setAbandonedCallsInServiceLevel(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportAbadonedCallsInServiceLevel $abandonedCallsInServiceLevel)
@@ -109,28 +125,46 @@ class CallCenterScheduledReportServiceLevelInclusionsModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAbandonedCallsInServiceLevel()
+    {
+        $this->abandonedCallsInServiceLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for abandonedCallIntervalSeconds
      *
-     * @ElementName abandonedCallIntervalSeconds
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getAbandonedCallIntervalSeconds()
     {
-        return $this->abandonedCallIntervalSeconds;
+        return $this->abandonedCallIntervalSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abandonedCallIntervalSeconds;
     }
 
     /**
      * Setter for abandonedCallIntervalSeconds
      *
-     * @ElementName abandonedCallIntervalSeconds
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $abandonedCallIntervalSeconds
+     * @param int|null $abandonedCallIntervalSeconds
      * @return $this
      */
     public function setAbandonedCallIntervalSeconds($abandonedCallIntervalSeconds)
     {
-        $this->abandonedCallIntervalSeconds = $abandonedCallIntervalSeconds;
+        if ($abandonedCallIntervalSeconds === null) {
+            $this->abandonedCallIntervalSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->abandonedCallIntervalSeconds = $abandonedCallIntervalSeconds;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAbandonedCallIntervalSeconds()
+    {
+        $this->abandonedCallIntervalSeconds = null;
         return $this;
     }
 

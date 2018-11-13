@@ -14,12 +14,14 @@ class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName allowOrigination
+     * @Type bool
      * @var bool|null
      */
     private $allowOrigination = null;
 
     /**
      * @ElementName allowTermination
+     * @Type bool
      * @var bool|null
      */
     private $allowTermination = null;
@@ -27,19 +29,17 @@ class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConne
     /**
      * Getter for allowOrigination
      *
-     * @ElementName allowOrigination
-     * @return bool|null
+     * @return bool
      */
     public function getAllowOrigination()
     {
-        return $this->allowOrigination;
+        return $this->allowOrigination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowOrigination;
     }
 
     /**
      * Setter for allowOrigination
      *
-     * @ElementName allowOrigination
-     * @param bool|null $allowOrigination
+     * @param bool $allowOrigination
      * @return $this
      */
     public function setAllowOrigination($allowOrigination)
@@ -49,26 +49,42 @@ class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowOrigination()
+    {
+        $this->allowOrigination = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowTermination
      *
-     * @ElementName allowTermination
-     * @return bool|null
+     * @return bool
      */
     public function getAllowTermination()
     {
-        return $this->allowTermination;
+        return $this->allowTermination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowTermination;
     }
 
     /**
      * Setter for allowTermination
      *
-     * @ElementName allowTermination
-     * @param bool|null $allowTermination
+     * @param bool $allowTermination
      * @return $this
      */
     public function setAllowTermination($allowTermination)
     {
         $this->allowTermination = $allowTermination;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowTermination()
+    {
+        $this->allowTermination = null;
         return $this;
     }
 

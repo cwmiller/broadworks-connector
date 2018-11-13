@@ -17,96 +17,112 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName announcementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
 
     /**
      * @ElementName audioFileDescription
+     * @Type string
      * @var string|null
      */
     private $audioFileDescription = null;
 
     /**
      * @ElementName audioMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
 
     /**
      * @ElementName videoFileDescription
+     * @Type string
      * @var string|null
      */
     private $videoFileDescription = null;
 
     /**
      * @ElementName videoMediaType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
 
     /**
      * @ElementName playNewPhoneNumber
+     * @Type bool
      * @var bool|null
      */
     private $playNewPhoneNumber = null;
 
     /**
      * @ElementName newPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $newPhoneNumber = null;
 
     /**
      * @ElementName transferOnZeroToPhoneNumber
+     * @Type bool
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $transferPhoneNumber = null;
 
     /**
      * @ElementName rerouteOutboundCalls
+     * @Type bool
      * @var bool|null
      */
     private $rerouteOutboundCalls = null;
 
     /**
      * @ElementName outboundReroutePhoneNumber
+     * @Type string
      * @var string|null
      */
     private $outboundReroutePhoneNumber = null;
 
     /**
      * @ElementName allowOutboundLocalCalls
+     * @Type bool
      * @var bool|null
      */
     private $allowOutboundLocalCalls = null;
 
     /**
      * @ElementName inboundCallMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     private $inboundCallMode = null;
 
     /**
      * @ElementName alternateBlockingAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $alternateBlockingAnnouncement = null;
 
     /**
      * @ElementName routeToVoiceMail
+     * @Type bool
      * @var bool|null
      */
     private $routeToVoiceMail = null;
@@ -114,19 +130,17 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -136,21 +150,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementSelection
      *
-     * @ElementName announcementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      */
     public function getAnnouncementSelection()
     {
-        return $this->announcementSelection;
+        return $this->announcementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementSelection;
     }
 
     /**
      * Setter for announcementSelection
      *
-     * @ElementName announcementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $announcementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection
      * @return $this
      */
     public function setAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $announcementSelection)
@@ -160,21 +181,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementSelection()
+    {
+        $this->announcementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @return string|null
+     * @return string
      */
     public function getAudioFileDescription()
     {
-        return $this->audioFileDescription;
+        return $this->audioFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileDescription;
     }
 
     /**
      * Setter for audioFileDescription
      *
-     * @ElementName audioFileDescription
-     * @param string|null $audioFileDescription
+     * @param string $audioFileDescription
      * @return $this
      */
     public function setAudioFileDescription($audioFileDescription)
@@ -184,21 +212,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileDescription()
+    {
+        $this->audioFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMediaType
      *
-     * @ElementName audioMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getAudioMediaType()
     {
-        return $this->audioMediaType;
+        return $this->audioMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMediaType;
     }
 
     /**
      * Setter for audioMediaType
      *
-     * @ElementName audioMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $audioMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType
      * @return $this
      */
     public function setAudioMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $audioMediaType)
@@ -208,21 +243,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMediaType()
+    {
+        $this->audioMediaType = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @return string|null
+     * @return string
      */
     public function getVideoFileDescription()
     {
-        return $this->videoFileDescription;
+        return $this->videoFileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileDescription;
     }
 
     /**
      * Setter for videoFileDescription
      *
-     * @ElementName videoFileDescription
-     * @param string|null $videoFileDescription
+     * @param string $videoFileDescription
      * @return $this
      */
     public function setVideoFileDescription($videoFileDescription)
@@ -232,21 +274,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoFileDescription()
+    {
+        $this->videoFileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMediaType
      *
-     * @ElementName videoMediaType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
      */
     public function getVideoMediaType()
     {
-        return $this->videoMediaType;
+        return $this->videoMediaType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMediaType;
     }
 
     /**
      * Setter for videoMediaType
      *
-     * @ElementName videoMediaType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null $videoMediaType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType
      * @return $this
      */
     public function setVideoMediaType(\CWM\BroadWorksConnector\Ocip\Models\MediaFileType $videoMediaType)
@@ -256,21 +305,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoMediaType()
+    {
+        $this->videoMediaType = null;
+        return $this;
+    }
+
+    /**
      * Getter for playNewPhoneNumber
      *
-     * @ElementName playNewPhoneNumber
-     * @return bool|null
+     * @return bool
      */
     public function getPlayNewPhoneNumber()
     {
-        return $this->playNewPhoneNumber;
+        return $this->playNewPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playNewPhoneNumber;
     }
 
     /**
      * Setter for playNewPhoneNumber
      *
-     * @ElementName playNewPhoneNumber
-     * @param bool|null $playNewPhoneNumber
+     * @param bool $playNewPhoneNumber
      * @return $this
      */
     public function setPlayNewPhoneNumber($playNewPhoneNumber)
@@ -280,21 +336,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayNewPhoneNumber()
+    {
+        $this->playNewPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for newPhoneNumber
      *
-     * @ElementName newPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getNewPhoneNumber()
     {
-        return $this->newPhoneNumber;
+        return $this->newPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newPhoneNumber;
     }
 
     /**
      * Setter for newPhoneNumber
      *
-     * @ElementName newPhoneNumber
-     * @param string|null $newPhoneNumber
+     * @param string $newPhoneNumber
      * @return $this
      */
     public function setNewPhoneNumber($newPhoneNumber)
@@ -304,21 +367,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewPhoneNumber()
+    {
+        $this->newPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferOnZeroToPhoneNumber
      *
-     * @ElementName transferOnZeroToPhoneNumber
-     * @return bool|null
+     * @return bool
      */
     public function getTransferOnZeroToPhoneNumber()
     {
-        return $this->transferOnZeroToPhoneNumber;
+        return $this->transferOnZeroToPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferOnZeroToPhoneNumber;
     }
 
     /**
      * Setter for transferOnZeroToPhoneNumber
      *
-     * @ElementName transferOnZeroToPhoneNumber
-     * @param bool|null $transferOnZeroToPhoneNumber
+     * @param bool $transferOnZeroToPhoneNumber
      * @return $this
      */
     public function setTransferOnZeroToPhoneNumber($transferOnZeroToPhoneNumber)
@@ -328,21 +398,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransferOnZeroToPhoneNumber()
+    {
+        $this->transferOnZeroToPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @param string $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
@@ -352,21 +429,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for rerouteOutboundCalls
      *
-     * @ElementName rerouteOutboundCalls
-     * @return bool|null
+     * @return bool
      */
     public function getRerouteOutboundCalls()
     {
-        return $this->rerouteOutboundCalls;
+        return $this->rerouteOutboundCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rerouteOutboundCalls;
     }
 
     /**
      * Setter for rerouteOutboundCalls
      *
-     * @ElementName rerouteOutboundCalls
-     * @param bool|null $rerouteOutboundCalls
+     * @param bool $rerouteOutboundCalls
      * @return $this
      */
     public function setRerouteOutboundCalls($rerouteOutboundCalls)
@@ -376,21 +460,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRerouteOutboundCalls()
+    {
+        $this->rerouteOutboundCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for outboundReroutePhoneNumber
      *
-     * @ElementName outboundReroutePhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getOutboundReroutePhoneNumber()
     {
-        return $this->outboundReroutePhoneNumber;
+        return $this->outboundReroutePhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outboundReroutePhoneNumber;
     }
 
     /**
      * Setter for outboundReroutePhoneNumber
      *
-     * @ElementName outboundReroutePhoneNumber
-     * @param string|null $outboundReroutePhoneNumber
+     * @param string $outboundReroutePhoneNumber
      * @return $this
      */
     public function setOutboundReroutePhoneNumber($outboundReroutePhoneNumber)
@@ -400,21 +491,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOutboundReroutePhoneNumber()
+    {
+        $this->outboundReroutePhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowOutboundLocalCalls
      *
-     * @ElementName allowOutboundLocalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAllowOutboundLocalCalls()
     {
-        return $this->allowOutboundLocalCalls;
+        return $this->allowOutboundLocalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowOutboundLocalCalls;
     }
 
     /**
      * Setter for allowOutboundLocalCalls
      *
-     * @ElementName allowOutboundLocalCalls
-     * @param bool|null $allowOutboundLocalCalls
+     * @param bool $allowOutboundLocalCalls
      * @return $this
      */
     public function setAllowOutboundLocalCalls($allowOutboundLocalCalls)
@@ -424,21 +522,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowOutboundLocalCalls()
+    {
+        $this->allowOutboundLocalCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for inboundCallMode
      *
-     * @ElementName inboundCallMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall
      */
     public function getInboundCallMode()
     {
-        return $this->inboundCallMode;
+        return $this->inboundCallMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->inboundCallMode;
     }
 
     /**
      * Setter for inboundCallMode
      *
-     * @ElementName inboundCallMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null $inboundCallMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall $inboundCallMode
      * @return $this
      */
     public function setInboundCallMode(\CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall $inboundCallMode)
@@ -448,21 +553,28 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInboundCallMode()
+    {
+        $this->inboundCallMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateBlockingAnnouncement
      *
-     * @ElementName alternateBlockingAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getAlternateBlockingAnnouncement()
     {
-        return $this->alternateBlockingAnnouncement;
+        return $this->alternateBlockingAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateBlockingAnnouncement;
     }
 
     /**
      * Setter for alternateBlockingAnnouncement
      *
-     * @ElementName alternateBlockingAnnouncement
-     * @param bool|null $alternateBlockingAnnouncement
+     * @param bool $alternateBlockingAnnouncement
      * @return $this
      */
     public function setAlternateBlockingAnnouncement($alternateBlockingAnnouncement)
@@ -472,26 +584,42 @@ class UserInterceptUserGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateBlockingAnnouncement()
+    {
+        $this->alternateBlockingAnnouncement = null;
+        return $this;
+    }
+
+    /**
      * Getter for routeToVoiceMail
      *
-     * @ElementName routeToVoiceMail
-     * @return bool|null
+     * @return bool
      */
     public function getRouteToVoiceMail()
     {
-        return $this->routeToVoiceMail;
+        return $this->routeToVoiceMail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeToVoiceMail;
     }
 
     /**
      * Setter for routeToVoiceMail
      *
-     * @ElementName routeToVoiceMail
-     * @param bool|null $routeToVoiceMail
+     * @param bool $routeToVoiceMail
      * @return $this
      */
     public function setRouteToVoiceMail($routeToVoiceMail)
     {
         $this->routeToVoiceMail = $routeToVoiceMail;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRouteToVoiceMail()
+    {
+        $this->routeToVoiceMail = null;
         return $this;
     }
 

@@ -14,36 +14,42 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName twoLevelActivation
+     * @Type bool
      * @var bool|null
      */
     private $twoLevelActivation = null;
 
     /**
      * @ElementName provideDate
+     * @Type bool
      * @var bool|null
      */
     private $provideDate = null;
 
     /**
      * @ElementName lastUnansweredCallOnly
+     * @Type bool
      * @var bool|null
      */
     private $lastUnansweredCallOnly = null;
 
     /**
      * @ElementName confirmationKey
+     * @Type string
      * @var string|null
      */
     private $confirmationKey = null;
 
     /**
      * @ElementName allowRestrictedNumber
+     * @Type bool
      * @var bool|null
      */
     private $allowRestrictedNumber = null;
 
     /**
      * @ElementName deleteNumberAfterAnsweredCallReturn
+     * @Type bool
      * @var bool|null
      */
     private $deleteNumberAfterAnsweredCallReturn = null;
@@ -51,19 +57,17 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for twoLevelActivation
      *
-     * @ElementName twoLevelActivation
-     * @return bool|null
+     * @return bool
      */
     public function getTwoLevelActivation()
     {
-        return $this->twoLevelActivation;
+        return $this->twoLevelActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->twoLevelActivation;
     }
 
     /**
      * Setter for twoLevelActivation
      *
-     * @ElementName twoLevelActivation
-     * @param bool|null $twoLevelActivation
+     * @param bool $twoLevelActivation
      * @return $this
      */
     public function setTwoLevelActivation($twoLevelActivation)
@@ -73,21 +77,28 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTwoLevelActivation()
+    {
+        $this->twoLevelActivation = null;
+        return $this;
+    }
+
+    /**
      * Getter for provideDate
      *
-     * @ElementName provideDate
-     * @return bool|null
+     * @return bool
      */
     public function getProvideDate()
     {
-        return $this->provideDate;
+        return $this->provideDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provideDate;
     }
 
     /**
      * Setter for provideDate
      *
-     * @ElementName provideDate
-     * @param bool|null $provideDate
+     * @param bool $provideDate
      * @return $this
      */
     public function setProvideDate($provideDate)
@@ -97,21 +108,28 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProvideDate()
+    {
+        $this->provideDate = null;
+        return $this;
+    }
+
+    /**
      * Getter for lastUnansweredCallOnly
      *
-     * @ElementName lastUnansweredCallOnly
-     * @return bool|null
+     * @return bool
      */
     public function getLastUnansweredCallOnly()
     {
-        return $this->lastUnansweredCallOnly;
+        return $this->lastUnansweredCallOnly instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lastUnansweredCallOnly;
     }
 
     /**
      * Setter for lastUnansweredCallOnly
      *
-     * @ElementName lastUnansweredCallOnly
-     * @param bool|null $lastUnansweredCallOnly
+     * @param bool $lastUnansweredCallOnly
      * @return $this
      */
     public function setLastUnansweredCallOnly($lastUnansweredCallOnly)
@@ -121,21 +139,28 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLastUnansweredCallOnly()
+    {
+        $this->lastUnansweredCallOnly = null;
+        return $this;
+    }
+
+    /**
      * Getter for confirmationKey
      *
-     * @ElementName confirmationKey
-     * @return string|null
+     * @return string
      */
     public function getConfirmationKey()
     {
-        return $this->confirmationKey;
+        return $this->confirmationKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmationKey;
     }
 
     /**
      * Setter for confirmationKey
      *
-     * @ElementName confirmationKey
-     * @param string|null $confirmationKey
+     * @param string $confirmationKey
      * @return $this
      */
     public function setConfirmationKey($confirmationKey)
@@ -145,21 +170,28 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfirmationKey()
+    {
+        $this->confirmationKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowRestrictedNumber
      *
-     * @ElementName allowRestrictedNumber
-     * @return bool|null
+     * @return bool
      */
     public function getAllowRestrictedNumber()
     {
-        return $this->allowRestrictedNumber;
+        return $this->allowRestrictedNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowRestrictedNumber;
     }
 
     /**
      * Setter for allowRestrictedNumber
      *
-     * @ElementName allowRestrictedNumber
-     * @param bool|null $allowRestrictedNumber
+     * @param bool $allowRestrictedNumber
      * @return $this
      */
     public function setAllowRestrictedNumber($allowRestrictedNumber)
@@ -169,26 +201,42 @@ class SystemCallReturnGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowRestrictedNumber()
+    {
+        $this->allowRestrictedNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for deleteNumberAfterAnsweredCallReturn
      *
-     * @ElementName deleteNumberAfterAnsweredCallReturn
-     * @return bool|null
+     * @return bool
      */
     public function getDeleteNumberAfterAnsweredCallReturn()
     {
-        return $this->deleteNumberAfterAnsweredCallReturn;
+        return $this->deleteNumberAfterAnsweredCallReturn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteNumberAfterAnsweredCallReturn;
     }
 
     /**
      * Setter for deleteNumberAfterAnsweredCallReturn
      *
-     * @ElementName deleteNumberAfterAnsweredCallReturn
-     * @param bool|null $deleteNumberAfterAnsweredCallReturn
+     * @param bool $deleteNumberAfterAnsweredCallReturn
      * @return $this
      */
     public function setDeleteNumberAfterAnsweredCallReturn($deleteNumberAfterAnsweredCallReturn)
     {
         $this->deleteNumberAfterAnsweredCallReturn = $deleteNumberAfterAnsweredCallReturn;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeleteNumberAfterAnsweredCallReturn()
+    {
+        $this->deleteNumberAfterAnsweredCallReturn = null;
         return $this;
     }
 

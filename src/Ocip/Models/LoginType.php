@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static LoginType GROUP_DEPARTMENT()
  * @method static LoginType USER()
  * @method static LoginType LAWFUL_INTERCEPT()
- * @ValueType string
+ * @EnumValueType string
  */
 class LoginType extends \MyCLabs\Enum\Enum
 {

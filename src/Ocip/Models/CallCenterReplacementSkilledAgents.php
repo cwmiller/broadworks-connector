@@ -12,12 +12,14 @@ class CallCenterReplacementSkilledAgents
 
     /**
      * @ElementName skillLevel
+     * @Type int
      * @var int|null
      */
     private $skillLevel = null;
 
     /**
      * @ElementName agents
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,19 +28,17 @@ class CallCenterReplacementSkilledAgents
     /**
      * Getter for skillLevel
      *
-     * @ElementName skillLevel
-     * @return int|null
+     * @return int
      */
     public function getSkillLevel()
     {
-        return $this->skillLevel;
+        return $this->skillLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->skillLevel;
     }
 
     /**
      * Setter for skillLevel
      *
-     * @ElementName skillLevel
-     * @param int|null $skillLevel
+     * @param int $skillLevel
      * @return $this
      */
     public function setSkillLevel($skillLevel)
@@ -48,28 +48,46 @@ class CallCenterReplacementSkilledAgents
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSkillLevel()
+    {
+        $this->skillLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for agents
      *
-     * @ElementName agents
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getAgents()
     {
-        return $this->agents;
+        return $this->agents instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agents;
     }
 
     /**
      * Setter for agents
      *
-     * @ElementName agents
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agents
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agents
      * @return $this
      */
     public function setAgents(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agents)
     {
-        $this->agents = $agents;
+        if ($agents === null) {
+            $this->agents = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->agents = $agents;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgents()
+    {
+        $this->agents = null;
         return $this;
     }
 

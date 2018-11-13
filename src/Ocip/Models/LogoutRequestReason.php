@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static LogoutRequestReason CLIENT_LOGOUT()
  * @method static LogoutRequestReason SERVER_CONNECTION_FAILURE()
  * @method static LogoutRequestReason OPEN_CLIENT_SERVER_FORCED_LOGOUT()
- * @ValueType string
+ * @EnumValueType string
  */
 class LogoutRequestReason extends \MyCLabs\Enum\Enum
 {

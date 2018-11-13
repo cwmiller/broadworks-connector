@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SystemCallType EMERGENCY()
  * @method static SystemCallType REPAIR()
- * @ValueType string
+ * @EnumValueType string
  */
 class SystemCallType extends \MyCLabs\Enum\Enum
 {

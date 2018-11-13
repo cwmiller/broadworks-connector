@@ -12,12 +12,14 @@ class CallCenterStatisticsRange
 
     /**
      * @ElementName start
+     * @Type string
      * @var string|null
      */
     private $start = null;
 
     /**
      * @ElementName end
+     * @Type string
      * @var string|null
      */
     private $end = null;
@@ -25,19 +27,17 @@ class CallCenterStatisticsRange
     /**
      * Getter for start
      *
-     * @ElementName start
-     * @return string|null
+     * @return string
      */
     public function getStart()
     {
-        return $this->start;
+        return $this->start instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->start;
     }
 
     /**
      * Setter for start
      *
-     * @ElementName start
-     * @param string|null $start
+     * @param string $start
      * @return $this
      */
     public function setStart($start)
@@ -47,26 +47,42 @@ class CallCenterStatisticsRange
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStart()
+    {
+        $this->start = null;
+        return $this;
+    }
+
+    /**
      * Getter for end
      *
-     * @ElementName end
-     * @return string|null
+     * @return string
      */
     public function getEnd()
     {
-        return $this->end;
+        return $this->end instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->end;
     }
 
     /**
      * Setter for end
      *
-     * @ElementName end
-     * @param string|null $end
+     * @param string $end
      * @return $this
      */
     public function setEnd($end)
     {
         $this->end = $end;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnd()
+    {
+        $this->end = null;
         return $this;
     }
 

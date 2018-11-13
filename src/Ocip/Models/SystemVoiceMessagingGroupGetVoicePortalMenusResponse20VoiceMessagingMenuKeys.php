@@ -10,66 +10,77 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
 
     /**
      * @ElementName playMessages
+     * @Type string
      * @var string|null
      */
     private $playMessages = null;
 
     /**
      * @ElementName changeBusyGreeting
+     * @Type string
      * @var string|null
      */
     private $changeBusyGreeting = null;
 
     /**
      * @ElementName changeNoAnswerGreeting
+     * @Type string
      * @var string|null
      */
     private $changeNoAnswerGreeting = null;
 
     /**
      * @ElementName changeExtendedAwayGreeting
+     * @Type string
      * @var string|null
      */
     private $changeExtendedAwayGreeting = null;
 
     /**
      * @ElementName composeMessage
+     * @Type string
      * @var string|null
      */
     private $composeMessage = null;
 
     /**
      * @ElementName deleteAllMessages
+     * @Type string
      * @var string|null
      */
     private $deleteAllMessages = null;
 
     /**
      * @ElementName passcode
+     * @Type string
      * @var string|null
      */
     private $passcode = null;
 
     /**
      * @ElementName personalizedName
+     * @Type string
      * @var string|null
      */
     private $personalizedName = null;
 
     /**
      * @ElementName messageDeposit
+     * @Type string
      * @var string|null
      */
     private $messageDeposit = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -77,19 +88,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     /**
      * Getter for playMessages
      *
-     * @ElementName playMessages
-     * @return string|null
+     * @return string
      */
     public function getPlayMessages()
     {
-        return $this->playMessages;
+        return $this->playMessages instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playMessages;
     }
 
     /**
      * Setter for playMessages
      *
-     * @ElementName playMessages
-     * @param string|null $playMessages
+     * @param string $playMessages
      * @return $this
      */
     public function setPlayMessages($playMessages)
@@ -99,21 +108,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayMessages()
+    {
+        $this->playMessages = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeBusyGreeting
      *
-     * @ElementName changeBusyGreeting
-     * @return string|null
+     * @return string
      */
     public function getChangeBusyGreeting()
     {
-        return $this->changeBusyGreeting;
+        return $this->changeBusyGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeBusyGreeting;
     }
 
     /**
      * Setter for changeBusyGreeting
      *
-     * @ElementName changeBusyGreeting
-     * @param string|null $changeBusyGreeting
+     * @param string $changeBusyGreeting
      * @return $this
      */
     public function setChangeBusyGreeting($changeBusyGreeting)
@@ -123,21 +139,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeBusyGreeting()
+    {
+        $this->changeBusyGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeNoAnswerGreeting
      *
-     * @ElementName changeNoAnswerGreeting
-     * @return string|null
+     * @return string
      */
     public function getChangeNoAnswerGreeting()
     {
-        return $this->changeNoAnswerGreeting;
+        return $this->changeNoAnswerGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeNoAnswerGreeting;
     }
 
     /**
      * Setter for changeNoAnswerGreeting
      *
-     * @ElementName changeNoAnswerGreeting
-     * @param string|null $changeNoAnswerGreeting
+     * @param string $changeNoAnswerGreeting
      * @return $this
      */
     public function setChangeNoAnswerGreeting($changeNoAnswerGreeting)
@@ -147,21 +170,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeNoAnswerGreeting()
+    {
+        $this->changeNoAnswerGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for changeExtendedAwayGreeting
      *
-     * @ElementName changeExtendedAwayGreeting
-     * @return string|null
+     * @return string
      */
     public function getChangeExtendedAwayGreeting()
     {
-        return $this->changeExtendedAwayGreeting;
+        return $this->changeExtendedAwayGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeExtendedAwayGreeting;
     }
 
     /**
      * Setter for changeExtendedAwayGreeting
      *
-     * @ElementName changeExtendedAwayGreeting
-     * @param string|null $changeExtendedAwayGreeting
+     * @param string $changeExtendedAwayGreeting
      * @return $this
      */
     public function setChangeExtendedAwayGreeting($changeExtendedAwayGreeting)
@@ -171,21 +201,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetChangeExtendedAwayGreeting()
+    {
+        $this->changeExtendedAwayGreeting = null;
+        return $this;
+    }
+
+    /**
      * Getter for composeMessage
      *
-     * @ElementName composeMessage
-     * @return string|null
+     * @return string
      */
     public function getComposeMessage()
     {
-        return $this->composeMessage;
+        return $this->composeMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->composeMessage;
     }
 
     /**
      * Setter for composeMessage
      *
-     * @ElementName composeMessage
-     * @param string|null $composeMessage
+     * @param string $composeMessage
      * @return $this
      */
     public function setComposeMessage($composeMessage)
@@ -195,21 +232,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetComposeMessage()
+    {
+        $this->composeMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for deleteAllMessages
      *
-     * @ElementName deleteAllMessages
-     * @return string|null
+     * @return string
      */
     public function getDeleteAllMessages()
     {
-        return $this->deleteAllMessages;
+        return $this->deleteAllMessages instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteAllMessages;
     }
 
     /**
      * Setter for deleteAllMessages
      *
-     * @ElementName deleteAllMessages
-     * @param string|null $deleteAllMessages
+     * @param string $deleteAllMessages
      * @return $this
      */
     public function setDeleteAllMessages($deleteAllMessages)
@@ -219,21 +263,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeleteAllMessages()
+    {
+        $this->deleteAllMessages = null;
+        return $this;
+    }
+
+    /**
      * Getter for passcode
      *
-     * @ElementName passcode
-     * @return string|null
+     * @return string
      */
     public function getPasscode()
     {
-        return $this->passcode;
+        return $this->passcode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcode;
     }
 
     /**
      * Setter for passcode
      *
-     * @ElementName passcode
-     * @param string|null $passcode
+     * @param string $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -243,21 +294,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasscode()
+    {
+        $this->passcode = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalizedName
      *
-     * @ElementName personalizedName
-     * @return string|null
+     * @return string
      */
     public function getPersonalizedName()
     {
-        return $this->personalizedName;
+        return $this->personalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedName;
     }
 
     /**
      * Setter for personalizedName
      *
-     * @ElementName personalizedName
-     * @param string|null $personalizedName
+     * @param string $personalizedName
      * @return $this
      */
     public function setPersonalizedName($personalizedName)
@@ -267,21 +325,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalizedName()
+    {
+        $this->personalizedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for messageDeposit
      *
-     * @ElementName messageDeposit
-     * @return string|null
+     * @return string
      */
     public function getMessageDeposit()
     {
-        return $this->messageDeposit;
+        return $this->messageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->messageDeposit;
     }
 
     /**
      * Setter for messageDeposit
      *
-     * @ElementName messageDeposit
-     * @param string|null $messageDeposit
+     * @param string $messageDeposit
      * @return $this
      */
     public function setMessageDeposit($messageDeposit)
@@ -291,21 +356,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMessageDeposit()
+    {
+        $this->messageDeposit = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -315,26 +387,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoiceMessagingMenuKe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

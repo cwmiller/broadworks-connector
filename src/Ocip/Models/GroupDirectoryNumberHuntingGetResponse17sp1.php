@@ -17,18 +17,21 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName agentUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentUserTable = null;
 
     /**
      * @ElementName useTerminateCallToAgentFirst
+     * @Type bool
      * @var bool|null
      */
     private $useTerminateCallToAgentFirst = null;
 
     /**
      * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
+     * @Type bool
      * @var bool|null
      */
     private $useOriginalAgentServicesForBusyAndNoAnswerCalls = null;
@@ -36,19 +39,17 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
     /**
      * Getter for agentUserTable
      *
-     * @ElementName agentUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAgentUserTable()
     {
-        return $this->agentUserTable;
+        return $this->agentUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserTable;
     }
 
     /**
      * Setter for agentUserTable
      *
-     * @ElementName agentUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable
      * @return $this
      */
     public function setAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable)
@@ -58,21 +59,28 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserTable()
+    {
+        $this->agentUserTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for useTerminateCallToAgentFirst
      *
-     * @ElementName useTerminateCallToAgentFirst
-     * @return bool|null
+     * @return bool
      */
     public function getUseTerminateCallToAgentFirst()
     {
-        return $this->useTerminateCallToAgentFirst;
+        return $this->useTerminateCallToAgentFirst instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useTerminateCallToAgentFirst;
     }
 
     /**
      * Setter for useTerminateCallToAgentFirst
      *
-     * @ElementName useTerminateCallToAgentFirst
-     * @param bool|null $useTerminateCallToAgentFirst
+     * @param bool $useTerminateCallToAgentFirst
      * @return $this
      */
     public function setUseTerminateCallToAgentFirst($useTerminateCallToAgentFirst)
@@ -82,26 +90,42 @@ class GroupDirectoryNumberHuntingGetResponse17sp1 extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseTerminateCallToAgentFirst()
+    {
+        $this->useTerminateCallToAgentFirst = null;
+        return $this;
+    }
+
+    /**
      * Getter for useOriginalAgentServicesForBusyAndNoAnswerCalls
      *
-     * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseOriginalAgentServicesForBusyAndNoAnswerCalls()
     {
-        return $this->useOriginalAgentServicesForBusyAndNoAnswerCalls;
+        return $this->useOriginalAgentServicesForBusyAndNoAnswerCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useOriginalAgentServicesForBusyAndNoAnswerCalls;
     }
 
     /**
      * Setter for useOriginalAgentServicesForBusyAndNoAnswerCalls
      *
-     * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
-     * @param bool|null $useOriginalAgentServicesForBusyAndNoAnswerCalls
+     * @param bool $useOriginalAgentServicesForBusyAndNoAnswerCalls
      * @return $this
      */
     public function setUseOriginalAgentServicesForBusyAndNoAnswerCalls($useOriginalAgentServicesForBusyAndNoAnswerCalls)
     {
         $this->useOriginalAgentServicesForBusyAndNoAnswerCalls = $useOriginalAgentServicesForBusyAndNoAnswerCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseOriginalAgentServicesForBusyAndNoAnswerCalls()
+    {
+        $this->useOriginalAgentServicesForBusyAndNoAnswerCalls = null;
         return $this;
     }
 

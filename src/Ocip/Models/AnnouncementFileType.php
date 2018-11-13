@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static AnnouncementFileType AUDIO()
  * @method static AnnouncementFileType VIDEO()
- * @ValueType string
+ * @EnumValueType string
  */
 class AnnouncementFileType extends \MyCLabs\Enum\Enum
 {

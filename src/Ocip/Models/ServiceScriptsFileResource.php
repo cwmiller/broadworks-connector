@@ -12,12 +12,14 @@ class ServiceScriptsFileResource
 
     /**
      * @ElementName fileName
+     * @Type string
      * @var string|null
      */
     private $fileName = null;
 
     /**
      * @ElementName scriptContent
+     * @Type string
      * @var string|null
      */
     private $scriptContent = null;
@@ -25,19 +27,17 @@ class ServiceScriptsFileResource
     /**
      * Getter for fileName
      *
-     * @ElementName fileName
-     * @return string|null
+     * @return string
      */
     public function getFileName()
     {
-        return $this->fileName;
+        return $this->fileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileName;
     }
 
     /**
      * Setter for fileName
      *
-     * @ElementName fileName
-     * @param string|null $fileName
+     * @param string $fileName
      * @return $this
      */
     public function setFileName($fileName)
@@ -47,26 +47,42 @@ class ServiceScriptsFileResource
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFileName()
+    {
+        $this->fileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for scriptContent
      *
-     * @ElementName scriptContent
-     * @return string|null
+     * @return string
      */
     public function getScriptContent()
     {
-        return $this->scriptContent;
+        return $this->scriptContent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scriptContent;
     }
 
     /**
      * Setter for scriptContent
      *
-     * @ElementName scriptContent
-     * @param string|null $scriptContent
+     * @param string $scriptContent
      * @return $this
      */
     public function setScriptContent($scriptContent)
     {
         $this->scriptContent = $scriptContent;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScriptContent()
+    {
+        $this->scriptContent = null;
         return $this;
     }
 

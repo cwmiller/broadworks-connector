@@ -15,18 +15,21 @@ class CustomContactDirectoryEntry
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName virtualOnNetPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $virtualOnNetPhoneNumber = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
@@ -34,19 +37,17 @@ class CustomContactDirectoryEntry
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -56,21 +57,28 @@ class CustomContactDirectoryEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for virtualOnNetPhoneNumber
      *
-     * @ElementName virtualOnNetPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getVirtualOnNetPhoneNumber()
     {
-        return $this->virtualOnNetPhoneNumber;
+        return $this->virtualOnNetPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetPhoneNumber;
     }
 
     /**
      * Setter for virtualOnNetPhoneNumber
      *
-     * @ElementName virtualOnNetPhoneNumber
-     * @param string|null $virtualOnNetPhoneNumber
+     * @param string $virtualOnNetPhoneNumber
      * @return $this
      */
     public function setVirtualOnNetPhoneNumber($virtualOnNetPhoneNumber)
@@ -80,26 +88,42 @@ class CustomContactDirectoryEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetPhoneNumber()
+    {
+        $this->virtualOnNetPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
     {
         $this->groupId = $groupId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
         return $this;
     }
 

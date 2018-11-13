@@ -20,24 +20,29 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaLinePortUserPart
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[]
      */
     private $searchCriteriaLinePortUserPart = array(
@@ -46,6 +51,8 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaLinePortDomain
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[]
      */
     private $searchCriteriaLinePortDomain = array(
@@ -54,6 +61,8 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaUserLastName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -62,6 +71,8 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaUserFirstName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -70,6 +81,8 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaDn
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -78,6 +91,8 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaUserId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -86,6 +101,8 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaGroupId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -94,18 +111,22 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaExactEndpointType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType21sp1
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType21sp1|null
      */
     private $searchCriteriaExactEndpointType = null;
 
     /**
      * @ElementName searchCriteriaExactUserType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType|null
      */
     private $searchCriteriaExactUserType = null;
 
     /**
      * @ElementName searchCriteriaExtension
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -114,18 +135,22 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaExactUserDepartment
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
 
     /**
      * @ElementName searchCriteriaExactPortNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber|null
      */
     private $searchCriteriaExactPortNumber = null;
 
     /**
      * @ElementName searchCriteriaAccessDeviceEndpointPrivateIdentity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceEndpointPrivateIdentity
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceEndpointPrivateIdentity[]
      */
     private $searchCriteriaAccessDeviceEndpointPrivateIdentity = array(
@@ -135,19 +160,17 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -157,21 +180,28 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -181,21 +211,28 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -205,20 +242,27 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaLinePortUserPart
      *
-     * @ElementName searchCriteriaLinePortUserPart
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[]
      */
     public function getSearchCriteriaLinePortUserPart()
     {
-        return $this->searchCriteriaLinePortUserPart;
+        return $this->searchCriteriaLinePortUserPart instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaLinePortUserPart;
     }
 
     /**
      * Setter for searchCriteriaLinePortUserPart
      *
-     * @ElementName searchCriteriaLinePortUserPart
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[] $searchCriteriaLinePortUserPart
      * @return $this
      */
@@ -229,33 +273,39 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaLinePortUserPart()
+    {
+        $this->searchCriteriaLinePortUserPart = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaLinePortUserPart
      *
-     * @ElementName searchCriteriaLinePortUserPart
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart $searchCriteriaLinePortUserPart
      * @return $this
      */
     public function addSearchCriteriaLinePortUserPart($searchCriteriaLinePortUserPart)
     {
-        $this->searchCriteriaLinePortUserPart []= $searchCriteriaLinePortUserPart;
+        $this->searchCriteriaLinePortUserPart[] = $searchCriteriaLinePortUserPart;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaLinePortDomain
      *
-     * @ElementName searchCriteriaLinePortDomain
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[]
      */
     public function getSearchCriteriaLinePortDomain()
     {
-        return $this->searchCriteriaLinePortDomain;
+        return $this->searchCriteriaLinePortDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaLinePortDomain;
     }
 
     /**
      * Setter for searchCriteriaLinePortDomain
      *
-     * @ElementName searchCriteriaLinePortDomain
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[] $searchCriteriaLinePortDomain
      * @return $this
      */
@@ -266,33 +316,39 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaLinePortDomain()
+    {
+        $this->searchCriteriaLinePortDomain = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaLinePortDomain
      *
-     * @ElementName searchCriteriaLinePortDomain
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain $searchCriteriaLinePortDomain
      * @return $this
      */
     public function addSearchCriteriaLinePortDomain($searchCriteriaLinePortDomain)
     {
-        $this->searchCriteriaLinePortDomain []= $searchCriteriaLinePortDomain;
+        $this->searchCriteriaLinePortDomain[] = $searchCriteriaLinePortDomain;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     public function getSearchCriteriaUserLastName()
     {
-        return $this->searchCriteriaUserLastName;
+        return $this->searchCriteriaUserLastName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserLastName;
     }
 
     /**
      * Setter for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[] $searchCriteriaUserLastName
      * @return $this
      */
@@ -303,33 +359,39 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserLastName()
+    {
+        $this->searchCriteriaUserLastName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserLastName
      *
-     * @ElementName searchCriteriaUserLastName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName $searchCriteriaUserLastName
      * @return $this
      */
     public function addSearchCriteriaUserLastName($searchCriteriaUserLastName)
     {
-        $this->searchCriteriaUserLastName []= $searchCriteriaUserLastName;
+        $this->searchCriteriaUserLastName[] = $searchCriteriaUserLastName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     public function getSearchCriteriaUserFirstName()
     {
-        return $this->searchCriteriaUserFirstName;
+        return $this->searchCriteriaUserFirstName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserFirstName;
     }
 
     /**
      * Setter for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[] $searchCriteriaUserFirstName
      * @return $this
      */
@@ -340,33 +402,39 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserFirstName()
+    {
+        $this->searchCriteriaUserFirstName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserFirstName
      *
-     * @ElementName searchCriteriaUserFirstName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName $searchCriteriaUserFirstName
      * @return $this
      */
     public function addSearchCriteriaUserFirstName($searchCriteriaUserFirstName)
     {
-        $this->searchCriteriaUserFirstName []= $searchCriteriaUserFirstName;
+        $this->searchCriteriaUserFirstName[] = $searchCriteriaUserFirstName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     public function getSearchCriteriaDn()
     {
-        return $this->searchCriteriaDn;
+        return $this->searchCriteriaDn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDn;
     }
 
     /**
      * Setter for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[] $searchCriteriaDn
      * @return $this
      */
@@ -377,33 +445,39 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDn()
+    {
+        $this->searchCriteriaDn = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDn
      *
-     * @ElementName searchCriteriaDn
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn $searchCriteriaDn
      * @return $this
      */
     public function addSearchCriteriaDn($searchCriteriaDn)
     {
-        $this->searchCriteriaDn []= $searchCriteriaDn;
+        $this->searchCriteriaDn[] = $searchCriteriaDn;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaUserId
      *
-     * @ElementName searchCriteriaUserId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     public function getSearchCriteriaUserId()
     {
-        return $this->searchCriteriaUserId;
+        return $this->searchCriteriaUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserId;
     }
 
     /**
      * Setter for searchCriteriaUserId
      *
-     * @ElementName searchCriteriaUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[] $searchCriteriaUserId
      * @return $this
      */
@@ -414,33 +488,39 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserId()
+    {
+        $this->searchCriteriaUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserId
      *
-     * @ElementName searchCriteriaUserId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId $searchCriteriaUserId
      * @return $this
      */
     public function addSearchCriteriaUserId($searchCriteriaUserId)
     {
-        $this->searchCriteriaUserId []= $searchCriteriaUserId;
+        $this->searchCriteriaUserId[] = $searchCriteriaUserId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     public function getSearchCriteriaGroupId()
     {
-        return $this->searchCriteriaGroupId;
+        return $this->searchCriteriaGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupId;
     }
 
     /**
      * Setter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
@@ -451,34 +531,40 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupId()
+    {
+        $this->searchCriteriaGroupId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId $searchCriteriaGroupId
      * @return $this
      */
     public function addSearchCriteriaGroupId($searchCriteriaGroupId)
     {
-        $this->searchCriteriaGroupId []= $searchCriteriaGroupId;
+        $this->searchCriteriaGroupId[] = $searchCriteriaGroupId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactEndpointType
      *
-     * @ElementName searchCriteriaExactEndpointType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType21sp1|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType21sp1
      */
     public function getSearchCriteriaExactEndpointType()
     {
-        return $this->searchCriteriaExactEndpointType;
+        return $this->searchCriteriaExactEndpointType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactEndpointType;
     }
 
     /**
      * Setter for searchCriteriaExactEndpointType
      *
-     * @ElementName searchCriteriaExactEndpointType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType21sp1|null $searchCriteriaExactEndpointType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType21sp1 $searchCriteriaExactEndpointType
      * @return $this
      */
     public function setSearchCriteriaExactEndpointType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactEndpointType21sp1 $searchCriteriaExactEndpointType)
@@ -488,21 +574,28 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactEndpointType()
+    {
+        $this->searchCriteriaExactEndpointType = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactUserType
      *
-     * @ElementName searchCriteriaExactUserType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType
      */
     public function getSearchCriteriaExactUserType()
     {
-        return $this->searchCriteriaExactUserType;
+        return $this->searchCriteriaExactUserType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactUserType;
     }
 
     /**
      * Setter for searchCriteriaExactUserType
      *
-     * @ElementName searchCriteriaExactUserType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType|null $searchCriteriaExactUserType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType $searchCriteriaExactUserType
      * @return $this
      */
     public function setSearchCriteriaExactUserType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserType $searchCriteriaExactUserType)
@@ -512,20 +605,27 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactUserType()
+    {
+        $this->searchCriteriaExactUserType = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     public function getSearchCriteriaExtension()
     {
-        return $this->searchCriteriaExtension;
+        return $this->searchCriteriaExtension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExtension;
     }
 
     /**
      * Setter for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[] $searchCriteriaExtension
      * @return $this
      */
@@ -536,34 +636,40 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExtension()
+    {
+        $this->searchCriteriaExtension = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaExtension
      *
-     * @ElementName searchCriteriaExtension
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension $searchCriteriaExtension
      * @return $this
      */
     public function addSearchCriteriaExtension($searchCriteriaExtension)
     {
-        $this->searchCriteriaExtension []= $searchCriteriaExtension;
+        $this->searchCriteriaExtension[] = $searchCriteriaExtension;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactUserDepartment
      *
-     * @ElementName searchCriteriaExactUserDepartment
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      */
     public function getSearchCriteriaExactUserDepartment()
     {
-        return $this->searchCriteriaExactUserDepartment;
+        return $this->searchCriteriaExactUserDepartment instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactUserDepartment;
     }
 
     /**
      * Setter for searchCriteriaExactUserDepartment
      *
-     * @ElementName searchCriteriaExactUserDepartment
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null $searchCriteriaExactUserDepartment
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment $searchCriteriaExactUserDepartment
      * @return $this
      */
     public function setSearchCriteriaExactUserDepartment(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment $searchCriteriaExactUserDepartment)
@@ -573,21 +679,28 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactUserDepartment()
+    {
+        $this->searchCriteriaExactUserDepartment = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaExactPortNumber
      *
-     * @ElementName searchCriteriaExactPortNumber
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber
      */
     public function getSearchCriteriaExactPortNumber()
     {
-        return $this->searchCriteriaExactPortNumber;
+        return $this->searchCriteriaExactPortNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactPortNumber;
     }
 
     /**
      * Setter for searchCriteriaExactPortNumber
      *
-     * @ElementName searchCriteriaExactPortNumber
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber|null $searchCriteriaExactPortNumber
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber $searchCriteriaExactPortNumber
      * @return $this
      */
     public function setSearchCriteriaExactPortNumber(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPortNumber $searchCriteriaExactPortNumber)
@@ -597,20 +710,27 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactPortNumber()
+    {
+        $this->searchCriteriaExactPortNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaAccessDeviceEndpointPrivateIdentity
      *
-     * @ElementName searchCriteriaAccessDeviceEndpointPrivateIdentity
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceEndpointPrivateIdentity[]
      */
     public function getSearchCriteriaAccessDeviceEndpointPrivateIdentity()
     {
-        return $this->searchCriteriaAccessDeviceEndpointPrivateIdentity;
+        return $this->searchCriteriaAccessDeviceEndpointPrivateIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaAccessDeviceEndpointPrivateIdentity;
     }
 
     /**
      * Setter for searchCriteriaAccessDeviceEndpointPrivateIdentity
      *
-     * @ElementName searchCriteriaAccessDeviceEndpointPrivateIdentity
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceEndpointPrivateIdentity[] $searchCriteriaAccessDeviceEndpointPrivateIdentity
      * @return $this
      */
@@ -621,15 +741,23 @@ class ServiceProviderAccessDeviceGetUserListRequest21sp1 extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaAccessDeviceEndpointPrivateIdentity()
+    {
+        $this->searchCriteriaAccessDeviceEndpointPrivateIdentity = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaAccessDeviceEndpointPrivateIdentity
      *
-     * @ElementName searchCriteriaAccessDeviceEndpointPrivateIdentity
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAccessDeviceEndpointPrivateIdentity $searchCriteriaAccessDeviceEndpointPrivateIdentity
      * @return $this
      */
     public function addSearchCriteriaAccessDeviceEndpointPrivateIdentity($searchCriteriaAccessDeviceEndpointPrivateIdentity)
     {
-        $this->searchCriteriaAccessDeviceEndpointPrivateIdentity []= $searchCriteriaAccessDeviceEndpointPrivateIdentity;
+        $this->searchCriteriaAccessDeviceEndpointPrivateIdentity[] = $searchCriteriaAccessDeviceEndpointPrivateIdentity;
         return $this;
     }
 

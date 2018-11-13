@@ -12,6 +12,7 @@ class PlayMessageMenuKeysModifyEntry
 
     /**
      * @ElementName skipBackward
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,6 +20,7 @@ class PlayMessageMenuKeysModifyEntry
 
     /**
      * @ElementName pauseOrResume
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class PlayMessageMenuKeysModifyEntry
 
     /**
      * @ElementName skipForward
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,6 +36,7 @@ class PlayMessageMenuKeysModifyEntry
 
     /**
      * @ElementName jumpToBegin
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -40,6 +44,7 @@ class PlayMessageMenuKeysModifyEntry
 
     /**
      * @ElementName jumpToEnd
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,130 +53,175 @@ class PlayMessageMenuKeysModifyEntry
     /**
      * Getter for skipBackward
      *
-     * @ElementName skipBackward
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSkipBackward()
     {
-        return $this->skipBackward;
+        return $this->skipBackward instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->skipBackward;
     }
 
     /**
      * Setter for skipBackward
      *
-     * @ElementName skipBackward
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $skipBackward
+     * @param string|null $skipBackward
      * @return $this
      */
     public function setSkipBackward($skipBackward)
     {
-        $this->skipBackward = $skipBackward;
+        if ($skipBackward === null) {
+            $this->skipBackward = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->skipBackward = $skipBackward;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSkipBackward()
+    {
+        $this->skipBackward = null;
         return $this;
     }
 
     /**
      * Getter for pauseOrResume
      *
-     * @ElementName pauseOrResume
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPauseOrResume()
     {
-        return $this->pauseOrResume;
+        return $this->pauseOrResume instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pauseOrResume;
     }
 
     /**
      * Setter for pauseOrResume
      *
-     * @ElementName pauseOrResume
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $pauseOrResume
+     * @param string|null $pauseOrResume
      * @return $this
      */
     public function setPauseOrResume($pauseOrResume)
     {
-        $this->pauseOrResume = $pauseOrResume;
+        if ($pauseOrResume === null) {
+            $this->pauseOrResume = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->pauseOrResume = $pauseOrResume;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPauseOrResume()
+    {
+        $this->pauseOrResume = null;
         return $this;
     }
 
     /**
      * Getter for skipForward
      *
-     * @ElementName skipForward
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSkipForward()
     {
-        return $this->skipForward;
+        return $this->skipForward instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->skipForward;
     }
 
     /**
      * Setter for skipForward
      *
-     * @ElementName skipForward
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $skipForward
+     * @param string|null $skipForward
      * @return $this
      */
     public function setSkipForward($skipForward)
     {
-        $this->skipForward = $skipForward;
+        if ($skipForward === null) {
+            $this->skipForward = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->skipForward = $skipForward;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSkipForward()
+    {
+        $this->skipForward = null;
         return $this;
     }
 
     /**
      * Getter for jumpToBegin
      *
-     * @ElementName jumpToBegin
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getJumpToBegin()
     {
-        return $this->jumpToBegin;
+        return $this->jumpToBegin instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->jumpToBegin;
     }
 
     /**
      * Setter for jumpToBegin
      *
-     * @ElementName jumpToBegin
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $jumpToBegin
+     * @param string|null $jumpToBegin
      * @return $this
      */
     public function setJumpToBegin($jumpToBegin)
     {
-        $this->jumpToBegin = $jumpToBegin;
+        if ($jumpToBegin === null) {
+            $this->jumpToBegin = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->jumpToBegin = $jumpToBegin;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetJumpToBegin()
+    {
+        $this->jumpToBegin = null;
         return $this;
     }
 
     /**
      * Getter for jumpToEnd
      *
-     * @ElementName jumpToEnd
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getJumpToEnd()
     {
-        return $this->jumpToEnd;
+        return $this->jumpToEnd instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->jumpToEnd;
     }
 
     /**
      * Setter for jumpToEnd
      *
-     * @ElementName jumpToEnd
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $jumpToEnd
+     * @param string|null $jumpToEnd
      * @return $this
      */
     public function setJumpToEnd($jumpToEnd)
     {
-        $this->jumpToEnd = $jumpToEnd;
+        if ($jumpToEnd === null) {
+            $this->jumpToEnd = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->jumpToEnd = $jumpToEnd;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetJumpToEnd()
+    {
+        $this->jumpToEnd = null;
         return $this;
     }
 

@@ -15,18 +15,21 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName isCallCenterBasicAssigned
+     * @Type bool
      * @var bool|null
      */
     private $isCallCenterBasicAssigned = null;
 
     /**
      * @ElementName isCallCenterStandardAssigned
+     * @Type bool
      * @var bool|null
      */
     private $isCallCenterStandardAssigned = null;
 
     /**
      * @ElementName isCallCenterPremiumAssigned
+     * @Type bool
      * @var bool|null
      */
     private $isCallCenterPremiumAssigned = null;
@@ -34,19 +37,17 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for isCallCenterBasicAssigned
      *
-     * @ElementName isCallCenterBasicAssigned
-     * @return bool|null
+     * @return bool
      */
     public function getIsCallCenterBasicAssigned()
     {
-        return $this->isCallCenterBasicAssigned;
+        return $this->isCallCenterBasicAssigned instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isCallCenterBasicAssigned;
     }
 
     /**
      * Setter for isCallCenterBasicAssigned
      *
-     * @ElementName isCallCenterBasicAssigned
-     * @param bool|null $isCallCenterBasicAssigned
+     * @param bool $isCallCenterBasicAssigned
      * @return $this
      */
     public function setIsCallCenterBasicAssigned($isCallCenterBasicAssigned)
@@ -56,21 +57,28 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsCallCenterBasicAssigned()
+    {
+        $this->isCallCenterBasicAssigned = null;
+        return $this;
+    }
+
+    /**
      * Getter for isCallCenterStandardAssigned
      *
-     * @ElementName isCallCenterStandardAssigned
-     * @return bool|null
+     * @return bool
      */
     public function getIsCallCenterStandardAssigned()
     {
-        return $this->isCallCenterStandardAssigned;
+        return $this->isCallCenterStandardAssigned instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isCallCenterStandardAssigned;
     }
 
     /**
      * Setter for isCallCenterStandardAssigned
      *
-     * @ElementName isCallCenterStandardAssigned
-     * @param bool|null $isCallCenterStandardAssigned
+     * @param bool $isCallCenterStandardAssigned
      * @return $this
      */
     public function setIsCallCenterStandardAssigned($isCallCenterStandardAssigned)
@@ -80,26 +88,42 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsCallCenterStandardAssigned()
+    {
+        $this->isCallCenterStandardAssigned = null;
+        return $this;
+    }
+
+    /**
      * Getter for isCallCenterPremiumAssigned
      *
-     * @ElementName isCallCenterPremiumAssigned
-     * @return bool|null
+     * @return bool
      */
     public function getIsCallCenterPremiumAssigned()
     {
-        return $this->isCallCenterPremiumAssigned;
+        return $this->isCallCenterPremiumAssigned instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isCallCenterPremiumAssigned;
     }
 
     /**
      * Setter for isCallCenterPremiumAssigned
      *
-     * @ElementName isCallCenterPremiumAssigned
-     * @param bool|null $isCallCenterPremiumAssigned
+     * @param bool $isCallCenterPremiumAssigned
      * @return $this
      */
     public function setIsCallCenterPremiumAssigned($isCallCenterPremiumAssigned)
     {
         $this->isCallCenterPremiumAssigned = $isCallCenterPremiumAssigned;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsCallCenterPremiumAssigned()
+    {
+        $this->isCallCenterPremiumAssigned = null;
         return $this;
     }
 

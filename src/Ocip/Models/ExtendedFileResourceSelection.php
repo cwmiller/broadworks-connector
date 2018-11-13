@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ExtendedFileResourceSelection FILE()
  * @method static ExtendedFileResourceSelection URL()
  * @method static ExtendedFileResourceSelection _DEFAULT()
- * @ValueType string
+ * @EnumValueType string
  */
 class ExtendedFileResourceSelection extends \MyCLabs\Enum\Enum
 {

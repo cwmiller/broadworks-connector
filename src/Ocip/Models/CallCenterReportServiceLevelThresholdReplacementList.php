@@ -13,6 +13,8 @@ class CallCenterReportServiceLevelThresholdReplacementList
 
     /**
      * @ElementName serviceLevelThresholdSeconds
+     * @Type int
+     * @Array
      * @var int[]
      */
     private $serviceLevelThresholdSeconds = array(
@@ -22,18 +24,16 @@ class CallCenterReportServiceLevelThresholdReplacementList
     /**
      * Getter for serviceLevelThresholdSeconds
      *
-     * @ElementName serviceLevelThresholdSeconds
      * @return int[]
      */
     public function getServiceLevelThresholdSeconds()
     {
-        return $this->serviceLevelThresholdSeconds;
+        return $this->serviceLevelThresholdSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceLevelThresholdSeconds;
     }
 
     /**
      * Setter for serviceLevelThresholdSeconds
      *
-     * @ElementName serviceLevelThresholdSeconds
      * @param int[] $serviceLevelThresholdSeconds
      * @return $this
      */
@@ -44,15 +44,23 @@ class CallCenterReportServiceLevelThresholdReplacementList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceLevelThresholdSeconds()
+    {
+        $this->serviceLevelThresholdSeconds = null;
+        return $this;
+    }
+
+    /**
      * Adder for serviceLevelThresholdSeconds
      *
-     * @ElementName serviceLevelThresholdSeconds
      * @param int $serviceLevelThresholdSeconds
      * @return $this
      */
     public function addServiceLevelThresholdSeconds(int $serviceLevelThresholdSeconds)
     {
-        $this->serviceLevelThresholdSeconds []= $serviceLevelThresholdSeconds;
+        $this->serviceLevelThresholdSeconds[] = $serviceLevelThresholdSeconds;
         return $this;
     }
 

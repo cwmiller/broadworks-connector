@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static MWIDeliveryToMobileEndpointTemplateTag TOTAL_MESSAGES_COUNT()
  * @method static MWIDeliveryToMobileEndpointTemplateTag CALLER_NAME()
  * @method static MWIDeliveryToMobileEndpointTemplateTag CALLER_NUMBER()
- * @ValueType string
+ * @EnumValueType string
  */
 class MWIDeliveryToMobileEndpointTemplateTag extends \MyCLabs\Enum\Enum
 {

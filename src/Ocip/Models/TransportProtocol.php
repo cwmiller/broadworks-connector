@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static TransportProtocol UDP()
  * @method static TransportProtocol TCP()
  * @method static TransportProtocol UNSPECIFIED()
- * @ValueType string
+ * @EnumValueType string
  */
 class TransportProtocol extends \MyCLabs\Enum\Enum
 {

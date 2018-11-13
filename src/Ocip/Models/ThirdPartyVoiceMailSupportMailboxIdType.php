@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ThirdPartyVoiceMailSupportMailboxIdType
  * USER_OR_GROUP_PHONE_NUMBER()
  * @method static ThirdPartyVoiceMailSupportMailboxIdType URL()
- * @ValueType string
+ * @EnumValueType string
  */
 class ThirdPartyVoiceMailSupportMailboxIdType extends \MyCLabs\Enum\Enum
 {

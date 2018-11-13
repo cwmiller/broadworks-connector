@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
 
     /**
      * @ElementName disconnectAfterGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
 
     /**
      * @ElementName forwardAfterGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
 
     /**
      * @ElementName changeForwardingDestination
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,12 +34,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,97 +50,122 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
     /**
      * Getter for disconnectAfterGreeting
      *
-     * @ElementName disconnectAfterGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDisconnectAfterGreeting()
     {
-        return $this->disconnectAfterGreeting;
+        return $this->disconnectAfterGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disconnectAfterGreeting;
     }
 
     /**
      * Setter for disconnectAfterGreeting
      *
-     * @ElementName disconnectAfterGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disconnectAfterGreeting
+     * @param string|null $disconnectAfterGreeting
      * @return $this
      */
     public function setDisconnectAfterGreeting($disconnectAfterGreeting)
     {
-        $this->disconnectAfterGreeting = $disconnectAfterGreeting;
+        if ($disconnectAfterGreeting === null) {
+            $this->disconnectAfterGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->disconnectAfterGreeting = $disconnectAfterGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDisconnectAfterGreeting()
+    {
+        $this->disconnectAfterGreeting = null;
         return $this;
     }
 
     /**
      * Getter for forwardAfterGreeting
      *
-     * @ElementName forwardAfterGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getForwardAfterGreeting()
     {
-        return $this->forwardAfterGreeting;
+        return $this->forwardAfterGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardAfterGreeting;
     }
 
     /**
      * Setter for forwardAfterGreeting
      *
-     * @ElementName forwardAfterGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardAfterGreeting
+     * @param string|null $forwardAfterGreeting
      * @return $this
      */
     public function setForwardAfterGreeting($forwardAfterGreeting)
     {
-        $this->forwardAfterGreeting = $forwardAfterGreeting;
+        if ($forwardAfterGreeting === null) {
+            $this->forwardAfterGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->forwardAfterGreeting = $forwardAfterGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForwardAfterGreeting()
+    {
+        $this->forwardAfterGreeting = null;
         return $this;
     }
 
     /**
      * Getter for changeForwardingDestination
      *
-     * @ElementName changeForwardingDestination
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getChangeForwardingDestination()
     {
-        return $this->changeForwardingDestination;
+        return $this->changeForwardingDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeForwardingDestination;
     }
 
     /**
      * Setter for changeForwardingDestination
      *
-     * @ElementName changeForwardingDestination
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeForwardingDestination
+     * @param string|null $changeForwardingDestination
      * @return $this
      */
     public function setChangeForwardingDestination($changeForwardingDestination)
     {
-        $this->changeForwardingDestination = $changeForwardingDestination;
+        if ($changeForwardingDestination === null) {
+            $this->changeForwardingDestination = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->changeForwardingDestination = $changeForwardingDestination;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetChangeForwardingDestination()
+    {
+        $this->changeForwardingDestination = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -145,28 +175,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

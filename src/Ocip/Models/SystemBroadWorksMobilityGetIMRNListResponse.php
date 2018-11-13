@@ -14,6 +14,8 @@ class SystemBroadWorksMobilityGetIMRNListResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName imrnNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $imrnNumber = array(
@@ -23,18 +25,16 @@ class SystemBroadWorksMobilityGetIMRNListResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for imrnNumber
      *
-     * @ElementName imrnNumber
      * @return string[]
      */
     public function getImrnNumber()
     {
-        return $this->imrnNumber;
+        return $this->imrnNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->imrnNumber;
     }
 
     /**
      * Setter for imrnNumber
      *
-     * @ElementName imrnNumber
      * @param string[] $imrnNumber
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemBroadWorksMobilityGetIMRNListResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetImrnNumber()
+    {
+        $this->imrnNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for imrnNumber
      *
-     * @ElementName imrnNumber
      * @param string $imrnNumber
      * @return $this
      */
     public function addImrnNumber(string $imrnNumber)
     {
-        $this->imrnNumber []= $imrnNumber;
+        $this->imrnNumber[] = $imrnNumber;
         return $this;
     }
 

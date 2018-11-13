@@ -14,18 +14,21 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName attendeeNotification
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     private $attendeeNotification = null;
 
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
+     * @Type bool
      * @var bool|null
      */
     private $endCollaborateRoomSessionOnOwnerExit = null;
 
     /**
      * @ElementName ownerRequired
+     * @Type bool
      * @var bool|null
      */
     private $ownerRequired = null;
@@ -33,19 +36,17 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
     /**
      * Getter for attendeeNotification
      *
-     * @ElementName attendeeNotification
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
      */
     public function getAttendeeNotification()
     {
-        return $this->attendeeNotification;
+        return $this->attendeeNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->attendeeNotification;
     }
 
     /**
      * Setter for attendeeNotification
      *
-     * @ElementName attendeeNotification
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null $attendeeNotification
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification $attendeeNotification
      * @return $this
      */
     public function setAttendeeNotification(\CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification $attendeeNotification)
@@ -55,21 +56,28 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAttendeeNotification()
+    {
+        $this->attendeeNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for endCollaborateRoomSessionOnOwnerExit
      *
-     * @ElementName endCollaborateRoomSessionOnOwnerExit
-     * @return bool|null
+     * @return bool
      */
     public function getEndCollaborateRoomSessionOnOwnerExit()
     {
-        return $this->endCollaborateRoomSessionOnOwnerExit;
+        return $this->endCollaborateRoomSessionOnOwnerExit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->endCollaborateRoomSessionOnOwnerExit;
     }
 
     /**
      * Setter for endCollaborateRoomSessionOnOwnerExit
      *
-     * @ElementName endCollaborateRoomSessionOnOwnerExit
-     * @param bool|null $endCollaborateRoomSessionOnOwnerExit
+     * @param bool $endCollaborateRoomSessionOnOwnerExit
      * @return $this
      */
     public function setEndCollaborateRoomSessionOnOwnerExit($endCollaborateRoomSessionOnOwnerExit)
@@ -79,26 +87,42 @@ class UserCollaborateInstantRoomParametersGetResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEndCollaborateRoomSessionOnOwnerExit()
+    {
+        $this->endCollaborateRoomSessionOnOwnerExit = null;
+        return $this;
+    }
+
+    /**
      * Getter for ownerRequired
      *
-     * @ElementName ownerRequired
-     * @return bool|null
+     * @return bool
      */
     public function getOwnerRequired()
     {
-        return $this->ownerRequired;
+        return $this->ownerRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ownerRequired;
     }
 
     /**
      * Setter for ownerRequired
      *
-     * @ElementName ownerRequired
-     * @param bool|null $ownerRequired
+     * @param bool $ownerRequired
      * @return $this
      */
     public function setOwnerRequired($ownerRequired)
     {
         $this->ownerRequired = $ownerRequired;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOwnerRequired()
+    {
+        $this->ownerRequired = null;
         return $this;
     }
 

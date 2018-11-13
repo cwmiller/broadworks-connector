@@ -16,18 +16,21 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName destinationPhoneNumberList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,12 +38,14 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName isAnswerTimeoutEnabled
+     * @Type bool
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
 
     /**
      * @ElementName answerTimeoutMinutes
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,6 +53,7 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -55,19 +61,17 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -77,21 +81,28 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile $serviceInstanceProfile)
@@ -101,47 +112,63 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for destinationPhoneNumberList
      *
-     * @ElementName destinationPhoneNumberList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null
      */
     public function getDestinationPhoneNumberList()
     {
-        return $this->destinationPhoneNumberList;
+        return $this->destinationPhoneNumberList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->destinationPhoneNumberList;
     }
 
     /**
      * Setter for destinationPhoneNumberList
      *
-     * @ElementName destinationPhoneNumberList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil $destinationPhoneNumberList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null $destinationPhoneNumberList
      * @return $this
      */
     public function setDestinationPhoneNumberList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList $destinationPhoneNumberList)
     {
-        $this->destinationPhoneNumberList = $destinationPhoneNumberList;
+        if ($destinationPhoneNumberList === null) {
+            $this->destinationPhoneNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->destinationPhoneNumberList = $destinationPhoneNumberList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDestinationPhoneNumberList()
+    {
+        $this->destinationPhoneNumberList = null;
         return $this;
     }
 
     /**
      * Getter for isAnswerTimeoutEnabled
      *
-     * @ElementName isAnswerTimeoutEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsAnswerTimeoutEnabled()
     {
-        return $this->isAnswerTimeoutEnabled;
+        return $this->isAnswerTimeoutEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAnswerTimeoutEnabled;
     }
 
     /**
      * Setter for isAnswerTimeoutEnabled
      *
-     * @ElementName isAnswerTimeoutEnabled
-     * @param bool|null $isAnswerTimeoutEnabled
+     * @param bool $isAnswerTimeoutEnabled
      * @return $this
      */
     public function setIsAnswerTimeoutEnabled($isAnswerTimeoutEnabled)
@@ -151,52 +178,77 @@ class GroupInstantGroupCallModifyInstanceRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsAnswerTimeoutEnabled()
+    {
+        $this->isAnswerTimeoutEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerTimeoutMinutes
      *
-     * @ElementName answerTimeoutMinutes
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getAnswerTimeoutMinutes()
     {
-        return $this->answerTimeoutMinutes;
+        return $this->answerTimeoutMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerTimeoutMinutes;
     }
 
     /**
      * Setter for answerTimeoutMinutes
      *
-     * @ElementName answerTimeoutMinutes
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $answerTimeoutMinutes
+     * @param int|null $answerTimeoutMinutes
      * @return $this
      */
     public function setAnswerTimeoutMinutes($answerTimeoutMinutes)
     {
-        $this->answerTimeoutMinutes = $answerTimeoutMinutes;
+        if ($answerTimeoutMinutes === null) {
+            $this->answerTimeoutMinutes = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->answerTimeoutMinutes = $answerTimeoutMinutes;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnswerTimeoutMinutes()
+    {
+        $this->answerTimeoutMinutes = null;
         return $this;
     }
 
     /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
         return $this;
     }
 

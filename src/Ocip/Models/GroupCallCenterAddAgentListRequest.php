@@ -18,12 +18,15 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName agentUserId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $agentUserId = array(
@@ -32,6 +35,8 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName agentSkillList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList[]
      */
     private $agentSkillList = array(
@@ -41,19 +46,17 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -63,20 +66,27 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
      * @return string[]
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
      * @param string[] $agentUserId
      * @return $this
      */
@@ -87,33 +97,39 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
+        return $this;
+    }
+
+    /**
      * Adder for agentUserId
      *
-     * @ElementName agentUserId
      * @param string $agentUserId
      * @return $this
      */
     public function addAgentUserId(string $agentUserId)
     {
-        $this->agentUserId []= $agentUserId;
+        $this->agentUserId[] = $agentUserId;
         return $this;
     }
 
     /**
      * Getter for agentSkillList
      *
-     * @ElementName agentSkillList
      * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList[]
      */
     public function getAgentSkillList()
     {
-        return $this->agentSkillList;
+        return $this->agentSkillList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentSkillList;
     }
 
     /**
      * Setter for agentSkillList
      *
-     * @ElementName agentSkillList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList[] $agentSkillList
      * @return $this
      */
@@ -124,15 +140,23 @@ class GroupCallCenterAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentSkillList()
+    {
+        $this->agentSkillList = null;
+        return $this;
+    }
+
+    /**
      * Adder for agentSkillList
      *
-     * @ElementName agentSkillList
      * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterSkillAgentList $agentSkillList
      * @return $this
      */
     public function addAgentSkillList($agentSkillList)
     {
-        $this->agentSkillList []= $agentSkillList;
+        $this->agentSkillList[] = $agentSkillList;
         return $this;
     }
 

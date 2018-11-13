@@ -23,6 +23,7 @@ class ServiceProviderDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName serviceProviderDeviceTypeCustomTagsTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderDeviceTypeCustomTagsTable = null;
@@ -30,24 +31,31 @@ class ServiceProviderDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksC
     /**
      * Getter for serviceProviderDeviceTypeCustomTagsTable
      *
-     * @ElementName serviceProviderDeviceTypeCustomTagsTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getServiceProviderDeviceTypeCustomTagsTable()
     {
-        return $this->serviceProviderDeviceTypeCustomTagsTable;
+        return $this->serviceProviderDeviceTypeCustomTagsTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderDeviceTypeCustomTagsTable;
     }
 
     /**
      * Setter for serviceProviderDeviceTypeCustomTagsTable
      *
-     * @ElementName serviceProviderDeviceTypeCustomTagsTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $serviceProviderDeviceTypeCustomTagsTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderDeviceTypeCustomTagsTable
      * @return $this
      */
     public function setServiceProviderDeviceTypeCustomTagsTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $serviceProviderDeviceTypeCustomTagsTable)
     {
         $this->serviceProviderDeviceTypeCustomTagsTable = $serviceProviderDeviceTypeCustomTagsTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceProviderDeviceTypeCustomTagsTable()
+    {
+        $this->serviceProviderDeviceTypeCustomTagsTable = null;
         return $this;
     }
 

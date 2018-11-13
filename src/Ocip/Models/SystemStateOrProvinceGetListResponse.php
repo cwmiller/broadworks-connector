@@ -14,6 +14,7 @@ class SystemStateOrProvinceGetListResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName stateOrProvinceTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $stateOrProvinceTable = null;
@@ -21,24 +22,31 @@ class SystemStateOrProvinceGetListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for stateOrProvinceTable
      *
-     * @ElementName stateOrProvinceTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getStateOrProvinceTable()
     {
-        return $this->stateOrProvinceTable;
+        return $this->stateOrProvinceTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->stateOrProvinceTable;
     }
 
     /**
      * Setter for stateOrProvinceTable
      *
-     * @ElementName stateOrProvinceTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $stateOrProvinceTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $stateOrProvinceTable
      * @return $this
      */
     public function setStateOrProvinceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $stateOrProvinceTable)
     {
         $this->stateOrProvinceTable = $stateOrProvinceTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStateOrProvinceTable()
+    {
+        $this->stateOrProvinceTable = null;
         return $this;
     }
 

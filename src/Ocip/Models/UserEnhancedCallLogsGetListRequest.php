@@ -22,24 +22,28 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName callLogType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType|null
      */
     private $callLogType = null;
 
     /**
      * @ElementName startingOffset
+     * @Type int
      * @var int|null
      */
     private $startingOffset = null;
 
     /**
      * @ElementName numCalls
+     * @Type int
      * @var int|null
      */
     private $numCalls = null;
@@ -47,19 +51,17 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -69,21 +71,28 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for callLogType
      *
-     * @ElementName callLogType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType
      */
     public function getCallLogType()
     {
-        return $this->callLogType;
+        return $this->callLogType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLogType;
     }
 
     /**
      * Setter for callLogType
      *
-     * @ElementName callLogType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType|null $callLogType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType $callLogType
      * @return $this
      */
     public function setCallLogType(\CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType $callLogType)
@@ -93,21 +102,28 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallLogType()
+    {
+        $this->callLogType = null;
+        return $this;
+    }
+
+    /**
      * Getter for startingOffset
      *
-     * @ElementName startingOffset
-     * @return int|null
+     * @return int
      */
     public function getStartingOffset()
     {
-        return $this->startingOffset;
+        return $this->startingOffset instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startingOffset;
     }
 
     /**
      * Setter for startingOffset
      *
-     * @ElementName startingOffset
-     * @param int|null $startingOffset
+     * @param int $startingOffset
      * @return $this
      */
     public function setStartingOffset($startingOffset)
@@ -117,26 +133,42 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartingOffset()
+    {
+        $this->startingOffset = null;
+        return $this;
+    }
+
+    /**
      * Getter for numCalls
      *
-     * @ElementName numCalls
-     * @return int|null
+     * @return int
      */
     public function getNumCalls()
     {
-        return $this->numCalls;
+        return $this->numCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numCalls;
     }
 
     /**
      * Setter for numCalls
      *
-     * @ElementName numCalls
-     * @param int|null $numCalls
+     * @param int $numCalls
      * @return $this
      */
     public function setNumCalls($numCalls)
     {
         $this->numCalls = $numCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNumCalls()
+    {
+        $this->numCalls = null;
         return $this;
     }
 

@@ -16,18 +16,21 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
 
     /**
      * @ElementName digitMap
+     * @Type string
      * @var string|null
      */
     private $digitMap = null;
 
     /**
      * @ElementName callType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemCallType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null
      */
     private $callType = null;
@@ -35,19 +38,17 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
@@ -57,21 +58,28 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for digitMap
      *
-     * @ElementName digitMap
-     * @return string|null
+     * @return string
      */
     public function getDigitMap()
     {
-        return $this->digitMap;
+        return $this->digitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->digitMap;
     }
 
     /**
      * Setter for digitMap
      *
-     * @ElementName digitMap
-     * @param string|null $digitMap
+     * @param string $digitMap
      * @return $this
      */
     public function setDigitMap($digitMap)
@@ -81,26 +89,42 @@ class SystemCallTypeAddMappingRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDigitMap()
+    {
+        $this->digitMap = null;
+        return $this;
+    }
+
+    /**
      * Getter for callType
      *
-     * @ElementName callType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SystemCallType
      */
     public function getCallType()
     {
-        return $this->callType;
+        return $this->callType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callType;
     }
 
     /**
      * Setter for callType
      *
-     * @ElementName callType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemCallType|null $callType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SystemCallType $callType
      * @return $this
      */
     public function setCallType(\CWM\BroadWorksConnector\Ocip\Models\SystemCallType $callType)
     {
         $this->callType = $callType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallType()
+    {
+        $this->callType = null;
         return $this;
     }
 

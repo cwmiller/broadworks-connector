@@ -14,24 +14,28 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\Broa
 
     /**
      * @ElementName isExtendedCallingLineIdActive
+     * @Type bool
      * @var bool|null
      */
     private $isExtendedCallingLineIdActive = null;
 
     /**
      * @ElementName isRingTimeOutActive
+     * @Type bool
      * @var bool|null
      */
     private $isRingTimeOutActive = null;
 
     /**
      * @ElementName ringTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
 
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
+     * @Type bool
      * @var bool|null
      */
     private $allowEmergencyRemoteOfficeOriginations = null;
@@ -39,19 +43,17 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\Broa
     /**
      * Getter for isExtendedCallingLineIdActive
      *
-     * @ElementName isExtendedCallingLineIdActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsExtendedCallingLineIdActive()
     {
-        return $this->isExtendedCallingLineIdActive;
+        return $this->isExtendedCallingLineIdActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isExtendedCallingLineIdActive;
     }
 
     /**
      * Setter for isExtendedCallingLineIdActive
      *
-     * @ElementName isExtendedCallingLineIdActive
-     * @param bool|null $isExtendedCallingLineIdActive
+     * @param bool $isExtendedCallingLineIdActive
      * @return $this
      */
     public function setIsExtendedCallingLineIdActive($isExtendedCallingLineIdActive)
@@ -61,21 +63,28 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsExtendedCallingLineIdActive()
+    {
+        $this->isExtendedCallingLineIdActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for isRingTimeOutActive
      *
-     * @ElementName isRingTimeOutActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsRingTimeOutActive()
     {
-        return $this->isRingTimeOutActive;
+        return $this->isRingTimeOutActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isRingTimeOutActive;
     }
 
     /**
      * Setter for isRingTimeOutActive
      *
-     * @ElementName isRingTimeOutActive
-     * @param bool|null $isRingTimeOutActive
+     * @param bool $isRingTimeOutActive
      * @return $this
      */
     public function setIsRingTimeOutActive($isRingTimeOutActive)
@@ -85,21 +94,28 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsRingTimeOutActive()
+    {
+        $this->isRingTimeOutActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for ringTimeoutSeconds
      *
-     * @ElementName ringTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getRingTimeoutSeconds()
     {
-        return $this->ringTimeoutSeconds;
+        return $this->ringTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ringTimeoutSeconds;
     }
 
     /**
      * Setter for ringTimeoutSeconds
      *
-     * @ElementName ringTimeoutSeconds
-     * @param int|null $ringTimeoutSeconds
+     * @param int $ringTimeoutSeconds
      * @return $this
      */
     public function setRingTimeoutSeconds($ringTimeoutSeconds)
@@ -109,26 +125,42 @@ class SystemSubscriberGetCallProcessingParametersResponse14sp7 extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRingTimeoutSeconds()
+    {
+        $this->ringTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowEmergencyRemoteOfficeOriginations
      *
-     * @ElementName allowEmergencyRemoteOfficeOriginations
-     * @return bool|null
+     * @return bool
      */
     public function getAllowEmergencyRemoteOfficeOriginations()
     {
-        return $this->allowEmergencyRemoteOfficeOriginations;
+        return $this->allowEmergencyRemoteOfficeOriginations instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowEmergencyRemoteOfficeOriginations;
     }
 
     /**
      * Setter for allowEmergencyRemoteOfficeOriginations
      *
-     * @ElementName allowEmergencyRemoteOfficeOriginations
-     * @param bool|null $allowEmergencyRemoteOfficeOriginations
+     * @param bool $allowEmergencyRemoteOfficeOriginations
      * @return $this
      */
     public function setAllowEmergencyRemoteOfficeOriginations($allowEmergencyRemoteOfficeOriginations)
     {
         $this->allowEmergencyRemoteOfficeOriginations = $allowEmergencyRemoteOfficeOriginations;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowEmergencyRemoteOfficeOriginations()
+    {
+        $this->allowEmergencyRemoteOfficeOriginations = null;
         return $this;
     }
 

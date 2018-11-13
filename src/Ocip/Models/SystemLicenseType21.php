@@ -25,7 +25,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SystemLicenseType21 SYSTEM_VOICE_PORTAL()
  * @method static SystemLicenseType21 NUMBER_PORTABILITY_QUERY()
  * @method static SystemLicenseType21 DEUTSCHE_TELEKOM_HPBX_PROPRIETARY()
- * @ValueType string
+ * @EnumValueType string
  */
 class SystemLicenseType21 extends \MyCLabs\Enum\Enum
 {

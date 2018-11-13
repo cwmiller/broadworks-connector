@@ -17,24 +17,28 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName outgoingDTGPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null
      */
     private $outgoingDTGPolicy = null;
 
     /**
      * @ElementName outgoingTrunkIdentityPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null
      */
     private $outgoingTrunkIdentityPolicy = null;
 
     /**
      * @ElementName directRouteIdentityList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -43,19 +47,17 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -65,21 +67,28 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for outgoingDTGPolicy
      *
-     * @ElementName outgoingDTGPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy
      */
     public function getOutgoingDTGPolicy()
     {
-        return $this->outgoingDTGPolicy;
+        return $this->outgoingDTGPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outgoingDTGPolicy;
     }
 
     /**
      * Setter for outgoingDTGPolicy
      *
-     * @ElementName outgoingDTGPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null $outgoingDTGPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy $outgoingDTGPolicy
      * @return $this
      */
     public function setOutgoingDTGPolicy(\CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy $outgoingDTGPolicy)
@@ -89,21 +98,28 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOutgoingDTGPolicy()
+    {
+        $this->outgoingDTGPolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for outgoingTrunkIdentityPolicy
      *
-     * @ElementName outgoingTrunkIdentityPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy
      */
     public function getOutgoingTrunkIdentityPolicy()
     {
-        return $this->outgoingTrunkIdentityPolicy;
+        return $this->outgoingTrunkIdentityPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outgoingTrunkIdentityPolicy;
     }
 
     /**
      * Setter for outgoingTrunkIdentityPolicy
      *
-     * @ElementName outgoingTrunkIdentityPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null $outgoingTrunkIdentityPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy $outgoingTrunkIdentityPolicy
      * @return $this
      */
     public function setOutgoingTrunkIdentityPolicy(\CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy $outgoingTrunkIdentityPolicy)
@@ -113,28 +129,46 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOutgoingTrunkIdentityPolicy()
+    {
+        $this->outgoingTrunkIdentityPolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for directRouteIdentityList
      *
-     * @ElementName directRouteIdentityList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null
      */
     public function getDirectRouteIdentityList()
     {
-        return $this->directRouteIdentityList;
+        return $this->directRouteIdentityList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->directRouteIdentityList;
     }
 
     /**
      * Setter for directRouteIdentityList
      *
-     * @ElementName directRouteIdentityList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null|\CWM\BroadWorksConnector\Ocip\Nil $directRouteIdentityList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null $directRouteIdentityList
      * @return $this
      */
     public function setDirectRouteIdentityList(\CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList $directRouteIdentityList)
     {
-        $this->directRouteIdentityList = $directRouteIdentityList;
+        if ($directRouteIdentityList === null) {
+            $this->directRouteIdentityList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->directRouteIdentityList = $directRouteIdentityList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDirectRouteIdentityList()
+    {
+        $this->directRouteIdentityList = null;
         return $this;
     }
 

@@ -26,18 +26,21 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
 
     /**
      * @ElementName intraLataCarrier
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,6 +48,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName interLataCarrier
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,6 +56,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName internationalCarrier
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -60,19 +65,17 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -82,21 +85,28 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
@@ -106,80 +116,116 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for intraLataCarrier
      *
-     * @ElementName intraLataCarrier
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getIntraLataCarrier()
     {
-        return $this->intraLataCarrier;
+        return $this->intraLataCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->intraLataCarrier;
     }
 
     /**
      * Setter for intraLataCarrier
      *
-     * @ElementName intraLataCarrier
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $intraLataCarrier
+     * @param string|null $intraLataCarrier
      * @return $this
      */
     public function setIntraLataCarrier($intraLataCarrier)
     {
-        $this->intraLataCarrier = $intraLataCarrier;
+        if ($intraLataCarrier === null) {
+            $this->intraLataCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->intraLataCarrier = $intraLataCarrier;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIntraLataCarrier()
+    {
+        $this->intraLataCarrier = null;
         return $this;
     }
 
     /**
      * Getter for interLataCarrier
      *
-     * @ElementName interLataCarrier
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getInterLataCarrier()
     {
-        return $this->interLataCarrier;
+        return $this->interLataCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->interLataCarrier;
     }
 
     /**
      * Setter for interLataCarrier
      *
-     * @ElementName interLataCarrier
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $interLataCarrier
+     * @param string|null $interLataCarrier
      * @return $this
      */
     public function setInterLataCarrier($interLataCarrier)
     {
-        $this->interLataCarrier = $interLataCarrier;
+        if ($interLataCarrier === null) {
+            $this->interLataCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->interLataCarrier = $interLataCarrier;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInterLataCarrier()
+    {
+        $this->interLataCarrier = null;
         return $this;
     }
 
     /**
      * Getter for internationalCarrier
      *
-     * @ElementName internationalCarrier
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getInternationalCarrier()
     {
-        return $this->internationalCarrier;
+        return $this->internationalCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internationalCarrier;
     }
 
     /**
      * Setter for internationalCarrier
      *
-     * @ElementName internationalCarrier
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $internationalCarrier
+     * @param string|null $internationalCarrier
      * @return $this
      */
     public function setInternationalCarrier($internationalCarrier)
     {
-        $this->internationalCarrier = $internationalCarrier;
+        if ($internationalCarrier === null) {
+            $this->internationalCarrier = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->internationalCarrier = $internationalCarrier;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInternationalCarrier()
+    {
+        $this->internationalCarrier = null;
         return $this;
     }
 

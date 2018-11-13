@@ -12,6 +12,8 @@ class ProfileAndServiceSpeedDial8Info
 
     /**
      * @ElementName speedDialEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry[]
      */
     private $speedDialEntry = array(
@@ -21,18 +23,16 @@ class ProfileAndServiceSpeedDial8Info
     /**
      * Getter for speedDialEntry
      *
-     * @ElementName speedDialEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry[]
      */
     public function getSpeedDialEntry()
     {
-        return $this->speedDialEntry;
+        return $this->speedDialEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->speedDialEntry;
     }
 
     /**
      * Setter for speedDialEntry
      *
-     * @ElementName speedDialEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry[] $speedDialEntry
      * @return $this
      */
@@ -43,15 +43,23 @@ class ProfileAndServiceSpeedDial8Info
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSpeedDialEntry()
+    {
+        $this->speedDialEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for speedDialEntry
      *
-     * @ElementName speedDialEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\SpeedDial8Entry $speedDialEntry
      * @return $this
      */
     public function addSpeedDialEntry($speedDialEntry)
     {
-        $this->speedDialEntry []= $speedDialEntry;
+        $this->speedDialEntry[] = $speedDialEntry;
         return $this;
     }
 

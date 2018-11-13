@@ -16,12 +16,15 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName exclusionNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $exclusionNumber = array(
@@ -31,19 +34,17 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for exclusionNumber
      *
-     * @ElementName exclusionNumber
      * @return string[]
      */
     public function getExclusionNumber()
     {
-        return $this->exclusionNumber;
+        return $this->exclusionNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->exclusionNumber;
     }
 
     /**
      * Setter for exclusionNumber
      *
-     * @ElementName exclusionNumber
      * @param string[] $exclusionNumber
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserPersonalAssistantExclusionNumberDeleteListRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExclusionNumber()
+    {
+        $this->exclusionNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for exclusionNumber
      *
-     * @ElementName exclusionNumber
      * @param string $exclusionNumber
      * @return $this
      */
     public function addExclusionNumber(string $exclusionNumber)
     {
-        $this->exclusionNumber []= $exclusionNumber;
+        $this->exclusionNumber[] = $exclusionNumber;
         return $this;
     }
 

@@ -18,12 +18,14 @@ class UserScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName scheduleGlobalKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
      */
     private $scheduleGlobalKey = null;
@@ -31,19 +33,17 @@ class UserScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,26 +53,42 @@ class UserScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for scheduleGlobalKey
      *
-     * @ElementName scheduleGlobalKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey
      */
     public function getScheduleGlobalKey()
     {
-        return $this->scheduleGlobalKey;
+        return $this->scheduleGlobalKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scheduleGlobalKey;
     }
 
     /**
      * Setter for scheduleGlobalKey
      *
-     * @ElementName scheduleGlobalKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey|null $scheduleGlobalKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $scheduleGlobalKey
      * @return $this
      */
     public function setScheduleGlobalKey(\CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey $scheduleGlobalKey)
     {
         $this->scheduleGlobalKey = $scheduleGlobalKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetScheduleGlobalKey()
+    {
+        $this->scheduleGlobalKey = null;
         return $this;
     }
 

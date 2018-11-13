@@ -30,24 +30,29 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaModeOr
+     * @Type bool
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
 
     /**
      * @ElementName searchCriteriaUserPersonalPhoneListName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[]
      */
     private $searchCriteriaUserPersonalPhoneListName = array(
@@ -56,6 +61,8 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName searchCriteriaUserPersonalPhoneListNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[]
      */
     private $searchCriteriaUserPersonalPhoneListNumber = array(
@@ -65,19 +72,17 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -87,21 +92,28 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -111,21 +123,28 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaModeOr
      *
-     * @ElementName searchCriteriaModeOr
-     * @return bool|null
+     * @return bool
      */
     public function getSearchCriteriaModeOr()
     {
-        return $this->searchCriteriaModeOr;
+        return $this->searchCriteriaModeOr instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaModeOr;
     }
 
     /**
      * Setter for searchCriteriaModeOr
      *
-     * @ElementName searchCriteriaModeOr
-     * @param bool|null $searchCriteriaModeOr
+     * @param bool $searchCriteriaModeOr
      * @return $this
      */
     public function setSearchCriteriaModeOr($searchCriteriaModeOr)
@@ -135,20 +154,27 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaModeOr()
+    {
+        $this->searchCriteriaModeOr = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaUserPersonalPhoneListName
      *
-     * @ElementName searchCriteriaUserPersonalPhoneListName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[]
      */
     public function getSearchCriteriaUserPersonalPhoneListName()
     {
-        return $this->searchCriteriaUserPersonalPhoneListName;
+        return $this->searchCriteriaUserPersonalPhoneListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserPersonalPhoneListName;
     }
 
     /**
      * Setter for searchCriteriaUserPersonalPhoneListName
      *
-     * @ElementName searchCriteriaUserPersonalPhoneListName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName[] $searchCriteriaUserPersonalPhoneListName
      * @return $this
      */
@@ -159,33 +185,39 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserPersonalPhoneListName()
+    {
+        $this->searchCriteriaUserPersonalPhoneListName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserPersonalPhoneListName
      *
-     * @ElementName searchCriteriaUserPersonalPhoneListName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListName $searchCriteriaUserPersonalPhoneListName
      * @return $this
      */
     public function addSearchCriteriaUserPersonalPhoneListName($searchCriteriaUserPersonalPhoneListName)
     {
-        $this->searchCriteriaUserPersonalPhoneListName []= $searchCriteriaUserPersonalPhoneListName;
+        $this->searchCriteriaUserPersonalPhoneListName[] = $searchCriteriaUserPersonalPhoneListName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaUserPersonalPhoneListNumber
      *
-     * @ElementName searchCriteriaUserPersonalPhoneListNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[]
      */
     public function getSearchCriteriaUserPersonalPhoneListNumber()
     {
-        return $this->searchCriteriaUserPersonalPhoneListNumber;
+        return $this->searchCriteriaUserPersonalPhoneListNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaUserPersonalPhoneListNumber;
     }
 
     /**
      * Setter for searchCriteriaUserPersonalPhoneListNumber
      *
-     * @ElementName searchCriteriaUserPersonalPhoneListNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber[] $searchCriteriaUserPersonalPhoneListNumber
      * @return $this
      */
@@ -196,15 +228,23 @@ class UserPersonalPhoneListGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaUserPersonalPhoneListNumber()
+    {
+        $this->searchCriteriaUserPersonalPhoneListNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaUserPersonalPhoneListNumber
      *
-     * @ElementName searchCriteriaUserPersonalPhoneListNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserPersonalPhoneListNumber $searchCriteriaUserPersonalPhoneListNumber
      * @return $this
      */
     public function addSearchCriteriaUserPersonalPhoneListNumber($searchCriteriaUserPersonalPhoneListNumber)
     {
-        $this->searchCriteriaUserPersonalPhoneListNumber []= $searchCriteriaUserPersonalPhoneListNumber;
+        $this->searchCriteriaUserPersonalPhoneListNumber[] = $searchCriteriaUserPersonalPhoneListNumber;
         return $this;
     }
 

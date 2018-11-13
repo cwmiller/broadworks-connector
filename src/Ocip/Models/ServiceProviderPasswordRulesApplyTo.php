@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceProviderPasswordRulesApplyTo ADMINISTRATOR_AND_USER()
  * @method static ServiceProviderPasswordRulesApplyTo
  * GROUP_ADMINISTRATOR_AND_USER_EXTERNAL_AUTHENTICATION()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderPasswordRulesApplyTo extends \MyCLabs\Enum\Enum
 {

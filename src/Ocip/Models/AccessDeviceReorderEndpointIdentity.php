@@ -15,12 +15,14 @@ class AccessDeviceReorderEndpointIdentity
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName privateIdentity
+     * @Type string
      * @var string|null
      */
     private $privateIdentity = null;
@@ -28,19 +30,17 @@ class AccessDeviceReorderEndpointIdentity
     /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -50,26 +50,42 @@ class AccessDeviceReorderEndpointIdentity
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for privateIdentity
      *
-     * @ElementName privateIdentity
-     * @return string|null
+     * @return string
      */
     public function getPrivateIdentity()
     {
-        return $this->privateIdentity;
+        return $this->privateIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->privateIdentity;
     }
 
     /**
      * Setter for privateIdentity
      *
-     * @ElementName privateIdentity
-     * @param string|null $privateIdentity
+     * @param string $privateIdentity
      * @return $this
      */
     public function setPrivateIdentity($privateIdentity)
     {
         $this->privateIdentity = $privateIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrivateIdentity()
+    {
+        $this->privateIdentity = null;
         return $this;
     }
 

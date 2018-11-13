@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static NumberActivationMode OFF()
  * @method static NumberActivationMode USER_ACTIVATION_ENABLED()
  * @method static NumberActivationMode GROUP_AND_USER_ACTIVATION_ENABLED()
- * @ValueType string
+ * @EnumValueType string
  */
 class NumberActivationMode extends \MyCLabs\Enum\Enum
 {

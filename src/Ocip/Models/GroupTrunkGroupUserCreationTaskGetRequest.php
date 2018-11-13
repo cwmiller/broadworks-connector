@@ -17,12 +17,14 @@ class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName taskName
+     * @Type string
      * @var string|null
      */
     private $taskName = null;
@@ -30,19 +32,17 @@ class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -52,26 +52,42 @@ class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for taskName
      *
-     * @ElementName taskName
-     * @return string|null
+     * @return string
      */
     public function getTaskName()
     {
-        return $this->taskName;
+        return $this->taskName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->taskName;
     }
 
     /**
      * Setter for taskName
      *
-     * @ElementName taskName
-     * @param string|null $taskName
+     * @param string $taskName
      * @return $this
      */
     public function setTaskName($taskName)
     {
         $this->taskName = $taskName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTaskName()
+    {
+        $this->taskName = null;
         return $this;
     }
 

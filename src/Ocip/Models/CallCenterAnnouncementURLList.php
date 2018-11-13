@@ -12,24 +12,28 @@ class CallCenterAnnouncementURLList
 
     /**
      * @ElementName url1
+     * @Type string
      * @var string|null
      */
     private $url1 = null;
 
     /**
      * @ElementName url2
+     * @Type string
      * @var string|null
      */
     private $url2 = null;
 
     /**
      * @ElementName url3
+     * @Type string
      * @var string|null
      */
     private $url3 = null;
 
     /**
      * @ElementName url4
+     * @Type string
      * @var string|null
      */
     private $url4 = null;
@@ -37,19 +41,17 @@ class CallCenterAnnouncementURLList
     /**
      * Getter for url1
      *
-     * @ElementName url1
-     * @return string|null
+     * @return string
      */
     public function getUrl1()
     {
-        return $this->url1;
+        return $this->url1 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url1;
     }
 
     /**
      * Setter for url1
      *
-     * @ElementName url1
-     * @param string|null $url1
+     * @param string $url1
      * @return $this
      */
     public function setUrl1($url1)
@@ -59,21 +61,28 @@ class CallCenterAnnouncementURLList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUrl1()
+    {
+        $this->url1 = null;
+        return $this;
+    }
+
+    /**
      * Getter for url2
      *
-     * @ElementName url2
-     * @return string|null
+     * @return string
      */
     public function getUrl2()
     {
-        return $this->url2;
+        return $this->url2 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url2;
     }
 
     /**
      * Setter for url2
      *
-     * @ElementName url2
-     * @param string|null $url2
+     * @param string $url2
      * @return $this
      */
     public function setUrl2($url2)
@@ -83,21 +92,28 @@ class CallCenterAnnouncementURLList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUrl2()
+    {
+        $this->url2 = null;
+        return $this;
+    }
+
+    /**
      * Getter for url3
      *
-     * @ElementName url3
-     * @return string|null
+     * @return string
      */
     public function getUrl3()
     {
-        return $this->url3;
+        return $this->url3 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url3;
     }
 
     /**
      * Setter for url3
      *
-     * @ElementName url3
-     * @param string|null $url3
+     * @param string $url3
      * @return $this
      */
     public function setUrl3($url3)
@@ -107,26 +123,42 @@ class CallCenterAnnouncementURLList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUrl3()
+    {
+        $this->url3 = null;
+        return $this;
+    }
+
+    /**
      * Getter for url4
      *
-     * @ElementName url4
-     * @return string|null
+     * @return string
      */
     public function getUrl4()
     {
-        return $this->url4;
+        return $this->url4 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url4;
     }
 
     /**
      * Setter for url4
      *
-     * @ElementName url4
-     * @param string|null $url4
+     * @param string $url4
      * @return $this
      */
     public function setUrl4($url4)
     {
         $this->url4 = $url4;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUrl4()
+    {
+        $this->url4 = null;
         return $this;
     }
 

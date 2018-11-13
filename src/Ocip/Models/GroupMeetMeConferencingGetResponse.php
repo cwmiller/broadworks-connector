@@ -14,12 +14,14 @@ class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName availablePorts
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $availablePorts = null;
 
     /**
      * @ElementName allocatedPorts
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;
@@ -27,19 +29,17 @@ class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for availablePorts
      *
-     * @ElementName availablePorts
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      */
     public function getAvailablePorts()
     {
-        return $this->availablePorts;
+        return $this->availablePorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->availablePorts;
     }
 
     /**
      * Setter for availablePorts
      *
-     * @ElementName availablePorts
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null $availablePorts
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $availablePorts
      * @return $this
      */
     public function setAvailablePorts(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $availablePorts)
@@ -49,26 +49,42 @@ class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAvailablePorts()
+    {
+        $this->availablePorts = null;
+        return $this;
+    }
+
+    /**
      * Getter for allocatedPorts
      *
-     * @ElementName allocatedPorts
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
      */
     public function getAllocatedPorts()
     {
-        return $this->allocatedPorts;
+        return $this->allocatedPorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allocatedPorts;
     }
 
     /**
      * Setter for allocatedPorts
      *
-     * @ElementName allocatedPorts
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null $allocatedPorts
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts
      * @return $this
      */
     public function setAllocatedPorts(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts $allocatedPorts)
     {
         $this->allocatedPorts = $allocatedPorts;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllocatedPorts()
+    {
+        $this->allocatedPorts = null;
         return $this;
     }
 

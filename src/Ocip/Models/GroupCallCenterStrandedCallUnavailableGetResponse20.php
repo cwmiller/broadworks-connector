@@ -14,66 +14,77 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
 
     /**
      * @ElementName conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
+     * @Type bool
      * @var bool|null
      */
     private $conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode = null;
 
     /**
      * @ElementName numberOfAgentsWithSpecifiedUnavailableCode
+     * @Type int
      * @var int|null
      */
     private $numberOfAgentsWithSpecifiedUnavailableCode = null;
 
     /**
      * @ElementName agentsUnavailableCode
+     * @Type string
      * @var string|null
      */
     private $agentsUnavailableCode = null;
 
     /**
      * @ElementName action
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction|null
      */
     private $action = null;
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $transferPhoneNumber = null;
 
     /**
      * @ElementName audioMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
 
     /**
      * @ElementName audioUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $audioUrlList = null;
 
     /**
      * @ElementName audioFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $audioFileList = null;
 
     /**
      * @ElementName videoMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
 
     /**
      * @ElementName videoUrlList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $videoUrlList = null;
 
     /**
      * @ElementName videoFileList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $videoFileList = null;
@@ -81,19 +92,17 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     /**
      * Getter for conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
      *
-     * @ElementName conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
-     * @return bool|null
+     * @return bool
      */
     public function getConditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode()
     {
-        return $this->conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode;
+        return $this->conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode;
     }
 
     /**
      * Setter for conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
      *
-     * @ElementName conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
-     * @param bool|null $conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
+     * @param bool $conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode
      * @return $this
      */
     public function setConditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode($conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode)
@@ -103,21 +112,28 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode()
+    {
+        $this->conditionPolicyOnNumberOfAgentsWithSpecifiedUnavailableCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfAgentsWithSpecifiedUnavailableCode
      *
-     * @ElementName numberOfAgentsWithSpecifiedUnavailableCode
-     * @return int|null
+     * @return int
      */
     public function getNumberOfAgentsWithSpecifiedUnavailableCode()
     {
-        return $this->numberOfAgentsWithSpecifiedUnavailableCode;
+        return $this->numberOfAgentsWithSpecifiedUnavailableCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfAgentsWithSpecifiedUnavailableCode;
     }
 
     /**
      * Setter for numberOfAgentsWithSpecifiedUnavailableCode
      *
-     * @ElementName numberOfAgentsWithSpecifiedUnavailableCode
-     * @param int|null $numberOfAgentsWithSpecifiedUnavailableCode
+     * @param int $numberOfAgentsWithSpecifiedUnavailableCode
      * @return $this
      */
     public function setNumberOfAgentsWithSpecifiedUnavailableCode($numberOfAgentsWithSpecifiedUnavailableCode)
@@ -127,21 +143,28 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfAgentsWithSpecifiedUnavailableCode()
+    {
+        $this->numberOfAgentsWithSpecifiedUnavailableCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentsUnavailableCode
      *
-     * @ElementName agentsUnavailableCode
-     * @return string|null
+     * @return string
      */
     public function getAgentsUnavailableCode()
     {
-        return $this->agentsUnavailableCode;
+        return $this->agentsUnavailableCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentsUnavailableCode;
     }
 
     /**
      * Setter for agentsUnavailableCode
      *
-     * @ElementName agentsUnavailableCode
-     * @param string|null $agentsUnavailableCode
+     * @param string $agentsUnavailableCode
      * @return $this
      */
     public function setAgentsUnavailableCode($agentsUnavailableCode)
@@ -151,21 +174,28 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentsUnavailableCode()
+    {
+        $this->agentsUnavailableCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for action
      *
-     * @ElementName action
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction
      */
     public function getAction()
     {
-        return $this->action;
+        return $this->action instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->action;
     }
 
     /**
      * Setter for action
      *
-     * @ElementName action
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction|null $action
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction $action
      * @return $this
      */
     public function setAction(\CWM\BroadWorksConnector\Ocip\Models\CallCenterStrandedCallUnavailableProcessingAction $action)
@@ -175,21 +205,28 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAction()
+    {
+        $this->action = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @param string|null $transferPhoneNumber
+     * @param string $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
@@ -199,21 +236,28 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getAudioMessageSelection()
     {
-        return $this->audioMessageSelection;
+        return $this->audioMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioMessageSelection;
     }
 
     /**
      * Setter for audioMessageSelection
      *
-     * @ElementName audioMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $audioMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection
      * @return $this
      */
     public function setAudioMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $audioMessageSelection)
@@ -223,21 +267,28 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioMessageSelection()
+    {
+        $this->audioMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioUrlList
      *
-     * @ElementName audioUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      */
     public function getAudioUrlList()
     {
-        return $this->audioUrlList;
+        return $this->audioUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioUrlList;
     }
 
     /**
      * Setter for audioUrlList
      *
-     * @ElementName audioUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $audioUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $audioUrlList
      * @return $this
      */
     public function setAudioUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $audioUrlList)
@@ -247,21 +298,28 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioUrlList()
+    {
+        $this->audioUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFileList
      *
-     * @ElementName audioFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      */
     public function getAudioFileList()
     {
-        return $this->audioFileList;
+        return $this->audioFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFileList;
     }
 
     /**
      * Setter for audioFileList
      *
-     * @ElementName audioFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null $audioFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $audioFileList
      * @return $this
      */
     public function setAudioFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $audioFileList)
@@ -271,21 +329,28 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAudioFileList()
+    {
+        $this->audioFileList = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
      */
     public function getVideoMessageSelection()
     {
-        return $this->videoMessageSelection;
+        return $this->videoMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoMessageSelection;
     }
 
     /**
      * Setter for videoMessageSelection
      *
-     * @ElementName videoMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null $videoMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection
      * @return $this
      */
     public function setVideoMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection $videoMessageSelection)
@@ -295,21 +360,28 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoMessageSelection()
+    {
+        $this->videoMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoUrlList
      *
-     * @ElementName videoUrlList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
      */
     public function getVideoUrlList()
     {
-        return $this->videoUrlList;
+        return $this->videoUrlList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoUrlList;
     }
 
     /**
      * Setter for videoUrlList
      *
-     * @ElementName videoUrlList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null $videoUrlList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $videoUrlList
      * @return $this
      */
     public function setVideoUrlList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList $videoUrlList)
@@ -319,26 +391,42 @@ class GroupCallCenterStrandedCallUnavailableGetResponse20 extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVideoUrlList()
+    {
+        $this->videoUrlList = null;
+        return $this;
+    }
+
+    /**
      * Getter for videoFileList
      *
-     * @ElementName videoFileList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
      */
     public function getVideoFileList()
     {
-        return $this->videoFileList;
+        return $this->videoFileList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->videoFileList;
     }
 
     /**
      * Setter for videoFileList
      *
-     * @ElementName videoFileList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null $videoFileList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $videoFileList
      * @return $this
      */
     public function setVideoFileList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20 $videoFileList)
     {
         $this->videoFileList = $videoFileList;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVideoFileList()
+    {
+        $this->videoFileList = null;
         return $this;
     }
 

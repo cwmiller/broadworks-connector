@@ -16,6 +16,7 @@ class SystemTreatmentMappingInternalReleaseCauseDeleteRequest extends \CWM\Broad
 
     /**
      * @ElementName internalReleaseCause
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     private $internalReleaseCause = null;
@@ -23,24 +24,31 @@ class SystemTreatmentMappingInternalReleaseCauseDeleteRequest extends \CWM\Broad
     /**
      * Getter for internalReleaseCause
      *
-     * @ElementName internalReleaseCause
-     * @return \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
      */
     public function getInternalReleaseCause()
     {
-        return $this->internalReleaseCause;
+        return $this->internalReleaseCause instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internalReleaseCause;
     }
 
     /**
      * Setter for internalReleaseCause
      *
-     * @ElementName internalReleaseCause
-     * @param \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null $internalReleaseCause
+     * @param \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16 $internalReleaseCause
      * @return $this
      */
     public function setInternalReleaseCause(\CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16 $internalReleaseCause)
     {
         $this->internalReleaseCause = $internalReleaseCause;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInternalReleaseCause()
+    {
+        $this->internalReleaseCause = null;
         return $this;
     }
 

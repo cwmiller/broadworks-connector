@@ -20,6 +20,7 @@ class SystemTreatmentMappingCallBlockingServiceDeleteRequest extends \CWM\BroadW
 
     /**
      * @ElementName callBlockingService
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService|null
      */
     private $callBlockingService = null;
@@ -27,24 +28,31 @@ class SystemTreatmentMappingCallBlockingServiceDeleteRequest extends \CWM\BroadW
     /**
      * Getter for callBlockingService
      *
-     * @ElementName callBlockingService
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService
      */
     public function getCallBlockingService()
     {
-        return $this->callBlockingService;
+        return $this->callBlockingService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callBlockingService;
     }
 
     /**
      * Setter for callBlockingService
      *
-     * @ElementName callBlockingService
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService|null $callBlockingService
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallBlockingService $callBlockingService
      * @return $this
      */
     public function setCallBlockingService(\CWM\BroadWorksConnector\Ocip\Models\CallBlockingService $callBlockingService)
     {
         $this->callBlockingService = $callBlockingService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallBlockingService()
+    {
+        $this->callBlockingService = null;
         return $this;
     }
 

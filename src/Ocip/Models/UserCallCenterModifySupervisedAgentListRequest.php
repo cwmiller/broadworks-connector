@@ -16,18 +16,21 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName supervisorUserId
+     * @Type string
      * @var string|null
      */
     private $supervisorUserId = null;
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName agentUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,19 +39,17 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
     /**
      * Getter for supervisorUserId
      *
-     * @ElementName supervisorUserId
-     * @return string|null
+     * @return string
      */
     public function getSupervisorUserId()
     {
-        return $this->supervisorUserId;
+        return $this->supervisorUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supervisorUserId;
     }
 
     /**
      * Setter for supervisorUserId
      *
-     * @ElementName supervisorUserId
-     * @param string|null $supervisorUserId
+     * @param string $supervisorUserId
      * @return $this
      */
     public function setSupervisorUserId($supervisorUserId)
@@ -58,21 +59,28 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupervisorUserId()
+    {
+        $this->supervisorUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -82,28 +90,46 @@ class UserCallCenterModifySupervisedAgentListRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentUserIdList
      *
-     * @ElementName agentUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getAgentUserIdList()
     {
-        return $this->agentUserIdList;
+        return $this->agentUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserIdList;
     }
 
     /**
      * Setter for agentUserIdList
      *
-     * @ElementName agentUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
     {
-        $this->agentUserIdList = $agentUserIdList;
+        if ($agentUserIdList === null) {
+            $this->agentUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->agentUserIdList = $agentUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentUserIdList()
+    {
+        $this->agentUserIdList = null;
         return $this;
     }
 

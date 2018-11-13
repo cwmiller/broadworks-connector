@@ -17,12 +17,14 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName code
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,19 +33,17 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,28 +53,46 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeModifyRequest extends \CW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for code
      *
-     * @ElementName code
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->code;
     }
 
     /**
      * Setter for code
      *
-     * @ElementName code
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $code
+     * @param string|null $code
      * @return $this
      */
     public function setCode($code)
     {
-        $this->code = $code;
+        if ($code === null) {
+            $this->code = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->code = $code;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCode()
+    {
+        $this->code = null;
         return $this;
     }
 

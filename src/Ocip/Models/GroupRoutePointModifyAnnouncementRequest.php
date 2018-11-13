@@ -16,12 +16,14 @@ class GroupRoutePointModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName mediaOnHoldSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17|null
      */
     private $mediaOnHoldSource = null;
@@ -29,19 +31,17 @@ class GroupRoutePointModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -51,26 +51,42 @@ class GroupRoutePointModifyAnnouncementRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for mediaOnHoldSource
      *
-     * @ElementName mediaOnHoldSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17
      */
     public function getMediaOnHoldSource()
     {
-        return $this->mediaOnHoldSource;
+        return $this->mediaOnHoldSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaOnHoldSource;
     }
 
     /**
      * Setter for mediaOnHoldSource
      *
-     * @ElementName mediaOnHoldSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17|null $mediaOnHoldSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17 $mediaOnHoldSource
      * @return $this
      */
     public function setMediaOnHoldSource(\CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17 $mediaOnHoldSource)
     {
         $this->mediaOnHoldSource = $mediaOnHoldSource;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMediaOnHoldSource()
+    {
+        $this->mediaOnHoldSource = null;
         return $this;
     }
 

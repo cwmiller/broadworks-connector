@@ -15,42 +15,49 @@ class AccessDeviceMultipleIdentityEndpointWithType
 
     /**
      * @ElementName accessDevice
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName privateIdentity
+     * @Type string
      * @var string|null
      */
     private $privateIdentity = null;
 
     /**
      * @ElementName contact
+     * @Type string
      * @var string|null
      */
     private $contact = null;
 
     /**
      * @ElementName portNumber
+     * @Type int
      * @var int|null
      */
     private $portNumber = null;
 
     /**
      * @ElementName macAddress
+     * @Type string
      * @var string|null
      */
     private $macAddress = null;
@@ -58,19 +65,17 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * Getter for accessDevice
      *
-     * @ElementName accessDevice
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      */
     public function getAccessDevice()
     {
-        return $this->accessDevice;
+        return $this->accessDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDevice;
     }
 
     /**
      * Setter for accessDevice
      *
-     * @ElementName accessDevice
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice
      * @return $this
      */
     public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
@@ -80,21 +85,28 @@ class AccessDeviceMultipleIdentityEndpointWithType
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDevice()
+    {
+        $this->accessDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -104,21 +116,28 @@ class AccessDeviceMultipleIdentityEndpointWithType
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -128,21 +147,28 @@ class AccessDeviceMultipleIdentityEndpointWithType
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for privateIdentity
      *
-     * @ElementName privateIdentity
-     * @return string|null
+     * @return string
      */
     public function getPrivateIdentity()
     {
-        return $this->privateIdentity;
+        return $this->privateIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->privateIdentity;
     }
 
     /**
      * Setter for privateIdentity
      *
-     * @ElementName privateIdentity
-     * @param string|null $privateIdentity
+     * @param string $privateIdentity
      * @return $this
      */
     public function setPrivateIdentity($privateIdentity)
@@ -152,21 +178,28 @@ class AccessDeviceMultipleIdentityEndpointWithType
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrivateIdentity()
+    {
+        $this->privateIdentity = null;
+        return $this;
+    }
+
+    /**
      * Getter for contact
      *
-     * @ElementName contact
-     * @return string|null
+     * @return string
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
-     * @param string|null $contact
+     * @param string $contact
      * @return $this
      */
     public function setContact($contact)
@@ -176,21 +209,28 @@ class AccessDeviceMultipleIdentityEndpointWithType
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Getter for portNumber
      *
-     * @ElementName portNumber
-     * @return int|null
+     * @return int
      */
     public function getPortNumber()
     {
-        return $this->portNumber;
+        return $this->portNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->portNumber;
     }
 
     /**
      * Setter for portNumber
      *
-     * @ElementName portNumber
-     * @param int|null $portNumber
+     * @param int $portNumber
      * @return $this
      */
     public function setPortNumber($portNumber)
@@ -200,26 +240,42 @@ class AccessDeviceMultipleIdentityEndpointWithType
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPortNumber()
+    {
+        $this->portNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for macAddress
      *
-     * @ElementName macAddress
-     * @return string|null
+     * @return string
      */
     public function getMacAddress()
     {
-        return $this->macAddress;
+        return $this->macAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->macAddress;
     }
 
     /**
      * Setter for macAddress
      *
-     * @ElementName macAddress
-     * @param string|null $macAddress
+     * @param string $macAddress
      * @return $this
      */
     public function setMacAddress($macAddress)
     {
         $this->macAddress = $macAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMacAddress()
+    {
+        $this->macAddress = null;
         return $this;
     }
 

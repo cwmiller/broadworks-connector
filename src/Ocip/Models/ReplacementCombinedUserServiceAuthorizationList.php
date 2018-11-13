@@ -12,6 +12,8 @@ class ReplacementCombinedUserServiceAuthorizationList
 
     /**
      * @ElementName userServiceAuthorization
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAuthorization
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAuthorization[]
      */
     private $userServiceAuthorization = array(
@@ -21,18 +23,16 @@ class ReplacementCombinedUserServiceAuthorizationList
     /**
      * Getter for userServiceAuthorization
      *
-     * @ElementName userServiceAuthorization
      * @return \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAuthorization[]
      */
     public function getUserServiceAuthorization()
     {
-        return $this->userServiceAuthorization;
+        return $this->userServiceAuthorization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServiceAuthorization;
     }
 
     /**
      * Setter for userServiceAuthorization
      *
-     * @ElementName userServiceAuthorization
      * @param \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAuthorization[] $userServiceAuthorization
      * @return $this
      */
@@ -43,15 +43,23 @@ class ReplacementCombinedUserServiceAuthorizationList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserServiceAuthorization()
+    {
+        $this->userServiceAuthorization = null;
+        return $this;
+    }
+
+    /**
      * Adder for userServiceAuthorization
      *
-     * @ElementName userServiceAuthorization
      * @param \CWM\BroadWorksConnector\Ocip\Models\CombinedUserServiceAuthorization $userServiceAuthorization
      * @return $this
      */
     public function addUserServiceAuthorization($userServiceAuthorization)
     {
-        $this->userServiceAuthorization []= $userServiceAuthorization;
+        $this->userServiceAuthorization[] = $userServiceAuthorization;
         return $this;
     }
 

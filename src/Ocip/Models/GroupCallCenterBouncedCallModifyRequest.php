@@ -16,30 +16,35 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
+     * @Type int
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
 
     /**
      * @ElementName enableTransfer
+     * @Type bool
      * @var bool|null
      */
     private $enableTransfer = null;
 
     /**
      * @ElementName transferPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,30 +52,35 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName bounceCallWhenAgentUnavailable
+     * @Type bool
      * @var bool|null
      */
     private $bounceCallWhenAgentUnavailable = null;
 
     /**
      * @ElementName alertCallCenterCallOnHold
+     * @Type bool
      * @var bool|null
      */
     private $alertCallCenterCallOnHold = null;
 
     /**
      * @ElementName alertCallCenterCallOnHoldSeconds
+     * @Type int
      * @var int|null
      */
     private $alertCallCenterCallOnHoldSeconds = null;
 
     /**
      * @ElementName bounceCallCenterCallOnHold
+     * @Type bool
      * @var bool|null
      */
     private $bounceCallCenterCallOnHold = null;
 
     /**
      * @ElementName bounceCallCenterCallOnHoldSeconds
+     * @Type int
      * @var int|null
      */
     private $bounceCallCenterCallOnHoldSeconds = null;
@@ -78,19 +88,17 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -100,21 +108,28 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -124,21 +139,28 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfRingsBeforeBouncingCall
      *
-     * @ElementName numberOfRingsBeforeBouncingCall
-     * @return int|null
+     * @return int
      */
     public function getNumberOfRingsBeforeBouncingCall()
     {
-        return $this->numberOfRingsBeforeBouncingCall;
+        return $this->numberOfRingsBeforeBouncingCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfRingsBeforeBouncingCall;
     }
 
     /**
      * Setter for numberOfRingsBeforeBouncingCall
      *
-     * @ElementName numberOfRingsBeforeBouncingCall
-     * @param int|null $numberOfRingsBeforeBouncingCall
+     * @param int $numberOfRingsBeforeBouncingCall
      * @return $this
      */
     public function setNumberOfRingsBeforeBouncingCall($numberOfRingsBeforeBouncingCall)
@@ -148,21 +170,28 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfRingsBeforeBouncingCall()
+    {
+        $this->numberOfRingsBeforeBouncingCall = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableTransfer
      *
-     * @ElementName enableTransfer
-     * @return bool|null
+     * @return bool
      */
     public function getEnableTransfer()
     {
-        return $this->enableTransfer;
+        return $this->enableTransfer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableTransfer;
     }
 
     /**
      * Setter for enableTransfer
      *
-     * @ElementName enableTransfer
-     * @param bool|null $enableTransfer
+     * @param bool $enableTransfer
      * @return $this
      */
     public function setEnableTransfer($enableTransfer)
@@ -172,47 +201,63 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableTransfer()
+    {
+        $this->enableTransfer = null;
+        return $this;
+    }
+
+    /**
      * Getter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTransferPhoneNumber()
     {
-        return $this->transferPhoneNumber;
+        return $this->transferPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transferPhoneNumber;
     }
 
     /**
      * Setter for transferPhoneNumber
      *
-     * @ElementName transferPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $transferPhoneNumber
+     * @param string|null $transferPhoneNumber
      * @return $this
      */
     public function setTransferPhoneNumber($transferPhoneNumber)
     {
-        $this->transferPhoneNumber = $transferPhoneNumber;
+        if ($transferPhoneNumber === null) {
+            $this->transferPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->transferPhoneNumber = $transferPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTransferPhoneNumber()
+    {
+        $this->transferPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for bounceCallWhenAgentUnavailable
      *
-     * @ElementName bounceCallWhenAgentUnavailable
-     * @return bool|null
+     * @return bool
      */
     public function getBounceCallWhenAgentUnavailable()
     {
-        return $this->bounceCallWhenAgentUnavailable;
+        return $this->bounceCallWhenAgentUnavailable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bounceCallWhenAgentUnavailable;
     }
 
     /**
      * Setter for bounceCallWhenAgentUnavailable
      *
-     * @ElementName bounceCallWhenAgentUnavailable
-     * @param bool|null $bounceCallWhenAgentUnavailable
+     * @param bool $bounceCallWhenAgentUnavailable
      * @return $this
      */
     public function setBounceCallWhenAgentUnavailable($bounceCallWhenAgentUnavailable)
@@ -222,21 +267,28 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBounceCallWhenAgentUnavailable()
+    {
+        $this->bounceCallWhenAgentUnavailable = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertCallCenterCallOnHold
      *
-     * @ElementName alertCallCenterCallOnHold
-     * @return bool|null
+     * @return bool
      */
     public function getAlertCallCenterCallOnHold()
     {
-        return $this->alertCallCenterCallOnHold;
+        return $this->alertCallCenterCallOnHold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertCallCenterCallOnHold;
     }
 
     /**
      * Setter for alertCallCenterCallOnHold
      *
-     * @ElementName alertCallCenterCallOnHold
-     * @param bool|null $alertCallCenterCallOnHold
+     * @param bool $alertCallCenterCallOnHold
      * @return $this
      */
     public function setAlertCallCenterCallOnHold($alertCallCenterCallOnHold)
@@ -246,21 +298,28 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertCallCenterCallOnHold()
+    {
+        $this->alertCallCenterCallOnHold = null;
+        return $this;
+    }
+
+    /**
      * Getter for alertCallCenterCallOnHoldSeconds
      *
-     * @ElementName alertCallCenterCallOnHoldSeconds
-     * @return int|null
+     * @return int
      */
     public function getAlertCallCenterCallOnHoldSeconds()
     {
-        return $this->alertCallCenterCallOnHoldSeconds;
+        return $this->alertCallCenterCallOnHoldSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertCallCenterCallOnHoldSeconds;
     }
 
     /**
      * Setter for alertCallCenterCallOnHoldSeconds
      *
-     * @ElementName alertCallCenterCallOnHoldSeconds
-     * @param int|null $alertCallCenterCallOnHoldSeconds
+     * @param int $alertCallCenterCallOnHoldSeconds
      * @return $this
      */
     public function setAlertCallCenterCallOnHoldSeconds($alertCallCenterCallOnHoldSeconds)
@@ -270,21 +329,28 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertCallCenterCallOnHoldSeconds()
+    {
+        $this->alertCallCenterCallOnHoldSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for bounceCallCenterCallOnHold
      *
-     * @ElementName bounceCallCenterCallOnHold
-     * @return bool|null
+     * @return bool
      */
     public function getBounceCallCenterCallOnHold()
     {
-        return $this->bounceCallCenterCallOnHold;
+        return $this->bounceCallCenterCallOnHold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bounceCallCenterCallOnHold;
     }
 
     /**
      * Setter for bounceCallCenterCallOnHold
      *
-     * @ElementName bounceCallCenterCallOnHold
-     * @param bool|null $bounceCallCenterCallOnHold
+     * @param bool $bounceCallCenterCallOnHold
      * @return $this
      */
     public function setBounceCallCenterCallOnHold($bounceCallCenterCallOnHold)
@@ -294,26 +360,42 @@ class GroupCallCenterBouncedCallModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBounceCallCenterCallOnHold()
+    {
+        $this->bounceCallCenterCallOnHold = null;
+        return $this;
+    }
+
+    /**
      * Getter for bounceCallCenterCallOnHoldSeconds
      *
-     * @ElementName bounceCallCenterCallOnHoldSeconds
-     * @return int|null
+     * @return int
      */
     public function getBounceCallCenterCallOnHoldSeconds()
     {
-        return $this->bounceCallCenterCallOnHoldSeconds;
+        return $this->bounceCallCenterCallOnHoldSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bounceCallCenterCallOnHoldSeconds;
     }
 
     /**
      * Setter for bounceCallCenterCallOnHoldSeconds
      *
-     * @ElementName bounceCallCenterCallOnHoldSeconds
-     * @param int|null $bounceCallCenterCallOnHoldSeconds
+     * @param int $bounceCallCenterCallOnHoldSeconds
      * @return $this
      */
     public function setBounceCallCenterCallOnHoldSeconds($bounceCallCenterCallOnHoldSeconds)
     {
         $this->bounceCallCenterCallOnHoldSeconds = $bounceCallCenterCallOnHoldSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBounceCallCenterCallOnHoldSeconds()
+    {
+        $this->bounceCallCenterCallOnHoldSeconds = null;
         return $this;
     }
 

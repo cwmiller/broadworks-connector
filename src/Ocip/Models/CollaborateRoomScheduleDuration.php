@@ -12,12 +12,14 @@ class CollaborateRoomScheduleDuration
 
     /**
      * @ElementName hours
+     * @Type int
      * @var int|null
      */
     private $hours = null;
 
     /**
      * @ElementName minutes
+     * @Type int
      * @var int|null
      */
     private $minutes = null;
@@ -25,19 +27,17 @@ class CollaborateRoomScheduleDuration
     /**
      * Getter for hours
      *
-     * @ElementName hours
-     * @return int|null
+     * @return int
      */
     public function getHours()
     {
-        return $this->hours;
+        return $this->hours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hours;
     }
 
     /**
      * Setter for hours
      *
-     * @ElementName hours
-     * @param int|null $hours
+     * @param int $hours
      * @return $this
      */
     public function setHours($hours)
@@ -47,26 +47,42 @@ class CollaborateRoomScheduleDuration
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHours()
+    {
+        $this->hours = null;
+        return $this;
+    }
+
+    /**
      * Getter for minutes
      *
-     * @ElementName minutes
-     * @return int|null
+     * @return int
      */
     public function getMinutes()
     {
-        return $this->minutes;
+        return $this->minutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->minutes;
     }
 
     /**
      * Setter for minutes
      *
-     * @ElementName minutes
-     * @param int|null $minutes
+     * @param int $minutes
      * @return $this
      */
     public function setMinutes($minutes)
     {
         $this->minutes = $minutes;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMinutes()
+    {
+        $this->minutes = null;
         return $this;
     }
 

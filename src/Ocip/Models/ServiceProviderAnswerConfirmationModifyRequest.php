@@ -18,24 +18,28 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName announcementMessageSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
 
     /**
      * @ElementName confirmationMessageAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $confirmationMessageAudioFile = null;
 
     /**
      * @ElementName confirmationTimoutSeconds
+     * @Type int
      * @var int|null
      */
     private $confirmationTimoutSeconds = null;
@@ -43,19 +47,17 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -65,21 +67,28 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementMessageSelection
      *
-     * @ElementName announcementMessageSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
      */
     public function getAnnouncementMessageSelection()
     {
-        return $this->announcementMessageSelection;
+        return $this->announcementMessageSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementMessageSelection;
     }
 
     /**
      * Setter for announcementMessageSelection
      *
-     * @ElementName announcementMessageSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null $announcementMessageSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection $announcementMessageSelection
      * @return $this
      */
     public function setAnnouncementMessageSelection(\CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection $announcementMessageSelection)
@@ -89,21 +98,28 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementMessageSelection()
+    {
+        $this->announcementMessageSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for confirmationMessageAudioFile
      *
-     * @ElementName confirmationMessageAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
      */
     public function getConfirmationMessageAudioFile()
     {
-        return $this->confirmationMessageAudioFile;
+        return $this->confirmationMessageAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmationMessageAudioFile;
     }
 
     /**
      * Setter for confirmationMessageAudioFile
      *
-     * @ElementName confirmationMessageAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null $confirmationMessageAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $confirmationMessageAudioFile
      * @return $this
      */
     public function setConfirmationMessageAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource $confirmationMessageAudioFile)
@@ -113,26 +129,42 @@ class ServiceProviderAnswerConfirmationModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfirmationMessageAudioFile()
+    {
+        $this->confirmationMessageAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for confirmationTimoutSeconds
      *
-     * @ElementName confirmationTimoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getConfirmationTimoutSeconds()
     {
-        return $this->confirmationTimoutSeconds;
+        return $this->confirmationTimoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmationTimoutSeconds;
     }
 
     /**
      * Setter for confirmationTimoutSeconds
      *
-     * @ElementName confirmationTimoutSeconds
-     * @param int|null $confirmationTimoutSeconds
+     * @param int $confirmationTimoutSeconds
      * @return $this
      */
     public function setConfirmationTimoutSeconds($confirmationTimoutSeconds)
     {
         $this->confirmationTimoutSeconds = $confirmationTimoutSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConfirmationTimoutSeconds()
+    {
+        $this->confirmationTimoutSeconds = null;
         return $this;
     }
 

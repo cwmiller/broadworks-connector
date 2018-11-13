@@ -14,18 +14,21 @@ class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName defaultFromAddress
+     * @Type string
      * @var string|null
      */
     private $defaultFromAddress = null;
 
     /**
      * @ElementName useShortSubjectLine
+     * @Type bool
      * @var bool|null
      */
     private $useShortSubjectLine = null;
 
     /**
      * @ElementName useDnInMailBody
+     * @Type bool
      * @var bool|null
      */
     private $useDnInMailBody = null;
@@ -33,19 +36,17 @@ class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @return string|null
+     * @return string
      */
     public function getDefaultFromAddress()
     {
-        return $this->defaultFromAddress;
+        return $this->defaultFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultFromAddress;
     }
 
     /**
      * Setter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @param string|null $defaultFromAddress
+     * @param string $defaultFromAddress
      * @return $this
      */
     public function setDefaultFromAddress($defaultFromAddress)
@@ -55,21 +56,28 @@ class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultFromAddress()
+    {
+        $this->defaultFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for useShortSubjectLine
      *
-     * @ElementName useShortSubjectLine
-     * @return bool|null
+     * @return bool
      */
     public function getUseShortSubjectLine()
     {
-        return $this->useShortSubjectLine;
+        return $this->useShortSubjectLine instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useShortSubjectLine;
     }
 
     /**
      * Setter for useShortSubjectLine
      *
-     * @ElementName useShortSubjectLine
-     * @param bool|null $useShortSubjectLine
+     * @param bool $useShortSubjectLine
      * @return $this
      */
     public function setUseShortSubjectLine($useShortSubjectLine)
@@ -79,26 +87,42 @@ class SystemCallNotifyGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseShortSubjectLine()
+    {
+        $this->useShortSubjectLine = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDnInMailBody
      *
-     * @ElementName useDnInMailBody
-     * @return bool|null
+     * @return bool
      */
     public function getUseDnInMailBody()
     {
-        return $this->useDnInMailBody;
+        return $this->useDnInMailBody instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDnInMailBody;
     }
 
     /**
      * Setter for useDnInMailBody
      *
-     * @ElementName useDnInMailBody
-     * @param bool|null $useDnInMailBody
+     * @param bool $useDnInMailBody
      * @return $this
      */
     public function setUseDnInMailBody($useDnInMailBody)
     {
         $this->useDnInMailBody = $useDnInMailBody;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseDnInMailBody()
+    {
+        $this->useDnInMailBody = null;
         return $this;
     }
 

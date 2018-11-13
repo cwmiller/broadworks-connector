@@ -16,12 +16,14 @@ class SystemGETSAvpCodeMapDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName avpCode
+     * @Type int
      * @var int|null
      */
     private $avpCode = null;
 
     /**
      * @ElementName vendorId
+     * @Type int
      * @var int|null
      */
     private $vendorId = null;
@@ -29,19 +31,17 @@ class SystemGETSAvpCodeMapDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for avpCode
      *
-     * @ElementName avpCode
-     * @return int|null
+     * @return int
      */
     public function getAvpCode()
     {
-        return $this->avpCode;
+        return $this->avpCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->avpCode;
     }
 
     /**
      * Setter for avpCode
      *
-     * @ElementName avpCode
-     * @param int|null $avpCode
+     * @param int $avpCode
      * @return $this
      */
     public function setAvpCode($avpCode)
@@ -51,26 +51,42 @@ class SystemGETSAvpCodeMapDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAvpCode()
+    {
+        $this->avpCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for vendorId
      *
-     * @ElementName vendorId
-     * @return int|null
+     * @return int
      */
     public function getVendorId()
     {
-        return $this->vendorId;
+        return $this->vendorId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->vendorId;
     }
 
     /**
      * Setter for vendorId
      *
-     * @ElementName vendorId
-     * @param int|null $vendorId
+     * @param int $vendorId
      * @return $this
      */
     public function setVendorId($vendorId)
     {
         $this->vendorId = $vendorId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVendorId()
+    {
+        $this->vendorId = null;
         return $this;
     }
 

@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * RECEIVED_NAME_PROFILE_NUMBER()
  * @method static TrunkGroupCLIDSourceForScreenedCallsPolicy
  * RECEIVED_NAME_RECEIVED_NUMBER()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupCLIDSourceForScreenedCallsPolicy extends \MyCLabs\Enum\Enum
 {

@@ -16,12 +16,14 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName accessCode
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,6 +31,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName publicDigitMap
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,6 +39,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName privateDigitMap
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -44,19 +48,17 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -66,80 +68,116 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for accessCode
      *
-     * @ElementName accessCode
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAccessCode()
     {
-        return $this->accessCode;
+        return $this->accessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessCode;
     }
 
     /**
      * Setter for accessCode
      *
-     * @ElementName accessCode
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $accessCode
+     * @param string|null $accessCode
      * @return $this
      */
     public function setAccessCode($accessCode)
     {
-        $this->accessCode = $accessCode;
+        if ($accessCode === null) {
+            $this->accessCode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->accessCode = $accessCode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessCode()
+    {
+        $this->accessCode = null;
         return $this;
     }
 
     /**
      * Getter for publicDigitMap
      *
-     * @ElementName publicDigitMap
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPublicDigitMap()
     {
-        return $this->publicDigitMap;
+        return $this->publicDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicDigitMap;
     }
 
     /**
      * Setter for publicDigitMap
      *
-     * @ElementName publicDigitMap
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $publicDigitMap
+     * @param string|null $publicDigitMap
      * @return $this
      */
     public function setPublicDigitMap($publicDigitMap)
     {
-        $this->publicDigitMap = $publicDigitMap;
+        if ($publicDigitMap === null) {
+            $this->publicDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->publicDigitMap = $publicDigitMap;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPublicDigitMap()
+    {
+        $this->publicDigitMap = null;
         return $this;
     }
 
     /**
      * Getter for privateDigitMap
      *
-     * @ElementName privateDigitMap
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPrivateDigitMap()
     {
-        return $this->privateDigitMap;
+        return $this->privateDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->privateDigitMap;
     }
 
     /**
      * Setter for privateDigitMap
      *
-     * @ElementName privateDigitMap
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $privateDigitMap
+     * @param string|null $privateDigitMap
      * @return $this
      */
     public function setPrivateDigitMap($privateDigitMap)
     {
-        $this->privateDigitMap = $privateDigitMap;
+        if ($privateDigitMap === null) {
+            $this->privateDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->privateDigitMap = $privateDigitMap;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrivateDigitMap()
+    {
+        $this->privateDigitMap = null;
         return $this;
     }
 

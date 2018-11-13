@@ -16,12 +16,14 @@ class GroupPreferredCarrierNameModify
 
     /**
      * @ElementName useServiceProviderPreferredCarrier
+     * @Type bool
      * @var bool|null
      */
     private $useServiceProviderPreferredCarrier = null;
 
     /**
      * @ElementName carrier
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class GroupPreferredCarrierNameModify
     /**
      * Getter for useServiceProviderPreferredCarrier
      *
-     * @ElementName useServiceProviderPreferredCarrier
-     * @return bool|null
+     * @return bool
      */
     public function getUseServiceProviderPreferredCarrier()
     {
-        return $this->useServiceProviderPreferredCarrier;
+        return $this->useServiceProviderPreferredCarrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useServiceProviderPreferredCarrier;
     }
 
     /**
      * Setter for useServiceProviderPreferredCarrier
      *
-     * @ElementName useServiceProviderPreferredCarrier
-     * @param bool|null $useServiceProviderPreferredCarrier
+     * @param bool $useServiceProviderPreferredCarrier
      * @return $this
      */
     public function setUseServiceProviderPreferredCarrier($useServiceProviderPreferredCarrier)
@@ -52,28 +52,46 @@ class GroupPreferredCarrierNameModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseServiceProviderPreferredCarrier()
+    {
+        $this->useServiceProviderPreferredCarrier = null;
+        return $this;
+    }
+
+    /**
      * Getter for carrier
      *
-     * @ElementName carrier
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCarrier()
     {
-        return $this->carrier;
+        return $this->carrier instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->carrier;
     }
 
     /**
      * Setter for carrier
      *
-     * @ElementName carrier
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $carrier
+     * @param string|null $carrier
      * @return $this
      */
     public function setCarrier($carrier)
     {
-        $this->carrier = $carrier;
+        if ($carrier === null) {
+            $this->carrier = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->carrier = $carrier;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCarrier()
+    {
+        $this->carrier = null;
         return $this;
     }
 

@@ -18,18 +18,21 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName delayBetweenNotificationSeconds
+     * @Type int
      * @var int|null
      */
     private $delayBetweenNotificationSeconds = null;
 
     /**
      * @ElementName incomingAocHandling
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
      * @var \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
      */
     private $incomingAocHandling = null;
 
     /**
      * @ElementName costInformationSource
+     * @Type string
      * @var string|null
      */
     private $costInformationSource = null;
@@ -37,19 +40,17 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @return int|null
+     * @return int
      */
     public function getDelayBetweenNotificationSeconds()
     {
-        return $this->delayBetweenNotificationSeconds;
+        return $this->delayBetweenNotificationSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->delayBetweenNotificationSeconds;
     }
 
     /**
      * Setter for delayBetweenNotificationSeconds
      *
-     * @ElementName delayBetweenNotificationSeconds
-     * @param int|null $delayBetweenNotificationSeconds
+     * @param int $delayBetweenNotificationSeconds
      * @return $this
      */
     public function setDelayBetweenNotificationSeconds($delayBetweenNotificationSeconds)
@@ -59,21 +60,28 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDelayBetweenNotificationSeconds()
+    {
+        $this->delayBetweenNotificationSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for incomingAocHandling
      *
-     * @ElementName incomingAocHandling
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling
      */
     public function getIncomingAocHandling()
     {
-        return $this->incomingAocHandling;
+        return $this->incomingAocHandling instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->incomingAocHandling;
     }
 
     /**
      * Setter for incomingAocHandling
      *
-     * @ElementName incomingAocHandling
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling|null $incomingAocHandling
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling $incomingAocHandling
      * @return $this
      */
     public function setIncomingAocHandling(\CWM\BroadWorksConnector\Ocip\Models\AdviceOfChargeIncomingAocHandling $incomingAocHandling)
@@ -83,26 +91,42 @@ class SystemAdviceOfChargeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncomingAocHandling()
+    {
+        $this->incomingAocHandling = null;
+        return $this;
+    }
+
+    /**
      * Getter for costInformationSource
      *
-     * @ElementName costInformationSource
-     * @return string|null
+     * @return string
      */
     public function getCostInformationSource()
     {
-        return $this->costInformationSource;
+        return $this->costInformationSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->costInformationSource;
     }
 
     /**
      * Setter for costInformationSource
      *
-     * @ElementName costInformationSource
-     * @param string|null $costInformationSource
+     * @param string $costInformationSource
      * @return $this
      */
     public function setCostInformationSource($costInformationSource)
     {
         $this->costInformationSource = $costInformationSource;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCostInformationSource()
+    {
+        $this->costInformationSource = null;
         return $this;
     }
 

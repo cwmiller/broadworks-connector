@@ -17,12 +17,14 @@ class EnhancedCallLogsResponsePagingControl
 
     /**
      * @ElementName responseStartIndex
+     * @Type int
      * @var int|null
      */
     private $responseStartIndex = null;
 
     /**
      * @ElementName responsePageSize
+     * @Type int
      * @var int|null
      */
     private $responsePageSize = null;
@@ -30,19 +32,17 @@ class EnhancedCallLogsResponsePagingControl
     /**
      * Getter for responseStartIndex
      *
-     * @ElementName responseStartIndex
-     * @return int|null
+     * @return int
      */
     public function getResponseStartIndex()
     {
-        return $this->responseStartIndex;
+        return $this->responseStartIndex instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseStartIndex;
     }
 
     /**
      * Setter for responseStartIndex
      *
-     * @ElementName responseStartIndex
-     * @param int|null $responseStartIndex
+     * @param int $responseStartIndex
      * @return $this
      */
     public function setResponseStartIndex($responseStartIndex)
@@ -52,26 +52,42 @@ class EnhancedCallLogsResponsePagingControl
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseStartIndex()
+    {
+        $this->responseStartIndex = null;
+        return $this;
+    }
+
+    /**
      * Getter for responsePageSize
      *
-     * @ElementName responsePageSize
-     * @return int|null
+     * @return int
      */
     public function getResponsePageSize()
     {
-        return $this->responsePageSize;
+        return $this->responsePageSize instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responsePageSize;
     }
 
     /**
      * Setter for responsePageSize
      *
-     * @ElementName responsePageSize
-     * @param int|null $responsePageSize
+     * @param int $responsePageSize
      * @return $this
      */
     public function setResponsePageSize($responsePageSize)
     {
         $this->responsePageSize = $responsePageSize;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResponsePageSize()
+    {
+        $this->responsePageSize = null;
         return $this;
     }
 

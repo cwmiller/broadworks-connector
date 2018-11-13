@@ -16,36 +16,42 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName recallTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $recallTimerSeconds = null;
 
     /**
      * @ElementName displayTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $displayTimerSeconds = null;
 
     /**
      * @ElementName enableDestinationAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $enableDestinationAnnouncement = null;
 
     /**
      * @ElementName recallAlternateUserId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -53,18 +59,21 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName recallRingPattern
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $recallRingPattern = null;
 
     /**
      * @ElementName recallTo
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;
 
     /**
      * @ElementName alternateUserRecallTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $alternateUserRecallTimerSeconds = null;
@@ -72,19 +81,17 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -94,21 +101,28 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -118,21 +132,28 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for recallTimerSeconds
      *
-     * @ElementName recallTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getRecallTimerSeconds()
     {
-        return $this->recallTimerSeconds;
+        return $this->recallTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallTimerSeconds;
     }
 
     /**
      * Setter for recallTimerSeconds
      *
-     * @ElementName recallTimerSeconds
-     * @param int|null $recallTimerSeconds
+     * @param int $recallTimerSeconds
      * @return $this
      */
     public function setRecallTimerSeconds($recallTimerSeconds)
@@ -142,21 +163,28 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecallTimerSeconds()
+    {
+        $this->recallTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for displayTimerSeconds
      *
-     * @ElementName displayTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getDisplayTimerSeconds()
     {
-        return $this->displayTimerSeconds;
+        return $this->displayTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->displayTimerSeconds;
     }
 
     /**
      * Setter for displayTimerSeconds
      *
-     * @ElementName displayTimerSeconds
-     * @param int|null $displayTimerSeconds
+     * @param int $displayTimerSeconds
      * @return $this
      */
     public function setDisplayTimerSeconds($displayTimerSeconds)
@@ -166,21 +194,28 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisplayTimerSeconds()
+    {
+        $this->displayTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableDestinationAnnouncement
      *
-     * @ElementName enableDestinationAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDestinationAnnouncement()
     {
-        return $this->enableDestinationAnnouncement;
+        return $this->enableDestinationAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDestinationAnnouncement;
     }
 
     /**
      * Setter for enableDestinationAnnouncement
      *
-     * @ElementName enableDestinationAnnouncement
-     * @param bool|null $enableDestinationAnnouncement
+     * @param bool $enableDestinationAnnouncement
      * @return $this
      */
     public function setEnableDestinationAnnouncement($enableDestinationAnnouncement)
@@ -190,47 +225,63 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableDestinationAnnouncement()
+    {
+        $this->enableDestinationAnnouncement = null;
+        return $this;
+    }
+
+    /**
      * Getter for recallAlternateUserId
      *
-     * @ElementName recallAlternateUserId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRecallAlternateUserId()
     {
-        return $this->recallAlternateUserId;
+        return $this->recallAlternateUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallAlternateUserId;
     }
 
     /**
      * Setter for recallAlternateUserId
      *
-     * @ElementName recallAlternateUserId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $recallAlternateUserId
+     * @param string|null $recallAlternateUserId
      * @return $this
      */
     public function setRecallAlternateUserId($recallAlternateUserId)
     {
-        $this->recallAlternateUserId = $recallAlternateUserId;
+        if ($recallAlternateUserId === null) {
+            $this->recallAlternateUserId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->recallAlternateUserId = $recallAlternateUserId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecallAlternateUserId()
+    {
+        $this->recallAlternateUserId = null;
         return $this;
     }
 
     /**
      * Getter for recallRingPattern
      *
-     * @ElementName recallRingPattern
-     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      */
     public function getRecallRingPattern()
     {
-        return $this->recallRingPattern;
+        return $this->recallRingPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallRingPattern;
     }
 
     /**
      * Setter for recallRingPattern
      *
-     * @ElementName recallRingPattern
-     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $recallRingPattern
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern $recallRingPattern
      * @return $this
      */
     public function setRecallRingPattern(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $recallRingPattern)
@@ -240,21 +291,28 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecallRingPattern()
+    {
+        $this->recallRingPattern = null;
+        return $this;
+    }
+
+    /**
      * Getter for recallTo
      *
-     * @ElementName recallTo
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
      */
     public function getRecallTo()
     {
-        return $this->recallTo;
+        return $this->recallTo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallTo;
     }
 
     /**
      * Setter for recallTo
      *
-     * @ElementName recallTo
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null $recallTo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo $recallTo
      * @return $this
      */
     public function setRecallTo(\CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo $recallTo)
@@ -264,26 +322,42 @@ class GroupCallParkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecallTo()
+    {
+        $this->recallTo = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateUserRecallTimerSeconds
      *
-     * @ElementName alternateUserRecallTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getAlternateUserRecallTimerSeconds()
     {
-        return $this->alternateUserRecallTimerSeconds;
+        return $this->alternateUserRecallTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateUserRecallTimerSeconds;
     }
 
     /**
      * Setter for alternateUserRecallTimerSeconds
      *
-     * @ElementName alternateUserRecallTimerSeconds
-     * @param int|null $alternateUserRecallTimerSeconds
+     * @param int $alternateUserRecallTimerSeconds
      * @return $this
      */
     public function setAlternateUserRecallTimerSeconds($alternateUserRecallTimerSeconds)
     {
         $this->alternateUserRecallTimerSeconds = $alternateUserRecallTimerSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlternateUserRecallTimerSeconds()
+    {
+        $this->alternateUserRecallTimerSeconds = null;
         return $this;
     }
 

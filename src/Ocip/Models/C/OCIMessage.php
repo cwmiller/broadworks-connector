@@ -13,40 +13,30 @@ class OCIMessage
 {
 
     /**
-     * The session id identifies a logged-in user. The client is responsible to ensure the uniqueness of the session id.
-     *             
-     *
      * @ElementName sessionId
+     * @Type string
      * @var string|null
      */
     private $sessionId = null;
 
     /**
-     * The user id identifies a preauthenticated user performing a session-less OCI request. The source of the request
-     *               must be in the external authentication access control list.
-     *             
-     *
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
-     * The phone number identifies a preauthenticated user performing a session-less OCI request. The source of the request
-     *               must be in the external authentication access control list.
-     *               The phone number must be in E.164 format.  Any DN associated with the user may be used. 
-     *               BroadSoft recommends only using this element in the rare case when the userId is not known.
-     *             
-     *
      * @ElementName phoneNumber
+     * @Type string
      * @var string|null
      */
     private $phoneNumber = null;
 
     /**
-     * List of requests or responses.
-     *
      * @ElementName command
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[]
      */
     private $command = array(
@@ -60,12 +50,11 @@ class OCIMessage
      *               The session id identifies a logged-in user. The client is responsible to ensure the uniqueness of the session id.
      *             
      *
-     * @ElementName sessionId
-     * @return string|null
+     * @return string
      */
     public function getSessionId()
     {
-        return $this->sessionId;
+        return $this->sessionId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sessionId;
     }
 
     /**
@@ -75,13 +64,21 @@ class OCIMessage
      *               The session id identifies a logged-in user. The client is responsible to ensure the uniqueness of the session id.
      *             
      *
-     * @ElementName sessionId
-     * @param string|null $sessionId
+     * @param string $sessionId
      * @return $this
      */
     public function setSessionId($sessionId)
     {
         $this->sessionId = $sessionId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSessionId()
+    {
+        $this->sessionId = null;
         return $this;
     }
 
@@ -93,12 +90,11 @@ class OCIMessage
      *               must be in the external authentication access control list.
      *             
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
@@ -109,13 +105,21 @@ class OCIMessage
      *               must be in the external authentication access control list.
      *             
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
     {
         $this->userId = $userId;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
         return $this;
     }
 
@@ -129,12 +133,11 @@ class OCIMessage
      *               BroadSoft recommends only using this element in the rare case when the userId is not known.
      *             
      *
-     * @ElementName phoneNumber
-     * @return string|null
+     * @return string
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
@@ -147,8 +150,7 @@ class OCIMessage
      *               BroadSoft recommends only using this element in the rare case when the userId is not known.
      *             
      *
-     * @ElementName phoneNumber
-     * @param string|null $phoneNumber
+     * @param string $phoneNumber
      * @return $this
      */
     public function setPhoneNumber($phoneNumber)
@@ -158,16 +160,24 @@ class OCIMessage
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for command
      *
      * List of requests or responses.
      *
-     * @ElementName command
      * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[]
      */
     public function getCommand()
     {
-        return $this->command;
+        return $this->command instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->command;
     }
 
     /**
@@ -175,7 +185,6 @@ class OCIMessage
      *
      * List of requests or responses.
      *
-     * @ElementName command
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[] $command
      * @return $this
      */
@@ -186,17 +195,23 @@ class OCIMessage
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCommand()
+    {
+        $this->command = null;
+        return $this;
+    }
+
+    /**
      * Adder for command
      *
-     * List of requests or responses.
-     *
-     * @ElementName command
      * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand $command
      * @return $this
      */
     public function addCommand($command)
     {
-        $this->command []= $command;
+        $this->command[] = $command;
         return $this;
     }
 

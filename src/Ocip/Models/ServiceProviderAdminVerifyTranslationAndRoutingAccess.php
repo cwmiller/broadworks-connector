@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ServiceProviderAdminVerifyTranslationAndRoutingAccess FULL()
  * @method static ServiceProviderAdminVerifyTranslationAndRoutingAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminVerifyTranslationAndRoutingAccess extends \MyCLabs\Enum\Enum
 {

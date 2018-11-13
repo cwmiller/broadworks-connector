@@ -21,6 +21,7 @@ class GroupUserHotelingGuestSettingsGetListResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName userHotelingGuestTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userHotelingGuestTable = null;
@@ -28,24 +29,31 @@ class GroupUserHotelingGuestSettingsGetListResponse extends \CWM\BroadWorksConne
     /**
      * Getter for userHotelingGuestTable
      *
-     * @ElementName userHotelingGuestTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserHotelingGuestTable()
     {
-        return $this->userHotelingGuestTable;
+        return $this->userHotelingGuestTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userHotelingGuestTable;
     }
 
     /**
      * Setter for userHotelingGuestTable
      *
-     * @ElementName userHotelingGuestTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userHotelingGuestTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userHotelingGuestTable
      * @return $this
      */
     public function setUserHotelingGuestTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userHotelingGuestTable)
     {
         $this->userHotelingGuestTable = $userHotelingGuestTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserHotelingGuestTable()
+    {
+        $this->userHotelingGuestTable = null;
         return $this;
     }
 

@@ -19,30 +19,35 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName continueCallAfterRecordingFailure
+     * @Type bool
      * @var bool|null
      */
     private $continueCallAfterRecordingFailure = null;
 
     /**
      * @ElementName refreshPeriodSeconds
+     * @Type int
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
 
     /**
      * @ElementName maxConsecutiveFailures
+     * @Type int
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
 
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
+     * @Type int
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
 
     /**
      * @ElementName continueCallAfterVideoRecordingFailure
+     * @Type bool
      * @var bool|null
      */
     private $continueCallAfterVideoRecordingFailure = null;
@@ -50,19 +55,17 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for continueCallAfterRecordingFailure
      *
-     * @ElementName continueCallAfterRecordingFailure
-     * @return bool|null
+     * @return bool
      */
     public function getContinueCallAfterRecordingFailure()
     {
-        return $this->continueCallAfterRecordingFailure;
+        return $this->continueCallAfterRecordingFailure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->continueCallAfterRecordingFailure;
     }
 
     /**
      * Setter for continueCallAfterRecordingFailure
      *
-     * @ElementName continueCallAfterRecordingFailure
-     * @param bool|null $continueCallAfterRecordingFailure
+     * @param bool $continueCallAfterRecordingFailure
      * @return $this
      */
     public function setContinueCallAfterRecordingFailure($continueCallAfterRecordingFailure)
@@ -72,21 +75,28 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContinueCallAfterRecordingFailure()
+    {
+        $this->continueCallAfterRecordingFailure = null;
+        return $this;
+    }
+
+    /**
      * Getter for refreshPeriodSeconds
      *
-     * @ElementName refreshPeriodSeconds
-     * @return int|null
+     * @return int
      */
     public function getRefreshPeriodSeconds()
     {
-        return $this->refreshPeriodSeconds;
+        return $this->refreshPeriodSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->refreshPeriodSeconds;
     }
 
     /**
      * Setter for refreshPeriodSeconds
      *
-     * @ElementName refreshPeriodSeconds
-     * @param int|null $refreshPeriodSeconds
+     * @param int $refreshPeriodSeconds
      * @return $this
      */
     public function setRefreshPeriodSeconds($refreshPeriodSeconds)
@@ -96,21 +106,28 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRefreshPeriodSeconds()
+    {
+        $this->refreshPeriodSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxConsecutiveFailures
      *
-     * @ElementName maxConsecutiveFailures
-     * @return int|null
+     * @return int
      */
     public function getMaxConsecutiveFailures()
     {
-        return $this->maxConsecutiveFailures;
+        return $this->maxConsecutiveFailures instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxConsecutiveFailures;
     }
 
     /**
      * Setter for maxConsecutiveFailures
      *
-     * @ElementName maxConsecutiveFailures
-     * @param int|null $maxConsecutiveFailures
+     * @param int $maxConsecutiveFailures
      * @return $this
      */
     public function setMaxConsecutiveFailures($maxConsecutiveFailures)
@@ -120,21 +137,28 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxConsecutiveFailures()
+    {
+        $this->maxConsecutiveFailures = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxResponseWaitTimeMilliseconds
      *
-     * @ElementName maxResponseWaitTimeMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getMaxResponseWaitTimeMilliseconds()
     {
-        return $this->maxResponseWaitTimeMilliseconds;
+        return $this->maxResponseWaitTimeMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxResponseWaitTimeMilliseconds;
     }
 
     /**
      * Setter for maxResponseWaitTimeMilliseconds
      *
-     * @ElementName maxResponseWaitTimeMilliseconds
-     * @param int|null $maxResponseWaitTimeMilliseconds
+     * @param int $maxResponseWaitTimeMilliseconds
      * @return $this
      */
     public function setMaxResponseWaitTimeMilliseconds($maxResponseWaitTimeMilliseconds)
@@ -144,26 +168,42 @@ class SystemCallRecordingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxResponseWaitTimeMilliseconds()
+    {
+        $this->maxResponseWaitTimeMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for continueCallAfterVideoRecordingFailure
      *
-     * @ElementName continueCallAfterVideoRecordingFailure
-     * @return bool|null
+     * @return bool
      */
     public function getContinueCallAfterVideoRecordingFailure()
     {
-        return $this->continueCallAfterVideoRecordingFailure;
+        return $this->continueCallAfterVideoRecordingFailure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->continueCallAfterVideoRecordingFailure;
     }
 
     /**
      * Setter for continueCallAfterVideoRecordingFailure
      *
-     * @ElementName continueCallAfterVideoRecordingFailure
-     * @param bool|null $continueCallAfterVideoRecordingFailure
+     * @param bool $continueCallAfterVideoRecordingFailure
      * @return $this
      */
     public function setContinueCallAfterVideoRecordingFailure($continueCallAfterVideoRecordingFailure)
     {
         $this->continueCallAfterVideoRecordingFailure = $continueCallAfterVideoRecordingFailure;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetContinueCallAfterVideoRecordingFailure()
+    {
+        $this->continueCallAfterVideoRecordingFailure = null;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static DiameterRouteAction LOCAL()
  * @method static DiameterRouteAction RELAY()
- * @ValueType string
+ * @EnumValueType string
  */
 class DiameterRouteAction extends \MyCLabs\Enum\Enum
 {

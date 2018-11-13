@@ -16,12 +16,14 @@ class UserCallingPartyCategoryModifyRequest16 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName category
+     * @Type string
      * @var string|null
      */
     private $category = null;
@@ -29,19 +31,17 @@ class UserCallingPartyCategoryModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -51,26 +51,42 @@ class UserCallingPartyCategoryModifyRequest16 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for category
      *
-     * @ElementName category
-     * @return string|null
+     * @return string
      */
     public function getCategory()
     {
-        return $this->category;
+        return $this->category instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->category;
     }
 
     /**
      * Setter for category
      *
-     * @ElementName category
-     * @param string|null $category
+     * @param string $category
      * @return $this
      */
     public function setCategory($category)
     {
         $this->category = $category;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCategory()
+    {
+        $this->category = null;
         return $this;
     }
 

@@ -16,24 +16,28 @@ class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName instance
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
 
     /**
      * @ElementName realm
+     * @Type string
      * @var string|null
      */
     private $realm = null;
 
     /**
      * @ElementName applicationId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     private $applicationId = null;
 
     /**
      * @ElementName default
+     * @Type bool
      * @var bool|null
      */
     private $default = null;
@@ -41,19 +45,17 @@ class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for instance
      *
-     * @ElementName instance
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
      */
     public function getInstance()
     {
-        return $this->instance;
+        return $this->instance instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->instance;
     }
 
     /**
      * Setter for instance
      *
-     * @ElementName instance
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null $instance
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance
      * @return $this
      */
     public function setInstance(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance $instance)
@@ -63,21 +65,28 @@ class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInstance()
+    {
+        $this->instance = null;
+        return $this;
+    }
+
+    /**
      * Getter for realm
      *
-     * @ElementName realm
-     * @return string|null
+     * @return string
      */
     public function getRealm()
     {
-        return $this->realm;
+        return $this->realm instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->realm;
     }
 
     /**
      * Setter for realm
      *
-     * @ElementName realm
-     * @param string|null $realm
+     * @param string $realm
      * @return $this
      */
     public function setRealm($realm)
@@ -87,21 +96,28 @@ class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRealm()
+    {
+        $this->realm = null;
+        return $this;
+    }
+
+    /**
      * Getter for applicationId
      *
-     * @ElementName applicationId
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
      */
     public function getApplicationId()
     {
-        return $this->applicationId;
+        return $this->applicationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationId;
     }
 
     /**
      * Setter for applicationId
      *
-     * @ElementName applicationId
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null $applicationId
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId $applicationId
      * @return $this
      */
     public function setApplicationId(\CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId $applicationId)
@@ -111,26 +127,42 @@ class SystemBwDiameterRoutingRealmModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationId()
+    {
+        $this->applicationId = null;
+        return $this;
+    }
+
+    /**
      * Getter for default
      *
-     * @ElementName default
-     * @return bool|null
+     * @return bool
      */
     public function getDefault()
     {
-        return $this->default;
+        return $this->default instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->default;
     }
 
     /**
      * Setter for default
      *
-     * @ElementName default
-     * @param bool|null $default
+     * @param bool $default
      * @return $this
      */
     public function setDefault($default)
     {
         $this->default = $default;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefault()
+    {
+        $this->default = null;
         return $this;
     }
 

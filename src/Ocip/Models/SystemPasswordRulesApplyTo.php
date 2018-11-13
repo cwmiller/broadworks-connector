@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SystemPasswordRulesApplyTo
  * SYSTEM_PROVISIONING_SERVICE_PROVIDER_ADMINISTRATOR()
  * @method static SystemPasswordRulesApplyTo ADMINISTRATOR_AND_USER()
- * @ValueType string
+ * @EnumValueType string
  */
 class SystemPasswordRulesApplyTo extends \MyCLabs\Enum\Enum
 {

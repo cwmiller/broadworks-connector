@@ -16,30 +16,35 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName traceTypeSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection|null
      */
     private $traceTypeSelection = null;
 
     /**
      * @ElementName traceForTimePeriod
+     * @Type bool
      * @var bool|null
      */
     private $traceForTimePeriod = null;
 
     /**
      * @ElementName traceTimePeriod
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,19 +53,17 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -70,21 +73,28 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -94,21 +104,28 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for traceTypeSelection
      *
-     * @ElementName traceTypeSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection
      */
     public function getTraceTypeSelection()
     {
-        return $this->traceTypeSelection;
+        return $this->traceTypeSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->traceTypeSelection;
     }
 
     /**
      * Setter for traceTypeSelection
      *
-     * @ElementName traceTypeSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection|null $traceTypeSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection $traceTypeSelection
      * @return $this
      */
     public function setTraceTypeSelection(\CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection $traceTypeSelection)
@@ -118,21 +135,28 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTraceTypeSelection()
+    {
+        $this->traceTypeSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for traceForTimePeriod
      *
-     * @ElementName traceForTimePeriod
-     * @return bool|null
+     * @return bool
      */
     public function getTraceForTimePeriod()
     {
-        return $this->traceForTimePeriod;
+        return $this->traceForTimePeriod instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->traceForTimePeriod;
     }
 
     /**
      * Setter for traceForTimePeriod
      *
-     * @ElementName traceForTimePeriod
-     * @param bool|null $traceForTimePeriod
+     * @param bool $traceForTimePeriod
      * @return $this
      */
     public function setTraceForTimePeriod($traceForTimePeriod)
@@ -142,28 +166,46 @@ class UserMaliciousCallTraceModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTraceForTimePeriod()
+    {
+        $this->traceForTimePeriod = null;
+        return $this;
+    }
+
+    /**
      * Getter for traceTimePeriod
      *
-     * @ElementName traceTimePeriod
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null
      */
     public function getTraceTimePeriod()
     {
-        return $this->traceTimePeriod;
+        return $this->traceTimePeriod instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->traceTimePeriod;
     }
 
     /**
      * Setter for traceTimePeriod
      *
-     * @ElementName traceTimePeriod
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null|\CWM\BroadWorksConnector\Ocip\Nil $traceTimePeriod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null $traceTimePeriod
      * @return $this
      */
     public function setTraceTimePeriod(\CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod $traceTimePeriod)
     {
-        $this->traceTimePeriod = $traceTimePeriod;
+        if ($traceTimePeriod === null) {
+            $this->traceTimePeriod = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->traceTimePeriod = $traceTimePeriod;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTraceTimePeriod()
+    {
+        $this->traceTimePeriod = null;
         return $this;
     }
 

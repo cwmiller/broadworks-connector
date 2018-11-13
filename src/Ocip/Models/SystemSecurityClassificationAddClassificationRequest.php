@@ -16,12 +16,14 @@ class SystemSecurityClassificationAddClassificationRequest extends \CWM\BroadWor
 
     /**
      * @ElementName securityClassificationName
+     * @Type string
      * @var string|null
      */
     private $securityClassificationName = null;
 
     /**
      * @ElementName audioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -29,19 +31,17 @@ class SystemSecurityClassificationAddClassificationRequest extends \CWM\BroadWor
     /**
      * Getter for securityClassificationName
      *
-     * @ElementName securityClassificationName
-     * @return string|null
+     * @return string
      */
     public function getSecurityClassificationName()
     {
-        return $this->securityClassificationName;
+        return $this->securityClassificationName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityClassificationName;
     }
 
     /**
      * Setter for securityClassificationName
      *
-     * @ElementName securityClassificationName
-     * @param string|null $securityClassificationName
+     * @param string $securityClassificationName
      * @return $this
      */
     public function setSecurityClassificationName($securityClassificationName)
@@ -51,26 +51,42 @@ class SystemSecurityClassificationAddClassificationRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecurityClassificationName()
+    {
+        $this->securityClassificationName = null;
+        return $this;
+    }
+
+    /**
      * Getter for audioFile
      *
-     * @ElementName audioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getAudioFile()
     {
-        return $this->audioFile;
+        return $this->audioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->audioFile;
     }
 
     /**
      * Setter for audioFile
      *
-     * @ElementName audioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $audioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile
      * @return $this
      */
     public function setAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $audioFile)
     {
         $this->audioFile = $audioFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAudioFile()
+    {
+        $this->audioFile = null;
         return $this;
     }
 

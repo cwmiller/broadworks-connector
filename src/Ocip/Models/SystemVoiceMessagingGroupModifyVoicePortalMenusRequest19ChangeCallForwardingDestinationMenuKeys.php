@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeCallForwardi
 
     /**
      * @ElementName finishEnteringNewDestinationNumber
+     * @Type string
      * @var string|null
      */
     private $finishEnteringNewDestinationNumber = null;
@@ -17,24 +18,31 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeCallForwardi
     /**
      * Getter for finishEnteringNewDestinationNumber
      *
-     * @ElementName finishEnteringNewDestinationNumber
-     * @return string|null
+     * @return string
      */
     public function getFinishEnteringNewDestinationNumber()
     {
-        return $this->finishEnteringNewDestinationNumber;
+        return $this->finishEnteringNewDestinationNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->finishEnteringNewDestinationNumber;
     }
 
     /**
      * Setter for finishEnteringNewDestinationNumber
      *
-     * @ElementName finishEnteringNewDestinationNumber
-     * @param string|null $finishEnteringNewDestinationNumber
+     * @param string $finishEnteringNewDestinationNumber
      * @return $this
      */
     public function setFinishEnteringNewDestinationNumber($finishEnteringNewDestinationNumber)
     {
         $this->finishEnteringNewDestinationNumber = $finishEnteringNewDestinationNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFinishEnteringNewDestinationNumber()
+    {
+        $this->finishEnteringNewDestinationNumber = null;
         return $this;
     }
 

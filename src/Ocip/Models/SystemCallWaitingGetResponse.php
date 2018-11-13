@@ -14,6 +14,7 @@ class SystemCallWaitingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName playDistinctiveRingback
+     * @Type bool
      * @var bool|null
      */
     private $playDistinctiveRingback = null;
@@ -21,24 +22,31 @@ class SystemCallWaitingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for playDistinctiveRingback
      *
-     * @ElementName playDistinctiveRingback
-     * @return bool|null
+     * @return bool
      */
     public function getPlayDistinctiveRingback()
     {
-        return $this->playDistinctiveRingback;
+        return $this->playDistinctiveRingback instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playDistinctiveRingback;
     }
 
     /**
      * Setter for playDistinctiveRingback
      *
-     * @ElementName playDistinctiveRingback
-     * @param bool|null $playDistinctiveRingback
+     * @param bool $playDistinctiveRingback
      * @return $this
      */
     public function setPlayDistinctiveRingback($playDistinctiveRingback)
     {
         $this->playDistinctiveRingback = $playDistinctiveRingback;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayDistinctiveRingback()
+    {
+        $this->playDistinctiveRingback = null;
         return $this;
     }
 

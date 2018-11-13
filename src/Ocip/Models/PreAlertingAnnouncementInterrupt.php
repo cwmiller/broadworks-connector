@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static PreAlertingAnnouncementInterrupt NOT_ALLOWED()
  * @method static PreAlertingAnnouncementInterrupt ANY_DIGIT()
  * @method static PreAlertingAnnouncementInterrupt DIGIT_SEQUENCE()
- * @ValueType string
+ * @EnumValueType string
  */
 class PreAlertingAnnouncementInterrupt extends \MyCLabs\Enum\Enum
 {

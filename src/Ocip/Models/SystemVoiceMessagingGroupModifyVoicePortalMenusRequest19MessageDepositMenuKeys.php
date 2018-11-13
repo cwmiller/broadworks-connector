@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19MessageDepositMenu
 
     /**
      * @ElementName enableMessageDeposit
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19MessageDepositMenu
 
     /**
      * @ElementName disableMessageDeposit
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19MessageDepositMenu
 
     /**
      * @ElementName listenToMessageDepositStatus
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,12 +34,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19MessageDepositMenu
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,97 +50,122 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19MessageDepositMenu
     /**
      * Getter for enableMessageDeposit
      *
-     * @ElementName enableMessageDeposit
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getEnableMessageDeposit()
     {
-        return $this->enableMessageDeposit;
+        return $this->enableMessageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMessageDeposit;
     }
 
     /**
      * Setter for enableMessageDeposit
      *
-     * @ElementName enableMessageDeposit
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $enableMessageDeposit
+     * @param string|null $enableMessageDeposit
      * @return $this
      */
     public function setEnableMessageDeposit($enableMessageDeposit)
     {
-        $this->enableMessageDeposit = $enableMessageDeposit;
+        if ($enableMessageDeposit === null) {
+            $this->enableMessageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->enableMessageDeposit = $enableMessageDeposit;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableMessageDeposit()
+    {
+        $this->enableMessageDeposit = null;
         return $this;
     }
 
     /**
      * Getter for disableMessageDeposit
      *
-     * @ElementName disableMessageDeposit
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDisableMessageDeposit()
     {
-        return $this->disableMessageDeposit;
+        return $this->disableMessageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableMessageDeposit;
     }
 
     /**
      * Setter for disableMessageDeposit
      *
-     * @ElementName disableMessageDeposit
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disableMessageDeposit
+     * @param string|null $disableMessageDeposit
      * @return $this
      */
     public function setDisableMessageDeposit($disableMessageDeposit)
     {
-        $this->disableMessageDeposit = $disableMessageDeposit;
+        if ($disableMessageDeposit === null) {
+            $this->disableMessageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->disableMessageDeposit = $disableMessageDeposit;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDisableMessageDeposit()
+    {
+        $this->disableMessageDeposit = null;
         return $this;
     }
 
     /**
      * Getter for listenToMessageDepositStatus
      *
-     * @ElementName listenToMessageDepositStatus
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getListenToMessageDepositStatus()
     {
-        return $this->listenToMessageDepositStatus;
+        return $this->listenToMessageDepositStatus instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToMessageDepositStatus;
     }
 
     /**
      * Setter for listenToMessageDepositStatus
      *
-     * @ElementName listenToMessageDepositStatus
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToMessageDepositStatus
+     * @param string|null $listenToMessageDepositStatus
      * @return $this
      */
     public function setListenToMessageDepositStatus($listenToMessageDepositStatus)
     {
-        $this->listenToMessageDepositStatus = $listenToMessageDepositStatus;
+        if ($listenToMessageDepositStatus === null) {
+            $this->listenToMessageDepositStatus = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->listenToMessageDepositStatus = $listenToMessageDepositStatus;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetListenToMessageDepositStatus()
+    {
+        $this->listenToMessageDepositStatus = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -145,28 +175,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19MessageDepositMenu
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

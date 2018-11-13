@@ -40,7 +40,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallBlockingService ENTERPRISE_TRUNK_ROUTE_EXHAUST()
  * @method static CallBlockingService CALL_PARK()
  * @method static CallBlockingService NUMBER_PORTABILITY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallBlockingService extends \MyCLabs\Enum\Enum
 {

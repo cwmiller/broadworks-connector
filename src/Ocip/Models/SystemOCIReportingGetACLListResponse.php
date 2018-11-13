@@ -17,6 +17,7 @@ class SystemOCIReportingGetACLListResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName ociReportingACLTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $ociReportingACLTable = null;
@@ -24,24 +25,31 @@ class SystemOCIReportingGetACLListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for ociReportingACLTable
      *
-     * @ElementName ociReportingACLTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getOciReportingACLTable()
     {
-        return $this->ociReportingACLTable;
+        return $this->ociReportingACLTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ociReportingACLTable;
     }
 
     /**
      * Setter for ociReportingACLTable
      *
-     * @ElementName ociReportingACLTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $ociReportingACLTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $ociReportingACLTable
      * @return $this
      */
     public function setOciReportingACLTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $ociReportingACLTable)
     {
         $this->ociReportingACLTable = $ociReportingACLTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOciReportingACLTable()
+    {
+        $this->ociReportingACLTable = null;
         return $this;
     }
 

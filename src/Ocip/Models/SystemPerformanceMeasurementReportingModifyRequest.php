@@ -16,42 +16,49 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName reportingInterval
+     * @Type int
      * @var int|null
      */
     private $reportingInterval = null;
 
     /**
      * @ElementName resetMeasurementsAfterEachReport
+     * @Type bool
      * @var bool|null
      */
     private $resetMeasurementsAfterEachReport = null;
 
     /**
      * @ElementName reportEnterprise
+     * @Type bool
      * @var bool|null
      */
     private $reportEnterprise = null;
 
     /**
      * @ElementName reportServiceProvider
+     * @Type bool
      * @var bool|null
      */
     private $reportServiceProvider = null;
 
     /**
      * @ElementName reportDevice
+     * @Type bool
      * @var bool|null
      */
     private $reportDevice = null;
 
     /**
      * @ElementName reportTable
+     * @Type bool
      * @var bool|null
      */
     private $reportTable = null;
@@ -59,19 +66,17 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -81,21 +86,28 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportingInterval
      *
-     * @ElementName reportingInterval
-     * @return int|null
+     * @return int
      */
     public function getReportingInterval()
     {
-        return $this->reportingInterval;
+        return $this->reportingInterval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportingInterval;
     }
 
     /**
      * Setter for reportingInterval
      *
-     * @ElementName reportingInterval
-     * @param int|null $reportingInterval
+     * @param int $reportingInterval
      * @return $this
      */
     public function setReportingInterval($reportingInterval)
@@ -105,21 +117,28 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportingInterval()
+    {
+        $this->reportingInterval = null;
+        return $this;
+    }
+
+    /**
      * Getter for resetMeasurementsAfterEachReport
      *
-     * @ElementName resetMeasurementsAfterEachReport
-     * @return bool|null
+     * @return bool
      */
     public function getResetMeasurementsAfterEachReport()
     {
-        return $this->resetMeasurementsAfterEachReport;
+        return $this->resetMeasurementsAfterEachReport instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resetMeasurementsAfterEachReport;
     }
 
     /**
      * Setter for resetMeasurementsAfterEachReport
      *
-     * @ElementName resetMeasurementsAfterEachReport
-     * @param bool|null $resetMeasurementsAfterEachReport
+     * @param bool $resetMeasurementsAfterEachReport
      * @return $this
      */
     public function setResetMeasurementsAfterEachReport($resetMeasurementsAfterEachReport)
@@ -129,21 +148,28 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResetMeasurementsAfterEachReport()
+    {
+        $this->resetMeasurementsAfterEachReport = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportEnterprise
      *
-     * @ElementName reportEnterprise
-     * @return bool|null
+     * @return bool
      */
     public function getReportEnterprise()
     {
-        return $this->reportEnterprise;
+        return $this->reportEnterprise instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportEnterprise;
     }
 
     /**
      * Setter for reportEnterprise
      *
-     * @ElementName reportEnterprise
-     * @param bool|null $reportEnterprise
+     * @param bool $reportEnterprise
      * @return $this
      */
     public function setReportEnterprise($reportEnterprise)
@@ -153,21 +179,28 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportEnterprise()
+    {
+        $this->reportEnterprise = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportServiceProvider
      *
-     * @ElementName reportServiceProvider
-     * @return bool|null
+     * @return bool
      */
     public function getReportServiceProvider()
     {
-        return $this->reportServiceProvider;
+        return $this->reportServiceProvider instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportServiceProvider;
     }
 
     /**
      * Setter for reportServiceProvider
      *
-     * @ElementName reportServiceProvider
-     * @param bool|null $reportServiceProvider
+     * @param bool $reportServiceProvider
      * @return $this
      */
     public function setReportServiceProvider($reportServiceProvider)
@@ -177,21 +210,28 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportServiceProvider()
+    {
+        $this->reportServiceProvider = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportDevice
      *
-     * @ElementName reportDevice
-     * @return bool|null
+     * @return bool
      */
     public function getReportDevice()
     {
-        return $this->reportDevice;
+        return $this->reportDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportDevice;
     }
 
     /**
      * Setter for reportDevice
      *
-     * @ElementName reportDevice
-     * @param bool|null $reportDevice
+     * @param bool $reportDevice
      * @return $this
      */
     public function setReportDevice($reportDevice)
@@ -201,26 +241,42 @@ class SystemPerformanceMeasurementReportingModifyRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportDevice()
+    {
+        $this->reportDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportTable
      *
-     * @ElementName reportTable
-     * @return bool|null
+     * @return bool
      */
     public function getReportTable()
     {
-        return $this->reportTable;
+        return $this->reportTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportTable;
     }
 
     /**
      * Setter for reportTable
      *
-     * @ElementName reportTable
-     * @param bool|null $reportTable
+     * @param bool $reportTable
      * @return $this
      */
     public function setReportTable($reportTable)
     {
         $this->reportTable = $reportTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReportTable()
+    {
+        $this->reportTable = null;
         return $this;
     }
 

@@ -10,24 +10,28 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
 
     /**
      * @ElementName dmEventStatusForCancel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel|null
      */
     private $dmEventStatusForCancel = null;
 
     /**
      * @ElementName dmEventAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction|null
      */
     private $dmEventAction = null;
 
     /**
      * @ElementName dmEventLevel
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null
      */
     private $dmEventLevel = null;
 
     /**
      * @ElementName dmEventType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null
      */
     private $dmEventType = null;
@@ -35,19 +39,17 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
     /**
      * Getter for dmEventStatusForCancel
      *
-     * @ElementName dmEventStatusForCancel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel
      */
     public function getDmEventStatusForCancel()
     {
-        return $this->dmEventStatusForCancel;
+        return $this->dmEventStatusForCancel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dmEventStatusForCancel;
     }
 
     /**
      * Setter for dmEventStatusForCancel
      *
-     * @ElementName dmEventStatusForCancel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel|null $dmEventStatusForCancel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel $dmEventStatusForCancel
      * @return $this
      */
     public function setDmEventStatusForCancel(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventStatusForCancel $dmEventStatusForCancel)
@@ -57,21 +59,28 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDmEventStatusForCancel()
+    {
+        $this->dmEventStatusForCancel = null;
+        return $this;
+    }
+
+    /**
      * Getter for dmEventAction
      *
-     * @ElementName dmEventAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction
      */
     public function getDmEventAction()
     {
-        return $this->dmEventAction;
+        return $this->dmEventAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dmEventAction;
     }
 
     /**
      * Setter for dmEventAction
      *
-     * @ElementName dmEventAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction|null $dmEventAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction $dmEventAction
      * @return $this
      */
     public function setDmEventAction(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventAction $dmEventAction)
@@ -81,21 +90,28 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDmEventAction()
+    {
+        $this->dmEventAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for dmEventLevel
      *
-     * @ElementName dmEventLevel
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel
      */
     public function getDmEventLevel()
     {
-        return $this->dmEventLevel;
+        return $this->dmEventLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dmEventLevel;
     }
 
     /**
      * Setter for dmEventLevel
      *
-     * @ElementName dmEventLevel
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel|null $dmEventLevel
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel $dmEventLevel
      * @return $this
      */
     public function setDmEventLevel(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventLevel $dmEventLevel)
@@ -105,26 +121,42 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultiple
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDmEventLevel()
+    {
+        $this->dmEventLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for dmEventType
      *
-     * @ElementName dmEventType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType
      */
     public function getDmEventType()
     {
-        return $this->dmEventType;
+        return $this->dmEventType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dmEventType;
     }
 
     /**
      * Setter for dmEventType
      *
-     * @ElementName dmEventType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null $dmEventType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType $dmEventType
      * @return $this
      */
     public function setDmEventType(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType $dmEventType)
     {
         $this->dmEventType = $dmEventType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDmEventType()
+    {
+        $this->dmEventType = null;
         return $this;
     }
 

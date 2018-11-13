@@ -16,6 +16,7 @@ class SystemTreatmentMappingNetworkSIPStatusDeleteRequest extends \CWM\BroadWork
 
     /**
      * @ElementName sipStatusCode
+     * @Type int
      * @var int|null
      */
     private $sipStatusCode = null;
@@ -23,24 +24,31 @@ class SystemTreatmentMappingNetworkSIPStatusDeleteRequest extends \CWM\BroadWork
     /**
      * Getter for sipStatusCode
      *
-     * @ElementName sipStatusCode
-     * @return int|null
+     * @return int
      */
     public function getSipStatusCode()
     {
-        return $this->sipStatusCode;
+        return $this->sipStatusCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipStatusCode;
     }
 
     /**
      * Setter for sipStatusCode
      *
-     * @ElementName sipStatusCode
-     * @param int|null $sipStatusCode
+     * @param int $sipStatusCode
      * @return $this
      */
     public function setSipStatusCode($sipStatusCode)
     {
         $this->sipStatusCode = $sipStatusCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipStatusCode()
+    {
+        $this->sipStatusCode = null;
         return $this;
     }
 

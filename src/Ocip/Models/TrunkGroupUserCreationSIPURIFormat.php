@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static TrunkGroupUserCreationSIPURIFormat NATIONAL_DN()
  * @method static TrunkGroupUserCreationSIPURIFormat E164_FORMAT_NO_PLUS()
  * @method static TrunkGroupUserCreationSIPURIFormat E164_FORMAT()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupUserCreationSIPURIFormat extends \MyCLabs\Enum\Enum
 {

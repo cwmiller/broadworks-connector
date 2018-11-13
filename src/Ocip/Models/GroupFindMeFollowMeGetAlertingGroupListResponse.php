@@ -16,6 +16,7 @@ class GroupFindMeFollowMeGetAlertingGroupListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName alertingGroupTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $alertingGroupTable = null;
@@ -23,24 +24,31 @@ class GroupFindMeFollowMeGetAlertingGroupListResponse extends \CWM\BroadWorksCon
     /**
      * Getter for alertingGroupTable
      *
-     * @ElementName alertingGroupTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAlertingGroupTable()
     {
-        return $this->alertingGroupTable;
+        return $this->alertingGroupTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingGroupTable;
     }
 
     /**
      * Setter for alertingGroupTable
      *
-     * @ElementName alertingGroupTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $alertingGroupTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $alertingGroupTable
      * @return $this
      */
     public function setAlertingGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $alertingGroupTable)
     {
         $this->alertingGroupTable = $alertingGroupTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAlertingGroupTable()
+    {
+        $this->alertingGroupTable = null;
         return $this;
     }
 

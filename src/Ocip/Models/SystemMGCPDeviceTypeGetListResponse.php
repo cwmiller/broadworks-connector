@@ -17,6 +17,7 @@ class SystemMGCPDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName deviceTypeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceTypeTable = null;
@@ -24,24 +25,31 @@ class SystemMGCPDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for deviceTypeTable
      *
-     * @ElementName deviceTypeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDeviceTypeTable()
     {
-        return $this->deviceTypeTable;
+        return $this->deviceTypeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceTypeTable;
     }
 
     /**
      * Setter for deviceTypeTable
      *
-     * @ElementName deviceTypeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceTypeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTypeTable
      * @return $this
      */
     public function setDeviceTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTypeTable)
     {
         $this->deviceTypeTable = $deviceTypeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceTypeTable()
+    {
+        $this->deviceTypeTable = null;
         return $this;
     }
 

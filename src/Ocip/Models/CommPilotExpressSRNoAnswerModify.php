@@ -12,12 +12,14 @@ class CommPilotExpressSRNoAnswerModify
 
     /**
      * @ElementName ringFowardNumbers
+     * @Type bool
      * @var bool|null
      */
     private $ringFowardNumbers = null;
 
     /**
      * @ElementName forwardingNumberList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -25,6 +27,7 @@ class CommPilotExpressSRNoAnswerModify
 
     /**
      * @ElementName stillNoAnswer
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionModify
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionModify|null
      */
     private $stillNoAnswer = null;
@@ -32,19 +35,17 @@ class CommPilotExpressSRNoAnswerModify
     /**
      * Getter for ringFowardNumbers
      *
-     * @ElementName ringFowardNumbers
-     * @return bool|null
+     * @return bool
      */
     public function getRingFowardNumbers()
     {
-        return $this->ringFowardNumbers;
+        return $this->ringFowardNumbers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ringFowardNumbers;
     }
 
     /**
      * Setter for ringFowardNumbers
      *
-     * @ElementName ringFowardNumbers
-     * @param bool|null $ringFowardNumbers
+     * @param bool $ringFowardNumbers
      * @return $this
      */
     public function setRingFowardNumbers($ringFowardNumbers)
@@ -54,52 +55,77 @@ class CommPilotExpressSRNoAnswerModify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRingFowardNumbers()
+    {
+        $this->ringFowardNumbers = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardingNumberList
      *
-     * @ElementName forwardingNumberList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null
      */
     public function getForwardingNumberList()
     {
-        return $this->forwardingNumberList;
+        return $this->forwardingNumberList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardingNumberList;
     }
 
     /**
      * Setter for forwardingNumberList
      *
-     * @ElementName forwardingNumberList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null|\CWM\BroadWorksConnector\Ocip\Nil $forwardingNumberList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null $forwardingNumberList
      * @return $this
      */
     public function setForwardingNumberList(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList $forwardingNumberList)
     {
-        $this->forwardingNumberList = $forwardingNumberList;
+        if ($forwardingNumberList === null) {
+            $this->forwardingNumberList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->forwardingNumberList = $forwardingNumberList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetForwardingNumberList()
+    {
+        $this->forwardingNumberList = null;
         return $this;
     }
 
     /**
      * Getter for stillNoAnswer
      *
-     * @ElementName stillNoAnswer
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionModify|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionModify
      */
     public function getStillNoAnswer()
     {
-        return $this->stillNoAnswer;
+        return $this->stillNoAnswer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->stillNoAnswer;
     }
 
     /**
      * Setter for stillNoAnswer
      *
-     * @ElementName stillNoAnswer
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionModify|null $stillNoAnswer
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionModify $stillNoAnswer
      * @return $this
      */
     public function setStillNoAnswer(\CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionModify $stillNoAnswer)
     {
         $this->stillNoAnswer = $stillNoAnswer;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStillNoAnswer()
+    {
+        $this->stillNoAnswer = null;
         return $this;
     }
 

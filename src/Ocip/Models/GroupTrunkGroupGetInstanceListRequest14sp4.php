@@ -19,30 +19,35 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName groupDepartmentName
+     * @Type string
      * @var string|null
      */
     private $groupDepartmentName = null;
 
     /**
      * @ElementName includeEnterpriseTrunkGroups
+     * @Type bool
      * @var bool|null
      */
     private $includeEnterpriseTrunkGroups = null;
 
     /**
      * @ElementName onlyTrunkGroupsWithDevice
+     * @Type bool
      * @var bool|null
      */
     private $onlyTrunkGroupsWithDevice = null;
@@ -50,19 +55,17 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -72,21 +75,28 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -96,21 +106,28 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupDepartmentName
      *
-     * @ElementName groupDepartmentName
-     * @return string|null
+     * @return string
      */
     public function getGroupDepartmentName()
     {
-        return $this->groupDepartmentName;
+        return $this->groupDepartmentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupDepartmentName;
     }
 
     /**
      * Setter for groupDepartmentName
      *
-     * @ElementName groupDepartmentName
-     * @param string|null $groupDepartmentName
+     * @param string $groupDepartmentName
      * @return $this
      */
     public function setGroupDepartmentName($groupDepartmentName)
@@ -120,21 +137,28 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupDepartmentName()
+    {
+        $this->groupDepartmentName = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeEnterpriseTrunkGroups
      *
-     * @ElementName includeEnterpriseTrunkGroups
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeEnterpriseTrunkGroups()
     {
-        return $this->includeEnterpriseTrunkGroups;
+        return $this->includeEnterpriseTrunkGroups instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeEnterpriseTrunkGroups;
     }
 
     /**
      * Setter for includeEnterpriseTrunkGroups
      *
-     * @ElementName includeEnterpriseTrunkGroups
-     * @param bool|null $includeEnterpriseTrunkGroups
+     * @param bool $includeEnterpriseTrunkGroups
      * @return $this
      */
     public function setIncludeEnterpriseTrunkGroups($includeEnterpriseTrunkGroups)
@@ -144,26 +168,42 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIncludeEnterpriseTrunkGroups()
+    {
+        $this->includeEnterpriseTrunkGroups = null;
+        return $this;
+    }
+
+    /**
      * Getter for onlyTrunkGroupsWithDevice
      *
-     * @ElementName onlyTrunkGroupsWithDevice
-     * @return bool|null
+     * @return bool
      */
     public function getOnlyTrunkGroupsWithDevice()
     {
-        return $this->onlyTrunkGroupsWithDevice;
+        return $this->onlyTrunkGroupsWithDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->onlyTrunkGroupsWithDevice;
     }
 
     /**
      * Setter for onlyTrunkGroupsWithDevice
      *
-     * @ElementName onlyTrunkGroupsWithDevice
-     * @param bool|null $onlyTrunkGroupsWithDevice
+     * @param bool $onlyTrunkGroupsWithDevice
      * @return $this
      */
     public function setOnlyTrunkGroupsWithDevice($onlyTrunkGroupsWithDevice)
     {
         $this->onlyTrunkGroupsWithDevice = $onlyTrunkGroupsWithDevice;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOnlyTrunkGroupsWithDevice()
+    {
+        $this->onlyTrunkGroupsWithDevice = null;
         return $this;
     }
 

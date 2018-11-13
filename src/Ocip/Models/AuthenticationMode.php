@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AuthenticationMode ENABLED()
  * @method static AuthenticationMode DISABLED()
  * @method static AuthenticationMode ENABLED_WITH_WEB_PORTAL_CREDENTIALS()
- * @ValueType string
+ * @EnumValueType string
  */
 class AuthenticationMode extends \MyCLabs\Enum\Enum
 {

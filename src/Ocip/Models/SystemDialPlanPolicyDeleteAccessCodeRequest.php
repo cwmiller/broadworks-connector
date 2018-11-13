@@ -16,6 +16,7 @@ class SystemDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName accessCode
+     * @Type string
      * @var string|null
      */
     private $accessCode = null;
@@ -23,24 +24,31 @@ class SystemDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWorksConnect
     /**
      * Getter for accessCode
      *
-     * @ElementName accessCode
-     * @return string|null
+     * @return string
      */
     public function getAccessCode()
     {
-        return $this->accessCode;
+        return $this->accessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessCode;
     }
 
     /**
      * Setter for accessCode
      *
-     * @ElementName accessCode
-     * @param string|null $accessCode
+     * @param string $accessCode
      * @return $this
      */
     public function setAccessCode($accessCode)
     {
         $this->accessCode = $accessCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessCode()
+    {
+        $this->accessCode = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static RoutingDNSResolvedAddressSelectionPolicy STANDARD()
  * @method static RoutingDNSResolvedAddressSelectionPolicy LOAD_BALANCED()
  * @method static RoutingDNSResolvedAddressSelectionPolicy STATEFUL()
- * @ValueType string
+ * @EnumValueType string
  */
 class RoutingDNSResolvedAddressSelectionPolicy extends \MyCLabs\Enum\Enum
 {

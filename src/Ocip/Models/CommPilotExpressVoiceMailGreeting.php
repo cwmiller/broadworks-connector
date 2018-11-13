@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CommPilotExpressVoiceMailGreeting NO_ANSWER()
  * @method static CommPilotExpressVoiceMailGreeting UNAVAILABLE()
- * @ValueType string
+ * @EnumValueType string
  */
 class CommPilotExpressVoiceMailGreeting extends \MyCLabs\Enum\Enum
 {

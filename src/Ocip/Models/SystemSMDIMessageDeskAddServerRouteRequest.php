@@ -16,12 +16,15 @@ class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName routeDestination
+     * @Type string
      * @var string|null
      */
     private $routeDestination = null;
 
     /**
      * @ElementName deviceName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $deviceName = array(
@@ -31,19 +34,17 @@ class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for routeDestination
      *
-     * @ElementName routeDestination
-     * @return string|null
+     * @return string
      */
     public function getRouteDestination()
     {
-        return $this->routeDestination;
+        return $this->routeDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routeDestination;
     }
 
     /**
      * Setter for routeDestination
      *
-     * @ElementName routeDestination
-     * @param string|null $routeDestination
+     * @param string $routeDestination
      * @return $this
      */
     public function setRouteDestination($routeDestination)
@@ -53,20 +54,27 @@ class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRouteDestination()
+    {
+        $this->routeDestination = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
      * @return string[]
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
      * @param string[] $deviceName
      * @return $this
      */
@@ -77,15 +85,23 @@ class SystemSMDIMessageDeskAddServerRouteRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for deviceName
      *
-     * @ElementName deviceName
      * @param string $deviceName
      * @return $this
      */
     public function addDeviceName(string $deviceName)
     {
-        $this->deviceName []= $deviceName;
+        $this->deviceName[] = $deviceName;
         return $this;
     }
 

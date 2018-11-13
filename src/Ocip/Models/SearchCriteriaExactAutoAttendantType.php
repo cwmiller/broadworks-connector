@@ -12,6 +12,7 @@ class SearchCriteriaExactAutoAttendantType extends SearchCriteria
 
     /**
      * @ElementName type
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType|null
      */
     private $type = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactAutoAttendantType extends SearchCriteria
     /**
      * Getter for type
      *
-     * @ElementName type
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType
      */
     public function getType()
     {
-        return $this->type;
+        return $this->type instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->type;
     }
 
     /**
      * Setter for type
      *
-     * @ElementName type
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType|null $type
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType $type
      * @return $this
      */
     public function setType(\CWM\BroadWorksConnector\Ocip\Models\AutoAttendantType $type)
     {
         $this->type = $type;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetType()
+    {
+        $this->type = null;
         return $this;
     }
 

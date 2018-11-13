@@ -14,6 +14,8 @@ class CommunicationBarringProfileReplacementList
 
     /**
      * @ElementName profileName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $profileName = array(
@@ -23,18 +25,16 @@ class CommunicationBarringProfileReplacementList
     /**
      * Getter for profileName
      *
-     * @ElementName profileName
      * @return string[]
      */
     public function getProfileName()
     {
-        return $this->profileName;
+        return $this->profileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileName;
     }
 
     /**
      * Setter for profileName
      *
-     * @ElementName profileName
      * @param string[] $profileName
      * @return $this
      */
@@ -45,15 +45,23 @@ class CommunicationBarringProfileReplacementList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileName()
+    {
+        $this->profileName = null;
+        return $this;
+    }
+
+    /**
      * Adder for profileName
      *
-     * @ElementName profileName
      * @param string $profileName
      * @return $this
      */
     public function addProfileName(string $profileName)
     {
-        $this->profileName []= $profileName;
+        $this->profileName[] = $profileName;
         return $this;
     }
 

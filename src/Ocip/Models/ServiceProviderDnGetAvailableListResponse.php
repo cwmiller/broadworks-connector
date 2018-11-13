@@ -15,6 +15,8 @@ class ServiceProviderDnGetAvailableListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName availableDn
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $availableDn = array(
@@ -24,18 +26,16 @@ class ServiceProviderDnGetAvailableListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for availableDn
      *
-     * @ElementName availableDn
      * @return string[]
      */
     public function getAvailableDn()
     {
-        return $this->availableDn;
+        return $this->availableDn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->availableDn;
     }
 
     /**
      * Setter for availableDn
      *
-     * @ElementName availableDn
      * @param string[] $availableDn
      * @return $this
      */
@@ -46,15 +46,23 @@ class ServiceProviderDnGetAvailableListResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAvailableDn()
+    {
+        $this->availableDn = null;
+        return $this;
+    }
+
+    /**
      * Adder for availableDn
      *
-     * @ElementName availableDn
      * @param string $availableDn
      * @return $this
      */
     public function addAvailableDn(string $availableDn)
     {
-        $this->availableDn []= $availableDn;
+        $this->availableDn[] = $availableDn;
         return $this;
     }
 

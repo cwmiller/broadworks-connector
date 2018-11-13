@@ -20,18 +20,21 @@ class GroupDepartmentGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName includeEnterpriseDepartments
+     * @Type bool
      * @var bool|null
      */
     private $includeEnterpriseDepartments = null;
@@ -39,19 +42,17 @@ class GroupDepartmentGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -61,21 +62,28 @@ class GroupDepartmentGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -85,26 +93,42 @@ class GroupDepartmentGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for includeEnterpriseDepartments
      *
-     * @ElementName includeEnterpriseDepartments
-     * @return bool|null
+     * @return bool
      */
     public function getIncludeEnterpriseDepartments()
     {
-        return $this->includeEnterpriseDepartments;
+        return $this->includeEnterpriseDepartments instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->includeEnterpriseDepartments;
     }
 
     /**
      * Setter for includeEnterpriseDepartments
      *
-     * @ElementName includeEnterpriseDepartments
-     * @param bool|null $includeEnterpriseDepartments
+     * @param bool $includeEnterpriseDepartments
      * @return $this
      */
     public function setIncludeEnterpriseDepartments($includeEnterpriseDepartments)
     {
         $this->includeEnterpriseDepartments = $includeEnterpriseDepartments;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIncludeEnterpriseDepartments()
+    {
+        $this->includeEnterpriseDepartments = null;
         return $this;
     }
 

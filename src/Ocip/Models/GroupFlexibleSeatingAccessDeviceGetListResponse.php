@@ -14,6 +14,8 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
 
     /**
      * @ElementName availableAccessDevice
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice[]
      */
     private $availableAccessDevice = array(
@@ -23,18 +25,16 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
     /**
      * Getter for availableAccessDevice
      *
-     * @ElementName availableAccessDevice
      * @return \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice[]
      */
     public function getAvailableAccessDevice()
     {
-        return $this->availableAccessDevice;
+        return $this->availableAccessDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->availableAccessDevice;
     }
 
     /**
      * Setter for availableAccessDevice
      *
-     * @ElementName availableAccessDevice
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice[] $availableAccessDevice
      * @return $this
      */
@@ -45,15 +45,23 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAvailableAccessDevice()
+    {
+        $this->availableAccessDevice = null;
+        return $this;
+    }
+
+    /**
      * Adder for availableAccessDevice
      *
-     * @ElementName availableAccessDevice
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice $availableAccessDevice
      * @return $this
      */
     public function addAvailableAccessDevice($availableAccessDevice)
     {
-        $this->availableAccessDevice []= $availableAccessDevice;
+        $this->availableAccessDevice[] = $availableAccessDevice;
         return $this;
     }
 

@@ -12,12 +12,14 @@ class EnterpriseVoiceVPNTreatmentEntry
 
     /**
      * @ElementName id
+     * @Type string
      * @var string|null
      */
     private $id = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,19 +28,17 @@ class EnterpriseVoiceVPNTreatmentEntry
     /**
      * Getter for id
      *
-     * @ElementName id
-     * @return string|null
+     * @return string
      */
     public function getId()
     {
-        return $this->id;
+        return $this->id instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->id;
     }
 
     /**
      * Setter for id
      *
-     * @ElementName id
-     * @param string|null $id
+     * @param string $id
      * @return $this
      */
     public function setId($id)
@@ -48,28 +48,46 @@ class EnterpriseVoiceVPNTreatmentEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetId()
+    {
+        $this->id = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

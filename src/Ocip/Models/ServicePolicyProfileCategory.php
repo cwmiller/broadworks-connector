@@ -16,7 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServicePolicyProfileCategory PROVISIONING_VALIDATION()
  * @method static ServicePolicyProfileCategory SERVICES()
  * @method static ServicePolicyProfileCategory SERVICE_CODES()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServicePolicyProfileCategory extends \MyCLabs\Enum\Enum
 {

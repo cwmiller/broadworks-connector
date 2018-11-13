@@ -16,6 +16,7 @@ class SystemCallProcessingPolicyProfileGetListResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName callProcessingPolicyProfilesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callProcessingPolicyProfilesTable = null;
@@ -23,24 +24,31 @@ class SystemCallProcessingPolicyProfileGetListResponse extends \CWM\BroadWorksCo
     /**
      * Getter for callProcessingPolicyProfilesTable
      *
-     * @ElementName callProcessingPolicyProfilesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCallProcessingPolicyProfilesTable()
     {
-        return $this->callProcessingPolicyProfilesTable;
+        return $this->callProcessingPolicyProfilesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callProcessingPolicyProfilesTable;
     }
 
     /**
      * Setter for callProcessingPolicyProfilesTable
      *
-     * @ElementName callProcessingPolicyProfilesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callProcessingPolicyProfilesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callProcessingPolicyProfilesTable
      * @return $this
      */
     public function setCallProcessingPolicyProfilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callProcessingPolicyProfilesTable)
     {
         $this->callProcessingPolicyProfilesTable = $callProcessingPolicyProfilesTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallProcessingPolicyProfilesTable()
+    {
+        $this->callProcessingPolicyProfilesTable = null;
         return $this;
     }
 

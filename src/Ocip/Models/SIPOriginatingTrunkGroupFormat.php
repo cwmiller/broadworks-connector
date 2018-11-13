@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SIPOriginatingTrunkGroupFormat OTG()
  * @method static SIPOriginatingTrunkGroupFormat X_NORTEL_PROFILE()
- * @ValueType string
+ * @EnumValueType string
  */
 class SIPOriginatingTrunkGroupFormat extends \MyCLabs\Enum\Enum
 {

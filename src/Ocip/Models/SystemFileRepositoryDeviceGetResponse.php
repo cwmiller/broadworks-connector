@@ -14,24 +14,28 @@ class SystemFileRepositoryDeviceGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName rootDirectory
+     * @Type string
      * @var string|null
      */
     private $rootDirectory = null;
 
     /**
      * @ElementName port
+     * @Type int
      * @var int|null
      */
     private $port = null;
 
     /**
      * @ElementName protocolWebDAV
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV|null
      */
     private $protocolWebDAV = null;
 
     /**
      * @ElementName protocolFTP
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP|null
      */
     private $protocolFTP = null;
@@ -39,19 +43,17 @@ class SystemFileRepositoryDeviceGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for rootDirectory
      *
-     * @ElementName rootDirectory
-     * @return string|null
+     * @return string
      */
     public function getRootDirectory()
     {
-        return $this->rootDirectory;
+        return $this->rootDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rootDirectory;
     }
 
     /**
      * Setter for rootDirectory
      *
-     * @ElementName rootDirectory
-     * @param string|null $rootDirectory
+     * @param string $rootDirectory
      * @return $this
      */
     public function setRootDirectory($rootDirectory)
@@ -61,21 +63,28 @@ class SystemFileRepositoryDeviceGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRootDirectory()
+    {
+        $this->rootDirectory = null;
+        return $this;
+    }
+
+    /**
      * Getter for port
      *
-     * @ElementName port
-     * @return int|null
+     * @return int
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @param int|null $port
+     * @param int $port
      * @return $this
      */
     public function setPort($port)
@@ -85,21 +94,28 @@ class SystemFileRepositoryDeviceGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
+        return $this;
+    }
+
+    /**
      * Getter for protocolWebDAV
      *
-     * @ElementName protocolWebDAV
-     * @return \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV
      */
     public function getProtocolWebDAV()
     {
-        return $this->protocolWebDAV;
+        return $this->protocolWebDAV instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocolWebDAV;
     }
 
     /**
      * Setter for protocolWebDAV
      *
-     * @ElementName protocolWebDAV
-     * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV|null $protocolWebDAV
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV $protocolWebDAV
      * @return $this
      */
     public function setProtocolWebDAV(\CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV $protocolWebDAV)
@@ -109,26 +125,42 @@ class SystemFileRepositoryDeviceGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProtocolWebDAV()
+    {
+        $this->protocolWebDAV = null;
+        return $this;
+    }
+
+    /**
      * Getter for protocolFTP
      *
-     * @ElementName protocolFTP
-     * @return \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP
      */
     public function getProtocolFTP()
     {
-        return $this->protocolFTP;
+        return $this->protocolFTP instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocolFTP;
     }
 
     /**
      * Setter for protocolFTP
      *
-     * @ElementName protocolFTP
-     * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP|null $protocolFTP
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP $protocolFTP
      * @return $this
      */
     public function setProtocolFTP(\CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP $protocolFTP)
     {
         $this->protocolFTP = $protocolFTP;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProtocolFTP()
+    {
+        $this->protocolFTP = null;
         return $this;
     }
 

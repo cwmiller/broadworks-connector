@@ -16,6 +16,7 @@ class SystemCommunicationBarringCallTypeGetListResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName callTypeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callTypeTable = null;
@@ -23,24 +24,31 @@ class SystemCommunicationBarringCallTypeGetListResponse extends \CWM\BroadWorksC
     /**
      * Getter for callTypeTable
      *
-     * @ElementName callTypeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCallTypeTable()
     {
-        return $this->callTypeTable;
+        return $this->callTypeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callTypeTable;
     }
 
     /**
      * Setter for callTypeTable
      *
-     * @ElementName callTypeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callTypeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callTypeTable
      * @return $this
      */
     public function setCallTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callTypeTable)
     {
         $this->callTypeTable = $callTypeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallTypeTable()
+    {
+        $this->callTypeTable = null;
         return $this;
     }
 

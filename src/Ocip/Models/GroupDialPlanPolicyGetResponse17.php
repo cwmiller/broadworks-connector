@@ -14,36 +14,42 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName useSetting
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
      */
     private $useSetting = null;
 
     /**
      * @ElementName requiresAccessCodeForPublicCalls
+     * @Type bool
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
 
     /**
      * @ElementName allowE164PublicCalls
+     * @Type bool
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
 
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
+     * @Type bool
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
 
     /**
      * @ElementName publicDigitMap
+     * @Type string
      * @var string|null
      */
     private $publicDigitMap = null;
 
     /**
      * @ElementName privateDigitMap
+     * @Type string
      * @var string|null
      */
     private $privateDigitMap = null;
@@ -51,19 +57,17 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for useSetting
      *
-     * @ElementName useSetting
-     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel
      */
     public function getUseSetting()
     {
-        return $this->useSetting;
+        return $this->useSetting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSetting;
     }
 
     /**
      * Setter for useSetting
      *
-     * @ElementName useSetting
-     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel|null $useSetting
+     * @param \CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel $useSetting
      * @return $this
      */
     public function setUseSetting(\CWM\BroadWorksConnector\Ocip\Models\GroupDialPlanPolicySettingLevel $useSetting)
@@ -73,21 +77,28 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSetting()
+    {
+        $this->useSetting = null;
+        return $this;
+    }
+
+    /**
      * Getter for requiresAccessCodeForPublicCalls
      *
-     * @ElementName requiresAccessCodeForPublicCalls
-     * @return bool|null
+     * @return bool
      */
     public function getRequiresAccessCodeForPublicCalls()
     {
-        return $this->requiresAccessCodeForPublicCalls;
+        return $this->requiresAccessCodeForPublicCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requiresAccessCodeForPublicCalls;
     }
 
     /**
      * Setter for requiresAccessCodeForPublicCalls
      *
-     * @ElementName requiresAccessCodeForPublicCalls
-     * @param bool|null $requiresAccessCodeForPublicCalls
+     * @param bool $requiresAccessCodeForPublicCalls
      * @return $this
      */
     public function setRequiresAccessCodeForPublicCalls($requiresAccessCodeForPublicCalls)
@@ -97,21 +108,28 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequiresAccessCodeForPublicCalls()
+    {
+        $this->requiresAccessCodeForPublicCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowE164PublicCalls
      *
-     * @ElementName allowE164PublicCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAllowE164PublicCalls()
     {
-        return $this->allowE164PublicCalls;
+        return $this->allowE164PublicCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowE164PublicCalls;
     }
 
     /**
      * Setter for allowE164PublicCalls
      *
-     * @ElementName allowE164PublicCalls
-     * @param bool|null $allowE164PublicCalls
+     * @param bool $allowE164PublicCalls
      * @return $this
      */
     public function setAllowE164PublicCalls($allowE164PublicCalls)
@@ -121,21 +139,28 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowE164PublicCalls()
+    {
+        $this->allowE164PublicCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for preferE164NumberFormatForCallbackServices
      *
-     * @ElementName preferE164NumberFormatForCallbackServices
-     * @return bool|null
+     * @return bool
      */
     public function getPreferE164NumberFormatForCallbackServices()
     {
-        return $this->preferE164NumberFormatForCallbackServices;
+        return $this->preferE164NumberFormatForCallbackServices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preferE164NumberFormatForCallbackServices;
     }
 
     /**
      * Setter for preferE164NumberFormatForCallbackServices
      *
-     * @ElementName preferE164NumberFormatForCallbackServices
-     * @param bool|null $preferE164NumberFormatForCallbackServices
+     * @param bool $preferE164NumberFormatForCallbackServices
      * @return $this
      */
     public function setPreferE164NumberFormatForCallbackServices($preferE164NumberFormatForCallbackServices)
@@ -145,21 +170,28 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreferE164NumberFormatForCallbackServices()
+    {
+        $this->preferE164NumberFormatForCallbackServices = null;
+        return $this;
+    }
+
+    /**
      * Getter for publicDigitMap
      *
-     * @ElementName publicDigitMap
-     * @return string|null
+     * @return string
      */
     public function getPublicDigitMap()
     {
-        return $this->publicDigitMap;
+        return $this->publicDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicDigitMap;
     }
 
     /**
      * Setter for publicDigitMap
      *
-     * @ElementName publicDigitMap
-     * @param string|null $publicDigitMap
+     * @param string $publicDigitMap
      * @return $this
      */
     public function setPublicDigitMap($publicDigitMap)
@@ -169,26 +201,42 @@ class GroupDialPlanPolicyGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPublicDigitMap()
+    {
+        $this->publicDigitMap = null;
+        return $this;
+    }
+
+    /**
      * Getter for privateDigitMap
      *
-     * @ElementName privateDigitMap
-     * @return string|null
+     * @return string
      */
     public function getPrivateDigitMap()
     {
-        return $this->privateDigitMap;
+        return $this->privateDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->privateDigitMap;
     }
 
     /**
      * Setter for privateDigitMap
      *
-     * @ElementName privateDigitMap
-     * @param string|null $privateDigitMap
+     * @param string $privateDigitMap
      * @return $this
      */
     public function setPrivateDigitMap($privateDigitMap)
     {
         $this->privateDigitMap = $privateDigitMap;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrivateDigitMap()
+    {
+        $this->privateDigitMap = null;
         return $this;
     }
 

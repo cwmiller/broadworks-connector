@@ -16,18 +16,21 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName announcementFileName
+     * @Type string
      * @var string|null
      */
     private $announcementFileName = null;
 
     /**
      * @ElementName announcementFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $announcementFile = null;
@@ -35,19 +38,17 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementFileName
      *
-     * @ElementName announcementFileName
-     * @return string|null
+     * @return string
      */
     public function getAnnouncementFileName()
     {
-        return $this->announcementFileName;
+        return $this->announcementFileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFileName;
     }
 
     /**
      * Setter for announcementFileName
      *
-     * @ElementName announcementFileName
-     * @param string|null $announcementFileName
+     * @param string $announcementFileName
      * @return $this
      */
     public function setAnnouncementFileName($announcementFileName)
@@ -81,26 +89,42 @@ class UserAnnouncementFileAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnnouncementFileName()
+    {
+        $this->announcementFileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for announcementFile
      *
-     * @ElementName announcementFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getAnnouncementFile()
     {
-        return $this->announcementFile;
+        return $this->announcementFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->announcementFile;
     }
 
     /**
      * Setter for announcementFile
      *
-     * @ElementName announcementFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $announcementFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $announcementFile
      * @return $this
      */
     public function setAnnouncementFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $announcementFile)
     {
         $this->announcementFile = $announcementFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAnnouncementFile()
+    {
+        $this->announcementFile = null;
         return $this;
     }
 

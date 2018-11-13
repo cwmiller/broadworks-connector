@@ -12,30 +12,35 @@ class CallCenterAgentStatistics13mp8
 
     /**
      * @ElementName agentUserId
+     * @Type string
      * @var string|null
      */
     private $agentUserId = null;
 
     /**
      * @ElementName agentDisplayNames
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null
      */
     private $agentDisplayNames = null;
 
     /**
      * @ElementName available
+     * @Type bool
      * @var bool|null
      */
     private $available = null;
 
     /**
      * @ElementName statisticsYesterday
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
      */
     private $statisticsYesterday = null;
 
     /**
      * @ElementName statisticsToday
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
      */
     private $statisticsToday = null;
@@ -43,19 +48,17 @@ class CallCenterAgentStatistics13mp8
     /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
-     * @return string|null
+     * @return string
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
-     * @param string|null $agentUserId
+     * @param string $agentUserId
      * @return $this
      */
     public function setAgentUserId($agentUserId)
@@ -65,21 +68,28 @@ class CallCenterAgentStatistics13mp8
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentDisplayNames
      *
-     * @ElementName agentDisplayNames
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames
      */
     public function getAgentDisplayNames()
     {
-        return $this->agentDisplayNames;
+        return $this->agentDisplayNames instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentDisplayNames;
     }
 
     /**
      * Setter for agentDisplayNames
      *
-     * @ElementName agentDisplayNames
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null $agentDisplayNames
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames $agentDisplayNames
      * @return $this
      */
     public function setAgentDisplayNames(\CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames $agentDisplayNames)
@@ -89,21 +99,28 @@ class CallCenterAgentStatistics13mp8
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentDisplayNames()
+    {
+        $this->agentDisplayNames = null;
+        return $this;
+    }
+
+    /**
      * Getter for available
      *
-     * @ElementName available
-     * @return bool|null
+     * @return bool
      */
     public function getAvailable()
     {
-        return $this->available;
+        return $this->available instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->available;
     }
 
     /**
      * Setter for available
      *
-     * @ElementName available
-     * @param bool|null $available
+     * @param bool $available
      * @return $this
      */
     public function setAvailable($available)
@@ -113,21 +130,28 @@ class CallCenterAgentStatistics13mp8
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAvailable()
+    {
+        $this->available = null;
+        return $this;
+    }
+
+    /**
      * Getter for statisticsYesterday
      *
-     * @ElementName statisticsYesterday
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8
      */
     public function getStatisticsYesterday()
     {
-        return $this->statisticsYesterday;
+        return $this->statisticsYesterday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statisticsYesterday;
     }
 
     /**
      * Setter for statisticsYesterday
      *
-     * @ElementName statisticsYesterday
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null $statisticsYesterday
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8 $statisticsYesterday
      * @return $this
      */
     public function setStatisticsYesterday(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8 $statisticsYesterday)
@@ -137,26 +161,42 @@ class CallCenterAgentStatistics13mp8
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatisticsYesterday()
+    {
+        $this->statisticsYesterday = null;
+        return $this;
+    }
+
+    /**
      * Getter for statisticsToday
      *
-     * @ElementName statisticsToday
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8
      */
     public function getStatisticsToday()
     {
-        return $this->statisticsToday;
+        return $this->statisticsToday instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->statisticsToday;
     }
 
     /**
      * Setter for statisticsToday
      *
-     * @ElementName statisticsToday
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null $statisticsToday
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8 $statisticsToday
      * @return $this
      */
     public function setStatisticsToday(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8 $statisticsToday)
     {
         $this->statisticsToday = $statisticsToday;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStatisticsToday()
+    {
+        $this->statisticsToday = null;
         return $this;
     }
 

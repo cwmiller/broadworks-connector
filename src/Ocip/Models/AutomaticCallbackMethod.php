@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AutomaticCallbackMethod NOTIFY_ONLY()
  * @method static AutomaticCallbackMethod
  * NOTIFY_IF_POSSIBLE_AND_POLLING_OTHERWISE()
- * @ValueType string
+ * @EnumValueType string
  */
 class AutomaticCallbackMethod extends \MyCLabs\Enum\Enum
 {

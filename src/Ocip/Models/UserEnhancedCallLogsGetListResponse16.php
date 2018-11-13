@@ -24,12 +24,15 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName totalNumberOfRows
+     * @Type int
      * @var int|null
      */
     private $totalNumberOfRows = null;
 
     /**
      * @ElementName callLog
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
     private $callLog = array(
@@ -39,19 +42,17 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @return int|null
+     * @return int
      */
     public function getTotalNumberOfRows()
     {
-        return $this->totalNumberOfRows;
+        return $this->totalNumberOfRows instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalNumberOfRows;
     }
 
     /**
      * Setter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @param int|null $totalNumberOfRows
+     * @param int $totalNumberOfRows
      * @return $this
      */
     public function setTotalNumberOfRows($totalNumberOfRows)
@@ -61,20 +62,27 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTotalNumberOfRows()
+    {
+        $this->totalNumberOfRows = null;
+        return $this;
+    }
+
+    /**
      * Getter for callLog
      *
-     * @ElementName callLog
      * @return \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
     public function getCallLog()
     {
-        return $this->callLog;
+        return $this->callLog instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLog;
     }
 
     /**
      * Setter for callLog
      *
-     * @ElementName callLog
      * @param \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[] $callLog
      * @return $this
      */
@@ -85,15 +93,23 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallLog()
+    {
+        $this->callLog = null;
+        return $this;
+    }
+
+    /**
      * Adder for callLog
      *
-     * @ElementName callLog
      * @param \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry $callLog
      * @return $this
      */
     public function addCallLog($callLog)
     {
-        $this->callLog []= $callLog;
+        $this->callLog[] = $callLog;
         return $this;
     }
 

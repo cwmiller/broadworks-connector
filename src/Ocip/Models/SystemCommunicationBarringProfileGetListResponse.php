@@ -16,6 +16,7 @@ class SystemCommunicationBarringProfileGetListResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName profileTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profileTable = null;
@@ -23,24 +24,31 @@ class SystemCommunicationBarringProfileGetListResponse extends \CWM\BroadWorksCo
     /**
      * Getter for profileTable
      *
-     * @ElementName profileTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getProfileTable()
     {
-        return $this->profileTable;
+        return $this->profileTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileTable;
     }
 
     /**
      * Setter for profileTable
      *
-     * @ElementName profileTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $profileTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $profileTable
      * @return $this
      */
     public function setProfileTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $profileTable)
     {
         $this->profileTable = $profileTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfileTable()
+    {
+        $this->profileTable = null;
         return $this;
     }
 

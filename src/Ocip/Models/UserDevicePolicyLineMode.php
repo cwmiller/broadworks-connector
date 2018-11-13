@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static UserDevicePolicyLineMode SINGLE_USER_PRIVATE_AND_SHARED()
  * @method static UserDevicePolicyLineMode MULTIPLE_USER_SHARED()
- * @ValueType string
+ * @EnumValueType string
  */
 class UserDevicePolicyLineMode extends \MyCLabs\Enum\Enum
 {

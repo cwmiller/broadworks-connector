@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static NetworkType _PRIVATE()
  * @method static NetworkType _PUBLIC()
- * @ValueType string
+ * @EnumValueType string
  */
 class NetworkType extends \MyCLabs\Enum\Enum
 {

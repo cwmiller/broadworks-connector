@@ -20,36 +20,42 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName voicePortalGreetingSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
 
     /**
      * @ElementName voicePortalGreetingFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $voicePortalGreetingFile = null;
 
     /**
      * @ElementName voiceMessagingGreetingSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
 
     /**
      * @ElementName voiceMessagingGreetingFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $voiceMessagingGreetingFile = null;
@@ -57,19 +63,17 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -79,21 +83,28 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -103,21 +114,28 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalGreetingSelection
      *
-     * @ElementName voicePortalGreetingSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      */
     public function getVoicePortalGreetingSelection()
     {
-        return $this->voicePortalGreetingSelection;
+        return $this->voicePortalGreetingSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalGreetingSelection;
     }
 
     /**
      * Setter for voicePortalGreetingSelection
      *
-     * @ElementName voicePortalGreetingSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voicePortalGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voicePortalGreetingSelection
      * @return $this
      */
     public function setVoicePortalGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voicePortalGreetingSelection)
@@ -127,21 +145,28 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalGreetingSelection()
+    {
+        $this->voicePortalGreetingSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for voicePortalGreetingFile
      *
-     * @ElementName voicePortalGreetingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getVoicePortalGreetingFile()
     {
-        return $this->voicePortalGreetingFile;
+        return $this->voicePortalGreetingFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voicePortalGreetingFile;
     }
 
     /**
      * Setter for voicePortalGreetingFile
      *
-     * @ElementName voicePortalGreetingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $voicePortalGreetingFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $voicePortalGreetingFile
      * @return $this
      */
     public function setVoicePortalGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $voicePortalGreetingFile)
@@ -151,21 +176,28 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoicePortalGreetingFile()
+    {
+        $this->voicePortalGreetingFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessagingGreetingSelection
      *
-     * @ElementName voiceMessagingGreetingSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
      */
     public function getVoiceMessagingGreetingSelection()
     {
-        return $this->voiceMessagingGreetingSelection;
+        return $this->voiceMessagingGreetingSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessagingGreetingSelection;
     }
 
     /**
      * Setter for voiceMessagingGreetingSelection
      *
-     * @ElementName voiceMessagingGreetingSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null $voiceMessagingGreetingSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voiceMessagingGreetingSelection
      * @return $this
      */
     public function setVoiceMessagingGreetingSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection $voiceMessagingGreetingSelection)
@@ -175,26 +207,42 @@ class GroupVoiceMessagingGroupModifyVoicePortalBrandingRequest16 extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVoiceMessagingGreetingSelection()
+    {
+        $this->voiceMessagingGreetingSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for voiceMessagingGreetingFile
      *
-     * @ElementName voiceMessagingGreetingFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
      */
     public function getVoiceMessagingGreetingFile()
     {
-        return $this->voiceMessagingGreetingFile;
+        return $this->voiceMessagingGreetingFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceMessagingGreetingFile;
     }
 
     /**
      * Setter for voiceMessagingGreetingFile
      *
-     * @ElementName voiceMessagingGreetingFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null $voiceMessagingGreetingFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $voiceMessagingGreetingFile
      * @return $this
      */
     public function setVoiceMessagingGreetingFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource $voiceMessagingGreetingFile)
     {
         $this->voiceMessagingGreetingFile = $voiceMessagingGreetingFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoiceMessagingGreetingFile()
+    {
+        $this->voiceMessagingGreetingFile = null;
         return $this;
     }
 

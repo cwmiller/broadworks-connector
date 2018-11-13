@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static RecordingOption ALWAYS()
  * @method static RecordingOption NEVER()
  * @method static RecordingOption ON_DEMAND()
- * @ValueType string
+ * @EnumValueType string
  */
 class RecordingOption extends \MyCLabs\Enum\Enum
 {

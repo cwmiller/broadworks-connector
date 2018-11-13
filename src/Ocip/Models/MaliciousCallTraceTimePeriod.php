@@ -16,12 +16,14 @@ class MaliciousCallTraceTimePeriod
 
     /**
      * @ElementName startDateTime
+     * @Type string
      * @var string|null
      */
     private $startDateTime = null;
 
     /**
      * @ElementName stopDateTime
+     * @Type string
      * @var string|null
      */
     private $stopDateTime = null;
@@ -29,19 +31,17 @@ class MaliciousCallTraceTimePeriod
     /**
      * Getter for startDateTime
      *
-     * @ElementName startDateTime
-     * @return string|null
+     * @return string
      */
     public function getStartDateTime()
     {
-        return $this->startDateTime;
+        return $this->startDateTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startDateTime;
     }
 
     /**
      * Setter for startDateTime
      *
-     * @ElementName startDateTime
-     * @param string|null $startDateTime
+     * @param string $startDateTime
      * @return $this
      */
     public function setStartDateTime($startDateTime)
@@ -51,26 +51,42 @@ class MaliciousCallTraceTimePeriod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartDateTime()
+    {
+        $this->startDateTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for stopDateTime
      *
-     * @ElementName stopDateTime
-     * @return string|null
+     * @return string
      */
     public function getStopDateTime()
     {
-        return $this->stopDateTime;
+        return $this->stopDateTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->stopDateTime;
     }
 
     /**
      * Setter for stopDateTime
      *
-     * @ElementName stopDateTime
-     * @param string|null $stopDateTime
+     * @param string $stopDateTime
      * @return $this
      */
     public function setStopDateTime($stopDateTime)
     {
         $this->stopDateTime = $stopDateTime;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStopDateTime()
+    {
+        $this->stopDateTime = null;
         return $this;
     }
 

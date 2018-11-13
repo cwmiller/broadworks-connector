@@ -20,60 +20,70 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName taskName
+     * @Type string
      * @var string|null
      */
     private $taskName = null;
 
     /**
      * @ElementName startTimestamp
+     * @Type string
      * @var string|null
      */
     private $startTimestamp = null;
 
     /**
      * @ElementName maxDurationHours
+     * @Type int
      * @var int|null
      */
     private $maxDurationHours = null;
 
     /**
      * @ElementName sendReportEmail
+     * @Type bool
      * @var bool|null
      */
     private $sendReportEmail = null;
 
     /**
      * @ElementName reportDeliveryEmailAddress
+     * @Type string
      * @var string|null
      */
     private $reportDeliveryEmailAddress = null;
 
     /**
      * @ElementName abortOnError
+     * @Type bool
      * @var bool|null
      */
     private $abortOnError = null;
 
     /**
      * @ElementName abortErrorThreshold
+     * @Type int
      * @var int|null
      */
     private $abortErrorThreshold = null;
 
     /**
      * @ElementName reportAllUsers
+     * @Type bool
      * @var bool|null
      */
     private $reportAllUsers = null;
 
     /**
      * @ElementName automaticallyIncrementServiceQuantity
+     * @Type bool
      * @var bool|null
      */
     private $automaticallyIncrementServiceQuantity = null;
@@ -81,19 +91,17 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -103,21 +111,28 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for taskName
      *
-     * @ElementName taskName
-     * @return string|null
+     * @return string
      */
     public function getTaskName()
     {
-        return $this->taskName;
+        return $this->taskName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->taskName;
     }
 
     /**
      * Setter for taskName
      *
-     * @ElementName taskName
-     * @param string|null $taskName
+     * @param string $taskName
      * @return $this
      */
     public function setTaskName($taskName)
@@ -127,21 +142,28 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTaskName()
+    {
+        $this->taskName = null;
+        return $this;
+    }
+
+    /**
      * Getter for startTimestamp
      *
-     * @ElementName startTimestamp
-     * @return string|null
+     * @return string
      */
     public function getStartTimestamp()
     {
-        return $this->startTimestamp;
+        return $this->startTimestamp instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startTimestamp;
     }
 
     /**
      * Setter for startTimestamp
      *
-     * @ElementName startTimestamp
-     * @param string|null $startTimestamp
+     * @param string $startTimestamp
      * @return $this
      */
     public function setStartTimestamp($startTimestamp)
@@ -151,21 +173,28 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartTimestamp()
+    {
+        $this->startTimestamp = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxDurationHours
      *
-     * @ElementName maxDurationHours
-     * @return int|null
+     * @return int
      */
     public function getMaxDurationHours()
     {
-        return $this->maxDurationHours;
+        return $this->maxDurationHours instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxDurationHours;
     }
 
     /**
      * Setter for maxDurationHours
      *
-     * @ElementName maxDurationHours
-     * @param int|null $maxDurationHours
+     * @param int $maxDurationHours
      * @return $this
      */
     public function setMaxDurationHours($maxDurationHours)
@@ -175,21 +204,28 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxDurationHours()
+    {
+        $this->maxDurationHours = null;
+        return $this;
+    }
+
+    /**
      * Getter for sendReportEmail
      *
-     * @ElementName sendReportEmail
-     * @return bool|null
+     * @return bool
      */
     public function getSendReportEmail()
     {
-        return $this->sendReportEmail;
+        return $this->sendReportEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendReportEmail;
     }
 
     /**
      * Setter for sendReportEmail
      *
-     * @ElementName sendReportEmail
-     * @param bool|null $sendReportEmail
+     * @param bool $sendReportEmail
      * @return $this
      */
     public function setSendReportEmail($sendReportEmail)
@@ -199,21 +235,28 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendReportEmail()
+    {
+        $this->sendReportEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportDeliveryEmailAddress
      *
-     * @ElementName reportDeliveryEmailAddress
-     * @return string|null
+     * @return string
      */
     public function getReportDeliveryEmailAddress()
     {
-        return $this->reportDeliveryEmailAddress;
+        return $this->reportDeliveryEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportDeliveryEmailAddress;
     }
 
     /**
      * Setter for reportDeliveryEmailAddress
      *
-     * @ElementName reportDeliveryEmailAddress
-     * @param string|null $reportDeliveryEmailAddress
+     * @param string $reportDeliveryEmailAddress
      * @return $this
      */
     public function setReportDeliveryEmailAddress($reportDeliveryEmailAddress)
@@ -223,21 +266,28 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportDeliveryEmailAddress()
+    {
+        $this->reportDeliveryEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for abortOnError
      *
-     * @ElementName abortOnError
-     * @return bool|null
+     * @return bool
      */
     public function getAbortOnError()
     {
-        return $this->abortOnError;
+        return $this->abortOnError instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abortOnError;
     }
 
     /**
      * Setter for abortOnError
      *
-     * @ElementName abortOnError
-     * @param bool|null $abortOnError
+     * @param bool $abortOnError
      * @return $this
      */
     public function setAbortOnError($abortOnError)
@@ -247,21 +297,28 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAbortOnError()
+    {
+        $this->abortOnError = null;
+        return $this;
+    }
+
+    /**
      * Getter for abortErrorThreshold
      *
-     * @ElementName abortErrorThreshold
-     * @return int|null
+     * @return int
      */
     public function getAbortErrorThreshold()
     {
-        return $this->abortErrorThreshold;
+        return $this->abortErrorThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->abortErrorThreshold;
     }
 
     /**
      * Setter for abortErrorThreshold
      *
-     * @ElementName abortErrorThreshold
-     * @param int|null $abortErrorThreshold
+     * @param int $abortErrorThreshold
      * @return $this
      */
     public function setAbortErrorThreshold($abortErrorThreshold)
@@ -271,21 +328,28 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAbortErrorThreshold()
+    {
+        $this->abortErrorThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for reportAllUsers
      *
-     * @ElementName reportAllUsers
-     * @return bool|null
+     * @return bool
      */
     public function getReportAllUsers()
     {
-        return $this->reportAllUsers;
+        return $this->reportAllUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportAllUsers;
     }
 
     /**
      * Setter for reportAllUsers
      *
-     * @ElementName reportAllUsers
-     * @param bool|null $reportAllUsers
+     * @param bool $reportAllUsers
      * @return $this
      */
     public function setReportAllUsers($reportAllUsers)
@@ -295,26 +359,42 @@ class ServiceProviderServicePackMigrationTaskAddRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReportAllUsers()
+    {
+        $this->reportAllUsers = null;
+        return $this;
+    }
+
+    /**
      * Getter for automaticallyIncrementServiceQuantity
      *
-     * @ElementName automaticallyIncrementServiceQuantity
-     * @return bool|null
+     * @return bool
      */
     public function getAutomaticallyIncrementServiceQuantity()
     {
-        return $this->automaticallyIncrementServiceQuantity;
+        return $this->automaticallyIncrementServiceQuantity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->automaticallyIncrementServiceQuantity;
     }
 
     /**
      * Setter for automaticallyIncrementServiceQuantity
      *
-     * @ElementName automaticallyIncrementServiceQuantity
-     * @param bool|null $automaticallyIncrementServiceQuantity
+     * @param bool $automaticallyIncrementServiceQuantity
      * @return $this
      */
     public function setAutomaticallyIncrementServiceQuantity($automaticallyIncrementServiceQuantity)
     {
         $this->automaticallyIncrementServiceQuantity = $automaticallyIncrementServiceQuantity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAutomaticallyIncrementServiceQuantity()
+    {
+        $this->automaticallyIncrementServiceQuantity = null;
         return $this;
     }
 

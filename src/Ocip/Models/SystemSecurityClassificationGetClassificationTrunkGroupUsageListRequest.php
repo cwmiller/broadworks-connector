@@ -19,18 +19,22 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
 
     /**
      * @ElementName securityClassification
+     * @Type string
      * @var string|null
      */
     private $securityClassification = null;
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaTrunkGroupName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     private $searchCriteriaTrunkGroupName = array(
@@ -39,6 +43,8 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
 
     /**
      * @ElementName searchCriteriaGroupId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -47,6 +53,8 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
 
     /**
      * @ElementName searchCriteriaServiceProviderId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -55,6 +63,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
 
     /**
      * @ElementName searchCriteriaExactOrganizationType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     private $searchCriteriaExactOrganizationType = null;
@@ -62,19 +71,17 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
     /**
      * Getter for securityClassification
      *
-     * @ElementName securityClassification
-     * @return string|null
+     * @return string
      */
     public function getSecurityClassification()
     {
-        return $this->securityClassification;
+        return $this->securityClassification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityClassification;
     }
 
     /**
      * Setter for securityClassification
      *
-     * @ElementName securityClassification
-     * @param string|null $securityClassification
+     * @param string $securityClassification
      * @return $this
      */
     public function setSecurityClassification($securityClassification)
@@ -84,21 +91,28 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecurityClassification()
+    {
+        $this->securityClassification = null;
+        return $this;
+    }
+
+    /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -108,20 +122,27 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaTrunkGroupName
      *
-     * @ElementName searchCriteriaTrunkGroupName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     public function getSearchCriteriaTrunkGroupName()
     {
-        return $this->searchCriteriaTrunkGroupName;
+        return $this->searchCriteriaTrunkGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaTrunkGroupName;
     }
 
     /**
      * Setter for searchCriteriaTrunkGroupName
      *
-     * @ElementName searchCriteriaTrunkGroupName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[] $searchCriteriaTrunkGroupName
      * @return $this
      */
@@ -132,33 +153,39 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaTrunkGroupName()
+    {
+        $this->searchCriteriaTrunkGroupName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaTrunkGroupName
      *
-     * @ElementName searchCriteriaTrunkGroupName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName $searchCriteriaTrunkGroupName
      * @return $this
      */
     public function addSearchCriteriaTrunkGroupName($searchCriteriaTrunkGroupName)
     {
-        $this->searchCriteriaTrunkGroupName []= $searchCriteriaTrunkGroupName;
+        $this->searchCriteriaTrunkGroupName[] = $searchCriteriaTrunkGroupName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     public function getSearchCriteriaGroupId()
     {
-        return $this->searchCriteriaGroupId;
+        return $this->searchCriteriaGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupId;
     }
 
     /**
      * Setter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
@@ -169,33 +196,39 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupId()
+    {
+        $this->searchCriteriaGroupId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId $searchCriteriaGroupId
      * @return $this
      */
     public function addSearchCriteriaGroupId($searchCriteriaGroupId)
     {
-        $this->searchCriteriaGroupId []= $searchCriteriaGroupId;
+        $this->searchCriteriaGroupId[] = $searchCriteriaGroupId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaServiceProviderId
      *
-     * @ElementName searchCriteriaServiceProviderId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     public function getSearchCriteriaServiceProviderId()
     {
-        return $this->searchCriteriaServiceProviderId;
+        return $this->searchCriteriaServiceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaServiceProviderId;
     }
 
     /**
      * Setter for searchCriteriaServiceProviderId
      *
-     * @ElementName searchCriteriaServiceProviderId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
@@ -206,39 +239,54 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaServiceProviderId()
+    {
+        $this->searchCriteriaServiceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaServiceProviderId
      *
-     * @ElementName searchCriteriaServiceProviderId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId $searchCriteriaServiceProviderId
      * @return $this
      */
     public function addSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
     {
-        $this->searchCriteriaServiceProviderId []= $searchCriteriaServiceProviderId;
+        $this->searchCriteriaServiceProviderId[] = $searchCriteriaServiceProviderId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactOrganizationType
      *
-     * @ElementName searchCriteriaExactOrganizationType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      */
     public function getSearchCriteriaExactOrganizationType()
     {
-        return $this->searchCriteriaExactOrganizationType;
+        return $this->searchCriteriaExactOrganizationType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactOrganizationType;
     }
 
     /**
      * Setter for searchCriteriaExactOrganizationType
      *
-     * @ElementName searchCriteriaExactOrganizationType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null $searchCriteriaExactOrganizationType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType
      * @return $this
      */
     public function setSearchCriteriaExactOrganizationType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType)
     {
         $this->searchCriteriaExactOrganizationType = $searchCriteriaExactOrganizationType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactOrganizationType()
+    {
+        $this->searchCriteriaExactOrganizationType = null;
         return $this;
     }
 

@@ -15,6 +15,8 @@ class SystemTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName timeSchedule
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $timeSchedule = array(
@@ -24,18 +26,16 @@ class SystemTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for timeSchedule
      *
-     * @ElementName timeSchedule
      * @return string[]
      */
     public function getTimeSchedule()
     {
-        return $this->timeSchedule;
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
     }
 
     /**
      * Setter for timeSchedule
      *
-     * @ElementName timeSchedule
      * @param string[] $timeSchedule
      * @return $this
      */
@@ -46,15 +46,23 @@ class SystemTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
+        return $this;
+    }
+
+    /**
      * Adder for timeSchedule
      *
-     * @ElementName timeSchedule
      * @param string $timeSchedule
      * @return $this
      */
     public function addTimeSchedule(string $timeSchedule)
     {
-        $this->timeSchedule []= $timeSchedule;
+        $this->timeSchedule[] = $timeSchedule;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class SystemMediaSetDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName setName
+     * @Type string
      * @var string|null
      */
     private $setName = null;
@@ -23,24 +24,31 @@ class SystemMediaSetDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for setName
      *
-     * @ElementName setName
-     * @return string|null
+     * @return string
      */
     public function getSetName()
     {
-        return $this->setName;
+        return $this->setName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->setName;
     }
 
     /**
      * Setter for setName
      *
-     * @ElementName setName
-     * @param string|null $setName
+     * @param string $setName
      * @return $this
      */
     public function setSetName($setName)
     {
         $this->setName = $setName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSetName()
+    {
+        $this->setName = null;
         return $this;
     }
 

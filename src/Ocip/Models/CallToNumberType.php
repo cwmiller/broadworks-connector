@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallToNumberType ALTERNATE9()
  * @method static CallToNumberType ALTERNATE10()
  * @method static CallToNumberType BROADWORKS_MOBILITY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallToNumberType extends \MyCLabs\Enum\Enum
 {

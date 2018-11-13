@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterReportWebStatisticsSource CCRS()
  * @method static CallCenterReportWebStatisticsSource ENHANCED()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportWebStatisticsSource extends \MyCLabs\Enum\Enum
 {

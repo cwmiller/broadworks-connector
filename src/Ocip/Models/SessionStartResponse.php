@@ -25,48 +25,56 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
 
     /**
      * @ElementName loginType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
 
     /**
      * @ElementName encoding
+     * @Type string
      * @var string|null
      */
     private $encoding = null;
 
     /**
      * @ElementName isIMSMode
+     * @Type bool
      * @var bool|null
      */
     private $isIMSMode = null;
 
     /**
      * @ElementName deploymentMode
+     * @Type string
      * @var string|null
      */
     private $deploymentMode = null;
 
     /**
      * @ElementName isHPBXLicensed
+     * @Type bool
      * @var bool|null
      */
     private $isHPBXLicensed = null;
 
     /**
      * @ElementName isLawfulInterceptLicensed
+     * @Type bool
      * @var bool|null
      */
     private $isLawfulInterceptLicensed = null;
 
     /**
      * @ElementName isSecurityAdministrationLicensed
+     * @Type bool
      * @var bool|null
      */
     private $isSecurityAdministrationLicensed = null;
 
     /**
      * @ElementName isCLIDDeliveryPrefixLicensed
+     * @Type bool
      * @var bool|null
      */
     private $isCLIDDeliveryPrefixLicensed = null;
@@ -74,19 +82,17 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * Getter for loginType
      *
-     * @ElementName loginType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LoginType
      */
     public function getLoginType()
     {
-        return $this->loginType;
+        return $this->loginType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->loginType;
     }
 
     /**
      * Setter for loginType
      *
-     * @ElementName loginType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType|null $loginType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LoginType $loginType
      * @return $this
      */
     public function setLoginType(\CWM\BroadWorksConnector\Ocip\Models\LoginType $loginType)
@@ -96,21 +102,28 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLoginType()
+    {
+        $this->loginType = null;
+        return $this;
+    }
+
+    /**
      * Getter for encoding
      *
-     * @ElementName encoding
-     * @return string|null
+     * @return string
      */
     public function getEncoding()
     {
-        return $this->encoding;
+        return $this->encoding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->encoding;
     }
 
     /**
      * Setter for encoding
      *
-     * @ElementName encoding
-     * @param string|null $encoding
+     * @param string $encoding
      * @return $this
      */
     public function setEncoding($encoding)
@@ -120,21 +133,28 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEncoding()
+    {
+        $this->encoding = null;
+        return $this;
+    }
+
+    /**
      * Getter for isIMSMode
      *
-     * @ElementName isIMSMode
-     * @return bool|null
+     * @return bool
      */
     public function getIsIMSMode()
     {
-        return $this->isIMSMode;
+        return $this->isIMSMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isIMSMode;
     }
 
     /**
      * Setter for isIMSMode
      *
-     * @ElementName isIMSMode
-     * @param bool|null $isIMSMode
+     * @param bool $isIMSMode
      * @return $this
      */
     public function setIsIMSMode($isIMSMode)
@@ -144,21 +164,28 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsIMSMode()
+    {
+        $this->isIMSMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for deploymentMode
      *
-     * @ElementName deploymentMode
-     * @return string|null
+     * @return string
      */
     public function getDeploymentMode()
     {
-        return $this->deploymentMode;
+        return $this->deploymentMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deploymentMode;
     }
 
     /**
      * Setter for deploymentMode
      *
-     * @ElementName deploymentMode
-     * @param string|null $deploymentMode
+     * @param string $deploymentMode
      * @return $this
      */
     public function setDeploymentMode($deploymentMode)
@@ -168,21 +195,28 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeploymentMode()
+    {
+        $this->deploymentMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for isHPBXLicensed
      *
-     * @ElementName isHPBXLicensed
-     * @return bool|null
+     * @return bool
      */
     public function getIsHPBXLicensed()
     {
-        return $this->isHPBXLicensed;
+        return $this->isHPBXLicensed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isHPBXLicensed;
     }
 
     /**
      * Setter for isHPBXLicensed
      *
-     * @ElementName isHPBXLicensed
-     * @param bool|null $isHPBXLicensed
+     * @param bool $isHPBXLicensed
      * @return $this
      */
     public function setIsHPBXLicensed($isHPBXLicensed)
@@ -192,21 +226,28 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsHPBXLicensed()
+    {
+        $this->isHPBXLicensed = null;
+        return $this;
+    }
+
+    /**
      * Getter for isLawfulInterceptLicensed
      *
-     * @ElementName isLawfulInterceptLicensed
-     * @return bool|null
+     * @return bool
      */
     public function getIsLawfulInterceptLicensed()
     {
-        return $this->isLawfulInterceptLicensed;
+        return $this->isLawfulInterceptLicensed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isLawfulInterceptLicensed;
     }
 
     /**
      * Setter for isLawfulInterceptLicensed
      *
-     * @ElementName isLawfulInterceptLicensed
-     * @param bool|null $isLawfulInterceptLicensed
+     * @param bool $isLawfulInterceptLicensed
      * @return $this
      */
     public function setIsLawfulInterceptLicensed($isLawfulInterceptLicensed)
@@ -216,21 +257,28 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsLawfulInterceptLicensed()
+    {
+        $this->isLawfulInterceptLicensed = null;
+        return $this;
+    }
+
+    /**
      * Getter for isSecurityAdministrationLicensed
      *
-     * @ElementName isSecurityAdministrationLicensed
-     * @return bool|null
+     * @return bool
      */
     public function getIsSecurityAdministrationLicensed()
     {
-        return $this->isSecurityAdministrationLicensed;
+        return $this->isSecurityAdministrationLicensed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isSecurityAdministrationLicensed;
     }
 
     /**
      * Setter for isSecurityAdministrationLicensed
      *
-     * @ElementName isSecurityAdministrationLicensed
-     * @param bool|null $isSecurityAdministrationLicensed
+     * @param bool $isSecurityAdministrationLicensed
      * @return $this
      */
     public function setIsSecurityAdministrationLicensed($isSecurityAdministrationLicensed)
@@ -240,26 +288,42 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsSecurityAdministrationLicensed()
+    {
+        $this->isSecurityAdministrationLicensed = null;
+        return $this;
+    }
+
+    /**
      * Getter for isCLIDDeliveryPrefixLicensed
      *
-     * @ElementName isCLIDDeliveryPrefixLicensed
-     * @return bool|null
+     * @return bool
      */
     public function getIsCLIDDeliveryPrefixLicensed()
     {
-        return $this->isCLIDDeliveryPrefixLicensed;
+        return $this->isCLIDDeliveryPrefixLicensed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isCLIDDeliveryPrefixLicensed;
     }
 
     /**
      * Setter for isCLIDDeliveryPrefixLicensed
      *
-     * @ElementName isCLIDDeliveryPrefixLicensed
-     * @param bool|null $isCLIDDeliveryPrefixLicensed
+     * @param bool $isCLIDDeliveryPrefixLicensed
      * @return $this
      */
     public function setIsCLIDDeliveryPrefixLicensed($isCLIDDeliveryPrefixLicensed)
     {
         $this->isCLIDDeliveryPrefixLicensed = $isCLIDDeliveryPrefixLicensed;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsCLIDDeliveryPrefixLicensed()
+    {
+        $this->isCLIDDeliveryPrefixLicensed = null;
         return $this;
     }
 

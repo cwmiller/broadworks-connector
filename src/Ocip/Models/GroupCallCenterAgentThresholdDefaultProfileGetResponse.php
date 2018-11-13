@@ -18,96 +18,113 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
 
     /**
      * @ElementName profileName
+     * @Type string
      * @var string|null
      */
     private $profileName = null;
 
     /**
      * @ElementName profileDescription
+     * @Type string
      * @var string|null
      */
     private $profileDescription = null;
 
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentCallStateIdleTimeYellow = null;
 
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeRed
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentCallStateIdleTimeRed = null;
 
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentCallStateOnCallTimeYellow = null;
 
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeRed
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentCallStateOnCallTimeRed = null;
 
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentAgentStateUnavailableTimeYellow = null;
 
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
+     * @Type int
      * @var int|null
      */
     private $thresholdCurrentAgentStateUnavailableTimeRed = null;
 
     /**
      * @ElementName thresholdAverageBusyInTimeYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageBusyInTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageBusyInTimeRed
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageBusyInTimeRed = null;
 
     /**
      * @ElementName thresholdAverageBusyOutTimeYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageBusyOutTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageBusyOutTimeRed
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageBusyOutTimeRed = null;
 
     /**
      * @ElementName thresholdAverageWrapUpTimeYellow
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageWrapUpTimeYellow = null;
 
     /**
      * @ElementName thresholdAverageWrapUpTimeRed
+     * @Type int
      * @var int|null
      */
     private $thresholdAverageWrapUpTimeRed = null;
 
     /**
      * @ElementName enableNotificationEmail
+     * @Type bool
      * @var bool|null
      */
     private $enableNotificationEmail = null;
 
     /**
      * @ElementName notificationEmailAddress
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $notificationEmailAddress = array(
@@ -116,6 +133,7 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
 
     /**
      * @ElementName agentTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentTable = null;
@@ -123,19 +141,17 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     /**
      * Getter for profileName
      *
-     * @ElementName profileName
-     * @return string|null
+     * @return string
      */
     public function getProfileName()
     {
-        return $this->profileName;
+        return $this->profileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileName;
     }
 
     /**
      * Setter for profileName
      *
-     * @ElementName profileName
-     * @param string|null $profileName
+     * @param string $profileName
      * @return $this
      */
     public function setProfileName($profileName)
@@ -145,21 +161,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileName()
+    {
+        $this->profileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileDescription
      *
-     * @ElementName profileDescription
-     * @return string|null
+     * @return string
      */
     public function getProfileDescription()
     {
-        return $this->profileDescription;
+        return $this->profileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileDescription;
     }
 
     /**
      * Setter for profileDescription
      *
-     * @ElementName profileDescription
-     * @param string|null $profileDescription
+     * @param string $profileDescription
      * @return $this
      */
     public function setProfileDescription($profileDescription)
@@ -169,21 +192,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileDescription()
+    {
+        $this->profileDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentCallStateIdleTimeYellow
      *
-     * @ElementName thresholdCurrentCallStateIdleTimeYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentCallStateIdleTimeYellow()
     {
-        return $this->thresholdCurrentCallStateIdleTimeYellow;
+        return $this->thresholdCurrentCallStateIdleTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallStateIdleTimeYellow;
     }
 
     /**
      * Setter for thresholdCurrentCallStateIdleTimeYellow
      *
-     * @ElementName thresholdCurrentCallStateIdleTimeYellow
-     * @param int|null $thresholdCurrentCallStateIdleTimeYellow
+     * @param int $thresholdCurrentCallStateIdleTimeYellow
      * @return $this
      */
     public function setThresholdCurrentCallStateIdleTimeYellow($thresholdCurrentCallStateIdleTimeYellow)
@@ -193,21 +223,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallStateIdleTimeYellow()
+    {
+        $this->thresholdCurrentCallStateIdleTimeYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentCallStateIdleTimeRed
      *
-     * @ElementName thresholdCurrentCallStateIdleTimeRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentCallStateIdleTimeRed()
     {
-        return $this->thresholdCurrentCallStateIdleTimeRed;
+        return $this->thresholdCurrentCallStateIdleTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallStateIdleTimeRed;
     }
 
     /**
      * Setter for thresholdCurrentCallStateIdleTimeRed
      *
-     * @ElementName thresholdCurrentCallStateIdleTimeRed
-     * @param int|null $thresholdCurrentCallStateIdleTimeRed
+     * @param int $thresholdCurrentCallStateIdleTimeRed
      * @return $this
      */
     public function setThresholdCurrentCallStateIdleTimeRed($thresholdCurrentCallStateIdleTimeRed)
@@ -217,21 +254,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallStateIdleTimeRed()
+    {
+        $this->thresholdCurrentCallStateIdleTimeRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentCallStateOnCallTimeYellow
      *
-     * @ElementName thresholdCurrentCallStateOnCallTimeYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentCallStateOnCallTimeYellow()
     {
-        return $this->thresholdCurrentCallStateOnCallTimeYellow;
+        return $this->thresholdCurrentCallStateOnCallTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallStateOnCallTimeYellow;
     }
 
     /**
      * Setter for thresholdCurrentCallStateOnCallTimeYellow
      *
-     * @ElementName thresholdCurrentCallStateOnCallTimeYellow
-     * @param int|null $thresholdCurrentCallStateOnCallTimeYellow
+     * @param int $thresholdCurrentCallStateOnCallTimeYellow
      * @return $this
      */
     public function setThresholdCurrentCallStateOnCallTimeYellow($thresholdCurrentCallStateOnCallTimeYellow)
@@ -241,21 +285,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallStateOnCallTimeYellow()
+    {
+        $this->thresholdCurrentCallStateOnCallTimeYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentCallStateOnCallTimeRed
      *
-     * @ElementName thresholdCurrentCallStateOnCallTimeRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentCallStateOnCallTimeRed()
     {
-        return $this->thresholdCurrentCallStateOnCallTimeRed;
+        return $this->thresholdCurrentCallStateOnCallTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallStateOnCallTimeRed;
     }
 
     /**
      * Setter for thresholdCurrentCallStateOnCallTimeRed
      *
-     * @ElementName thresholdCurrentCallStateOnCallTimeRed
-     * @param int|null $thresholdCurrentCallStateOnCallTimeRed
+     * @param int $thresholdCurrentCallStateOnCallTimeRed
      * @return $this
      */
     public function setThresholdCurrentCallStateOnCallTimeRed($thresholdCurrentCallStateOnCallTimeRed)
@@ -265,21 +316,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallStateOnCallTimeRed()
+    {
+        $this->thresholdCurrentCallStateOnCallTimeRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentAgentStateUnavailableTimeYellow
      *
-     * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentAgentStateUnavailableTimeYellow()
     {
-        return $this->thresholdCurrentAgentStateUnavailableTimeYellow;
+        return $this->thresholdCurrentAgentStateUnavailableTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentAgentStateUnavailableTimeYellow;
     }
 
     /**
      * Setter for thresholdCurrentAgentStateUnavailableTimeYellow
      *
-     * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
-     * @param int|null $thresholdCurrentAgentStateUnavailableTimeYellow
+     * @param int $thresholdCurrentAgentStateUnavailableTimeYellow
      * @return $this
      */
     public function setThresholdCurrentAgentStateUnavailableTimeYellow($thresholdCurrentAgentStateUnavailableTimeYellow)
@@ -289,21 +347,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentAgentStateUnavailableTimeYellow()
+    {
+        $this->thresholdCurrentAgentStateUnavailableTimeYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdCurrentAgentStateUnavailableTimeRed
      *
-     * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdCurrentAgentStateUnavailableTimeRed()
     {
-        return $this->thresholdCurrentAgentStateUnavailableTimeRed;
+        return $this->thresholdCurrentAgentStateUnavailableTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentAgentStateUnavailableTimeRed;
     }
 
     /**
      * Setter for thresholdCurrentAgentStateUnavailableTimeRed
      *
-     * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
-     * @param int|null $thresholdCurrentAgentStateUnavailableTimeRed
+     * @param int $thresholdCurrentAgentStateUnavailableTimeRed
      * @return $this
      */
     public function setThresholdCurrentAgentStateUnavailableTimeRed($thresholdCurrentAgentStateUnavailableTimeRed)
@@ -313,21 +378,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentAgentStateUnavailableTimeRed()
+    {
+        $this->thresholdCurrentAgentStateUnavailableTimeRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageBusyInTimeYellow
      *
-     * @ElementName thresholdAverageBusyInTimeYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageBusyInTimeYellow()
     {
-        return $this->thresholdAverageBusyInTimeYellow;
+        return $this->thresholdAverageBusyInTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageBusyInTimeYellow;
     }
 
     /**
      * Setter for thresholdAverageBusyInTimeYellow
      *
-     * @ElementName thresholdAverageBusyInTimeYellow
-     * @param int|null $thresholdAverageBusyInTimeYellow
+     * @param int $thresholdAverageBusyInTimeYellow
      * @return $this
      */
     public function setThresholdAverageBusyInTimeYellow($thresholdAverageBusyInTimeYellow)
@@ -337,21 +409,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageBusyInTimeYellow()
+    {
+        $this->thresholdAverageBusyInTimeYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageBusyInTimeRed
      *
-     * @ElementName thresholdAverageBusyInTimeRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageBusyInTimeRed()
     {
-        return $this->thresholdAverageBusyInTimeRed;
+        return $this->thresholdAverageBusyInTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageBusyInTimeRed;
     }
 
     /**
      * Setter for thresholdAverageBusyInTimeRed
      *
-     * @ElementName thresholdAverageBusyInTimeRed
-     * @param int|null $thresholdAverageBusyInTimeRed
+     * @param int $thresholdAverageBusyInTimeRed
      * @return $this
      */
     public function setThresholdAverageBusyInTimeRed($thresholdAverageBusyInTimeRed)
@@ -361,21 +440,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageBusyInTimeRed()
+    {
+        $this->thresholdAverageBusyInTimeRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageBusyOutTimeYellow
      *
-     * @ElementName thresholdAverageBusyOutTimeYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageBusyOutTimeYellow()
     {
-        return $this->thresholdAverageBusyOutTimeYellow;
+        return $this->thresholdAverageBusyOutTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageBusyOutTimeYellow;
     }
 
     /**
      * Setter for thresholdAverageBusyOutTimeYellow
      *
-     * @ElementName thresholdAverageBusyOutTimeYellow
-     * @param int|null $thresholdAverageBusyOutTimeYellow
+     * @param int $thresholdAverageBusyOutTimeYellow
      * @return $this
      */
     public function setThresholdAverageBusyOutTimeYellow($thresholdAverageBusyOutTimeYellow)
@@ -385,21 +471,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageBusyOutTimeYellow()
+    {
+        $this->thresholdAverageBusyOutTimeYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageBusyOutTimeRed
      *
-     * @ElementName thresholdAverageBusyOutTimeRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageBusyOutTimeRed()
     {
-        return $this->thresholdAverageBusyOutTimeRed;
+        return $this->thresholdAverageBusyOutTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageBusyOutTimeRed;
     }
 
     /**
      * Setter for thresholdAverageBusyOutTimeRed
      *
-     * @ElementName thresholdAverageBusyOutTimeRed
-     * @param int|null $thresholdAverageBusyOutTimeRed
+     * @param int $thresholdAverageBusyOutTimeRed
      * @return $this
      */
     public function setThresholdAverageBusyOutTimeRed($thresholdAverageBusyOutTimeRed)
@@ -409,21 +502,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageBusyOutTimeRed()
+    {
+        $this->thresholdAverageBusyOutTimeRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageWrapUpTimeYellow
      *
-     * @ElementName thresholdAverageWrapUpTimeYellow
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageWrapUpTimeYellow()
     {
-        return $this->thresholdAverageWrapUpTimeYellow;
+        return $this->thresholdAverageWrapUpTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageWrapUpTimeYellow;
     }
 
     /**
      * Setter for thresholdAverageWrapUpTimeYellow
      *
-     * @ElementName thresholdAverageWrapUpTimeYellow
-     * @param int|null $thresholdAverageWrapUpTimeYellow
+     * @param int $thresholdAverageWrapUpTimeYellow
      * @return $this
      */
     public function setThresholdAverageWrapUpTimeYellow($thresholdAverageWrapUpTimeYellow)
@@ -433,21 +533,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageWrapUpTimeYellow()
+    {
+        $this->thresholdAverageWrapUpTimeYellow = null;
+        return $this;
+    }
+
+    /**
      * Getter for thresholdAverageWrapUpTimeRed
      *
-     * @ElementName thresholdAverageWrapUpTimeRed
-     * @return int|null
+     * @return int
      */
     public function getThresholdAverageWrapUpTimeRed()
     {
-        return $this->thresholdAverageWrapUpTimeRed;
+        return $this->thresholdAverageWrapUpTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageWrapUpTimeRed;
     }
 
     /**
      * Setter for thresholdAverageWrapUpTimeRed
      *
-     * @ElementName thresholdAverageWrapUpTimeRed
-     * @param int|null $thresholdAverageWrapUpTimeRed
+     * @param int $thresholdAverageWrapUpTimeRed
      * @return $this
      */
     public function setThresholdAverageWrapUpTimeRed($thresholdAverageWrapUpTimeRed)
@@ -457,21 +564,28 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetThresholdAverageWrapUpTimeRed()
+    {
+        $this->thresholdAverageWrapUpTimeRed = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableNotificationEmail
      *
-     * @ElementName enableNotificationEmail
-     * @return bool|null
+     * @return bool
      */
     public function getEnableNotificationEmail()
     {
-        return $this->enableNotificationEmail;
+        return $this->enableNotificationEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableNotificationEmail;
     }
 
     /**
      * Setter for enableNotificationEmail
      *
-     * @ElementName enableNotificationEmail
-     * @param bool|null $enableNotificationEmail
+     * @param bool $enableNotificationEmail
      * @return $this
      */
     public function setEnableNotificationEmail($enableNotificationEmail)
@@ -481,20 +595,27 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableNotificationEmail()
+    {
+        $this->enableNotificationEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for notificationEmailAddress
      *
-     * @ElementName notificationEmailAddress
      * @return string[]
      */
     public function getNotificationEmailAddress()
     {
-        return $this->notificationEmailAddress;
+        return $this->notificationEmailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->notificationEmailAddress;
     }
 
     /**
      * Setter for notificationEmailAddress
      *
-     * @ElementName notificationEmailAddress
      * @param string[] $notificationEmailAddress
      * @return $this
      */
@@ -505,39 +626,54 @@ class GroupCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNotificationEmailAddress()
+    {
+        $this->notificationEmailAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for notificationEmailAddress
      *
-     * @ElementName notificationEmailAddress
      * @param string $notificationEmailAddress
      * @return $this
      */
     public function addNotificationEmailAddress(string $notificationEmailAddress)
     {
-        $this->notificationEmailAddress []= $notificationEmailAddress;
+        $this->notificationEmailAddress[] = $notificationEmailAddress;
         return $this;
     }
 
     /**
      * Getter for agentTable
      *
-     * @ElementName agentTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAgentTable()
     {
-        return $this->agentTable;
+        return $this->agentTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentTable;
     }
 
     /**
      * Setter for agentTable
      *
-     * @ElementName agentTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentTable
      * @return $this
      */
     public function setAgentTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentTable)
     {
         $this->agentTable = $agentTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentTable()
+    {
+        $this->agentTable = null;
         return $this;
     }
 

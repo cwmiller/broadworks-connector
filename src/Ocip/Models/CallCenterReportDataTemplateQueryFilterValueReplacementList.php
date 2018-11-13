@@ -15,6 +15,8 @@ class CallCenterReportDataTemplateQueryFilterValueReplacementList
 
     /**
      * @ElementName filterValue
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $filterValue = array(
@@ -24,18 +26,16 @@ class CallCenterReportDataTemplateQueryFilterValueReplacementList
     /**
      * Getter for filterValue
      *
-     * @ElementName filterValue
      * @return string[]
      */
     public function getFilterValue()
     {
-        return $this->filterValue;
+        return $this->filterValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->filterValue;
     }
 
     /**
      * Setter for filterValue
      *
-     * @ElementName filterValue
      * @param string[] $filterValue
      * @return $this
      */
@@ -46,15 +46,23 @@ class CallCenterReportDataTemplateQueryFilterValueReplacementList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFilterValue()
+    {
+        $this->filterValue = null;
+        return $this;
+    }
+
+    /**
      * Adder for filterValue
      *
-     * @ElementName filterValue
      * @param string $filterValue
      * @return $this
      */
     public function addFilterValue(string $filterValue)
     {
-        $this->filterValue []= $filterValue;
+        $this->filterValue[] = $filterValue;
         return $this;
     }
 

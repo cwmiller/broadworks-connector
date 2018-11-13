@@ -24,24 +24,29 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName licenseStrictness
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness
      * @var \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null
      */
     private $licenseStrictness = null;
 
     /**
      * @ElementName groupUserlimit
+     * @Type int
      * @var int|null
      */
     private $groupUserlimit = null;
 
     /**
      * @ElementName expirationDate
+     * @Type string
      * @var string|null
      */
     private $expirationDate = null;
 
     /**
      * @ElementName hostId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $hostId = array(
@@ -50,6 +55,8 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName licenseName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $licenseName = array(
@@ -58,36 +65,42 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName numberOfTrunkUsers
+     * @Type int
      * @var int|null
      */
     private $numberOfTrunkUsers = null;
 
     /**
      * @ElementName subscriberLicenseTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $subscriberLicenseTable = null;
 
     /**
      * @ElementName groupServiceLicenseTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupServiceLicenseTable = null;
 
     /**
      * @ElementName virtualServiceLicenseTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $virtualServiceLicenseTable = null;
 
     /**
      * @ElementName userServiceLicenseTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userServiceLicenseTable = null;
 
     /**
      * @ElementName systemParamLicenseTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $systemParamLicenseTable = null;
@@ -95,19 +108,17 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for licenseStrictness
      *
-     * @ElementName licenseStrictness
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness
      */
     public function getLicenseStrictness()
     {
-        return $this->licenseStrictness;
+        return $this->licenseStrictness instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->licenseStrictness;
     }
 
     /**
      * Setter for licenseStrictness
      *
-     * @ElementName licenseStrictness
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness|null $licenseStrictness
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness $licenseStrictness
      * @return $this
      */
     public function setLicenseStrictness(\CWM\BroadWorksConnector\Ocip\Models\LicenseStrictness $licenseStrictness)
@@ -117,21 +128,28 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLicenseStrictness()
+    {
+        $this->licenseStrictness = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupUserlimit
      *
-     * @ElementName groupUserlimit
-     * @return int|null
+     * @return int
      */
     public function getGroupUserlimit()
     {
-        return $this->groupUserlimit;
+        return $this->groupUserlimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupUserlimit;
     }
 
     /**
      * Setter for groupUserlimit
      *
-     * @ElementName groupUserlimit
-     * @param int|null $groupUserlimit
+     * @param int $groupUserlimit
      * @return $this
      */
     public function setGroupUserlimit($groupUserlimit)
@@ -141,21 +159,28 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupUserlimit()
+    {
+        $this->groupUserlimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for expirationDate
      *
-     * @ElementName expirationDate
-     * @return string|null
+     * @return string
      */
     public function getExpirationDate()
     {
-        return $this->expirationDate;
+        return $this->expirationDate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->expirationDate;
     }
 
     /**
      * Setter for expirationDate
      *
-     * @ElementName expirationDate
-     * @param string|null $expirationDate
+     * @param string $expirationDate
      * @return $this
      */
     public function setExpirationDate($expirationDate)
@@ -165,20 +190,27 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExpirationDate()
+    {
+        $this->expirationDate = null;
+        return $this;
+    }
+
+    /**
      * Getter for hostId
      *
-     * @ElementName hostId
      * @return string[]
      */
     public function getHostId()
     {
-        return $this->hostId;
+        return $this->hostId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostId;
     }
 
     /**
      * Setter for hostId
      *
-     * @ElementName hostId
      * @param string[] $hostId
      * @return $this
      */
@@ -189,33 +221,39 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHostId()
+    {
+        $this->hostId = null;
+        return $this;
+    }
+
+    /**
      * Adder for hostId
      *
-     * @ElementName hostId
      * @param string $hostId
      * @return $this
      */
     public function addHostId(string $hostId)
     {
-        $this->hostId []= $hostId;
+        $this->hostId[] = $hostId;
         return $this;
     }
 
     /**
      * Getter for licenseName
      *
-     * @ElementName licenseName
      * @return string[]
      */
     public function getLicenseName()
     {
-        return $this->licenseName;
+        return $this->licenseName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->licenseName;
     }
 
     /**
      * Setter for licenseName
      *
-     * @ElementName licenseName
      * @param string[] $licenseName
      * @return $this
      */
@@ -226,34 +264,40 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLicenseName()
+    {
+        $this->licenseName = null;
+        return $this;
+    }
+
+    /**
      * Adder for licenseName
      *
-     * @ElementName licenseName
      * @param string $licenseName
      * @return $this
      */
     public function addLicenseName(string $licenseName)
     {
-        $this->licenseName []= $licenseName;
+        $this->licenseName[] = $licenseName;
         return $this;
     }
 
     /**
      * Getter for numberOfTrunkUsers
      *
-     * @ElementName numberOfTrunkUsers
-     * @return int|null
+     * @return int
      */
     public function getNumberOfTrunkUsers()
     {
-        return $this->numberOfTrunkUsers;
+        return $this->numberOfTrunkUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfTrunkUsers;
     }
 
     /**
      * Setter for numberOfTrunkUsers
      *
-     * @ElementName numberOfTrunkUsers
-     * @param int|null $numberOfTrunkUsers
+     * @param int $numberOfTrunkUsers
      * @return $this
      */
     public function setNumberOfTrunkUsers($numberOfTrunkUsers)
@@ -263,21 +307,28 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfTrunkUsers()
+    {
+        $this->numberOfTrunkUsers = null;
+        return $this;
+    }
+
+    /**
      * Getter for subscriberLicenseTable
      *
-     * @ElementName subscriberLicenseTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSubscriberLicenseTable()
     {
-        return $this->subscriberLicenseTable;
+        return $this->subscriberLicenseTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->subscriberLicenseTable;
     }
 
     /**
      * Setter for subscriberLicenseTable
      *
-     * @ElementName subscriberLicenseTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $subscriberLicenseTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $subscriberLicenseTable
      * @return $this
      */
     public function setSubscriberLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $subscriberLicenseTable)
@@ -287,21 +338,28 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSubscriberLicenseTable()
+    {
+        $this->subscriberLicenseTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupServiceLicenseTable
      *
-     * @ElementName groupServiceLicenseTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getGroupServiceLicenseTable()
     {
-        return $this->groupServiceLicenseTable;
+        return $this->groupServiceLicenseTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupServiceLicenseTable;
     }
 
     /**
      * Setter for groupServiceLicenseTable
      *
-     * @ElementName groupServiceLicenseTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $groupServiceLicenseTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupServiceLicenseTable
      * @return $this
      */
     public function setGroupServiceLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $groupServiceLicenseTable)
@@ -311,21 +369,28 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupServiceLicenseTable()
+    {
+        $this->groupServiceLicenseTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for virtualServiceLicenseTable
      *
-     * @ElementName virtualServiceLicenseTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getVirtualServiceLicenseTable()
     {
-        return $this->virtualServiceLicenseTable;
+        return $this->virtualServiceLicenseTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualServiceLicenseTable;
     }
 
     /**
      * Setter for virtualServiceLicenseTable
      *
-     * @ElementName virtualServiceLicenseTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $virtualServiceLicenseTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $virtualServiceLicenseTable
      * @return $this
      */
     public function setVirtualServiceLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $virtualServiceLicenseTable)
@@ -335,21 +400,28 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVirtualServiceLicenseTable()
+    {
+        $this->virtualServiceLicenseTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for userServiceLicenseTable
      *
-     * @ElementName userServiceLicenseTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserServiceLicenseTable()
     {
-        return $this->userServiceLicenseTable;
+        return $this->userServiceLicenseTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServiceLicenseTable;
     }
 
     /**
      * Setter for userServiceLicenseTable
      *
-     * @ElementName userServiceLicenseTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userServiceLicenseTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServiceLicenseTable
      * @return $this
      */
     public function setUserServiceLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userServiceLicenseTable)
@@ -359,26 +431,42 @@ class SystemLicensingGetResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserServiceLicenseTable()
+    {
+        $this->userServiceLicenseTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for systemParamLicenseTable
      *
-     * @ElementName systemParamLicenseTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSystemParamLicenseTable()
     {
-        return $this->systemParamLicenseTable;
+        return $this->systemParamLicenseTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemParamLicenseTable;
     }
 
     /**
      * Setter for systemParamLicenseTable
      *
-     * @ElementName systemParamLicenseTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $systemParamLicenseTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemParamLicenseTable
      * @return $this
      */
     public function setSystemParamLicenseTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $systemParamLicenseTable)
     {
         $this->systemParamLicenseTable = $systemParamLicenseTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSystemParamLicenseTable()
+    {
+        $this->systemParamLicenseTable = null;
         return $this;
     }
 

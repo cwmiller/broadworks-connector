@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceProviderInternalCallsCLIDPolicy USE_EXTENSION()
  * @method static ServiceProviderInternalCallsCLIDPolicy
  * USE_EXTERNAL_CALLS_POLICY()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderInternalCallsCLIDPolicy extends \MyCLabs\Enum\Enum
 {

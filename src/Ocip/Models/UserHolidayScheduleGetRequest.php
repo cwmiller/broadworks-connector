@@ -17,12 +17,14 @@ class UserHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName holidayScheduleName
+     * @Type string
      * @var string|null
      */
     private $holidayScheduleName = null;
@@ -30,19 +32,17 @@ class UserHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,26 +52,42 @@ class UserHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
-     * @return string|null
+     * @return string
      */
     public function getHolidayScheduleName()
     {
-        return $this->holidayScheduleName;
+        return $this->holidayScheduleName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidayScheduleName;
     }
 
     /**
      * Setter for holidayScheduleName
      *
-     * @ElementName holidayScheduleName
-     * @param string|null $holidayScheduleName
+     * @param string $holidayScheduleName
      * @return $this
      */
     public function setHolidayScheduleName($holidayScheduleName)
     {
         $this->holidayScheduleName = $holidayScheduleName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidayScheduleName()
+    {
+        $this->holidayScheduleName = null;
         return $this;
     }
 

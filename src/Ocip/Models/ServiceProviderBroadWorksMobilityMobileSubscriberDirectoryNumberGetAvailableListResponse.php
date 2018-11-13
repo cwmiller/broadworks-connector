@@ -18,6 +18,8 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailab
 
     /**
      * @ElementName availableMobileSubscriberDirectoryNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $availableMobileSubscriberDirectoryNumber = array(
@@ -27,18 +29,16 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailab
     /**
      * Getter for availableMobileSubscriberDirectoryNumber
      *
-     * @ElementName availableMobileSubscriberDirectoryNumber
      * @return string[]
      */
     public function getAvailableMobileSubscriberDirectoryNumber()
     {
-        return $this->availableMobileSubscriberDirectoryNumber;
+        return $this->availableMobileSubscriberDirectoryNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->availableMobileSubscriberDirectoryNumber;
     }
 
     /**
      * Setter for availableMobileSubscriberDirectoryNumber
      *
-     * @ElementName availableMobileSubscriberDirectoryNumber
      * @param string[] $availableMobileSubscriberDirectoryNumber
      * @return $this
      */
@@ -49,15 +49,23 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailab
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAvailableMobileSubscriberDirectoryNumber()
+    {
+        $this->availableMobileSubscriberDirectoryNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for availableMobileSubscriberDirectoryNumber
      *
-     * @ElementName availableMobileSubscriberDirectoryNumber
      * @param string $availableMobileSubscriberDirectoryNumber
      * @return $this
      */
     public function addAvailableMobileSubscriberDirectoryNumber(string $availableMobileSubscriberDirectoryNumber)
     {
-        $this->availableMobileSubscriberDirectoryNumber []= $availableMobileSubscriberDirectoryNumber;
+        $this->availableMobileSubscriberDirectoryNumber[] = $availableMobileSubscriberDirectoryNumber;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ScheduleLevel SERVICE_PROVIDER()
  * @method static ScheduleLevel GROUP()
  * @method static ScheduleLevel USER()
- * @ValueType string
+ * @EnumValueType string
  */
 class ScheduleLevel extends \MyCLabs\Enum\Enum
 {

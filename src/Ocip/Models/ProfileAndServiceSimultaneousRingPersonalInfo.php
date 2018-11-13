@@ -17,18 +17,22 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName doNotRingIfOnCall
+     * @Type bool
      * @var bool|null
      */
     private $doNotRingIfOnCall = null;
 
     /**
      * @ElementName simultaneousRingNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     private $simultaneousRingNumber = array(
@@ -37,6 +41,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
 
     /**
      * @ElementName criteriaTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;
@@ -44,19 +49,17 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -66,21 +69,28 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for doNotRingIfOnCall
      *
-     * @ElementName doNotRingIfOnCall
-     * @return bool|null
+     * @return bool
      */
     public function getDoNotRingIfOnCall()
     {
-        return $this->doNotRingIfOnCall;
+        return $this->doNotRingIfOnCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->doNotRingIfOnCall;
     }
 
     /**
      * Setter for doNotRingIfOnCall
      *
-     * @ElementName doNotRingIfOnCall
-     * @param bool|null $doNotRingIfOnCall
+     * @param bool $doNotRingIfOnCall
      * @return $this
      */
     public function setDoNotRingIfOnCall($doNotRingIfOnCall)
@@ -90,20 +100,27 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDoNotRingIfOnCall()
+    {
+        $this->doNotRingIfOnCall = null;
+        return $this;
+    }
+
+    /**
      * Getter for simultaneousRingNumber
      *
-     * @ElementName simultaneousRingNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     public function getSimultaneousRingNumber()
     {
-        return $this->simultaneousRingNumber;
+        return $this->simultaneousRingNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->simultaneousRingNumber;
     }
 
     /**
      * Setter for simultaneousRingNumber
      *
-     * @ElementName simultaneousRingNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[] $simultaneousRingNumber
      * @return $this
      */
@@ -114,39 +131,54 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSimultaneousRingNumber()
+    {
+        $this->simultaneousRingNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for simultaneousRingNumber
      *
-     * @ElementName simultaneousRingNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber $simultaneousRingNumber
      * @return $this
      */
     public function addSimultaneousRingNumber($simultaneousRingNumber)
     {
-        $this->simultaneousRingNumber []= $simultaneousRingNumber;
+        $this->simultaneousRingNumber[] = $simultaneousRingNumber;
         return $this;
     }
 
     /**
      * Getter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCriteriaTable()
     {
-        return $this->criteriaTable;
+        return $this->criteriaTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaTable;
     }
 
     /**
      * Setter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable
      * @return $this
      */
     public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCriteriaTable()
+    {
+        $this->criteriaTable = null;
         return $this;
     }
 

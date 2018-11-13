@@ -17,6 +17,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName primarySMPPServerNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,12 +25,14 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName primarySMPPPort
+     * @Type int
      * @var int|null
      */
     private $primarySMPPPort = null;
 
     /**
      * @ElementName secondarySMPPServerNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -37,12 +40,14 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName secondarySMPPPort
+     * @Type int
      * @var int|null
      */
     private $secondarySMPPPort = null;
 
     /**
      * @ElementName systemId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -50,6 +55,7 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName password
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -57,12 +63,14 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName version
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     private $version = null;
 
     /**
      * @ElementName systemType
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -70,24 +78,28 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName enableMWICustomizedMessage
+     * @Type bool
      * @var bool|null
      */
     private $enableMWICustomizedMessage = null;
 
     /**
      * @ElementName supportMessagePayload
+     * @Type bool
      * @var bool|null
      */
     private $supportMessagePayload = null;
 
     /**
      * @ElementName maxShortMessageLength
+     * @Type int
      * @var int|null
      */
     private $maxShortMessageLength = null;
 
     /**
      * @ElementName useGsmMwiUcs2Encoding
+     * @Type bool
      * @var bool|null
      */
     private $useGsmMwiUcs2Encoding = null;
@@ -95,45 +107,52 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * Getter for primarySMPPServerNetAddress
      *
-     * @ElementName primarySMPPServerNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPrimarySMPPServerNetAddress()
     {
-        return $this->primarySMPPServerNetAddress;
+        return $this->primarySMPPServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->primarySMPPServerNetAddress;
     }
 
     /**
      * Setter for primarySMPPServerNetAddress
      *
-     * @ElementName primarySMPPServerNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $primarySMPPServerNetAddress
+     * @param string|null $primarySMPPServerNetAddress
      * @return $this
      */
     public function setPrimarySMPPServerNetAddress($primarySMPPServerNetAddress)
     {
-        $this->primarySMPPServerNetAddress = $primarySMPPServerNetAddress;
+        if ($primarySMPPServerNetAddress === null) {
+            $this->primarySMPPServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->primarySMPPServerNetAddress = $primarySMPPServerNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrimarySMPPServerNetAddress()
+    {
+        $this->primarySMPPServerNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for primarySMPPPort
      *
-     * @ElementName primarySMPPPort
-     * @return int|null
+     * @return int
      */
     public function getPrimarySMPPPort()
     {
-        return $this->primarySMPPPort;
+        return $this->primarySMPPPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->primarySMPPPort;
     }
 
     /**
      * Setter for primarySMPPPort
      *
-     * @ElementName primarySMPPPort
-     * @param int|null $primarySMPPPort
+     * @param int $primarySMPPPort
      * @return $this
      */
     public function setPrimarySMPPPort($primarySMPPPort)
@@ -143,47 +162,63 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrimarySMPPPort()
+    {
+        $this->primarySMPPPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for secondarySMPPServerNetAddress
      *
-     * @ElementName secondarySMPPServerNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSecondarySMPPServerNetAddress()
     {
-        return $this->secondarySMPPServerNetAddress;
+        return $this->secondarySMPPServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secondarySMPPServerNetAddress;
     }
 
     /**
      * Setter for secondarySMPPServerNetAddress
      *
-     * @ElementName secondarySMPPServerNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $secondarySMPPServerNetAddress
+     * @param string|null $secondarySMPPServerNetAddress
      * @return $this
      */
     public function setSecondarySMPPServerNetAddress($secondarySMPPServerNetAddress)
     {
-        $this->secondarySMPPServerNetAddress = $secondarySMPPServerNetAddress;
+        if ($secondarySMPPServerNetAddress === null) {
+            $this->secondarySMPPServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->secondarySMPPServerNetAddress = $secondarySMPPServerNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecondarySMPPServerNetAddress()
+    {
+        $this->secondarySMPPServerNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for secondarySMPPPort
      *
-     * @ElementName secondarySMPPPort
-     * @return int|null
+     * @return int
      */
     public function getSecondarySMPPPort()
     {
-        return $this->secondarySMPPPort;
+        return $this->secondarySMPPPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secondarySMPPPort;
     }
 
     /**
      * Setter for secondarySMPPPort
      *
-     * @ElementName secondarySMPPPort
-     * @param int|null $secondarySMPPPort
+     * @param int $secondarySMPPPort
      * @return $this
      */
     public function setSecondarySMPPPort($secondarySMPPPort)
@@ -193,73 +228,98 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecondarySMPPPort()
+    {
+        $this->secondarySMPPPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for systemId
      *
-     * @ElementName systemId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSystemId()
     {
-        return $this->systemId;
+        return $this->systemId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemId;
     }
 
     /**
      * Setter for systemId
      *
-     * @ElementName systemId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $systemId
+     * @param string|null $systemId
      * @return $this
      */
     public function setSystemId($systemId)
     {
-        $this->systemId = $systemId;
+        if ($systemId === null) {
+            $this->systemId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->systemId = $systemId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSystemId()
+    {
+        $this->systemId = null;
         return $this;
     }
 
     /**
      * Getter for password
      *
-     * @ElementName password
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $password
+     * @param string|null $password
      * @return $this
      */
     public function setPassword($password)
     {
-        $this->password = $password;
+        if ($password === null) {
+            $this->password = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->password = $password;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
         return $this;
     }
 
     /**
      * Getter for version
      *
-     * @ElementName version
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
      */
     public function getVersion()
     {
-        return $this->version;
+        return $this->version instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->version;
     }
 
     /**
      * Setter for version
      *
-     * @ElementName version
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null $version
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion $version
      * @return $this
      */
     public function setVersion(\CWM\BroadWorksConnector\Ocip\Models\SMPPVersion $version)
@@ -269,47 +329,63 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVersion()
+    {
+        $this->version = null;
+        return $this;
+    }
+
+    /**
      * Getter for systemType
      *
-     * @ElementName systemType
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSystemType()
     {
-        return $this->systemType;
+        return $this->systemType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->systemType;
     }
 
     /**
      * Setter for systemType
      *
-     * @ElementName systemType
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $systemType
+     * @param string|null $systemType
      * @return $this
      */
     public function setSystemType($systemType)
     {
-        $this->systemType = $systemType;
+        if ($systemType === null) {
+            $this->systemType = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->systemType = $systemType;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSystemType()
+    {
+        $this->systemType = null;
         return $this;
     }
 
     /**
      * Getter for enableMWICustomizedMessage
      *
-     * @ElementName enableMWICustomizedMessage
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMWICustomizedMessage()
     {
-        return $this->enableMWICustomizedMessage;
+        return $this->enableMWICustomizedMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMWICustomizedMessage;
     }
 
     /**
      * Setter for enableMWICustomizedMessage
      *
-     * @ElementName enableMWICustomizedMessage
-     * @param bool|null $enableMWICustomizedMessage
+     * @param bool $enableMWICustomizedMessage
      * @return $this
      */
     public function setEnableMWICustomizedMessage($enableMWICustomizedMessage)
@@ -319,21 +395,28 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMWICustomizedMessage()
+    {
+        $this->enableMWICustomizedMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for supportMessagePayload
      *
-     * @ElementName supportMessagePayload
-     * @return bool|null
+     * @return bool
      */
     public function getSupportMessagePayload()
     {
-        return $this->supportMessagePayload;
+        return $this->supportMessagePayload instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportMessagePayload;
     }
 
     /**
      * Setter for supportMessagePayload
      *
-     * @ElementName supportMessagePayload
-     * @param bool|null $supportMessagePayload
+     * @param bool $supportMessagePayload
      * @return $this
      */
     public function setSupportMessagePayload($supportMessagePayload)
@@ -343,21 +426,28 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportMessagePayload()
+    {
+        $this->supportMessagePayload = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxShortMessageLength
      *
-     * @ElementName maxShortMessageLength
-     * @return int|null
+     * @return int
      */
     public function getMaxShortMessageLength()
     {
-        return $this->maxShortMessageLength;
+        return $this->maxShortMessageLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxShortMessageLength;
     }
 
     /**
      * Setter for maxShortMessageLength
      *
-     * @ElementName maxShortMessageLength
-     * @param int|null $maxShortMessageLength
+     * @param int $maxShortMessageLength
      * @return $this
      */
     public function setMaxShortMessageLength($maxShortMessageLength)
@@ -367,26 +457,42 @@ class SystemSMPPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxShortMessageLength()
+    {
+        $this->maxShortMessageLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGsmMwiUcs2Encoding
      *
-     * @ElementName useGsmMwiUcs2Encoding
-     * @return bool|null
+     * @return bool
      */
     public function getUseGsmMwiUcs2Encoding()
     {
-        return $this->useGsmMwiUcs2Encoding;
+        return $this->useGsmMwiUcs2Encoding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGsmMwiUcs2Encoding;
     }
 
     /**
      * Setter for useGsmMwiUcs2Encoding
      *
-     * @ElementName useGsmMwiUcs2Encoding
-     * @param bool|null $useGsmMwiUcs2Encoding
+     * @param bool $useGsmMwiUcs2Encoding
      * @return $this
      */
     public function setUseGsmMwiUcs2Encoding($useGsmMwiUcs2Encoding)
     {
         $this->useGsmMwiUcs2Encoding = $useGsmMwiUcs2Encoding;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseGsmMwiUcs2Encoding()
+    {
+        $this->useGsmMwiUcs2Encoding = null;
         return $this;
     }
 

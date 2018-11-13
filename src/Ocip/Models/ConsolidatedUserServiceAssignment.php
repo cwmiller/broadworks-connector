@@ -17,12 +17,14 @@ class ConsolidatedUserServiceAssignment
 
     /**
      * @ElementName userServiceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $userServiceName = null;
 
     /**
      * @ElementName authorizedQuantity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $authorizedQuantity = null;
@@ -30,19 +32,17 @@ class ConsolidatedUserServiceAssignment
     /**
      * Getter for userServiceName
      *
-     * @ElementName userServiceName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserService
      */
     public function getUserServiceName()
     {
-        return $this->userServiceName;
+        return $this->userServiceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServiceName;
     }
 
     /**
      * Setter for userServiceName
      *
-     * @ElementName userServiceName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService|null $userServiceName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserService $userServiceName
      * @return $this
      */
     public function setUserServiceName(\CWM\BroadWorksConnector\Ocip\Models\UserService $userServiceName)
@@ -52,26 +52,42 @@ class ConsolidatedUserServiceAssignment
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserServiceName()
+    {
+        $this->userServiceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for authorizedQuantity
      *
-     * @ElementName authorizedQuantity
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      */
     public function getAuthorizedQuantity()
     {
-        return $this->authorizedQuantity;
+        return $this->authorizedQuantity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->authorizedQuantity;
     }
 
     /**
      * Setter for authorizedQuantity
      *
-     * @ElementName authorizedQuantity
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $authorizedQuantity
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $authorizedQuantity
      * @return $this
      */
     public function setAuthorizedQuantity(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $authorizedQuantity)
     {
         $this->authorizedQuantity = $authorizedQuantity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAuthorizedQuantity()
+    {
+        $this->authorizedQuantity = null;
         return $this;
     }
 

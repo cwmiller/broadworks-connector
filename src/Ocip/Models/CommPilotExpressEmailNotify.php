@@ -12,12 +12,14 @@ class CommPilotExpressEmailNotify
 
     /**
      * @ElementName sendEmail
+     * @Type bool
      * @var bool|null
      */
     private $sendEmail = null;
 
     /**
      * @ElementName emailAddress
+     * @Type string
      * @var string|null
      */
     private $emailAddress = null;
@@ -25,19 +27,17 @@ class CommPilotExpressEmailNotify
     /**
      * Getter for sendEmail
      *
-     * @ElementName sendEmail
-     * @return bool|null
+     * @return bool
      */
     public function getSendEmail()
     {
-        return $this->sendEmail;
+        return $this->sendEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sendEmail;
     }
 
     /**
      * Setter for sendEmail
      *
-     * @ElementName sendEmail
-     * @param bool|null $sendEmail
+     * @param bool $sendEmail
      * @return $this
      */
     public function setSendEmail($sendEmail)
@@ -47,26 +47,42 @@ class CommPilotExpressEmailNotify
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSendEmail()
+    {
+        $this->sendEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for emailAddress
      *
-     * @ElementName emailAddress
-     * @return string|null
+     * @return string
      */
     public function getEmailAddress()
     {
-        return $this->emailAddress;
+        return $this->emailAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emailAddress;
     }
 
     /**
      * Setter for emailAddress
      *
-     * @ElementName emailAddress
-     * @param string|null $emailAddress
+     * @param string $emailAddress
      * @return $this
      */
     public function setEmailAddress($emailAddress)
     {
         $this->emailAddress = $emailAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmailAddress()
+    {
+        $this->emailAddress = null;
         return $this;
     }
 

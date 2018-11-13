@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ConnectedNumberSource GROUP()
  * @method static ConnectedNumberSource USER()
  * @method static ConnectedNumberSource DEPARTMENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class ConnectedNumberSource extends \MyCLabs\Enum\Enum
 {

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static TrunkGroupPilotUserChargeNumberUsagePolicy
  * UNSCREENED_ORIGINATING_CALLS()
  * @method static TrunkGroupPilotUserChargeNumberUsagePolicy NO_CALLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupPilotUserChargeNumberUsagePolicy extends \MyCLabs\Enum\Enum
 {

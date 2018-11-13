@@ -16,12 +16,15 @@ class UserPersonalPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName entry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[]
      */
     private $entry = array(
@@ -31,19 +34,17 @@ class UserPersonalPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -53,20 +54,27 @@ class UserPersonalPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for entry
      *
-     * @ElementName entry
      * @return \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[]
      */
     public function getEntry()
     {
-        return $this->entry;
+        return $this->entry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->entry;
     }
 
     /**
      * Setter for entry
      *
-     * @ElementName entry
      * @param \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry[] $entry
      * @return $this
      */
@@ -77,15 +85,23 @@ class UserPersonalPhoneListAddListRequest extends \CWM\BroadWorksConnector\Ocip\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEntry()
+    {
+        $this->entry = null;
+        return $this;
+    }
+
+    /**
      * Adder for entry
      *
-     * @ElementName entry
      * @param \CWM\BroadWorksConnector\Ocip\Models\PhoneListEntry $entry
      * @return $this
      */
     public function addEntry($entry)
     {
-        $this->entry []= $entry;
+        $this->entry[] = $entry;
         return $this;
     }
 

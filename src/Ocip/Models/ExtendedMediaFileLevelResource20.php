@@ -13,6 +13,7 @@ class ExtendedMediaFileLevelResource20
 
     /**
      * @ElementName file
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -20,6 +21,7 @@ class ExtendedMediaFileLevelResource20
 
     /**
      * @ElementName url
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -28,52 +30,70 @@ class ExtendedMediaFileLevelResource20
     /**
      * Getter for file
      *
-     * @ElementName file
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     public function getFile()
     {
-        return $this->file;
+        return $this->file instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->file;
     }
 
     /**
      * Setter for file
      *
-     * @ElementName file
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $file
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file
      * @return $this
      */
     public function setFile(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file)
     {
-        $this->file = $file;
+        if ($file === null) {
+            $this->file = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->file = $file;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFile()
+    {
+        $this->file = null;
         return $this;
     }
 
     /**
      * Getter for url
      *
-     * @ElementName url
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getUrl()
     {
-        return $this->url;
+        return $this->url instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->url;
     }
 
     /**
      * Setter for url
      *
-     * @ElementName url
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $url
+     * @param string|null $url
      * @return $this
      */
     public function setUrl($url)
     {
-        $this->url = $url;
+        if ($url === null) {
+            $this->url = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->url = $url;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUrl()
+    {
+        $this->url = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static TrunkMode PILOT()
  * @method static TrunkMode PROXY()
  * @method static TrunkMode USER()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkMode extends \MyCLabs\Enum\Enum
 {

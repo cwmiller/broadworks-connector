@@ -16,12 +16,14 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName rootDirectory
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,30 +31,35 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName secure
+     * @Type bool
      * @var bool|null
      */
     private $secure = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName ftpPassive
+     * @Type bool
      * @var bool|null
      */
     private $ftpPassive = null;
 
     /**
      * @ElementName protocol
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol|null
      */
     private $protocol = null;
 
     /**
      * @ElementName port
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -60,6 +67,7 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName ftpRemoteVerification
+     * @Type bool
      * @var bool|null
      */
     private $ftpRemoteVerification = null;
@@ -67,19 +75,17 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -89,47 +95,63 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for rootDirectory
      *
-     * @ElementName rootDirectory
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRootDirectory()
     {
-        return $this->rootDirectory;
+        return $this->rootDirectory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->rootDirectory;
     }
 
     /**
      * Setter for rootDirectory
      *
-     * @ElementName rootDirectory
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $rootDirectory
+     * @param string|null $rootDirectory
      * @return $this
      */
     public function setRootDirectory($rootDirectory)
     {
-        $this->rootDirectory = $rootDirectory;
+        if ($rootDirectory === null) {
+            $this->rootDirectory = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->rootDirectory = $rootDirectory;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRootDirectory()
+    {
+        $this->rootDirectory = null;
         return $this;
     }
 
     /**
      * Getter for secure
      *
-     * @ElementName secure
-     * @return bool|null
+     * @return bool
      */
     public function getSecure()
     {
-        return $this->secure;
+        return $this->secure instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secure;
     }
 
     /**
      * Setter for secure
      *
-     * @ElementName secure
-     * @param bool|null $secure
+     * @param bool $secure
      * @return $this
      */
     public function setSecure($secure)
@@ -139,21 +161,28 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecure()
+    {
+        $this->secure = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -163,21 +192,28 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for ftpPassive
      *
-     * @ElementName ftpPassive
-     * @return bool|null
+     * @return bool
      */
     public function getFtpPassive()
     {
-        return $this->ftpPassive;
+        return $this->ftpPassive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpPassive;
     }
 
     /**
      * Setter for ftpPassive
      *
-     * @ElementName ftpPassive
-     * @param bool|null $ftpPassive
+     * @param bool $ftpPassive
      * @return $this
      */
     public function setFtpPassive($ftpPassive)
@@ -187,21 +223,28 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFtpPassive()
+    {
+        $this->ftpPassive = null;
+        return $this;
+    }
+
+    /**
      * Getter for protocol
      *
-     * @ElementName protocol
-     * @return \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol
      */
     public function getProtocol()
     {
-        return $this->protocol;
+        return $this->protocol instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocol;
     }
 
     /**
      * Setter for protocol
      *
-     * @ElementName protocol
-     * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol|null $protocol
+     * @param \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol $protocol
      * @return $this
      */
     public function setProtocol(\CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocol $protocol)
@@ -211,52 +254,77 @@ class SystemFileRepositoryDeviceModifyRequest extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProtocol()
+    {
+        $this->protocol = null;
+        return $this;
+    }
+
+    /**
      * Getter for port
      *
-     * @ElementName port
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $port
+     * @param int|null $port
      * @return $this
      */
     public function setPort($port)
     {
-        $this->port = $port;
+        if ($port === null) {
+            $this->port = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->port = $port;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
         return $this;
     }
 
     /**
      * Getter for ftpRemoteVerification
      *
-     * @ElementName ftpRemoteVerification
-     * @return bool|null
+     * @return bool
      */
     public function getFtpRemoteVerification()
     {
-        return $this->ftpRemoteVerification;
+        return $this->ftpRemoteVerification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ftpRemoteVerification;
     }
 
     /**
      * Setter for ftpRemoteVerification
      *
-     * @ElementName ftpRemoteVerification
-     * @param bool|null $ftpRemoteVerification
+     * @param bool $ftpRemoteVerification
      * @return $this
      */
     public function setFtpRemoteVerification($ftpRemoteVerification)
     {
         $this->ftpRemoteVerification = $ftpRemoteVerification;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFtpRemoteVerification()
+    {
+        $this->ftpRemoteVerification = null;
         return $this;
     }
 

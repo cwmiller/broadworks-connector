@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static HotelingHostAccessLevel ENTERPRISE()
  * @method static HotelingHostAccessLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class HotelingHostAccessLevel extends \MyCLabs\Enum\Enum
 {

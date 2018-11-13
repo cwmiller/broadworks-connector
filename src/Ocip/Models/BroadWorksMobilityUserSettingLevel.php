@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static BroadWorksMobilityUserSettingLevel GROUP()
  * @method static BroadWorksMobilityUserSettingLevel USER()
- * @ValueType string
+ * @EnumValueType string
  */
 class BroadWorksMobilityUserSettingLevel extends \MyCLabs\Enum\Enum
 {

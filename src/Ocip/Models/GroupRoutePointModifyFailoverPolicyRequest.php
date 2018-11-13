@@ -16,18 +16,21 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName enableFailoverSupport
+     * @Type bool
      * @var bool|null
      */
     private $enableFailoverSupport = null;
 
     /**
      * @ElementName externalSystem
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,6 +38,7 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName failoverPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -42,24 +46,28 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName perCallEnableFailoverSupport
+     * @Type bool
      * @var bool|null
      */
     private $perCallEnableFailoverSupport = null;
 
     /**
      * @ElementName perCallCallFailureTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $perCallCallFailureTimeoutSeconds = null;
 
     /**
      * @ElementName perCallOutboundCallFailureTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $perCallOutboundCallFailureTimeoutSeconds = null;
 
     /**
      * @ElementName perCallFailoverPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -68,19 +76,17 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -90,21 +96,28 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableFailoverSupport
      *
-     * @ElementName enableFailoverSupport
-     * @return bool|null
+     * @return bool
      */
     public function getEnableFailoverSupport()
     {
-        return $this->enableFailoverSupport;
+        return $this->enableFailoverSupport instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableFailoverSupport;
     }
 
     /**
      * Setter for enableFailoverSupport
      *
-     * @ElementName enableFailoverSupport
-     * @param bool|null $enableFailoverSupport
+     * @param bool $enableFailoverSupport
      * @return $this
      */
     public function setEnableFailoverSupport($enableFailoverSupport)
@@ -114,73 +127,98 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableFailoverSupport()
+    {
+        $this->enableFailoverSupport = null;
+        return $this;
+    }
+
+    /**
      * Getter for externalSystem
      *
-     * @ElementName externalSystem
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getExternalSystem()
     {
-        return $this->externalSystem;
+        return $this->externalSystem instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalSystem;
     }
 
     /**
      * Setter for externalSystem
      *
-     * @ElementName externalSystem
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $externalSystem
+     * @param string|null $externalSystem
      * @return $this
      */
     public function setExternalSystem($externalSystem)
     {
-        $this->externalSystem = $externalSystem;
+        if ($externalSystem === null) {
+            $this->externalSystem = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->externalSystem = $externalSystem;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExternalSystem()
+    {
+        $this->externalSystem = null;
         return $this;
     }
 
     /**
      * Getter for failoverPhoneNumber
      *
-     * @ElementName failoverPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getFailoverPhoneNumber()
     {
-        return $this->failoverPhoneNumber;
+        return $this->failoverPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->failoverPhoneNumber;
     }
 
     /**
      * Setter for failoverPhoneNumber
      *
-     * @ElementName failoverPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $failoverPhoneNumber
+     * @param string|null $failoverPhoneNumber
      * @return $this
      */
     public function setFailoverPhoneNumber($failoverPhoneNumber)
     {
-        $this->failoverPhoneNumber = $failoverPhoneNumber;
+        if ($failoverPhoneNumber === null) {
+            $this->failoverPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->failoverPhoneNumber = $failoverPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFailoverPhoneNumber()
+    {
+        $this->failoverPhoneNumber = null;
         return $this;
     }
 
     /**
      * Getter for perCallEnableFailoverSupport
      *
-     * @ElementName perCallEnableFailoverSupport
-     * @return bool|null
+     * @return bool
      */
     public function getPerCallEnableFailoverSupport()
     {
-        return $this->perCallEnableFailoverSupport;
+        return $this->perCallEnableFailoverSupport instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->perCallEnableFailoverSupport;
     }
 
     /**
      * Setter for perCallEnableFailoverSupport
      *
-     * @ElementName perCallEnableFailoverSupport
-     * @param bool|null $perCallEnableFailoverSupport
+     * @param bool $perCallEnableFailoverSupport
      * @return $this
      */
     public function setPerCallEnableFailoverSupport($perCallEnableFailoverSupport)
@@ -190,21 +228,28 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPerCallEnableFailoverSupport()
+    {
+        $this->perCallEnableFailoverSupport = null;
+        return $this;
+    }
+
+    /**
      * Getter for perCallCallFailureTimeoutSeconds
      *
-     * @ElementName perCallCallFailureTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getPerCallCallFailureTimeoutSeconds()
     {
-        return $this->perCallCallFailureTimeoutSeconds;
+        return $this->perCallCallFailureTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->perCallCallFailureTimeoutSeconds;
     }
 
     /**
      * Setter for perCallCallFailureTimeoutSeconds
      *
-     * @ElementName perCallCallFailureTimeoutSeconds
-     * @param int|null $perCallCallFailureTimeoutSeconds
+     * @param int $perCallCallFailureTimeoutSeconds
      * @return $this
      */
     public function setPerCallCallFailureTimeoutSeconds($perCallCallFailureTimeoutSeconds)
@@ -214,21 +259,28 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPerCallCallFailureTimeoutSeconds()
+    {
+        $this->perCallCallFailureTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for perCallOutboundCallFailureTimeoutSeconds
      *
-     * @ElementName perCallOutboundCallFailureTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getPerCallOutboundCallFailureTimeoutSeconds()
     {
-        return $this->perCallOutboundCallFailureTimeoutSeconds;
+        return $this->perCallOutboundCallFailureTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->perCallOutboundCallFailureTimeoutSeconds;
     }
 
     /**
      * Setter for perCallOutboundCallFailureTimeoutSeconds
      *
-     * @ElementName perCallOutboundCallFailureTimeoutSeconds
-     * @param int|null $perCallOutboundCallFailureTimeoutSeconds
+     * @param int $perCallOutboundCallFailureTimeoutSeconds
      * @return $this
      */
     public function setPerCallOutboundCallFailureTimeoutSeconds($perCallOutboundCallFailureTimeoutSeconds)
@@ -238,28 +290,46 @@ class GroupRoutePointModifyFailoverPolicyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPerCallOutboundCallFailureTimeoutSeconds()
+    {
+        $this->perCallOutboundCallFailureTimeoutSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for perCallFailoverPhoneNumber
      *
-     * @ElementName perCallFailoverPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPerCallFailoverPhoneNumber()
     {
-        return $this->perCallFailoverPhoneNumber;
+        return $this->perCallFailoverPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->perCallFailoverPhoneNumber;
     }
 
     /**
      * Setter for perCallFailoverPhoneNumber
      *
-     * @ElementName perCallFailoverPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $perCallFailoverPhoneNumber
+     * @param string|null $perCallFailoverPhoneNumber
      * @return $this
      */
     public function setPerCallFailoverPhoneNumber($perCallFailoverPhoneNumber)
     {
-        $this->perCallFailoverPhoneNumber = $perCallFailoverPhoneNumber;
+        if ($perCallFailoverPhoneNumber === null) {
+            $this->perCallFailoverPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->perCallFailoverPhoneNumber = $perCallFailoverPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPerCallFailoverPhoneNumber()
+    {
+        $this->perCallFailoverPhoneNumber = null;
         return $this;
     }
 

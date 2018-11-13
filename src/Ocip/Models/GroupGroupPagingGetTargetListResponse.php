@@ -17,6 +17,7 @@ class GroupGroupPagingGetTargetListResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName targetTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $targetTable = null;
@@ -24,24 +25,31 @@ class GroupGroupPagingGetTargetListResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for targetTable
      *
-     * @ElementName targetTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getTargetTable()
     {
-        return $this->targetTable;
+        return $this->targetTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->targetTable;
     }
 
     /**
      * Setter for targetTable
      *
-     * @ElementName targetTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $targetTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $targetTable
      * @return $this
      */
     public function setTargetTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $targetTable)
     {
         $this->targetTable = $targetTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTargetTable()
+    {
+        $this->targetTable = null;
         return $this;
     }
 

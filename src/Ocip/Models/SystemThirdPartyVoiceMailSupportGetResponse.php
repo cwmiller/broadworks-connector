@@ -17,6 +17,7 @@ class SystemThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName overrideAltCallerIdForVMRetrieval
+     * @Type bool
      * @var bool|null
      */
     private $overrideAltCallerIdForVMRetrieval = null;
@@ -24,24 +25,31 @@ class SystemThirdPartyVoiceMailSupportGetResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for overrideAltCallerIdForVMRetrieval
      *
-     * @ElementName overrideAltCallerIdForVMRetrieval
-     * @return bool|null
+     * @return bool
      */
     public function getOverrideAltCallerIdForVMRetrieval()
     {
-        return $this->overrideAltCallerIdForVMRetrieval;
+        return $this->overrideAltCallerIdForVMRetrieval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideAltCallerIdForVMRetrieval;
     }
 
     /**
      * Setter for overrideAltCallerIdForVMRetrieval
      *
-     * @ElementName overrideAltCallerIdForVMRetrieval
-     * @param bool|null $overrideAltCallerIdForVMRetrieval
+     * @param bool $overrideAltCallerIdForVMRetrieval
      * @return $this
      */
     public function setOverrideAltCallerIdForVMRetrieval($overrideAltCallerIdForVMRetrieval)
     {
         $this->overrideAltCallerIdForVMRetrieval = $overrideAltCallerIdForVMRetrieval;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetOverrideAltCallerIdForVMRetrieval()
+    {
+        $this->overrideAltCallerIdForVMRetrieval = null;
         return $this;
     }
 

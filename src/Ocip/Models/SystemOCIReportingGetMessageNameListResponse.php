@@ -14,6 +14,8 @@ class SystemOCIReportingGetMessageNameListResponse extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName messageNameStartsWith
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $messageNameStartsWith = array(
@@ -23,18 +25,16 @@ class SystemOCIReportingGetMessageNameListResponse extends \CWM\BroadWorksConnec
     /**
      * Getter for messageNameStartsWith
      *
-     * @ElementName messageNameStartsWith
      * @return string[]
      */
     public function getMessageNameStartsWith()
     {
-        return $this->messageNameStartsWith;
+        return $this->messageNameStartsWith instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->messageNameStartsWith;
     }
 
     /**
      * Setter for messageNameStartsWith
      *
-     * @ElementName messageNameStartsWith
      * @param string[] $messageNameStartsWith
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemOCIReportingGetMessageNameListResponse extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMessageNameStartsWith()
+    {
+        $this->messageNameStartsWith = null;
+        return $this;
+    }
+
+    /**
      * Adder for messageNameStartsWith
      *
-     * @ElementName messageNameStartsWith
      * @param string $messageNameStartsWith
      * @return $this
      */
     public function addMessageNameStartsWith(string $messageNameStartsWith)
     {
-        $this->messageNameStartsWith []= $messageNameStartsWith;
+        $this->messageNameStartsWith[] = $messageNameStartsWith;
         return $this;
     }
 

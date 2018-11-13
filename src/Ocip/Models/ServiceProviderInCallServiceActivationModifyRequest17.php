@@ -16,18 +16,21 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName flashActivationDigits
+     * @Type string
      * @var string|null
      */
     private $flashActivationDigits = null;
 
     /**
      * @ElementName callTransferActivationDigits
+     * @Type string
      * @var string|null
      */
     private $callTransferActivationDigits = null;
@@ -35,19 +38,17 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -57,21 +58,28 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for flashActivationDigits
      *
-     * @ElementName flashActivationDigits
-     * @return string|null
+     * @return string
      */
     public function getFlashActivationDigits()
     {
-        return $this->flashActivationDigits;
+        return $this->flashActivationDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->flashActivationDigits;
     }
 
     /**
      * Setter for flashActivationDigits
      *
-     * @ElementName flashActivationDigits
-     * @param string|null $flashActivationDigits
+     * @param string $flashActivationDigits
      * @return $this
      */
     public function setFlashActivationDigits($flashActivationDigits)
@@ -81,26 +89,42 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFlashActivationDigits()
+    {
+        $this->flashActivationDigits = null;
+        return $this;
+    }
+
+    /**
      * Getter for callTransferActivationDigits
      *
-     * @ElementName callTransferActivationDigits
-     * @return string|null
+     * @return string
      */
     public function getCallTransferActivationDigits()
     {
-        return $this->callTransferActivationDigits;
+        return $this->callTransferActivationDigits instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callTransferActivationDigits;
     }
 
     /**
      * Setter for callTransferActivationDigits
      *
-     * @ElementName callTransferActivationDigits
-     * @param string|null $callTransferActivationDigits
+     * @param string $callTransferActivationDigits
      * @return $this
      */
     public function setCallTransferActivationDigits($callTransferActivationDigits)
     {
         $this->callTransferActivationDigits = $callTransferActivationDigits;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallTransferActivationDigits()
+    {
+        $this->callTransferActivationDigits = null;
         return $this;
     }
 

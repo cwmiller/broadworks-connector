@@ -28,18 +28,21 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName useSystemServiceDomain
+     * @Type bool
      * @var bool|null
      */
     private $useSystemServiceDomain = null;
 
     /**
      * @ElementName serviceDomain
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +50,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName servicePort
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -54,12 +58,14 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName useSystemMessagingServer
+     * @Type bool
      * @var bool|null
      */
     private $useSystemMessagingServer = null;
 
     /**
      * @ElementName provisioningUrl
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -67,6 +73,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName provisioningUserId
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -74,6 +81,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName provisioningPassword
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -81,6 +89,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName boshURL
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -89,19 +98,17 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -111,21 +118,28 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSystemServiceDomain
      *
-     * @ElementName useSystemServiceDomain
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemServiceDomain()
     {
-        return $this->useSystemServiceDomain;
+        return $this->useSystemServiceDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemServiceDomain;
     }
 
     /**
      * Setter for useSystemServiceDomain
      *
-     * @ElementName useSystemServiceDomain
-     * @param bool|null $useSystemServiceDomain
+     * @param bool $useSystemServiceDomain
      * @return $this
      */
     public function setUseSystemServiceDomain($useSystemServiceDomain)
@@ -135,73 +149,98 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemServiceDomain()
+    {
+        $this->useSystemServiceDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getServiceDomain()
     {
-        return $this->serviceDomain;
+        return $this->serviceDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceDomain;
     }
 
     /**
      * Setter for serviceDomain
      *
-     * @ElementName serviceDomain
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $serviceDomain
+     * @param string|null $serviceDomain
      * @return $this
      */
     public function setServiceDomain($serviceDomain)
     {
-        $this->serviceDomain = $serviceDomain;
+        if ($serviceDomain === null) {
+            $this->serviceDomain = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->serviceDomain = $serviceDomain;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceDomain()
+    {
+        $this->serviceDomain = null;
         return $this;
     }
 
     /**
      * Getter for servicePort
      *
-     * @ElementName servicePort
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getServicePort()
     {
-        return $this->servicePort;
+        return $this->servicePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePort;
     }
 
     /**
      * Setter for servicePort
      *
-     * @ElementName servicePort
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePort
+     * @param int|null $servicePort
      * @return $this
      */
     public function setServicePort($servicePort)
     {
-        $this->servicePort = $servicePort;
+        if ($servicePort === null) {
+            $this->servicePort = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->servicePort = $servicePort;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServicePort()
+    {
+        $this->servicePort = null;
         return $this;
     }
 
     /**
      * Getter for useSystemMessagingServer
      *
-     * @ElementName useSystemMessagingServer
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemMessagingServer()
     {
-        return $this->useSystemMessagingServer;
+        return $this->useSystemMessagingServer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemMessagingServer;
     }
 
     /**
      * Setter for useSystemMessagingServer
      *
-     * @ElementName useSystemMessagingServer
-     * @param bool|null $useSystemMessagingServer
+     * @param bool $useSystemMessagingServer
      * @return $this
      */
     public function setUseSystemMessagingServer($useSystemMessagingServer)
@@ -211,106 +250,151 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemMessagingServer()
+    {
+        $this->useSystemMessagingServer = null;
+        return $this;
+    }
+
+    /**
      * Getter for provisioningUrl
      *
-     * @ElementName provisioningUrl
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getProvisioningUrl()
     {
-        return $this->provisioningUrl;
+        return $this->provisioningUrl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningUrl;
     }
 
     /**
      * Setter for provisioningUrl
      *
-     * @ElementName provisioningUrl
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningUrl
+     * @param string|null $provisioningUrl
      * @return $this
      */
     public function setProvisioningUrl($provisioningUrl)
     {
-        $this->provisioningUrl = $provisioningUrl;
+        if ($provisioningUrl === null) {
+            $this->provisioningUrl = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->provisioningUrl = $provisioningUrl;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProvisioningUrl()
+    {
+        $this->provisioningUrl = null;
         return $this;
     }
 
     /**
      * Getter for provisioningUserId
      *
-     * @ElementName provisioningUserId
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getProvisioningUserId()
     {
-        return $this->provisioningUserId;
+        return $this->provisioningUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningUserId;
     }
 
     /**
      * Setter for provisioningUserId
      *
-     * @ElementName provisioningUserId
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningUserId
+     * @param string|null $provisioningUserId
      * @return $this
      */
     public function setProvisioningUserId($provisioningUserId)
     {
-        $this->provisioningUserId = $provisioningUserId;
+        if ($provisioningUserId === null) {
+            $this->provisioningUserId = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->provisioningUserId = $provisioningUserId;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProvisioningUserId()
+    {
+        $this->provisioningUserId = null;
         return $this;
     }
 
     /**
      * Getter for provisioningPassword
      *
-     * @ElementName provisioningPassword
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getProvisioningPassword()
     {
-        return $this->provisioningPassword;
+        return $this->provisioningPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->provisioningPassword;
     }
 
     /**
      * Setter for provisioningPassword
      *
-     * @ElementName provisioningPassword
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $provisioningPassword
+     * @param string|null $provisioningPassword
      * @return $this
      */
     public function setProvisioningPassword($provisioningPassword)
     {
-        $this->provisioningPassword = $provisioningPassword;
+        if ($provisioningPassword === null) {
+            $this->provisioningPassword = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->provisioningPassword = $provisioningPassword;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProvisioningPassword()
+    {
+        $this->provisioningPassword = null;
         return $this;
     }
 
     /**
      * Getter for boshURL
      *
-     * @ElementName boshURL
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getBoshURL()
     {
-        return $this->boshURL;
+        return $this->boshURL instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->boshURL;
     }
 
     /**
      * Setter for boshURL
      *
-     * @ElementName boshURL
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $boshURL
+     * @param string|null $boshURL
      * @return $this
      */
     public function setBoshURL($boshURL)
     {
-        $this->boshURL = $boshURL;
+        if ($boshURL === null) {
+            $this->boshURL = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->boshURL = $boshURL;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetBoshURL()
+    {
+        $this->boshURL = null;
         return $this;
     }
 

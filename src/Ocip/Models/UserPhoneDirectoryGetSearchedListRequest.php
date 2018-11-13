@@ -27,12 +27,14 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName nameSearchString
+     * @Type string
      * @var string|null
      */
     private $nameSearchString = null;
@@ -40,19 +42,17 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -62,26 +62,42 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for nameSearchString
      *
-     * @ElementName nameSearchString
-     * @return string|null
+     * @return string
      */
     public function getNameSearchString()
     {
-        return $this->nameSearchString;
+        return $this->nameSearchString instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nameSearchString;
     }
 
     /**
      * Setter for nameSearchString
      *
-     * @ElementName nameSearchString
-     * @param string|null $nameSearchString
+     * @param string $nameSearchString
      * @return $this
      */
     public function setNameSearchString($nameSearchString)
     {
         $this->nameSearchString = $nameSearchString;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNameSearchString()
+    {
+        $this->nameSearchString = null;
         return $this;
     }
 

@@ -16,30 +16,35 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName requiresAccessCodeForPublicCalls
+     * @Type bool
      * @var bool|null
      */
     private $requiresAccessCodeForPublicCalls = null;
 
     /**
      * @ElementName allowE164PublicCalls
+     * @Type bool
      * @var bool|null
      */
     private $allowE164PublicCalls = null;
 
     /**
      * @ElementName preferE164NumberFormatForCallbackServices
+     * @Type bool
      * @var bool|null
      */
     private $preferE164NumberFormatForCallbackServices = null;
 
     /**
      * @ElementName publicDigitMap
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +52,7 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName privateDigitMap
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -55,19 +61,17 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -77,21 +81,28 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for requiresAccessCodeForPublicCalls
      *
-     * @ElementName requiresAccessCodeForPublicCalls
-     * @return bool|null
+     * @return bool
      */
     public function getRequiresAccessCodeForPublicCalls()
     {
-        return $this->requiresAccessCodeForPublicCalls;
+        return $this->requiresAccessCodeForPublicCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->requiresAccessCodeForPublicCalls;
     }
 
     /**
      * Setter for requiresAccessCodeForPublicCalls
      *
-     * @ElementName requiresAccessCodeForPublicCalls
-     * @param bool|null $requiresAccessCodeForPublicCalls
+     * @param bool $requiresAccessCodeForPublicCalls
      * @return $this
      */
     public function setRequiresAccessCodeForPublicCalls($requiresAccessCodeForPublicCalls)
@@ -101,21 +112,28 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRequiresAccessCodeForPublicCalls()
+    {
+        $this->requiresAccessCodeForPublicCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowE164PublicCalls
      *
-     * @ElementName allowE164PublicCalls
-     * @return bool|null
+     * @return bool
      */
     public function getAllowE164PublicCalls()
     {
-        return $this->allowE164PublicCalls;
+        return $this->allowE164PublicCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowE164PublicCalls;
     }
 
     /**
      * Setter for allowE164PublicCalls
      *
-     * @ElementName allowE164PublicCalls
-     * @param bool|null $allowE164PublicCalls
+     * @param bool $allowE164PublicCalls
      * @return $this
      */
     public function setAllowE164PublicCalls($allowE164PublicCalls)
@@ -125,21 +143,28 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowE164PublicCalls()
+    {
+        $this->allowE164PublicCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for preferE164NumberFormatForCallbackServices
      *
-     * @ElementName preferE164NumberFormatForCallbackServices
-     * @return bool|null
+     * @return bool
      */
     public function getPreferE164NumberFormatForCallbackServices()
     {
-        return $this->preferE164NumberFormatForCallbackServices;
+        return $this->preferE164NumberFormatForCallbackServices instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preferE164NumberFormatForCallbackServices;
     }
 
     /**
      * Setter for preferE164NumberFormatForCallbackServices
      *
-     * @ElementName preferE164NumberFormatForCallbackServices
-     * @param bool|null $preferE164NumberFormatForCallbackServices
+     * @param bool $preferE164NumberFormatForCallbackServices
      * @return $this
      */
     public function setPreferE164NumberFormatForCallbackServices($preferE164NumberFormatForCallbackServices)
@@ -149,54 +174,81 @@ class ServiceProviderDialPlanPolicyModifyRequest extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreferE164NumberFormatForCallbackServices()
+    {
+        $this->preferE164NumberFormatForCallbackServices = null;
+        return $this;
+    }
+
+    /**
      * Getter for publicDigitMap
      *
-     * @ElementName publicDigitMap
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPublicDigitMap()
     {
-        return $this->publicDigitMap;
+        return $this->publicDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->publicDigitMap;
     }
 
     /**
      * Setter for publicDigitMap
      *
-     * @ElementName publicDigitMap
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $publicDigitMap
+     * @param string|null $publicDigitMap
      * @return $this
      */
     public function setPublicDigitMap($publicDigitMap)
     {
-        $this->publicDigitMap = $publicDigitMap;
+        if ($publicDigitMap === null) {
+            $this->publicDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->publicDigitMap = $publicDigitMap;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPublicDigitMap()
+    {
+        $this->publicDigitMap = null;
         return $this;
     }
 
     /**
      * Getter for privateDigitMap
      *
-     * @ElementName privateDigitMap
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPrivateDigitMap()
     {
-        return $this->privateDigitMap;
+        return $this->privateDigitMap instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->privateDigitMap;
     }
 
     /**
      * Setter for privateDigitMap
      *
-     * @ElementName privateDigitMap
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $privateDigitMap
+     * @param string|null $privateDigitMap
      * @return $this
      */
     public function setPrivateDigitMap($privateDigitMap)
     {
-        $this->privateDigitMap = $privateDigitMap;
+        if ($privateDigitMap === null) {
+            $this->privateDigitMap = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->privateDigitMap = $privateDigitMap;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrivateDigitMap()
+    {
+        $this->privateDigitMap = null;
         return $this;
     }
 

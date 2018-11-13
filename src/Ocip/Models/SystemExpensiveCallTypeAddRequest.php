@@ -17,12 +17,14 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName alternateCallIndicator
+     * @Type string
      * @var string|null
      */
     private $alternateCallIndicator = null;
 
     /**
      * @ElementName treatmentAudioFile
+     * @Type string
      * @var string|null
      */
     private $treatmentAudioFile = null;
@@ -30,19 +32,17 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
-     * @return string|null
+     * @return string
      */
     public function getAlternateCallIndicator()
     {
-        return $this->alternateCallIndicator;
+        return $this->alternateCallIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateCallIndicator;
     }
 
     /**
      * Setter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
-     * @param string|null $alternateCallIndicator
+     * @param string $alternateCallIndicator
      * @return $this
      */
     public function setAlternateCallIndicator($alternateCallIndicator)
@@ -52,26 +52,42 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateCallIndicator()
+    {
+        $this->alternateCallIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for treatmentAudioFile
      *
-     * @ElementName treatmentAudioFile
-     * @return string|null
+     * @return string
      */
     public function getTreatmentAudioFile()
     {
-        return $this->treatmentAudioFile;
+        return $this->treatmentAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->treatmentAudioFile;
     }
 
     /**
      * Setter for treatmentAudioFile
      *
-     * @ElementName treatmentAudioFile
-     * @param string|null $treatmentAudioFile
+     * @param string $treatmentAudioFile
      * @return $this
      */
     public function setTreatmentAudioFile($treatmentAudioFile)
     {
         $this->treatmentAudioFile = $treatmentAudioFile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTreatmentAudioFile()
+    {
+        $this->treatmentAudioFile = null;
         return $this;
     }
 

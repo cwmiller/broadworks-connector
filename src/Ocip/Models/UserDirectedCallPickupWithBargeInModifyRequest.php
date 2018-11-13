@@ -16,18 +16,21 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName enableBargeInWarningTone
+     * @Type bool
      * @var bool|null
      */
     private $enableBargeInWarningTone = null;
 
     /**
      * @ElementName enableAutomaticTargetSelection
+     * @Type bool
      * @var bool|null
      */
     private $enableAutomaticTargetSelection = null;
@@ -35,19 +38,17 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -57,21 +58,28 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableBargeInWarningTone
      *
-     * @ElementName enableBargeInWarningTone
-     * @return bool|null
+     * @return bool
      */
     public function getEnableBargeInWarningTone()
     {
-        return $this->enableBargeInWarningTone;
+        return $this->enableBargeInWarningTone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableBargeInWarningTone;
     }
 
     /**
      * Setter for enableBargeInWarningTone
      *
-     * @ElementName enableBargeInWarningTone
-     * @param bool|null $enableBargeInWarningTone
+     * @param bool $enableBargeInWarningTone
      * @return $this
      */
     public function setEnableBargeInWarningTone($enableBargeInWarningTone)
@@ -81,26 +89,42 @@ class UserDirectedCallPickupWithBargeInModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableBargeInWarningTone()
+    {
+        $this->enableBargeInWarningTone = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutomaticTargetSelection
      *
-     * @ElementName enableAutomaticTargetSelection
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutomaticTargetSelection()
     {
-        return $this->enableAutomaticTargetSelection;
+        return $this->enableAutomaticTargetSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutomaticTargetSelection;
     }
 
     /**
      * Setter for enableAutomaticTargetSelection
      *
-     * @ElementName enableAutomaticTargetSelection
-     * @param bool|null $enableAutomaticTargetSelection
+     * @param bool $enableAutomaticTargetSelection
      * @return $this
      */
     public function setEnableAutomaticTargetSelection($enableAutomaticTargetSelection)
     {
         $this->enableAutomaticTargetSelection = $enableAutomaticTargetSelection;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableAutomaticTargetSelection()
+    {
+        $this->enableAutomaticTargetSelection = null;
         return $this;
     }
 

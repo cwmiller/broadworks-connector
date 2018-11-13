@@ -16,30 +16,35 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName defaultSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
     private $defaultSelection = null;
 
     /**
      * @ElementName e164Selection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
     private $e164Selection = null;
 
     /**
      * @ElementName usePhoneContext
+     * @Type bool
      * @var bool|null
      */
     private $usePhoneContext = null;
@@ -47,19 +52,17 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +72,28 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -93,21 +103,28 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultSelection
      *
-     * @ElementName defaultSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection
      */
     public function getDefaultSelection()
     {
-        return $this->defaultSelection;
+        return $this->defaultSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultSelection;
     }
 
     /**
      * Setter for defaultSelection
      *
-     * @ElementName defaultSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null $defaultSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection $defaultSelection
      * @return $this
      */
     public function setDefaultSelection(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection $defaultSelection)
@@ -117,21 +134,28 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultSelection()
+    {
+        $this->defaultSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for e164Selection
      *
-     * @ElementName e164Selection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection
      */
     public function getE164Selection()
     {
-        return $this->e164Selection;
+        return $this->e164Selection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->e164Selection;
     }
 
     /**
      * Setter for e164Selection
      *
-     * @ElementName e164Selection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null $e164Selection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection $e164Selection
      * @return $this
      */
     public function setE164Selection(\CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection $e164Selection)
@@ -141,26 +165,42 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetE164Selection()
+    {
+        $this->e164Selection = null;
+        return $this;
+    }
+
+    /**
      * Getter for usePhoneContext
      *
-     * @ElementName usePhoneContext
-     * @return bool|null
+     * @return bool
      */
     public function getUsePhoneContext()
     {
-        return $this->usePhoneContext;
+        return $this->usePhoneContext instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->usePhoneContext;
     }
 
     /**
      * Setter for usePhoneContext
      *
-     * @ElementName usePhoneContext
-     * @param bool|null $usePhoneContext
+     * @param bool $usePhoneContext
      * @return $this
      */
     public function setUsePhoneContext($usePhoneContext)
     {
         $this->usePhoneContext = $usePhoneContext;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUsePhoneContext()
+    {
+        $this->usePhoneContext = null;
         return $this;
     }
 

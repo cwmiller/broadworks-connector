@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static MediaFileType WAV()
  * @method static MediaFileType _3GP()
  * @method static MediaFileType MOV()
- * @ValueType string
+ * @EnumValueType string
  */
 class MediaFileType extends \MyCLabs\Enum\Enum
 {

@@ -17,12 +17,15 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName responseSizeLimit
+     * @Type int
      * @var int|null
      */
     private $responseSizeLimit = null;
 
     /**
      * @ElementName searchCriteriaServiceProviderId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -31,12 +34,15 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaExactOrganizationType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     private $searchCriteriaExactOrganizationType = null;
 
     /**
      * @ElementName searchCriteriaGroupId
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -45,6 +51,8 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaDeviceName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
     private $searchCriteriaDeviceName = array(
@@ -53,6 +61,7 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName searchCriteriaExactDeviceType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
     private $searchCriteriaExactDeviceType = null;
@@ -60,19 +69,17 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
     /**
      * Getter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @return int|null
+     * @return int
      */
     public function getResponseSizeLimit()
     {
-        return $this->responseSizeLimit;
+        return $this->responseSizeLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responseSizeLimit;
     }
 
     /**
      * Setter for responseSizeLimit
      *
-     * @ElementName responseSizeLimit
-     * @param int|null $responseSizeLimit
+     * @param int $responseSizeLimit
      * @return $this
      */
     public function setResponseSizeLimit($responseSizeLimit)
@@ -82,20 +89,27 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponseSizeLimit()
+    {
+        $this->responseSizeLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaServiceProviderId
      *
-     * @ElementName searchCriteriaServiceProviderId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     public function getSearchCriteriaServiceProviderId()
     {
-        return $this->searchCriteriaServiceProviderId;
+        return $this->searchCriteriaServiceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaServiceProviderId;
     }
 
     /**
      * Setter for searchCriteriaServiceProviderId
      *
-     * @ElementName searchCriteriaServiceProviderId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[] $searchCriteriaServiceProviderId
      * @return $this
      */
@@ -106,34 +120,40 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaServiceProviderId()
+    {
+        $this->searchCriteriaServiceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaServiceProviderId
      *
-     * @ElementName searchCriteriaServiceProviderId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId $searchCriteriaServiceProviderId
      * @return $this
      */
     public function addSearchCriteriaServiceProviderId($searchCriteriaServiceProviderId)
     {
-        $this->searchCriteriaServiceProviderId []= $searchCriteriaServiceProviderId;
+        $this->searchCriteriaServiceProviderId[] = $searchCriteriaServiceProviderId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactOrganizationType
      *
-     * @ElementName searchCriteriaExactOrganizationType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
      */
     public function getSearchCriteriaExactOrganizationType()
     {
-        return $this->searchCriteriaExactOrganizationType;
+        return $this->searchCriteriaExactOrganizationType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactOrganizationType;
     }
 
     /**
      * Setter for searchCriteriaExactOrganizationType
      *
-     * @ElementName searchCriteriaExactOrganizationType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null $searchCriteriaExactOrganizationType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType
      * @return $this
      */
     public function setSearchCriteriaExactOrganizationType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType $searchCriteriaExactOrganizationType)
@@ -143,20 +163,27 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactOrganizationType()
+    {
+        $this->searchCriteriaExactOrganizationType = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     public function getSearchCriteriaGroupId()
     {
-        return $this->searchCriteriaGroupId;
+        return $this->searchCriteriaGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupId;
     }
 
     /**
      * Setter for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[] $searchCriteriaGroupId
      * @return $this
      */
@@ -167,33 +194,39 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupId()
+    {
+        $this->searchCriteriaGroupId = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupId
      *
-     * @ElementName searchCriteriaGroupId
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId $searchCriteriaGroupId
      * @return $this
      */
     public function addSearchCriteriaGroupId($searchCriteriaGroupId)
     {
-        $this->searchCriteriaGroupId []= $searchCriteriaGroupId;
+        $this->searchCriteriaGroupId[] = $searchCriteriaGroupId;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaDeviceName
      *
-     * @ElementName searchCriteriaDeviceName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
     public function getSearchCriteriaDeviceName()
     {
-        return $this->searchCriteriaDeviceName;
+        return $this->searchCriteriaDeviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaDeviceName;
     }
 
     /**
      * Setter for searchCriteriaDeviceName
      *
-     * @ElementName searchCriteriaDeviceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[] $searchCriteriaDeviceName
      * @return $this
      */
@@ -204,39 +237,54 @@ class SystemDeviceProfileAuthenticationLockoutGetRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaDeviceName()
+    {
+        $this->searchCriteriaDeviceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaDeviceName
      *
-     * @ElementName searchCriteriaDeviceName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName $searchCriteriaDeviceName
      * @return $this
      */
     public function addSearchCriteriaDeviceName($searchCriteriaDeviceName)
     {
-        $this->searchCriteriaDeviceName []= $searchCriteriaDeviceName;
+        $this->searchCriteriaDeviceName[] = $searchCriteriaDeviceName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaExactDeviceType
      *
-     * @ElementName searchCriteriaExactDeviceType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
      */
     public function getSearchCriteriaExactDeviceType()
     {
-        return $this->searchCriteriaExactDeviceType;
+        return $this->searchCriteriaExactDeviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaExactDeviceType;
     }
 
     /**
      * Setter for searchCriteriaExactDeviceType
      *
-     * @ElementName searchCriteriaExactDeviceType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null $searchCriteriaExactDeviceType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType $searchCriteriaExactDeviceType
      * @return $this
      */
     public function setSearchCriteriaExactDeviceType(\CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType $searchCriteriaExactDeviceType)
     {
         $this->searchCriteriaExactDeviceType = $searchCriteriaExactDeviceType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaExactDeviceType()
+    {
+        $this->searchCriteriaExactDeviceType = null;
         return $this;
     }
 

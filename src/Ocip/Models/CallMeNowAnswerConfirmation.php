@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallMeNowAnswerConfirmation NONE()
  * @method static CallMeNowAnswerConfirmation ANY_KEY()
  * @method static CallMeNowAnswerConfirmation PASSCODE()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallMeNowAnswerConfirmation extends \MyCLabs\Enum\Enum
 {

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static FileRepositoryProtocol WEBDAV()
  * @method static FileRepositoryProtocol FTP()
- * @ValueType string
+ * @EnumValueType string
  */
 class FileRepositoryProtocol extends \MyCLabs\Enum\Enum
 {

@@ -19,18 +19,21 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName newName
+     * @Type string
      * @var string|null
      */
     private $newName = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,6 +41,7 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName assignedSubscriberTypeList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -46,19 +50,17 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -68,21 +70,28 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for newName
      *
-     * @ElementName newName
-     * @return string|null
+     * @return string
      */
     public function getNewName()
     {
-        return $this->newName;
+        return $this->newName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newName;
     }
 
     /**
      * Setter for newName
      *
-     * @ElementName newName
-     * @param string|null $newName
+     * @param string $newName
      * @return $this
      */
     public function setNewName($newName)
@@ -92,54 +101,81 @@ class SystemCallProcessingPolicyProfileModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewName()
+    {
+        $this->newName = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for assignedSubscriberTypeList
      *
-     * @ElementName assignedSubscriberTypeList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList|null
      */
     public function getAssignedSubscriberTypeList()
     {
-        return $this->assignedSubscriberTypeList;
+        return $this->assignedSubscriberTypeList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assignedSubscriberTypeList;
     }
 
     /**
      * Setter for assignedSubscriberTypeList
      *
-     * @ElementName assignedSubscriberTypeList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil $assignedSubscriberTypeList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList|null $assignedSubscriberTypeList
      * @return $this
      */
     public function setAssignedSubscriberTypeList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCallProcessingPolicyProfileSubscriberTypeList $assignedSubscriberTypeList)
     {
-        $this->assignedSubscriberTypeList = $assignedSubscriberTypeList;
+        if ($assignedSubscriberTypeList === null) {
+            $this->assignedSubscriberTypeList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->assignedSubscriberTypeList = $assignedSubscriberTypeList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAssignedSubscriberTypeList()
+    {
+        $this->assignedSubscriberTypeList = null;
         return $this;
     }
 

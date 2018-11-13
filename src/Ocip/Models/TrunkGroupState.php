@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static TrunkGroupState AVAILABLE()
  * @method static TrunkGroupState UNAVAILABLE()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupState extends \MyCLabs\Enum\Enum
 {

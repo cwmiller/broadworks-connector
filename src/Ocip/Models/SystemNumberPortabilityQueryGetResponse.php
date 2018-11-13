@@ -15,12 +15,14 @@ class SystemNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName continueCallAsDialedOnTimeoutOrError
+     * @Type bool
      * @var bool|null
      */
     private $continueCallAsDialedOnTimeoutOrError = null;
 
     /**
      * @ElementName numberPortabilityNameLookupTimeoutMilliseconds
+     * @Type int
      * @var int|null
      */
     private $numberPortabilityNameLookupTimeoutMilliseconds = null;
@@ -28,19 +30,17 @@ class SystemNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for continueCallAsDialedOnTimeoutOrError
      *
-     * @ElementName continueCallAsDialedOnTimeoutOrError
-     * @return bool|null
+     * @return bool
      */
     public function getContinueCallAsDialedOnTimeoutOrError()
     {
-        return $this->continueCallAsDialedOnTimeoutOrError;
+        return $this->continueCallAsDialedOnTimeoutOrError instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->continueCallAsDialedOnTimeoutOrError;
     }
 
     /**
      * Setter for continueCallAsDialedOnTimeoutOrError
      *
-     * @ElementName continueCallAsDialedOnTimeoutOrError
-     * @param bool|null $continueCallAsDialedOnTimeoutOrError
+     * @param bool $continueCallAsDialedOnTimeoutOrError
      * @return $this
      */
     public function setContinueCallAsDialedOnTimeoutOrError($continueCallAsDialedOnTimeoutOrError)
@@ -50,26 +50,42 @@ class SystemNumberPortabilityQueryGetResponse extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContinueCallAsDialedOnTimeoutOrError()
+    {
+        $this->continueCallAsDialedOnTimeoutOrError = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberPortabilityNameLookupTimeoutMilliseconds
      *
-     * @ElementName numberPortabilityNameLookupTimeoutMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getNumberPortabilityNameLookupTimeoutMilliseconds()
     {
-        return $this->numberPortabilityNameLookupTimeoutMilliseconds;
+        return $this->numberPortabilityNameLookupTimeoutMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberPortabilityNameLookupTimeoutMilliseconds;
     }
 
     /**
      * Setter for numberPortabilityNameLookupTimeoutMilliseconds
      *
-     * @ElementName numberPortabilityNameLookupTimeoutMilliseconds
-     * @param int|null $numberPortabilityNameLookupTimeoutMilliseconds
+     * @param int $numberPortabilityNameLookupTimeoutMilliseconds
      * @return $this
      */
     public function setNumberPortabilityNameLookupTimeoutMilliseconds($numberPortabilityNameLookupTimeoutMilliseconds)
     {
         $this->numberPortabilityNameLookupTimeoutMilliseconds = $numberPortabilityNameLookupTimeoutMilliseconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNumberPortabilityNameLookupTimeoutMilliseconds()
+    {
+        $this->numberPortabilityNameLookupTimeoutMilliseconds = null;
         return $this;
     }
 

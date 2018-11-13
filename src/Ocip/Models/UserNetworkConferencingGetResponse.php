@@ -14,12 +14,14 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName conferenceURI
+     * @Type string
      * @var string|null
      */
     private $conferenceURI = null;
 
     /**
      * @ElementName maxConferenceParties
+     * @Type int
      * @var int|null
      */
     private $maxConferenceParties = null;
@@ -27,19 +29,17 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for conferenceURI
      *
-     * @ElementName conferenceURI
-     * @return string|null
+     * @return string
      */
     public function getConferenceURI()
     {
-        return $this->conferenceURI;
+        return $this->conferenceURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceURI;
     }
 
     /**
      * Setter for conferenceURI
      *
-     * @ElementName conferenceURI
-     * @param string|null $conferenceURI
+     * @param string $conferenceURI
      * @return $this
      */
     public function setConferenceURI($conferenceURI)
@@ -49,26 +49,42 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceURI()
+    {
+        $this->conferenceURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxConferenceParties
      *
-     * @ElementName maxConferenceParties
-     * @return int|null
+     * @return int
      */
     public function getMaxConferenceParties()
     {
-        return $this->maxConferenceParties;
+        return $this->maxConferenceParties instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxConferenceParties;
     }
 
     /**
      * Setter for maxConferenceParties
      *
-     * @ElementName maxConferenceParties
-     * @param int|null $maxConferenceParties
+     * @param int $maxConferenceParties
      * @return $this
      */
     public function setMaxConferenceParties($maxConferenceParties)
     {
         $this->maxConferenceParties = $maxConferenceParties;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaxConferenceParties()
+    {
+        $this->maxConferenceParties = null;
         return $this;
     }
 

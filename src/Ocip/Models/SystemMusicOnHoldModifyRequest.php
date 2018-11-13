@@ -16,6 +16,7 @@ class SystemMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName delayMilliseconds
+     * @Type int
      * @var int|null
      */
     private $delayMilliseconds = null;
@@ -23,24 +24,31 @@ class SystemMusicOnHoldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for delayMilliseconds
      *
-     * @ElementName delayMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getDelayMilliseconds()
     {
-        return $this->delayMilliseconds;
+        return $this->delayMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->delayMilliseconds;
     }
 
     /**
      * Setter for delayMilliseconds
      *
-     * @ElementName delayMilliseconds
-     * @param int|null $delayMilliseconds
+     * @param int $delayMilliseconds
      * @return $this
      */
     public function setDelayMilliseconds($delayMilliseconds)
     {
         $this->delayMilliseconds = $delayMilliseconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDelayMilliseconds()
+    {
+        $this->delayMilliseconds = null;
         return $this;
     }
 

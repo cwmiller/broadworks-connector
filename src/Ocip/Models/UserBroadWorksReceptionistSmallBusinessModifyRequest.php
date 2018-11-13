@@ -16,12 +16,14 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName monitoredUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,28 +52,46 @@ class UserBroadWorksReceptionistSmallBusinessModifyRequest extends \CWM\BroadWor
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for monitoredUserIdList
      *
-     * @ElementName monitoredUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getMonitoredUserIdList()
     {
-        return $this->monitoredUserIdList;
+        return $this->monitoredUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->monitoredUserIdList;
     }
 
     /**
      * Setter for monitoredUserIdList
      *
-     * @ElementName monitoredUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $monitoredUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $monitoredUserIdList
      * @return $this
      */
     public function setMonitoredUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $monitoredUserIdList)
     {
-        $this->monitoredUserIdList = $monitoredUserIdList;
+        if ($monitoredUserIdList === null) {
+            $this->monitoredUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->monitoredUserIdList = $monitoredUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMonitoredUserIdList()
+    {
+        $this->monitoredUserIdList = null;
         return $this;
     }
 

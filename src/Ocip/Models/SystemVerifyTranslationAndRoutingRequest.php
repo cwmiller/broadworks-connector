@@ -17,12 +17,14 @@ class SystemVerifyTranslationAndRoutingRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName parameters
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters
      * @var \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters|null
      */
     private $parameters = null;
 
     /**
      * @ElementName sipMessage
+     * @Type string
      * @var string|null
      */
     private $sipMessage = null;
@@ -30,19 +32,17 @@ class SystemVerifyTranslationAndRoutingRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for parameters
      *
-     * @ElementName parameters
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters
      */
     public function getParameters()
     {
-        return $this->parameters;
+        return $this->parameters instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->parameters;
     }
 
     /**
      * Setter for parameters
      *
-     * @ElementName parameters
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters|null $parameters
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters $parameters
      * @return $this
      */
     public function setParameters(\CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingParameters $parameters)
@@ -52,26 +52,42 @@ class SystemVerifyTranslationAndRoutingRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetParameters()
+    {
+        $this->parameters = null;
+        return $this;
+    }
+
+    /**
      * Getter for sipMessage
      *
-     * @ElementName sipMessage
-     * @return string|null
+     * @return string
      */
     public function getSipMessage()
     {
-        return $this->sipMessage;
+        return $this->sipMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sipMessage;
     }
 
     /**
      * Setter for sipMessage
      *
-     * @ElementName sipMessage
-     * @param string|null $sipMessage
+     * @param string $sipMessage
      * @return $this
      */
     public function setSipMessage($sipMessage)
     {
         $this->sipMessage = $sipMessage;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSipMessage()
+    {
+        $this->sipMessage = null;
         return $this;
     }
 

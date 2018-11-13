@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static InternalReleaseCause16 REQUEST_TIMEOUT()
  * @method static InternalReleaseCause16 DIAL_TONE_TIMEOUT()
  * @method static InternalReleaseCause16 INSUFFICIENT_CREDITS()
- * @ValueType string
+ * @EnumValueType string
  */
 class InternalReleaseCause16 extends \MyCLabs\Enum\Enum
 {

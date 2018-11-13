@@ -16,24 +16,29 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName userId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $userId = array(
@@ -42,12 +47,14 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName recallAlternateUserId
+     * @Type string
      * @var string|null
      */
     private $recallAlternateUserId = null;
 
     /**
      * @ElementName recallTo
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;
@@ -55,19 +62,17 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -77,21 +82,28 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -101,21 +113,28 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -125,20 +144,27 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
      * @return string[]
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
      * @param string[] $userId
      * @return $this
      */
@@ -149,34 +175,40 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Adder for userId
      *
-     * @ElementName userId
      * @param string $userId
      * @return $this
      */
     public function addUserId(string $userId)
     {
-        $this->userId []= $userId;
+        $this->userId[] = $userId;
         return $this;
     }
 
     /**
      * Getter for recallAlternateUserId
      *
-     * @ElementName recallAlternateUserId
-     * @return string|null
+     * @return string
      */
     public function getRecallAlternateUserId()
     {
-        return $this->recallAlternateUserId;
+        return $this->recallAlternateUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallAlternateUserId;
     }
 
     /**
      * Setter for recallAlternateUserId
      *
-     * @ElementName recallAlternateUserId
-     * @param string|null $recallAlternateUserId
+     * @param string $recallAlternateUserId
      * @return $this
      */
     public function setRecallAlternateUserId($recallAlternateUserId)
@@ -186,26 +218,42 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecallAlternateUserId()
+    {
+        $this->recallAlternateUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for recallTo
      *
-     * @ElementName recallTo
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
      */
     public function getRecallTo()
     {
-        return $this->recallTo;
+        return $this->recallTo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallTo;
     }
 
     /**
      * Setter for recallTo
      *
-     * @ElementName recallTo
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null $recallTo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo $recallTo
      * @return $this
      */
     public function setRecallTo(\CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo $recallTo)
     {
         $this->recallTo = $recallTo;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecallTo()
+    {
+        $this->recallTo = null;
         return $this;
     }
 

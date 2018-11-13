@@ -14,6 +14,8 @@ class EnterpriseTrunkReplacementNumberPrefixList
 
     /**
      * @ElementName numberPrefix
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $numberPrefix = array(
@@ -23,18 +25,16 @@ class EnterpriseTrunkReplacementNumberPrefixList
     /**
      * Getter for numberPrefix
      *
-     * @ElementName numberPrefix
      * @return string[]
      */
     public function getNumberPrefix()
     {
-        return $this->numberPrefix;
+        return $this->numberPrefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberPrefix;
     }
 
     /**
      * Setter for numberPrefix
      *
-     * @ElementName numberPrefix
      * @param string[] $numberPrefix
      * @return $this
      */
@@ -45,15 +45,23 @@ class EnterpriseTrunkReplacementNumberPrefixList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberPrefix()
+    {
+        $this->numberPrefix = null;
+        return $this;
+    }
+
+    /**
      * Adder for numberPrefix
      *
-     * @ElementName numberPrefix
      * @param string $numberPrefix
      * @return $this
      */
     public function addNumberPrefix(string $numberPrefix)
     {
-        $this->numberPrefix []= $numberPrefix;
+        $this->numberPrefix[] = $numberPrefix;
         return $this;
     }
 

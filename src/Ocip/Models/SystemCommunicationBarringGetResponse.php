@@ -17,6 +17,7 @@ class SystemCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName directTransferScreening
+     * @Type bool
      * @var bool|null
      */
     private $directTransferScreening = null;
@@ -24,24 +25,31 @@ class SystemCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for directTransferScreening
      *
-     * @ElementName directTransferScreening
-     * @return bool|null
+     * @return bool
      */
     public function getDirectTransferScreening()
     {
-        return $this->directTransferScreening;
+        return $this->directTransferScreening instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->directTransferScreening;
     }
 
     /**
      * Setter for directTransferScreening
      *
-     * @ElementName directTransferScreening
-     * @param bool|null $directTransferScreening
+     * @param bool $directTransferScreening
      * @return $this
      */
     public function setDirectTransferScreening($directTransferScreening)
     {
         $this->directTransferScreening = $directTransferScreening;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDirectTransferScreening()
+    {
+        $this->directTransferScreening = null;
         return $this;
     }
 

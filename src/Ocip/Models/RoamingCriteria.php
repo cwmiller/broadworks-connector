@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static RoamingCriteria IN_HOME_NETWORK()
  * @method static RoamingCriteria IN_ROAMING_NETWORK()
  * @method static RoamingCriteria DISREGARD_ROAMING()
- * @ValueType string
+ * @EnumValueType string
  */
 class RoamingCriteria extends \MyCLabs\Enum\Enum
 {

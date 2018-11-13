@@ -11,22 +11,15 @@ class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
 {
 
     /**
-     * Dual homed side is private?
-     *               
-     *
      * @ElementName isPrivate
+     * @Type bool
      * @var bool|null
      */
     private $isPrivate = null;
 
     /**
-     * For optimization, we only get the hostname and addresses for primary if
-     *                 they are explicitly requested or if the current server is not the primary.
-     *                 So you might get back the list of server addresses even if you did not
-     *                 ask for the list if the request is not serviced by the primary server.
-     *               
-     *
      * @ElementName isAddressInfoRequested
+     * @Type bool
      * @var bool|null
      */
     private $isAddressInfoRequested = null;
@@ -38,12 +31,11 @@ class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      *                 Dual homed side is private?
      *               
      *
-     * @ElementName isPrivate
-     * @return bool|null
+     * @return bool
      */
     public function getIsPrivate()
     {
-        return $this->isPrivate;
+        return $this->isPrivate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isPrivate;
     }
 
     /**
@@ -53,13 +45,21 @@ class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      *                 Dual homed side is private?
      *               
      *
-     * @ElementName isPrivate
-     * @param bool|null $isPrivate
+     * @param bool $isPrivate
      * @return $this
      */
     public function setIsPrivate($isPrivate)
     {
         $this->isPrivate = $isPrivate;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsPrivate()
+    {
+        $this->isPrivate = null;
         return $this;
     }
 
@@ -73,12 +73,11 @@ class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      *                 ask for the list if the request is not serviced by the primary server.
      *               
      *
-     * @ElementName isAddressInfoRequested
-     * @return bool|null
+     * @return bool
      */
     public function getIsAddressInfoRequested()
     {
-        return $this->isAddressInfoRequested;
+        return $this->isAddressInfoRequested instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAddressInfoRequested;
     }
 
     /**
@@ -91,13 +90,21 @@ class PrimaryInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
      *                 ask for the list if the request is not serviced by the primary server.
      *               
      *
-     * @ElementName isAddressInfoRequested
-     * @param bool|null $isAddressInfoRequested
+     * @param bool $isAddressInfoRequested
      * @return $this
      */
     public function setIsAddressInfoRequested($isAddressInfoRequested)
     {
         $this->isAddressInfoRequested = $isAddressInfoRequested;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsAddressInfoRequested()
+    {
+        $this->isAddressInfoRequested = null;
         return $this;
     }
 

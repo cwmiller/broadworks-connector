@@ -18,6 +18,7 @@ class GroupVoiceXmlGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName voiceXmlTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $voiceXmlTable = null;
@@ -25,24 +26,31 @@ class GroupVoiceXmlGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for voiceXmlTable
      *
-     * @ElementName voiceXmlTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getVoiceXmlTable()
     {
-        return $this->voiceXmlTable;
+        return $this->voiceXmlTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->voiceXmlTable;
     }
 
     /**
      * Setter for voiceXmlTable
      *
-     * @ElementName voiceXmlTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $voiceXmlTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $voiceXmlTable
      * @return $this
      */
     public function setVoiceXmlTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $voiceXmlTable)
     {
         $this->voiceXmlTable = $voiceXmlTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVoiceXmlTable()
+    {
+        $this->voiceXmlTable = null;
         return $this;
     }
 

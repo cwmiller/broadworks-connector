@@ -16,12 +16,14 @@ class CPEDeviceModifyOptions16
 
     /**
      * @ElementName enableMonitoring
+     * @Type bool
      * @var bool|null
      */
     private $enableMonitoring = null;
 
     /**
      * @ElementName resetEvent
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,6 +31,7 @@ class CPEDeviceModifyOptions16
 
     /**
      * @ElementName deviceManagementDeviceTypeOptions
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16|null
      */
     private $deviceManagementDeviceTypeOptions = null;
@@ -36,19 +39,17 @@ class CPEDeviceModifyOptions16
     /**
      * Getter for enableMonitoring
      *
-     * @ElementName enableMonitoring
-     * @return bool|null
+     * @return bool
      */
     public function getEnableMonitoring()
     {
-        return $this->enableMonitoring;
+        return $this->enableMonitoring instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableMonitoring;
     }
 
     /**
      * Setter for enableMonitoring
      *
-     * @ElementName enableMonitoring
-     * @param bool|null $enableMonitoring
+     * @param bool $enableMonitoring
      * @return $this
      */
     public function setEnableMonitoring($enableMonitoring)
@@ -58,52 +59,77 @@ class CPEDeviceModifyOptions16
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableMonitoring()
+    {
+        $this->enableMonitoring = null;
+        return $this;
+    }
+
+    /**
      * Getter for resetEvent
      *
-     * @ElementName resetEvent
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null
      */
     public function getResetEvent()
     {
-        return $this->resetEvent;
+        return $this->resetEvent instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resetEvent;
     }
 
     /**
      * Setter for resetEvent
      *
-     * @ElementName resetEvent
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null|\CWM\BroadWorksConnector\Ocip\Nil $resetEvent
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType|null $resetEvent
      * @return $this
      */
     public function setResetEvent(\CWM\BroadWorksConnector\Ocip\Models\CPEDeviceResetEventType $resetEvent)
     {
-        $this->resetEvent = $resetEvent;
+        if ($resetEvent === null) {
+            $this->resetEvent = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->resetEvent = $resetEvent;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResetEvent()
+    {
+        $this->resetEvent = null;
         return $this;
     }
 
     /**
      * Getter for deviceManagementDeviceTypeOptions
      *
-     * @ElementName deviceManagementDeviceTypeOptions
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16
      */
     public function getDeviceManagementDeviceTypeOptions()
     {
-        return $this->deviceManagementDeviceTypeOptions;
+        return $this->deviceManagementDeviceTypeOptions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceManagementDeviceTypeOptions;
     }
 
     /**
      * Setter for deviceManagementDeviceTypeOptions
      *
-     * @ElementName deviceManagementDeviceTypeOptions
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16|null $deviceManagementDeviceTypeOptions
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16 $deviceManagementDeviceTypeOptions
      * @return $this
      */
     public function setDeviceManagementDeviceTypeOptions(\CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeModifyOptions16 $deviceManagementDeviceTypeOptions)
     {
         $this->deviceManagementDeviceTypeOptions = $deviceManagementDeviceTypeOptions;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceManagementDeviceTypeOptions()
+    {
+        $this->deviceManagementDeviceTypeOptions = null;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterAnnouncementSelection SYSTEM()
  * @method static CallCenterAnnouncementSelection CUSTOM()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterAnnouncementSelection extends \MyCLabs\Enum\Enum
 {

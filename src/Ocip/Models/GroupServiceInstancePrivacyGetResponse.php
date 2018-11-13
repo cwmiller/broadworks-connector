@@ -16,12 +16,14 @@ class GroupServiceInstancePrivacyGetResponse extends \CWM\BroadWorksConnector\Oc
 
     /**
      * @ElementName enableDirectoryPrivacy
+     * @Type bool
      * @var bool|null
      */
     private $enableDirectoryPrivacy = null;
 
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
+     * @Type bool
      * @var bool|null
      */
     private $enableAutoAttendantExtensionDialingPrivacy = null;
@@ -29,19 +31,17 @@ class GroupServiceInstancePrivacyGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * Getter for enableDirectoryPrivacy
      *
-     * @ElementName enableDirectoryPrivacy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDirectoryPrivacy()
     {
-        return $this->enableDirectoryPrivacy;
+        return $this->enableDirectoryPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDirectoryPrivacy;
     }
 
     /**
      * Setter for enableDirectoryPrivacy
      *
-     * @ElementName enableDirectoryPrivacy
-     * @param bool|null $enableDirectoryPrivacy
+     * @param bool $enableDirectoryPrivacy
      * @return $this
      */
     public function setEnableDirectoryPrivacy($enableDirectoryPrivacy)
@@ -51,26 +51,42 @@ class GroupServiceInstancePrivacyGetResponse extends \CWM\BroadWorksConnector\Oc
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableDirectoryPrivacy()
+    {
+        $this->enableDirectoryPrivacy = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAutoAttendantExtensionDialingPrivacy
      *
-     * @ElementName enableAutoAttendantExtensionDialingPrivacy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAutoAttendantExtensionDialingPrivacy()
     {
-        return $this->enableAutoAttendantExtensionDialingPrivacy;
+        return $this->enableAutoAttendantExtensionDialingPrivacy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAutoAttendantExtensionDialingPrivacy;
     }
 
     /**
      * Setter for enableAutoAttendantExtensionDialingPrivacy
      *
-     * @ElementName enableAutoAttendantExtensionDialingPrivacy
-     * @param bool|null $enableAutoAttendantExtensionDialingPrivacy
+     * @param bool $enableAutoAttendantExtensionDialingPrivacy
      * @return $this
      */
     public function setEnableAutoAttendantExtensionDialingPrivacy($enableAutoAttendantExtensionDialingPrivacy)
     {
         $this->enableAutoAttendantExtensionDialingPrivacy = $enableAutoAttendantExtensionDialingPrivacy;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableAutoAttendantExtensionDialingPrivacy()
+    {
+        $this->enableAutoAttendantExtensionDialingPrivacy = null;
         return $this;
     }
 

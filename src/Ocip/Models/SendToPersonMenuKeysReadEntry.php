@@ -12,24 +12,28 @@ class SendToPersonMenuKeysReadEntry
 
     /**
      * @ElementName confirmSendingMessage
+     * @Type string
      * @var string|null
      */
     private $confirmSendingMessage = null;
 
     /**
      * @ElementName cancelSendingMessage
+     * @Type string
      * @var string|null
      */
     private $cancelSendingMessage = null;
 
     /**
      * @ElementName finishEnteringNumberWhereToSendMessageTo
+     * @Type string
      * @var string|null
      */
     private $finishEnteringNumberWhereToSendMessageTo = null;
 
     /**
      * @ElementName finishForwardingOrSendingMessage
+     * @Type string
      * @var string|null
      */
     private $finishForwardingOrSendingMessage = null;
@@ -37,19 +41,17 @@ class SendToPersonMenuKeysReadEntry
     /**
      * Getter for confirmSendingMessage
      *
-     * @ElementName confirmSendingMessage
-     * @return string|null
+     * @return string
      */
     public function getConfirmSendingMessage()
     {
-        return $this->confirmSendingMessage;
+        return $this->confirmSendingMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->confirmSendingMessage;
     }
 
     /**
      * Setter for confirmSendingMessage
      *
-     * @ElementName confirmSendingMessage
-     * @param string|null $confirmSendingMessage
+     * @param string $confirmSendingMessage
      * @return $this
      */
     public function setConfirmSendingMessage($confirmSendingMessage)
@@ -59,21 +61,28 @@ class SendToPersonMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfirmSendingMessage()
+    {
+        $this->confirmSendingMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for cancelSendingMessage
      *
-     * @ElementName cancelSendingMessage
-     * @return string|null
+     * @return string
      */
     public function getCancelSendingMessage()
     {
-        return $this->cancelSendingMessage;
+        return $this->cancelSendingMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cancelSendingMessage;
     }
 
     /**
      * Setter for cancelSendingMessage
      *
-     * @ElementName cancelSendingMessage
-     * @param string|null $cancelSendingMessage
+     * @param string $cancelSendingMessage
      * @return $this
      */
     public function setCancelSendingMessage($cancelSendingMessage)
@@ -83,21 +92,28 @@ class SendToPersonMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCancelSendingMessage()
+    {
+        $this->cancelSendingMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for finishEnteringNumberWhereToSendMessageTo
      *
-     * @ElementName finishEnteringNumberWhereToSendMessageTo
-     * @return string|null
+     * @return string
      */
     public function getFinishEnteringNumberWhereToSendMessageTo()
     {
-        return $this->finishEnteringNumberWhereToSendMessageTo;
+        return $this->finishEnteringNumberWhereToSendMessageTo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->finishEnteringNumberWhereToSendMessageTo;
     }
 
     /**
      * Setter for finishEnteringNumberWhereToSendMessageTo
      *
-     * @ElementName finishEnteringNumberWhereToSendMessageTo
-     * @param string|null $finishEnteringNumberWhereToSendMessageTo
+     * @param string $finishEnteringNumberWhereToSendMessageTo
      * @return $this
      */
     public function setFinishEnteringNumberWhereToSendMessageTo($finishEnteringNumberWhereToSendMessageTo)
@@ -107,26 +123,42 @@ class SendToPersonMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetFinishEnteringNumberWhereToSendMessageTo()
+    {
+        $this->finishEnteringNumberWhereToSendMessageTo = null;
+        return $this;
+    }
+
+    /**
      * Getter for finishForwardingOrSendingMessage
      *
-     * @ElementName finishForwardingOrSendingMessage
-     * @return string|null
+     * @return string
      */
     public function getFinishForwardingOrSendingMessage()
     {
-        return $this->finishForwardingOrSendingMessage;
+        return $this->finishForwardingOrSendingMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->finishForwardingOrSendingMessage;
     }
 
     /**
      * Setter for finishForwardingOrSendingMessage
      *
-     * @ElementName finishForwardingOrSendingMessage
-     * @param string|null $finishForwardingOrSendingMessage
+     * @param string $finishForwardingOrSendingMessage
      * @return $this
      */
     public function setFinishForwardingOrSendingMessage($finishForwardingOrSendingMessage)
     {
         $this->finishForwardingOrSendingMessage = $finishForwardingOrSendingMessage;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFinishForwardingOrSendingMessage()
+    {
+        $this->finishForwardingOrSendingMessage = null;
         return $this;
     }
 

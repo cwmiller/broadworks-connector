@@ -16,6 +16,7 @@ class GroupNetworkClassOfServiceGetAssignedListResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName networkClassOfServiceTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $networkClassOfServiceTable = null;
@@ -23,24 +24,31 @@ class GroupNetworkClassOfServiceGetAssignedListResponse extends \CWM\BroadWorksC
     /**
      * Getter for networkClassOfServiceTable
      *
-     * @ElementName networkClassOfServiceTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getNetworkClassOfServiceTable()
     {
-        return $this->networkClassOfServiceTable;
+        return $this->networkClassOfServiceTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfServiceTable;
     }
 
     /**
      * Setter for networkClassOfServiceTable
      *
-     * @ElementName networkClassOfServiceTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $networkClassOfServiceTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $networkClassOfServiceTable
      * @return $this
      */
     public function setNetworkClassOfServiceTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $networkClassOfServiceTable)
     {
         $this->networkClassOfServiceTable = $networkClassOfServiceTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfServiceTable()
+    {
+        $this->networkClassOfServiceTable = null;
         return $this;
     }
 

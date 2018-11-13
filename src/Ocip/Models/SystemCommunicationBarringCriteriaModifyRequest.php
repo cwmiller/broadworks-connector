@@ -28,18 +28,21 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName newName
+     * @Type string
      * @var string|null
      */
     private $newName = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +50,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName matchCallType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -54,6 +58,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName matchAlternateCallIndicator
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -61,6 +66,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName matchVirtualOnNetCallType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -68,198 +74,231 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName matchPublicNetwork
+     * @Type bool
      * @var bool|null
      */
     private $matchPublicNetwork = null;
 
     /**
      * @ElementName matchPrivateNetwork
+     * @Type bool
      * @var bool|null
      */
     private $matchPrivateNetwork = null;
 
     /**
      * @ElementName matchLocalCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchLocalCategory = null;
 
     /**
      * @ElementName matchNationalCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchNationalCategory = null;
 
     /**
      * @ElementName matchInterlataCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchInterlataCategory = null;
 
     /**
      * @ElementName matchIntralataCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchIntralataCategory = null;
 
     /**
      * @ElementName matchInternationalCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchInternationalCategory = null;
 
     /**
      * @ElementName matchPrivateCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchPrivateCategory = null;
 
     /**
      * @ElementName matchEmergencyCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchEmergencyCategory = null;
 
     /**
      * @ElementName matchOtherCategory
+     * @Type bool
      * @var bool|null
      */
     private $matchOtherCategory = null;
 
     /**
      * @ElementName matchInterNetwork
+     * @Type bool
      * @var bool|null
      */
     private $matchInterNetwork = null;
 
     /**
      * @ElementName matchInterHostingNE
+     * @Type bool
      * @var bool|null
      */
     private $matchInterHostingNE = null;
 
     /**
      * @ElementName matchInterAS
+     * @Type bool
      * @var bool|null
      */
     private $matchInterAS = null;
 
     /**
      * @ElementName matchIntraAS
+     * @Type bool
      * @var bool|null
      */
     private $matchIntraAS = null;
 
     /**
      * @ElementName matchChargeCalls
+     * @Type bool
      * @var bool|null
      */
     private $matchChargeCalls = null;
 
     /**
      * @ElementName matchNoChargeCalls
+     * @Type bool
      * @var bool|null
      */
     private $matchNoChargeCalls = null;
 
     /**
      * @ElementName matchGroupCalls
+     * @Type bool
      * @var bool|null
      */
     private $matchGroupCalls = null;
 
     /**
      * @ElementName matchEnterpriseCalls
+     * @Type bool
      * @var bool|null
      */
     private $matchEnterpriseCalls = null;
 
     /**
      * @ElementName matchNetworkCalls
+     * @Type bool
      * @var bool|null
      */
     private $matchNetworkCalls = null;
 
     /**
      * @ElementName matchNetworkURLCalls
+     * @Type bool
      * @var bool|null
      */
     private $matchNetworkURLCalls = null;
 
     /**
      * @ElementName matchRepairCalls
+     * @Type bool
      * @var bool|null
      */
     private $matchRepairCalls = null;
 
     /**
      * @ElementName matchEmergencyCalls
+     * @Type bool
      * @var bool|null
      */
     private $matchEmergencyCalls = null;
 
     /**
      * @ElementName matchInternalCalls
+     * @Type bool
      * @var bool|null
      */
     private $matchInternalCalls = null;
 
     /**
      * @ElementName matchOtherGETSGets
+     * @Type bool
      * @var bool|null
      */
     private $matchOtherGETSGets = null;
 
     /**
      * @ElementName matchNotGETSGets
+     * @Type bool
      * @var bool|null
      */
     private $matchNotGETSGets = null;
 
     /**
      * @ElementName matchGETSANGets
+     * @Type bool
      * @var bool|null
      */
     private $matchGETSANGets = null;
 
     /**
      * @ElementName matchGETSNTGets
+     * @Type bool
      * @var bool|null
      */
     private $matchGETSNTGets = null;
 
     /**
      * @ElementName matchGETSFCGets
+     * @Type bool
      * @var bool|null
      */
     private $matchGETSFCGets = null;
 
     /**
      * @ElementName matchGETSFCANGets
+     * @Type bool
      * @var bool|null
      */
     private $matchGETSFCANGets = null;
 
     /**
      * @ElementName matchGETSFCNTGets
+     * @Type bool
      * @var bool|null
      */
     private $matchGETSFCNTGets = null;
 
     /**
      * @ElementName matchLocation
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria
      * @var \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria|null
      */
     private $matchLocation = null;
 
     /**
      * @ElementName matchRoaming
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria
      * @var \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria|null
      */
     private $matchRoaming = null;
 
     /**
      * @ElementName timeSchedule
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -267,6 +306,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName holidaySchedule
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -274,6 +314,7 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName matchNumberPortabilityStatus
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null
      */
     private $matchNumberPortabilityStatus = null;
@@ -281,19 +322,17 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -303,21 +342,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for newName
      *
-     * @ElementName newName
-     * @return string|null
+     * @return string
      */
     public function getNewName()
     {
-        return $this->newName;
+        return $this->newName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newName;
     }
 
     /**
      * Setter for newName
      *
-     * @ElementName newName
-     * @param string|null $newName
+     * @param string $newName
      * @return $this
      */
     public function setNewName($newName)
@@ -327,125 +373,168 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewName()
+    {
+        $this->newName = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for matchCallType
      *
-     * @ElementName matchCallType
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null
      */
     public function getMatchCallType()
     {
-        return $this->matchCallType;
+        return $this->matchCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchCallType;
     }
 
     /**
      * Setter for matchCallType
      *
-     * @ElementName matchCallType
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null|\CWM\BroadWorksConnector\Ocip\Nil $matchCallType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList|null $matchCallType
      * @return $this
      */
     public function setMatchCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringCallTypeList $matchCallType)
     {
-        $this->matchCallType = $matchCallType;
+        if ($matchCallType === null) {
+            $this->matchCallType = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->matchCallType = $matchCallType;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMatchCallType()
+    {
+        $this->matchCallType = null;
         return $this;
     }
 
     /**
      * Getter for matchAlternateCallIndicator
      *
-     * @ElementName matchAlternateCallIndicator
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null
      */
     public function getMatchAlternateCallIndicator()
     {
-        return $this->matchAlternateCallIndicator;
+        return $this->matchAlternateCallIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchAlternateCallIndicator;
     }
 
     /**
      * Setter for matchAlternateCallIndicator
      *
-     * @ElementName matchAlternateCallIndicator
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null|\CWM\BroadWorksConnector\Ocip\Nil $matchAlternateCallIndicator
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList|null $matchAlternateCallIndicator
      * @return $this
      */
     public function setMatchAlternateCallIndicator(\CWM\BroadWorksConnector\Ocip\Models\ReplacementCommunicationBarringAlternateCallIndicatorList $matchAlternateCallIndicator)
     {
-        $this->matchAlternateCallIndicator = $matchAlternateCallIndicator;
+        if ($matchAlternateCallIndicator === null) {
+            $this->matchAlternateCallIndicator = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->matchAlternateCallIndicator = $matchAlternateCallIndicator;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMatchAlternateCallIndicator()
+    {
+        $this->matchAlternateCallIndicator = null;
         return $this;
     }
 
     /**
      * Getter for matchVirtualOnNetCallType
      *
-     * @ElementName matchVirtualOnNetCallType
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null
      */
     public function getMatchVirtualOnNetCallType()
     {
-        return $this->matchVirtualOnNetCallType;
+        return $this->matchVirtualOnNetCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchVirtualOnNetCallType;
     }
 
     /**
      * Setter for matchVirtualOnNetCallType
      *
-     * @ElementName matchVirtualOnNetCallType
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null|\CWM\BroadWorksConnector\Ocip\Nil $matchVirtualOnNetCallType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList|null $matchVirtualOnNetCallType
      * @return $this
      */
     public function setMatchVirtualOnNetCallType(\CWM\BroadWorksConnector\Ocip\Models\ReplacementVirtualOnNetCallTypeNameList $matchVirtualOnNetCallType)
     {
-        $this->matchVirtualOnNetCallType = $matchVirtualOnNetCallType;
+        if ($matchVirtualOnNetCallType === null) {
+            $this->matchVirtualOnNetCallType = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->matchVirtualOnNetCallType = $matchVirtualOnNetCallType;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMatchVirtualOnNetCallType()
+    {
+        $this->matchVirtualOnNetCallType = null;
         return $this;
     }
 
     /**
      * Getter for matchPublicNetwork
      *
-     * @ElementName matchPublicNetwork
-     * @return bool|null
+     * @return bool
      */
     public function getMatchPublicNetwork()
     {
-        return $this->matchPublicNetwork;
+        return $this->matchPublicNetwork instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchPublicNetwork;
     }
 
     /**
      * Setter for matchPublicNetwork
      *
-     * @ElementName matchPublicNetwork
-     * @param bool|null $matchPublicNetwork
+     * @param bool $matchPublicNetwork
      * @return $this
      */
     public function setMatchPublicNetwork($matchPublicNetwork)
@@ -455,21 +544,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchPublicNetwork()
+    {
+        $this->matchPublicNetwork = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchPrivateNetwork
      *
-     * @ElementName matchPrivateNetwork
-     * @return bool|null
+     * @return bool
      */
     public function getMatchPrivateNetwork()
     {
-        return $this->matchPrivateNetwork;
+        return $this->matchPrivateNetwork instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchPrivateNetwork;
     }
 
     /**
      * Setter for matchPrivateNetwork
      *
-     * @ElementName matchPrivateNetwork
-     * @param bool|null $matchPrivateNetwork
+     * @param bool $matchPrivateNetwork
      * @return $this
      */
     public function setMatchPrivateNetwork($matchPrivateNetwork)
@@ -479,21 +575,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchPrivateNetwork()
+    {
+        $this->matchPrivateNetwork = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchLocalCategory
      *
-     * @ElementName matchLocalCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchLocalCategory()
     {
-        return $this->matchLocalCategory;
+        return $this->matchLocalCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchLocalCategory;
     }
 
     /**
      * Setter for matchLocalCategory
      *
-     * @ElementName matchLocalCategory
-     * @param bool|null $matchLocalCategory
+     * @param bool $matchLocalCategory
      * @return $this
      */
     public function setMatchLocalCategory($matchLocalCategory)
@@ -503,21 +606,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchLocalCategory()
+    {
+        $this->matchLocalCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchNationalCategory
      *
-     * @ElementName matchNationalCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchNationalCategory()
     {
-        return $this->matchNationalCategory;
+        return $this->matchNationalCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchNationalCategory;
     }
 
     /**
      * Setter for matchNationalCategory
      *
-     * @ElementName matchNationalCategory
-     * @param bool|null $matchNationalCategory
+     * @param bool $matchNationalCategory
      * @return $this
      */
     public function setMatchNationalCategory($matchNationalCategory)
@@ -527,21 +637,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchNationalCategory()
+    {
+        $this->matchNationalCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchInterlataCategory
      *
-     * @ElementName matchInterlataCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchInterlataCategory()
     {
-        return $this->matchInterlataCategory;
+        return $this->matchInterlataCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchInterlataCategory;
     }
 
     /**
      * Setter for matchInterlataCategory
      *
-     * @ElementName matchInterlataCategory
-     * @param bool|null $matchInterlataCategory
+     * @param bool $matchInterlataCategory
      * @return $this
      */
     public function setMatchInterlataCategory($matchInterlataCategory)
@@ -551,21 +668,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchInterlataCategory()
+    {
+        $this->matchInterlataCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchIntralataCategory
      *
-     * @ElementName matchIntralataCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchIntralataCategory()
     {
-        return $this->matchIntralataCategory;
+        return $this->matchIntralataCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchIntralataCategory;
     }
 
     /**
      * Setter for matchIntralataCategory
      *
-     * @ElementName matchIntralataCategory
-     * @param bool|null $matchIntralataCategory
+     * @param bool $matchIntralataCategory
      * @return $this
      */
     public function setMatchIntralataCategory($matchIntralataCategory)
@@ -575,21 +699,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchIntralataCategory()
+    {
+        $this->matchIntralataCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchInternationalCategory
      *
-     * @ElementName matchInternationalCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchInternationalCategory()
     {
-        return $this->matchInternationalCategory;
+        return $this->matchInternationalCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchInternationalCategory;
     }
 
     /**
      * Setter for matchInternationalCategory
      *
-     * @ElementName matchInternationalCategory
-     * @param bool|null $matchInternationalCategory
+     * @param bool $matchInternationalCategory
      * @return $this
      */
     public function setMatchInternationalCategory($matchInternationalCategory)
@@ -599,21 +730,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchInternationalCategory()
+    {
+        $this->matchInternationalCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchPrivateCategory
      *
-     * @ElementName matchPrivateCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchPrivateCategory()
     {
-        return $this->matchPrivateCategory;
+        return $this->matchPrivateCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchPrivateCategory;
     }
 
     /**
      * Setter for matchPrivateCategory
      *
-     * @ElementName matchPrivateCategory
-     * @param bool|null $matchPrivateCategory
+     * @param bool $matchPrivateCategory
      * @return $this
      */
     public function setMatchPrivateCategory($matchPrivateCategory)
@@ -623,21 +761,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchPrivateCategory()
+    {
+        $this->matchPrivateCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchEmergencyCategory
      *
-     * @ElementName matchEmergencyCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchEmergencyCategory()
     {
-        return $this->matchEmergencyCategory;
+        return $this->matchEmergencyCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchEmergencyCategory;
     }
 
     /**
      * Setter for matchEmergencyCategory
      *
-     * @ElementName matchEmergencyCategory
-     * @param bool|null $matchEmergencyCategory
+     * @param bool $matchEmergencyCategory
      * @return $this
      */
     public function setMatchEmergencyCategory($matchEmergencyCategory)
@@ -647,21 +792,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchEmergencyCategory()
+    {
+        $this->matchEmergencyCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchOtherCategory
      *
-     * @ElementName matchOtherCategory
-     * @return bool|null
+     * @return bool
      */
     public function getMatchOtherCategory()
     {
-        return $this->matchOtherCategory;
+        return $this->matchOtherCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchOtherCategory;
     }
 
     /**
      * Setter for matchOtherCategory
      *
-     * @ElementName matchOtherCategory
-     * @param bool|null $matchOtherCategory
+     * @param bool $matchOtherCategory
      * @return $this
      */
     public function setMatchOtherCategory($matchOtherCategory)
@@ -671,21 +823,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchOtherCategory()
+    {
+        $this->matchOtherCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchInterNetwork
      *
-     * @ElementName matchInterNetwork
-     * @return bool|null
+     * @return bool
      */
     public function getMatchInterNetwork()
     {
-        return $this->matchInterNetwork;
+        return $this->matchInterNetwork instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchInterNetwork;
     }
 
     /**
      * Setter for matchInterNetwork
      *
-     * @ElementName matchInterNetwork
-     * @param bool|null $matchInterNetwork
+     * @param bool $matchInterNetwork
      * @return $this
      */
     public function setMatchInterNetwork($matchInterNetwork)
@@ -695,21 +854,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchInterNetwork()
+    {
+        $this->matchInterNetwork = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchInterHostingNE
      *
-     * @ElementName matchInterHostingNE
-     * @return bool|null
+     * @return bool
      */
     public function getMatchInterHostingNE()
     {
-        return $this->matchInterHostingNE;
+        return $this->matchInterHostingNE instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchInterHostingNE;
     }
 
     /**
      * Setter for matchInterHostingNE
      *
-     * @ElementName matchInterHostingNE
-     * @param bool|null $matchInterHostingNE
+     * @param bool $matchInterHostingNE
      * @return $this
      */
     public function setMatchInterHostingNE($matchInterHostingNE)
@@ -719,21 +885,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchInterHostingNE()
+    {
+        $this->matchInterHostingNE = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchInterAS
      *
-     * @ElementName matchInterAS
-     * @return bool|null
+     * @return bool
      */
     public function getMatchInterAS()
     {
-        return $this->matchInterAS;
+        return $this->matchInterAS instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchInterAS;
     }
 
     /**
      * Setter for matchInterAS
      *
-     * @ElementName matchInterAS
-     * @param bool|null $matchInterAS
+     * @param bool $matchInterAS
      * @return $this
      */
     public function setMatchInterAS($matchInterAS)
@@ -743,21 +916,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchInterAS()
+    {
+        $this->matchInterAS = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchIntraAS
      *
-     * @ElementName matchIntraAS
-     * @return bool|null
+     * @return bool
      */
     public function getMatchIntraAS()
     {
-        return $this->matchIntraAS;
+        return $this->matchIntraAS instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchIntraAS;
     }
 
     /**
      * Setter for matchIntraAS
      *
-     * @ElementName matchIntraAS
-     * @param bool|null $matchIntraAS
+     * @param bool $matchIntraAS
      * @return $this
      */
     public function setMatchIntraAS($matchIntraAS)
@@ -767,21 +947,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchIntraAS()
+    {
+        $this->matchIntraAS = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchChargeCalls
      *
-     * @ElementName matchChargeCalls
-     * @return bool|null
+     * @return bool
      */
     public function getMatchChargeCalls()
     {
-        return $this->matchChargeCalls;
+        return $this->matchChargeCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchChargeCalls;
     }
 
     /**
      * Setter for matchChargeCalls
      *
-     * @ElementName matchChargeCalls
-     * @param bool|null $matchChargeCalls
+     * @param bool $matchChargeCalls
      * @return $this
      */
     public function setMatchChargeCalls($matchChargeCalls)
@@ -791,21 +978,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchChargeCalls()
+    {
+        $this->matchChargeCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchNoChargeCalls
      *
-     * @ElementName matchNoChargeCalls
-     * @return bool|null
+     * @return bool
      */
     public function getMatchNoChargeCalls()
     {
-        return $this->matchNoChargeCalls;
+        return $this->matchNoChargeCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchNoChargeCalls;
     }
 
     /**
      * Setter for matchNoChargeCalls
      *
-     * @ElementName matchNoChargeCalls
-     * @param bool|null $matchNoChargeCalls
+     * @param bool $matchNoChargeCalls
      * @return $this
      */
     public function setMatchNoChargeCalls($matchNoChargeCalls)
@@ -815,21 +1009,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchNoChargeCalls()
+    {
+        $this->matchNoChargeCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchGroupCalls
      *
-     * @ElementName matchGroupCalls
-     * @return bool|null
+     * @return bool
      */
     public function getMatchGroupCalls()
     {
-        return $this->matchGroupCalls;
+        return $this->matchGroupCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchGroupCalls;
     }
 
     /**
      * Setter for matchGroupCalls
      *
-     * @ElementName matchGroupCalls
-     * @param bool|null $matchGroupCalls
+     * @param bool $matchGroupCalls
      * @return $this
      */
     public function setMatchGroupCalls($matchGroupCalls)
@@ -839,21 +1040,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchGroupCalls()
+    {
+        $this->matchGroupCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchEnterpriseCalls
      *
-     * @ElementName matchEnterpriseCalls
-     * @return bool|null
+     * @return bool
      */
     public function getMatchEnterpriseCalls()
     {
-        return $this->matchEnterpriseCalls;
+        return $this->matchEnterpriseCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchEnterpriseCalls;
     }
 
     /**
      * Setter for matchEnterpriseCalls
      *
-     * @ElementName matchEnterpriseCalls
-     * @param bool|null $matchEnterpriseCalls
+     * @param bool $matchEnterpriseCalls
      * @return $this
      */
     public function setMatchEnterpriseCalls($matchEnterpriseCalls)
@@ -863,21 +1071,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchEnterpriseCalls()
+    {
+        $this->matchEnterpriseCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchNetworkCalls
      *
-     * @ElementName matchNetworkCalls
-     * @return bool|null
+     * @return bool
      */
     public function getMatchNetworkCalls()
     {
-        return $this->matchNetworkCalls;
+        return $this->matchNetworkCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchNetworkCalls;
     }
 
     /**
      * Setter for matchNetworkCalls
      *
-     * @ElementName matchNetworkCalls
-     * @param bool|null $matchNetworkCalls
+     * @param bool $matchNetworkCalls
      * @return $this
      */
     public function setMatchNetworkCalls($matchNetworkCalls)
@@ -887,21 +1102,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchNetworkCalls()
+    {
+        $this->matchNetworkCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchNetworkURLCalls
      *
-     * @ElementName matchNetworkURLCalls
-     * @return bool|null
+     * @return bool
      */
     public function getMatchNetworkURLCalls()
     {
-        return $this->matchNetworkURLCalls;
+        return $this->matchNetworkURLCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchNetworkURLCalls;
     }
 
     /**
      * Setter for matchNetworkURLCalls
      *
-     * @ElementName matchNetworkURLCalls
-     * @param bool|null $matchNetworkURLCalls
+     * @param bool $matchNetworkURLCalls
      * @return $this
      */
     public function setMatchNetworkURLCalls($matchNetworkURLCalls)
@@ -911,21 +1133,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchNetworkURLCalls()
+    {
+        $this->matchNetworkURLCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchRepairCalls
      *
-     * @ElementName matchRepairCalls
-     * @return bool|null
+     * @return bool
      */
     public function getMatchRepairCalls()
     {
-        return $this->matchRepairCalls;
+        return $this->matchRepairCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchRepairCalls;
     }
 
     /**
      * Setter for matchRepairCalls
      *
-     * @ElementName matchRepairCalls
-     * @param bool|null $matchRepairCalls
+     * @param bool $matchRepairCalls
      * @return $this
      */
     public function setMatchRepairCalls($matchRepairCalls)
@@ -935,21 +1164,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchRepairCalls()
+    {
+        $this->matchRepairCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchEmergencyCalls
      *
-     * @ElementName matchEmergencyCalls
-     * @return bool|null
+     * @return bool
      */
     public function getMatchEmergencyCalls()
     {
-        return $this->matchEmergencyCalls;
+        return $this->matchEmergencyCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchEmergencyCalls;
     }
 
     /**
      * Setter for matchEmergencyCalls
      *
-     * @ElementName matchEmergencyCalls
-     * @param bool|null $matchEmergencyCalls
+     * @param bool $matchEmergencyCalls
      * @return $this
      */
     public function setMatchEmergencyCalls($matchEmergencyCalls)
@@ -959,21 +1195,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchEmergencyCalls()
+    {
+        $this->matchEmergencyCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchInternalCalls
      *
-     * @ElementName matchInternalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getMatchInternalCalls()
     {
-        return $this->matchInternalCalls;
+        return $this->matchInternalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchInternalCalls;
     }
 
     /**
      * Setter for matchInternalCalls
      *
-     * @ElementName matchInternalCalls
-     * @param bool|null $matchInternalCalls
+     * @param bool $matchInternalCalls
      * @return $this
      */
     public function setMatchInternalCalls($matchInternalCalls)
@@ -983,21 +1226,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchInternalCalls()
+    {
+        $this->matchInternalCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchOtherGETSGets
      *
-     * @ElementName matchOtherGETSGets
-     * @return bool|null
+     * @return bool
      */
     public function getMatchOtherGETSGets()
     {
-        return $this->matchOtherGETSGets;
+        return $this->matchOtherGETSGets instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchOtherGETSGets;
     }
 
     /**
      * Setter for matchOtherGETSGets
      *
-     * @ElementName matchOtherGETSGets
-     * @param bool|null $matchOtherGETSGets
+     * @param bool $matchOtherGETSGets
      * @return $this
      */
     public function setMatchOtherGETSGets($matchOtherGETSGets)
@@ -1007,21 +1257,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchOtherGETSGets()
+    {
+        $this->matchOtherGETSGets = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchNotGETSGets
      *
-     * @ElementName matchNotGETSGets
-     * @return bool|null
+     * @return bool
      */
     public function getMatchNotGETSGets()
     {
-        return $this->matchNotGETSGets;
+        return $this->matchNotGETSGets instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchNotGETSGets;
     }
 
     /**
      * Setter for matchNotGETSGets
      *
-     * @ElementName matchNotGETSGets
-     * @param bool|null $matchNotGETSGets
+     * @param bool $matchNotGETSGets
      * @return $this
      */
     public function setMatchNotGETSGets($matchNotGETSGets)
@@ -1031,21 +1288,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchNotGETSGets()
+    {
+        $this->matchNotGETSGets = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchGETSANGets
      *
-     * @ElementName matchGETSANGets
-     * @return bool|null
+     * @return bool
      */
     public function getMatchGETSANGets()
     {
-        return $this->matchGETSANGets;
+        return $this->matchGETSANGets instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchGETSANGets;
     }
 
     /**
      * Setter for matchGETSANGets
      *
-     * @ElementName matchGETSANGets
-     * @param bool|null $matchGETSANGets
+     * @param bool $matchGETSANGets
      * @return $this
      */
     public function setMatchGETSANGets($matchGETSANGets)
@@ -1055,21 +1319,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchGETSANGets()
+    {
+        $this->matchGETSANGets = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchGETSNTGets
      *
-     * @ElementName matchGETSNTGets
-     * @return bool|null
+     * @return bool
      */
     public function getMatchGETSNTGets()
     {
-        return $this->matchGETSNTGets;
+        return $this->matchGETSNTGets instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchGETSNTGets;
     }
 
     /**
      * Setter for matchGETSNTGets
      *
-     * @ElementName matchGETSNTGets
-     * @param bool|null $matchGETSNTGets
+     * @param bool $matchGETSNTGets
      * @return $this
      */
     public function setMatchGETSNTGets($matchGETSNTGets)
@@ -1079,21 +1350,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchGETSNTGets()
+    {
+        $this->matchGETSNTGets = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchGETSFCGets
      *
-     * @ElementName matchGETSFCGets
-     * @return bool|null
+     * @return bool
      */
     public function getMatchGETSFCGets()
     {
-        return $this->matchGETSFCGets;
+        return $this->matchGETSFCGets instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchGETSFCGets;
     }
 
     /**
      * Setter for matchGETSFCGets
      *
-     * @ElementName matchGETSFCGets
-     * @param bool|null $matchGETSFCGets
+     * @param bool $matchGETSFCGets
      * @return $this
      */
     public function setMatchGETSFCGets($matchGETSFCGets)
@@ -1103,21 +1381,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchGETSFCGets()
+    {
+        $this->matchGETSFCGets = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchGETSFCANGets
      *
-     * @ElementName matchGETSFCANGets
-     * @return bool|null
+     * @return bool
      */
     public function getMatchGETSFCANGets()
     {
-        return $this->matchGETSFCANGets;
+        return $this->matchGETSFCANGets instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchGETSFCANGets;
     }
 
     /**
      * Setter for matchGETSFCANGets
      *
-     * @ElementName matchGETSFCANGets
-     * @param bool|null $matchGETSFCANGets
+     * @param bool $matchGETSFCANGets
      * @return $this
      */
     public function setMatchGETSFCANGets($matchGETSFCANGets)
@@ -1127,21 +1412,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchGETSFCANGets()
+    {
+        $this->matchGETSFCANGets = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchGETSFCNTGets
      *
-     * @ElementName matchGETSFCNTGets
-     * @return bool|null
+     * @return bool
      */
     public function getMatchGETSFCNTGets()
     {
-        return $this->matchGETSFCNTGets;
+        return $this->matchGETSFCNTGets instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchGETSFCNTGets;
     }
 
     /**
      * Setter for matchGETSFCNTGets
      *
-     * @ElementName matchGETSFCNTGets
-     * @param bool|null $matchGETSFCNTGets
+     * @param bool $matchGETSFCNTGets
      * @return $this
      */
     public function setMatchGETSFCNTGets($matchGETSFCNTGets)
@@ -1151,21 +1443,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchGETSFCNTGets()
+    {
+        $this->matchGETSFCNTGets = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchLocation
      *
-     * @ElementName matchLocation
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria
      */
     public function getMatchLocation()
     {
-        return $this->matchLocation;
+        return $this->matchLocation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchLocation;
     }
 
     /**
      * Setter for matchLocation
      *
-     * @ElementName matchLocation
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria|null $matchLocation
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LocationCriteria $matchLocation
      * @return $this
      */
     public function setMatchLocation(\CWM\BroadWorksConnector\Ocip\Models\LocationCriteria $matchLocation)
@@ -1175,21 +1474,28 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchLocation()
+    {
+        $this->matchLocation = null;
+        return $this;
+    }
+
+    /**
      * Getter for matchRoaming
      *
-     * @ElementName matchRoaming
-     * @return \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria
      */
     public function getMatchRoaming()
     {
-        return $this->matchRoaming;
+        return $this->matchRoaming instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchRoaming;
     }
 
     /**
      * Setter for matchRoaming
      *
-     * @ElementName matchRoaming
-     * @param \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria|null $matchRoaming
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria $matchRoaming
      * @return $this
      */
     public function setMatchRoaming(\CWM\BroadWorksConnector\Ocip\Models\RoamingCriteria $matchRoaming)
@@ -1199,78 +1505,112 @@ class SystemCommunicationBarringCriteriaModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchRoaming()
+    {
+        $this->matchRoaming = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTimeSchedule()
     {
-        return $this->timeSchedule;
+        return $this->timeSchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeSchedule;
     }
 
     /**
      * Setter for timeSchedule
      *
-     * @ElementName timeSchedule
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $timeSchedule
+     * @param string|null $timeSchedule
      * @return $this
      */
     public function setTimeSchedule($timeSchedule)
     {
-        $this->timeSchedule = $timeSchedule;
+        if ($timeSchedule === null) {
+            $this->timeSchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->timeSchedule = $timeSchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeSchedule()
+    {
+        $this->timeSchedule = null;
         return $this;
     }
 
     /**
      * Getter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getHolidaySchedule()
     {
-        return $this->holidaySchedule;
+        return $this->holidaySchedule instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->holidaySchedule;
     }
 
     /**
      * Setter for holidaySchedule
      *
-     * @ElementName holidaySchedule
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $holidaySchedule
+     * @param string|null $holidaySchedule
      * @return $this
      */
     public function setHolidaySchedule($holidaySchedule)
     {
-        $this->holidaySchedule = $holidaySchedule;
+        if ($holidaySchedule === null) {
+            $this->holidaySchedule = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->holidaySchedule = $holidaySchedule;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetHolidaySchedule()
+    {
+        $this->holidaySchedule = null;
         return $this;
     }
 
     /**
      * Getter for matchNumberPortabilityStatus
      *
-     * @ElementName matchNumberPortabilityStatus
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList
      */
     public function getMatchNumberPortabilityStatus()
     {
-        return $this->matchNumberPortabilityStatus;
+        return $this->matchNumberPortabilityStatus instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchNumberPortabilityStatus;
     }
 
     /**
      * Setter for matchNumberPortabilityStatus
      *
-     * @ElementName matchNumberPortabilityStatus
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null $matchNumberPortabilityStatus
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList $matchNumberPortabilityStatus
      * @return $this
      */
     public function setMatchNumberPortabilityStatus(\CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList $matchNumberPortabilityStatus)
     {
         $this->matchNumberPortabilityStatus = $matchNumberPortabilityStatus;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMatchNumberPortabilityStatus()
+    {
+        $this->matchNumberPortabilityStatus = null;
         return $this;
     }
 

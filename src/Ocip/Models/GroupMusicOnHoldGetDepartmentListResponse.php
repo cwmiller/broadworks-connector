@@ -14,12 +14,15 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName hasDepartment
+     * @Type bool
      * @var bool|null
      */
     private $hasDepartment = null;
 
     /**
      * @ElementName department
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
     private $department = array(
@@ -28,6 +31,8 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName departmentFullPath
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $departmentFullPath = array(
@@ -37,19 +42,17 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for hasDepartment
      *
-     * @ElementName hasDepartment
-     * @return bool|null
+     * @return bool
      */
     public function getHasDepartment()
     {
-        return $this->hasDepartment;
+        return $this->hasDepartment instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hasDepartment;
     }
 
     /**
      * Setter for hasDepartment
      *
-     * @ElementName hasDepartment
-     * @param bool|null $hasDepartment
+     * @param bool $hasDepartment
      * @return $this
      */
     public function setHasDepartment($hasDepartment)
@@ -59,20 +62,27 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHasDepartment()
+    {
+        $this->hasDepartment = null;
+        return $this;
+    }
+
+    /**
      * Getter for department
      *
-     * @ElementName department
      * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[]
      */
     public function getDepartment()
     {
-        return $this->department;
+        return $this->department instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->department;
     }
 
     /**
      * Setter for department
      *
-     * @ElementName department
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey[] $department
      * @return $this
      */
@@ -83,33 +93,39 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartment()
+    {
+        $this->department = null;
+        return $this;
+    }
+
+    /**
      * Adder for department
      *
-     * @ElementName department
      * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $department
      * @return $this
      */
     public function addDepartment($department)
     {
-        $this->department []= $department;
+        $this->department[] = $department;
         return $this;
     }
 
     /**
      * Getter for departmentFullPath
      *
-     * @ElementName departmentFullPath
      * @return string[]
      */
     public function getDepartmentFullPath()
     {
-        return $this->departmentFullPath;
+        return $this->departmentFullPath instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentFullPath;
     }
 
     /**
      * Setter for departmentFullPath
      *
-     * @ElementName departmentFullPath
      * @param string[] $departmentFullPath
      * @return $this
      */
@@ -120,15 +136,23 @@ class GroupMusicOnHoldGetDepartmentListResponse extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentFullPath()
+    {
+        $this->departmentFullPath = null;
+        return $this;
+    }
+
+    /**
      * Adder for departmentFullPath
      *
-     * @ElementName departmentFullPath
      * @param string $departmentFullPath
      * @return $this
      */
     public function addDepartmentFullPath(string $departmentFullPath)
     {
-        $this->departmentFullPath []= $departmentFullPath;
+        $this->departmentFullPath[] = $departmentFullPath;
         return $this;
     }
 

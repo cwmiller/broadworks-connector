@@ -14,18 +14,21 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName roomName
+     * @Type string
      * @var string|null
      */
     private $roomName = null;
 
     /**
      * @ElementName instantRoomStartTime
+     * @Type string
      * @var string|null
      */
     private $instantRoomStartTime = null;
 
     /**
      * @ElementName instantRoomEndTime
+     * @Type string
      * @var string|null
      */
     private $instantRoomEndTime = null;
@@ -33,19 +36,17 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for roomName
      *
-     * @ElementName roomName
-     * @return string|null
+     * @return string
      */
     public function getRoomName()
     {
-        return $this->roomName;
+        return $this->roomName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->roomName;
     }
 
     /**
      * Setter for roomName
      *
-     * @ElementName roomName
-     * @param string|null $roomName
+     * @param string $roomName
      * @return $this
      */
     public function setRoomName($roomName)
@@ -55,21 +56,28 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRoomName()
+    {
+        $this->roomName = null;
+        return $this;
+    }
+
+    /**
      * Getter for instantRoomStartTime
      *
-     * @ElementName instantRoomStartTime
-     * @return string|null
+     * @return string
      */
     public function getInstantRoomStartTime()
     {
-        return $this->instantRoomStartTime;
+        return $this->instantRoomStartTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->instantRoomStartTime;
     }
 
     /**
      * Setter for instantRoomStartTime
      *
-     * @ElementName instantRoomStartTime
-     * @param string|null $instantRoomStartTime
+     * @param string $instantRoomStartTime
      * @return $this
      */
     public function setInstantRoomStartTime($instantRoomStartTime)
@@ -79,26 +87,42 @@ class UserCollaborateInstantRoomGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetInstantRoomStartTime()
+    {
+        $this->instantRoomStartTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for instantRoomEndTime
      *
-     * @ElementName instantRoomEndTime
-     * @return string|null
+     * @return string
      */
     public function getInstantRoomEndTime()
     {
-        return $this->instantRoomEndTime;
+        return $this->instantRoomEndTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->instantRoomEndTime;
     }
 
     /**
      * Setter for instantRoomEndTime
      *
-     * @ElementName instantRoomEndTime
-     * @param string|null $instantRoomEndTime
+     * @param string $instantRoomEndTime
      * @return $this
      */
     public function setInstantRoomEndTime($instantRoomEndTime)
     {
         $this->instantRoomEndTime = $instantRoomEndTime;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInstantRoomEndTime()
+    {
+        $this->instantRoomEndTime = null;
         return $this;
     }
 

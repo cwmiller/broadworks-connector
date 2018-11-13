@@ -14,42 +14,49 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName monitorMinutes
+     * @Type int
      * @var int|null
      */
     private $monitorMinutes = null;
 
     /**
      * @ElementName maxMonitorsPerOriginator
+     * @Type int
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
 
     /**
      * @ElementName maxCallbackRings
+     * @Type int
      * @var int|null
      */
     private $maxCallbackRings = null;
 
     /**
      * @ElementName maxMonitorsPerTerminator
+     * @Type int
      * @var int|null
      */
     private $maxMonitorsPerTerminator = null;
 
     /**
      * @ElementName terminatorIdleGuardSeconds
+     * @Type int
      * @var int|null
      */
     private $terminatorIdleGuardSeconds = null;
 
     /**
      * @ElementName callbackMethod
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null
      */
     private $callbackMethod = null;
 
     /**
      * @ElementName pollingIntervalSeconds
+     * @Type int
      * @var int|null
      */
     private $pollingIntervalSeconds = null;
@@ -57,19 +64,17 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     /**
      * Getter for monitorMinutes
      *
-     * @ElementName monitorMinutes
-     * @return int|null
+     * @return int
      */
     public function getMonitorMinutes()
     {
-        return $this->monitorMinutes;
+        return $this->monitorMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->monitorMinutes;
     }
 
     /**
      * Setter for monitorMinutes
      *
-     * @ElementName monitorMinutes
-     * @param int|null $monitorMinutes
+     * @param int $monitorMinutes
      * @return $this
      */
     public function setMonitorMinutes($monitorMinutes)
@@ -79,21 +84,28 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMonitorMinutes()
+    {
+        $this->monitorMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxMonitorsPerOriginator
      *
-     * @ElementName maxMonitorsPerOriginator
-     * @return int|null
+     * @return int
      */
     public function getMaxMonitorsPerOriginator()
     {
-        return $this->maxMonitorsPerOriginator;
+        return $this->maxMonitorsPerOriginator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxMonitorsPerOriginator;
     }
 
     /**
      * Setter for maxMonitorsPerOriginator
      *
-     * @ElementName maxMonitorsPerOriginator
-     * @param int|null $maxMonitorsPerOriginator
+     * @param int $maxMonitorsPerOriginator
      * @return $this
      */
     public function setMaxMonitorsPerOriginator($maxMonitorsPerOriginator)
@@ -103,21 +115,28 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxMonitorsPerOriginator()
+    {
+        $this->maxMonitorsPerOriginator = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxCallbackRings
      *
-     * @ElementName maxCallbackRings
-     * @return int|null
+     * @return int
      */
     public function getMaxCallbackRings()
     {
-        return $this->maxCallbackRings;
+        return $this->maxCallbackRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxCallbackRings;
     }
 
     /**
      * Setter for maxCallbackRings
      *
-     * @ElementName maxCallbackRings
-     * @param int|null $maxCallbackRings
+     * @param int $maxCallbackRings
      * @return $this
      */
     public function setMaxCallbackRings($maxCallbackRings)
@@ -127,21 +146,28 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxCallbackRings()
+    {
+        $this->maxCallbackRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxMonitorsPerTerminator
      *
-     * @ElementName maxMonitorsPerTerminator
-     * @return int|null
+     * @return int
      */
     public function getMaxMonitorsPerTerminator()
     {
-        return $this->maxMonitorsPerTerminator;
+        return $this->maxMonitorsPerTerminator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxMonitorsPerTerminator;
     }
 
     /**
      * Setter for maxMonitorsPerTerminator
      *
-     * @ElementName maxMonitorsPerTerminator
-     * @param int|null $maxMonitorsPerTerminator
+     * @param int $maxMonitorsPerTerminator
      * @return $this
      */
     public function setMaxMonitorsPerTerminator($maxMonitorsPerTerminator)
@@ -151,21 +177,28 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxMonitorsPerTerminator()
+    {
+        $this->maxMonitorsPerTerminator = null;
+        return $this;
+    }
+
+    /**
      * Getter for terminatorIdleGuardSeconds
      *
-     * @ElementName terminatorIdleGuardSeconds
-     * @return int|null
+     * @return int
      */
     public function getTerminatorIdleGuardSeconds()
     {
-        return $this->terminatorIdleGuardSeconds;
+        return $this->terminatorIdleGuardSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->terminatorIdleGuardSeconds;
     }
 
     /**
      * Setter for terminatorIdleGuardSeconds
      *
-     * @ElementName terminatorIdleGuardSeconds
-     * @param int|null $terminatorIdleGuardSeconds
+     * @param int $terminatorIdleGuardSeconds
      * @return $this
      */
     public function setTerminatorIdleGuardSeconds($terminatorIdleGuardSeconds)
@@ -175,21 +208,28 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTerminatorIdleGuardSeconds()
+    {
+        $this->terminatorIdleGuardSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for callbackMethod
      *
-     * @ElementName callbackMethod
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod
      */
     public function getCallbackMethod()
     {
-        return $this->callbackMethod;
+        return $this->callbackMethod instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callbackMethod;
     }
 
     /**
      * Setter for callbackMethod
      *
-     * @ElementName callbackMethod
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod|null $callbackMethod
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod $callbackMethod
      * @return $this
      */
     public function setCallbackMethod(\CWM\BroadWorksConnector\Ocip\Models\AutomaticCallbackMethod $callbackMethod)
@@ -199,26 +239,42 @@ class SystemAutomaticCallbackGetResponse15sp2 extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallbackMethod()
+    {
+        $this->callbackMethod = null;
+        return $this;
+    }
+
+    /**
      * Getter for pollingIntervalSeconds
      *
-     * @ElementName pollingIntervalSeconds
-     * @return int|null
+     * @return int
      */
     public function getPollingIntervalSeconds()
     {
-        return $this->pollingIntervalSeconds;
+        return $this->pollingIntervalSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pollingIntervalSeconds;
     }
 
     /**
      * Setter for pollingIntervalSeconds
      *
-     * @ElementName pollingIntervalSeconds
-     * @param int|null $pollingIntervalSeconds
+     * @param int $pollingIntervalSeconds
      * @return $this
      */
     public function setPollingIntervalSeconds($pollingIntervalSeconds)
     {
         $this->pollingIntervalSeconds = $pollingIntervalSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPollingIntervalSeconds()
+    {
+        $this->pollingIntervalSeconds = null;
         return $this;
     }
 

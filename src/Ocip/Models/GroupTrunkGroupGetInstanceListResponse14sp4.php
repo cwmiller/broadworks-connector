@@ -19,6 +19,7 @@ class GroupTrunkGroupGetInstanceListResponse14sp4 extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName trunkGroupTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $trunkGroupTable = null;
@@ -26,24 +27,31 @@ class GroupTrunkGroupGetInstanceListResponse14sp4 extends \CWM\BroadWorksConnect
     /**
      * Getter for trunkGroupTable
      *
-     * @ElementName trunkGroupTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getTrunkGroupTable()
     {
-        return $this->trunkGroupTable;
+        return $this->trunkGroupTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroupTable;
     }
 
     /**
      * Setter for trunkGroupTable
      *
-     * @ElementName trunkGroupTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $trunkGroupTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $trunkGroupTable
      * @return $this
      */
     public function setTrunkGroupTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $trunkGroupTable)
     {
         $this->trunkGroupTable = $trunkGroupTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrunkGroupTable()
+    {
+        $this->trunkGroupTable = null;
         return $this;
     }
 

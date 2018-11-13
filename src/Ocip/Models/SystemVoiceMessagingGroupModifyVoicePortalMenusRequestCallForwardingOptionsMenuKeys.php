@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
 
     /**
      * @ElementName activateCallForwarding
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
 
     /**
      * @ElementName deactivateCallForwarding
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
 
     /**
      * @ElementName changeCallForwardingDestination
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,6 +34,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
 
     /**
      * @ElementName listenToCallForwardingStatus
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -38,12 +42,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -52,123 +58,157 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
     /**
      * Getter for activateCallForwarding
      *
-     * @ElementName activateCallForwarding
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getActivateCallForwarding()
     {
-        return $this->activateCallForwarding;
+        return $this->activateCallForwarding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateCallForwarding;
     }
 
     /**
      * Setter for activateCallForwarding
      *
-     * @ElementName activateCallForwarding
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $activateCallForwarding
+     * @param string|null $activateCallForwarding
      * @return $this
      */
     public function setActivateCallForwarding($activateCallForwarding)
     {
-        $this->activateCallForwarding = $activateCallForwarding;
+        if ($activateCallForwarding === null) {
+            $this->activateCallForwarding = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->activateCallForwarding = $activateCallForwarding;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetActivateCallForwarding()
+    {
+        $this->activateCallForwarding = null;
         return $this;
     }
 
     /**
      * Getter for deactivateCallForwarding
      *
-     * @ElementName deactivateCallForwarding
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDeactivateCallForwarding()
     {
-        return $this->deactivateCallForwarding;
+        return $this->deactivateCallForwarding instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deactivateCallForwarding;
     }
 
     /**
      * Setter for deactivateCallForwarding
      *
-     * @ElementName deactivateCallForwarding
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deactivateCallForwarding
+     * @param string|null $deactivateCallForwarding
      * @return $this
      */
     public function setDeactivateCallForwarding($deactivateCallForwarding)
     {
-        $this->deactivateCallForwarding = $deactivateCallForwarding;
+        if ($deactivateCallForwarding === null) {
+            $this->deactivateCallForwarding = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deactivateCallForwarding = $deactivateCallForwarding;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeactivateCallForwarding()
+    {
+        $this->deactivateCallForwarding = null;
         return $this;
     }
 
     /**
      * Getter for changeCallForwardingDestination
      *
-     * @ElementName changeCallForwardingDestination
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getChangeCallForwardingDestination()
     {
-        return $this->changeCallForwardingDestination;
+        return $this->changeCallForwardingDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeCallForwardingDestination;
     }
 
     /**
      * Setter for changeCallForwardingDestination
      *
-     * @ElementName changeCallForwardingDestination
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeCallForwardingDestination
+     * @param string|null $changeCallForwardingDestination
      * @return $this
      */
     public function setChangeCallForwardingDestination($changeCallForwardingDestination)
     {
-        $this->changeCallForwardingDestination = $changeCallForwardingDestination;
+        if ($changeCallForwardingDestination === null) {
+            $this->changeCallForwardingDestination = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->changeCallForwardingDestination = $changeCallForwardingDestination;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetChangeCallForwardingDestination()
+    {
+        $this->changeCallForwardingDestination = null;
         return $this;
     }
 
     /**
      * Getter for listenToCallForwardingStatus
      *
-     * @ElementName listenToCallForwardingStatus
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getListenToCallForwardingStatus()
     {
-        return $this->listenToCallForwardingStatus;
+        return $this->listenToCallForwardingStatus instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listenToCallForwardingStatus;
     }
 
     /**
      * Setter for listenToCallForwardingStatus
      *
-     * @ElementName listenToCallForwardingStatus
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listenToCallForwardingStatus
+     * @param string|null $listenToCallForwardingStatus
      * @return $this
      */
     public function setListenToCallForwardingStatus($listenToCallForwardingStatus)
     {
-        $this->listenToCallForwardingStatus = $listenToCallForwardingStatus;
+        if ($listenToCallForwardingStatus === null) {
+            $this->listenToCallForwardingStatus = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->listenToCallForwardingStatus = $listenToCallForwardingStatus;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetListenToCallForwardingStatus()
+    {
+        $this->listenToCallForwardingStatus = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -178,28 +218,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

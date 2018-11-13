@@ -16,6 +16,7 @@ class GroupCallCenterAgentUnavailableCodeGetListResponse extends \CWM\BroadWorks
 
     /**
      * @ElementName unavailableCodesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $unavailableCodesTable = null;
@@ -23,24 +24,31 @@ class GroupCallCenterAgentUnavailableCodeGetListResponse extends \CWM\BroadWorks
     /**
      * Getter for unavailableCodesTable
      *
-     * @ElementName unavailableCodesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUnavailableCodesTable()
     {
-        return $this->unavailableCodesTable;
+        return $this->unavailableCodesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unavailableCodesTable;
     }
 
     /**
      * Setter for unavailableCodesTable
      *
-     * @ElementName unavailableCodesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $unavailableCodesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $unavailableCodesTable
      * @return $this
      */
     public function setUnavailableCodesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $unavailableCodesTable)
     {
         $this->unavailableCodesTable = $unavailableCodesTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUnavailableCodesTable()
+    {
+        $this->unavailableCodesTable = null;
         return $this;
     }
 

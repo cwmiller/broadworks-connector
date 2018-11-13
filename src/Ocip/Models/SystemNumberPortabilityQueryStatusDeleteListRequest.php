@@ -17,6 +17,8 @@ class SystemNumberPortabilityQueryStatusDeleteListRequest extends \CWM\BroadWork
 
     /**
      * @ElementName status
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $status = array(
@@ -26,18 +28,16 @@ class SystemNumberPortabilityQueryStatusDeleteListRequest extends \CWM\BroadWork
     /**
      * Getter for status
      *
-     * @ElementName status
      * @return string[]
      */
     public function getStatus()
     {
-        return $this->status;
+        return $this->status instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->status;
     }
 
     /**
      * Setter for status
      *
-     * @ElementName status
      * @param string[] $status
      * @return $this
      */
@@ -48,15 +48,23 @@ class SystemNumberPortabilityQueryStatusDeleteListRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStatus()
+    {
+        $this->status = null;
+        return $this;
+    }
+
+    /**
      * Adder for status
      *
-     * @ElementName status
      * @param string $status
      * @return $this
      */
     public function addStatus(string $status)
     {
-        $this->status []= $status;
+        $this->status[] = $status;
         return $this;
     }
 

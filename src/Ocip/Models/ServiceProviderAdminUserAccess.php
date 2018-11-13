@@ -26,7 +26,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceProviderAdminUserAccess READ_ONLY_PROFILE()
  * @method static ServiceProviderAdminUserAccess NO_PROFILE()
  * @method static ServiceProviderAdminUserAccess NONE()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminUserAccess extends \MyCLabs\Enum\Enum
 {

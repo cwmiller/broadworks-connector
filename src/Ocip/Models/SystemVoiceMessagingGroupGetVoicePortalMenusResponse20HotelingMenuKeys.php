@@ -10,36 +10,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
 
     /**
      * @ElementName checkHostStatus
+     * @Type string
      * @var string|null
      */
     private $checkHostStatus = null;
 
     /**
      * @ElementName associateWithHost
+     * @Type string
      * @var string|null
      */
     private $associateWithHost = null;
 
     /**
      * @ElementName disassociateFromHost
+     * @Type string
      * @var string|null
      */
     private $disassociateFromHost = null;
 
     /**
      * @ElementName disassociateFromRemoteHost
+     * @Type string
      * @var string|null
      */
     private $disassociateFromRemoteHost = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -47,19 +53,17 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
     /**
      * Getter for checkHostStatus
      *
-     * @ElementName checkHostStatus
-     * @return string|null
+     * @return string
      */
     public function getCheckHostStatus()
     {
-        return $this->checkHostStatus;
+        return $this->checkHostStatus instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->checkHostStatus;
     }
 
     /**
      * Setter for checkHostStatus
      *
-     * @ElementName checkHostStatus
-     * @param string|null $checkHostStatus
+     * @param string $checkHostStatus
      * @return $this
      */
     public function setCheckHostStatus($checkHostStatus)
@@ -69,21 +73,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCheckHostStatus()
+    {
+        $this->checkHostStatus = null;
+        return $this;
+    }
+
+    /**
      * Getter for associateWithHost
      *
-     * @ElementName associateWithHost
-     * @return string|null
+     * @return string
      */
     public function getAssociateWithHost()
     {
-        return $this->associateWithHost;
+        return $this->associateWithHost instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->associateWithHost;
     }
 
     /**
      * Setter for associateWithHost
      *
-     * @ElementName associateWithHost
-     * @param string|null $associateWithHost
+     * @param string $associateWithHost
      * @return $this
      */
     public function setAssociateWithHost($associateWithHost)
@@ -93,21 +104,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAssociateWithHost()
+    {
+        $this->associateWithHost = null;
+        return $this;
+    }
+
+    /**
      * Getter for disassociateFromHost
      *
-     * @ElementName disassociateFromHost
-     * @return string|null
+     * @return string
      */
     public function getDisassociateFromHost()
     {
-        return $this->disassociateFromHost;
+        return $this->disassociateFromHost instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disassociateFromHost;
     }
 
     /**
      * Setter for disassociateFromHost
      *
-     * @ElementName disassociateFromHost
-     * @param string|null $disassociateFromHost
+     * @param string $disassociateFromHost
      * @return $this
      */
     public function setDisassociateFromHost($disassociateFromHost)
@@ -117,21 +135,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisassociateFromHost()
+    {
+        $this->disassociateFromHost = null;
+        return $this;
+    }
+
+    /**
      * Getter for disassociateFromRemoteHost
      *
-     * @ElementName disassociateFromRemoteHost
-     * @return string|null
+     * @return string
      */
     public function getDisassociateFromRemoteHost()
     {
-        return $this->disassociateFromRemoteHost;
+        return $this->disassociateFromRemoteHost instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disassociateFromRemoteHost;
     }
 
     /**
      * Setter for disassociateFromRemoteHost
      *
-     * @ElementName disassociateFromRemoteHost
-     * @param string|null $disassociateFromRemoteHost
+     * @param string $disassociateFromRemoteHost
      * @return $this
      */
     public function setDisassociateFromRemoteHost($disassociateFromRemoteHost)
@@ -141,21 +166,28 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisassociateFromRemoteHost()
+    {
+        $this->disassociateFromRemoteHost = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -165,26 +197,42 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20HotelingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

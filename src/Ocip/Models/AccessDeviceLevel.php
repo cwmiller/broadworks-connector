@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AccessDeviceLevel SYSTEM()
  * @method static AccessDeviceLevel SERVICE_PROVIDER()
  * @method static AccessDeviceLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class AccessDeviceLevel extends \MyCLabs\Enum\Enum
 {

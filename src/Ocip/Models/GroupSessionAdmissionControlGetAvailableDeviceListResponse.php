@@ -16,6 +16,8 @@ class GroupSessionAdmissionControlGetAvailableDeviceListResponse extends \CWM\Br
 
     /**
      * @ElementName accessDevice
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     private $accessDevice = array(
@@ -25,18 +27,16 @@ class GroupSessionAdmissionControlGetAvailableDeviceListResponse extends \CWM\Br
     /**
      * Getter for accessDevice
      *
-     * @ElementName accessDevice
      * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     public function getAccessDevice()
     {
-        return $this->accessDevice;
+        return $this->accessDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDevice;
     }
 
     /**
      * Setter for accessDevice
      *
-     * @ElementName accessDevice
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[] $accessDevice
      * @return $this
      */
@@ -47,15 +47,23 @@ class GroupSessionAdmissionControlGetAvailableDeviceListResponse extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDevice()
+    {
+        $this->accessDevice = null;
+        return $this;
+    }
+
+    /**
      * Adder for accessDevice
      *
-     * @ElementName accessDevice
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice
      * @return $this
      */
     public function addAccessDevice($accessDevice)
     {
-        $this->accessDevice []= $accessDevice;
+        $this->accessDevice[] = $accessDevice;
         return $this;
     }
 

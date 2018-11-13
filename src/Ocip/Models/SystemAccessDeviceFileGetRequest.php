@@ -19,12 +19,14 @@ class SystemAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName deviceName
+     * @Type string
      * @var string|null
      */
     private $deviceName = null;
 
     /**
      * @ElementName fileType
+     * @Type string
      * @var string|null
      */
     private $fileType = null;
@@ -32,19 +34,17 @@ class SystemAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
-     * @return string|null
+     * @return string
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
-     * @param string|null $deviceName
+     * @param string $deviceName
      * @return $this
      */
     public function setDeviceName($deviceName)
@@ -54,26 +54,42 @@ class SystemAccessDeviceFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Getter for fileType
      *
-     * @ElementName fileType
-     * @return string|null
+     * @return string
      */
     public function getFileType()
     {
-        return $this->fileType;
+        return $this->fileType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->fileType;
     }
 
     /**
      * Setter for fileType
      *
-     * @ElementName fileType
-     * @param string|null $fileType
+     * @param string $fileType
      * @return $this
      */
     public function setFileType($fileType)
     {
         $this->fileType = $fileType;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFileType()
+    {
+        $this->fileType = null;
         return $this;
     }
 

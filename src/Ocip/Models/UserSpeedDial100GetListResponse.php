@@ -17,12 +17,15 @@ class UserSpeedDial100GetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName prefix
+     * @Type string
      * @var string|null
      */
     private $prefix = null;
 
     /**
      * @ElementName speedDialEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100Entry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100Entry[]
      */
     private $speedDialEntry = array(
@@ -32,19 +35,17 @@ class UserSpeedDial100GetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for prefix
      *
-     * @ElementName prefix
-     * @return string|null
+     * @return string
      */
     public function getPrefix()
     {
-        return $this->prefix;
+        return $this->prefix instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefix;
     }
 
     /**
      * Setter for prefix
      *
-     * @ElementName prefix
-     * @param string|null $prefix
+     * @param string $prefix
      * @return $this
      */
     public function setPrefix($prefix)
@@ -54,20 +55,27 @@ class UserSpeedDial100GetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrefix()
+    {
+        $this->prefix = null;
+        return $this;
+    }
+
+    /**
      * Getter for speedDialEntry
      *
-     * @ElementName speedDialEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100Entry[]
      */
     public function getSpeedDialEntry()
     {
-        return $this->speedDialEntry;
+        return $this->speedDialEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->speedDialEntry;
     }
 
     /**
      * Setter for speedDialEntry
      *
-     * @ElementName speedDialEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100Entry[] $speedDialEntry
      * @return $this
      */
@@ -78,15 +86,23 @@ class UserSpeedDial100GetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSpeedDialEntry()
+    {
+        $this->speedDialEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for speedDialEntry
      *
-     * @ElementName speedDialEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\SpeedDial100Entry $speedDialEntry
      * @return $this
      */
     public function addSpeedDialEntry($speedDialEntry)
     {
-        $this->speedDialEntry []= $speedDialEntry;
+        $this->speedDialEntry[] = $speedDialEntry;
         return $this;
     }
 

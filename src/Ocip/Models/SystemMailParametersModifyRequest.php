@@ -16,6 +16,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName primaryServerNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -23,6 +24,7 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName secondaryServerNetAddress
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,12 +32,14 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName defaultFromAddress
+     * @Type string
      * @var string|null
      */
     private $defaultFromAddress = null;
 
     /**
      * @ElementName defaultSubject
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -43,18 +47,21 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName supportDNSSRVForMailServerAccess
+     * @Type bool
      * @var bool|null
      */
     private $supportDNSSRVForMailServerAccess = null;
 
     /**
      * @ElementName secureMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode|null
      */
     private $secureMode = null;
 
     /**
      * @ElementName port
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -63,71 +70,87 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for primaryServerNetAddress
      *
-     * @ElementName primaryServerNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPrimaryServerNetAddress()
     {
-        return $this->primaryServerNetAddress;
+        return $this->primaryServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->primaryServerNetAddress;
     }
 
     /**
      * Setter for primaryServerNetAddress
      *
-     * @ElementName primaryServerNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $primaryServerNetAddress
+     * @param string|null $primaryServerNetAddress
      * @return $this
      */
     public function setPrimaryServerNetAddress($primaryServerNetAddress)
     {
-        $this->primaryServerNetAddress = $primaryServerNetAddress;
+        if ($primaryServerNetAddress === null) {
+            $this->primaryServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->primaryServerNetAddress = $primaryServerNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrimaryServerNetAddress()
+    {
+        $this->primaryServerNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for secondaryServerNetAddress
      *
-     * @ElementName secondaryServerNetAddress
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getSecondaryServerNetAddress()
     {
-        return $this->secondaryServerNetAddress;
+        return $this->secondaryServerNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secondaryServerNetAddress;
     }
 
     /**
      * Setter for secondaryServerNetAddress
      *
-     * @ElementName secondaryServerNetAddress
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $secondaryServerNetAddress
+     * @param string|null $secondaryServerNetAddress
      * @return $this
      */
     public function setSecondaryServerNetAddress($secondaryServerNetAddress)
     {
-        $this->secondaryServerNetAddress = $secondaryServerNetAddress;
+        if ($secondaryServerNetAddress === null) {
+            $this->secondaryServerNetAddress = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->secondaryServerNetAddress = $secondaryServerNetAddress;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecondaryServerNetAddress()
+    {
+        $this->secondaryServerNetAddress = null;
         return $this;
     }
 
     /**
      * Getter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @return string|null
+     * @return string
      */
     public function getDefaultFromAddress()
     {
-        return $this->defaultFromAddress;
+        return $this->defaultFromAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultFromAddress;
     }
 
     /**
      * Setter for defaultFromAddress
      *
-     * @ElementName defaultFromAddress
-     * @param string|null $defaultFromAddress
+     * @param string $defaultFromAddress
      * @return $this
      */
     public function setDefaultFromAddress($defaultFromAddress)
@@ -137,47 +160,63 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultFromAddress()
+    {
+        $this->defaultFromAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultSubject
      *
-     * @ElementName defaultSubject
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDefaultSubject()
     {
-        return $this->defaultSubject;
+        return $this->defaultSubject instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultSubject;
     }
 
     /**
      * Setter for defaultSubject
      *
-     * @ElementName defaultSubject
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $defaultSubject
+     * @param string|null $defaultSubject
      * @return $this
      */
     public function setDefaultSubject($defaultSubject)
     {
-        $this->defaultSubject = $defaultSubject;
+        if ($defaultSubject === null) {
+            $this->defaultSubject = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->defaultSubject = $defaultSubject;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultSubject()
+    {
+        $this->defaultSubject = null;
         return $this;
     }
 
     /**
      * Getter for supportDNSSRVForMailServerAccess
      *
-     * @ElementName supportDNSSRVForMailServerAccess
-     * @return bool|null
+     * @return bool
      */
     public function getSupportDNSSRVForMailServerAccess()
     {
-        return $this->supportDNSSRVForMailServerAccess;
+        return $this->supportDNSSRVForMailServerAccess instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->supportDNSSRVForMailServerAccess;
     }
 
     /**
      * Setter for supportDNSSRVForMailServerAccess
      *
-     * @ElementName supportDNSSRVForMailServerAccess
-     * @param bool|null $supportDNSSRVForMailServerAccess
+     * @param bool $supportDNSSRVForMailServerAccess
      * @return $this
      */
     public function setSupportDNSSRVForMailServerAccess($supportDNSSRVForMailServerAccess)
@@ -187,21 +226,28 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSupportDNSSRVForMailServerAccess()
+    {
+        $this->supportDNSSRVForMailServerAccess = null;
+        return $this;
+    }
+
+    /**
      * Getter for secureMode
      *
-     * @ElementName secureMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode
      */
     public function getSecureMode()
     {
-        return $this->secureMode;
+        return $this->secureMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->secureMode;
     }
 
     /**
      * Setter for secureMode
      *
-     * @ElementName secureMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode|null $secureMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode $secureMode
      * @return $this
      */
     public function setSecureMode(\CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode $secureMode)
@@ -211,28 +257,46 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecureMode()
+    {
+        $this->secureMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for port
      *
-     * @ElementName port
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $port
+     * @param int|null $port
      * @return $this
      */
     public function setPort($port)
     {
-        $this->port = $port;
+        if ($port === null) {
+            $this->port = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->port = $port;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
         return $this;
     }
 

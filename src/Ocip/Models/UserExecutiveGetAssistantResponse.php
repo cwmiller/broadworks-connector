@@ -20,12 +20,14 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName allowOptInOut
+     * @Type bool
      * @var bool|null
      */
     private $allowOptInOut = null;
 
     /**
      * @ElementName assistantUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $assistantUserTable = null;
@@ -33,19 +35,17 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for allowOptInOut
      *
-     * @ElementName allowOptInOut
-     * @return bool|null
+     * @return bool
      */
     public function getAllowOptInOut()
     {
-        return $this->allowOptInOut;
+        return $this->allowOptInOut instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowOptInOut;
     }
 
     /**
      * Setter for allowOptInOut
      *
-     * @ElementName allowOptInOut
-     * @param bool|null $allowOptInOut
+     * @param bool $allowOptInOut
      * @return $this
      */
     public function setAllowOptInOut($allowOptInOut)
@@ -55,26 +55,42 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowOptInOut()
+    {
+        $this->allowOptInOut = null;
+        return $this;
+    }
+
+    /**
      * Getter for assistantUserTable
      *
-     * @ElementName assistantUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAssistantUserTable()
     {
-        return $this->assistantUserTable;
+        return $this->assistantUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->assistantUserTable;
     }
 
     /**
      * Setter for assistantUserTable
      *
-     * @ElementName assistantUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $assistantUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $assistantUserTable
      * @return $this
      */
     public function setAssistantUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $assistantUserTable)
     {
         $this->assistantUserTable = $assistantUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAssistantUserTable()
+    {
+        $this->assistantUserTable = null;
         return $this;
     }
 

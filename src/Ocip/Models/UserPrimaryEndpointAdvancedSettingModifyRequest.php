@@ -19,24 +19,28 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName allowOrigination
+     * @Type bool
      * @var bool|null
      */
     private $allowOrigination = null;
 
     /**
      * @ElementName allowTermination
+     * @Type bool
      * @var bool|null
      */
     private $allowTermination = null;
 
     /**
      * @ElementName allowVideo
+     * @Type bool
      * @var bool|null
      */
     private $allowVideo = null;
@@ -44,19 +48,17 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -66,21 +68,28 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowOrigination
      *
-     * @ElementName allowOrigination
-     * @return bool|null
+     * @return bool
      */
     public function getAllowOrigination()
     {
-        return $this->allowOrigination;
+        return $this->allowOrigination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowOrigination;
     }
 
     /**
      * Setter for allowOrigination
      *
-     * @ElementName allowOrigination
-     * @param bool|null $allowOrigination
+     * @param bool $allowOrigination
      * @return $this
      */
     public function setAllowOrigination($allowOrigination)
@@ -90,21 +99,28 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowOrigination()
+    {
+        $this->allowOrigination = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowTermination
      *
-     * @ElementName allowTermination
-     * @return bool|null
+     * @return bool
      */
     public function getAllowTermination()
     {
-        return $this->allowTermination;
+        return $this->allowTermination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowTermination;
     }
 
     /**
      * Setter for allowTermination
      *
-     * @ElementName allowTermination
-     * @param bool|null $allowTermination
+     * @param bool $allowTermination
      * @return $this
      */
     public function setAllowTermination($allowTermination)
@@ -114,26 +130,42 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAllowTermination()
+    {
+        $this->allowTermination = null;
+        return $this;
+    }
+
+    /**
      * Getter for allowVideo
      *
-     * @ElementName allowVideo
-     * @return bool|null
+     * @return bool
      */
     public function getAllowVideo()
     {
-        return $this->allowVideo;
+        return $this->allowVideo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->allowVideo;
     }
 
     /**
      * Setter for allowVideo
      *
-     * @ElementName allowVideo
-     * @param bool|null $allowVideo
+     * @param bool $allowVideo
      * @return $this
      */
     public function setAllowVideo($allowVideo)
     {
         $this->allowVideo = $allowVideo;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAllowVideo()
+    {
+        $this->allowVideo = null;
         return $this;
     }
 

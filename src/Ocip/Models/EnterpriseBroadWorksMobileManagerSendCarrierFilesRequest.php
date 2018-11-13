@@ -16,12 +16,14 @@ class EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\Broa
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName emailTo
+     * @Type string
      * @var string|null
      */
     private $emailTo = null;
@@ -29,19 +31,17 @@ class EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\Broa
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -51,26 +51,42 @@ class EnterpriseBroadWorksMobileManagerSendCarrierFilesRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for emailTo
      *
-     * @ElementName emailTo
-     * @return string|null
+     * @return string
      */
     public function getEmailTo()
     {
-        return $this->emailTo;
+        return $this->emailTo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->emailTo;
     }
 
     /**
      * Setter for emailTo
      *
-     * @ElementName emailTo
-     * @param string|null $emailTo
+     * @param string $emailTo
      * @return $this
      */
     public function setEmailTo($emailTo)
     {
         $this->emailTo = $emailTo;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEmailTo()
+    {
+        $this->emailTo = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterStatisticsSource NONE()
  * @method static CallCenterStatisticsSource APPLICATION_SERVER()
  * @method static CallCenterStatisticsSource CALL_CENTER_REPORTING_SERVER()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterStatisticsSource extends \MyCLabs\Enum\Enum
 {

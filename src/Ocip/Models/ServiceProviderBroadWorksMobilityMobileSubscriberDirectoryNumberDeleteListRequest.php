@@ -18,12 +18,15 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteList
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName mobileSubscriberDirectoryNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(
@@ -33,19 +36,17 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteList
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -55,20 +56,27 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @return string[]
      */
     public function getMobileSubscriberDirectoryNumber()
     {
-        return $this->mobileSubscriberDirectoryNumber;
+        return $this->mobileSubscriberDirectoryNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileSubscriberDirectoryNumber;
     }
 
     /**
      * Setter for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @param string[] $mobileSubscriberDirectoryNumber
      * @return $this
      */
@@ -79,15 +87,23 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileSubscriberDirectoryNumber()
+    {
+        $this->mobileSubscriberDirectoryNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @param string $mobileSubscriberDirectoryNumber
      * @return $this
      */
     public function addMobileSubscriberDirectoryNumber(string $mobileSubscriberDirectoryNumber)
     {
-        $this->mobileSubscriberDirectoryNumber []= $mobileSubscriberDirectoryNumber;
+        $this->mobileSubscriberDirectoryNumber[] = $mobileSubscriberDirectoryNumber;
         return $this;
     }
 

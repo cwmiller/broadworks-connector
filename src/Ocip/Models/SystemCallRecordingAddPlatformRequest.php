@@ -19,36 +19,42 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName netAddress
+     * @Type string
      * @var string|null
      */
     private $netAddress = null;
 
     /**
      * @ElementName port
+     * @Type int
      * @var int|null
      */
     private $port = null;
 
     /**
      * @ElementName mediaStream
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaStream
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
      */
     private $mediaStream = null;
 
     /**
      * @ElementName transportType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportType = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @var string|null
      */
     private $description = null;
@@ -56,19 +62,17 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -78,21 +82,28 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for netAddress
      *
-     * @ElementName netAddress
-     * @return string|null
+     * @return string
      */
     public function getNetAddress()
     {
-        return $this->netAddress;
+        return $this->netAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->netAddress;
     }
 
     /**
      * Setter for netAddress
      *
-     * @ElementName netAddress
-     * @param string|null $netAddress
+     * @param string $netAddress
      * @return $this
      */
     public function setNetAddress($netAddress)
@@ -102,21 +113,28 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetAddress()
+    {
+        $this->netAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for port
      *
-     * @ElementName port
-     * @return int|null
+     * @return int
      */
     public function getPort()
     {
-        return $this->port;
+        return $this->port instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->port;
     }
 
     /**
      * Setter for port
      *
-     * @ElementName port
-     * @param int|null $port
+     * @param int $port
      * @return $this
      */
     public function setPort($port)
@@ -126,21 +144,28 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPort()
+    {
+        $this->port = null;
+        return $this;
+    }
+
+    /**
      * Getter for mediaStream
      *
-     * @ElementName mediaStream
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MediaStream
      */
     public function getMediaStream()
     {
-        return $this->mediaStream;
+        return $this->mediaStream instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mediaStream;
     }
 
     /**
      * Setter for mediaStream
      *
-     * @ElementName mediaStream
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaStream|null $mediaStream
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MediaStream $mediaStream
      * @return $this
      */
     public function setMediaStream(\CWM\BroadWorksConnector\Ocip\Models\MediaStream $mediaStream)
@@ -150,21 +175,28 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMediaStream()
+    {
+        $this->mediaStream = null;
+        return $this;
+    }
+
+    /**
      * Getter for transportType
      *
-     * @ElementName transportType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
      */
     public function getTransportType()
     {
-        return $this->transportType;
+        return $this->transportType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->transportType;
     }
 
     /**
      * Setter for transportType
      *
-     * @ElementName transportType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null $transportType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportType
      * @return $this
      */
     public function setTransportType(\CWM\BroadWorksConnector\Ocip\Models\TransportProtocol $transportType)
@@ -174,26 +206,42 @@ class SystemCallRecordingAddPlatformRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTransportType()
+    {
+        $this->transportType = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @return string|null
+     * @return string
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @param string|null $description
+     * @param string $description
      * @return $this
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

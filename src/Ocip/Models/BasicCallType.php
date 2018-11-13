@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static BasicCallType NETWORK_URL()
  * @method static BasicCallType REPAIR()
  * @method static BasicCallType EMERGENCY()
- * @ValueType string
+ * @EnumValueType string
  */
 class BasicCallType extends \MyCLabs\Enum\Enum
 {

@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceManagementFileCategory _STATIC()
  * @method static DeviceManagementFileCategory DYNAMIC_GROUP()
  * @method static DeviceManagementFileCategory DYNAMIC_PROFILE()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementFileCategory extends \MyCLabs\Enum\Enum
 {

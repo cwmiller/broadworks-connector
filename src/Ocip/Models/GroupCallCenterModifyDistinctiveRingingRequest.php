@@ -16,24 +16,28 @@ class GroupCallCenterModifyDistinctiveRingingRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName distinctiveRingingCallCenterCalls
+     * @Type bool
      * @var bool|null
      */
     private $distinctiveRingingCallCenterCalls = null;
 
     /**
      * @ElementName distinctiveRingingRingPatternForCallCenter
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingRingPatternForCallCenter = null;
 
     /**
      * @ElementName distinctiveRingingForceDeliveryRingPattern
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingForceDeliveryRingPattern = null;
@@ -41,19 +45,17 @@ class GroupCallCenterModifyDistinctiveRingingRequest extends \CWM\BroadWorksConn
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -63,21 +65,28 @@ class GroupCallCenterModifyDistinctiveRingingRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for distinctiveRingingCallCenterCalls
      *
-     * @ElementName distinctiveRingingCallCenterCalls
-     * @return bool|null
+     * @return bool
      */
     public function getDistinctiveRingingCallCenterCalls()
     {
-        return $this->distinctiveRingingCallCenterCalls;
+        return $this->distinctiveRingingCallCenterCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->distinctiveRingingCallCenterCalls;
     }
 
     /**
      * Setter for distinctiveRingingCallCenterCalls
      *
-     * @ElementName distinctiveRingingCallCenterCalls
-     * @param bool|null $distinctiveRingingCallCenterCalls
+     * @param bool $distinctiveRingingCallCenterCalls
      * @return $this
      */
     public function setDistinctiveRingingCallCenterCalls($distinctiveRingingCallCenterCalls)
@@ -87,21 +96,28 @@ class GroupCallCenterModifyDistinctiveRingingRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDistinctiveRingingCallCenterCalls()
+    {
+        $this->distinctiveRingingCallCenterCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for distinctiveRingingRingPatternForCallCenter
      *
-     * @ElementName distinctiveRingingRingPatternForCallCenter
-     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      */
     public function getDistinctiveRingingRingPatternForCallCenter()
     {
-        return $this->distinctiveRingingRingPatternForCallCenter;
+        return $this->distinctiveRingingRingPatternForCallCenter instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->distinctiveRingingRingPatternForCallCenter;
     }
 
     /**
      * Setter for distinctiveRingingRingPatternForCallCenter
      *
-     * @ElementName distinctiveRingingRingPatternForCallCenter
-     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $distinctiveRingingRingPatternForCallCenter
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern $distinctiveRingingRingPatternForCallCenter
      * @return $this
      */
     public function setDistinctiveRingingRingPatternForCallCenter(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $distinctiveRingingRingPatternForCallCenter)
@@ -111,26 +127,42 @@ class GroupCallCenterModifyDistinctiveRingingRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDistinctiveRingingRingPatternForCallCenter()
+    {
+        $this->distinctiveRingingRingPatternForCallCenter = null;
+        return $this;
+    }
+
+    /**
      * Getter for distinctiveRingingForceDeliveryRingPattern
      *
-     * @ElementName distinctiveRingingForceDeliveryRingPattern
-     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RingPattern
      */
     public function getDistinctiveRingingForceDeliveryRingPattern()
     {
-        return $this->distinctiveRingingForceDeliveryRingPattern;
+        return $this->distinctiveRingingForceDeliveryRingPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->distinctiveRingingForceDeliveryRingPattern;
     }
 
     /**
      * Setter for distinctiveRingingForceDeliveryRingPattern
      *
-     * @ElementName distinctiveRingingForceDeliveryRingPattern
-     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null $distinctiveRingingForceDeliveryRingPattern
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RingPattern $distinctiveRingingForceDeliveryRingPattern
      * @return $this
      */
     public function setDistinctiveRingingForceDeliveryRingPattern(\CWM\BroadWorksConnector\Ocip\Models\RingPattern $distinctiveRingingForceDeliveryRingPattern)
     {
         $this->distinctiveRingingForceDeliveryRingPattern = $distinctiveRingingForceDeliveryRingPattern;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDistinctiveRingingForceDeliveryRingPattern()
+    {
+        $this->distinctiveRingingForceDeliveryRingPattern = null;
         return $this;
     }
 

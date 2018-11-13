@@ -36,30 +36,36 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName alertingGroupDescription
+     * @Type string
      * @var string|null
      */
     private $alertingGroupDescription = null;
 
     /**
      * @ElementName useDiversionInhibitor
+     * @Type bool
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
 
     /**
      * @ElementName answerConfirmationRequired
+     * @Type bool
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
 
     /**
      * @ElementName numberOfRings
+     * @Type int
      * @var int|null
      */
     private $numberOfRings = null;
 
     /**
      * @ElementName phoneNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $phoneNumber = array(
@@ -68,12 +74,14 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
 
     /**
      * @ElementName userTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;
 
     /**
      * @ElementName criteriaTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;
@@ -81,19 +89,17 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * Getter for alertingGroupDescription
      *
-     * @ElementName alertingGroupDescription
-     * @return string|null
+     * @return string
      */
     public function getAlertingGroupDescription()
     {
-        return $this->alertingGroupDescription;
+        return $this->alertingGroupDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alertingGroupDescription;
     }
 
     /**
      * Setter for alertingGroupDescription
      *
-     * @ElementName alertingGroupDescription
-     * @param string|null $alertingGroupDescription
+     * @param string $alertingGroupDescription
      * @return $this
      */
     public function setAlertingGroupDescription($alertingGroupDescription)
@@ -103,21 +109,28 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlertingGroupDescription()
+    {
+        $this->alertingGroupDescription = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDiversionInhibitor
      *
-     * @ElementName useDiversionInhibitor
-     * @return bool|null
+     * @return bool
      */
     public function getUseDiversionInhibitor()
     {
-        return $this->useDiversionInhibitor;
+        return $this->useDiversionInhibitor instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDiversionInhibitor;
     }
 
     /**
      * Setter for useDiversionInhibitor
      *
-     * @ElementName useDiversionInhibitor
-     * @param bool|null $useDiversionInhibitor
+     * @param bool $useDiversionInhibitor
      * @return $this
      */
     public function setUseDiversionInhibitor($useDiversionInhibitor)
@@ -127,21 +140,28 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDiversionInhibitor()
+    {
+        $this->useDiversionInhibitor = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @return bool|null
+     * @return bool
      */
     public function getAnswerConfirmationRequired()
     {
-        return $this->answerConfirmationRequired;
+        return $this->answerConfirmationRequired instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerConfirmationRequired;
     }
 
     /**
      * Setter for answerConfirmationRequired
      *
-     * @ElementName answerConfirmationRequired
-     * @param bool|null $answerConfirmationRequired
+     * @param bool $answerConfirmationRequired
      * @return $this
      */
     public function setAnswerConfirmationRequired($answerConfirmationRequired)
@@ -151,21 +171,28 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnswerConfirmationRequired()
+    {
+        $this->answerConfirmationRequired = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @return int|null
+     * @return int
      */
     public function getNumberOfRings()
     {
-        return $this->numberOfRings;
+        return $this->numberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfRings;
     }
 
     /**
      * Setter for numberOfRings
      *
-     * @ElementName numberOfRings
-     * @param int|null $numberOfRings
+     * @param int $numberOfRings
      * @return $this
      */
     public function setNumberOfRings($numberOfRings)
@@ -175,20 +202,27 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfRings()
+    {
+        $this->numberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for phoneNumber
      *
-     * @ElementName phoneNumber
      * @return string[]
      */
     public function getPhoneNumber()
     {
-        return $this->phoneNumber;
+        return $this->phoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->phoneNumber;
     }
 
     /**
      * Setter for phoneNumber
      *
-     * @ElementName phoneNumber
      * @param string[] $phoneNumber
      * @return $this
      */
@@ -199,34 +233,40 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPhoneNumber()
+    {
+        $this->phoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for phoneNumber
      *
-     * @ElementName phoneNumber
      * @param string $phoneNumber
      * @return $this
      */
     public function addPhoneNumber(string $phoneNumber)
     {
-        $this->phoneNumber []= $phoneNumber;
+        $this->phoneNumber[] = $phoneNumber;
         return $this;
     }
 
     /**
      * Getter for userTable
      *
-     * @ElementName userTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserTable()
     {
-        return $this->userTable;
+        return $this->userTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userTable;
     }
 
     /**
      * Setter for userTable
      *
-     * @ElementName userTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable
      * @return $this
      */
     public function setUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable)
@@ -236,26 +276,42 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserTable()
+    {
+        $this->userTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCriteriaTable()
     {
-        return $this->criteriaTable;
+        return $this->criteriaTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->criteriaTable;
     }
 
     /**
      * Setter for criteriaTable
      *
-     * @ElementName criteriaTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $criteriaTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable
      * @return $this
      */
     public function setCriteriaTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $criteriaTable)
     {
         $this->criteriaTable = $criteriaTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCriteriaTable()
+    {
+        $this->criteriaTable = null;
         return $this;
     }
 

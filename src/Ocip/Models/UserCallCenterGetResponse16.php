@@ -19,60 +19,70 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName agentACDState
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDState
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     private $agentACDState = null;
 
     /**
      * @ElementName useDefaultGuardTimer
+     * @Type bool
      * @var bool|null
      */
     private $useDefaultGuardTimer = null;
 
     /**
      * @ElementName enableGuardTimer
+     * @Type bool
      * @var bool|null
      */
     private $enableGuardTimer = null;
 
     /**
      * @ElementName guardTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $guardTimerSeconds = null;
 
     /**
      * @ElementName useSystemDefaultUnavailableSettings
+     * @Type bool
      * @var bool|null
      */
     private $useSystemDefaultUnavailableSettings = null;
 
     /**
      * @ElementName forceAgentUnavailableOnDNDActivation
+     * @Type bool
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
 
     /**
      * @ElementName forceUnavailableOnPersonalCalls
+     * @Type bool
      * @var bool|null
      */
     private $forceUnavailableOnPersonalCalls = null;
 
     /**
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
+     * @Type bool
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
 
     /**
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
+     * @Type int
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
 
     /**
      * @ElementName callCenterTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;
@@ -80,19 +90,17 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for agentACDState
      *
-     * @ElementName agentACDState
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AgentACDState
      */
     public function getAgentACDState()
     {
-        return $this->agentACDState;
+        return $this->agentACDState instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentACDState;
     }
 
     /**
      * Setter for agentACDState
      *
-     * @ElementName agentACDState
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null $agentACDState
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AgentACDState $agentACDState
      * @return $this
      */
     public function setAgentACDState(\CWM\BroadWorksConnector\Ocip\Models\AgentACDState $agentACDState)
@@ -102,21 +110,28 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentACDState()
+    {
+        $this->agentACDState = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDefaultGuardTimer
      *
-     * @ElementName useDefaultGuardTimer
-     * @return bool|null
+     * @return bool
      */
     public function getUseDefaultGuardTimer()
     {
-        return $this->useDefaultGuardTimer;
+        return $this->useDefaultGuardTimer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDefaultGuardTimer;
     }
 
     /**
      * Setter for useDefaultGuardTimer
      *
-     * @ElementName useDefaultGuardTimer
-     * @param bool|null $useDefaultGuardTimer
+     * @param bool $useDefaultGuardTimer
      * @return $this
      */
     public function setUseDefaultGuardTimer($useDefaultGuardTimer)
@@ -126,21 +141,28 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDefaultGuardTimer()
+    {
+        $this->useDefaultGuardTimer = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableGuardTimer
      *
-     * @ElementName enableGuardTimer
-     * @return bool|null
+     * @return bool
      */
     public function getEnableGuardTimer()
     {
-        return $this->enableGuardTimer;
+        return $this->enableGuardTimer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableGuardTimer;
     }
 
     /**
      * Setter for enableGuardTimer
      *
-     * @ElementName enableGuardTimer
-     * @param bool|null $enableGuardTimer
+     * @param bool $enableGuardTimer
      * @return $this
      */
     public function setEnableGuardTimer($enableGuardTimer)
@@ -150,21 +172,28 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableGuardTimer()
+    {
+        $this->enableGuardTimer = null;
+        return $this;
+    }
+
+    /**
      * Getter for guardTimerSeconds
      *
-     * @ElementName guardTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getGuardTimerSeconds()
     {
-        return $this->guardTimerSeconds;
+        return $this->guardTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->guardTimerSeconds;
     }
 
     /**
      * Setter for guardTimerSeconds
      *
-     * @ElementName guardTimerSeconds
-     * @param int|null $guardTimerSeconds
+     * @param int $guardTimerSeconds
      * @return $this
      */
     public function setGuardTimerSeconds($guardTimerSeconds)
@@ -174,21 +203,28 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGuardTimerSeconds()
+    {
+        $this->guardTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for useSystemDefaultUnavailableSettings
      *
-     * @ElementName useSystemDefaultUnavailableSettings
-     * @return bool|null
+     * @return bool
      */
     public function getUseSystemDefaultUnavailableSettings()
     {
-        return $this->useSystemDefaultUnavailableSettings;
+        return $this->useSystemDefaultUnavailableSettings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useSystemDefaultUnavailableSettings;
     }
 
     /**
      * Setter for useSystemDefaultUnavailableSettings
      *
-     * @ElementName useSystemDefaultUnavailableSettings
-     * @param bool|null $useSystemDefaultUnavailableSettings
+     * @param bool $useSystemDefaultUnavailableSettings
      * @return $this
      */
     public function setUseSystemDefaultUnavailableSettings($useSystemDefaultUnavailableSettings)
@@ -198,21 +234,28 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseSystemDefaultUnavailableSettings()
+    {
+        $this->useSystemDefaultUnavailableSettings = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceAgentUnavailableOnDNDActivation
      *
-     * @ElementName forceAgentUnavailableOnDNDActivation
-     * @return bool|null
+     * @return bool
      */
     public function getForceAgentUnavailableOnDNDActivation()
     {
-        return $this->forceAgentUnavailableOnDNDActivation;
+        return $this->forceAgentUnavailableOnDNDActivation instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceAgentUnavailableOnDNDActivation;
     }
 
     /**
      * Setter for forceAgentUnavailableOnDNDActivation
      *
-     * @ElementName forceAgentUnavailableOnDNDActivation
-     * @param bool|null $forceAgentUnavailableOnDNDActivation
+     * @param bool $forceAgentUnavailableOnDNDActivation
      * @return $this
      */
     public function setForceAgentUnavailableOnDNDActivation($forceAgentUnavailableOnDNDActivation)
@@ -222,21 +265,28 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForceAgentUnavailableOnDNDActivation()
+    {
+        $this->forceAgentUnavailableOnDNDActivation = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceUnavailableOnPersonalCalls
      *
-     * @ElementName forceUnavailableOnPersonalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getForceUnavailableOnPersonalCalls()
     {
-        return $this->forceUnavailableOnPersonalCalls;
+        return $this->forceUnavailableOnPersonalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceUnavailableOnPersonalCalls;
     }
 
     /**
      * Setter for forceUnavailableOnPersonalCalls
      *
-     * @ElementName forceUnavailableOnPersonalCalls
-     * @param bool|null $forceUnavailableOnPersonalCalls
+     * @param bool $forceUnavailableOnPersonalCalls
      * @return $this
      */
     public function setForceUnavailableOnPersonalCalls($forceUnavailableOnPersonalCalls)
@@ -246,21 +296,28 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForceUnavailableOnPersonalCalls()
+    {
+        $this->forceUnavailableOnPersonalCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for forceAgentUnavailableOnBouncedCallLimit
      *
-     * @ElementName forceAgentUnavailableOnBouncedCallLimit
-     * @return bool|null
+     * @return bool
      */
     public function getForceAgentUnavailableOnBouncedCallLimit()
     {
-        return $this->forceAgentUnavailableOnBouncedCallLimit;
+        return $this->forceAgentUnavailableOnBouncedCallLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forceAgentUnavailableOnBouncedCallLimit;
     }
 
     /**
      * Setter for forceAgentUnavailableOnBouncedCallLimit
      *
-     * @ElementName forceAgentUnavailableOnBouncedCallLimit
-     * @param bool|null $forceAgentUnavailableOnBouncedCallLimit
+     * @param bool $forceAgentUnavailableOnBouncedCallLimit
      * @return $this
      */
     public function setForceAgentUnavailableOnBouncedCallLimit($forceAgentUnavailableOnBouncedCallLimit)
@@ -270,21 +327,28 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForceAgentUnavailableOnBouncedCallLimit()
+    {
+        $this->forceAgentUnavailableOnBouncedCallLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberConsecutiveBouncedCallsToForceAgentUnavailable
      *
-     * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
-     * @return int|null
+     * @return int
      */
     public function getNumberConsecutiveBouncedCallsToForceAgentUnavailable()
     {
-        return $this->numberConsecutiveBouncedCallsToForceAgentUnavailable;
+        return $this->numberConsecutiveBouncedCallsToForceAgentUnavailable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberConsecutiveBouncedCallsToForceAgentUnavailable;
     }
 
     /**
      * Setter for numberConsecutiveBouncedCallsToForceAgentUnavailable
      *
-     * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
-     * @param int|null $numberConsecutiveBouncedCallsToForceAgentUnavailable
+     * @param int $numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @return $this
      */
     public function setNumberConsecutiveBouncedCallsToForceAgentUnavailable($numberConsecutiveBouncedCallsToForceAgentUnavailable)
@@ -294,26 +358,42 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberConsecutiveBouncedCallsToForceAgentUnavailable()
+    {
+        $this->numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCenterTable
      *
-     * @ElementName callCenterTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCallCenterTable()
     {
-        return $this->callCenterTable;
+        return $this->callCenterTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenterTable;
     }
 
     /**
      * Setter for callCenterTable
      *
-     * @ElementName callCenterTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callCenterTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCenterTable
      * @return $this
      */
     public function setCallCenterTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCenterTable)
     {
         $this->callCenterTable = $callCenterTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallCenterTable()
+    {
+        $this->callCenterTable = null;
         return $this;
     }
 

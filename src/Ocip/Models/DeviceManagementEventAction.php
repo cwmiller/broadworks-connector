@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceManagementEventAction REBUILD()
  * @method static DeviceManagementEventAction RESET()
  * @method static DeviceManagementEventAction UPLOAD()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementEventAction extends \MyCLabs\Enum\Enum
 {

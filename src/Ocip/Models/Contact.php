@@ -12,6 +12,7 @@ class Contact
 
     /**
      * @ElementName contactName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,6 +20,7 @@ class Contact
 
     /**
      * @ElementName contactNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class Contact
 
     /**
      * @ElementName contactEmail
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -34,78 +37,105 @@ class Contact
     /**
      * Getter for contactName
      *
-     * @ElementName contactName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getContactName()
     {
-        return $this->contactName;
+        return $this->contactName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contactName;
     }
 
     /**
      * Setter for contactName
      *
-     * @ElementName contactName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $contactName
+     * @param string|null $contactName
      * @return $this
      */
     public function setContactName($contactName)
     {
-        $this->contactName = $contactName;
+        if ($contactName === null) {
+            $this->contactName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->contactName = $contactName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetContactName()
+    {
+        $this->contactName = null;
         return $this;
     }
 
     /**
      * Getter for contactNumber
      *
-     * @ElementName contactNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getContactNumber()
     {
-        return $this->contactNumber;
+        return $this->contactNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contactNumber;
     }
 
     /**
      * Setter for contactNumber
      *
-     * @ElementName contactNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $contactNumber
+     * @param string|null $contactNumber
      * @return $this
      */
     public function setContactNumber($contactNumber)
     {
-        $this->contactNumber = $contactNumber;
+        if ($contactNumber === null) {
+            $this->contactNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->contactNumber = $contactNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetContactNumber()
+    {
+        $this->contactNumber = null;
         return $this;
     }
 
     /**
      * Getter for contactEmail
      *
-     * @ElementName contactEmail
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getContactEmail()
     {
-        return $this->contactEmail;
+        return $this->contactEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contactEmail;
     }
 
     /**
      * Setter for contactEmail
      *
-     * @ElementName contactEmail
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $contactEmail
+     * @param string|null $contactEmail
      * @return $this
      */
     public function setContactEmail($contactEmail)
     {
-        $this->contactEmail = $contactEmail;
+        if ($contactEmail === null) {
+            $this->contactEmail = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->contactEmail = $contactEmail;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetContactEmail()
+    {
+        $this->contactEmail = null;
         return $this;
     }
 

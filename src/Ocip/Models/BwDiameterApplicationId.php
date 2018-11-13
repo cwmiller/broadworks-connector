@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static BwDiameterApplicationId RO()
  * @method static BwDiameterApplicationId SH()
  * @method static BwDiameterApplicationId ALL()
- * @ValueType string
+ * @EnumValueType string
  */
 class BwDiameterApplicationId extends \MyCLabs\Enum\Enum
 {

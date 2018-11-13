@@ -17,6 +17,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetListResponse extends \CWM\Broa
 
     /**
      * @ElementName profilesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profilesTable = null;
@@ -24,24 +25,31 @@ class EnterpriseCallCenterAgentThresholdProfileGetListResponse extends \CWM\Broa
     /**
      * Getter for profilesTable
      *
-     * @ElementName profilesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getProfilesTable()
     {
-        return $this->profilesTable;
+        return $this->profilesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profilesTable;
     }
 
     /**
      * Setter for profilesTable
      *
-     * @ElementName profilesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $profilesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $profilesTable
      * @return $this
      */
     public function setProfilesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $profilesTable)
     {
         $this->profilesTable = $profilesTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfilesTable()
+    {
+        $this->profilesTable = null;
         return $this;
     }
 

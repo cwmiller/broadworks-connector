@@ -17,12 +17,14 @@ class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName locationDialingCode
+     * @Type string
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -30,19 +32,17 @@ class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -52,26 +52,42 @@ class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for locationDialingCode
      *
-     * @ElementName locationDialingCode
-     * @return string|null
+     * @return string
      */
     public function getLocationDialingCode()
     {
-        return $this->locationDialingCode;
+        return $this->locationDialingCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->locationDialingCode;
     }
 
     /**
      * Setter for locationDialingCode
      *
-     * @ElementName locationDialingCode
-     * @param string|null $locationDialingCode
+     * @param string $locationDialingCode
      * @return $this
      */
     public function setLocationDialingCode($locationDialingCode)
     {
         $this->locationDialingCode = $locationDialingCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLocationDialingCode()
+    {
+        $this->locationDialingCode = null;
         return $this;
     }
 

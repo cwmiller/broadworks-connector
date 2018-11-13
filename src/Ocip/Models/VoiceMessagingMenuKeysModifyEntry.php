@@ -12,6 +12,7 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName playMessages
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,6 +20,7 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName changeBusyGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName changeNoAnswerGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,6 +36,7 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName changeExtendedAwayGreeting
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -40,6 +44,7 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName composeMessage
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -47,6 +52,7 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName deleteAllMessages
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -54,6 +60,7 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName passcode
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -61,6 +68,7 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName personalizedName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -68,6 +76,7 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName messageDeposit
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -75,12 +84,14 @@ class VoiceMessagingMenuKeysModifyEntry
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -89,253 +100,332 @@ class VoiceMessagingMenuKeysModifyEntry
     /**
      * Getter for playMessages
      *
-     * @ElementName playMessages
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPlayMessages()
     {
-        return $this->playMessages;
+        return $this->playMessages instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playMessages;
     }
 
     /**
      * Setter for playMessages
      *
-     * @ElementName playMessages
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $playMessages
+     * @param string|null $playMessages
      * @return $this
      */
     public function setPlayMessages($playMessages)
     {
-        $this->playMessages = $playMessages;
+        if ($playMessages === null) {
+            $this->playMessages = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->playMessages = $playMessages;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPlayMessages()
+    {
+        $this->playMessages = null;
         return $this;
     }
 
     /**
      * Getter for changeBusyGreeting
      *
-     * @ElementName changeBusyGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getChangeBusyGreeting()
     {
-        return $this->changeBusyGreeting;
+        return $this->changeBusyGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeBusyGreeting;
     }
 
     /**
      * Setter for changeBusyGreeting
      *
-     * @ElementName changeBusyGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeBusyGreeting
+     * @param string|null $changeBusyGreeting
      * @return $this
      */
     public function setChangeBusyGreeting($changeBusyGreeting)
     {
-        $this->changeBusyGreeting = $changeBusyGreeting;
+        if ($changeBusyGreeting === null) {
+            $this->changeBusyGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->changeBusyGreeting = $changeBusyGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetChangeBusyGreeting()
+    {
+        $this->changeBusyGreeting = null;
         return $this;
     }
 
     /**
      * Getter for changeNoAnswerGreeting
      *
-     * @ElementName changeNoAnswerGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getChangeNoAnswerGreeting()
     {
-        return $this->changeNoAnswerGreeting;
+        return $this->changeNoAnswerGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeNoAnswerGreeting;
     }
 
     /**
      * Setter for changeNoAnswerGreeting
      *
-     * @ElementName changeNoAnswerGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeNoAnswerGreeting
+     * @param string|null $changeNoAnswerGreeting
      * @return $this
      */
     public function setChangeNoAnswerGreeting($changeNoAnswerGreeting)
     {
-        $this->changeNoAnswerGreeting = $changeNoAnswerGreeting;
+        if ($changeNoAnswerGreeting === null) {
+            $this->changeNoAnswerGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->changeNoAnswerGreeting = $changeNoAnswerGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetChangeNoAnswerGreeting()
+    {
+        $this->changeNoAnswerGreeting = null;
         return $this;
     }
 
     /**
      * Getter for changeExtendedAwayGreeting
      *
-     * @ElementName changeExtendedAwayGreeting
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getChangeExtendedAwayGreeting()
     {
-        return $this->changeExtendedAwayGreeting;
+        return $this->changeExtendedAwayGreeting instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->changeExtendedAwayGreeting;
     }
 
     /**
      * Setter for changeExtendedAwayGreeting
      *
-     * @ElementName changeExtendedAwayGreeting
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $changeExtendedAwayGreeting
+     * @param string|null $changeExtendedAwayGreeting
      * @return $this
      */
     public function setChangeExtendedAwayGreeting($changeExtendedAwayGreeting)
     {
-        $this->changeExtendedAwayGreeting = $changeExtendedAwayGreeting;
+        if ($changeExtendedAwayGreeting === null) {
+            $this->changeExtendedAwayGreeting = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->changeExtendedAwayGreeting = $changeExtendedAwayGreeting;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetChangeExtendedAwayGreeting()
+    {
+        $this->changeExtendedAwayGreeting = null;
         return $this;
     }
 
     /**
      * Getter for composeMessage
      *
-     * @ElementName composeMessage
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getComposeMessage()
     {
-        return $this->composeMessage;
+        return $this->composeMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->composeMessage;
     }
 
     /**
      * Setter for composeMessage
      *
-     * @ElementName composeMessage
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $composeMessage
+     * @param string|null $composeMessage
      * @return $this
      */
     public function setComposeMessage($composeMessage)
     {
-        $this->composeMessage = $composeMessage;
+        if ($composeMessage === null) {
+            $this->composeMessage = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->composeMessage = $composeMessage;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetComposeMessage()
+    {
+        $this->composeMessage = null;
         return $this;
     }
 
     /**
      * Getter for deleteAllMessages
      *
-     * @ElementName deleteAllMessages
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDeleteAllMessages()
     {
-        return $this->deleteAllMessages;
+        return $this->deleteAllMessages instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteAllMessages;
     }
 
     /**
      * Setter for deleteAllMessages
      *
-     * @ElementName deleteAllMessages
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $deleteAllMessages
+     * @param string|null $deleteAllMessages
      * @return $this
      */
     public function setDeleteAllMessages($deleteAllMessages)
     {
-        $this->deleteAllMessages = $deleteAllMessages;
+        if ($deleteAllMessages === null) {
+            $this->deleteAllMessages = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->deleteAllMessages = $deleteAllMessages;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeleteAllMessages()
+    {
+        $this->deleteAllMessages = null;
         return $this;
     }
 
     /**
      * Getter for passcode
      *
-     * @ElementName passcode
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPasscode()
     {
-        return $this->passcode;
+        return $this->passcode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcode;
     }
 
     /**
      * Setter for passcode
      *
-     * @ElementName passcode
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $passcode
+     * @param string|null $passcode
      * @return $this
      */
     public function setPasscode($passcode)
     {
-        $this->passcode = $passcode;
+        if ($passcode === null) {
+            $this->passcode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->passcode = $passcode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPasscode()
+    {
+        $this->passcode = null;
         return $this;
     }
 
     /**
      * Getter for personalizedName
      *
-     * @ElementName personalizedName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getPersonalizedName()
     {
-        return $this->personalizedName;
+        return $this->personalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedName;
     }
 
     /**
      * Setter for personalizedName
      *
-     * @ElementName personalizedName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $personalizedName
+     * @param string|null $personalizedName
      * @return $this
      */
     public function setPersonalizedName($personalizedName)
     {
-        $this->personalizedName = $personalizedName;
+        if ($personalizedName === null) {
+            $this->personalizedName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->personalizedName = $personalizedName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPersonalizedName()
+    {
+        $this->personalizedName = null;
         return $this;
     }
 
     /**
      * Getter for messageDeposit
      *
-     * @ElementName messageDeposit
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getMessageDeposit()
     {
-        return $this->messageDeposit;
+        return $this->messageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->messageDeposit;
     }
 
     /**
      * Setter for messageDeposit
      *
-     * @ElementName messageDeposit
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $messageDeposit
+     * @param string|null $messageDeposit
      * @return $this
      */
     public function setMessageDeposit($messageDeposit)
     {
-        $this->messageDeposit = $messageDeposit;
+        if ($messageDeposit === null) {
+            $this->messageDeposit = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->messageDeposit = $messageDeposit;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMessageDeposit()
+    {
+        $this->messageDeposit = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -345,28 +435,46 @@ class VoiceMessagingMenuKeysModifyEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

@@ -12,12 +12,14 @@ class DirectRouteReplacementIdentityList
 
     /**
      * @ElementName dtgIdentity
+     * @Type string
      * @var string|null
      */
     private $dtgIdentity = null;
 
     /**
      * @ElementName trunkIdentity
+     * @Type string
      * @var string|null
      */
     private $trunkIdentity = null;
@@ -25,19 +27,17 @@ class DirectRouteReplacementIdentityList
     /**
      * Getter for dtgIdentity
      *
-     * @ElementName dtgIdentity
-     * @return string|null
+     * @return string
      */
     public function getDtgIdentity()
     {
-        return $this->dtgIdentity;
+        return $this->dtgIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dtgIdentity;
     }
 
     /**
      * Setter for dtgIdentity
      *
-     * @ElementName dtgIdentity
-     * @param string|null $dtgIdentity
+     * @param string $dtgIdentity
      * @return $this
      */
     public function setDtgIdentity($dtgIdentity)
@@ -47,26 +47,42 @@ class DirectRouteReplacementIdentityList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDtgIdentity()
+    {
+        $this->dtgIdentity = null;
+        return $this;
+    }
+
+    /**
      * Getter for trunkIdentity
      *
-     * @ElementName trunkIdentity
-     * @return string|null
+     * @return string
      */
     public function getTrunkIdentity()
     {
-        return $this->trunkIdentity;
+        return $this->trunkIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkIdentity;
     }
 
     /**
      * Setter for trunkIdentity
      *
-     * @ElementName trunkIdentity
-     * @param string|null $trunkIdentity
+     * @param string $trunkIdentity
      * @return $this
      */
     public function setTrunkIdentity($trunkIdentity)
     {
         $this->trunkIdentity = $trunkIdentity;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTrunkIdentity()
+    {
+        $this->trunkIdentity = null;
         return $this;
     }
 

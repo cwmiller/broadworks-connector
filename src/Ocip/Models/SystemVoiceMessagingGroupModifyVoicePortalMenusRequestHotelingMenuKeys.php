@@ -10,6 +10,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestHotelingMenuKeys
 
     /**
      * @ElementName checkHostStatus
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -17,6 +18,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestHotelingMenuKeys
 
     /**
      * @ElementName associateWithHost
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -24,6 +26,7 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestHotelingMenuKeys
 
     /**
      * @ElementName disassociateFromHost
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,12 +34,14 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestHotelingMenuKeys
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -45,97 +50,122 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestHotelingMenuKeys
     /**
      * Getter for checkHostStatus
      *
-     * @ElementName checkHostStatus
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCheckHostStatus()
     {
-        return $this->checkHostStatus;
+        return $this->checkHostStatus instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->checkHostStatus;
     }
 
     /**
      * Setter for checkHostStatus
      *
-     * @ElementName checkHostStatus
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $checkHostStatus
+     * @param string|null $checkHostStatus
      * @return $this
      */
     public function setCheckHostStatus($checkHostStatus)
     {
-        $this->checkHostStatus = $checkHostStatus;
+        if ($checkHostStatus === null) {
+            $this->checkHostStatus = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->checkHostStatus = $checkHostStatus;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCheckHostStatus()
+    {
+        $this->checkHostStatus = null;
         return $this;
     }
 
     /**
      * Getter for associateWithHost
      *
-     * @ElementName associateWithHost
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getAssociateWithHost()
     {
-        return $this->associateWithHost;
+        return $this->associateWithHost instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->associateWithHost;
     }
 
     /**
      * Setter for associateWithHost
      *
-     * @ElementName associateWithHost
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $associateWithHost
+     * @param string|null $associateWithHost
      * @return $this
      */
     public function setAssociateWithHost($associateWithHost)
     {
-        $this->associateWithHost = $associateWithHost;
+        if ($associateWithHost === null) {
+            $this->associateWithHost = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->associateWithHost = $associateWithHost;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAssociateWithHost()
+    {
+        $this->associateWithHost = null;
         return $this;
     }
 
     /**
      * Getter for disassociateFromHost
      *
-     * @ElementName disassociateFromHost
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDisassociateFromHost()
     {
-        return $this->disassociateFromHost;
+        return $this->disassociateFromHost instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disassociateFromHost;
     }
 
     /**
      * Setter for disassociateFromHost
      *
-     * @ElementName disassociateFromHost
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $disassociateFromHost
+     * @param string|null $disassociateFromHost
      * @return $this
      */
     public function setDisassociateFromHost($disassociateFromHost)
     {
-        $this->disassociateFromHost = $disassociateFromHost;
+        if ($disassociateFromHost === null) {
+            $this->disassociateFromHost = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->disassociateFromHost = $disassociateFromHost;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDisassociateFromHost()
+    {
+        $this->disassociateFromHost = null;
         return $this;
     }
 
     /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -145,28 +175,46 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestHotelingMenuKeys
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $repeatMenu
+     * @param string|null $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
-        $this->repeatMenu = $repeatMenu;
+        if ($repeatMenu === null) {
+            $this->repeatMenu = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->repeatMenu = $repeatMenu;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

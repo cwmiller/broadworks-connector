@@ -24,7 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SystemLicenseType BROADWORKS_MOBILE_MANAGER()
  * @method static SystemLicenseType SYSTEM_VOICE_PORTAL()
  * @method static SystemLicenseType NUMBER_PORTABILITY_QUERY()
- * @ValueType string
+ * @EnumValueType string
  */
 class SystemLicenseType extends \MyCLabs\Enum\Enum
 {

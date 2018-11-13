@@ -17,12 +17,14 @@ class EnterpriseCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadW
 
     /**
      * @ElementName agentUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentUserTable = null;
 
     /**
      * @ElementName deletedAgentUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deletedAgentUserTable = null;
@@ -30,19 +32,17 @@ class EnterpriseCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadW
     /**
      * Getter for agentUserTable
      *
-     * @ElementName agentUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAgentUserTable()
     {
-        return $this->agentUserTable;
+        return $this->agentUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserTable;
     }
 
     /**
      * Setter for agentUserTable
      *
-     * @ElementName agentUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable
      * @return $this
      */
     public function setAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentUserTable)
@@ -52,26 +52,42 @@ class EnterpriseCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserTable()
+    {
+        $this->agentUserTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for deletedAgentUserTable
      *
-     * @ElementName deletedAgentUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDeletedAgentUserTable()
     {
-        return $this->deletedAgentUserTable;
+        return $this->deletedAgentUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deletedAgentUserTable;
     }
 
     /**
      * Setter for deletedAgentUserTable
      *
-     * @ElementName deletedAgentUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deletedAgentUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deletedAgentUserTable
      * @return $this
      */
     public function setDeletedAgentUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deletedAgentUserTable)
     {
         $this->deletedAgentUserTable = $deletedAgentUserTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeletedAgentUserTable()
+    {
+        $this->deletedAgentUserTable = null;
         return $this;
     }
 

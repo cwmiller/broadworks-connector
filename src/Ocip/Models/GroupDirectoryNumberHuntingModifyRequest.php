@@ -16,12 +16,14 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName agentUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,12 +31,14 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName useTerminateCallToAgentFirst
+     * @Type bool
      * @var bool|null
      */
     private $useTerminateCallToAgentFirst = null;
 
     /**
      * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
+     * @Type bool
      * @var bool|null
      */
     private $useOriginalAgentServicesForBusyAndNoAnswerCalls = null;
@@ -42,19 +46,17 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -64,47 +66,63 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentUserIdList
      *
-     * @ElementName agentUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getAgentUserIdList()
     {
-        return $this->agentUserIdList;
+        return $this->agentUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserIdList;
     }
 
     /**
      * Setter for agentUserIdList
      *
-     * @ElementName agentUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
     {
-        $this->agentUserIdList = $agentUserIdList;
+        if ($agentUserIdList === null) {
+            $this->agentUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->agentUserIdList = $agentUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentUserIdList()
+    {
+        $this->agentUserIdList = null;
         return $this;
     }
 
     /**
      * Getter for useTerminateCallToAgentFirst
      *
-     * @ElementName useTerminateCallToAgentFirst
-     * @return bool|null
+     * @return bool
      */
     public function getUseTerminateCallToAgentFirst()
     {
-        return $this->useTerminateCallToAgentFirst;
+        return $this->useTerminateCallToAgentFirst instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useTerminateCallToAgentFirst;
     }
 
     /**
      * Setter for useTerminateCallToAgentFirst
      *
-     * @ElementName useTerminateCallToAgentFirst
-     * @param bool|null $useTerminateCallToAgentFirst
+     * @param bool $useTerminateCallToAgentFirst
      * @return $this
      */
     public function setUseTerminateCallToAgentFirst($useTerminateCallToAgentFirst)
@@ -114,26 +132,42 @@ class GroupDirectoryNumberHuntingModifyRequest extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseTerminateCallToAgentFirst()
+    {
+        $this->useTerminateCallToAgentFirst = null;
+        return $this;
+    }
+
+    /**
      * Getter for useOriginalAgentServicesForBusyAndNoAnswerCalls
      *
-     * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseOriginalAgentServicesForBusyAndNoAnswerCalls()
     {
-        return $this->useOriginalAgentServicesForBusyAndNoAnswerCalls;
+        return $this->useOriginalAgentServicesForBusyAndNoAnswerCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useOriginalAgentServicesForBusyAndNoAnswerCalls;
     }
 
     /**
      * Setter for useOriginalAgentServicesForBusyAndNoAnswerCalls
      *
-     * @ElementName useOriginalAgentServicesForBusyAndNoAnswerCalls
-     * @param bool|null $useOriginalAgentServicesForBusyAndNoAnswerCalls
+     * @param bool $useOriginalAgentServicesForBusyAndNoAnswerCalls
      * @return $this
      */
     public function setUseOriginalAgentServicesForBusyAndNoAnswerCalls($useOriginalAgentServicesForBusyAndNoAnswerCalls)
     {
         $this->useOriginalAgentServicesForBusyAndNoAnswerCalls = $useOriginalAgentServicesForBusyAndNoAnswerCalls;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUseOriginalAgentServicesForBusyAndNoAnswerCalls()
+    {
+        $this->useOriginalAgentServicesForBusyAndNoAnswerCalls = null;
         return $this;
     }
 

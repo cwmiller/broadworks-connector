@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SIPACLTransportProtocol UDP()
  * @method static SIPACLTransportProtocol TCP()
  * @method static SIPACLTransportProtocol ALL()
- * @ValueType string
+ * @EnumValueType string
  */
 class SIPACLTransportProtocol extends \MyCLabs\Enum\Enum
 {

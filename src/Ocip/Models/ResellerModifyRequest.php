@@ -16,12 +16,14 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
 
     /**
      * @ElementName resellerId
+     * @Type string
      * @var string|null
      */
     private $resellerId = null;
 
     /**
      * @ElementName resellerName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -30,19 +32,17 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * Getter for resellerId
      *
-     * @ElementName resellerId
-     * @return string|null
+     * @return string
      */
     public function getResellerId()
     {
-        return $this->resellerId;
+        return $this->resellerId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerId;
     }
 
     /**
      * Setter for resellerId
      *
-     * @ElementName resellerId
-     * @param string|null $resellerId
+     * @param string $resellerId
      * @return $this
      */
     public function setResellerId($resellerId)
@@ -52,28 +52,46 @@ class ResellerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResellerId()
+    {
+        $this->resellerId = null;
+        return $this;
+    }
+
+    /**
      * Getter for resellerName
      *
-     * @ElementName resellerName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getResellerName()
     {
-        return $this->resellerName;
+        return $this->resellerName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerName;
     }
 
     /**
      * Setter for resellerName
      *
-     * @ElementName resellerName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $resellerName
+     * @param string|null $resellerName
      * @return $this
      */
     public function setResellerName($resellerName)
     {
-        $this->resellerName = $resellerName;
+        if ($resellerName === null) {
+            $this->resellerName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->resellerName = $resellerName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerName()
+    {
+        $this->resellerName = null;
         return $this;
     }
 

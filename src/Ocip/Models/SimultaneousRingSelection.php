@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SimultaneousRingSelection DO_NOT_RING_IF_ON_A_CALL()
  * @method static SimultaneousRingSelection RING_FOR_ALL_INCOMING_CALLS()
- * @ValueType string
+ * @EnumValueType string
  */
 class SimultaneousRingSelection extends \MyCLabs\Enum\Enum
 {

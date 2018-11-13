@@ -15,12 +15,15 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName serviceInstanceProfile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
 
     /**
      * @ElementName destinationPhoneNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -29,18 +32,21 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
 
     /**
      * @ElementName isAnswerTimeoutEnabled
+     * @Type bool
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
 
     /**
      * @ElementName answerTimeoutMinutes
+     * @Type int
      * @var int|null
      */
     private $answerTimeoutMinutes = null;
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -48,19 +54,17 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
     /**
      * Getter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
      */
     public function getServiceInstanceProfile()
     {
-        return $this->serviceInstanceProfile;
+        return $this->serviceInstanceProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInstanceProfile;
     }
 
     /**
      * Setter for serviceInstanceProfile
      *
-     * @ElementName serviceInstanceProfile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null $serviceInstanceProfile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile
      * @return $this
      */
     public function setServiceInstanceProfile(\CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1 $serviceInstanceProfile)
@@ -70,20 +74,27 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInstanceProfile()
+    {
+        $this->serviceInstanceProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for destinationPhoneNumber
      *
-     * @ElementName destinationPhoneNumber
      * @return string[]
      */
     public function getDestinationPhoneNumber()
     {
-        return $this->destinationPhoneNumber;
+        return $this->destinationPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->destinationPhoneNumber;
     }
 
     /**
      * Setter for destinationPhoneNumber
      *
-     * @ElementName destinationPhoneNumber
      * @param string[] $destinationPhoneNumber
      * @return $this
      */
@@ -94,34 +105,40 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDestinationPhoneNumber()
+    {
+        $this->destinationPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for destinationPhoneNumber
      *
-     * @ElementName destinationPhoneNumber
      * @param string $destinationPhoneNumber
      * @return $this
      */
     public function addDestinationPhoneNumber(string $destinationPhoneNumber)
     {
-        $this->destinationPhoneNumber []= $destinationPhoneNumber;
+        $this->destinationPhoneNumber[] = $destinationPhoneNumber;
         return $this;
     }
 
     /**
      * Getter for isAnswerTimeoutEnabled
      *
-     * @ElementName isAnswerTimeoutEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsAnswerTimeoutEnabled()
     {
-        return $this->isAnswerTimeoutEnabled;
+        return $this->isAnswerTimeoutEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAnswerTimeoutEnabled;
     }
 
     /**
      * Setter for isAnswerTimeoutEnabled
      *
-     * @ElementName isAnswerTimeoutEnabled
-     * @param bool|null $isAnswerTimeoutEnabled
+     * @param bool $isAnswerTimeoutEnabled
      * @return $this
      */
     public function setIsAnswerTimeoutEnabled($isAnswerTimeoutEnabled)
@@ -131,21 +148,28 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsAnswerTimeoutEnabled()
+    {
+        $this->isAnswerTimeoutEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerTimeoutMinutes
      *
-     * @ElementName answerTimeoutMinutes
-     * @return int|null
+     * @return int
      */
     public function getAnswerTimeoutMinutes()
     {
-        return $this->answerTimeoutMinutes;
+        return $this->answerTimeoutMinutes instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerTimeoutMinutes;
     }
 
     /**
      * Setter for answerTimeoutMinutes
      *
-     * @ElementName answerTimeoutMinutes
-     * @param int|null $answerTimeoutMinutes
+     * @param int $answerTimeoutMinutes
      * @return $this
      */
     public function setAnswerTimeoutMinutes($answerTimeoutMinutes)
@@ -155,26 +179,42 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnswerTimeoutMinutes()
+    {
+        $this->answerTimeoutMinutes = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @return string|null
+     * @return string
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
-     * @param string|null $networkClassOfService
+     * @param string $networkClassOfService
      * @return $this
      */
     public function setNetworkClassOfService($networkClassOfService)
     {
         $this->networkClassOfService = $networkClassOfService;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
         return $this;
     }
 

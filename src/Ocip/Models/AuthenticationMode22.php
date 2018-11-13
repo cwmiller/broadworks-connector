@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static AuthenticationMode22 ENABLED()
  * @method static AuthenticationMode22 DISABLED()
- * @ValueType string
+ * @EnumValueType string
  */
 class AuthenticationMode22 extends \MyCLabs\Enum\Enum
 {

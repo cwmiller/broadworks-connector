@@ -38,342 +38,399 @@ class ExtendedMixedCallLogsEntry21sp1V2
 
     /**
      * @ElementName callLogType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
 
     /**
      * @ElementName callLogId
+     * @Type string
      * @var string|null
      */
     private $callLogId = null;
 
     /**
      * @ElementName callId
+     * @Type string
      * @var string|null
      */
     private $callId = null;
 
     /**
      * @ElementName subscriberType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20|null
      */
     private $subscriberType = null;
 
     /**
      * @ElementName dialedNumber
+     * @Type string
      * @var string|null
      */
     private $dialedNumber = null;
 
     /**
      * @ElementName calledNumber
+     * @Type string
      * @var string|null
      */
     private $calledNumber = null;
 
     /**
      * @ElementName networkTranslatedAddress
+     * @Type string
      * @var string|null
      */
     private $networkTranslatedAddress = null;
 
     /**
      * @ElementName callingAssertedNumber
+     * @Type string
      * @var string|null
      */
     private $callingAssertedNumber = null;
 
     /**
      * @ElementName callingPresentationNumber
+     * @Type string
      * @var string|null
      */
     private $callingPresentationNumber = null;
 
     /**
      * @ElementName callingPresentationNumberSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingPresentationNumberSource
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingPresentationNumberSource|null
      */
     private $callingPresentationNumberSource = null;
 
     /**
      * @ElementName callingPresentationName
+     * @Type string
      * @var string|null
      */
     private $callingPresentationName = null;
 
     /**
      * @ElementName callingPresentationIndicator
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator
      * @var \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator|null
      */
     private $callingPresentationIndicator = null;
 
     /**
      * @ElementName callingGroupId
+     * @Type string
      * @var string|null
      */
     private $callingGroupId = null;
 
     /**
      * @ElementName calledDirectoryName
+     * @Type string
      * @var string|null
      */
     private $calledDirectoryName = null;
 
     /**
      * @ElementName calledGroupId
+     * @Type string
      * @var string|null
      */
     private $calledGroupId = null;
 
     /**
      * @ElementName connectedNumber
+     * @Type string
      * @var string|null
      */
     private $connectedNumber = null;
 
     /**
      * @ElementName connectedNumberSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ConnectedNumberSource
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConnectedNumberSource|null
      */
     private $connectedNumberSource = null;
 
     /**
      * @ElementName connectedName
+     * @Type string
      * @var string|null
      */
     private $connectedName = null;
 
     /**
      * @ElementName connectedPresentationIndicator
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator
      * @var \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator|null
      */
     private $connectedPresentationIndicator = null;
 
     /**
      * @ElementName typeOfNetwork
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkType
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkType|null
      */
     private $typeOfNetwork = null;
 
     /**
      * @ElementName callCategory
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory|null
      */
     private $callCategory = null;
 
     /**
      * @ElementName basicCallType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType|null
      */
     private $basicCallType = null;
 
     /**
      * @ElementName configurableCallType
+     * @Type string
      * @var string|null
      */
     private $configurableCallType = null;
 
     /**
      * @ElementName alternateCallIndicator
+     * @Type string
      * @var string|null
      */
     private $alternateCallIndicator = null;
 
     /**
      * @ElementName virtualOnNetCallType
+     * @Type string
      * @var string|null
      */
     private $virtualOnNetCallType = null;
 
     /**
      * @ElementName time
+     * @Type string
      * @var string|null
      */
     private $time = null;
 
     /**
      * @ElementName startTime
+     * @Type string
      * @var string|null
      */
     private $startTime = null;
 
     /**
      * @ElementName answerTime
+     * @Type string
      * @var string|null
      */
     private $answerTime = null;
 
     /**
      * @ElementName releaseTime
+     * @Type string
      * @var string|null
      */
     private $releaseTime = null;
 
     /**
      * @ElementName detachedTime
+     * @Type string
      * @var string|null
      */
     private $detachedTime = null;
 
     /**
      * @ElementName detachedAnswerTime
+     * @Type string
      * @var string|null
      */
     private $detachedAnswerTime = null;
 
     /**
      * @ElementName outgoingDnis
+     * @Type string
      * @var string|null
      */
     private $outgoingDnis = null;
 
     /**
      * @ElementName serviceInvocationDisposition
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21sp1
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21sp1|null
      */
     private $serviceInvocationDisposition = null;
 
     /**
      * @ElementName serviceInvocationDialedNumber
+     * @Type string
      * @var string|null
      */
     private $serviceInvocationDialedNumber = null;
 
     /**
      * @ElementName serviceInvocationCalledNumber
+     * @Type string
      * @var string|null
      */
     private $serviceInvocationCalledNumber = null;
 
     /**
      * @ElementName serviceInvocationNetworkTranslatedAddress
+     * @Type string
      * @var string|null
      */
     private $serviceInvocationNetworkTranslatedAddress = null;
 
     /**
      * @ElementName serviceInvocationTypeOfNetwork
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkType
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkType|null
      */
     private $serviceInvocationTypeOfNetwork = null;
 
     /**
      * @ElementName serviceInvocationCallCategory
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory|null
      */
     private $serviceInvocationCallCategory = null;
 
     /**
      * @ElementName serviceInvocationBasicCallType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType|null
      */
     private $serviceInvocationBasicCallType = null;
 
     /**
      * @ElementName serviceInvocationConfigurableCallType
+     * @Type string
      * @var string|null
      */
     private $serviceInvocationConfigurableCallType = null;
 
     /**
      * @ElementName serviceInvocationAlternateCallIndicator
+     * @Type string
      * @var string|null
      */
     private $serviceInvocationAlternateCallIndicator = null;
 
     /**
      * @ElementName serviceInvocationVirtualOnNetCallType
+     * @Type string
      * @var string|null
      */
     private $serviceInvocationVirtualOnNetCallType = null;
 
     /**
      * @ElementName serviceInvocationCalledDirectoryName
+     * @Type string
      * @var string|null
      */
     private $serviceInvocationCalledDirectoryName = null;
 
     /**
      * @ElementName serviceInvocationCalledGroupId
+     * @Type string
      * @var string|null
      */
     private $serviceInvocationCalledGroupId = null;
 
     /**
      * @ElementName redirectingNumber
+     * @Type string
      * @var string|null
      */
     private $redirectingNumber = null;
 
     /**
      * @ElementName redirectingName
+     * @Type string
      * @var string|null
      */
     private $redirectingName = null;
 
     /**
      * @ElementName redirectingPresentationIndicator
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\RedirectingPresentationIndicator
      * @var \CWM\BroadWorksConnector\Ocip\Models\RedirectingPresentationIndicator|null
      */
     private $redirectingPresentationIndicator = null;
 
     /**
      * @ElementName RedirectingReason
+     * @Type string
      * @var string|null
      */
     private $RedirectingReason = null;
 
     /**
      * @ElementName accountAuthorizationCode
+     * @Type string
      * @var string|null
      */
     private $accountAuthorizationCode = null;
 
     /**
      * @ElementName callAuthorizationCode
+     * @Type string
      * @var string|null
      */
     private $callAuthorizationCode = null;
 
     /**
      * @ElementName userGroupId
+     * @Type string
      * @var string|null
      */
     private $userGroupId = null;
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName userPrimaryDn
+     * @Type string
      * @var string|null
      */
     private $userPrimaryDn = null;
 
     /**
      * @ElementName userPrimaryExtension
+     * @Type string
      * @var string|null
      */
     private $userPrimaryExtension = null;
 
     /**
      * @ElementName securityClassification
+     * @Type string
      * @var string|null
      */
     private $securityClassification = null;
 
     /**
      * @ElementName directRouteNumber
+     * @Type string
      * @var string|null
      */
     private $directRouteNumber = null;
@@ -381,19 +438,17 @@ class ExtendedMixedCallLogsEntry21sp1V2
     /**
      * Getter for callLogType
      *
-     * @ElementName callLogType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
      */
     public function getCallLogType()
     {
-        return $this->callLogType;
+        return $this->callLogType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLogType;
     }
 
     /**
      * Setter for callLogType
      *
-     * @ElementName callLogType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null $callLogType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallLogsType $callLogType
      * @return $this
      */
     public function setCallLogType(\CWM\BroadWorksConnector\Ocip\Models\CallLogsType $callLogType)
@@ -403,21 +458,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallLogType()
+    {
+        $this->callLogType = null;
+        return $this;
+    }
+
+    /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
@@ -427,21 +489,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for callLogId
      *
-     * @ElementName callLogId
-     * @return string|null
+     * @return string
      */
     public function getCallLogId()
     {
-        return $this->callLogId;
+        return $this->callLogId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callLogId;
     }
 
     /**
      * Setter for callLogId
      *
-     * @ElementName callLogId
-     * @param string|null $callLogId
+     * @param string $callLogId
      * @return $this
      */
     public function setCallLogId($callLogId)
@@ -451,21 +520,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallLogId()
+    {
+        $this->callLogId = null;
+        return $this;
+    }
+
+    /**
      * Getter for callId
      *
-     * @ElementName callId
-     * @return string|null
+     * @return string
      */
     public function getCallId()
     {
-        return $this->callId;
+        return $this->callId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callId;
     }
 
     /**
      * Setter for callId
      *
-     * @ElementName callId
-     * @param string|null $callId
+     * @param string $callId
      * @return $this
      */
     public function setCallId($callId)
@@ -475,21 +551,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallId()
+    {
+        $this->callId = null;
+        return $this;
+    }
+
+    /**
      * Getter for subscriberType
      *
-     * @ElementName subscriberType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20
      */
     public function getSubscriberType()
     {
-        return $this->subscriberType;
+        return $this->subscriberType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->subscriberType;
     }
 
     /**
      * Setter for subscriberType
      *
-     * @ElementName subscriberType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20|null $subscriberType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20 $subscriberType
      * @return $this
      */
     public function setSubscriberType(\CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsSubscriberType20 $subscriberType)
@@ -499,21 +582,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSubscriberType()
+    {
+        $this->subscriberType = null;
+        return $this;
+    }
+
+    /**
      * Getter for dialedNumber
      *
-     * @ElementName dialedNumber
-     * @return string|null
+     * @return string
      */
     public function getDialedNumber()
     {
-        return $this->dialedNumber;
+        return $this->dialedNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dialedNumber;
     }
 
     /**
      * Setter for dialedNumber
      *
-     * @ElementName dialedNumber
-     * @param string|null $dialedNumber
+     * @param string $dialedNumber
      * @return $this
      */
     public function setDialedNumber($dialedNumber)
@@ -523,21 +613,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDialedNumber()
+    {
+        $this->dialedNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for calledNumber
      *
-     * @ElementName calledNumber
-     * @return string|null
+     * @return string
      */
     public function getCalledNumber()
     {
-        return $this->calledNumber;
+        return $this->calledNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->calledNumber;
     }
 
     /**
      * Setter for calledNumber
      *
-     * @ElementName calledNumber
-     * @param string|null $calledNumber
+     * @param string $calledNumber
      * @return $this
      */
     public function setCalledNumber($calledNumber)
@@ -547,21 +644,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCalledNumber()
+    {
+        $this->calledNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for networkTranslatedAddress
      *
-     * @ElementName networkTranslatedAddress
-     * @return string|null
+     * @return string
      */
     public function getNetworkTranslatedAddress()
     {
-        return $this->networkTranslatedAddress;
+        return $this->networkTranslatedAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkTranslatedAddress;
     }
 
     /**
      * Setter for networkTranslatedAddress
      *
-     * @ElementName networkTranslatedAddress
-     * @param string|null $networkTranslatedAddress
+     * @param string $networkTranslatedAddress
      * @return $this
      */
     public function setNetworkTranslatedAddress($networkTranslatedAddress)
@@ -571,21 +675,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkTranslatedAddress()
+    {
+        $this->networkTranslatedAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingAssertedNumber
      *
-     * @ElementName callingAssertedNumber
-     * @return string|null
+     * @return string
      */
     public function getCallingAssertedNumber()
     {
-        return $this->callingAssertedNumber;
+        return $this->callingAssertedNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingAssertedNumber;
     }
 
     /**
      * Setter for callingAssertedNumber
      *
-     * @ElementName callingAssertedNumber
-     * @param string|null $callingAssertedNumber
+     * @param string $callingAssertedNumber
      * @return $this
      */
     public function setCallingAssertedNumber($callingAssertedNumber)
@@ -595,21 +706,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingAssertedNumber()
+    {
+        $this->callingAssertedNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingPresentationNumber
      *
-     * @ElementName callingPresentationNumber
-     * @return string|null
+     * @return string
      */
     public function getCallingPresentationNumber()
     {
-        return $this->callingPresentationNumber;
+        return $this->callingPresentationNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingPresentationNumber;
     }
 
     /**
      * Setter for callingPresentationNumber
      *
-     * @ElementName callingPresentationNumber
-     * @param string|null $callingPresentationNumber
+     * @param string $callingPresentationNumber
      * @return $this
      */
     public function setCallingPresentationNumber($callingPresentationNumber)
@@ -619,21 +737,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingPresentationNumber()
+    {
+        $this->callingPresentationNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingPresentationNumberSource
      *
-     * @ElementName callingPresentationNumberSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallingPresentationNumberSource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallingPresentationNumberSource
      */
     public function getCallingPresentationNumberSource()
     {
-        return $this->callingPresentationNumberSource;
+        return $this->callingPresentationNumberSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingPresentationNumberSource;
     }
 
     /**
      * Setter for callingPresentationNumberSource
      *
-     * @ElementName callingPresentationNumberSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallingPresentationNumberSource|null $callingPresentationNumberSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallingPresentationNumberSource $callingPresentationNumberSource
      * @return $this
      */
     public function setCallingPresentationNumberSource(\CWM\BroadWorksConnector\Ocip\Models\CallingPresentationNumberSource $callingPresentationNumberSource)
@@ -643,21 +768,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingPresentationNumberSource()
+    {
+        $this->callingPresentationNumberSource = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingPresentationName
      *
-     * @ElementName callingPresentationName
-     * @return string|null
+     * @return string
      */
     public function getCallingPresentationName()
     {
-        return $this->callingPresentationName;
+        return $this->callingPresentationName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingPresentationName;
     }
 
     /**
      * Setter for callingPresentationName
      *
-     * @ElementName callingPresentationName
-     * @param string|null $callingPresentationName
+     * @param string $callingPresentationName
      * @return $this
      */
     public function setCallingPresentationName($callingPresentationName)
@@ -667,21 +799,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingPresentationName()
+    {
+        $this->callingPresentationName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingPresentationIndicator
      *
-     * @ElementName callingPresentationIndicator
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator
      */
     public function getCallingPresentationIndicator()
     {
-        return $this->callingPresentationIndicator;
+        return $this->callingPresentationIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingPresentationIndicator;
     }
 
     /**
      * Setter for callingPresentationIndicator
      *
-     * @ElementName callingPresentationIndicator
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator|null $callingPresentationIndicator
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator $callingPresentationIndicator
      * @return $this
      */
     public function setCallingPresentationIndicator(\CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator $callingPresentationIndicator)
@@ -691,21 +830,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingPresentationIndicator()
+    {
+        $this->callingPresentationIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingGroupId
      *
-     * @ElementName callingGroupId
-     * @return string|null
+     * @return string
      */
     public function getCallingGroupId()
     {
-        return $this->callingGroupId;
+        return $this->callingGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingGroupId;
     }
 
     /**
      * Setter for callingGroupId
      *
-     * @ElementName callingGroupId
-     * @param string|null $callingGroupId
+     * @param string $callingGroupId
      * @return $this
      */
     public function setCallingGroupId($callingGroupId)
@@ -715,21 +861,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingGroupId()
+    {
+        $this->callingGroupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for calledDirectoryName
      *
-     * @ElementName calledDirectoryName
-     * @return string|null
+     * @return string
      */
     public function getCalledDirectoryName()
     {
-        return $this->calledDirectoryName;
+        return $this->calledDirectoryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->calledDirectoryName;
     }
 
     /**
      * Setter for calledDirectoryName
      *
-     * @ElementName calledDirectoryName
-     * @param string|null $calledDirectoryName
+     * @param string $calledDirectoryName
      * @return $this
      */
     public function setCalledDirectoryName($calledDirectoryName)
@@ -739,21 +892,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCalledDirectoryName()
+    {
+        $this->calledDirectoryName = null;
+        return $this;
+    }
+
+    /**
      * Getter for calledGroupId
      *
-     * @ElementName calledGroupId
-     * @return string|null
+     * @return string
      */
     public function getCalledGroupId()
     {
-        return $this->calledGroupId;
+        return $this->calledGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->calledGroupId;
     }
 
     /**
      * Setter for calledGroupId
      *
-     * @ElementName calledGroupId
-     * @param string|null $calledGroupId
+     * @param string $calledGroupId
      * @return $this
      */
     public function setCalledGroupId($calledGroupId)
@@ -763,21 +923,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCalledGroupId()
+    {
+        $this->calledGroupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for connectedNumber
      *
-     * @ElementName connectedNumber
-     * @return string|null
+     * @return string
      */
     public function getConnectedNumber()
     {
-        return $this->connectedNumber;
+        return $this->connectedNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->connectedNumber;
     }
 
     /**
      * Setter for connectedNumber
      *
-     * @ElementName connectedNumber
-     * @param string|null $connectedNumber
+     * @param string $connectedNumber
      * @return $this
      */
     public function setConnectedNumber($connectedNumber)
@@ -787,21 +954,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConnectedNumber()
+    {
+        $this->connectedNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for connectedNumberSource
      *
-     * @ElementName connectedNumberSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ConnectedNumberSource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ConnectedNumberSource
      */
     public function getConnectedNumberSource()
     {
-        return $this->connectedNumberSource;
+        return $this->connectedNumberSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->connectedNumberSource;
     }
 
     /**
      * Setter for connectedNumberSource
      *
-     * @ElementName connectedNumberSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ConnectedNumberSource|null $connectedNumberSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ConnectedNumberSource $connectedNumberSource
      * @return $this
      */
     public function setConnectedNumberSource(\CWM\BroadWorksConnector\Ocip\Models\ConnectedNumberSource $connectedNumberSource)
@@ -811,21 +985,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConnectedNumberSource()
+    {
+        $this->connectedNumberSource = null;
+        return $this;
+    }
+
+    /**
      * Getter for connectedName
      *
-     * @ElementName connectedName
-     * @return string|null
+     * @return string
      */
     public function getConnectedName()
     {
-        return $this->connectedName;
+        return $this->connectedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->connectedName;
     }
 
     /**
      * Setter for connectedName
      *
-     * @ElementName connectedName
-     * @param string|null $connectedName
+     * @param string $connectedName
      * @return $this
      */
     public function setConnectedName($connectedName)
@@ -835,21 +1016,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConnectedName()
+    {
+        $this->connectedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for connectedPresentationIndicator
      *
-     * @ElementName connectedPresentationIndicator
-     * @return \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator
      */
     public function getConnectedPresentationIndicator()
     {
-        return $this->connectedPresentationIndicator;
+        return $this->connectedPresentationIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->connectedPresentationIndicator;
     }
 
     /**
      * Setter for connectedPresentationIndicator
      *
-     * @ElementName connectedPresentationIndicator
-     * @param \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator|null $connectedPresentationIndicator
+     * @param \CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator $connectedPresentationIndicator
      * @return $this
      */
     public function setConnectedPresentationIndicator(\CWM\BroadWorksConnector\Ocip\Models\PresentationIndicator $connectedPresentationIndicator)
@@ -859,21 +1047,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConnectedPresentationIndicator()
+    {
+        $this->connectedPresentationIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for typeOfNetwork
      *
-     * @ElementName typeOfNetwork
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkType
      */
     public function getTypeOfNetwork()
     {
-        return $this->typeOfNetwork;
+        return $this->typeOfNetwork instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->typeOfNetwork;
     }
 
     /**
      * Setter for typeOfNetwork
      *
-     * @ElementName typeOfNetwork
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkType|null $typeOfNetwork
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkType $typeOfNetwork
      * @return $this
      */
     public function setTypeOfNetwork(\CWM\BroadWorksConnector\Ocip\Models\NetworkType $typeOfNetwork)
@@ -883,21 +1078,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTypeOfNetwork()
+    {
+        $this->typeOfNetwork = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCategory
      *
-     * @ElementName callCategory
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCategory|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      */
     public function getCallCategory()
     {
-        return $this->callCategory;
+        return $this->callCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCategory;
     }
 
     /**
      * Setter for callCategory
      *
-     * @ElementName callCategory
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCategory|null $callCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCategory $callCategory
      * @return $this
      */
     public function setCallCategory(\CWM\BroadWorksConnector\Ocip\Models\CallCategory $callCategory)
@@ -907,21 +1109,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallCategory()
+    {
+        $this->callCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for basicCallType
      *
-     * @ElementName basicCallType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BasicCallType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
      */
     public function getBasicCallType()
     {
-        return $this->basicCallType;
+        return $this->basicCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->basicCallType;
     }
 
     /**
      * Setter for basicCallType
      *
-     * @ElementName basicCallType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallType|null $basicCallType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallType $basicCallType
      * @return $this
      */
     public function setBasicCallType(\CWM\BroadWorksConnector\Ocip\Models\BasicCallType $basicCallType)
@@ -931,21 +1140,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBasicCallType()
+    {
+        $this->basicCallType = null;
+        return $this;
+    }
+
+    /**
      * Getter for configurableCallType
      *
-     * @ElementName configurableCallType
-     * @return string|null
+     * @return string
      */
     public function getConfigurableCallType()
     {
-        return $this->configurableCallType;
+        return $this->configurableCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->configurableCallType;
     }
 
     /**
      * Setter for configurableCallType
      *
-     * @ElementName configurableCallType
-     * @param string|null $configurableCallType
+     * @param string $configurableCallType
      * @return $this
      */
     public function setConfigurableCallType($configurableCallType)
@@ -955,21 +1171,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConfigurableCallType()
+    {
+        $this->configurableCallType = null;
+        return $this;
+    }
+
+    /**
      * Getter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
-     * @return string|null
+     * @return string
      */
     public function getAlternateCallIndicator()
     {
-        return $this->alternateCallIndicator;
+        return $this->alternateCallIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->alternateCallIndicator;
     }
 
     /**
      * Setter for alternateCallIndicator
      *
-     * @ElementName alternateCallIndicator
-     * @param string|null $alternateCallIndicator
+     * @param string $alternateCallIndicator
      * @return $this
      */
     public function setAlternateCallIndicator($alternateCallIndicator)
@@ -979,21 +1202,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAlternateCallIndicator()
+    {
+        $this->alternateCallIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for virtualOnNetCallType
      *
-     * @ElementName virtualOnNetCallType
-     * @return string|null
+     * @return string
      */
     public function getVirtualOnNetCallType()
     {
-        return $this->virtualOnNetCallType;
+        return $this->virtualOnNetCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetCallType;
     }
 
     /**
      * Setter for virtualOnNetCallType
      *
-     * @ElementName virtualOnNetCallType
-     * @param string|null $virtualOnNetCallType
+     * @param string $virtualOnNetCallType
      * @return $this
      */
     public function setVirtualOnNetCallType($virtualOnNetCallType)
@@ -1003,21 +1233,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetCallType()
+    {
+        $this->virtualOnNetCallType = null;
+        return $this;
+    }
+
+    /**
      * Getter for time
      *
-     * @ElementName time
-     * @return string|null
+     * @return string
      */
     public function getTime()
     {
-        return $this->time;
+        return $this->time instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->time;
     }
 
     /**
      * Setter for time
      *
-     * @ElementName time
-     * @param string|null $time
+     * @param string $time
      * @return $this
      */
     public function setTime($time)
@@ -1027,21 +1264,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTime()
+    {
+        $this->time = null;
+        return $this;
+    }
+
+    /**
      * Getter for startTime
      *
-     * @ElementName startTime
-     * @return string|null
+     * @return string
      */
     public function getStartTime()
     {
-        return $this->startTime;
+        return $this->startTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startTime;
     }
 
     /**
      * Setter for startTime
      *
-     * @ElementName startTime
-     * @param string|null $startTime
+     * @param string $startTime
      * @return $this
      */
     public function setStartTime($startTime)
@@ -1051,21 +1295,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStartTime()
+    {
+        $this->startTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for answerTime
      *
-     * @ElementName answerTime
-     * @return string|null
+     * @return string
      */
     public function getAnswerTime()
     {
-        return $this->answerTime;
+        return $this->answerTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->answerTime;
     }
 
     /**
      * Setter for answerTime
      *
-     * @ElementName answerTime
-     * @param string|null $answerTime
+     * @param string $answerTime
      * @return $this
      */
     public function setAnswerTime($answerTime)
@@ -1075,21 +1326,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAnswerTime()
+    {
+        $this->answerTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for releaseTime
      *
-     * @ElementName releaseTime
-     * @return string|null
+     * @return string
      */
     public function getReleaseTime()
     {
-        return $this->releaseTime;
+        return $this->releaseTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->releaseTime;
     }
 
     /**
      * Setter for releaseTime
      *
-     * @ElementName releaseTime
-     * @param string|null $releaseTime
+     * @param string $releaseTime
      * @return $this
      */
     public function setReleaseTime($releaseTime)
@@ -1099,21 +1357,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReleaseTime()
+    {
+        $this->releaseTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for detachedTime
      *
-     * @ElementName detachedTime
-     * @return string|null
+     * @return string
      */
     public function getDetachedTime()
     {
-        return $this->detachedTime;
+        return $this->detachedTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->detachedTime;
     }
 
     /**
      * Setter for detachedTime
      *
-     * @ElementName detachedTime
-     * @param string|null $detachedTime
+     * @param string $detachedTime
      * @return $this
      */
     public function setDetachedTime($detachedTime)
@@ -1123,21 +1388,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDetachedTime()
+    {
+        $this->detachedTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for detachedAnswerTime
      *
-     * @ElementName detachedAnswerTime
-     * @return string|null
+     * @return string
      */
     public function getDetachedAnswerTime()
     {
-        return $this->detachedAnswerTime;
+        return $this->detachedAnswerTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->detachedAnswerTime;
     }
 
     /**
      * Setter for detachedAnswerTime
      *
-     * @ElementName detachedAnswerTime
-     * @param string|null $detachedAnswerTime
+     * @param string $detachedAnswerTime
      * @return $this
      */
     public function setDetachedAnswerTime($detachedAnswerTime)
@@ -1147,21 +1419,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDetachedAnswerTime()
+    {
+        $this->detachedAnswerTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for outgoingDnis
      *
-     * @ElementName outgoingDnis
-     * @return string|null
+     * @return string
      */
     public function getOutgoingDnis()
     {
-        return $this->outgoingDnis;
+        return $this->outgoingDnis instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->outgoingDnis;
     }
 
     /**
      * Setter for outgoingDnis
      *
-     * @ElementName outgoingDnis
-     * @param string|null $outgoingDnis
+     * @param string $outgoingDnis
      * @return $this
      */
     public function setOutgoingDnis($outgoingDnis)
@@ -1171,21 +1450,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOutgoingDnis()
+    {
+        $this->outgoingDnis = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationDisposition
      *
-     * @ElementName serviceInvocationDisposition
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21sp1|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21sp1
      */
     public function getServiceInvocationDisposition()
     {
-        return $this->serviceInvocationDisposition;
+        return $this->serviceInvocationDisposition instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationDisposition;
     }
 
     /**
      * Setter for serviceInvocationDisposition
      *
-     * @ElementName serviceInvocationDisposition
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21sp1|null $serviceInvocationDisposition
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21sp1 $serviceInvocationDisposition
      * @return $this
      */
     public function setServiceInvocationDisposition(\CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21sp1 $serviceInvocationDisposition)
@@ -1195,21 +1481,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationDisposition()
+    {
+        $this->serviceInvocationDisposition = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationDialedNumber
      *
-     * @ElementName serviceInvocationDialedNumber
-     * @return string|null
+     * @return string
      */
     public function getServiceInvocationDialedNumber()
     {
-        return $this->serviceInvocationDialedNumber;
+        return $this->serviceInvocationDialedNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationDialedNumber;
     }
 
     /**
      * Setter for serviceInvocationDialedNumber
      *
-     * @ElementName serviceInvocationDialedNumber
-     * @param string|null $serviceInvocationDialedNumber
+     * @param string $serviceInvocationDialedNumber
      * @return $this
      */
     public function setServiceInvocationDialedNumber($serviceInvocationDialedNumber)
@@ -1219,21 +1512,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationDialedNumber()
+    {
+        $this->serviceInvocationDialedNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationCalledNumber
      *
-     * @ElementName serviceInvocationCalledNumber
-     * @return string|null
+     * @return string
      */
     public function getServiceInvocationCalledNumber()
     {
-        return $this->serviceInvocationCalledNumber;
+        return $this->serviceInvocationCalledNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationCalledNumber;
     }
 
     /**
      * Setter for serviceInvocationCalledNumber
      *
-     * @ElementName serviceInvocationCalledNumber
-     * @param string|null $serviceInvocationCalledNumber
+     * @param string $serviceInvocationCalledNumber
      * @return $this
      */
     public function setServiceInvocationCalledNumber($serviceInvocationCalledNumber)
@@ -1243,21 +1543,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationCalledNumber()
+    {
+        $this->serviceInvocationCalledNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationNetworkTranslatedAddress
      *
-     * @ElementName serviceInvocationNetworkTranslatedAddress
-     * @return string|null
+     * @return string
      */
     public function getServiceInvocationNetworkTranslatedAddress()
     {
-        return $this->serviceInvocationNetworkTranslatedAddress;
+        return $this->serviceInvocationNetworkTranslatedAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationNetworkTranslatedAddress;
     }
 
     /**
      * Setter for serviceInvocationNetworkTranslatedAddress
      *
-     * @ElementName serviceInvocationNetworkTranslatedAddress
-     * @param string|null $serviceInvocationNetworkTranslatedAddress
+     * @param string $serviceInvocationNetworkTranslatedAddress
      * @return $this
      */
     public function setServiceInvocationNetworkTranslatedAddress($serviceInvocationNetworkTranslatedAddress)
@@ -1267,21 +1574,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationNetworkTranslatedAddress()
+    {
+        $this->serviceInvocationNetworkTranslatedAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationTypeOfNetwork
      *
-     * @ElementName serviceInvocationTypeOfNetwork
-     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\NetworkType
      */
     public function getServiceInvocationTypeOfNetwork()
     {
-        return $this->serviceInvocationTypeOfNetwork;
+        return $this->serviceInvocationTypeOfNetwork instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationTypeOfNetwork;
     }
 
     /**
      * Setter for serviceInvocationTypeOfNetwork
      *
-     * @ElementName serviceInvocationTypeOfNetwork
-     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkType|null $serviceInvocationTypeOfNetwork
+     * @param \CWM\BroadWorksConnector\Ocip\Models\NetworkType $serviceInvocationTypeOfNetwork
      * @return $this
      */
     public function setServiceInvocationTypeOfNetwork(\CWM\BroadWorksConnector\Ocip\Models\NetworkType $serviceInvocationTypeOfNetwork)
@@ -1291,21 +1605,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationTypeOfNetwork()
+    {
+        $this->serviceInvocationTypeOfNetwork = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationCallCategory
      *
-     * @ElementName serviceInvocationCallCategory
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCategory|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      */
     public function getServiceInvocationCallCategory()
     {
-        return $this->serviceInvocationCallCategory;
+        return $this->serviceInvocationCallCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationCallCategory;
     }
 
     /**
      * Setter for serviceInvocationCallCategory
      *
-     * @ElementName serviceInvocationCallCategory
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCategory|null $serviceInvocationCallCategory
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCategory $serviceInvocationCallCategory
      * @return $this
      */
     public function setServiceInvocationCallCategory(\CWM\BroadWorksConnector\Ocip\Models\CallCategory $serviceInvocationCallCategory)
@@ -1315,21 +1636,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationCallCategory()
+    {
+        $this->serviceInvocationCallCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationBasicCallType
      *
-     * @ElementName serviceInvocationBasicCallType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BasicCallType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
      */
     public function getServiceInvocationBasicCallType()
     {
-        return $this->serviceInvocationBasicCallType;
+        return $this->serviceInvocationBasicCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationBasicCallType;
     }
 
     /**
      * Setter for serviceInvocationBasicCallType
      *
-     * @ElementName serviceInvocationBasicCallType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallType|null $serviceInvocationBasicCallType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BasicCallType $serviceInvocationBasicCallType
      * @return $this
      */
     public function setServiceInvocationBasicCallType(\CWM\BroadWorksConnector\Ocip\Models\BasicCallType $serviceInvocationBasicCallType)
@@ -1339,21 +1667,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationBasicCallType()
+    {
+        $this->serviceInvocationBasicCallType = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationConfigurableCallType
      *
-     * @ElementName serviceInvocationConfigurableCallType
-     * @return string|null
+     * @return string
      */
     public function getServiceInvocationConfigurableCallType()
     {
-        return $this->serviceInvocationConfigurableCallType;
+        return $this->serviceInvocationConfigurableCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationConfigurableCallType;
     }
 
     /**
      * Setter for serviceInvocationConfigurableCallType
      *
-     * @ElementName serviceInvocationConfigurableCallType
-     * @param string|null $serviceInvocationConfigurableCallType
+     * @param string $serviceInvocationConfigurableCallType
      * @return $this
      */
     public function setServiceInvocationConfigurableCallType($serviceInvocationConfigurableCallType)
@@ -1363,21 +1698,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationConfigurableCallType()
+    {
+        $this->serviceInvocationConfigurableCallType = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationAlternateCallIndicator
      *
-     * @ElementName serviceInvocationAlternateCallIndicator
-     * @return string|null
+     * @return string
      */
     public function getServiceInvocationAlternateCallIndicator()
     {
-        return $this->serviceInvocationAlternateCallIndicator;
+        return $this->serviceInvocationAlternateCallIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationAlternateCallIndicator;
     }
 
     /**
      * Setter for serviceInvocationAlternateCallIndicator
      *
-     * @ElementName serviceInvocationAlternateCallIndicator
-     * @param string|null $serviceInvocationAlternateCallIndicator
+     * @param string $serviceInvocationAlternateCallIndicator
      * @return $this
      */
     public function setServiceInvocationAlternateCallIndicator($serviceInvocationAlternateCallIndicator)
@@ -1387,21 +1729,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationAlternateCallIndicator()
+    {
+        $this->serviceInvocationAlternateCallIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationVirtualOnNetCallType
      *
-     * @ElementName serviceInvocationVirtualOnNetCallType
-     * @return string|null
+     * @return string
      */
     public function getServiceInvocationVirtualOnNetCallType()
     {
-        return $this->serviceInvocationVirtualOnNetCallType;
+        return $this->serviceInvocationVirtualOnNetCallType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationVirtualOnNetCallType;
     }
 
     /**
      * Setter for serviceInvocationVirtualOnNetCallType
      *
-     * @ElementName serviceInvocationVirtualOnNetCallType
-     * @param string|null $serviceInvocationVirtualOnNetCallType
+     * @param string $serviceInvocationVirtualOnNetCallType
      * @return $this
      */
     public function setServiceInvocationVirtualOnNetCallType($serviceInvocationVirtualOnNetCallType)
@@ -1411,21 +1760,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationVirtualOnNetCallType()
+    {
+        $this->serviceInvocationVirtualOnNetCallType = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationCalledDirectoryName
      *
-     * @ElementName serviceInvocationCalledDirectoryName
-     * @return string|null
+     * @return string
      */
     public function getServiceInvocationCalledDirectoryName()
     {
-        return $this->serviceInvocationCalledDirectoryName;
+        return $this->serviceInvocationCalledDirectoryName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationCalledDirectoryName;
     }
 
     /**
      * Setter for serviceInvocationCalledDirectoryName
      *
-     * @ElementName serviceInvocationCalledDirectoryName
-     * @param string|null $serviceInvocationCalledDirectoryName
+     * @param string $serviceInvocationCalledDirectoryName
      * @return $this
      */
     public function setServiceInvocationCalledDirectoryName($serviceInvocationCalledDirectoryName)
@@ -1435,21 +1791,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationCalledDirectoryName()
+    {
+        $this->serviceInvocationCalledDirectoryName = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceInvocationCalledGroupId
      *
-     * @ElementName serviceInvocationCalledGroupId
-     * @return string|null
+     * @return string
      */
     public function getServiceInvocationCalledGroupId()
     {
-        return $this->serviceInvocationCalledGroupId;
+        return $this->serviceInvocationCalledGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceInvocationCalledGroupId;
     }
 
     /**
      * Setter for serviceInvocationCalledGroupId
      *
-     * @ElementName serviceInvocationCalledGroupId
-     * @param string|null $serviceInvocationCalledGroupId
+     * @param string $serviceInvocationCalledGroupId
      * @return $this
      */
     public function setServiceInvocationCalledGroupId($serviceInvocationCalledGroupId)
@@ -1459,21 +1822,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceInvocationCalledGroupId()
+    {
+        $this->serviceInvocationCalledGroupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for redirectingNumber
      *
-     * @ElementName redirectingNumber
-     * @return string|null
+     * @return string
      */
     public function getRedirectingNumber()
     {
-        return $this->redirectingNumber;
+        return $this->redirectingNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectingNumber;
     }
 
     /**
      * Setter for redirectingNumber
      *
-     * @ElementName redirectingNumber
-     * @param string|null $redirectingNumber
+     * @param string $redirectingNumber
      * @return $this
      */
     public function setRedirectingNumber($redirectingNumber)
@@ -1483,21 +1853,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectingNumber()
+    {
+        $this->redirectingNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for redirectingName
      *
-     * @ElementName redirectingName
-     * @return string|null
+     * @return string
      */
     public function getRedirectingName()
     {
-        return $this->redirectingName;
+        return $this->redirectingName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectingName;
     }
 
     /**
      * Setter for redirectingName
      *
-     * @ElementName redirectingName
-     * @param string|null $redirectingName
+     * @param string $redirectingName
      * @return $this
      */
     public function setRedirectingName($redirectingName)
@@ -1507,21 +1884,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectingName()
+    {
+        $this->redirectingName = null;
+        return $this;
+    }
+
+    /**
      * Getter for redirectingPresentationIndicator
      *
-     * @ElementName redirectingPresentationIndicator
-     * @return \CWM\BroadWorksConnector\Ocip\Models\RedirectingPresentationIndicator|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RedirectingPresentationIndicator
      */
     public function getRedirectingPresentationIndicator()
     {
-        return $this->redirectingPresentationIndicator;
+        return $this->redirectingPresentationIndicator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectingPresentationIndicator;
     }
 
     /**
      * Setter for redirectingPresentationIndicator
      *
-     * @ElementName redirectingPresentationIndicator
-     * @param \CWM\BroadWorksConnector\Ocip\Models\RedirectingPresentationIndicator|null $redirectingPresentationIndicator
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RedirectingPresentationIndicator $redirectingPresentationIndicator
      * @return $this
      */
     public function setRedirectingPresentationIndicator(\CWM\BroadWorksConnector\Ocip\Models\RedirectingPresentationIndicator $redirectingPresentationIndicator)
@@ -1531,21 +1915,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectingPresentationIndicator()
+    {
+        $this->redirectingPresentationIndicator = null;
+        return $this;
+    }
+
+    /**
      * Getter for RedirectingReason
      *
-     * @ElementName RedirectingReason
-     * @return string|null
+     * @return string
      */
     public function getRedirectingReason()
     {
-        return $this->RedirectingReason;
+        return $this->RedirectingReason instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->RedirectingReason;
     }
 
     /**
      * Setter for RedirectingReason
      *
-     * @ElementName RedirectingReason
-     * @param string|null $RedirectingReason
+     * @param string $RedirectingReason
      * @return $this
      */
     public function setRedirectingReason($RedirectingReason)
@@ -1555,21 +1946,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRedirectingReason()
+    {
+        $this->RedirectingReason = null;
+        return $this;
+    }
+
+    /**
      * Getter for accountAuthorizationCode
      *
-     * @ElementName accountAuthorizationCode
-     * @return string|null
+     * @return string
      */
     public function getAccountAuthorizationCode()
     {
-        return $this->accountAuthorizationCode;
+        return $this->accountAuthorizationCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accountAuthorizationCode;
     }
 
     /**
      * Setter for accountAuthorizationCode
      *
-     * @ElementName accountAuthorizationCode
-     * @param string|null $accountAuthorizationCode
+     * @param string $accountAuthorizationCode
      * @return $this
      */
     public function setAccountAuthorizationCode($accountAuthorizationCode)
@@ -1579,21 +1977,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccountAuthorizationCode()
+    {
+        $this->accountAuthorizationCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for callAuthorizationCode
      *
-     * @ElementName callAuthorizationCode
-     * @return string|null
+     * @return string
      */
     public function getCallAuthorizationCode()
     {
-        return $this->callAuthorizationCode;
+        return $this->callAuthorizationCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callAuthorizationCode;
     }
 
     /**
      * Setter for callAuthorizationCode
      *
-     * @ElementName callAuthorizationCode
-     * @param string|null $callAuthorizationCode
+     * @param string $callAuthorizationCode
      * @return $this
      */
     public function setCallAuthorizationCode($callAuthorizationCode)
@@ -1603,21 +2008,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallAuthorizationCode()
+    {
+        $this->callAuthorizationCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for userGroupId
      *
-     * @ElementName userGroupId
-     * @return string|null
+     * @return string
      */
     public function getUserGroupId()
     {
-        return $this->userGroupId;
+        return $this->userGroupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userGroupId;
     }
 
     /**
      * Setter for userGroupId
      *
-     * @ElementName userGroupId
-     * @param string|null $userGroupId
+     * @param string $userGroupId
      * @return $this
      */
     public function setUserGroupId($userGroupId)
@@ -1627,21 +2039,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserGroupId()
+    {
+        $this->userGroupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -1651,21 +2070,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userPrimaryDn
      *
-     * @ElementName userPrimaryDn
-     * @return string|null
+     * @return string
      */
     public function getUserPrimaryDn()
     {
-        return $this->userPrimaryDn;
+        return $this->userPrimaryDn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userPrimaryDn;
     }
 
     /**
      * Setter for userPrimaryDn
      *
-     * @ElementName userPrimaryDn
-     * @param string|null $userPrimaryDn
+     * @param string $userPrimaryDn
      * @return $this
      */
     public function setUserPrimaryDn($userPrimaryDn)
@@ -1675,21 +2101,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserPrimaryDn()
+    {
+        $this->userPrimaryDn = null;
+        return $this;
+    }
+
+    /**
      * Getter for userPrimaryExtension
      *
-     * @ElementName userPrimaryExtension
-     * @return string|null
+     * @return string
      */
     public function getUserPrimaryExtension()
     {
-        return $this->userPrimaryExtension;
+        return $this->userPrimaryExtension instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userPrimaryExtension;
     }
 
     /**
      * Setter for userPrimaryExtension
      *
-     * @ElementName userPrimaryExtension
-     * @param string|null $userPrimaryExtension
+     * @param string $userPrimaryExtension
      * @return $this
      */
     public function setUserPrimaryExtension($userPrimaryExtension)
@@ -1699,21 +2132,28 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserPrimaryExtension()
+    {
+        $this->userPrimaryExtension = null;
+        return $this;
+    }
+
+    /**
      * Getter for securityClassification
      *
-     * @ElementName securityClassification
-     * @return string|null
+     * @return string
      */
     public function getSecurityClassification()
     {
-        return $this->securityClassification;
+        return $this->securityClassification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->securityClassification;
     }
 
     /**
      * Setter for securityClassification
      *
-     * @ElementName securityClassification
-     * @param string|null $securityClassification
+     * @param string $securityClassification
      * @return $this
      */
     public function setSecurityClassification($securityClassification)
@@ -1723,26 +2163,42 @@ class ExtendedMixedCallLogsEntry21sp1V2
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSecurityClassification()
+    {
+        $this->securityClassification = null;
+        return $this;
+    }
+
+    /**
      * Getter for directRouteNumber
      *
-     * @ElementName directRouteNumber
-     * @return string|null
+     * @return string
      */
     public function getDirectRouteNumber()
     {
-        return $this->directRouteNumber;
+        return $this->directRouteNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->directRouteNumber;
     }
 
     /**
      * Setter for directRouteNumber
      *
-     * @ElementName directRouteNumber
-     * @param string|null $directRouteNumber
+     * @param string $directRouteNumber
      * @return $this
      */
     public function setDirectRouteNumber($directRouteNumber)
     {
         $this->directRouteNumber = $directRouteNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDirectRouteNumber()
+    {
+        $this->directRouteNumber = null;
         return $this;
     }
 

@@ -18,24 +18,28 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName taskName
+     * @Type string
      * @var string|null
      */
     private $taskName = null;
 
     /**
      * @ElementName migrateAllGroups
+     * @Type bool
      * @var bool|null
      */
     private $migrateAllGroups = null;
 
     /**
      * @ElementName groupIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -44,19 +48,17 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -66,21 +68,28 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for taskName
      *
-     * @ElementName taskName
-     * @return string|null
+     * @return string
      */
     public function getTaskName()
     {
-        return $this->taskName;
+        return $this->taskName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->taskName;
     }
 
     /**
      * Setter for taskName
      *
-     * @ElementName taskName
-     * @param string|null $taskName
+     * @param string $taskName
      * @return $this
      */
     public function setTaskName($taskName)
@@ -90,21 +99,28 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTaskName()
+    {
+        $this->taskName = null;
+        return $this;
+    }
+
+    /**
      * Getter for migrateAllGroups
      *
-     * @ElementName migrateAllGroups
-     * @return bool|null
+     * @return bool
      */
     public function getMigrateAllGroups()
     {
-        return $this->migrateAllGroups;
+        return $this->migrateAllGroups instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->migrateAllGroups;
     }
 
     /**
      * Setter for migrateAllGroups
      *
-     * @ElementName migrateAllGroups
-     * @param bool|null $migrateAllGroups
+     * @param bool $migrateAllGroups
      * @return $this
      */
     public function setMigrateAllGroups($migrateAllGroups)
@@ -114,28 +130,46 @@ class ServiceProviderServicePackMigrationTaskModifyGroupListRequest extends \CWM
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMigrateAllGroups()
+    {
+        $this->migrateAllGroups = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupIdList
      *
-     * @ElementName groupIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null
      */
     public function getGroupIdList()
     {
-        return $this->groupIdList;
+        return $this->groupIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupIdList;
     }
 
     /**
      * Setter for groupIdList
      *
-     * @ElementName groupIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $groupIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList|null $groupIdList
      * @return $this
      */
     public function setGroupIdList(\CWM\BroadWorksConnector\Ocip\Models\ServiceProviderServicePackMigrationTaskModifyGroupListRequestGroupIdList $groupIdList)
     {
-        $this->groupIdList = $groupIdList;
+        if ($groupIdList === null) {
+            $this->groupIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->groupIdList = $groupIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGroupIdList()
+    {
+        $this->groupIdList = null;
         return $this;
     }
 

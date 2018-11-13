@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SMPPVersion _3_3()
  * @method static SMPPVersion _3_4()
  * @method static SMPPVersion _5_0()
- * @ValueType string
+ * @EnumValueType string
  */
 class SMPPVersion extends \MyCLabs\Enum\Enum
 {

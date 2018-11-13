@@ -18,90 +18,105 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName busyAnnouncementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $busyAnnouncementSelection = null;
 
     /**
      * @ElementName busyPersonalAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $busyPersonalAudioFile = null;
 
     /**
      * @ElementName busyPersonalVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $busyPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerAnnouncementSelection
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     private $noAnswerAnnouncementSelection = null;
 
     /**
      * @ElementName noAnswerPersonalAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $noAnswerPersonalAudioFile = null;
 
     /**
      * @ElementName noAnswerPersonalVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $noAnswerPersonalVideoFile = null;
 
     /**
      * @ElementName noAnswerNumberOfRings
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
 
     /**
      * @ElementName extendedAwayEnabled
+     * @Type bool
      * @var bool|null
      */
     private $extendedAwayEnabled = null;
 
     /**
      * @ElementName extendedAwayDisableMessageDeposit
+     * @Type bool
      * @var bool|null
      */
     private $extendedAwayDisableMessageDeposit = null;
 
     /**
      * @ElementName extendedAwayAudioFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $extendedAwayAudioFile = null;
 
     /**
      * @ElementName extendedAwayVideoFile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $extendedAwayVideoFile = null;
 
     /**
      * @ElementName disableMessageDeposit
+     * @Type bool
      * @var bool|null
      */
     private $disableMessageDeposit = null;
 
     /**
      * @ElementName disableMessageDepositAction
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     private $disableMessageDepositAction = null;
 
     /**
      * @ElementName greetingOnlyForwardDestination
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -110,19 +125,17 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -132,21 +145,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyAnnouncementSelection
      *
-     * @ElementName busyAnnouncementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
      */
     public function getBusyAnnouncementSelection()
     {
-        return $this->busyAnnouncementSelection;
+        return $this->busyAnnouncementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyAnnouncementSelection;
     }
 
     /**
      * Setter for busyAnnouncementSelection
      *
-     * @ElementName busyAnnouncementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null $busyAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection
      * @return $this
      */
     public function setBusyAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection $busyAnnouncementSelection)
@@ -156,21 +176,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyAnnouncementSelection()
+    {
+        $this->busyAnnouncementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyPersonalAudioFile
      *
-     * @ElementName busyPersonalAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      */
     public function getBusyPersonalAudioFile()
     {
-        return $this->busyPersonalAudioFile;
+        return $this->busyPersonalAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyPersonalAudioFile;
     }
 
     /**
      * Setter for busyPersonalAudioFile
      *
-     * @ElementName busyPersonalAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null $busyPersonalAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $busyPersonalAudioFile
      * @return $this
      */
     public function setBusyPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $busyPersonalAudioFile)
@@ -180,21 +207,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyPersonalAudioFile()
+    {
+        $this->busyPersonalAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for busyPersonalVideoFile
      *
-     * @ElementName busyPersonalVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      */
     public function getBusyPersonalVideoFile()
     {
-        return $this->busyPersonalVideoFile;
+        return $this->busyPersonalVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->busyPersonalVideoFile;
     }
 
     /**
      * Setter for busyPersonalVideoFile
      *
-     * @ElementName busyPersonalVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null $busyPersonalVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $busyPersonalVideoFile
      * @return $this
      */
     public function setBusyPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $busyPersonalVideoFile)
@@ -204,21 +238,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBusyPersonalVideoFile()
+    {
+        $this->busyPersonalVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerAnnouncementSelection
      *
-     * @ElementName noAnswerAnnouncementSelection
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
      */
     public function getNoAnswerAnnouncementSelection()
     {
-        return $this->noAnswerAnnouncementSelection;
+        return $this->noAnswerAnnouncementSelection instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerAnnouncementSelection;
     }
 
     /**
      * Setter for noAnswerAnnouncementSelection
      *
-     * @ElementName noAnswerAnnouncementSelection
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null $noAnswerAnnouncementSelection
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection
      * @return $this
      */
     public function setNoAnswerAnnouncementSelection(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection $noAnswerAnnouncementSelection)
@@ -228,21 +269,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerAnnouncementSelection()
+    {
+        $this->noAnswerAnnouncementSelection = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerPersonalAudioFile
      *
-     * @ElementName noAnswerPersonalAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      */
     public function getNoAnswerPersonalAudioFile()
     {
-        return $this->noAnswerPersonalAudioFile;
+        return $this->noAnswerPersonalAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerPersonalAudioFile;
     }
 
     /**
      * Setter for noAnswerPersonalAudioFile
      *
-     * @ElementName noAnswerPersonalAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null $noAnswerPersonalAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $noAnswerPersonalAudioFile
      * @return $this
      */
     public function setNoAnswerPersonalAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $noAnswerPersonalAudioFile)
@@ -252,21 +300,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerPersonalAudioFile()
+    {
+        $this->noAnswerPersonalAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerPersonalVideoFile
      *
-     * @ElementName noAnswerPersonalVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      */
     public function getNoAnswerPersonalVideoFile()
     {
-        return $this->noAnswerPersonalVideoFile;
+        return $this->noAnswerPersonalVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerPersonalVideoFile;
     }
 
     /**
      * Setter for noAnswerPersonalVideoFile
      *
-     * @ElementName noAnswerPersonalVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null $noAnswerPersonalVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $noAnswerPersonalVideoFile
      * @return $this
      */
     public function setNoAnswerPersonalVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $noAnswerPersonalVideoFile)
@@ -276,21 +331,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerPersonalVideoFile()
+    {
+        $this->noAnswerPersonalVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
      */
     public function getNoAnswerNumberOfRings()
     {
-        return $this->noAnswerNumberOfRings;
+        return $this->noAnswerNumberOfRings instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noAnswerNumberOfRings;
     }
 
     /**
      * Setter for noAnswerNumberOfRings
      *
-     * @ElementName noAnswerNumberOfRings
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null $noAnswerNumberOfRings
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings
      * @return $this
      */
     public function setNoAnswerNumberOfRings(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings $noAnswerNumberOfRings)
@@ -300,21 +362,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoAnswerNumberOfRings()
+    {
+        $this->noAnswerNumberOfRings = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedAwayEnabled
      *
-     * @ElementName extendedAwayEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getExtendedAwayEnabled()
     {
-        return $this->extendedAwayEnabled;
+        return $this->extendedAwayEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedAwayEnabled;
     }
 
     /**
      * Setter for extendedAwayEnabled
      *
-     * @ElementName extendedAwayEnabled
-     * @param bool|null $extendedAwayEnabled
+     * @param bool $extendedAwayEnabled
      * @return $this
      */
     public function setExtendedAwayEnabled($extendedAwayEnabled)
@@ -324,21 +393,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtendedAwayEnabled()
+    {
+        $this->extendedAwayEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedAwayDisableMessageDeposit
      *
-     * @ElementName extendedAwayDisableMessageDeposit
-     * @return bool|null
+     * @return bool
      */
     public function getExtendedAwayDisableMessageDeposit()
     {
-        return $this->extendedAwayDisableMessageDeposit;
+        return $this->extendedAwayDisableMessageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedAwayDisableMessageDeposit;
     }
 
     /**
      * Setter for extendedAwayDisableMessageDeposit
      *
-     * @ElementName extendedAwayDisableMessageDeposit
-     * @param bool|null $extendedAwayDisableMessageDeposit
+     * @param bool $extendedAwayDisableMessageDeposit
      * @return $this
      */
     public function setExtendedAwayDisableMessageDeposit($extendedAwayDisableMessageDeposit)
@@ -348,21 +424,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtendedAwayDisableMessageDeposit()
+    {
+        $this->extendedAwayDisableMessageDeposit = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedAwayAudioFile
      *
-     * @ElementName extendedAwayAudioFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      */
     public function getExtendedAwayAudioFile()
     {
-        return $this->extendedAwayAudioFile;
+        return $this->extendedAwayAudioFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedAwayAudioFile;
     }
 
     /**
      * Setter for extendedAwayAudioFile
      *
-     * @ElementName extendedAwayAudioFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null $extendedAwayAudioFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $extendedAwayAudioFile
      * @return $this
      */
     public function setExtendedAwayAudioFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $extendedAwayAudioFile)
@@ -372,21 +455,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtendedAwayAudioFile()
+    {
+        $this->extendedAwayAudioFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedAwayVideoFile
      *
-     * @ElementName extendedAwayVideoFile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
      */
     public function getExtendedAwayVideoFile()
     {
-        return $this->extendedAwayVideoFile;
+        return $this->extendedAwayVideoFile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedAwayVideoFile;
     }
 
     /**
      * Setter for extendedAwayVideoFile
      *
-     * @ElementName extendedAwayVideoFile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null $extendedAwayVideoFile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $extendedAwayVideoFile
      * @return $this
      */
     public function setExtendedAwayVideoFile(\CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource $extendedAwayVideoFile)
@@ -396,21 +486,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetExtendedAwayVideoFile()
+    {
+        $this->extendedAwayVideoFile = null;
+        return $this;
+    }
+
+    /**
      * Getter for disableMessageDeposit
      *
-     * @ElementName disableMessageDeposit
-     * @return bool|null
+     * @return bool
      */
     public function getDisableMessageDeposit()
     {
-        return $this->disableMessageDeposit;
+        return $this->disableMessageDeposit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableMessageDeposit;
     }
 
     /**
      * Setter for disableMessageDeposit
      *
-     * @ElementName disableMessageDeposit
-     * @param bool|null $disableMessageDeposit
+     * @param bool $disableMessageDeposit
      * @return $this
      */
     public function setDisableMessageDeposit($disableMessageDeposit)
@@ -420,21 +517,28 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisableMessageDeposit()
+    {
+        $this->disableMessageDeposit = null;
+        return $this;
+    }
+
+    /**
      * Getter for disableMessageDepositAction
      *
-     * @ElementName disableMessageDepositAction
-     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection
      */
     public function getDisableMessageDepositAction()
     {
-        return $this->disableMessageDepositAction;
+        return $this->disableMessageDepositAction instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->disableMessageDepositAction;
     }
 
     /**
      * Setter for disableMessageDepositAction
      *
-     * @ElementName disableMessageDepositAction
-     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null $disableMessageDepositAction
+     * @param \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection $disableMessageDepositAction
      * @return $this
      */
     public function setDisableMessageDepositAction(\CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection $disableMessageDepositAction)
@@ -444,28 +548,46 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDisableMessageDepositAction()
+    {
+        $this->disableMessageDepositAction = null;
+        return $this;
+    }
+
+    /**
      * Getter for greetingOnlyForwardDestination
      *
-     * @ElementName greetingOnlyForwardDestination
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getGreetingOnlyForwardDestination()
     {
-        return $this->greetingOnlyForwardDestination;
+        return $this->greetingOnlyForwardDestination instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->greetingOnlyForwardDestination;
     }
 
     /**
      * Setter for greetingOnlyForwardDestination
      *
-     * @ElementName greetingOnlyForwardDestination
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $greetingOnlyForwardDestination
+     * @param string|null $greetingOnlyForwardDestination
      * @return $this
      */
     public function setGreetingOnlyForwardDestination($greetingOnlyForwardDestination)
     {
-        $this->greetingOnlyForwardDestination = $greetingOnlyForwardDestination;
+        if ($greetingOnlyForwardDestination === null) {
+            $this->greetingOnlyForwardDestination = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->greetingOnlyForwardDestination = $greetingOnlyForwardDestination;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetGreetingOnlyForwardDestination()
+    {
+        $this->greetingOnlyForwardDestination = null;
         return $this;
     }
 

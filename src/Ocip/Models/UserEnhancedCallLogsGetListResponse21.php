@@ -29,18 +29,21 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName totalNumberOfRows
+     * @Type int
      * @var int|null
      */
     private $totalNumberOfRows = null;
 
     /**
      * @ElementName legacyEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry|null
      */
     private $legacyEntry = null;
 
     /**
      * @ElementName extendedEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry|null
      */
     private $extendedEntry = null;
@@ -48,19 +51,17 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @return int|null
+     * @return int
      */
     public function getTotalNumberOfRows()
     {
-        return $this->totalNumberOfRows;
+        return $this->totalNumberOfRows instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalNumberOfRows;
     }
 
     /**
      * Setter for totalNumberOfRows
      *
-     * @ElementName totalNumberOfRows
-     * @param int|null $totalNumberOfRows
+     * @param int $totalNumberOfRows
      * @return $this
      */
     public function setTotalNumberOfRows($totalNumberOfRows)
@@ -70,21 +71,28 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTotalNumberOfRows()
+    {
+        $this->totalNumberOfRows = null;
+        return $this;
+    }
+
+    /**
      * Getter for legacyEntry
      *
-     * @ElementName legacyEntry
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry
      */
     public function getLegacyEntry()
     {
-        return $this->legacyEntry;
+        return $this->legacyEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->legacyEntry;
     }
 
     /**
      * Setter for legacyEntry
      *
-     * @ElementName legacyEntry
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry|null $legacyEntry
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry $legacyEntry
      * @return $this
      */
     public function setLegacyEntry(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry $legacyEntry)
@@ -94,26 +102,42 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLegacyEntry()
+    {
+        $this->legacyEntry = null;
+        return $this;
+    }
+
+    /**
      * Getter for extendedEntry
      *
-     * @ElementName extendedEntry
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry
      */
     public function getExtendedEntry()
     {
-        return $this->extendedEntry;
+        return $this->extendedEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->extendedEntry;
     }
 
     /**
      * Setter for extendedEntry
      *
-     * @ElementName extendedEntry
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry|null $extendedEntry
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry $extendedEntry
      * @return $this
      */
     public function setExtendedEntry(\CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry $extendedEntry)
     {
         $this->extendedEntry = $extendedEntry;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExtendedEntry()
+    {
+        $this->extendedEntry = null;
         return $this;
     }
 

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AccessDeviceStatus OFFLINE()
  * @method static AccessDeviceStatus UNAVAILABLE()
  * @method static AccessDeviceStatus UNKNOWN()
- * @ValueType string
+ * @EnumValueType string
  */
 class AccessDeviceStatus extends \MyCLabs\Enum\Enum
 {

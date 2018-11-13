@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterReportTemplateLevel SYSTEM()
  * @method static CallCenterReportTemplateLevel ENTERPRISE()
  * @method static CallCenterReportTemplateLevel GROUP()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportTemplateLevel extends \MyCLabs\Enum\Enum
 {

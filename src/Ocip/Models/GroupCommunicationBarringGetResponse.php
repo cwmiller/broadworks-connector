@@ -14,12 +14,14 @@ class GroupCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName useDefaultServiceProviderProfile
+     * @Type bool
      * @var bool|null
      */
     private $useDefaultServiceProviderProfile = null;
 
     /**
      * @ElementName profile
+     * @Type string
      * @var string|null
      */
     private $profile = null;
@@ -27,19 +29,17 @@ class GroupCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for useDefaultServiceProviderProfile
      *
-     * @ElementName useDefaultServiceProviderProfile
-     * @return bool|null
+     * @return bool
      */
     public function getUseDefaultServiceProviderProfile()
     {
-        return $this->useDefaultServiceProviderProfile;
+        return $this->useDefaultServiceProviderProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDefaultServiceProviderProfile;
     }
 
     /**
      * Setter for useDefaultServiceProviderProfile
      *
-     * @ElementName useDefaultServiceProviderProfile
-     * @param bool|null $useDefaultServiceProviderProfile
+     * @param bool $useDefaultServiceProviderProfile
      * @return $this
      */
     public function setUseDefaultServiceProviderProfile($useDefaultServiceProviderProfile)
@@ -49,26 +49,42 @@ class GroupCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDefaultServiceProviderProfile()
+    {
+        $this->useDefaultServiceProviderProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for profile
      *
-     * @ElementName profile
-     * @return string|null
+     * @return string
      */
     public function getProfile()
     {
-        return $this->profile;
+        return $this->profile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profile;
     }
 
     /**
      * Setter for profile
      *
-     * @ElementName profile
-     * @param string|null $profile
+     * @param string $profile
      * @return $this
      */
     public function setProfile($profile)
     {
         $this->profile = $profile;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfile()
+    {
+        $this->profile = null;
         return $this;
     }
 

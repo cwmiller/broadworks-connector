@@ -12,12 +12,14 @@ class HuntAgentWeight
 
     /**
      * @ElementName agentUserId
+     * @Type string
      * @var string|null
      */
     private $agentUserId = null;
 
     /**
      * @ElementName weight
+     * @Type int
      * @var int|null
      */
     private $weight = null;
@@ -25,19 +27,17 @@ class HuntAgentWeight
     /**
      * Getter for agentUserId
      *
-     * @ElementName agentUserId
-     * @return string|null
+     * @return string
      */
     public function getAgentUserId()
     {
-        return $this->agentUserId;
+        return $this->agentUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserId;
     }
 
     /**
      * Setter for agentUserId
      *
-     * @ElementName agentUserId
-     * @param string|null $agentUserId
+     * @param string $agentUserId
      * @return $this
      */
     public function setAgentUserId($agentUserId)
@@ -47,26 +47,42 @@ class HuntAgentWeight
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAgentUserId()
+    {
+        $this->agentUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for weight
      *
-     * @ElementName weight
-     * @return int|null
+     * @return int
      */
     public function getWeight()
     {
-        return $this->weight;
+        return $this->weight instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->weight;
     }
 
     /**
      * Setter for weight
      *
-     * @ElementName weight
-     * @param int|null $weight
+     * @param int $weight
      * @return $this
      */
     public function setWeight($weight)
     {
         $this->weight = $weight;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWeight()
+    {
+        $this->weight = null;
         return $this;
     }
 

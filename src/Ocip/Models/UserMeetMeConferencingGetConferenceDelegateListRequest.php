@@ -17,12 +17,14 @@ class UserMeetMeConferencingGetConferenceDelegateListRequest extends \CWM\BroadW
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName conferenceKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     private $conferenceKey = null;
@@ -30,19 +32,17 @@ class UserMeetMeConferencingGetConferenceDelegateListRequest extends \CWM\BroadW
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -52,26 +52,42 @@ class UserMeetMeConferencingGetConferenceDelegateListRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceKey
      *
-     * @ElementName conferenceKey
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
      */
     public function getConferenceKey()
     {
-        return $this->conferenceKey;
+        return $this->conferenceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceKey;
     }
 
     /**
      * Setter for conferenceKey
      *
-     * @ElementName conferenceKey
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null $conferenceKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey $conferenceKey
      * @return $this
      */
     public function setConferenceKey(\CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey $conferenceKey)
     {
         $this->conferenceKey = $conferenceKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetConferenceKey()
+    {
+        $this->conferenceKey = null;
         return $this;
     }
 

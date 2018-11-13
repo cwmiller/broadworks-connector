@@ -16,12 +16,14 @@ class SystemCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName passcodeLength
+     * @Type int
      * @var int|null
      */
     private $passcodeLength = null;
 
     /**
      * @ElementName passcodeTimeoutSeconds
+     * @Type int
      * @var int|null
      */
     private $passcodeTimeoutSeconds = null;
@@ -29,19 +31,17 @@ class SystemCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for passcodeLength
      *
-     * @ElementName passcodeLength
-     * @return int|null
+     * @return int
      */
     public function getPasscodeLength()
     {
-        return $this->passcodeLength;
+        return $this->passcodeLength instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcodeLength;
     }
 
     /**
      * Setter for passcodeLength
      *
-     * @ElementName passcodeLength
-     * @param int|null $passcodeLength
+     * @param int $passcodeLength
      * @return $this
      */
     public function setPasscodeLength($passcodeLength)
@@ -51,26 +51,42 @@ class SystemCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasscodeLength()
+    {
+        $this->passcodeLength = null;
+        return $this;
+    }
+
+    /**
      * Getter for passcodeTimeoutSeconds
      *
-     * @ElementName passcodeTimeoutSeconds
-     * @return int|null
+     * @return int
      */
     public function getPasscodeTimeoutSeconds()
     {
-        return $this->passcodeTimeoutSeconds;
+        return $this->passcodeTimeoutSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcodeTimeoutSeconds;
     }
 
     /**
      * Setter for passcodeTimeoutSeconds
      *
-     * @ElementName passcodeTimeoutSeconds
-     * @param int|null $passcodeTimeoutSeconds
+     * @param int $passcodeTimeoutSeconds
      * @return $this
      */
     public function setPasscodeTimeoutSeconds($passcodeTimeoutSeconds)
     {
         $this->passcodeTimeoutSeconds = $passcodeTimeoutSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPasscodeTimeoutSeconds()
+    {
+        $this->passcodeTimeoutSeconds = null;
         return $this;
     }
 

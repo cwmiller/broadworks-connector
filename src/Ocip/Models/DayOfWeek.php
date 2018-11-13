@@ -14,7 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DayOfWeek THURSDAY()
  * @method static DayOfWeek FRIDAY()
  * @method static DayOfWeek SATURDAY()
- * @ValueType string
+ * @EnumValueType string
  */
 class DayOfWeek extends \MyCLabs\Enum\Enum
 {

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ServiceProviderAdminCallingLineIdNumberAccess FULL()
  * @method static ServiceProviderAdminCallingLineIdNumberAccess READ_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceProviderAdminCallingLineIdNumberAccess extends \MyCLabs\Enum\Enum
 {

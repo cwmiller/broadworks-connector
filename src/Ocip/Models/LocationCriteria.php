@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static LocationCriteria IN_OFFICE_ZONE_OUTSIDE_OF_PRIMARY_ZONE()
  * @method static LocationCriteria OUTSIDE_OF_OFFICE_ZONE()
  * @method static LocationCriteria DISREGARD_ZONES()
- * @ValueType string
+ * @EnumValueType string
  */
 class LocationCriteria extends \MyCLabs\Enum\Enum
 {

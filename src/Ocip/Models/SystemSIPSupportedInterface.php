@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static SystemSIPSupportedInterface ACCESS()
  * @method static SystemSIPSupportedInterface NETWORK()
  * @method static SystemSIPSupportedInterface BOTH()
- * @ValueType string
+ * @EnumValueType string
  */
 class SystemSIPSupportedInterface extends \MyCLabs\Enum\Enum
 {

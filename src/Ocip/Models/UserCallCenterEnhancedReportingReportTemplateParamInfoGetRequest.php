@@ -18,6 +18,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest extends \
 
     /**
      * @ElementName reportTemplate
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey|null
      */
     private $reportTemplate = null;
@@ -25,24 +26,31 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest extends \
     /**
      * Getter for reportTemplate
      *
-     * @ElementName reportTemplate
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey
      */
     public function getReportTemplate()
     {
-        return $this->reportTemplate;
+        return $this->reportTemplate instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reportTemplate;
     }
 
     /**
      * Setter for reportTemplate
      *
-     * @ElementName reportTemplate
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey|null $reportTemplate
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey $reportTemplate
      * @return $this
      */
     public function setReportTemplate(\CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey $reportTemplate)
     {
         $this->reportTemplate = $reportTemplate;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReportTemplate()
+    {
+        $this->reportTemplate = null;
         return $this;
     }
 

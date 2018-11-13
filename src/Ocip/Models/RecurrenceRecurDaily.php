@@ -10,6 +10,7 @@ class RecurrenceRecurDaily
 
     /**
      * @ElementName recurInterval
+     * @Type int
      * @var int|null
      */
     private $recurInterval = null;
@@ -17,24 +18,31 @@ class RecurrenceRecurDaily
     /**
      * Getter for recurInterval
      *
-     * @ElementName recurInterval
-     * @return int|null
+     * @return int
      */
     public function getRecurInterval()
     {
-        return $this->recurInterval;
+        return $this->recurInterval instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recurInterval;
     }
 
     /**
      * Setter for recurInterval
      *
-     * @ElementName recurInterval
-     * @param int|null $recurInterval
+     * @param int $recurInterval
      * @return $this
      */
     public function setRecurInterval($recurInterval)
     {
         $this->recurInterval = $recurInterval;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRecurInterval()
+    {
+        $this->recurInterval = null;
         return $this;
     }
 

@@ -16,12 +16,14 @@ class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName priorityLevel
+     * @Type int
      * @var int|null
      */
     private $priorityLevel = null;
 
     /**
      * @ElementName sessionPriority
+     * @Type int
      * @var int|null
      */
     private $sessionPriority = null;
@@ -29,19 +31,17 @@ class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for priorityLevel
      *
-     * @ElementName priorityLevel
-     * @return int|null
+     * @return int
      */
     public function getPriorityLevel()
     {
-        return $this->priorityLevel;
+        return $this->priorityLevel instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priorityLevel;
     }
 
     /**
      * Setter for priorityLevel
      *
-     * @ElementName priorityLevel
-     * @param int|null $priorityLevel
+     * @param int $priorityLevel
      * @return $this
      */
     public function setPriorityLevel($priorityLevel)
@@ -51,26 +51,42 @@ class SystemGETSSessionPriorityMapModifyRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPriorityLevel()
+    {
+        $this->priorityLevel = null;
+        return $this;
+    }
+
+    /**
      * Getter for sessionPriority
      *
-     * @ElementName sessionPriority
-     * @return int|null
+     * @return int
      */
     public function getSessionPriority()
     {
-        return $this->sessionPriority;
+        return $this->sessionPriority instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sessionPriority;
     }
 
     /**
      * Setter for sessionPriority
      *
-     * @ElementName sessionPriority
-     * @param int|null $sessionPriority
+     * @param int $sessionPriority
      * @return $this
      */
     public function setSessionPriority($sessionPriority)
     {
         $this->sessionPriority = $sessionPriority;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSessionPriority()
+    {
+        $this->sessionPriority = null;
         return $this;
     }
 

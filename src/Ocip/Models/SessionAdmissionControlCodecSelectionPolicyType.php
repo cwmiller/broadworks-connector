@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static SessionAdmissionControlCodecSelectionPolicyType HIGHEST_WEIGHT()
  * @method static SessionAdmissionControlCodecSelectionPolicyType PREFERRED_CODEC()
- * @ValueType string
+ * @EnumValueType string
  */
 class SessionAdmissionControlCodecSelectionPolicyType extends \MyCLabs\Enum\Enum
 {

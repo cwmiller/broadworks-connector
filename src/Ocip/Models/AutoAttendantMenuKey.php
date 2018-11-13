@@ -19,7 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AutoAttendantMenuKey _9()
  * @method static AutoAttendantMenuKey STAR()
  * @method static AutoAttendantMenuKey HASH()
- * @ValueType string
+ * @EnumValueType string
  */
 class AutoAttendantMenuKey extends \MyCLabs\Enum\Enum
 {

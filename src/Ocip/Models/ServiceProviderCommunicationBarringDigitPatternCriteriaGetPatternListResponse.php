@@ -17,6 +17,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRespo
 
     /**
      * @ElementName matchDigitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $matchDigitPattern = array(
@@ -26,18 +28,16 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRespo
     /**
      * Getter for matchDigitPattern
      *
-     * @ElementName matchDigitPattern
      * @return string[]
      */
     public function getMatchDigitPattern()
     {
-        return $this->matchDigitPattern;
+        return $this->matchDigitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->matchDigitPattern;
     }
 
     /**
      * Setter for matchDigitPattern
      *
-     * @ElementName matchDigitPattern
      * @param string[] $matchDigitPattern
      * @return $this
      */
@@ -48,15 +48,23 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRespo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMatchDigitPattern()
+    {
+        $this->matchDigitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for matchDigitPattern
      *
-     * @ElementName matchDigitPattern
      * @param string $matchDigitPattern
      * @return $this
      */
     public function addMatchDigitPattern(string $matchDigitPattern)
     {
-        $this->matchDigitPattern []= $matchDigitPattern;
+        $this->matchDigitPattern[] = $matchDigitPattern;
         return $this;
     }
 

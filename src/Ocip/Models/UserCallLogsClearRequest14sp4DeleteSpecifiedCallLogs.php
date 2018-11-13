@@ -10,6 +10,8 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
 
     /**
      * @ElementName placedCallLogId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $placedCallLogId = array(
@@ -18,6 +20,8 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
 
     /**
      * @ElementName receivedCallLogId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $receivedCallLogId = array(
@@ -26,6 +30,8 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
 
     /**
      * @ElementName missedCallLogId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $missedCallLogId = array(
@@ -35,18 +41,16 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
     /**
      * Getter for placedCallLogId
      *
-     * @ElementName placedCallLogId
      * @return string[]
      */
     public function getPlacedCallLogId()
     {
-        return $this->placedCallLogId;
+        return $this->placedCallLogId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->placedCallLogId;
     }
 
     /**
      * Setter for placedCallLogId
      *
-     * @ElementName placedCallLogId
      * @param string[] $placedCallLogId
      * @return $this
      */
@@ -57,33 +61,39 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlacedCallLogId()
+    {
+        $this->placedCallLogId = null;
+        return $this;
+    }
+
+    /**
      * Adder for placedCallLogId
      *
-     * @ElementName placedCallLogId
      * @param string $placedCallLogId
      * @return $this
      */
     public function addPlacedCallLogId(string $placedCallLogId)
     {
-        $this->placedCallLogId []= $placedCallLogId;
+        $this->placedCallLogId[] = $placedCallLogId;
         return $this;
     }
 
     /**
      * Getter for receivedCallLogId
      *
-     * @ElementName receivedCallLogId
      * @return string[]
      */
     public function getReceivedCallLogId()
     {
-        return $this->receivedCallLogId;
+        return $this->receivedCallLogId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->receivedCallLogId;
     }
 
     /**
      * Setter for receivedCallLogId
      *
-     * @ElementName receivedCallLogId
      * @param string[] $receivedCallLogId
      * @return $this
      */
@@ -94,33 +104,39 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReceivedCallLogId()
+    {
+        $this->receivedCallLogId = null;
+        return $this;
+    }
+
+    /**
      * Adder for receivedCallLogId
      *
-     * @ElementName receivedCallLogId
      * @param string $receivedCallLogId
      * @return $this
      */
     public function addReceivedCallLogId(string $receivedCallLogId)
     {
-        $this->receivedCallLogId []= $receivedCallLogId;
+        $this->receivedCallLogId[] = $receivedCallLogId;
         return $this;
     }
 
     /**
      * Getter for missedCallLogId
      *
-     * @ElementName missedCallLogId
      * @return string[]
      */
     public function getMissedCallLogId()
     {
-        return $this->missedCallLogId;
+        return $this->missedCallLogId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->missedCallLogId;
     }
 
     /**
      * Setter for missedCallLogId
      *
-     * @ElementName missedCallLogId
      * @param string[] $missedCallLogId
      * @return $this
      */
@@ -131,15 +147,23 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMissedCallLogId()
+    {
+        $this->missedCallLogId = null;
+        return $this;
+    }
+
+    /**
      * Adder for missedCallLogId
      *
-     * @ElementName missedCallLogId
      * @param string $missedCallLogId
      * @return $this
      */
     public function addMissedCallLogId(string $missedCallLogId)
     {
-        $this->missedCallLogId []= $missedCallLogId;
+        $this->missedCallLogId[] = $missedCallLogId;
         return $this;
     }
 

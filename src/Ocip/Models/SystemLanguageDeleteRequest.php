@@ -16,6 +16,7 @@ class SystemLanguageDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
 
     /**
      * @ElementName language
+     * @Type string
      * @var string|null
      */
     private $language = null;
@@ -23,24 +24,31 @@ class SystemLanguageDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * Getter for language
      *
-     * @ElementName language
-     * @return string|null
+     * @return string
      */
     public function getLanguage()
     {
-        return $this->language;
+        return $this->language instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->language;
     }
 
     /**
      * Setter for language
      *
-     * @ElementName language
-     * @param string|null $language
+     * @param string $language
      * @return $this
      */
     public function setLanguage($language)
     {
         $this->language = $language;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetLanguage()
+    {
+        $this->language = null;
         return $this;
     }
 

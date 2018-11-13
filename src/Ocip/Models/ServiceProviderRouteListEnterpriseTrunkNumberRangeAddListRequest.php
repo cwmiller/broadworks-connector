@@ -16,12 +16,15 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest extends \
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName numberRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $numberRange = array(
@@ -31,19 +34,17 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest extends \
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -53,20 +54,27 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberRange
      *
-     * @ElementName numberRange
      * @return \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     public function getNumberRange()
     {
-        return $this->numberRange;
+        return $this->numberRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberRange;
     }
 
     /**
      * Setter for numberRange
      *
-     * @ElementName numberRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange[] $numberRange
      * @return $this
      */
@@ -77,15 +85,23 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeAddListRequest extends \
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberRange()
+    {
+        $this->numberRange = null;
+        return $this;
+    }
+
+    /**
      * Adder for numberRange
      *
-     * @ElementName numberRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\DNRange $numberRange
      * @return $this
      */
     public function addNumberRange($numberRange)
     {
-        $this->numberRange []= $numberRange;
+        $this->numberRange[] = $numberRange;
         return $this;
     }
 

@@ -17,6 +17,7 @@ class SystemApplicationControllerGetListResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName applicationControllerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $applicationControllerTable = null;
@@ -24,24 +25,31 @@ class SystemApplicationControllerGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for applicationControllerTable
      *
-     * @ElementName applicationControllerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getApplicationControllerTable()
     {
-        return $this->applicationControllerTable;
+        return $this->applicationControllerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationControllerTable;
     }
 
     /**
      * Setter for applicationControllerTable
      *
-     * @ElementName applicationControllerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $applicationControllerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $applicationControllerTable
      * @return $this
      */
     public function setApplicationControllerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $applicationControllerTable)
     {
         $this->applicationControllerTable = $applicationControllerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetApplicationControllerTable()
+    {
+        $this->applicationControllerTable = null;
         return $this;
     }
 

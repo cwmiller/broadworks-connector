@@ -14,12 +14,14 @@ class GroupGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWorksConnecto
 
     /**
      * @ElementName maximumTargetUsersFromServiceProvider
+     * @Type int
      * @var int|null
      */
     private $maximumTargetUsersFromServiceProvider = null;
 
     /**
      * @ElementName maximumTargetUsers
+     * @Type int
      * @var int|null
      */
     private $maximumTargetUsers = null;
@@ -27,19 +29,17 @@ class GroupGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWorksConnecto
     /**
      * Getter for maximumTargetUsersFromServiceProvider
      *
-     * @ElementName maximumTargetUsersFromServiceProvider
-     * @return int|null
+     * @return int
      */
     public function getMaximumTargetUsersFromServiceProvider()
     {
-        return $this->maximumTargetUsersFromServiceProvider;
+        return $this->maximumTargetUsersFromServiceProvider instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumTargetUsersFromServiceProvider;
     }
 
     /**
      * Setter for maximumTargetUsersFromServiceProvider
      *
-     * @ElementName maximumTargetUsersFromServiceProvider
-     * @param int|null $maximumTargetUsersFromServiceProvider
+     * @param int $maximumTargetUsersFromServiceProvider
      * @return $this
      */
     public function setMaximumTargetUsersFromServiceProvider($maximumTargetUsersFromServiceProvider)
@@ -49,26 +49,42 @@ class GroupGroupPagingTargetsCapacityGetResponse extends \CWM\BroadWorksConnecto
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaximumTargetUsersFromServiceProvider()
+    {
+        $this->maximumTargetUsersFromServiceProvider = null;
+        return $this;
+    }
+
+    /**
      * Getter for maximumTargetUsers
      *
-     * @ElementName maximumTargetUsers
-     * @return int|null
+     * @return int
      */
     public function getMaximumTargetUsers()
     {
-        return $this->maximumTargetUsers;
+        return $this->maximumTargetUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumTargetUsers;
     }
 
     /**
      * Setter for maximumTargetUsers
      *
-     * @ElementName maximumTargetUsers
-     * @param int|null $maximumTargetUsers
+     * @param int $maximumTargetUsers
      * @return $this
      */
     public function setMaximumTargetUsers($maximumTargetUsers)
     {
         $this->maximumTargetUsers = $maximumTargetUsers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaximumTargetUsers()
+    {
+        $this->maximumTargetUsers = null;
         return $this;
     }
 

@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterScheduledServiceAction NONE()
  * @method static CallCenterScheduledServiceAction BUSY()
  * @method static CallCenterScheduledServiceAction TRANSFER()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterScheduledServiceAction extends \MyCLabs\Enum\Enum
 {

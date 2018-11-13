@@ -21,6 +21,7 @@ class SystemDnGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\M
 
     /**
      * @ElementName dnUtilizationTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnUtilizationTable = null;
@@ -28,24 +29,31 @@ class SystemDnGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * Getter for dnUtilizationTable
      *
-     * @ElementName dnUtilizationTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDnUtilizationTable()
     {
-        return $this->dnUtilizationTable;
+        return $this->dnUtilizationTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->dnUtilizationTable;
     }
 
     /**
      * Setter for dnUtilizationTable
      *
-     * @ElementName dnUtilizationTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $dnUtilizationTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnUtilizationTable
      * @return $this
      */
     public function setDnUtilizationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $dnUtilizationTable)
     {
         $this->dnUtilizationTable = $dnUtilizationTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDnUtilizationTable()
+    {
+        $this->dnUtilizationTable = null;
         return $this;
     }
 

@@ -16,6 +16,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
 
     /**
      * @ElementName accessDeviceCount
+     * @Type int
      * @var int|null
      */
     private $accessDeviceCount = null;
@@ -23,24 +24,31 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
     /**
      * Getter for accessDeviceCount
      *
-     * @ElementName accessDeviceCount
-     * @return int|null
+     * @return int
      */
     public function getAccessDeviceCount()
     {
-        return $this->accessDeviceCount;
+        return $this->accessDeviceCount instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDeviceCount;
     }
 
     /**
      * Setter for accessDeviceCount
      *
-     * @ElementName accessDeviceCount
-     * @param int|null $accessDeviceCount
+     * @param int $accessDeviceCount
      * @return $this
      */
     public function setAccessDeviceCount($accessDeviceCount)
     {
         $this->accessDeviceCount = $accessDeviceCount;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAccessDeviceCount()
+    {
+        $this->accessDeviceCount = null;
         return $this;
     }
 

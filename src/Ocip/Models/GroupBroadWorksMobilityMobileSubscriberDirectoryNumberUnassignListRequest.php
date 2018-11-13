@@ -19,18 +19,22 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest 
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName mobileSubscriberDirectoryNumber
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(
@@ -40,19 +44,17 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest 
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -62,21 +64,28 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -86,20 +95,27 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @return string[]
      */
     public function getMobileSubscriberDirectoryNumber()
     {
-        return $this->mobileSubscriberDirectoryNumber;
+        return $this->mobileSubscriberDirectoryNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileSubscriberDirectoryNumber;
     }
 
     /**
      * Setter for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @param string[] $mobileSubscriberDirectoryNumber
      * @return $this
      */
@@ -110,15 +126,23 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberUnassignListRequest 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileSubscriberDirectoryNumber()
+    {
+        $this->mobileSubscriberDirectoryNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for mobileSubscriberDirectoryNumber
      *
-     * @ElementName mobileSubscriberDirectoryNumber
      * @param string $mobileSubscriberDirectoryNumber
      * @return $this
      */
     public function addMobileSubscriberDirectoryNumber(string $mobileSubscriberDirectoryNumber)
     {
-        $this->mobileSubscriberDirectoryNumber []= $mobileSubscriberDirectoryNumber;
+        $this->mobileSubscriberDirectoryNumber[] = $mobileSubscriberDirectoryNumber;
         return $this;
     }
 

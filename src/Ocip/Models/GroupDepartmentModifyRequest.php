@@ -20,30 +20,35 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName departmentName
+     * @Type string
      * @var string|null
      */
     private $departmentName = null;
 
     /**
      * @ElementName newDepartmentName
+     * @Type string
      * @var string|null
      */
     private $newDepartmentName = null;
 
     /**
      * @ElementName newParentDepartmentKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -51,6 +56,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName callingLineIdName
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -58,6 +64,7 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName callingLineIdPhoneNumber
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -66,19 +73,17 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -88,21 +93,28 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -112,21 +124,28 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for departmentName
      *
-     * @ElementName departmentName
-     * @return string|null
+     * @return string
      */
     public function getDepartmentName()
     {
-        return $this->departmentName;
+        return $this->departmentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentName;
     }
 
     /**
      * Setter for departmentName
      *
-     * @ElementName departmentName
-     * @param string|null $departmentName
+     * @param string $departmentName
      * @return $this
      */
     public function setDepartmentName($departmentName)
@@ -136,21 +155,28 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDepartmentName()
+    {
+        $this->departmentName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newDepartmentName
      *
-     * @ElementName newDepartmentName
-     * @return string|null
+     * @return string
      */
     public function getNewDepartmentName()
     {
-        return $this->newDepartmentName;
+        return $this->newDepartmentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newDepartmentName;
     }
 
     /**
      * Setter for newDepartmentName
      *
-     * @ElementName newDepartmentName
-     * @param string|null $newDepartmentName
+     * @param string $newDepartmentName
      * @return $this
      */
     public function setNewDepartmentName($newDepartmentName)
@@ -160,80 +186,116 @@ class GroupDepartmentModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewDepartmentName()
+    {
+        $this->newDepartmentName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newParentDepartmentKey
      *
-     * @ElementName newParentDepartmentKey
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     public function getNewParentDepartmentKey()
     {
-        return $this->newParentDepartmentKey;
+        return $this->newParentDepartmentKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newParentDepartmentKey;
     }
 
     /**
      * Setter for newParentDepartmentKey
      *
-     * @ElementName newParentDepartmentKey
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null|\CWM\BroadWorksConnector\Ocip\Nil $newParentDepartmentKey
+     * @param \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null $newParentDepartmentKey
      * @return $this
      */
     public function setNewParentDepartmentKey(\CWM\BroadWorksConnector\Ocip\Models\DepartmentKey $newParentDepartmentKey)
     {
-        $this->newParentDepartmentKey = $newParentDepartmentKey;
+        if ($newParentDepartmentKey === null) {
+            $this->newParentDepartmentKey = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->newParentDepartmentKey = $newParentDepartmentKey;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNewParentDepartmentKey()
+    {
+        $this->newParentDepartmentKey = null;
         return $this;
     }
 
     /**
      * Getter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCallingLineIdName()
     {
-        return $this->callingLineIdName;
+        return $this->callingLineIdName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdName;
     }
 
     /**
      * Setter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdName
+     * @param string|null $callingLineIdName
      * @return $this
      */
     public function setCallingLineIdName($callingLineIdName)
     {
-        $this->callingLineIdName = $callingLineIdName;
+        if ($callingLineIdName === null) {
+            $this->callingLineIdName = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callingLineIdName = $callingLineIdName;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallingLineIdName()
+    {
+        $this->callingLineIdName = null;
         return $this;
     }
 
     /**
      * Getter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getCallingLineIdPhoneNumber()
     {
-        return $this->callingLineIdPhoneNumber;
+        return $this->callingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $callingLineIdPhoneNumber
+     * @param string|null $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
     {
-        $this->callingLineIdPhoneNumber = $callingLineIdPhoneNumber;
+        if ($callingLineIdPhoneNumber === null) {
+            $this->callingLineIdPhoneNumber = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->callingLineIdPhoneNumber = $callingLineIdPhoneNumber;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallingLineIdPhoneNumber()
+    {
+        $this->callingLineIdPhoneNumber = null;
         return $this;
     }
 

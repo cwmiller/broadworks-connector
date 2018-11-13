@@ -14,6 +14,7 @@ class UserSingleSignOnCreateDeviceTokenResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName deviceToken
+     * @Type string
      * @var string|null
      */
     private $deviceToken = null;
@@ -21,24 +22,31 @@ class UserSingleSignOnCreateDeviceTokenResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for deviceToken
      *
-     * @ElementName deviceToken
-     * @return string|null
+     * @return string
      */
     public function getDeviceToken()
     {
-        return $this->deviceToken;
+        return $this->deviceToken instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceToken;
     }
 
     /**
      * Setter for deviceToken
      *
-     * @ElementName deviceToken
-     * @param string|null $deviceToken
+     * @param string $deviceToken
      * @return $this
      */
     public function setDeviceToken($deviceToken)
     {
         $this->deviceToken = $deviceToken;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceToken()
+    {
+        $this->deviceToken = null;
         return $this;
     }
 

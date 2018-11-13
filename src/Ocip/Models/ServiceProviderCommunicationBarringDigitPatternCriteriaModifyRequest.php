@@ -16,24 +16,28 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName newName
+     * @Type string
      * @var string|null
      */
     private $newName = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,6 +45,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
 
     /**
      * @ElementName addMatchDigitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $addMatchDigitPattern = array(
@@ -49,6 +55,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
 
     /**
      * @ElementName deleteMatchDigitPattern
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $deleteMatchDigitPattern = array(
@@ -58,19 +66,17 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -80,21 +86,28 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -104,21 +117,28 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for newName
      *
-     * @ElementName newName
-     * @return string|null
+     * @return string
      */
     public function getNewName()
     {
-        return $this->newName;
+        return $this->newName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newName;
     }
 
     /**
      * Setter for newName
      *
-     * @ElementName newName
-     * @param string|null $newName
+     * @param string $newName
      * @return $this
      */
     public function setNewName($newName)
@@ -128,46 +148,62 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewName()
+    {
+        $this->newName = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for addMatchDigitPattern
      *
-     * @ElementName addMatchDigitPattern
      * @return string[]
      */
     public function getAddMatchDigitPattern()
     {
-        return $this->addMatchDigitPattern;
+        return $this->addMatchDigitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addMatchDigitPattern;
     }
 
     /**
      * Setter for addMatchDigitPattern
      *
-     * @ElementName addMatchDigitPattern
      * @param string[] $addMatchDigitPattern
      * @return $this
      */
@@ -178,33 +214,39 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddMatchDigitPattern()
+    {
+        $this->addMatchDigitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for addMatchDigitPattern
      *
-     * @ElementName addMatchDigitPattern
      * @param string $addMatchDigitPattern
      * @return $this
      */
     public function addAddMatchDigitPattern(string $addMatchDigitPattern)
     {
-        $this->addMatchDigitPattern []= $addMatchDigitPattern;
+        $this->addMatchDigitPattern[] = $addMatchDigitPattern;
         return $this;
     }
 
     /**
      * Getter for deleteMatchDigitPattern
      *
-     * @ElementName deleteMatchDigitPattern
      * @return string[]
      */
     public function getDeleteMatchDigitPattern()
     {
-        return $this->deleteMatchDigitPattern;
+        return $this->deleteMatchDigitPattern instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteMatchDigitPattern;
     }
 
     /**
      * Setter for deleteMatchDigitPattern
      *
-     * @ElementName deleteMatchDigitPattern
      * @param string[] $deleteMatchDigitPattern
      * @return $this
      */
@@ -215,15 +257,23 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaModifyRequest exten
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeleteMatchDigitPattern()
+    {
+        $this->deleteMatchDigitPattern = null;
+        return $this;
+    }
+
+    /**
      * Adder for deleteMatchDigitPattern
      *
-     * @ElementName deleteMatchDigitPattern
      * @param string $deleteMatchDigitPattern
      * @return $this
      */
     public function addDeleteMatchDigitPattern(string $deleteMatchDigitPattern)
     {
-        $this->deleteMatchDigitPattern []= $deleteMatchDigitPattern;
+        $this->deleteMatchDigitPattern[] = $deleteMatchDigitPattern;
         return $this;
     }
 

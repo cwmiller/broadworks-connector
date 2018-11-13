@@ -16,18 +16,21 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName meetMeAnncThreshold
+     * @Type int
      * @var int|null
      */
     private $meetMeAnncThreshold = null;
 
     /**
      * @ElementName playTrunkUserSecurityClassificationAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $playTrunkUserSecurityClassificationAnnouncement = null;
 
     /**
      * @ElementName SecurityClassificationTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $SecurityClassificationTable = null;
@@ -35,19 +38,17 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
     /**
      * Getter for meetMeAnncThreshold
      *
-     * @ElementName meetMeAnncThreshold
-     * @return int|null
+     * @return int
      */
     public function getMeetMeAnncThreshold()
     {
-        return $this->meetMeAnncThreshold;
+        return $this->meetMeAnncThreshold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->meetMeAnncThreshold;
     }
 
     /**
      * Setter for meetMeAnncThreshold
      *
-     * @ElementName meetMeAnncThreshold
-     * @param int|null $meetMeAnncThreshold
+     * @param int $meetMeAnncThreshold
      * @return $this
      */
     public function setMeetMeAnncThreshold($meetMeAnncThreshold)
@@ -57,21 +58,28 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMeetMeAnncThreshold()
+    {
+        $this->meetMeAnncThreshold = null;
+        return $this;
+    }
+
+    /**
      * Getter for playTrunkUserSecurityClassificationAnnouncement
      *
-     * @ElementName playTrunkUserSecurityClassificationAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getPlayTrunkUserSecurityClassificationAnnouncement()
     {
-        return $this->playTrunkUserSecurityClassificationAnnouncement;
+        return $this->playTrunkUserSecurityClassificationAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playTrunkUserSecurityClassificationAnnouncement;
     }
 
     /**
      * Setter for playTrunkUserSecurityClassificationAnnouncement
      *
-     * @ElementName playTrunkUserSecurityClassificationAnnouncement
-     * @param bool|null $playTrunkUserSecurityClassificationAnnouncement
+     * @param bool $playTrunkUserSecurityClassificationAnnouncement
      * @return $this
      */
     public function setPlayTrunkUserSecurityClassificationAnnouncement($playTrunkUserSecurityClassificationAnnouncement)
@@ -81,26 +89,42 @@ class SystemSecurityClassificationGetResponse21 extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayTrunkUserSecurityClassificationAnnouncement()
+    {
+        $this->playTrunkUserSecurityClassificationAnnouncement = null;
+        return $this;
+    }
+
+    /**
      * Getter for SecurityClassificationTable
      *
-     * @ElementName SecurityClassificationTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getSecurityClassificationTable()
     {
-        return $this->SecurityClassificationTable;
+        return $this->SecurityClassificationTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->SecurityClassificationTable;
     }
 
     /**
      * Setter for SecurityClassificationTable
      *
-     * @ElementName SecurityClassificationTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $SecurityClassificationTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $SecurityClassificationTable
      * @return $this
      */
     public function setSecurityClassificationTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $SecurityClassificationTable)
     {
         $this->SecurityClassificationTable = $SecurityClassificationTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSecurityClassificationTable()
+    {
+        $this->SecurityClassificationTable = null;
         return $this;
     }
 

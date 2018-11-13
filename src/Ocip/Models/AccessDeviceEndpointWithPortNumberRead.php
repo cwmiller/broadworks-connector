@@ -13,36 +13,42 @@ class AccessDeviceEndpointWithPortNumberRead
 
     /**
      * @ElementName accessDevice
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
 
     /**
      * @ElementName linePort
+     * @Type string
      * @var string|null
      */
     private $linePort = null;
 
     /**
      * @ElementName contact
+     * @Type string
      * @var string|null
      */
     private $contact = null;
 
     /**
      * @ElementName staticRegistrationCapable
+     * @Type bool
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
 
     /**
      * @ElementName useDomain
+     * @Type bool
      * @var bool|null
      */
     private $useDomain = null;
 
     /**
      * @ElementName portNumber
+     * @Type int
      * @var int|null
      */
     private $portNumber = null;
@@ -50,19 +56,17 @@ class AccessDeviceEndpointWithPortNumberRead
     /**
      * Getter for accessDevice
      *
-     * @ElementName accessDevice
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      */
     public function getAccessDevice()
     {
-        return $this->accessDevice;
+        return $this->accessDevice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->accessDevice;
     }
 
     /**
      * Setter for accessDevice
      *
-     * @ElementName accessDevice
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null $accessDevice
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice
      * @return $this
      */
     public function setAccessDevice(\CWM\BroadWorksConnector\Ocip\Models\AccessDevice $accessDevice)
@@ -72,21 +76,28 @@ class AccessDeviceEndpointWithPortNumberRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAccessDevice()
+    {
+        $this->accessDevice = null;
+        return $this;
+    }
+
+    /**
      * Getter for linePort
      *
-     * @ElementName linePort
-     * @return string|null
+     * @return string
      */
     public function getLinePort()
     {
-        return $this->linePort;
+        return $this->linePort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->linePort;
     }
 
     /**
      * Setter for linePort
      *
-     * @ElementName linePort
-     * @param string|null $linePort
+     * @param string $linePort
      * @return $this
      */
     public function setLinePort($linePort)
@@ -96,21 +107,28 @@ class AccessDeviceEndpointWithPortNumberRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLinePort()
+    {
+        $this->linePort = null;
+        return $this;
+    }
+
+    /**
      * Getter for contact
      *
-     * @ElementName contact
-     * @return string|null
+     * @return string
      */
     public function getContact()
     {
-        return $this->contact;
+        return $this->contact instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->contact;
     }
 
     /**
      * Setter for contact
      *
-     * @ElementName contact
-     * @param string|null $contact
+     * @param string $contact
      * @return $this
      */
     public function setContact($contact)
@@ -120,21 +138,28 @@ class AccessDeviceEndpointWithPortNumberRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetContact()
+    {
+        $this->contact = null;
+        return $this;
+    }
+
+    /**
      * Getter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @return bool|null
+     * @return bool
      */
     public function getStaticRegistrationCapable()
     {
-        return $this->staticRegistrationCapable;
+        return $this->staticRegistrationCapable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->staticRegistrationCapable;
     }
 
     /**
      * Setter for staticRegistrationCapable
      *
-     * @ElementName staticRegistrationCapable
-     * @param bool|null $staticRegistrationCapable
+     * @param bool $staticRegistrationCapable
      * @return $this
      */
     public function setStaticRegistrationCapable($staticRegistrationCapable)
@@ -144,21 +169,28 @@ class AccessDeviceEndpointWithPortNumberRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetStaticRegistrationCapable()
+    {
+        $this->staticRegistrationCapable = null;
+        return $this;
+    }
+
+    /**
      * Getter for useDomain
      *
-     * @ElementName useDomain
-     * @return bool|null
+     * @return bool
      */
     public function getUseDomain()
     {
-        return $this->useDomain;
+        return $this->useDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useDomain;
     }
 
     /**
      * Setter for useDomain
      *
-     * @ElementName useDomain
-     * @param bool|null $useDomain
+     * @param bool $useDomain
      * @return $this
      */
     public function setUseDomain($useDomain)
@@ -168,26 +200,42 @@ class AccessDeviceEndpointWithPortNumberRead
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseDomain()
+    {
+        $this->useDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for portNumber
      *
-     * @ElementName portNumber
-     * @return int|null
+     * @return int
      */
     public function getPortNumber()
     {
-        return $this->portNumber;
+        return $this->portNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->portNumber;
     }
 
     /**
      * Setter for portNumber
      *
-     * @ElementName portNumber
-     * @param int|null $portNumber
+     * @param int $portNumber
      * @return $this
      */
     public function setPortNumber($portNumber)
     {
         $this->portNumber = $portNumber;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPortNumber()
+    {
+        $this->portNumber = null;
         return $this;
     }
 

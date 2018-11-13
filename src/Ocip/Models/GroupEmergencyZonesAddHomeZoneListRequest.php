@@ -16,18 +16,22 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName homeZoneIpAddress
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $homeZoneIpAddress = array(
@@ -36,6 +40,8 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName homeZoneIpAddressRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $homeZoneIpAddressRange = array(
@@ -45,19 +51,17 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -67,21 +71,28 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -91,20 +102,27 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for homeZoneIpAddress
      *
-     * @ElementName homeZoneIpAddress
      * @return string[]
      */
     public function getHomeZoneIpAddress()
     {
-        return $this->homeZoneIpAddress;
+        return $this->homeZoneIpAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZoneIpAddress;
     }
 
     /**
      * Setter for homeZoneIpAddress
      *
-     * @ElementName homeZoneIpAddress
      * @param string[] $homeZoneIpAddress
      * @return $this
      */
@@ -115,33 +133,39 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHomeZoneIpAddress()
+    {
+        $this->homeZoneIpAddress = null;
+        return $this;
+    }
+
+    /**
      * Adder for homeZoneIpAddress
      *
-     * @ElementName homeZoneIpAddress
      * @param string $homeZoneIpAddress
      * @return $this
      */
     public function addHomeZoneIpAddress(string $homeZoneIpAddress)
     {
-        $this->homeZoneIpAddress []= $homeZoneIpAddress;
+        $this->homeZoneIpAddress[] = $homeZoneIpAddress;
         return $this;
     }
 
     /**
      * Getter for homeZoneIpAddressRange
      *
-     * @ElementName homeZoneIpAddressRange
      * @return \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     public function getHomeZoneIpAddressRange()
     {
-        return $this->homeZoneIpAddressRange;
+        return $this->homeZoneIpAddressRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->homeZoneIpAddressRange;
     }
 
     /**
      * Setter for homeZoneIpAddressRange
      *
-     * @ElementName homeZoneIpAddressRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[] $homeZoneIpAddressRange
      * @return $this
      */
@@ -152,15 +176,23 @@ class GroupEmergencyZonesAddHomeZoneListRequest extends \CWM\BroadWorksConnector
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHomeZoneIpAddressRange()
+    {
+        $this->homeZoneIpAddressRange = null;
+        return $this;
+    }
+
+    /**
      * Adder for homeZoneIpAddressRange
      *
-     * @ElementName homeZoneIpAddressRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange $homeZoneIpAddressRange
      * @return $this
      */
     public function addHomeZoneIpAddressRange($homeZoneIpAddressRange)
     {
-        $this->homeZoneIpAddressRange []= $homeZoneIpAddressRange;
+        $this->homeZoneIpAddressRange[] = $homeZoneIpAddressRange;
         return $this;
     }
 

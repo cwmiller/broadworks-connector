@@ -36,7 +36,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ServiceInvocationDisposition VOICE_MAIL_TRANSFER()
  * @method static ServiceInvocationDisposition VOICE_MESSAGING()
  * @method static ServiceInvocationDisposition FIND_ME_FOLLOW_ME()
- * @ValueType string
+ * @EnumValueType string
  */
 class ServiceInvocationDisposition extends \MyCLabs\Enum\Enum
 {

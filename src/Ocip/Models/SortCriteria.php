@@ -14,12 +14,14 @@ abstract class SortCriteria
 
     /**
      * @ElementName isAscending
+     * @Type bool
      * @var bool|null
      */
     private $isAscending = null;
 
     /**
      * @ElementName isCaseSensitive
+     * @Type bool
      * @var bool|null
      */
     private $isCaseSensitive = null;
@@ -27,19 +29,17 @@ abstract class SortCriteria
     /**
      * Getter for isAscending
      *
-     * @ElementName isAscending
-     * @return bool|null
+     * @return bool
      */
     public function getIsAscending()
     {
-        return $this->isAscending;
+        return $this->isAscending instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isAscending;
     }
 
     /**
      * Setter for isAscending
      *
-     * @ElementName isAscending
-     * @param bool|null $isAscending
+     * @param bool $isAscending
      * @return $this
      */
     public function setIsAscending($isAscending)
@@ -49,26 +49,42 @@ abstract class SortCriteria
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsAscending()
+    {
+        $this->isAscending = null;
+        return $this;
+    }
+
+    /**
      * Getter for isCaseSensitive
      *
-     * @ElementName isCaseSensitive
-     * @return bool|null
+     * @return bool
      */
     public function getIsCaseSensitive()
     {
-        return $this->isCaseSensitive;
+        return $this->isCaseSensitive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isCaseSensitive;
     }
 
     /**
      * Setter for isCaseSensitive
      *
-     * @ElementName isCaseSensitive
-     * @param bool|null $isCaseSensitive
+     * @param bool $isCaseSensitive
      * @return $this
      */
     public function setIsCaseSensitive($isCaseSensitive)
     {
         $this->isCaseSensitive = $isCaseSensitive;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsCaseSensitive()
+    {
+        $this->isCaseSensitive = null;
         return $this;
     }
 

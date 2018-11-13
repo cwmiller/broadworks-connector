@@ -12,7 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterReportIntervalTimeUnit WEEK()
  * @method static CallCenterReportIntervalTimeUnit MONTH()
  * @method static CallCenterReportIntervalTimeUnit YEAR()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterReportIntervalTimeUnit extends \MyCLabs\Enum\Enum
 {

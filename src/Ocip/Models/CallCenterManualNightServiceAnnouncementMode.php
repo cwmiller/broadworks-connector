@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * NORMAL_ANNOUNCEMENT()
  * @method static CallCenterManualNightServiceAnnouncementMode
  * MANUAL_ANNOUNCEMENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterManualNightServiceAnnouncementMode extends \MyCLabs\Enum\Enum
 {

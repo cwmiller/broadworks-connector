@@ -17,12 +17,15 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName languageMapping
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping[]
      */
     private $languageMapping = array(
@@ -32,19 +35,17 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -54,20 +55,27 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for languageMapping
      *
-     * @ElementName languageMapping
      * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping[]
      */
     public function getLanguageMapping()
     {
-        return $this->languageMapping;
+        return $this->languageMapping instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->languageMapping;
     }
 
     /**
      * Setter for languageMapping
      *
-     * @ElementName languageMapping
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping[] $languageMapping
      * @return $this
      */
@@ -78,15 +86,23 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLanguageMapping()
+    {
+        $this->languageMapping = null;
+        return $this;
+    }
+
+    /**
      * Adder for languageMapping
      *
-     * @ElementName languageMapping
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping $languageMapping
      * @return $this
      */
     public function addLanguageMapping($languageMapping)
     {
-        $this->languageMapping []= $languageMapping;
+        $this->languageMapping[] = $languageMapping;
         return $this;
     }
 

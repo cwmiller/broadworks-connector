@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static ExecutiveRolloverActionType VOICE_MESSAGING()
  * @method static ExecutiveRolloverActionType FORWARD()
  * @method static ExecutiveRolloverActionType NO_ANSWER_PROCESSING()
- * @ValueType string
+ * @EnumValueType string
  */
 class ExecutiveRolloverActionType extends \MyCLabs\Enum\Enum
 {

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static AnswerConfirmationAnnouncementSelection SYSTEM()
  * @method static AnswerConfirmationAnnouncementSelection CUSTOM()
- * @ValueType string
+ * @EnumValueType string
  */
 class AnswerConfirmationAnnouncementSelection extends \MyCLabs\Enum\Enum
 {

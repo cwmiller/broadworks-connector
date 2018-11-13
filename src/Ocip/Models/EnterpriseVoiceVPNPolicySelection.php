@@ -11,7 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static EnterpriseVoiceVPNPolicySelection _PUBLIC()
  * @method static EnterpriseVoiceVPNPolicySelection ROUTE()
  * @method static EnterpriseVoiceVPNPolicySelection TREATMENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class EnterpriseVoiceVPNPolicySelection extends \MyCLabs\Enum\Enum
 {

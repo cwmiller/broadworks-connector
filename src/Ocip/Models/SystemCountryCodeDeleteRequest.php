@@ -18,6 +18,7 @@ class SystemCountryCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName countryCode
+     * @Type string
      * @var string|null
      */
     private $countryCode = null;
@@ -25,24 +26,31 @@ class SystemCountryCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for countryCode
      *
-     * @ElementName countryCode
-     * @return string|null
+     * @return string
      */
     public function getCountryCode()
     {
-        return $this->countryCode;
+        return $this->countryCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->countryCode;
     }
 
     /**
      * Setter for countryCode
      *
-     * @ElementName countryCode
-     * @param string|null $countryCode
+     * @param string $countryCode
      * @return $this
      */
     public function setCountryCode($countryCode)
     {
         $this->countryCode = $countryCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCountryCode()
+    {
+        $this->countryCode = null;
         return $this;
     }
 

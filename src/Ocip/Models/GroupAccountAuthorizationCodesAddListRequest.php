@@ -16,18 +16,22 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName codeEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[]
      */
     private $codeEntry = array(
@@ -37,19 +41,17 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -59,21 +61,28 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -83,20 +92,27 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for codeEntry
      *
-     * @ElementName codeEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[]
      */
     public function getCodeEntry()
     {
-        return $this->codeEntry;
+        return $this->codeEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->codeEntry;
     }
 
     /**
      * Setter for codeEntry
      *
-     * @ElementName codeEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry[] $codeEntry
      * @return $this
      */
@@ -107,15 +123,23 @@ class GroupAccountAuthorizationCodesAddListRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCodeEntry()
+    {
+        $this->codeEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for codeEntry
      *
-     * @ElementName codeEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeEntry $codeEntry
      * @return $this
      */
     public function addCodeEntry($codeEntry)
     {
-        $this->codeEntry []= $codeEntry;
+        $this->codeEntry[] = $codeEntry;
         return $this;
     }
 

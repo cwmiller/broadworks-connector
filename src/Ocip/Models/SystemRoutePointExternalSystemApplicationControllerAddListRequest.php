@@ -16,12 +16,15 @@ class SystemRoutePointExternalSystemApplicationControllerAddListRequest extends 
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName applicationController
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $applicationController = array(
@@ -31,19 +34,17 @@ class SystemRoutePointExternalSystemApplicationControllerAddListRequest extends 
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -53,20 +54,27 @@ class SystemRoutePointExternalSystemApplicationControllerAddListRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for applicationController
      *
-     * @ElementName applicationController
      * @return string[]
      */
     public function getApplicationController()
     {
-        return $this->applicationController;
+        return $this->applicationController instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationController;
     }
 
     /**
      * Setter for applicationController
      *
-     * @ElementName applicationController
      * @param string[] $applicationController
      * @return $this
      */
@@ -77,15 +85,23 @@ class SystemRoutePointExternalSystemApplicationControllerAddListRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationController()
+    {
+        $this->applicationController = null;
+        return $this;
+    }
+
+    /**
      * Adder for applicationController
      *
-     * @ElementName applicationController
      * @param string $applicationController
      * @return $this
      */
     public function addApplicationController(string $applicationController)
     {
-        $this->applicationController []= $applicationController;
+        $this->applicationController[] = $applicationController;
         return $this;
     }
 

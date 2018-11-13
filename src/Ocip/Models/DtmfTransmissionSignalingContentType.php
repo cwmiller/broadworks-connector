@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DtmfTransmissionSignalingContentType APPLICATION_DTMF()
  * @method static DtmfTransmissionSignalingContentType APPLICATION_DTMF_RELAY()
  * @method static DtmfTransmissionSignalingContentType AUDIO_TELEPHONE_EVENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class DtmfTransmissionSignalingContentType extends \MyCLabs\Enum\Enum
 {

@@ -12,90 +12,105 @@ class PlayMessagesMenuKeysReadEntry
 
     /**
      * @ElementName saveMessage
+     * @Type string
      * @var string|null
      */
     private $saveMessage = null;
 
     /**
      * @ElementName deleteMessage
+     * @Type string
      * @var string|null
      */
     private $deleteMessage = null;
 
     /**
      * @ElementName playMessage
+     * @Type string
      * @var string|null
      */
     private $playMessage = null;
 
     /**
      * @ElementName previousMessage
+     * @Type string
      * @var string|null
      */
     private $previousMessage = null;
 
     /**
      * @ElementName playEnvelope
+     * @Type string
      * @var string|null
      */
     private $playEnvelope = null;
 
     /**
      * @ElementName nextMessage
+     * @Type string
      * @var string|null
      */
     private $nextMessage = null;
 
     /**
      * @ElementName callbackCaller
+     * @Type string
      * @var string|null
      */
     private $callbackCaller = null;
 
     /**
      * @ElementName composeMessage
+     * @Type string
      * @var string|null
      */
     private $composeMessage = null;
 
     /**
      * @ElementName replyMessage
+     * @Type string
      * @var string|null
      */
     private $replyMessage = null;
 
     /**
      * @ElementName forwardMessage
+     * @Type string
      * @var string|null
      */
     private $forwardMessage = null;
 
     /**
      * @ElementName additionalMessageOptions
+     * @Type string
      * @var string|null
      */
     private $additionalMessageOptions = null;
 
     /**
      * @ElementName personalizedName
+     * @Type string
      * @var string|null
      */
     private $personalizedName = null;
 
     /**
      * @ElementName passcode
+     * @Type string
      * @var string|null
      */
     private $passcode = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -103,19 +118,17 @@ class PlayMessagesMenuKeysReadEntry
     /**
      * Getter for saveMessage
      *
-     * @ElementName saveMessage
-     * @return string|null
+     * @return string
      */
     public function getSaveMessage()
     {
-        return $this->saveMessage;
+        return $this->saveMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->saveMessage;
     }
 
     /**
      * Setter for saveMessage
      *
-     * @ElementName saveMessage
-     * @param string|null $saveMessage
+     * @param string $saveMessage
      * @return $this
      */
     public function setSaveMessage($saveMessage)
@@ -125,21 +138,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSaveMessage()
+    {
+        $this->saveMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for deleteMessage
      *
-     * @ElementName deleteMessage
-     * @return string|null
+     * @return string
      */
     public function getDeleteMessage()
     {
-        return $this->deleteMessage;
+        return $this->deleteMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deleteMessage;
     }
 
     /**
      * Setter for deleteMessage
      *
-     * @ElementName deleteMessage
-     * @param string|null $deleteMessage
+     * @param string $deleteMessage
      * @return $this
      */
     public function setDeleteMessage($deleteMessage)
@@ -149,21 +169,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeleteMessage()
+    {
+        $this->deleteMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for playMessage
      *
-     * @ElementName playMessage
-     * @return string|null
+     * @return string
      */
     public function getPlayMessage()
     {
-        return $this->playMessage;
+        return $this->playMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playMessage;
     }
 
     /**
      * Setter for playMessage
      *
-     * @ElementName playMessage
-     * @param string|null $playMessage
+     * @param string $playMessage
      * @return $this
      */
     public function setPlayMessage($playMessage)
@@ -173,21 +200,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayMessage()
+    {
+        $this->playMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for previousMessage
      *
-     * @ElementName previousMessage
-     * @return string|null
+     * @return string
      */
     public function getPreviousMessage()
     {
-        return $this->previousMessage;
+        return $this->previousMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->previousMessage;
     }
 
     /**
      * Setter for previousMessage
      *
-     * @ElementName previousMessage
-     * @param string|null $previousMessage
+     * @param string $previousMessage
      * @return $this
      */
     public function setPreviousMessage($previousMessage)
@@ -197,21 +231,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreviousMessage()
+    {
+        $this->previousMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for playEnvelope
      *
-     * @ElementName playEnvelope
-     * @return string|null
+     * @return string
      */
     public function getPlayEnvelope()
     {
-        return $this->playEnvelope;
+        return $this->playEnvelope instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->playEnvelope;
     }
 
     /**
      * Setter for playEnvelope
      *
-     * @ElementName playEnvelope
-     * @param string|null $playEnvelope
+     * @param string $playEnvelope
      * @return $this
      */
     public function setPlayEnvelope($playEnvelope)
@@ -221,21 +262,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPlayEnvelope()
+    {
+        $this->playEnvelope = null;
+        return $this;
+    }
+
+    /**
      * Getter for nextMessage
      *
-     * @ElementName nextMessage
-     * @return string|null
+     * @return string
      */
     public function getNextMessage()
     {
-        return $this->nextMessage;
+        return $this->nextMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->nextMessage;
     }
 
     /**
      * Setter for nextMessage
      *
-     * @ElementName nextMessage
-     * @param string|null $nextMessage
+     * @param string $nextMessage
      * @return $this
      */
     public function setNextMessage($nextMessage)
@@ -245,21 +293,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNextMessage()
+    {
+        $this->nextMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for callbackCaller
      *
-     * @ElementName callbackCaller
-     * @return string|null
+     * @return string
      */
     public function getCallbackCaller()
     {
-        return $this->callbackCaller;
+        return $this->callbackCaller instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callbackCaller;
     }
 
     /**
      * Setter for callbackCaller
      *
-     * @ElementName callbackCaller
-     * @param string|null $callbackCaller
+     * @param string $callbackCaller
      * @return $this
      */
     public function setCallbackCaller($callbackCaller)
@@ -269,21 +324,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallbackCaller()
+    {
+        $this->callbackCaller = null;
+        return $this;
+    }
+
+    /**
      * Getter for composeMessage
      *
-     * @ElementName composeMessage
-     * @return string|null
+     * @return string
      */
     public function getComposeMessage()
     {
-        return $this->composeMessage;
+        return $this->composeMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->composeMessage;
     }
 
     /**
      * Setter for composeMessage
      *
-     * @ElementName composeMessage
-     * @param string|null $composeMessage
+     * @param string $composeMessage
      * @return $this
      */
     public function setComposeMessage($composeMessage)
@@ -293,21 +355,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetComposeMessage()
+    {
+        $this->composeMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for replyMessage
      *
-     * @ElementName replyMessage
-     * @return string|null
+     * @return string
      */
     public function getReplyMessage()
     {
-        return $this->replyMessage;
+        return $this->replyMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->replyMessage;
     }
 
     /**
      * Setter for replyMessage
      *
-     * @ElementName replyMessage
-     * @param string|null $replyMessage
+     * @param string $replyMessage
      * @return $this
      */
     public function setReplyMessage($replyMessage)
@@ -317,21 +386,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReplyMessage()
+    {
+        $this->replyMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for forwardMessage
      *
-     * @ElementName forwardMessage
-     * @return string|null
+     * @return string
      */
     public function getForwardMessage()
     {
-        return $this->forwardMessage;
+        return $this->forwardMessage instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->forwardMessage;
     }
 
     /**
      * Setter for forwardMessage
      *
-     * @ElementName forwardMessage
-     * @param string|null $forwardMessage
+     * @param string $forwardMessage
      * @return $this
      */
     public function setForwardMessage($forwardMessage)
@@ -341,21 +417,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetForwardMessage()
+    {
+        $this->forwardMessage = null;
+        return $this;
+    }
+
+    /**
      * Getter for additionalMessageOptions
      *
-     * @ElementName additionalMessageOptions
-     * @return string|null
+     * @return string
      */
     public function getAdditionalMessageOptions()
     {
-        return $this->additionalMessageOptions;
+        return $this->additionalMessageOptions instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->additionalMessageOptions;
     }
 
     /**
      * Setter for additionalMessageOptions
      *
-     * @ElementName additionalMessageOptions
-     * @param string|null $additionalMessageOptions
+     * @param string $additionalMessageOptions
      * @return $this
      */
     public function setAdditionalMessageOptions($additionalMessageOptions)
@@ -365,21 +448,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAdditionalMessageOptions()
+    {
+        $this->additionalMessageOptions = null;
+        return $this;
+    }
+
+    /**
      * Getter for personalizedName
      *
-     * @ElementName personalizedName
-     * @return string|null
+     * @return string
      */
     public function getPersonalizedName()
     {
-        return $this->personalizedName;
+        return $this->personalizedName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->personalizedName;
     }
 
     /**
      * Setter for personalizedName
      *
-     * @ElementName personalizedName
-     * @param string|null $personalizedName
+     * @param string $personalizedName
      * @return $this
      */
     public function setPersonalizedName($personalizedName)
@@ -389,21 +479,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPersonalizedName()
+    {
+        $this->personalizedName = null;
+        return $this;
+    }
+
+    /**
      * Getter for passcode
      *
-     * @ElementName passcode
-     * @return string|null
+     * @return string
      */
     public function getPasscode()
     {
-        return $this->passcode;
+        return $this->passcode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->passcode;
     }
 
     /**
      * Setter for passcode
      *
-     * @ElementName passcode
-     * @param string|null $passcode
+     * @param string $passcode
      * @return $this
      */
     public function setPasscode($passcode)
@@ -413,21 +510,28 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPasscode()
+    {
+        $this->passcode = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -437,26 +541,42 @@ class PlayMessagesMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

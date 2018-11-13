@@ -14,6 +14,7 @@ class GroupTrunkGroupSecurityClassificationGetResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName defaultSecurityClassification
+     * @Type string
      * @var string|null
      */
     private $defaultSecurityClassification = null;
@@ -21,24 +22,31 @@ class GroupTrunkGroupSecurityClassificationGetResponse extends \CWM\BroadWorksCo
     /**
      * Getter for defaultSecurityClassification
      *
-     * @ElementName defaultSecurityClassification
-     * @return string|null
+     * @return string
      */
     public function getDefaultSecurityClassification()
     {
-        return $this->defaultSecurityClassification;
+        return $this->defaultSecurityClassification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultSecurityClassification;
     }
 
     /**
      * Setter for defaultSecurityClassification
      *
-     * @ElementName defaultSecurityClassification
-     * @param string|null $defaultSecurityClassification
+     * @param string $defaultSecurityClassification
      * @return $this
      */
     public function setDefaultSecurityClassification($defaultSecurityClassification)
     {
         $this->defaultSecurityClassification = $defaultSecurityClassification;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultSecurityClassification()
+    {
+        $this->defaultSecurityClassification = null;
         return $this;
     }
 

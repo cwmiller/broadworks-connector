@@ -15,24 +15,28 @@ class ErrorResponse extends OCIResponse
 
     /**
      * @ElementName errorCode
+     * @Type int
      * @var int|null
      */
     private $errorCode = null;
 
     /**
      * @ElementName summary
+     * @Type string
      * @var string|null
      */
     private $summary = null;
 
     /**
      * @ElementName summaryEnglish
+     * @Type string
      * @var string|null
      */
     private $summaryEnglish = null;
 
     /**
      * @ElementName detail
+     * @Type string
      * @var string|null
      */
     private $detail = null;
@@ -40,19 +44,17 @@ class ErrorResponse extends OCIResponse
     /**
      * Getter for errorCode
      *
-     * @ElementName errorCode
-     * @return int|null
+     * @return int
      */
     public function getErrorCode()
     {
-        return $this->errorCode;
+        return $this->errorCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->errorCode;
     }
 
     /**
      * Setter for errorCode
      *
-     * @ElementName errorCode
-     * @param int|null $errorCode
+     * @param int $errorCode
      * @return $this
      */
     public function setErrorCode($errorCode)
@@ -62,21 +64,28 @@ class ErrorResponse extends OCIResponse
     }
 
     /**
+     * @return $this
+     */
+    public function unsetErrorCode()
+    {
+        $this->errorCode = null;
+        return $this;
+    }
+
+    /**
      * Getter for summary
      *
-     * @ElementName summary
-     * @return string|null
+     * @return string
      */
     public function getSummary()
     {
-        return $this->summary;
+        return $this->summary instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->summary;
     }
 
     /**
      * Setter for summary
      *
-     * @ElementName summary
-     * @param string|null $summary
+     * @param string $summary
      * @return $this
      */
     public function setSummary($summary)
@@ -86,21 +95,28 @@ class ErrorResponse extends OCIResponse
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSummary()
+    {
+        $this->summary = null;
+        return $this;
+    }
+
+    /**
      * Getter for summaryEnglish
      *
-     * @ElementName summaryEnglish
-     * @return string|null
+     * @return string
      */
     public function getSummaryEnglish()
     {
-        return $this->summaryEnglish;
+        return $this->summaryEnglish instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->summaryEnglish;
     }
 
     /**
      * Setter for summaryEnglish
      *
-     * @ElementName summaryEnglish
-     * @param string|null $summaryEnglish
+     * @param string $summaryEnglish
      * @return $this
      */
     public function setSummaryEnglish($summaryEnglish)
@@ -110,26 +126,42 @@ class ErrorResponse extends OCIResponse
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSummaryEnglish()
+    {
+        $this->summaryEnglish = null;
+        return $this;
+    }
+
+    /**
      * Getter for detail
      *
-     * @ElementName detail
-     * @return string|null
+     * @return string
      */
     public function getDetail()
     {
-        return $this->detail;
+        return $this->detail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->detail;
     }
 
     /**
      * Setter for detail
      *
-     * @ElementName detail
-     * @param string|null $detail
+     * @param string $detail
      * @return $this
      */
     public function setDetail($detail)
     {
         $this->detail = $detail;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDetail()
+    {
+        $this->detail = null;
         return $this;
     }
 

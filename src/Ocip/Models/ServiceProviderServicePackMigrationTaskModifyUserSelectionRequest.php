@@ -18,24 +18,28 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName taskName
+     * @Type string
      * @var string|null
      */
     private $taskName = null;
 
     /**
      * @ElementName userSelectionType
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
      */
     private $userSelectionType = null;
 
     /**
      * @ElementName userServiceNameList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -43,6 +47,7 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
 
     /**
      * @ElementName servicePackNameList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -51,19 +56,17 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -73,21 +76,28 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for taskName
      *
-     * @ElementName taskName
-     * @return string|null
+     * @return string
      */
     public function getTaskName()
     {
-        return $this->taskName;
+        return $this->taskName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->taskName;
     }
 
     /**
      * Setter for taskName
      *
-     * @ElementName taskName
-     * @param string|null $taskName
+     * @param string $taskName
      * @return $this
      */
     public function setTaskName($taskName)
@@ -97,21 +107,28 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTaskName()
+    {
+        $this->taskName = null;
+        return $this;
+    }
+
+    /**
      * Getter for userSelectionType
      *
-     * @ElementName userSelectionType
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType
      */
     public function getUserSelectionType()
     {
-        return $this->userSelectionType;
+        return $this->userSelectionType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userSelectionType;
     }
 
     /**
      * Setter for userSelectionType
      *
-     * @ElementName userSelectionType
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType|null $userSelectionType
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType $userSelectionType
      * @return $this
      */
     public function setUserSelectionType(\CWM\BroadWorksConnector\Ocip\Models\ServicePackMigrationTaskUserSelectionType $userSelectionType)
@@ -121,54 +138,81 @@ class ServiceProviderServicePackMigrationTaskModifyUserSelectionRequest extends 
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserSelectionType()
+    {
+        $this->userSelectionType = null;
+        return $this;
+    }
+
+    /**
      * Getter for userServiceNameList
      *
-     * @ElementName userServiceNameList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null
      */
     public function getUserServiceNameList()
     {
-        return $this->userServiceNameList;
+        return $this->userServiceNameList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userServiceNameList;
     }
 
     /**
      * Setter for userServiceNameList
      *
-     * @ElementName userServiceNameList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null|\CWM\BroadWorksConnector\Ocip\Nil $userServiceNameList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList|null $userServiceNameList
      * @return $this
      */
     public function setUserServiceNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserServiceList $userServiceNameList)
     {
-        $this->userServiceNameList = $userServiceNameList;
+        if ($userServiceNameList === null) {
+            $this->userServiceNameList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->userServiceNameList = $userServiceNameList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserServiceNameList()
+    {
+        $this->userServiceNameList = null;
         return $this;
     }
 
     /**
      * Getter for servicePackNameList
      *
-     * @ElementName servicePackNameList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null
      */
     public function getServicePackNameList()
     {
-        return $this->servicePackNameList;
+        return $this->servicePackNameList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->servicePackNameList;
     }
 
     /**
      * Setter for servicePackNameList
      *
-     * @ElementName servicePackNameList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null|\CWM\BroadWorksConnector\Ocip\Nil $servicePackNameList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList|null $servicePackNameList
      * @return $this
      */
     public function setServicePackNameList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementServicePackNameList $servicePackNameList)
     {
-        $this->servicePackNameList = $servicePackNameList;
+        if ($servicePackNameList === null) {
+            $this->servicePackNameList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->servicePackNameList = $servicePackNameList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServicePackNameList()
+    {
+        $this->servicePackNameList = null;
         return $this;
     }
 

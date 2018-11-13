@@ -18,6 +18,8 @@ class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName userId
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $userId = array(
@@ -26,6 +28,7 @@ class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName totalNumberOfMigratedUsers
+     * @Type int
      * @var int|null
      */
     private $totalNumberOfMigratedUsers = null;
@@ -33,18 +36,16 @@ class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for userId
      *
-     * @ElementName userId
      * @return string[]
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
      * @param string[] $userId
      * @return $this
      */
@@ -55,39 +56,54 @@ class SystemMigratedUsersGetListResponse22 extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Adder for userId
      *
-     * @ElementName userId
      * @param string $userId
      * @return $this
      */
     public function addUserId(string $userId)
     {
-        $this->userId []= $userId;
+        $this->userId[] = $userId;
         return $this;
     }
 
     /**
      * Getter for totalNumberOfMigratedUsers
      *
-     * @ElementName totalNumberOfMigratedUsers
-     * @return int|null
+     * @return int
      */
     public function getTotalNumberOfMigratedUsers()
     {
-        return $this->totalNumberOfMigratedUsers;
+        return $this->totalNumberOfMigratedUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalNumberOfMigratedUsers;
     }
 
     /**
      * Setter for totalNumberOfMigratedUsers
      *
-     * @ElementName totalNumberOfMigratedUsers
-     * @param int|null $totalNumberOfMigratedUsers
+     * @param int $totalNumberOfMigratedUsers
      * @return $this
      */
     public function setTotalNumberOfMigratedUsers($totalNumberOfMigratedUsers)
     {
         $this->totalNumberOfMigratedUsers = $totalNumberOfMigratedUsers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTotalNumberOfMigratedUsers()
+    {
+        $this->totalNumberOfMigratedUsers = null;
         return $this;
     }
 

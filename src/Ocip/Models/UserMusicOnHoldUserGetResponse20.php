@@ -14,24 +14,28 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
 
     /**
      * @ElementName enableVideo
+     * @Type bool
      * @var bool|null
      */
     private $enableVideo = null;
 
     /**
      * @ElementName source
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
      */
     private $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
+     * @Type bool
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
      */
     private $internalSource = null;
@@ -39,19 +43,17 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * Getter for enableVideo
      *
-     * @ElementName enableVideo
-     * @return bool|null
+     * @return bool
      */
     public function getEnableVideo()
     {
-        return $this->enableVideo;
+        return $this->enableVideo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableVideo;
     }
 
     /**
      * Setter for enableVideo
      *
-     * @ElementName enableVideo
-     * @param bool|null $enableVideo
+     * @param bool $enableVideo
      * @return $this
      */
     public function setEnableVideo($enableVideo)
@@ -61,21 +63,28 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableVideo()
+    {
+        $this->enableVideo = null;
+        return $this;
+    }
+
+    /**
      * Getter for source
      *
-     * @ElementName source
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
      */
     public function getSource()
     {
-        return $this->source;
+        return $this->source instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->source;
     }
 
     /**
      * Setter for source
      *
-     * @ElementName source
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null $source
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20 $source
      * @return $this
      */
     public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20 $source)
@@ -85,21 +94,28 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSource()
+    {
+        $this->source = null;
+        return $this;
+    }
+
+    /**
      * Getter for useAlternateSourceForInternalCalls
      *
-     * @ElementName useAlternateSourceForInternalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseAlternateSourceForInternalCalls()
     {
-        return $this->useAlternateSourceForInternalCalls;
+        return $this->useAlternateSourceForInternalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useAlternateSourceForInternalCalls;
     }
 
     /**
      * Setter for useAlternateSourceForInternalCalls
      *
-     * @ElementName useAlternateSourceForInternalCalls
-     * @param bool|null $useAlternateSourceForInternalCalls
+     * @param bool $useAlternateSourceForInternalCalls
      * @return $this
      */
     public function setUseAlternateSourceForInternalCalls($useAlternateSourceForInternalCalls)
@@ -109,26 +125,42 @@ class UserMusicOnHoldUserGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mod
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseAlternateSourceForInternalCalls()
+    {
+        $this->useAlternateSourceForInternalCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for internalSource
      *
-     * @ElementName internalSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20
      */
     public function getInternalSource()
     {
-        return $this->internalSource;
+        return $this->internalSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internalSource;
     }
 
     /**
      * Setter for internalSource
      *
-     * @ElementName internalSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20|null $internalSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20 $internalSource
      * @return $this
      */
     public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead20 $internalSource)
     {
         $this->internalSource = $internalSource;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInternalSource()
+    {
+        $this->internalSource = null;
         return $this;
     }
 

@@ -21,6 +21,7 @@ class SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22 extends 
 
     /**
      * @ElementName callProcessingPolicyProfileName
+     * @Type string
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;
@@ -28,24 +29,31 @@ class SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22 extends 
     /**
      * Getter for callProcessingPolicyProfileName
      *
-     * @ElementName callProcessingPolicyProfileName
-     * @return string|null
+     * @return string
      */
     public function getCallProcessingPolicyProfileName()
     {
-        return $this->callProcessingPolicyProfileName;
+        return $this->callProcessingPolicyProfileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callProcessingPolicyProfileName;
     }
 
     /**
      * Setter for callProcessingPolicyProfileName
      *
-     * @ElementName callProcessingPolicyProfileName
-     * @param string|null $callProcessingPolicyProfileName
+     * @param string $callProcessingPolicyProfileName
      * @return $this
      */
     public function setCallProcessingPolicyProfileName($callProcessingPolicyProfileName)
     {
         $this->callProcessingPolicyProfileName = $callProcessingPolicyProfileName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallProcessingPolicyProfileName()
+    {
+        $this->callProcessingPolicyProfileName = null;
         return $this;
     }
 

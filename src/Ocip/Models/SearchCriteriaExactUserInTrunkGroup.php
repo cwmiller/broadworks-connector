@@ -12,6 +12,7 @@ class SearchCriteriaExactUserInTrunkGroup extends SearchCriteria
 
     /**
      * @ElementName userInTrunkGroup
+     * @Type bool
      * @var bool|null
      */
     private $userInTrunkGroup = null;
@@ -19,24 +20,31 @@ class SearchCriteriaExactUserInTrunkGroup extends SearchCriteria
     /**
      * Getter for userInTrunkGroup
      *
-     * @ElementName userInTrunkGroup
-     * @return bool|null
+     * @return bool
      */
     public function getUserInTrunkGroup()
     {
-        return $this->userInTrunkGroup;
+        return $this->userInTrunkGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userInTrunkGroup;
     }
 
     /**
      * Setter for userInTrunkGroup
      *
-     * @ElementName userInTrunkGroup
-     * @param bool|null $userInTrunkGroup
+     * @param bool $userInTrunkGroup
      * @return $this
      */
     public function setUserInTrunkGroup($userInTrunkGroup)
     {
         $this->userInTrunkGroup = $userInTrunkGroup;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserInTrunkGroup()
+    {
+        $this->userInTrunkGroup = null;
         return $this;
     }
 

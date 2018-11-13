@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static EstimatedWaitMessageOperatingMode POSITION()
  * @method static EstimatedWaitMessageOperatingMode TIME()
- * @ValueType string
+ * @EnumValueType string
  */
 class EstimatedWaitMessageOperatingMode extends \MyCLabs\Enum\Enum
 {

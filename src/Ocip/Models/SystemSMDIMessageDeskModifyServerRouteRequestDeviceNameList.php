@@ -10,6 +10,8 @@ class SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList
 
     /**
      * @ElementName deviceName
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $deviceName = array(
@@ -19,18 +21,16 @@ class SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList
     /**
      * Getter for deviceName
      *
-     * @ElementName deviceName
      * @return string[]
      */
     public function getDeviceName()
     {
-        return $this->deviceName;
+        return $this->deviceName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceName;
     }
 
     /**
      * Setter for deviceName
      *
-     * @ElementName deviceName
      * @param string[] $deviceName
      * @return $this
      */
@@ -41,15 +41,23 @@ class SystemSMDIMessageDeskModifyServerRouteRequestDeviceNameList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceName()
+    {
+        $this->deviceName = null;
+        return $this;
+    }
+
+    /**
      * Adder for deviceName
      *
-     * @ElementName deviceName
      * @param string $deviceName
      * @return $this
      */
     public function addDeviceName(string $deviceName)
     {
-        $this->deviceName []= $deviceName;
+        $this->deviceName[] = $deviceName;
         return $this;
     }
 

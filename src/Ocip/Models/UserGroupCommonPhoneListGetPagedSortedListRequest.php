@@ -29,36 +29,43 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName responsePagingControl
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
 
     /**
      * @ElementName sortByGroupCommonPhoneListNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber|null
      */
     private $sortByGroupCommonPhoneListNumber = null;
 
     /**
      * @ElementName sortByGroupCommonPhoneListName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName|null
      */
     private $sortByGroupCommonPhoneListName = null;
 
     /**
      * @ElementName searchCriteriaModeOr
+     * @Type bool
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
 
     /**
      * @ElementName searchCriteriaGroupCommonPhoneListName
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName[]
      */
     private $searchCriteriaGroupCommonPhoneListName = array(
@@ -67,6 +74,8 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
 
     /**
      * @ElementName searchCriteriaGroupCommonPhoneListNumber
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber[]
      */
     private $searchCriteriaGroupCommonPhoneListNumber = array(
@@ -76,19 +85,17 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -98,21 +105,28 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for responsePagingControl
      *
-     * @ElementName responsePagingControl
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
      */
     public function getResponsePagingControl()
     {
-        return $this->responsePagingControl;
+        return $this->responsePagingControl instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->responsePagingControl;
     }
 
     /**
      * Setter for responsePagingControl
      *
-     * @ElementName responsePagingControl
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null $responsePagingControl
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl
      * @return $this
      */
     public function setResponsePagingControl(\CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl $responsePagingControl)
@@ -122,21 +136,28 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetResponsePagingControl()
+    {
+        $this->responsePagingControl = null;
+        return $this;
+    }
+
+    /**
      * Getter for sortByGroupCommonPhoneListNumber
      *
-     * @ElementName sortByGroupCommonPhoneListNumber
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber
      */
     public function getSortByGroupCommonPhoneListNumber()
     {
-        return $this->sortByGroupCommonPhoneListNumber;
+        return $this->sortByGroupCommonPhoneListNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sortByGroupCommonPhoneListNumber;
     }
 
     /**
      * Setter for sortByGroupCommonPhoneListNumber
      *
-     * @ElementName sortByGroupCommonPhoneListNumber
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber|null $sortByGroupCommonPhoneListNumber
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber $sortByGroupCommonPhoneListNumber
      * @return $this
      */
     public function setSortByGroupCommonPhoneListNumber(\CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber $sortByGroupCommonPhoneListNumber)
@@ -146,21 +167,28 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSortByGroupCommonPhoneListNumber()
+    {
+        $this->sortByGroupCommonPhoneListNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for sortByGroupCommonPhoneListName
      *
-     * @ElementName sortByGroupCommonPhoneListName
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName
      */
     public function getSortByGroupCommonPhoneListName()
     {
-        return $this->sortByGroupCommonPhoneListName;
+        return $this->sortByGroupCommonPhoneListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->sortByGroupCommonPhoneListName;
     }
 
     /**
      * Setter for sortByGroupCommonPhoneListName
      *
-     * @ElementName sortByGroupCommonPhoneListName
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName|null $sortByGroupCommonPhoneListName
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName $sortByGroupCommonPhoneListName
      * @return $this
      */
     public function setSortByGroupCommonPhoneListName(\CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName $sortByGroupCommonPhoneListName)
@@ -170,21 +198,28 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSortByGroupCommonPhoneListName()
+    {
+        $this->sortByGroupCommonPhoneListName = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaModeOr
      *
-     * @ElementName searchCriteriaModeOr
-     * @return bool|null
+     * @return bool
      */
     public function getSearchCriteriaModeOr()
     {
-        return $this->searchCriteriaModeOr;
+        return $this->searchCriteriaModeOr instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaModeOr;
     }
 
     /**
      * Setter for searchCriteriaModeOr
      *
-     * @ElementName searchCriteriaModeOr
-     * @param bool|null $searchCriteriaModeOr
+     * @param bool $searchCriteriaModeOr
      * @return $this
      */
     public function setSearchCriteriaModeOr($searchCriteriaModeOr)
@@ -194,20 +229,27 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaModeOr()
+    {
+        $this->searchCriteriaModeOr = null;
+        return $this;
+    }
+
+    /**
      * Getter for searchCriteriaGroupCommonPhoneListName
      *
-     * @ElementName searchCriteriaGroupCommonPhoneListName
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName[]
      */
     public function getSearchCriteriaGroupCommonPhoneListName()
     {
-        return $this->searchCriteriaGroupCommonPhoneListName;
+        return $this->searchCriteriaGroupCommonPhoneListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupCommonPhoneListName;
     }
 
     /**
      * Setter for searchCriteriaGroupCommonPhoneListName
      *
-     * @ElementName searchCriteriaGroupCommonPhoneListName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName[] $searchCriteriaGroupCommonPhoneListName
      * @return $this
      */
@@ -218,33 +260,39 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupCommonPhoneListName()
+    {
+        $this->searchCriteriaGroupCommonPhoneListName = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupCommonPhoneListName
      *
-     * @ElementName searchCriteriaGroupCommonPhoneListName
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName $searchCriteriaGroupCommonPhoneListName
      * @return $this
      */
     public function addSearchCriteriaGroupCommonPhoneListName($searchCriteriaGroupCommonPhoneListName)
     {
-        $this->searchCriteriaGroupCommonPhoneListName []= $searchCriteriaGroupCommonPhoneListName;
+        $this->searchCriteriaGroupCommonPhoneListName[] = $searchCriteriaGroupCommonPhoneListName;
         return $this;
     }
 
     /**
      * Getter for searchCriteriaGroupCommonPhoneListNumber
      *
-     * @ElementName searchCriteriaGroupCommonPhoneListNumber
      * @return \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber[]
      */
     public function getSearchCriteriaGroupCommonPhoneListNumber()
     {
-        return $this->searchCriteriaGroupCommonPhoneListNumber;
+        return $this->searchCriteriaGroupCommonPhoneListNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->searchCriteriaGroupCommonPhoneListNumber;
     }
 
     /**
      * Setter for searchCriteriaGroupCommonPhoneListNumber
      *
-     * @ElementName searchCriteriaGroupCommonPhoneListNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber[] $searchCriteriaGroupCommonPhoneListNumber
      * @return $this
      */
@@ -255,15 +303,23 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSearchCriteriaGroupCommonPhoneListNumber()
+    {
+        $this->searchCriteriaGroupCommonPhoneListNumber = null;
+        return $this;
+    }
+
+    /**
      * Adder for searchCriteriaGroupCommonPhoneListNumber
      *
-     * @ElementName searchCriteriaGroupCommonPhoneListNumber
      * @param \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber $searchCriteriaGroupCommonPhoneListNumber
      * @return $this
      */
     public function addSearchCriteriaGroupCommonPhoneListNumber($searchCriteriaGroupCommonPhoneListNumber)
     {
-        $this->searchCriteriaGroupCommonPhoneListNumber []= $searchCriteriaGroupCommonPhoneListNumber;
+        $this->searchCriteriaGroupCommonPhoneListNumber[] = $searchCriteriaGroupCommonPhoneListNumber;
         return $this;
     }
 

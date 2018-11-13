@@ -14,42 +14,49 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
 
     /**
      * @ElementName scfSignalingNetAddress
+     * @Type string
      * @var string|null
      */
     private $scfSignalingNetAddress = null;
 
     /**
      * @ElementName scfSignalingPort
+     * @Type int
      * @var int|null
      */
     private $scfSignalingPort = null;
 
     /**
      * @ElementName refreshPeriodSeconds
+     * @Type int
      * @var int|null
      */
     private $refreshPeriodSeconds = null;
 
     /**
      * @ElementName maxConsecutiveFailures
+     * @Type int
      * @var int|null
      */
     private $maxConsecutiveFailures = null;
 
     /**
      * @ElementName maxResponseWaitTimeMilliseconds
+     * @Type int
      * @var int|null
      */
     private $maxResponseWaitTimeMilliseconds = null;
 
     /**
      * @ElementName enableAnnouncementSuppression
+     * @Type bool
      * @var bool|null
      */
     private $enableAnnouncementSuppression = null;
 
     /**
      * @ElementName serviceAccessCodeListName
+     * @Type string
      * @var string|null
      */
     private $serviceAccessCodeListName = null;
@@ -57,19 +64,17 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
     /**
      * Getter for scfSignalingNetAddress
      *
-     * @ElementName scfSignalingNetAddress
-     * @return string|null
+     * @return string
      */
     public function getScfSignalingNetAddress()
     {
-        return $this->scfSignalingNetAddress;
+        return $this->scfSignalingNetAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scfSignalingNetAddress;
     }
 
     /**
      * Setter for scfSignalingNetAddress
      *
-     * @ElementName scfSignalingNetAddress
-     * @param string|null $scfSignalingNetAddress
+     * @param string $scfSignalingNetAddress
      * @return $this
      */
     public function setScfSignalingNetAddress($scfSignalingNetAddress)
@@ -79,21 +84,28 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScfSignalingNetAddress()
+    {
+        $this->scfSignalingNetAddress = null;
+        return $this;
+    }
+
+    /**
      * Getter for scfSignalingPort
      *
-     * @ElementName scfSignalingPort
-     * @return int|null
+     * @return int
      */
     public function getScfSignalingPort()
     {
-        return $this->scfSignalingPort;
+        return $this->scfSignalingPort instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->scfSignalingPort;
     }
 
     /**
      * Setter for scfSignalingPort
      *
-     * @ElementName scfSignalingPort
-     * @param int|null $scfSignalingPort
+     * @param int $scfSignalingPort
      * @return $this
      */
     public function setScfSignalingPort($scfSignalingPort)
@@ -103,21 +115,28 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetScfSignalingPort()
+    {
+        $this->scfSignalingPort = null;
+        return $this;
+    }
+
+    /**
      * Getter for refreshPeriodSeconds
      *
-     * @ElementName refreshPeriodSeconds
-     * @return int|null
+     * @return int
      */
     public function getRefreshPeriodSeconds()
     {
-        return $this->refreshPeriodSeconds;
+        return $this->refreshPeriodSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->refreshPeriodSeconds;
     }
 
     /**
      * Setter for refreshPeriodSeconds
      *
-     * @ElementName refreshPeriodSeconds
-     * @param int|null $refreshPeriodSeconds
+     * @param int $refreshPeriodSeconds
      * @return $this
      */
     public function setRefreshPeriodSeconds($refreshPeriodSeconds)
@@ -127,21 +146,28 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRefreshPeriodSeconds()
+    {
+        $this->refreshPeriodSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxConsecutiveFailures
      *
-     * @ElementName maxConsecutiveFailures
-     * @return int|null
+     * @return int
      */
     public function getMaxConsecutiveFailures()
     {
-        return $this->maxConsecutiveFailures;
+        return $this->maxConsecutiveFailures instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxConsecutiveFailures;
     }
 
     /**
      * Setter for maxConsecutiveFailures
      *
-     * @ElementName maxConsecutiveFailures
-     * @param int|null $maxConsecutiveFailures
+     * @param int $maxConsecutiveFailures
      * @return $this
      */
     public function setMaxConsecutiveFailures($maxConsecutiveFailures)
@@ -151,21 +177,28 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxConsecutiveFailures()
+    {
+        $this->maxConsecutiveFailures = null;
+        return $this;
+    }
+
+    /**
      * Getter for maxResponseWaitTimeMilliseconds
      *
-     * @ElementName maxResponseWaitTimeMilliseconds
-     * @return int|null
+     * @return int
      */
     public function getMaxResponseWaitTimeMilliseconds()
     {
-        return $this->maxResponseWaitTimeMilliseconds;
+        return $this->maxResponseWaitTimeMilliseconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maxResponseWaitTimeMilliseconds;
     }
 
     /**
      * Setter for maxResponseWaitTimeMilliseconds
      *
-     * @ElementName maxResponseWaitTimeMilliseconds
-     * @param int|null $maxResponseWaitTimeMilliseconds
+     * @param int $maxResponseWaitTimeMilliseconds
      * @return $this
      */
     public function setMaxResponseWaitTimeMilliseconds($maxResponseWaitTimeMilliseconds)
@@ -175,21 +208,28 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMaxResponseWaitTimeMilliseconds()
+    {
+        $this->maxResponseWaitTimeMilliseconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAnnouncementSuppression
      *
-     * @ElementName enableAnnouncementSuppression
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAnnouncementSuppression()
     {
-        return $this->enableAnnouncementSuppression;
+        return $this->enableAnnouncementSuppression instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAnnouncementSuppression;
     }
 
     /**
      * Setter for enableAnnouncementSuppression
      *
-     * @ElementName enableAnnouncementSuppression
-     * @param bool|null $enableAnnouncementSuppression
+     * @param bool $enableAnnouncementSuppression
      * @return $this
      */
     public function setEnableAnnouncementSuppression($enableAnnouncementSuppression)
@@ -199,26 +239,42 @@ class SystemBroadWorksMobilityMobileNetworkGetResponse extends \CWM\BroadWorksCo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAnnouncementSuppression()
+    {
+        $this->enableAnnouncementSuppression = null;
+        return $this;
+    }
+
+    /**
      * Getter for serviceAccessCodeListName
      *
-     * @ElementName serviceAccessCodeListName
-     * @return string|null
+     * @return string
      */
     public function getServiceAccessCodeListName()
     {
-        return $this->serviceAccessCodeListName;
+        return $this->serviceAccessCodeListName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceAccessCodeListName;
     }
 
     /**
      * Setter for serviceAccessCodeListName
      *
-     * @ElementName serviceAccessCodeListName
-     * @param string|null $serviceAccessCodeListName
+     * @param string $serviceAccessCodeListName
      * @return $this
      */
     public function setServiceAccessCodeListName($serviceAccessCodeListName)
     {
         $this->serviceAccessCodeListName = $serviceAccessCodeListName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetServiceAccessCodeListName()
+    {
+        $this->serviceAccessCodeListName = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static PushToTalkAccessListSelection ALLOW_CALLS_FROM_SELECTED_USERS()
  * @method static PushToTalkAccessListSelection
  * ALLOW_CALLS_FROM_EVERYONE_EXCEPT_SELECTED_USERS()
- * @ValueType string
+ * @EnumValueType string
  */
 class PushToTalkAccessListSelection extends \MyCLabs\Enum\Enum
 {

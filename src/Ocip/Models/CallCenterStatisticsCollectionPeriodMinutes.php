@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallCenterStatisticsCollectionPeriodMinutes _15()
  * @method static CallCenterStatisticsCollectionPeriodMinutes _30()
  * @method static CallCenterStatisticsCollectionPeriodMinutes _60()
- * @ValueType int
+ * @EnumValueType int
  */
 class CallCenterStatisticsCollectionPeriodMinutes extends \MyCLabs\Enum\Enum
 {

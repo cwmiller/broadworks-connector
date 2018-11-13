@@ -16,6 +16,7 @@ class ResellerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName resellerTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $resellerTable = null;
@@ -23,24 +24,31 @@ class ResellerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * Getter for resellerTable
      *
-     * @ElementName resellerTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getResellerTable()
     {
-        return $this->resellerTable;
+        return $this->resellerTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->resellerTable;
     }
 
     /**
      * Setter for resellerTable
      *
-     * @ElementName resellerTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $resellerTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $resellerTable
      * @return $this
      */
     public function setResellerTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $resellerTable)
     {
         $this->resellerTable = $resellerTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetResellerTable()
+    {
+        $this->resellerTable = null;
         return $this;
     }
 

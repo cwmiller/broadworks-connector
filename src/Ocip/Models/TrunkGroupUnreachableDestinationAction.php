@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static TrunkGroupUnreachableDestinationAction FORWARD()
  * @method static TrunkGroupUnreachableDestinationAction REROUTE()
- * @ValueType string
+ * @EnumValueType string
  */
 class TrunkGroupUnreachableDestinationAction extends \MyCLabs\Enum\Enum
 {

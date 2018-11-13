@@ -18,18 +18,22 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName groupId
+     * @Type string
      * @var string|null
      */
     private $groupId = null;
 
     /**
      * @ElementName virtualOnNetUser
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser[]
      */
     private $virtualOnNetUser = array(
@@ -38,6 +42,8 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
 
     /**
      * @ElementName virtualOnNetUserRange
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange[]
      */
     private $virtualOnNetUserRange = array(
@@ -47,19 +53,17 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -69,21 +73,28 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for groupId
      *
-     * @ElementName groupId
-     * @return string|null
+     * @return string
      */
     public function getGroupId()
     {
-        return $this->groupId;
+        return $this->groupId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->groupId;
     }
 
     /**
      * Setter for groupId
      *
-     * @ElementName groupId
-     * @param string|null $groupId
+     * @param string $groupId
      * @return $this
      */
     public function setGroupId($groupId)
@@ -93,20 +104,27 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGroupId()
+    {
+        $this->groupId = null;
+        return $this;
+    }
+
+    /**
      * Getter for virtualOnNetUser
      *
-     * @ElementName virtualOnNetUser
      * @return \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser[]
      */
     public function getVirtualOnNetUser()
     {
-        return $this->virtualOnNetUser;
+        return $this->virtualOnNetUser instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetUser;
     }
 
     /**
      * Setter for virtualOnNetUser
      *
-     * @ElementName virtualOnNetUser
      * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser[] $virtualOnNetUser
      * @return $this
      */
@@ -117,33 +135,39 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetUser()
+    {
+        $this->virtualOnNetUser = null;
+        return $this;
+    }
+
+    /**
      * Adder for virtualOnNetUser
      *
-     * @ElementName virtualOnNetUser
      * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUser $virtualOnNetUser
      * @return $this
      */
     public function addVirtualOnNetUser($virtualOnNetUser)
     {
-        $this->virtualOnNetUser []= $virtualOnNetUser;
+        $this->virtualOnNetUser[] = $virtualOnNetUser;
         return $this;
     }
 
     /**
      * Getter for virtualOnNetUserRange
      *
-     * @ElementName virtualOnNetUserRange
      * @return \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange[]
      */
     public function getVirtualOnNetUserRange()
     {
-        return $this->virtualOnNetUserRange;
+        return $this->virtualOnNetUserRange instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetUserRange;
     }
 
     /**
      * Setter for virtualOnNetUserRange
      *
-     * @ElementName virtualOnNetUserRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange[] $virtualOnNetUserRange
      * @return $this
      */
@@ -154,15 +178,23 @@ class GroupVirtualOnNetEnterpriseExtensionsAddUserRequest extends \CWM\BroadWork
     }
 
     /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetUserRange()
+    {
+        $this->virtualOnNetUserRange = null;
+        return $this;
+    }
+
+    /**
      * Adder for virtualOnNetUserRange
      *
-     * @ElementName virtualOnNetUserRange
      * @param \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserRange $virtualOnNetUserRange
      * @return $this
      */
     public function addVirtualOnNetUserRange($virtualOnNetUserRange)
     {
-        $this->virtualOnNetUserRange []= $virtualOnNetUserRange;
+        $this->virtualOnNetUserRange[] = $virtualOnNetUserRange;
         return $this;
     }
 

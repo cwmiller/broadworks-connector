@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CPEDeviceConfigRebuildType DEVICE_TYPE()
  * @method static CPEDeviceConfigRebuildType DEVICE_PROFILES()
- * @ValueType string
+ * @EnumValueType string
  */
 class CPEDeviceConfigRebuildType extends \MyCLabs\Enum\Enum
 {

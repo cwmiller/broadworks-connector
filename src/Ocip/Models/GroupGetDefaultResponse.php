@@ -15,24 +15,28 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
 
     /**
      * @ElementName defaultDomain
+     * @Type string
      * @var string|null
      */
     private $defaultDomain = null;
 
     /**
      * @ElementName userLimit
+     * @Type int
      * @var int|null
      */
     private $userLimit = null;
 
     /**
      * @ElementName timeZone
+     * @Type string
      * @var string|null
      */
     private $timeZone = null;
 
     /**
      * @ElementName timeZoneDisplayName
+     * @Type string
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -40,19 +44,17 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * Getter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @return string|null
+     * @return string
      */
     public function getDefaultDomain()
     {
-        return $this->defaultDomain;
+        return $this->defaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultDomain;
     }
 
     /**
      * Setter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @param string|null $defaultDomain
+     * @param string $defaultDomain
      * @return $this
      */
     public function setDefaultDomain($defaultDomain)
@@ -62,21 +64,28 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefaultDomain()
+    {
+        $this->defaultDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for userLimit
      *
-     * @ElementName userLimit
-     * @return int|null
+     * @return int
      */
     public function getUserLimit()
     {
-        return $this->userLimit;
+        return $this->userLimit instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userLimit;
     }
 
     /**
      * Setter for userLimit
      *
-     * @ElementName userLimit
-     * @param int|null $userLimit
+     * @param int $userLimit
      * @return $this
      */
     public function setUserLimit($userLimit)
@@ -86,21 +95,28 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserLimit()
+    {
+        $this->userLimit = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZone
      *
-     * @ElementName timeZone
-     * @return string|null
+     * @return string
      */
     public function getTimeZone()
     {
-        return $this->timeZone;
+        return $this->timeZone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZone;
     }
 
     /**
      * Setter for timeZone
      *
-     * @ElementName timeZone
-     * @param string|null $timeZone
+     * @param string $timeZone
      * @return $this
      */
     public function setTimeZone($timeZone)
@@ -110,26 +126,42 @@ class GroupGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTimeZone()
+    {
+        $this->timeZone = null;
+        return $this;
+    }
+
+    /**
      * Getter for timeZoneDisplayName
      *
-     * @ElementName timeZoneDisplayName
-     * @return string|null
+     * @return string
      */
     public function getTimeZoneDisplayName()
     {
-        return $this->timeZoneDisplayName;
+        return $this->timeZoneDisplayName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->timeZoneDisplayName;
     }
 
     /**
      * Setter for timeZoneDisplayName
      *
-     * @ElementName timeZoneDisplayName
-     * @param string|null $timeZoneDisplayName
+     * @param string $timeZoneDisplayName
      * @return $this
      */
     public function setTimeZoneDisplayName($timeZoneDisplayName)
     {
         $this->timeZoneDisplayName = $timeZoneDisplayName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTimeZoneDisplayName()
+    {
+        $this->timeZoneDisplayName = null;
         return $this;
     }
 

@@ -15,7 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static AuthenticationLockoutType NONE()
  * @method static AuthenticationLockoutType TEMPORARY()
  * @method static AuthenticationLockoutType TEMPORARY_THEN_PERMANENT()
- * @ValueType string
+ * @EnumValueType string
  */
 class AuthenticationLockoutType extends \MyCLabs\Enum\Enum
 {

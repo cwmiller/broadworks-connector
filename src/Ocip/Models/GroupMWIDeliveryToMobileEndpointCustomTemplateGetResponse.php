@@ -14,12 +14,14 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse extends \CWM\Bro
 
     /**
      * @ElementName isEnabled
+     * @Type bool
      * @var bool|null
      */
     private $isEnabled = null;
 
     /**
      * @ElementName templateBody
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
      */
     private $templateBody = null;
@@ -27,19 +29,17 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse extends \CWM\Bro
     /**
      * Getter for isEnabled
      *
-     * @ElementName isEnabled
-     * @return bool|null
+     * @return bool
      */
     public function getIsEnabled()
     {
-        return $this->isEnabled;
+        return $this->isEnabled instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isEnabled;
     }
 
     /**
      * Setter for isEnabled
      *
-     * @ElementName isEnabled
-     * @param bool|null $isEnabled
+     * @param bool $isEnabled
      * @return $this
      */
     public function setIsEnabled($isEnabled)
@@ -49,26 +49,42 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateGetResponse extends \CWM\Bro
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsEnabled()
+    {
+        $this->isEnabled = null;
+        return $this;
+    }
+
+    /**
      * Getter for templateBody
      *
-     * @ElementName templateBody
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody
      */
     public function getTemplateBody()
     {
-        return $this->templateBody;
+        return $this->templateBody instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->templateBody;
     }
 
     /**
      * Setter for templateBody
      *
-     * @ElementName templateBody
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null $templateBody
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody $templateBody
      * @return $this
      */
     public function setTemplateBody(\CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody $templateBody)
     {
         $this->templateBody = $templateBody;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTemplateBody()
+    {
+        $this->templateBody = null;
         return $this;
     }
 

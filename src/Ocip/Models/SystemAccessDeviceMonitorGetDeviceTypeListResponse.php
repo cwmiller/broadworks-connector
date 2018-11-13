@@ -14,6 +14,8 @@ class SystemAccessDeviceMonitorGetDeviceTypeListResponse extends \CWM\BroadWorks
 
     /**
      * @ElementName deviceType
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $deviceType = array(
@@ -23,18 +25,16 @@ class SystemAccessDeviceMonitorGetDeviceTypeListResponse extends \CWM\BroadWorks
     /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
      * @return string[]
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
      * @param string[] $deviceType
      * @return $this
      */
@@ -45,15 +45,23 @@ class SystemAccessDeviceMonitorGetDeviceTypeListResponse extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Adder for deviceType
      *
-     * @ElementName deviceType
      * @param string $deviceType
      * @return $this
      */
     public function addDeviceType(string $deviceType)
     {
-        $this->deviceType []= $deviceType;
+        $this->deviceType[] = $deviceType;
         return $this;
     }
 

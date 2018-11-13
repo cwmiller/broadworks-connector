@@ -15,12 +15,14 @@ class DeviceManagementPutFileRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName deviceAccessURI
+     * @Type string
      * @var string|null
      */
     private $deviceAccessURI = null;
 
     /**
      * @ElementName ipAddress
+     * @Type string
      * @var string|null
      */
     private $ipAddress = null;
@@ -28,19 +30,17 @@ class DeviceManagementPutFileRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for deviceAccessURI
      *
-     * @ElementName deviceAccessURI
-     * @return string|null
+     * @return string
      */
     public function getDeviceAccessURI()
     {
-        return $this->deviceAccessURI;
+        return $this->deviceAccessURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceAccessURI;
     }
 
     /**
      * Setter for deviceAccessURI
      *
-     * @ElementName deviceAccessURI
-     * @param string|null $deviceAccessURI
+     * @param string $deviceAccessURI
      * @return $this
      */
     public function setDeviceAccessURI($deviceAccessURI)
@@ -50,26 +50,42 @@ class DeviceManagementPutFileRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceAccessURI()
+    {
+        $this->deviceAccessURI = null;
+        return $this;
+    }
+
+    /**
      * Getter for ipAddress
      *
-     * @ElementName ipAddress
-     * @return string|null
+     * @return string
      */
     public function getIpAddress()
     {
-        return $this->ipAddress;
+        return $this->ipAddress instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->ipAddress;
     }
 
     /**
      * Setter for ipAddress
      *
-     * @ElementName ipAddress
-     * @param string|null $ipAddress
+     * @param string $ipAddress
      * @return $this
      */
     public function setIpAddress($ipAddress)
     {
         $this->ipAddress = $ipAddress;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIpAddress()
+    {
+        $this->ipAddress = null;
         return $this;
     }
 

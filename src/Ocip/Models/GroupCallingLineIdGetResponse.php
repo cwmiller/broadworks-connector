@@ -15,24 +15,28 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName useGroupNumber
+     * @Type bool
      * @var bool|null
      */
     private $useGroupNumber = null;
 
     /**
      * @ElementName useGroupName
+     * @Type bool
      * @var bool|null
      */
     private $useGroupName = null;
 
     /**
      * @ElementName callingLineIdPhoneNumber
+     * @Type string
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
 
     /**
      * @ElementName callingLineIdName
+     * @Type string
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -40,19 +44,17 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for useGroupNumber
      *
-     * @ElementName useGroupNumber
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupNumber()
     {
-        return $this->useGroupNumber;
+        return $this->useGroupNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupNumber;
     }
 
     /**
      * Setter for useGroupNumber
      *
-     * @ElementName useGroupNumber
-     * @param bool|null $useGroupNumber
+     * @param bool $useGroupNumber
      * @return $this
      */
     public function setUseGroupNumber($useGroupNumber)
@@ -62,21 +64,28 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupNumber()
+    {
+        $this->useGroupNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for useGroupName
      *
-     * @ElementName useGroupName
-     * @return bool|null
+     * @return bool
      */
     public function getUseGroupName()
     {
-        return $this->useGroupName;
+        return $this->useGroupName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useGroupName;
     }
 
     /**
      * Setter for useGroupName
      *
-     * @ElementName useGroupName
-     * @param bool|null $useGroupName
+     * @param bool $useGroupName
      * @return $this
      */
     public function setUseGroupName($useGroupName)
@@ -86,21 +95,28 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseGroupName()
+    {
+        $this->useGroupName = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdPhoneNumber()
     {
-        return $this->callingLineIdPhoneNumber;
+        return $this->callingLineIdPhoneNumber instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdPhoneNumber;
     }
 
     /**
      * Setter for callingLineIdPhoneNumber
      *
-     * @ElementName callingLineIdPhoneNumber
-     * @param string|null $callingLineIdPhoneNumber
+     * @param string $callingLineIdPhoneNumber
      * @return $this
      */
     public function setCallingLineIdPhoneNumber($callingLineIdPhoneNumber)
@@ -110,26 +126,42 @@ class GroupCallingLineIdGetResponse extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCallingLineIdPhoneNumber()
+    {
+        $this->callingLineIdPhoneNumber = null;
+        return $this;
+    }
+
+    /**
      * Getter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @return string|null
+     * @return string
      */
     public function getCallingLineIdName()
     {
-        return $this->callingLineIdName;
+        return $this->callingLineIdName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callingLineIdName;
     }
 
     /**
      * Setter for callingLineIdName
      *
-     * @ElementName callingLineIdName
-     * @param string|null $callingLineIdName
+     * @param string $callingLineIdName
      * @return $this
      */
     public function setCallingLineIdName($callingLineIdName)
     {
         $this->callingLineIdName = $callingLineIdName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallingLineIdName()
+    {
+        $this->callingLineIdName = null;
         return $this;
     }
 

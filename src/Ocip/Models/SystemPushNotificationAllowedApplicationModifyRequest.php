@@ -17,12 +17,14 @@ class SystemPushNotificationAllowedApplicationModifyRequest extends \CWM\BroadWo
 
     /**
      * @ElementName applicationId
+     * @Type string
      * @var string|null
      */
     private $applicationId = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -31,19 +33,17 @@ class SystemPushNotificationAllowedApplicationModifyRequest extends \CWM\BroadWo
     /**
      * Getter for applicationId
      *
-     * @ElementName applicationId
-     * @return string|null
+     * @return string
      */
     public function getApplicationId()
     {
-        return $this->applicationId;
+        return $this->applicationId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->applicationId;
     }
 
     /**
      * Setter for applicationId
      *
-     * @ElementName applicationId
-     * @param string|null $applicationId
+     * @param string $applicationId
      * @return $this
      */
     public function setApplicationId($applicationId)
@@ -53,28 +53,46 @@ class SystemPushNotificationAllowedApplicationModifyRequest extends \CWM\BroadWo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetApplicationId()
+    {
+        $this->applicationId = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 

@@ -16,6 +16,8 @@ class SystemSIPAuthenticationEndpointLockoutClearRequest extends \CWM\BroadWorks
 
     /**
      * @ElementName userEndpointKey
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey[]
      */
     private $userEndpointKey = array(
@@ -25,18 +27,16 @@ class SystemSIPAuthenticationEndpointLockoutClearRequest extends \CWM\BroadWorks
     /**
      * Getter for userEndpointKey
      *
-     * @ElementName userEndpointKey
      * @return \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey[]
      */
     public function getUserEndpointKey()
     {
-        return $this->userEndpointKey;
+        return $this->userEndpointKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userEndpointKey;
     }
 
     /**
      * Setter for userEndpointKey
      *
-     * @ElementName userEndpointKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey[] $userEndpointKey
      * @return $this
      */
@@ -47,15 +47,23 @@ class SystemSIPAuthenticationEndpointLockoutClearRequest extends \CWM\BroadWorks
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserEndpointKey()
+    {
+        $this->userEndpointKey = null;
+        return $this;
+    }
+
+    /**
      * Adder for userEndpointKey
      *
-     * @ElementName userEndpointKey
      * @param \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey $userEndpointKey
      * @return $this
      */
     public function addUserEndpointKey($userEndpointKey)
     {
-        $this->userEndpointKey []= $userEndpointKey;
+        $this->userEndpointKey[] = $userEndpointKey;
         return $this;
     }
 

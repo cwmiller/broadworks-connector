@@ -25,36 +25,42 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName recordingOption
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null
      */
     private $recordingOption = null;
 
     /**
      * @ElementName pauseResumeNotification
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null
      */
     private $pauseResumeNotification = null;
 
     /**
      * @ElementName enableCallRecordingAnnouncement
+     * @Type bool
      * @var bool|null
      */
     private $enableCallRecordingAnnouncement = null;
 
     /**
      * @ElementName enableRecordCallRepeatWarningTone
+     * @Type bool
      * @var bool|null
      */
     private $enableRecordCallRepeatWarningTone = null;
 
     /**
      * @ElementName recordCallRepeatWarningToneTimerSeconds
+     * @Type int
      * @var int|null
      */
     private $recordCallRepeatWarningToneTimerSeconds = null;
 
     /**
      * @ElementName enableVoiceMailRecording
+     * @Type bool
      * @var bool|null
      */
     private $enableVoiceMailRecording = null;
@@ -62,19 +68,17 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for recordingOption
      *
-     * @ElementName recordingOption
-     * @return \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20
      */
     public function getRecordingOption()
     {
-        return $this->recordingOption;
+        return $this->recordingOption instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordingOption;
     }
 
     /**
      * Setter for recordingOption
      *
-     * @ElementName recordingOption
-     * @param \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20|null $recordingOption
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecordingOption20 $recordingOption
      * @return $this
      */
     public function setRecordingOption(\CWM\BroadWorksConnector\Ocip\Models\RecordingOption20 $recordingOption)
@@ -84,21 +88,28 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecordingOption()
+    {
+        $this->recordingOption = null;
+        return $this;
+    }
+
+    /**
      * Getter for pauseResumeNotification
      *
-     * @ElementName pauseResumeNotification
-     * @return \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType
      */
     public function getPauseResumeNotification()
     {
-        return $this->pauseResumeNotification;
+        return $this->pauseResumeNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->pauseResumeNotification;
     }
 
     /**
      * Setter for pauseResumeNotification
      *
-     * @ElementName pauseResumeNotification
-     * @param \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType|null $pauseResumeNotification
+     * @param \CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType $pauseResumeNotification
      * @return $this
      */
     public function setPauseResumeNotification(\CWM\BroadWorksConnector\Ocip\Models\RecordingPauseResumeNotificationType $pauseResumeNotification)
@@ -108,21 +119,28 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPauseResumeNotification()
+    {
+        $this->pauseResumeNotification = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCallRecordingAnnouncement
      *
-     * @ElementName enableCallRecordingAnnouncement
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCallRecordingAnnouncement()
     {
-        return $this->enableCallRecordingAnnouncement;
+        return $this->enableCallRecordingAnnouncement instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCallRecordingAnnouncement;
     }
 
     /**
      * Setter for enableCallRecordingAnnouncement
      *
-     * @ElementName enableCallRecordingAnnouncement
-     * @param bool|null $enableCallRecordingAnnouncement
+     * @param bool $enableCallRecordingAnnouncement
      * @return $this
      */
     public function setEnableCallRecordingAnnouncement($enableCallRecordingAnnouncement)
@@ -132,21 +150,28 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableCallRecordingAnnouncement()
+    {
+        $this->enableCallRecordingAnnouncement = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableRecordCallRepeatWarningTone
      *
-     * @ElementName enableRecordCallRepeatWarningTone
-     * @return bool|null
+     * @return bool
      */
     public function getEnableRecordCallRepeatWarningTone()
     {
-        return $this->enableRecordCallRepeatWarningTone;
+        return $this->enableRecordCallRepeatWarningTone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableRecordCallRepeatWarningTone;
     }
 
     /**
      * Setter for enableRecordCallRepeatWarningTone
      *
-     * @ElementName enableRecordCallRepeatWarningTone
-     * @param bool|null $enableRecordCallRepeatWarningTone
+     * @param bool $enableRecordCallRepeatWarningTone
      * @return $this
      */
     public function setEnableRecordCallRepeatWarningTone($enableRecordCallRepeatWarningTone)
@@ -156,21 +181,28 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableRecordCallRepeatWarningTone()
+    {
+        $this->enableRecordCallRepeatWarningTone = null;
+        return $this;
+    }
+
+    /**
      * Getter for recordCallRepeatWarningToneTimerSeconds
      *
-     * @ElementName recordCallRepeatWarningToneTimerSeconds
-     * @return int|null
+     * @return int
      */
     public function getRecordCallRepeatWarningToneTimerSeconds()
     {
-        return $this->recordCallRepeatWarningToneTimerSeconds;
+        return $this->recordCallRepeatWarningToneTimerSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recordCallRepeatWarningToneTimerSeconds;
     }
 
     /**
      * Setter for recordCallRepeatWarningToneTimerSeconds
      *
-     * @ElementName recordCallRepeatWarningToneTimerSeconds
-     * @param int|null $recordCallRepeatWarningToneTimerSeconds
+     * @param int $recordCallRepeatWarningToneTimerSeconds
      * @return $this
      */
     public function setRecordCallRepeatWarningToneTimerSeconds($recordCallRepeatWarningToneTimerSeconds)
@@ -180,26 +212,42 @@ class UserCallRecordingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecordCallRepeatWarningToneTimerSeconds()
+    {
+        $this->recordCallRepeatWarningToneTimerSeconds = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableVoiceMailRecording
      *
-     * @ElementName enableVoiceMailRecording
-     * @return bool|null
+     * @return bool
      */
     public function getEnableVoiceMailRecording()
     {
-        return $this->enableVoiceMailRecording;
+        return $this->enableVoiceMailRecording instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableVoiceMailRecording;
     }
 
     /**
      * Setter for enableVoiceMailRecording
      *
-     * @ElementName enableVoiceMailRecording
-     * @param bool|null $enableVoiceMailRecording
+     * @param bool $enableVoiceMailRecording
      * @return $this
      */
     public function setEnableVoiceMailRecording($enableVoiceMailRecording)
     {
         $this->enableVoiceMailRecording = $enableVoiceMailRecording;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableVoiceMailRecording()
+    {
+        $this->enableVoiceMailRecording = null;
         return $this;
     }
 

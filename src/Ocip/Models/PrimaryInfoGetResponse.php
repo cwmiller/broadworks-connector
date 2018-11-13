@@ -14,25 +14,23 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
 {
 
     /**
-     * Is the server that processed this request the primary in the cluster?
-     *
      * @ElementName isPrimary
+     * @Type bool
      * @var bool|null
      */
     private $isPrimary = null;
 
     /**
-     * Primary server's hostname.
-     *
      * @ElementName hostnameForPrimary
+     * @Type string
      * @var string|null
      */
     private $hostnameForPrimary = null;
 
     /**
-     * List of addresses for primary server in cluster.
-     *
      * @ElementName addressForPrimary
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $addressForPrimary = array(
@@ -40,9 +38,9 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     );
 
     /**
-     * List of private addresses for primary server in cluster.
-     *
      * @ElementName privateAddressForPrimary
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $privateAddressForPrimary = array(
@@ -54,12 +52,11 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      *
      * Is the server that processed this request the primary in the cluster?
      *
-     * @ElementName isPrimary
-     * @return bool|null
+     * @return bool
      */
     public function getIsPrimary()
     {
-        return $this->isPrimary;
+        return $this->isPrimary instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isPrimary;
     }
 
     /**
@@ -67,8 +64,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      *
      * Is the server that processed this request the primary in the cluster?
      *
-     * @ElementName isPrimary
-     * @param bool|null $isPrimary
+     * @param bool $isPrimary
      * @return $this
      */
     public function setIsPrimary($isPrimary)
@@ -78,16 +74,24 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsPrimary()
+    {
+        $this->isPrimary = null;
+        return $this;
+    }
+
+    /**
      * Getter for hostnameForPrimary
      *
      * Primary server's hostname.
      *
-     * @ElementName hostnameForPrimary
-     * @return string|null
+     * @return string
      */
     public function getHostnameForPrimary()
     {
-        return $this->hostnameForPrimary;
+        return $this->hostnameForPrimary instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->hostnameForPrimary;
     }
 
     /**
@@ -95,8 +99,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      *
      * Primary server's hostname.
      *
-     * @ElementName hostnameForPrimary
-     * @param string|null $hostnameForPrimary
+     * @param string $hostnameForPrimary
      * @return $this
      */
     public function setHostnameForPrimary($hostnameForPrimary)
@@ -106,16 +109,24 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetHostnameForPrimary()
+    {
+        $this->hostnameForPrimary = null;
+        return $this;
+    }
+
+    /**
      * Getter for addressForPrimary
      *
      * List of addresses for primary server in cluster.
      *
-     * @ElementName addressForPrimary
      * @return string[]
      */
     public function getAddressForPrimary()
     {
-        return $this->addressForPrimary;
+        return $this->addressForPrimary instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->addressForPrimary;
     }
 
     /**
@@ -123,7 +134,6 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      *
      * List of addresses for primary server in cluster.
      *
-     * @ElementName addressForPrimary
      * @param string[] $addressForPrimary
      * @return $this
      */
@@ -134,17 +144,23 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAddressForPrimary()
+    {
+        $this->addressForPrimary = null;
+        return $this;
+    }
+
+    /**
      * Adder for addressForPrimary
      *
-     * List of addresses for primary server in cluster.
-     *
-     * @ElementName addressForPrimary
      * @param string $addressForPrimary
      * @return $this
      */
     public function addAddressForPrimary(string $addressForPrimary)
     {
-        $this->addressForPrimary []= $addressForPrimary;
+        $this->addressForPrimary[] = $addressForPrimary;
         return $this;
     }
 
@@ -153,12 +169,11 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      *
      * List of private addresses for primary server in cluster.
      *
-     * @ElementName privateAddressForPrimary
      * @return string[]
      */
     public function getPrivateAddressForPrimary()
     {
-        return $this->privateAddressForPrimary;
+        return $this->privateAddressForPrimary instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->privateAddressForPrimary;
     }
 
     /**
@@ -166,7 +181,6 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      *
      * List of private addresses for primary server in cluster.
      *
-     * @ElementName privateAddressForPrimary
      * @param string[] $privateAddressForPrimary
      * @return $this
      */
@@ -177,17 +191,23 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPrivateAddressForPrimary()
+    {
+        $this->privateAddressForPrimary = null;
+        return $this;
+    }
+
+    /**
      * Adder for privateAddressForPrimary
      *
-     * List of private addresses for primary server in cluster.
-     *
-     * @ElementName privateAddressForPrimary
      * @param string $privateAddressForPrimary
      * @return $this
      */
     public function addPrivateAddressForPrimary(string $privateAddressForPrimary)
     {
-        $this->privateAddressForPrimary []= $privateAddressForPrimary;
+        $this->privateAddressForPrimary[] = $privateAddressForPrimary;
         return $this;
     }
 

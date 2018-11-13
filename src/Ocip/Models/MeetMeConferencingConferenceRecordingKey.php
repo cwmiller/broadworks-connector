@@ -12,18 +12,21 @@ class MeetMeConferencingConferenceRecordingKey
 
     /**
      * @ElementName bridgeId
+     * @Type string
      * @var string|null
      */
     private $bridgeId = null;
 
     /**
      * @ElementName conferenceId
+     * @Type string
      * @var string|null
      */
     private $conferenceId = null;
 
     /**
      * @ElementName startTime
+     * @Type string
      * @var string|null
      */
     private $startTime = null;
@@ -31,19 +34,17 @@ class MeetMeConferencingConferenceRecordingKey
     /**
      * Getter for bridgeId
      *
-     * @ElementName bridgeId
-     * @return string|null
+     * @return string
      */
     public function getBridgeId()
     {
-        return $this->bridgeId;
+        return $this->bridgeId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->bridgeId;
     }
 
     /**
      * Setter for bridgeId
      *
-     * @ElementName bridgeId
-     * @param string|null $bridgeId
+     * @param string $bridgeId
      * @return $this
      */
     public function setBridgeId($bridgeId)
@@ -53,21 +54,28 @@ class MeetMeConferencingConferenceRecordingKey
     }
 
     /**
+     * @return $this
+     */
+    public function unsetBridgeId()
+    {
+        $this->bridgeId = null;
+        return $this;
+    }
+
+    /**
      * Getter for conferenceId
      *
-     * @ElementName conferenceId
-     * @return string|null
+     * @return string
      */
     public function getConferenceId()
     {
-        return $this->conferenceId;
+        return $this->conferenceId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->conferenceId;
     }
 
     /**
      * Setter for conferenceId
      *
-     * @ElementName conferenceId
-     * @param string|null $conferenceId
+     * @param string $conferenceId
      * @return $this
      */
     public function setConferenceId($conferenceId)
@@ -77,26 +85,42 @@ class MeetMeConferencingConferenceRecordingKey
     }
 
     /**
+     * @return $this
+     */
+    public function unsetConferenceId()
+    {
+        $this->conferenceId = null;
+        return $this;
+    }
+
+    /**
      * Getter for startTime
      *
-     * @ElementName startTime
-     * @return string|null
+     * @return string
      */
     public function getStartTime()
     {
-        return $this->startTime;
+        return $this->startTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->startTime;
     }
 
     /**
      * Setter for startTime
      *
-     * @ElementName startTime
-     * @param string|null $startTime
+     * @param string $startTime
      * @return $this
      */
     public function setStartTime($startTime)
     {
         $this->startTime = $startTime;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetStartTime()
+    {
+        $this->startTime = null;
         return $this;
     }
 

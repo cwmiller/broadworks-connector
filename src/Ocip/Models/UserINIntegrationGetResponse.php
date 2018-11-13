@@ -14,12 +14,14 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
 
     /**
      * @ElementName originatingServiceKey
+     * @Type int
      * @var int|null
      */
     private $originatingServiceKey = null;
 
     /**
      * @ElementName terminatingServiceKey
+     * @Type int
      * @var int|null
      */
     private $terminatingServiceKey = null;
@@ -27,19 +29,17 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * Getter for originatingServiceKey
      *
-     * @ElementName originatingServiceKey
-     * @return int|null
+     * @return int
      */
     public function getOriginatingServiceKey()
     {
-        return $this->originatingServiceKey;
+        return $this->originatingServiceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->originatingServiceKey;
     }
 
     /**
      * Setter for originatingServiceKey
      *
-     * @ElementName originatingServiceKey
-     * @param int|null $originatingServiceKey
+     * @param int $originatingServiceKey
      * @return $this
      */
     public function setOriginatingServiceKey($originatingServiceKey)
@@ -49,26 +49,42 @@ class UserINIntegrationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOriginatingServiceKey()
+    {
+        $this->originatingServiceKey = null;
+        return $this;
+    }
+
+    /**
      * Getter for terminatingServiceKey
      *
-     * @ElementName terminatingServiceKey
-     * @return int|null
+     * @return int
      */
     public function getTerminatingServiceKey()
     {
-        return $this->terminatingServiceKey;
+        return $this->terminatingServiceKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->terminatingServiceKey;
     }
 
     /**
      * Setter for terminatingServiceKey
      *
-     * @ElementName terminatingServiceKey
-     * @param int|null $terminatingServiceKey
+     * @param int $terminatingServiceKey
      * @return $this
      */
     public function setTerminatingServiceKey($terminatingServiceKey)
     {
         $this->terminatingServiceKey = $terminatingServiceKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTerminatingServiceKey()
+    {
+        $this->terminatingServiceKey = null;
         return $this;
     }
 

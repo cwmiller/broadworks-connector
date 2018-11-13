@@ -28,36 +28,42 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName deviceType
+     * @Type string
      * @var string|null
      */
     private $deviceType = null;
 
     /**
      * @ElementName tagName
+     * @Type string
      * @var string|null
      */
     private $tagName = null;
 
     /**
      * @ElementName isTagValueEncrypted
+     * @Type bool
      * @var bool|null
      */
     private $isTagValueEncrypted = null;
 
     /**
      * @ElementName tagValue
+     * @Type string
      * @var string|null
      */
     private $tagValue = null;
 
     /**
      * @ElementName tagValueToEncrypt
+     * @Type string
      * @var string|null
      */
     private $tagValueToEncrypt = null;
@@ -65,19 +71,17 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -87,21 +91,28 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for deviceType
      *
-     * @ElementName deviceType
-     * @return string|null
+     * @return string
      */
     public function getDeviceType()
     {
-        return $this->deviceType;
+        return $this->deviceType instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceType;
     }
 
     /**
      * Setter for deviceType
      *
-     * @ElementName deviceType
-     * @param string|null $deviceType
+     * @param string $deviceType
      * @return $this
      */
     public function setDeviceType($deviceType)
@@ -111,21 +122,28 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDeviceType()
+    {
+        $this->deviceType = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagName
      *
-     * @ElementName tagName
-     * @return string|null
+     * @return string
      */
     public function getTagName()
     {
-        return $this->tagName;
+        return $this->tagName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagName;
     }
 
     /**
      * Setter for tagName
      *
-     * @ElementName tagName
-     * @param string|null $tagName
+     * @param string $tagName
      * @return $this
      */
     public function setTagName($tagName)
@@ -135,21 +153,28 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagName()
+    {
+        $this->tagName = null;
+        return $this;
+    }
+
+    /**
      * Getter for isTagValueEncrypted
      *
-     * @ElementName isTagValueEncrypted
-     * @return bool|null
+     * @return bool
      */
     public function getIsTagValueEncrypted()
     {
-        return $this->isTagValueEncrypted;
+        return $this->isTagValueEncrypted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isTagValueEncrypted;
     }
 
     /**
      * Setter for isTagValueEncrypted
      *
-     * @ElementName isTagValueEncrypted
-     * @param bool|null $isTagValueEncrypted
+     * @param bool $isTagValueEncrypted
      * @return $this
      */
     public function setIsTagValueEncrypted($isTagValueEncrypted)
@@ -159,21 +184,28 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsTagValueEncrypted()
+    {
+        $this->isTagValueEncrypted = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagValue
      *
-     * @ElementName tagValue
-     * @return string|null
+     * @return string
      */
     public function getTagValue()
     {
-        return $this->tagValue;
+        return $this->tagValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagValue;
     }
 
     /**
      * Setter for tagValue
      *
-     * @ElementName tagValue
-     * @param string|null $tagValue
+     * @param string $tagValue
      * @return $this
      */
     public function setTagValue($tagValue)
@@ -183,26 +215,42 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTagValue()
+    {
+        $this->tagValue = null;
+        return $this;
+    }
+
+    /**
      * Getter for tagValueToEncrypt
      *
-     * @ElementName tagValueToEncrypt
-     * @return string|null
+     * @return string
      */
     public function getTagValueToEncrypt()
     {
-        return $this->tagValueToEncrypt;
+        return $this->tagValueToEncrypt instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->tagValueToEncrypt;
     }
 
     /**
      * Setter for tagValueToEncrypt
      *
-     * @ElementName tagValueToEncrypt
-     * @param string|null $tagValueToEncrypt
+     * @param string $tagValueToEncrypt
      * @return $this
      */
     public function setTagValueToEncrypt($tagValueToEncrypt)
     {
         $this->tagValueToEncrypt = $tagValueToEncrypt;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTagValueToEncrypt()
+    {
+        $this->tagValueToEncrypt = null;
         return $this;
     }
 

@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static MediaType AUDIO()
  * @method static MediaType VIDEO()
  * @method static MediaType IMAGE()
- * @ValueType string
+ * @EnumValueType string
  */
 class MediaType extends \MyCLabs\Enum\Enum
 {

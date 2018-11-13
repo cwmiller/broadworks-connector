@@ -8,7 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Possible algorithms for digital signatures supported by the provisioning server.
  *
  * @method static DigitalSignatureAlgorithm MD5()
- * @ValueType string
+ * @EnumValueType string
  */
 class DigitalSignatureAlgorithm extends \MyCLabs\Enum\Enum
 {

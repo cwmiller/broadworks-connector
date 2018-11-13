@@ -15,6 +15,7 @@ class SystemGETSReservedFeatureAccessCodeGetListResponse extends \CWM\BroadWorks
 
     /**
      * @ElementName reservedCodeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $reservedCodeTable = null;
@@ -22,24 +23,31 @@ class SystemGETSReservedFeatureAccessCodeGetListResponse extends \CWM\BroadWorks
     /**
      * Getter for reservedCodeTable
      *
-     * @ElementName reservedCodeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getReservedCodeTable()
     {
-        return $this->reservedCodeTable;
+        return $this->reservedCodeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->reservedCodeTable;
     }
 
     /**
      * Setter for reservedCodeTable
      *
-     * @ElementName reservedCodeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $reservedCodeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reservedCodeTable
      * @return $this
      */
     public function setReservedCodeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $reservedCodeTable)
     {
         $this->reservedCodeTable = $reservedCodeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetReservedCodeTable()
+    {
+        $this->reservedCodeTable = null;
         return $this;
     }
 

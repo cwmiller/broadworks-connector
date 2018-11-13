@@ -26,30 +26,36 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName useMobileIdentityCallAnchoring
+     * @Type bool
      * @var bool|null
      */
     private $useMobileIdentityCallAnchoring = null;
 
     /**
      * @ElementName preventCallsToOwnMobiles
+     * @Type bool
      * @var bool|null
      */
     private $preventCallsToOwnMobiles = null;
 
     /**
      * @ElementName mobileIdentity
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityModifyEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityModifyEntry[]
      */
     private $mobileIdentity = array(
@@ -58,30 +64,35 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName profileIdentityDevicesToRing
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $profileIdentityDevicesToRing = null;
 
     /**
      * @ElementName profileIdentityIncludeSharedCallAppearance
+     * @Type bool
      * @var bool|null
      */
     private $profileIdentityIncludeSharedCallAppearance = null;
 
     /**
      * @ElementName profileIdentityIncludeBroadworksAnywhere
+     * @Type bool
      * @var bool|null
      */
     private $profileIdentityIncludeBroadworksAnywhere = null;
 
     /**
      * @ElementName profileIdentityIncludeExecutiveAssistant
+     * @Type bool
      * @var bool|null
      */
     private $profileIdentityIncludeExecutiveAssistant = null;
 
     /**
      * @ElementName profileIdentityMobilityNumbersAlerted
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -90,19 +101,17 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -112,21 +121,28 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -136,21 +152,28 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for useMobileIdentityCallAnchoring
      *
-     * @ElementName useMobileIdentityCallAnchoring
-     * @return bool|null
+     * @return bool
      */
     public function getUseMobileIdentityCallAnchoring()
     {
-        return $this->useMobileIdentityCallAnchoring;
+        return $this->useMobileIdentityCallAnchoring instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useMobileIdentityCallAnchoring;
     }
 
     /**
      * Setter for useMobileIdentityCallAnchoring
      *
-     * @ElementName useMobileIdentityCallAnchoring
-     * @param bool|null $useMobileIdentityCallAnchoring
+     * @param bool $useMobileIdentityCallAnchoring
      * @return $this
      */
     public function setUseMobileIdentityCallAnchoring($useMobileIdentityCallAnchoring)
@@ -160,21 +183,28 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseMobileIdentityCallAnchoring()
+    {
+        $this->useMobileIdentityCallAnchoring = null;
+        return $this;
+    }
+
+    /**
      * Getter for preventCallsToOwnMobiles
      *
-     * @ElementName preventCallsToOwnMobiles
-     * @return bool|null
+     * @return bool
      */
     public function getPreventCallsToOwnMobiles()
     {
-        return $this->preventCallsToOwnMobiles;
+        return $this->preventCallsToOwnMobiles instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->preventCallsToOwnMobiles;
     }
 
     /**
      * Setter for preventCallsToOwnMobiles
      *
-     * @ElementName preventCallsToOwnMobiles
-     * @param bool|null $preventCallsToOwnMobiles
+     * @param bool $preventCallsToOwnMobiles
      * @return $this
      */
     public function setPreventCallsToOwnMobiles($preventCallsToOwnMobiles)
@@ -184,20 +214,27 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPreventCallsToOwnMobiles()
+    {
+        $this->preventCallsToOwnMobiles = null;
+        return $this;
+    }
+
+    /**
      * Getter for mobileIdentity
      *
-     * @ElementName mobileIdentity
      * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityModifyEntry[]
      */
     public function getMobileIdentity()
     {
-        return $this->mobileIdentity;
+        return $this->mobileIdentity instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->mobileIdentity;
     }
 
     /**
      * Setter for mobileIdentity
      *
-     * @ElementName mobileIdentity
      * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityModifyEntry[] $mobileIdentity
      * @return $this
      */
@@ -208,34 +245,40 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetMobileIdentity()
+    {
+        $this->mobileIdentity = null;
+        return $this;
+    }
+
+    /**
      * Adder for mobileIdentity
      *
-     * @ElementName mobileIdentity
      * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityModifyEntry $mobileIdentity
      * @return $this
      */
     public function addMobileIdentity($mobileIdentity)
     {
-        $this->mobileIdentity []= $mobileIdentity;
+        $this->mobileIdentity[] = $mobileIdentity;
         return $this;
     }
 
     /**
      * Getter for profileIdentityDevicesToRing
      *
-     * @ElementName profileIdentityDevicesToRing
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
      */
     public function getProfileIdentityDevicesToRing()
     {
-        return $this->profileIdentityDevicesToRing;
+        return $this->profileIdentityDevicesToRing instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileIdentityDevicesToRing;
     }
 
     /**
      * Setter for profileIdentityDevicesToRing
      *
-     * @ElementName profileIdentityDevicesToRing
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null $profileIdentityDevicesToRing
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing $profileIdentityDevicesToRing
      * @return $this
      */
     public function setProfileIdentityDevicesToRing(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing $profileIdentityDevicesToRing)
@@ -245,21 +288,28 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileIdentityDevicesToRing()
+    {
+        $this->profileIdentityDevicesToRing = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileIdentityIncludeSharedCallAppearance
      *
-     * @ElementName profileIdentityIncludeSharedCallAppearance
-     * @return bool|null
+     * @return bool
      */
     public function getProfileIdentityIncludeSharedCallAppearance()
     {
-        return $this->profileIdentityIncludeSharedCallAppearance;
+        return $this->profileIdentityIncludeSharedCallAppearance instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileIdentityIncludeSharedCallAppearance;
     }
 
     /**
      * Setter for profileIdentityIncludeSharedCallAppearance
      *
-     * @ElementName profileIdentityIncludeSharedCallAppearance
-     * @param bool|null $profileIdentityIncludeSharedCallAppearance
+     * @param bool $profileIdentityIncludeSharedCallAppearance
      * @return $this
      */
     public function setProfileIdentityIncludeSharedCallAppearance($profileIdentityIncludeSharedCallAppearance)
@@ -269,21 +319,28 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileIdentityIncludeSharedCallAppearance()
+    {
+        $this->profileIdentityIncludeSharedCallAppearance = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileIdentityIncludeBroadworksAnywhere
      *
-     * @ElementName profileIdentityIncludeBroadworksAnywhere
-     * @return bool|null
+     * @return bool
      */
     public function getProfileIdentityIncludeBroadworksAnywhere()
     {
-        return $this->profileIdentityIncludeBroadworksAnywhere;
+        return $this->profileIdentityIncludeBroadworksAnywhere instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileIdentityIncludeBroadworksAnywhere;
     }
 
     /**
      * Setter for profileIdentityIncludeBroadworksAnywhere
      *
-     * @ElementName profileIdentityIncludeBroadworksAnywhere
-     * @param bool|null $profileIdentityIncludeBroadworksAnywhere
+     * @param bool $profileIdentityIncludeBroadworksAnywhere
      * @return $this
      */
     public function setProfileIdentityIncludeBroadworksAnywhere($profileIdentityIncludeBroadworksAnywhere)
@@ -293,21 +350,28 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileIdentityIncludeBroadworksAnywhere()
+    {
+        $this->profileIdentityIncludeBroadworksAnywhere = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileIdentityIncludeExecutiveAssistant
      *
-     * @ElementName profileIdentityIncludeExecutiveAssistant
-     * @return bool|null
+     * @return bool
      */
     public function getProfileIdentityIncludeExecutiveAssistant()
     {
-        return $this->profileIdentityIncludeExecutiveAssistant;
+        return $this->profileIdentityIncludeExecutiveAssistant instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileIdentityIncludeExecutiveAssistant;
     }
 
     /**
      * Setter for profileIdentityIncludeExecutiveAssistant
      *
-     * @ElementName profileIdentityIncludeExecutiveAssistant
-     * @param bool|null $profileIdentityIncludeExecutiveAssistant
+     * @param bool $profileIdentityIncludeExecutiveAssistant
      * @return $this
      */
     public function setProfileIdentityIncludeExecutiveAssistant($profileIdentityIncludeExecutiveAssistant)
@@ -317,28 +381,46 @@ class UserBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileIdentityIncludeExecutiveAssistant()
+    {
+        $this->profileIdentityIncludeExecutiveAssistant = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileIdentityMobilityNumbersAlerted
      *
-     * @ElementName profileIdentityMobilityNumbersAlerted
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null
      */
     public function getProfileIdentityMobilityNumbersAlerted()
     {
-        return $this->profileIdentityMobilityNumbersAlerted;
+        return $this->profileIdentityMobilityNumbersAlerted instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileIdentityMobilityNumbersAlerted;
     }
 
     /**
      * Setter for profileIdentityMobilityNumbersAlerted
      *
-     * @ElementName profileIdentityMobilityNumbersAlerted
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil $profileIdentityMobilityNumbersAlerted
+     * @param \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList|null $profileIdentityMobilityNumbersAlerted
      * @return $this
      */
     public function setProfileIdentityMobilityNumbersAlerted(\CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityAlertingMobileNumberReplacementList $profileIdentityMobilityNumbersAlerted)
     {
-        $this->profileIdentityMobilityNumbersAlerted = $profileIdentityMobilityNumbersAlerted;
+        if ($profileIdentityMobilityNumbersAlerted === null) {
+            $this->profileIdentityMobilityNumbersAlerted = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->profileIdentityMobilityNumbersAlerted = $profileIdentityMobilityNumbersAlerted;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfileIdentityMobilityNumbersAlerted()
+    {
+        $this->profileIdentityMobilityNumbersAlerted = null;
         return $this;
     }
 

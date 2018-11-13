@@ -16,18 +16,21 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName officeZoneName
+     * @Type string
      * @var string|null
      */
     private $officeZoneName = null;
 
     /**
      * @ElementName newOfficeZoneName
+     * @Type string
      * @var string|null
      */
     private $newOfficeZoneName = null;
 
     /**
      * @ElementName description
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -35,12 +38,14 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
 
     /**
      * @ElementName replacementZoneList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList|null
      */
     private $replacementZoneList = null;
 
     /**
      * @ElementName primaryZoneName
+     * @Type string
      * @var string|null
      */
     private $primaryZoneName = null;
@@ -48,19 +53,17 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * Getter for officeZoneName
      *
-     * @ElementName officeZoneName
-     * @return string|null
+     * @return string
      */
     public function getOfficeZoneName()
     {
-        return $this->officeZoneName;
+        return $this->officeZoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->officeZoneName;
     }
 
     /**
      * Setter for officeZoneName
      *
-     * @ElementName officeZoneName
-     * @param string|null $officeZoneName
+     * @param string $officeZoneName
      * @return $this
      */
     public function setOfficeZoneName($officeZoneName)
@@ -70,21 +73,28 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOfficeZoneName()
+    {
+        $this->officeZoneName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newOfficeZoneName
      *
-     * @ElementName newOfficeZoneName
-     * @return string|null
+     * @return string
      */
     public function getNewOfficeZoneName()
     {
-        return $this->newOfficeZoneName;
+        return $this->newOfficeZoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newOfficeZoneName;
     }
 
     /**
      * Setter for newOfficeZoneName
      *
-     * @ElementName newOfficeZoneName
-     * @param string|null $newOfficeZoneName
+     * @param string $newOfficeZoneName
      * @return $this
      */
     public function setNewOfficeZoneName($newOfficeZoneName)
@@ -94,47 +104,63 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewOfficeZoneName()
+    {
+        $this->newOfficeZoneName = null;
+        return $this;
+    }
+
+    /**
      * Getter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->description;
     }
 
     /**
      * Setter for description
      *
-     * @ElementName description
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $description
+     * @param string|null $description
      * @return $this
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        if ($description === null) {
+            $this->description = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->description = $description;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDescription()
+    {
+        $this->description = null;
         return $this;
     }
 
     /**
      * Getter for replacementZoneList
      *
-     * @ElementName replacementZoneList
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList
      */
     public function getReplacementZoneList()
     {
-        return $this->replacementZoneList;
+        return $this->replacementZoneList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->replacementZoneList;
     }
 
     /**
      * Setter for replacementZoneList
      *
-     * @ElementName replacementZoneList
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList|null $replacementZoneList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList $replacementZoneList
      * @return $this
      */
     public function setReplacementZoneList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList $replacementZoneList)
@@ -144,26 +170,42 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReplacementZoneList()
+    {
+        $this->replacementZoneList = null;
+        return $this;
+    }
+
+    /**
      * Getter for primaryZoneName
      *
-     * @ElementName primaryZoneName
-     * @return string|null
+     * @return string
      */
     public function getPrimaryZoneName()
     {
-        return $this->primaryZoneName;
+        return $this->primaryZoneName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->primaryZoneName;
     }
 
     /**
      * Setter for primaryZoneName
      *
-     * @ElementName primaryZoneName
-     * @param string|null $primaryZoneName
+     * @param string $primaryZoneName
      * @return $this
      */
     public function setPrimaryZoneName($primaryZoneName)
     {
         $this->primaryZoneName = $primaryZoneName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrimaryZoneName()
+    {
+        $this->primaryZoneName = null;
         return $this;
     }
 

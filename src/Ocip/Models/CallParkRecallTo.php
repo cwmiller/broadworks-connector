@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallParkRecallTo PARKING_USER_ONLY()
  * @method static CallParkRecallTo PARKING_USER_THEN_ALTERNATE_USER()
  * @method static CallParkRecallTo ALTERNATE_USER_ONLY()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallParkRecallTo extends \MyCLabs\Enum\Enum
 {

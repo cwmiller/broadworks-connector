@@ -12,42 +12,49 @@ class CommPilotExpressProfileMenuKeysReadEntry
 
     /**
      * @ElementName activateAvailableInOfficeProfile
+     * @Type string
      * @var string|null
      */
     private $activateAvailableInOfficeProfile = null;
 
     /**
      * @ElementName activateAvailableOutOfOfficeProfile
+     * @Type string
      * @var string|null
      */
     private $activateAvailableOutOfOfficeProfile = null;
 
     /**
      * @ElementName activateBusyProfile
+     * @Type string
      * @var string|null
      */
     private $activateBusyProfile = null;
 
     /**
      * @ElementName activateUnavailableProfile
+     * @Type string
      * @var string|null
      */
     private $activateUnavailableProfile = null;
 
     /**
      * @ElementName noProfile
+     * @Type string
      * @var string|null
      */
     private $noProfile = null;
 
     /**
      * @ElementName returnToPreviousMenu
+     * @Type string
      * @var string|null
      */
     private $returnToPreviousMenu = null;
 
     /**
      * @ElementName repeatMenu
+     * @Type string
      * @var string|null
      */
     private $repeatMenu = null;
@@ -55,19 +62,17 @@ class CommPilotExpressProfileMenuKeysReadEntry
     /**
      * Getter for activateAvailableInOfficeProfile
      *
-     * @ElementName activateAvailableInOfficeProfile
-     * @return string|null
+     * @return string
      */
     public function getActivateAvailableInOfficeProfile()
     {
-        return $this->activateAvailableInOfficeProfile;
+        return $this->activateAvailableInOfficeProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateAvailableInOfficeProfile;
     }
 
     /**
      * Setter for activateAvailableInOfficeProfile
      *
-     * @ElementName activateAvailableInOfficeProfile
-     * @param string|null $activateAvailableInOfficeProfile
+     * @param string $activateAvailableInOfficeProfile
      * @return $this
      */
     public function setActivateAvailableInOfficeProfile($activateAvailableInOfficeProfile)
@@ -77,21 +82,28 @@ class CommPilotExpressProfileMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetActivateAvailableInOfficeProfile()
+    {
+        $this->activateAvailableInOfficeProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for activateAvailableOutOfOfficeProfile
      *
-     * @ElementName activateAvailableOutOfOfficeProfile
-     * @return string|null
+     * @return string
      */
     public function getActivateAvailableOutOfOfficeProfile()
     {
-        return $this->activateAvailableOutOfOfficeProfile;
+        return $this->activateAvailableOutOfOfficeProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateAvailableOutOfOfficeProfile;
     }
 
     /**
      * Setter for activateAvailableOutOfOfficeProfile
      *
-     * @ElementName activateAvailableOutOfOfficeProfile
-     * @param string|null $activateAvailableOutOfOfficeProfile
+     * @param string $activateAvailableOutOfOfficeProfile
      * @return $this
      */
     public function setActivateAvailableOutOfOfficeProfile($activateAvailableOutOfOfficeProfile)
@@ -101,21 +113,28 @@ class CommPilotExpressProfileMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetActivateAvailableOutOfOfficeProfile()
+    {
+        $this->activateAvailableOutOfOfficeProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for activateBusyProfile
      *
-     * @ElementName activateBusyProfile
-     * @return string|null
+     * @return string
      */
     public function getActivateBusyProfile()
     {
-        return $this->activateBusyProfile;
+        return $this->activateBusyProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateBusyProfile;
     }
 
     /**
      * Setter for activateBusyProfile
      *
-     * @ElementName activateBusyProfile
-     * @param string|null $activateBusyProfile
+     * @param string $activateBusyProfile
      * @return $this
      */
     public function setActivateBusyProfile($activateBusyProfile)
@@ -125,21 +144,28 @@ class CommPilotExpressProfileMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetActivateBusyProfile()
+    {
+        $this->activateBusyProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for activateUnavailableProfile
      *
-     * @ElementName activateUnavailableProfile
-     * @return string|null
+     * @return string
      */
     public function getActivateUnavailableProfile()
     {
-        return $this->activateUnavailableProfile;
+        return $this->activateUnavailableProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->activateUnavailableProfile;
     }
 
     /**
      * Setter for activateUnavailableProfile
      *
-     * @ElementName activateUnavailableProfile
-     * @param string|null $activateUnavailableProfile
+     * @param string $activateUnavailableProfile
      * @return $this
      */
     public function setActivateUnavailableProfile($activateUnavailableProfile)
@@ -149,21 +175,28 @@ class CommPilotExpressProfileMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetActivateUnavailableProfile()
+    {
+        $this->activateUnavailableProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for noProfile
      *
-     * @ElementName noProfile
-     * @return string|null
+     * @return string
      */
     public function getNoProfile()
     {
-        return $this->noProfile;
+        return $this->noProfile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->noProfile;
     }
 
     /**
      * Setter for noProfile
      *
-     * @ElementName noProfile
-     * @param string|null $noProfile
+     * @param string $noProfile
      * @return $this
      */
     public function setNoProfile($noProfile)
@@ -173,21 +206,28 @@ class CommPilotExpressProfileMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNoProfile()
+    {
+        $this->noProfile = null;
+        return $this;
+    }
+
+    /**
      * Getter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @return string|null
+     * @return string
      */
     public function getReturnToPreviousMenu()
     {
-        return $this->returnToPreviousMenu;
+        return $this->returnToPreviousMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->returnToPreviousMenu;
     }
 
     /**
      * Setter for returnToPreviousMenu
      *
-     * @ElementName returnToPreviousMenu
-     * @param string|null $returnToPreviousMenu
+     * @param string $returnToPreviousMenu
      * @return $this
      */
     public function setReturnToPreviousMenu($returnToPreviousMenu)
@@ -197,26 +237,42 @@ class CommPilotExpressProfileMenuKeysReadEntry
     }
 
     /**
+     * @return $this
+     */
+    public function unsetReturnToPreviousMenu()
+    {
+        $this->returnToPreviousMenu = null;
+        return $this;
+    }
+
+    /**
      * Getter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @return string|null
+     * @return string
      */
     public function getRepeatMenu()
     {
-        return $this->repeatMenu;
+        return $this->repeatMenu instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->repeatMenu;
     }
 
     /**
      * Setter for repeatMenu
      *
-     * @ElementName repeatMenu
-     * @param string|null $repeatMenu
+     * @param string $repeatMenu
      * @return $this
      */
     public function setRepeatMenu($repeatMenu)
     {
         $this->repeatMenu = $repeatMenu;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRepeatMenu()
+    {
+        $this->repeatMenu = null;
         return $this;
     }
 

@@ -16,24 +16,28 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName serviceProviderId
+     * @Type string
      * @var string|null
      */
     private $serviceProviderId = null;
 
     /**
      * @ElementName profileName
+     * @Type string
      * @var string|null
      */
     private $profileName = null;
 
     /**
      * @ElementName newProfileName
+     * @Type string
      * @var string|null
      */
     private $newProfileName = null;
 
     /**
      * @ElementName profileDescription
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,6 +45,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeYellow
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -48,6 +53,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeRed
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -55,6 +61,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeYellow
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -62,6 +69,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeRed
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -69,6 +77,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -76,6 +85,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -83,6 +93,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdAverageBusyInTimeYellow
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -90,6 +101,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdAverageBusyInTimeRed
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -97,6 +109,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdAverageBusyOutTimeYellow
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -104,6 +117,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdAverageBusyOutTimeRed
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -111,6 +125,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdAverageWrapUpTimeYellow
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -118,6 +133,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName thresholdAverageWrapUpTimeRed
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -125,12 +141,14 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName enableNotificationEmail
+     * @Type bool
      * @var bool|null
      */
     private $enableNotificationEmail = null;
 
     /**
      * @ElementName notificationEmailAddressList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -138,6 +156,7 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
 
     /**
      * @ElementName agentUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -146,19 +165,17 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
     /**
      * Getter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @return string|null
+     * @return string
      */
     public function getServiceProviderId()
     {
-        return $this->serviceProviderId;
+        return $this->serviceProviderId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceProviderId;
     }
 
     /**
      * Setter for serviceProviderId
      *
-     * @ElementName serviceProviderId
-     * @param string|null $serviceProviderId
+     * @param string $serviceProviderId
      * @return $this
      */
     public function setServiceProviderId($serviceProviderId)
@@ -168,21 +185,28 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceProviderId()
+    {
+        $this->serviceProviderId = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileName
      *
-     * @ElementName profileName
-     * @return string|null
+     * @return string
      */
     public function getProfileName()
     {
-        return $this->profileName;
+        return $this->profileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileName;
     }
 
     /**
      * Setter for profileName
      *
-     * @ElementName profileName
-     * @param string|null $profileName
+     * @param string $profileName
      * @return $this
      */
     public function setProfileName($profileName)
@@ -192,21 +216,28 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfileName()
+    {
+        $this->profileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newProfileName
      *
-     * @ElementName newProfileName
-     * @return string|null
+     * @return string
      */
     public function getNewProfileName()
     {
-        return $this->newProfileName;
+        return $this->newProfileName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newProfileName;
     }
 
     /**
      * Setter for newProfileName
      *
-     * @ElementName newProfileName
-     * @param string|null $newProfileName
+     * @param string $newProfileName
      * @return $this
      */
     public function setNewProfileName($newProfileName)
@@ -216,359 +247,483 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewProfileName()
+    {
+        $this->newProfileName = null;
+        return $this;
+    }
+
+    /**
      * Getter for profileDescription
      *
-     * @ElementName profileDescription
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getProfileDescription()
     {
-        return $this->profileDescription;
+        return $this->profileDescription instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profileDescription;
     }
 
     /**
      * Setter for profileDescription
      *
-     * @ElementName profileDescription
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $profileDescription
+     * @param string|null $profileDescription
      * @return $this
      */
     public function setProfileDescription($profileDescription)
     {
-        $this->profileDescription = $profileDescription;
+        if ($profileDescription === null) {
+            $this->profileDescription = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->profileDescription = $profileDescription;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetProfileDescription()
+    {
+        $this->profileDescription = null;
         return $this;
     }
 
     /**
      * Getter for thresholdCurrentCallStateIdleTimeYellow
      *
-     * @ElementName thresholdCurrentCallStateIdleTimeYellow
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdCurrentCallStateIdleTimeYellow()
     {
-        return $this->thresholdCurrentCallStateIdleTimeYellow;
+        return $this->thresholdCurrentCallStateIdleTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallStateIdleTimeYellow;
     }
 
     /**
      * Setter for thresholdCurrentCallStateIdleTimeYellow
      *
-     * @ElementName thresholdCurrentCallStateIdleTimeYellow
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallStateIdleTimeYellow
+     * @param int|null $thresholdCurrentCallStateIdleTimeYellow
      * @return $this
      */
     public function setThresholdCurrentCallStateIdleTimeYellow($thresholdCurrentCallStateIdleTimeYellow)
     {
-        $this->thresholdCurrentCallStateIdleTimeYellow = $thresholdCurrentCallStateIdleTimeYellow;
+        if ($thresholdCurrentCallStateIdleTimeYellow === null) {
+            $this->thresholdCurrentCallStateIdleTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdCurrentCallStateIdleTimeYellow = $thresholdCurrentCallStateIdleTimeYellow;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallStateIdleTimeYellow()
+    {
+        $this->thresholdCurrentCallStateIdleTimeYellow = null;
         return $this;
     }
 
     /**
      * Getter for thresholdCurrentCallStateIdleTimeRed
      *
-     * @ElementName thresholdCurrentCallStateIdleTimeRed
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdCurrentCallStateIdleTimeRed()
     {
-        return $this->thresholdCurrentCallStateIdleTimeRed;
+        return $this->thresholdCurrentCallStateIdleTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallStateIdleTimeRed;
     }
 
     /**
      * Setter for thresholdCurrentCallStateIdleTimeRed
      *
-     * @ElementName thresholdCurrentCallStateIdleTimeRed
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallStateIdleTimeRed
+     * @param int|null $thresholdCurrentCallStateIdleTimeRed
      * @return $this
      */
     public function setThresholdCurrentCallStateIdleTimeRed($thresholdCurrentCallStateIdleTimeRed)
     {
-        $this->thresholdCurrentCallStateIdleTimeRed = $thresholdCurrentCallStateIdleTimeRed;
+        if ($thresholdCurrentCallStateIdleTimeRed === null) {
+            $this->thresholdCurrentCallStateIdleTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdCurrentCallStateIdleTimeRed = $thresholdCurrentCallStateIdleTimeRed;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallStateIdleTimeRed()
+    {
+        $this->thresholdCurrentCallStateIdleTimeRed = null;
         return $this;
     }
 
     /**
      * Getter for thresholdCurrentCallStateOnCallTimeYellow
      *
-     * @ElementName thresholdCurrentCallStateOnCallTimeYellow
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdCurrentCallStateOnCallTimeYellow()
     {
-        return $this->thresholdCurrentCallStateOnCallTimeYellow;
+        return $this->thresholdCurrentCallStateOnCallTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallStateOnCallTimeYellow;
     }
 
     /**
      * Setter for thresholdCurrentCallStateOnCallTimeYellow
      *
-     * @ElementName thresholdCurrentCallStateOnCallTimeYellow
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallStateOnCallTimeYellow
+     * @param int|null $thresholdCurrentCallStateOnCallTimeYellow
      * @return $this
      */
     public function setThresholdCurrentCallStateOnCallTimeYellow($thresholdCurrentCallStateOnCallTimeYellow)
     {
-        $this->thresholdCurrentCallStateOnCallTimeYellow = $thresholdCurrentCallStateOnCallTimeYellow;
+        if ($thresholdCurrentCallStateOnCallTimeYellow === null) {
+            $this->thresholdCurrentCallStateOnCallTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdCurrentCallStateOnCallTimeYellow = $thresholdCurrentCallStateOnCallTimeYellow;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallStateOnCallTimeYellow()
+    {
+        $this->thresholdCurrentCallStateOnCallTimeYellow = null;
         return $this;
     }
 
     /**
      * Getter for thresholdCurrentCallStateOnCallTimeRed
      *
-     * @ElementName thresholdCurrentCallStateOnCallTimeRed
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdCurrentCallStateOnCallTimeRed()
     {
-        return $this->thresholdCurrentCallStateOnCallTimeRed;
+        return $this->thresholdCurrentCallStateOnCallTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentCallStateOnCallTimeRed;
     }
 
     /**
      * Setter for thresholdCurrentCallStateOnCallTimeRed
      *
-     * @ElementName thresholdCurrentCallStateOnCallTimeRed
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentCallStateOnCallTimeRed
+     * @param int|null $thresholdCurrentCallStateOnCallTimeRed
      * @return $this
      */
     public function setThresholdCurrentCallStateOnCallTimeRed($thresholdCurrentCallStateOnCallTimeRed)
     {
-        $this->thresholdCurrentCallStateOnCallTimeRed = $thresholdCurrentCallStateOnCallTimeRed;
+        if ($thresholdCurrentCallStateOnCallTimeRed === null) {
+            $this->thresholdCurrentCallStateOnCallTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdCurrentCallStateOnCallTimeRed = $thresholdCurrentCallStateOnCallTimeRed;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentCallStateOnCallTimeRed()
+    {
+        $this->thresholdCurrentCallStateOnCallTimeRed = null;
         return $this;
     }
 
     /**
      * Getter for thresholdCurrentAgentStateUnavailableTimeYellow
      *
-     * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdCurrentAgentStateUnavailableTimeYellow()
     {
-        return $this->thresholdCurrentAgentStateUnavailableTimeYellow;
+        return $this->thresholdCurrentAgentStateUnavailableTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentAgentStateUnavailableTimeYellow;
     }
 
     /**
      * Setter for thresholdCurrentAgentStateUnavailableTimeYellow
      *
-     * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentAgentStateUnavailableTimeYellow
+     * @param int|null $thresholdCurrentAgentStateUnavailableTimeYellow
      * @return $this
      */
     public function setThresholdCurrentAgentStateUnavailableTimeYellow($thresholdCurrentAgentStateUnavailableTimeYellow)
     {
-        $this->thresholdCurrentAgentStateUnavailableTimeYellow = $thresholdCurrentAgentStateUnavailableTimeYellow;
+        if ($thresholdCurrentAgentStateUnavailableTimeYellow === null) {
+            $this->thresholdCurrentAgentStateUnavailableTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdCurrentAgentStateUnavailableTimeYellow = $thresholdCurrentAgentStateUnavailableTimeYellow;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentAgentStateUnavailableTimeYellow()
+    {
+        $this->thresholdCurrentAgentStateUnavailableTimeYellow = null;
         return $this;
     }
 
     /**
      * Getter for thresholdCurrentAgentStateUnavailableTimeRed
      *
-     * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdCurrentAgentStateUnavailableTimeRed()
     {
-        return $this->thresholdCurrentAgentStateUnavailableTimeRed;
+        return $this->thresholdCurrentAgentStateUnavailableTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdCurrentAgentStateUnavailableTimeRed;
     }
 
     /**
      * Setter for thresholdCurrentAgentStateUnavailableTimeRed
      *
-     * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdCurrentAgentStateUnavailableTimeRed
+     * @param int|null $thresholdCurrentAgentStateUnavailableTimeRed
      * @return $this
      */
     public function setThresholdCurrentAgentStateUnavailableTimeRed($thresholdCurrentAgentStateUnavailableTimeRed)
     {
-        $this->thresholdCurrentAgentStateUnavailableTimeRed = $thresholdCurrentAgentStateUnavailableTimeRed;
+        if ($thresholdCurrentAgentStateUnavailableTimeRed === null) {
+            $this->thresholdCurrentAgentStateUnavailableTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdCurrentAgentStateUnavailableTimeRed = $thresholdCurrentAgentStateUnavailableTimeRed;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdCurrentAgentStateUnavailableTimeRed()
+    {
+        $this->thresholdCurrentAgentStateUnavailableTimeRed = null;
         return $this;
     }
 
     /**
      * Getter for thresholdAverageBusyInTimeYellow
      *
-     * @ElementName thresholdAverageBusyInTimeYellow
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdAverageBusyInTimeYellow()
     {
-        return $this->thresholdAverageBusyInTimeYellow;
+        return $this->thresholdAverageBusyInTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageBusyInTimeYellow;
     }
 
     /**
      * Setter for thresholdAverageBusyInTimeYellow
      *
-     * @ElementName thresholdAverageBusyInTimeYellow
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageBusyInTimeYellow
+     * @param int|null $thresholdAverageBusyInTimeYellow
      * @return $this
      */
     public function setThresholdAverageBusyInTimeYellow($thresholdAverageBusyInTimeYellow)
     {
-        $this->thresholdAverageBusyInTimeYellow = $thresholdAverageBusyInTimeYellow;
+        if ($thresholdAverageBusyInTimeYellow === null) {
+            $this->thresholdAverageBusyInTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdAverageBusyInTimeYellow = $thresholdAverageBusyInTimeYellow;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdAverageBusyInTimeYellow()
+    {
+        $this->thresholdAverageBusyInTimeYellow = null;
         return $this;
     }
 
     /**
      * Getter for thresholdAverageBusyInTimeRed
      *
-     * @ElementName thresholdAverageBusyInTimeRed
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdAverageBusyInTimeRed()
     {
-        return $this->thresholdAverageBusyInTimeRed;
+        return $this->thresholdAverageBusyInTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageBusyInTimeRed;
     }
 
     /**
      * Setter for thresholdAverageBusyInTimeRed
      *
-     * @ElementName thresholdAverageBusyInTimeRed
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageBusyInTimeRed
+     * @param int|null $thresholdAverageBusyInTimeRed
      * @return $this
      */
     public function setThresholdAverageBusyInTimeRed($thresholdAverageBusyInTimeRed)
     {
-        $this->thresholdAverageBusyInTimeRed = $thresholdAverageBusyInTimeRed;
+        if ($thresholdAverageBusyInTimeRed === null) {
+            $this->thresholdAverageBusyInTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdAverageBusyInTimeRed = $thresholdAverageBusyInTimeRed;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdAverageBusyInTimeRed()
+    {
+        $this->thresholdAverageBusyInTimeRed = null;
         return $this;
     }
 
     /**
      * Getter for thresholdAverageBusyOutTimeYellow
      *
-     * @ElementName thresholdAverageBusyOutTimeYellow
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdAverageBusyOutTimeYellow()
     {
-        return $this->thresholdAverageBusyOutTimeYellow;
+        return $this->thresholdAverageBusyOutTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageBusyOutTimeYellow;
     }
 
     /**
      * Setter for thresholdAverageBusyOutTimeYellow
      *
-     * @ElementName thresholdAverageBusyOutTimeYellow
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageBusyOutTimeYellow
+     * @param int|null $thresholdAverageBusyOutTimeYellow
      * @return $this
      */
     public function setThresholdAverageBusyOutTimeYellow($thresholdAverageBusyOutTimeYellow)
     {
-        $this->thresholdAverageBusyOutTimeYellow = $thresholdAverageBusyOutTimeYellow;
+        if ($thresholdAverageBusyOutTimeYellow === null) {
+            $this->thresholdAverageBusyOutTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdAverageBusyOutTimeYellow = $thresholdAverageBusyOutTimeYellow;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdAverageBusyOutTimeYellow()
+    {
+        $this->thresholdAverageBusyOutTimeYellow = null;
         return $this;
     }
 
     /**
      * Getter for thresholdAverageBusyOutTimeRed
      *
-     * @ElementName thresholdAverageBusyOutTimeRed
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdAverageBusyOutTimeRed()
     {
-        return $this->thresholdAverageBusyOutTimeRed;
+        return $this->thresholdAverageBusyOutTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageBusyOutTimeRed;
     }
 
     /**
      * Setter for thresholdAverageBusyOutTimeRed
      *
-     * @ElementName thresholdAverageBusyOutTimeRed
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageBusyOutTimeRed
+     * @param int|null $thresholdAverageBusyOutTimeRed
      * @return $this
      */
     public function setThresholdAverageBusyOutTimeRed($thresholdAverageBusyOutTimeRed)
     {
-        $this->thresholdAverageBusyOutTimeRed = $thresholdAverageBusyOutTimeRed;
+        if ($thresholdAverageBusyOutTimeRed === null) {
+            $this->thresholdAverageBusyOutTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdAverageBusyOutTimeRed = $thresholdAverageBusyOutTimeRed;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdAverageBusyOutTimeRed()
+    {
+        $this->thresholdAverageBusyOutTimeRed = null;
         return $this;
     }
 
     /**
      * Getter for thresholdAverageWrapUpTimeYellow
      *
-     * @ElementName thresholdAverageWrapUpTimeYellow
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdAverageWrapUpTimeYellow()
     {
-        return $this->thresholdAverageWrapUpTimeYellow;
+        return $this->thresholdAverageWrapUpTimeYellow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageWrapUpTimeYellow;
     }
 
     /**
      * Setter for thresholdAverageWrapUpTimeYellow
      *
-     * @ElementName thresholdAverageWrapUpTimeYellow
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageWrapUpTimeYellow
+     * @param int|null $thresholdAverageWrapUpTimeYellow
      * @return $this
      */
     public function setThresholdAverageWrapUpTimeYellow($thresholdAverageWrapUpTimeYellow)
     {
-        $this->thresholdAverageWrapUpTimeYellow = $thresholdAverageWrapUpTimeYellow;
+        if ($thresholdAverageWrapUpTimeYellow === null) {
+            $this->thresholdAverageWrapUpTimeYellow = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdAverageWrapUpTimeYellow = $thresholdAverageWrapUpTimeYellow;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdAverageWrapUpTimeYellow()
+    {
+        $this->thresholdAverageWrapUpTimeYellow = null;
         return $this;
     }
 
     /**
      * Getter for thresholdAverageWrapUpTimeRed
      *
-     * @ElementName thresholdAverageWrapUpTimeRed
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getThresholdAverageWrapUpTimeRed()
     {
-        return $this->thresholdAverageWrapUpTimeRed;
+        return $this->thresholdAverageWrapUpTimeRed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->thresholdAverageWrapUpTimeRed;
     }
 
     /**
      * Setter for thresholdAverageWrapUpTimeRed
      *
-     * @ElementName thresholdAverageWrapUpTimeRed
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $thresholdAverageWrapUpTimeRed
+     * @param int|null $thresholdAverageWrapUpTimeRed
      * @return $this
      */
     public function setThresholdAverageWrapUpTimeRed($thresholdAverageWrapUpTimeRed)
     {
-        $this->thresholdAverageWrapUpTimeRed = $thresholdAverageWrapUpTimeRed;
+        if ($thresholdAverageWrapUpTimeRed === null) {
+            $this->thresholdAverageWrapUpTimeRed = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->thresholdAverageWrapUpTimeRed = $thresholdAverageWrapUpTimeRed;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetThresholdAverageWrapUpTimeRed()
+    {
+        $this->thresholdAverageWrapUpTimeRed = null;
         return $this;
     }
 
     /**
      * Getter for enableNotificationEmail
      *
-     * @ElementName enableNotificationEmail
-     * @return bool|null
+     * @return bool
      */
     public function getEnableNotificationEmail()
     {
-        return $this->enableNotificationEmail;
+        return $this->enableNotificationEmail instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableNotificationEmail;
     }
 
     /**
      * Setter for enableNotificationEmail
      *
-     * @ElementName enableNotificationEmail
-     * @param bool|null $enableNotificationEmail
+     * @param bool $enableNotificationEmail
      * @return $this
      */
     public function setEnableNotificationEmail($enableNotificationEmail)
@@ -578,54 +733,81 @@ class EnterpriseCallCenterAgentThresholdProfileModifyRequest extends \CWM\BroadW
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableNotificationEmail()
+    {
+        $this->enableNotificationEmail = null;
+        return $this;
+    }
+
+    /**
      * Getter for notificationEmailAddressList
      *
-     * @ElementName notificationEmailAddressList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null
      */
     public function getNotificationEmailAddressList()
     {
-        return $this->notificationEmailAddressList;
+        return $this->notificationEmailAddressList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->notificationEmailAddressList;
     }
 
     /**
      * Setter for notificationEmailAddressList
      *
-     * @ElementName notificationEmailAddressList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil $notificationEmailAddressList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList|null $notificationEmailAddressList
      * @return $this
      */
     public function setNotificationEmailAddressList(\CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentThresholdProfileReplacementNotificationEmailList $notificationEmailAddressList)
     {
-        $this->notificationEmailAddressList = $notificationEmailAddressList;
+        if ($notificationEmailAddressList === null) {
+            $this->notificationEmailAddressList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->notificationEmailAddressList = $notificationEmailAddressList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetNotificationEmailAddressList()
+    {
+        $this->notificationEmailAddressList = null;
         return $this;
     }
 
     /**
      * Getter for agentUserIdList
      *
-     * @ElementName agentUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getAgentUserIdList()
     {
-        return $this->agentUserIdList;
+        return $this->agentUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentUserIdList;
     }
 
     /**
      * Setter for agentUserIdList
      *
-     * @ElementName agentUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $agentUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $agentUserIdList
      * @return $this
      */
     public function setAgentUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $agentUserIdList)
     {
-        $this->agentUserIdList = $agentUserIdList;
+        if ($agentUserIdList === null) {
+            $this->agentUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->agentUserIdList = $agentUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentUserIdList()
+    {
+        $this->agentUserIdList = null;
         return $this;
     }
 

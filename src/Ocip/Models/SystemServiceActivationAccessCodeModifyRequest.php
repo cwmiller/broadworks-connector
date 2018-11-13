@@ -16,12 +16,14 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName terminatingAccessCode
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,6 +31,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName redirectingAccessCode
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,6 +39,7 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
 
     /**
      * @ElementName clickToDialAccessCode
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -44,19 +48,17 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -66,80 +68,116 @@ class SystemServiceActivationAccessCodeModifyRequest extends \CWM\BroadWorksConn
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for terminatingAccessCode
      *
-     * @ElementName terminatingAccessCode
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getTerminatingAccessCode()
     {
-        return $this->terminatingAccessCode;
+        return $this->terminatingAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->terminatingAccessCode;
     }
 
     /**
      * Setter for terminatingAccessCode
      *
-     * @ElementName terminatingAccessCode
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $terminatingAccessCode
+     * @param string|null $terminatingAccessCode
      * @return $this
      */
     public function setTerminatingAccessCode($terminatingAccessCode)
     {
-        $this->terminatingAccessCode = $terminatingAccessCode;
+        if ($terminatingAccessCode === null) {
+            $this->terminatingAccessCode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->terminatingAccessCode = $terminatingAccessCode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTerminatingAccessCode()
+    {
+        $this->terminatingAccessCode = null;
         return $this;
     }
 
     /**
      * Getter for redirectingAccessCode
      *
-     * @ElementName redirectingAccessCode
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getRedirectingAccessCode()
     {
-        return $this->redirectingAccessCode;
+        return $this->redirectingAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->redirectingAccessCode;
     }
 
     /**
      * Setter for redirectingAccessCode
      *
-     * @ElementName redirectingAccessCode
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $redirectingAccessCode
+     * @param string|null $redirectingAccessCode
      * @return $this
      */
     public function setRedirectingAccessCode($redirectingAccessCode)
     {
-        $this->redirectingAccessCode = $redirectingAccessCode;
+        if ($redirectingAccessCode === null) {
+            $this->redirectingAccessCode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->redirectingAccessCode = $redirectingAccessCode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetRedirectingAccessCode()
+    {
+        $this->redirectingAccessCode = null;
         return $this;
     }
 
     /**
      * Getter for clickToDialAccessCode
      *
-     * @ElementName clickToDialAccessCode
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getClickToDialAccessCode()
     {
-        return $this->clickToDialAccessCode;
+        return $this->clickToDialAccessCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->clickToDialAccessCode;
     }
 
     /**
      * Setter for clickToDialAccessCode
      *
-     * @ElementName clickToDialAccessCode
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $clickToDialAccessCode
+     * @param string|null $clickToDialAccessCode
      * @return $this
      */
     public function setClickToDialAccessCode($clickToDialAccessCode)
     {
-        $this->clickToDialAccessCode = $clickToDialAccessCode;
+        if ($clickToDialAccessCode === null) {
+            $this->clickToDialAccessCode = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->clickToDialAccessCode = $clickToDialAccessCode;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetClickToDialAccessCode()
+    {
+        $this->clickToDialAccessCode = null;
         return $this;
     }
 

@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static CallCenterUniformCallDistributionPolicyScope AGENT()
  * @method static CallCenterUniformCallDistributionPolicyScope CALL_CENTER()
- * @ValueType string
+ * @EnumValueType string
  */
 class CallCenterUniformCallDistributionPolicyScope extends \MyCLabs\Enum\Enum
 {

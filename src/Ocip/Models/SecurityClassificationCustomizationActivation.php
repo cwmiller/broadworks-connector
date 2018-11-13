@@ -12,12 +12,14 @@ class SecurityClassificationCustomizationActivation
 
     /**
      * @ElementName name
+     * @Type string
      * @var string|null
      */
     private $name = null;
 
     /**
      * @ElementName isCustomized
+     * @Type bool
      * @var bool|null
      */
     private $isCustomized = null;
@@ -25,19 +27,17 @@ class SecurityClassificationCustomizationActivation
     /**
      * Getter for name
      *
-     * @ElementName name
-     * @return string|null
+     * @return string
      */
     public function getName()
     {
-        return $this->name;
+        return $this->name instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->name;
     }
 
     /**
      * Setter for name
      *
-     * @ElementName name
-     * @param string|null $name
+     * @param string $name
      * @return $this
      */
     public function setName($name)
@@ -47,26 +47,42 @@ class SecurityClassificationCustomizationActivation
     }
 
     /**
+     * @return $this
+     */
+    public function unsetName()
+    {
+        $this->name = null;
+        return $this;
+    }
+
+    /**
      * Getter for isCustomized
      *
-     * @ElementName isCustomized
-     * @return bool|null
+     * @return bool
      */
     public function getIsCustomized()
     {
-        return $this->isCustomized;
+        return $this->isCustomized instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isCustomized;
     }
 
     /**
      * Setter for isCustomized
      *
-     * @ElementName isCustomized
-     * @param bool|null $isCustomized
+     * @param bool $isCustomized
      * @return $this
      */
     public function setIsCustomized($isCustomized)
     {
         $this->isCustomized = $isCustomized;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetIsCustomized()
+    {
+        $this->isCustomized = null;
         return $this;
     }
 

@@ -18,6 +18,7 @@ class SystemOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConn
 
     /**
      * @ElementName appTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $appTable = null;
@@ -25,24 +26,31 @@ class SystemOCICallControlApplicationGetListResponse extends \CWM\BroadWorksConn
     /**
      * Getter for appTable
      *
-     * @ElementName appTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAppTable()
     {
-        return $this->appTable;
+        return $this->appTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->appTable;
     }
 
     /**
      * Setter for appTable
      *
-     * @ElementName appTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $appTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $appTable
      * @return $this
      */
     public function setAppTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $appTable)
     {
         $this->appTable = $appTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAppTable()
+    {
+        $this->appTable = null;
         return $this;
     }
 

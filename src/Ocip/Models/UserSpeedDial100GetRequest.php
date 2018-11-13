@@ -16,12 +16,14 @@ class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName speedCode
+     * @Type int
      * @var int|null
      */
     private $speedCode = null;
@@ -29,19 +31,17 @@ class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -51,26 +51,42 @@ class UserSpeedDial100GetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for speedCode
      *
-     * @ElementName speedCode
-     * @return int|null
+     * @return int
      */
     public function getSpeedCode()
     {
-        return $this->speedCode;
+        return $this->speedCode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->speedCode;
     }
 
     /**
      * Setter for speedCode
      *
-     * @ElementName speedCode
-     * @param int|null $speedCode
+     * @param int $speedCode
      * @return $this
      */
     public function setSpeedCode($speedCode)
     {
         $this->speedCode = $speedCode;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetSpeedCode()
+    {
+        $this->speedCode = null;
         return $this;
     }
 

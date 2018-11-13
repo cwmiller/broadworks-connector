@@ -20,18 +20,21 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName recallAlternateUserId
+     * @Type string
      * @var string|null
      */
     private $recallAlternateUserId = null;
 
     /**
      * @ElementName recallTo
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;
 
     /**
      * @ElementName userTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;
@@ -39,19 +42,17 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for recallAlternateUserId
      *
-     * @ElementName recallAlternateUserId
-     * @return string|null
+     * @return string
      */
     public function getRecallAlternateUserId()
     {
-        return $this->recallAlternateUserId;
+        return $this->recallAlternateUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallAlternateUserId;
     }
 
     /**
      * Setter for recallAlternateUserId
      *
-     * @ElementName recallAlternateUserId
-     * @param string|null $recallAlternateUserId
+     * @param string $recallAlternateUserId
      * @return $this
      */
     public function setRecallAlternateUserId($recallAlternateUserId)
@@ -61,21 +62,28 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecallAlternateUserId()
+    {
+        $this->recallAlternateUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for recallTo
      *
-     * @ElementName recallTo
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
      */
     public function getRecallTo()
     {
-        return $this->recallTo;
+        return $this->recallTo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->recallTo;
     }
 
     /**
      * Setter for recallTo
      *
-     * @ElementName recallTo
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null $recallTo
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo $recallTo
      * @return $this
      */
     public function setRecallTo(\CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo $recallTo)
@@ -85,26 +93,42 @@ class GroupCallParkGetInstanceResponse16sp2 extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRecallTo()
+    {
+        $this->recallTo = null;
+        return $this;
+    }
+
+    /**
      * Getter for userTable
      *
-     * @ElementName userTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUserTable()
     {
-        return $this->userTable;
+        return $this->userTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userTable;
     }
 
     /**
      * Setter for userTable
      *
-     * @ElementName userTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $userTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable
      * @return $this
      */
     public function setUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $userTable)
     {
         $this->userTable = $userTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetUserTable()
+    {
+        $this->userTable = null;
         return $this;
     }
 

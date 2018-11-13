@@ -22,12 +22,14 @@ class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName useAliasForDomain
+     * @Type bool
      * @var bool|null
      */
     private $useAliasForDomain = null;
 
     /**
      * @ElementName defaultDomain
+     * @Type string
      * @var string|null
      */
     private $defaultDomain = null;
@@ -35,19 +37,17 @@ class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for useAliasForDomain
      *
-     * @ElementName useAliasForDomain
-     * @return bool|null
+     * @return bool
      */
     public function getUseAliasForDomain()
     {
-        return $this->useAliasForDomain;
+        return $this->useAliasForDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useAliasForDomain;
     }
 
     /**
      * Setter for useAliasForDomain
      *
-     * @ElementName useAliasForDomain
-     * @param bool|null $useAliasForDomain
+     * @param bool $useAliasForDomain
      * @return $this
      */
     public function setUseAliasForDomain($useAliasForDomain)
@@ -57,26 +57,42 @@ class SystemDomainParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseAliasForDomain()
+    {
+        $this->useAliasForDomain = null;
+        return $this;
+    }
+
+    /**
      * Getter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @return string|null
+     * @return string
      */
     public function getDefaultDomain()
     {
-        return $this->defaultDomain;
+        return $this->defaultDomain instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->defaultDomain;
     }
 
     /**
      * Setter for defaultDomain
      *
-     * @ElementName defaultDomain
-     * @param string|null $defaultDomain
+     * @param string $defaultDomain
      * @return $this
      */
     public function setDefaultDomain($defaultDomain)
     {
         $this->defaultDomain = $defaultDomain;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDefaultDomain()
+    {
+        $this->defaultDomain = null;
         return $this;
     }
 

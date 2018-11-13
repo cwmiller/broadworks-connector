@@ -18,6 +18,7 @@ class SystemRoutePointExternalSystemApplicationControllerGetRequest extends \CWM
 
     /**
      * @ElementName externalSystem
+     * @Type string
      * @var string|null
      */
     private $externalSystem = null;
@@ -25,24 +26,31 @@ class SystemRoutePointExternalSystemApplicationControllerGetRequest extends \CWM
     /**
      * Getter for externalSystem
      *
-     * @ElementName externalSystem
-     * @return string|null
+     * @return string
      */
     public function getExternalSystem()
     {
-        return $this->externalSystem;
+        return $this->externalSystem instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->externalSystem;
     }
 
     /**
      * Setter for externalSystem
      *
-     * @ElementName externalSystem
-     * @param string|null $externalSystem
+     * @param string $externalSystem
      * @return $this
      */
     public function setExternalSystem($externalSystem)
     {
         $this->externalSystem = $externalSystem;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetExternalSystem()
+    {
+        $this->externalSystem = null;
         return $this;
     }
 

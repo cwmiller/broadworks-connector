@@ -21,12 +21,14 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 exte
 
     /**
      * @ElementName unreachableFromPrimaryUserTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $unreachableFromPrimaryUserTable = null;
 
     /**
      * @ElementName totalNumberOfUnreachableFromPrimaryUsers
+     * @Type int
      * @var int|null
      */
     private $totalNumberOfUnreachableFromPrimaryUsers = null;
@@ -34,19 +36,17 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 exte
     /**
      * Getter for unreachableFromPrimaryUserTable
      *
-     * @ElementName unreachableFromPrimaryUserTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getUnreachableFromPrimaryUserTable()
     {
-        return $this->unreachableFromPrimaryUserTable;
+        return $this->unreachableFromPrimaryUserTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->unreachableFromPrimaryUserTable;
     }
 
     /**
      * Setter for unreachableFromPrimaryUserTable
      *
-     * @ElementName unreachableFromPrimaryUserTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $unreachableFromPrimaryUserTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $unreachableFromPrimaryUserTable
      * @return $this
      */
     public function setUnreachableFromPrimaryUserTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $unreachableFromPrimaryUserTable)
@@ -56,26 +56,42 @@ class SystemGeographicRedundancyUnreachableFromPrimaryGetUserListResponse22 exte
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUnreachableFromPrimaryUserTable()
+    {
+        $this->unreachableFromPrimaryUserTable = null;
+        return $this;
+    }
+
+    /**
      * Getter for totalNumberOfUnreachableFromPrimaryUsers
      *
-     * @ElementName totalNumberOfUnreachableFromPrimaryUsers
-     * @return int|null
+     * @return int
      */
     public function getTotalNumberOfUnreachableFromPrimaryUsers()
     {
-        return $this->totalNumberOfUnreachableFromPrimaryUsers;
+        return $this->totalNumberOfUnreachableFromPrimaryUsers instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->totalNumberOfUnreachableFromPrimaryUsers;
     }
 
     /**
      * Setter for totalNumberOfUnreachableFromPrimaryUsers
      *
-     * @ElementName totalNumberOfUnreachableFromPrimaryUsers
-     * @param int|null $totalNumberOfUnreachableFromPrimaryUsers
+     * @param int $totalNumberOfUnreachableFromPrimaryUsers
      * @return $this
      */
     public function setTotalNumberOfUnreachableFromPrimaryUsers($totalNumberOfUnreachableFromPrimaryUsers)
     {
         $this->totalNumberOfUnreachableFromPrimaryUsers = $totalNumberOfUnreachableFromPrimaryUsers;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetTotalNumberOfUnreachableFromPrimaryUsers()
+    {
+        $this->totalNumberOfUnreachableFromPrimaryUsers = null;
         return $this;
     }
 

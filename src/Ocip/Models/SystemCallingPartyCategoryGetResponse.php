@@ -15,54 +15,63 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName cpcValue
+     * @Type string
      * @var string|null
      */
     private $cpcValue = null;
 
     /**
      * @ElementName isupOliValue
+     * @Type int
      * @var int|null
      */
     private $isupOliValue = null;
 
     /**
      * @ElementName gtdOliValue
+     * @Type string
      * @var string|null
      */
     private $gtdOliValue = null;
 
     /**
      * @ElementName userCategory
+     * @Type bool
      * @var bool|null
      */
     private $userCategory = null;
 
     /**
      * @ElementName payPhone
+     * @Type bool
      * @var bool|null
      */
     private $payPhone = null;
 
     /**
      * @ElementName operator
+     * @Type bool
      * @var bool|null
      */
     private $operator = null;
 
     /**
      * @ElementName default
+     * @Type bool
      * @var bool|null
      */
     private $default = null;
 
     /**
      * @ElementName collectCall
+     * @Type bool
      * @var bool|null
      */
     private $collectCall = null;
 
     /**
      * @ElementName webDisplayKey
+     * @Type string
      * @var string|null
      */
     private $webDisplayKey = null;
@@ -70,19 +79,17 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for cpcValue
      *
-     * @ElementName cpcValue
-     * @return string|null
+     * @return string
      */
     public function getCpcValue()
     {
-        return $this->cpcValue;
+        return $this->cpcValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->cpcValue;
     }
 
     /**
      * Setter for cpcValue
      *
-     * @ElementName cpcValue
-     * @param string|null $cpcValue
+     * @param string $cpcValue
      * @return $this
      */
     public function setCpcValue($cpcValue)
@@ -92,21 +99,28 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCpcValue()
+    {
+        $this->cpcValue = null;
+        return $this;
+    }
+
+    /**
      * Getter for isupOliValue
      *
-     * @ElementName isupOliValue
-     * @return int|null
+     * @return int
      */
     public function getIsupOliValue()
     {
-        return $this->isupOliValue;
+        return $this->isupOliValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isupOliValue;
     }
 
     /**
      * Setter for isupOliValue
      *
-     * @ElementName isupOliValue
-     * @param int|null $isupOliValue
+     * @param int $isupOliValue
      * @return $this
      */
     public function setIsupOliValue($isupOliValue)
@@ -116,21 +130,28 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsupOliValue()
+    {
+        $this->isupOliValue = null;
+        return $this;
+    }
+
+    /**
      * Getter for gtdOliValue
      *
-     * @ElementName gtdOliValue
-     * @return string|null
+     * @return string
      */
     public function getGtdOliValue()
     {
-        return $this->gtdOliValue;
+        return $this->gtdOliValue instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->gtdOliValue;
     }
 
     /**
      * Setter for gtdOliValue
      *
-     * @ElementName gtdOliValue
-     * @param string|null $gtdOliValue
+     * @param string $gtdOliValue
      * @return $this
      */
     public function setGtdOliValue($gtdOliValue)
@@ -140,21 +161,28 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetGtdOliValue()
+    {
+        $this->gtdOliValue = null;
+        return $this;
+    }
+
+    /**
      * Getter for userCategory
      *
-     * @ElementName userCategory
-     * @return bool|null
+     * @return bool
      */
     public function getUserCategory()
     {
-        return $this->userCategory;
+        return $this->userCategory instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userCategory;
     }
 
     /**
      * Setter for userCategory
      *
-     * @ElementName userCategory
-     * @param bool|null $userCategory
+     * @param bool $userCategory
      * @return $this
      */
     public function setUserCategory($userCategory)
@@ -164,21 +192,28 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserCategory()
+    {
+        $this->userCategory = null;
+        return $this;
+    }
+
+    /**
      * Getter for payPhone
      *
-     * @ElementName payPhone
-     * @return bool|null
+     * @return bool
      */
     public function getPayPhone()
     {
-        return $this->payPhone;
+        return $this->payPhone instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->payPhone;
     }
 
     /**
      * Setter for payPhone
      *
-     * @ElementName payPhone
-     * @param bool|null $payPhone
+     * @param bool $payPhone
      * @return $this
      */
     public function setPayPhone($payPhone)
@@ -188,21 +223,28 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPayPhone()
+    {
+        $this->payPhone = null;
+        return $this;
+    }
+
+    /**
      * Getter for operator
      *
-     * @ElementName operator
-     * @return bool|null
+     * @return bool
      */
     public function getOperator()
     {
-        return $this->operator;
+        return $this->operator instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->operator;
     }
 
     /**
      * Setter for operator
      *
-     * @ElementName operator
-     * @param bool|null $operator
+     * @param bool $operator
      * @return $this
      */
     public function setOperator($operator)
@@ -212,21 +254,28 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOperator()
+    {
+        $this->operator = null;
+        return $this;
+    }
+
+    /**
      * Getter for default
      *
-     * @ElementName default
-     * @return bool|null
+     * @return bool
      */
     public function getDefault()
     {
-        return $this->default;
+        return $this->default instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->default;
     }
 
     /**
      * Setter for default
      *
-     * @ElementName default
-     * @param bool|null $default
+     * @param bool $default
      * @return $this
      */
     public function setDefault($default)
@@ -236,21 +285,28 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetDefault()
+    {
+        $this->default = null;
+        return $this;
+    }
+
+    /**
      * Getter for collectCall
      *
-     * @ElementName collectCall
-     * @return bool|null
+     * @return bool
      */
     public function getCollectCall()
     {
-        return $this->collectCall;
+        return $this->collectCall instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->collectCall;
     }
 
     /**
      * Setter for collectCall
      *
-     * @ElementName collectCall
-     * @param bool|null $collectCall
+     * @param bool $collectCall
      * @return $this
      */
     public function setCollectCall($collectCall)
@@ -260,26 +316,42 @@ class SystemCallingPartyCategoryGetResponse extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetCollectCall()
+    {
+        $this->collectCall = null;
+        return $this;
+    }
+
+    /**
      * Getter for webDisplayKey
      *
-     * @ElementName webDisplayKey
-     * @return string|null
+     * @return string
      */
     public function getWebDisplayKey()
     {
-        return $this->webDisplayKey;
+        return $this->webDisplayKey instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->webDisplayKey;
     }
 
     /**
      * Setter for webDisplayKey
      *
-     * @ElementName webDisplayKey
-     * @param string|null $webDisplayKey
+     * @param string $webDisplayKey
      * @return $this
      */
     public function setWebDisplayKey($webDisplayKey)
     {
         $this->webDisplayKey = $webDisplayKey;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWebDisplayKey()
+    {
+        $this->webDisplayKey = null;
         return $this;
     }
 

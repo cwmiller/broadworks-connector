@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ScheduleType HOLIDAY()
  * @method static ScheduleType TIME()
- * @ValueType string
+ * @EnumValueType string
  */
 class ScheduleType extends \MyCLabs\Enum\Enum
 {

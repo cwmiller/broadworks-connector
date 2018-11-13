@@ -16,24 +16,28 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName userName
+     * @Type string
      * @var string|null
      */
     private $userName = null;
 
     /**
      * @ElementName newPassword
+     * @Type string
      * @var string|null
      */
     private $newPassword = null;
 
     /**
      * @ElementName password
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null
      */
     private $password = null;
@@ -41,19 +45,17 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -63,21 +65,28 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for userName
      *
-     * @ElementName userName
-     * @return string|null
+     * @return string
      */
     public function getUserName()
     {
-        return $this->userName;
+        return $this->userName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userName;
     }
 
     /**
      * Setter for userName
      *
-     * @ElementName userName
-     * @param string|null $userName
+     * @param string $userName
      * @return $this
      */
     public function setUserName($userName)
@@ -87,21 +96,28 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserName()
+    {
+        $this->userName = null;
+        return $this;
+    }
+
+    /**
      * Getter for newPassword
      *
-     * @ElementName newPassword
-     * @return string|null
+     * @return string
      */
     public function getNewPassword()
     {
-        return $this->newPassword;
+        return $this->newPassword instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->newPassword;
     }
 
     /**
      * Setter for newPassword
      *
-     * @ElementName newPassword
-     * @param string|null $newPassword
+     * @param string $newPassword
      * @return $this
      */
     public function setNewPassword($newPassword)
@@ -111,26 +127,42 @@ class UserAuthenticationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNewPassword()
+    {
+        $this->newPassword = null;
+        return $this;
+    }
+
+    /**
      * Getter for password
      *
-     * @ElementName password
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword
      */
     public function getPassword()
     {
-        return $this->password;
+        return $this->password instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->password;
     }
 
     /**
      * Setter for password
      *
-     * @ElementName password
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword|null $password
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword $password
      * @return $this
      */
     public function setPassword(\CWM\BroadWorksConnector\Ocip\Models\UserAuthenticationModifyRequestPassword $password)
     {
         $this->password = $password;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPassword()
+    {
+        $this->password = null;
         return $this;
     }
 

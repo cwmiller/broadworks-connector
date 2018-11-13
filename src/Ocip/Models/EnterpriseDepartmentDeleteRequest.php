@@ -16,12 +16,14 @@ class EnterpriseDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
 
     /**
      * @ElementName enterpriseId
+     * @Type string
      * @var string|null
      */
     private $enterpriseId = null;
 
     /**
      * @ElementName departmentName
+     * @Type string
      * @var string|null
      */
     private $departmentName = null;
@@ -29,19 +31,17 @@ class EnterpriseDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * Getter for enterpriseId
      *
-     * @ElementName enterpriseId
-     * @return string|null
+     * @return string
      */
     public function getEnterpriseId()
     {
-        return $this->enterpriseId;
+        return $this->enterpriseId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enterpriseId;
     }
 
     /**
      * Setter for enterpriseId
      *
-     * @ElementName enterpriseId
-     * @param string|null $enterpriseId
+     * @param string $enterpriseId
      * @return $this
      */
     public function setEnterpriseId($enterpriseId)
@@ -51,26 +51,42 @@ class EnterpriseDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnterpriseId()
+    {
+        $this->enterpriseId = null;
+        return $this;
+    }
+
+    /**
      * Getter for departmentName
      *
-     * @ElementName departmentName
-     * @return string|null
+     * @return string
      */
     public function getDepartmentName()
     {
-        return $this->departmentName;
+        return $this->departmentName instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->departmentName;
     }
 
     /**
      * Setter for departmentName
      *
-     * @ElementName departmentName
-     * @param string|null $departmentName
+     * @param string $departmentName
      * @return $this
      */
     public function setDepartmentName($departmentName)
     {
         $this->departmentName = $departmentName;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDepartmentName()
+    {
+        $this->departmentName = null;
         return $this;
     }
 

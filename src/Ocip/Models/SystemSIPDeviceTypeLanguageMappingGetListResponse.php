@@ -17,6 +17,7 @@ class SystemSIPDeviceTypeLanguageMappingGetListResponse extends \CWM\BroadWorksC
 
     /**
      * @ElementName deviceTypeLanguagesTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceTypeLanguagesTable = null;
@@ -24,24 +25,31 @@ class SystemSIPDeviceTypeLanguageMappingGetListResponse extends \CWM\BroadWorksC
     /**
      * Getter for deviceTypeLanguagesTable
      *
-     * @ElementName deviceTypeLanguagesTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getDeviceTypeLanguagesTable()
     {
-        return $this->deviceTypeLanguagesTable;
+        return $this->deviceTypeLanguagesTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->deviceTypeLanguagesTable;
     }
 
     /**
      * Setter for deviceTypeLanguagesTable
      *
-     * @ElementName deviceTypeLanguagesTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $deviceTypeLanguagesTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTypeLanguagesTable
      * @return $this
      */
     public function setDeviceTypeLanguagesTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $deviceTypeLanguagesTable)
     {
         $this->deviceTypeLanguagesTable = $deviceTypeLanguagesTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetDeviceTypeLanguagesTable()
+    {
+        $this->deviceTypeLanguagesTable = null;
         return $this;
     }
 

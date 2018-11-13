@@ -27,7 +27,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static CallForwardingNoAnswerNumberOfRings _18()
  * @method static CallForwardingNoAnswerNumberOfRings _19()
  * @method static CallForwardingNoAnswerNumberOfRings _20()
- * @ValueType int
+ * @EnumValueType int
  */
 class CallForwardingNoAnswerNumberOfRings extends \MyCLabs\Enum\Enum
 {

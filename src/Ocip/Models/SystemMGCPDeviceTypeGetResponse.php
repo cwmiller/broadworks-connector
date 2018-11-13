@@ -14,24 +14,29 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName isObsolete
+     * @Type bool
      * @var bool|null
      */
     private $isObsolete = null;
 
     /**
      * @ElementName profile
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
 
     /**
      * @ElementName numberOfPorts
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $numberOfPorts = null;
 
     /**
      * @ElementName protocolChoice
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $protocolChoice = array(
@@ -41,19 +46,17 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for isObsolete
      *
-     * @ElementName isObsolete
-     * @return bool|null
+     * @return bool
      */
     public function getIsObsolete()
     {
-        return $this->isObsolete;
+        return $this->isObsolete instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isObsolete;
     }
 
     /**
      * Setter for isObsolete
      *
-     * @ElementName isObsolete
-     * @param bool|null $isObsolete
+     * @param bool $isObsolete
      * @return $this
      */
     public function setIsObsolete($isObsolete)
@@ -63,21 +66,28 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsObsolete()
+    {
+        $this->isObsolete = null;
+        return $this;
+    }
+
+    /**
      * Getter for profile
      *
-     * @ElementName profile
-     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
      */
     public function getProfile()
     {
-        return $this->profile;
+        return $this->profile instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->profile;
     }
 
     /**
      * Setter for profile
      *
-     * @ElementName profile
-     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null $profile
+     * @param \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile
      * @return $this
      */
     public function setProfile(\CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType $profile)
@@ -87,21 +97,28 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProfile()
+    {
+        $this->profile = null;
+        return $this;
+    }
+
+    /**
      * Getter for numberOfPorts
      *
-     * @ElementName numberOfPorts
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
      */
     public function getNumberOfPorts()
     {
-        return $this->numberOfPorts;
+        return $this->numberOfPorts instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfPorts;
     }
 
     /**
      * Setter for numberOfPorts
      *
-     * @ElementName numberOfPorts
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null $numberOfPorts
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts
      * @return $this
      */
     public function setNumberOfPorts(\CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt $numberOfPorts)
@@ -111,20 +128,27 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfPorts()
+    {
+        $this->numberOfPorts = null;
+        return $this;
+    }
+
+    /**
      * Getter for protocolChoice
      *
-     * @ElementName protocolChoice
      * @return string[]
      */
     public function getProtocolChoice()
     {
-        return $this->protocolChoice;
+        return $this->protocolChoice instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->protocolChoice;
     }
 
     /**
      * Setter for protocolChoice
      *
-     * @ElementName protocolChoice
      * @param string[] $protocolChoice
      * @return $this
      */
@@ -135,15 +159,23 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetProtocolChoice()
+    {
+        $this->protocolChoice = null;
+        return $this;
+    }
+
+    /**
      * Adder for protocolChoice
      *
-     * @ElementName protocolChoice
      * @param string $protocolChoice
      * @return $this
      */
     public function addProtocolChoice(string $protocolChoice)
     {
-        $this->protocolChoice []= $protocolChoice;
+        $this->protocolChoice[] = $protocolChoice;
         return $this;
     }
 

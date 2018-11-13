@@ -14,12 +14,14 @@ class GroupCallCenterGetInstanceQueueStatusResponse extends \CWM\BroadWorksConne
 
     /**
      * @ElementName numberOfCallsQueuedNow
+     * @Type int
      * @var int|null
      */
     private $numberOfCallsQueuedNow = null;
 
     /**
      * @ElementName agentsCurrentlyStaffed
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentsCurrentlyStaffed = null;
@@ -27,19 +29,17 @@ class GroupCallCenterGetInstanceQueueStatusResponse extends \CWM\BroadWorksConne
     /**
      * Getter for numberOfCallsQueuedNow
      *
-     * @ElementName numberOfCallsQueuedNow
-     * @return int|null
+     * @return int
      */
     public function getNumberOfCallsQueuedNow()
     {
-        return $this->numberOfCallsQueuedNow;
+        return $this->numberOfCallsQueuedNow instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->numberOfCallsQueuedNow;
     }
 
     /**
      * Setter for numberOfCallsQueuedNow
      *
-     * @ElementName numberOfCallsQueuedNow
-     * @param int|null $numberOfCallsQueuedNow
+     * @param int $numberOfCallsQueuedNow
      * @return $this
      */
     public function setNumberOfCallsQueuedNow($numberOfCallsQueuedNow)
@@ -49,26 +49,42 @@ class GroupCallCenterGetInstanceQueueStatusResponse extends \CWM\BroadWorksConne
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNumberOfCallsQueuedNow()
+    {
+        $this->numberOfCallsQueuedNow = null;
+        return $this;
+    }
+
+    /**
      * Getter for agentsCurrentlyStaffed
      *
-     * @ElementName agentsCurrentlyStaffed
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getAgentsCurrentlyStaffed()
     {
-        return $this->agentsCurrentlyStaffed;
+        return $this->agentsCurrentlyStaffed instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->agentsCurrentlyStaffed;
     }
 
     /**
      * Setter for agentsCurrentlyStaffed
      *
-     * @ElementName agentsCurrentlyStaffed
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $agentsCurrentlyStaffed
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentsCurrentlyStaffed
      * @return $this
      */
     public function setAgentsCurrentlyStaffed(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $agentsCurrentlyStaffed)
     {
         $this->agentsCurrentlyStaffed = $agentsCurrentlyStaffed;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetAgentsCurrentlyStaffed()
+    {
+        $this->agentsCurrentlyStaffed = null;
         return $this;
     }
 

@@ -13,7 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static TrunkGroupHighwaterCallCountHoldoverPeriodMinutes _20()
  * @method static TrunkGroupHighwaterCallCountHoldoverPeriodMinutes _30()
  * @method static TrunkGroupHighwaterCallCountHoldoverPeriodMinutes _60()
- * @ValueType int
+ * @EnumValueType int
  */
 class TrunkGroupHighwaterCallCountHoldoverPeriodMinutes extends \MyCLabs\Enum\Enum
 {

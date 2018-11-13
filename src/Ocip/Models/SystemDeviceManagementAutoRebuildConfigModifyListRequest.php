@@ -18,6 +18,8 @@ class SystemDeviceManagementAutoRebuildConfigModifyListRequest extends \CWM\Broa
 
     /**
      * @ElementName autoRebuildConfigEntry
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementAutoRebuildConfigEntry
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementAutoRebuildConfigEntry[]
      */
     private $autoRebuildConfigEntry = array(
@@ -27,18 +29,16 @@ class SystemDeviceManagementAutoRebuildConfigModifyListRequest extends \CWM\Broa
     /**
      * Getter for autoRebuildConfigEntry
      *
-     * @ElementName autoRebuildConfigEntry
      * @return \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementAutoRebuildConfigEntry[]
      */
     public function getAutoRebuildConfigEntry()
     {
-        return $this->autoRebuildConfigEntry;
+        return $this->autoRebuildConfigEntry instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->autoRebuildConfigEntry;
     }
 
     /**
      * Setter for autoRebuildConfigEntry
      *
-     * @ElementName autoRebuildConfigEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementAutoRebuildConfigEntry[] $autoRebuildConfigEntry
      * @return $this
      */
@@ -49,15 +49,23 @@ class SystemDeviceManagementAutoRebuildConfigModifyListRequest extends \CWM\Broa
     }
 
     /**
+     * @return $this
+     */
+    public function unsetAutoRebuildConfigEntry()
+    {
+        $this->autoRebuildConfigEntry = null;
+        return $this;
+    }
+
+    /**
      * Adder for autoRebuildConfigEntry
      *
-     * @ElementName autoRebuildConfigEntry
      * @param \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementAutoRebuildConfigEntry $autoRebuildConfigEntry
      * @return $this
      */
     public function addAutoRebuildConfigEntry($autoRebuildConfigEntry)
     {
-        $this->autoRebuildConfigEntry []= $autoRebuildConfigEntry;
+        $this->autoRebuildConfigEntry[] = $autoRebuildConfigEntry;
         return $this;
     }
 

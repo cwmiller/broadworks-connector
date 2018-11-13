@@ -12,18 +12,21 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
 
     /**
      * @ElementName trunkGroup
+     * @Type string
      * @var string|null
      */
     private $trunkGroup = null;
 
     /**
      * @ElementName priority
+     * @Type int
      * @var int|null
      */
     private $priority = null;
 
     /**
      * @ElementName weight
+     * @Type int
      * @var int|null
      */
     private $weight = null;
@@ -31,19 +34,17 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
     /**
      * Getter for trunkGroup
      *
-     * @ElementName trunkGroup
-     * @return string|null
+     * @return string
      */
     public function getTrunkGroup()
     {
-        return $this->trunkGroup;
+        return $this->trunkGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->trunkGroup;
     }
 
     /**
      * Setter for trunkGroup
      *
-     * @ElementName trunkGroup
-     * @param string|null $trunkGroup
+     * @param string $trunkGroup
      * @return $this
      */
     public function setTrunkGroup($trunkGroup)
@@ -53,21 +54,28 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
     }
 
     /**
+     * @return $this
+     */
+    public function unsetTrunkGroup()
+    {
+        $this->trunkGroup = null;
+        return $this;
+    }
+
+    /**
      * Getter for priority
      *
-     * @ElementName priority
-     * @return int|null
+     * @return int
      */
     public function getPriority()
     {
-        return $this->priority;
+        return $this->priority instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priority;
     }
 
     /**
      * Setter for priority
      *
-     * @ElementName priority
-     * @param int|null $priority
+     * @param int $priority
      * @return $this
      */
     public function setPriority($priority)
@@ -77,26 +85,42 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPriority()
+    {
+        $this->priority = null;
+        return $this;
+    }
+
+    /**
      * Getter for weight
      *
-     * @ElementName weight
-     * @return int|null
+     * @return int
      */
     public function getWeight()
     {
-        return $this->weight;
+        return $this->weight instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->weight;
     }
 
     /**
      * Setter for weight
      *
-     * @ElementName weight
-     * @param int|null $weight
+     * @param int $weight
      * @return $this
      */
     public function setWeight($weight)
     {
         $this->weight = $weight;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWeight()
+    {
+        $this->weight = null;
         return $this;
     }
 

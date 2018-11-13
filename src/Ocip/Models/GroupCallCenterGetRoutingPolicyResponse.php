@@ -16,12 +16,14 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
 
     /**
      * @ElementName routingPolicy
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     private $routingPolicy = null;
 
     /**
      * @ElementName callCenterTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;
@@ -29,19 +31,17 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
     /**
      * Getter for routingPolicy
      *
-     * @ElementName routingPolicy
-     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy
      */
     public function getRoutingPolicy()
     {
-        return $this->routingPolicy;
+        return $this->routingPolicy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->routingPolicy;
     }
 
     /**
      * Setter for routingPolicy
      *
-     * @ElementName routingPolicy
-     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null $routingPolicy
+     * @param \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy $routingPolicy
      * @return $this
      */
     public function setRoutingPolicy(\CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy $routingPolicy)
@@ -51,26 +51,42 @@ class GroupCallCenterGetRoutingPolicyResponse extends \CWM\BroadWorksConnector\O
     }
 
     /**
+     * @return $this
+     */
+    public function unsetRoutingPolicy()
+    {
+        $this->routingPolicy = null;
+        return $this;
+    }
+
+    /**
      * Getter for callCenterTable
      *
-     * @ElementName callCenterTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getCallCenterTable()
     {
-        return $this->callCenterTable;
+        return $this->callCenterTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->callCenterTable;
     }
 
     /**
      * Setter for callCenterTable
      *
-     * @ElementName callCenterTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $callCenterTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCenterTable
      * @return $this
      */
     public function setCallCenterTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $callCenterTable)
     {
         $this->callCenterTable = $callCenterTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetCallCenterTable()
+    {
+        $this->callCenterTable = null;
         return $this;
     }
 

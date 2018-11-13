@@ -9,7 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @method static ExecutiveScreeningAlertType SILENT()
  * @method static ExecutiveScreeningAlertType RING_SPLASH()
- * @ValueType string
+ * @EnumValueType string
  */
 class ExecutiveScreeningAlertType extends \MyCLabs\Enum\Enum
 {

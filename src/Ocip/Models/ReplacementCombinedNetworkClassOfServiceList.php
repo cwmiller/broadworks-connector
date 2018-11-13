@@ -13,6 +13,8 @@ class ReplacementCombinedNetworkClassOfServiceList
 
     /**
      * @ElementName networkClassOfService
+     * @Type string
+     * @Array
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -22,18 +24,16 @@ class ReplacementCombinedNetworkClassOfServiceList
     /**
      * Getter for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @return string[]
      */
     public function getNetworkClassOfService()
     {
-        return $this->networkClassOfService;
+        return $this->networkClassOfService instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->networkClassOfService;
     }
 
     /**
      * Setter for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @param string[] $networkClassOfService
      * @return $this
      */
@@ -44,15 +44,23 @@ class ReplacementCombinedNetworkClassOfServiceList
     }
 
     /**
+     * @return $this
+     */
+    public function unsetNetworkClassOfService()
+    {
+        $this->networkClassOfService = null;
+        return $this;
+    }
+
+    /**
      * Adder for networkClassOfService
      *
-     * @ElementName networkClassOfService
      * @param string $networkClassOfService
      * @return $this
      */
     public function addNetworkClassOfService(string $networkClassOfService)
     {
-        $this->networkClassOfService []= $networkClassOfService;
+        $this->networkClassOfService[] = $networkClassOfService;
         return $this;
     }
 

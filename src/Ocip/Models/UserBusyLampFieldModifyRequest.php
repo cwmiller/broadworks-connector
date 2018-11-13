@@ -16,12 +16,14 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName userId
+     * @Type string
      * @var string|null
      */
     private $userId = null;
 
     /**
      * @ElementName listURI
+     * @Type string
      * @Nillable
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -29,6 +31,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName monitoredUserIdList
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -36,6 +39,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
 
     /**
      * @ElementName enableCallParkNotification
+     * @Type bool
      * @var bool|null
      */
     private $enableCallParkNotification = null;
@@ -43,19 +47,17 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * Getter for userId
      *
-     * @ElementName userId
-     * @return string|null
+     * @return string
      */
     public function getUserId()
     {
-        return $this->userId;
+        return $this->userId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->userId;
     }
 
     /**
      * Setter for userId
      *
-     * @ElementName userId
-     * @param string|null $userId
+     * @param string $userId
      * @return $this
      */
     public function setUserId($userId)
@@ -65,78 +67,112 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUserId()
+    {
+        $this->userId = null;
+        return $this;
+    }
+
+    /**
      * Getter for listURI
      *
-     * @ElementName listURI
-     * @Nillable
-     * @return string|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return string|null
      */
     public function getListURI()
     {
-        return $this->listURI;
+        return $this->listURI instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->listURI;
     }
 
     /**
      * Setter for listURI
      *
-     * @ElementName listURI
-     * @Nillable
-     * @param string|null|\CWM\BroadWorksConnector\Ocip\Nil $listURI
+     * @param string|null $listURI
      * @return $this
      */
     public function setListURI($listURI)
     {
-        $this->listURI = $listURI;
+        if ($listURI === null) {
+            $this->listURI = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->listURI = $listURI;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetListURI()
+    {
+        $this->listURI = null;
         return $this;
     }
 
     /**
      * Getter for monitoredUserIdList
      *
-     * @ElementName monitoredUserIdList
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null
      */
     public function getMonitoredUserIdList()
     {
-        return $this->monitoredUserIdList;
+        return $this->monitoredUserIdList instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->monitoredUserIdList;
     }
 
     /**
      * Setter for monitoredUserIdList
      *
-     * @ElementName monitoredUserIdList
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil $monitoredUserIdList
+     * @param \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null $monitoredUserIdList
      * @return $this
      */
     public function setMonitoredUserIdList(\CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList $monitoredUserIdList)
     {
-        $this->monitoredUserIdList = $monitoredUserIdList;
+        if ($monitoredUserIdList === null) {
+            $this->monitoredUserIdList = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->monitoredUserIdList = $monitoredUserIdList;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMonitoredUserIdList()
+    {
+        $this->monitoredUserIdList = null;
         return $this;
     }
 
     /**
      * Getter for enableCallParkNotification
      *
-     * @ElementName enableCallParkNotification
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCallParkNotification()
     {
-        return $this->enableCallParkNotification;
+        return $this->enableCallParkNotification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCallParkNotification;
     }
 
     /**
      * Setter for enableCallParkNotification
      *
-     * @ElementName enableCallParkNotification
-     * @param bool|null $enableCallParkNotification
+     * @param bool $enableCallParkNotification
      * @return $this
      */
     public function setEnableCallParkNotification($enableCallParkNotification)
     {
         $this->enableCallParkNotification = $enableCallParkNotification;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableCallParkNotification()
+    {
+        $this->enableCallParkNotification = null;
         return $this;
     }
 

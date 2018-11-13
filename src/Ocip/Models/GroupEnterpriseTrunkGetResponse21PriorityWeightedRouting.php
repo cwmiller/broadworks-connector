@@ -10,6 +10,8 @@ class GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting
 
     /**
      * @ElementName priorityWeightedTrunkGroup
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkPriorityWeightedTrunkGroup
+     * @Array
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkPriorityWeightedTrunkGroup[]
      */
     private $priorityWeightedTrunkGroup = array(
@@ -18,6 +20,7 @@ class GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting
 
     /**
      * @ElementName maximumRerouteAttemptsWithinPriority
+     * @Type int
      * @var int|null
      */
     private $maximumRerouteAttemptsWithinPriority = null;
@@ -25,18 +28,16 @@ class GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting
     /**
      * Getter for priorityWeightedTrunkGroup
      *
-     * @ElementName priorityWeightedTrunkGroup
      * @return \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkPriorityWeightedTrunkGroup[]
      */
     public function getPriorityWeightedTrunkGroup()
     {
-        return $this->priorityWeightedTrunkGroup;
+        return $this->priorityWeightedTrunkGroup instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->priorityWeightedTrunkGroup;
     }
 
     /**
      * Setter for priorityWeightedTrunkGroup
      *
-     * @ElementName priorityWeightedTrunkGroup
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkPriorityWeightedTrunkGroup[] $priorityWeightedTrunkGroup
      * @return $this
      */
@@ -47,39 +48,54 @@ class GroupEnterpriseTrunkGetResponse21PriorityWeightedRouting
     }
 
     /**
+     * @return $this
+     */
+    public function unsetPriorityWeightedTrunkGroup()
+    {
+        $this->priorityWeightedTrunkGroup = null;
+        return $this;
+    }
+
+    /**
      * Adder for priorityWeightedTrunkGroup
      *
-     * @ElementName priorityWeightedTrunkGroup
      * @param \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkPriorityWeightedTrunkGroup $priorityWeightedTrunkGroup
      * @return $this
      */
     public function addPriorityWeightedTrunkGroup($priorityWeightedTrunkGroup)
     {
-        $this->priorityWeightedTrunkGroup []= $priorityWeightedTrunkGroup;
+        $this->priorityWeightedTrunkGroup[] = $priorityWeightedTrunkGroup;
         return $this;
     }
 
     /**
      * Getter for maximumRerouteAttemptsWithinPriority
      *
-     * @ElementName maximumRerouteAttemptsWithinPriority
-     * @return int|null
+     * @return int
      */
     public function getMaximumRerouteAttemptsWithinPriority()
     {
-        return $this->maximumRerouteAttemptsWithinPriority;
+        return $this->maximumRerouteAttemptsWithinPriority instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->maximumRerouteAttemptsWithinPriority;
     }
 
     /**
      * Setter for maximumRerouteAttemptsWithinPriority
      *
-     * @ElementName maximumRerouteAttemptsWithinPriority
-     * @param int|null $maximumRerouteAttemptsWithinPriority
+     * @param int $maximumRerouteAttemptsWithinPriority
      * @return $this
      */
     public function setMaximumRerouteAttemptsWithinPriority($maximumRerouteAttemptsWithinPriority)
     {
         $this->maximumRerouteAttemptsWithinPriority = $maximumRerouteAttemptsWithinPriority;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetMaximumRerouteAttemptsWithinPriority()
+    {
+        $this->maximumRerouteAttemptsWithinPriority = null;
         return $this;
     }
 

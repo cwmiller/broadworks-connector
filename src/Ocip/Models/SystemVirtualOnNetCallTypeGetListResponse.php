@@ -17,6 +17,7 @@ class SystemVirtualOnNetCallTypeGetListResponse extends \CWM\BroadWorksConnector
 
     /**
      * @ElementName virtualOnNetCallTypeTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $virtualOnNetCallTypeTable = null;
@@ -24,24 +25,31 @@ class SystemVirtualOnNetCallTypeGetListResponse extends \CWM\BroadWorksConnector
     /**
      * Getter for virtualOnNetCallTypeTable
      *
-     * @ElementName virtualOnNetCallTypeTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getVirtualOnNetCallTypeTable()
     {
-        return $this->virtualOnNetCallTypeTable;
+        return $this->virtualOnNetCallTypeTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->virtualOnNetCallTypeTable;
     }
 
     /**
      * Setter for virtualOnNetCallTypeTable
      *
-     * @ElementName virtualOnNetCallTypeTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $virtualOnNetCallTypeTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $virtualOnNetCallTypeTable
      * @return $this
      */
     public function setVirtualOnNetCallTypeTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $virtualOnNetCallTypeTable)
     {
         $this->virtualOnNetCallTypeTable = $virtualOnNetCallTypeTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetVirtualOnNetCallTypeTable()
+    {
+        $this->virtualOnNetCallTypeTable = null;
         return $this;
     }
 

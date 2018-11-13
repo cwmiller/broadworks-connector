@@ -15,66 +15,77 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
 
     /**
      * @ElementName lineMode
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     private $lineMode = null;
 
     /**
      * @ElementName enableDeviceFeatureSynchronization
+     * @Type bool
      * @var bool|null
      */
     private $enableDeviceFeatureSynchronization = null;
 
     /**
      * @ElementName enableDnd
+     * @Type bool
      * @var bool|null
      */
     private $enableDnd = null;
 
     /**
      * @ElementName enableCallForwardingAlways
+     * @Type bool
      * @var bool|null
      */
     private $enableCallForwardingAlways = null;
 
     /**
      * @ElementName enableCallForwardingBusy
+     * @Type bool
      * @var bool|null
      */
     private $enableCallForwardingBusy = null;
 
     /**
      * @ElementName enableCallForwardingNoAnswer
+     * @Type bool
      * @var bool|null
      */
     private $enableCallForwardingNoAnswer = null;
 
     /**
      * @ElementName enableAcd
+     * @Type bool
      * @var bool|null
      */
     private $enableAcd = null;
 
     /**
      * @ElementName enableExecutive
+     * @Type bool
      * @var bool|null
      */
     private $enableExecutive = null;
 
     /**
      * @ElementName enableExecutiveAssistant
+     * @Type bool
      * @var bool|null
      */
     private $enableExecutiveAssistant = null;
 
     /**
      * @ElementName enableSecurityClassification
+     * @Type bool
      * @var bool|null
      */
     private $enableSecurityClassification = null;
 
     /**
      * @ElementName enableCallRecording
+     * @Type bool
      * @var bool|null
      */
     private $enableCallRecording = null;
@@ -82,19 +93,17 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * Getter for lineMode
      *
-     * @ElementName lineMode
-     * @return \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
      */
     public function getLineMode()
     {
-        return $this->lineMode;
+        return $this->lineMode instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->lineMode;
     }
 
     /**
      * Setter for lineMode
      *
-     * @ElementName lineMode
-     * @param \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null $lineMode
+     * @param \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode $lineMode
      * @return $this
      */
     public function setLineMode(\CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode $lineMode)
@@ -104,21 +113,28 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetLineMode()
+    {
+        $this->lineMode = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableDeviceFeatureSynchronization
      *
-     * @ElementName enableDeviceFeatureSynchronization
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDeviceFeatureSynchronization()
     {
-        return $this->enableDeviceFeatureSynchronization;
+        return $this->enableDeviceFeatureSynchronization instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDeviceFeatureSynchronization;
     }
 
     /**
      * Setter for enableDeviceFeatureSynchronization
      *
-     * @ElementName enableDeviceFeatureSynchronization
-     * @param bool|null $enableDeviceFeatureSynchronization
+     * @param bool $enableDeviceFeatureSynchronization
      * @return $this
      */
     public function setEnableDeviceFeatureSynchronization($enableDeviceFeatureSynchronization)
@@ -128,21 +144,28 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableDeviceFeatureSynchronization()
+    {
+        $this->enableDeviceFeatureSynchronization = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableDnd
      *
-     * @ElementName enableDnd
-     * @return bool|null
+     * @return bool
      */
     public function getEnableDnd()
     {
-        return $this->enableDnd;
+        return $this->enableDnd instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableDnd;
     }
 
     /**
      * Setter for enableDnd
      *
-     * @ElementName enableDnd
-     * @param bool|null $enableDnd
+     * @param bool $enableDnd
      * @return $this
      */
     public function setEnableDnd($enableDnd)
@@ -152,21 +175,28 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableDnd()
+    {
+        $this->enableDnd = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCallForwardingAlways
      *
-     * @ElementName enableCallForwardingAlways
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCallForwardingAlways()
     {
-        return $this->enableCallForwardingAlways;
+        return $this->enableCallForwardingAlways instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCallForwardingAlways;
     }
 
     /**
      * Setter for enableCallForwardingAlways
      *
-     * @ElementName enableCallForwardingAlways
-     * @param bool|null $enableCallForwardingAlways
+     * @param bool $enableCallForwardingAlways
      * @return $this
      */
     public function setEnableCallForwardingAlways($enableCallForwardingAlways)
@@ -176,21 +206,28 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableCallForwardingAlways()
+    {
+        $this->enableCallForwardingAlways = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCallForwardingBusy
      *
-     * @ElementName enableCallForwardingBusy
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCallForwardingBusy()
     {
-        return $this->enableCallForwardingBusy;
+        return $this->enableCallForwardingBusy instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCallForwardingBusy;
     }
 
     /**
      * Setter for enableCallForwardingBusy
      *
-     * @ElementName enableCallForwardingBusy
-     * @param bool|null $enableCallForwardingBusy
+     * @param bool $enableCallForwardingBusy
      * @return $this
      */
     public function setEnableCallForwardingBusy($enableCallForwardingBusy)
@@ -200,21 +237,28 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableCallForwardingBusy()
+    {
+        $this->enableCallForwardingBusy = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCallForwardingNoAnswer
      *
-     * @ElementName enableCallForwardingNoAnswer
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCallForwardingNoAnswer()
     {
-        return $this->enableCallForwardingNoAnswer;
+        return $this->enableCallForwardingNoAnswer instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCallForwardingNoAnswer;
     }
 
     /**
      * Setter for enableCallForwardingNoAnswer
      *
-     * @ElementName enableCallForwardingNoAnswer
-     * @param bool|null $enableCallForwardingNoAnswer
+     * @param bool $enableCallForwardingNoAnswer
      * @return $this
      */
     public function setEnableCallForwardingNoAnswer($enableCallForwardingNoAnswer)
@@ -224,21 +268,28 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableCallForwardingNoAnswer()
+    {
+        $this->enableCallForwardingNoAnswer = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableAcd
      *
-     * @ElementName enableAcd
-     * @return bool|null
+     * @return bool
      */
     public function getEnableAcd()
     {
-        return $this->enableAcd;
+        return $this->enableAcd instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableAcd;
     }
 
     /**
      * Setter for enableAcd
      *
-     * @ElementName enableAcd
-     * @param bool|null $enableAcd
+     * @param bool $enableAcd
      * @return $this
      */
     public function setEnableAcd($enableAcd)
@@ -248,21 +299,28 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableAcd()
+    {
+        $this->enableAcd = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableExecutive
      *
-     * @ElementName enableExecutive
-     * @return bool|null
+     * @return bool
      */
     public function getEnableExecutive()
     {
-        return $this->enableExecutive;
+        return $this->enableExecutive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableExecutive;
     }
 
     /**
      * Setter for enableExecutive
      *
-     * @ElementName enableExecutive
-     * @param bool|null $enableExecutive
+     * @param bool $enableExecutive
      * @return $this
      */
     public function setEnableExecutive($enableExecutive)
@@ -272,21 +330,28 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableExecutive()
+    {
+        $this->enableExecutive = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableExecutiveAssistant
      *
-     * @ElementName enableExecutiveAssistant
-     * @return bool|null
+     * @return bool
      */
     public function getEnableExecutiveAssistant()
     {
-        return $this->enableExecutiveAssistant;
+        return $this->enableExecutiveAssistant instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableExecutiveAssistant;
     }
 
     /**
      * Setter for enableExecutiveAssistant
      *
-     * @ElementName enableExecutiveAssistant
-     * @param bool|null $enableExecutiveAssistant
+     * @param bool $enableExecutiveAssistant
      * @return $this
      */
     public function setEnableExecutiveAssistant($enableExecutiveAssistant)
@@ -296,21 +361,28 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableExecutiveAssistant()
+    {
+        $this->enableExecutiveAssistant = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableSecurityClassification
      *
-     * @ElementName enableSecurityClassification
-     * @return bool|null
+     * @return bool
      */
     public function getEnableSecurityClassification()
     {
-        return $this->enableSecurityClassification;
+        return $this->enableSecurityClassification instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableSecurityClassification;
     }
 
     /**
      * Setter for enableSecurityClassification
      *
-     * @ElementName enableSecurityClassification
-     * @param bool|null $enableSecurityClassification
+     * @param bool $enableSecurityClassification
      * @return $this
      */
     public function setEnableSecurityClassification($enableSecurityClassification)
@@ -320,26 +392,42 @@ class UserDevicePoliciesGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableSecurityClassification()
+    {
+        $this->enableSecurityClassification = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableCallRecording
      *
-     * @ElementName enableCallRecording
-     * @return bool|null
+     * @return bool
      */
     public function getEnableCallRecording()
     {
-        return $this->enableCallRecording;
+        return $this->enableCallRecording instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableCallRecording;
     }
 
     /**
      * Setter for enableCallRecording
      *
-     * @ElementName enableCallRecording
-     * @param bool|null $enableCallRecording
+     * @param bool $enableCallRecording
      * @return $this
      */
     public function setEnableCallRecording($enableCallRecording)
     {
         $this->enableCallRecording = $enableCallRecording;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetEnableCallRecording()
+    {
+        $this->enableCallRecording = null;
         return $this;
     }
 

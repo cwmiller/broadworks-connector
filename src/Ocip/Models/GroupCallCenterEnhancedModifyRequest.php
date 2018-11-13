@@ -20,18 +20,21 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName overrideAgentWrapUpTime
+     * @Type bool
      * @var bool|null
      */
     private $overrideAgentWrapUpTime = null;
 
     /**
      * @ElementName wrapUpSeconds
+     * @Type int
      * @Nillable
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -40,19 +43,17 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -62,21 +63,28 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for overrideAgentWrapUpTime
      *
-     * @ElementName overrideAgentWrapUpTime
-     * @return bool|null
+     * @return bool
      */
     public function getOverrideAgentWrapUpTime()
     {
-        return $this->overrideAgentWrapUpTime;
+        return $this->overrideAgentWrapUpTime instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->overrideAgentWrapUpTime;
     }
 
     /**
      * Setter for overrideAgentWrapUpTime
      *
-     * @ElementName overrideAgentWrapUpTime
-     * @param bool|null $overrideAgentWrapUpTime
+     * @param bool $overrideAgentWrapUpTime
      * @return $this
      */
     public function setOverrideAgentWrapUpTime($overrideAgentWrapUpTime)
@@ -86,28 +94,46 @@ class GroupCallCenterEnhancedModifyRequest extends \CWM\BroadWorksConnector\Ocip
     }
 
     /**
+     * @return $this
+     */
+    public function unsetOverrideAgentWrapUpTime()
+    {
+        $this->overrideAgentWrapUpTime = null;
+        return $this;
+    }
+
+    /**
      * Getter for wrapUpSeconds
      *
-     * @ElementName wrapUpSeconds
-     * @Nillable
-     * @return int|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return int|null
      */
     public function getWrapUpSeconds()
     {
-        return $this->wrapUpSeconds;
+        return $this->wrapUpSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->wrapUpSeconds;
     }
 
     /**
      * Setter for wrapUpSeconds
      *
-     * @ElementName wrapUpSeconds
-     * @Nillable
-     * @param int|null|\CWM\BroadWorksConnector\Ocip\Nil $wrapUpSeconds
+     * @param int|null $wrapUpSeconds
      * @return $this
      */
     public function setWrapUpSeconds($wrapUpSeconds)
     {
-        $this->wrapUpSeconds = $wrapUpSeconds;
+        if ($wrapUpSeconds === null) {
+            $this->wrapUpSeconds = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->wrapUpSeconds = $wrapUpSeconds;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWrapUpSeconds()
+    {
+        $this->wrapUpSeconds = null;
         return $this;
     }
 

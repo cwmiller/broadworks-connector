@@ -26,6 +26,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse exten
 
     /**
      * @ElementName prefixSummaryTable
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $prefixSummaryTable = null;
@@ -33,24 +34,31 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse exten
     /**
      * Getter for prefixSummaryTable
      *
-     * @ElementName prefixSummaryTable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      */
     public function getPrefixSummaryTable()
     {
-        return $this->prefixSummaryTable;
+        return $this->prefixSummaryTable instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->prefixSummaryTable;
     }
 
     /**
      * Setter for prefixSummaryTable
      *
-     * @ElementName prefixSummaryTable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null $prefixSummaryTable
+     * @param \CWM\BroadWorksConnector\Ocip\Models\C\OCITable $prefixSummaryTable
      * @return $this
      */
     public function setPrefixSummaryTable(\CWM\BroadWorksConnector\Ocip\Models\C\OCITable $prefixSummaryTable)
     {
         $this->prefixSummaryTable = $prefixSummaryTable;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetPrefixSummaryTable()
+    {
+        $this->prefixSummaryTable = null;
         return $this;
     }
 

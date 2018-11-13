@@ -16,48 +16,56 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
 
     /**
      * @ElementName serviceUserId
+     * @Type string
      * @var string|null
      */
     private $serviceUserId = null;
 
     /**
      * @ElementName isActiveDuringCallHold
+     * @Type bool
      * @var bool|null
      */
     private $isActiveDuringCallHold = null;
 
     /**
      * @ElementName isActiveDuringCallPark
+     * @Type bool
      * @var bool|null
      */
     private $isActiveDuringCallPark = null;
 
     /**
      * @ElementName isActiveDuringBusyCampOn
+     * @Type bool
      * @var bool|null
      */
     private $isActiveDuringBusyCampOn = null;
 
     /**
      * @ElementName enableVideo
+     * @Type bool
      * @var bool|null
      */
     private $enableVideo = null;
 
     /**
      * @ElementName source
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead|null
      */
     private $source = null;
 
     /**
      * @ElementName useAlternateSourceForInternalCalls
+     * @Type bool
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
 
     /**
      * @ElementName internalSource
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead|null
      */
     private $internalSource = null;
@@ -65,19 +73,17 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
     /**
      * Getter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @return string|null
+     * @return string
      */
     public function getServiceUserId()
     {
-        return $this->serviceUserId;
+        return $this->serviceUserId instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->serviceUserId;
     }
 
     /**
      * Setter for serviceUserId
      *
-     * @ElementName serviceUserId
-     * @param string|null $serviceUserId
+     * @param string $serviceUserId
      * @return $this
      */
     public function setServiceUserId($serviceUserId)
@@ -87,21 +93,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetServiceUserId()
+    {
+        $this->serviceUserId = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveDuringCallHold
      *
-     * @ElementName isActiveDuringCallHold
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveDuringCallHold()
     {
-        return $this->isActiveDuringCallHold;
+        return $this->isActiveDuringCallHold instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveDuringCallHold;
     }
 
     /**
      * Setter for isActiveDuringCallHold
      *
-     * @ElementName isActiveDuringCallHold
-     * @param bool|null $isActiveDuringCallHold
+     * @param bool $isActiveDuringCallHold
      * @return $this
      */
     public function setIsActiveDuringCallHold($isActiveDuringCallHold)
@@ -111,21 +124,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveDuringCallHold()
+    {
+        $this->isActiveDuringCallHold = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveDuringCallPark
      *
-     * @ElementName isActiveDuringCallPark
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveDuringCallPark()
     {
-        return $this->isActiveDuringCallPark;
+        return $this->isActiveDuringCallPark instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveDuringCallPark;
     }
 
     /**
      * Setter for isActiveDuringCallPark
      *
-     * @ElementName isActiveDuringCallPark
-     * @param bool|null $isActiveDuringCallPark
+     * @param bool $isActiveDuringCallPark
      * @return $this
      */
     public function setIsActiveDuringCallPark($isActiveDuringCallPark)
@@ -135,21 +155,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveDuringCallPark()
+    {
+        $this->isActiveDuringCallPark = null;
+        return $this;
+    }
+
+    /**
      * Getter for isActiveDuringBusyCampOn
      *
-     * @ElementName isActiveDuringBusyCampOn
-     * @return bool|null
+     * @return bool
      */
     public function getIsActiveDuringBusyCampOn()
     {
-        return $this->isActiveDuringBusyCampOn;
+        return $this->isActiveDuringBusyCampOn instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActiveDuringBusyCampOn;
     }
 
     /**
      * Setter for isActiveDuringBusyCampOn
      *
-     * @ElementName isActiveDuringBusyCampOn
-     * @param bool|null $isActiveDuringBusyCampOn
+     * @param bool $isActiveDuringBusyCampOn
      * @return $this
      */
     public function setIsActiveDuringBusyCampOn($isActiveDuringBusyCampOn)
@@ -159,21 +186,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActiveDuringBusyCampOn()
+    {
+        $this->isActiveDuringBusyCampOn = null;
+        return $this;
+    }
+
+    /**
      * Getter for enableVideo
      *
-     * @ElementName enableVideo
-     * @return bool|null
+     * @return bool
      */
     public function getEnableVideo()
     {
-        return $this->enableVideo;
+        return $this->enableVideo instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->enableVideo;
     }
 
     /**
      * Setter for enableVideo
      *
-     * @ElementName enableVideo
-     * @param bool|null $enableVideo
+     * @param bool $enableVideo
      * @return $this
      */
     public function setEnableVideo($enableVideo)
@@ -183,21 +217,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetEnableVideo()
+    {
+        $this->enableVideo = null;
+        return $this;
+    }
+
+    /**
      * Getter for source
      *
-     * @ElementName source
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead
      */
     public function getSource()
     {
-        return $this->source;
+        return $this->source instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->source;
     }
 
     /**
      * Setter for source
      *
-     * @ElementName source
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead|null $source
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead $source
      * @return $this
      */
     public function setSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead $source)
@@ -207,21 +248,28 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetSource()
+    {
+        $this->source = null;
+        return $this;
+    }
+
+    /**
      * Getter for useAlternateSourceForInternalCalls
      *
-     * @ElementName useAlternateSourceForInternalCalls
-     * @return bool|null
+     * @return bool
      */
     public function getUseAlternateSourceForInternalCalls()
     {
-        return $this->useAlternateSourceForInternalCalls;
+        return $this->useAlternateSourceForInternalCalls instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->useAlternateSourceForInternalCalls;
     }
 
     /**
      * Setter for useAlternateSourceForInternalCalls
      *
-     * @ElementName useAlternateSourceForInternalCalls
-     * @param bool|null $useAlternateSourceForInternalCalls
+     * @param bool $useAlternateSourceForInternalCalls
      * @return $this
      */
     public function setUseAlternateSourceForInternalCalls($useAlternateSourceForInternalCalls)
@@ -231,26 +279,42 @@ class GroupMusicOnHoldGetInstanceResponse14sp6 extends \CWM\BroadWorksConnector\
     }
 
     /**
+     * @return $this
+     */
+    public function unsetUseAlternateSourceForInternalCalls()
+    {
+        $this->useAlternateSourceForInternalCalls = null;
+        return $this;
+    }
+
+    /**
      * Getter for internalSource
      *
-     * @ElementName internalSource
-     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead|null
+     * @return \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead
      */
     public function getInternalSource()
     {
-        return $this->internalSource;
+        return $this->internalSource instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->internalSource;
     }
 
     /**
      * Setter for internalSource
      *
-     * @ElementName internalSource
-     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead|null $internalSource
+     * @param \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead $internalSource
      * @return $this
      */
     public function setInternalSource(\CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceRead $internalSource)
     {
         $this->internalSource = $internalSource;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetInternalSource()
+    {
+        $this->internalSource = null;
         return $this;
     }
 

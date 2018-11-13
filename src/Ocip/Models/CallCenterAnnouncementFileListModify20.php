@@ -12,6 +12,7 @@ class CallCenterAnnouncementFileListModify20
 
     /**
      * @ElementName file1
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -19,6 +20,7 @@ class CallCenterAnnouncementFileListModify20
 
     /**
      * @ElementName file2
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -26,6 +28,7 @@ class CallCenterAnnouncementFileListModify20
 
     /**
      * @ElementName file3
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -33,6 +36,7 @@ class CallCenterAnnouncementFileListModify20
 
     /**
      * @ElementName file4
+     * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
@@ -41,104 +45,140 @@ class CallCenterAnnouncementFileListModify20
     /**
      * Getter for file1
      *
-     * @ElementName file1
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     public function getFile1()
     {
-        return $this->file1;
+        return $this->file1 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->file1;
     }
 
     /**
      * Setter for file1
      *
-     * @ElementName file1
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $file1
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file1
      * @return $this
      */
     public function setFile1(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file1)
     {
-        $this->file1 = $file1;
+        if ($file1 === null) {
+            $this->file1 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->file1 = $file1;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFile1()
+    {
+        $this->file1 = null;
         return $this;
     }
 
     /**
      * Getter for file2
      *
-     * @ElementName file2
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     public function getFile2()
     {
-        return $this->file2;
+        return $this->file2 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->file2;
     }
 
     /**
      * Setter for file2
      *
-     * @ElementName file2
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $file2
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file2
      * @return $this
      */
     public function setFile2(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file2)
     {
-        $this->file2 = $file2;
+        if ($file2 === null) {
+            $this->file2 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->file2 = $file2;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFile2()
+    {
+        $this->file2 = null;
         return $this;
     }
 
     /**
      * Getter for file3
      *
-     * @ElementName file3
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     public function getFile3()
     {
-        return $this->file3;
+        return $this->file3 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->file3;
     }
 
     /**
      * Setter for file3
      *
-     * @ElementName file3
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $file3
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file3
      * @return $this
      */
     public function setFile3(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file3)
     {
-        $this->file3 = $file3;
+        if ($file3 === null) {
+            $this->file3 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->file3 = $file3;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFile3()
+    {
+        $this->file3 = null;
         return $this;
     }
 
     /**
      * Getter for file4
      *
-     * @ElementName file4
-     * @Nillable
-     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
+     * @return \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     public function getFile4()
     {
-        return $this->file4;
+        return $this->file4 instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->file4;
     }
 
     /**
      * Setter for file4
      *
-     * @ElementName file4
-     * @Nillable
-     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil $file4
+     * @param \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null $file4
      * @return $this
      */
     public function setFile4(\CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey $file4)
     {
-        $this->file4 = $file4;
+        if ($file4 === null) {
+            $this->file4 = new \CWM\BroadWorksConnector\Ocip\Nil;
+        } else {
+            $this->file4 = $file4;
+        }
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetFile4()
+    {
+        $this->file4 = null;
         return $this;
     }
 

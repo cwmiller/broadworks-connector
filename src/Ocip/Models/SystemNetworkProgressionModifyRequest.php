@@ -16,12 +16,14 @@ class SystemNetworkProgressionModifyRequest extends \CWM\BroadWorksConnector\Oci
 
     /**
      * @ElementName isActive
+     * @Type bool
      * @var bool|null
      */
     private $isActive = null;
 
     /**
      * @ElementName waitPeriodSeconds
+     * @Type int
      * @var int|null
      */
     private $waitPeriodSeconds = null;
@@ -29,19 +31,17 @@ class SystemNetworkProgressionModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * Getter for isActive
      *
-     * @ElementName isActive
-     * @return bool|null
+     * @return bool
      */
     public function getIsActive()
     {
-        return $this->isActive;
+        return $this->isActive instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->isActive;
     }
 
     /**
      * Setter for isActive
      *
-     * @ElementName isActive
-     * @param bool|null $isActive
+     * @param bool $isActive
      * @return $this
      */
     public function setIsActive($isActive)
@@ -51,26 +51,42 @@ class SystemNetworkProgressionModifyRequest extends \CWM\BroadWorksConnector\Oci
     }
 
     /**
+     * @return $this
+     */
+    public function unsetIsActive()
+    {
+        $this->isActive = null;
+        return $this;
+    }
+
+    /**
      * Getter for waitPeriodSeconds
      *
-     * @ElementName waitPeriodSeconds
-     * @return int|null
+     * @return int
      */
     public function getWaitPeriodSeconds()
     {
-        return $this->waitPeriodSeconds;
+        return $this->waitPeriodSeconds instanceof \CWM\BroadWorksConnector\Ocip\Nil ? null : $this->waitPeriodSeconds;
     }
 
     /**
      * Setter for waitPeriodSeconds
      *
-     * @ElementName waitPeriodSeconds
-     * @param int|null $waitPeriodSeconds
+     * @param int $waitPeriodSeconds
      * @return $this
      */
     public function setWaitPeriodSeconds($waitPeriodSeconds)
     {
         $this->waitPeriodSeconds = $waitPeriodSeconds;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function unsetWaitPeriodSeconds()
+    {
+        $this->waitPeriodSeconds = null;
         return $this;
     }
 

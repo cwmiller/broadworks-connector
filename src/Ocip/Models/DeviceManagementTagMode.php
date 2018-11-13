@@ -10,7 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @method static DeviceManagementTagMode NONE()
  * @method static DeviceManagementTagMode SYSTEM()
  * @method static DeviceManagementTagMode SYSTEM_AND_CUSTOM()
- * @ValueType string
+ * @EnumValueType string
  */
 class DeviceManagementTagMode extends \MyCLabs\Enum\Enum
 {

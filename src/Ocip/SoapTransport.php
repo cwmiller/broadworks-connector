@@ -42,6 +42,6 @@ class SoapTransport implements ITransport
             throw new BadResponseException('No processOCIMessageReturn in response.');
         }
 
-        return $response->processOCIMessageReturn;
+        return trim($response->processOCIMessageReturn);
     }
 }

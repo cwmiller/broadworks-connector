@@ -50,13 +50,13 @@ class TcpTransport implements ITransport
         while ($bytes = socket_read($this->socket, 2048)) {
             $response .= $bytes;
 
-            if (strpos($response, '</BroadsoftDocument>') !== false) {
+            if (strpos($response, "</BroadsoftDocument>\n") !== false) {
                 break;
             }
         }
 
 
-        return $response;
+        return trim($response);
     }
 
     /**

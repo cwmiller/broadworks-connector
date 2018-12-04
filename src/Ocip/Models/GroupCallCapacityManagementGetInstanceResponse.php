@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCapacityManagementGetInstanceResponse
  *
  * Response to the GroupCallCapacityManagementGetInstanceRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", "Hiragana First Name",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallCapacityManagementGetInstanceRequest
+ * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:225","type":"sequence"}]
  */
 class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName name
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:225
      * @var string|null
      */
     private $name = null;
@@ -25,6 +26,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName maxActiveCallsAllowed
      * @Type int
+     * @Group ec414f584634edfc7ab45285fc8bb597:225
      * @var int|null
      */
     private $maxActiveCallsAllowed = null;
@@ -32,6 +34,8 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName maxIncomingActiveCallsAllowed
      * @Type int
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:225
      * @var int|null
      */
     private $maxIncomingActiveCallsAllowed = null;
@@ -39,6 +43,8 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName maxOutgoingActiveCallsAllowed
      * @Type int
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:225
      * @var int|null
      */
     private $maxOutgoingActiveCallsAllowed = null;
@@ -46,6 +52,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName defaultGroupForNewUsers
      * @Type bool
+     * @Group ec414f584634edfc7ab45285fc8bb597:225
      * @var bool|null
      */
     private $defaultGroupForNewUsers = null;
@@ -53,6 +60,7 @@ class GroupCallCapacityManagementGetInstanceResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group ec414f584634edfc7ab45285fc8bb597:225
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

@@ -5,9 +5,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallCenterReportSchedule
  *
- * A schedule for call center enhanced reporting scheduled report. It can either be
- * a fixed time schedule
+ * A schedule for call center enhanced reporting scheduled report. It can either be a fixed time schedule
  *         or recurring schedule
+ *
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6742","type":"choice"}]
  */
 class CallCenterReportSchedule
 {
@@ -15,6 +16,7 @@ class CallCenterReportSchedule
     /**
      * @ElementName scheduleTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleTime
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6742
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleTime|null
      */
     private $scheduleTime = null;
@@ -22,6 +24,7 @@ class CallCenterReportSchedule
     /**
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleRecurrence
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6742
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportScheduleRecurrence|null
      */
     private $recurrence = null;

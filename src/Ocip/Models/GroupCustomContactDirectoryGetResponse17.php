@@ -11,8 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Last Name", "First Name", "Hiragana Last Name", 
  *         "Hiragana First Name", "Virtual On-Net Phone Number", "Group Id", 
  *         "Is Virtual On-Net User", "Department", "Phone Number", "Extension",
- *         "Mobile", "Email Address", "Yahoo Id", "Title", "IMP Id", "Receptionist
- * Note".
+ *         "Mobile", "Email Address", "Yahoo Id", "Title", "IMP Id", "Receptionist Note".
  *         If the entry represents a Virtual On-Net user then "User Id" is blank,  
  *         the "Virtual On-Net Phone Number" contains the phone Number of the 
  *         Virtual On-Net user, the "Group Id" contains the Virtual On-Net user's 
@@ -25,6 +24,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Note and a Note exists.
  *
  * @see GroupCustomContactDirectoryGetRequest17
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2703","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -32,6 +32,7 @@ class GroupCustomContactDirectoryGetResponse17 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2703
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

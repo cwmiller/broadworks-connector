@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterAgentThresholdProfileGetListRequest
  *
  * Get the list of Call Center Agent Threshold Profiles in the Group.
- *         The response is either
- * GroupCallCenterAgentThresholdProfileGetListResponse or ErrorResponse.
+ *         The response is either GroupCallCenterAgentThresholdProfileGetListResponse or ErrorResponse.
  *
  * @see GroupCallCenterAgentThresholdProfileGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2086","type":"sequence"}]
  */
 class GroupCallCenterAgentThresholdProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterAgentThresholdProfileGetListRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2086
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallCenterAgentThresholdProfileGetListRequest extends \CWM\BroadWorks
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2086
      * @var string|null
      */
     private $groupId = null;

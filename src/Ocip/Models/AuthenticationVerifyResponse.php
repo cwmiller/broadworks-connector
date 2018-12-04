@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see AuthenticationVerifyRequest
  * @see AuthenticationVerifyResponse14sp8
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:869","type":"sequence"}]
  */
 class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
@@ -24,6 +26,7 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName locale
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var string|null
      */
     private $locale = null;
@@ -31,6 +34,7 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName encoding
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var string|null
      */
     private $encoding = null;
@@ -38,6 +42,8 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var string|null
      */
     private $groupId = null;
@@ -45,6 +51,8 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -52,6 +60,7 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName isEnterprise
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -59,6 +68,8 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName passwordExpiresDays
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -66,6 +77,7 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userDomain
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var string|null
      */
     private $userDomain = null;
@@ -73,6 +85,8 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName lastName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var string|null
      */
     private $lastName = null;
@@ -80,6 +94,8 @@ class AuthenticationVerifyResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName firstName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:869
      * @var string|null
      */
     private $firstName = null;

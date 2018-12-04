@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderNetworkClassOfServiceUnassignListRequest21
  *
  * Unassign a list of Network Classes of Service from a service provider.
- *         If the default Network Class of Service is being unassigned, a new one
- * must be specified unless there are no more
+ *         If the default Network Class of Service is being unassigned, a new one must be specified unless there are no more
  *         Network Classes of Service assigned to the service provider.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4064","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4064
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,8 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\Bro
      * @ElementName networkClassOfService
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4064
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -37,6 +40,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest21 extends \CWM\Bro
     /**
      * @ElementName defaultNetworkClassOfService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4064
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
     private $defaultNetworkClassOfService = null;

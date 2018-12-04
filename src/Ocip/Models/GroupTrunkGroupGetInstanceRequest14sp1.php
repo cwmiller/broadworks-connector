@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceRequest14sp1
  *
  * Get a Trunk Group Instance's profile.
- *         The response is either a GroupTrunkGroupGetInstanceResponse14sp1 or an
- * ErrorResponse.
+ *         The response is either a GroupTrunkGroupGetInstanceResponse14sp1 or an ErrorResponse.
  *
  * @see GroupTrunkGroupGetInstanceResponse14sp1
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:12260","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupTrunkGroupGetInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12260
      * @var string|null
      */
     private $serviceUserId = null;

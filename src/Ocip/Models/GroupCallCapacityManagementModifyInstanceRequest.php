@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallCapacityManagementModifyInstanceRequest
  *
- * Modifies a Call Capacity Management group. Replaces the entire list of users in
- * the group.
+ * Modifies a Call Capacity Management group. Replaces the entire list of users in the group.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:246","type":"sequence"}]
  */
 class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:246
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:246
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:246
      * @var string|null
      */
     private $name = null;
@@ -39,6 +42,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName newName
      * @Type string
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:246
      * @var string|null
      */
     private $newName = null;
@@ -46,6 +51,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName maxActiveCallsAllowed
      * @Type int
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:246
      * @var int|null
      */
     private $maxActiveCallsAllowed = null;
@@ -54,6 +61,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @ElementName maxIncomingActiveCallsAllowed
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:246
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxIncomingActiveCallsAllowed = null;
@@ -62,6 +71,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @ElementName maxOutgoingActiveCallsAllowed
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:246
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxOutgoingActiveCallsAllowed = null;
@@ -69,6 +80,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName becomeDefaultGroupForNewUsers
      * @Type bool
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:246
      * @var bool|null
      */
     private $becomeDefaultGroupForNewUsers = null;
@@ -77,6 +90,8 @@ class GroupCallCapacityManagementModifyInstanceRequest extends \CWM\BroadWorksCo
      * @ElementName userIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:246
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userIdList = null;

@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderServiceGetUserAssignableListRequest.
  *
  * @see ServiceProviderServiceGetUserAssignableListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4988","type":"sequence"}]
  */
 class ServiceProviderServiceGetUserAssignableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class ServiceProviderServiceGetUserAssignableListResponse extends \CWM\BroadWork
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4988
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(

@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserMaliciousCallTraceGetRequest.
  *
  * @see UserMaliciousCallTraceGetRequest
+ * @Groups [{"id":"1dd735379d6024e13a98599c2b534f6d:168","type":"sequence"}]
  */
 class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1dd735379d6024e13a98599c2b534f6d:168
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName traceTypeSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection
+     * @Group 1dd735379d6024e13a98599c2b534f6d:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceCallTypeSelection|null
      */
     private $traceTypeSelection = null;
@@ -29,6 +32,7 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName traceForTimePeriod
      * @Type bool
+     * @Group 1dd735379d6024e13a98599c2b534f6d:168
      * @var bool|null
      */
     private $traceForTimePeriod = null;
@@ -36,6 +40,8 @@ class UserMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName traceTimePeriod
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod
+     * @Optional
+     * @Group 1dd735379d6024e13a98599c2b534f6d:168
      * @var \CWM\BroadWorksConnector\Ocip\Models\MaliciousCallTraceTimePeriod|null
      */
     private $traceTimePeriod = null;

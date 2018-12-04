@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFlexibleSeatingHostRoutingPoliciesGetRequest
  *
  * Get a flexible seating host’s routing policies
- *         The response is either a
- * GroupFlexibleSeatingHostRoutingPoliciesGetResponse or an ErrorResponse.
+ *         The response is either a GroupFlexibleSeatingHostRoutingPoliciesGetResponse or an ErrorResponse.
  *
  * @see GroupFlexibleSeatingHostRoutingPoliciesGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:314","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostRoutingPoliciesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupFlexibleSeatingHostRoutingPoliciesGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:314
      * @var string|null
      */
     private $serviceUserId = null;

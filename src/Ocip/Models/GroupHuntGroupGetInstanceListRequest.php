@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupHuntGroupGetInstanceListRequest
  *
  * Get a list of Hunt Group instances within a group.
- *         The response is either GroupHuntGroupGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupHuntGroupGetInstanceListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupHuntGroupGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1136ac7348c14565d0ad74d10c47409a:285","type":"sequence"}]
  */
 class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1136ac7348c14565d0ad74d10c47409a:285
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1136ac7348c14565d0ad74d10c47409a:285
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupHuntGroupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:285
      * @var string|null
      */
     private $groupDepartmentName = null;

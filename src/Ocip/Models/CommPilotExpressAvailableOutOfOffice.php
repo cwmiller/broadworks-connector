@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CommPilotExpressAvailableOutOfOffice
  *
- * CommPilot Express Available Out Of Office Configuration used in the context of a
- * get.
+ * CommPilot Express Available Out Of Office Configuration used in the context of a get.
+ *
+ * @Groups [{"id":"3634139a4e18662a8fde423f112abbbc:129","type":"sequence"}]
  */
 class CommPilotExpressAvailableOutOfOffice
 {
@@ -14,6 +15,7 @@ class CommPilotExpressAvailableOutOfOffice
     /**
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection
+     * @Group 3634139a4e18662a8fde423f112abbbc:129
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressRedirection|null
      */
     private $incomingCalls = null;
@@ -21,6 +23,7 @@ class CommPilotExpressAvailableOutOfOffice
     /**
      * @ElementName incomingCallNotify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotify
+     * @Group 3634139a4e18662a8fde423f112abbbc:129
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressEmailNotify|null
      */
     private $incomingCallNotify = null;

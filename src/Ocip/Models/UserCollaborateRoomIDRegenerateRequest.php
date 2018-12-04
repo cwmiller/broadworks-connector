@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCollaborateRoomIDRegenerateRequest
  *
  * Request to regenerate collaborate room id for MyRoom and project room. 
- *         The request fails when requesting to regenerate room ID for an instant
- * room.
+ *         The request fails when requesting to regenerate room ID for an instant room.
  *         The response is either a UserCollaborateRoomIDRegenerateResponse or an
  *         ErrorResponse.
  *
  * @see UserCollaborateRoomIDRegenerateResponse
  * @see ErrorResponse
+ * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:797","type":"sequence"}]
  */
 class UserCollaborateRoomIDRegenerateRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserCollaborateRoomIDRegenerateRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:797
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,7 @@ class UserCollaborateRoomIDRegenerateRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName roomId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:797
      * @var string|null
      */
     private $roomId = null;

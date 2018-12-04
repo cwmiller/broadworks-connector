@@ -5,15 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderLanguageGetAvailableListRequest
  *
- * Request the list of languages that a user or admin in a service provider is
- * allowed to use.  
- *         The list will either be the system or service provider languages list,
- * depending on the useServiceProviderLanguages flag.
- *         The response is either a ServiceProviderLanguageGetAvailableListResponse
- * or an ErrorResponse.
+ * Request the list of languages that a user or admin in a service provider is allowed to use.  
+ *         The list will either be the system or service provider languages list, depending on the useServiceProviderLanguages flag.
+ *         The response is either a ServiceProviderLanguageGetAvailableListResponse or an ErrorResponse.
  *
  * @see ServiceProviderLanguageGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3785","type":"sequence"}]
  */
 class ServiceProviderLanguageGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +19,7 @@ class ServiceProviderLanguageGetAvailableListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3785
      * @var string|null
      */
     private $serviceProviderId = null;

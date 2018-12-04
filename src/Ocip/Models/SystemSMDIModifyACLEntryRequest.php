@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28115","type":"sequence"}]
  */
 class SystemSMDIModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemSMDIModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName netAddress
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28115
      * @var string|null
      */
     private $netAddress = null;
@@ -25,6 +27,8 @@ class SystemSMDIModifyACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28115
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

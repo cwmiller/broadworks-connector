@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupAccessDeviceFileGetListRequest
  *
- * Request to get the list of device files managed by the Device Management System,
- * on a per-device profile basis.
- *           The response is either GroupAccessDeviceFileGetListResponse or
- * ErrorResponse.
+ * Request to get the list of device files managed by the Device Management System, on a per-device profile basis.
+ *           The response is either GroupAccessDeviceFileGetListResponse or ErrorResponse.
  *           Replaced By: GroupAccessDeviceFileGetListRequest14sp8
  *
  * @see GroupAccessDeviceFileGetListResponse
  * @see ErrorResponse
  * @see GroupAccessDeviceFileGetListRequest14sp8
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1794","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1794
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1794
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +36,7 @@ class GroupAccessDeviceFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1794
      * @var string|null
      */
     private $deviceName = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointGetInstanceRequest22
  *
  * Request to get all the information of a Route Point instance.
- *         The response is either GroupRoutePointGetInstanceResponse19sp1 or
- * ErrorResponse.
+ *         The response is either GroupRoutePointGetInstanceResponse19sp1 or ErrorResponse.
  *
  * @see GroupRoutePointGetInstanceResponse19sp1
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:596","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointGetInstanceRequest22 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:596
      * @var string|null
      */
     private $serviceUserId = null;

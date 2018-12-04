@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SearchCriteriaDeviceManagementEventAdditionalInfo
  *
- * Criteria for searching for a particular additional info of a DeviceManagement
- * event.
+ * Criteria for searching for a particular additional info of a DeviceManagement event.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:365","type":"sequence"}]
  */
 class SearchCriteriaDeviceManagementEventAdditionalInfo extends SearchCriteria
 {
@@ -14,6 +15,7 @@ class SearchCriteriaDeviceManagementEventAdditionalInfo extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
+     * @Group d37849f5e289836ccd316323a7a3799a:365
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -21,6 +23,7 @@ class SearchCriteriaDeviceManagementEventAdditionalInfo extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
+     * @Group d37849f5e289836ccd316323a7a3799a:365
      * @var string|null
      */
     private $value = null;
@@ -28,6 +31,7 @@ class SearchCriteriaDeviceManagementEventAdditionalInfo extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
+     * @Group d37849f5e289836ccd316323a7a3799a:365
      * @var bool|null
      */
     private $isCaseInsensitive = null;

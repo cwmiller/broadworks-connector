@@ -9,18 +9,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a table with column headings:
  *         "Type" and "Submenu ID".
  *         
- *         The "Type" Column will contain one of the following: Business Hours
- * Menu,
+ *         The "Type" Column will contain one of the following: Business Hours Menu,
  *         After Hours Menu, Holiday Menu or Submenu.
  *         
- *         The "Submenu ID" Column will be left blank when the "Type" Column
- * contains one
- *         of the base menu types (Business Hours Menu, After Hours Menu or Holiday
- * Menu),
- *         and will contain the Submenu ID when the "Type" Column contains type
- * Submenu.
+ *         The "Submenu ID" Column will be left blank when the "Type" Column contains one
+ *         of the base menu types (Business Hours Menu, After Hours Menu or Holiday Menu),
+ *         and will contain the Submenu ID when the "Type" Column contains type Submenu.
  *
  * @see GroupAutoAttendantSubmenuGetUsageListRequest
+ * @Groups [{"id":"991f3e2b8774e7414716848f9b5935fc:513","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuGetUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,6 +25,7 @@ class GroupAutoAttendantSubmenuGetUsageListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName submenuTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 991f3e2b8774e7414716848f9b5935fc:513
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $submenuTable = null;

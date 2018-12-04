@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1196","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @ElementName personalizedName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1196
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @ElementName conferenceGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1196
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $conferenceGreeting = null;
@@ -27,6 +33,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1196
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -35,6 +43,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19GreetingsMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1196
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserConnectedLineIdentificationRestrictionGetRequest.
  *
  * @see UserConnectedLineIdentificationRestrictionGetRequest
+ * @Groups [{"id":"2aed1034a9659e13500bd2f17f0b0410:59","type":"sequence"}]
  */
 class UserConnectedLineIdentificationRestrictionGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserConnectedLineIdentificationRestrictionGetResponse extends \CWM\BroadWo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 2aed1034a9659e13500bd2f17f0b0410:59
      * @var bool|null
      */
     private $isActive = null;

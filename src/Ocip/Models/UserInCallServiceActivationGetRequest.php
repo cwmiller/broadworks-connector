@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserInCallServiceActivationGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"916ed745485f7eefa0156a5e8ab505cf:141","type":"sequence"}]
  */
 class UserInCallServiceActivationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserInCallServiceActivationGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
+     * @Group 916ed745485f7eefa0156a5e8ab505cf:141
      * @var string|null
      */
     private $userId = null;

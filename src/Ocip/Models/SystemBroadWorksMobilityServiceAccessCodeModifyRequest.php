@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemBroadWorksMobilityServiceAccessCodeModifyRequest21
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17827","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadW
     /**
      * @ElementName countryCode
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17827
      * @var string|null
      */
     private $countryCode = null;
@@ -26,6 +28,7 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadW
     /**
      * @ElementName serviceAccessCode
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17827
      * @var string|null
      */
     private $serviceAccessCode = null;
@@ -34,6 +37,8 @@ class SystemBroadWorksMobilityServiceAccessCodeModifyRequest extends \CWM\BroadW
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17827
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

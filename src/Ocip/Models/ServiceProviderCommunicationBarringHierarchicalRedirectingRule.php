@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringHierarchicalRedirectingRule
  *
  * Service Provider Communication Barring Hierarchical Redirecting Rule
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3359","type":"sequence","children":[{"id":"18b369af88e42ffdb4166615c670ce2c:3360","type":"choice"}]}]
  */
 class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
 {
@@ -13,6 +15,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName criteria
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3360
      * @var string|null
      */
     private $criteria = null;
@@ -20,6 +23,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3360
      * @var string|null
      */
     private $digitPatternCriteria = null;
@@ -27,6 +31,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3359
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $action = null;
@@ -34,6 +39,8 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName callTimeoutSeconds
      * @Type int
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3359
      * @var int|null
      */
     private $callTimeoutSeconds = null;
@@ -41,6 +48,8 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName timeSchedule
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3359
      * @var string|null
      */
     private $timeSchedule = null;
@@ -48,6 +57,8 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName holidaySchedule
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3359
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -55,6 +66,7 @@ class ServiceProviderCommunicationBarringHierarchicalRedirectingRule
     /**
      * @ElementName priority
      * @Type float
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3359
      * @var float|null
      */
     private $priority = null;

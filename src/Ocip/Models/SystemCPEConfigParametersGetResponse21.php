@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system CPE Config parameters.
  *
  * @see SystemCPEConfigParametersGetListRequest21
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6319","type":"sequence"}]
  */
 class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableIPDeviceManagement
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
@@ -23,6 +25,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
@@ -30,6 +33,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
@@ -37,6 +41,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var int|null
      */
     private $pauseBetweenFileRebuildMilliseconds = null;
@@ -44,6 +49,8 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName deviceAccessAppServerClusterName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var string|null
      */
     private $deviceAccessAppServerClusterName = null;
@@ -51,6 +58,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName minTimeBetweenResetMilliseconds
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var int|null
      */
     private $minTimeBetweenResetMilliseconds = null;
@@ -58,6 +66,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName alwaysPushFilesOnRebuild
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var bool|null
      */
     private $alwaysPushFilesOnRebuild = null;
@@ -65,6 +74,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxFileOperationRetryAttempts
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var int|null
      */
     private $maxFileOperationRetryAttempts = null;
@@ -72,6 +82,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableAutoRebuildConfig
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var bool|null
      */
     private $enableAutoRebuildConfig = null;
@@ -79,6 +90,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName eventQueueSize
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var int|null
      */
     private $eventQueueSize = null;
@@ -86,6 +98,7 @@ class SystemCPEConfigParametersGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowDeviceCredentialsRetrieval
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6319
      * @var bool|null
      */
     private $allowDeviceCredentialsRetrieval = null;

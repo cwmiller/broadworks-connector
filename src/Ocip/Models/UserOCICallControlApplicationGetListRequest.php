@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOCICallControlApplicationGetListRequest
  *
  * Get the OCI call control application list that can be used by the user.
- *         The response is either UserOCICallControlApplicationGetListResponse or
- * ErrorResponse.
+ *         The response is either UserOCICallControlApplicationGetListResponse or ErrorResponse.
  *
  * @see UserOCICallControlApplicationGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2128","type":"sequence"}]
  */
 class UserOCICallControlApplicationGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserOCICallControlApplicationGetListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:2128
      * @var string|null
      */
     private $userId = null;

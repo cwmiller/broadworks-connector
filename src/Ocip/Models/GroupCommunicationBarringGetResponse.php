@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCommunicationBarringGetRequest.
  *
  * @see GroupCommunicationBarringGetRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2315","type":"sequence"}]
  */
 class GroupCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName useDefaultServiceProviderProfile
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2315
      * @var bool|null
      */
     private $useDefaultServiceProviderProfile = null;
@@ -22,6 +24,8 @@ class GroupCommunicationBarringGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName profile
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2315
      * @var string|null
      */
     private $profile = null;

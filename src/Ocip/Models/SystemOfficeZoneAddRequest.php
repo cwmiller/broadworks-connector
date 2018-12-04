@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemOfficeZoneAddRequest
  *
- * Add a new Office Zone.  The zoneList is an ordered list with the first member
- * being of the highest priority.
+ * Add a new Office Zone.  The zoneList is an ordered list with the first member being of the highest priority.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12107","type":"sequence"}]
  */
 class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName officeZoneName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12107
      * @var string|null
      */
     private $officeZoneName = null;
@@ -25,6 +26,8 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12107
      * @var string|null
      */
     private $description = null;
@@ -33,6 +36,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName zoneName
      * @Type string
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12107
      * @var string[]
      */
     private $zoneName = array(
@@ -42,6 +46,7 @@ class SystemOfficeZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName primaryZoneName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12107
      * @var string|null
      */
     private $primaryZoneName = null;

@@ -5,15 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest
  *
- * Get a list of Communication Barring profiles within a service provider that have
- * a given Communication Barring Incoming Criteria assigned.
- *         The response is either a
- * ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
+ * Get a list of Communication Barring profiles within a service provider that have a given Communication Barring Incoming Criteria assigned.
+ *         The response is either a ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
  *         or an ErrorResponse.
  *
- * @see
- * ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
+ * @see ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1871","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +19,7 @@ class ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequ
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1871
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +27,7 @@ class ServiceProviderCommunicationBarringProfileGetIncomingCriteriaUsageListRequ
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1871
      * @var string|null
      */
     private $criteriaName = null;

@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemSIPDeviceTypeFileGetListRequest14sp8
  *
- * Request to get the list of device files managed by the Device Management System,
- * on a per-device type basis.
- *         The response is either SystemSIPDeviceTypeFileGetListResponse14sp8 or
- * ErrorResponse.
+ * Request to get the list of device files managed by the Device Management System, on a per-device type basis.
+ *         The response is either SystemSIPDeviceTypeFileGetListResponse14sp8 or ErrorResponse.
  *
  * @see SystemSIPDeviceTypeFileGetListResponse14sp8
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14963","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileGetListRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class SystemSIPDeviceTypeFileGetListRequest14sp8 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14963
      * @var string|null
      */
     private $deviceType = null;

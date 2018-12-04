@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterAgentUnavailableCodeSettingsGetRequest
  * @see GroupCallCenterAgentUnavailableCodeSettingsGetResponse17sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:3215","type":"sequence"}]
  */
 class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
     /**
      * @ElementName enableAgentUnavailableCodes
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3215
      * @var bool|null
      */
     private $enableAgentUnavailableCodes = null;
@@ -25,6 +27,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
     /**
      * @ElementName defaultAgentUnavailableCodeOnDND
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3215
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnDND = null;
@@ -32,6 +36,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
     /**
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3215
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnPersonalCalls = null;
@@ -39,6 +45,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
     /**
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3215
      * @var string|null
      */
     private $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
@@ -46,6 +54,7 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
     /**
      * @ElementName forceUseOfAgentUnavailableCodes
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3215
      * @var bool|null
      */
     private $forceUseOfAgentUnavailableCodes = null;
@@ -53,6 +62,8 @@ class GroupCallCenterAgentUnavailableCodeSettingsGetResponse extends \CWM\BroadW
     /**
      * @ElementName defaultAgentUnavailableCode
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3215
      * @var string|null
      */
     private $defaultAgentUnavailableCode = null;

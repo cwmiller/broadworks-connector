@@ -5,10 +5,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * DeviceManagementPutFileRequest
  *
- * Informs BroadWorks that a file was uploaded to the repository. The response is
- * always a SuccessResponse.
+ * Informs BroadWorks that a file was uploaded to the repository. The response is always a SuccessResponse.
  *
  * @see SuccessResponse
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:199","type":"sequence"}]
  */
 class DeviceManagementPutFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -16,6 +16,7 @@ class DeviceManagementPutFileRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceAccessURI
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:199
      * @var string|null
      */
     private $deviceAccessURI = null;
@@ -23,6 +24,7 @@ class DeviceManagementPutFileRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName ipAddress
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:199
      * @var string|null
      */
     private $ipAddress = null;

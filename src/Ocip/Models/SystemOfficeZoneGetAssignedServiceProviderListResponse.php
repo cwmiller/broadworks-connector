@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the
  *         SystemOfficeZoneGetAssignedServiceProviderListRequest.
- *         The response contains a table of all Service Providers that have the
- * given Office Zone assigned. The column headings are
+ *         The response contains a table of all Service Providers that have the given Office Zone assigned. The column headings are
  *         "Service Provider Id", "Service Provider Name" and "Is Enterprise".
  *
  * @see SystemOfficeZoneGetAssignedServiceProviderListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12159","type":"sequence"}]
  */
 class SystemOfficeZoneGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class SystemOfficeZoneGetAssignedServiceProviderListResponse extends \CWM\BroadW
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12159
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderTable = null;

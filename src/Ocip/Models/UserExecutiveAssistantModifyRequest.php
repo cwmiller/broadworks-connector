@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"970d474b574fc7b8f11edd02aa83e017:80","type":"sequence"}]
  */
 class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 970d474b574fc7b8f11edd02aa83e017:80
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableDivert
      * @Type bool
+     * @Optional
+     * @Group 970d474b574fc7b8f11edd02aa83e017:80
      * @var bool|null
      */
     private $enableDivert = null;
@@ -32,6 +36,8 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName divertToPhoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 970d474b574fc7b8f11edd02aa83e017:80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $divertToPhoneNumber = null;
@@ -40,6 +46,8 @@ class UserExecutiveAssistantModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName optInStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus
      * @Array
+     * @Optional
+     * @Group 970d474b574fc7b8f11edd02aa83e017:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveAssistantOptInStatus[]
      */
     private $optInStatus = array(

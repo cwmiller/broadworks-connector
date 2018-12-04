@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceAvailablePortGetListResponse
  *
  * Response to GroupAccessDeviceAvailablePortGetListRequest.
- *         Contains a list of available ports in a device using static mode. The
- * list is empty in case the device is using dynamic mode.
+ *         Contains a list of available ports in a device using static mode. The list is empty in case the device is using dynamic mode.
  *
  * @see GroupAccessDeviceAvailablePortGetListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:311","type":"sequence"}]
  */
 class GroupAccessDeviceAvailablePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,8 @@ class GroupAccessDeviceAvailablePortGetListResponse extends \CWM\BroadWorksConne
      * @ElementName portNumber
      * @Type int
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:311
      * @var int[]
      */
     private $portNumber = array(

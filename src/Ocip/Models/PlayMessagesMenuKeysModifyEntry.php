@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PlayMessagesMenuKeysModifyEntry
  *
  * The voice portal play message menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2841","type":"sequence"}]
  */
 class PlayMessagesMenuKeysModifyEntry
 {
@@ -14,6 +16,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName saveMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $saveMessage = null;
@@ -22,6 +26,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName deleteMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deleteMessage = null;
@@ -30,6 +36,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName playMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playMessage = null;
@@ -38,6 +46,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName previousMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $previousMessage = null;
@@ -46,6 +56,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName playEnvelope
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playEnvelope = null;
@@ -54,6 +66,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName nextMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $nextMessage = null;
@@ -62,6 +76,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName callbackCaller
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callbackCaller = null;
@@ -70,6 +86,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName composeMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $composeMessage = null;
@@ -78,6 +96,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName replyMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $replyMessage = null;
@@ -86,6 +106,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName forwardMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardMessage = null;
@@ -94,6 +116,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName additionalMessageOptions
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $additionalMessageOptions = null;
@@ -102,6 +126,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName personalizedName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
@@ -110,6 +136,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName passcode
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
@@ -117,6 +145,8 @@ class PlayMessagesMenuKeysModifyEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -125,6 +155,8 @@ class PlayMessagesMenuKeysModifyEntry
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2841
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEnterpriseTrunkGetRequest21
  *
  * Request to get an enterprise trunk
- *         The response is either an GroupEnterpriseTrunkGetResponse21 or an
- * ErrorResponse.
+ *         The response is either an GroupEnterpriseTrunkGetResponse21 or an ErrorResponse.
  *
  * @see GroupEnterpriseTrunkGetResponse21
  * @see ErrorResponse
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:699","type":"sequence"}]
  */
 class GroupEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:699
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:699
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupEnterpriseTrunkGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:699
      * @var string|null
      */
     private $enterpriseTrunkName = null;

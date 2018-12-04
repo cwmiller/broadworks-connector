@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCommunicationBarringGetRequest
  *
  * Gets Communication Barring setting for a group.  
- *         The response is either a GroupCommunicationBarringGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupCommunicationBarringGetResponse or an ErrorResponse.
  *
  * @see GroupCommunicationBarringGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2299","type":"sequence"}]
  */
 class GroupCommunicationBarringGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCommunicationBarringGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2299
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCommunicationBarringGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2299
      * @var string|null
      */
     private $groupId = null;

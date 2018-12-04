@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetDistinctiveRingingResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3809","type":"sequence"}]
  */
 class GroupCallCenterGetDistinctiveRingingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class GroupCallCenterGetDistinctiveRingingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3809
      * @var string|null
      */
     private $serviceUserId = null;

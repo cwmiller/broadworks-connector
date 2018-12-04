@@ -6,20 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCountryCodeAddRequest
  *
  * Add a country code to the system.
- *         If ringPeriodMilliseconds is not specified, a default of 6000
- * milliseconds is assumed.
- *         If offHookWarningTimerSeconds is not specified, a default of 30 seconds
- * is assumed.
+ *         If ringPeriodMilliseconds is not specified, a default of 6000 milliseconds is assumed.
+ *         If offHookWarningTimerSeconds is not specified, a default of 30 seconds is assumed.
  *         If enableNationalPrefix is not specified, a default of false is assumed.
  *         If nationalPrefix is not specified, a default of null string is assumed.
- *         If disableNationalPrefixForOffNetCalls is not specified, a default of
- * false is assumed.
+ *         If disableNationalPrefixForOffNetCalls is not specified, a default of false is assumed.
  *         The following elements are only used in AS data mode:
  *            disableNationalPrefixForOffNetCalls.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6107","type":"sequence"}]
  */
 class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,6 +25,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName countryCode
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6107
      * @var string|null
      */
     private $countryCode = null;
@@ -34,6 +33,7 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName countryName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6107
      * @var string|null
      */
     private $countryName = null;
@@ -41,6 +41,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName ringPeriodMilliseconds
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6107
      * @var int|null
      */
     private $ringPeriodMilliseconds = null;
@@ -48,6 +50,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName offHookWarningTimerSeconds
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6107
      * @var int|null
      */
     private $offHookWarningTimerSeconds = null;
@@ -55,6 +59,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enableNationalPrefix
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6107
      * @var bool|null
      */
     private $enableNationalPrefix = null;
@@ -62,6 +68,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName nationalPrefix
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6107
      * @var string|null
      */
     private $nationalPrefix = null;
@@ -69,6 +77,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName maxCallWaitingTones
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6107
      * @var int|null
      */
     private $maxCallWaitingTones = null;
@@ -76,6 +86,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName timeBetweenCallWaitingTonesMilliseconds
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6107
      * @var int|null
      */
     private $timeBetweenCallWaitingTonesMilliseconds = null;
@@ -83,6 +95,8 @@ class SystemCountryCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName disableNationalPrefixForOffNetCalls
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6107
      * @var bool|null
      */
     private $disableNationalPrefixForOffNetCalls = null;

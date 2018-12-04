@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SearchCriteriaCallCenterReportTemplateName
  *
- * Criteria for searching for a particular call center enhanced reporting report
- * template.
+ * Criteria for searching for a particular call center enhanced reporting report template.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:249","type":"sequence"}]
  */
 class SearchCriteriaCallCenterReportTemplateName extends SearchCriteria
 {
@@ -14,6 +15,7 @@ class SearchCriteriaCallCenterReportTemplateName extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
+     * @Group d37849f5e289836ccd316323a7a3799a:249
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -21,6 +23,7 @@ class SearchCriteriaCallCenterReportTemplateName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
+     * @Group d37849f5e289836ccd316323a7a3799a:249
      * @var string|null
      */
     private $value = null;
@@ -28,6 +31,7 @@ class SearchCriteriaCallCenterReportTemplateName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
+     * @Group d37849f5e289836ccd316323a7a3799a:249
      * @var bool|null
      */
     private $isCaseInsensitive = null;

@@ -6,16 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceManagementSwitchDeviceTypeRequest
  *
  * Switch the device type for all devices at the specified scope for a device type.
- *         To switch all the device type's device profiles for the system, neither
- * the serviceProviderId and groupId should be present.
- *         To switch all the device type's device profiles for a service provider,
- * only serviceProviderId should be specified.
- *         To switch all the device type's device profiles for a group,
- * serviceProviderId and groupId should specified.
+ *         To switch all the device type's device profiles for the system, neither the serviceProviderId and groupId should be present.
+ *         To switch all the device type's device profiles for a service provider, only serviceProviderId should be specified.
+ *         To switch all the device type's device profiles for a group, serviceProviderId and groupId should specified.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6806","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:6807","type":"choice","optional":true,"children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:6809","type":"sequence"}]}]}]
  */
 class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +21,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6807
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +29,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName svcProviderId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6809
      * @var string|null
      */
     private $svcProviderId = null;
@@ -37,6 +37,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6809
      * @var string|null
      */
     private $groupId = null;
@@ -44,6 +45,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName fromDeviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6806
      * @var string|null
      */
     private $fromDeviceType = null;
@@ -51,6 +53,7 @@ class SystemDeviceManagementSwitchDeviceTypeRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName toDeviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6806
      * @var string|null
      */
     private $toDeviceType = null;

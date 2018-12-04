@@ -9,13 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *           callToNumber
  *           
- *         For the callToNumbers in the callToNumberList, the extension element is
- * not used and the number element is only used when the type is BroadWorks
- * Mobility.
+ *         For the callToNumbers in the callToNumberList, the extension element is not used and the number element is only used when the type is BroadWorks Mobility.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"05c6a69cc12c52fede8d3d09ca9155dc:309","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +22,7 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:309
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +30,7 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:309
      * @var string|null
      */
     private $criteriaName = null;
@@ -37,6 +38,8 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName newCriteriaName
      * @Type string
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:309
      * @var string|null
      */
     private $newCriteriaName = null;
@@ -45,6 +48,8 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:309
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
@@ -53,6 +58,8 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:309
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -60,6 +67,8 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:309
      * @var bool|null
      */
     private $blacklisted = null;
@@ -67,6 +76,8 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:309
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     private $fromDnCriteria = null;
@@ -75,6 +86,8 @@ class UserPreAlertingAnnouncementModifyCriteriaRequest extends \CWM\BroadWorksCo
      * @ElementName callToNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:309
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;

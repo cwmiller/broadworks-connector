@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterForcedForwardingGetRequest20
  *
  * Get a call center's forced forwarding settings.
- *         The response is either a GroupCallCenterForcedForwardingGetResponse20 or
- * an ErrorResponse.
+ *         The response is either a GroupCallCenterForcedForwardingGetResponse20 or an ErrorResponse.
  *
  * @see GroupCallCenterForcedForwardingGetResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3553","type":"sequence"}]
  */
 class GroupCallCenterForcedForwardingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterForcedForwardingGetRequest20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3553
      * @var string|null
      */
     private $serviceUserId = null;

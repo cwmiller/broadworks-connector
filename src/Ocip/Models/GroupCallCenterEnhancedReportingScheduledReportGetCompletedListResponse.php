@@ -5,20 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse
  *
- * Response to
- * GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest 
- *         Contains a table with column headings : "Schedule Name", "Description",
- * "Created By",
- *         "Is Supervisor Report", "Report Template Name", "Report Template Level"
- * and "Recurring".
- *         The "Created By" can be either "Administrator" or user id if created by
- * supervisor.
- *         The possible values for "Recurring" are "None", "Daily", "Weekly",
- * "Monthly" and "Yearly". 
- *         The possible values for "Report Template Level" are "System" and
- * "Group".
+ * Response to GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest 
+ *         Contains a table with column headings : "Schedule Name", "Description", "Created By",
+ *         "Is Supervisor Report", "Report Template Name", "Report Template Level" and "Recurring".
+ *         The "Created By" can be either "Administrator" or user id if created by supervisor.
+ *         The possible values for "Recurring" are "None", "Daily", "Weekly", "Monthly" and "Yearly". 
+ *         The possible values for "Report Template Level" are "System" and "Group".
  *
  * @see GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3364","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -26,6 +21,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse ex
     /**
      * @ElementName scheduledReportTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3364
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $scheduledReportTable = null;

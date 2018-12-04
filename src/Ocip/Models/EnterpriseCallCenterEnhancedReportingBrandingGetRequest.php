@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterEnhancedReportingBrandingGetRequest
  *
  * Request to get the enterprise branding information.
- *         The response is either
- * EnterpriseCallCenterEnhancedReportingBrandingGetResponse or ErrorResponse.
+ *         The response is either EnterpriseCallCenterEnhancedReportingBrandingGetResponse or ErrorResponse.
  *
  * @see EnterpriseCallCenterEnhancedReportingBrandingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1055","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingBrandingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingGetRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1055
      * @var string|null
      */
     private $serviceProviderId = null;

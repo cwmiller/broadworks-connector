@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information.
  *
  * @see GroupGroupPagingGetInstanceRequest19sp1
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:307","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:307
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -23,6 +25,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:307
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -30,6 +33,7 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:307
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
@@ -37,6 +41,8 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName originatorCLIDPrefix
      * @Type string
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:307
      * @var string|null
      */
     private $originatorCLIDPrefix = null;
@@ -44,6 +50,8 @@ class GroupGroupPagingGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:307
      * @var string|null
      */
     private $networkClassOfService = null;

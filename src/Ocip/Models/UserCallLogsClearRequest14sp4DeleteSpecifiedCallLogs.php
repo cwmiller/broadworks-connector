@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:674","type":"sequence"}]
  */
 class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
 {
@@ -12,6 +14,8 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @ElementName placedCallLogId
      * @Type string
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:674
      * @var string[]
      */
     private $placedCallLogId = array(
@@ -22,6 +26,8 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @ElementName receivedCallLogId
      * @Type string
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:674
      * @var string[]
      */
     private $receivedCallLogId = array(
@@ -32,6 +38,8 @@ class UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
      * @ElementName missedCallLogId
      * @Type string
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:674
      * @var string[]
      */
     private $missedCallLogId = array(

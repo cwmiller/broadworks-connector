@@ -7,13 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupNetworkClassOfServiceGetAssignedUserListRequest.
  *         Contains a table of users that have the Network Class of Service 
- *         assigned. The column headings are: "User Id", "User Type", "Last Name",
- * "First Name",
+ *         assigned. The column headings are: "User Id", "User Type", "Last Name", "First Name",
  *         "Department", "Phone Number", "Email Address", "Service Provider Id", 
- *         "Group Id", "Hiragana Last Name" and "Hiragana First Name" ,
- * "Extension".
+ *         "Group Id", "Hiragana Last Name" and "Hiragana First Name" , "Extension".
  *
  * @see GroupNetworkClassOfServiceGetAssignedUserListRequest
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:1610","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceGetAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +20,7 @@ class GroupNetworkClassOfServiceGetAssignedUserListResponse extends \CWM\BroadWo
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1610
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * OutgoingCallingPlanGroupAuthorizationCodes
  *
  * Outgoing Calling Plan Authorization Code for the group default.
+ *
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:2004","type":"sequence"}]
  */
 class OutgoingCallingPlanGroupAuthorizationCodes
 {
@@ -14,6 +16,8 @@ class OutgoingCallingPlanGroupAuthorizationCodes
      * @ElementName codeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry
      * @Array
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2004
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
     private $codeEntry = array(

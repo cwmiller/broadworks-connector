@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3409","type":"sequence"}]
  */
 class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:3409
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserTerminatingAlternateTrunkIdentityModifyRequest extends \CWM\BroadWorks
      * @ElementName terminatingTrunkIdentity
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3409
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $terminatingTrunkIdentity = null;

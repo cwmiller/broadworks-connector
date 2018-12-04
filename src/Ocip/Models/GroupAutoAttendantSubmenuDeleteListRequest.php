@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"991f3e2b8774e7414716848f9b5935fc:397","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 991f3e2b8774e7414716848f9b5935fc:397
      * @var string|null
      */
     private $serviceUserId = null;
@@ -26,6 +28,7 @@ class GroupAutoAttendantSubmenuDeleteListRequest extends \CWM\BroadWorksConnecto
      * @ElementName submenuId
      * @Type string
      * @Array
+     * @Group 991f3e2b8774e7414716848f9b5935fc:397
      * @var string[]
      */
     private $submenuId = array(

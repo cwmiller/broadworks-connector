@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify security classification parameters.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         NOTE: The security classifications must be specified in order of
- * priority. The command fails if all the security classifications defined for the
- * system are not provided.
+ *         NOTE: The security classifications must be specified in order of priority. The command fails if all the security classifications defined for the system are not provided.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b91fcb7aba1afd62c15b3e7e36708d08:294","type":"sequence"}]
  */
 class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,8 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName meetMeAnncThreshold
      * @Type int
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:294
      * @var int|null
      */
     private $meetMeAnncThreshold = null;
@@ -27,6 +28,8 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName playTrunkUserSecurityClassificationAnnouncement
      * @Type bool
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:294
      * @var bool|null
      */
     private $playTrunkUserSecurityClassificationAnnouncement = null;
@@ -35,6 +38,8 @@ class SystemSecurityClassificationModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName securityClassificationName
      * @Type string
      * @Array
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:294
      * @var string[]
      */
     private $securityClassificationName = array(

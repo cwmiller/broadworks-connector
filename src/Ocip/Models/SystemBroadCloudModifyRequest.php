@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2073","type":"sequence"}]
  */
 class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName provisioningUrl
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2073
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUrl = null;
@@ -26,6 +29,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName provisioningUserId
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2073
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUserId = null;
@@ -34,6 +39,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName provisioningPassword
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2073
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningPassword = null;
@@ -41,6 +48,8 @@ class SystemBroadCloudModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enableSynchronization
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2073
      * @var bool|null
      */
     private $enableSynchronization = null;

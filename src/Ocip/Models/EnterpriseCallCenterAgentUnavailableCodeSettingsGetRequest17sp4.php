@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4
  *
- * Request the enterprise level data associated with Call Center Agents Unavailable
- * Code Settings.
- *         The response is either an
- * EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 or an
+ * Request the enterprise level data associated with Call Center Agents Unavailable Code Settings.
+ *         The response is either an EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4 or an
  *         ErrorResponse.
  *
  * @see EnterpriseCallCenterAgentUnavailableCodeSettingsGetResponse17sp4
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:711","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsGetRequest17sp4 extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:711
      * @var string|null
      */
     private $serviceProviderId = null;

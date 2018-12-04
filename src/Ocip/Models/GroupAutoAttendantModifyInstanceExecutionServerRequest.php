@@ -8,11 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify an Auto Attendant instance.
  *         Only Group and Enterprise level schedules are accepted.
  *         The response is either SuccessResponse or ErrorResponse.
- *         Engineering Note: This command can only be executed from the Execution
- * Server
+ *         Engineering Note: This command can only be executed from the Execution Server
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"0dfc97518f5c669220a4d4a59ad5be5c:45","type":"sequence"}]
  */
 class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:45
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +28,8 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
     /**
      * @ElementName businessHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
     private $businessHoursMenu = null;
@@ -34,6 +37,8 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
     /**
      * @ElementName afterHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
     private $afterHoursMenu = null;
@@ -41,6 +46,8 @@ class GroupAutoAttendantModifyInstanceExecutionServerRequest extends \CWM\BroadW
     /**
      * @ElementName holidayMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenuExecutionServer|null
      */
     private $holidayMenu = null;

@@ -6,21 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPhoneDirectoryGetSearchedListRequest
  *
  * Request a table containing the phone directory for a user.
- *         If the specified user is part of an enterprise, the directory includes
- * all users in the enterprise
- *         and all entries in the enterprise common phone list and the common phone
- * list of the specified user's group.
- *         If the specified user is part of a service provider, the directory
- * includes all users in the user's group
+ *         If the specified user is part of an enterprise, the directory includes all users in the enterprise
+ *         and all entries in the enterprise common phone list and the common phone list of the specified user's group.
+ *         If the specified user is part of a service provider, the directory includes all users in the user's group
  *         and all entries in the common phone list of the specified user's group.
- *         It is possible to search the directory for names containing a specified
- * search string. The search includes
+ *         It is possible to search the directory for names containing a specified search string. The search includes
  *         matches on first name or last name or common phone list names.
- *         The response is either UserPhoneDirectoryGetSearchedListResponse or
- * ErrorResponse.
+ *         The response is either UserPhoneDirectoryGetSearchedListResponse or ErrorResponse.
  *
  * @see UserPhoneDirectoryGetSearchedListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2618","type":"sequence"}]
  */
 class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,6 +24,7 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:2618
      * @var string|null
      */
     private $userId = null;
@@ -35,6 +32,8 @@ class UserPhoneDirectoryGetSearchedListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName nameSearchString
      * @Type string
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:2618
      * @var string|null
      */
     private $nameSearchString = null;

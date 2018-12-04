@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderScheduleGetEventDetailListRequest
  *
  * Get the list of events of a service provider schedule.
- *         The response is either a
- * ServiceProviderScheduleGetEventDetailListResponse or an ErrorResponse.
+ *         The response is either a ServiceProviderScheduleGetEventDetailListResponse or an ErrorResponse.
  *
  * @see ServiceProviderScheduleGetEventDetailListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4701","type":"sequence"}]
  */
 class ServiceProviderScheduleGetEventDetailListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderScheduleGetEventDetailListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4701
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class ServiceProviderScheduleGetEventDetailListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4701
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;

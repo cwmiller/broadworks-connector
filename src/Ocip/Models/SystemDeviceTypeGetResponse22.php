@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           resellerId
  *
  * @see SystemDeviceTypeGetRequest22
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7317","type":"sequence"}]
  */
 class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isObsolete
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var bool|null
      */
     private $isObsolete = null;
@@ -25,6 +27,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
@@ -32,6 +35,8 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName webBasedConfigURL
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var string|null
      */
     private $webBasedConfigURL = null;
@@ -39,6 +44,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -46,6 +52,8 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName cpeDeviceOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead22
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead22|null
      */
     private $cpeDeviceOptions = null;
@@ -54,6 +62,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName protocolChoice
      * @Type string
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var string[]
      */
     private $protocolChoice = array(
@@ -63,6 +72,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var bool|null
      */
     private $isIpAddressOptional = null;
@@ -70,6 +80,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName useDomain
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var bool|null
      */
     private $useDomain = null;
@@ -77,6 +88,7 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isMobilityManagerDevice
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var bool|null
      */
     private $isMobilityManagerDevice = null;
@@ -84,6 +96,8 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deviceTypeConfigurationOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     private $deviceTypeConfigurationOption = null;
@@ -91,6 +105,8 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName staticLineOrdering
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var bool|null
      */
     private $staticLineOrdering = null;
@@ -98,6 +114,8 @@ class SystemDeviceTypeGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7317
      * @var string|null
      */
     private $resellerId = null;

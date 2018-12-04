@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterQueueCallDispositionCodeGetListRequest
  *
  * Get the list of Call Center Level and Organization Level Call Disposition Codes.
- *         The response is either
- * GroupCallCenterQueueCallDispositionCodeGetListResponse or ErrorResponse.
+ *         The response is either GroupCallCenterQueueCallDispositionCodeGetListResponse or ErrorResponse.
  *
  * @see GroupCallCenterQueueCallDispositionCodeGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4945","type":"sequence"}]
  */
 class GroupCallCenterQueueCallDispositionCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterQueueCallDispositionCodeGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4945
      * @var string|null
      */
     private $serviceUserId = null;

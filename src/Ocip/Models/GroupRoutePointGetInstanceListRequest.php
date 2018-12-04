@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointGetInstanceListRequest
  *
  * Get a list of Route Point instances within a group. 
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
- *         The response is either GroupRoutePointGetInstanceListResponse or
- * ErrorResponse.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
+ *         The response is either GroupRoutePointGetInstanceListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupRoutePointGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:558","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:558
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:558
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +36,8 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:558
      * @var string|null
      */
     private $groupDepartmentName = null;
@@ -42,6 +45,8 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:558
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -50,6 +55,8 @@ class GroupRoutePointGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaRoutePointName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName
      * @Array
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:558
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoutePointName[]
      */
     private $searchCriteriaRoutePointName = array(

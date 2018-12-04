@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a UserPreferredCarrierUserGetRequest.
  *
  * @see UserPreferredCarrierUserGetRequest
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:552","type":"sequence"}]
  */
 class UserPreferredCarrierUserGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserPreferredCarrierUserGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName intraLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierName
+     * @Group 1384777ce7bd407156102bad44751987:552
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierName|null
      */
     private $intraLataCarrier = null;
@@ -22,6 +24,7 @@ class UserPreferredCarrierUserGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName interLataCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierName
+     * @Group 1384777ce7bd407156102bad44751987:552
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierName|null
      */
     private $interLataCarrier = null;
@@ -29,6 +32,7 @@ class UserPreferredCarrierUserGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName internationalCarrier
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierName
+     * @Group 1384777ce7bd407156102bad44751987:552
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserPreferredCarrierName|null
      */
     private $internationalCarrier = null;

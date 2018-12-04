@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserOutgoingCallingPlanRedirectedGetRequest.
  *
  * @see UserOutgoingCallingPlanRedirectedGetRequest
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1547","type":"sequence"}]
  */
 class UserOutgoingCallingPlanRedirectedGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserOutgoingCallingPlanRedirectedGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName useCustomSettings
      * @Type bool
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1547
      * @var bool|null
      */
     private $useCustomSettings = null;
@@ -22,6 +24,7 @@ class UserOutgoingCallingPlanRedirectedGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName userPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissions
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1547
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissions|null
      */
     private $userPermissions = null;

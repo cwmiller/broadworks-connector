@@ -40,11 +40,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Each row represents an event sorted by priority of processing.  The 
  *         first row in the table is an event that has an associated expanded 
  *         event currently being processed or next in line to be processed.
- *         Deprecated by ServiceProviderDeviceManagementEventGetListResponse22 in
- * AS data mode.
+ *         Deprecated by ServiceProviderDeviceManagementEventGetListResponse22 in AS data mode.
  *
  * @see ServiceProviderDeviceManagementEventGetListRequest
  * @see ServiceProviderDeviceManagementEventGetListResponse22
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:461","type":"sequence"}]
  */
 class ServiceProviderDeviceManagementEventGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -52,6 +52,7 @@ class ServiceProviderDeviceManagementEventGetListResponse extends \CWM\BroadWork
     /**
      * @ElementName eventTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group e9727a9f98db3fe2db7ad08079031b73:461
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $eventTable = null;

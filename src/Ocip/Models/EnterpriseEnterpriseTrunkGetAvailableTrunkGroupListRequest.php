@@ -5,15 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest
  *
- * Request to get the list of all available trunk groups defined in an enterprise. 
- * It is possible to search by various criteria to restrict the number of rows
- * returned.
+ * Request to get the list of all available trunk groups defined in an enterprise.  It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a
- * EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListResponse or an ErrorResponse.
+ *         The response is either a EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListResponse or an ErrorResponse.
  *
  * @see EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:201","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +19,7 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:201
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +27,8 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:201
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -36,6 +37,8 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
      * @ElementName searchCriteriaTrunkGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     private $searchCriteriaTrunkGroupName = array(
@@ -46,6 +49,8 @@ class EnterpriseEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\Br
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(

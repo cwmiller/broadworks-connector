@@ -7,19 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserEnhancedCallLogsGetListRequest21sp1V2.
  *         Total numbers of rows is:
- *         - the total number of retrievable logs of the call log type that was
- * specified in the UserEnhancedCallLogsGetListRequest21sp1V2, 
+ *         - the total number of retrievable logs of the call log type that was specified in the UserEnhancedCallLogsGetListRequest21sp1V2, 
  *           if a call log type was specified in the request.
- *         - the total number of retrievable logs, if no call log type was
- * specified in the request.
- *         A list of MixedCallLogsEntry will be returned if the call logs are
- * stored on CDS
- *         A list of ExtendedMixedCallLogsEntry21sp1V2 will be returned if the call
- * logs are stored on DBS
+ *         - the total number of retrievable logs, if no call log type was specified in the request.
+ *         A list of MixedCallLogsEntry will be returned if the call logs are stored on CDS
+ *         A list of ExtendedMixedCallLogsEntry21sp1V2 will be returned if the call logs are stored on DBS
  *         The logs are sorted by date/time of the call.
  *
  * @see UserEnhancedCallLogsGetListRequest21sp1V2
  * @see UserEnhancedCallLogsGetListRequest21sp1V2
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5084","type":"sequence","children":[{"id":"499b56264fbe226bfef3c338c8d4750d:5086","type":"choice","children":[{"id":"499b56264fbe226bfef3c338c8d4750d:5090","type":"sequence"},{"id":"499b56264fbe226bfef3c338c8d4750d:5098","type":"sequence"}]}]}]
  */
 class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,6 +24,7 @@ class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName totalNumberOfRows
      * @Type int
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5084
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -34,6 +32,7 @@ class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2LegacyEntry
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5086
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2LegacyEntry|null
      */
     private $legacyEntry = null;
@@ -41,6 +40,7 @@ class UserEnhancedCallLogsGetListResponse21sp1V2 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2ExtendedEntry
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5086
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21sp1V2ExtendedEntry|null
      */
     private $extendedEntry = null;

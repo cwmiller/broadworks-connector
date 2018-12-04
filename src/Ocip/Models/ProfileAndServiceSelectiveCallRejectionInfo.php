@@ -8,10 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * This is the configuration parameters for Selective Call Rejection service
  *         	
  *         	The criteria table's column headings are:
- *         	"Is Active", "Criteria Name", "Time Schedule", "Calls From",
- * "Blacklisted", "Holiday Schedule"
+ *         	"Is Active", "Criteria Name", "Time Schedule", "Calls From", "Blacklisted", "Holiday Schedule"
  *         	
  *         	The "Calls From" column is a string containing call numbers
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3717","type":"sequence"}]
  */
 class ProfileAndServiceSelectiveCallRejectionInfo
 {
@@ -19,6 +20,7 @@ class ProfileAndServiceSelectiveCallRejectionInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:3717
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

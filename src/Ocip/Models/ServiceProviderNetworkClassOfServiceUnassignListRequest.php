@@ -8,12 +8,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Unassign a list of Network Classes of Service from a service provider.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
- *         Replaced By : ServiceProviderNetworkClassOfServiceUnassignListRequest21
- * in AS data mode
+ *         Replaced By : ServiceProviderNetworkClassOfServiceUnassignListRequest21 in AS data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderNetworkClassOfServiceUnassignListRequest21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2853","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2853
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +30,8 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest extends \CWM\Broad
      * @ElementName networkClassOfService
      * @Type string
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2853
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -38,6 +41,8 @@ class ServiceProviderNetworkClassOfServiceUnassignListRequest extends \CWM\Broad
     /**
      * @ElementName defaultNetworkClassOfService
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2853
      * @var string|null
      */
     private $defaultNetworkClassOfService = null;

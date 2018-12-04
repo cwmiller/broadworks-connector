@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOfficeZoneUnassignListRequest
  *
- * Unassign a list of OfficeZones from a group.  Note: a new default must be
- * provided if unassigning the current default.
+ * Unassign a list of OfficeZones from a group.  Note: a new default must be provided if unassigning the current default.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5484","type":"sequence"}]
  */
 class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5484
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5484
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName officeZoneName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5484
      * @var string[]
      */
     private $officeZoneName = array(
@@ -42,6 +46,8 @@ class GroupOfficeZoneUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName defaultOfficeZoneName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5484
      * @var string|null
      */
     private $defaultOfficeZoneName = null;

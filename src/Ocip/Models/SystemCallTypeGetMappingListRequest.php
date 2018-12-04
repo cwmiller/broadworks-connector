@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallTypeGetMappingListRequest
  *
  * Get a list of system call type mappings.
- *         The response is either SystemCallTypeGetMappingListResponse or
- * ErrorResponse.
+ *         The response is either SystemCallTypeGetMappingListResponse or ErrorResponse.
  *
  * @see SystemCallTypeGetMappingListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:4572","type":"sequence"}]
  */
 class SystemCallTypeGetMappingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,8 @@ class SystemCallTypeGetMappingListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName countryCode
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:4572
      * @var string|null
      */
     private $countryCode = null;

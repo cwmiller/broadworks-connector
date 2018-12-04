@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetGreetingRequest13mp16
  *
  * Get the user's voice messaging greeting information.
- *         The response is either a UserVoiceMessagingUserGetGreetingResponse13mp16
- * or an ErrorResponse.
+ *         The response is either a UserVoiceMessagingUserGetGreetingResponse13mp16 or an ErrorResponse.
  *         Replaced By: UserVoiceMessagingUserGetGreetingRequest16
  *
  * @see UserVoiceMessagingUserGetGreetingResponse13mp16
  * @see ErrorResponse
  * @see UserVoiceMessagingUserGetGreetingRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:37866","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetGreetingRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserVoiceMessagingUserGetGreetingRequest13mp16 extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37866
      * @var string|null
      */
     private $userId = null;

@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderTrunkGroupGetResponse
  *
  * Response to the ServiceProviderTrunkGroupGetRequest.
- *         The response contains the maximum permissible active trunk group calls
- * for the service provider.
+ *         The response contains the maximum permissible active trunk group calls for the service provider.
  *
  * @see ServiceProviderTrunkGroupGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:16700","type":"sequence"}]
  */
 class ServiceProviderTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class ServiceProviderTrunkGroupGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16700
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxActiveCalls = null;

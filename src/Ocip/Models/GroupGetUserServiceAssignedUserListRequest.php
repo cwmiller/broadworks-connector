@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGetUserServiceAssignedUserListRequest
  *
  * Get the list of users assigned the user service or service pack.
- *         The response is either a GroupGetUserServiceAssignedUserListResponse or
- * an ErrorResponse.
+ *         The response is either a GroupGetUserServiceAssignedUserListResponse or an ErrorResponse.
  *
  * @see GroupGetUserServiceAssignedUserListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5020","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5023","type":"choice"}]}]
  */
 class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5020
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5020
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5023
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $serviceName = null;
@@ -39,6 +42,7 @@ class GroupGetUserServiceAssignedUserListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName servicePackName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5023
      * @var string|null
      */
     private $servicePackName = null;

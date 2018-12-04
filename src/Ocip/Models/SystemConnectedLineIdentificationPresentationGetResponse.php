@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemConnectedLineIdentificationPresentationGetRequest.
  *
  * @see SystemConnectedLineIdentificationPresentationGetRequest
+ * @Groups [{"id":"aa560dddb8347907da38ad0275907b2a:58","type":"sequence"}]
  */
 class SystemConnectedLineIdentificationPresentationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class SystemConnectedLineIdentificationPresentationGetResponse extends \CWM\Broa
     /**
      * @ElementName enforceUserServiceAssignment
      * @Type bool
+     * @Group aa560dddb8347907da38ad0275907b2a:58
      * @var bool|null
      */
     private $enforceUserServiceAssignment = null;

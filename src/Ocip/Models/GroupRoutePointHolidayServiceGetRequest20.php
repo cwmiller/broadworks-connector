@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointHolidayServiceGetRequest20
  *
  * Get a route point's holiday service settings.
- *         The response is either a GroupRoutePointHolidayServiceGetResponse20 or
- * an ErrorResponse.
+ *         The response is either a GroupRoutePointHolidayServiceGetResponse20 or an ErrorResponse.
  *
  * @see GroupRoutePointHolidayServiceGetResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:641","type":"sequence"}]
  */
 class GroupRoutePointHolidayServiceGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointHolidayServiceGetRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:641
      * @var string|null
      */
     private $serviceUserId = null;

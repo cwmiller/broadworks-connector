@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilotExpressSRUnavailableModify
  *
  * CommPilot Express SR Unavailable Configuration used in the context of a modify.
+ *
+ * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:253","type":"sequence"}]
  */
 class CommPilotExpressSRUnavailableModify
 {
@@ -13,6 +15,8 @@ class CommPilotExpressSRUnavailableModify
     /**
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithExceptionModify
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:253
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithExceptionModify|null
      */
     private $incomingCalls = null;
@@ -20,6 +24,8 @@ class CommPilotExpressSRUnavailableModify
     /**
      * @ElementName incomingCallNotify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotifyModify
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:253
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotifyModify|null
      */
     private $incomingCallNotify = null;

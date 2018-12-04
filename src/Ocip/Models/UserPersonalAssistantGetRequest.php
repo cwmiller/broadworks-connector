@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPersonalAssistantGetRequest
  *
  * Request to get the User Personal Assistant information.
- *         The response is either a UserPersonalAssistantGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserPersonalAssistantGetResponse or an ErrorResponse.
  *
  * @see UserPersonalAssistantGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:300","type":"sequence"}]
  */
 class UserPersonalAssistantGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserPersonalAssistantGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:300
      * @var string|null
      */
     private $userId = null;

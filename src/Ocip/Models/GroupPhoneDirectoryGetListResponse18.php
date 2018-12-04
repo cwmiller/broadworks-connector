@@ -8,31 +8,24 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupPhoneDirectoryGetListRequest18.
  *         Contains a table with a row for each phone number and column headings :
  *         "Name", "Number", "Extension", "Mobile", "Email Address", 
- *         "Department", "Hiragana Name", "Group Id", "Yahoo Id", "User Id", "IMP
- * Id" and "Is Virtual On-Net User".
+ *         "Department", "Hiragana Name", "Group Id", "Yahoo Id", "User Id", "IMP Id" and "Is Virtual On-Net User".
  *
- *         If extended directory information is requested, the following columns
- * are also included:
+ *         If extended directory information is requested, the following columns are also included:
  *         "First Name", "Last Name", "Pager", "Title", "Time Zone", 
- *         "Location", "Address Line 1", "Address Line 2", "City", "State", "Zip",
- * "Country".
+ *         "Location", "Address Line 1", "Address Line 2", "City", "State", "Zip", "Country".
  *         Finally "Service Name".
- *         The Service Name represents the localized service name for service
- * instances. The localized values are taken from the BroadworksLabel.properties
- * file.
+ *         The Service Name represents the localized service name for service instances. The localized values are taken from the BroadworksLabel.properties file.
  *         Service Name is currently supporting:
- *         AutoAttendant, AutoAttendantStandard, AutoAttendantVideo, CallCenter,
- * CallCenterStandard, CallCenterPremium
- *         HuntGroup, InstantGroupCall, VoiceMessagingGroup, RoutePoint,
- * BroadWorksAnywhere, GroupPaging, FindmeFollowme, 
+ *         AutoAttendant, AutoAttendantStandard, AutoAttendantVideo, CallCenter, CallCenterStandard, CallCenterPremium
+ *         HuntGroup, InstantGroupCall, VoiceMessagingGroup, RoutePoint, BroadWorksAnywhere, GroupPaging, FindmeFollowme, 
  *         VoiceXML, FlexibleSeatingGuest, CollaborateAudio, MeetMeConferencing.
- *         For a Regular User or a Virtual On Network Enterprise Extensions, the
- * Service Name is empty.
+ *         For a Regular User or a Virtual On Network Enterprise Extensions, the Service Name is empty.
  *         
  *         The following columns are returned in AS data mode only:
  *           "Service Name"
  *
  * @see GroupPhoneDirectoryGetListRequest18
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5657","type":"sequence"}]
  */
 class GroupPhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -40,6 +33,7 @@ class GroupPhoneDirectoryGetListResponse18 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5657
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

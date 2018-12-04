@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest
  *
  * Assign a list of service provider number prefixes to a group.
- *         The number prefixes must have previously been added to the service
- * provider.
+ *         The number prefixes must have previously been added to the service provider.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:212","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:212
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\Br
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:212
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,8 @@ class GroupRouteListEnterpriseTrunkNumberPrefixAssignListRequest extends \CWM\Br
      * @ElementName numberPrefix
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:212
      * @var string[]
      */
     private $numberPrefix = array(

@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest
  *
- * Request to get a list of completed group level call center reporting scheduled
- * reports.
- *         The response is either a
- * GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse or an
- * ErrorResponse.
+ * Request to get a list of completed group level call center reporting scheduled reports.
+ *         The response is either a GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse or an ErrorResponse.
  *
  * @see GroupCallCenterEnhancedReportingScheduledReportGetCompletedListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3339","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3339
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +26,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3339
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +34,8 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3339
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -42,6 +44,8 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
      * @ElementName searchCriteriaCallCenterScheduledReportName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3339
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[]
      */
     private $searchCriteriaCallCenterScheduledReportName = array(
@@ -51,6 +55,8 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
     /**
      * @ElementName searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3339
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null
      */
     private $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
@@ -58,6 +64,8 @@ class GroupCallCenterEnhancedReportingScheduledReportGetCompletedListRequest ext
     /**
      * @ElementName searchCriteriaExactCallCenterReportTemplateKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3339
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey|null
      */
     private $searchCriteriaExactCallCenterReportTemplateKey = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserFaxMessagingGetRequest17sp1
  *
  * Request the user level data associated with Fax Messaging.
- *         The response is either a UserFaxMessagingGetResponse17sp1 or an
- * ErrorResponse.
+ *         The response is either a UserFaxMessagingGetResponse17sp1 or an ErrorResponse.
  *
  * @see UserFaxMessagingGetResponse17sp1
  * @see ErrorResponse
+ * @Groups [{"id":"f8afbebe4cfa9217154be81d124aa18a:41","type":"sequence"}]
  */
 class UserFaxMessagingGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserFaxMessagingGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
+     * @Group f8afbebe4cfa9217154be81d124aa18a:41
      * @var string|null
      */
     private $userId = null;

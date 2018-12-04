@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemOCICallControlApplicationAddRequest17
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:23279","type":"sequence"}]
  */
 class SystemOCICallControlApplicationAddRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,7 @@ class SystemOCICallControlApplicationAddRequest14sp9 extends \CWM\BroadWorksConn
     /**
      * @ElementName applicationId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23279
      * @var string|null
      */
     private $applicationId = null;
@@ -27,6 +29,7 @@ class SystemOCICallControlApplicationAddRequest14sp9 extends \CWM\BroadWorksConn
     /**
      * @ElementName enableSystemWide
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23279
      * @var bool|null
      */
     private $enableSystemWide = null;
@@ -34,6 +37,7 @@ class SystemOCICallControlApplicationAddRequest14sp9 extends \CWM\BroadWorksConn
     /**
      * @ElementName notificationTimeoutSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23279
      * @var int|null
      */
     private $notificationTimeoutSeconds = null;
@@ -41,6 +45,8 @@ class SystemOCICallControlApplicationAddRequest14sp9 extends \CWM\BroadWorksConn
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23279
      * @var string|null
      */
     private $description = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceTagSetGetRequest
  *
  * Request to get the custom configuration tag set defined at the access device.
- *         The response is either GroupAccessDeviceTagSetGetResponse or
- * ErrorResponse.
+ *         The response is either GroupAccessDeviceTagSetGetResponse or ErrorResponse.
  *
  * @see GroupAccessDeviceTagSetGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:895","type":"sequence"}]
  */
 class GroupAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:895
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:895
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:895
      * @var string|null
      */
     private $deviceName = null;

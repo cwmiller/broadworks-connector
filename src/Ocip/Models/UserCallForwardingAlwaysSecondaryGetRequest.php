@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallForwardingAlwaysSecondaryGetRequest
  *
- * Request the user level data associated with Call Forwarding Always Secondary
- * service.
- *         The response is either a UserCallForwardingAlwaysSecondaryGetResponse or
- * an
+ * Request the user level data associated with Call Forwarding Always Secondary service.
+ *         The response is either a UserCallForwardingAlwaysSecondaryGetResponse or an
  *         ErrorResponse.
  *
  * @see UserCallForwardingAlwaysSecondaryGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"0827ab6145bdf0e64efa1c9fc778e509:44","type":"sequence"}]
  */
 class UserCallForwardingAlwaysSecondaryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class UserCallForwardingAlwaysSecondaryGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
+     * @Group 0827ab6145bdf0e64efa1c9fc778e509:44
      * @var string|null
      */
     private $userId = null;

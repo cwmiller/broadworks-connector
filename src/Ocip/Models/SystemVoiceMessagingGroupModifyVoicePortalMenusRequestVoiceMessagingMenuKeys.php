@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31714","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName playMessages
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playMessages = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName changeBusyGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeBusyGreeting = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName changeNoAnswerGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeNoAnswerGreeting = null;
@@ -36,6 +44,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName changeExtendedAwayGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeExtendedAwayGreeting = null;
@@ -44,6 +54,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName composeMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $composeMessage = null;
@@ -52,6 +64,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName deleteAllMessages
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deleteAllMessages = null;
@@ -60,6 +74,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName passcode
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
@@ -68,6 +84,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName personalizedName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
@@ -76,6 +94,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName messageDeposit
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $messageDeposit = null;
@@ -83,6 +103,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -91,6 +113,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKe
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31714
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

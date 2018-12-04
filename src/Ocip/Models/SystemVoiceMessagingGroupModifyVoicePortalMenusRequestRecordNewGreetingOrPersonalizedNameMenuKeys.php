@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestRecordNewGreetingOrPersonalizedNameMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31771","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestRecordNewGreetingOrPersonalizedNameMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestRecordNewGreetingOrP
     /**
      * @ElementName endRecording
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31771
      * @var string|null
      */
     private $endRecording = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkGroupDeviceMultipleContactEndpointRead
  *
  * Trunk group device endpoint that can have multiple contacts.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3821","type":"sequence"}]
  */
 class TrunkGroupDeviceMultipleContactEndpointRead
 {
@@ -13,6 +15,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName name
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3821
      * @var string|null
      */
     private $name = null;
@@ -20,6 +23,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3821
      * @var string|null
      */
     private $linePort = null;
@@ -28,6 +32,8 @@ class TrunkGroupDeviceMultipleContactEndpointRead
      * @ElementName contact
      * @Type string
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3821
      * @var string[]
      */
     private $contact = array(
@@ -37,6 +43,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3821
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -44,6 +51,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3821
      * @var bool|null
      */
     private $useDomain = null;
@@ -51,6 +59,7 @@ class TrunkGroupDeviceMultipleContactEndpointRead
     /**
      * @ElementName isPilotUser
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3821
      * @var bool|null
      */
     private $isPilotUser = null;

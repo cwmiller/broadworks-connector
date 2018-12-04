@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderZoneCallingRestrictionsModifyRequest
  *
- * Modifies the Service Provider/Enterprise level Zone Calling Restrictions
- * Policies.
+ * Modifies the Service Provider/Enterprise level Zone Calling Restrictions Policies.
  *         The response is SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"717a9f842e0bacab397cbe717881a5e7:80","type":"sequence"}]
  */
 class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 717a9f842e0bacab397cbe717881a5e7:80
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,8 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName enableZoneCallingRestrictions
      * @Type bool
+     * @Optional
+     * @Group 717a9f842e0bacab397cbe717881a5e7:80
      * @var bool|null
      */
     private $enableZoneCallingRestrictions = null;
@@ -32,6 +35,8 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName enableOriginationRoamingRestrictions
      * @Type bool
+     * @Optional
+     * @Group 717a9f842e0bacab397cbe717881a5e7:80
      * @var bool|null
      */
     private $enableOriginationRoamingRestrictions = null;
@@ -39,6 +44,8 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName enableEmergencyOriginationRoamingRestrictions
      * @Type bool
+     * @Optional
+     * @Group 717a9f842e0bacab397cbe717881a5e7:80
      * @var bool|null
      */
     private $enableEmergencyOriginationRoamingRestrictions = null;
@@ -46,6 +53,8 @@ class ServiceProviderZoneCallingRestrictionsModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName enableTerminationRoamingRestrictions
      * @Type bool
+     * @Optional
+     * @Group 717a9f842e0bacab397cbe717881a5e7:80
      * @var bool|null
      */
     private $enableTerminationRoamingRestrictions = null;

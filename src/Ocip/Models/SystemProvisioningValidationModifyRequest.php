@@ -8,13 +8,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify the system's provisioning validation attributes.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
- *         The following elements are only used in AS data mode and ignored in XS
- * data mode:
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           denyMobilityNumberAsRedirectionDestination
  *           denyEnterpriseNumberAsNetworkLocationDestination
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12887","type":"sequence"}]
  */
 class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +22,8 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12887
      * @var bool|null
      */
     private $isActive = null;
@@ -29,6 +31,8 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName isNetworkServerQueryActive
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12887
      * @var bool|null
      */
     private $isNetworkServerQueryActive = null;
@@ -36,6 +40,8 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName timeoutSeconds
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12887
      * @var int|null
      */
     private $timeoutSeconds = null;
@@ -43,6 +49,8 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName denyMobilityNumberAsRedirectionDestination
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12887
      * @var bool|null
      */
     private $denyMobilityNumberAsRedirectionDestination = null;
@@ -50,6 +58,8 @@ class SystemProvisioningValidationModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName denyEnterpriseNumberAsNetworkLocationDestination
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12887
      * @var bool|null
      */
     private $denyEnterpriseNumberAsNetworkLocationDestination = null;

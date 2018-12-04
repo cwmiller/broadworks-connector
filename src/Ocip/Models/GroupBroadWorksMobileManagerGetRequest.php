@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupBroadWorksMobileManagerGetRequest
  *
  * Get the BroadWorks Mobile Manager.
- *         The response is either GroupBroadWorksMobileManagerGetResponse or
- * ErrorResponse.
+ *         The response is either GroupBroadWorksMobileManagerGetResponse or ErrorResponse.
  *
  * @see GroupBroadWorksMobileManagerGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1739","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupBroadWorksMobileManagerGetRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1739
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupBroadWorksMobileManagerGetRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1739
      * @var string|null
      */
     private $groupId = null;

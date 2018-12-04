@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderEnhancedCallLogsModifyRequest
  *
  * Modify the Service Provider level data associated with Enhanced Call Logs.
- *         Configures the maximum number of logged calls and maximum age of your
- * user's call logs.
+ *         Configures the maximum number of logged calls and maximum age of your user's call logs.
  *         Log entries are deleted when either of the two limits is reached.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b1edb32782550c1a52523b734e3143d:136","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b1edb32782550c1a52523b734e3143d:136
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,8 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName maxLoggedCalls
      * @Type int
+     * @Optional
+     * @Group 1b1edb32782550c1a52523b734e3143d:136
      * @var int|null
      */
     private $maxLoggedCalls = null;
@@ -34,6 +37,8 @@ class ServiceProviderEnhancedCallLogsModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName callExpirationDays
      * @Type int
+     * @Optional
+     * @Group 1b1edb32782550c1a52523b734e3143d:136
      * @var int|null
      */
     private $callExpirationDays = null;

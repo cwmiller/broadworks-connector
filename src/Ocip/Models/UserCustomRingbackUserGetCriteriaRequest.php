@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCustomRingbackUserGetCriteriaRequest
  *
  * Get a criteria for the user's custom ringback service.
- *         The response is either a UserCustomRingbackUserGetCriteriaResponse or an
- * ErrorResponse.
+ *         The response is either a UserCustomRingbackUserGetCriteriaResponse or an ErrorResponse.
  *         Replaced By: UserCustomRingbackUserGetCriteriaRequest15Sp2
  *
  * @see UserCustomRingbackUserGetCriteriaResponse
  * @see ErrorResponse
  * @see UserCustomRingbackUserGetCriteriaRequest15Sp2
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34123","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserCustomRingbackUserGetCriteriaRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34123
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,7 @@ class UserCustomRingbackUserGetCriteriaRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34123
      * @var string|null
      */
     private $criteriaName = null;

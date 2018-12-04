@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31692","type":"sequence","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:31697","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31714","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31732","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31744","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31756","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31771","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31779","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31788","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31802","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31814","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31827","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31835","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31844","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31856","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31865","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31887","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31899","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31917","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31933","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31947","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31959","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31968","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31976","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31985","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:31994","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:32005","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:32013","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:32021","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:32035","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:32047","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:32059","type":"sequence"}]}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName useVoicePortalCustomization
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var bool|null
      */
     private $useVoicePortalCustomization = null;
@@ -24,6 +27,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName voicePortalMainMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuKeys|null
      */
     private $voicePortalMainMenuKeys = null;
@@ -31,6 +36,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName voiceMessagingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoiceMessagingMenuKeys|null
      */
     private $voiceMessagingMenuKeys = null;
@@ -38,6 +45,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName playGreetingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayGreetingMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayGreetingMenuKeys|null
      */
     private $playGreetingMenuKeys = null;
@@ -45,6 +54,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName changeBusyOrNoAnswerGreetingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeBusyOrNoAnswerGreetingMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeBusyOrNoAnswerGreetingMenuKeys|null
      */
     private $changeBusyOrNoAnswerGreetingMenuKeys = null;
@@ -52,6 +63,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName changeExtendedAwayGreetingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGreetingMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeExtendedAwayGreetingMenuKeys|null
      */
     private $changeExtendedAwayGreetingMenuKeys = null;
@@ -59,6 +72,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName recordNewGreetingOrPersonalizedNameMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestRecordNewGreetingOrPersonalizedNameMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestRecordNewGreetingOrPersonalizedNameMenuKeys|null
      */
     private $recordNewGreetingOrPersonalizedNameMenuKeys = null;
@@ -66,6 +81,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName deleteAllMessagesMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDeleteAllMessagesMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDeleteAllMessagesMenuKeys|null
      */
     private $deleteAllMessagesMenuKeys = null;
@@ -73,6 +90,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName commPilotExpressProfileMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProfileMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProfileMenuKeys|null
      */
     private $commPilotExpressProfileMenuKeys = null;
@@ -80,6 +99,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName personalizedNameMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPersonalizedNameMenuKeys|null
      */
     private $personalizedNameMenuKeys = null;
@@ -87,6 +108,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName callForwardingOptionsMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOptionsMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOptionsMenuKeys|null
      */
     private $callForwardingOptionsMenuKeys = null;
@@ -94,6 +117,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName changeCallForwardingDestinationMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeCallForwardingDestinationMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeCallForwardingDestinationMenuKeys|null
      */
     private $changeCallForwardingDestinationMenuKeys = null;
@@ -101,6 +126,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName voicePortalCallingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalCallingMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalCallingMenuKeys|null
      */
     private $voicePortalCallingMenuKeys = null;
@@ -108,6 +135,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName hotelingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestHotelingMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestHotelingMenuKeys|null
      */
     private $hotelingMenuKeys = null;
@@ -115,6 +144,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName passcodeMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPasscodeMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPasscodeMenuKeys|null
      */
     private $passcodeMenuKeys = null;
@@ -122,6 +153,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName playMessagesMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessagesMenuKeys|null
      */
     private $playMessagesMenuKeys = null;
@@ -129,6 +162,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName playMessageMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessageMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessageMenuKeys|null
      */
     private $playMessageMenuKeys = null;
@@ -136,6 +171,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName additionalMessageOptionsMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOptionsMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestAdditionalMessageOptionsMenuKeys|null
      */
     private $additionalMessageOptionsMenuKeys = null;
@@ -143,6 +180,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName forwardOrComposeMessageMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMessageMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestForwardOrComposeMessageMenuKeys|null
      */
     private $forwardOrComposeMessageMenuKeys = null;
@@ -150,6 +189,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName replyMessageMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys|null
      */
     private $replyMessageMenuKeys = null;
@@ -157,6 +198,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName sendToDistributionListMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionListMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToDistributionListMenuKeys|null
      */
     private $sendToDistributionListMenuKeys = null;
@@ -164,6 +207,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName selectDistributionListMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSelectDistributionListMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSelectDistributionListMenuKeys|null
      */
     private $selectDistributionListMenuKeys = null;
@@ -171,6 +216,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName reviewSelectedDistributionListMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReviewSelectedDistributionListMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReviewSelectedDistributionListMenuKeys|null
      */
     private $reviewSelectedDistributionListMenuKeys = null;
@@ -178,6 +225,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName sendMessageToSelectedDistributionListMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendMessageToSelectedDistributionListMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendMessageToSelectedDistributionListMenuKeys|null
      */
     private $sendMessageToSelectedDistributionListMenuKeys = null;
@@ -185,6 +234,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName sendToAllGroupMembersMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToAllGroupMembersMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToAllGroupMembersMenuKeys|null
      */
     private $sendToAllGroupMembersMenuKeys = null;
@@ -192,6 +243,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName sendToPersonMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToPersonMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestSendToPersonMenuKeys|null
      */
     private $sendToPersonMenuKeys = null;
@@ -199,6 +252,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName changeCurrentIntroductionOrMessageOrReplyMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeCurrentIntroductionOrMessageOrReplyMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestChangeCurrentIntroductionOrMessageOrReplyMenuKeys|null
      */
     private $changeCurrentIntroductionOrMessageOrReplyMenuKeys = null;
@@ -206,6 +261,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName voicePortalLoginMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalLoginMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalLoginMenuKeys|null
      */
     private $voicePortalLoginMenuKeys = null;
@@ -213,6 +270,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName faxMessagingMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestFaxMessagingMenuKeys|null
      */
     private $faxMessagingMenuKeys = null;
@@ -220,6 +279,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName messageDepositMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKeys|null
      */
     private $messageDepositMenuKeys = null;
@@ -227,6 +288,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
     /**
      * @ElementName disableMessageDepositMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDepositMenuKeys
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDepositMenuKeys|null
      */
     private $disableMessageDepositMenuKeys = null;
@@ -235,6 +298,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest extends \CWM\BroadW
      * @ElementName greetingOnlyForwardingDestinationMenuKeys
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestGreetingOnlyForwardingDestinationMenuKeys
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31692
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemVoiceMessagingGroupModifyVoicePortalMenusRequestGreetingOnlyForwardingDestinationMenuKeys|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $greetingOnlyForwardingDestinationMenuKeys = null;

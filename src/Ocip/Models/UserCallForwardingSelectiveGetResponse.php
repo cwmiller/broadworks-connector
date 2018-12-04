@@ -5,12 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallForwardingSelectiveGetResponse
  *
- * Response to the UserCallForwardingSelectiveGetRequest. The criteria table's
- * column headings are:        
- *          "Is Active", "Criteria Name", "Time Schedule", "Calls From" and
- * "Forward To".
+ * Response to the UserCallForwardingSelectiveGetRequest. The criteria table's column headings are:        
+ *          "Is Active", "Criteria Name", "Time Schedule", "Calls From" and "Forward To".
  *
  * @see UserCallForwardingSelectiveGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32988","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +17,8 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName defaultForwardToPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32988
      * @var string|null
      */
     private $defaultForwardToPhoneNumber = null;
@@ -25,6 +26,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName playRingReminder
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32988
      * @var bool|null
      */
     private $playRingReminder = null;
@@ -32,6 +34,7 @@ class UserCallForwardingSelectiveGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32988
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

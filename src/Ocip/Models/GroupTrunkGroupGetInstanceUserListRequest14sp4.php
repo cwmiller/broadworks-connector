@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceUserListRequest14sp4
  *
  * Get a list of user's on a Trunk Group Instance.
- *         The response is either a GroupTrunkGroupGetInstanceUserListResponse14sp4
- * or an ErrorResponse.
+ *         The response is either a GroupTrunkGroupGetInstanceUserListResponse14sp4 or an ErrorResponse.
  *
  * @see GroupTrunkGroupGetInstanceUserListResponse14sp4
  * @see ErrorResponse
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1151","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1151
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;
@@ -25,6 +26,8 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1151
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -33,6 +36,8 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1151
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -43,6 +48,8 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1151
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -53,6 +60,8 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1151
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -62,6 +71,8 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1151
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -70,6 +81,8 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1151
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -80,6 +93,8 @@ class GroupTrunkGroupGetInstanceUserListRequest14sp4 extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1151
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

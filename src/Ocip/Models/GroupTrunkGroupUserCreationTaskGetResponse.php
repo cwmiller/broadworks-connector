@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a GroupTrunkGroupUserCreationTaskGetRequest.
  *
  * @see GroupTrunkGroupUserCreationTaskGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14112","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userIdFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationUserIdFormat
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationUserIdFormat|null
      */
     private $userIdFormat = null;
@@ -22,6 +24,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userIdDomain
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var string|null
      */
     private $userIdDomain = null;
@@ -29,6 +32,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName populateExtension
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var bool|null
      */
     private $populateExtension = null;
@@ -36,6 +40,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName linePortFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null
      */
     private $linePortFormat = null;
@@ -43,6 +48,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName linePortDomain
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var string|null
      */
     private $linePortDomain = null;
@@ -50,6 +56,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName populateContact
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var bool|null
      */
     private $populateContact = null;
@@ -57,6 +64,8 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName contactFormat
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationSIPURIFormat|null
      */
     private $contactFormat = null;
@@ -64,6 +73,8 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName contactDomain
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var string|null
      */
     private $contactDomain = null;
@@ -71,6 +82,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName usersCreated
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var int|null
      */
     private $usersCreated = null;
@@ -78,6 +90,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName totalUsersToCreate
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var int|null
      */
     private $totalUsersToCreate = null;
@@ -85,6 +98,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName errorCount
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var int|null
      */
     private $errorCount = null;
@@ -93,6 +107,8 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName servicePackName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var string[]
      */
     private $servicePackName = array(
@@ -103,6 +119,8 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $userServiceName = array(
@@ -112,6 +130,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName status
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationTaskStatus
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationTaskStatus|null
      */
     private $status = null;
@@ -119,6 +138,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userCreationMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationMode
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUserCreationMode|null
      */
     private $userCreationMode = null;
@@ -126,6 +146,7 @@ class GroupTrunkGroupUserCreationTaskGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName taskSummary
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14112
      * @var string|null
      */
     private $taskSummary = null;

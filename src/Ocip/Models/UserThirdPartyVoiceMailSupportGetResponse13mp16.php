@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserThirdPartyVoiceMailSupportGetRequest13mp16
  * @see UserThirdPartyVoiceMailSupportGetResponse17
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:37581","type":"sequence"}]
  */
 class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37581
      * @var bool|null
      */
     private $isActive = null;
@@ -24,6 +26,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName busyRedirectToVoiceMail
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37581
      * @var bool|null
      */
     private $busyRedirectToVoiceMail = null;
@@ -31,6 +34,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName noAnswerRedirectToVoiceMail
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37581
      * @var bool|null
      */
     private $noAnswerRedirectToVoiceMail = null;
@@ -38,6 +42,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName serverSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37581
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
      */
     private $serverSelection = null;
@@ -45,6 +50,8 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName userServer
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37581
      * @var string|null
      */
     private $userServer = null;
@@ -52,6 +59,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName mailboxIdType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37581
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
      */
     private $mailboxIdType = null;
@@ -59,6 +67,8 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName mailboxURL
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37581
      * @var string|null
      */
     private $mailboxURL = null;
@@ -66,6 +76,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37581
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
@@ -73,6 +84,7 @@ class UserThirdPartyVoiceMailSupportGetResponse13mp16 extends \CWM\BroadWorksCon
     /**
      * @ElementName alwaysRedirectToVoiceMail
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37581
      * @var bool|null
      */
     private $alwaysRedirectToVoiceMail = null;

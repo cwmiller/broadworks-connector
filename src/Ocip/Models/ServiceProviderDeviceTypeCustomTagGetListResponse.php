@@ -6,17 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDeviceTypeCustomTagGetListResponse
  *
  * Response to ServiceProviderDeviceTypeCustomTagGetListRequest.
- *         Contains a table of custom configuration tags managed by the Device
- * Management System on a per-device type basis for a service provider.
+ *         Contains a table of custom configuration tags managed by the Device Management System on a per-device type basis for a service provider.
  *         In As data mode, the column headings are:
  *           "Tag Name", "Tag Value".
  *         In XS data mode, the column headings are:
- *           "Tag Name", "Tag Value" if request is invoked by an admin without
- * system privileges.
- *           "Tag Name", "Tag Value", "Is Encrypted" if request is invoked by an
- * admin with system privileges.
+ *           "Tag Name", "Tag Value" if request is invoked by an admin without system privileges.
+ *           "Tag Name", "Tag Value", "Is Encrypted" if request is invoked by an admin with system privileges.
  *
  * @see ServiceProviderDeviceTypeCustomTagGetListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2476","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,6 +22,7 @@ class ServiceProviderDeviceTypeCustomTagGetListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderDeviceTypeCustomTagsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2476
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderDeviceTypeCustomTagsTable = null;

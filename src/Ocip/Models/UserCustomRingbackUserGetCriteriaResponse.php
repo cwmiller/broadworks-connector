@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserCustomRingbackUserGetCriteriaRequest.
  *
  * @see UserCustomRingbackUserGetCriteriaRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34175","type":"sequence"}]
  */
 class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34175
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -22,6 +25,7 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34175
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -29,6 +33,7 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34175
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
@@ -36,6 +41,8 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName audioFileDescription
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34175
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -43,6 +50,8 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName audioFileUrl
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34175
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -50,6 +59,7 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34175
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
@@ -57,6 +67,8 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName videoFileDescription
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34175
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -64,6 +76,8 @@ class UserCustomRingbackUserGetCriteriaResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName videoFileUrl
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34175
      * @var string|null
      */
     private $videoFileUrl = null;

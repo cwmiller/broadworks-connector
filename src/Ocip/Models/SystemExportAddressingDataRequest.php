@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemExportAddressingDataRequest
  *
- * Request to export Application Server addressing data, such as DNs, extensions,
- * alias and user ids
+ * Request to export Application Server addressing data, such as DNs, extensions, alias and user ids
  *         to a file so they can be uploaded to a Network Server.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8341","type":"sequence"}]
  */
 class SystemExportAddressingDataRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class SystemExportAddressingDataRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName fileName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8341
      * @var string|null
      */
     private $fileName = null;

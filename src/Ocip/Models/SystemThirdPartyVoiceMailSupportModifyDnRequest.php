@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemThirdPartyVoiceMailSupportModifyDnRequest
  *
- * Request to modify a ThirdPartyVoiceMailSupport User DN and description in the
- * system.
+ * Request to modify a ThirdPartyVoiceMailSupport User DN and description in the system.
  *        The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"a84192748d1a3645bcd397d847a21d07:204","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group a84192748d1a3645bcd397d847a21d07:204
      * @var string|null
      */
     private $phoneNumber = null;
@@ -26,6 +27,8 @@ class SystemThirdPartyVoiceMailSupportModifyDnRequest extends \CWM\BroadWorksCon
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group a84192748d1a3645bcd397d847a21d07:204
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * LDAPEntryField
  *
  * One name value pair for a LDAP entry.
+ *
+ * @Groups [{"id":"71d62705f0bdec15169e7cf0a3eff281:33","type":"sequence"}]
  */
 class LDAPEntryField
 {
@@ -13,6 +15,7 @@ class LDAPEntryField
     /**
      * @ElementName attributeName
      * @Type string
+     * @Group 71d62705f0bdec15169e7cf0a3eff281:33
      * @var string|null
      */
     private $attributeName = null;
@@ -20,6 +23,8 @@ class LDAPEntryField
     /**
      * @ElementName attributeValue
      * @Type string
+     * @Optional
+     * @Group 71d62705f0bdec15169e7cf0a3eff281:33
      * @var string|null
      */
     private $attributeValue = null;

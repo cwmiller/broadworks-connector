@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGetListInServiceProviderRequest
  *
  * Request the list of users in a service provider or enterprise.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a UserGetListInServiceProviderResponse or an
- * ErrorResponse.
+ *         The response is either a UserGetListInServiceProviderResponse or an ErrorResponse.
  *
  * @see UserGetListInServiceProviderResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1510","type":"sequence"}]
  */
 class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,8 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -36,6 +38,8 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -46,6 +50,8 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -56,6 +62,8 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -66,6 +74,8 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -75,6 +85,8 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
     private $searchCriteriaExactUserInTrunkGroup = null;
@@ -83,6 +95,8 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -93,6 +107,8 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -103,6 +119,8 @@ class UserGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1510
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[]
      */
     private $searchCriteriaExactUserDepartment = array(

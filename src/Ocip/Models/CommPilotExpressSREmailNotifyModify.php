@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilotExpressSREmailNotifyModify
  *
  * CommPilot Express SR Email Notify configuration used in the context of a modify.
+ *
+ * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:122","type":"sequence"}]
  */
 class CommPilotExpressSREmailNotifyModify
 {
@@ -13,6 +15,8 @@ class CommPilotExpressSREmailNotifyModify
     /**
      * @ElementName sendEmail
      * @Type bool
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:122
      * @var bool|null
      */
     private $sendEmail = null;
@@ -21,6 +25,8 @@ class CommPilotExpressSREmailNotifyModify
      * @ElementName emailAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:122
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emailAddress = null;

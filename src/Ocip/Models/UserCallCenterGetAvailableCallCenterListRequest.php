@@ -5,17 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallCenterGetAvailableCallCenterListRequest
  *
- * This request gets a list of all call centers which the user can be assigned to
- * as an agent. 
- *         Some of the call centers may already have the user as an agent.  It is
- * the clients 
- *         responsibility to discard the call centers that the user is already an
- * agent of.
- *         The response is either a
- * UserCallCenterGetAvailableCallCenterListResponse or an ErrorResponse.
+ * This request gets a list of all call centers which the user can be assigned to as an agent. 
+ *         Some of the call centers may already have the user as an agent.  It is the clients 
+ *         responsibility to discard the call centers that the user is already an agent of.
+ *         The response is either a UserCallCenterGetAvailableCallCenterListResponse or an ErrorResponse.
  *
  * @see UserCallCenterGetAvailableCallCenterListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6264","type":"sequence"}]
  */
 class UserCallCenterGetAvailableCallCenterListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +20,7 @@ class UserCallCenterGetAvailableCallCenterListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6264
      * @var string|null
      */
     private $userId = null;

@@ -6,27 +6,25 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGroupCustomContactDirectoryGetPagedSortedListRequest
  *
  * Gets a Custom Contact Directory in a group.
- * 				The response is either
- * UserGroupCustomContactDirectoryGetPagedSortedListResponse
+ * 				The response is either UserGroupCustomContactDirectoryGetPagedSortedListResponse
  * 				or ErrorResponse.
  * 				The search can be done using multiple criterion.
  * 				If the searchCriteriaModeOr is present, any result matching any one
  * 				criteria is included in the results.
- * 				Otherwise, only results matching all the search criterion are included in
- * the
+ * 				Otherwise, only results matching all the search criterion are included in the
  * 				results.
  * 				If no search criteria is specified, all results are returned.
  * 				Specifying searchCriteriaModeOr without any search criteria results
  * 				in an ErrorResponse.
  * 				The sort can be done on the user last name, first name, department, or 
  *         contact notes.  The Receptionist Note column is only populated, if the 
- *         user sending the request is a the owner of this Receptionist Note and a
- * Note 
+ *         user sending the request is a the owner of this Receptionist Note and a Note 
  *         exists.
  *
  * @see UserGroupCustomContactDirectoryGetPagedSortedListResponse
  * @see ErrorResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1909","type":"sequence","children":[{"id":"489b2153267470be8e945bf6b778e0d0:1913","type":"choice"}]}]
  */
 class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -34,6 +32,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var string|null
      */
     private $userId = null;
@@ -41,6 +40,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var string|null
      */
     private $name = null;
@@ -48,6 +48,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -55,6 +56,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
+     * @Group 489b2153267470be8e945bf6b778e0d0:1913
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     private $sortByUserLastName = null;
@@ -62,6 +64,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
+     * @Group 489b2153267470be8e945bf6b778e0d0:1913
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     private $sortByUserFirstName = null;
@@ -69,6 +72,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName sortByUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment
+     * @Group 489b2153267470be8e945bf6b778e0d0:1913
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null
      */
     private $sortByUserDepartment = null;
@@ -76,6 +80,7 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName sortByReceptionistNote
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByReceptionistNote
+     * @Group 489b2153267470be8e945bf6b778e0d0:1913
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByReceptionistNote|null
      */
     private $sortByReceptionistNote = null;
@@ -83,6 +88,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
     /**
      * @ElementName searchCriteriaModeOr
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -91,6 +98,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -101,6 +110,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -111,6 +122,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -121,6 +134,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -131,6 +146,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaMobilePhoneNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[]
      */
     private $searchCriteriaMobilePhoneNumber = array(
@@ -141,6 +158,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -151,6 +170,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaDepartmentName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDepartmentName[]
      */
     private $searchCriteriaDepartmentName = array(
@@ -161,6 +182,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaImpId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(
@@ -171,6 +194,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaTitle
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[]
      */
     private $searchCriteriaTitle = array(
@@ -181,6 +206,8 @@ class UserGroupCustomContactDirectoryGetPagedSortedListRequest extends \CWM\Broa
      * @ElementName searchCriteriaReceptionistNote
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
      */
     private $searchCriteriaReceptionistNote = array(

@@ -5,9 +5,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * IncomingCallingPlanPermissionsModify
  *
- * Allows or disallows various types of incoming calls for a user or group -- not
- * any particular department.
+ * Allows or disallows various types of incoming calls for a user or group -- not any particular department.
  *         For use when modifing settings.
+ *
+ * @Groups [{"id":"b24f81403186e75b29216017d9340516:212","type":"sequence"}]
  */
 class IncomingCallingPlanPermissionsModify
 {
@@ -15,6 +16,8 @@ class IncomingCallingPlanPermissionsModify
     /**
      * @ElementName allowFromWithinGroup
      * @Type bool
+     * @Optional
+     * @Group b24f81403186e75b29216017d9340516:212
      * @var bool|null
      */
     private $allowFromWithinGroup = null;
@@ -22,6 +25,8 @@ class IncomingCallingPlanPermissionsModify
     /**
      * @ElementName allowFromOutsideGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission
+     * @Optional
+     * @Group b24f81403186e75b29216017d9340516:212
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     private $allowFromOutsideGroup = null;
@@ -29,6 +34,8 @@ class IncomingCallingPlanPermissionsModify
     /**
      * @ElementName allowCollectCalls
      * @Type bool
+     * @Optional
+     * @Group b24f81403186e75b29216017d9340516:212
      * @var bool|null
      */
     private $allowCollectCalls = null;
@@ -37,6 +44,8 @@ class IncomingCallingPlanPermissionsModify
      * @ElementName digitPatternPermission
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission
      * @Array
+     * @Optional
+     * @Group b24f81403186e75b29216017d9340516:212
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[]
      */
     private $digitPatternPermission = array(

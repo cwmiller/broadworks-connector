@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderGetRequest17sp1
  *
  * Get the profile for a service provider or enterprise.
- *         The response is either a ServiceProviderGetResponse17sp1 or an
- * ErrorResponse.
+ *         The response is either a ServiceProviderGetResponse17sp1 or an ErrorResponse.
  *         
  *         Replaced By: ServiceProviderGetRequest22
  *
  * @see ServiceProviderGetResponse17sp1
  * @see ErrorResponse
  * @see ServiceProviderGetRequest22
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2752","type":"sequence"}]
  */
 class ServiceProviderGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class ServiceProviderGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2752
      * @var string|null
      */
     private $serviceProviderId = null;

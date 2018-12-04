@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingSelectiveGetCriteriaRequest
  *
  * Get a criteria for the user's call forwarding selective service.
- *          The response is either a UserCallForwardingSelectiveGetCriteriaResponse
- * or an ErrorResponse.
+ *          The response is either a UserCallForwardingSelectiveGetCriteriaResponse or an ErrorResponse.
  *
  * @see UserCallForwardingSelectiveGetCriteriaResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32937","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserCallForwardingSelectiveGetCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32937
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserCallForwardingSelectiveGetCriteriaRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32937
      * @var string|null
      */
     private $criteriaName = null;

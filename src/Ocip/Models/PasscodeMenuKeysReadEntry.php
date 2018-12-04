@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PasscodeMenuKeysReadEntry
  *
  * The voice portal passcode menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2695","type":"sequence"}]
  */
 class PasscodeMenuKeysReadEntry
 {
@@ -13,6 +15,7 @@ class PasscodeMenuKeysReadEntry
     /**
      * @ElementName finishEnteringOrReenteringPasscode
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2695
      * @var string|null
      */
     private $finishEnteringOrReenteringPasscode = null;
@@ -20,6 +23,7 @@ class PasscodeMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2695
      * @var string|null
      */
     private $returnToPreviousMenu = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b91fcb7aba1afd62c15b3e7e36708d08:275","type":"sequence"}]
  */
 class SystemSecurityClassificationModifyClassificationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemSecurityClassificationModifyClassificationRequest extends \CWM\Broad
     /**
      * @ElementName securityClassificationName
      * @Type string
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:275
      * @var string|null
      */
     private $securityClassificationName = null;
@@ -24,6 +26,8 @@ class SystemSecurityClassificationModifyClassificationRequest extends \CWM\Broad
     /**
      * @ElementName newSecurityClassificationName
      * @Type string
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:275
      * @var string|null
      */
     private $newSecurityClassificationName = null;
@@ -31,6 +35,8 @@ class SystemSecurityClassificationModifyClassificationRequest extends \CWM\Broad
     /**
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:275
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;

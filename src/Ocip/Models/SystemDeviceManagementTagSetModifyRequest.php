@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7030","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName tagSetName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7030
      * @var string|null
      */
     private $tagSetName = null;
@@ -24,6 +26,8 @@ class SystemDeviceManagementTagSetModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName newTagSetName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7030
      * @var string|null
      */
     private $newTagSetName = null;

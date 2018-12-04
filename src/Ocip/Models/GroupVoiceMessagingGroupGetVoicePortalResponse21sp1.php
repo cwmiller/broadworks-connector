@@ -14,6 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         expressMode, value "false" is returned in XS data mode.
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalRequest21sp1
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:210","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +22,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var string|null
      */
     private $serviceUserId = null;
@@ -28,6 +30,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -35,6 +38,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var bool|null
      */
     private $isActive = null;
@@ -42,6 +46,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName enableExtendedScope
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var bool|null
      */
     private $enableExtendedScope = null;
@@ -49,6 +54,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var bool|null
      */
     private $allowIdentificationByPhoneNumberOrVoiceMailAliasesOnLogin = null;
@@ -56,6 +62,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName useVoicePortalWizard
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var bool|null
      */
     private $useVoicePortalWizard = null;
@@ -63,6 +70,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName voicePortalExternalRoutingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoicePortalExternalRoutingScope|null
      */
     private $voicePortalExternalRoutingScope = null;
@@ -70,6 +78,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName useExternalRouting
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var bool|null
      */
     private $useExternalRouting = null;
@@ -77,6 +86,8 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName externalRoutingAddress
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var string|null
      */
     private $externalRoutingAddress = null;
@@ -84,6 +95,8 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName homeZoneName
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var string|null
      */
     private $homeZoneName = null;
@@ -91,6 +104,8 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -98,6 +113,7 @@ class GroupVoiceMessagingGroupGetVoicePortalResponse21sp1 extends \CWM\BroadWork
     /**
      * @ElementName expressMode
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:210
      * @var bool|null
      */
     private $expressMode = null;

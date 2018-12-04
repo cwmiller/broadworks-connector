@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ResellerIntegratedIMPGetRequest
  *
  * Get the Integrated IMP service attributes for the reseller.
- *         The response is either ResellerIntegratedIMPGetResponse or
- * ErrorResponse.
+ *         The response is either ResellerIntegratedIMPGetResponse or ErrorResponse.
  *
  * @see ResellerIntegratedIMPGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8351e8f51540f77c264b2f9bdf7fada4:104","type":"sequence"}]
  */
 class ResellerIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ResellerIntegratedIMPGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName resellerId
      * @Type string
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:104
      * @var string|null
      */
     private $resellerId = null;

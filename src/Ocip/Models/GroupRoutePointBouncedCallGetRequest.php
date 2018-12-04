@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointBouncedCallGetRequest
  *
  * Get a route point's bounced call settings.
- *         The response is either a GroupRoutePointBouncedCallGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupRoutePointBouncedCallGetResponse or an ErrorResponse.
  *
  * @see GroupRoutePointBouncedCallGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:144","type":"sequence"}]
  */
 class GroupRoutePointBouncedCallGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointBouncedCallGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:144
      * @var string|null
      */
     private $serviceUserId = null;

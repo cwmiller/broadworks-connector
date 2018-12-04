@@ -7,20 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the number of access device of a particular device type or all
  *         device types if deviceType is not specified.
- *         If countOnlyResetSupportedDevice is true, count only access devices if
- * the device type supports reset.
- *         By default unmanaged device types are not allowed and devices are
- * counted only if their device type supports Device Management.
- *         An error is returned if deviceType is specified but does not support
- * device management.
- *         When allowUnmanagedDeviceType is true, unmanaged device type will be
- * counted and a successful response is returned.
- *         The response is either
- * SystemDeviceManagementGetAccessDeviceCountForDeviceTypeResponse or
- * ErrorResponse.
+ *         If countOnlyResetSupportedDevice is true, count only access devices if the device type supports reset.
+ *         By default unmanaged device types are not allowed and devices are counted only if their device type supports Device Management.
+ *         An error is returned if deviceType is specified but does not support device management.
+ *         When allowUnmanagedDeviceType is true, unmanaged device type will be counted and a successful response is returned.
+ *         The response is either SystemDeviceManagementGetAccessDeviceCountForDeviceTypeResponse or ErrorResponse.
  *
  * @see SystemDeviceManagementGetAccessDeviceCountForDeviceTypeResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6675","type":"sequence"}]
  */
 class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,6 +23,8 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
     /**
      * @ElementName deviceType
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6675
      * @var string|null
      */
     private $deviceType = null;
@@ -35,6 +32,8 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
     /**
      * @ElementName countOnlyResetSupportedDevice
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6675
      * @var bool|null
      */
     private $countOnlyResetSupportedDevice = null;
@@ -42,6 +41,8 @@ class SystemDeviceManagementGetAccessDeviceCountForDeviceTypeRequest extends \CW
     /**
      * @ElementName allowUnmanagedDeviceType
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6675
      * @var bool|null
      */
     private $allowUnmanagedDeviceType = null;

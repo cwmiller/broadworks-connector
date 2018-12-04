@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemRoamingNetworkGetListResponse
  *
  * Response to the SystemRoamingNetworkGetListRequest.
- *         Contains a table with columns: "MSC Address", "Network Translation
- * Index".
+ *         Contains a table with columns: "MSC Address", "Network Translation Index".
  *
  * @see SystemRoamingNetworkGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13149","type":"sequence"}]
  */
 class SystemRoamingNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemRoamingNetworkGetListResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName roamingNetworkTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13149
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $roamingNetworkTable = null;

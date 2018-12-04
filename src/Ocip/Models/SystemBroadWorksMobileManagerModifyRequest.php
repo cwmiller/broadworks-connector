@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2127","type":"sequence"}]
  */
 class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName scfApiNetAddress1
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2127
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfApiNetAddress1 = null;
@@ -26,6 +29,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName scfApiNetAddress2
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2127
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $scfApiNetAddress2 = null;
@@ -34,6 +39,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName userName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2127
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userName = null;
@@ -42,6 +49,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName password
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2127
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
@@ -50,6 +59,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName emailFromAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2127
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emailFromAddress = null;
@@ -57,6 +68,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName scfIMSOnly
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2127
      * @var bool|null
      */
     private $scfIMSOnly = null;
@@ -65,6 +78,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName signalingIPAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2127
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $signalingIPAddress = null;
@@ -73,6 +88,8 @@ class SystemBroadWorksMobileManagerModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName signalingPort
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2127
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $signalingPort = null;

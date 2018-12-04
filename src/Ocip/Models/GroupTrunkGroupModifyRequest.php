@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupTrunkGroupModifyRequest
  *
- * Modify the maximum and bursting maximum permissible active Trunk Group calls for
- * the group.
+ * Modify the maximum and bursting maximum permissible active Trunk Group calls for the group.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:13980","type":"sequence"}]
  */
 class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13980
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13980
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,8 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13980
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxActiveCalls = null;
@@ -39,6 +43,8 @@ class GroupTrunkGroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13980
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxActiveCalls = null;

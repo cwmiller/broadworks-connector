@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * FaxMessagingMenuKeysModifyEntry
  *
  * The voice portal fax messaging menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2499","type":"sequence"}]
  */
 class FaxMessagingMenuKeysModifyEntry
 {
@@ -14,6 +16,8 @@ class FaxMessagingMenuKeysModifyEntry
      * @ElementName saveFaxMessageAndSkipToNext
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2499
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $saveFaxMessageAndSkipToNext = null;
@@ -22,6 +26,8 @@ class FaxMessagingMenuKeysModifyEntry
      * @ElementName previousFaxMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2499
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $previousFaxMessage = null;
@@ -30,6 +36,8 @@ class FaxMessagingMenuKeysModifyEntry
      * @ElementName playEnvelope
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2499
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playEnvelope = null;
@@ -38,6 +46,8 @@ class FaxMessagingMenuKeysModifyEntry
      * @ElementName nextFaxMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2499
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $nextFaxMessage = null;
@@ -46,6 +56,8 @@ class FaxMessagingMenuKeysModifyEntry
      * @ElementName deleteFaxMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2499
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deleteFaxMessage = null;
@@ -54,6 +66,8 @@ class FaxMessagingMenuKeysModifyEntry
      * @ElementName printFaxMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2499
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $printFaxMessage = null;
@@ -62,6 +76,8 @@ class FaxMessagingMenuKeysModifyEntry
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2499
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $returnToPreviousMenu = null;

@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemFileRepositoryDeviceGetRequest
  *
  * Request to get the file repository information.
- *             The response is either SystemFileRepositoryDeviceGetResponse or
- * ErrorResponse.
+ *             The response is either SystemFileRepositoryDeviceGetResponse or ErrorResponse.
  *             
  *             Replaced by: SystemFileRepositoryDeviceGetRequest16
  *
  * @see SystemFileRepositoryDeviceGetResponse
  * @see ErrorResponse
  * @see SystemFileRepositoryDeviceGetRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22394","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class SystemFileRepositoryDeviceGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName name
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22394
      * @var string|null
      */
     private $name = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeFileGetRequest14sp8
  *
  * Request to get a sip device type file.
- *           The response is either SystemSIPDeviceTypeFileGetResponse14sp8 or
- * ErrorResponse.
+ *           The response is either SystemSIPDeviceTypeFileGetResponse14sp8 or ErrorResponse.
  *
  * @see SystemSIPDeviceTypeFileGetResponse14sp8
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:25836","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemSIPDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:25836
      * @var string|null
      */
     private $deviceType = null;
@@ -25,6 +26,7 @@ class SystemSIPDeviceTypeFileGetRequest14sp8 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fileFormat
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:25836
      * @var string|null
      */
     private $fileFormat = null;

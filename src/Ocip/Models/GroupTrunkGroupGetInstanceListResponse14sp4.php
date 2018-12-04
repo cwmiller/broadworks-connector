@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceListResponse14sp4
  *
  * Response to GroupTrunkGroupGetInstanceListRequest14sp4.
- *         Contains a table with column headings "Name", "Department", "Device
- * Name", "Device Level",
+ *         Contains a table with column headings "Name", "Department", "Device Name", "Device Level",
  *         "Group Id".
- *         The "Device Level" column contains one of the AccessDeviceLevel
- * enumerated constants.
+ *         The "Device Level" column contains one of the AccessDeviceLevel enumerated constants.
  *
  * @see GroupTrunkGroupGetInstanceListRequest14sp4
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1024","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceListResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +19,7 @@ class GroupTrunkGroupGetInstanceListResponse14sp4 extends \CWM\BroadWorksConnect
     /**
      * @ElementName trunkGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1024
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $trunkGroupTable = null;

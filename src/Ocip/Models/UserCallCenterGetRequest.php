@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallCenterGetRequest
  *
- * Get the user's ACD state and the list of call centers the specified user belongs
- * to.
+ * Get the user's ACD state and the list of call centers the specified user belongs to.
  *         The response is either a UserCallCenterGetResponse or an ErrorResponse.
  *         
  *         Replaced By: UserCallCenterGetRequest16
@@ -14,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserCallCenterGetResponse
  * @see ErrorResponse
  * @see UserCallCenterGetRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32646","type":"sequence"}]
  */
 class UserCallCenterGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class UserCallCenterGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32646
      * @var string|null
      */
     private $userId = null;

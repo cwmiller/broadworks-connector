@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetRequest
  *
  * Request the originating permissions for Pinhole digit patterns for a user.
- *         The response is either a
- * UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetResponse or an ErrorResponse.
  *
  * @see UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1432","type":"sequence"}]
  */
 class UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanOriginatingGetRequest extends \CWM\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1432
      * @var string|null
      */
     private $userId = null;

@@ -6,12 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDomainGetListRequest22
  *
  * Requests the list of all system-level domains and all reseller level domains. 
- *         If excludeReseller is specified, returns all the system-level domain
- * names only. 
- *         If resellerId is specified, returns all the system-level domain names
- * and the given reseller's domains. 
- *         If reseller administrator sends the request and resellerId is not
- * specified, the administrator's resellerId is used.
+ *         If excludeReseller is specified, returns all the system-level domain names only. 
+ *         If resellerId is specified, returns all the system-level domain names and the given reseller's domains. 
+ *         If reseller administrator sends the request and resellerId is not specified, the administrator's resellerId is used.
  *         
  *         The response is either SystemDomainGetListResponse22 or ErrorResponse.
  *         
@@ -21,6 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDomainGetListResponse22
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7958","type":"choice"}]
  */
 class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,6 +26,8 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName excludeReseller
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7958
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -35,6 +35,8 @@ class SystemDomainGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7958
      * @var string|null
      */
     private $resellerId = null;

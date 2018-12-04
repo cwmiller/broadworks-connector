@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * StreetAddress
  *
  * Street address information.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3552","type":"sequence"}]
  */
 class StreetAddress
 {
@@ -14,6 +16,8 @@ class StreetAddress
      * @ElementName addressLine1
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $addressLine1 = null;
@@ -22,6 +26,8 @@ class StreetAddress
      * @ElementName addressLine2
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $addressLine2 = null;
@@ -30,6 +36,8 @@ class StreetAddress
      * @ElementName city
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $city = null;
@@ -38,6 +46,8 @@ class StreetAddress
      * @ElementName stateOrProvince
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $stateOrProvince = null;
@@ -45,6 +55,8 @@ class StreetAddress
     /**
      * @ElementName stateOrProvinceDisplayName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3552
      * @var string|null
      */
     private $stateOrProvinceDisplayName = null;
@@ -53,6 +65,8 @@ class StreetAddress
      * @ElementName zipOrPostalCode
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $zipOrPostalCode = null;
@@ -61,6 +75,8 @@ class StreetAddress
      * @ElementName country
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3552
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $country = null;

@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupGroupPagingGetInstanceListRequest.
  *         Contains a table with column headings:
- *         "Service User Id", "Name", "Phone Number", "Extension", "Department",
- * "Is Active".
+ *         "Service User Id", "Name", "Phone Number", "Extension", "Department", "Is Active".
  *         The column value for "Is Active" can either be true, or false.
  *
  * @see GroupGroupPagingGetInstanceListRequest
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:275","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class GroupGroupPagingGetInstanceListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName pagingGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:275
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $pagingGroupTable = null;

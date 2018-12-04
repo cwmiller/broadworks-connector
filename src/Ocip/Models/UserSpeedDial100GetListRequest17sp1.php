@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSpeedDial100GetListRequest17sp1
  *
  * Get the speed dial 100 settings for a user.
- *         The response is either a UserSpeedDial100GetListResponse17sp1 or an
- * ErrorResponse.
+ *         The response is either a UserSpeedDial100GetListResponse17sp1 or an ErrorResponse.
  *
  * @see UserSpeedDial100GetListResponse17sp1
  * @see ErrorResponse
+ * @Groups [{"id":"36d45d852a06f31a5078c9ad46622b49:177","type":"sequence"}]
  */
 class UserSpeedDial100GetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserSpeedDial100GetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 36d45d852a06f31a5078c9ad46622b49:177
      * @var string|null
      */
     private $userId = null;

@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31933","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
     /**
      * @ElementName sendReplyToCaller
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31933
      * @var string|null
      */
     private $sendReplyToCaller = null;
@@ -19,6 +23,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @ElementName changeCurrentReply
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31933
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentReply = null;
@@ -27,6 +33,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @ElementName listenToCurrentReply
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31933
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentReply = null;
@@ -35,6 +43,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @ElementName setOrClearUrgentIndicator
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31933
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
@@ -43,6 +53,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31933
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
@@ -50,6 +62,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31933
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -58,6 +72,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReplyMessageMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31933
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReviewSelectedDistributionListMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31968","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReviewSelectedDistributionListMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestReviewSelectedDistri
     /**
      * @ElementName interruptPlaybackAndReturnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31968
      * @var string|null
      */
     private $interruptPlaybackAndReturnToPreviousMenu = null;

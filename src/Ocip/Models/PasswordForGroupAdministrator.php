@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * PasswordForGroupAdministrator
  *
- * Password to be generated for a group administrator. If the administratorId is
- * not included, or included but 
- *         is not an exiting administrator for the group, a password will be
- * generated based on only the rules applicable 
+ * Password to be generated for a group administrator. If the administratorId is not included, or included but 
+ *         is not an exiting administrator for the group, a password will be generated based on only the rules applicable 
  *         for a new user.
+ *
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:667","type":"sequence"}]
  */
 class PasswordForGroupAdministrator
 {
@@ -17,6 +17,7 @@ class PasswordForGroupAdministrator
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:667
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +25,7 @@ class PasswordForGroupAdministrator
     /**
      * @ElementName groupId
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:667
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +33,8 @@ class PasswordForGroupAdministrator
     /**
      * @ElementName administratorId
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:667
      * @var string|null
      */
     private $administratorId = null;
@@ -38,6 +42,7 @@ class PasswordForGroupAdministrator
     /**
      * @ElementName generatePassword
      * @Type bool
+     * @Group d83be92ebac098705e715f24f025a9a9:667
      * @var bool|null
      */
     private $generatePassword = null;

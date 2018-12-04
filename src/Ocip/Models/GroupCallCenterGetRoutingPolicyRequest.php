@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetRoutingPolicyResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4250","type":"sequence"}]
  */
 class GroupCallCenterGetRoutingPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class GroupCallCenterGetRoutingPolicyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4250
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,7 @@ class GroupCallCenterGetRoutingPolicyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4250
      * @var string|null
      */
     private $groupId = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2781","type":"sequence"}]
  */
 class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2781
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     private $departmentKey = null;
@@ -24,6 +26,7 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2781
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +34,8 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName firstName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2781
      * @var string|null
      */
     private $firstName = null;
@@ -38,6 +43,8 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName lastName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2781
      * @var string|null
      */
     private $lastName = null;
@@ -45,6 +52,8 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName password
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2781
      * @var string|null
      */
     private $password = null;
@@ -52,6 +61,8 @@ class GroupDepartmentAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2781
      * @var string|null
      */
     private $language = null;

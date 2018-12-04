@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityServiceAccessCodeGetListRequest21
  *
  * Get a list of system service access codes.
- *         The response is either
- * SystemBroadWorksMobilityServiceAccessCodeGetListResponse21 or ErrorResponse.
+ *         The response is either SystemBroadWorksMobilityServiceAccessCodeGetListResponse21 or ErrorResponse.
  *
  * @see SystemBroadWorksMobilityServiceAccessCodeGetListResponse21
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:930","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeGetListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemBroadWorksMobilityServiceAccessCodeGetListRequest21 extends \CWM\Bro
     /**
      * @ElementName serviceAccessCodeListName
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:930
      * @var string|null
      */
     private $serviceAccessCodeListName = null;

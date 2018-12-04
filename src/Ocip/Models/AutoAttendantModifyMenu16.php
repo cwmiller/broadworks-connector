@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         business
  *         hours.
  *         It is used when modifying an Auto Attendant group.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:532","type":"sequence"}]
  */
 class AutoAttendantModifyMenu16
 {
@@ -18,6 +20,8 @@ class AutoAttendantModifyMenu16
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:532
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -25,6 +29,8 @@ class AutoAttendantModifyMenu16
     /**
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:532
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -32,6 +38,8 @@ class AutoAttendantModifyMenu16
     /**
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:532
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
@@ -39,6 +47,8 @@ class AutoAttendantModifyMenu16
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:532
      * @var bool|null
      */
     private $enableFirstMenuLevelExtensionDialing = null;
@@ -47,6 +57,8 @@ class AutoAttendantModifyMenu16
      * @ElementName keyConfiguration
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:532
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration[]
      */
     private $keyConfiguration = array(

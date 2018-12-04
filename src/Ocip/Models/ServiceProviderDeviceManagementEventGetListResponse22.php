@@ -44,6 +44,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         event currently being processed or next in line to be processed.
  *
  * @see ServiceProviderDeviceManagementEventGetListRequest22
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2245","type":"sequence"}]
  */
 class ServiceProviderDeviceManagementEventGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -51,6 +52,7 @@ class ServiceProviderDeviceManagementEventGetListResponse22 extends \CWM\BroadWo
     /**
      * @ElementName eventTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2245
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $eventTable = null;

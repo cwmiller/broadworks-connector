@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEnterpriseTrunkPriorityWeightedTrunkGroup
  *
  * Trunk group details (order and weight) for each trunk group
+ *
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1773","type":"sequence"}]
  */
 class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
 {
@@ -13,6 +15,7 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
     /**
      * @ElementName trunkGroup
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1773
      * @var string|null
      */
     private $trunkGroup = null;
@@ -20,6 +23,7 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
     /**
      * @ElementName priority
      * @Type int
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1773
      * @var int|null
      */
     private $priority = null;
@@ -27,6 +31,7 @@ class GroupEnterpriseTrunkPriorityWeightedTrunkGroup
     /**
      * @ElementName weight
      * @Type int
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1773
      * @var int|null
      */
     private $weight = null;

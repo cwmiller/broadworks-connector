@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCustomRingbackGroupGetRequest
  * @see GroupCustomRingbackGroupGetResponse16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7625","type":"sequence"}]
  */
 class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7625
      * @var bool|null
      */
     private $isActive = null;
@@ -24,6 +26,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7625
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
@@ -31,6 +34,8 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName audioFileDescription
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7625
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -38,6 +43,8 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName audioFileUrl
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7625
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -45,6 +52,7 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7625
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
@@ -52,6 +60,8 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName videoFileDescription
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7625
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -59,6 +69,8 @@ class GroupCustomRingbackGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName videoFileUrl
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7625
      * @var string|null
      */
     private $videoFileUrl = null;

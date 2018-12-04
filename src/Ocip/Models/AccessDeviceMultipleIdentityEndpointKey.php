@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AccessDeviceMultipleIdentityEndpointKey
  *
  * Access device end point in the context of a modify or delete command.
- *         The endpoint is identified by its linePort (public Identity) and
- * possibly a private Identity.
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The endpoint is identified by its linePort (public Identity) and possibly a private Identity.
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:262","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityEndpointKey
 {
@@ -18,6 +18,7 @@ class AccessDeviceMultipleIdentityEndpointKey
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Group 18b369af88e42ffdb4166615c670ce2c:262
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -25,6 +26,7 @@ class AccessDeviceMultipleIdentityEndpointKey
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:262
      * @var string|null
      */
     private $linePort = null;
@@ -32,6 +34,8 @@ class AccessDeviceMultipleIdentityEndpointKey
     /**
      * @ElementName privateIdentity
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:262
      * @var string|null
      */
     private $privateIdentity = null;

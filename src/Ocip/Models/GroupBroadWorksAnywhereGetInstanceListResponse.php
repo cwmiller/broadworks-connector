@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupBroadWorksAnywhereGetInstanceListRequest.
  *         Contains a table with column headings:
- *         "Service User Id", "Name", "Phone Number", "Extension", "Department",
- * "Is Active".
+ *         "Service User Id", "Name", "Phone Number", "Extension", "Department", "Is Active".
  *         The column value for "Is Active" can either be true, or false.
  *
  * @see GroupBroadWorksAnywhereGetInstanceListRequest
+ * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:123","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class GroupBroadWorksAnywhereGetInstanceListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName broadWorksAnywhereTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:123
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $broadWorksAnywhereTable = null;

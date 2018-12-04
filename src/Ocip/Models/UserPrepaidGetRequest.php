@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPrepaidGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"bfedaa58d92112a4eb49c69d8d3c8520:42","type":"sequence"}]
  */
 class UserPrepaidGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserPrepaidGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName userId
      * @Type string
+     * @Group bfedaa58d92112a4eb49c69d8d3c8520:42
      * @var string|null
      */
     private $userId = null;

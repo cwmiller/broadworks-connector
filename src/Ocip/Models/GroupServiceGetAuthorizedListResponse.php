@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupServiceGetAuthorizedListRequest.
  *
  * @see GroupServiceGetAuthorizedListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6528","type":"sequence"}]
  */
 class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName servicePackName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6528
      * @var string[]
      */
     private $servicePackName = array(
@@ -26,6 +29,8 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName groupServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupService
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6528
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupService[]
      */
     private $groupServiceName = array(
@@ -36,6 +41,8 @@ class GroupServiceGetAuthorizedListResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName userServiceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6528
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $userServiceName = array(

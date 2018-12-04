@@ -5,13 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
  *
- * Response to
- * GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest.
- *         Contains a list of available Mobile Subscriber Directory Numbers not yet
- * assigned to any user.
+ * Response to GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest.
+ *         Contains a list of available Mobile Subscriber Directory Numbers not yet assigned to any user.
  *
- * @see
- * GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest
+ * @see GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:289","type":"sequence"}]
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +18,8 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResp
      * @ElementName mobileSubscriberDirectoryNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:289
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(

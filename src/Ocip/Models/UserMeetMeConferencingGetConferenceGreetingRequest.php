@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMeetMeConferencingGetConferenceGreetingRequest
  *
  * Get the information of a conference custom greeting.
- *         The response is either
- * UserMeetMeConferencingGetConferenceGreetingResponse or ErrorResponse.
+ *         The response is either UserMeetMeConferencingGetConferenceGreetingResponse or ErrorResponse.
  *
  * @see UserMeetMeConferencingGetConferenceGreetingResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36277","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceGreetingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserMeetMeConferencingGetConferenceGreetingRequest extends \CWM\BroadWorks
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36277
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserMeetMeConferencingGetConferenceGreetingRequest extends \CWM\BroadWorks
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36277
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     private $conferenceKey = null;

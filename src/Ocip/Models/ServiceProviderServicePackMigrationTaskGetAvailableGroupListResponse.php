@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse
  *
  * Response to ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest.
- *         The groupTable column headings are: "Group Id", "Group Name", "User
- * Count".
+ *         The groupTable column headings are: "Group Id", "Group Name", "User Count".
  *
  * @see ServiceProviderServicePackMigrationTaskGetAvailableGroupListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5302","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class ServiceProviderServicePackMigrationTaskGetAvailableGroupListResponse exten
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5302
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupTable = null;

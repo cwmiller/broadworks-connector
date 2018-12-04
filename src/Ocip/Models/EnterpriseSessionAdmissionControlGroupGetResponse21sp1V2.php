@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns the profile information for the session admission control group.
  *
  * @see EnterpriseSessionAdmissionControlGroupGetRequest21sp1V2
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1031","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName maxSession
      * @Type int
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var int|null
      */
     private $maxSession = null;
@@ -23,6 +25,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName maxUserOriginatingSessions
      * @Type int
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -30,6 +34,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName maxUserTerminatingSessions
      * @Type int
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -37,6 +43,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName reservedSession
      * @Type int
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var int|null
      */
     private $reservedSession = null;
@@ -44,6 +51,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName reservedUserOriginatingSessions
      * @Type int
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -51,6 +60,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName reservedUserTerminatingSessions
      * @Type int
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
@@ -58,6 +69,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName defaultGroup
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var bool|null
      */
     private $defaultGroup = null;
@@ -65,6 +77,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var bool|null
      */
     private $countIntraSACGroupSessions = null;
@@ -73,6 +86,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
      * @ElementName devices
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     private $devices = array(
@@ -82,6 +97,7 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName blockEmergencyAndRepairCallsDueToSACLimits
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var bool|null
      */
     private $blockEmergencyAndRepairCallsDueToSACLimits = null;
@@ -89,6 +105,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName mediaGroupName
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var string|null
      */
     private $mediaGroupName = null;
@@ -96,6 +114,8 @@ class EnterpriseSessionAdmissionControlGroupGetResponse21sp1V2 extends \CWM\Broa
     /**
      * @ElementName accessInfoPattern
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1031
      * @var string|null
      */
     private $accessInfoPattern = null;

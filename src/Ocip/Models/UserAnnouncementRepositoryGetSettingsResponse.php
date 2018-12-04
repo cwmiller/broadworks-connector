@@ -6,14 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAnnouncementRepositoryGetSettingsResponse
  *
  * Response to UserAnnouncementRepositoryGetSettingsRequest.
- *         The response contains the current total file size (KB) for the user
- * across
- *         all media types and the maximum total file size (MB) allowed for the
- * user.
- *         It also indicates the maximum file size for individual audio and video
- * files.
+ *         The response contains the current total file size (KB) for the user across
+ *         all media types and the maximum total file size (MB) allowed for the user.
+ *         It also indicates the maximum file size for individual audio and video files.
  *
  * @see UserAnnouncementRepositoryGetSettingsRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:613","type":"sequence"}]
  */
 class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +19,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName totalFileSize
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:613
      * @var int|null
      */
     private $totalFileSize = null;
@@ -28,6 +27,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName maxAudioFileSize
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:613
      * @var int|null
      */
     private $maxAudioFileSize = null;
@@ -35,6 +35,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName maxVideoFileSize
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:613
      * @var int|null
      */
     private $maxVideoFileSize = null;
@@ -42,6 +43,7 @@ class UserAnnouncementRepositoryGetSettingsResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName maxFileSize
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:613
      * @var int|null
      */
     private $maxFileSize = null;

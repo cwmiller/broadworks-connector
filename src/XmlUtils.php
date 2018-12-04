@@ -8,7 +8,7 @@ use DOMElement;
 use MyCLabs\Enum\Enum;
 use ReflectionClass;
 
-class XmlUtils
+abstract class XmlUtils
 {
     const ENUM_BASE_TYPE = 'MyCLabs\Enum\Enum';
 
@@ -38,7 +38,7 @@ class XmlUtils
 
             if (self::isEnum($refClass)) {
                 // An EnumValueType annotation is expected to be on all enums which includes the scalar type the enum uses.
-                $annotations = self::getAnnotations($refClass->getDocComment());
+                $annotations = ReflectionUtils::getAnnotations($refClass);
 
                 if (!array_key_exists('EnumValueType', $annotations)) {
                     throw new XmlException('No @EnumValueType attribute found on enum ' . $refClass->getName());
@@ -68,7 +68,7 @@ class XmlUtils
 
                 if ($refClass->hasProperty($propertyName)) {
                     $refProperty = $refClass->getProperty($propertyName);
-                    $annotations = self::getAnnotations($refProperty->getDocComment());
+                    $annotations = ReflectionUtils::getAnnotations($refProperty);
                     $nodeValue = null;
 
                     if (!array_key_exists('Type', $annotations)) {
@@ -114,7 +114,7 @@ class XmlUtils
             }
 
             return $instance;
-        } catch(\ReflectionException $e) {
+        } catch(\Exception $e) {
             throw new XmlException('Unable to serialize XML element', $e);
         }
     }
@@ -137,7 +137,7 @@ class XmlUtils
 
             foreach ($refProperties as $refProperty) {
                 $refProperty->setAccessible(true);
-                $annotations = self::getAnnotations($refProperty->getDocComment());
+                $annotations = ReflectionUtils::getAnnotations($refProperty);
 
                 if (array_key_exists('ElementName', $annotations)) {
                     $propertyName = $annotations['ElementName'];
@@ -175,7 +175,7 @@ class XmlUtils
                     }
                 }
             }
-        } catch(\ReflectionException $e) {
+        } catch(\Exception $e) {
             throw new XmlException('Unable to convert to XML', $e);
         }
     }
@@ -196,26 +196,6 @@ class XmlUtils
         }
 
         return rtrim($baseNamespace . $namespace, '\\') . '\\' . ucwords($name);
-    }
-
-    /**
-     * @param string $docblock
-     * @return array
-     */
-    private static function getAnnotations($docblock)
-    {
-        $annotations = [];
-
-        preg_match_all('/@([a-z]+)( .*)*/i', $docblock, $matches);
-
-        if (isset($matches[1])) {
-            foreach ($matches[1] as $idx => $tag) {
-                $value = trim($matches[2][$idx]);
-                $annotations[$tag] = $value;
-            }
-        }
-
-        return $annotations;
     }
 
     /**

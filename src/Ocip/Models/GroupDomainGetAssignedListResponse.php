@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDomainGetAssignedListResponse
  *
  * Contains a simple list of all group domain names.
+ *
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4389","type":"sequence"}]
  */
 class GroupDomainGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -13,6 +15,7 @@ class GroupDomainGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupDefaultDomain
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4389
      * @var string|null
      */
     private $groupDefaultDomain = null;
@@ -21,6 +24,8 @@ class GroupDomainGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName domain
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4389
      * @var string[]
      */
     private $domain = array(

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3252","type":"sequence"}]
  */
 class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:3252
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3252
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(
@@ -35,6 +39,8 @@ class UserServiceUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName servicePackName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3252
      * @var string[]
      */
     private $servicePackName = array(

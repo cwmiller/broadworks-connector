@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupIncomingCallingPlanGetListRequest
  *
  * Request the group's incoming calling plan settings.
- *         The response is either a GroupIncomingCallingPlanGetListResponse or an
- * ErrorResponse.
+ *         The response is either a GroupIncomingCallingPlanGetListResponse or an ErrorResponse.
  *
  * @see GroupIncomingCallingPlanGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b24f81403186e75b29216017d9340516:46","type":"sequence"}]
  */
 class GroupIncomingCallingPlanGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupIncomingCallingPlanGetListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b24f81403186e75b29216017d9340516:46
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupIncomingCallingPlanGetListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
+     * @Group b24f81403186e75b29216017d9340516:46
      * @var string|null
      */
     private $groupId = null;

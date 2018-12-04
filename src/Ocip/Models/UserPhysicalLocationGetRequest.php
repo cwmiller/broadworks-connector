@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPhysicalLocationGetRequest
  *
  * Request the user level data associated with Physical Location.
- *         The response is either a UserPhysicalLocationGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserPhysicalLocationGetResponse or an ErrorResponse.
  *
  * @see UserPhysicalLocationGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"85df52bad9c98cf1c97d487c0041b427:89","type":"sequence"}]
  */
 class UserPhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserPhysicalLocationGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
+     * @Group 85df52bad9c98cf1c97d487c0041b427:89
      * @var string|null
      */
     private $userId = null;

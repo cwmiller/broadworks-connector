@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1554","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +35,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName informationFile
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var string|null
      */
     private $informationFile = null;
@@ -39,6 +43,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName certificateFile
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var string|null
      */
     private $certificateFile = null;
@@ -46,6 +51,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var bool|null
      */
     private $isActive = null;
@@ -53,6 +59,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName localToCarrier
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var bool|null
      */
     private $localToCarrier = null;
@@ -60,6 +67,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxTxPerSecondEnabled
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var bool|null
      */
     private $maxTxPerSecondEnabled = null;
@@ -67,6 +75,8 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxTxPerSecond
      * @Type int
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var int|null
      */
     private $maxTxPerSecond = null;
@@ -74,6 +84,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName tldnEnabled
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var bool|null
      */
     private $tldnEnabled = null;
@@ -81,6 +92,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName genericNumberEnabled
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var bool|null
      */
     private $genericNumberEnabled = null;
@@ -88,6 +100,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName mobileStateCheckEnabled
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var bool|null
      */
     private $mobileStateCheckEnabled = null;
@@ -95,6 +108,7 @@ class GroupBroadWorksMobileManagerAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName locationBasedServicesEnabled
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1554
      * @var bool|null
      */
     private $locationBasedServicesEnabled = null;

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSubscriberGetCallProcessingParametersRequest17
  *
  * Get the system call processing configuration for all subscribers
- *         The response is either a
- * SystemSubscriberGetCallProcessingParametersResponse17
+ *         The response is either a SystemSubscriberGetCallProcessingParametersResponse17
  *         or an ErrorResponse.
  *
  * @see SystemSubscriberGetCallProcessingParametersResponse17
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28276","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

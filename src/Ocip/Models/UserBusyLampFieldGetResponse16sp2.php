@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserBusyLampFieldGetRequest16sp2.
  *         The table has column headings:
- *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
- * First Name",
+ *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *           "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
  * @see UserBusyLampFieldGetRequest16sp2
+ * @Groups [{"id":"8a4618c2ca5bbd628e5c8e748d988b06:161","type":"sequence"}]
  */
 class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,8 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName listURI
      * @Type string
+     * @Optional
+     * @Group 8a4618c2ca5bbd628e5c8e748d988b06:161
      * @var string|null
      */
     private $listURI = null;
@@ -26,6 +28,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
+     * @Group 8a4618c2ca5bbd628e5c8e748d988b06:161
      * @var bool|null
      */
     private $enableCallParkNotification = null;
@@ -33,6 +36,7 @@ class UserBusyLampFieldGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8a4618c2ca5bbd628e5c8e748d988b06:161
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;

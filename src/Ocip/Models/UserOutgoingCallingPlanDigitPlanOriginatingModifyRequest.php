@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1264","type":"sequence"}]
  */
 class UserOutgoingCallingPlanDigitPlanOriginatingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserOutgoingCallingPlanDigitPlanOriginatingModifyRequest extends \CWM\Broa
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1264
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserOutgoingCallingPlanDigitPlanOriginatingModifyRequest extends \CWM\Broa
     /**
      * @ElementName useCustomSettings
      * @Type bool
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1264
      * @var bool|null
      */
     private $useCustomSettings = null;
@@ -31,6 +35,8 @@ class UserOutgoingCallingPlanDigitPlanOriginatingModifyRequest extends \CWM\Broa
     /**
      * @ElementName userPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1264
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternOriginatingPermissions|null
      */
     private $userPermissions = null;

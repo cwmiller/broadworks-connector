@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the group's voice messaging settings.
  *
  * @see GroupVoiceMessagingGroupGetRequest
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:128","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useMailServerSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingGroupMailServerChoices|null
      */
     private $useMailServerSetting = null;
@@ -23,6 +25,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName warnCallerBeforeRecordingVoiceMessage
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var bool|null
      */
     private $warnCallerBeforeRecordingVoiceMessage = null;
@@ -30,6 +33,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowUsersConfiguringAdvancedSettings
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var bool|null
      */
     private $allowUsersConfiguringAdvancedSettings = null;
@@ -37,6 +41,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowComposeOrForwardMessageToEntireGroup
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var bool|null
      */
     private $allowComposeOrForwardMessageToEntireGroup = null;
@@ -44,6 +49,8 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName mailServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var string|null
      */
     private $mailServerNetAddress = null;
@@ -51,6 +58,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName mailServerProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $mailServerProtocol = null;
@@ -58,6 +66,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName realDeleteForImap
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var bool|null
      */
     private $realDeleteForImap = null;
@@ -65,6 +74,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName maxMailboxLengthMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $maxMailboxLengthMinutes = null;
@@ -72,6 +82,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName doesMessageAge
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var bool|null
      */
     private $doesMessageAge = null;
@@ -79,6 +90,7 @@ class GroupVoiceMessagingGroupGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName holdPeriodDays
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingHoldPeriodDays|null
      */
     private $holdPeriodDays = null;

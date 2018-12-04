@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Access device end point that can have multiple contacts.
  *     
  *     Replaced by AccessDeviceMultipleContactEndpointRead19.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38151","type":"sequence"}]
  */
 class AccessDeviceMultipleContactEndpointRead
 {
@@ -15,6 +17,7 @@ class AccessDeviceMultipleContactEndpointRead
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38151
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -22,6 +25,7 @@ class AccessDeviceMultipleContactEndpointRead
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38151
      * @var string|null
      */
     private $linePort = null;
@@ -30,6 +34,8 @@ class AccessDeviceMultipleContactEndpointRead
      * @ElementName contact
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38151
      * @var string[]
      */
     private $contact = array(
@@ -39,6 +45,7 @@ class AccessDeviceMultipleContactEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38151
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -46,6 +53,7 @@ class AccessDeviceMultipleContactEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38151
      * @var bool|null
      */
     private $useDomain = null;

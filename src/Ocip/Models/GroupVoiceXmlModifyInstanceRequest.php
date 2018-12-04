@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupVoiceXmlModifyInstanceRequest
  *
- * Request to modify a VoiceXML instance. For a valid voiceXml instance to work
- * properly,
+ * Request to modify a VoiceXML instance. For a valid voiceXml instance to work properly,
  *         a device with Static Registration is expected with a valid contact.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"75fc596c21103d0c2b08c717c36f4ff1:173","type":"sequence"}]
  */
 class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:173
      * @var string|null
      */
     private $serviceUserId = null;
@@ -26,6 +27,8 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
+     * @Optional
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:173
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -33,6 +36,8 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:173
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -41,6 +46,8 @@ class GroupVoiceXmlModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
+     * @Optional
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:173
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;

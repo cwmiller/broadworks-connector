@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
  *
  * Response to SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest.
- *         The column headings are "Number Prefix", "Service Provider Id", "Is
- * Enterprise", "User Id", "Enterprise Trunk", "Is Active", "Reseller Id".
+ *         The column headings are "Number Prefix", "Service Provider Id", "Is Enterprise", "User Id", "Enterprise Trunk", "Is Active", "Reseller Id".
  *
  * @see SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:724","type":"sequence"}]
  */
 class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \
     /**
      * @ElementName prefixSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:724
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $prefixSummaryTable = null;

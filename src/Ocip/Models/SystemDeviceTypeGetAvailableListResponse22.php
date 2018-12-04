@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to SystemDeviceTypeGetAvailableListRequest22.
  *
- *         Note: element numberOfPorts is only used by devices types with static
- * line ordering enabled
+ *         Note: element numberOfPorts is only used by devices types with static line ordering enabled
  *
  * @see SystemDeviceTypeGetAvailableListRequest22
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7263","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:7268","type":"sequence"}]}]
  */
 class SystemDeviceTypeGetAvailableListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,8 @@ class SystemDeviceTypeGetAvailableListResponse22 extends \CWM\BroadWorksConnecto
      * @ElementName deviceType
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7263
      * @var string[]
      */
     private $deviceType = array(
@@ -29,6 +31,8 @@ class SystemDeviceTypeGetAvailableListResponse22 extends \CWM\BroadWorksConnecto
      * @ElementName typeInfo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse22TypeInfo
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7263
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceTypeGetAvailableListResponse22TypeInfo[]
      */
     private $typeInfo = array(

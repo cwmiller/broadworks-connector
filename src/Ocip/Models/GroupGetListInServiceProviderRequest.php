@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGetListInServiceProviderRequest
  *
  * Request the list of groups in a service provider or enterprise.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a GroupGetListInServiceProviderResponse or an
- * ErrorResponse.
+ *         The response is either a GroupGetListInServiceProviderResponse or an ErrorResponse.
  *
  * @see GroupGetListInServiceProviderResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4872","type":"sequence"}]
  */
 class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4872
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,8 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4872
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -36,6 +38,8 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4872
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -46,6 +50,8 @@ class GroupGetListInServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4872
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

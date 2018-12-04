@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemZoneNetAddressGetListRequest.
  *
  * @see SystemZoneNetAddressGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17283","type":"sequence"}]
  */
 class SystemZoneNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class SystemZoneNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName netAddress
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17283
      * @var string[]
      */
     private $netAddress = array(
@@ -26,6 +29,8 @@ class SystemZoneNetAddressGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName netAddressRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17283
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(

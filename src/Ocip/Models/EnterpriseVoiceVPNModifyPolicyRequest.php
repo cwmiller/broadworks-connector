@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1515","type":"sequence","children":[{"id":"b561eca19800e0898f471e5e91eb3baa:1523","type":"choice"}]}]
  */
 class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1515
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName locationDialingCode
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1515
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -31,6 +34,8 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName minExtensionLength
      * @Type int
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1515
      * @var int|null
      */
     private $minExtensionLength = null;
@@ -38,6 +43,8 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName maxExtensionLength
      * @Type int
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1515
      * @var int|null
      */
     private $maxExtensionLength = null;
@@ -46,6 +53,8 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1515
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -53,6 +62,8 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName routeGroupId
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1515
      * @var string|null
      */
     private $routeGroupId = null;
@@ -60,6 +71,8 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1515
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     private $policySelection = null;
@@ -68,6 +81,8 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName digitManipulation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1523
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]
      */
     private $digitManipulation = array(
@@ -77,6 +92,8 @@ class EnterpriseVoiceVPNModifyPolicyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName treatmentId
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1523
      * @var string|null
      */
     private $treatmentId = null;

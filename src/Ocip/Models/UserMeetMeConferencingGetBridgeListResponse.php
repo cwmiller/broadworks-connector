@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMeetMeConferencingGetBridgeListResponse
  *
  * Response to the UserMeetMeConferencingGetBridgeListRequest.
- *         Contains a table with column headings: "Bridge Id", "Name", "Phone
- * Number", "Extension", "Ports", and "Is Active"
+ *         Contains a table with column headings: "Bridge Id", "Name", "Phone Number", "Extension", "Ports", and "Is Active"
  *         The column values for "Is Active" can either be true, or false.
  *
  * @see UserMeetMeConferencingGetBridgeListRequest
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:597","type":"sequence"}]
  */
 class UserMeetMeConferencingGetBridgeListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class UserMeetMeConferencingGetBridgeListResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName conferenceBridgeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group e51a0a16349851c3fad768a24a35838d:597
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceBridgeTable = null;

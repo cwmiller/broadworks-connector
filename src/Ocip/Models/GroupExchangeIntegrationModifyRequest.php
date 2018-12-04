@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4549","type":"sequence"}]
  */
 class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4549
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4549
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,8 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableExchangeIntegration
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4549
      * @var bool|null
      */
     private $enableExchangeIntegration = null;
@@ -39,6 +44,8 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName exchangeURL
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4549
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $exchangeURL = null;
@@ -47,6 +54,8 @@ class GroupExchangeIntegrationModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName exchangeCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4549
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExchangeUserNamePassword|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $exchangeCredentials = null;

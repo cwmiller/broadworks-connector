@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupShInterfaceGetUserListResponse21sp1
  *
  * Response to the GroupShInterfaceGetUserListRequest21sp1.
- *         The response contains the Sh Non Transparent data and associated Public
- * User Identity
+ *         The response contains the Sh Non Transparent data and associated Public User Identity
  *         information for every Public User Identity in the group.
  *
  * @see GroupShInterfaceGetUserListRequest21sp1
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6969","type":"sequence"}]
  */
 class GroupShInterfaceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,8 @@ class GroupShInterfaceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector\
      * @ElementName entry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry21sp1
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6969
      * @var \CWM\BroadWorksConnector\Ocip\Models\ShInterfaceUserListEntry21sp1[]
      */
     private $entry = array(

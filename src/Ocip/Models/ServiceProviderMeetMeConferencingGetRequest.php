@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderMeetMeConferencingGetRequest
  *
- * Request the service provider/enterprise level data associated with Meet-Me
- * Conferencing functions.
- *         The response is either a ServiceProviderMeetMeConferencingGetResponse or
- * an ErrorResponse.
+ * Request the service provider/enterprise level data associated with Meet-Me Conferencing functions.
+ *         The response is either a ServiceProviderMeetMeConferencingGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderMeetMeConferencingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:332","type":"sequence"}]
  */
 class ServiceProviderMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderMeetMeConferencingGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:332
      * @var string|null
      */
     private $serviceProviderId = null;

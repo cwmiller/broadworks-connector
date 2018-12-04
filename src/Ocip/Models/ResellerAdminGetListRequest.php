@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ResellerAdminGetListRequest
  *
  * Get a list of reseller administrators.
- *         The response is either a ResellerAdminGetListResponse or an
- * ErrorResponse.
+ *         The response is either a ResellerAdminGetListResponse or an ErrorResponse.
  *
  * @see ResellerAdminGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7e8feb1c28b49a3b8755f86e716ebee7:103","type":"sequence"}]
  */
 class ResellerAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ResellerAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName resellerId
      * @Type string
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:103
      * @var string|null
      */
     private $resellerId = null;

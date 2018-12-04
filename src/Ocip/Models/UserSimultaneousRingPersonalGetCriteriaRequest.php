@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingPersonalGetCriteriaRequest
  *
  * Get a criteria for the user's simultaneous ring personal service.
- *         The response is either a UserSimultaneousRingPersonalGetCriteriaResponse
- * or an ErrorResponse.
+ *         The response is either a UserSimultaneousRingPersonalGetCriteriaResponse or an ErrorResponse.
  *
  * @see UserSimultaneousRingPersonalGetCriteriaResponse
  * @see ErrorResponse
+ * @Groups [{"id":"05b901badf29b93ba4e1e92151c34396:85","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserSimultaneousRingPersonalGetCriteriaRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
+     * @Group 05b901badf29b93ba4e1e92151c34396:85
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserSimultaneousRingPersonalGetCriteriaRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 05b901badf29b93ba4e1e92151c34396:85
      * @var string|null
      */
     private $criteriaName = null;

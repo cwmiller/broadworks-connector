@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallPickupGetInstanceResponse
  *
  * Response to the GroupCallPickupGetInstanceRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", "Hiragana First Name",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallPickupGetInstanceRequest
+ * @Groups [{"id":"1d2c67d4a97adca57d9953b2182b4b0d:179","type":"sequence"}]
  */
 class GroupCallPickupGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class GroupCallPickupGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:179
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

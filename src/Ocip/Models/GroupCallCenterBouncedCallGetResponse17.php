@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterBouncedCallGetRequest17.
  *
  * @see GroupCallCenterBouncedCallGetRequest17
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2410","type":"sequence"}]
  */
 class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2410
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,7 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2410
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
@@ -29,6 +32,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableTransfer
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2410
      * @var bool|null
      */
     private $enableTransfer = null;
@@ -36,6 +41,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName transferPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2410
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -43,6 +50,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName bounceCallWhenAgentUnavailable
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2410
      * @var bool|null
      */
     private $bounceCallWhenAgentUnavailable = null;
@@ -50,6 +59,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName alertCallCenterCallOnHold
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2410
      * @var bool|null
      */
     private $alertCallCenterCallOnHold = null;
@@ -57,6 +68,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName alertCallCenterCallOnHoldSeconds
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2410
      * @var int|null
      */
     private $alertCallCenterCallOnHoldSeconds = null;
@@ -64,6 +77,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName bounceCallCenterCallOnHold
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2410
      * @var bool|null
      */
     private $bounceCallCenterCallOnHold = null;
@@ -71,6 +86,8 @@ class GroupCallCenterBouncedCallGetResponse17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName bounceCallCenterCallOnHoldSeconds
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2410
      * @var int|null
      */
     private $bounceCallCenterCallOnHoldSeconds = null;

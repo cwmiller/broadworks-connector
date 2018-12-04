@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderBroadWorksMobilityGetRequest22
  *
  * Get the service provider BroadWorks Mobility service settings.
- *         The response is either a ServiceProviderBroadWorksMobilityGetResponse22
- * or an ErrorResponse.
+ *         The response is either a ServiceProviderBroadWorksMobilityGetResponse22 or an ErrorResponse.
  *
  * @see ServiceProviderBroadWorksMobilityGetResponse22
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:349","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderBroadWorksMobilityGetRequest22 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:349
      * @var string|null
      */
     private $serviceProviderId = null;

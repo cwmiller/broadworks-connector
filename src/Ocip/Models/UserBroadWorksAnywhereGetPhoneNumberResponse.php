@@ -6,32 +6,25 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksAnywhereGetPhoneNumberResponse
  *
  * Response to the UserBroadWorksAnywhereGetPhoneNumberRequest. 
- *         The criteria table's column headings are: "Is Active", "Criteria Name",
- * "Time Schedule", 
- *         "Calls From", "Blacklisted", "Holiday Schedule", "Calls To Type", "Calls
- * To Number" and "Calls To Extension".
+ *         The criteria table's column headings are: "Is Active", "Criteria Name", "Time Schedule", 
+ *         "Calls From", "Blacklisted", "Holiday Schedule", "Calls To Type", "Calls To Number" and "Calls To Extension".
  *         The following columns are only returned in AS data mode:       
  *           "Calls To Type", "Calls To Number" and "Calls To Extension"
  *           
- *         The possible values for the "Calls To Type" column are the following or
- * a combination of them separated by comma:
+ *         The possible values for the "Calls To Type" column are the following or a combination of them separated by comma:
  *           - Primary
  *           - Alternate X (where x is a number between 1 and 10)
  *           - Mobility        
- *         The possible values for the "Calls To Number" column are the following
- * or a combination of them separated by comma:
- *           - The value of the phone number for the corresponding Calls To Type,
- * when the number is available. i.e. Alternate 1 may have extension, but no
- * number.
+ *         The possible values for the "Calls To Number" column are the following or a combination of them separated by comma:
+ *           - The value of the phone number for the corresponding Calls To Type, when the number is available. i.e. Alternate 1 may have extension, but no number.
  *           - When no number is available a blank space is provided instead.
- *         The possible values for the "Calls To Extension" column are the
- * following or a caombination of them separated by comma:
- *           - The value of the extension for the corresponding Calls To Type, when
- * the extension is available. i.e. Primary may have number, but no extension.
+ *         The possible values for the "Calls To Extension" column are the following or a caombination of them separated by comma:
+ *           - The value of the extension for the corresponding Calls To Type, when the extension is available. i.e. Primary may have number, but no extension.
  *           - For Mobility Calls To Type, this is always blank.
  *           - When no exension is available a blank space is provided instead.
  *
  * @see UserBroadWorksAnywhereGetPhoneNumberRequest
+ * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:410","type":"sequence"}]
  */
 class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -39,6 +32,8 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:410
      * @var string|null
      */
     private $description = null;
@@ -46,6 +41,8 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName outboundAlternateNumber
      * @Type string
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:410
      * @var string|null
      */
     private $outboundAlternateNumber = null;
@@ -53,6 +50,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:410
      * @var bool|null
      */
     private $isActive = null;
@@ -60,6 +58,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName broadworksCallControl
      * @Type bool
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:410
      * @var bool|null
      */
     private $broadworksCallControl = null;
@@ -67,6 +66,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName useDiversionInhibitor
      * @Type bool
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:410
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
@@ -74,6 +74,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:410
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
@@ -81,6 +82,7 @@ class UserBroadWorksAnywhereGetPhoneNumberResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:410
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

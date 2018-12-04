@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnhancedCallLogsRedirectedNumberFilter21
  *
  * Filter criteria based on the transferred/forwarded number.
+ *
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5801","type":"sequence","children":[{"id":"499b56264fbe226bfef3c338c8d4750d:5802","type":"choice"}]}]
  */
 class EnhancedCallLogsRedirectedNumberFilter21
 {
@@ -13,6 +15,7 @@ class EnhancedCallLogsRedirectedNumberFilter21
     /**
      * @ElementName redirectedCall
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedCallSelection21
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5802
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsRedirectedCallSelection21|null
      */
     private $redirectedCall = null;
@@ -21,6 +24,7 @@ class EnhancedCallLogsRedirectedNumberFilter21
      * @ElementName includeServiceInvocationBasicCallType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BasicCallType
      * @Array
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5802
      * @var \CWM\BroadWorksConnector\Ocip\Models\BasicCallType[]
      */
     private $includeServiceInvocationBasicCallType = array(
@@ -31,6 +35,7 @@ class EnhancedCallLogsRedirectedNumberFilter21
      * @ElementName includeServiceInvocationCallCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCategory
      * @Array
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5802
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCategory[]
      */
     private $includeServiceInvocationCallCategory = array(
@@ -41,6 +46,7 @@ class EnhancedCallLogsRedirectedNumberFilter21
      * @ElementName includeServiceInvocationConfigurableCallType
      * @Type string
      * @Array
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5802
      * @var string[]
      */
     private $includeServiceInvocationConfigurableCallType = array(
@@ -51,6 +57,7 @@ class EnhancedCallLogsRedirectedNumberFilter21
      * @ElementName searchCriteriaServiceInvocationDialedNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5802
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     private $searchCriteriaServiceInvocationDialedNumber = array(
@@ -61,6 +68,7 @@ class EnhancedCallLogsRedirectedNumberFilter21
      * @ElementName searchCriteriaServiceInvocationCalledNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5802
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     private $searchCriteriaServiceInvocationCalledNumber = array(
@@ -71,6 +79,7 @@ class EnhancedCallLogsRedirectedNumberFilter21
      * @ElementName searchCriteriaServiceInvocationNetworkTranslatedNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI
      * @Array
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5802
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaOutgoingDNorSIPURI[]
      */
     private $searchCriteriaServiceInvocationNetworkTranslatedNumber = array(

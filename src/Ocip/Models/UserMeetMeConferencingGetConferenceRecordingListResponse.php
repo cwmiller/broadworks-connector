@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMeetMeConferencingGetConferenceRecordingListResponse
  *
  * Response to the UserMeetMeConferencingGetConferenceRecordingListRequest.
- *         Contains a table with column headings: "Bridge Id", "Conference Id",
- * "Conference Title", "Bridge Name", "Start Time", "File Size", and "URL".
- *         Start Time is in the format "yyyy-MM-dd'T'HH:mm:ss:SSSZ". Example:
- * 2010-10-01T09:30:00:000-0400.
+ *         Contains a table with column headings: "Bridge Id", "Conference Id", "Conference Title", "Bridge Name", "Start Time", "File Size", and "URL".
+ *         Start Time is in the format "yyyy-MM-dd'T'HH:mm:ss:SSSZ". Example: 2010-10-01T09:30:00:000-0400.
  *
  * @see UserMeetMeConferencingGetConferenceRecordingListRequest
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:734","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceRecordingListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class UserMeetMeConferencingGetConferenceRecordingListResponse extends \CWM\Broa
     /**
      * @ElementName conferenceRecordingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group e51a0a16349851c3fad768a24a35838d:734
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceRecordingTable = null;

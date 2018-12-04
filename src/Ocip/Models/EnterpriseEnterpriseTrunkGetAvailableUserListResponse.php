@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseEnterpriseTrunkGetAvailableUserListResponse
  *
  * Response to EnterpriseEnterpriseTrunkGetAvailableUserListRequest.
- *         The column headings for the enterpriseTrunkUserTable are: "User Id",
- * "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
+ *         The column headings for the enterpriseTrunkUserTable are: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see EnterpriseEnterpriseTrunkGetAvailableUserListRequest
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:264","type":"sequence"}]
  */
 class EnterpriseEnterpriseTrunkGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class EnterpriseEnterpriseTrunkGetAvailableUserListResponse extends \CWM\BroadWo
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:264
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

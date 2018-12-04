@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInterceptGroupGetRequest21sp1
  *
  * Get the group's intercept group service settings.
- *         The response is either a GroupInterceptGroupGetResponse21sp1 or an
- * ErrorResponse.
+ *         The response is either a GroupInterceptGroupGetResponse21sp1 or an ErrorResponse.
  *
  * @see GroupInterceptGroupGetResponse21sp1
  * @see ErrorResponse
+ * @Groups [{"id":"bf05ea6ea4a301f45f76ff5756023e2d:49","type":"sequence"}]
  */
 class GroupInterceptGroupGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupInterceptGroupGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:49
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupInterceptGroupGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:49
      * @var string|null
      */
     private $groupId = null;

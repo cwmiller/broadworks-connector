@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupInstantGroupCallGetInstanceListRequest.
  *         Contains a 6 column table with column headings:
- *         "Service User Id", "Name", "Phone Number", "Extension", "Department",
- * "Is Active".
+ *         "Service User Id", "Name", "Phone Number", "Extension", "Department", "Is Active".
  *         The column values for Is Active can either be true, or false.
  *
  * @see GroupInstantGroupCallGetInstanceListRequest
+ * @Groups [{"id":"c689e88c0ff061c491155e92929e7018:106","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class GroupInstantGroupCallGetInstanceListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName instantGroupCallTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group c689e88c0ff061c491155e92929e7018:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $instantGroupCallTable = null;

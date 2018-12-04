@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemApplicationControllerGetListResponse
  *
  * Response to the SystemApplicationControllerGetListRequest.
- *       Contains a table with column headings: "Name", "Subscriber Id", "Channel
- * Set Id", "Status".
+ *       Contains a table with column headings: "Name", "Subscriber Id", "Channel Set Id", "Status".
  *       The column values for "Status" can either be "ready" or "notReady".
  *
  * @see SystemApplicationControllerGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1909","type":"sequence"}]
  */
 class SystemApplicationControllerGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class SystemApplicationControllerGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName applicationControllerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1909
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $applicationControllerTable = null;

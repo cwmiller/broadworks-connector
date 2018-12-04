@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ReplacementCombinedServicePackAuthorizationList
  *
  * A list of service packs that replaces previously authorized service packs.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2765","type":"sequence"}]
  */
 class ReplacementCombinedServicePackAuthorizationList
 {
@@ -14,6 +16,7 @@ class ReplacementCombinedServicePackAuthorizationList
      * @ElementName servicePackAuthorization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CombinedServicePackAuthorization
      * @Array
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2765
      * @var \CWM\BroadWorksConnector\Ocip\Models\CombinedServicePackAuthorization[]
      */
     private $servicePackAuthorization = array(

@@ -6,25 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceGetUserListResponse
  *
  * Response to SystemAccessDeviceGetUserListRequest.
- *         The column headings for the deviceUserTable are: "Line/Port", "Last
- * Name",
- *         "First Name", "Phone Number", "Service Provider Id", "Group Id", "User
- * Id",
- *         "User Type", "Endpoint Type", "Primary Line/Port", "Order", "Extension",
- * "Department", "Email Address", "Private Identity".
- *         If the identity/device profile is an identity, the table will contain a
- * row for each TEL-URI in the Phone Number column.
- *         If the identity/device profile is a real device, rows for the alternate
- * numbers are not included.
+ *         The column headings for the deviceUserTable are: "Line/Port", "Last Name",
+ *         "First Name", "Phone Number", "Service Provider Id", "Group Id", "User Id",
+ *         "User Type", "Endpoint Type", "Primary Line/Port", "Order", "Extension", "Department", "Email Address", "Private Identity".
+ *         If the identity/device profile is an identity, the table will contain a row for each TEL-URI in the Phone Number column.
+ *         If the identity/device profile is a real device, rows for the alternate numbers are not included.
  *         The User Type column contains one of the enumerated UserType values.
- *         The Endpoint Type column contains one of the enumerated EndpointType
- * values.
+ *         The Endpoint Type column contains one of the enumerated EndpointType values.
  *         The Private Identity column is empty is AS mode.
  *         
  *         Replaced by: SystemAccessDeviceGetUserListResponse21sp1 in AS data mode.
  *
  * @see SystemAccessDeviceGetUserListRequest
  * @see SystemAccessDeviceGetUserListResponse21sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:3104","type":"sequence"}]
  */
 class SystemAccessDeviceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -32,6 +27,7 @@ class SystemAccessDeviceGetUserListResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName deviceUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 499b56264fbe226bfef3c338c8d4750d:3104
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceUserTable = null;

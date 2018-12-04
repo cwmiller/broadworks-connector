@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest.
  *
  * @see GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:604","type":"sequence"}]
  */
 class GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse extends \CWM\BroadW
      * @ElementName trunkGroupName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:604
      * @var string[]
      */
     private $trunkGroupName = array(

@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDnGetUtilizationResponse14sp3
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7838","type":"sequence"}]
  */
 class SystemDnGetUtilizationRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class SystemDnGetUtilizationRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7838
      * @var string|null
      */
     private $phoneNumber = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17248","type":"sequence"}]
  */
 class SystemZoneNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemZoneNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName zoneName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17248
      * @var string|null
      */
     private $zoneName = null;
@@ -25,6 +27,8 @@ class SystemZoneNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName netAddress
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17248
      * @var string[]
      */
     private $netAddress = array(
@@ -35,6 +39,8 @@ class SystemZoneNetAddressDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName netAddressRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17248
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(

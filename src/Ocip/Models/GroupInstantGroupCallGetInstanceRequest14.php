@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInstantGroupCallGetInstanceRequest14
  *
  * Request to get all the information of an Instant Group Call service instance.
- *         The response is either GroupInstantGroupCallGetInstanceResponse14 or
- * ErrorResponse.
+ *         The response is either GroupInstantGroupCallGetInstanceResponse14 or ErrorResponse.
  *
  * @see GroupInstantGroupCallGetInstanceResponse14
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:9128","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupInstantGroupCallGetInstanceRequest14 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9128
      * @var string|null
      */
     private $serviceUserId = null;

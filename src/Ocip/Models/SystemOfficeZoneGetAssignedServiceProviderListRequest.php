@@ -5,12 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemOfficeZoneGetAssignedServiceProviderListRequest
  *
- * Request a list of service providers that have a given Office Zone assigned.  The
- * response is either a SystemOfficeZoneGetAssignedServiceProviderListResponse or
- * ErrorResponse.
+ * Request a list of service providers that have a given Office Zone assigned.  The response is either a SystemOfficeZoneGetAssignedServiceProviderListResponse or ErrorResponse.
  *
  * @see SystemOfficeZoneGetAssignedServiceProviderListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12141","type":"sequence"}]
  */
 class SystemOfficeZoneGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +17,7 @@ class SystemOfficeZoneGetAssignedServiceProviderListRequest extends \CWM\BroadWo
     /**
      * @ElementName officeZoneName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12141
      * @var string|null
      */
     private $officeZoneName = null;

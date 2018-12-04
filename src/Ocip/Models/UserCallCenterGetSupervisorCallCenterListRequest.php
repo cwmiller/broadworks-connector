@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallCenterGetSupervisorCallCenterListRequest
  *
  * Get a list of call centers the user is assigned to as a supervisor.
- *         The response is either a
- * UserCallCenterGetSupervisorCallCenterListResponse or an
+ *         The response is either a UserCallCenterGetSupervisorCallCenterListResponse or an
  *         ErrorResponse.
  *
  * @see UserCallCenterGetSupervisorCallCenterListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6433","type":"sequence"}]
  */
 class UserCallCenterGetSupervisorCallCenterListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserCallCenterGetSupervisorCallCenterListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName supervisorUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6433
      * @var string|null
      */
     private $supervisorUserId = null;

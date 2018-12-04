@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Assign a replacement list of Communication Barring Profiles to a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         This command only applies to groups in an Enterprise. This command will
- * fail for groups in a Service Provider.
+ *         This command only applies to groups in an Enterprise. This command will fail for groups in a Service Provider.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2386","type":"sequence"}]
  */
 class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2386
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2386
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,8 @@ class GroupCommunicationBarringProfileModifyListRequest extends \CWM\BroadWorksC
      * @ElementName profileName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2386
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringProfileReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profileName = null;

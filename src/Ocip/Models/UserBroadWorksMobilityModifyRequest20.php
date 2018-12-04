@@ -7,16 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the user's broadworks mobility service settings.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         If the request modifies the mobilePhoneNumber and the new number does
- * not belong to the appropriate Mobile Subscriber Directory Numbers pool, the
- * request is rejected. For a service provider the number must belong to the group
- * Mobile Subscriber Directory Numbers pool. For an enterprise user, the number
- * must belong to the enterprise Mobile Subscriber Directory Numbers pool. 
- *         If the request is executed by a user and modifies the mobilePhoneNumber,
- * the request is rejected.
+ *         If the request modifies the mobilePhoneNumber and the new number does not belong to the appropriate Mobile Subscriber Directory Numbers pool, the request is rejected. For a service provider the number must belong to the group Mobile Subscriber Directory Numbers pool. For an enterprise user, the number must belong to the enterprise Mobile Subscriber Directory Numbers pool. 
+ *         If the request is executed by a user and modifies the mobilePhoneNumber, the request is rejected.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"f63b5273e12f283713f4aab9400bb342:268","type":"sequence"}]
  */
 class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +20,7 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +28,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var bool|null
      */
     private $isActive = null;
@@ -38,6 +37,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName phonesToRing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $phonesToRing = null;
@@ -46,6 +47,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
      * @ElementName mobilePhoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilePhoneNumber = null;
@@ -53,6 +56,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName alertClickToDialCalls
      * @Type bool
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var bool|null
      */
     private $alertClickToDialCalls = null;
@@ -60,6 +65,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName alertGroupPagingCalls
      * @Type bool
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var bool|null
      */
     private $alertGroupPagingCalls = null;
@@ -67,6 +74,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableDiversionInhibitor
      * @Type bool
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var bool|null
      */
     private $enableDiversionInhibitor = null;
@@ -74,6 +83,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName requireAnswerConfirmation
      * @Type bool
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var bool|null
      */
     private $requireAnswerConfirmation = null;
@@ -81,6 +92,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName broadworksCallControl
      * @Type bool
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var bool|null
      */
     private $broadworksCallControl = null;
@@ -88,6 +101,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserSettingLevel|null
      */
     private $useSettingLevel = null;
@@ -95,6 +110,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName denyCallOriginations
      * @Type bool
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -102,6 +119,8 @@ class UserBroadWorksMobilityModifyRequest20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName denyCallTerminations
      * @Type bool
+     * @Optional
+     * @Group f63b5273e12f283713f4aab9400bb342:268
      * @var bool|null
      */
     private $denyCallTerminations = null;

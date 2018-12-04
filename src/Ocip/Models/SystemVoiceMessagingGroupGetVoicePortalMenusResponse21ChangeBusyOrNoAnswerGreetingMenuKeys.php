@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:730","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswerGreetingMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
     /**
      * @ElementName recordNewGreeting
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:730
      * @var string|null
      */
     private $recordNewGreeting = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
     /**
      * @ElementName listenToCurrentGreeting
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:730
      * @var string|null
      */
     private $listenToCurrentGreeting = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
     /**
      * @ElementName revertToSystemDefaultGreeting
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:730
      * @var string|null
      */
     private $revertToSystemDefaultGreeting = null;
@@ -32,6 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:730
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -39,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21ChangeBusyOrNoAnswer
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:730
      * @var string|null
      */
     private $repeatMenu = null;

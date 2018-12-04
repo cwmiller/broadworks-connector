@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSilentAlertingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"15e95c3084e805ff6b4582dadf82fee1:42","type":"sequence"}]
  */
 class UserSilentAlertingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserSilentAlertingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 15e95c3084e805ff6b4582dadf82fee1:42
      * @var string|null
      */
     private $userId = null;

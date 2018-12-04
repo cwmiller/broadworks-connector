@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserExecutiveGetAvailableAssistantListRequest
  *
  * Get a list of users that can be assigned to an executive.
- *         Searching for users by group only makes sense when the executive user is
- * part of an Enterprise.
- *         The response is either UserExecutiveGetAvailableAssistantListResponse or
- * ErrorResponse.
+ *         Searching for users by group only makes sense when the executive user is part of an Enterprise.
+ *         The response is either UserExecutiveGetAvailableAssistantListResponse or ErrorResponse.
  *
  * @see UserExecutiveGetAvailableAssistantListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"f5d58d7e1c3de827d7f1ff867a413cdd:178","type":"sequence"}]
  */
 class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:178
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +27,8 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:178
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -35,6 +37,8 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -45,6 +49,8 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -54,6 +60,8 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -61,6 +69,8 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -69,6 +79,8 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -79,6 +91,8 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -89,6 +103,8 @@ class UserExecutiveGetAvailableAssistantListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:178
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

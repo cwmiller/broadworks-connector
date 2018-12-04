@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallPickupGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1d2c67d4a97adca57d9953b2182b4b0d:216","type":"sequence"}]
  */
 class UserCallPickupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserCallPickupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:216
      * @var string|null
      */
     private $userId = null;

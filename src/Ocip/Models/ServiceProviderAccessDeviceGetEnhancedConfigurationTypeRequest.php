@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest
  *
- * Requests the details of a specified configurable device type for a service
- * provider.
- *         The response is either
- * ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse
+ * Requests the details of a specified configurable device type for a service provider.
+ *         The response is either ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse
  *         or ErrorResponse.
  *
  * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:509","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest extends \CW
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:509
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +27,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeRequest extends \CW
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:509
      * @var string|null
      */
     private $deviceType = null;

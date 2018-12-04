@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1014","type":"sequence"}]
  */
 class GroupAdminDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupAdminDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1014
      * @var string|null
      */
     private $userId = null;

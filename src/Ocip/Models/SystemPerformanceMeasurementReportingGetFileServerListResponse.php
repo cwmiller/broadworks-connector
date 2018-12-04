@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemPerformanceMeasurementReportingGetFileServerListResponse
  *
- * Response to SystemPerformanceMeasurementReportingGetFileServerListRequest. The
- * table columns are:
+ * Response to SystemPerformanceMeasurementReportingGetFileServerListRequest. The table columns are:
  *         "FTP Host Net Address", "FTP User Id", "Passive FTP".
  *
  * @see SystemPerformanceMeasurementReportingGetFileServerListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12505","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingGetFileServerListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemPerformanceMeasurementReportingGetFileServerListResponse extends \CW
     /**
      * @ElementName fileServerTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12505
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $fileServerTable = null;

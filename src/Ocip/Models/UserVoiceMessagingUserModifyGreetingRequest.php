@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserVoiceMessagingUserModifyGreetingRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38077","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,7 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +29,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName busyAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $busyAnnouncementSelection = null;
@@ -34,6 +38,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName busyPersonalAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $busyPersonalAudioFile = null;
@@ -41,6 +47,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName busyPersonalVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $busyPersonalVideoFile = null;
@@ -48,6 +56,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     private $noAnswerAnnouncementSelection = null;
@@ -55,6 +65,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerPersonalAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $noAnswerPersonalAudioFile = null;
@@ -62,6 +74,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerPersonalVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $noAnswerPersonalVideoFile = null;
@@ -69,6 +83,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerAlternateGreeting01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify|null
      */
     private $noAnswerAlternateGreeting01 = null;
@@ -76,6 +92,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerAlternateGreeting02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify|null
      */
     private $noAnswerAlternateGreeting02 = null;
@@ -83,6 +101,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerAlternateGreeting03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingAlternateNoAnswerGreetingModify|null
      */
     private $noAnswerAlternateGreeting03 = null;
@@ -90,6 +110,8 @@ class UserVoiceMessagingUserModifyGreetingRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38077
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;

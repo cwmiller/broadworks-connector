@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterNightServiceGetRequest20
  *
  * Get a call center's night service settings.
- *         The response is either a GroupCallCenterNightServiceGetResponse20 or an
- * ErrorResponse.
+ *         The response is either a GroupCallCenterNightServiceGetResponse20 or an ErrorResponse.
  *
  * @see GroupCallCenterNightServiceGetResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4756","type":"sequence"}]
  */
 class GroupCallCenterNightServiceGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterNightServiceGetRequest20 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4756
      * @var string|null
      */
     private $serviceUserId = null;

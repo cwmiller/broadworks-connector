@@ -5,21 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseUserHotelingGuestSettingsGetListRequest
  *
- * Get a list of users and their Hoteling Guest service status (active or not
- * active).
- *         The response is either
- * EnterpriseUserHotelingGuestSettingsGetListResponse or ErrorResponse.
- *         By default, virtual users and non-virtual users that match the selected
- * search criteria are included in the response when "includeVirtualUsers" is
- * present; otherwise, if "includeVirtualUsers" is absent, then only non-virtual
- * users are returned. 
- *         The search can be performed using multiple criteria. If search criteria
- * is specified, only the users matching all of the specified search criteria are
- * included in the response. If no search criteria is specified, all results are
- * returned.
+ * Get a list of users and their Hoteling Guest service status (active or not active).
+ *         The response is either EnterpriseUserHotelingGuestSettingsGetListResponse or ErrorResponse.
+ *         By default, virtual users and non-virtual users that match the selected search criteria are included in the response when "includeVirtualUsers" is present; otherwise, if "includeVirtualUsers" is absent, then only non-virtual users are returned. 
+ *         The search can be performed using multiple criteria. If search criteria is specified, only the users matching all of the specified search criteria are included in the response. If no search criteria is specified, all results are returned.
  *
  * @see EnterpriseUserHotelingGuestSettingsGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1270","type":"sequence","children":[{"id":"b561eca19800e0898f471e5e91eb3baa:1273","type":"choice"}]}]
  */
 class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,6 +20,7 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -34,6 +28,7 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -41,6 +36,7 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
+     * @Group b561eca19800e0898f471e5e91eb3baa:1273
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     private $sortByUserLastName = null;
@@ -48,6 +44,7 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
+     * @Group b561eca19800e0898f471e5e91eb3baa:1273
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     private $sortByUserFirstName = null;
@@ -55,6 +52,7 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment
+     * @Group b561eca19800e0898f471e5e91eb3baa:1273
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null
      */
     private $sortByUserDepartment = null;
@@ -62,6 +60,7 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
+     * @Group b561eca19800e0898f471e5e91eb3baa:1273
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     private $sortByDn = null;
@@ -69,6 +68,7 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
+     * @Group b561eca19800e0898f471e5e91eb3baa:1273
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     private $sortByExtension = null;
@@ -76,6 +76,7 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByServiceStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByServiceStatus
+     * @Group b561eca19800e0898f471e5e91eb3baa:1273
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByServiceStatus|null
      */
     private $sortByServiceStatus = null;
@@ -83,6 +84,7 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupId
+     * @Group b561eca19800e0898f471e5e91eb3baa:1273
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupId|null
      */
     private $sortByGroupId = null;
@@ -90,6 +92,8 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName includeVirtualUsers
      * @Type bool
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var bool|null
      */
     private $includeVirtualUsers = null;
@@ -98,6 +102,8 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -108,6 +114,8 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -118,6 +126,8 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -128,6 +138,8 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -138,6 +150,8 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -148,6 +162,8 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -157,6 +173,8 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -164,6 +182,8 @@ class EnterpriseUserHotelingGuestSettingsGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1270
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
     private $searchCriteriaExactUserInTrunkGroup = null;

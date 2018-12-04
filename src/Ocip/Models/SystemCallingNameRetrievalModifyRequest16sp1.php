@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCallingNameRetrievalModifyRequest20
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:18324","type":"sequence"}]
  */
 class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName triggerCNAMQueriesForAllNetworkCalls
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var bool|null
      */
     private $triggerCNAMQueriesForAllNetworkCalls = null;
@@ -27,6 +30,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName triggerCNAMQueriesForGroupAndEnterpriseCalls
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var bool|null
      */
     private $triggerCNAMQueriesForGroupAndEnterpriseCalls = null;
@@ -34,6 +39,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName queryProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalQueryProtocol|null
      */
     private $queryProtocol = null;
@@ -41,6 +48,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName queryTimeoutMilliseconds
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var int|null
      */
     private $queryTimeoutMilliseconds = null;
@@ -49,6 +58,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName sipExternalDatabaseNetAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipExternalDatabaseNetAddress = null;
@@ -57,6 +68,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName sipExternalDatabasePort
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipExternalDatabasePort = null;
@@ -64,6 +77,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName sipExternalDatabaseTransport
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $sipExternalDatabaseTransport = null;
@@ -72,6 +87,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
      * @ElementName soapExternalDatabaseNetAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $soapExternalDatabaseNetAddress = null;
@@ -79,6 +96,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName soapSupportsDNSSRV
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var bool|null
      */
     private $soapSupportsDNSSRV = null;
@@ -86,6 +105,8 @@ class SystemCallingNameRetrievalModifyRequest16sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName callingNameSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18324
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingNameRetrievalSourceIdentity|null
      */
     private $callingNameSource = null;

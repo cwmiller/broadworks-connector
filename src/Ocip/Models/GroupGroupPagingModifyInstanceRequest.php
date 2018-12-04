@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:413","type":"sequence"}]
  */
 class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:413
      * @var string|null
      */
     private $serviceUserId = null;
@@ -24,6 +26,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:413
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -31,6 +35,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:413
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -38,6 +44,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:413
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
@@ -46,6 +54,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName originatorCLIDPrefix
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:413
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $originatorCLIDPrefix = null;
@@ -53,6 +63,8 @@ class GroupGroupPagingModifyInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:413
      * @var string|null
      */
     private $networkClassOfService = null;

@@ -6,25 +6,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDnGetSummaryListRequest
  *
  * Request a summary table of all DNs in the system. If resellerId is specified, 
- *         the DNs assigned to the enterprises/service providers within the
- * reseller are returned.
- *         If reseller administrator sends the request and resellerId is not
- * specified, the administrator's resellerId is used.
- *         The search can be done using multiple criteria. Only results matching
- * all the search criteria are included in the results.
+ *         the DNs assigned to the enterprises/service providers within the reseller are returned.
+ *         If reseller administrator sends the request and resellerId is not specified, the administrator's resellerId is used.
+ *         The search can be done using multiple criteria. Only results matching all the search criteria are included in the results.
  *         
  *         The response is either SystemDnGetSummaryListResponse or ErrorResponse.
  *         
  *         The following data elements are only used in AS data mode:
  *           resellerId
  *         
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
- *           searchCriteriaDn, searchCriteriaServiceProviderId,
- * searchCriteriaExactOrganizationType
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
+ *           searchCriteriaDn, searchCriteriaServiceProviderId, searchCriteriaExactOrganizationType
  *
  * @see SystemDnGetSummaryListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7757","type":"sequence"}]
  */
 class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -32,6 +28,8 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7757
      * @var string|null
      */
     private $resellerId = null;
@@ -40,6 +38,8 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -50,6 +50,8 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName searchCriteriaServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -59,6 +61,8 @@ class SystemDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7757
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     private $searchCriteriaExactOrganizationType = null;

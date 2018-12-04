@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupVoiceXmlGetInstanceListRequest.
  *         Contains a table with column headings:
- *         "Service User Id", "Name", "Phone Number", "Extension", "Department",
- * "Is Active".
+ *         "Service User Id", "Name", "Phone Number", "Extension", "Department", "Is Active".
  *         The column values for "Is Active" can either be true, or false.
  *
  * @see GroupVoiceXmlGetInstanceListRequest
+ * @Groups [{"id":"75fc596c21103d0c2b08c717c36f4ff1:106","type":"sequence"}]
  */
 class GroupVoiceXmlGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class GroupVoiceXmlGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName voiceXmlTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:106
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $voiceXmlTable = null;

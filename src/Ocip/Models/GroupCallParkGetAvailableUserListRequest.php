@@ -8,11 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Get a list of users that can be assigned to a Call Park group.
  *         The available user list for a new Call Park group can be obtained
  *         by not setting the name.
- *         The response is either GroupCallParkGetAvailableUserListResponse or
- * ErrorResponse.
+ *         The response is either GroupCallParkGetAvailableUserListResponse or ErrorResponse.
  *
  * @see GroupCallParkGetAvailableUserListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"06fc006748da1632379fc9603b619dca:128","type":"sequence"}]
  */
 class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName name
      * @Type string
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var string|null
      */
     private $name = null;
@@ -41,6 +45,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -49,6 +55,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -59,6 +67,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -68,6 +78,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -76,6 +88,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -86,6 +100,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -96,6 +112,8 @@ class GroupCallParkGetAvailableUserListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:128
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

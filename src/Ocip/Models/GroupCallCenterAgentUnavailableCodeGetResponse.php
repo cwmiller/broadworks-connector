@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterAgentUnavailableCodeGetRequest
  *
  * @see GroupCallCenterAgentUnavailableCodeGetRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2294","type":"sequence"}]
  */
 class GroupCallCenterAgentUnavailableCodeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCallCenterAgentUnavailableCodeGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2294
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,8 @@ class GroupCallCenterAgentUnavailableCodeGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2294
      * @var string|null
      */
     private $description = null;

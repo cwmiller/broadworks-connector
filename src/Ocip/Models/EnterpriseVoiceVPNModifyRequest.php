@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1541","type":"sequence"}]
  */
 class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1541
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,8 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1541
      * @var bool|null
      */
     private $isActive = null;
@@ -31,6 +35,8 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1541
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDefaultSelection|null
      */
     private $defaultSelection = null;
@@ -38,6 +44,8 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName e164Selection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1541
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNNonMatchingE164NumberSelection|null
      */
     private $e164Selection = null;
@@ -45,6 +53,8 @@ class EnterpriseVoiceVPNModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName usePhoneContext
      * @Type bool
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1541
      * @var bool|null
      */
     private $usePhoneContext = null;

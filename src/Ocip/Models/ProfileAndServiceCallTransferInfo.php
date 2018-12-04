@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ProfileAndServiceCallTransferInfo
  *
  * This is the configuration parameters for Call Transfer service
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3554","type":"sequence"}]
  */
 class ProfileAndServiceCallTransferInfo
 {
@@ -13,6 +15,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName isRecallActive
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3554
      * @var bool|null
      */
     private $isRecallActive = null;
@@ -20,6 +23,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName recallNumberOfRings
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:3554
      * @var int|null
      */
     private $recallNumberOfRings = null;
@@ -27,6 +31,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3554
      * @var bool|null
      */
     private $useDiversionInhibitorForBlindTransfer = null;
@@ -34,6 +39,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3554
      * @var bool|null
      */
     private $useDiversionInhibitorForConsultativeCalls = null;
@@ -41,6 +47,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName enableBusyCampOn
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3554
      * @var bool|null
      */
     private $enableBusyCampOn = null;
@@ -48,6 +55,7 @@ class ProfileAndServiceCallTransferInfo
     /**
      * @ElementName busyCampOnSeconds
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:3554
      * @var int|null
      */
     private $busyCampOnSeconds = null;

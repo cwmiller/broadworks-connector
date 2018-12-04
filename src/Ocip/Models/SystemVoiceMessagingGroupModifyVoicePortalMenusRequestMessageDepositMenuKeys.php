@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32035","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
      * @ElementName enableMessageDeposit
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32035
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enableMessageDeposit = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
      * @ElementName disableMessageDeposit
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32035
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disableMessageDeposit = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
      * @ElementName listenToMessageDepositStatus
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32035
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToMessageDepositStatus = null;
@@ -35,6 +43,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32035
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -43,6 +53,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestMessageDepositMenuKe
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32035
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

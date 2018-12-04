@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderPreferredCarrierGetCarrierListResponse
  *
  * Response to a ServiceProviderPreferredCarrierGetCarrierListRequest.
- *         Contains the lists of carriers for a specified country code for a
- * service provider / enterprise.
+ *         Contains the lists of carriers for a specified country code for a service provider / enterprise.
  *
  * @see ServiceProviderPreferredCarrierGetCarrierListRequest
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:208","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,8 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @ElementName intraLataCarrier
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:208
      * @var string[]
      */
     private $intraLataCarrier = array(
@@ -28,6 +30,8 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @ElementName interLataCarrier
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:208
      * @var string[]
      */
     private $interLataCarrier = array(
@@ -38,6 +42,8 @@ class ServiceProviderPreferredCarrierGetCarrierListResponse extends \CWM\BroadWo
      * @ElementName internationalCarrier
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:208
      * @var string[]
      */
     private $internationalCarrier = array(

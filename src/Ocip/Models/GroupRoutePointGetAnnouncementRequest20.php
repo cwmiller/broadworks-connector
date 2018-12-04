@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointGetAnnouncementRequest20
  *
  * Get a route point's announcement settings.
- *         The response is either a GroupRoutePointGetAnnouncementResponse20 or an
- * ErrorResponse.
+ *         The response is either a GroupRoutePointGetAnnouncementResponse20 or an ErrorResponse.
  *
  * @see GroupRoutePointGetAnnouncementResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:350","type":"sequence"}]
  */
 class GroupRoutePointGetAnnouncementRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointGetAnnouncementRequest20 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:350
      * @var string|null
      */
     private $serviceUserId = null;

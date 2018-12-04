@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10655","type":"sequence"}]
  */
 class SystemMultimediaPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemMultimediaPolicyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName restrictNonAudioVideoMediaTypes
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10655
      * @var bool|null
      */
     private $restrictNonAudioVideoMediaTypes = null;

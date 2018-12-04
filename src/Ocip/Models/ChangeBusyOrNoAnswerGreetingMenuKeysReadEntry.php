@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ChangeBusyOrNoAnswerGreetingMenuKeysReadEntry
  *
  * The voice portal change busy or not answer greeting menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2286","type":"sequence"}]
  */
 class ChangeBusyOrNoAnswerGreetingMenuKeysReadEntry
 {
@@ -13,6 +15,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysReadEntry
     /**
      * @ElementName recordNewGreeting
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2286
      * @var string|null
      */
     private $recordNewGreeting = null;
@@ -20,6 +24,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysReadEntry
     /**
      * @ElementName listenToCurrentGreeting
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2286
      * @var string|null
      */
     private $listenToCurrentGreeting = null;
@@ -27,6 +33,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysReadEntry
     /**
      * @ElementName revertToSystemDefaultGreeting
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2286
      * @var string|null
      */
     private $revertToSystemDefaultGreeting = null;
@@ -34,6 +42,7 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2286
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -41,6 +50,8 @@ class ChangeBusyOrNoAnswerGreetingMenuKeysReadEntry
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2286
      * @var string|null
      */
     private $repeatMenu = null;

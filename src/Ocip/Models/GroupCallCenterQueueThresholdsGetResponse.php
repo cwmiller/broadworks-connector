@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterQueueThresholdsGetRequest.
  *
  * @see GroupCallCenterQueueThresholdsGetRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5158","type":"sequence"}]
  */
 class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdCurrentCallsInQueueYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdCurrentCallsInQueueYellow = null;
@@ -29,6 +33,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdCurrentCallsInQueueRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdCurrentCallsInQueueRed = null;
@@ -36,6 +42,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdCurrentLongestWaitingCallYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdCurrentLongestWaitingCallYellow = null;
@@ -43,6 +51,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdCurrentLongestWaitingCallRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdCurrentLongestWaitingCallRed = null;
@@ -50,6 +60,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdAverageEstimatedWaitTimeYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdAverageEstimatedWaitTimeYellow = null;
@@ -57,6 +69,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdAverageEstimatedWaitTimeRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdAverageEstimatedWaitTimeRed = null;
@@ -64,6 +78,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdAverageHandlingTimeYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdAverageHandlingTimeYellow = null;
@@ -71,6 +87,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdAverageHandlingTimeRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdAverageHandlingTimeRed = null;
@@ -78,6 +96,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdAverageSpeedOfAnswerYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdAverageSpeedOfAnswerYellow = null;
@@ -85,6 +105,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName thresholdAverageSpeedOfAnswerRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var int|null
      */
     private $thresholdAverageSpeedOfAnswerRed = null;
@@ -92,6 +114,7 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName enableNotificationEmail
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var bool|null
      */
     private $enableNotificationEmail = null;
@@ -100,6 +123,8 @@ class GroupCallCenterQueueThresholdsGetResponse extends \CWM\BroadWorksConnector
      * @ElementName notificationEmailAddress
      * @Type string
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5158
      * @var string[]
      */
     private $notificationEmailAddress = array(

@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserPreAlertingAnnouncementGetRequest
  * @see UserPreAlertingAnnouncementGetResponse20
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5375","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +21,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var bool|null
      */
     private $isActive = null;
@@ -27,6 +29,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
@@ -34,6 +37,8 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName audioFileDescription
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -41,6 +46,8 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -48,6 +55,8 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName audioFileUrl
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -55,6 +64,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
@@ -62,6 +72,8 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName videoFileDescription
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -69,6 +81,8 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -76,6 +90,8 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName videoFileUrl
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -83,6 +99,7 @@ class UserPreAlertingAnnouncementGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5375
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

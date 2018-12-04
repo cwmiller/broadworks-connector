@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDomainGetAssignedListRequest
  *
  * Requests the list of all domains assigned to a group.
- *         The response is either GroupDomainGetAssignedListResponse or
- * ErrorResponse.
+ *         The response is either GroupDomainGetAssignedListResponse or ErrorResponse.
  *
  * @see GroupDomainGetAssignedListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4373","type":"sequence"}]
  */
 class GroupDomainGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupDomainGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4373
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupDomainGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4373
      * @var string|null
      */
     private $groupId = null;

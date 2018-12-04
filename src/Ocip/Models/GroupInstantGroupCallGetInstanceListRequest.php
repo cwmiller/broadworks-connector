@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInstantGroupCallGetInstanceListRequest
  *
  * Request to get a list of Instant Group Call service instances within a group.
- *         The response is either GroupInstantGroupCallGetInstanceListResponse or
- * ErrorResponse.
- *         It is possible to get the service instances within a specified
- * department.
+ *         The response is either GroupInstantGroupCallGetInstanceListResponse or ErrorResponse.
+ *         It is possible to get the service instances within a specified department.
  *
  * @see GroupInstantGroupCallGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c689e88c0ff061c491155e92929e7018:86","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group c689e88c0ff061c491155e92929e7018:86
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +27,7 @@ class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
+     * @Group c689e88c0ff061c491155e92929e7018:86
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +35,8 @@ class GroupInstantGroupCallGetInstanceListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Optional
+     * @Group c689e88c0ff061c491155e92929e7018:86
      * @var string|null
      */
     private $groupDepartmentName = null;

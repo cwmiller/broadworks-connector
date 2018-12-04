@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserTerminatingAlternateTrunkIdentityGetRequest
  *
- * Request the user level data associated with Terminating Alternate Trunk
- * Identity.
- *       The response is either a UserTerminatingAlternateTrunkIdentityGetResponse
- * or an
+ * Request the user level data associated with Terminating Alternate Trunk Identity.
+ *       The response is either a UserTerminatingAlternateTrunkIdentityGetResponse or an
  *       ErrorResponse.
  *
  * @see UserTerminatingAlternateTrunkIdentityGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3378","type":"sequence"}]
  */
 class UserTerminatingAlternateTrunkIdentityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class UserTerminatingAlternateTrunkIdentityGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:3378
      * @var string|null
      */
     private $userId = null;

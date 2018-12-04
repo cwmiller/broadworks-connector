@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemBwDiameterRoutingPeerAddRequest
  *
- * Add a Diameter routing peer.  The realm must refer to a Diameter routing realm
- * whose action is relay.  The destinationPeerIdentity must refer to an existing
- * Diameter peer whose mode is active.
+ * Add a Diameter routing peer.  The realm must refer to a Diameter routing realm whose action is relay.  The destinationPeerIdentity must refer to an existing Diameter peer whose mode is active.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2308","type":"sequence"}]
  */
 class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2308
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -26,6 +26,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName realm
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2308
      * @var string|null
      */
     private $realm = null;
@@ -33,6 +34,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName applicationId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2308
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterApplicationId|null
      */
     private $applicationId = null;
@@ -40,6 +42,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName identity
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2308
      * @var string|null
      */
     private $identity = null;
@@ -47,6 +50,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName priority
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2308
      * @var int|null
      */
     private $priority = null;
@@ -54,6 +58,7 @@ class SystemBwDiameterRoutingPeerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName weight
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2308
      * @var int|null
      */
     private $weight = null;

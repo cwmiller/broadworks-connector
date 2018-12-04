@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAdviceOfChargeGetRequest
  *
  * Request to get the list of Advice of Charge service provider parameters.
- *         The response is either ServiceProviderAdviceOfChargeGetResponse or
- * ErrorResponse.
+ *         The response is either ServiceProviderAdviceOfChargeGetResponse or ErrorResponse.
  *
  * @see ServiceProviderAdviceOfChargeGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d7a3faa291b985d963cf43a21af19b28:104","type":"sequence"}]
  */
 class ServiceProviderAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group d7a3faa291b985d963cf43a21af19b28:104
      * @var string|null
      */
     private $serviceProviderId = null;

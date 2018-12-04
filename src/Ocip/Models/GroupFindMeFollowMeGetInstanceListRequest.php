@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFindMeFollowMeGetInstanceListRequest
  *
  * Get a list of Find-me/Follow-me instances within a group.
- *         The response is either GroupFindMeFollowMeGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupFindMeFollowMeGetInstanceListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupFindMeFollowMeGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:342","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group d0d5b8a5908815c6ae522efe732e363a:342
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
+     * @Group d0d5b8a5908815c6ae522efe732e363a:342
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupFindMeFollowMeGetInstanceListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Optional
+     * @Group d0d5b8a5908815c6ae522efe732e363a:342
      * @var string|null
      */
     private $groupDepartmentName = null;

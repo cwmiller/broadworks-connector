@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallToNumberGetAvailableListRequest
  *
- * Request to get the user available Call to Number List information. The response
- * is either a UserCallToNumberGetAvailableListResponse or an ErrorResponse.
+ * Request to get the user available Call to Number List information. The response is either a UserCallToNumberGetAvailableListResponse or an ErrorResponse.
  *
  * @see UserCallToNumberGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:97","type":"sequence"}]
  */
 class UserCallToNumberGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +17,7 @@ class UserCallToNumberGetAvailableListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:97
      * @var string|null
      */
     private $userId = null;

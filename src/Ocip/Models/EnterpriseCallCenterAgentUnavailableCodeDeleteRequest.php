@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:609","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseCallCenterAgentUnavailableCodeDeleteRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:609
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class EnterpriseCallCenterAgentUnavailableCodeDeleteRequest extends \CWM\BroadWo
     /**
      * @ElementName code
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:609
      * @var string|null
      */
     private $code = null;

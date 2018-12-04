@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDnGetAvailableListResponse
  *
  * Response to the GroupDnGetAvailableListRequest.
- *         The response contains the list of DNs that are assigned to a group and
- * still available for
+ *         The response contains the list of DNs that are assigned to a group and still available for
  *         assignment to users or service instances within the group.
  *
  * @see GroupDnGetAvailableListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4147","type":"sequence"}]
  */
 class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,8 @@ class GroupDnGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4147
      * @var string[]
      */
     private $phoneNumber = array(

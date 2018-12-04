@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14009","type":"sequence"}]
  */
 class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName webServerClusterPublicFQDN
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14009
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $webServerClusterPublicFQDN = null;
@@ -26,6 +29,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName applicationServerClusterPrimaryPublicFQDN
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14009
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerClusterPrimaryPublicFQDN = null;
@@ -34,6 +39,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName applicationServerClusterSecondaryPublicFQDN
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14009
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerClusterSecondaryPublicFQDN = null;
@@ -42,6 +49,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14009
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerClusterPrimaryPrivateFQDN = null;
@@ -50,6 +59,8 @@ class SystemServerAddressesModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14009
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerClusterSecondaryPrivateFQDN = null;

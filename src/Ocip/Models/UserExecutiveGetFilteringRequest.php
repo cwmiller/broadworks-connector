@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserExecutiveGetFilteringRequest
  *
- * Get the filtering setting and the list of filtering criteria defined for an
- * executive user.
+ * Get the filtering setting and the list of filtering criteria defined for an executive user.
  *         Both executive and the executive assistant can run this command.
- *         The response is either UserExecutiveGetFilteringResponse or
- * ErrorResponse.
+ *         The response is either UserExecutiveGetFilteringResponse or ErrorResponse.
  *
  * @see UserExecutiveGetFilteringResponse
  * @see ErrorResponse
+ * @Groups [{"id":"f5d58d7e1c3de827d7f1ff867a413cdd:220","type":"sequence"}]
  */
 class UserExecutiveGetFilteringRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class UserExecutiveGetFilteringRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:220
      * @var string|null
      */
     private $userId = null;

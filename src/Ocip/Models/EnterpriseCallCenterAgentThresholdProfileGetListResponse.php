@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterAgentThresholdProfileGetListResponse
  *
  * Response to the EnterpriseCallCenterAgentThresholdProfileGetListRequest.
- *         Contains a table with all the  Call Center Agent Threshold Profiles in
- * the Enterprise.
+ *         Contains a table with all the  Call Center Agent Threshold Profiles in the Enterprise.
  *         The column headings are: "Default", "Name", "Description".
  *
  * @see EnterpriseCallCenterAgentThresholdProfileGetListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:490","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetListResponse extends \CWM\Broa
     /**
      * @ElementName profilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:490
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profilesTable = null;

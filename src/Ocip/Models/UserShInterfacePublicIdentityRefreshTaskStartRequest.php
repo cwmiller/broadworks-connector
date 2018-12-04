@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserShInterfacePublicIdentityRefreshTaskStartRequest
  *
- * Dispatches a Public Identity refresh task on the local Application Server node
- * for the specified public identity.
+ * Dispatches a Public Identity refresh task on the local Application Server node for the specified public identity.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3361","type":"sequence"}]
  */
 class UserShInterfacePublicIdentityRefreshTaskStartRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserShInterfacePublicIdentityRefreshTaskStartRequest extends \CWM\BroadWor
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
+     * @Group 489b2153267470be8e945bf6b778e0d0:3361
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;

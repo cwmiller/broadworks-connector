@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * LoginRequest13mp10
  *
  * LoginRequest13mp10 is 2nd stage of the 2 stage OCI login process.
- *         The signedPassword is not required for external authentication login
- * from a trusted host (ACL).
+ *         The signedPassword is not required for external authentication login from a trusted host (ACL).
  *
  * @see LoginRequest13mp10
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14403","type":"sequence"}]
  */
 class LoginRequest13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +17,7 @@ class LoginRequest13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14403
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +25,8 @@ class LoginRequest13mp10 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName signedPassword
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14403
      * @var string|null
      */
     private $signedPassword = null;

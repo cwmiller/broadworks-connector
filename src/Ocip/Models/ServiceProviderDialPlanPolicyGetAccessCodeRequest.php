@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDialPlanPolicyGetAccessCodeRequest
  *
- * Request access code data associated with Service Provider level Dial Plan Policy
- * access codes.
- *         The response is either a
- * ServiceProviderDialPlanPolicyGetAccessCodeResponse or an ErrorResponse.
+ * Request access code data associated with Service Provider level Dial Plan Policy access codes.
+ *         The response is either a ServiceProviderDialPlanPolicyGetAccessCodeResponse or an ErrorResponse.
  *
  * @see ServiceProviderDialPlanPolicyGetAccessCodeResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2908","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2908
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class ServiceProviderDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksC
     /**
      * @ElementName accessCode
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2908
      * @var string|null
      */
     private $accessCode = null;

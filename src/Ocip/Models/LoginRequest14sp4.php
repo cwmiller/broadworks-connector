@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * LoginRequest14sp4
  *
  * LoginRequest14sp4 is 2nd stage of the 2 stage OCI login process.
- *         The signedPassword is not required for external authentication login
- * from a trusted host (ACL).
+ *         The signedPassword is not required for external authentication login from a trusted host (ACL).
  *         
  *        Replaced by: LoginRequest22 in AS data mode.
  *
  * @see LoginRequest14sp4
  * @see LoginRequest22
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2258","type":"sequence"}]
  */
 class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * @ElementName userId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2258
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,8 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * @ElementName signedPassword
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2258
      * @var string|null
      */
     private $signedPassword = null;
@@ -34,6 +37,8 @@ class LoginRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * @ElementName plainTextPassword
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2258
      * @var string|null
      */
     private $plainTextPassword = null;

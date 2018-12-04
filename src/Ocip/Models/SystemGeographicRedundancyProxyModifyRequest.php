@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8991","type":"sequence"}]
  */
 class SystemGeographicRedundancyProxyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemGeographicRedundancyProxyModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName enabled
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8991
      * @var bool|null
      */
     private $enabled = null;

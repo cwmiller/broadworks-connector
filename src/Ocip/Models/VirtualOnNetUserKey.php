@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Virtual On-Net User identifier which is the Service Provider ID, Group ID,
  *         and phone number (in E.164 format).
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:4022","type":"sequence"}]
  */
 class VirtualOnNetUserKey
 {
@@ -14,6 +16,7 @@ class VirtualOnNetUserKey
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4022
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -21,6 +24,7 @@ class VirtualOnNetUserKey
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4022
      * @var string|null
      */
     private $groupId = null;
@@ -28,6 +32,7 @@ class VirtualOnNetUserKey
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4022
      * @var string|null
      */
     private $phoneNumber = null;

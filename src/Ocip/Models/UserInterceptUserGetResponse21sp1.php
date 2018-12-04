@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *           disableParallelRingingToNetworkLocations
  *
  * @see UserInterceptUserGetRequest21sp1
+ * @Groups [{"id":"bf05ea6ea4a301f45f76ff5756023e2d:288","type":"sequence"}]
  */
 class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +21,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var bool|null
      */
     private $isActive = null;
@@ -27,6 +29,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -34,6 +37,8 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName audioFileDescription
      * @Type string
+     * @Optional
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -41,6 +46,8 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -48,6 +55,8 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName videoFileDescription
      * @Type string
+     * @Optional
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -55,6 +64,8 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -62,6 +73,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName inboundCallMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptInboundCall|null
      */
     private $inboundCallMode = null;
@@ -69,6 +81,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateBlockingAnnouncement
      * @Type bool
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var bool|null
      */
     private $alternateBlockingAnnouncement = null;
@@ -76,6 +89,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName exemptInboundMobilityCalls
      * @Type bool
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var bool|null
      */
     private $exemptInboundMobilityCalls = null;
@@ -83,6 +97,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName disableParallelRingingToNetworkLocations
      * @Type bool
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var bool|null
      */
     private $disableParallelRingingToNetworkLocations = null;
@@ -90,6 +105,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName routeToVoiceMail
      * @Type bool
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var bool|null
      */
     private $routeToVoiceMail = null;
@@ -97,6 +113,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName playNewPhoneNumber
      * @Type bool
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var bool|null
      */
     private $playNewPhoneNumber = null;
@@ -104,6 +121,8 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName newPhoneNumber
      * @Type string
+     * @Optional
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var string|null
      */
     private $newPhoneNumber = null;
@@ -111,6 +130,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
@@ -118,6 +138,8 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName transferPhoneNumber
      * @Type string
+     * @Optional
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -125,6 +147,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName outboundCallMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var \CWM\BroadWorksConnector\Ocip\Models\InterceptOutboundCall|null
      */
     private $outboundCallMode = null;
@@ -132,6 +155,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName exemptOutboundMobilityCalls
      * @Type bool
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var bool|null
      */
     private $exemptOutboundMobilityCalls = null;
@@ -139,6 +163,7 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName rerouteOutboundCalls
      * @Type bool
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var bool|null
      */
     private $rerouteOutboundCalls = null;
@@ -146,6 +171,8 @@ class UserInterceptUserGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName outboundReroutePhoneNumber
      * @Type string
+     * @Optional
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:288
      * @var string|null
      */
     private $outboundReroutePhoneNumber = null;

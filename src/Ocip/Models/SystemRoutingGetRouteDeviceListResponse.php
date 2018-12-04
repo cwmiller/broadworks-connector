@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemRoutingGetRouteDeviceListResponse
  *
- * Response to SystemRoutingGetRouteDeviceListRequest. The column headings are "Net
- * Address",
+ * Response to SystemRoutingGetRouteDeviceListRequest. The column headings are "Net Address",
  *         "Port", "Transport" and "Description".
  *
  * @see SystemRoutingGetRouteDeviceListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13516","type":"sequence"}]
  */
 class SystemRoutingGetRouteDeviceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemRoutingGetRouteDeviceListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName routeDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13516
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routeDeviceTable = null;

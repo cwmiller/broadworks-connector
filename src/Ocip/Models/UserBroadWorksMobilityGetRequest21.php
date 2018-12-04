@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksMobilityGetRequest21
  *
  * Get the user's BroadWorks Mobility service settings.
- *         The response is either a UserBroadWorksMobilityGetResponse21 or an
- * ErrorResponse.
+ *         The response is either a UserBroadWorksMobilityGetResponse21 or an ErrorResponse.
  *
  * @see UserBroadWorksMobilityGetResponse21
  * @see ErrorResponse
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:1455","type":"sequence"}]
  */
 class UserBroadWorksMobilityGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserBroadWorksMobilityGetRequest21 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1455
      * @var string|null
      */
     private $userId = null;

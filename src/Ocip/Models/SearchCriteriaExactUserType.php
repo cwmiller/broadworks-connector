@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SearchCriteriaExactUserType
  *
  * Criteria for searching for a particular User Type.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:1188","type":"sequence"}]
  */
 class SearchCriteriaExactUserType extends SearchCriteria
 {
@@ -13,6 +15,7 @@ class SearchCriteriaExactUserType extends SearchCriteria
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
+     * @Group d37849f5e289836ccd316323a7a3799a:1188
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;

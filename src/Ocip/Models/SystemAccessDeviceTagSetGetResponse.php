@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response includes a tag set name defined in the access device.
  *
  * @see SystemAccessDeviceTagSetGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1272","type":"sequence"}]
  */
 class SystemAccessDeviceTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class SystemAccessDeviceTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName tagSetName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1272
      * @var string|null
      */
     private $tagSetName = null;

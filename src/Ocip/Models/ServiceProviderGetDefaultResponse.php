@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderGetDefaultResponse
  *
- * Response to the ServiceProviderGetDefaultRequest. All values are default values
- * for
+ * Response to the ServiceProviderGetDefaultRequest. All values are default values for
  *         a service provider or enterprise's profile.
  *         
- *         The following elements are only used in AS and XS data mode and not
- * returned in Amplify data mode.
+ *         The following elements are only used in AS and XS data mode and not returned in Amplify data mode.
  *           defaultDomain
  *
  * @see ServiceProviderGetDefaultRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3507","type":"sequence"}]
  */
 class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +20,7 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isEnterprise
      * @Type bool
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3507
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -28,6 +28,8 @@ class ServiceProviderGetDefaultResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName defaultDomain
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3507
      * @var string|null
      */
     private $defaultDomain = null;

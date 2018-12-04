@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemExternalAuthenticationGetACLListResponse
  *
- * Response to SystemExternalAuthenticationGetACLListRequest. The table columns
- * are:
+ * Response to SystemExternalAuthenticationGetACLListRequest. The table columns are:
  *         "Net Address" and "Description".
  *
  * @see SystemExternalAuthenticationGetACLListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8485","type":"sequence"}]
  */
 class SystemExternalAuthenticationGetACLListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemExternalAuthenticationGetACLListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName aclTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8485
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $aclTable = null;

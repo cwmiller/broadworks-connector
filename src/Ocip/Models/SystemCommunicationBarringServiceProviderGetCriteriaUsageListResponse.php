@@ -5,13 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCommunicationBarringServiceProviderGetCriteriaUsageListResponse
  *
- * Response to the
- * SystemCommunicationBarringServiceProviderGetCriteriaUsageListRequest.
- *         The response contains a table of all Service Providers that use the
- * specific Communication Barring criteria. The column headings are "Service
- * Provider Id", "Service Provider Name" and "Is Enterprise"
+ * Response to the SystemCommunicationBarringServiceProviderGetCriteriaUsageListRequest.
+ *         The response contains a table of all Service Providers that use the specific Communication Barring criteria. The column headings are "Service Provider Id", "Service Provider Name" and "Is Enterprise"
  *
  * @see SystemCommunicationBarringServiceProviderGetCriteriaUsageListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5802","type":"sequence"}]
  */
 class SystemCommunicationBarringServiceProviderGetCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +17,7 @@ class SystemCommunicationBarringServiceProviderGetCriteriaUsageListResponse exte
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5802
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderTable = null;

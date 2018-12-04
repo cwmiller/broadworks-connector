@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in the system. The column headings are "Name" and "Description".
  *
  * @see SystemCallProcessingPolicyProfileGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:3407","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class SystemCallProcessingPolicyProfileGetListResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName callProcessingPolicyProfilesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3407
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callProcessingPolicyProfilesTable = null;

@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest
  *
- * Request to get the list of devices can be assigned to session admission control
- * group for the enterprise.
- *         The response is either an
- * EnterpriseSessionAdmissionControlGetAvailableDeviceListResponse or an
- * ErrorResponse.
+ * Request to get the list of devices can be assigned to session admission control group for the enterprise.
+ *         The response is either an EnterpriseSessionAdmissionControlGetAvailableDeviceListResponse or an ErrorResponse.
  *
  * @see EnterpriseSessionAdmissionControlGetAvailableDeviceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:858","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:858
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +26,8 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:858
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -35,6 +36,8 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName searchCriteriaDeviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:858
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
     private $searchCriteriaDeviceName = array(
@@ -45,6 +48,8 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName searchCriteriaDeviceMACAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:858
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
     private $searchCriteriaDeviceMACAddress = array(
@@ -55,6 +60,8 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName searchCriteriaDeviceNetAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:858
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
     private $searchCriteriaDeviceNetAddress = array(
@@ -65,6 +72,8 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:858
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -74,6 +83,8 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
     /**
      * @ElementName searchCriteriaExactDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:858
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceType|null
      */
     private $searchCriteriaExactDeviceType = null;
@@ -81,6 +92,8 @@ class EnterpriseSessionAdmissionControlGetAvailableDeviceListRequest extends \CW
     /**
      * @ElementName searchCriteriaExactDeviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:858
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDeviceLevel|null
      */
     private $searchCriteriaExactDeviceLevel = null;

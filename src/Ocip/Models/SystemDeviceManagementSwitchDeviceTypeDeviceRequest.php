@@ -6,16 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceManagementSwitchDeviceTypeDeviceRequest
  *
  * Switch the device type for a specified device.
- *         To switch a system level device profile, serviceProviderId and groupId
- * should not be present.
- *         To switch a service provider level device profile, only
- * serviceProviderId should be specified.
- *         To switch a group level device profile, serviceProviderId and groupId
- * should specified.
+ *         To switch a system level device profile, serviceProviderId and groupId should not be present.
+ *         To switch a service provider level device profile, only serviceProviderId should be specified.
+ *         To switch a group level device profile, serviceProviderId and groupId should specified.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6779","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:6780","type":"choice","optional":true,"children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:6782","type":"sequence"}]}]}]
  */
 class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +21,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6780
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +29,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName svcProviderId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6782
      * @var string|null
      */
     private $svcProviderId = null;
@@ -37,6 +37,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6782
      * @var string|null
      */
     private $groupId = null;
@@ -44,6 +45,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6779
      * @var string|null
      */
     private $deviceName = null;
@@ -51,6 +53,7 @@ class SystemDeviceManagementSwitchDeviceTypeDeviceRequest extends \CWM\BroadWork
     /**
      * @ElementName toDeviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6779
      * @var string|null
      */
     private $toDeviceType = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2543","type":"sequence"}]
  */
 class GroupCustomContactDirectoryDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupCustomContactDirectoryDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2543
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupCustomContactDirectoryDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2543
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupCustomContactDirectoryDeleteRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName name
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2543
      * @var string|null
      */
     private $name = null;

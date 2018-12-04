@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the service profile information and a list of phone numbers.
  *
  * @see GroupInstantGroupCallGetInstanceRequest19sp1
+ * @Groups [{"id":"c689e88c0ff061c491155e92929e7018:138","type":"sequence"}]
  */
 class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
+     * @Group c689e88c0ff061c491155e92929e7018:138
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -24,6 +26,8 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
      * @ElementName destinationPhoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group c689e88c0ff061c491155e92929e7018:138
      * @var string[]
      */
     private $destinationPhoneNumber = array(
@@ -33,6 +37,7 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName isAnswerTimeoutEnabled
      * @Type bool
+     * @Group c689e88c0ff061c491155e92929e7018:138
      * @var bool|null
      */
     private $isAnswerTimeoutEnabled = null;
@@ -40,6 +45,8 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName answerTimeoutMinutes
      * @Type int
+     * @Optional
+     * @Group c689e88c0ff061c491155e92929e7018:138
      * @var int|null
      */
     private $answerTimeoutMinutes = null;
@@ -47,6 +54,8 @@ class GroupInstantGroupCallGetInstanceResponse19sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group c689e88c0ff061c491155e92929e7018:138
      * @var string|null
      */
     private $networkClassOfService = null;

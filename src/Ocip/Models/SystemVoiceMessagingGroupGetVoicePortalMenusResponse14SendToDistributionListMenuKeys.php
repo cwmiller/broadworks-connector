@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse14SendToDistributionListMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:29535","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14SendToDistributionListMenuKeys
 {
@@ -11,6 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14SendToDistributionLi
     /**
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29535
      * @var string|null
      */
     private $sendMessageToSelectedDistributionList = null;
@@ -18,6 +21,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14SendToDistributionLi
     /**
      * @ElementName selectDistributionList
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29535
      * @var string|null
      */
     private $selectDistributionList = null;
@@ -25,6 +30,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14SendToDistributionLi
     /**
      * @ElementName reviewSelectedDistributionList
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29535
      * @var string|null
      */
     private $reviewSelectedDistributionList = null;
@@ -32,6 +39,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14SendToDistributionLi
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29535
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -39,6 +47,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse14SendToDistributionLi
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29535
      * @var string|null
      */
     private $repeatMenu = null;

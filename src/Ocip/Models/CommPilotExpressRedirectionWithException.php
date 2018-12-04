@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express type to transfer to voice mail or forward to a number
  *         with certain exceptions used in the context of a get.
+ *
+ * @Groups [{"id":"3634139a4e18662a8fde423f112abbbc:228","type":"sequence"}]
  */
 class CommPilotExpressRedirectionWithException
 {
@@ -14,6 +16,7 @@ class CommPilotExpressRedirectionWithException
     /**
      * @ElementName sendCallsToVoiceMailExceptExcludedNumbers
      * @Type bool
+     * @Group 3634139a4e18662a8fde423f112abbbc:228
      * @var bool|null
      */
     private $sendCallsToVoiceMailExceptExcludedNumbers = null;
@@ -21,6 +24,8 @@ class CommPilotExpressRedirectionWithException
     /**
      * @ElementName excludedPhoneNumber01
      * @Type string
+     * @Optional
+     * @Group 3634139a4e18662a8fde423f112abbbc:228
      * @var string|null
      */
     private $excludedPhoneNumber01 = null;
@@ -28,6 +33,8 @@ class CommPilotExpressRedirectionWithException
     /**
      * @ElementName excludedPhoneNumber02
      * @Type string
+     * @Optional
+     * @Group 3634139a4e18662a8fde423f112abbbc:228
      * @var string|null
      */
     private $excludedPhoneNumber02 = null;
@@ -35,6 +42,8 @@ class CommPilotExpressRedirectionWithException
     /**
      * @ElementName excludedPhoneNumber03
      * @Type string
+     * @Optional
+     * @Group 3634139a4e18662a8fde423f112abbbc:228
      * @var string|null
      */
     private $excludedPhoneNumber03 = null;
@@ -42,6 +51,8 @@ class CommPilotExpressRedirectionWithException
     /**
      * @ElementName forwardExcludedNumbersTo
      * @Type string
+     * @Optional
+     * @Group 3634139a4e18662a8fde423f112abbbc:228
      * @var string|null
      */
     private $forwardExcludedNumbersTo = null;

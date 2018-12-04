@@ -15,6 +15,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         returned.
  *         If "authorizationCode" is set, all call logs matching that specific
  *         authorization code are returned.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1840","type":"sequence","children":[{"id":"18b369af88e42ffdb4166615c670ce2c:1841","type":"choice"}]}]
  */
 class EnhancedCallLogsCallAuthorizationCodeFilter
 {
@@ -22,6 +24,7 @@ class EnhancedCallLogsCallAuthorizationCodeFilter
     /**
      * @ElementName callsWithCodes
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1841
      * @var bool|null
      */
     private $callsWithCodes = null;
@@ -29,6 +32,7 @@ class EnhancedCallLogsCallAuthorizationCodeFilter
     /**
      * @ElementName authorizationCode
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1841
      * @var string|null
      */
     private $authorizationCode = null;

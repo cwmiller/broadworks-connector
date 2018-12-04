@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemMGCPDeviceTypeGetRequest.
  *
  * @see SystemMGCPDeviceTypeGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10554","type":"sequence"}]
  */
 class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName isObsolete
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10554
      * @var bool|null
      */
     private $isObsolete = null;
@@ -22,6 +24,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10554
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
@@ -29,6 +32,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName numberOfPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10554
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $numberOfPorts = null;
@@ -37,6 +41,7 @@ class SystemMGCPDeviceTypeGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName protocolChoice
      * @Type string
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10554
      * @var string[]
      */
     private $protocolChoice = array(

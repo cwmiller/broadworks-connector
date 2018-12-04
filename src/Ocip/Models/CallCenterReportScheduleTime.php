@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterReportScheduleTime
  *
  * A scheduled time for call center enhanced reporting scheduled report.
+ *
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6768","type":"sequence"}]
  */
 class CallCenterReportScheduleTime
 {
@@ -13,6 +15,7 @@ class CallCenterReportScheduleTime
     /**
      * @ElementName timeZone
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6768
      * @var string|null
      */
     private $timeZone = null;
@@ -20,6 +23,7 @@ class CallCenterReportScheduleTime
     /**
      * @ElementName scheduleDate
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6768
      * @var string|null
      */
     private $scheduleDate = null;
@@ -27,6 +31,7 @@ class CallCenterReportScheduleTime
     /**
      * @ElementName scheduleTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6768
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $scheduleTime = null;

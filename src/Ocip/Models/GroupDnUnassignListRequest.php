@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDnUnassignListRequest
  *
- * Unassign a list of service provider DNs from a group. The DNs then become
- * available for
- *         assignment to other groups. It is possible to unassign either: a single
- * DN,
+ * Unassign a list of service provider DNs from a group. The DNs then become available for
+ *         assignment to other groups. It is possible to unassign either: a single DN,
  *         or a list of DNs, or a range of DNs, or any combination thereof.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4336","type":"sequence"}]
  */
 class GroupDnUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupDnUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4336
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupDnUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4336
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +37,8 @@ class GroupDnUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4336
      * @var string[]
      */
     private $phoneNumber = array(
@@ -46,6 +49,8 @@ class GroupDnUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4336
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

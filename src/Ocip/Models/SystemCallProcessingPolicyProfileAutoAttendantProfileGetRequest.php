@@ -5,20 +5,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest
  *
- * Request to get the configuration for a call processing policy profile Auto
- * Attendant subscriber type profile.
- *         The response is either a
- * SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse or an
+ * Request to get the configuration for a call processing policy profile Auto Attendant subscriber type profile.
+ *         The response is either a SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse or an
  *         ErrorResponse.
- *         The response contains the call processing policy profile setting for
- * Auto Attendant.
+ *         The response contains the call processing policy profile setting for Auto Attendant.
  *         
- *         Replaced by: 
- * SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22
+ *         Replaced by:  SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22
  *
  * @see SystemCallProcessingPolicyProfileAutoAttendantProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest22
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:19298","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,6 +23,7 @@ class SystemCallProcessingPolicyProfileAutoAttendantProfileGetRequest extends \C
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:19298
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

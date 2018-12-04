@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterReportTemplateKey
  *
  * Uniquely identifies a call center report template created in the system.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:714","type":"sequence"}]
  */
 class CallCenterReportTemplateKey
 {
@@ -13,6 +15,7 @@ class CallCenterReportTemplateKey
     /**
      * @ElementName templateLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel
+     * @Group 18b369af88e42ffdb4166615c670ce2c:714
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateLevel|null
      */
     private $templateLevel = null;
@@ -20,6 +23,7 @@ class CallCenterReportTemplateKey
     /**
      * @ElementName templateName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:714
      * @var string|null
      */
     private $templateName = null;

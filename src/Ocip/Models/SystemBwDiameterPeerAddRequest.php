@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2222","type":"sequence"}]
  */
 class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2222
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -24,6 +26,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName identity
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2222
      * @var string|null
      */
     private $identity = null;
@@ -31,6 +34,8 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName ipAddress
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2222
      * @var string|null
      */
     private $ipAddress = null;
@@ -38,6 +43,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName port
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2222
      * @var int|null
      */
     private $port = null;
@@ -45,6 +51,7 @@ class SystemBwDiameterPeerAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName enabled
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2222
      * @var bool|null
      */
     private $enabled = null;

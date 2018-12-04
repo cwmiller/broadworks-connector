@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDeviceTypeFileGetRequest
  *
  * Request to get a service provider device type file.
- *         The response is either ServiceProviderDeviceTypeFileGetResponse or
- * ErrorResponse.
+ *         The response is either ServiceProviderDeviceTypeFileGetResponse or ErrorResponse.
  *
  * @see ServiceProviderDeviceTypeFileGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2555","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2555
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2555
      * @var string|null
      */
     private $deviceType = null;
@@ -32,6 +34,7 @@ class ServiceProviderDeviceTypeFileGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fileFormat
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2555
      * @var string|null
      */
     private $fileFormat = null;

@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in a row for each user.
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest
+ * @Groups [{"id":"73530229e066070baac4c09dac256d69:165","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +20,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse extends \CWM\Broa
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 73530229e066070baac4c09dac256d69:165
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

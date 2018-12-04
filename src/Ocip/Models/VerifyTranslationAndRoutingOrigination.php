@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Verification Translation and Routing origination
  *         value.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3991","type":"choice"}]
  */
 class VerifyTranslationAndRoutingOrigination
 {
@@ -14,6 +16,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3991
      * @var string|null
      */
     private $linePort = null;
@@ -21,6 +24,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName phone
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3991
      * @var string|null
      */
     private $phone = null;
@@ -28,6 +32,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName userId
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3991
      * @var string|null
      */
     private $userId = null;
@@ -35,6 +40,7 @@ class VerifyTranslationAndRoutingOrigination
     /**
      * @ElementName url
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3991
      * @var string|null
      */
     private $url = null;

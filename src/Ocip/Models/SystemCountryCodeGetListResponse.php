@@ -9,14 +9,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         and a table with one row per country code.  The table columns are
  *         "Country Code", "Country Name", "Off Hook Warning Seconds",
  *         "Ring Period Milliseconds", "National Prefix", "Use Prefix",
- *         "Maximum Call Waiting Tones", "Time Between Call Waiting Tones
- * Milliseconds"
+ *         "Maximum Call Waiting Tones", "Time Between Call Waiting Tones Milliseconds"
  *         and "Disable National Prefix for OffNet Calls".
  *         
  *         The following columns are only returned in AS data mode:       
  *           "Disable National Prefix for OffNet Calls"
  *
  * @see SystemCountryCodeGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6171","type":"sequence"}]
  */
 class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,6 +24,7 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName defaultCountryCode
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6171
      * @var string|null
      */
     private $defaultCountryCode = null;
@@ -31,6 +32,7 @@ class SystemCountryCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName countryCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6171
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $countryCodeTable = null;

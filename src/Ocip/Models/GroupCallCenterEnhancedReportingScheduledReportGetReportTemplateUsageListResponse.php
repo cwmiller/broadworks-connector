@@ -5,16 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
  *
- * Response to
- * GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest.
- *         Contains a table with column headings: "Schedule Name", "Created By",
- * "Created By Supervisor",
+ * Response to GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest.
+ *         Contains a table with column headings: "Schedule Name", "Created By", "Created By Supervisor",
  *         and "Is Active".
- *         The "Created By" can be either "Administrator" or user id if created by
- * supervisor.
+ *         The "Created By" can be either "Administrator" or user id if created by supervisor.
  *
- * @see
- * GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest
+ * @see GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3442","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +19,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListR
     /**
      * @ElementName scheduleReportTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3442
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $scheduleReportTable = null;

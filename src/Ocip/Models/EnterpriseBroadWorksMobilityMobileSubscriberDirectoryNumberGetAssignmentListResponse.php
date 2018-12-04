@@ -5,23 +5,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse
  *
- * Response to
- * EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest.
+ * Response to EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest.
  *         The response contains a table with columns: "Mobile Number", "User Id",
- *         "Last Name", "First Name","Phone Number","Extension", "Group Id",
- * "Department" and "Mobile Network".
+ *         "Last Name", "First Name","Phone Number","Extension", "Group Id", "Department" and "Mobile Network".
  *         The "Mobile Number" column contains a single DN.
- *         The "User Id", "Last Name" and "First Name" columns contains the
- * corresponding attributes of the user possessing the DN(s).
+ *         The "User Id", "Last Name" and "First Name" columns contains the corresponding attributes of the user possessing the DN(s).
  *         The "Phone Number" column contains a single DN.
  *         The "Group Id"   column contains the Group Id of the user.
- *         The "Department" column contains the department of the user if it is
- * part of a department.
- *         The "Mobile Network" column contains the Mobile Network the number
- * belongs to.
+ *         The "Department" column contains the department of the user if it is part of a department.
+ *         The "Mobile Network" column contains the Mobile Network the number belongs to.
  *
- * @see
- * EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest
+ * @see EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListRequest
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:117","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -29,6 +24,7 @@ class EnterpriseBroadWorksMobilityMobileSubscriberDirectoryNumberGetAssignmentLi
     /**
      * @ElementName mobileSubscriberDirectoryNumbersAssignmentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:117
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumbersAssignmentTable = null;

@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemInCallServiceActivationModifyRequest17
  *
- * Modifies the system's DTMF based in-call service activation trigger 
- * attributes.The response is either a SuccessResponse or an ErrorResponse.
+ * Modifies the system's DTMF based in-call service activation trigger  attributes.The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"916ed745485f7eefa0156a5e8ab505cf:123","type":"sequence"}]
  */
 class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +17,8 @@ class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnec
     /**
      * @ElementName defaultFlashActivationDigits
      * @Type string
+     * @Optional
+     * @Group 916ed745485f7eefa0156a5e8ab505cf:123
      * @var string|null
      */
     private $defaultFlashActivationDigits = null;
@@ -24,6 +26,8 @@ class SystemInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnec
     /**
      * @ElementName defaultCallTransferActivationDigits
      * @Type string
+     * @Optional
+     * @Group 916ed745485f7eefa0156a5e8ab505cf:123
      * @var string|null
      */
     private $defaultCallTransferActivationDigits = null;

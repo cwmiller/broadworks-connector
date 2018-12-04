@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ConferenceGreetingMenuKeysModifyEntry
  *
  * The voice portal greeting menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2413","type":"sequence"}]
  */
 class ConferenceGreetingMenuKeysModifyEntry
 {
@@ -14,6 +16,8 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @ElementName activateConfGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2413
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateConfGreeting = null;
@@ -22,6 +26,8 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @ElementName deactivateConfGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2413
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deactivateConfGreeting = null;
@@ -30,6 +36,8 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @ElementName recordNewConfGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2413
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewConfGreeting = null;
@@ -38,6 +46,8 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @ElementName listenToCurrentConfGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2413
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentConfGreeting = null;
@@ -45,6 +55,8 @@ class ConferenceGreetingMenuKeysModifyEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2413
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -53,6 +65,8 @@ class ConferenceGreetingMenuKeysModifyEntry
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2413
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

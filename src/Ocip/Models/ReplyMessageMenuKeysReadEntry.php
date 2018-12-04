@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ReplyMessageMenuKeysReadEntry
  *
  * The voice portal reply message menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2930","type":"sequence"}]
  */
 class ReplyMessageMenuKeysReadEntry
 {
@@ -13,6 +15,7 @@ class ReplyMessageMenuKeysReadEntry
     /**
      * @ElementName sendReplyToCaller
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2930
      * @var string|null
      */
     private $sendReplyToCaller = null;
@@ -20,6 +23,8 @@ class ReplyMessageMenuKeysReadEntry
     /**
      * @ElementName changeCurrentReply
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2930
      * @var string|null
      */
     private $changeCurrentReply = null;
@@ -27,6 +32,8 @@ class ReplyMessageMenuKeysReadEntry
     /**
      * @ElementName listenToCurrentReply
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2930
      * @var string|null
      */
     private $listenToCurrentReply = null;
@@ -34,6 +41,8 @@ class ReplyMessageMenuKeysReadEntry
     /**
      * @ElementName setOrClearUrgentIndicator
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2930
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
@@ -41,6 +50,8 @@ class ReplyMessageMenuKeysReadEntry
     /**
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2930
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
@@ -48,6 +59,7 @@ class ReplyMessageMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2930
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -55,6 +67,8 @@ class ReplyMessageMenuKeysReadEntry
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2930
      * @var string|null
      */
     private $repeatMenu = null;

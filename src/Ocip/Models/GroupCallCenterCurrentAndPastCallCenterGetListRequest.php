@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterCurrentAndPastCallCenterGetListRequest
  *
  * Request to get all the current and past call centers for the group.
- *         The response is either
- * GroupCallCenterCurrentAndPastCallCenterGetListResponse or ErrorResponse.
+ *         The response is either GroupCallCenterCurrentAndPastCallCenterGetListResponse or ErrorResponse.
  *
  * @see GroupCallCenterCurrentAndPastCallCenterGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2744","type":"sequence"}]
  */
 class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2744
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,8 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName isPremiumOnly
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2744
      * @var bool|null
      */
     private $isPremiumOnly = null;
@@ -32,6 +35,7 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2744
      * @var string|null
      */
     private $groupId = null;
@@ -39,6 +43,8 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2744
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -46,6 +52,8 @@ class GroupCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName searchCriteriaCallCenterName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2744
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null
      */
     private $searchCriteriaCallCenterName = null;

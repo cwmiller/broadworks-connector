@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterHolidayServiceGetRequest20.
  *
  * @see GroupCallCenterHolidayServiceGetRequest20
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4370","type":"sequence"}]
  */
 class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
@@ -22,6 +24,8 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -29,6 +33,8 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName transferPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -36,6 +42,7 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName playAnnouncementBeforeAction
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var bool|null
      */
     private $playAnnouncementBeforeAction = null;
@@ -43,6 +50,7 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -50,6 +58,8 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $audioUrlList = null;
@@ -57,6 +67,8 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $audioFileList = null;
@@ -64,6 +76,7 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -71,6 +84,8 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $videoUrlList = null;
@@ -78,6 +93,8 @@ class GroupCallCenterHolidayServiceGetResponse20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4370
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $videoFileList = null;

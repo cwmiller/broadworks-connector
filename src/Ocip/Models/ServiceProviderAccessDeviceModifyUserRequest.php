@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderAccessDeviceModifyUserRequest
  *
- * Request to modify attributes for line/ports assigned on the service provider
- * device profile.
+ * Request to modify attributes for line/ports assigned on the service provider device profile.
  *         The response is either SuccessResponse or ErrorResponse.
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:729","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
      * @var string|null
      */
     private $deviceName = null;
@@ -35,6 +36,7 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
      * @var string|null
      */
     private $linePort = null;
@@ -42,6 +44,8 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName privateIdentity
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
      * @var string|null
      */
     private $privateIdentity = null;
@@ -49,6 +53,8 @@ class ServiceProviderAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName isPrimaryLinePort
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:729
      * @var bool|null
      */
     private $isPrimaryLinePort = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupApplicationServerSetGetRequest
  *
  * Get the Application Server set for a group.
- *         The response is either a GroupApplicationServerSetGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupApplicationServerSetGetResponse or an ErrorResponse.
  *
  * @see GroupApplicationServerSetGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1460","type":"sequence"}]
  */
 class GroupApplicationServerSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupApplicationServerSetGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1460
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupApplicationServerSetGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1460
      * @var string|null
      */
     private $groupId = null;

@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify an existing custom greeting audio file.
  *         The response is either SuccessResponse or ErrorResponse.
- *         Engineering Note: This command can only be executed from the Execution
- * Server
+ *         Engineering Note: This command can only be executed from the Execution Server
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"0dfc97518f5c669220a4d4a59ad5be5c:87","type":"sequence"}]
  */
 class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
     /**
      * @ElementName userId
      * @Type string
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:87
      * @var string|null
      */
     private $userId = null;
@@ -26,6 +27,7 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     private $conferenceKey = null;
@@ -33,6 +35,8 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
     /**
      * @ElementName playEntranceGreeting
      * @Type bool
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:87
      * @var bool|null
      */
     private $playEntranceGreeting = null;
@@ -40,6 +44,8 @@ class UserMeetMeConferencingModifyConferenceGreetingExecutionServerRequest exten
     /**
      * @ElementName entranceGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:87
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $entranceGreetingFile = null;

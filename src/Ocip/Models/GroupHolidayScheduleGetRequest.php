@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupHolidayScheduleGetRequest
  *
  * Get a holiday schedule in a group.
- *         The response is either a GroupHolidayScheduleGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupHolidayScheduleGetResponse or an ErrorResponse.
  *
  * @see GroupHolidayScheduleGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:8614","type":"sequence"}]
  */
 class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8614
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8614
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupHolidayScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName holidayScheduleName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8614
      * @var string|null
      */
     private $holidayScheduleName = null;

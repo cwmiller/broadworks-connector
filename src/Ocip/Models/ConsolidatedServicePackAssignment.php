@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Assign a service pack to user. If the service pack has not been authorized to 
  *         the group, it will be authorized.
- *         The authorizedQuantity will be used at the group level if provided;
- * otherwise, the service quantity will be set to unlimited. 
- *         The command will fail if the authorized quantity set at the service
- * provider level is insufficient.
+ *         The authorizedQuantity will be used at the group level if provided; otherwise, the service quantity will be set to unlimited. 
+ *         The command will fail if the authorized quantity set at the service provider level is insufficient.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1295","type":"sequence"}]
  */
 class ConsolidatedServicePackAssignment
 {
@@ -18,6 +18,7 @@ class ConsolidatedServicePackAssignment
     /**
      * @ElementName servicePackName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1295
      * @var string|null
      */
     private $servicePackName = null;
@@ -25,6 +26,8 @@ class ConsolidatedServicePackAssignment
     /**
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1295
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $authorizedQuantity = null;

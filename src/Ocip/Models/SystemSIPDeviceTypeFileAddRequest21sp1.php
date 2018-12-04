@@ -17,6 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see macInNonRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14912","type":"sequence"}]
  */
 class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +25,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var string|null
      */
     private $deviceType = null;
@@ -31,6 +33,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fileFormat
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var string|null
      */
     private $fileFormat = null;
@@ -38,6 +41,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName remoteFileFormat
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var string|null
      */
     private $remoteFileFormat = null;
@@ -45,6 +49,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fileCategory
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCategory|null
      */
     private $fileCategory = null;
@@ -52,6 +57,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fileCustomization
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementFileCustomization|null
      */
     private $fileCustomization = null;
@@ -59,6 +65,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeFileEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -66,6 +73,8 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;
@@ -73,6 +82,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -80,6 +90,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -87,6 +98,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -94,6 +106,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -101,6 +114,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName macInCert
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $macInCert = null;
@@ -108,6 +122,8 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName macFormatInNonRequestURI
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;
@@ -115,6 +131,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowHttp
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $allowHttp = null;
@@ -122,6 +139,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowHttps
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $allowHttps = null;
@@ -129,6 +147,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowTftp
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $allowTftp = null;
@@ -136,6 +155,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableCaching
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $enableCaching = null;
@@ -143,6 +163,7 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allowUploadFromDevice
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $allowUploadFromDevice = null;
@@ -150,6 +171,8 @@ class SystemSIPDeviceTypeFileAddRequest21sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName defaultExtendedFileCaptureMode
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14912
      * @var bool|null
      */
     private $defaultExtendedFileCaptureMode = null;

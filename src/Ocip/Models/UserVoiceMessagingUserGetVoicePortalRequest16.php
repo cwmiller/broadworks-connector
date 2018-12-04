@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetVoicePortalRequest16
  *
  * Get the user's voice messaging voice portal settings.
- *         The response is either a UserVoiceMessagingUserGetVoicePortalResponse16
- * or an ErrorResponse.
+ *         The response is either a UserVoiceMessagingUserGetVoicePortalResponse16 or an ErrorResponse.
  *
  * @see UserVoiceMessagingUserGetVoicePortalResponse16
  * @see ErrorResponse
+ * @Groups [{"id":"f63b5273e12f283713f4aab9400bb342:485","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoicePortalRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserVoiceMessagingUserGetVoicePortalRequest16 extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
+     * @Group f63b5273e12f283713f4aab9400bb342:485
      * @var string|null
      */
     private $userId = null;

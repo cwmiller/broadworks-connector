@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterComfortMessageBypassGetRequest20.
  *
  * @see GroupCallCenterComfortMessageBypassGetRequest20
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2652","type":"sequence"}]
  */
 class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,7 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName callWaitingAgeThresholdSeconds
      * @Type int
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var int|null
      */
     private $callWaitingAgeThresholdSeconds = null;
@@ -29,6 +32,7 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName playAnnouncementAfterRinging
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var bool|null
      */
     private $playAnnouncementAfterRinging = null;
@@ -36,6 +40,7 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName ringTimeBeforePlayingAnnouncementSeconds
      * @Type int
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var int|null
      */
     private $ringTimeBeforePlayingAnnouncementSeconds = null;
@@ -43,6 +48,7 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -50,6 +56,8 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $audioUrlList = null;
@@ -57,6 +65,8 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $audioFileList = null;
@@ -64,6 +74,7 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -71,6 +82,8 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $videoUrlList = null;
@@ -78,6 +91,8 @@ class GroupCallCenterComfortMessageBypassGetResponse20 extends \CWM\BroadWorksCo
     /**
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2652
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $videoFileList = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserShInterfaceGetUserIdDataRequest21sp1
  *
  * Returns the Sh non-transparent data stored against a userId.
- *         The response is either a UserShInterfaceGetUserIdDataResponse21sp1 or an
- * ErrorResponse.
+ *         The response is either a UserShInterfaceGetUserIdDataResponse21sp1 or an ErrorResponse.
  *
  * @see UserShInterfaceGetUserIdDataResponse21sp1
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3309","type":"sequence"}]
  */
 class UserShInterfaceGetUserIdDataRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserShInterfaceGetUserIdDataRequest21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:3309
      * @var string|null
      */
     private $userId = null;

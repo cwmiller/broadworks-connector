@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterAnnouncementURLList
  *
  * Contains list of urls
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:650","type":"sequence"}]
  */
 class CallCenterAnnouncementURLList
 {
@@ -13,6 +15,8 @@ class CallCenterAnnouncementURLList
     /**
      * @ElementName url1
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:650
      * @var string|null
      */
     private $url1 = null;
@@ -20,6 +24,8 @@ class CallCenterAnnouncementURLList
     /**
      * @ElementName url2
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:650
      * @var string|null
      */
     private $url2 = null;
@@ -27,6 +33,8 @@ class CallCenterAnnouncementURLList
     /**
      * @ElementName url3
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:650
      * @var string|null
      */
     private $url3 = null;
@@ -34,6 +42,8 @@ class CallCenterAnnouncementURLList
     /**
      * @ElementName url4
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:650
      * @var string|null
      */
     private $url4 = null;

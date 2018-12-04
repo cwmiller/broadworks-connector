@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseCallCenterAgentThresholdProfileGetRequest
  *
- * Gets an existing non-default Call Center Agent Threshold Profile in an
- * Enterprise.
- *         The response is either a
- * EnterpriseCallCenterAgentThresholdProfileGetResponse or an ErrorResponse.
+ * Gets an existing non-default Call Center Agent Threshold Profile in an Enterprise.
+ *         The response is either a EnterpriseCallCenterAgentThresholdProfileGetResponse or an ErrorResponse.
  *
  * @see EnterpriseCallCenterAgentThresholdProfileGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:506","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:506
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class EnterpriseCallCenterAgentThresholdProfileGetRequest extends \CWM\BroadWork
     /**
      * @ElementName profileName
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:506
      * @var string|null
      */
     private $profileName = null;

@@ -6,9 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseDepartmentKey
  *
  * Uniquely identifies a department defined within an enterprise.
- *         To uniquely identify an enterprise department, we must know the
- * department name and which
+ *         To uniquely identify an enterprise department, we must know the department name and which
  *         enterprise contains the department.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1885","type":"sequence"}]
  */
 class EnterpriseDepartmentKey extends DepartmentKey
 {
@@ -16,6 +17,7 @@ class EnterpriseDepartmentKey extends DepartmentKey
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1885
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -23,6 +25,7 @@ class EnterpriseDepartmentKey extends DepartmentKey
     /**
      * @ElementName name
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1885
      * @var string|null
      */
     private $name = null;

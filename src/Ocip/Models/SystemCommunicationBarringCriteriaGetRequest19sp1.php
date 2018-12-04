@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCommunicationBarringCriteriaGetResponse19sp1
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5039","type":"sequence"}]
  */
 class SystemCommunicationBarringCriteriaGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class SystemCommunicationBarringCriteriaGetRequest19sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5039
      * @var string|null
      */
     private $name = null;

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeDeleteInstanceRequest
  *
  * Delete a collaborate bridge from a group.
- *         The request fails when attempting to delete the default collaborate
- * bridge.
+ *         The request fails when attempting to delete the default collaborate bridge.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:183","type":"sequence"}]
  */
 class GroupCollaborateBridgeDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupCollaborateBridgeDeleteInstanceRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:183
      * @var string|null
      */
     private $serviceUserId = null;

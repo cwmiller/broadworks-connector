@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDnListAssignDepartmentRequest
  *
- * Assign a list of group DNs to a department. If the department is not specified,
- * this
+ * Assign a list of group DNs to a department. If the department is not specified, this
  *         will make the DNs become unassigned from any department.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4314","type":"sequence"}]
  */
 class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4314
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4314
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4314
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -41,6 +45,8 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4314
      * @var string[]
      */
     private $phoneNumber = array(
@@ -51,6 +57,8 @@ class GroupDnListAssignDepartmentRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4314
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

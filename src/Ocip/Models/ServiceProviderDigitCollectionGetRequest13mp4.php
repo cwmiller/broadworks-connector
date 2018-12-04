@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderDigitCollectionGetRequest13mp4
  *
  * Request the service provider's digit collection attributes.
- *         The response is either a ServiceProviderDigitCollectionGetResponse13mp4
- * or an ErrorResponse.
+ *         The response is either a ServiceProviderDigitCollectionGetResponse13mp4 or an ErrorResponse.
  *
  * @see ServiceProviderDigitCollectionGetResponse13mp4
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3021","type":"sequence"}]
  */
 class ServiceProviderDigitCollectionGetRequest13mp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderDigitCollectionGetRequest13mp4 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3021
      * @var string|null
      */
     private $serviceProviderId = null;

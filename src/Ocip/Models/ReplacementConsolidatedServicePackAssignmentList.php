@@ -5,14 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ReplacementConsolidatedServicePackAssignmentList
  *
- * A list of service packs that replaces existing service packs assigned to the
- * user.
- *         If a service pack is not authorized to the group, the service will be
- * authorized. The authorizedQuantity will be used if provided; otherwise, the
- * service quantity will be set to unlimited. The command will fail if the
- * authorized Quantity set at the service provider is insufficient
- *         If a service pack is already authorized to the group, the service
- * quantity will be ignored if included.
+ * A list of service packs that replaces existing service packs assigned to the user.
+ *         If a service pack is not authorized to the group, the service will be authorized. The authorizedQuantity will be used if provided; otherwise, the service quantity will be set to unlimited. The command will fail if the authorized Quantity set at the service provider is insufficient
+ *         If a service pack is already authorized to the group, the service quantity will be ignored if included.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2852","type":"sequence"}]
  */
 class ReplacementConsolidatedServicePackAssignmentList
 {
@@ -21,6 +18,7 @@ class ReplacementConsolidatedServicePackAssignmentList
      * @ElementName servicePack
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment
      * @Array
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2852
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedServicePackAssignment[]
      */
     private $servicePack = array(

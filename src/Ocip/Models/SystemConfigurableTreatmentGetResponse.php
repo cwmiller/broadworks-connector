@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemConfigurableTreatmentGetRequest
  * @see SystemConfigurableTreatmentGetResponse16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21149","type":"sequence"}]
  */
 class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var string|null
      */
     private $description = null;
@@ -25,6 +28,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName chargeIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
     private $chargeIndicator = null;
@@ -32,6 +36,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName accessSIPStatusCode
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var int|null
      */
     private $accessSIPStatusCode = null;
@@ -39,6 +45,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName accessSIPStatusMessage
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var string|null
      */
     private $accessSIPStatusMessage = null;
@@ -46,6 +54,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName networkSIPStatusCode
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var int|null
      */
     private $networkSIPStatusCode = null;
@@ -53,6 +63,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName networkSIPStatusMessage
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var string|null
      */
     private $networkSIPStatusMessage = null;
@@ -60,6 +72,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName q850CauseValue
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var int|null
      */
     private $q850CauseValue = null;
@@ -67,6 +81,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName q850Text
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var string|null
      */
     private $q850Text = null;
@@ -74,6 +90,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName accessTreatmentAudioFile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var string|null
      */
     private $accessTreatmentAudioFile = null;
@@ -81,6 +99,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName accessTreatmentVideoFile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var string|null
      */
     private $accessTreatmentVideoFile = null;
@@ -88,6 +108,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName networkTreatmentAudioFile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var string|null
      */
     private $networkTreatmentAudioFile = null;
@@ -95,6 +117,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName networkTreatmentVideoFile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var string|null
      */
     private $networkTreatmentVideoFile = null;
@@ -102,6 +126,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName cdrTerminationCause
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var string|null
      */
     private $cdrTerminationCause = null;
@@ -109,6 +135,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName routeAdvance
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var bool|null
      */
     private $routeAdvance = null;
@@ -116,6 +143,8 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName internalReleaseCause
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause|null
      */
     private $internalReleaseCause = null;
@@ -123,6 +152,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName accessSendReasonHeader
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var bool|null
      */
     private $accessSendReasonHeader = null;
@@ -130,6 +160,7 @@ class SystemConfigurableTreatmentGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName networkSendReasonHeader
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21149
      * @var bool|null
      */
     private $networkSendReasonHeader = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSMDIMessageDeskGetServerListRequest
  *
  * Request to get a list of SMDI Servers defined for a user.
- *         The response is either a UserSMDIMessageDeskGetServerListResponse or an
- * ErrorResponse.
+ *         The response is either a UserSMDIMessageDeskGetServerListResponse or an ErrorResponse.
  *
  * @see UserSMDIMessageDeskGetServerListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"cd03b563fec121b562411c9b734b5953:292","type":"sequence"}]
  */
 class UserSMDIMessageDeskGetServerListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserSMDIMessageDeskGetServerListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group cd03b563fec121b562411c9b734b5953:292
      * @var string|null
      */
     private $userId = null;

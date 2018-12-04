@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5645","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5645
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5645
      * @var bool|null
      */
     private $restrictAggregateSessions = null;
@@ -32,6 +36,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @ElementName maxSessions
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5645
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxSessions = null;
@@ -40,6 +46,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5645
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserOriginatingSessions = null;
@@ -48,6 +56,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5645
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserTerminatingSessions = null;
@@ -55,6 +65,8 @@ class ServiceProviderSessionAdmissionControlModifyRequest extends \CWM\BroadWork
     /**
      * @ElementName countIntraServiceProviderSessions
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5645
      * @var bool|null
      */
     private $countIntraServiceProviderSessions = null;

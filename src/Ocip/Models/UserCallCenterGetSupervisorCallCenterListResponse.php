@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallCenterGetSupervisorCallCenterListResponse
  *
  * Response to the UserCallCenterGetSupervisorCallCenterListRequest.
- *         Contains a table with column headings: "Service User Id", "Phone
- * Number", 
+ *         Contains a table with column headings: "Service User Id", "Phone Number", 
  *         "Extension", "Type" and "Priority".
  *
  * @see UserCallCenterGetSupervisorCallCenterListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6450","type":"sequence"}]
  */
 class UserCallCenterGetSupervisorCallCenterListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class UserCallCenterGetSupervisorCallCenterListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6450
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;

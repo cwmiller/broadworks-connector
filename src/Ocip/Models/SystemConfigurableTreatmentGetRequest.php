@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemConfigurableTreatmentGetRequest
  *
  * Get all the attributes of a configurable treatment.
- *             The response is either a SystemConfigurableTreatmentGetResponse or
- * an ErrorResponse.
+ *             The response is either a SystemConfigurableTreatmentGetResponse or an ErrorResponse.
  *             Replaced By: SystemConfigurableTreatmentGetRequest16
  *
  * @see SystemConfigurableTreatmentGetResponse
  * @see ErrorResponse
  * @see SystemConfigurableTreatmentGetRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21132","type":"sequence"}]
  */
 class SystemConfigurableTreatmentGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class SystemConfigurableTreatmentGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName treatmentId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21132
      * @var string|null
      */
     private $treatmentId = null;

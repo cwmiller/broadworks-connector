@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SearchCriteriaExactDeviceManagementEventType
  *
- * Criteria for searching for a particular fully specified DeviceManagement event
- * type.
+ * Criteria for searching for a particular fully specified DeviceManagement event type.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:752","type":"sequence"}]
  */
 class SearchCriteriaExactDeviceManagementEventType extends SearchCriteria
 {
@@ -14,6 +15,7 @@ class SearchCriteriaExactDeviceManagementEventType extends SearchCriteria
     /**
      * @ElementName dmEventType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType
+     * @Group d37849f5e289836ccd316323a7a3799a:752
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementEventType|null
      */
     private $dmEventType = null;

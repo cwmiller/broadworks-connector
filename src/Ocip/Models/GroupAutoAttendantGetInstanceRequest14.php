@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAutoAttendantGetInstanceRequest14
  *
  * Request to get all the information of a Auto Attendant instance.
- *         The response is either GroupAutoAttendantGetInstanceResponse14 or
- * ErrorResponse.
+ *         The response is either GroupAutoAttendantGetInstanceResponse14 or ErrorResponse.
  *         Replaced By: GroupAutoAttendantGetInstanceRequest16
  *
  * @see GroupAutoAttendantGetInstanceResponse14
  * @see ErrorResponse
  * @see GroupAutoAttendantGetInstanceRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:2578","type":"sequence"}]
  */
 class GroupAutoAttendantGetInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupAutoAttendantGetInstanceRequest14 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:2578
      * @var string|null
      */
     private $serviceUserId = null;

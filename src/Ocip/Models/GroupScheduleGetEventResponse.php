@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the event of the group schedule.
  *
  * @see GroupScheduleGetEventRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6262","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6264","type":"choice","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6266","type":"sequence"}]}]}]
  */
 class GroupScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class GroupScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName startDate
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6262
      * @var string|null
      */
     private $startDate = null;
@@ -23,6 +25,7 @@ class GroupScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName allDayEvent
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6264
      * @var bool|null
      */
     private $allDayEvent = null;
@@ -30,6 +33,7 @@ class GroupScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6266
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $startTime = null;
@@ -37,6 +41,7 @@ class GroupScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6266
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $endTime = null;
@@ -44,6 +49,7 @@ class GroupScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName endDate
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6262
      * @var string|null
      */
     private $endDate = null;
@@ -51,6 +57,8 @@ class GroupScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6262
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     private $recurrence = null;

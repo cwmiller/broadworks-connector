@@ -6,17 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemEndpointGetListResponse
  *
  * Response to SystemEndpointGetListRequest.
- *         The column headings for the endpointTable are: "Organization Id",
- * "Organization Type", "Group Id", "Line/Port", "Last Name","First Name", "User
- * Id", "User Type", "Phone Number", "Extension", "Device Type", "Device Name",
- * "Net Address", "MAC Address", "Department", "Email Address", "Reseller Id".
- *         Possible values for User Type are "User", "CCBasic", "CCStandard",
- * "CCPremium", "RP", "MOH", "MOHVideo".
+ *         The column headings for the endpointTable are: "Organization Id", "Organization Type", "Group Id", "Line/Port", "Last Name","First Name", "User Id", "User Type", "Phone Number", "Extension", "Device Type", "Device Name", "Net Address", "MAC Address", "Department", "Email Address", "Reseller Id".
+ *         Possible values for User Type are "User", "CCBasic", "CCStandard", "CCPremium", "RP", "MOH", "MOHVideo".
  *         
  *         The following columns are only returned in AS data mode:       
  *           "Reseller Id"
  *
  * @see SystemEndpointGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8193","type":"sequence"}]
  */
 class SystemEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,6 +21,7 @@ class SystemEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName endpointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8193
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $endpointTable = null;

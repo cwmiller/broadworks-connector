@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SendToDistributionListMenuKeysReadEntry
  *
  * The voice portal send to distribution list menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:3056","type":"sequence"}]
  */
 class SendToDistributionListMenuKeysReadEntry
 {
@@ -13,6 +15,7 @@ class SendToDistributionListMenuKeysReadEntry
     /**
      * @ElementName sendMessageToSelectedDistributionList
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:3056
      * @var string|null
      */
     private $sendMessageToSelectedDistributionList = null;
@@ -20,6 +23,8 @@ class SendToDistributionListMenuKeysReadEntry
     /**
      * @ElementName selectDistributionList
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:3056
      * @var string|null
      */
     private $selectDistributionList = null;
@@ -27,6 +32,8 @@ class SendToDistributionListMenuKeysReadEntry
     /**
      * @ElementName reviewSelectedDistributionList
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:3056
      * @var string|null
      */
     private $reviewSelectedDistributionList = null;
@@ -34,6 +41,7 @@ class SendToDistributionListMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:3056
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -41,6 +49,8 @@ class SendToDistributionListMenuKeysReadEntry
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:3056
      * @var string|null
      */
     private $repeatMenu = null;

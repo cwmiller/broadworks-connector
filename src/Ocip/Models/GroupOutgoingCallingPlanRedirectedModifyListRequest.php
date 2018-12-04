@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanRedirectedModifyListRequest
  *
- * Modify the call forwarded/transferred permissions for a group default and it's
- * departments.
+ * Modify the call forwarded/transferred permissions for a group default and it's departments.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:753","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:753
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:753
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,8 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
     /**
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissionsModify
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:753
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedPermissionsModify|null
      */
     private $groupPermissions = null;
@@ -40,6 +44,8 @@ class GroupOutgoingCallingPlanRedirectedModifyListRequest extends \CWM\BroadWork
      * @ElementName departmentPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedDepartmentPermissionsModify
      * @Array
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:753
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectedDepartmentPermissionsModify[]
      */
     private $departmentPermissions = array(

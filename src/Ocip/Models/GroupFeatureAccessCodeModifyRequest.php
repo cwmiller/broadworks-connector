@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify group FAC code level and the list of feature access codes for a group.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         Note: choice element is only valid when useFeatureAccessCodeLevel is set
- * to "Group", otherwise an ErrorResponse will be returned.
+ *         Note: choice element is only valid when useFeatureAccessCodeLevel is set to "Group", otherwise an ErrorResponse will be returned.
  *         
  *         Replaced by: GroupFeatureAccessCodeModifyRequest21 in AS data mode
  *
@@ -16,6 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see ErrorResponse
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeModifyRequest21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:1126","type":"sequence","children":[{"id":"499b56264fbe226bfef3c338c8d4750d:1130","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +23,7 @@ class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1126
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +31,7 @@ class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1126
      * @var string|null
      */
     private $groupId = null;
@@ -37,6 +39,8 @@ class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useFeatureAccessCodeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1126
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     private $useFeatureAccessCodeLevel = null;
@@ -44,6 +48,8 @@ class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName restoreDefaultCodes
      * @Type bool
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1130
      * @var bool|null
      */
     private $restoreDefaultCodes = null;
@@ -52,6 +58,8 @@ class GroupFeatureAccessCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName featureAccessCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1130
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

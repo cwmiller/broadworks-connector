@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemClassmarkGetUtilizationListRequest
  *
- * Get the list of all users associated with a Class Mark in system. It is possible
- * to search by various criteria.
+ * Get the list of all users associated with a Class Mark in system. It is possible to search by various criteria.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a SystemClassmarkGetUtilizationListResponse or an
- * ErrorResponse.
+ *         The response is either a SystemClassmarkGetUtilizationListResponse or an ErrorResponse.
  *
  * @see SystemClassmarkGetUtilizationListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"18819b2191ab2f91f6d92ec2df9e32dd:112","type":"sequence"}]
  */
 class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName classmark
      * @Type string
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var string|null
      */
     private $classmark = null;
@@ -27,6 +27,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -35,6 +37,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -44,6 +48,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName searchCriteriaExactServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider
+     * @Optional
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider|null
      */
     private $searchCriteriaExactServiceProviderId = null;
@@ -52,6 +58,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
+     * @Optional
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -62,6 +70,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -72,6 +82,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -82,6 +94,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -92,6 +106,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -102,6 +118,8 @@ class SystemClassmarkGetUtilizationListRequest extends \CWM\BroadWorksConnector\
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 18819b2191ab2f91f6d92ec2df9e32dd:112
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

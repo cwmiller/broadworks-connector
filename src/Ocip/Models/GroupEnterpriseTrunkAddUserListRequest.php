@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:508","type":"sequence"}]
  */
 class GroupEnterpriseTrunkAddUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupEnterpriseTrunkAddUserListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:508
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupEnterpriseTrunkAddUserListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:508
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupEnterpriseTrunkAddUserListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:508
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -39,6 +43,7 @@ class GroupEnterpriseTrunkAddUserListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName userId
      * @Type string
      * @Array
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:508
      * @var string[]
      */
     private $userId = array(

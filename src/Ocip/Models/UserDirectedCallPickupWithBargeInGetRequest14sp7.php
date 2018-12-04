@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserDirectedCallPickupWithBargeInGetRequest14sp7
  *
  * Request the user level data associated with Directed Call Pickup With Barge In.
- *         The response is either a
- * UserDirectedCallPickupWithBargeInGetResponse14sp7 or an
+ *         The response is either a UserDirectedCallPickupWithBargeInGetResponse14sp7 or an
  *         ErrorResponse.
  *
  * @see UserDirectedCallPickupWithBargeInGetResponse14sp7
  * @see ErrorResponse
+ * @Groups [{"id":"c88ffc1dbd7ff62dcbf867e366ce2ee8:44","type":"sequence"}]
  */
 class UserDirectedCallPickupWithBargeInGetRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserDirectedCallPickupWithBargeInGetRequest14sp7 extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
+     * @Group c88ffc1dbd7ff62dcbf867e366ce2ee8:44
      * @var string|null
      */
     private $userId = null;

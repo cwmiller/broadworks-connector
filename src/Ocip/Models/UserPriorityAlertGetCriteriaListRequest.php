@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPriorityAlertGetCriteriaListRequest
  *
  * Get the user's priority alert criteria listing.
- *         The response is either a UserPriorityAlertGetCriteriaListResponse or an
- * ErrorResponse.
+ *         The response is either a UserPriorityAlertGetCriteriaListResponse or an ErrorResponse.
  *
  * @see UserPriorityAlertGetCriteriaListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e7f33ca76d98d6dd6ff692896cd06c21:88","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserPriorityAlertGetCriteriaListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group e7f33ca76d98d6dd6ff692896cd06c21:88
      * @var string|null
      */
     private $userId = null;

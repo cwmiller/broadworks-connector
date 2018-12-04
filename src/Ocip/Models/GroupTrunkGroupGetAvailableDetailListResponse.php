@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupTrunkGroupGetAvailableDetailListRequest.
  *
  * @see GroupTrunkGroupGetAvailableDetailListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:7002","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:7006","type":"sequence"}]}]
  */
 class GroupTrunkGroupGetAvailableDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class GroupTrunkGroupGetAvailableDetailListResponse extends \CWM\BroadWorksConne
      * @ElementName trunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7002
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup[]
      */
     private $trunkGroup = array(

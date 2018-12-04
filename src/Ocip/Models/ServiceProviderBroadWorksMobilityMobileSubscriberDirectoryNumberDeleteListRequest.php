@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteListRequest
  *
- * Deletes Mobile Subscriber Directory Numbers from a service provider. It is
- * possible to delete either: a single number,
+ * Deletes Mobile Subscriber Directory Numbers from a service provider. It is possible to delete either: a single number,
  *         or a list of numbers.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:407","type":"sequence"}]
  */
 class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteList
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:407
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,8 @@ class ServiceProviderBroadWorksMobilityMobileSubscriberDirectoryNumberDeleteList
      * @ElementName mobileSubscriberDirectoryNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:407
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(

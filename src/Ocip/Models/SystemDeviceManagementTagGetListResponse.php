@@ -6,14 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceManagementTagGetListResponse
  *
  * Response to SystemDeviceManagementTagGetListRequest.
- *         Contains a table of custom configuration tags managed by the Device
- * Management System.
- *         In AS data mode, the column headings are: "Tag Name", "Tag Value", "Is
- * Overridable".
- *         In XS data mode, the column headings are: "Tag Name", "Tag Value", "Is
- * Overridable", "Is Encrypted".
+ *         Contains a table of custom configuration tags managed by the Device Management System.
+ *         In AS data mode, the column headings are: "Tag Name", "Tag Value", "Is Overridable".
+ *         In XS data mode, the column headings are: "Tag Name", "Tag Value", "Is Overridable", "Is Encrypted".
  *
  * @see SystemDeviceManagementTagGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6902","type":"sequence"}]
  */
 class SystemDeviceManagementTagGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +19,7 @@ class SystemDeviceManagementTagGetListResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName tagsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6902
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $tagsTable = null;

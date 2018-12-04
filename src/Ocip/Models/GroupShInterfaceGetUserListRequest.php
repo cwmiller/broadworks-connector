@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupShInterfaceGetUserListRequest
  *
  * Returns a list of all Public User Identities and associated data in a group.
- *         The response is either a GroupShInterfaceGetUserListResponse or an
- * ErrorResponse.
+ *         The response is either a GroupShInterfaceGetUserListResponse or an ErrorResponse.
  *         
  *         Replaced by: GroupShInterfaceGetUserListRequest21sp1 in AS data mode.
  *
  * @see GroupShInterfaceGetUserListResponse
  * @see ErrorResponse
  * @see GroupShInterfaceGetUserListRequest21sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2021","type":"sequence"}]
  */
 class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2021
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class GroupShInterfaceGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2021
      * @var string|null
      */
     private $groupId = null;

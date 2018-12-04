@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDepartmentAdminGetResponse
  *
  * Response to the GroupDepartmentAdminGetRequest.
- *         The response contains the group department administrators profile
- * information.
+ *         The response contains the group department administrators profile information.
  *
  * @see GroupDepartmentAdminGetRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2867","type":"sequence"}]
  */
 class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2867
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     private $departmentKey = null;
@@ -24,6 +25,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName departmentFullPath
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2867
      * @var string|null
      */
     private $departmentFullPath = null;
@@ -31,6 +33,8 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName firstName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2867
      * @var string|null
      */
     private $firstName = null;
@@ -38,6 +42,8 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName lastName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2867
      * @var string|null
      */
     private $lastName = null;
@@ -45,6 +51,7 @@ class GroupDepartmentAdminGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName language
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2867
      * @var string|null
      */
     private $language = null;

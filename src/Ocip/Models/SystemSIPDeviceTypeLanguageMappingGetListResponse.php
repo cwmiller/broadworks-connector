@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeLanguageMappingGetListResponse
  *
  * Response to SystemSIPDeviceTypeLanguageMappingGetListRequest.
- *         Contains a table of device type languages mapped to equivalent
- * BroadWorks languages.
+ *         Contains a table of device type languages mapped to equivalent BroadWorks languages.
  *         The column headings are: "BroadWorks Language", "Device Language".
  *
  * @see SystemSIPDeviceTypeLanguageMappingGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15259","type":"sequence"}]
  */
 class SystemSIPDeviceTypeLanguageMappingGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class SystemSIPDeviceTypeLanguageMappingGetListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName deviceTypeLanguagesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15259
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceTypeLanguagesTable = null;

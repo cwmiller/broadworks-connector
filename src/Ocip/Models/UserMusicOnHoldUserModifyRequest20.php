@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5f16cf9ee64e260667cb51201cb18cef:321","type":"sequence"}]
  */
 class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Group 5f16cf9ee64e260667cb51201cb18cef:321
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20
+     * @Optional
+     * @Group 5f16cf9ee64e260667cb51201cb18cef:321
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20|null
      */
     private $source = null;
@@ -31,6 +35,8 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
+     * @Optional
+     * @Group 5f16cf9ee64e260667cb51201cb18cef:321
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -38,6 +44,8 @@ class UserMusicOnHoldUserModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20
+     * @Optional
+     * @Group 5f16cf9ee64e260667cb51201cb18cef:321
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceModify20|null
      */
     private $internalSource = null;

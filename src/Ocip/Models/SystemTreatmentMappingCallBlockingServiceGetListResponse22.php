@@ -8,13 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a SystemTreatmentMappingCallBlockingServiceGetListRequest22. 
  *         Contains a table with one row per mapping.
  *         The table columns are: "Service", "Treatment Id".
- *         The Service column list the service or policy which is using
- * corresponding treatment, and can be OCP, EOCP, ICP, ACR, SCR, SCA, AAC,
- * Intercept, PTT, CommBarring, SAC, IncomingCommBarring, HierCommBarring,
- * IncomHierCommBarring, BWMobilityDenyOrig, BWMobilityDenyTerm, ETRouteExhaust,
- * CallPark, NumberPortability, ConcTerminatingAlertingPolicy.
+ *         The Service column list the service or policy which is using corresponding treatment, and can be OCP, EOCP, ICP, ACR, SCR, SCA, AAC, Intercept, PTT, CommBarring, SAC, IncomingCommBarring, HierCommBarring, IncomHierCommBarring, BWMobilityDenyOrig, BWMobilityDenyTerm, ETRouteExhaust, CallPark, NumberPortability, ConcTerminatingAlertingPolicy.
  *
  * @see SystemTreatmentMappingCallBlockingServiceGetListRequest22
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:16520","type":"sequence"}]
  */
 class SystemTreatmentMappingCallBlockingServiceGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +19,7 @@ class SystemTreatmentMappingCallBlockingServiceGetListResponse22 extends \CWM\Br
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16520
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $treatmentMappingTable = null;

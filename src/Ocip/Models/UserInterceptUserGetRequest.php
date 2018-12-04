@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserInterceptUserGetRequest
  *
  * Get the user's intercept user service settings.
- *         The response is either a UserInterceptUserGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserInterceptUserGetResponse or an ErrorResponse.
  *         Replaced By: UserInterceptUserGetRequest16
  *
  * @see UserInterceptUserGetResponse
  * @see ErrorResponse
  * @see UserInterceptUserGetRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36126","type":"sequence"}]
  */
 class UserInterceptUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserInterceptUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36126
      * @var string|null
      */
     private $userId = null;

@@ -5,19 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserDevicePoliciesModifyRequest
  *
- * Modify the user level data associated with Device Policy.
- * enableDeviceFeatureSynchronization and enableCallDecline can be 
- *           configured by the admin regardless of lineMode, but is ignored by the
- * application server in Multiple User Shared mode. 
+ * Modify the user level data associated with Device Policy. enableDeviceFeatureSynchronization and enableCallDecline can be 
+ *           configured by the admin regardless of lineMode, but is ignored by the application server in Multiple User Shared mode. 
  *           
- *           enableCallDecline can be modified by the user when the admin has set
- * the mode to ‘Single User Private and Shared Lines mode’. 
- *           This is the only element that the user can modify. In XS data mode, 
- * the lineMode is ignored and enabledCallDecline is the only element that can be
- * configured.
+ *           enableCallDecline can be modified by the user when the admin has set the mode to ‘Single User Private and Shared Lines mode’. 
+ *           This is the only element that the user can modify. In XS data mode,  the lineMode is ignored and enabledCallDecline is the only element that can be configured.
  *           
- *         The following elements are only used in AS data mode and ignored in XS
- * data mode:
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           lineMode
  *           enableDeviceFeatureSynchronization
  *           enableDnd
@@ -34,6 +28,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1291","type":"sequence"}]
  */
 class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -41,6 +36,7 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var string|null
      */
     private $userId = null;
@@ -48,6 +44,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName lineMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDevicePolicyLineMode|null
      */
     private $lineMode = null;
@@ -55,6 +53,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableDeviceFeatureSynchronization
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableDeviceFeatureSynchronization = null;
@@ -62,6 +62,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableDnd
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableDnd = null;
@@ -69,6 +71,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallForwardingAlways
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableCallForwardingAlways = null;
@@ -76,6 +80,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallForwardingBusy
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableCallForwardingBusy = null;
@@ -83,6 +89,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallForwardingNoAnswer
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableCallForwardingNoAnswer = null;
@@ -90,6 +98,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableAcd
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableAcd = null;
@@ -97,6 +107,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableExecutive
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableExecutive = null;
@@ -104,6 +116,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableExecutiveAssistant
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableExecutiveAssistant = null;
@@ -111,6 +125,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableSecurityClassification
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableSecurityClassification = null;
@@ -118,6 +134,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallRecording
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableCallRecording = null;
@@ -125,6 +143,8 @@ class UserDevicePoliciesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName enableCallDecline
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1291
      * @var bool|null
      */
     private $enableCallDecline = null;

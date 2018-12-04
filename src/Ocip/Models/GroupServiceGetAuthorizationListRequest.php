@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupServiceGetAuthorizationListRequest
  *
  * Requests the group's service authorization status.
- *         The response is either GroupServiceGetAuthorizationListResponse or
- * ErrorResponse.
+ *         The response is either GroupServiceGetAuthorizationListResponse or ErrorResponse.
  *
  * @see GroupServiceGetAuthorizationListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6426","type":"sequence"}]
  */
 class GroupServiceGetAuthorizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupServiceGetAuthorizationListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6426
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupServiceGetAuthorizationListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6426
      * @var string|null
      */
     private $groupId = null;

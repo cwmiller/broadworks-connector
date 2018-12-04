@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallLogsClearRequest14sp4
  *
  * Clear a user's call logs associated with Basic Call Logs and Enhanced
- *         Call Logs features. The calls logs are deleted from both Basic Call Logs
- *
+ *         Call Logs features. The calls logs are deleted from both Basic Call Logs 
  *         and Enhanced Call Logs if both features are assigned.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:667","type":"sequence","children":[{"id":"489b2153267470be8e945bf6b778e0d0:669","type":"choice","children":[{"id":"489b2153267470be8e945bf6b778e0d0:674","type":"sequence"}]}]}]
  */
 class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:667
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,8 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deleteAllCallLogs
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:669
      * @var bool|null
      */
     private $deleteAllCallLogs = null;
@@ -34,6 +37,7 @@ class UserCallLogsClearRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deleteSpecifiedCallLogs
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs
+     * @Group 489b2153267470be8e945bf6b778e0d0:669
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserCallLogsClearRequest14sp4DeleteSpecifiedCallLogs|null
      */
     private $deleteSpecifiedCallLogs = null;

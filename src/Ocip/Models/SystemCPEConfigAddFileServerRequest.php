@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCPEConfigAddFileServerRequest14sp6
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21182","type":"sequence"}]
  */
 class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21182
      * @var string|null
      */
     private $deviceType = null;
@@ -26,6 +28,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName ftpHostNetAddress
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21182
      * @var string|null
      */
     private $ftpHostNetAddress = null;
@@ -33,6 +36,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName ftpUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21182
      * @var string|null
      */
     private $ftpUserId = null;
@@ -40,6 +44,7 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName ftpUserPassword
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21182
      * @var string|null
      */
     private $ftpUserPassword = null;
@@ -47,6 +52,8 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName cpeFileDirectory
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21182
      * @var string|null
      */
     private $cpeFileDirectory = null;
@@ -54,6 +61,8 @@ class SystemCPEConfigAddFileServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName passiveFTP
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21182
      * @var bool|null
      */
     private $passiveFTP = null;

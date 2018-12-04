@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group administrators  profile information.
  *
  * @see GroupAdminGetRequest21sp1
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1137","type":"sequence"}]
  */
 class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1137
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -23,6 +25,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1137
      * @var string|null
      */
     private $groupId = null;
@@ -30,6 +33,8 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName firstName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1137
      * @var string|null
      */
     private $firstName = null;
@@ -37,6 +42,8 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName lastName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1137
      * @var string|null
      */
     private $lastName = null;
@@ -44,6 +51,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName language
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1137
      * @var string|null
      */
     private $language = null;
@@ -51,6 +59,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName locale
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1137
      * @var string|null
      */
     private $locale = null;
@@ -58,6 +67,7 @@ class GroupAdminGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName encoding
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1137
      * @var string|null
      */
     private $encoding = null;

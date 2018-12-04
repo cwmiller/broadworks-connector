@@ -7,16 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserBroadWorksReceptionistEnterpriseGetRequest.
  *         Returns a 12 column table with column headings:
- *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
- * First Name", 
- *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address",
- * "Department", "IMP Id", "Title",
+ *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", 
+ *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address", "Department", "IMP Id", "Title",
  *           "Receptionist Note".
- *         The Receptionist Note column is only populated, if the user sending the
- * request is the owner
+ *         The Receptionist Note column is only populated, if the user sending the request is the owner
  *         of the Receptionist Note and a Note exists.
  *
  * @see UserBroadWorksReceptionistEnterpriseGetRequest
+ * @Groups [{"id":"0951a6054c9016924c2aed90d0af404b:200","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,6 +22,7 @@ class UserBroadWorksReceptionistEnterpriseGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 0951a6054c9016924c2aed90d0af404b:200
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;

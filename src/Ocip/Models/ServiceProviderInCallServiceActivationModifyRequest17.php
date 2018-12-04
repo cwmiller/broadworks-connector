@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderInCallServiceActivationModifyRequest17
  *
- * Modifies the service provider's DTMF based in-call service activation trigger
- * attributes.The response is either a SuccessResponse or an ErrorResponse.
+ * Modifies the service provider's DTMF based in-call service activation trigger attributes.The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"916ed745485f7eefa0156a5e8ab505cf:77","type":"sequence"}]
  */
 class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +17,7 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 916ed745485f7eefa0156a5e8ab505cf:77
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +25,8 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
     /**
      * @ElementName flashActivationDigits
      * @Type string
+     * @Optional
+     * @Group 916ed745485f7eefa0156a5e8ab505cf:77
      * @var string|null
      */
     private $flashActivationDigits = null;
@@ -31,6 +34,8 @@ class ServiceProviderInCallServiceActivationModifyRequest17 extends \CWM\BroadWo
     /**
      * @ElementName callTransferActivationDigits
      * @Type string
+     * @Optional
+     * @Group 916ed745485f7eefa0156a5e8ab505cf:77
      * @var string|null
      */
     private $callTransferActivationDigits = null;

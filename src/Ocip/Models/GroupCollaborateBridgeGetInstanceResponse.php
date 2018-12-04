@@ -6,21 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeGetInstanceResponse
  *
  * Response to GroupCollaborateBridgeGetInstanceRequest.
- *         The system-level collaborate supportOutdial setting is returned in the
- * response when the system-level collaborate 
+ *         The system-level collaborate supportOutdial setting is returned in the response when the system-level collaborate 
  *         supportOutdial setting is disabled. 
  *         Contains the service profile information and a table of assigned owners.
- *         The table has column headings: "User Id", "Last Name", "First Name",
- * "Hiragana Last Name", 
- *         "Hiragana First Name", Phone Number", "Extension", "Department", "Email
- * Address".
- *         Collaborate bridge maximum participant’s choices unlimited or a
- * quantified number of participants.
+ *         The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", 
+ *         "Hiragana First Name", Phone Number", "Extension", "Department", "Email Address".
+ *         Collaborate bridge maximum participant’s choices unlimited or a quantified number of participants.
  *         
  *         Replaced by: GroupCollaborateBridgeGetInstanceResponse20sp1
  *
  * @see GroupCollaborateBridgeGetInstanceRequest
  * @see GroupCollaborateBridgeGetInstanceResponse20sp1
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7440","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,6 +25,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7440
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -35,6 +33,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName maximumBridgeParticipants
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7440
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     private $maximumBridgeParticipants = null;
@@ -42,6 +41,8 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7440
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -49,6 +50,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName isDefault
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7440
      * @var bool|null
      */
     private $isDefault = null;
@@ -56,6 +58,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7440
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -63,6 +66,7 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName supportOutdial
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7440
      * @var bool|null
      */
     private $supportOutdial = null;
@@ -71,6 +75,8 @@ class GroupCollaborateBridgeGetInstanceResponse extends \CWM\BroadWorksConnector
      * @ElementName collaborateOwnerUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7440
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateOwnerUserTable = null;

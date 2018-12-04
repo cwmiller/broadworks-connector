@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutingProfileGetRequest
  *
  * Request the routing profile for the group.
- *         The response is either a GroupRoutingProfileGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupRoutingProfileGetResponse or an ErrorResponse.
  *
  * @see GroupRoutingProfileGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6037","type":"sequence"}]
  */
 class GroupRoutingProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutingProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6037
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupRoutingProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6037
      * @var string|null
      */
     private $groupId = null;

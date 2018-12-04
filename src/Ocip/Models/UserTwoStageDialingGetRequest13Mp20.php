@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserTwoStageDialingGetRequest13Mp20
  *
  * Request the user level data associated with Two Stage Dialing.
- *           The response is either a UserTwoStageDialingGetResponse13Mp20 or an
- * ErrorResponse.
+ *           The response is either a UserTwoStageDialingGetResponse13Mp20 or an ErrorResponse.
  *
  * @see UserTwoStageDialingGetResponse13Mp20
  * @see ErrorResponse
+ * @Groups [{"id":"6fd6a21bc6d7eb5a1e621396e2e662da:131","type":"sequence"}]
  */
 class UserTwoStageDialingGetRequest13Mp20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserTwoStageDialingGetRequest13Mp20 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 6fd6a21bc6d7eb5a1e621396e2e662da:131
      * @var string|null
      */
     private $userId = null;

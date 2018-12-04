@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupFlexibleSeatingAccessDeviceGetListRequest
  *
  * @see GroupFlexibleSeatingAccessDeviceGetListRequest
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:76","type":"sequence","children":[{"id":"26a62df68b13c020e844e2a188f1e6e1:80","type":"sequence"}]}]
  */
 class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class GroupFlexibleSeatingAccessDeviceGetListResponse extends \CWM\BroadWorksCon
      * @ElementName availableAccessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:76
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice[]
      */
     private $availableAccessDevice = array(

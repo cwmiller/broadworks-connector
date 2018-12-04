@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the user's Call Recording option information.
  *
  * @see UserCallRecordingGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:33938","type":"sequence"}]
  */
 class UserCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class UserCallRecordingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName recordingOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RecordingOption
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33938
      * @var \CWM\BroadWorksConnector\Ocip\Models\RecordingOption|null
      */
     private $recordingOption = null;

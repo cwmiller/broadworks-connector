@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceListRequest14sp4
  *
  * Get a list of Trunk Groups for the group or enterprise.
- *         It is possible to restrict the results to a particular department, or
- * expand the list to the entire enterprise.
- *         The response is either a GroupTrunkGroupGetInstanceListResponse14sp4 or
- * an ErrorResponse.
+ *         It is possible to restrict the results to a particular department, or expand the list to the entire enterprise.
+ *         The response is either a GroupTrunkGroupGetInstanceListResponse14sp4 or an ErrorResponse.
  *
  * @see GroupTrunkGroupGetInstanceListResponse14sp4
  * @see ErrorResponse
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1000","type":"sequence","children":[{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1003","type":"choice","optional":true}]}]
  */
 class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1000
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +27,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1000
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +35,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1003
      * @var string|null
      */
     private $groupDepartmentName = null;
@@ -41,6 +43,7 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName includeEnterpriseTrunkGroups
      * @Type bool
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1003
      * @var bool|null
      */
     private $includeEnterpriseTrunkGroups = null;
@@ -48,6 +51,8 @@ class GroupTrunkGroupGetInstanceListRequest14sp4 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName onlyTrunkGroupsWithDevice
      * @Type bool
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1000
      * @var bool|null
      */
     private $onlyTrunkGroupsWithDevice = null;

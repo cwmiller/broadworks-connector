@@ -14,19 +14,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         provisioningSliceId, 
  *         subscriberPartition,
  *         preferredDataCenter.
- *         When the callProcessingSliceId or provisioningSliceId is set to
- * nillable, 
+ *         When the callProcessingSliceId or provisioningSliceId is set to nillable, 
  *         it will be assigned to the default Slice.
- *         Only Provisioning admin and above can change the callProcessingSliceId,
- * provisioningSliceId 
+ *         Only Provisioning admin and above can change the callProcessingSliceId, provisioningSliceId 
  *         , subscriberPartition and preferredDataCenter.
  *         
- *         The following elements are only used in XS data mode and ignored in data
- * mode:
+ *         The following elements are only used in XS data mode and ignored in data mode:
  *         defaultUserCallingLineIdPhoneNumber.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5147","type":"sequence"}]
  */
 class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -34,6 +32,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -41,6 +40,7 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null
      */
     private $groupId = null;
@@ -48,6 +48,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName defaultDomain
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null
      */
     private $defaultDomain = null;
@@ -55,6 +57,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName userLimit
      * @Type int
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var int|null
      */
     private $userLimit = null;
@@ -63,6 +67,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName groupName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupName = null;
@@ -71,6 +77,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName callingLineIdName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdName = null;
@@ -79,6 +87,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName callingLineIdPhoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callingLineIdPhoneNumber = null;
@@ -86,6 +96,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName timeZone
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null
      */
     private $timeZone = null;
@@ -94,6 +106,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName locationDialingCode
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $locationDialingCode = null;
@@ -101,6 +115,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -108,6 +124,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -116,6 +134,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName servicePolicy
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePolicy = null;
@@ -124,6 +144,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName callProcessingSliceId
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callProcessingSliceId = null;
@@ -132,6 +154,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName provisioningSliceId
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningSliceId = null;
@@ -140,6 +164,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName subscriberPartition
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $subscriberPartition = null;
@@ -148,6 +174,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName preferredDataCenter
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $preferredDataCenter = null;
@@ -156,6 +184,8 @@ class GroupModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
      * @ElementName defaultUserCallingLineIdPhoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5147
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultUserCallingLineIdPhoneNumber = null;

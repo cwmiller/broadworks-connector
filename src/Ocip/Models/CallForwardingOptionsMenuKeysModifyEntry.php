@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallForwardingOptionsMenuKeysModifyEntry
  *
  * The voice portal call forwarding option menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2243","type":"sequence"}]
  */
 class CallForwardingOptionsMenuKeysModifyEntry
 {
@@ -14,6 +16,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @ElementName activateCallForwarding
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2243
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateCallForwarding = null;
@@ -22,6 +26,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @ElementName deactivateCallForwarding
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2243
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deactivateCallForwarding = null;
@@ -30,6 +36,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @ElementName changeCallForwardingDestination
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2243
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCallForwardingDestination = null;
@@ -38,6 +46,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @ElementName listenToCallForwardingStatus
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2243
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCallForwardingStatus = null;
@@ -45,6 +55,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2243
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -53,6 +65,8 @@ class CallForwardingOptionsMenuKeysModifyEntry
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2243
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

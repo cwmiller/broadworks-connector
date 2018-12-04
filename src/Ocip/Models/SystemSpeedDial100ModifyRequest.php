@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"36d45d852a06f31a5078c9ad46622b49:127","type":"sequence"}]
  */
 class SystemSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,8 @@ class SystemSpeedDial100ModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName prefix
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 36d45d852a06f31a5078c9ad46622b49:127
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefix = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCustomContactDirectoryGetListRequest
  *
  * Gets the list of Custom Contact Directories for a group.
- *         The response is either GroupCustomContactDirectoryGetListResponse or
- * ErrorResponse.
+ *         The response is either GroupCustomContactDirectoryGetListResponse or ErrorResponse.
  *
  * @see GroupCustomContactDirectoryGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2616","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCustomContactDirectoryGetListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2616
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCustomContactDirectoryGetListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2616
      * @var string|null
      */
     private $groupId = null;

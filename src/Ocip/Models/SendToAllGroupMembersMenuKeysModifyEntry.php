@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SendToAllGroupMembersMenuKeysModifyEntry
  *
  * The voice portal send to all group memeber menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:3017","type":"sequence"}]
  */
 class SendToAllGroupMembersMenuKeysModifyEntry
 {
@@ -13,6 +15,8 @@ class SendToAllGroupMembersMenuKeysModifyEntry
     /**
      * @ElementName confirmSendingToEntireGroup
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:3017
      * @var string|null
      */
     private $confirmSendingToEntireGroup = null;
@@ -20,6 +24,8 @@ class SendToAllGroupMembersMenuKeysModifyEntry
     /**
      * @ElementName cancelSendingToEntireGroup
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:3017
      * @var string|null
      */
     private $cancelSendingToEntireGroup = null;

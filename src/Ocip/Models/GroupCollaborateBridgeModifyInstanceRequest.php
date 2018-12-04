@@ -6,10 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeModifyInstanceRequest
  *
  * Request to modify a Collaborate bridge.
- *         The request fails when the collaborateOwnerUserIdList is included in the
- * request for the default collaborate bridge.
- *         The request fails when the supportOutdial is included in the request and
- * the system-level collaborate supportOutdial setting is disabled.
+ *         The request fails when the collaborateOwnerUserIdList is included in the request for the default collaborate bridge.
+ *         The request fails when the supportOutdial is included in the request and the system-level collaborate supportOutdial setting is disabled.
  *         The response is either SuccessResponse or ErrorResponse.
  *         
  *         Replaced by: GroupCollaborateBridgeModifyInstanceRequest20sp1
@@ -17,6 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCollaborateBridgeModifyInstanceRequest20sp1
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7466","type":"sequence"}]
  */
 class GroupCollaborateBridgeModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +23,7 @@ class GroupCollaborateBridgeModifyInstanceRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7466
      * @var string|null
      */
     private $serviceUserId = null;
@@ -31,6 +31,8 @@ class GroupCollaborateBridgeModifyInstanceRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7466
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -38,6 +40,8 @@ class GroupCollaborateBridgeModifyInstanceRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName maximumBridgeParticipants
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7466
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     private $maximumBridgeParticipants = null;
@@ -45,6 +49,8 @@ class GroupCollaborateBridgeModifyInstanceRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7466
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -52,6 +58,8 @@ class GroupCollaborateBridgeModifyInstanceRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7466
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -59,6 +67,8 @@ class GroupCollaborateBridgeModifyInstanceRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName supportOutdial
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7466
      * @var bool|null
      */
     private $supportOutdial = null;
@@ -67,6 +77,8 @@ class GroupCollaborateBridgeModifyInstanceRequest extends \CWM\BroadWorksConnect
      * @ElementName collaborateOwnerUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7466
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateOwnerUserIdList = null;

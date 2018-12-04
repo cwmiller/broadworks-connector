@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackMigrationTaskGetRequest
  *
  * Requests the details of a specified service pack migration task.
- *         The response is either
- * ServiceProviderServicePackMigrationTaskGetResponse
+ *         The response is either ServiceProviderServicePackMigrationTaskGetResponse
  *         or ErrorResponse.
  *         Replaced By: ServiceProviderServicePackMigrationTaskGetRequest14sp4
  *
  * @see ServiceProviderServicePackMigrationTaskGetResponse
  * @see ErrorResponse
  * @see ServiceProviderServicePackMigrationTaskGetRequest14sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:16627","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class ServiceProviderServicePackMigrationTaskGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16627
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class ServiceProviderServicePackMigrationTaskGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName taskName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16627
      * @var string|null
      */
     private $taskName = null;

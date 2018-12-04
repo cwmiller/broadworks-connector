@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CallCenterScheduledReportDNISSelectionRead
  *
- * Either all DNIS under the specified Call Center or 2 lists of DNIS, one for
- * current one for past (deleted).
+ * Either all DNIS under the specified Call Center or 2 lists of DNIS, one for current one for past (deleted).
+ *
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6890","type":"sequence","children":[{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6893","type":"choice","children":[{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6895","type":"sequence"}]}]}]
  */
 class CallCenterScheduledReportDNISSelectionRead
 {
@@ -14,6 +15,7 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6890
      * @var string|null
      */
     private $serviceUserId = null;
@@ -21,6 +23,8 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * @ElementName deleted
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6890
      * @var bool|null
      */
     private $deleted = null;
@@ -28,6 +32,7 @@ class CallCenterScheduledReportDNISSelectionRead
     /**
      * @ElementName allDNIS
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6893
      * @var bool|null
      */
     private $allDNIS = null;
@@ -36,6 +41,8 @@ class CallCenterScheduledReportDNISSelectionRead
      * @ElementName currentName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6895
      * @var string[]
      */
     private $currentName = array(
@@ -46,6 +53,8 @@ class CallCenterScheduledReportDNISSelectionRead
      * @ElementName pastName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6895
      * @var string[]
      */
     private $pastName = array(

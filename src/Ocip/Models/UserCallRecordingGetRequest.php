@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallRecordingGetRequest
  *
  * Get the Call Recording attributes for a user.
- *         The response is either a UserCallRecordingGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserCallRecordingGetResponse or an ErrorResponse.
  *
  * @see UserCallRecordingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:33922","type":"sequence"}]
  */
 class UserCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33922
      * @var string|null
      */
     private $userId = null;

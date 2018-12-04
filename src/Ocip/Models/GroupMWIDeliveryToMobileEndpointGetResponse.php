@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupMWIDeliveryToMobileEndpointGetRequest.
  *         
- *         The templateActivationTable contains the list of templates defined for
- * the group.
+ *         The templateActivationTable contains the list of templates defined for the group.
  *         The column headings are "Enable", "Language", "Type".
  *
  * @see GroupMWIDeliveryToMobileEndpointGetRequest
+ * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:171","type":"sequence"}]
  */
 class GroupMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class GroupMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
      */
     private $useSettingLevel = null;
@@ -26,6 +27,7 @@ class GroupMWIDeliveryToMobileEndpointGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName templateActivationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:171
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $templateActivationTable = null;

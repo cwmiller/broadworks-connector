@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDnActivateListRequest
  *
- * Activate a list of assigned DNs on a group. It is possible to activate either: a
- * single DN,
+ * Activate a list of assigned DNs on a group. It is possible to activate either: a single DN,
  *         or a list of DNs, or a range of DNs, or any combination thereof.
  *         
  *         It is not an error to activate an already activated DN
@@ -14,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3971","type":"sequence"}]
  */
 class GroupDnActivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class GroupDnActivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3971
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class GroupDnActivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3971
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +38,8 @@ class GroupDnActivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3971
      * @var string[]
      */
     private $phoneNumber = array(
@@ -46,6 +50,8 @@ class GroupDnActivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3971
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

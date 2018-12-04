@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemNumberPortabilityQueryStatusGetRequest
  *
  * Get information for a system Number Portability Query Status.
- *         The response is either SystemNumberPortabilityQueryStatusGetResponse or
- * ErrorResponse.
+ *         The response is either SystemNumberPortabilityQueryStatusGetResponse or ErrorResponse.
  *
  * @see SystemNumberPortabilityQueryStatusGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11514","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryStatusGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemNumberPortabilityQueryStatusGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName status
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11514
      * @var string|null
      */
     private $status = null;

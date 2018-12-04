@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallTransferGetRequest
  *
  * Request the user level data associated with Call Transfer.
- *         The response is either a UserCallTransferGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserCallTransferGetResponse or an ErrorResponse.
  *         Replaced By: UserCallTransferGetRequest14Sp4
  *
  * @see UserCallTransferGetResponse
  * @see ErrorResponse
  * @see UserCallTransferGetRequest14Sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:33955","type":"sequence"}]
  */
 class UserCallTransferGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserCallTransferGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33955
      * @var string|null
      */
     private $userId = null;

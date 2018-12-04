@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCPEConfigParametersModifyRequest21
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21433","type":"sequence"}]
  */
 class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableIPDeviceManagement
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21433
      * @var bool|null
      */
     private $enableIPDeviceManagement = null;
@@ -27,6 +30,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName ftpConnectTimeoutSeconds
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21433
      * @var int|null
      */
     private $ftpConnectTimeoutSeconds = null;
@@ -34,6 +39,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName ftpFileTransferTimeoutSeconds
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21433
      * @var int|null
      */
     private $ftpFileTransferTimeoutSeconds = null;
@@ -41,6 +48,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName pauseBetweenFileRebuildMilliseconds
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21433
      * @var int|null
      */
     private $pauseBetweenFileRebuildMilliseconds = null;
@@ -48,6 +57,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxBusyTimeMinutes
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21433
      * @var int|null
      */
     private $maxBusyTimeMinutes = null;
@@ -56,6 +67,8 @@ class SystemCPEConfigParametersModifyRequest20 extends \CWM\BroadWorksConnector\
      * @ElementName deviceAccessAppServerClusterName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21433
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceAccessAppServerClusterName = null;

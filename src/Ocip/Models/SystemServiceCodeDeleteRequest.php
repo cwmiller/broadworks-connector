@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemServiceCodeDeleteRequest
  *
- * Request to delete a service code for the purpose of providing free format
- * routable strings for dialing
+ * Request to delete a service code for the purpose of providing free format routable strings for dialing
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14098","type":"sequence"}]
  */
 class SystemServiceCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemServiceCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceCode
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14098
      * @var string|null
      */
     private $serviceCode = null;

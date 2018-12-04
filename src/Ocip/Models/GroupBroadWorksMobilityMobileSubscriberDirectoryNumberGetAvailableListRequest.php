@@ -5,17 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest
  *
- * Request a list of available Mobile Subscriber Directory Numbers not yet assigned
- * to any user.
- * .       This command is applicable only for group in a service provider and will
- * fail for a group in an enterprise.
- *         The response is either
- * GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
- * or ErrorResponse.
+ * Request a list of available Mobile Subscriber Directory Numbers not yet assigned to any user.
+ * .       This command is applicable only for group in a service provider and will fail for a group in an enterprise.
+ *         The response is either GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse or ErrorResponse.
  *
- * @see
- * GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
+ * @see GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:272","type":"sequence"}]
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +19,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequ
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:272
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +27,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberGetAvailableListRequ
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:272
      * @var string|null
      */
     private $groupId = null;

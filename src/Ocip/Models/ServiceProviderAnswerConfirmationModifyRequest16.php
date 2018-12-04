@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1178","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1178
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,8 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
     /**
      * @ElementName announcementMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1178
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnswerConfirmationAnnouncementSelection|null
      */
     private $announcementMessageSelection = null;
@@ -31,6 +35,8 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
     /**
      * @ElementName confirmationMessageAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1178
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $confirmationMessageAudioFile = null;
@@ -38,6 +44,8 @@ class ServiceProviderAnswerConfirmationModifyRequest16 extends \CWM\BroadWorksCo
     /**
      * @ElementName confirmationTimoutSeconds
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1178
      * @var int|null
      */
     private $confirmationTimoutSeconds = null;

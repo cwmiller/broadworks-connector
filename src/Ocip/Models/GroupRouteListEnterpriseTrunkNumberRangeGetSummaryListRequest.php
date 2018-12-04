@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest
  *
- * Get the list of assigned and unassigned enterprise trunknumber ranges in a
- * group.
- *         The response is either
- * GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse or ErrorResponse.
+ * Get the list of assigned and unassigned enterprise trunknumber ranges in a group.
+ *         The response is either GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse or ErrorResponse.
  *
  * @see GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:374","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest extends \CWM
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:374
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest extends \CWM
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:374
      * @var string|null
      */
     private $groupId = null;

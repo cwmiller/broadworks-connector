@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSubscriberGetCallProcessingParametersRequest15sp2
  * @see SystemSubscriberGetCallProcessingParametersResponse17
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28398","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28398
      * @var bool|null
      */
     private $isExtendedCallingLineIdActive = null;
@@ -24,6 +26,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28398
      * @var bool|null
      */
     private $isRingTimeOutActive = null;
@@ -31,6 +34,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28398
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
@@ -38,6 +42,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28398
      * @var bool|null
      */
     private $allowEmergencyRemoteOfficeOriginations = null;
@@ -45,6 +50,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15sp2 extends \CWM\Broa
     /**
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28398
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;

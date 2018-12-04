@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCapacityManagementGetInstanceListResponse
  *
  * Response to the GroupCallCapacityManagementGetInstanceListRequest.
- *         Contains a table with column headings: "Name", "Is Default", "Maximum
- * Calls", "Maximum Incoming Calls", "Maximum Outgoing Calls".
+ *         Contains a table with column headings: "Name", "Is Default", "Maximum Calls", "Maximum Incoming Calls", "Maximum Outgoing Calls".
  *
  * @see GroupCallCapacityManagementGetInstanceListRequest
+ * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:190","type":"sequence"}]
  */
 class GroupCallCapacityManagementGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class GroupCallCapacityManagementGetInstanceListResponse extends \CWM\BroadWorks
     /**
      * @ElementName callCapacityGroupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group ec414f584634edfc7ab45285fc8bb597:190
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCapacityGroupTable = null;

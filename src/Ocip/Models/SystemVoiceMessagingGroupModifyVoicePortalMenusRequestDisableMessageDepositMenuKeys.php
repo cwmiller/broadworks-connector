@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDepositMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32047","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDepositMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
      * @ElementName disconnectAfterGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32047
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disconnectAfterGreeting = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
      * @ElementName forwardAfterGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32047
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardAfterGreeting = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
      * @ElementName changeForwardingDestination
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32047
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeForwardingDestination = null;
@@ -35,6 +43,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32047
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -43,6 +53,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestDisableMessageDeposi
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32047
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

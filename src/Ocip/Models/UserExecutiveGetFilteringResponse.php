@@ -7,30 +7,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserExecutiveGetFilteringRequest.
  *         Contains the filtering setting and a table of filtering criteria.
- *         The criteria table's column headings are: "Is Active", "Criteria Name",
- * "Time Schedule", "Calls From", 
- *         "Filter", "Holiday Schedule", "Calls To Type", "Calls To Number" and
- * "Calls To Extension".      
+ *         The criteria table's column headings are: "Is Active", "Criteria Name", "Time Schedule", "Calls From", 
+ *         "Filter", "Holiday Schedule", "Calls To Type", "Calls To Number" and "Calls To Extension".      
  *         The "Filter" column can contain "true" or "false".
- *         The possible values for the "Calls To Type" column are the following or
- * a combination of them separated by comma:
+ *         The possible values for the "Calls To Type" column are the following or a combination of them separated by comma:
  *           - Primary
  *           - Alternate X (where x is a number between 1 and 10)
  *           - Mobility        
- *         The possible values for the "Calls To Number" column are the following
- * or a combination of them separated by comma:
- *           - The value of the phone number for the corresponding Calls To Type,
- * when the number is available. i.e. Alternate 1 may have extension, but no
- * number.
+ *         The possible values for the "Calls To Number" column are the following or a combination of them separated by comma:
+ *           - The value of the phone number for the corresponding Calls To Type, when the number is available. i.e. Alternate 1 may have extension, but no number.
  *           - When no number is available a blank space is provided instead.
- *         The possible values for the "Calls To Extension" column are the
- * following or a combination of them separated by comma:
- *           - The value of the extension for the corresponding Calls To Type, when
- * the extension is available. i.e. Primary may have number, but no extension.
+ *         The possible values for the "Calls To Extension" column are the following or a combination of them separated by comma:
+ *           - The value of the extension for the corresponding Calls To Type, when the extension is available. i.e. Primary may have number, but no extension.
  *           - For Mobility Calls To Type, this is always blank.
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserExecutiveGetFilteringRequest
+ * @Groups [{"id":"f5d58d7e1c3de827d7f1ff867a413cdd:250","type":"sequence"}]
  */
 class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -38,6 +31,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableFiltering
      * @Type bool
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:250
      * @var bool|null
      */
     private $enableFiltering = null;
@@ -45,6 +39,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName filteringMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringMode|null
      */
     private $filteringMode = null;
@@ -52,6 +47,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName simpleFilterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExecutiveCallFilteringSimpleFilterType|null
      */
     private $simpleFilterType = null;
@@ -59,6 +55,7 @@ class UserExecutiveGetFilteringResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

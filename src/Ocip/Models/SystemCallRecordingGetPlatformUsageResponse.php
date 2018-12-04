@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallRecordingGetPlatformUsageResponse
  *
  * Response to SystemCallRecordingGetPlatformUsageRequest.
- *         The response contains a table with columns headings "Service Provider
- * Id", "Group Id".
+ *         The response contains a table with columns headings "Service Provider Id", "Group Id".
  *
  * @see SystemCallRecordingGetPlatformUsageRequest
+ * @Groups [{"id":"604d9297550842860022313f3cf2dc8f:194","type":"sequence"}]
  */
 class SystemCallRecordingGetPlatformUsageResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemCallRecordingGetPlatformUsageResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 604d9297550842860022313f3cf2dc8f:194
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupTable = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ReplyMessageMenuKeysModifyEntry
  *
  * The voice portal reply message menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2913","type":"sequence"}]
  */
 class ReplyMessageMenuKeysModifyEntry
 {
@@ -13,6 +15,8 @@ class ReplyMessageMenuKeysModifyEntry
     /**
      * @ElementName sendReplyToCaller
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2913
      * @var string|null
      */
     private $sendReplyToCaller = null;
@@ -21,6 +25,8 @@ class ReplyMessageMenuKeysModifyEntry
      * @ElementName changeCurrentReply
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2913
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentReply = null;
@@ -29,6 +35,8 @@ class ReplyMessageMenuKeysModifyEntry
      * @ElementName listenToCurrentReply
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2913
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentReply = null;
@@ -37,6 +45,8 @@ class ReplyMessageMenuKeysModifyEntry
      * @ElementName setOrClearUrgentIndicator
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2913
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
@@ -45,6 +55,8 @@ class ReplyMessageMenuKeysModifyEntry
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2913
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
@@ -52,6 +64,8 @@ class ReplyMessageMenuKeysModifyEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2913
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -60,6 +74,8 @@ class ReplyMessageMenuKeysModifyEntry
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2913
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

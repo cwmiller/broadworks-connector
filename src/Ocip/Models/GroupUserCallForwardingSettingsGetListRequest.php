@@ -6,19 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupUserCallForwardingSettingsGetListRequest
  *
  * Get a list of users and the service settings for a Call Forwarding service.
- *         The response is either GroupUserCallForwardingSettingsGetListResponse or
- * ErrorResponse.
- *         By default, virtual users and non-virtual users that match the selected
- * search criteria are included in the response when "includeVirtualUsers" is
- * present; otherwise, if "includeVirtualUsers" is absent, then only non-virtual
- * users are returned. 
- *         The search can be performed using multiple criteria. If search criteria
- * is specified, only the users matching all of the specified search criteria are
- * included in the response. If no search criteria is specified, all results are
- * returned.
+ *         The response is either GroupUserCallForwardingSettingsGetListResponse or ErrorResponse.
+ *         By default, virtual users and non-virtual users that match the selected search criteria are included in the response when "includeVirtualUsers" is present; otherwise, if "includeVirtualUsers" is absent, then only non-virtual users are returned. 
+ *         The search can be performed using multiple criteria. If search criteria is specified, only the users matching all of the specified search criteria are included in the response. If no search criteria is specified, all results are returned.
  *
  * @see GroupUserCallForwardingSettingsGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:7029","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:7034","type":"choice"}]}]
  */
 class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,6 +20,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -33,6 +28,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var string|null
      */
     private $groupId = null;
@@ -40,6 +36,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName callForwardingService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingService
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingService|null
      */
     private $callForwardingService = null;
@@ -47,6 +44,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -54,6 +52,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7034
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     private $sortByUserLastName = null;
@@ -61,6 +60,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7034
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     private $sortByUserFirstName = null;
@@ -68,6 +68,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName sortByUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7034
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null
      */
     private $sortByUserDepartment = null;
@@ -75,6 +76,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7034
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     private $sortByDn = null;
@@ -82,6 +84,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7034
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     private $sortByExtension = null;
@@ -89,6 +92,7 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName sortByForwardedToNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByForwardedToNumber
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7034
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByForwardedToNumber|null
      */
     private $sortByForwardedToNumber = null;
@@ -96,6 +100,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName includeVirtualUsers
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var bool|null
      */
     private $includeVirtualUsers = null;
@@ -104,6 +110,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -114,6 +122,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -124,6 +134,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -134,6 +146,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -144,6 +158,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -154,6 +170,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -163,6 +181,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -170,6 +190,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
     private $searchCriteriaExactUserInTrunkGroup = null;
@@ -178,6 +200,8 @@ class GroupUserCallForwardingSettingsGetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaForwardedToNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaForwardedToNumber
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7029
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaForwardedToNumber[]
      */
     private $searchCriteriaForwardedToNumber = array(

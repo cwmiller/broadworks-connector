@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFindMeFollowMeGetAlertingGroupListRequest
  *
  * Get a list of Find-me/Follow-me alerting groups within a group.
- *         The response is either GroupFindMeFollowMeGetAlertingGroupListResponse
- * or ErrorResponse.
+ *         The response is either GroupFindMeFollowMeGetAlertingGroupListResponse or ErrorResponse.
  *
  * @see GroupFindMeFollowMeGetAlertingGroupListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:220","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupFindMeFollowMeGetAlertingGroupListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group d0d5b8a5908815c6ae522efe732e363a:220
      * @var string|null
      */
     private $serviceUserId = null;

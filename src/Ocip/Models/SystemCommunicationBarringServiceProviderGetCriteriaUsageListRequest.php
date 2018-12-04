@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the list of Service Providers that use a specific
  *         Communication Barring Criteria.
- *         The response is either a
- * SystemCommunicationBarringServiceProviderGetCriteriaUsageListResponse
+ *         The response is either a SystemCommunicationBarringServiceProviderGetCriteriaUsageListResponse
  *         or an ErrorResponse.
  *
  * @see SystemCommunicationBarringServiceProviderGetCriteriaUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5786","type":"sequence"}]
  */
 class SystemCommunicationBarringServiceProviderGetCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class SystemCommunicationBarringServiceProviderGetCriteriaUsageListRequest exten
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5786
      * @var string|null
      */
     private $name = null;

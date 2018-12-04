@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOptionsMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:30521","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOptionsMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
     /**
      * @ElementName activateCallForwarding
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30521
      * @var string|null
      */
     private $activateCallForwarding = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
     /**
      * @ElementName deactivateCallForwarding
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30521
      * @var string|null
      */
     private $deactivateCallForwarding = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
     /**
      * @ElementName changeCallForwardingDestination
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30521
      * @var string|null
      */
     private $changeCallForwardingDestination = null;
@@ -32,6 +40,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
     /**
      * @ElementName listenToCallForwardingStatus
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30521
      * @var string|null
      */
     private $listenToCallForwardingStatus = null;
@@ -39,6 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30521
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -46,6 +57,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19CallForwardingOption
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30521
      * @var string|null
      */
     private $repeatMenu = null;

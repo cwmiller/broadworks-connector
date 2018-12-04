@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest
  *
  * Request the user's voice portal password information.
- *         The response is either a
- * UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse or an ErrorResponse.
+ *         The response is either a UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse or an ErrorResponse.
  *         Replaced By: UserPortalPasscodeGetInfoRequest
  *
  * @see UserVoiceMessagingUserGetVoicePortalPasswordInfoResponse
  * @see ErrorResponse
  * @see UserPortalPasscodeGetInfoRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38003","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserVoiceMessagingUserGetVoicePortalPasswordInfoRequest extends \CWM\Broad
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38003
      * @var string|null
      */
     private $userId = null;

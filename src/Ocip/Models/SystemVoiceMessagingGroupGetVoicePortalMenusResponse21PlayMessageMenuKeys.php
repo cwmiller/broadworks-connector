@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:872","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys
     /**
      * @ElementName skipBackward
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:872
      * @var string|null
      */
     private $skipBackward = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys
     /**
      * @ElementName pauseOrResume
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:872
      * @var string|null
      */
     private $pauseOrResume = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys
     /**
      * @ElementName skipForward
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:872
      * @var string|null
      */
     private $skipForward = null;
@@ -32,6 +40,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys
     /**
      * @ElementName jumpToBegin
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:872
      * @var string|null
      */
     private $jumpToBegin = null;
@@ -39,6 +49,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PlayMessageMenuKeys
     /**
      * @ElementName jumpToEnd
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:872
      * @var string|null
      */
     private $jumpToEnd = null;

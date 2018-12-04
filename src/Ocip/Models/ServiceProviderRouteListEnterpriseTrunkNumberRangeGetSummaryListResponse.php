@@ -5,12 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse
  *
- * Response to
- * ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest.
- *         The column headings are "Number Range Start", "Number Range End", "Group
- * Id" and "Is Active".
+ * Response to ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest.
+ *         The column headings are "Number Range Start", "Number Range End", "Group Id" and "Is Active".
  *
  * @see ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:688","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +17,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse e
     /**
      * @ElementName numberRangeSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:688
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $numberRangeSummaryTable = null;

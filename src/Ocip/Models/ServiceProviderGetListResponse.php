@@ -6,15 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderGetListResponse
  *
  * Response to ServiceProviderGetListRequest.
- *         Contains a 3 column table with column headings "Service Provider Id",
- * "Service Provider Name",
- *         "Is Enterprise" and "Reseller Id" and a row for each service provider or
- * enterprise.
+ *         Contains a 3 column table with column headings "Service Provider Id", "Service Provider Name",
+ *         "Is Enterprise" and "Reseller Id" and a row for each service provider or enterprise.
  *
  *         The following columns are only returned in AS data mode:       
  *           "Reseller Id"
  *
  * @see ServiceProviderGetListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3555","type":"sequence"}]
  */
 class ServiceProviderGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +21,7 @@ class ServiceProviderGetListResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3555
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderTable = null;

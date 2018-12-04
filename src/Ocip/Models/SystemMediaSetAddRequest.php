@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10395","type":"sequence"}]
  */
 class SystemMediaSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemMediaSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName setName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10395
      * @var string|null
      */
     private $setName = null;
@@ -25,6 +27,7 @@ class SystemMediaSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName mediaName
      * @Type string
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10395
      * @var string[]
      */
     private $mediaName = array(

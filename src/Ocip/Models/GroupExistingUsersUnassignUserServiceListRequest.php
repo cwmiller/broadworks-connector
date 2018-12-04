@@ -5,17 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupExistingUsersUnassignUserServiceListRequest
  *
- * Requests to unassign the user services and service packs for all existing users
- * within the group.
- *         BroadSoft recommends using this command only for small groups with less
- * than 100 users.  This 
- *         command will return an error if the group has over 500 users.  The
- * recommended way to bulk 
+ * Requests to unassign the user services and service packs for all existing users within the group.
+ *         BroadSoft recommends using this command only for small groups with less than 100 users.  This 
+ *         command will return an error if the group has over 500 users.  The recommended way to bulk 
  *         assign/unassign services is Service Pack Migration.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4594","type":"sequence"}]
  */
 class GroupExistingUsersUnassignUserServiceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +21,7 @@ class GroupExistingUsersUnassignUserServiceListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4594
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +29,7 @@ class GroupExistingUsersUnassignUserServiceListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4594
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +38,8 @@ class GroupExistingUsersUnassignUserServiceListRequest extends \CWM\BroadWorksCo
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4594
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(
@@ -48,6 +50,8 @@ class GroupExistingUsersUnassignUserServiceListRequest extends \CWM\BroadWorksCo
      * @ElementName servicePackName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4594
      * @var string[]
      */
     private $servicePackName = array(

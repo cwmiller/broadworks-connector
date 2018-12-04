@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackGetDetailListRequest
  *
  * Request to get a service pack details.
- *         The response is either ServiceProviderServicePackGetDetailListResponse
- * or ErrorResponse.
+ *         The response is either ServiceProviderServicePackGetDetailListResponse or ErrorResponse.
  *
  * @see ServiceProviderServicePackGetDetailListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5079","type":"sequence"}]
  */
 class ServiceProviderServicePackGetDetailListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderServicePackGetDetailListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5079
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class ServiceProviderServicePackGetDetailListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName servicePackName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5079
      * @var string|null
      */
     private $servicePackName = null;

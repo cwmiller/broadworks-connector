@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserBargeInExemptGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7791e65363a51bce3d1d264fa0ceee32:42","type":"sequence"}]
  */
 class UserBargeInExemptGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserBargeInExemptGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
+     * @Group 7791e65363a51bce3d1d264fa0ceee32:42
      * @var string|null
      */
     private $userId = null;

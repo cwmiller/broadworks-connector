@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1528","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @ElementName saveFaxMessageAndSkipToNext
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1528
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $saveFaxMessageAndSkipToNext = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @ElementName previousFaxMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1528
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $previousFaxMessage = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @ElementName playEnvelope
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1528
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $playEnvelope = null;
@@ -36,6 +44,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @ElementName nextFaxMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1528
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $nextFaxMessage = null;
@@ -44,6 +54,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @ElementName deleteFaxMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1528
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deleteFaxMessage = null;
@@ -52,6 +64,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @ElementName printFaxMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1528
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $printFaxMessage = null;
@@ -60,6 +74,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19FaxMessagingMenuKe
      * @ElementName returnToPreviousMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1528
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $returnToPreviousMenu = null;

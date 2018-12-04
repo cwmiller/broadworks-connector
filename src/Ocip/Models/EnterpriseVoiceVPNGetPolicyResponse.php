@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseVoiceVPNGetPolicyRequest.
  *
  * @see EnterpriseVoiceVPNGetPolicyRequest
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1457","type":"sequence","children":[{"id":"b561eca19800e0898f471e5e91eb3baa:1463","type":"choice"}]}]
  */
 class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName minExtensionLength
      * @Type int
+     * @Group b561eca19800e0898f471e5e91eb3baa:1457
      * @var int|null
      */
     private $minExtensionLength = null;
@@ -22,6 +24,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName maxExtensionLength
      * @Type int
+     * @Group b561eca19800e0898f471e5e91eb3baa:1457
      * @var int|null
      */
     private $maxExtensionLength = null;
@@ -29,6 +32,8 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1457
      * @var string|null
      */
     private $description = null;
@@ -36,6 +41,8 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName routeGroupId
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1457
      * @var string|null
      */
     private $routeGroupId = null;
@@ -43,6 +50,7 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
+     * @Group b561eca19800e0898f471e5e91eb3baa:1457
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     private $policySelection = null;
@@ -51,6 +59,8 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName digitManipulation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1463
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]
      */
     private $digitManipulation = array(
@@ -60,6 +70,8 @@ class EnterpriseVoiceVPNGetPolicyResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName treatmentId
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1463
      * @var string|null
      */
     private $treatmentId = null;

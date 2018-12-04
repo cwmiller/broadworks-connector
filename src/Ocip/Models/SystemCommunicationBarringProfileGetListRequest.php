@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCommunicationBarringProfileGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5657","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

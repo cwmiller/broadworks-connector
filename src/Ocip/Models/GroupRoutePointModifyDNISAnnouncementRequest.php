@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:10730","type":"sequence"}]
  */
 class GroupRoutePointModifyDNISAnnouncementRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupRoutePointModifyDNISAnnouncementRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10730
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     private $dnisKey = null;
@@ -24,6 +26,8 @@ class GroupRoutePointModifyDNISAnnouncementRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName mediaOnHoldSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10730
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMediaOnHoldSourceModify17|null
      */
     private $mediaOnHoldSource = null;

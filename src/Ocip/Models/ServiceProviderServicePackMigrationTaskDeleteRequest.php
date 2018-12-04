@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderServicePackMigrationTaskDeleteRequest
  *
- * Deletes a service pack migration task. It is not possible to delete a task while
- * it is
+ * Deletes a service pack migration task. It is not possible to delete a task while it is
  *         currently executing.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5265","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class ServiceProviderServicePackMigrationTaskDeleteRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5265
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class ServiceProviderServicePackMigrationTaskDeleteRequest extends \CWM\BroadWor
     /**
      * @ElementName taskName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5265
      * @var string|null
      */
     private $taskName = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAdminGetRequest21sp1
  *
  * Get a service provider administrators profile.
- *         The response is either a ServiceProviderAdminGetResponse21sp1 or an
- * ErrorResponse.
+ *         The response is either a ServiceProviderAdminGetResponse21sp1 or an ErrorResponse.
  *
  * @see ServiceProviderAdminGetResponse21sp1
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:989","type":"sequence"}]
  */
 class ServiceProviderAdminGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderAdminGetRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:989
      * @var string|null
      */
     private $userId = null;

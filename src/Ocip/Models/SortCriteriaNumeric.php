@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The sort criteria specifies whether sort is
  *         ascending or descending.
  *         Sort order defaults to ascending.
+ *
+ * @Groups [{"id":"58f663eead958d798597598c4d3ef3e7:590","type":"sequence"}]
  */
 abstract class SortCriteriaNumeric
 {
@@ -15,6 +17,7 @@ abstract class SortCriteriaNumeric
     /**
      * @ElementName isAscending
      * @Type bool
+     * @Group 58f663eead958d798597598c4d3ef3e7:590
      * @var bool|null
      */
     private $isAscending = null;

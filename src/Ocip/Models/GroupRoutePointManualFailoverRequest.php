@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:708","type":"sequence"}]
  */
 class GroupRoutePointManualFailoverRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupRoutePointManualFailoverRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:708
      * @var string|null
      */
     private $serviceUserId = null;

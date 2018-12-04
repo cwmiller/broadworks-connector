@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserSimultaneousRingFamilyModifyRequest14sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:37298","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37298
      * @var string|null
      */
     private $userId = null;
@@ -26,6 +28,8 @@ class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37298
      * @var bool|null
      */
     private $isActive = null;
@@ -33,6 +37,8 @@ class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName incomingCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37298
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingSelection|null
      */
     private $incomingCalls = null;
@@ -41,6 +47,8 @@ class UserSimultaneousRingFamilyModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName simRingPhoneNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37298
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $simRingPhoneNumberList = null;

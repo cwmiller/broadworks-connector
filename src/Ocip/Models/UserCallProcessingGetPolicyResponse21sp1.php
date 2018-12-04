@@ -7,35 +7,25 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserCallProcessingGetPolicyRequest21sp1.
  *         The useUserCLIDSetting attribute controls the CLID settings 
- *         (clidPolicy, emergencyClidPolicy,
- * allowAlternateNumbersForRedirectingIdentity, useGroupName,
- * allowConfigurableCLIDForRedirectingIdentity, allowDepartmentCLIDNameOverride)
+ *         (clidPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName, allowConfigurableCLIDForRedirectingIdentity, allowDepartmentCLIDNameOverride)
  *         The useUserMediaSetting attribute controls the Media settings 
  *         (medisPolicySelection, supportedMediaSetName)
  *         The useUserCallLimitsSetting attribute controls the Call Limits setting 
- *         (useMaxSimultaneousCalls, maxSimultaneousCalls,
- * useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls,
- * useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes,
- * useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes,
- * useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth,
- * useMaxConcurrentFindMeFollowMeInvocations,
- * maxConcurrentFindMeFollowMeInvocations)
- *         The useUserDCLIDSetting controls the Dialable Caller ID settings
- * (enableDialableCallerID)
- *         The useUserPhoneListLookupSetting controls whether or not to use the
- * group setting for the Phone List Lookup policy (enablePhoneListLookup)
+ *         (useMaxSimultaneousCalls, maxSimultaneousCalls, useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
+ *         The useUserDCLIDSetting controls the Dialable Caller ID settings (enableDialableCallerID)
+ *         The useUserPhoneListLookupSetting controls whether or not to use the group setting for the Phone List Lookup policy (enablePhoneListLookup)
  *         The following elements are only used in AS data mode :
  *          useUserDCLIDSetting
  *          enableDialableCallerID
  *          allowConfigurableCLIDForRedirectingIdentity
  *          allowDepartmentCLIDNameOverride
- *          useUserPhoneListLookupSetting, value "false" is returned in XS data
- * mode.
+ *          useUserPhoneListLookupSetting, value "false" is returned in XS data mode.
  *          enablePhoneListLookup, value "false" is returned in XS data mode.
  *         Replaced by: UserCallProcessingGetPolicyResponse21sp2
  *
  * @see UserCallProcessingGetPolicyRequest21sp1
  * @see UserCallProcessingGetPolicyResponse21sp2
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:33841","type":"sequence"}]
  */
 class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -43,6 +33,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useUserCLIDSetting
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useUserCLIDSetting = null;
@@ -50,6 +41,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useUserMediaSetting
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useUserMediaSetting = null;
@@ -57,6 +49,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useUserCallLimitsSetting
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useUserCallLimitsSetting = null;
@@ -64,6 +57,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useUserDCLIDSetting
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useUserDCLIDSetting = null;
@@ -71,6 +65,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useMaxSimultaneousCalls
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useMaxSimultaneousCalls = null;
@@ -78,6 +73,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxSimultaneousCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -85,6 +81,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useMaxSimultaneousVideoCalls
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useMaxSimultaneousVideoCalls = null;
@@ -92,6 +89,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -99,6 +97,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useMaxCallTimeForAnsweredCalls = null;
@@ -106,6 +105,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -113,6 +113,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useMaxCallTimeForUnansweredCalls
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useMaxCallTimeForUnansweredCalls = null;
@@ -120,6 +121,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -127,6 +129,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName mediaPolicySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaPolicySelection|null
      */
     private $mediaPolicySelection = null;
@@ -134,6 +137,8 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName supportedMediaSetName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var string|null
      */
     private $supportedMediaSetName = null;
@@ -141,6 +146,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useMaxConcurrentRedirectedCalls
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useMaxConcurrentRedirectedCalls = null;
@@ -148,6 +154,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -155,6 +162,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useMaxFindMeFollowMeDepth
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useMaxFindMeFollowMeDepth = null;
@@ -162,6 +170,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxFindMeFollowMeDepth
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var int|null
      */
     private $maxFindMeFollowMeDepth = null;
@@ -169,6 +178,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxRedirectionDepth
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -176,6 +186,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useMaxConcurrentFindMeFollowMeInvocations
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useMaxConcurrentFindMeFollowMeInvocations = null;
@@ -183,6 +194,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName maxConcurrentFindMeFollowMeInvocations
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var int|null
      */
     private $maxConcurrentFindMeFollowMeInvocations = null;
@@ -190,6 +202,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName clidPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $clidPolicy = null;
@@ -197,6 +210,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName emergencyClidPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $emergencyClidPolicy = null;
@@ -204,6 +218,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowAlternateNumbersForRedirectingIdentity
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $allowAlternateNumbersForRedirectingIdentity = null;
@@ -211,6 +226,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useGroupName
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useGroupName = null;
@@ -218,6 +234,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName blockCallingNameForExternalCalls
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $blockCallingNameForExternalCalls = null;
@@ -225,6 +242,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableDialableCallerID
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $enableDialableCallerID = null;
@@ -232,6 +250,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowConfigurableCLIDForRedirectingIdentity
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $allowConfigurableCLIDForRedirectingIdentity = null;
@@ -239,6 +258,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowDepartmentCLIDNameOverride
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $allowDepartmentCLIDNameOverride = null;
@@ -246,6 +266,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName useUserPhoneListLookupSetting
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $useUserPhoneListLookupSetting = null;
@@ -253,6 +274,7 @@ class UserCallProcessingGetPolicyResponse21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enablePhoneListLookup
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33841
      * @var bool|null
      */
     private $enablePhoneListLookup = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5594","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
     /**
      * @ElementName name
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5594
      * @var string|null
      */
     private $name = null;
@@ -24,6 +26,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
     /**
      * @ElementName newName
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5594
      * @var string|null
      */
     private $newName = null;
@@ -32,6 +36,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5594
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -39,6 +45,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
     /**
      * @ElementName xsltTemplate
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5594
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $xsltTemplate = null;
@@ -46,6 +54,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
     /**
      * @ElementName scope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5594
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateAccessOption|null
      */
     private $scope = null;
@@ -53,6 +63,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
     /**
      * @ElementName isEnabled
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5594
      * @var bool|null
      */
     private $isEnabled = null;
@@ -60,6 +72,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
     /**
      * @ElementName isRealtimeReport
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5594
      * @var bool|null
      */
     private $isRealtimeReport = null;
@@ -68,6 +82,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @ElementName filterNumber
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5594
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $filterNumber = null;
@@ -76,6 +92,8 @@ class SystemCallCenterEnhancedReportingReportTemplateModifyRequest extends \CWM\
      * @ElementName filterValue
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5594
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportDataTemplateQueryFilterValueReplacementList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $filterValue = null;

@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterEnhancedReportingReportTemplateGetListResponse
  *
  * Response to GroupCallCenterEnhancedReportingReportTemplateGetListRequest. 
- *         Contains a table with column headings: "Name", "Description", "Type" and
- * "Enabled"
+ *         Contains a table with column headings: "Name", "Description", "Type" and "Enabled"
  *
  * @see GroupCallCenterEnhancedReportingReportTemplateGetListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3149","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingReportTemplateGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetListResponse extends \CWM
     /**
      * @ElementName reportTemplateTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3149
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $reportTemplateTable = null;

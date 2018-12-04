@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:1041","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupRoutePointQueueCallDispositionCodeDeleteRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:1041
      * @var string|null
      */
     private $serviceUserId = null;
@@ -24,6 +26,7 @@ class GroupRoutePointQueueCallDispositionCodeDeleteRequest extends \CWM\BroadWor
     /**
      * @ElementName code
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:1041
      * @var string|null
      */
     private $code = null;

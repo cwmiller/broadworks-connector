@@ -7,13 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAdminGetListRequest.
  *         Contains a 7 column table with column headings "Administrator ID",
- *         "Last Name", "First Name", "Department", "Language", "Locale" and
- * "Encoding".
+ *         "Last Name", "First Name", "Department", "Language", "Locale" and "Encoding".
  *         
  *         The following columns are only returned in AS data mode:
  *           "Locale" and "Encoding"
  *
  * @see GroupAdminGetListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1051","type":"sequence"}]
  */
 class GroupAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +21,7 @@ class GroupAdminGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1051
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $groupAdminTable = null;

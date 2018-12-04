@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6746","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:6747","type":"choice","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:6752","type":"sequence"}]}]}]
  */
 class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
     /**
      * @ElementName cancelAllEvents
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6747
      * @var string|null
      */
     private $cancelAllEvents = null;
@@ -27,6 +29,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
     /**
      * @ElementName cancelMultipleEvents
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6747
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemDeviceManagementInProgressAndPendingEventCancelRequestCancelMultipleEvents|null
      */
     private $cancelMultipleEvents = null;
@@ -35,6 +38,7 @@ class SystemDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\
      * @ElementName eventId
      * @Type int
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6747
      * @var int[]
      */
     private $eventId = array(

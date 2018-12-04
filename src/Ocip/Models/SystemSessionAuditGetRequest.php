@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSessionAuditGetResponse
  * @see ErrorResponse
  * @see SystemSessionAuditGetRequest14sp3
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:24283","type":"sequence"}]
  */
 class SystemSessionAuditGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

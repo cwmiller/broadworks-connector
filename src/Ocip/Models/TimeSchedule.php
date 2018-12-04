@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TimeSchedule
  *
  * The from dn criteria.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3629","type":"sequence"}]
  */
 class TimeSchedule
 {
@@ -13,6 +15,7 @@ class TimeSchedule
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3629
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleLevel|null
      */
     private $type = null;
@@ -20,6 +23,7 @@ class TimeSchedule
     /**
      * @ElementName name
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3629
      * @var string|null
      */
     private $name = null;

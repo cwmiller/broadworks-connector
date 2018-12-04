@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderIntegratedIMPGetRequest21
  *
  * Get the Integrated IMP service attributes for the service provider.
- *         The response is either ServiceProviderIntegratedIMPGetResponse21 or
- * ErrorResponse.
+ *         The response is either ServiceProviderIntegratedIMPGetResponse21 or ErrorResponse.
  *
  * @see ServiceProviderIntegratedIMPGetResponse21
  * @see ErrorResponse
+ * @Groups [{"id":"8351e8f51540f77c264b2f9bdf7fada4:166","type":"sequence"}]
  */
 class ServiceProviderIntegratedIMPGetRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderIntegratedIMPGetRequest21 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:166
      * @var string|null
      */
     private $serviceProviderId = null;

@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19MessageDepositMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:30743","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19MessageDepositMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19MessageDepositMenuKe
     /**
      * @ElementName enableMessageDeposit
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30743
      * @var string|null
      */
     private $enableMessageDeposit = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19MessageDepositMenuKe
     /**
      * @ElementName disableMessageDeposit
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30743
      * @var string|null
      */
     private $disableMessageDeposit = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19MessageDepositMenuKe
     /**
      * @ElementName listenToMessageDepositStatus
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30743
      * @var string|null
      */
     private $listenToMessageDepositStatus = null;
@@ -32,6 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19MessageDepositMenuKe
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30743
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -39,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19MessageDepositMenuKe
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30743
      * @var string|null
      */
     private $repeatMenu = null;

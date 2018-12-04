@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetInstanceStatisticsReportingRequest16
  *
  * Request to get the call center statistics reporting settings.
- *         The response is either
- * GroupCallCenterGetInstanceStatisticsReportingResponse16 or ErrorResponse.
+ *         The response is either GroupCallCenterGetInstanceStatisticsReportingResponse16 or ErrorResponse.
  *
  * @see GroupCallCenterGetInstanceStatisticsReportingResponse16
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:4651","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsReportingRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterGetInstanceStatisticsReportingRequest16 extends \CWM\BroadW
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4651
      * @var string|null
      */
     private $serviceUserId = null;

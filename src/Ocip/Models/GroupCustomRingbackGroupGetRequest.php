@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCustomRingbackGroupGetRequest
  *
  * Get the group's custom ring back service settings.
- *         The response is either a GroupCustomRingbackGroupGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupCustomRingbackGroupGetResponse or an ErrorResponse.
  *         Replaced By: GroupCustomRingbackGroupGetRequest16
  *
  * @see GroupCustomRingbackGroupGetResponse
  * @see ErrorResponse
  * @see GroupCustomRingbackGroupGetRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7608","type":"sequence"}]
  */
 class GroupCustomRingbackGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupCustomRingbackGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7608
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupCustomRingbackGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7608
      * @var string|null
      */
     private $groupId = null;

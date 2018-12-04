@@ -8,10 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * This is the configuration parameters for Call Forwarding Selective service
  *         	
  *         	The criteria table's column headings are:
- * 			"Is Active", "Criteria Name", "Time Schedule", "Calls From", "Forward To",
- * "Blacklisted", "Holiday Schedule"
+ * 			"Is Active", "Criteria Name", "Time Schedule", "Calls From", "Forward To", "Blacklisted", "Holiday Schedule"
  * 			
  * 			The "Calls From" column is a string containing call numbers
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3512","type":"sequence"}]
  */
 class ProfileAndServiceCallForwardingSelectiveInfo
 {
@@ -19,6 +20,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3512
      * @var bool|null
      */
     private $isActive = null;
@@ -26,6 +28,8 @@ class ProfileAndServiceCallForwardingSelectiveInfo
     /**
      * @ElementName defaultForwardToPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3512
      * @var string|null
      */
     private $defaultForwardToPhoneNumber = null;
@@ -33,6 +37,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
     /**
      * @ElementName playRingReminder
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3512
      * @var bool|null
      */
     private $playRingReminder = null;
@@ -40,6 +45,7 @@ class ProfileAndServiceCallForwardingSelectiveInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:3512
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

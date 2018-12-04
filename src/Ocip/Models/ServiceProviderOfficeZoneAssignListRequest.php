@@ -6,15 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderOfficeZoneAssignListRequest
  *
  * Assign a list of Office Zones to a service provider.
- *         The Element defaultOfficeZone is required only for the first assignment,
- * for subsequent assignments it is optional.
- *         Office Zones can only be assigned if the Location-Based Calling
- * Restrictions has been authorized to the service provider otherwise the request
- * will fail.
+ *         The Element defaultOfficeZone is required only for the first assignment, for subsequent assignments it is optional.
+ *         Office Zones can only be assigned if the Location-Based Calling Restrictions has been authorized to the service provider otherwise the request will fail.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4159","type":"sequence"}]
  */
 class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +20,7 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4159
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +29,8 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
      * @ElementName officeZoneName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4159
      * @var string[]
      */
     private $officeZoneName = array(
@@ -39,6 +40,8 @@ class ServiceProviderOfficeZoneAssignListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName defaultOfficeZoneName
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4159
      * @var string|null
      */
     private $defaultOfficeZoneName = null;

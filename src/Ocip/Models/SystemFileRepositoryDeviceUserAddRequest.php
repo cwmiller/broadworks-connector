@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8786","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileRepositoryName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8786
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -24,6 +26,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8786
      * @var string|null
      */
     private $userName = null;
@@ -31,6 +34,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName password
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8786
      * @var string|null
      */
     private $password = null;
@@ -38,6 +42,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowPut
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8786
      * @var bool|null
      */
     private $allowPut = null;
@@ -45,6 +50,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowDelete
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8786
      * @var bool|null
      */
     private $allowDelete = null;
@@ -52,6 +58,7 @@ class SystemFileRepositoryDeviceUserAddRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName allowGet
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8786
      * @var bool|null
      */
     private $allowGet = null;

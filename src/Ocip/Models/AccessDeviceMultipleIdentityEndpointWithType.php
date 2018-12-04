@@ -6,9 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AccessDeviceMultipleIdentityEndpointWithType
  *
  * Access device end point that can have multiple contacts.
- *       The endpoint is identified by its linePort (public Identity) and possibly
- * a private Identity.
+ *       The endpoint is identified by its linePort (public Identity) and possibly a private Identity.
  *       Port numbers are only used by devices with static line ordering.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:277","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityEndpointWithType
 {
@@ -16,6 +17,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Group 18b369af88e42ffdb4166615c670ce2c:277
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -23,6 +25,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:277
      * @var string|null
      */
     private $deviceType = null;
@@ -30,6 +33,7 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:277
      * @var string|null
      */
     private $linePort = null;
@@ -37,6 +41,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName privateIdentity
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:277
      * @var string|null
      */
     private $privateIdentity = null;
@@ -44,6 +50,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName contact
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:277
      * @var string|null
      */
     private $contact = null;
@@ -51,6 +59,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName portNumber
      * @Type int
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:277
      * @var int|null
      */
     private $portNumber = null;
@@ -58,6 +68,8 @@ class AccessDeviceMultipleIdentityEndpointWithType
     /**
      * @ElementName macAddress
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:277
      * @var string|null
      */
     private $macAddress = null;

@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the White List information.
  *
  * @see ServiceProviderSessionAdmissionControlWhiteListGetRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5682","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlWhiteListGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,8 @@ class ServiceProviderSessionAdmissionControlWhiteListGetResponse extends \CWM\Br
      * @ElementName matchDigitPattern
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5682
      * @var string[]
      */
     private $matchDigitPattern = array(
@@ -26,6 +29,7 @@ class ServiceProviderSessionAdmissionControlWhiteListGetResponse extends \CWM\Br
     /**
      * @ElementName enableWhiteList
      * @Type bool
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5682
      * @var bool|null
      */
     private $enableWhiteList = null;

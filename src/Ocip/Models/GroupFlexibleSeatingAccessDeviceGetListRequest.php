@@ -6,15 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFlexibleSeatingAccessDeviceGetListRequest
  *
  * Requests the list of access devices available for assignment to a flexible
- *         seating host or guest. The list includes devices created at the system,
- * service 
+ *         seating host or guest. The list includes devices created at the system, service 
  *         provider, and group levels that support device management.
- *         The response is either GroupFlexibleSeatingAccessDeviceGetListResponse
- * or
+ *         The response is either GroupFlexibleSeatingAccessDeviceGetListResponse or
  *         ErrorResponse.
  *
  * @see GroupFlexibleSeatingAccessDeviceGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:60","type":"sequence"}]
  */
 class GroupFlexibleSeatingAccessDeviceGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class GroupFlexibleSeatingAccessDeviceGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:60
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +29,7 @@ class GroupFlexibleSeatingAccessDeviceGetListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:60
      * @var string|null
      */
     private $groupId = null;

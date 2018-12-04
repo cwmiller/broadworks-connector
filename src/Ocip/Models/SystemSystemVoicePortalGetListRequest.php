@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSystemVoicePortalGetListRequest
  *
  * Request to get the list of the system voice portals.
- *         The response is either SystemSystemVoicePortalGetListResponce or
- * ErrorResponse.
+ *         The response is either SystemSystemVoicePortalGetListResponce or ErrorResponse.
  *
  * @see ErrorResponse
  */

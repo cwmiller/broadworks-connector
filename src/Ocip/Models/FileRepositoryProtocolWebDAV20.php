@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * FileRepositoryProtocolWebDAV20
  *
- * Attributes of the WebDav protocol when the file repository interface is using
- * WebDav.
+ * Attributes of the WebDav protocol when the file repository interface is using WebDav.
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17366","type":"sequence"}]
  */
 class FileRepositoryProtocolWebDAV20
 {
@@ -14,6 +15,7 @@ class FileRepositoryProtocolWebDAV20
     /**
      * @ElementName secure
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17366
      * @var bool|null
      */
     private $secure = null;
@@ -21,6 +23,7 @@ class FileRepositoryProtocolWebDAV20
     /**
      * @ElementName netAddress
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17366
      * @var string|null
      */
     private $netAddress = null;
@@ -28,6 +31,7 @@ class FileRepositoryProtocolWebDAV20
     /**
      * @ElementName extendedFileCaptureSupport
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17366
      * @var bool|null
      */
     private $extendedFileCaptureSupport = null;

@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest
  *
- * Request to get a list of active enterprise level call center reporting scheduled
- * reports.
- *         The response is either an
- * EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListResponse or an
- * ErrorResponse.
+ * Request to get a list of active enterprise level call center reporting scheduled reports.
+ *         The response is either an EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListResponse or an ErrorResponse.
  *
  * @see EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1408","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1408
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +26,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1408
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -35,6 +36,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
      * @ElementName searchCriteriaCallCenterScheduledReportName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1408
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterScheduledReportName[]
      */
     private $searchCriteriaCallCenterScheduledReportName = array(
@@ -44,6 +47,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
     /**
      * @ElementName searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1408
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterScheduledReportCreatedBySupervisor|null
      */
     private $searchCriteriaExactCallCenterScheduledReportCreatedBySupervisor = null;
@@ -51,6 +56,8 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetActiveListRequest e
     /**
      * @ElementName searchCriteriaExactCallCenterReportTemplateKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1408
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactCallCenterReportTemplateKey|null
      */
     private $searchCriteriaExactCallCenterReportTemplateKey = null;

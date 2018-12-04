@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         prompt and dialing menu to be used during
  *         after business
  *         hours.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:551","type":"sequence"}]
  */
 class AutoAttendantReadMenu19
 {
@@ -17,6 +19,7 @@ class AutoAttendantReadMenu19
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
+     * @Group 18b369af88e42ffdb4166615c670ce2c:551
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -24,6 +27,8 @@ class AutoAttendantReadMenu19
     /**
      * @ElementName audioFileDescription
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:551
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -31,6 +36,8 @@ class AutoAttendantReadMenu19
     /**
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:551
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -38,6 +45,8 @@ class AutoAttendantReadMenu19
     /**
      * @ElementName videoFileDescription
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:551
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -45,6 +54,8 @@ class AutoAttendantReadMenu19
     /**
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:551
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -52,6 +63,7 @@ class AutoAttendantReadMenu19
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:551
      * @var bool|null
      */
     private $enableFirstMenuLevelExtensionDialing = null;
@@ -60,6 +72,8 @@ class AutoAttendantReadMenu19
      * @ElementName keyConfiguration
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration19
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:551
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyReadConfiguration19[]
      */
     private $keyConfiguration = array(

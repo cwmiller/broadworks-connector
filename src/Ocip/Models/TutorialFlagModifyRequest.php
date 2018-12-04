@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:520","type":"sequence"}]
  */
 class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:520
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class TutorialFlagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName enableTutorial
      * @Type bool
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:520
      * @var bool|null
      */
     private $enableTutorial = null;

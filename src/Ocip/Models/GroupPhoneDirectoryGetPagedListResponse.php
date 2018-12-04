@@ -8,30 +8,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupPhoneDirectoryGetPagedListRequest.
  *         Contains a table with a row for each phone number and column headings :
  *         "Name", "Number", "Extension", "Mobile", "Email Address", 
- *         "Department", "Hiragana Name", "Group Id", "Yahoo Id", "User Id", "IMP
- * Id" and "Is Virtual On-Net User".
+ *         "Department", "Hiragana Name", "Group Id", "Yahoo Id", "User Id", "IMP Id" and "Is Virtual On-Net User".
  *
- *         If extended directory information is requested, the following columns
- * are also included:
+ *         If extended directory information is requested, the following columns are also included:
  *         "First Name", "Last Name", "Pager", "Title", "Time Zone", 
- *         "Location", "Address Line 1", "Address Line 2", "City", "State", "Zip",
- * "Country".
+ *         "Location", "Address Line 1", "Address Line 2", "City", "State", "Zip", "Country".
  *
  *         Finally "Service Name".
- *         The Service Name represents the localized service name for service
- * instances. The localized values are taken from the BroadworksLabel.properties
- * file.
+ *         The Service Name represents the localized service name for service instances. The localized values are taken from the BroadworksLabel.properties file.
  *         Service Name is currently supporting:
- *         AutoAttendant, AutoAttendantStandard, AutoAttendantVideo,
- * CallCenter, CallCenterStandard, CallCenterPremium
- *         HuntGroup, InstantGroupCall, VoiceMessagingGroup, MusicOnHold,
- * MusicOnHoldVideo, RoutePoint, BroadWorksAnywhere
- *         GroupPaging, FindmeFollowme, VoiceXML, FlexibleSeatingGuest,
- * CollaborateSharing, MeetMeConferencing.
- *         For a Regular User or a Virtual On Network Enterprise Extensions,
- * the Service Name is empty.
+ *         AutoAttendant, AutoAttendantStandard, AutoAttendantVideo, CallCenter, CallCenterStandard, CallCenterPremium
+ *         HuntGroup, InstantGroupCall, VoiceMessagingGroup, MusicOnHold, MusicOnHoldVideo, RoutePoint, BroadWorksAnywhere
+ *         GroupPaging, FindmeFollowme, VoiceXML, FlexibleSeatingGuest, CollaborateSharing, MeetMeConferencing.
+ *         For a Regular User or a Virtual On Network Enterprise Extensions, the Service Name is empty.
  *
  * @see GroupPhoneDirectoryGetPagedListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5731","type":"sequence"}]
  */
 class GroupPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -39,6 +31,7 @@ class GroupPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName totalNumberOfRows
      * @Type int
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5731
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -46,6 +39,7 @@ class GroupPhoneDirectoryGetPagedListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5731
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

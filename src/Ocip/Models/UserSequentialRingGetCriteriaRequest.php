@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSequentialRingGetCriteriaRequest
  *
  * Get a criteria for the user's sequential ring service.        
- *          The response is either a UserSequentialRingGetCriteriaResponse or an
- * ErrorResponse.
+ *          The response is either a UserSequentialRingGetCriteriaResponse or an ErrorResponse.
  *
  * @see UserSequentialRingGetCriteriaResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36967","type":"sequence"}]
  */
 class UserSequentialRingGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserSequentialRingGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36967
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserSequentialRingGetCriteriaRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36967
      * @var string|null
      */
     private $criteriaName = null;

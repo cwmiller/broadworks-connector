@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnhancedCallLogsAccountAuthorizationCodeFilter
  *
  * Filter criteria based on the account code.
- *         When "callsWithCodes" is set to true, all call logs with
- * account/authorization codes are returned. 
- *         When it set to false, all call logs without account/authorization codes
- * are returned.
+ *         When "callsWithCodes" is set to true, all call logs with account/authorization codes are returned. 
+ *         When it set to false, all call logs without account/authorization codes are returned.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1817","type":"sequence","children":[{"id":"18b369af88e42ffdb4166615c670ce2c:1818","type":"choice"}]}]
  */
 class EnhancedCallLogsAccountAuthorizationCodeFilter
 {
@@ -17,6 +17,7 @@ class EnhancedCallLogsAccountAuthorizationCodeFilter
     /**
      * @ElementName callsWithCodes
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1818
      * @var bool|null
      */
     private $callsWithCodes = null;
@@ -24,6 +25,7 @@ class EnhancedCallLogsAccountAuthorizationCodeFilter
     /**
      * @ElementName accountAuthorizationCode
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1818
      * @var string|null
      */
     private $accountAuthorizationCode = null;

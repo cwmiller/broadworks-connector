@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAdminGetPolicyResponse18
  * @see ErrorResponse
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:262","type":"sequence"}]
  */
 class GroupAdminGetPolicyRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupAdminGetPolicyRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:262
      * @var string|null
      */
     private $userId = null;

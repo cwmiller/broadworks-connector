@@ -16,6 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see PrimaryInfoGetResponse
  * @see PublicClusterGetFullyQualifiedDomainNameResponse
  * @see ServingInfoGetResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13989","type":"sequence"}]
  */
 class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,6 +24,8 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName webServerClusterPublicFQDN
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13989
      * @var string|null
      */
     private $webServerClusterPublicFQDN = null;
@@ -30,6 +33,8 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName applicationServerClusterPrimaryPublicFQDN
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13989
      * @var string|null
      */
     private $applicationServerClusterPrimaryPublicFQDN = null;
@@ -37,6 +42,8 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName applicationServerClusterSecondaryPublicFQDN
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13989
      * @var string|null
      */
     private $applicationServerClusterSecondaryPublicFQDN = null;
@@ -44,6 +51,8 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName applicationServerClusterPrimaryPrivateFQDN
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13989
      * @var string|null
      */
     private $applicationServerClusterPrimaryPrivateFQDN = null;
@@ -51,6 +60,8 @@ class SystemServerAddressesGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName applicationServerClusterSecondaryPrivateFQDN
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13989
      * @var string|null
      */
     private $applicationServerClusterSecondaryPrivateFQDN = null;

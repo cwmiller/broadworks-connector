@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemGETSGetRequest.
  *
  * @see SystemGETSGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9185","type":"sequence"}]
  */
 class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName enabled
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9185
      * @var bool|null
      */
     private $enabled = null;
@@ -22,6 +24,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName enableRequireResourcePriority
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9185
      * @var bool|null
      */
     private $enableRequireResourcePriority = null;
@@ -29,6 +32,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName sendAccessResourcePriority
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9185
      * @var bool|null
      */
     private $sendAccessResourcePriority = null;
@@ -36,6 +40,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName callIdentifierMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9185
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
     private $callIdentifierMode = null;
@@ -43,6 +48,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName defaultPriorityAVP
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9185
      * @var int|null
      */
     private $defaultPriorityAVP = null;
@@ -50,6 +56,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName signalingDSCP
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9185
      * @var int|null
      */
     private $signalingDSCP = null;
@@ -57,6 +64,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName defaultRValue
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9185
      * @var string|null
      */
     private $defaultRValue = null;
@@ -64,6 +72,7 @@ class SystemGETSGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName bypassRoRelease
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9185
      * @var bool|null
      */
     private $bypassRoRelease = null;

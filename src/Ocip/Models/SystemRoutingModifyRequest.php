@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13591","type":"sequence"}]
  */
 class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName isRouteRoundRobin
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13591
      * @var bool|null
      */
     private $isRouteRoundRobin = null;
@@ -24,6 +27,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName routeTimerSeconds
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13591
      * @var int|null
      */
     private $routeTimerSeconds = null;
@@ -31,6 +36,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName dnsResolvedAddressSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13591
      * @var \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null
      */
     private $dnsResolvedAddressSelectionPolicy = null;
@@ -38,6 +45,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName statefulExpirationMinutes
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13591
      * @var int|null
      */
     private $statefulExpirationMinutes = null;
@@ -45,6 +54,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName maxAddressesPerHostname
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13591
      * @var int|null
      */
     private $maxAddressesPerHostname = null;
@@ -52,6 +63,8 @@ class SystemRoutingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName maxAddressesDuringSetup
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13591
      * @var int|null
      */
     private $maxAddressesDuringSetup = null;

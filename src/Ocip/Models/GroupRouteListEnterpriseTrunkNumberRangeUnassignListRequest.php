@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest
  *
- * Unassign a list of service provider number ranges from a group. The number
- * ranges then become available for assignment to other groups.
+ * Unassign a list of service provider number ranges from a group. The number ranges then become available for assignment to other groups.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:413","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest extends \CWM\B
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:413
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:413
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupRouteListEnterpriseTrunkNumberRangeUnassignListRequest extends \CWM\B
      * @ElementName numberRangeStart
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:413
      * @var string[]
      */
     private $numberRangeStart = array(

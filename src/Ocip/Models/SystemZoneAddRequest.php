@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17050","type":"sequence"}]
  */
 class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * @ElementName zoneName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17050
      * @var string|null
      */
     private $zoneName = null;
@@ -25,6 +27,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName netAddress
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17050
      * @var string[]
      */
     private $netAddress = array(
@@ -35,6 +39,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName netAddressRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17050
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $netAddressRange = array(
@@ -45,6 +51,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
      * @ElementName locationBasedPhysicalLocation
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17050
      * @var string[]
      */
     private $locationBasedPhysicalLocation = array(
@@ -54,6 +62,8 @@ class SystemZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * @ElementName callingZonePhysicalLocation
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17050
      * @var string|null
      */
     private $callingZonePhysicalLocation = null;

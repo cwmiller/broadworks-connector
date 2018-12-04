@@ -10,39 +10,28 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         ErrorResponse.
  *
  *         The useGroupCLIDSetting attribute controls the CLID settings 
- *         (clidPolicy,enterpriseCallsCLIDPolicy, groupCallsCLIDPolicy,
- * emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName,
- * allowDepartmentCLIDNameOverride)
+ *         (clidPolicy,enterpriseCallsCLIDPolicy, groupCallsCLIDPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName, allowDepartmentCLIDNameOverride)
  *
  *         The useGroupMediaSetting attribute controls the Media settings 
  *         (medisPolicySelection, supportedMediaSetName)
  *
- *         The useGroupCallLimitsSetting attribute controls the Call Limits
- * settings 
+ *         The useGroupCallLimitsSetting attribute controls the Call Limits settings 
  *         (useMaxSimultaneousCalls, maxSimultaneousCalls, 
- *         useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls,
- * useMaxCallTimeForAnsweredCalls, 
- *         maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls,
- * maxCallTimeForUnansweredCallsMinutes, 
- *         useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth,
- * maxRedirectionDepth, 
- *         useMaxConcurrentFindMeFollowMeInvocations,
- * maxConcurrentFindMeFollowMeInvocations, 
- *         useMaxConcurrentTerminatingAlertingRequests,
- * maxConcurrentTerminatingAlertingRequests)
+ *         useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls, 
+ *         maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes, 
+ *         useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth, 
+ *         useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations, 
+ *         useMaxConcurrentTerminatingAlertingRequests, maxConcurrentTerminatingAlertingRequests)
  *
- *         The useGroupTranslationRoutingSetting attribute controls the routing and
- * translation settings 
+ *         The useGroupTranslationRoutingSetting attribute controls the routing and translation settings 
  *         (networkUsageSelection, enforceGroupCallingLineIdentityRestriction, 
- *         allowEnterpriseGroupCallTypingForPrivateDialingPlan,
- * allowEnterpriseGroupCallTypingForPublicDialingPlan,
- * overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan,
- * enableEnterpriseExtensionDialing)
+ *         allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan, overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
  *
  * @see GroupCallProcessingGetPolicyResponse22
  * @see ErrorResponse
  * @see useMaxConcurrentTerminatingAlertingRequests
  * @see maxConcurrentTerminatingAlertingRequests
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1868","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -50,6 +39,7 @@ class GroupCallProcessingGetPolicyRequest22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1868
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -57,6 +47,7 @@ class GroupCallProcessingGetPolicyRequest22 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1868
      * @var string|null
      */
     private $groupId = null;

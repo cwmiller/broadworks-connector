@@ -5,20 +5,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceTypeGetAvailableListRequest
  *
- * Requests a list of non-obsolete Identity/device profile types defined in the
- * system. It is possible
- *         to get either all conference device types or all non-conferernce types.
- * This command is similar
- *         to the SystemSIPDeviceTypeGetListRequest and
- * SystemMGCPDeviceTypeGetListRequest
+ * Requests a list of non-obsolete Identity/device profile types defined in the system. It is possible
+ *         to get either all conference device types or all non-conferernce types. This command is similar
+ *         to the SystemSIPDeviceTypeGetListRequest and SystemMGCPDeviceTypeGetListRequest
  *         but gets both SIP and MGCP types.
- *         The response is either SystemDeviceTypeGetAvailableListResponse or
- * ErrorResponse.
+ *         The response is either SystemDeviceTypeGetAvailableListResponse or ErrorResponse.
  *
  * @see SystemSIPDeviceTypeGetListRequest
  * @see SystemMGCPDeviceTypeGetListRequest
  * @see SystemDeviceTypeGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21538","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,6 +23,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowConference
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21538
      * @var bool|null
      */
     private $allowConference = null;
@@ -33,6 +31,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowMusicOnHold
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21538
      * @var bool|null
      */
     private $allowMusicOnHold = null;
@@ -40,6 +39,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName onlyConference
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21538
      * @var bool|null
      */
     private $onlyConference = null;
@@ -47,6 +47,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21538
      * @var bool|null
      */
     private $onlyVideoCapable = null;
@@ -54,6 +55,7 @@ class SystemDeviceTypeGetAvailableListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName onlyOptionalIpAddress
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21538
      * @var bool|null
      */
     private $onlyOptionalIpAddress = null;

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Verification Translation and Routing parameters
  *         for creating a Verify Translation and Routing request from
  *         parameters.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:4007","type":"sequence"}]
  */
 class VerifyTranslationAndRoutingParameters
 {
@@ -15,6 +17,7 @@ class VerifyTranslationAndRoutingParameters
     /**
      * @ElementName origination
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4007
      * @var \CWM\BroadWorksConnector\Ocip\Models\VerifyTranslationAndRoutingOrigination|null
      */
     private $origination = null;
@@ -22,6 +25,7 @@ class VerifyTranslationAndRoutingParameters
     /**
      * @ElementName destination
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4007
      * @var string|null
      */
     private $destination = null;
@@ -29,6 +33,8 @@ class VerifyTranslationAndRoutingParameters
     /**
      * @ElementName contact
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4007
      * @var string|null
      */
     private $contact = null;
@@ -36,6 +42,8 @@ class VerifyTranslationAndRoutingParameters
     /**
      * @ElementName diversion
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4007
      * @var string|null
      */
     private $diversion = null;

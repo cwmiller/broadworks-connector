@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * OutgoingCallingPlanDigitPatternRedirectingPermissions
  *
  * Outgoing Calling Plan redirecting call permissions for specified digit patterns.
+ *
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1993","type":"sequence"}]
  */
 class OutgoingCallingPlanDigitPatternRedirectingPermissions
 {
@@ -14,6 +16,7 @@ class OutgoingCallingPlanDigitPatternRedirectingPermissions
      * @ElementName digitPatternPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermission
      * @Array
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1993
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermission[]
      */
     private $digitPatternPermissions = array(

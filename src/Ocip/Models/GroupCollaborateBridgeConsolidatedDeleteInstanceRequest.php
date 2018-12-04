@@ -6,23 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeConsolidatedDeleteInstanceRequest
  *
  * Delete a collaborate bridge from a group.
- *         The request fails when attempting to delete the default collaborate
- * bridge.
- *         If UnassignPhoneNumbersLevel is set to 'Group', the user's primary phone
- * number, fax number and any alternate numbers, will be un-assigned from the group
- * if the command is executed by a service provider administrator or above.
- *         When set to 'Service Provider', they will be un-assigned from the group
- * and service provider if the command is executed by a provisioning administrator
- * or above.
+ *         The request fails when attempting to delete the default collaborate bridge.
+ *         If UnassignPhoneNumbersLevel is set to 'Group', the user's primary phone number, fax number and any alternate numbers, will be un-assigned from the group if the command is executed by a service provider administrator or above.
+ *         When set to 'Service Provider', they will be un-assigned from the group and service provider if the command is executed by a provisioning administrator or above.
  *         When omitted, the number(s) will be left assigned to the group.
- *         An ErrorResponse will be returned if any number cannot be unassigned
- * because of insufficient privilege.
+ *         An ErrorResponse will be returned if any number cannot be unassigned because of insufficient privilege.
  *         
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see ErrorResponse
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:131","type":"sequence"}]
  */
 class GroupCollaborateBridgeConsolidatedDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -30,6 +25,7 @@ class GroupCollaborateBridgeConsolidatedDeleteInstanceRequest extends \CWM\Broad
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:131
      * @var string|null
      */
     private $serviceUserId = null;
@@ -37,6 +33,8 @@ class GroupCollaborateBridgeConsolidatedDeleteInstanceRequest extends \CWM\Broad
     /**
      * @ElementName unassignPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:131
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;

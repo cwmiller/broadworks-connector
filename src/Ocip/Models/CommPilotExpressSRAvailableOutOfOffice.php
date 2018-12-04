@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CommPilotExpressSRAvailableOutOfOffice
  *
- * CommPilot Express SR Available Out Of Office Configuration used in the context
- * of a get.
+ * CommPilot Express SR Available Out Of Office Configuration used in the context of a get.
+ *
+ * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:60","type":"sequence"}]
  */
 class CommPilotExpressSRAvailableOutOfOffice
 {
@@ -14,6 +15,8 @@ class CommPilotExpressSRAvailableOutOfOffice
     /**
      * @ElementName remotePhoneNumber
      * @Type string
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:60
      * @var string|null
      */
     private $remotePhoneNumber = null;
@@ -21,6 +24,7 @@ class CommPilotExpressSRAvailableOutOfOffice
     /**
      * @ElementName noAnswerSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer
+     * @Group 0a20cd20692e84aeff051c5071901f47:60
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer|null
      */
     private $noAnswerSetting = null;
@@ -28,6 +32,7 @@ class CommPilotExpressSRAvailableOutOfOffice
     /**
      * @ElementName incomingCallNotify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify
+     * @Group 0a20cd20692e84aeff051c5071901f47:60
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null
      */
     private $incomingCallNotify = null;

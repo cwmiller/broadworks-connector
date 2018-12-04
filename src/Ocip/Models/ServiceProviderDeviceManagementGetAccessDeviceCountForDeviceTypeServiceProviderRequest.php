@@ -5,23 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest
  *
- * Request the number of access device of a particular device type and service
- * provider.
- *         If countOnlyResetSupportedDevice is true, count only access devices if
- * the device type supports reset.        
- *         By default unmanaged device types are not allowed and devices are
- * counted only if their device type supports Device Management.
- *         An error is returned if deviceType is specified but does not support
- * device management.
- *         When allowUnmanagedDeviceType is true, unmanaged device type will be
- * counted and a successful response is returned.
- *         The response is either
- * ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse
- * or ErrorResponse.
+ * Request the number of access device of a particular device type and service provider.
+ *         If countOnlyResetSupportedDevice is true, count only access devices if the device type supports reset.        
+ *         By default unmanaged device types are not allowed and devices are counted only if their device type supports Device Management.
+ *         An error is returned if deviceType is specified but does not support device management.
+ *         When allowUnmanagedDeviceType is true, unmanaged device type will be counted and a successful response is returned.
+ *         The response is either ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse or ErrorResponse.
  *
- * @see
- * ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse
+ * @see ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2265","type":"sequence"}]
  */
 class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServiceProviderRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,6 +22,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2265
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +30,7 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2265
      * @var string|null
      */
     private $deviceType = null;
@@ -43,6 +38,8 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
     /**
      * @ElementName countOnlyResetSupportedDevice
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2265
      * @var bool|null
      */
     private $countOnlyResetSupportedDevice = null;
@@ -50,6 +47,8 @@ class ServiceProviderDeviceManagementGetAccessDeviceCountForDeviceTypeServicePro
     /**
      * @ElementName allowUnmanagedDeviceType
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2265
      * @var bool|null
      */
     private $allowUnmanagedDeviceType = null;

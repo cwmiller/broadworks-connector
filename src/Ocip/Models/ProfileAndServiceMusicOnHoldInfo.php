@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ProfileAndServiceMusicOnHoldInfo
  *
  * This is the configuration parameters for Music On Hold service
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3673","type":"sequence"}]
  */
 class ProfileAndServiceMusicOnHoldInfo
 {
@@ -13,6 +15,7 @@ class ProfileAndServiceMusicOnHoldInfo
     /**
      * @ElementName enableVideo
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3673
      * @var bool|null
      */
     private $enableVideo = null;
@@ -20,6 +23,7 @@ class ProfileAndServiceMusicOnHoldInfo
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16
+     * @Group 489b2153267470be8e945bf6b778e0d0:3673
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
     private $source = null;
@@ -27,6 +31,7 @@ class ProfileAndServiceMusicOnHoldInfo
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3673
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -34,6 +39,8 @@ class ProfileAndServiceMusicOnHoldInfo
     /**
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3673
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldUserSourceRead16|null
      */
     private $internalSource = null;

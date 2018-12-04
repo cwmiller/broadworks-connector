@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserThirdPartyVoiceMailSupportGetRequest13mp16
  *
  * Request the user level data associated with Third-Party Voice Mail Support.
- *         The response is either a UserThirdPartyVoiceMailSupportGetResponse13mp16
- * or an
+ *         The response is either a UserThirdPartyVoiceMailSupportGetResponse13mp16 or an
  *         ErrorResponse.
  *         Replaced by: UserThirdPartyVoiceMailSupportGetRequest17
  *
  * @see UserThirdPartyVoiceMailSupportGetResponse13mp16
  * @see ErrorResponse
  * @see UserThirdPartyVoiceMailSupportGetRequest17
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:37565","type":"sequence"}]
  */
 class UserThirdPartyVoiceMailSupportGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class UserThirdPartyVoiceMailSupportGetRequest13mp16 extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37565
      * @var string|null
      */
     private $userId = null;

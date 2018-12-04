@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupSessionAdmissionControlGroupDeleteDeviceListRequest
  *
- * Request to delete one or more devices from a group level session admission
- * control group.
+ * Request to delete one or more devices from a group level session admission control group.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6780","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6780
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6780
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6780
      * @var string|null
      */
     private $name = null;
@@ -40,6 +43,7 @@ class GroupSessionAdmissionControlGroupDeleteDeviceListRequest extends \CWM\Broa
      * @ElementName devices
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6780
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     private $devices = array(

@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * MeetMeConferencingConferencePorts
  *
- * Number of conference ports. Can either be unlimited or limited to a value
- * between 0 and 999999.
+ * Number of conference ports. Can either be unlimited or limited to a value between 0 and 999999.
+ *
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:886","type":"choice"}]
  */
 class MeetMeConferencingConferencePorts
 {
@@ -14,6 +15,7 @@ class MeetMeConferencingConferencePorts
     /**
      * @ElementName unlimited
      * @Type bool
+     * @Group e51a0a16349851c3fad768a24a35838d:886
      * @var bool|null
      */
     private $unlimited = null;
@@ -21,6 +23,7 @@ class MeetMeConferencingConferencePorts
     /**
      * @ElementName quantity
      * @Type int
+     * @Group e51a0a16349851c3fad768a24a35838d:886
      * @var int|null
      */
     private $quantity = null;

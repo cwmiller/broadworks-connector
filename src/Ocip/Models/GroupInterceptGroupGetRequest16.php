@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInterceptGroupGetRequest16
  *
  * Get the group's intercept group service settings.
- *         The response is either a GroupInterceptGroupGetResponse16 or an
- * ErrorResponse.
+ *         The response is either a GroupInterceptGroupGetResponse16 or an ErrorResponse.
  *         Replaced By: GroupInterceptGroupGetRequest16sp1
  *
  * @see GroupInterceptGroupGetResponse16
  * @see ErrorResponse
  * @see GroupInterceptGroupGetRequest16sp1
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:9221","type":"sequence"}]
  */
 class GroupInterceptGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupInterceptGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9221
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupInterceptGroupGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9221
      * @var string|null
      */
     private $groupId = null;

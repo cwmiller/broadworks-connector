@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3947","type":"sequence"}]
  */
 class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3947
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3947
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName useSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3947
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDigitCollectionSettingLevel|null
      */
     private $useSetting = null;
@@ -39,6 +44,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName accessCode
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3947
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessCode = null;
@@ -47,6 +54,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName publicDigitMap
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3947
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $publicDigitMap = null;
@@ -55,6 +64,8 @@ class GroupDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName privateDigitMap
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3947
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;

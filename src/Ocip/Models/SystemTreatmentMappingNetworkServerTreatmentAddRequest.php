@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:16634","type":"sequence"}]
  */
 class SystemTreatmentMappingNetworkServerTreatmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemTreatmentMappingNetworkServerTreatmentAddRequest extends \CWM\BroadW
     /**
      * @ElementName nsTreatment
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16634
      * @var string|null
      */
     private $nsTreatment = null;
@@ -24,6 +26,7 @@ class SystemTreatmentMappingNetworkServerTreatmentAddRequest extends \CWM\BroadW
     /**
      * @ElementName treatmentId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16634
      * @var string|null
      */
     private $treatmentId = null;

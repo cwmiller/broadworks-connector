@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest
  *
- * Request to apply an extended file capture value to all the profile instances
- * associated to a sip device type file.
+ * Request to apply an extended file capture value to all the profile instances associated to a sip device type file.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14775","type":"sequence"}]
  */
 class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14775
      * @var string|null
      */
     private $deviceType = null;
@@ -25,6 +26,7 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
     /**
      * @ElementName fileFormat
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14775
      * @var string|null
      */
     private $fileFormat = null;
@@ -32,6 +34,7 @@ class SystemSIPDeviceFileApplyExtendedCaptureToAllDeviceProfilesRequest extends 
     /**
      * @ElementName extendedCaptureOnUploadFromDevice
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14775
      * @var bool|null
      */
     private $extendedCaptureOnUploadFromDevice = null;

@@ -5,33 +5,25 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallForwardingSelectiveGetResponse16
  *
- * Response to the UserCallForwardingSelectiveGetRequest16. The criteria table's
- * column headings are:
- *         "Is Active", "Criteria Name", "Time Schedule", "Calls From", "Forward
- * To", "Blacklisted", "Holiday Schedule", "Calls To Type", "Calls To Number" and
- * "Calls To Extension".
+ * Response to the UserCallForwardingSelectiveGetRequest16. The criteria table's column headings are:
+ *         "Is Active", "Criteria Name", "Time Schedule", "Calls From", "Forward To", "Blacklisted", "Holiday Schedule", "Calls To Type", "Calls To Number" and "Calls To Extension".
  *         The following columns are only returned in AS data mode:       
  *           "Calls To Type", "Calls To Number" and "Calls To Extension"
  *           
- *         The possible values for the "Calls To Type" column are the following or
- * a combination of them separated by comma:
+ *         The possible values for the "Calls To Type" column are the following or a combination of them separated by comma:
  *           - Primary
  *           - Alternate X (where x is a number between 1 and 10)
  *           - Mobility        
- *         The possible values for the "Calls To Number" column are the following
- * or a combination of them separated by comma:
- *           - The value of the phone number for the corresponding Calls To Type,
- * when the number is available. i.e. Alternate 1 may have extension, but no
- * number.
+ *         The possible values for the "Calls To Number" column are the following or a combination of them separated by comma:
+ *           - The value of the phone number for the corresponding Calls To Type, when the number is available. i.e. Alternate 1 may have extension, but no number.
  *           - When no number is available a blank space is provided instead.
- *         The possible values for the "Calls To Extension" column are the
- * following or a combination of them separated by comma:
- *           - The value of the extension for the corresponding Calls To Type, when
- * the extension is available. i.e. Primary may have number, but no extension.
+ *         The possible values for the "Calls To Extension" column are the following or a combination of them separated by comma:
+ *           - The value of the extension for the corresponding Calls To Type, when the extension is available. i.e. Primary may have number, but no extension.
  *           - For Mobility Calls To Type, this is always blank.
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserCallForwardingSelectiveGetRequest16
+ * @Groups [{"id":"f1072a3da53dcabbd043a43a74c5d05f:158","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -39,6 +31,7 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group f1072a3da53dcabbd043a43a74c5d05f:158
      * @var bool|null
      */
     private $isActive = null;
@@ -46,6 +39,8 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName defaultForwardToPhoneNumber
      * @Type string
+     * @Optional
+     * @Group f1072a3da53dcabbd043a43a74c5d05f:158
      * @var string|null
      */
     private $defaultForwardToPhoneNumber = null;
@@ -53,6 +48,7 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName playRingReminder
      * @Type bool
+     * @Group f1072a3da53dcabbd043a43a74c5d05f:158
      * @var bool|null
      */
     private $playRingReminder = null;
@@ -60,6 +56,7 @@ class UserCallForwardingSelectiveGetResponse16 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group f1072a3da53dcabbd043a43a74c5d05f:158
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

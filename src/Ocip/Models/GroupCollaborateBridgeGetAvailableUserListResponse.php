@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeGetAvailableUserListResponse
  *
  * Response to the GroupCollaborateBridgeGetAvailableUserListRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", and "Hiragana First Name", 
- *         "Phone Number", "Extension", "Department", "Department Type", "Parent
- * Department", "Parent Department Type", "Email Address".
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", and "Hiragana First Name", 
+ *         "Phone Number", "Extension", "Department", "Department Type", "Parent Department", "Parent Department Type", "Email Address".
  *
  * @see GroupCollaborateBridgeGetAvailableUserListRequest
+ * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:226","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class GroupCollaborateBridgeGetAvailableUserListResponse extends \CWM\BroadWorks
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:226
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

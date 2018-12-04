@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemAdviceOfChargeCostInformationSourceAddRequest
  *
- * Add a cost information source. The response is either SuccessResponse or
- * ErrorResponse.
+ * Add a cost information source. The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d7a3faa291b985d963cf43a21af19b28:154","type":"sequence"}]
  */
 class SystemAdviceOfChargeCostInformationSourceAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +17,7 @@ class SystemAdviceOfChargeCostInformationSourceAddRequest extends \CWM\BroadWork
     /**
      * @ElementName peerIdentity
      * @Type string
+     * @Group d7a3faa291b985d963cf43a21af19b28:154
      * @var string|null
      */
     private $peerIdentity = null;
@@ -24,6 +25,7 @@ class SystemAdviceOfChargeCostInformationSourceAddRequest extends \CWM\BroadWork
     /**
      * @ElementName priority
      * @Type int
+     * @Group d7a3faa291b985d963cf43a21af19b28:154
      * @var int|null
      */
     private $priority = null;

@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSelectiveCallRejectionGetCriteriaRequest16sp1
  *
  * Get a criteria for the user's selective call rejection service.
- *         The response is either a
- * UserSelectiveCallRejectionGetCriteriaResponse16sp1 or an ErrorResponse.
- *         Replaced by: UserSelectiveCallRejectionGetCriteriaRequest21 in AS data
- * mode
+ *         The response is either a UserSelectiveCallRejectionGetCriteriaResponse16sp1 or an ErrorResponse.
+ *         Replaced by: UserSelectiveCallRejectionGetCriteriaRequest21 in AS data mode
  *
  * @see UserSelectiveCallRejectionGetCriteriaResponse16sp1
  * @see ErrorResponse
  * @see UserSelectiveCallRejectionGetCriteriaRequest21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5539","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5539
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +28,7 @@ class UserSelectiveCallRejectionGetCriteriaRequest16sp1 extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5539
      * @var string|null
      */
     private $criteriaName = null;

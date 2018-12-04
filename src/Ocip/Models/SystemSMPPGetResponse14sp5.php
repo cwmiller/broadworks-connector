@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemSMPPGetRequest14sp5
  * @see SystemSMPPGetResponse21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:4253","type":"sequence"}]
  */
 class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName primarySMPPServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4253
      * @var string|null
      */
     private $primarySMPPServerNetAddress = null;
@@ -25,6 +28,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName primarySMPPPort
      * @Type int
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4253
      * @var int|null
      */
     private $primarySMPPPort = null;
@@ -32,6 +36,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName secondarySMPPServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4253
      * @var string|null
      */
     private $secondarySMPPServerNetAddress = null;
@@ -39,6 +45,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName secondarySMPPPort
      * @Type int
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4253
      * @var int|null
      */
     private $secondarySMPPPort = null;
@@ -46,6 +53,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName systemId
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4253
      * @var string|null
      */
     private $systemId = null;
@@ -53,6 +62,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName password
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4253
      * @var string|null
      */
     private $password = null;
@@ -60,6 +71,7 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName version
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4253
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     private $version = null;
@@ -67,6 +79,8 @@ class SystemSMPPGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName systemType
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4253
      * @var string|null
      */
     private $systemType = null;

@@ -5,16 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemPreferredCarrierGetGroupListRequest
  *
- * Requests a list of groups using the specified carrier.  It is possible to
- * restrict the
- *         number of rows returned by specifying various search criteria. Multiple
- * search criteria
+ * Requests a list of groups using the specified carrier.  It is possible to restrict the
+ *         number of rows returned by specifying various search criteria. Multiple search criteria
  *         are logically ANDed together.
- *         The response is either a SystemPreferredCarrierGetGroupListResponse or
- * an ErrorResponse.
+ *         The response is either a SystemPreferredCarrierGetGroupListResponse or an ErrorResponse.
  *
  * @see SystemPreferredCarrierGetGroupListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:360","type":"sequence"}]
  */
 class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +20,7 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName carrier
      * @Type string
+     * @Group 1384777ce7bd407156102bad44751987:360
      * @var string|null
      */
     private $carrier = null;
@@ -29,6 +28,8 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:360
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,6 +38,8 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -47,6 +50,8 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(
@@ -57,6 +62,8 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaExactServiceProvider
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider
      * @Array
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider[]
      */
     private $searchCriteriaExactServiceProvider = array(
@@ -67,6 +74,8 @@ class SystemPreferredCarrierGetGroupListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:360
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(

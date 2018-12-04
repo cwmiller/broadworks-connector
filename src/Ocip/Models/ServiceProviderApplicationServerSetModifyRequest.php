@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderApplicationServerSetModifyRequest
  *
- * Modify the Application Server set assigned to the service provider or
- * enterprise.
+ * Modify the Application Server set assigned to the service provider or enterprise.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1229","type":"sequence"}]
  */
 class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1229
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,8 @@ class ServiceProviderApplicationServerSetModifyRequest extends \CWM\BroadWorksCo
      * @ElementName applicationServerSetName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1229
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $applicationServerSetName = null;

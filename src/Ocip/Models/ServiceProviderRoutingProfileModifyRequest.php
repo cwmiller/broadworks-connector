@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4601","type":"sequence"}]
  */
 class ServiceProviderRoutingProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderRoutingProfileModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4601
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,8 @@ class ServiceProviderRoutingProfileModifyRequest extends \CWM\BroadWorksConnecto
      * @ElementName routingProfile
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4601
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routingProfile = null;

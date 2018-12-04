@@ -6,19 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseUserCallForwardingSettingsGetListResponse
  *
  * Response to the EnterpriseUserCallForwardingSettingsGetListRequest.
- *         Contains a table with column headings: "Group Id", "User Id", "Last
- * Name",
+ *         Contains a table with column headings: "Group Id", "User Id", "Last Name",
  *         "First Name", "Hiragana Last Name", and "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "In Trunk Group",
  *         "Email Address", "Is Active", "Forwarding Address".
  *         "Is Active" is "true" or "false".
- *         The "Forwarding Address" is the Call Forwarding service's forwarding
- * address. 
- *         If the service is Call Forwarding Selective, the default forwarding
- * address is returned.
+ *         The "Forwarding Address" is the Call Forwarding service's forwarding address. 
+ *         If the service is Call Forwarding Selective, the default forwarding address is returned.
  *         "Phone Number" field is presented in the E164 format.
  *
  * @see EnterpriseUserCallForwardingSettingsGetListRequest
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1136","type":"sequence"}]
  */
 class EnterpriseUserCallForwardingSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -26,6 +24,7 @@ class EnterpriseUserCallForwardingSettingsGetListResponse extends \CWM\BroadWork
     /**
      * @ElementName userCallForwardingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group b561eca19800e0898f471e5e91eb3baa:1136
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userCallForwardingTable = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CriteriaFromDnModify
  *
  * The from dn criteria used within a modify request.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1511","type":"sequence"}]
  */
 class CriteriaFromDnModify
 {
@@ -13,6 +15,8 @@ class CriteriaFromDnModify
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1511
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaDnSelection|null
      */
     private $fromDnCriteriaSelection = null;
@@ -20,6 +24,8 @@ class CriteriaFromDnModify
     /**
      * @ElementName includeAnonymousCallers
      * @Type bool
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1511
      * @var bool|null
      */
     private $includeAnonymousCallers = null;
@@ -27,6 +33,8 @@ class CriteriaFromDnModify
     /**
      * @ElementName includeUnavailableCallers
      * @Type bool
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1511
      * @var bool|null
      */
     private $includeUnavailableCallers = null;
@@ -35,6 +43,8 @@ class CriteriaFromDnModify
      * @ElementName phoneNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1511
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaReplacementDNList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumberList = null;

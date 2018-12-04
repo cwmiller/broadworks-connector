@@ -6,15 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupUserHotelingGuestSettingsGetListResponse
  *
  * Response to the GroupUserHotelingGuestSettingsGetListRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name",
  *         "Hiragana Last Name", and "Hiragana First Name", "Phone Number",
- *         "Extension", "Department", "In Trunk Group", "Email Address", "Is
- * Active".
+ *         "Extension", "Department", "In Trunk Group", "Email Address", "Is Active".
  *         "Is Active" is "true" or "false".
  *         "Phone Number" is presented in the E164 format.
  *
  * @see GroupUserHotelingGuestSettingsGetListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:7245","type":"sequence"}]
  */
 class GroupUserHotelingGuestSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +21,7 @@ class GroupUserHotelingGuestSettingsGetListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName userHotelingGuestTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7245
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userHotelingGuestTable = null;

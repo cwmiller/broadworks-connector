@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterAnnouncementFileListRead20
  *
  * Contains a list of announcement repository files
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:622","type":"sequence"}]
  */
 class CallCenterAnnouncementFileListRead20
 {
@@ -13,6 +15,8 @@ class CallCenterAnnouncementFileListRead20
     /**
      * @ElementName file1
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:622
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $file1 = null;
@@ -20,6 +24,8 @@ class CallCenterAnnouncementFileListRead20
     /**
      * @ElementName file2
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:622
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $file2 = null;
@@ -27,6 +33,8 @@ class CallCenterAnnouncementFileListRead20
     /**
      * @ElementName file3
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:622
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $file3 = null;
@@ -34,6 +42,8 @@ class CallCenterAnnouncementFileListRead20
     /**
      * @ElementName file4
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:622
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $file4 = null;

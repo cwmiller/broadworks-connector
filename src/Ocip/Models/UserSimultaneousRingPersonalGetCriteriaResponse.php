@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSimultaneousRingPersonalGetCriteriaRequest.
  *
  * @see UserSimultaneousRingPersonalGetCriteriaRequest
+ * @Groups [{"id":"05b901badf29b93ba4e1e92151c34396:101","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 05b901badf29b93ba4e1e92151c34396:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -22,6 +25,8 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 05b901badf29b93ba4e1e92151c34396:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -29,6 +34,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Group 05b901badf29b93ba4e1e92151c34396:101
      * @var bool|null
      */
     private $blacklisted = null;
@@ -36,6 +42,7 @@ class UserSimultaneousRingPersonalGetCriteriaResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
+     * @Group 05b901badf29b93ba4e1e92151c34396:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

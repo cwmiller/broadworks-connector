@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderPreferredCarrierGetRequest
  *
- * Requests the currently configured carriers for a specified country code for a
- * service provider / enterprise.
- *         The response is either a ServiceProviderPreferredCarrierGetResponse or
- * an ErrorResponse.
+ * Requests the currently configured carriers for a specified country code for a service provider / enterprise.
+ *         The response is either a ServiceProviderPreferredCarrierGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderPreferredCarrierGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:258","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1384777ce7bd407156102bad44751987:258
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class ServiceProviderPreferredCarrierGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName countryCode
      * @Type string
+     * @Group 1384777ce7bd407156102bad44751987:258
      * @var string|null
      */
     private $countryCode = null;

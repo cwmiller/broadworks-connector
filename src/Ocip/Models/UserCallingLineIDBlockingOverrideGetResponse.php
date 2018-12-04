@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallingLineIDBlockingOverrideGetRequest.
  *
  * @see UserCallingLineIDBlockingOverrideGetRequest
+ * @Groups [{"id":"9534ca515e49b553aa36713311fa3dbc:59","type":"sequence"}]
  */
 class UserCallingLineIDBlockingOverrideGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserCallingLineIDBlockingOverrideGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 9534ca515e49b553aa36713311fa3dbc:59
      * @var bool|null
      */
     private $isActive = null;

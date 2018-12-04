@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseCallCenterCallDispositionCodeGetUsageListRequest
  *
- * Get the list of Call Centers and Route Points using the specified disposition
- * code.
- *         The response is either
- * EnterpriseCallCenterCallDispositionCodeGetUsageListResponse or ErrorResponse.
+ * Get the list of Call Centers and Route Points using the specified disposition code.
+ *         The response is either EnterpriseCallCenterCallDispositionCodeGetUsageListResponse or ErrorResponse.
  *
  * @see EnterpriseCallCenterCallDispositionCodeGetUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:873","type":"sequence"}]
  */
 class EnterpriseCallCenterCallDispositionCodeGetUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class EnterpriseCallCenterCallDispositionCodeGetUsageListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:873
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class EnterpriseCallCenterCallDispositionCodeGetUsageListRequest extends \CWM\Br
     /**
      * @ElementName code
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:873
      * @var string|null
      */
     private $code = null;

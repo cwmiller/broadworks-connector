@@ -6,15 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest
  *
  * Get the service provider's voice portal branding settings.
- *         The response is either a
- * ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse or an
- * ErrorResponse.
- *         Replaced By:
- * ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16
+ *         The response is either a ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse or an ErrorResponse.
+ *         Replaced By: ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16
  *
  * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse
  * @see ErrorResponse
  * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:16763","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +20,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16763
      * @var string|null
      */
     private $serviceProviderId = null;

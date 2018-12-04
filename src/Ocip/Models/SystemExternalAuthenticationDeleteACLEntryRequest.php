@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22255","type":"sequence"}]
  */
 class SystemExternalAuthenticationDeleteACLEntryRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemExternalAuthenticationDeleteACLEntryRequest extends \CWM\BroadWorksC
     /**
      * @ElementName netAddress
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22255
      * @var string|null
      */
     private $netAddress = null;

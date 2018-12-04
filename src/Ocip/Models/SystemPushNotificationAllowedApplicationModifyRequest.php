@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemPushNotificationAllowedApplicationModifyRequest
  *
- * Request to modify an application in the list of allowed push notification
- * applications.
+ * Request to modify an application in the list of allowed push notification applications.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12972","type":"sequence"}]
  */
 class SystemPushNotificationAllowedApplicationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemPushNotificationAllowedApplicationModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName applicationId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12972
      * @var string|null
      */
     private $applicationId = null;
@@ -26,6 +27,8 @@ class SystemPushNotificationAllowedApplicationModifyRequest extends \CWM\BroadWo
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12972
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

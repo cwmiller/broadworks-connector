@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserExternalCustomRingbackGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"fe688087ec2e31030f7ebdcdf92555d1:101","type":"sequence"}]
  */
 class UserExternalCustomRingbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserExternalCustomRingbackGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:101
      * @var string|null
      */
     private $userId = null;

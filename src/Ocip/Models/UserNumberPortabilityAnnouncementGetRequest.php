@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserNumberPortabilityAnnouncementGetRequest
  *
  * Get the Number Portability Announcement attributes for the user.
- *         The response is either UserNumberPortabilityAnnouncementGetResponse or
- * ErrorResponse.
+ *         The response is either UserNumberPortabilityAnnouncementGetResponse or ErrorResponse.
  *
  * @see UserNumberPortabilityAnnouncementGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"67bd72642521f0b9ac0225e3a36f500c:43","type":"sequence"}]
  */
 class UserNumberPortabilityAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserNumberPortabilityAnnouncementGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
+     * @Group 67bd72642521f0b9ac0225e3a36f500c:43
      * @var string|null
      */
     private $userId = null;

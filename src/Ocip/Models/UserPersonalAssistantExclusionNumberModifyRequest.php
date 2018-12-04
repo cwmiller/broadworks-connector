@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:282","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserPersonalAssistantExclusionNumberModifyRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:282
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,7 @@ class UserPersonalAssistantExclusionNumberModifyRequest extends \CWM\BroadWorksC
     /**
      * @ElementName exclusionNumber
      * @Type string
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:282
      * @var string|null
      */
     private $exclusionNumber = null;
@@ -32,6 +35,8 @@ class UserPersonalAssistantExclusionNumberModifyRequest extends \CWM\BroadWorksC
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:282
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

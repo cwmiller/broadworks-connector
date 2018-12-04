@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderMeetMeConferencingModifyRequest
  *
- * Modify the service provider/enterprise level data associated with Meet-Me
- * Conferencing functions.
+ * Modify the service provider/enterprise level data associated with Meet-Me Conferencing functions.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:363","type":"sequence"}]
  */
 class ServiceProviderMeetMeConferencingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderMeetMeConferencingModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:363
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,8 @@ class ServiceProviderMeetMeConferencingModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName allocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:363
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;

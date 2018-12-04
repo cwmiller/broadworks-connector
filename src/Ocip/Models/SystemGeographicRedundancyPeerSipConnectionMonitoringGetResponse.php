@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of Peer SIP Connection Monitoring system parameters.
  *
  * @see SystemGeographicRedundancyPeerSipConnectionMonitoringGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8925","type":"sequence"}]
  */
 class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
     /**
      * @ElementName enabled
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8925
      * @var bool|null
      */
     private $enabled = null;
@@ -23,6 +25,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
     /**
      * @ElementName heartbeatInterval
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8925
      * @var int|null
      */
     private $heartbeatInterval = null;
@@ -30,6 +33,7 @@ class SystemGeographicRedundancyPeerSipConnectionMonitoringGetResponse extends \
     /**
      * @ElementName heartbeatTimeout
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8925
      * @var int|null
      */
     private $heartbeatTimeout = null;

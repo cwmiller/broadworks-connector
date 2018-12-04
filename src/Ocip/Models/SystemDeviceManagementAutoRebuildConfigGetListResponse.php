@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceManagementAutoRebuildConfigGetListResponse
  *
  * Response to SystemDeviceManagementAutoRebuildConfigGetListRequest.
- *         Contains a table with column headings: "OCI Request Prefix", "Auto
- * Rebuild Enabled".
+ *         Contains a table with column headings: "OCI Request Prefix", "Auto Rebuild Enabled".
  *         "OCI Request Prefix" is the prefix of the OCI request name.  It does
  *         not include the request's version '17.sp4, 18...' since the disabled
  *         flag applies to the whole series of requests, independent of the
@@ -16,6 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         automatically.  Otherwise, automatic DM events are not generated.
  *
  * @see SystemDeviceManagementAutoRebuildConfigGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6557","type":"sequence"}]
  */
 class SystemDeviceManagementAutoRebuildConfigGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,6 +23,7 @@ class SystemDeviceManagementAutoRebuildConfigGetListResponse extends \CWM\BroadW
     /**
      * @ElementName autoRebuildConfigTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6557
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $autoRebuildConfigTable = null;

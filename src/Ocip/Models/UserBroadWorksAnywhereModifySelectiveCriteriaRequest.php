@@ -9,13 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *           callToNumbers
  *           
- *         For the callToNumbers in the callToNumberList, the extension element is
- * not used and the number element is only used when the type is BroadWorks
- * Mobility.
+ *         For the callToNumbers in the callToNumberList, the extension element is not used and the number element is only used when the type is BroadWorks Mobility.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:550","type":"sequence"}]
  */
 class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +22,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName userId
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:550
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +30,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:550
      * @var string|null
      */
     private $phoneNumber = null;
@@ -37,6 +38,7 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:550
      * @var string|null
      */
     private $criteriaName = null;
@@ -44,6 +46,8 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName newCriteriaName
      * @Type string
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:550
      * @var string|null
      */
     private $newCriteriaName = null;
@@ -52,6 +56,8 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:550
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
@@ -59,6 +65,8 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:550
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     private $fromDnCriteria = null;
@@ -67,6 +75,8 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:550
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -74,6 +84,8 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:550
      * @var bool|null
      */
     private $blacklisted = null;
@@ -82,6 +94,8 @@ class UserBroadWorksAnywhereModifySelectiveCriteriaRequest extends \CWM\BroadWor
      * @ElementName callToNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:550
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;

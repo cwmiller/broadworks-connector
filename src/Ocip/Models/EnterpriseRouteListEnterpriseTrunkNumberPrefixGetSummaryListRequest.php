@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest
  *
- * Request a summary table of all enterprise trunk number prefixes in the
- * enterprise.
- *         The response is either
- * EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse or
- * ErrorResponse.
+ * Request a summary table of all enterprise trunk number prefixes in the enterprise.
+ *         The response is either EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse or ErrorResponse.
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:102","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extend
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:102
      * @var string|null
      */
     private $serviceProviderId = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCapacityManagementGetAvailableUserListResponse
  *
  * Response to the GroupCallCapacityManagementGetAvailableUserListRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", "Hiragana First Name",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallCapacityManagementGetAvailableUserListRequest
+ * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:157","type":"sequence"}]
  */
 class GroupCallCapacityManagementGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class GroupCallCapacityManagementGetAvailableUserListResponse extends \CWM\Broad
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group ec414f584634edfc7ab45285fc8bb597:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

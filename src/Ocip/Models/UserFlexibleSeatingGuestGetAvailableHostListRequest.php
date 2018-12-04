@@ -6,16 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserFlexibleSeatingGuestGetAvailableHostListRequest
  *
  * Get a list of hosts that can be assigned to flexible seating guests. 
- *         The response is either
- * UserFlexibleSeatingGuestGetAvailableHostListResponse or ErrorResponse. The
- * response will include active hosts based on the following criteria.
- * - host that has the equivalent device type as the guest, host already assigned
- * to another guest and for a guest in a Service Provider host in the user’s
- * group and for a user in an Enterprise a host within the user’s group and host
- * in the user’s enterprise that has the accessLevel set to Enterprise.
+ *         The response is either UserFlexibleSeatingGuestGetAvailableHostListResponse or ErrorResponse. The response will include active hosts based on the following criteria.
+ * - host that has the equivalent device type as the guest, host already assigned to another guest and for a guest in a Service Provider host in the user’s group and for a user in an Enterprise a host within the user’s group and host in the user’s enterprise that has the accessLevel set to Enterprise.
  *
  * @see UserFlexibleSeatingGuestGetAvailableHostListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:365","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +19,7 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:365
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +27,8 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:365
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -38,6 +37,8 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:365
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -48,6 +49,8 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:365
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -57,6 +60,8 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:365
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -65,6 +70,8 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:365
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -75,6 +82,8 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:365
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -85,6 +94,8 @@ class UserFlexibleSeatingGuestGetAvailableHostListRequest extends \CWM\BroadWork
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:365
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

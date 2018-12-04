@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the service provider's password rules setting applicable to
  *         Administrators (Group and Department) and Users.
- *         The response is either ServiceProviderPasswordRulesGetResponse22 or
- * ErrorResponse.
+ *         The response is either ServiceProviderPasswordRulesGetResponse22 or ErrorResponse.
  *
  * @see ServiceProviderPasswordRulesGetResponse22
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4267","type":"sequence"}]
  */
 class ServiceProviderPasswordRulesGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class ServiceProviderPasswordRulesGetRequest22 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4267
      * @var string|null
      */
     private $serviceProviderId = null;

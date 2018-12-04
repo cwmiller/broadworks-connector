@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the SIP authentication password rules for the system.
  *
  * @see SystemSIPAuthenticationPasswordRulesGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14612","type":"sequence"}]
  */
 class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowAuthenticationName
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var bool|null
      */
     private $disallowAuthenticationName = null;
@@ -23,6 +25,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowOldPassword
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var bool|null
      */
     private $disallowOldPassword = null;
@@ -30,6 +33,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName disallowReversedOldPassword
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
@@ -37,6 +41,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName restrictMinDigits
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var bool|null
      */
     private $restrictMinDigits = null;
@@ -44,6 +49,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName minDigits
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var int|null
      */
     private $minDigits = null;
@@ -51,6 +57,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
@@ -58,6 +65,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName minUpperCaseLetters
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -65,6 +73,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
@@ -72,6 +81,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName minLowerCaseLetters
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -79,6 +89,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
@@ -86,6 +97,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName minNonAlphanumericCharacters
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -93,6 +105,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName minLength
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var int|null
      */
     private $minLength = null;
@@ -100,6 +113,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName sendPermanentLockoutNotification
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var bool|null
      */
     private $sendPermanentLockoutNotification = null;
@@ -107,6 +121,8 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName permanentLockoutNotifyEmailAddress
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var string|null
      */
     private $permanentLockoutNotifyEmailAddress = null;
@@ -114,6 +130,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName endpointAuthenticationLockoutType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $endpointAuthenticationLockoutType = null;
@@ -121,6 +138,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName endpointTemporaryLockoutThreshold
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var int|null
      */
     private $endpointTemporaryLockoutThreshold = null;
@@ -128,6 +146,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName endpointWaitAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $endpointWaitAlgorithm = null;
@@ -135,6 +154,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName endpointLockoutFixedMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $endpointLockoutFixedMinutes = null;
@@ -142,6 +162,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName endpointPermanentLockoutThreshold
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var int|null
      */
     private $endpointPermanentLockoutThreshold = null;
@@ -149,6 +170,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName trunkGroupAuthenticationLockoutType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $trunkGroupAuthenticationLockoutType = null;
@@ -156,6 +178,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName trunkGroupTemporaryLockoutThreshold
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var int|null
      */
     private $trunkGroupTemporaryLockoutThreshold = null;
@@ -163,6 +186,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName trunkGroupWaitAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $trunkGroupWaitAlgorithm = null;
@@ -170,6 +194,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName trunkGroupLockoutFixedMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $trunkGroupLockoutFixedMinutes = null;
@@ -177,6 +202,7 @@ class SystemSIPAuthenticationPasswordRulesGetResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName trunkGroupPermanentLockoutThreshold
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14612
      * @var int|null
      */
     private $trunkGroupPermanentLockoutThreshold = null;

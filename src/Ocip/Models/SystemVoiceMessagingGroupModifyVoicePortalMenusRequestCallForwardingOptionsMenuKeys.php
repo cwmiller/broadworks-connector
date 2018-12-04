@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOptionsMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31814","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOptionsMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
      * @ElementName activateCallForwarding
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31814
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateCallForwarding = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
      * @ElementName deactivateCallForwarding
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31814
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deactivateCallForwarding = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
      * @ElementName changeCallForwardingDestination
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31814
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCallForwardingDestination = null;
@@ -36,6 +44,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
      * @ElementName listenToCallForwardingStatus
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31814
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCallForwardingStatus = null;
@@ -43,6 +53,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31814
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -51,6 +63,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCallForwardingOption
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31814
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

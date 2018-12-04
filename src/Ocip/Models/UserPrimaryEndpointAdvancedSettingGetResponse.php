@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPrimaryEndpointAdvancedSettingGetRequest.
  *
  * @see UserPrimaryEndpointAdvancedSettingGetRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2789","type":"sequence"}]
  */
 class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName allowOrigination
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:2789
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -22,6 +24,7 @@ class UserPrimaryEndpointAdvancedSettingGetResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName allowTermination
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:2789
      * @var bool|null
      */
     private $allowTermination = null;

@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemPerformanceMeasurementReportingGetRequest
  * @see SystemPerformanceMeasurementReportingGetResponse22
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:23467","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class SystemPerformanceMeasurementReportingGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23467
      * @var bool|null
      */
     private $isActive = null;
@@ -25,6 +27,7 @@ class SystemPerformanceMeasurementReportingGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName reportingInterval
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23467
      * @var int|null
      */
     private $reportingInterval = null;
@@ -32,6 +35,7 @@ class SystemPerformanceMeasurementReportingGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName resetMeasurementsAfterEachReport
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23467
      * @var bool|null
      */
     private $resetMeasurementsAfterEachReport = null;
@@ -39,6 +43,7 @@ class SystemPerformanceMeasurementReportingGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName reportEnterprise
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23467
      * @var bool|null
      */
     private $reportEnterprise = null;
@@ -46,6 +51,7 @@ class SystemPerformanceMeasurementReportingGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName reportServiceProvider
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23467
      * @var bool|null
      */
     private $reportServiceProvider = null;
@@ -53,6 +59,7 @@ class SystemPerformanceMeasurementReportingGetResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName reportDevice
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:23467
      * @var bool|null
      */
     private $reportDevice = null;

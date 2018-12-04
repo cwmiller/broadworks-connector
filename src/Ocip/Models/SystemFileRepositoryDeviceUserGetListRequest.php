@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemFileRepositoryDeviceUserGetListRequest
  *
  * Request the list of users for a file repository in the system.
- *         The response is either a SystemFileRepositoryDeviceUserGetListResponse
- * or an ErrorResponse.
+ *         The response is either a SystemFileRepositoryDeviceUserGetListResponse or an ErrorResponse.
  *
  * @see SystemFileRepositoryDeviceUserGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8824","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName fileRepositoryName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8824
      * @var string|null
      */
     private $fileRepositoryName = null;

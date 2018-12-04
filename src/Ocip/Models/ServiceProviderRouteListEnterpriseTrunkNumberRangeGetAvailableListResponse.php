@@ -5,13 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse
  *
- * Response to
- * ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest.
- * Contains a list of available number ranges not yet assigned to any group.
- *         The column headings are "Number Range Start", "Number Range End" and "Is
- * Active".
+ * Response to ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest. Contains a list of available number ranges not yet assigned to any group.
+ *         The column headings are "Number Range Start", "Number Range End" and "Is Active".
  *
  * @see ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:656","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +17,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse
     /**
      * @ElementName availableNumberRangeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:656
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableNumberRangeTable = null;

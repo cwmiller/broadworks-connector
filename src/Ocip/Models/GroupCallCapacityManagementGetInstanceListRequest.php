@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCapacityManagementGetInstanceListRequest
  *
  * Request to get a list of Call Capacity Management instances within a group.
- *         The response is either
- * GroupCallCapacityManagementGetInstanceListResponse or ErrorResponse.
+ *         The response is either GroupCallCapacityManagementGetInstanceListResponse or ErrorResponse.
  *
  * @see GroupCallCapacityManagementGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:173","type":"sequence"}]
  */
 class GroupCallCapacityManagementGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCapacityManagementGetInstanceListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:173
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallCapacityManagementGetInstanceListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:173
      * @var string|null
      */
     private $groupId = null;

@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileUserProfileGetRequest22
  *
- * Request to get the configuration for a call processing policy profile user
- * subscriber type profile.
- *         The response is either a
- * SystemCallProcessingPolicyProfileUserProfileGetResponse22 or an ErrorResponse.
+ * Request to get the configuration for a call processing policy profile user subscriber type profile.
+ *         The response is either a SystemCallProcessingPolicyProfileUserProfileGetResponse22 or an ErrorResponse.
  *
  * @see SystemCallProcessingPolicyProfileUserProfileGetResponse22
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:4158","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileUserProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class SystemCallProcessingPolicyProfileUserProfileGetRequest22 extends \CWM\Broa
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:4158
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

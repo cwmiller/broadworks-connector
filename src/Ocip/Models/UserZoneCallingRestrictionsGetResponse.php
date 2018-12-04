@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Response to a UserZoneCallingRestrictionsGetRequest
  *
  * @see UserZoneCallingRestrictionsGetRequest
+ * @Groups [{"id":"717a9f842e0bacab397cbe717881a5e7:116","type":"sequence"}]
  */
 class UserZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class UserZoneCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName homeZoneName
      * @Type string
+     * @Optional
+     * @Group 717a9f842e0bacab397cbe717881a5e7:116
      * @var string|null
      */
     private $homeZoneName = null;

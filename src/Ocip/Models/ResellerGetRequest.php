@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ResellerGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7e8feb1c28b49a3b8755f86e716ebee7:244","type":"sequence"}]
  */
 class ResellerGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ResellerGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReque
     /**
      * @ElementName resellerId
      * @Type string
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:244
      * @var string|null
      */
     private $resellerId = null;

@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of Communication Barring Call Types that replaces a previously
  *         configured list. By convention, an element of this type may be set 
  *         nill to clear the list.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2826","type":"sequence"}]
  */
 class ReplacementCommunicationBarringCallTypeList
 {
@@ -16,6 +18,7 @@ class ReplacementCommunicationBarringCallTypeList
      * @ElementName callType
      * @Type string
      * @Array
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2826
      * @var string[]
      */
     private $callType = array(

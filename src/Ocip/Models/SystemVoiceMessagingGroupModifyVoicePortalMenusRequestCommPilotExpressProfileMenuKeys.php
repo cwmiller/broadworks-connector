@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProfileMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31788","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProfileMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * @ElementName activateAvailableInOfficeProfile
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31788
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableInOfficeProfile = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * @ElementName activateAvailableOutOfOfficeProfile
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31788
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateAvailableOutOfOfficeProfile = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * @ElementName activateBusyProfile
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31788
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateBusyProfile = null;
@@ -36,6 +44,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * @ElementName activateUnavailableProfile
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31788
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateUnavailableProfile = null;
@@ -44,6 +54,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * @ElementName noProfile
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31788
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $noProfile = null;
@@ -51,6 +63,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31788
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -59,6 +73,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestCommPilotExpressProf
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31788
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

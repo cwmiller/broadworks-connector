@@ -6,14 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallPickupGetResponse
  *
  * Response to the UserCallPickupGetRequest.
- *         Identifies which Call Pickup group the user belongs to and the list of
- * users in the group.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name",
- *         "Hiragana First Name", "Department", "Phone Number", "Extension", "Email
- * Address".
+ *         Identifies which Call Pickup group the user belongs to and the list of users in the group.
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name",
+ *         "Hiragana First Name", "Department", "Phone Number", "Extension", "Email Address".
  *
  * @see UserCallPickupGetRequest
+ * @Groups [{"id":"1d2c67d4a97adca57d9953b2182b4b0d:234","type":"sequence"}]
  */
 class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +19,8 @@ class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName name
      * @Type string
+     * @Optional
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:234
      * @var string|null
      */
     private $name = null;
@@ -28,6 +28,7 @@ class UserCallPickupGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:234
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

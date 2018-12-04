@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupPreAlertingAnnouncementGetRequest
  *
  * Get the group PreAlertingservice settings.
- *         The response is either a GroupPreAlertingAnnouncementGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupPreAlertingAnnouncementGetResponse or an ErrorResponse.
  *         
  *         Replaced by: GroupPreAlertingAnnouncementGetRequest20 in AS data mode
  *
  * @see GroupPreAlertingAnnouncementGetResponse
  * @see ErrorResponse
  * @see GroupPreAlertingAnnouncementGetRequest20
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:1833","type":"sequence"}]
  */
 class GroupPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class GroupPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1833
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class GroupPreAlertingAnnouncementGetRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1833
      * @var string|null
      */
     private $groupId = null;

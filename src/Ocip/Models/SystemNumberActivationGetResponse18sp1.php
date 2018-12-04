@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the system number activation setting.
  *
  * @see SystemNumberActivationGetRequest18sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:3781","type":"sequence"}]
  */
 class SystemNumberActivationGetResponse18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class SystemNumberActivationGetResponse18sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName numberActivationMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode
+     * @Group 499b56264fbe226bfef3c338c8d4750d:3781
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
      */
     private $numberActivationMode = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SearchCriteriaServiceCode
  *
  * Criteria for searching for a Service Code.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:1802","type":"sequence"}]
  */
 class SearchCriteriaServiceCode extends SearchCriteria
 {
@@ -13,6 +15,7 @@ class SearchCriteriaServiceCode extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
+     * @Group d37849f5e289836ccd316323a7a3799a:1802
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -20,6 +23,7 @@ class SearchCriteriaServiceCode extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
+     * @Group d37849f5e289836ccd316323a7a3799a:1802
      * @var string|null
      */
     private $value = null;
@@ -27,6 +31,7 @@ class SearchCriteriaServiceCode extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
+     * @Group d37849f5e289836ccd316323a7a3799a:1802
      * @var bool|null
      */
     private $isCaseInsensitive = null;

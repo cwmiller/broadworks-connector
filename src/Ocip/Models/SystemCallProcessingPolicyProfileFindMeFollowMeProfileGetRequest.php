@@ -5,18 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest
  *
- * Request to get the configuration for a call processing policy profile
- * Find-me/Follow-me subscriber type profile.
- *         The response is either a
- * SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetResponse or an
+ * Request to get the configuration for a call processing policy profile Find-me/Follow-me subscriber type profile.
+ *         The response is either a SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetResponse or an
  *         ErrorResponse.
  *         
- *         Replaced by:
- * SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest22
+ *         Replaced by: SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest22
  *
  * @see SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest22
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:19564","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +22,7 @@ class SystemCallProcessingPolicyProfileFindMeFollowMeProfileGetRequest extends \
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:19564
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

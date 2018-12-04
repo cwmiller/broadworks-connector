@@ -5,17 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserEnhancedCallLogsGetListRequest
  *
- * Request user's call logs. It is possible to get a subset of the total list of
- * calls
+ * Request user's call logs. It is possible to get a subset of the total list of calls
  *         by specifying a starting offset and the number of calls to get.
  *         If the callLogType is not specified, all types of calls are returned.
- *         The response is either a UserEnhancedCallLogsGetListResponse or an
- * ErrorResponse.
+ *         The response is either a UserEnhancedCallLogsGetListResponse or an ErrorResponse.
  *         Replaced By: UserEnhancedCallLogsGetListRequest14sp4
  *
  * @see UserEnhancedCallLogsGetListResponse
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest14sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34437","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +22,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34437
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +30,8 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34437
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnhancedCallLogsType|null
      */
     private $callLogType = null;
@@ -37,6 +39,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName startingOffset
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34437
      * @var int|null
      */
     private $startingOffset = null;
@@ -44,6 +47,7 @@ class UserEnhancedCallLogsGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName numCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34437
      * @var int|null
      */
     private $numCalls = null;

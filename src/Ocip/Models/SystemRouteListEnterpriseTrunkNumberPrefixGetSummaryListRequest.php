@@ -6,18 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest
  *
  * Request a summary table of all enterprise trunk prefixes in the system. 
- *         If resellerId is specified, only the prefixes assigned to the
- * enterprise/service provider within 
+ *         If resellerId is specified, only the prefixes assigned to the enterprise/service provider within 
  *         the given reseller are returned.
- *         If reseller administrator sends the request and resellerId is not
- * specified, the administrator's resellerId is used.
+ *         If reseller administrator sends the request and resellerId is not specified, the administrator's resellerId is used.
  *         
- *         The response is either
- * SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse or
- * ErrorResponse.
+ *         The response is either SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse or ErrorResponse.
  *
  * @see SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:708","type":"sequence"}]
  */
 class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,6 +22,8 @@ class SystemRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest extends \C
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:708
      * @var string|null
      */
     private $resellerId = null;

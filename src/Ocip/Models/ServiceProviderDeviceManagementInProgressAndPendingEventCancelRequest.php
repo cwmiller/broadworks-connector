@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2300","type":"sequence"}]
  */
 class ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest exte
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2300
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,7 @@ class ServiceProviderDeviceManagementInProgressAndPendingEventCancelRequest exte
      * @ElementName eventId
      * @Type int
      * @Array
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2300
      * @var int[]
      */
     private $eventId = array(

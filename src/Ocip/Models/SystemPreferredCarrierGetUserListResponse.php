@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to a SystemPreferredCarrierGetUserListRequest.
  *         Contains a table with one row per user.
- *         The table columns are: "User Id", "Service Provider Id", "Group Id",
- * "Last Name", "First Name", "Phone Number", "Email Address",
- *         "Hiragana Last Name", and "Hiragana First Name", "Extension",
- * "Department".
+ *         The table columns are: "User Id", "Service Provider Id", "Group Id", "Last Name", "First Name", "Phone Number", "Email Address",
+ *         "Hiragana Last Name", and "Hiragana First Name", "Extension", "Department".
  *
  * @see SystemPreferredCarrierGetUserListRequest
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:497","type":"sequence"}]
  */
 class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +19,7 @@ class SystemPreferredCarrierGetUserListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName usersUsingCarrierTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1384777ce7bd407156102bad44751987:497
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usersUsingCarrierTable = null;

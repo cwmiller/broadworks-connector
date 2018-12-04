@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointQueueCallDispositionCodeGetRequest
  *
  * Get a Route Point Call Disposition Code.
- *         The response is either
- * GroupRoutePointQueueCallDispositionCodeGetResponse or ErrorResponse.
+ *         The response is either GroupRoutePointQueueCallDispositionCodeGetResponse or ErrorResponse.
  *
  * @see GroupRoutePointQueueCallDispositionCodeGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:1091","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:1091
      * @var string|null
      */
     private $serviceUserId = null;
@@ -25,6 +26,7 @@ class GroupRoutePointQueueCallDispositionCodeGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName code
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:1091
      * @var string|null
      */
     private $code = null;

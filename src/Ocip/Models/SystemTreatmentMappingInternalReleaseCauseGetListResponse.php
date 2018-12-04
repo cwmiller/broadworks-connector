@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemTreatmentMappingInternalReleaseCauseGetListResponse
  *
- * Response to a SystemTreatmentMappingInternalReleaseCauseGetListRequest. Contains
- * a table with one row per mapping.
+ * Response to a SystemTreatmentMappingInternalReleaseCauseGetListRequest. Contains a table with one row per mapping.
  *         The table columns are: "Internal Release Cause", "Treatment Id".
  *
  * @see SystemTreatmentMappingInternalReleaseCauseGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:16601","type":"sequence"}]
  */
 class SystemTreatmentMappingInternalReleaseCauseGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemTreatmentMappingInternalReleaseCauseGetListResponse extends \CWM\Bro
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16601
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $treatmentMappingTable = null;

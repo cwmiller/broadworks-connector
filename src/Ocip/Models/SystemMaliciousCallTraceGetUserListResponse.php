@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemMaliciousCallTraceGetUserListResponse
  *
- * Response to SystemMaliciousCallTraceGetUserListRequest. The column headings are
- * "Service Provider Id",
- *         "Group Id", "User Id", "Last Name", "First Name", "Phone Number", "Trace
- * Type", "Status",
+ * Response to SystemMaliciousCallTraceGetUserListRequest. The column headings are "Service Provider Id",
+ *         "Group Id", "User Id", "Last Name", "First Name", "Phone Number", "Trace Type", "Status",
  *         "Hiragana Last Name" and "Hiragana First Name".
  *         
  *         Replaced By: SystemMaliciousCallTraceGetResponse
  *
  * @see SystemMaliciousCallTraceGetUserListRequest
  * @see SystemMaliciousCallTraceGetResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22912","type":"sequence"}]
  */
 class SystemMaliciousCallTraceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +21,7 @@ class SystemMaliciousCallTraceGetUserListResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22912
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

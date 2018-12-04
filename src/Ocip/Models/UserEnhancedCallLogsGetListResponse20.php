@@ -7,19 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserEnhancedCallLogsGetListRequest20.
  *         Total numbers of rows is:
- *         - the total number of retrievable logs of the call log type that was
- * specified in the UserEnhancedCallLogsGetListRequest20,
+ *         - the total number of retrievable logs of the call log type that was specified in the UserEnhancedCallLogsGetListRequest20,
  *           if a call log type was specified in the request.
- *         - the total number of retrievable logs, if no call log type was
- * specified in the request.
- *         A list of MixedCallLogsEntry will be returned if the call logs are
- * stored on CDS
- *         A list of ExtendedMixedCallLogsEntry20 will be returned if the call logs
- * are stored on DBS
+ *         - the total number of retrievable logs, if no call log type was specified in the request.
+ *         A list of MixedCallLogsEntry will be returned if the call logs are stored on CDS
+ *         A list of ExtendedMixedCallLogsEntry20 will be returned if the call logs are stored on DBS
  *         The logs are sorted by date/time of the call.
  *
  * @see UserEnhancedCallLogsGetListRequest20
  * @see UserEnhancedCallLogsGetListRequest20
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34748","type":"sequence","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:34750","type":"choice","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:34754","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:34762","type":"sequence"}]}]}]
  */
 class UserEnhancedCallLogsGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,6 +24,7 @@ class UserEnhancedCallLogsGetListResponse20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName totalNumberOfRows
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34748
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -34,6 +32,7 @@ class UserEnhancedCallLogsGetListResponse20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse20LegacyEntry
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34750
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse20LegacyEntry|null
      */
     private $legacyEntry = null;
@@ -41,6 +40,7 @@ class UserEnhancedCallLogsGetListResponse20 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse20ExtendedEntry
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34750
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse20ExtendedEntry|null
      */
     private $extendedEntry = null;

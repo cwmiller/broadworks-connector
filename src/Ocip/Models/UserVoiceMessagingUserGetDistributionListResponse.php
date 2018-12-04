@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoiceMessagingUserGetDistributionListRequest.
  *
  * @see UserVoiceMessagingUserGetDistributionListRequest
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1727","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1727
      * @var string|null
      */
     private $description = null;
@@ -23,6 +26,8 @@ class UserVoiceMessagingUserGetDistributionListResponse extends \CWM\BroadWorksC
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1727
      * @var string[]
      */
     private $phoneNumber = array(

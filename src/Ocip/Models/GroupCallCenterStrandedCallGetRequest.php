@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterStrandedCallGetRequest
  *
  * Get a call center's stranded call settings.
- *         The response is either a GroupCallCenterStrandedCallGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupCallCenterStrandedCallGetResponse or an ErrorResponse.
  *
  * @see GroupCallCenterStrandedCallGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:5698","type":"sequence"}]
  */
 class GroupCallCenterStrandedCallGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterStrandedCallGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:5698
      * @var string|null
      */
     private $serviceUserId = null;

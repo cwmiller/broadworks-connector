@@ -7,15 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserEnhancedCallLogsGetListRequest21.
  *         Total numbers of rows is:
- *         - the total number of retrievable logs of the call log type that was
- * specified in the UserEnhancedCallLogsGetListRequest21, 
+ *         - the total number of retrievable logs of the call log type that was specified in the UserEnhancedCallLogsGetListRequest21, 
  *           if a call log type was specified in the request.
- *         - the total number of retrievable logs, if no call log type was
- * specified in the request.
- *         A list of MixedCallLogsEntry will be returned if the call logs are
- * stored on CDS
- *         A list of ExtendedMixedCallLogsEntry21 will be returned if the call logs
- * are stored on DBS
+ *         - the total number of retrievable logs, if no call log type was specified in the request.
+ *         A list of MixedCallLogsEntry will be returned if the call logs are stored on CDS
+ *         A list of ExtendedMixedCallLogsEntry21 will be returned if the call logs are stored on DBS
  *         The logs are sorted by date/time of the call.
  *         
  *         Replaced by: UserEnhancedCallLogsGetListResponse21Sp1 in AS data mode
@@ -23,6 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserEnhancedCallLogsGetListRequest21
  * @see UserEnhancedCallLogsGetListRequest21
  * @see UserEnhancedCallLogsGetListResponse21Sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5002","type":"sequence","children":[{"id":"499b56264fbe226bfef3c338c8d4750d:5004","type":"choice","children":[{"id":"499b56264fbe226bfef3c338c8d4750d:5008","type":"sequence"},{"id":"499b56264fbe226bfef3c338c8d4750d:5016","type":"sequence"}]}]}]
  */
 class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -30,6 +27,7 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName totalNumberOfRows
      * @Type int
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5002
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -37,6 +35,7 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName legacyEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5004
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21LegacyEntry|null
      */
     private $legacyEntry = null;
@@ -44,6 +43,7 @@ class UserEnhancedCallLogsGetListResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName extendedEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5004
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEnhancedCallLogsGetListResponse21ExtendedEntry|null
      */
     private $extendedEntry = null;

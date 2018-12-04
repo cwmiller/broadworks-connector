@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the Users Primary Endpoint line control settings.
  *           The response is either a SuccessResponse or an ErrorResponse.
- *           The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *           The following elements are only used in XS data mode and ignored in AS data mode:
  *           	allowVideo
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2808","type":"sequence"}]
  */
 class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:2808
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,8 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName allowOrigination
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:2808
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -34,6 +37,8 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName allowTermination
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:2808
      * @var bool|null
      */
     private $allowTermination = null;
@@ -41,6 +46,8 @@ class UserPrimaryEndpointAdvancedSettingModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName allowVideo
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:2808
      * @var bool|null
      */
     private $allowVideo = null;

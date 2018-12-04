@@ -7,8 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Service Profile Information for group service.
  *         
- *         The callingLineIdPhoneNumber is no longer being formatted for display
- * purpose. The value is returned exactly the same as being stored.
+ *         The callingLineIdPhoneNumber is no longer being formatted for display purpose. The value is returned exactly the same as being stored.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3266","type":"sequence"}]
  */
 class ServiceInstanceReadProfile19sp1
 {
@@ -16,6 +17,7 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName name
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $name = null;
@@ -23,6 +25,7 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName callingLineIdLastName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -30,6 +33,7 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -37,6 +41,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName hiraganaLastName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -44,6 +50,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName hiraganaFirstName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -51,6 +59,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $phoneNumber = null;
@@ -58,6 +68,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName extension
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $extension = null;
@@ -65,6 +77,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName countryCode
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $countryCode = null;
@@ -72,6 +86,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName nationalPrefix
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $nationalPrefix = null;
@@ -79,6 +95,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -86,6 +104,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $language = null;
@@ -93,6 +113,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName timeZone
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $timeZone = null;
@@ -100,6 +122,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName timeZoneDisplayName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -108,6 +132,8 @@ class ServiceInstanceReadProfile19sp1
      * @ElementName alias
      * @Type string
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string[]
      */
     private $alias = array(
@@ -117,6 +143,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName publicUserIdentity
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $publicUserIdentity = null;
@@ -124,6 +152,8 @@ class ServiceInstanceReadProfile19sp1
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3266
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

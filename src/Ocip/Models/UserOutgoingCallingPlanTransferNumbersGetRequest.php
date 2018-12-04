@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanTransferNumbersGetRequest
  *
  * Request the transfer numbers for a user.
- *         The response is either a
- * UserOutgoingCallingPlanTransferNumbersGetResponse or an ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanTransferNumbersGetResponse or an ErrorResponse.
  *
  * @see UserOutgoingCallingPlanTransferNumbersGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1682","type":"sequence"}]
  */
 class UserOutgoingCallingPlanTransferNumbersGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserOutgoingCallingPlanTransferNumbersGetRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1682
      * @var string|null
      */
     private $userId = null;

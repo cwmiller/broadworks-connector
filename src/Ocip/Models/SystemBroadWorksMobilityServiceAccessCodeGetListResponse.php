@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityServiceAccessCodeGetListResponse
  *
  * Response to SystemBroadWorksMobilityServiceAccessCodeGetListRequest.
- *         Contains a table with column headings: "Country Code", "Service Access
- * Code", "Description".
+ *         Contains a table with column headings: "Country Code", "Service Access Code", "Description".
  *         Replaced by SystemBroadWorksMobilityServiceAccessCodeGetListReponse21.
  *
  * @see SystemBroadWorksMobilityServiceAccessCodeGetListRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17810","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class SystemBroadWorksMobilityServiceAccessCodeGetListResponse extends \CWM\Broa
     /**
      * @ElementName serviceAccessCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17810
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceAccessCodeTable = null;

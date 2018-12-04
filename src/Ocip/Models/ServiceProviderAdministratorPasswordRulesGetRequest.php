@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderAdministratorPasswordRulesGetRequest
  *
- * Requests the effective password rules setting for a service provider
- * administrator
- *         The response is either
- * ServiceProviderAdministratorPasswordRulesGetResponse or 
+ * Requests the effective password rules setting for a service provider administrator
+ *         The response is either ServiceProviderAdministratorPasswordRulesGetResponse or 
  *         ErrorResponse.
  *
  * @see ServiceProviderAdministratorPasswordRulesGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1028","type":"sequence"}]
  */
 class ServiceProviderAdministratorPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class ServiceProviderAdministratorPasswordRulesGetRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1028
      * @var string|null
      */
     private $serviceProviderId = null;

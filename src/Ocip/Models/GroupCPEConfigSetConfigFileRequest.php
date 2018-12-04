@@ -8,12 +8,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to set a new group default configuration file for a device type.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
- *         When the element configFile is set to nil, the configuration file
- * defined
+ *         When the element configFile is set to nil, the configuration file defined
  *         at the parent level is used (in AS mode only).
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2505","type":"sequence"}]
  */
 class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2505
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2505
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +37,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2505
      * @var string|null
      */
     private $deviceType = null;
@@ -43,6 +46,7 @@ class GroupCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName configFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Nillable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2505
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configFile = null;

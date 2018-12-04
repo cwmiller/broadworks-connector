@@ -6,16 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCommunicationBarringUserControlModifyRequest
  *
  * Enabling a profile automatically disables the currently active profile.
- *         Also allows the passcode for the service to be modified and the lockout
- * to be reset.
- *         Admins only need to populate the newPasscode field when changing the
- * passcode.  
- *         Users must populate both the oldPasscode and new Passcode fields when
- * changing the passcode.
+ *         Also allows the passcode for the service to be modified and the lockout to be reset.
+ *         Admins only need to populate the newPasscode field when changing the passcode.  
+ *         Users must populate both the oldPasscode and new Passcode fields when changing the passcode.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"4d373d11d8022fd17bc1bdfe8e07cc37:134","type":"sequence"}]
  */
 class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +21,7 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +30,8 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
      * @ElementName enableProfile
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enableProfile = null;
@@ -38,6 +39,8 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName oldPasscode
      * @Type string
+     * @Optional
+     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
      * @var string|null
      */
     private $oldPasscode = null;
@@ -45,6 +48,8 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName newPasscode
      * @Type string
+     * @Optional
+     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
      * @var string|null
      */
     private $newPasscode = null;
@@ -52,6 +57,8 @@ class UserCommunicationBarringUserControlModifyRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName resetLockout
      * @Type bool
+     * @Optional
+     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:134
      * @var bool|null
      */
     private $resetLockout = null;

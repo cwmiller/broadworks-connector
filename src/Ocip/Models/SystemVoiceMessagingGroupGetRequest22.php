@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemVoiceMessagingGroupGetRequest22
  * @see SystemVoiceMessagingGroupGetRequest22V2
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:4435","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {

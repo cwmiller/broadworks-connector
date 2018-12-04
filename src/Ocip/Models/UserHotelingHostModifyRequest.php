@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"99b73f5d86cc88ac063524c419981701:81","type":"sequence"}]
  */
 class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
+     * @Group 99b73f5d86cc88ac063524c419981701:81
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:81
      * @var bool|null
      */
     private $isActive = null;
@@ -31,6 +35,8 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enforceAssociationLimit
      * @Type bool
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:81
      * @var bool|null
      */
     private $enforceAssociationLimit = null;
@@ -38,6 +44,8 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName associationLimitHours
      * @Type int
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:81
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -45,6 +53,8 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:81
      * @var \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
     private $accessLevel = null;
@@ -52,6 +62,8 @@ class UserHotelingHostModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName removeGuestAssociation
      * @Type bool
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:81
      * @var bool|null
      */
     private $removeGuestAssociation = null;

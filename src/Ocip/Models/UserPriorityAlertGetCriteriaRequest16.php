@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPriorityAlertGetCriteriaRequest16
  *
  * Get a criteria for the user's priority alert service.
- *         The response is either a UserPriorityAlertGetCriteriaResponse16 or an
- * ErrorResponse.
+ *         The response is either a UserPriorityAlertGetCriteriaResponse16 or an ErrorResponse.
  *         Replaced by: UserPriorityAlertGetCriteriaRequest21 in AS data mode
  *
  * @see UserPriorityAlertGetCriteriaResponse16
  * @see ErrorResponse
  * @see UserPriorityAlertGetCriteriaRequest21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5425","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserPriorityAlertGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5425
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,7 @@ class UserPriorityAlertGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5425
      * @var string|null
      */
     private $criteriaName = null;

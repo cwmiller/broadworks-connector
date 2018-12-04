@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderVoiceMessagingGroupGetVoicePortalRequest.
  *
  * @see ServiceProviderVoiceMessagingGroupGetVoicePortalRequest
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:406","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetVoicePortalResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalResponse extends \CWM\Broa
     /**
      * @ElementName voicePortalScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:406
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderVoicePortalScope|null
      */
     private $voicePortalScope = null;

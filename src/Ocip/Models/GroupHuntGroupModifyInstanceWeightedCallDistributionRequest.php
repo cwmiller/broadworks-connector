@@ -7,14 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify the weighted call distribution of a Hunt Group instance.
  *         The response is either SuccessResponse or ErrorResponse.
- *         NOTE: Prior to release 14, any agents who were not in the list kept
- * their
- *         existing weight setting. In release 14, any agents who are not in the
- * list
+ *         NOTE: Prior to release 14, any agents who were not in the list kept their
+ *         existing weight setting. In release 14, any agents who are not in the list
  *         will have their weight set to 0.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1136ac7348c14565d0ad74d10c47409a:446","type":"sequence"}]
  */
 class GroupHuntGroupModifyInstanceWeightedCallDistributionRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class GroupHuntGroupModifyInstanceWeightedCallDistributionRequest extends \CWM\B
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1136ac7348c14565d0ad74d10c47409a:446
      * @var string|null
      */
     private $serviceUserId = null;
@@ -30,6 +30,8 @@ class GroupHuntGroupModifyInstanceWeightedCallDistributionRequest extends \CWM\B
      * @ElementName agentWeight
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight
      * @Array
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:446
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntAgentWeight[]
      */
     private $agentWeight = array(

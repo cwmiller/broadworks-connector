@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"22021b993135fadb1ded1619493a5a0c:217","type":"sequence"}]
  */
 class UserCallingPartyCategoryModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserCallingPartyCategoryModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group 22021b993135fadb1ded1619493a5a0c:217
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserCallingPartyCategoryModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName category
      * @Type string
+     * @Optional
+     * @Group 22021b993135fadb1ded1619493a5a0c:217
      * @var string|null
      */
     private $category = null;

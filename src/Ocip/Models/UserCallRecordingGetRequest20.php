@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallRecordingGetRequest20
  *
  * Get the Call Recording attributes for a user.
- *         The response is either a UserCallRecordingGetResponse20 or an
- * ErrorResponse.
+ *         The response is either a UserCallRecordingGetResponse20 or an ErrorResponse.
  *         
  *         The following parameters are not returned for service instance:
  *           - pauseResumeNotification
@@ -17,6 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserCallRecordingGetResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"604d9297550842860022313f3cf2dc8f:290","type":"sequence"}]
  */
 class UserCallRecordingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +24,7 @@ class UserCallRecordingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
+     * @Group 604d9297550842860022313f3cf2dc8f:290
      * @var string|null
      */
     private $userId = null;

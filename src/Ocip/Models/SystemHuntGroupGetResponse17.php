@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemHuntGroupGetRequest
  * @see SystemHuntGroupGetResponse21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:3512","type":"sequence"}]
  */
 class SystemHuntGroupGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class SystemHuntGroupGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName anonymousInsteadOfPrivateCLID
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:3512
      * @var bool|null
      */
     private $anonymousInsteadOfPrivateCLID = null;
@@ -24,6 +26,7 @@ class SystemHuntGroupGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName removeHuntGroupNameFromCLID
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:3512
      * @var bool|null
      */
     private $removeHuntGroupNameFromCLID = null;
@@ -31,6 +34,7 @@ class SystemHuntGroupGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName uniformCallDistributionPolicyScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope
+     * @Group 499b56264fbe226bfef3c338c8d4750d:3512
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntGroupUniformCallDistributionPolicyScope|null
      */
     private $uniformCallDistributionPolicyScope = null;

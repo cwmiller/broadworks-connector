@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1757","type":"sequence"}]
  */
 class EnterpriseCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1757
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,8 @@ class EnterpriseCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName routingPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1757
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPolicy|null
      */
     private $routingPolicy = null;
@@ -32,6 +36,8 @@ class EnterpriseCallCenterModifyRoutingPolicyRequest extends \CWM\BroadWorksConn
      * @ElementName routingPriorityOrder
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1757
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterRoutingPriorityOrder[]
      */
     private $routingPriorityOrder = array(

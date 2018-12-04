@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCapacityManagementGetInstanceRequest
  *
  * Gets a Call Capacity Management group.
- *         The response is either GroupCallCapacityManagementGetInstanceResponse or
- * ErrorResponse.
+ *         The response is either GroupCallCapacityManagementGetInstanceResponse or ErrorResponse.
  *
  * @see GroupCallCapacityManagementGetInstanceResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:206","type":"sequence"}]
  */
 class GroupCallCapacityManagementGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCapacityManagementGetInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:206
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallCapacityManagementGetInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:206
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupCallCapacityManagementGetInstanceRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName name
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:206
      * @var string|null
      */
     private $name = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilotExpressSRRedirectionWithRing
  *
  * CommPilot Express SR Forward Number Entry with number of times to ring.
+ *
+ * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:218","type":"sequence"}]
  */
 class CommPilotExpressSRRedirectionWithRing
 {
@@ -13,6 +15,8 @@ class CommPilotExpressSRRedirectionWithRing
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:218
      * @var string|null
      */
     private $phoneNumber = null;
@@ -20,6 +24,7 @@ class CommPilotExpressSRRedirectionWithRing
     /**
      * @ElementName numberOfTimesToRing
      * @Type int
+     * @Group 0a20cd20692e84aeff051c5071901f47:218
      * @var int|null
      */
     private $numberOfTimesToRing = null;

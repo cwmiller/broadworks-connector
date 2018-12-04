@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SimultaneousRingNumber
  *
  * Simultaneous Ring number entry.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3476","type":"sequence"}]
  */
 class SimultaneousRingNumber
 {
@@ -13,6 +15,7 @@ class SimultaneousRingNumber
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3476
      * @var string|null
      */
     private $phoneNumber = null;
@@ -20,6 +23,7 @@ class SimultaneousRingNumber
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3476
      * @var bool|null
      */
     private $answerConfirmationRequired = null;

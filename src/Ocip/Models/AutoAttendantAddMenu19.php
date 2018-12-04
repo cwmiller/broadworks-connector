@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         prompt and dialing menu to be used during
  *         after business
  *         hours.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:391","type":"sequence"}]
  */
 class AutoAttendantAddMenu19
 {
@@ -17,6 +19,7 @@ class AutoAttendantAddMenu19
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
+     * @Group 18b369af88e42ffdb4166615c670ce2c:391
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -24,6 +27,8 @@ class AutoAttendantAddMenu19
     /**
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:391
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -31,6 +36,8 @@ class AutoAttendantAddMenu19
     /**
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:391
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;
@@ -38,6 +45,7 @@ class AutoAttendantAddMenu19
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:391
      * @var bool|null
      */
     private $enableFirstMenuLevelExtensionDialing = null;
@@ -46,6 +54,8 @@ class AutoAttendantAddMenu19
      * @ElementName keyConfiguration
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration19
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:391
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyConfiguration19[]
      */
     private $keyConfiguration = array(

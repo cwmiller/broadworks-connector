@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEmergencyZonesGetRequest
  *
  * Request the group level data associated with Emergency Zones.
- *         The response is either a GroupEmergencyZonesGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupEmergencyZonesGetResponse or an ErrorResponse.
  *
  * @see GroupEmergencyZonesGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"6692e70a4ddc3776956b67ac9efa1c1a:118","type":"sequence"}]
  */
 class GroupEmergencyZonesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupEmergencyZonesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:118
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupEmergencyZonesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:118
      * @var string|null
      */
     private $groupId = null;

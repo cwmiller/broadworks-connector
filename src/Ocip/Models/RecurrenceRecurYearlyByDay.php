@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * RecurrenceRecurYearlyByDay
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2649","type":"sequence"}]
  */
 class RecurrenceRecurYearlyByDay
 {
@@ -11,6 +13,8 @@ class RecurrenceRecurYearlyByDay
     /**
      * @ElementName recurInterval
      * @Type int
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2649
      * @var int|null
      */
     private $recurInterval = null;
@@ -18,6 +22,7 @@ class RecurrenceRecurYearlyByDay
     /**
      * @ElementName dayOfMonth
      * @Type int
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2649
      * @var int|null
      */
     private $dayOfMonth = null;
@@ -25,6 +30,7 @@ class RecurrenceRecurYearlyByDay
     /**
      * @ElementName month
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Month
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2649
      * @var \CWM\BroadWorksConnector\Ocip\Models\Month|null
      */
     private $month = null;

@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterEnhancedReportingGetRequest
  *
  * Request to get a group level call center enhanced reporting setting.
- *         The response is either a GroupCallCenterEnhancedReportingGetResponse or
- * an ErrorResponse.
+ *         The response is either a GroupCallCenterEnhancedReportingGetResponse or an ErrorResponse.
  *         
  *         Replaced by GroupCallCenterEnhancedReportingGetRequest19
  *
  * @see GroupCallCenterEnhancedReportingGetResponse
  * @see ErrorResponse
  * @see GroupCallCenterEnhancedReportingGetRequest19
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:3473","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class GroupCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3473
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class GroupCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3473
      * @var string|null
      */
     private $groupId = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemRoutingGetRouteDeviceListRequest
  *
  * Request to get a list of devices for a route.
- *         The response is either a SystemRoutingGetRouteDeviceListResponse or an
- * ErrorResponse.
+ *         The response is either a SystemRoutingGetRouteDeviceListResponse or an ErrorResponse.
  *
  * @see SystemRoutingGetRouteDeviceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13500","type":"sequence"}]
  */
 class SystemRoutingGetRouteDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemRoutingGetRouteDeviceListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName routeName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13500
      * @var string|null
      */
     private $routeName = null;

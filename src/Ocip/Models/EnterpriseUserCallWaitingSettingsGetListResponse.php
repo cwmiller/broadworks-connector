@@ -6,15 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseUserCallWaitingSettingsGetListResponse
  *
  * Response to the EnterpriseUserCallWaitingSettingsGetListRequest.
- *         Contains a table with column headings: "Group Id", "User Id", "Last
- * Name", "First Name", 
- *         "Hiragana Last Name", and "Hiragana First Name", "Phone Number",
- * "Extension", "Department", 
+ *         Contains a table with column headings: "Group Id", "User Id", "Last Name", "First Name", 
+ *         "Hiragana Last Name", and "Hiragana First Name", "Phone Number", "Extension", "Department", 
  *         "In Trunk Group", "Email Address", "Is Active".
  *         "Is Active" is "true" or "false".
  *         "Phone Number" is presented in the E164 format.
  *
  * @see EnterpriseUserCallWaitingSettingsGetListRequest
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1252","type":"sequence"}]
  */
 class EnterpriseUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +21,7 @@ class EnterpriseUserCallWaitingSettingsGetListResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName userCallWaitingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group b561eca19800e0898f471e5e91eb3baa:1252
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userCallWaitingTable = null;

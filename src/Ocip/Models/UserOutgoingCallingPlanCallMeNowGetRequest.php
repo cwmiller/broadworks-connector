@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanCallMeNowGetRequest
  *
  * Request the Call Me Now call permissions for a user.
- *         The response is either a UserOutgoingCallingPlanCallMeNowGetResponse or
- * an ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanCallMeNowGetResponse or an ErrorResponse.
  *
  * @see UserOutgoingCallingPlanCallMeNowGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1132","type":"sequence"}]
  */
 class UserOutgoingCallingPlanCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserOutgoingCallingPlanCallMeNowGetRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1132
      * @var string|null
      */
     private $userId = null;

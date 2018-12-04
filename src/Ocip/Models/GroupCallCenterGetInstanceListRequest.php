@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetInstanceListRequest
  *
  * Get a list of Call Center instances within a group.
- *         The response is either GroupCallCenterGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupCallCenterGetInstanceListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupCallCenterGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4012","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupCallCenterGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4012
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupCallCenterGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4012
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupCallCenterGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4012
      * @var string|null
      */
     private $groupDepartmentName = null;

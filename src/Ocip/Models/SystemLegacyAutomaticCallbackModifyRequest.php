@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"a7cf2420de189d76c278c486b4b2b0c3:137","type":"sequence"}]
  */
 class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName maxMonitorsPerOriginator
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $maxMonitorsPerOriginator = null;
@@ -24,6 +27,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName maxMonitorsPerTerminator
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $maxMonitorsPerTerminator = null;
@@ -31,6 +36,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName t2Minutes
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $t2Minutes = null;
@@ -38,6 +45,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName t4Seconds
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $t4Seconds = null;
@@ -45,6 +54,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName t5Seconds
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $t5Seconds = null;
@@ -52,6 +63,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName t6Minutes
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $t6Minutes = null;
@@ -59,6 +72,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName t7Minutes
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $t7Minutes = null;
@@ -66,6 +81,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName t8Seconds
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $t8Seconds = null;
@@ -73,6 +90,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName tRingSeconds
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $tRingSeconds = null;
@@ -80,6 +99,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName t10OMinutes
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $t10OMinutes = null;
@@ -87,6 +108,8 @@ class SystemLegacyAutomaticCallbackModifyRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName t10TMinutes
      * @Type int
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:137
      * @var int|null
      */
     private $t10TMinutes = null;

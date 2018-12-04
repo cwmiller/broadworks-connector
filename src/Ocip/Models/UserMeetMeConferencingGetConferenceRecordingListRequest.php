@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMeetMeConferencingGetConferenceRecordingListRequest
  *
  * Get the list of recordings of the conferences owned by the host.
- *         The response is either
- * UserMeetMeConferencingGetConferenceRecordingListResponse or ErrorResponse.
+ *         The response is either UserMeetMeConferencingGetConferenceRecordingListResponse or ErrorResponse.
  *
  * @see UserMeetMeConferencingGetConferenceRecordingListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:717","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceRecordingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserMeetMeConferencingGetConferenceRecordingListRequest extends \CWM\Broad
     /**
      * @ElementName userId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:717
      * @var string|null
      */
     private $userId = null;

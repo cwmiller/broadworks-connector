@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"6692e70a4ddc3776956b67ac9efa1c1a:188","type":"sequence"}]
  */
 class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:188
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:188
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,8 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:188
      * @var bool|null
      */
     private $isActive = null;
@@ -38,6 +43,8 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName emergencyZonesProhibition
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition
+     * @Optional
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:188
      * @var \CWM\BroadWorksConnector\Ocip\Models\EmergencyZonesProhibition|null
      */
     private $emergencyZonesProhibition = null;
@@ -45,6 +52,8 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName sendEmergencyCallNotifyEmail
      * @Type bool
+     * @Optional
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:188
      * @var bool|null
      */
     private $sendEmergencyCallNotifyEmail = null;
@@ -53,6 +62,8 @@ class GroupEmergencyZonesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName emergencyCallNotifyEmailAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:188
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $emergencyCallNotifyEmailAddress = null;

@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserIntegratedIMPGetResponse
  *
  * Response to the UserIntegratedIMPGetRequest.
- *         The response contains the Integrated IMP specific service attributes for
- * the user.
+ *         The response contains the Integrated IMP specific service attributes for the user.
  *
  * @see UserIntegratedIMPGetRequest
+ * @Groups [{"id":"8351e8f51540f77c264b2f9bdf7fada4:331","type":"sequence"}]
  */
 class UserIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class UserIntegratedIMPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:331
      * @var bool|null
      */
     private $isActive = null;

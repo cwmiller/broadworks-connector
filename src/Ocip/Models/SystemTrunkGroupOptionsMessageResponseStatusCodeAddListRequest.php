@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest
  *
- * Add a list of system level successful SIP OPTIONS message respoonse status
- * codes. 
+ * Add a list of system level successful SIP OPTIONS message respoonse status codes. 
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1634","type":"sequence"}]
  */
 class SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeAddListRequest extends \CW
      * @ElementName statusCode
      * @Type string
      * @Array
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1634
      * @var string[]
      */
     private $statusCode = array(

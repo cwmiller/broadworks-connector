@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterEnhancedReportingBrandingGetRequest
  *
  * Request to get the group branding information.
- *         The response is either
- * GroupCallCenterEnhancedReportingBrandingGetResponse or ErrorResponse.
+ *         The response is either GroupCallCenterEnhancedReportingBrandingGetResponse or ErrorResponse.
  *
  * @see GroupCallCenterEnhancedReportingBrandingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2934","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingBrandingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterEnhancedReportingBrandingGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2934
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallCenterEnhancedReportingBrandingGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2934
      * @var string|null
      */
     private $groupId = null;

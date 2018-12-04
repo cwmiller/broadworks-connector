@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupVoiceXmlAddInstanceRequest
  *
  * Add a VoiceXML instance to a group.
- *         The domain is required in the serviceUserId.  For a valid voiceXml
- * instance to work properly,
+ *         The domain is required in the serviceUserId.  For a valid voiceXml instance to work properly,
  *         a device with Static Registration is expected with a valid contact.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"75fc596c21103d0c2b08c717c36f4ff1:48","type":"sequence"}]
  */
 class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
      * @var string|null
      */
     private $serviceUserId = null;
@@ -41,6 +44,7 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -48,6 +52,8 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -55,6 +61,8 @@ class GroupVoiceXmlAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
+     * @Optional
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:48
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     private $accessDeviceEndpoint = null;

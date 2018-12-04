@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallParkGetInstanceListRequest.
  *
  * @see GroupCallParkGetInstanceListRequest
+ * @Groups [{"id":"06fc006748da1632379fc9603b619dca:186","type":"sequence"}]
  */
 class GroupCallParkGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class GroupCallParkGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip
      * @ElementName name
      * @Type string
      * @Array
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:186
      * @var string[]
      */
     private $name = array(

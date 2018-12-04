@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupBroadWorksAnywhereGetInstanceListRequest
  *
  * Get a list of BroadWorks Anywhere instances within a group.
- *         The response is either GroupBroadWorksAnywhereGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupBroadWorksAnywhereGetInstanceListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupBroadWorksAnywhereGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:103","type":"sequence"}]
  */
 class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:103
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:103
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupBroadWorksAnywhereGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:103
      * @var string|null
      */
     private $groupDepartmentName = null;

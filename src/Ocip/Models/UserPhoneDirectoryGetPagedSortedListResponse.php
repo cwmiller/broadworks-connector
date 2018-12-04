@@ -23,8 +23,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *   Service Name is currently supporting:
  *   AutoAttendant, AutoAttendantStandard, AutoAttendantVideo, CallCenter, 
  *   CallCenterStandard, CallCenterPremium, HuntGroup, InstantGroupCall, 
- *   VoiceMessagingGroup, RoutePoint, BroadWorksAnywhere, GroupPaging,
- * FindmeFollowme, 
+ *   VoiceMessagingGroup, RoutePoint, BroadWorksAnywhere, GroupPaging, FindmeFollowme, 
  *   VoiceXML, FlexibleSeatingGuest, CollaborateAudio, MeetMeConferencing.
  *   For a Regular User or a Virtual On Network Enterprise Extensions, the
  *   Service Name is empty.
@@ -35,6 +34,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *     "Service Name", "Receptionist Notes"
  *
  * @see UserPhoneDirectoryGetPagedSortedListRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2595","type":"sequence"}]
  */
 class UserPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -42,6 +42,7 @@ class UserPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName totalNumberOfRows
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:2595
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -49,6 +50,7 @@ class UserPhoneDirectoryGetPagedSortedListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:2595
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

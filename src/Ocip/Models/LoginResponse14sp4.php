@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see LoginRequest14sp4
  * @see LoginResponse22
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2277","type":"sequence"}]
  */
 class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2277
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
@@ -25,6 +27,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName locale
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2277
      * @var string|null
      */
     private $locale = null;
@@ -32,6 +35,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName encoding
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2277
      * @var string|null
      */
     private $encoding = null;
@@ -39,6 +43,8 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName groupId
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2277
      * @var string|null
      */
     private $groupId = null;
@@ -46,6 +52,8 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2277
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -53,6 +61,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName isEnterprise
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2277
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -60,6 +69,8 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName passwordExpiresDays
      * @Type int
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2277
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -67,6 +78,7 @@ class LoginResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName userDomain
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2277
      * @var string|null
      */
     private $userDomain = null;

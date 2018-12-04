@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetResponse14sp7
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:8379","type":"sequence"}]
  */
 class GroupGetRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupGetRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8379
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupGetRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReq
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8379
      * @var string|null
      */
     private $groupId = null;

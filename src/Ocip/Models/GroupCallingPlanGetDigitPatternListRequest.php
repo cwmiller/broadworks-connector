@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallingPlanGetDigitPatternListRequest
  *
  * Get the list of calling plan digit strings for a group.
- *         The response is either a GroupCallingPlanGetDigitPatternListResponse or
- * an ErrorResponse.
+ *         The response is either a GroupCallingPlanGetDigitPatternListResponse or an ErrorResponse.
  *
  * @see GroupCallingPlanGetDigitPatternListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8c19d38547fd912f1c58e12fecf951e2:80","type":"sequence"}]
  */
 class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8c19d38547fd912f1c58e12fecf951e2:80
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallingPlanGetDigitPatternListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8c19d38547fd912f1c58e12fecf951e2:80
      * @var string|null
      */
     private $groupId = null;

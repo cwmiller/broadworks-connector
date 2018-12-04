@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7061","type":"sequence"}]
  */
 class SystemDeviceProfileAuthenticationLockoutClearRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class SystemDeviceProfileAuthenticationLockoutClearRequest extends \CWM\BroadWor
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7061
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceKey[]
      */
     private $accessDevice = array(

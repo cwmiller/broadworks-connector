@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the settings that apply to the whole group for Call Park.
  *
  * @see GroupCallParkGetRequest16sp2
+ * @Groups [{"id":"06fc006748da1632379fc9603b619dca:257","type":"sequence"}]
  */
 class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName recallTimerSeconds
      * @Type int
+     * @Group 06fc006748da1632379fc9603b619dca:257
      * @var int|null
      */
     private $recallTimerSeconds = null;
@@ -23,6 +25,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName displayTimerSeconds
      * @Type int
+     * @Group 06fc006748da1632379fc9603b619dca:257
      * @var int|null
      */
     private $displayTimerSeconds = null;
@@ -30,6 +33,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enableDestinationAnnouncement
      * @Type bool
+     * @Group 06fc006748da1632379fc9603b619dca:257
      * @var bool|null
      */
     private $enableDestinationAnnouncement = null;
@@ -37,6 +41,8 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName recallAlternateUserId
      * @Type string
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:257
      * @var string|null
      */
     private $recallAlternateUserId = null;
@@ -44,6 +50,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName recallRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
+     * @Group 06fc006748da1632379fc9603b619dca:257
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $recallRingPattern = null;
@@ -51,6 +58,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName recallTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
+     * @Group 06fc006748da1632379fc9603b619dca:257
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;
@@ -58,6 +66,7 @@ class GroupCallParkGetResponse16sp2 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName alternateUserRecallTimerSeconds
      * @Type int
+     * @Group 06fc006748da1632379fc9603b619dca:257
      * @var int|null
      */
     private $alternateUserRecallTimerSeconds = null;

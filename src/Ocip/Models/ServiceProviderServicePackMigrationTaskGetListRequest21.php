@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackMigrationTaskGetListRequest21
  *
  * Requests a list of all service pack migration tasks for a service provider.
- *         The response is either
- * ServiceProviderServicePackMigrationTaskGetListResponse21
+ *         The response is either ServiceProviderServicePackMigrationTaskGetListResponse21
  *         or ErrorResponse.
  *
  * @see ServiceProviderServicePackMigrationTaskGetListResponse21
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5319","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskGetListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class ServiceProviderServicePackMigrationTaskGetListRequest21 extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5319
      * @var string|null
      */
     private $serviceProviderId = null;

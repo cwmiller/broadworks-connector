@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAlternateUserIdGetListResponse
  *
  * Response to UserAlternateUserIdGetListRequest.
- *         Contains a table of the main user id and the alternate user ids, the
- * column headings are: "User Id", "Description", "Alternate".
+ *         Contains a table of the main user id and the alternate user ids, the column headings are: "User Id", "Description", "Alternate".
  *         The possible values for "Alternate" are "true" and "false".
  *         The "Description" is only present for alternate user Ids.
  *
  * @see UserAlternateUserIdGetListRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:371","type":"sequence"}]
  */
 class UserAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class UserAlternateUserIdGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userIdTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:371
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userIdTable = null;

@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetRequest
  *
  * Request the redirecting permissions for Pinhole digit patterns for a user.
- *         The response is either a
- * UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetResponse or an ErrorResponse.
  *
  * @see UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1482","type":"sequence"}]
  */
 class UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class UserOutgoingCallingPlanPinholeDigitPlanRedirectingGetRequest extends \CWM\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1482
      * @var string|null
      */
     private $userId = null;

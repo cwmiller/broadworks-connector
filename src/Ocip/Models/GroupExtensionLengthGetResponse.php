@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupExtensionLengthGetRequest.
  *
  * @see GroupExtensionLengthGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:8127","type":"sequence"}]
  */
 class GroupExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupExtensionLengthGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName extensionLength
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8127
      * @var int|null
      */
     private $extensionLength = null;

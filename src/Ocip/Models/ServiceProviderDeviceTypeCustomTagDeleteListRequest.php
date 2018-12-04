@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDeviceTypeCustomTagDeleteListRequest
  *
- * Request to delete static configuration tags for an access device type used in a
- * service provider.
+ * Request to delete static configuration tags for an access device type used in a service provider.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2436","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2436
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWork
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2436
      * @var string|null
      */
     private $deviceType = null;
@@ -33,6 +35,7 @@ class ServiceProviderDeviceTypeCustomTagDeleteListRequest extends \CWM\BroadWork
      * @ElementName tagName
      * @Type string
      * @Array
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2436
      * @var string[]
      */
     private $tagName = array(

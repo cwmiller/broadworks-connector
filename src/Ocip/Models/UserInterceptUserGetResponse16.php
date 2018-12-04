@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserInterceptUserGetRequest16
  * @see UserInterceptUserGetResponse16sp1
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36182","type":"sequence"}]
  */
 class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var bool|null
      */
     private $isActive = null;
@@ -24,6 +26,7 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -31,6 +34,8 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName audioFileDescription
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -38,6 +43,8 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -45,6 +52,8 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName videoFileDescription
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -52,6 +61,8 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -59,6 +70,7 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName playNewPhoneNumber
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var bool|null
      */
     private $playNewPhoneNumber = null;
@@ -66,6 +78,8 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName newPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var string|null
      */
     private $newPhoneNumber = null;
@@ -73,6 +87,7 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
@@ -80,6 +95,8 @@ class UserInterceptUserGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName transferPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36182
      * @var string|null
      */
     private $transferPhoneNumber = null;

@@ -7,28 +7,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to delete a user.
  *         
- *         If deleteExistingDevices is set to true, after the user is deleted, any
- * device that is only used by the deleted user prior to the deletion will be
- * deleted if the command is executed with the correct priviledge.
- *          Group administrator or above running this command can delete any group
- * level devices. Service provider administrator or above can delete any service
- * provider and group devices. Provisioning administrator or above can delete any
- * devices. 
- *          An ErrorResponse will be returned if any device cannot be deleted
- * because of insufficient privilege.
+ *         If deleteExistingDevices is set to true, after the user is deleted, any device that is only used by the deleted user prior to the deletion will be deleted if the command is executed with the correct priviledge.
+ *          Group administrator or above running this command can delete any group level devices. Service provider administrator or above can delete any service provider and group devices. Provisioning administrator or above can delete any devices. 
+ *          An ErrorResponse will be returned if any device cannot be deleted because of insufficient privilege.
  *
- *          If UnassignPhoneNumbersLevel is set to 'Group', the user's primary
- * phone number, fax number and any alternate numbers, will be un-assigned from the
- * group if the command is executed by a service provider administrator or above.
- *           When set to 'Service Provider', they will be un-assigned from the
- * group and service provider if the command is executed by a provisioning
- * administrator or above.
+ *          If UnassignPhoneNumbersLevel is set to 'Group', the user's primary phone number, fax number and any alternate numbers, will be un-assigned from the group if the command is executed by a service provider administrator or above.
+ *           When set to 'Service Provider', they will be un-assigned from the group and service provider if the command is executed by a provisioning administrator or above.
  *           When omitted, the number(s) will be left assigned to the group.
- *          An ErrorResponse will be returned if any number cannot be unassigned
- * because of insufficient privilege.
+ *          An ErrorResponse will be returned if any number cannot be unassigned because of insufficient privilege.
  *
  * @see ErrorResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1183","type":"sequence"}]
  */
 class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -36,6 +26,7 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:1183
      * @var string|null
      */
     private $userId = null;
@@ -43,6 +34,8 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deleteExistingDevices
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1183
      * @var bool|null
      */
     private $deleteExistingDevices = null;
@@ -50,6 +43,8 @@ class UserConsolidatedDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName unassignPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1183
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;

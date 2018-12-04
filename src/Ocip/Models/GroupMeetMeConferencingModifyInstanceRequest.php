@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:286","type":"sequence"}]
  */
 class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var string|null
      */
     private $serviceUserId = null;
@@ -24,6 +26,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -31,6 +35,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName allocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;
@@ -38,6 +44,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -45,6 +53,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName securityPinLength
      * @Type int
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var int|null
      */
     private $securityPinLength = null;
@@ -52,6 +62,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowIndividualOutDial
      * @Type bool
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var bool|null
      */
     private $allowIndividualOutDial = null;
@@ -60,6 +72,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @ElementName operatorNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $operatorNumber = null;
@@ -68,6 +82,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
      * @ElementName conferenceHostUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $conferenceHostUserIdList = null;
@@ -75,6 +91,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName playWarningPrompt
      * @Type bool
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var bool|null
      */
     private $playWarningPrompt = null;
@@ -82,6 +100,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName conferenceEndWarningPromptMinutes
      * @Type int
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var int|null
      */
     private $conferenceEndWarningPromptMinutes = null;
@@ -89,6 +109,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName enableMaxConferenceDuration
      * @Type bool
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var bool|null
      */
     private $enableMaxConferenceDuration = null;
@@ -96,6 +118,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName maxConferenceDurationMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
     private $maxConferenceDurationMinutes = null;
@@ -103,6 +127,8 @@ class GroupMeetMeConferencingModifyInstanceRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName maxScheduledConferenceDurationMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:286
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
     private $maxScheduledConferenceDurationMinutes = null;

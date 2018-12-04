@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilotExpressSRNoAnswerModify
  *
  * CommPilot Express SR No Answer Settings used in the context of a modify.
+ *
+ * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:147","type":"sequence"}]
  */
 class CommPilotExpressSRNoAnswerModify
 {
@@ -13,6 +15,8 @@ class CommPilotExpressSRNoAnswerModify
     /**
      * @ElementName ringFowardNumbers
      * @Type bool
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:147
      * @var bool|null
      */
     private $ringFowardNumbers = null;
@@ -21,6 +25,8 @@ class CommPilotExpressSRNoAnswerModify
      * @ElementName forwardingNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList
      * @Nillable
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionWithRingList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardingNumberList = null;
@@ -28,6 +34,8 @@ class CommPilotExpressSRNoAnswerModify
     /**
      * @ElementName stillNoAnswer
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionModify
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:147
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirectionModify|null
      */
     private $stillNoAnswer = null;

@@ -5,13 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
  *
- * Response to the
- * ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest.
- *         The response contains a table of all Profiles that use the specific
- * Digit Pattern Criteria. The column headings are "Name" and "Description"
+ * Response to the ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest.
+ *         The response contains a table of all Profiles that use the specific Digit Pattern Criteria. The column headings are "Name" and "Description"
  *
- * @see
- * ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest
+ * @see ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1854","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +17,7 @@ class ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageList
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1854
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profileTable = null;

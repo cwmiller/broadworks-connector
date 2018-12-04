@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:4526","type":"sequence"}]
  */
 class SystemCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName countryCode
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:4526
      * @var string|null
      */
     private $countryCode = null;
@@ -24,6 +26,7 @@ class SystemCallTypeDeleteMappingRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName digitMap
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:4526
      * @var string|null
      */
     private $digitMap = null;

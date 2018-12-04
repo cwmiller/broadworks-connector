@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserCallNotifyGetCriteriaRequest.
  *
  * @see UserCallNotifyGetCriteriaRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:33108","type":"sequence"}]
  */
 class UserCallNotifyGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class UserCallNotifyGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33108
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -22,6 +25,7 @@ class UserCallNotifyGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
+     * @Group 1a79c7896cb04feac6eff47a5321756e:33108
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

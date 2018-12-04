@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5062","type":"sequence"}]
  */
 class ServiceProviderServicePackDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderServicePackDeleteRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5062
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class ServiceProviderServicePackDeleteRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName servicePackName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5062
      * @var string|null
      */
     private $servicePackName = null;

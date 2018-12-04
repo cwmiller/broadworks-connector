@@ -7,13 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupEndpointGetListRequest.
  *         The column headings for the endpointTable are: 
- *           "Line/Port", "Last Name", "First Name",  "User Id", "User Type",
- * "Phone Number", "Extension", "Device Type", "Device Name", "Net Address", "MAC
- * Address", "Department", "Email Address".
- *           Possible values for User Type are "User", "CCBasic", "CCStandard",
- * "CCPremium", "RP", "MOH", "MOHVideo".
+ *           "Line/Port", "Last Name", "First Name",  "User Id", "User Type", "Phone Number", "Extension", "Device Type", "Device Name", "Net Address", "MAC Address", "Department", "Email Address".
+ *           Possible values for User Type are "User", "CCBasic", "CCStandard", "CCPremium", "RP", "MOH", "MOHVideo".
  *
  * @see GroupEndpointGetListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4499","type":"sequence"}]
  */
 class GroupEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +19,7 @@ class GroupEndpointGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName endpointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4499
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $endpointTable = null;

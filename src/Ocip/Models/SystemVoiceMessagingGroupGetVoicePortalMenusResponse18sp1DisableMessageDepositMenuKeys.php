@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1DisableMessageDepositMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:30359","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1DisableMessageDepositMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1DisableMessageDep
     /**
      * @ElementName disconnectAfterGreeting
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30359
      * @var string|null
      */
     private $disconnectAfterGreeting = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1DisableMessageDep
     /**
      * @ElementName forwardAfterGreeting
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30359
      * @var string|null
      */
     private $forwardAfterGreeting = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1DisableMessageDep
     /**
      * @ElementName changeForwardingDestination
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30359
      * @var string|null
      */
     private $changeForwardingDestination = null;
@@ -32,6 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1DisableMessageDep
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30359
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -39,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18sp1DisableMessageDep
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30359
      * @var string|null
      */
     private $repeatMenu = null;

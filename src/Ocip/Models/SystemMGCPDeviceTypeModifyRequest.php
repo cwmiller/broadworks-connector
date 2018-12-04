@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemMGCPDeviceTypeModifyRequest
  *
- * Request to modify a mgcp device type. In release 14, this is limited to changing
- * the obsolete flag.
+ * Request to modify a mgcp device type. In release 14, this is limited to changing the obsolete flag.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10573","type":"sequence"}]
  */
 class SystemMGCPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemMGCPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10573
      * @var string|null
      */
     private $deviceType = null;
@@ -25,6 +26,8 @@ class SystemMGCPDeviceTypeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName isObsolete
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10573
      * @var bool|null
      */
     private $isObsolete = null;

@@ -5,24 +5,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest
  *
- * Get the list of all Agents in the Group that can be assigned to a given Call
- * Center Agent Threshold Profile in a Group.
- *         An agent is available to be assigned to a given Agent Threshold Profile
- * if it is a Call Center Standard or Call Center Premium agent
+ * Get the list of all Agents in the Group that can be assigned to a given Call Center Agent Threshold Profile in a Group.
+ *         An agent is available to be assigned to a given Agent Threshold Profile if it is a Call Center Standard or Call Center Premium agent
  *         and the agent is not yet assigned to the profile.
- *         The available agent list for a new Call Center Agent Threshold profile
- * can be obtained by not setting the excludeAgentsAssignedToProfileName.
- *         When the excludeAgentsAssignedToProfileName is specified, all agents
- * already assigned to the specified profile are not included in the response, even
- * if the search
- *         criterion element searchCriteriaAgentThresholdProfile is specified using
- * the same profile name.
- *         The response is either a
- * GroupCallCenterAgentThresholdProfileGetAvailableAgentListResponse or an
- * ErrorResponse.
+ *         The available agent list for a new Call Center Agent Threshold profile can be obtained by not setting the excludeAgentsAssignedToProfileName.
+ *         When the excludeAgentsAssignedToProfileName is specified, all agents already assigned to the specified profile are not included in the response, even if the search
+ *         criterion element searchCriteriaAgentThresholdProfile is specified using the same profile name.
+ *         The response is either a GroupCallCenterAgentThresholdProfileGetAvailableAgentListResponse or an ErrorResponse.
  *
  * @see GroupCallCenterAgentThresholdProfileGetAvailableAgentListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2042","type":"sequence"}]
  */
 class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -30,6 +23,7 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -37,6 +31,7 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var string|null
      */
     private $groupId = null;
@@ -44,6 +39,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
     /**
      * @ElementName excludeAgentsAssignedToProfileName
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var string|null
      */
     private $excludeAgentsAssignedToProfileName = null;
@@ -51,6 +48,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -59,6 +58,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -69,6 +70,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -78,6 +81,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -86,6 +91,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -96,6 +103,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -106,6 +115,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -116,6 +127,8 @@ class GroupCallCenterAgentThresholdProfileGetAvailableAgentListRequest extends \
      * @ElementName searchCriteriaAgentThresholdProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAgentThresholdProfile
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2042
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAgentThresholdProfile[]
      */
     private $searchCriteriaAgentThresholdProfile = array(

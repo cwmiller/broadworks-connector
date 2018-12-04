@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"22021b993135fadb1ded1619493a5a0c:48","type":"sequence"}]
  */
 class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName category
      * @Type string
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var string|null
      */
     private $category = null;
@@ -24,6 +26,8 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName cpcValue
      * @Type string
+     * @Optional
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var string|null
      */
     private $cpcValue = null;
@@ -31,6 +35,8 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName isupOliValue
      * @Type int
+     * @Optional
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var int|null
      */
     private $isupOliValue = null;
@@ -38,6 +44,8 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName gtdOliValue
      * @Type string
+     * @Optional
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var string|null
      */
     private $gtdOliValue = null;
@@ -45,6 +53,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userCategory
      * @Type bool
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var bool|null
      */
     private $userCategory = null;
@@ -52,6 +61,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName payPhone
      * @Type bool
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var bool|null
      */
     private $payPhone = null;
@@ -59,6 +69,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName operator
      * @Type bool
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var bool|null
      */
     private $operator = null;
@@ -66,6 +77,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName default
      * @Type bool
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var bool|null
      */
     private $default = null;
@@ -73,6 +85,7 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName collectCall
      * @Type bool
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var bool|null
      */
     private $collectCall = null;
@@ -80,6 +93,8 @@ class SystemCallingPartyCategoryAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName webDisplayKey
      * @Type string
+     * @Optional
+     * @Group 22021b993135fadb1ded1619493a5a0c:48
      * @var string|null
      */
     private $webDisplayKey = null;

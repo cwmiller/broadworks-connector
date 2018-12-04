@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceGetEnhancedConfigurationTypeRequest14
  *
  * Requests the details of a specified configurable device type for a group.
- *         The response is either
- * GroupAccessDeviceGetEnhancedConfigurationTypeResponse14
+ *         The response is either GroupAccessDeviceGetEnhancedConfigurationTypeResponse14
  *         or ErrorResponse.
  *
  * @see GroupAccessDeviceGetEnhancedConfigurationTypeResponse14
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:630","type":"sequence"}]
  */
 class GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:630
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 extends \CWM\BroadW
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:630
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeRequest14 extends \CWM\BroadW
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:630
      * @var string|null
      */
     private $deviceType = null;

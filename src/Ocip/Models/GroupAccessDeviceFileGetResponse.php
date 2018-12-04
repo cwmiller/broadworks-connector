@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAccessDeviceFileGetRequest
  * @see GroupAccessDeviceFileGetResponse14sp8
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1891","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class GroupAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1891
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -24,6 +26,8 @@ class GroupAccessDeviceFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName configurationFileName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1891
      * @var string|null
      */
     private $configurationFileName = null;

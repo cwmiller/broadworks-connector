@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"4ee063914ac10ed9a7e410797bb131c4:250","type":"sequence"}]
  */
 class UserCustomRingbackUserModifyActiveCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserCustomRingbackUserModifyActiveCriteriaListRequest extends \CWM\BroadWo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 4ee063914ac10ed9a7e410797bb131c4:250
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserCustomRingbackUserModifyActiveCriteriaListRequest extends \CWM\BroadWo
      * @ElementName criteriaActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
+     * @Optional
+     * @Group 4ee063914ac10ed9a7e410797bb131c4:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(

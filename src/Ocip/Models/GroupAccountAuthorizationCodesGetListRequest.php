@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccountAuthorizationCodesGetListRequest
  *
  * Request the list of account/authorization codes for a group.
- *         The response is either a GroupAccountAuthorizationCodesGetListResponse
- * or an ErrorResponse.
+ *         The response is either a GroupAccountAuthorizationCodesGetListResponse or an ErrorResponse.
  *
  * @see GroupAccountAuthorizationCodesGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ab77d49abc146ee44a9626534896ad51:125","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupAccountAuthorizationCodesGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group ab77d49abc146ee44a9626534896ad51:125
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupAccountAuthorizationCodesGetListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
+     * @Group ab77d49abc146ee44a9626534896ad51:125
      * @var string|null
      */
     private $groupId = null;

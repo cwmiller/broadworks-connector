@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterCallDispositionCodeGetRequest
  *
  * Get a Call Center Call Disposition Code.
- *         The response is either
- * EnterpriseCallCenterCallDispositionCodeGetResponse or ErrorResponse.
+ *         The response is either EnterpriseCallCenterCallDispositionCodeGetResponse or ErrorResponse.
  *
  * @see EnterpriseCallCenterCallDispositionCodeGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:840","type":"sequence"}]
  */
 class EnterpriseCallCenterCallDispositionCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class EnterpriseCallCenterCallDispositionCodeGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:840
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class EnterpriseCallCenterCallDispositionCodeGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName code
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:840
      * @var string|null
      */
     private $code = null;

@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallPickupGetInstanceListRequest.
  *
  * @see GroupCallPickupGetInstanceListRequest
+ * @Groups [{"id":"1d2c67d4a97adca57d9953b2182b4b0d:144","type":"sequence"}]
  */
 class GroupCallPickupGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class GroupCallPickupGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
      * @ElementName name
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:144
      * @var string[]
      */
     private $name = array(

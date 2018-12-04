@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderSessionAdmissionControlWhiteListGetRequest
  *
  * Request to get the Service Provider Session Admission White List information.
- *         The response is either a
- * ServiceProviderSessionAdmissionControlWhiteListGetResponse or an ErrorResponse.
+ *         The response is either a ServiceProviderSessionAdmissionControlWhiteListGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderSessionAdmissionControlWhiteListGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5666","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlWhiteListGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderSessionAdmissionControlWhiteListGetRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5666
      * @var string|null
      */
     private $serviceProviderId = null;

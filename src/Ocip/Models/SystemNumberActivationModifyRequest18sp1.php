@@ -5,17 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemNumberActivationModifyRequest18sp1
  *
- * Request to modify system number activation and enterprise trunk number range
- * activation setting.
+ * Request to modify system number activation and enterprise trunk number range activation setting.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  *         The following element values are only applicable in AS data mode:
  *           enableEnterpriseTrunkNumberRangeActivation
- *           numberActivationMode = Group And User Activation Enabled will raise an
- * error in XS data mode.
+ *           numberActivationMode = Group And User Activation Enabled will raise an error in XS data mode.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11269","type":"sequence"}]
  */
 class SystemNumberActivationModifyRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +22,8 @@ class SystemNumberActivationModifyRequest18sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName numberActivationMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11269
      * @var \CWM\BroadWorksConnector\Ocip\Models\NumberActivationMode|null
      */
     private $numberActivationMode = null;
@@ -30,6 +31,8 @@ class SystemNumberActivationModifyRequest18sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableEnterpriseTrunkNumberRangeActivation
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11269
      * @var bool|null
      */
     private $enableEnterpriseTrunkNumberRangeActivation = null;

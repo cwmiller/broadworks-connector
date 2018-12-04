@@ -11,12 +11,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         for subsequent assignments it is optional.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
- *         Replaced By : ServiceProviderNetworkClassOfServiceAssignListRequest21 in
- * AS data mode
+ *         Replaced By : ServiceProviderNetworkClassOfServiceAssignListRequest21 in AS data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderNetworkClassOfServiceAssignListRequest21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2833","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +24,7 @@ class ServiceProviderNetworkClassOfServiceAssignListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2833
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,6 +33,8 @@ class ServiceProviderNetworkClassOfServiceAssignListRequest extends \CWM\BroadWo
      * @ElementName networkClassOfService
      * @Type string
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2833
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -41,6 +44,8 @@ class ServiceProviderNetworkClassOfServiceAssignListRequest extends \CWM\BroadWo
     /**
      * @ElementName defaultNetworkClassOfService
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2833
      * @var string|null
      */
     private $defaultNetworkClassOfService = null;

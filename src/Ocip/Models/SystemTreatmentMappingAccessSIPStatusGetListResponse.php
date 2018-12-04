@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemTreatmentMappingAccessSIPStatusGetListResponse
  *
- * Response to a SystemTreatmentMappingAccessSIPStatusGetListRequest. Contains a
- * table with one row per mapping.
+ * Response to a SystemTreatmentMappingAccessSIPStatusGetListRequest. Contains a table with one row per mapping.
  *         The table columns are: "SIP Status Code", "Treatment Id".
  *
  * @see SystemTreatmentMappingAccessSIPStatusGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:16437","type":"sequence"}]
  */
 class SystemTreatmentMappingAccessSIPStatusGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemTreatmentMappingAccessSIPStatusGetListResponse extends \CWM\BroadWor
     /**
      * @ElementName treatmentMappingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16437
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $treatmentMappingTable = null;

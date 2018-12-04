@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TimeInterval
  *
  * Time Interval.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:39568","type":"sequence"}]
  */
 class TimeInterval
 {
@@ -13,6 +15,7 @@ class TimeInterval
     /**
      * @ElementName startDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39568
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $startDayOfWeek = null;
@@ -20,6 +23,7 @@ class TimeInterval
     /**
      * @ElementName startHour
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39568
      * @var int|null
      */
     private $startHour = null;
@@ -27,6 +31,7 @@ class TimeInterval
     /**
      * @ElementName startMinute
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39568
      * @var int|null
      */
     private $startMinute = null;
@@ -34,6 +39,7 @@ class TimeInterval
     /**
      * @ElementName endDayOfWeek
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39568
      * @var \CWM\BroadWorksConnector\Ocip\Models\DayOfWeek|null
      */
     private $endDayOfWeek = null;
@@ -41,6 +47,7 @@ class TimeInterval
     /**
      * @ElementName endHour
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39568
      * @var int|null
      */
     private $endHour = null;
@@ -48,6 +55,7 @@ class TimeInterval
     /**
      * @ElementName endMinute
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39568
      * @var int|null
      */
     private $endMinute = null;

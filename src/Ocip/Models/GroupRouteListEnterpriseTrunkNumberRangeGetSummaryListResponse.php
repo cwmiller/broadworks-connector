@@ -6,20 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse
  *
  * Response to GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest.
- *         The response contains a table with columns: "Number Range Start",
- * "Number Range End", "User Id", 
- *         "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
- * "Phone Number", "Extension",  
+ *         The response contains a table with columns: "Number Range Start", "Number Range End", "User Id", 
+ *         "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number", "Extension",  
  *         "Department", "Email Address", "Enterprise Trunk" and "Is Active".
- *         The "User Id", "Last Name", "First Name", "Hiragana Last Name",
- * "Hiragana First Name", "Phone Number",  
- *         "Extension", "Department" and "Email Address" columns contains the
- * corresponding attributes of the user possessing the number range. 
- *         The "Enterprise Trunk" column contains the enterprise trunk the user
- * possessing the number range belongs to. 
+ *         The "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number",  
+ *         "Extension", "Department" and "Email Address" columns contains the corresponding attributes of the user possessing the number range. 
+ *         The "Enterprise Trunk" column contains the enterprise trunk the user possessing the number range belongs to. 
  *         The "Is Active" column indicates if the number range has been activated.
  *
  * @see GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListRequest
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:397","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,6 +23,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeGetSummaryListResponse extends \CW
     /**
      * @ElementName numberRangeSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:397
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $numberRangeSummaryTable = null;

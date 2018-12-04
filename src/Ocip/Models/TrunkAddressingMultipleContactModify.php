@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Trunk group endpoint that can have multiple contacts. 
  *         alternateTrunkIdentityDomainName is only used in XS mode.
- *         Setting alternateTrunkIdentity or alternateTrunkIdentityDomain to nil in
- * XS mode, the other one paremter should be set to nil at the same time.
- *         The following elements are only used in AS data mode and are ignored in
- * XS data mode:        
+ *         Setting alternateTrunkIdentity or alternateTrunkIdentityDomain to nil in XS mode, the other one paremter should be set to nil at the same time.
+ *         The following elements are only used in AS data mode and are ignored in XS data mode:        
  *          physicalLocation
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3690","type":"sequence"}]
  */
 class TrunkAddressingMultipleContactModify
 {
@@ -20,6 +20,8 @@ class TrunkAddressingMultipleContactModify
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -28,6 +30,8 @@ class TrunkAddressingMultipleContactModify
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enterpriseTrunkName = null;
@@ -36,6 +40,8 @@ class TrunkAddressingMultipleContactModify
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentity = null;
@@ -44,6 +50,8 @@ class TrunkAddressingMultipleContactModify
      * @ElementName alternateTrunkIdentityDomain
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentityDomain = null;
@@ -52,6 +60,8 @@ class TrunkAddressingMultipleContactModify
      * @ElementName physicalLocation
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3690
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $physicalLocation = null;

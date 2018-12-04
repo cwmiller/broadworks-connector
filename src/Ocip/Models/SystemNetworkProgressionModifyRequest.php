@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10982","type":"sequence"}]
  */
 class SystemNetworkProgressionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemNetworkProgressionModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10982
      * @var bool|null
      */
     private $isActive = null;
@@ -24,6 +27,8 @@ class SystemNetworkProgressionModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName waitPeriodSeconds
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10982
      * @var int|null
      */
     private $waitPeriodSeconds = null;

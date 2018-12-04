@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMeetMeConferencingGetBridgeListRequest
  *
  * Get the list of Meet-Me Conferencing bridges for which the user is a host.
- *         The response is either UserMeetMeConferencingGetBridgeListResponse or
- * ErrorResponse.
+ *         The response is either UserMeetMeConferencingGetBridgeListResponse or ErrorResponse.
  *
  * @see UserMeetMeConferencingGetBridgeListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:580","type":"sequence"}]
  */
 class UserMeetMeConferencingGetBridgeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserMeetMeConferencingGetBridgeListRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:580
      * @var string|null
      */
     private $userId = null;

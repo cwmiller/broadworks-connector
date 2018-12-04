@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:37161","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyDeletePhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserSimultaneousRingFamilyDeletePhoneNumberRequest extends \CWM\BroadWorks
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37161
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,7 @@ class UserSimultaneousRingFamilyDeletePhoneNumberRequest extends \CWM\BroadWorks
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37161
      * @var string|null
      */
     private $phoneNumber = null;

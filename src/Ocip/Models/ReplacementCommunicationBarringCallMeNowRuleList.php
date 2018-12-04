@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of Communication Barring CallMeNow Rules that replaces a
  *         previously configured list. By convention, an element of this type
  *         may be set nill to clear the list.
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17454","type":"sequence"}]
  */
 class ReplacementCommunicationBarringCallMeNowRuleList
 {
@@ -16,6 +18,7 @@ class ReplacementCommunicationBarringCallMeNowRuleList
      * @ElementName rule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowRule
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17454
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowRule[]
      */
     private $rule = array(

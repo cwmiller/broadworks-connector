@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFileRepositoryDeviceUserGetListRequest
  *
  * Request the list of group users for a file repository in the system.
- *         The response is either a GroupFileRepositoryDeviceUserGetListResponse or
- * an ErrorResponse.
+ *         The response is either a GroupFileRepositoryDeviceUserGetListResponse or an ErrorResponse.
  *
  * @see GroupFileRepositoryDeviceUserGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4779","type":"sequence"}]
  */
 class GroupFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4779
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4779
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName fileRepositoryName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4779
      * @var string|null
      */
     private $fileRepositoryName = null;

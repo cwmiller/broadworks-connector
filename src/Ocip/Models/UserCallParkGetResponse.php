@@ -6,14 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallParkGetResponse
  *
  * Response to the UserCallParkGetRequest.
- *         Identifies which Call Park group the user belongs to and the list of
- * users in the group.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", 
- *         "Hiragana First Name".  The users are in the table in the order they
- * will try to be parked on.
+ *         Identifies which Call Park group the user belongs to and the list of users in the group.
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", 
+ *         "Hiragana First Name".  The users are in the table in the order they will try to be parked on.
  *
  * @see UserCallParkGetRequest
+ * @Groups [{"id":"06fc006748da1632379fc9603b619dca:344","type":"sequence"}]
  */
 class UserCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +19,8 @@ class UserCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName name
      * @Type string
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:344
      * @var string|null
      */
     private $name = null;
@@ -28,6 +28,7 @@ class UserCallParkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 06fc006748da1632379fc9603b619dca:344
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

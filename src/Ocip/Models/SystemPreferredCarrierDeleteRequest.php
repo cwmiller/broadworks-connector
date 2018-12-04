@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Delete a carrier from the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         An ErrorResponse is returned if the carrier is in use, or if the carrier
- * didn't exist prior to deletion..
+ *         An ErrorResponse is returned if the carrier is in use, or if the carrier didn't exist prior to deletion..
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:342","type":"sequence"}]
  */
 class SystemPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class SystemPreferredCarrierDeleteRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName carrier
      * @Type string
+     * @Group 1384777ce7bd407156102bad44751987:342
      * @var string|null
      */
     private $carrier = null;

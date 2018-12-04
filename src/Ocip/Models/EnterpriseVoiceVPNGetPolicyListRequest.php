@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseVoiceVPNGetPolicyListRequest
  *
  * Request the list of Voice VPN locations.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a EnterpriseVoiceVPNGetPolicyListResponse or an
- * ErrorResponse.
+ *         The response is either a EnterpriseVoiceVPNGetPolicyListResponse or an ErrorResponse.
  *
  * @see EnterpriseVoiceVPNGetPolicyListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1405","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1405
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,8 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1405
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -36,6 +38,8 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName searchCriteriaGroupLocationCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1405
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     private $searchCriteriaGroupLocationCode = array(
@@ -45,6 +49,8 @@ class EnterpriseVoiceVPNGetPolicyListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName searchCriteriaExactPolicySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1405
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactPolicySelection|null
      */
     private $searchCriteriaExactPolicySelection = null;

@@ -8,8 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the user's Shared Call Appearance service setting.
  *          The response is either a SuccessResponse or an ErrorResponse.
  *          
- *          The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *          The following elements are only used in XS data mode and ignored in AS data mode:
  *            useUserPrimaryWithAlternateCallsSetting
  *            allowSimultaneousPrimaryAndAlternate
  *            restrictCallRetrieveOfPrimary
@@ -17,6 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"aed5e8b28baf936d317b8fc1c8b5e92f:190","type":"sequence"}]
  */
 class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +24,7 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +32,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName alertAllAppearancesForClickToDialCalls
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $alertAllAppearancesForClickToDialCalls = null;
@@ -38,6 +41,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName alertAllAppearancesForGroupPagingCalls
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $alertAllAppearancesForGroupPagingCalls = null;
@@ -45,6 +50,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName allowSCACallRetrieve
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $allowSCACallRetrieve = null;
@@ -52,6 +59,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName multipleCallArrangementIsActive
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $multipleCallArrangementIsActive = null;
@@ -59,6 +68,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName allowBridgingBetweenLocations
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $allowBridgingBetweenLocations = null;
@@ -66,6 +77,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName bridgeWarningTone
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     private $bridgeWarningTone = null;
@@ -73,6 +86,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $enableCallParkNotification = null;
@@ -80,6 +95,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useUserPrimaryWithAlternateCallsSetting
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $useUserPrimaryWithAlternateCallsSetting = null;
@@ -87,6 +104,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName allowSimultaneousPrimaryAndAlternateCalls
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $allowSimultaneousPrimaryAndAlternateCalls = null;
@@ -94,6 +113,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName restrictCallRetrieveOfPrimaryCall
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $restrictCallRetrieveOfPrimaryCall = null;
@@ -101,6 +122,8 @@ class UserSharedCallAppearanceModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName restrictCallBridgingOfPrimaryCall
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:190
      * @var bool|null
      */
     private $restrictCallBridgingOfPrimaryCall = null;

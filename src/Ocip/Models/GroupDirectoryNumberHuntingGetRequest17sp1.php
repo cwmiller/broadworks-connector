@@ -7,14 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get the properties of the DNH service for a specified serviceUserId.
  *         It gets the agents of a call center or hunt group that are members
- *         of a directory number hunting group.  They are agents that are not
- * already
+ *         of a directory number hunting group.  They are agents that are not already
  *         assigned to any other directory number hunting group.
- *         The response is either GroupDirectoryNumberHuntingGetResponse or
- * ErrorResponse.
+ *         The response is either GroupDirectoryNumberHuntingGetResponse or ErrorResponse.
  *
  * @see GroupDirectoryNumberHuntingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d828aed6ac67f1483dca91862c6de1ed:84","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class GroupDirectoryNumberHuntingGetRequest17sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group d828aed6ac67f1483dca91862c6de1ed:84
      * @var string|null
      */
     private $serviceUserId = null;

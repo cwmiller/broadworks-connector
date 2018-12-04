@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:614","type":"sequence"}]
  */
 class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:614
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
     /**
      * @ElementName code
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:614
      * @var string|null
      */
     private $code = null;
@@ -32,6 +35,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:614
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -40,6 +45,8 @@ class EnterpriseCommunicationBarringAuthorizationCodeModifyRequest extends \CWM\
      * @ElementName networkClassOfService
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:614
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkClassOfService = null;

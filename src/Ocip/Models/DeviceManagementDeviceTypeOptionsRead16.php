@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * DeviceManagementDeviceTypeOptionsRead16
  *
  * Device Management System device type options.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38839","type":"sequence"}]
  */
 class DeviceManagementDeviceTypeOptionsRead16
 {
@@ -13,6 +15,7 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
@@ -20,6 +23,7 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName tagMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
     private $tagMode = null;
@@ -27,6 +31,8 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName tagSet
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var string|null
      */
     private $tagSet = null;
@@ -34,6 +40,7 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName allowDeviceProfileCustomTagSet
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var bool|null
      */
     private $allowDeviceProfileCustomTagSet = null;
@@ -41,6 +48,7 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName allowGroupCustomTagSet
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var bool|null
      */
     private $allowGroupCustomTagSet = null;
@@ -48,6 +56,7 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName sendEmailUponResetFailure
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var bool|null
      */
     private $sendEmailUponResetFailure = null;
@@ -55,6 +64,8 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName deviceAccessNetAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var string|null
      */
     private $deviceAccessNetAddress = null;
@@ -62,6 +73,8 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName deviceAccessPort
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var int|null
      */
     private $deviceAccessPort = null;
@@ -69,6 +82,8 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName deviceAccessContext
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var string|null
      */
     private $deviceAccessContext = null;
@@ -76,6 +91,8 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName deviceAccessURI
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var string|null
      */
     private $deviceAccessURI = null;
@@ -83,6 +100,8 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName defaultDeviceLanguage
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var string|null
      */
     private $defaultDeviceLanguage = null;
@@ -90,6 +109,8 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName defaultDeviceEncoding
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var string|null
      */
     private $defaultDeviceEncoding = null;
@@ -97,6 +118,8 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName accessDeviceCredentials
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var string|null
      */
     private $accessDeviceCredentials = null;
@@ -104,6 +127,7 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -111,6 +135,7 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -118,6 +143,7 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -125,6 +151,7 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -132,6 +159,8 @@ class DeviceManagementDeviceTypeOptionsRead16
     /**
      * @ElementName macFormatInNonRequestURI
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38839
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;

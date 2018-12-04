@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the EnterpriseCallCenterCallDispositionCodeGetUsageListRequest.
  *         The Type column contains either "Call Center" or "Route Point".
- *         Contains a table with column headings: "Group Id", "Id", "Name" and
- * "Type".
+ *         Contains a table with column headings: "Group Id", "Id", "Name" and "Type".
  *
  * @see EnterpriseCallCenterCallDispositionCodeGetUsageListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:891","type":"sequence"}]
  */
 class EnterpriseCallCenterCallDispositionCodeGetUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class EnterpriseCallCenterCallDispositionCodeGetUsageListResponse extends \CWM\B
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:891
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;

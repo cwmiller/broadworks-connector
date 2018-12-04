@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * HuntAgentWeight
  *
  * The weighted call distribution weight for an agent.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2124","type":"sequence"}]
  */
 class HuntAgentWeight
 {
@@ -13,6 +15,7 @@ class HuntAgentWeight
     /**
      * @ElementName agentUserId
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2124
      * @var string|null
      */
     private $agentUserId = null;
@@ -20,6 +23,7 @@ class HuntAgentWeight
     /**
      * @ElementName weight
      * @Type int
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2124
      * @var int|null
      */
     private $weight = null;

@@ -7,27 +7,24 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a service provider or enterprise.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         The following elements are only used in Amplify data mode and ignored in
- * AS and XS data mode:
+ *         The following elements are only used in Amplify data mode and ignored in AS and XS data mode:
  *         servicePolicy,
  *         callProcessingSliceId,
  *         provisioningSliceId,
  *         subscriberPartition,
  *         preferredDataCenter.
- *         When the callProcessingSliceId or provisioningSliceId is not specified
- * in the AmplifyDataMode, 
+ *         When the callProcessingSliceId or provisioningSliceId is not specified in the AmplifyDataMode, 
  *         the default slice Id is assigned to the service provider.
- *         Only Provisioning admin and above can change the callProcessingSliceId, 
- * provisioningSliceId 
+ *         Only Provisioning admin and above can change the callProcessingSliceId,  provisioningSliceId 
  *         ,subscriberPartition and preferredDataCenter.
- *         If reseller administrator sends the request, resellerId is ignored. The
- * reseller administrator's reseller id is used.
+ *         If reseller administrator sends the request, resellerId is ignored. The reseller administrator's reseller id is used.
  *         
  *         The following data elements are only used in AS data mode:
  *           resellerId
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:831","type":"sequence","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:832","type":"choice"}]}]
  */
 class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -35,6 +32,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isEnterprise
      * @Type bool
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:832
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -42,6 +40,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useCustomRoutingProfile
      * @Type bool
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:832
      * @var bool|null
      */
     private $useCustomRoutingProfile = null;
@@ -49,6 +48,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -56,6 +56,7 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName defaultDomain
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $defaultDomain = null;
@@ -63,6 +64,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderName
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $serviceProviderName = null;
@@ -70,6 +73,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName supportEmail
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $supportEmail = null;
@@ -77,6 +82,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -84,6 +91,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -91,6 +100,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName servicePolicy
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $servicePolicy = null;
@@ -98,6 +109,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName callProcessingSliceId
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $callProcessingSliceId = null;
@@ -105,6 +118,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName provisioningSliceId
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $provisioningSliceId = null;
@@ -112,6 +127,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName subscriberPartition
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $subscriberPartition = null;
@@ -119,6 +136,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName preferredDataCenter
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $preferredDataCenter = null;
@@ -126,6 +145,8 @@ class ServiceProviderAddRequest13mp2 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:831
      * @var string|null
      */
     private $resellerId = null;

@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderIMRNGetListRequest.
  *
  * @see ServiceProviderIMRNGetListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3714","type":"sequence"}]
  */
 class ServiceProviderIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class ServiceProviderIMRNGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName imrn
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3714
      * @var string[]
      */
     private $imrn = array(

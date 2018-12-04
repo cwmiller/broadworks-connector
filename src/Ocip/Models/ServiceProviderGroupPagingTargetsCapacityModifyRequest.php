@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderGroupPagingTargetsCapacityModifyRequest
  *
- * Modify the maximum number of target users per paging group configured for a
- * service provider.
+ * Modify the maximum number of target users per paging group configured for a service provider.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:552","type":"sequence"}]
  */
 class ServiceProviderGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:552
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,8 @@ class ServiceProviderGroupPagingTargetsCapacityModifyRequest extends \CWM\BroadW
     /**
      * @ElementName maximumTargetUsers
      * @Type int
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:552
      * @var int|null
      */
     private $maximumTargetUsers = null;

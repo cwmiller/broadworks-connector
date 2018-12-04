@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest
  *
  * Add a criteria to the Find-me/Follow-me alerting group.
- *         For the callToNumber, the extension and number elements are not used and
- * the only types accepted for each number are Primary and Alternates. If other
- * type is specified the command fails.
+ *         For the callToNumber, the extension and number elements are not used and the only types accepted for each number are Primary and Alternates. If other type is specified the command fails.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:84","type":"sequence"}]
  */
 class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group d0d5b8a5908815c6ae522efe732e363a:84
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +27,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
     /**
      * @ElementName alertingGroupName
      * @Type string
+     * @Group d0d5b8a5908815c6ae522efe732e363a:84
      * @var string|null
      */
     private $alertingGroupName = null;
@@ -34,6 +35,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group d0d5b8a5908815c6ae522efe732e363a:84
      * @var string|null
      */
     private $criteriaName = null;
@@ -41,6 +43,8 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group d0d5b8a5908815c6ae522efe732e363a:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -48,6 +52,8 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group d0d5b8a5908815c6ae522efe732e363a:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -55,6 +61,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Group d0d5b8a5908815c6ae522efe732e363a:84
      * @var bool|null
      */
     private $blacklisted = null;
@@ -62,6 +69,7 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
+     * @Group d0d5b8a5908815c6ae522efe732e363a:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -70,6 +78,8 @@ class GroupFindMeFollowMeAddAlertingGroupSelectiveCriteriaRequest extends \CWM\B
      * @ElementName callToNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
+     * @Optional
+     * @Group d0d5b8a5908815c6ae522efe732e363a:84
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     private $callToNumber = array(

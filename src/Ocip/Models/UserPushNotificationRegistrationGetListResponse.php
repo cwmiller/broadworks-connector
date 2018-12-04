@@ -7,20 +7,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserPushNotificationRegistrationGetListRequest.
  *         
- *         A registration has more than one row in the response when the
- * registration includes more than one token.
+ *         A registration has more than one row in the response when the registration includes more than one token.
  *         
- *         Registration Date uses the format "yyyy-MM-dd'T'HH:mm:ss.SSSZ" in the
- * time zone of the requested user.
+ *         Registration Date uses the format "yyyy-MM-dd'T'HH:mm:ss.SSSZ" in the time zone of the requested user.
  *         Example: 2010-10-01T09:30:00:000-0400.
  *         
- *         Contains a table with a row for each registration and token with column
- * headings :
- *         "User Id",  "Registration Id",  "Application Id",  "Application
- * Version",  "Device Os Type",  
+ *         Contains a table with a row for each registration and token with column headings :
+ *         "User Id",  "Registration Id",  "Application Id",  "Application Version",  "Device Os Type",  
  *         "Device Os Version",  "Registration Date",  "Token",  "Events"
  *
  * @see UserPushNotificationRegistrationGetListRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2871","type":"sequence"}]
  */
 class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,6 +25,7 @@ class UserPushNotificationRegistrationGetListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName registrationsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:2871
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $registrationsTable = null;

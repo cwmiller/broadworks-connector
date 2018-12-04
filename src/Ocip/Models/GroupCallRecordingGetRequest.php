@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallRecordingGetRequest
  *
  * Get the Call Recording platform for a group.
- *         The response is either a GroupCallRecordingGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupCallRecordingGetResponse or an ErrorResponse.
  *
  * @see GroupCallRecordingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"604d9297550842860022313f3cf2dc8f:50","type":"sequence"}]
  */
 class GroupCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 604d9297550842860022313f3cf2dc8f:50
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallRecordingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 604d9297550842860022313f3cf2dc8f:50
      * @var string|null
      */
     private $groupId = null;

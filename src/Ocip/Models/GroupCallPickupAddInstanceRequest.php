@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1d2c67d4a97adca57d9953b2182b4b0d:47","type":"sequence"}]
  */
 class GroupCallPickupAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupCallPickupAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:47
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupCallPickupAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:47
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupCallPickupAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName name
      * @Type string
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:47
      * @var string|null
      */
     private $name = null;
@@ -39,6 +43,8 @@ class GroupCallPickupAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName userId
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:47
      * @var string[]
      */
     private $userId = array(

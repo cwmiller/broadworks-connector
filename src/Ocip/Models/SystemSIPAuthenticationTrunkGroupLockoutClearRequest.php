@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14690","type":"sequence"}]
  */
 class SystemSIPAuthenticationTrunkGroupLockoutClearRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class SystemSIPAuthenticationTrunkGroupLockoutClearRequest extends \CWM\BroadWor
      * @ElementName trunkGroupkey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14690
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey[]
      */
     private $trunkGroupkey = array(

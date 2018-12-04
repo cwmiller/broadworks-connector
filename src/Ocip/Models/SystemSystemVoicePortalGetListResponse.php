@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSystemVoicePortalGetListResponse
  *
  * Response to SystemSystemVoicePortalGetListRequest.
- *         The column headings are "Default", "System Voice Portal Id", "Name",
- * "Network Voice Portal Number", "System Voice Portal Number" and "Language".
+ *         The column headings are "Default", "System Voice Portal Id", "Name", "Network Voice Portal Number", "System Voice Portal Number" and "Language".
  *         The possible values for "Default" are true, false.
  *
  * @see SystemSystemVoicePortalGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:16261","type":"sequence"}]
  */
 class SystemSystemVoicePortalGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class SystemSystemVoicePortalGetListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName systemVoicePortalsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16261
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $systemVoicePortalsTable = null;

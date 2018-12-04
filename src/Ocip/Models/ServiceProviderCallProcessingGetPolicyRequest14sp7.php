@@ -7,13 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request the service provider level data associated with Call Processing
  *             Policy. The response is either a
- *             ServiceProviderCallProcessingGetPolicyResponse14sp7 or an
- * ErrorResponse.
+ *             ServiceProviderCallProcessingGetPolicyResponse14sp7 or an ErrorResponse.
  *             Replaced By: ServiceProviderCallProcessingGetPolicyRequest16
  *
  * @see ServiceProviderCallProcessingGetPolicyResponse14sp7
  * @see ErrorResponse
  * @see ServiceProviderCallProcessingGetPolicyRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:15299","type":"sequence"}]
  */
 class ServiceProviderCallProcessingGetPolicyRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class ServiceProviderCallProcessingGetPolicyRequest14sp7 extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:15299
      * @var string|null
      */
     private $serviceProviderId = null;

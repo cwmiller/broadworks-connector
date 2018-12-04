@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * ConsolidatedGroupProperties
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1255","type":"sequence"}]
  */
 class ConsolidatedGroupProperties
 {
@@ -11,6 +13,7 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName defaultDomain
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var string|null
      */
     private $defaultDomain = null;
@@ -18,6 +21,7 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName userLimit
      * @Type int
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var int|null
      */
     private $userLimit = null;
@@ -25,6 +29,8 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName groupName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var string|null
      */
     private $groupName = null;
@@ -32,6 +38,8 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName callingLineIdName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -39,6 +47,8 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName timeZone
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var string|null
      */
     private $timeZone = null;
@@ -46,6 +56,8 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName locationDialingCode
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -53,6 +65,8 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -60,6 +74,8 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -68,6 +84,8 @@ class ConsolidatedGroupProperties
      * @ElementName networkClassOfService
      * @Type string
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -77,6 +95,8 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName defaultNetworkClassOfService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
     private $defaultNetworkClassOfService = null;
@@ -85,6 +105,8 @@ class ConsolidatedGroupProperties
      * @ElementName groupService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var \CWM\BroadWorksConnector\Ocip\Models\ConsolidatedGroupServiceAssignment[]
      */
     private $groupService = array(
@@ -94,6 +116,8 @@ class ConsolidatedGroupProperties
     /**
      * @ElementName servicePolicy
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1255
      * @var string|null
      */
     private $servicePolicy = null;

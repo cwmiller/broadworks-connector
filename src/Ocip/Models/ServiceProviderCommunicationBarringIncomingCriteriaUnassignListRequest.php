@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest
  *
- * Unassign a list of Communication Barring Incoming Criteria from a service
- * provider.
+ * Unassign a list of Communication Barring Incoming Criteria from a service provider.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1689","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest ext
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1689
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaUnassignListRequest ext
      * @ElementName criteriaName
      * @Type string
      * @Array
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1689
      * @var string[]
      */
     private $criteriaName = array(

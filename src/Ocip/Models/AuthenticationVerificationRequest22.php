@@ -5,19 +5,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AuthenticationVerificationRequest22
  *
- * AuthenticationVerificationRequest is sent when a Web user logs in. This request
- * is not for OCI use.
+ * AuthenticationVerificationRequest is sent when a Web user logs in. This request is not for OCI use.
  *         Possible login schemes:
  *           User id and password, no login token = Normal login .
  *           User id and no password = ext. auth. login from trusted host (ACL).
- *           No user id, no password, login token = login through pre-authorized
- * login token.
+ *           No user id, no password, login token = login through pre-authorized login token.
  *           User id and shared key, no login token = Shared Key login.
  *         
  *         Replaced by AuthenticationVerificationRequest22V2 in AS data mode.
  *
  * @see AuthenticationVerificationRequest
  * @see AuthenticationVerificationRequest22V2
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:73","type":"sequence","children":[{"id":"e9727a9f98db3fe2db7ad08079031b73:74","type":"choice","children":[{"id":"e9727a9f98db3fe2db7ad08079031b73:78","type":"sequence"},{"id":"e9727a9f98db3fe2db7ad08079031b73:88","type":"sequence"},{"id":"e9727a9f98db3fe2db7ad08079031b73:96","type":"sequence"}]}]}]
  */
 class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,6 +24,7 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName normalLogin
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22NormalLogin
+     * @Group e9727a9f98db3fe2db7ad08079031b73:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22NormalLogin|null
      */
     private $normalLogin = null;
@@ -32,6 +32,7 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName trustedExternalAuthenticationLogin
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin
+     * @Group e9727a9f98db3fe2db7ad08079031b73:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22TrustedExternalAuthenticationLogin|null
      */
     private $trustedExternalAuthenticationLogin = null;
@@ -39,6 +40,7 @@ class AuthenticationVerificationRequest22 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName preAuthorizedExternalAuthenticationLogin
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22PreAuthorizedExternalAuthenticationLogin
+     * @Group e9727a9f98db3fe2db7ad08079031b73:74
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationVerificationRequest22PreAuthorizedExternalAuthenticationLogin|null
      */
     private $preAuthorizedExternalAuthenticationLogin = null;

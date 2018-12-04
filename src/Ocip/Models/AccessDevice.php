@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AccessDevice
  *
  * Uniquely identifies an Identity/device profile created anywhere in the system.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:27","type":"sequence"}]
  */
 class AccessDevice
 {
@@ -13,6 +15,7 @@ class AccessDevice
     /**
      * @ElementName deviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
+     * @Group 18b369af88e42ffdb4166615c670ce2c:27
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     private $deviceLevel = null;
@@ -20,6 +23,7 @@ class AccessDevice
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:27
      * @var string|null
      */
     private $deviceName = null;

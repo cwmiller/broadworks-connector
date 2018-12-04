@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringDigitPatternCriteriaGetListResponse
  *
  * Response to the SystemCommunicationBarringDigitPatternCriteriaGetListRequest.
- *         The response contains a table of all Digit Pattern Criteria defined at
- * the system level. The column headings are "Name" and "Description"
+ *         The response contains a table of all Digit Pattern Criteria defined at the system level. The column headings are "Name" and "Description"
  *
  * @see SystemCommunicationBarringDigitPatternCriteriaGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5217","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetListResponse extends \CWM
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5217
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

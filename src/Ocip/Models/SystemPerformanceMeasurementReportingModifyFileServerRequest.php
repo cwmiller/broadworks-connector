@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12556","type":"sequence"}]
  */
 class SystemPerformanceMeasurementReportingModifyFileServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest extends \CWM\
     /**
      * @ElementName ftpHostNetAddress
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12556
      * @var string|null
      */
     private $ftpHostNetAddress = null;
@@ -24,6 +26,8 @@ class SystemPerformanceMeasurementReportingModifyFileServerRequest extends \CWM\
     /**
      * @ElementName passiveFTP
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12556
      * @var bool|null
      */
     private $passiveFTP = null;

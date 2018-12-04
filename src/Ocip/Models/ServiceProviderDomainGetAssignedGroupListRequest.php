@@ -5,16 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDomainGetAssignedGroupListRequest
  *
- * Requests a list of groups within a service provider that have a given domain
- * assigned.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ * Requests a list of groups within a service provider that have a given domain assigned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a
- * ServiceProviderDomainGetAssignedGroupListResponse or an ErrorResponse.
+ *         The response is either a ServiceProviderDomainGetAssignedGroupListResponse or an ErrorResponse.
  *
  * @see ServiceProviderDomainGetAssignedGroupListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3202","type":"sequence"}]
  */
 class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +20,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3202
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +28,7 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName domain
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3202
      * @var string|null
      */
     private $domain = null;
@@ -36,6 +36,8 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3202
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -44,6 +46,8 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3202
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -54,6 +58,8 @@ class ServiceProviderDomainGetAssignedGroupListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3202
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

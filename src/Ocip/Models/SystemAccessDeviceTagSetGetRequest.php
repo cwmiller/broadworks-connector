@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceTagSetGetRequest
  *
  * Request to get the custom configuration tag set defined at the access device.
- *         The response is either SystemAccessDeviceTagSetGetResponse or
- * ErrorResponse.
+ *         The response is either SystemAccessDeviceTagSetGetResponse or ErrorResponse.
  *
  * @see SystemAccessDeviceTagSetGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1256","type":"sequence"}]
  */
 class SystemAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemAccessDeviceTagSetGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1256
      * @var string|null
      */
     private $deviceName = null;

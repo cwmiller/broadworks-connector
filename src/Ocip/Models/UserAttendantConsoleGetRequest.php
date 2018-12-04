@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAttendantConsoleGetRequest
  *
  * Request user's attendant console settings.
- *         The response is either a UserAttendantConsoleGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserAttendantConsoleGetResponse or an ErrorResponse.
  *
  * @see UserAttendantConsoleGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32375","type":"sequence"}]
  */
 class UserAttendantConsoleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserAttendantConsoleGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32375
      * @var string|null
      */
     private $userId = null;

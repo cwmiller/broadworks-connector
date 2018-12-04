@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallCenterEnhancedReportingScheduledReportDeleteRequest
  *
- * Request to delete a call center reporting scheduled report created by a
- * supervisor.
+ * Request to delete a call center reporting scheduled report created by a supervisor.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6115","type":"sequence"}]
  */
 class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\B
     /**
      * @ElementName supervisorUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6115
      * @var string|null
      */
     private $supervisorUserId = null;
@@ -25,6 +26,7 @@ class UserCallCenterEnhancedReportingScheduledReportDeleteRequest extends \CWM\B
     /**
      * @ElementName name
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6115
      * @var string|null
      */
     private $name = null;

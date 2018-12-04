@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:424","type":"sequence"}]
  */
 class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:424
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,7 @@ class UserAnnouncementFileDeleteListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
      * @Array
+     * @Group 489b2153267470be8e945bf6b778e0d0:424
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey[]
      */
     private $announcementFileKey = array(

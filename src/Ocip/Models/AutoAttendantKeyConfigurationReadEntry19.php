@@ -19,6 +19,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         data elements are only valid for Standard Auto
  *         Attendants:
  *         submenuId
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:483","type":"sequence"}]
  */
 class AutoAttendantKeyConfigurationReadEntry19
 {
@@ -26,6 +28,8 @@ class AutoAttendantKeyConfigurationReadEntry19
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:483
      * @var string|null
      */
     private $description = null;
@@ -33,6 +37,7 @@ class AutoAttendantKeyConfigurationReadEntry19
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
+     * @Group 18b369af88e42ffdb4166615c670ce2c:483
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     private $action = null;
@@ -40,6 +45,8 @@ class AutoAttendantKeyConfigurationReadEntry19
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:483
      * @var string|null
      */
     private $phoneNumber = null;
@@ -47,6 +54,8 @@ class AutoAttendantKeyConfigurationReadEntry19
     /**
      * @ElementName audioFileDescription
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:483
      * @var string|null
      */
     private $audioFileDescription = null;
@@ -54,6 +63,8 @@ class AutoAttendantKeyConfigurationReadEntry19
     /**
      * @ElementName audioMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:483
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $audioMediaType = null;
@@ -61,6 +72,8 @@ class AutoAttendantKeyConfigurationReadEntry19
     /**
      * @ElementName videoFileDescription
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:483
      * @var string|null
      */
     private $videoFileDescription = null;
@@ -68,6 +81,8 @@ class AutoAttendantKeyConfigurationReadEntry19
     /**
      * @ElementName videoMediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:483
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $videoMediaType = null;
@@ -75,6 +90,8 @@ class AutoAttendantKeyConfigurationReadEntry19
     /**
      * @ElementName submenuId
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:483
      * @var string|null
      */
     private $submenuId = null;

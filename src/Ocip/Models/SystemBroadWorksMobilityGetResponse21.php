@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemBroadWorksMobilityGetRequest21
  * @see SystemBroadWorksMobilityGetResponse22
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17683","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class SystemBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableLocationServices
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17683
      * @var bool|null
      */
     private $enableLocationServices = null;
@@ -25,6 +27,7 @@ class SystemBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableMSRNLookup
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17683
      * @var bool|null
      */
     private $enableMSRNLookup = null;
@@ -32,6 +35,7 @@ class SystemBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableMobileStateChecking
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17683
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
@@ -39,6 +43,7 @@ class SystemBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName denyCallOriginations
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17683
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -46,6 +51,7 @@ class SystemBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName denyCallTerminations
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17683
      * @var bool|null
      */
     private $denyCallTerminations = null;
@@ -53,6 +59,7 @@ class SystemBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName imrnTimeoutMillisecnds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17683
      * @var int|null
      */
     private $imrnTimeoutMillisecnds = null;

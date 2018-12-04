@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccountAuthorizationCodesGetAvailableUserListResponse
  *
  * Response to the GroupAccountAuthorizationCodesGetAvailableUserListRequest.
- *         The column headings are: "User Id", "Last Name", "First Name", "Hiragana
- * Last Name" and
- *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email
- * Address".
+ *         The column headings are: "User Id", "Last Name", "First Name", "Hiragana Last Name" and
+ *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupAccountAuthorizationCodesGetAvailableUserListRequest
+ * @Groups [{"id":"ab77d49abc146ee44a9626534896ad51:109","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class GroupAccountAuthorizationCodesGetAvailableUserListResponse extends \CWM\Br
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group ab77d49abc146ee44a9626534896ad51:109
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

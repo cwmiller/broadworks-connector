@@ -5,18 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest
  *
- * Request to get the configuration for a call processing policy profile Instant
- * Group Call subscriber type profile.
- *         The response is either a
- * SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse22 or an
+ * Request to get the configuration for a call processing policy profile Instant Group Call subscriber type profile.
+ *         The response is either a SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse22 or an
  *         ErrorResponse.
  *         
- *         Replaced by:
- * SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest22
+ *         Replaced by: SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest22
  *
  * @see SystemCallProcessingPolicyProfileInstantGroupCallProfileGetResponse22
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest22
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:19893","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +22,7 @@ class SystemCallProcessingPolicyProfileInstantGroupCallProfileGetRequest extends
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:19893
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest
  *
  * Request to get the input parameter info for a call center report template.
- *         The response is either a
- * UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse or an ErrorResponse.
  *
  * @see UserCallCenterEnhancedReportingReportTemplateParamInfoGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6072","type":"sequence"}]
  */
 class UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class UserCallCenterEnhancedReportingReportTemplateParamInfoGetRequest extends \
     /**
      * @ElementName reportTemplate
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6072
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterReportTemplateKey|null
      */
     private $reportTemplate = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EstimatedWaitMessageOptionsRead17sp4
  *
  * Estimated Wait Message Options
+ *
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:7004","type":"sequence"}]
  */
 class EstimatedWaitMessageOptionsRead17sp4
 {
@@ -13,6 +15,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName enabled
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:7004
      * @var bool|null
      */
     private $enabled = null;
@@ -20,6 +23,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName operatingMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:7004
      * @var \CWM\BroadWorksConnector\Ocip\Models\EstimatedWaitMessageOperatingMode|null
      */
     private $operatingMode = null;
@@ -27,6 +31,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName playPositionHighVolume
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:7004
      * @var bool|null
      */
     private $playPositionHighVolume = null;
@@ -34,6 +39,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName playTimeHighVolume
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:7004
      * @var bool|null
      */
     private $playTimeHighVolume = null;
@@ -41,6 +47,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName maximumPositions
      * @Type int
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:7004
      * @var int|null
      */
     private $maximumPositions = null;
@@ -48,6 +55,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName maximumWaitingMinutes
      * @Type int
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:7004
      * @var int|null
      */
     private $maximumWaitingMinutes = null;
@@ -55,6 +63,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName defaultCallHandlingMinutes
      * @Type int
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:7004
      * @var int|null
      */
     private $defaultCallHandlingMinutes = null;
@@ -62,6 +71,7 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName playUpdatedEWM
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:7004
      * @var bool|null
      */
     private $playUpdatedEWM = null;
@@ -69,6 +79,8 @@ class EstimatedWaitMessageOptionsRead17sp4
     /**
      * @ElementName timeBetweenEWMUpdatesSeconds
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:7004
      * @var int|null
      */
     private $timeBetweenEWMUpdatesSeconds = null;

@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for shared call appearance service
  *         The endpointTable contains columns:
- *           "Device Level", "Device Name", "Device Type", "Line/Port", "SIP
- * Contact", "Port Number". "Private Identity" .        
+ *           "Device Level", "Device Name", "Device Type", "Line/Port", "SIP Contact", "Port Number". "Private Identity" .        
  *           
- *         The "Device Level" column contains one of the AccessDeviceLevel
- * enumerated constants.
+ *         The "Device Level" column contains one of the AccessDeviceLevel enumerated constants.
  *         Port numbers are only used by devices with static line ordering.
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3733","type":"sequence"}]
  */
 class ProfileAndServiceSharedCallAppearanceInfo
 {
@@ -20,6 +20,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName alertAllAppearancesForClickToDialCalls
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $alertAllAppearancesForClickToDialCalls = null;
@@ -27,6 +28,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName alertAllAppearancesForGroupPagingCalls
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $alertAllAppearancesForGroupPagingCalls = null;
@@ -34,6 +36,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName maxAppearances
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var int|null
      */
     private $maxAppearances = null;
@@ -41,6 +44,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName allowSCACallRetrieve
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $allowSCACallRetrieve = null;
@@ -48,6 +52,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName enableMultipleCallArrangement
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $enableMultipleCallArrangement = null;
@@ -55,6 +60,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName multipleCallArrangementIsActive
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $multipleCallArrangementIsActive = null;
@@ -62,6 +68,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName endpointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $endpointTable = null;
@@ -69,6 +76,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName allowBridgingBetweenLocations
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $allowBridgingBetweenLocations = null;
@@ -76,6 +84,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName bridgeWarningTone
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var \CWM\BroadWorksConnector\Ocip\Models\SharedCallAppearanceBridgeWarningTone|null
      */
     private $bridgeWarningTone = null;
@@ -83,6 +92,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $enableCallParkNotification = null;
@@ -90,6 +100,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName useUserPrimaryWithAlternateCallsSetting
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $useUserPrimaryWithAlternateCallsSetting = null;
@@ -97,6 +108,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName allowSimultaneousPrimaryAndAlternate
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $allowSimultaneousPrimaryAndAlternate = null;
@@ -104,6 +116,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName restrictCallRetrieveOfPrimary
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $restrictCallRetrieveOfPrimary = null;
@@ -111,6 +124,7 @@ class ProfileAndServiceSharedCallAppearanceInfo
     /**
      * @ElementName restrictCallBridgingOfPrimary
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3733
      * @var bool|null
      */
     private $restrictCallBridgingOfPrimary = null;

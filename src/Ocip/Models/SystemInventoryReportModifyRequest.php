@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"2878f00c36207d82fdd6133ab70c3d87:110","type":"sequence"}]
  */
 class SystemInventoryReportModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemInventoryReportModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName defaultFromAddress
      * @Type string
+     * @Optional
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:110
      * @var string|null
      */
     private $defaultFromAddress = null;

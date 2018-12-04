@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupNetworkClassOfServiceAssignListRequest21
  *
  * Assign a list of Network Classes of Service to a group.
- *         A default Network Class of Service must be specified unless there is
- * already one assigned to the group.
+ *         A default Network Class of Service must be specified unless there is already one assigned to the group.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5180","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5180
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5180
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,8 @@ class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConne
      * @ElementName networkClassOfService
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5180
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -43,6 +47,7 @@ class GroupNetworkClassOfServiceAssignListRequest21 extends \CWM\BroadWorksConne
     /**
      * @ElementName defaultNetworkClassOfService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5180
      * @var \CWM\BroadWorksConnector\Ocip\Models\DefaultNetworkClassOfService|null
      */
     private $defaultNetworkClassOfService = null;

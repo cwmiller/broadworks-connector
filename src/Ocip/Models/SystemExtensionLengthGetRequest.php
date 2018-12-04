@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemExtensionLengthGetRequest
  *
  * Request the system's extension range.
- *         The response is either a SystemExtensionLengthGetResponse or an
- * ErrorResponse.
+ *         The response is either a SystemExtensionLengthGetResponse or an ErrorResponse.
  *
  * @see SystemExtensionLengthGetResponse
  * @see ErrorResponse

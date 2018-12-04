@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDomainGetAssignedServiceProviderListResponse
  *
  * Response to SystemDomainGetAssignedServiceProviderListRequest.
- *         The table columns are: "Service Provider Id", "Service Provider Name",
- * "Is Enterprise" and "Reseller Id".
+ *         The table columns are: "Service Provider Id", "Service Provider Name", "Is Enterprise" and "Reseller Id".
  *         The following columns are only returned in AS data mode:       
  *           "Reseller Id"
  *
  * @see SystemDomainGetAssignedServiceProviderListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7934","type":"sequence"}]
  */
 class SystemDomainGetAssignedServiceProviderListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class SystemDomainGetAssignedServiceProviderListResponse extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7934
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderTable = null;

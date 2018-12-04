@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCPEConfigReorderDeviceLinePortsRequest
  *
  * Reorder the lines of a group device. You can not add or delete line ports, only
- *         re-ordering the list is allowed. The ordered list of line ports can be
- * obtained
+ *         re-ordering the list is allowed. The ordered list of line ports can be obtained
  *         with the GroupAccessDeviceGetRequest16 command.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see GroupAccessDeviceGetRequest16
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2447","type":"sequence"}]
  */
 class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2447
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2447
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +37,7 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2447
      * @var string|null
      */
     private $deviceName = null;
@@ -43,6 +46,7 @@ class GroupCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnect
      * @ElementName orderedLinePortList
      * @Type string
      * @Array
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2447
      * @var string[]
      */
     private $orderedLinePortList = array(

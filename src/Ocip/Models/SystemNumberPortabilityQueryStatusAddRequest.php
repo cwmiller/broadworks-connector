@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11449","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryStatusAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemNumberPortabilityQueryStatusAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName status
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11449
      * @var string|null
      */
     private $status = null;
@@ -24,6 +26,8 @@ class SystemNumberPortabilityQueryStatusAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName treatmentFileName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11449
      * @var string|null
      */
     private $treatmentFileName = null;

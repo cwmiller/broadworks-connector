@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFlexibleSeatingHostGuestAssociationModifyRequest
  *
  * Modify the flexible seating host’s guest association attributes.
- *         The request fails if enforceAssociationLimit or associationLimitHours
- * are changed when the host is associated to a guest.
+ *         The request fails if enforceAssociationLimit or associationLimitHours are changed when the host is associated to a guest.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:259","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
      * @var string|null
      */
     private $serviceUserId = null;
@@ -26,6 +27,8 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName enforceAssociationLimit
      * @Type bool
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
      * @var bool|null
      */
     private $enforceAssociationLimit = null;
@@ -33,6 +36,8 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName associationLimitHours
      * @Type int
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -40,6 +45,8 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
      * @var \CWM\BroadWorksConnector\Ocip\Models\FlexibleSeatingHostAccessLevel|null
      */
     private $accessLevel = null;
@@ -47,6 +54,8 @@ class GroupFlexibleSeatingHostGuestAssociationModifyRequest extends \CWM\BroadWo
     /**
      * @ElementName removeGuestAssociation
      * @Type bool
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:259
      * @var bool|null
      */
     private $removeGuestAssociation = null;

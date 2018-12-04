@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21667","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
 {
@@ -11,6 +13,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21667
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
@@ -18,6 +21,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21667
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -25,6 +29,8 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21667
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
@@ -33,6 +39,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
      * @ElementName protocolChoice
      * @Type string
      * @Array
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21667
      * @var string[]
      */
     private $protocolChoice = array(
@@ -42,6 +49,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21667
      * @var bool|null
      */
     private $isIpAddressOptional = null;
@@ -49,6 +57,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName useDomain
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21667
      * @var bool|null
      */
     private $useDomain = null;
@@ -56,6 +65,7 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName isMobilityManagerDevice
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21667
      * @var bool|null
      */
     private $isMobilityManagerDevice = null;
@@ -63,6 +73,8 @@ class SystemDeviceTypeGetAvailableListResponse14sp3TypeInfo
     /**
      * @ElementName deviceConfigurationOption
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21667
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceTypeConfigurationOptionType|null
      */
     private $deviceConfigurationOption = null;

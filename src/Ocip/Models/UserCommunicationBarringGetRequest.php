@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCommunicationBarringGetRequest
  *
  * Gets the Communication Barring settings for a user.  
- *         The response is either a UserCommunicationBarringGetResponse or an
- * ErrorResponse.
- *         This command only applies to groups in an Enterprise. This command will
- * fail for groups in a Service Provider.
+ *         The response is either a UserCommunicationBarringGetResponse or an ErrorResponse.
+ *         This command only applies to groups in an Enterprise. This command will fail for groups in a Service Provider.
  *
  * @see UserCommunicationBarringGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1020","type":"sequence"}]
  */
 class UserCommunicationBarringGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class UserCommunicationBarringGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:1020
      * @var string|null
      */
     private $userId = null;

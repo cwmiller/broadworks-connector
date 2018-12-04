@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2599","type":"sequence"}]
  */
 class GroupCallCenterCallDispositionCodeModifyActiveListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupCallCenterCallDispositionCodeModifyActiveListRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2599
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupCallCenterCallDispositionCodeModifyActiveListRequest extends \CWM\Bro
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2599
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +35,8 @@ class GroupCallCenterCallDispositionCodeModifyActiveListRequest extends \CWM\Bro
      * @ElementName callDispositionCodeActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2599
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeActivation[]
      */
     private $callDispositionCodeActivation = array(

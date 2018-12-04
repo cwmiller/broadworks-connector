@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderApplicationServerSetGetResponse
  *
  * Response to the ServiceProviderApplicationServerSetGetRequest.
- *         The response contains the service provider or enterprise's Application
- * Server set information.
+ *         The response contains the service provider or enterprise's Application Server set information.
  *
  * @see ServiceProviderApplicationServerSetGetRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1213","type":"sequence"}]
  */
 class ServiceProviderApplicationServerSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,8 @@ class ServiceProviderApplicationServerSetGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName applicationServerSetName
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1213
      * @var string|null
      */
     private $applicationServerSetName = null;

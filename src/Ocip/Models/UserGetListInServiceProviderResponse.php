@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserGetListInServiceProviderRequest.
  *         Contains a table with column headings : "User Id", "Group Id",
- *         "Last Name", "First Name", "Department", "Phone Number", "Phone Number
- * Activated", "Email Address", "Hiragana Last Name", "Hiragana First Name", "In
- * Trunk Group", "Extension"
+ *         "Last Name", "First Name", "Department", "Phone Number", "Phone Number Activated", "Email Address", "Hiragana Last Name", "Hiragana First Name", "In Trunk Group", "Extension"
  *         in a row for each user.
  *
  * @see UserGetListInServiceProviderRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1537","type":"sequence"}]
  */
 class UserGetListInServiceProviderResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +19,7 @@ class UserGetListInServiceProviderResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:1537
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

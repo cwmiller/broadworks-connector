@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest
  *
  * Request to get the list of all available trunk groups defined in a group.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a
- * GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse or an ErrorResponse.
+ *         The response is either a GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse or an ErrorResponse.
  *
  * @see GroupEnterpriseTrunkGetAvailableTrunkGroupListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:586","type":"sequence"}]
  */
 class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:586
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:586
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +36,8 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:586
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -43,6 +46,8 @@ class GroupEnterpriseTrunkGetAvailableTrunkGroupListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaTrunkGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:586
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     private $searchCriteriaTrunkGroupName = array(

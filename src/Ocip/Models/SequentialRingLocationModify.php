@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SequentialRingLocationModify
  *
  * Sequential Ring Location.
+ *
+ * @Groups [{"id":"579a0a0fbfa9c619aa147d6b41841eff:225","type":"sequence"}]
  */
 class SequentialRingLocationModify
 {
@@ -14,6 +16,8 @@ class SequentialRingLocationModify
      * @ElementName phoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:225
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -21,6 +25,8 @@ class SequentialRingLocationModify
     /**
      * @ElementName numberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:225
      * @var \CWM\BroadWorksConnector\Ocip\Models\SequentialRingNumberOfRings|null
      */
     private $numberOfRings = null;
@@ -28,6 +34,8 @@ class SequentialRingLocationModify
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:225
      * @var bool|null
      */
     private $answerConfirmationRequired = null;

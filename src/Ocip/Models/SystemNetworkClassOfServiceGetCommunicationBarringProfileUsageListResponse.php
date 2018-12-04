@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse
  *
- * Response to the
- * SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest.
+ * Response to the SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest.
  *         The response contains a table of all Network Classes of Service that
  *         contain the specific Communication Barring Profile. The column headings
  *         are "Name" and "Description"
  *
  * @see SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10777","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse
     /**
      * @ElementName networkClassOfServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10777
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $networkClassOfServiceTable = null;

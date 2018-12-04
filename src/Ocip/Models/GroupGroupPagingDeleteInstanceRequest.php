@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:119","type":"sequence"}]
  */
 class GroupGroupPagingDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupGroupPagingDeleteInstanceRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:119
      * @var string|null
      */
     private $serviceUserId = null;

@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupCallCenterQueueCallDispositionCodeSettingsGetRequest.
  *
  * @see GroupCallCenterQueueCallDispositionCodeSettingsGetRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5046","type":"sequence"}]
  */
 class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
     /**
      * @ElementName enableCallDispositionCodes
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5046
      * @var bool|null
      */
     private $enableCallDispositionCodes = null;
@@ -22,6 +24,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
     /**
      * @ElementName includeOrganizationCodes
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5046
      * @var bool|null
      */
     private $includeOrganizationCodes = null;
@@ -29,6 +32,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
     /**
      * @ElementName forceUseOfCallDispositionCodes
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5046
      * @var bool|null
      */
     private $forceUseOfCallDispositionCodes = null;
@@ -36,6 +40,8 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetResponse extends \CWM\Br
     /**
      * @ElementName defaultCallDispositionCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5046
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallDispositionCodeWithLevel|null
      */
     private $defaultCallDispositionCode = null;

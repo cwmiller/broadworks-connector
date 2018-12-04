@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterComfortMessageBypassGetRequest17
  * @see GroupCallCenterComfortMessageBypassGetResponse20
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:3334","type":"sequence"}]
  */
 class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var bool|null
      */
     private $isActive = null;
@@ -25,6 +27,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName callWaitingAgeThresholdSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var int|null
      */
     private $callWaitingAgeThresholdSeconds = null;
@@ -32,6 +35,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName playAnnouncementAfterRinging
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var bool|null
      */
     private $playAnnouncementAfterRinging = null;
@@ -39,6 +43,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName ringTimeBeforePlayingAnnouncementSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var int|null
      */
     private $ringTimeBeforePlayingAnnouncementSeconds = null;
@@ -46,6 +51,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -53,6 +59,8 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $audioUrlList = null;
@@ -60,6 +68,8 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     private $audioFileList = null;
@@ -67,6 +77,8 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName audioMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     private $audioMediaTypeList = null;
@@ -74,6 +86,7 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -81,6 +94,8 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $videoUrlList = null;
@@ -88,6 +103,8 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     private $videoFileList = null;
@@ -95,6 +112,8 @@ class GroupCallCenterComfortMessageBypassGetResponse17 extends \CWM\BroadWorksCo
     /**
      * @ElementName videoMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3334
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     private $videoMediaTypeList = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1581","type":"sequence"}]
  */
 class GroupBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1581
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1581
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +35,7 @@ class GroupBroadWorksMobileManagerDeleteHomeZoneListRequest extends \CWM\BroadWo
      * @ElementName homeZoneId
      * @Type string
      * @Array
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1581
      * @var string[]
      */
     private $homeZoneId = array(

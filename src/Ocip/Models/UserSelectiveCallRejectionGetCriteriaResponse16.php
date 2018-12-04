@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSelectiveCallRejectionGetCriteriaRequest16
  * @see UserSelectiveCallRejectionGetCriteriaResponse16sp1
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36907","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,8 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36907
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -24,6 +27,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36907
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType|null
      */
     private $fromDnCriteria = null;
@@ -31,6 +35,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36907
      * @var bool|null
      */
     private $blacklisted = null;
@@ -38,6 +43,8 @@ class UserSelectiveCallRejectionGetCriteriaResponse16 extends \CWM\BroadWorksCon
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36907
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;

@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDnGetUtilizationResponse
  * @see ErrorResponse
  * @see SystemDnGetUtilizationRequest14sp3
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22027","type":"sequence"}]
  */
 class SystemDnGetUtilizationRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class SystemDnGetUtilizationRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22027
      * @var string|null
      */
     private $phoneNumber = null;

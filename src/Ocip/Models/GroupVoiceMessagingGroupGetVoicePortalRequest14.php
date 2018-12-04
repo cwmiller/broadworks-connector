@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupVoiceMessagingGroupGetVoicePortalRequest14
  *
  * Requests the group's voice messaging settings
- *         The response is either GroupVoiceMessagingGroupGetVoicePortalResponse14
- * or ErrorResponse.
+ *         The response is either GroupVoiceMessagingGroupGetVoicePortalResponse14 or ErrorResponse.
  *         Replaced by GroupVoiceMessagingGroupGetVoicePortalRequest15
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalResponse14
  * @see ErrorResponse
  * @see GroupVoiceMessagingGroupGetVoicePortalRequest15
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14229","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupVoiceMessagingGroupGetVoicePortalRequest14 extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14229
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupVoiceMessagingGroupGetVoicePortalRequest14 extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14229
      * @var string|null
      */
     private $groupId = null;

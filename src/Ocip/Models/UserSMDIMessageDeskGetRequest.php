@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSMDIMessageDeskGetRequest
  *
  * Get the user's SMDI Message Desk service personal setting.
- *         The response is either a UserSMDIMessageDeskGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserSMDIMessageDeskGetResponse or an ErrorResponse.
  *
  * @see UserSMDIMessageDeskGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"cd03b563fec121b562411c9b734b5953:260","type":"sequence"}]
  */
 class UserSMDIMessageDeskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserSMDIMessageDeskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
+     * @Group cd03b563fec121b562411c9b734b5953:260
      * @var string|null
      */
     private $userId = null;

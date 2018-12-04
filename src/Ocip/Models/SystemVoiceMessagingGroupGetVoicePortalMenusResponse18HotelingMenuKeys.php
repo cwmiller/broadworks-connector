@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:29771","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
     /**
      * @ElementName checkHostStatus
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29771
      * @var string|null
      */
     private $checkHostStatus = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
     /**
      * @ElementName associateWithHost
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29771
      * @var string|null
      */
     private $associateWithHost = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
     /**
      * @ElementName disassociateFromHost
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29771
      * @var string|null
      */
     private $disassociateFromHost = null;
@@ -32,6 +40,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29771
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -39,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18HotelingMenuKeys
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29771
      * @var string|null
      */
     private $repeatMenu = null;

@@ -7,17 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify the system providers password rule
  *         setting applicable to System Adminstrator, Provisioning Administrator,
- *         and/or Service Provider Administrator, Group Administrator, Department
- * Administrator, User.
+ *         and/or Service Provider Administrator, Group Administrator, Department Administrator, User.
  *         
- *         The following elements are only used in AS data mode and ignored in XS
- * data mode:
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
  *         forcePasswordChangeAfterReset
  *         
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12358","type":"sequence"}]
  */
 class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,6 +24,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName rulesApplyTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemPasswordRulesApplyTo|null
      */
     private $rulesApplyTo = null;
@@ -32,6 +33,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName allowWebAddExternalAuthenticationUsers
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $allowWebAddExternalAuthenticationUsers = null;
@@ -39,6 +42,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName disallowUserId
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $disallowUserId = null;
@@ -46,6 +51,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName disallowOldPassword
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $disallowOldPassword = null;
@@ -53,6 +60,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName disallowReversedOldPassword
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
@@ -60,6 +69,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName restrictMinDigits
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $restrictMinDigits = null;
@@ -67,6 +78,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName minDigits
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var int|null
      */
     private $minDigits = null;
@@ -74,6 +87,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
@@ -81,6 +96,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName minUpperCaseLetters
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -88,6 +105,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
@@ -95,6 +114,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName minLowerCaseLetters
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -102,6 +123,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
@@ -109,6 +132,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName minNonAlphanumericCharacters
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -116,6 +141,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName minLength
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var int|null
      */
     private $minLength = null;
@@ -123,6 +150,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -130,6 +159,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName passwordExpiresDays
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -137,6 +168,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -145,6 +178,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -152,6 +187,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName disallowPreviousPasswords
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $disallowPreviousPasswords = null;
@@ -159,6 +196,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName numberOfPreviousPasswords
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var int|null
      */
     private $numberOfPreviousPasswords = null;
@@ -166,6 +205,8 @@ class SystemPasswordRulesModifyRequest14sp3 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName forcePasswordChangeAfterReset
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12358
      * @var bool|null
      */
     private $forcePasswordChangeAfterReset = null;

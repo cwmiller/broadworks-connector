@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemPushNotificationAllowedApplicationGetListResponse
  *
  * Response to SystemPushNotificationAllowedApplicationGetListRequest.
- *         Contains a table with a row for each allowed push notification
- * application with columns:
+ *         Contains a table with a row for each allowed push notification application with columns:
  *         "Application Id", "Description"
  *
  * @see SystemPushNotificationAllowedApplicationGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12956","type":"sequence"}]
  */
 class SystemPushNotificationAllowedApplicationGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class SystemPushNotificationAllowedApplicationGetListResponse extends \CWM\Broad
     /**
      * @ElementName applicationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12956
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $applicationTable = null;

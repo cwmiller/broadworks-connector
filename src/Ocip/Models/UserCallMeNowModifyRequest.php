@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"4b461d8be4f7bfba1e05db8efbd896b6:223","type":"sequence"}]
  */
 class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:223
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:223
      * @var bool|null
      */
     private $isActive = null;
@@ -31,6 +35,8 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName answerConfirmation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation
+     * @Optional
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:223
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowAnswerConfirmation|null
      */
     private $answerConfirmation = null;
@@ -39,6 +45,8 @@ class UserCallMeNowModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName criteriaActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
+     * @Optional
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:223
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(

@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemExpensiveCallNotificationGetRequest.
  *
  * @see SystemExpensiveCallNotificationGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8222","type":"sequence"}]
  */
 class SystemExpensiveCallNotificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class SystemExpensiveCallNotificationGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName enablePostAnnouncementDelayTimer
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8222
      * @var bool|null
      */
     private $enablePostAnnouncementDelayTimer = null;
@@ -22,6 +24,7 @@ class SystemExpensiveCallNotificationGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName postAnnouncementDelaySeconds
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8222
      * @var int|null
      */
     private $postAnnouncementDelaySeconds = null;

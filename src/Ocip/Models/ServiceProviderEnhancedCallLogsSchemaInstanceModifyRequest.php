@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest
  *
- * Modify the Enhanced Call Logs schema instance associated with this Service
- * Provider.
+ * Modify the Enhanced Call Logs schema instance associated with this Service Provider.
  *       The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b1edb32782550c1a52523b734e3143d:186","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b1edb32782550c1a52523b734e3143d:186
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,8 @@ class ServiceProviderEnhancedCallLogsSchemaInstanceModifyRequest extends \CWM\Br
      * @ElementName name
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1b1edb32782550c1a52523b734e3143d:186
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $name = null;

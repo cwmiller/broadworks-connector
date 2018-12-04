@@ -5,19 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse
  *
- * Response to
- * SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest.
- *         The response contains a table with columns: "Mobile Number", "Mobile
- * Network", "Service Provider Id", 
- *         "Is Enterprise", "Group Id", "User Id", "Last Name", "First Name",
- * "Hiragana Last Name", 
+ * Response to SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest.
+ *         The response contains a table with columns: "Mobile Number", "Mobile Network", "Service Provider Id", 
+ *         "Is Enterprise", "Group Id", "User Id", "Last Name", "First Name", "Hiragana Last Name", 
  *         "Hiragana First Name", "Phone Number", "Extension" and "Reseller Id".
  *         
  *         The following columns are only returned in AS data mode:       
  *              "Reseller Id"
  *
- * @see
- * SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest
+ * @see SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRequest
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:854","type":"sequence"}]
  */
 class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,6 +22,7 @@ class SystemBroadWorksMobilityMobileSubscriberDirectoryNumberGetSummaryListRespo
     /**
      * @ElementName mobileSubscriberDirectoryNumbersSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:854
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mobileSubscriberDirectoryNumbersSummaryTable = null;

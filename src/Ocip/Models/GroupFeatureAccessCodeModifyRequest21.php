@@ -17,6 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4715","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4719","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +25,7 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4715
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +33,7 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4715
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +41,8 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useFeatureAccessCodeLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4715
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupFeatureAccessCodeLevel|null
      */
     private $useFeatureAccessCodeLevel = null;
@@ -45,6 +50,8 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName restoreDefaultCodes
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4719
      * @var bool|null
      */
     private $restoreDefaultCodes = null;
@@ -53,6 +60,8 @@ class GroupFeatureAccessCodeModifyRequest21 extends \CWM\BroadWorksConnector\Oci
      * @ElementName featureAccessCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeModifyEntry
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4719
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeModifyEntry[]
      */
     private $featureAccessCode = array(

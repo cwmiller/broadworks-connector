@@ -6,11 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PasswordForAccessDevice
  *
  * Passwords to be generated for an access device.
- *         The combination of serviceProviderId, groupId, and deviceName will be
- * used
+ *         The combination of serviceProviderId, groupId, and deviceName will be used
  *         to find the device if it exists. If the device doesn't exist yet, then
  *         the serviceProviderId and groupId will be used to choose the password
  *         rules with which to generate the device password.
+ *
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:651","type":"sequence"}]
  */
 class PasswordForAccessDevice
 {
@@ -18,6 +19,8 @@ class PasswordForAccessDevice
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:651
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +28,8 @@ class PasswordForAccessDevice
     /**
      * @ElementName groupId
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:651
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +37,8 @@ class PasswordForAccessDevice
     /**
      * @ElementName deviceName
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:651
      * @var string|null
      */
     private $deviceName = null;
@@ -39,6 +46,7 @@ class PasswordForAccessDevice
     /**
      * @ElementName generateDeviceAuthenticationPassword
      * @Type bool
+     * @Group d83be92ebac098705e715f24f025a9a9:651
      * @var bool|null
      */
     private $generateDeviceAuthenticationPassword = null;

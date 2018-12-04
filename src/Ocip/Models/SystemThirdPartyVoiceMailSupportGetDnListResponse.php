@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemThirdPartyVoiceMailSupportGetDnListResponse
  *
  * Response to SystemThirdPartyVoiceMailSupportGetDnListRequest.
- *        Contains a table with a row for each ThirdPartyVoiceMailSupport User DN
- * and column headings:
+ *        Contains a table with a row for each ThirdPartyVoiceMailSupport User DN and column headings:
  *        "Phone Number", "Description"
  *
  * @see SystemThirdPartyVoiceMailSupportGetDnListRequest
+ * @Groups [{"id":"a84192748d1a3645bcd397d847a21d07:157","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportGetDnListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class SystemThirdPartyVoiceMailSupportGetDnListResponse extends \CWM\BroadWorksC
     /**
      * @ElementName thirdPartyVoiceMailSupportTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group a84192748d1a3645bcd397d847a21d07:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $thirdPartyVoiceMailSupportTable = null;

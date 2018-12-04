@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ReplacementZoneList
  *
- * Contains an ordered list of zones to use to replace the current list of zones in
- * an Office Zone.
+ * Contains an ordered list of zones to use to replace the current list of zones in an Office Zone.
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17502","type":"sequence"}]
  */
 class ReplacementZoneList
 {
@@ -15,6 +16,7 @@ class ReplacementZoneList
      * @ElementName zoneName
      * @Type string
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17502
      * @var string[]
      */
     private $zoneName = array(

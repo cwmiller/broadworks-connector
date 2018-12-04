@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Represents either an existing file for the application server to use, or
  *         the contents of a file to transfer with a description.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2179","type":"sequence","children":[{"id":"18b369af88e42ffdb4166615c670ce2c:2182","type":"choice"}]}]
  */
 class LabeledMediaFileResource
 {
@@ -14,6 +16,7 @@ class LabeledMediaFileResource
     /**
      * @ElementName description
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2179
      * @var string|null
      */
     private $description = null;
@@ -21,6 +24,7 @@ class LabeledMediaFileResource
     /**
      * @ElementName mediaType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MediaFileType
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2179
      * @var \CWM\BroadWorksConnector\Ocip\Models\MediaFileType|null
      */
     private $mediaType = null;
@@ -28,6 +32,7 @@ class LabeledMediaFileResource
     /**
      * @ElementName sourceFileName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2182
      * @var string|null
      */
     private $sourceFileName = null;
@@ -35,6 +40,7 @@ class LabeledMediaFileResource
     /**
      * @ElementName content
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2182
      * @var string|null
      */
     private $content = null;

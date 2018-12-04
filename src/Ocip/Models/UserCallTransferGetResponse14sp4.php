@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserCallTransferGetRequest14sp4.
  *
  * @see UserCallTransferGetRequest14sp4
+ * @Groups [{"id":"dda61cf0249f37fa1fa0289a9794a2da:57","type":"sequence"}]
  */
 class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isRecallActive
      * @Type bool
+     * @Group dda61cf0249f37fa1fa0289a9794a2da:57
      * @var bool|null
      */
     private $isRecallActive = null;
@@ -22,6 +24,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName recallNumberOfRings
      * @Type int
+     * @Group dda61cf0249f37fa1fa0289a9794a2da:57
      * @var int|null
      */
     private $recallNumberOfRings = null;
@@ -29,6 +32,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useDiversionInhibitorForBlindTransfer
      * @Type bool
+     * @Group dda61cf0249f37fa1fa0289a9794a2da:57
      * @var bool|null
      */
     private $useDiversionInhibitorForBlindTransfer = null;
@@ -36,6 +40,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useDiversionInhibitorForConsultativeCalls
      * @Type bool
+     * @Group dda61cf0249f37fa1fa0289a9794a2da:57
      * @var bool|null
      */
     private $useDiversionInhibitorForConsultativeCalls = null;
@@ -43,6 +48,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableBusyCampOn
      * @Type bool
+     * @Group dda61cf0249f37fa1fa0289a9794a2da:57
      * @var bool|null
      */
     private $enableBusyCampOn = null;
@@ -50,6 +56,7 @@ class UserCallTransferGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName busyCampOnSeconds
      * @Type int
+     * @Group dda61cf0249f37fa1fa0289a9794a2da:57
      * @var int|null
      */
     private $busyCampOnSeconds = null;

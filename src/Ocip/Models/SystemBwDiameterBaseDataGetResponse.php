@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of System Diameter base parameters.
  *
  * @see SystemBwDiameterBaseDataGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17889","type":"sequence"}]
  */
 class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName xsRealm
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var string|null
      */
     private $xsRealm = null;
@@ -23,6 +26,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName xsListeningPort
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var int|null
      */
     private $xsListeningPort = null;
@@ -30,6 +34,8 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName psRealm
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var string|null
      */
     private $psRealm = null;
@@ -37,6 +43,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName psListeningPort
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var int|null
      */
     private $psListeningPort = null;
@@ -44,6 +51,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName psRelayThroughXs
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var bool|null
      */
     private $psRelayThroughXs = null;
@@ -51,6 +59,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName xsRelayListeningPort
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var int|null
      */
     private $xsRelayListeningPort = null;
@@ -58,6 +67,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName tcTimerSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var int|null
      */
     private $tcTimerSeconds = null;
@@ -65,6 +75,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName twTimerSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var int|null
      */
     private $twTimerSeconds = null;
@@ -72,6 +83,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName requestTimerSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var int|null
      */
     private $requestTimerSeconds = null;
@@ -79,6 +91,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName busyPeerDetectionOutstandingTxnCount
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var int|null
      */
     private $busyPeerDetectionOutstandingTxnCount = null;
@@ -86,6 +99,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName busyPeerRestoreOutstandingTxnCount
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var int|null
      */
     private $busyPeerRestoreOutstandingTxnCount = null;
@@ -93,6 +107,7 @@ class SystemBwDiameterBaseDataGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName dynamicEntryInactivityTimerHours
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17889
      * @var int|null
      */
     private $dynamicEntryInactivityTimerHours = null;

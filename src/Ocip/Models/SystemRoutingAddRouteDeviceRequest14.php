@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13363","type":"sequence"}]
  */
 class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName routeName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13363
      * @var string|null
      */
     private $routeName = null;
@@ -24,6 +26,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName netAddress
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13363
      * @var string|null
      */
     private $netAddress = null;
@@ -31,6 +34,8 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName port
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13363
      * @var int|null
      */
     private $port = null;
@@ -38,6 +43,7 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13363
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -45,6 +51,8 @@ class SystemRoutingAddRouteDeviceRequest14 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13363
      * @var string|null
      */
     private $description = null;

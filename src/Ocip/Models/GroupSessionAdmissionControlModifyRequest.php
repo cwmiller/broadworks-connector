@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6929","type":"sequence"}]
  */
 class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6929
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6929
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,8 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName restrictAggregateSessions
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6929
      * @var bool|null
      */
     private $restrictAggregateSessions = null;
@@ -39,6 +44,8 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName maxSessions
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6929
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxSessions = null;
@@ -47,6 +54,8 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName maxUserOriginatingSessions
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6929
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserOriginatingSessions = null;
@@ -55,6 +64,8 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName maxUserTerminatingSessions
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6929
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxUserTerminatingSessions = null;
@@ -62,6 +73,8 @@ class GroupSessionAdmissionControlModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName countIntraGroupSessions
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6929
      * @var bool|null
      */
     private $countIntraGroupSessions = null;

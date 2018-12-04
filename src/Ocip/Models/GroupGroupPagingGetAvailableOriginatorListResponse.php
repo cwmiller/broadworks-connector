@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingGetAvailableOriginatorListResponse
  *
  * Response to the GroupGroupPagingGetAvailableOriginatorListRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name" and "Hiragana First Name",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name" and "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupGroupPagingGetAvailableOriginatorListRequest
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:196","type":"sequence"}]
  */
 class GroupGroupPagingGetAvailableOriginatorListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class GroupGroupPagingGetAvailableOriginatorListResponse extends \CWM\BroadWorks
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

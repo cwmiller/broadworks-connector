@@ -12,7 +12,7 @@ class XmlUtilsTest extends \PHPUnit\Framework\TestCase
 {
     public function testFromXml()
     {
-        $xml = TestData::LoginResponse14sp4Xml();
+        $xml = XmlTestData::LoginResponse14sp4Xml();
 
         /** @var OCIMessage $broadsoftDocument */
         $broadsoftDocument = XmlUtils::fromXml($xml->firstChild,
@@ -55,7 +55,7 @@ class XmlUtilsTest extends \PHPUnit\Framework\TestCase
         $broadsoftDocument->appendChild($commandElement);
         $document->appendChild($broadsoftDocument);
 
-        XmlUtils::toXml(TestData::groupOutgoingCallingPlanRedirectingModifyListRequest(), $commandElement, $document);
+        XmlUtils::toXml(XmlTestData::groupOutgoingCallingPlanRedirectingModifyListRequest(), $commandElement, $document);
 
         $this->assertStringEqualsFile(__DIR__ . '/GroupOutgoingCallingPlanRedirectingModifyListRequest.xml', $document->saveXML());
     }

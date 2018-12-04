@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDnDeleteListRequest
  *
- * Deletes DNs from a service provider. It is possible to delete either: a single
- * DN,
+ * Deletes DNs from a service provider. It is possible to delete either: a single DN,
  *         or a list of DNs, or a range of DNs, or any combination thereof.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3093","type":"sequence"}]
  */
 class ServiceProviderDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class ServiceProviderDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3093
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,8 @@ class ServiceProviderDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3093
      * @var string[]
      */
     private $phoneNumber = array(
@@ -37,6 +40,8 @@ class ServiceProviderDnDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3093
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

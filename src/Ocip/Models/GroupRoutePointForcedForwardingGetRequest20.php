@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointForcedForwardingGetRequest20
  *
  * Get a route point's forced forwarding settings.
- *         The response is either a GroupRoutePointForcedForwardingGetResponse20 or
- * an ErrorResponse.
+ *         The response is either a GroupRoutePointForcedForwardingGetResponse20 or an ErrorResponse.
  *
  * @see GroupRoutePointForcedForwardingGetResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:286","type":"sequence"}]
  */
 class GroupRoutePointForcedForwardingGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointForcedForwardingGetRequest20 extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:286
      * @var string|null
      */
     private $serviceUserId = null;

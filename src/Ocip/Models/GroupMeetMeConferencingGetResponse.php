@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupMeetMeConferencingGetRequest.
  *
  * @see GroupMeetMeConferencingGetRequest
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:253","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName availablePorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
+     * @Group e51a0a16349851c3fad768a24a35838d:253
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $availablePorts = null;
@@ -22,6 +24,7 @@ class GroupMeetMeConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName allocatedPorts
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts
+     * @Group e51a0a16349851c3fad768a24a35838d:253
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferencePorts|null
      */
     private $allocatedPorts = null;

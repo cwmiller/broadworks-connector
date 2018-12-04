@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Return a table containing the list of users assigned the user service
  *         or service pack.  The table contains columns: "User Id", "Last Name",
- *         "First Name", "Department", "Phone Number", "Email Address", "Hiragana
- * Last Name";
+ *         "First Name", "Department", "Phone Number", "Email Address", "Hiragana Last Name";
  *         "Hiragana First Name", "Extension".
  *         This is a response to the GroupGetUserServiceAssignedUserListRequest.
  *
  * @see GroupGetUserServiceAssignedUserListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5044","type":"sequence"}]
  */
 class GroupGetUserServiceAssignedUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +20,7 @@ class GroupGetUserServiceAssignedUserListResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName userListTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5044
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userListTable = null;

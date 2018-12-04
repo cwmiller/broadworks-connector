@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemRoutePointExternalSystemGetRoutePointListRequest
  *
- * Get a list of Route Points that are using the specified Route Point External
- * System.
- *       The response is either a
- * SystemRoutePointExternalSystemGetRoutePointListResponse or an
+ * Get a list of Route Points that are using the specified Route Point External System.
+ *       The response is either a SystemRoutePointExternalSystemGetRoutePointListResponse or an
  *       ErrorResponse.
  *
  * @see SystemRoutePointExternalSystemGetRoutePointListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13314","type":"sequence"}]
  */
 class SystemRoutePointExternalSystemGetRoutePointListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class SystemRoutePointExternalSystemGetRoutePointListRequest extends \CWM\BroadW
     /**
      * @ElementName routePointExternalSystem
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13314
      * @var string|null
      */
     private $routePointExternalSystem = null;

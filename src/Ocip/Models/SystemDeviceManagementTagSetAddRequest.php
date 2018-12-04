@@ -6,18 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDeviceManagementTagSetAddRequest
  *
  * Request to add a static configuration tag set.
- *         When the optional element resellerId is specified, the tag set created
- * is at reseller level. Tag set name 
- *         should be unique through out the system including all the reseller level
- * tag sets.
+ *         When the optional element resellerId is specified, the tag set created is at reseller level. Tag set name 
+ *         should be unique through out the system including all the reseller level tag sets.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
- *         The following elements are only used in AS data mode and ignored in the
- * XS data mode:
+ *         The following elements are only used in AS data mode and ignored in the XS data mode:
  *           resellerId
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6952","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,6 +23,7 @@ class SystemDeviceManagementTagSetAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName tagSetName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6952
      * @var string|null
      */
     private $tagSetName = null;
@@ -32,6 +31,8 @@ class SystemDeviceManagementTagSetAddRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6952
      * @var string|null
      */
     private $resellerId = null;

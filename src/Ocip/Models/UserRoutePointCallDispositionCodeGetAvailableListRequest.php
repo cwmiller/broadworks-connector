@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserRoutePointCallDispositionCodeGetAvailableListRequest
  *
- * Get the list of available Route Point Call Disposition Codes to be used by a
- * client.
- *         The response is either
- * UserRoutePointCallDispositionCodeGetAvailableListResponse or ErrorResponse.
+ * Get the list of available Route Point Call Disposition Codes to be used by a client.
+ *         The response is either UserRoutePointCallDispositionCodeGetAvailableListResponse or ErrorResponse.
  *
  * @see UserRoutePointCallDispositionCodeGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:1199","type":"sequence"}]
  */
 class UserRoutePointCallDispositionCodeGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class UserRoutePointCallDispositionCodeGetAvailableListRequest extends \CWM\Broa
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:1199
      * @var string|null
      */
     private $serviceUserId = null;

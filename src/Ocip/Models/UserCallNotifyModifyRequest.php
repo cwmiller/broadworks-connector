@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"23795cc8a851f0b06c683fee78a45964:250","type":"sequence"}]
  */
 class UserCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
+     * @Group 23795cc8a851f0b06c683fee78a45964:250
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName callNotifyEmailAddress
      * @Type string
+     * @Optional
+     * @Group 23795cc8a851f0b06c683fee78a45964:250
      * @var string|null
      */
     private $callNotifyEmailAddress = null;
@@ -32,6 +36,8 @@ class UserCallNotifyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName criteriaActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
+     * @Optional
+     * @Group 23795cc8a851f0b06c683fee78a45964:250
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(

@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderMWIDeliveryToMobileEndpointGetRequest
  *
- * Request the service provider level data associated with MWI Delivery to Mobile
- * Endpoint service.
- *         The response is either a
- * ServiceProviderMWIDeliveryToMobileEndpointGetResponse or an ErrorResponse.
+ * Request the service provider level data associated with MWI Delivery to Mobile Endpoint service.
+ *         The response is either a ServiceProviderMWIDeliveryToMobileEndpointGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderMWIDeliveryToMobileEndpointGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:301","type":"sequence"}]
  */
 class ServiceProviderMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderMWIDeliveryToMobileEndpointGetRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:301
      * @var string|null
      */
     private $serviceProviderId = null;

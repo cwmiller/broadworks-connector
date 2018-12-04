@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityMobileNetworkGetRequest
  *
  * Get a Mobile Network.
- *         The response is either SystemBroadWorksMobilityMobileNetworkGetResponse
- * or ErrorResponse.
+ *         The response is either SystemBroadWorksMobilityMobileNetworkGetResponse or ErrorResponse.
  *
  * @see SystemBroadWorksMobilityMobileNetworkGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:756","type":"sequence"}]
  */
 class SystemBroadWorksMobilityMobileNetworkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemBroadWorksMobilityMobileNetworkGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName name
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:756
      * @var string|null
      */
     private $name = null;

@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserMusicOnHoldUserGetResponse
  * @see ErrorResponse
  * @see UserMusicOnHoldUserGetRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36577","type":"sequence"}]
  */
 class UserMusicOnHoldUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,7 @@ class UserMusicOnHoldUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36577
      * @var string|null
      */
     private $userId = null;

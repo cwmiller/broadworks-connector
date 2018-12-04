@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * DeviceManagementFileAuthLocationGetRequest20sp1
  *
- * Get the address and credentials of the File Repository hosting the requested
- * access device file. 
+ * Get the address and credentials of the File Repository hosting the requested access device file. 
  *         Also get the file name and path on the File Repository. 
- *         The response is either a
- * DeviceManagementFileAuthLocationGetResponse20sp1 or an ErrorResponse. 
+ *         The response is either a DeviceManagementFileAuthLocationGetResponse20sp1 or an ErrorResponse. 
  *         Replaced by: DeviceManagementFileAuthLocationGetRequest21sp1.
  *
  * @see DeviceManagementFileAuthLocationGetResponse20sp1
  * @see ErrorResponse
  * @see DeviceManagementFileAuthLocationGetRequest21sp1
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:975","type":"sequence"}]
  */
 class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
@@ -29,6 +29,7 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceAccessMethod
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var string|null
      */
     private $deviceAccessMethod = null;
@@ -36,6 +37,7 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceAccessURI
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var string|null
      */
     private $deviceAccessURI = null;
@@ -43,6 +45,8 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName accessDeviceUserName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var string|null
      */
     private $accessDeviceUserName = null;
@@ -50,6 +54,8 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName accessDeviceUserPassword
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var string|null
      */
     private $accessDeviceUserPassword = null;
@@ -57,6 +63,8 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName signedPassword
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var string|null
      */
     private $signedPassword = null;
@@ -64,6 +72,8 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName macAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var string|null
      */
     private $macAddress = null;
@@ -71,6 +81,8 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName realmName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var string|null
      */
     private $realmName = null;
@@ -78,6 +90,8 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName digestHa1Complement
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var string|null
      */
     private $digestHa1Complement = null;
@@ -85,6 +99,8 @@ class DeviceManagementFileAuthLocationGetRequest20sp1 extends \CWM\BroadWorksCon
     /**
      * @ElementName digestResponse
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:975
      * @var string|null
      */
     private $digestResponse = null;

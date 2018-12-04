@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31697","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName voiceMessaging
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voiceMessaging = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName commPilotExpressProfile
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $commPilotExpressProfile = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName personalizedName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
@@ -36,6 +44,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName callForwardingOptions
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callForwardingOptions = null;
@@ -44,6 +54,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName voicePortalCalling
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $voicePortalCalling = null;
@@ -52,6 +64,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName hoteling
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hoteling = null;
@@ -60,6 +74,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName passcode
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $passcode = null;
@@ -68,6 +84,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName exitVoicePortal
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $exitVoicePortal = null;
@@ -76,6 +94,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
@@ -84,6 +104,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestVoicePortalMainMenuK
      * @ElementName externalRouting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31697
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $externalRouting = null;

@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemAliasGetListResponse
  *
- * Response to SystemAliasGetListRequest. Contains the list of all network alias'
- * for
+ * Response to SystemAliasGetListRequest. Contains the list of all network alias' for
  *         the Application Server.
  *
  * @see SystemAliasGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1795","type":"sequence"}]
  */
 class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,8 @@ class SystemAliasGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName aliasNetAddress
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1795
      * @var string[]
      */
     private $aliasNetAddress = array(

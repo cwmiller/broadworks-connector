@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPortalPasscodeRulesGetRequest
  *
  * Requests the effective passcode rules setting for a user.
- *         The response is either UserPortalPasscodeRulesGetResponse or
- * ErrorResponse.
+ *         The response is either UserPortalPasscodeRulesGetResponse or ErrorResponse.
  *
  * @see UserPortalPasscodeRulesGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2719","type":"choice","children":[{"id":"489b2153267470be8e945bf6b778e0d0:2720","type":"sequence"},{"id":"489b2153267470be8e945bf6b778e0d0:2723","type":"sequence"}]}]
  */
 class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:2720
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:2723
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -32,6 +34,7 @@ class UserPortalPasscodeRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:2723
      * @var string|null
      */
     private $groupId = null;

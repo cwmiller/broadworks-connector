@@ -5,8 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SessionStartResponse
  *
- * SessionStartRequest/Response is sent when a Web or CLI user logs in. The data
- * elements returned in the response
+ * SessionStartRequest/Response is sent when a Web or CLI user logs in. The data elements returned in the response
  *           should be cached if needed later during the user session.
  *           
  *           The following elements are only used in AS data mode:
@@ -19,6 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SessionStartRequest
  * @see SessionStartResponse22
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:571","type":"sequence"}]
  */
 class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -26,6 +26,8 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName loginType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LoginType
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:571
      * @var \CWM\BroadWorksConnector\Ocip\Models\LoginType|null
      */
     private $loginType = null;
@@ -33,6 +35,8 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName encoding
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:571
      * @var string|null
      */
     private $encoding = null;
@@ -40,6 +44,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isIMSMode
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:571
      * @var bool|null
      */
     private $isIMSMode = null;
@@ -47,6 +52,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName deploymentMode
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:571
      * @var string|null
      */
     private $deploymentMode = null;
@@ -54,6 +60,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isHPBXLicensed
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:571
      * @var bool|null
      */
     private $isHPBXLicensed = null;
@@ -61,6 +68,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isLawfulInterceptLicensed
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:571
      * @var bool|null
      */
     private $isLawfulInterceptLicensed = null;
@@ -68,6 +76,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isSecurityAdministrationLicensed
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:571
      * @var bool|null
      */
     private $isSecurityAdministrationLicensed = null;
@@ -75,6 +84,7 @@ class SessionStartResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDat
     /**
      * @ElementName isCLIDDeliveryPrefixLicensed
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:571
      * @var bool|null
      */
     private $isCLIDDeliveryPrefixLicensed = null;

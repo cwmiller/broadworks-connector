@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Assigned User Services List Entry.
  *         The isActive element is true, false, or could be missing completely.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:375","type":"sequence"}]
  */
 class AssignedUserServicesEntry
 {
@@ -14,6 +16,7 @@ class AssignedUserServicesEntry
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
+     * @Group 18b369af88e42ffdb4166615c670ce2c:375
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $serviceName = null;
@@ -21,6 +24,8 @@ class AssignedUserServicesEntry
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:375
      * @var bool|null
      */
     private $isActive = null;

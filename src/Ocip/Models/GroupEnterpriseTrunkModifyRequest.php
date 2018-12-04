@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:806","type":"sequence","children":[{"id":"5472d4b45ad0ad56e4f82361e2a66a53:814","type":"choice","optional":true,"children":[{"id":"5472d4b45ad0ad56e4f82361e2a66a53:818","type":"sequence"},{"id":"5472d4b45ad0ad56e4f82361e2a66a53:827","type":"sequence"}]}]}]
  */
 class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enterpriseTrunkName
      * @Type string
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var string|null
      */
     private $enterpriseTrunkName = null;
@@ -38,6 +42,8 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName newEnterpriseTrunkName
      * @Type string
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var string|null
      */
     private $newEnterpriseTrunkName = null;
@@ -45,6 +51,8 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
@@ -52,6 +60,8 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
@@ -60,6 +70,8 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName routeExhaustionForwardAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routeExhaustionForwardAddress = null;
@@ -67,6 +79,7 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestOrderedRouting
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:814
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestOrderedRouting|null
      */
     private $orderedRouting = null;
@@ -74,6 +87,7 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:814
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEnterpriseTrunkModifyRequestPriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;
@@ -81,6 +95,8 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enableCapacityManagement
      * @Type bool
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var bool|null
      */
     private $enableCapacityManagement = null;
@@ -89,6 +105,8 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName maxActiveCalls
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $maxActiveCalls = null;
@@ -97,6 +115,8 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -105,6 +125,8 @@ class GroupEnterpriseTrunkModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:806
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $capacityExceededTrapOffsetCalls = null;

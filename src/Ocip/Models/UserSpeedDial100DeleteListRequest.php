@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"36d45d852a06f31a5078c9ad46622b49:160","type":"sequence"}]
  */
 class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 36d45d852a06f31a5078c9ad46622b49:160
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserSpeedDial100DeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName speedCode
      * @Type int
      * @Array
+     * @Optional
+     * @Group 36d45d852a06f31a5078c9ad46622b49:160
      * @var int[]
      */
     private $speedCode = array(

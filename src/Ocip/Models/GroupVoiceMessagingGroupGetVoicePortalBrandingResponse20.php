@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20.
  *
  * @see GroupVoiceMessagingGroupGetVoicePortalBrandingRequest20
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:169","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
     /**
      * @ElementName voicePortalGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
@@ -22,6 +24,8 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
     /**
      * @ElementName voicePortalGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $voicePortalGreetingFile = null;
@@ -29,6 +33,7 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
     /**
      * @ElementName voiceMessagingGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
@@ -36,6 +41,8 @@ class GroupVoiceMessagingGroupGetVoicePortalBrandingResponse20 extends \CWM\Broa
     /**
      * @ElementName voiceMessagingGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:169
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $voiceMessagingGreetingFile = null;

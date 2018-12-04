@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanSustainedAuthorizationCodeGetRequest
  *
  * Request the sustained authorization code setting for a user.
- *         The response is either a
- * UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse or an ErrorResponse.
  *         Engineering Note: This command is used internally by Call Processing.
  *
  * @see UserOutgoingCallingPlanSustainedAuthorizationCodeGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1633","type":"sequence"}]
  */
 class UserOutgoingCallingPlanSustainedAuthorizationCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class UserOutgoingCallingPlanSustainedAuthorizationCodeGetRequest extends \CWM\B
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1633
      * @var string|null
      */
     private $userId = null;

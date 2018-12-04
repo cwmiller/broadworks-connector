@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Mail parameters.
  *
  * @see SystemMailParametersGetListRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22873","type":"sequence"}]
  */
 class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName primaryServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22873
      * @var string|null
      */
     private $primaryServerNetAddress = null;
@@ -23,6 +26,8 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName secondaryServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22873
      * @var string|null
      */
     private $secondaryServerNetAddress = null;
@@ -30,6 +35,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultFromAddress
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22873
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -37,6 +43,8 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName defaultSubject
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22873
      * @var string|null
      */
     private $defaultSubject = null;
@@ -44,6 +52,7 @@ class SystemMailParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName supportDNSSRVForMailServerAccess
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22873
      * @var bool|null
      */
     private $supportDNSSRVForMailServerAccess = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GreetingsMenuKeysModifyEntry
  *
  * The voice portal greeting menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2593","type":"sequence"}]
  */
 class GreetingsMenuKeysModifyEntry
 {
@@ -14,6 +16,8 @@ class GreetingsMenuKeysModifyEntry
      * @ElementName personalizedName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2593
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $personalizedName = null;
@@ -22,6 +26,8 @@ class GreetingsMenuKeysModifyEntry
      * @ElementName conferenceGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2593
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $conferenceGreeting = null;
@@ -29,6 +35,8 @@ class GreetingsMenuKeysModifyEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2593
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -37,6 +45,8 @@ class GreetingsMenuKeysModifyEntry
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2593
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

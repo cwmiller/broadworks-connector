@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupPreferredCarrierGroupGetRequest
  *
  * Requests the currently configured carriers for a group.
- *         The response is either a GroupPreferredCarrierGroupGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupPreferredCarrierGroupGetResponse or an ErrorResponse.
  *
  * @see GroupPreferredCarrierGroupGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:59","type":"sequence"}]
  */
 class GroupPreferredCarrierGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupPreferredCarrierGroupGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1384777ce7bd407156102bad44751987:59
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupPreferredCarrierGroupGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1384777ce7bd407156102bad44751987:59
      * @var string|null
      */
     private $groupId = null;

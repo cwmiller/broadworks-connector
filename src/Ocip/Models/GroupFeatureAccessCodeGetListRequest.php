@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFeatureAccessCodeGetListRequest
  *
  * Get the list of feature access codes for a group.
- *         The response is either a GroupFeatureAccessCodeGetListResponse or an
- * ErrorResponse.
+ *         The response is either a GroupFeatureAccessCodeGetListResponse or an ErrorResponse.
  *         Replaced by: GroupFeatureAccessCodeGetRequest
  *
  * @see GroupFeatureAccessCodeGetListResponse
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:8162","type":"sequence"}]
  */
 class GroupFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8162
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupFeatureAccessCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8162
      * @var string|null
      */
     private $groupId = null;

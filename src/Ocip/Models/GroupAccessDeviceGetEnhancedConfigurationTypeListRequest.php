@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the list of configurable device types of devices that have already been
  *         added to the group.
- *         The response is either
- * GroupAccessDeviceGetEnhancedConfigurationTypeListResponse
+ *         The response is either GroupAccessDeviceGetEnhancedConfigurationTypeListResponse
  *         or ErrorResponse.
  *
  * @see GroupAccessDeviceGetEnhancedConfigurationTypeListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:597","type":"sequence"}]
  */
 class GroupAccessDeviceGetEnhancedConfigurationTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:597
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupAccessDeviceGetEnhancedConfigurationTypeListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:597
      * @var string|null
      */
     private $groupId = null;

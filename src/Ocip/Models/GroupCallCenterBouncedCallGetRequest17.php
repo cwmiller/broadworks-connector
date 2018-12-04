@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterBouncedCallGetRequest17
  *
  * Get a call center's bounced call settings.
- *         The response is either a GroupCallCenterBouncedCallGetResponse17 or an
- * ErrorResponse.
+ *         The response is either a GroupCallCenterBouncedCallGetResponse17 or an ErrorResponse.
  *
  * @see GroupCallCenterBouncedCallGetResponse17
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2395","type":"sequence"}]
  */
 class GroupCallCenterBouncedCallGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterBouncedCallGetRequest17 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2395
      * @var string|null
      */
     private $serviceUserId = null;

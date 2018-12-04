@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPAuthenticationTrunkGroupLockoutGetRequest
  *
  * Request to get sip authentication trunk group lockout data in the system.
- *          The response is either a
- * SystemSIPAuthenticationTrunkGroupLockoutGetResponse or an ErrorResponse.
+ *          The response is either a SystemSIPAuthenticationTrunkGroupLockoutGetResponse or an ErrorResponse.
  *
  * @see SystemSIPAuthenticationTrunkGroupLockoutGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14706","type":"sequence"}]
  */
 class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,8 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14706
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -26,6 +28,8 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
      * @ElementName searchCriteriaServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14706
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -35,6 +39,8 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14706
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     private $searchCriteriaExactOrganizationType = null;
@@ -43,6 +49,8 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14706
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -53,6 +61,8 @@ class SystemSIPAuthenticationTrunkGroupLockoutGetRequest extends \CWM\BroadWorks
      * @ElementName searchCriteriaTrunkGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14706
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     private $searchCriteriaTrunkGroupName = array(

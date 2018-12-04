@@ -6,8 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SimultaneousRingReplacementNumberList
  *
  * A list of Simultaneous Ring numbers that replaces a previously configured list.
- *         By convention, an element of this type may be set nill to clear the
- * list.
+ *         By convention, an element of this type may be set nill to clear the list.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3489","type":"sequence"}]
  */
 class SimultaneousRingReplacementNumberList
 {
@@ -16,6 +17,7 @@ class SimultaneousRingReplacementNumberList
      * @ElementName simultaneousRingNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
      * @Array
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3489
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     private $simultaneousRingNumber = array(

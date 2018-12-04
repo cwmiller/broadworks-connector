@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCPEConfigSetConfigFileRequest
  *
- * Request to set a new service provider default configuration file for a device
- * type.
+ * Request to set a new service provider default configuration file for a device type.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
- *         When the element configFile is set to nil, the configuration file
- * defined
+ *         When the element configFile is set to nil, the configuration file defined
  *         at the parent level is used.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2147","type":"sequence"}]
  */
 class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2147
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +29,7 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2147
      * @var string|null
      */
     private $deviceType = null;
@@ -37,6 +38,7 @@ class ServiceProviderCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnec
      * @ElementName configFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
      * @Nillable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2147
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configFile = null;

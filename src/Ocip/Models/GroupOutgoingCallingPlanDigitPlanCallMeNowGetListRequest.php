@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest
  *
- * Request the Call Me Now call permissions for digit patterns for a group default
- * and it's departments.
- *         The response is either a
- * GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse or an ErrorResponse.
+ * Request the Call Me Now call permissions for digit patterns for a group default and it's departments.
+ *         The response is either a GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse or an ErrorResponse.
  *
  * @see GroupOutgoingCallingPlanDigitPlanCallMeNowGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:267","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:267
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowGetListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:267
      * @var string|null
      */
     private $groupId = null;

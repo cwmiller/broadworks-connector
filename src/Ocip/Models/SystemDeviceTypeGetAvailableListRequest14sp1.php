@@ -5,15 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceTypeGetAvailableListRequest14sp1
  *
- * Requests a list of non-obsolete Identity/device profile types defined in the
- * system. It is possible
- *         to get either all conference device types or all non-conferernce types.
- * This command is similar
- *         to the SystemSIPDeviceTypeGetListRequest and
- * SystemMGCPDeviceTypeGetListRequest
+ * Requests a list of non-obsolete Identity/device profile types defined in the system. It is possible
+ *         to get either all conference device types or all non-conferernce types. This command is similar
+ *         to the SystemSIPDeviceTypeGetListRequest and SystemMGCPDeviceTypeGetListRequest
  *         but gets both SIP and MGCP types.
- *         The response is either SystemDeviceTypeGetAvailableListResponse14sp1 or
- * ErrorResponse.
+ *         The response is either SystemDeviceTypeGetAvailableListResponse14sp1 or ErrorResponse.
  *         Replaced By: SystemDeviceTypeGetAvailableListRequest14sp3
  *
  * @see SystemSIPDeviceTypeGetListRequest
@@ -21,6 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDeviceTypeGetAvailableListResponse14sp1
  * @see ErrorResponse
  * @see SystemDeviceTypeGetAvailableListRequest14sp3
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21562","type":"sequence"}]
  */
 class SystemDeviceTypeGetAvailableListRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,6 +25,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowConference
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21562
      * @var bool|null
      */
     private $allowConference = null;
@@ -35,6 +33,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowMusicOnHold
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21562
      * @var bool|null
      */
     private $allowMusicOnHold = null;
@@ -42,6 +41,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName onlyConference
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21562
      * @var bool|null
      */
     private $onlyConference = null;
@@ -49,6 +49,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21562
      * @var bool|null
      */
     private $onlyVideoCapable = null;
@@ -56,6 +57,7 @@ class SystemDeviceTypeGetAvailableListRequest14sp1 extends \CWM\BroadWorksConnec
     /**
      * @ElementName onlyOptionalIpAddress
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21562
      * @var bool|null
      */
     private $onlyOptionalIpAddress = null;

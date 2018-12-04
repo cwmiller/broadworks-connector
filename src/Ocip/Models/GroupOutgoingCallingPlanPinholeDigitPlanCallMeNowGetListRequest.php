@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListRequest
  *
- * Request the Call Me Now permissions for Pinhole digit patterns for a group
- * default and its departments.
- *         The response is either a
- * GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListResponse or an
- * ErrorResponse.
+ * Request the Call Me Now permissions for Pinhole digit patterns for a group default and its departments.
+ *         The response is either a GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListResponse or an ErrorResponse.
  *
  * @see GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:564","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListRequest extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:564
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +26,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanCallMeNowGetListRequest extends \C
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:564
      * @var string|null
      */
     private $groupId = null;

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserHotelingGuestGetRequest14sp2
  *
  * Request the user level data associated with Hoteling Guest.
- *         The response is either a UserHotelingGuestGetResponse14 or an
- * ErrorResponse.
+ *         The response is either a UserHotelingGuestGetResponse14 or an ErrorResponse.
  *         Replaced by: UserHotelingGuestGetRequest14sp4
  *
  * @see UserHotelingGuestGetResponse14
  * @see ErrorResponse
  * @see UserHotelingGuestGetRequest14sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:35985","type":"sequence"}]
  */
 class UserHotelingGuestGetRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserHotelingGuestGetRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:35985
      * @var string|null
      */
     private $userId = null;

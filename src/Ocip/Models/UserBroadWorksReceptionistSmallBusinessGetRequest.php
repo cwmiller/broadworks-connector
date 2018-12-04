@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksReceptionistSmallBusinessGetRequest
  *
  * Request the Receptionist Small Business parameters.
- *         The response is either a
- * UserBroadWorksReceptionistSmallBusinessGetResponse or an ErrorResponse.
+ *         The response is either a UserBroadWorksReceptionistSmallBusinessGetResponse or an ErrorResponse.
  *
  * @see UserBroadWorksReceptionistSmallBusinessGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"f8d6e78d32461454e3cb9f1deb7bb626:88","type":"sequence"}]
  */
 class UserBroadWorksReceptionistSmallBusinessGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserBroadWorksReceptionistSmallBusinessGetRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
+     * @Group f8d6e78d32461454e3cb9f1deb7bb626:88
      * @var string|null
      */
     private $userId = null;

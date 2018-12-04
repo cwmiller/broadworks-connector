@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallingLineIdGetRequest
  *
  * Get the calling line id settings for a group.
- *         The response is either a GroupCallingLineIdGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupCallingLineIdGetResponse or an ErrorResponse.
  *
  * @see GroupCallingLineIdGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:5959","type":"sequence"}]
  */
 class GroupCallingLineIdGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallingLineIdGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:5959
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallingLineIdGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:5959
      * @var string|null
      */
     private $groupId = null;

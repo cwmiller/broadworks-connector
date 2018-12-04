@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderVoiceMessagingGroupGetRequest
  *
  * Requests the service provider's or enterprise's voice messaging settings.
- *         The response is either ServiceProviderVoiceMessagingGroupGetResponse or
- * ErrorResponse.
+ *         The response is either ServiceProviderVoiceMessagingGroupGetResponse or ErrorResponse.
  *
  * @see ServiceProviderVoiceMessagingGroupGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:318","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderVoiceMessagingGroupGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:318
      * @var string|null
      */
     private $serviceProviderId = null;

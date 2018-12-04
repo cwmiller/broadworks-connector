@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of assigned Call to Numbers".
  *
  * @see UserPersonalAssistantCallToNumberGetListRequest
+ * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:144","type":"sequence"}]
  */
 class UserPersonalAssistantCallToNumberGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,8 @@ class UserPersonalAssistantCallToNumberGetListResponse extends \CWM\BroadWorksCo
      * @ElementName callToNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
+     * @Optional
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:144
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     private $callToNumber = array(

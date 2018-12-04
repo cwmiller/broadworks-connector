@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDeviceTypeTagSetGetRequest
  *
- * Request to get the custom configuration tag set defined for the service provider
- * and device type.
- *         The response is either ServiceProviderDeviceTypeTagSetGetResponse or
- * ErrorResponse.
+ * Request to get the custom configuration tag set defined for the service provider and device type.
+ *         The response is either ServiceProviderDeviceTypeTagSetGetResponse or ErrorResponse.
  *
  * @see ServiceProviderDeviceTypeTagSetGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2612","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeTagSetGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderDeviceTypeTagSetGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2612
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class ServiceProviderDeviceTypeTagSetGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2612
      * @var string|null
      */
     private $deviceType = null;

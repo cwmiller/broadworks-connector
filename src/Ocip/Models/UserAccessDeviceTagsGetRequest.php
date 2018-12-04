@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserAccessDeviceTagsGetRequest
  *
- * Request to get all the device tag names and values for a specific device. The
- * resolved tags are returned only if the device is the main device for this user.
- *         The response is either a UserAccessDeviceTagsGetResponse or an
- * ErrorResponse.
+ * Request to get all the device tag names and values for a specific device. The resolved tags are returned only if the device is the main device for this user.
+ *         The response is either a UserAccessDeviceTagsGetResponse or an ErrorResponse.
  *
  * @see UserAccessDeviceTagsGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:232","type":"sequence"}]
  */
 class UserAccessDeviceTagsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class UserAccessDeviceTagsGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:232
      * @var string|null
      */
     private $userId = null;
@@ -26,6 +26,7 @@ class UserAccessDeviceTagsGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Group 489b2153267470be8e945bf6b778e0d0:232
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;

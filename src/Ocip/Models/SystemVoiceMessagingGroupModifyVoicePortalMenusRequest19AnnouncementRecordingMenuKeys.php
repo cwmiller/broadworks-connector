@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecordingMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1184","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecordingMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
     /**
      * @ElementName acceptRecording
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1184
      * @var string|null
      */
     private $acceptRecording = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
     /**
      * @ElementName rejectRerecord
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1184
      * @var string|null
      */
     private $rejectRerecord = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1184
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -33,6 +41,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1184
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;
@@ -40,6 +50,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19AnnouncementRecord
     /**
      * @ElementName end
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1184
      * @var string|null
      */
     private $end = null;

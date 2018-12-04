@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterEnhancedReportingGetRequest
  *
  * Request to get an enterprise level call center enhanced reporting setting.
- *         The response is either an
- * EnterpriseCallCenterEnhancedReportingGetResponse or an ErrorResponse.
+ *         The response is either an EnterpriseCallCenterEnhancedReportingGetResponse or an ErrorResponse.
  *         
  *         Replaced by EnterpriseCallCenterEnhancedReportingGetRequest19
  *
  * @see EnterpriseCallCenterEnhancedReportingGetResponse
  * @see ErrorResponse
  * @see EnterpriseCallCenterEnhancedReportingGetRequest19
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1240","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class EnterpriseCallCenterEnhancedReportingGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1240
      * @var string|null
      */
     private $serviceProviderId = null;

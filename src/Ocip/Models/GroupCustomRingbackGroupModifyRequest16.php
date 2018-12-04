@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCustomRingbackGroupModifyRequest20
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:1063","type":"sequence"}]
  */
 class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,7 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1063
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +29,7 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1063
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +37,8 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1063
      * @var bool|null
      */
     private $isActive = null;
@@ -41,6 +46,8 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1063
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
@@ -48,6 +55,8 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1063
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $audioFile = null;
@@ -55,6 +64,8 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1063
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
@@ -62,6 +73,8 @@ class GroupCustomRingbackGroupModifyRequest16 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1063
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedMediaFileResource|null
      */
     private $videoFile = null;

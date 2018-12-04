@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse18FaxMessagingMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:29948","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18FaxMessagingMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18FaxMessagingMenuKeys
     /**
      * @ElementName saveFaxMessageAndSkipToNext
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29948
      * @var string|null
      */
     private $saveFaxMessageAndSkipToNext = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18FaxMessagingMenuKeys
     /**
      * @ElementName previousFaxMessage
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29948
      * @var string|null
      */
     private $previousFaxMessage = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18FaxMessagingMenuKeys
     /**
      * @ElementName playEnvelope
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29948
      * @var string|null
      */
     private $playEnvelope = null;
@@ -32,6 +40,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18FaxMessagingMenuKeys
     /**
      * @ElementName nextFaxMessage
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29948
      * @var string|null
      */
     private $nextFaxMessage = null;
@@ -39,6 +49,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18FaxMessagingMenuKeys
     /**
      * @ElementName deleteFaxMessage
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29948
      * @var string|null
      */
     private $deleteFaxMessage = null;
@@ -46,6 +58,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18FaxMessagingMenuKeys
     /**
      * @ElementName printFaxMessage
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29948
      * @var string|null
      */
     private $printFaxMessage = null;
@@ -53,6 +67,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse18FaxMessagingMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:29948
      * @var string|null
      */
     private $returnToPreviousMenu = null;

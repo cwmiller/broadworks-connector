@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanOriginatingGetRequest
  *
  * Request the originating permissions for a user.
- *         The response is either a UserOutgoingCallingPlanOriginatingGetResponse
- * or an ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanOriginatingGetResponse or an ErrorResponse.
  *
  * @see UserOutgoingCallingPlanOriginatingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1332","type":"sequence"}]
  */
 class UserOutgoingCallingPlanOriginatingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserOutgoingCallingPlanOriginatingGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1332
      * @var string|null
      */
     private $userId = null;

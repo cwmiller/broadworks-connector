@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSharedCallAppearanceGetRequest16sp2
  *
  * Get the user's Shared Call Appearance service setting.
- *         The response is either a UserSharedCallAppearanceGetResponse16sp2 or an
- * ErrorResponse.
+ *         The response is either a UserSharedCallAppearanceGetResponse16sp2 or an ErrorResponse.
  *         Replaced by: UserSharedCallAppearanceGetRequest21sp1.
  *
  * @see UserSharedCallAppearanceGetResponse16sp2
  * @see ErrorResponse
  * @see UserSharedCallAppearanceGetRequest21sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5578","type":"sequence"}]
  */
 class UserSharedCallAppearanceGetRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserSharedCallAppearanceGetRequest16sp2 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5578
      * @var string|null
      */
     private $userId = null;

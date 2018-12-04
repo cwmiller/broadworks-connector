@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterBouncedCallGetRequest.
  *
  * @see GroupCallCenterBouncedCallGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:3253","type":"sequence"}]
  */
 class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3253
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,7 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName numberOfRingsBeforeBouncingCall
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3253
      * @var int|null
      */
     private $numberOfRingsBeforeBouncingCall = null;
@@ -29,6 +32,8 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableTransfer
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3253
      * @var bool|null
      */
     private $enableTransfer = null;
@@ -36,6 +41,8 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName transferPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3253
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -43,6 +50,7 @@ class GroupCallCenterBouncedCallGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName bounceCallWhenAgentUnavailable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:3253
      * @var bool|null
      */
     private $bounceCallWhenAgentUnavailable = null;

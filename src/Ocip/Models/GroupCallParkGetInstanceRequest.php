@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallParkGetInstanceRequest
  *
  * Gets a Call Park group.
- *         The response is either GroupCallParkGetInstanceResponse or
- * ErrorResponse.
+ *         The response is either GroupCallParkGetInstanceResponse or ErrorResponse.
  *
  * @see GroupCallParkGetInstanceResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:6034","type":"sequence"}]
  */
 class GroupCallParkGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallParkGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:6034
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallParkGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:6034
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupCallParkGetInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName name
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:6034
      * @var string|null
      */
     private $name = null;

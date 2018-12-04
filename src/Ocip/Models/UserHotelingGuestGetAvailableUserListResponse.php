@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserHotelingGuestGetAvailableUserListResponse
  *
  * Response to the UserHotelingGuestGetAvailableUserListRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", "Hiragana First Name", "Association Limit Hours",
- * "Enable Association Limit",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", "Association Limit Hours", "Enable Association Limit",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see UserHotelingGuestGetAvailableUserListRequest
+ * @Groups [{"id":"13758dca4b1e7aaa8febe2ec5809ebf9:67","type":"sequence"}]
  */
 class UserHotelingGuestGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class UserHotelingGuestGetAvailableUserListResponse extends \CWM\BroadWorksConne
     /**
      * @ElementName hostUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 13758dca4b1e7aaa8febe2ec5809ebf9:67
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $hostUserTable = null;

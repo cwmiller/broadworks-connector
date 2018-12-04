@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadCloudGetResponse
  *
  * Response to the SystemBroadCloudGetRequest.
- *         The response contains the system interface attributes for Messaging
- * Server/BroadCloud.
+ *         The response contains the system interface attributes for Messaging Server/BroadCloud.
  *
  * @see SystemBroadCloudGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2055","type":"sequence"}]
  */
 class SystemBroadCloudGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,8 @@ class SystemBroadCloudGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName provisioningUrl
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2055
      * @var string|null
      */
     private $provisioningUrl = null;
@@ -24,6 +26,8 @@ class SystemBroadCloudGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName provisioningUserId
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2055
      * @var string|null
      */
     private $provisioningUserId = null;
@@ -31,6 +35,7 @@ class SystemBroadCloudGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enableSynchronization
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2055
      * @var bool|null
      */
     private $enableSynchronization = null;

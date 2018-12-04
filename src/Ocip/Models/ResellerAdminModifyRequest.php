@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ResellerAdminModifyRequest
  *
  * Modify the profile for a reseller administrator.
- *         Since old password is not specified here, any password rule related to
- * old password does not apply.          
+ *         Since old password is not specified here, any password rule related to old password does not apply.          
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7e8feb1c28b49a3b8755f86e716ebee7:172","type":"sequence"}]
  */
 class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:172
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName firstName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:172
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $firstName = null;
@@ -35,6 +38,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName lastName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:172
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $lastName = null;
@@ -43,6 +48,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName password
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:172
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
@@ -50,6 +57,8 @@ class ResellerAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:172
      * @var string|null
      */
     private $language = null;

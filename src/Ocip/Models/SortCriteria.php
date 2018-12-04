@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The sort criteria specifies whether sort is ascending or descending,
  *         and	whether the sort is case sensitive. Sort order defaults to
  *         ascending and case sensitive.
+ *
+ * @Groups [{"id":"58f663eead958d798597598c4d3ef3e7:576","type":"sequence"}]
  */
 abstract class SortCriteria
 {
@@ -15,6 +17,7 @@ abstract class SortCriteria
     /**
      * @ElementName isAscending
      * @Type bool
+     * @Group 58f663eead958d798597598c4d3ef3e7:576
      * @var bool|null
      */
     private $isAscending = null;
@@ -22,6 +25,7 @@ abstract class SortCriteria
     /**
      * @ElementName isCaseSensitive
      * @Type bool
+     * @Group 58f663eead958d798597598c4d3ef3e7:576
      * @var bool|null
      */
     private $isCaseSensitive = null;

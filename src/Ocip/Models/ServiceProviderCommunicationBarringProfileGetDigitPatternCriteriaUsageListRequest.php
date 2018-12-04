@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest
  *
  * Get the list of Profiles that use a specific Digit Pattern Criteria.
- *         The response is either a
- * ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
+ *         The response is either a ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
  *         or an ErrorResponse.
  *
- * @see
- * ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
+ * @see ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1837","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageList
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1837
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +27,7 @@ class ServiceProviderCommunicationBarringProfileGetDigitPatternCriteriaUsageList
     /**
      * @ElementName name
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1837
      * @var string|null
      */
     private $name = null;

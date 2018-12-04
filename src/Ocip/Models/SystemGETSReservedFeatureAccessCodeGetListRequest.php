@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemGETSReservedFeatureAccessCodeGetListRequest
  *
  * Get a list of GETS reserved FAC.
- *         The response is either
- * SystemGETSReservedFeatureAccessCodeGetListResponse or ErrorResponse.
+ *         The response is either SystemGETSReservedFeatureAccessCodeGetListResponse or ErrorResponse.
  *
  * @see SystemGETSReservedFeatureAccessCodeGetListResponse
  * @see ErrorResponse

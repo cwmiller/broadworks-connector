@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupPortalPasscodeRulesModifyRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14350","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,7 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +36,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName useRuleLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupPasscodeRulesLevel|null
      */
     private $useRuleLevel = null;
@@ -40,6 +45,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName disallowRepeatedDigits
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var bool|null
      */
     private $disallowRepeatedDigits = null;
@@ -47,6 +54,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName disallowUserNumber
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var bool|null
      */
     private $disallowUserNumber = null;
@@ -54,6 +63,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName disallowReversedUserNumber
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var bool|null
      */
     private $disallowReversedUserNumber = null;
@@ -61,6 +72,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName disallowOldPasscode
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var bool|null
      */
     private $disallowOldPasscode = null;
@@ -68,6 +81,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName disallowReversedOldPasscode
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var bool|null
      */
     private $disallowReversedOldPasscode = null;
@@ -75,6 +90,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName minCodeLength
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var int|null
      */
     private $minCodeLength = null;
@@ -82,6 +99,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName maxCodeLength
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var int|null
      */
     private $maxCodeLength = null;
@@ -89,6 +108,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var bool|null
      */
     private $disableLoginAfterMaxFailedLoginAttempts = null;
@@ -96,6 +117,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -103,6 +126,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName expirePassword
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var bool|null
      */
     private $expirePassword = null;
@@ -110,6 +135,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName passcodeExpiresDays
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var int|null
      */
     private $passcodeExpiresDays = null;
@@ -117,6 +144,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -125,6 +154,8 @@ class GroupVoiceMessagingGroupModifyPasscodeRulesRequest extends \CWM\BroadWorks
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14350
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $loginDisabledNotifyEmailAddress = null;

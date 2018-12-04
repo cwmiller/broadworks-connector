@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseVoiceVPNTreatmentEntry
  *
  * Enterprise Voice VPN Treatment entry
+ *
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1634","type":"sequence"}]
  */
 class EnterpriseVoiceVPNTreatmentEntry
 {
@@ -13,6 +15,7 @@ class EnterpriseVoiceVPNTreatmentEntry
     /**
      * @ElementName id
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1634
      * @var string|null
      */
     private $id = null;
@@ -21,6 +24,8 @@ class EnterpriseVoiceVPNTreatmentEntry
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1634
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

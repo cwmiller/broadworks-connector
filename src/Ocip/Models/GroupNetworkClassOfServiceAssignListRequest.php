@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupNetworkClassOfServiceAssignListRequest
  *
  * Assign a list of Network Classes of Service to a group.
- *         The Element defaultNetworkClassOfService is required only for the first 
- *    
+ *         The Element defaultNetworkClassOfService is required only for the first     
  *         assignment, for subsequent assignments it is optional.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:1560","type":"sequence"}]
  */
 class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1560
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1560
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +37,8 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
      * @ElementName networkClassOfService
      * @Type string
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1560
      * @var string[]
      */
     private $networkClassOfService = array(
@@ -44,6 +48,8 @@ class GroupNetworkClassOfServiceAssignListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName defaultNetworkClassOfService
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:1560
      * @var string|null
      */
     private $defaultNetworkClassOfService = null;

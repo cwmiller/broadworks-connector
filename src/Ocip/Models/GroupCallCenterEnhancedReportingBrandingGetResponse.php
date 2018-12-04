@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterEnhancedReportingBrandingGetRequest.
  *
  * @see GroupCallCenterEnhancedReportingBrandingGetRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2950","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWork
     /**
      * @ElementName brandingChoice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2950
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
     private $brandingChoice = null;
@@ -22,6 +24,8 @@ class GroupCallCenterEnhancedReportingBrandingGetResponse extends \CWM\BroadWork
     /**
      * @ElementName brandingFileDescription
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2950
      * @var string|null
      */
     private $brandingFileDescription = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:849","type":"sequence"}]
  */
 class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:849
      * @var string|null
      */
     private $deviceName = null;
@@ -24,6 +26,7 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileFormat
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:849
      * @var string|null
      */
     private $fileFormat = null;
@@ -31,6 +34,8 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:849
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -38,6 +43,8 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:849
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;
@@ -45,6 +52,8 @@ class SystemAccessDeviceFileModifyRequest14sp8 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName extendedCaptureEnabled
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:849
      * @var bool|null
      */
     private $extendedCaptureEnabled = null;

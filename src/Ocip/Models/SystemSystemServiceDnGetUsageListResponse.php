@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The possible values for "System Service" is "System Voice Portal".
  *
  * @see SystemSystemServiceDnGetUsageListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:16183","type":"sequence"}]
  */
 class SystemSystemServiceDnGetUsageListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class SystemSystemServiceDnGetUsageListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName dnUtilizationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16183
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnUtilizationTable = null;

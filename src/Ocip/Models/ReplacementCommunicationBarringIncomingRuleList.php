@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * A list of Communication Barring Incoming Rules that replaces a
  *         previously configured list. By convention, an element of this type 
  *         may be set nill to clear the list.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:39497","type":"sequence"}]
  */
 class ReplacementCommunicationBarringIncomingRuleList
 {
@@ -16,6 +18,7 @@ class ReplacementCommunicationBarringIncomingRuleList
      * @ElementName rule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule
      * @Array
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39497
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule[]
      */
     private $rule = array(

@@ -7,21 +7,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Delete a Auto Attendant instance from a group.
  *                 
- *         If UnassignPhoneNumbersLevel is set to 'Group', the user's primary phone
- * number, fax number and any alternate numbers, will be unassigned from the group
- * if the command is executed by a service provider administrator or above.
- *         When set to 'Service Provider', they will be unassigned from the group
- * and service provider if the command is executed by a provisioning administrator
- * or above.
+ *         If UnassignPhoneNumbersLevel is set to 'Group', the user's primary phone number, fax number and any alternate numbers, will be unassigned from the group if the command is executed by a service provider administrator or above.
+ *         When set to 'Service Provider', they will be unassigned from the group and service provider if the command is executed by a provisioning administrator or above.
  *         When omitted, the number(s) will be left assigned to the group.
- *         An ErrorResponse with the type warning will be returned if any number
- * cannot be unassigned because of insufficient privilege.
+ *         An ErrorResponse with the type warning will be returned if any number cannot be unassigned because of insufficient privilege.
  *         
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see ErrorResponse
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"991f3e2b8774e7414716848f9b5935fc:214","type":"sequence"}]
  */
 class GroupAutoAttendantDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,6 +25,7 @@ class GroupAutoAttendantDeleteInstanceRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 991f3e2b8774e7414716848f9b5935fc:214
      * @var string|null
      */
     private $serviceUserId = null;

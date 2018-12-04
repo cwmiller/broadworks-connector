@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemGroupNightForwardingGetRequest.
  *
  * @see SystemGroupNightForwardingGetRequest
+ * @Groups [{"id":"1e611fe2e9c068beaf5994d1c997a350:116","type":"sequence"}]
  */
 class SystemGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class SystemGroupNightForwardingGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName nightForwardInterGroupCallsWithinEnterprise
      * @Type bool
+     * @Group 1e611fe2e9c068beaf5994d1c997a350:116
      * @var bool|null
      */
     private $nightForwardInterGroupCallsWithinEnterprise = null;

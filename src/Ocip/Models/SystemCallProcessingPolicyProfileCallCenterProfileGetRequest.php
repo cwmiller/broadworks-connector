@@ -5,18 +5,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileCallCenterProfileGetRequest
  *
- * Request to get the configuration for a call processing policy profile Call
- * Center subscriber type profile.
- *         The response is either a
- * SystemCallProcessingPolicyProfileCallCenterProfileGetResponse or an
+ * Request to get the configuration for a call processing policy profile Call Center subscriber type profile.
+ *         The response is either a SystemCallProcessingPolicyProfileCallCenterProfileGetResponse or an
  *         ErrorResponse.
  *         
- *         Replaced by:
- * SystemCallProcessingPolicyProfileCallCenterProfileGetRequest22
+ *         Replaced by: SystemCallProcessingPolicyProfileCallCenterProfileGetRequest22
  *
  * @see SystemCallProcessingPolicyProfileCallCenterProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileCallCenterProfileGetRequest22
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:19428","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileCallCenterProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +22,7 @@ class SystemCallProcessingPolicyProfileCallCenterProfileGetRequest extends \CWM\
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:19428
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

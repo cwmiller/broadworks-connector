@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessageMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31887","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessageMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessageMenuKeys
      * @ElementName skipBackward
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31887
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipBackward = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessageMenuKeys
      * @ElementName pauseOrResume
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31887
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $pauseOrResume = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessageMenuKeys
      * @ElementName skipForward
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31887
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $skipForward = null;
@@ -36,6 +44,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessageMenuKeys
      * @ElementName jumpToBegin
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31887
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToBegin = null;
@@ -44,6 +54,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequestPlayMessageMenuKeys
      * @ElementName jumpToEnd
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31887
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $jumpToEnd = null;

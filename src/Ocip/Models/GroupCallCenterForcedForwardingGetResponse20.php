@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterForcedForwardingGetRequest20.
  *
  * @see GroupCallCenterForcedForwardingGetRequest20
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3568","type":"sequence"}]
  */
 class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,8 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName forwardToPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -29,6 +33,7 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName allowEnableViaFAC
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var bool|null
      */
     private $allowEnableViaFAC = null;
@@ -36,6 +41,7 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName playAnnouncementBeforeForwarding
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var bool|null
      */
     private $playAnnouncementBeforeForwarding = null;
@@ -43,6 +49,7 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -50,6 +57,8 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $audioUrlList = null;
@@ -57,6 +66,8 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $audioFileList = null;
@@ -64,6 +75,7 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -71,6 +83,8 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $videoUrlList = null;
@@ -78,6 +92,8 @@ class GroupCallCenterForcedForwardingGetResponse20 extends \CWM\BroadWorksConnec
     /**
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3568
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $videoFileList = null;

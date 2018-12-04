@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupVoiceMessagingGroupGetPasscodeRulesRequest
  *
  * Requests the group's voice portal passcode rules setting.
- *         The response is either GroupVoiceMessagingGroupGetPasscodeRulesResponse
- * or ErrorResponse.
+ *         The response is either GroupVoiceMessagingGroupGetPasscodeRulesResponse or ErrorResponse.
  *         Replaced By: GroupPortalPasscodeRulesGetRequest
  *
  * @see GroupVoiceMessagingGroupGetPasscodeRulesResponse
  * @see ErrorResponse
  * @see GroupPortalPasscodeRulesGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14144","type":"sequence"}]
  */
 class GroupVoiceMessagingGroupGetPasscodeRulesRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupVoiceMessagingGroupGetPasscodeRulesRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14144
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupVoiceMessagingGroupGetPasscodeRulesRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14144
      * @var string|null
      */
     private $groupId = null;

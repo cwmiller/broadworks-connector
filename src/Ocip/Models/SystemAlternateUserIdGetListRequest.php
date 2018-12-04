@@ -6,19 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAlternateUserIdGetListRequest
  *
  * Request to get the list of alternate user ids.
- *         If reseller administrator sends the request, searchCriteriaResellerId is
- * ignored. All the alternate 
- *         user ids in the administrator's reseller meeting the search criteria are
- * returned.        
+ *         If reseller administrator sends the request, searchCriteriaResellerId is ignored. All the alternate 
+ *         user ids in the administrator's reseller meeting the search criteria are returned.        
  *         
- *         The response is either SystemAlternateUserIdGetListResponse or
- * ErrorResponse.
+ *         The response is either SystemAlternateUserIdGetListResponse or ErrorResponse.
  *         
  *         The following data elements are only used in AS data mode:
  *           searchCriteriaResellerId
  *
  * @see SystemAlternateUserIdGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1817","type":"sequence"}]
  */
 class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,6 +24,8 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1817
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -34,6 +34,8 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaAlternateUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateUserId
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1817
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAlternateUserId[]
      */
     private $searchCriteriaAlternateUserId = array(
@@ -44,6 +46,8 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1817
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -54,6 +58,8 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1817
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -64,6 +70,8 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1817
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -74,6 +82,8 @@ class SystemAlternateUserIdGetListRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName searchCriteriaResellerId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1817
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(

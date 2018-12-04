@@ -6,15 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDirectoryNumberHuntingGetAvailableUserListRequest
  *
  * Request to get the agents of a call center or hunt group that are available
- *         to be assigned to a directory number hunting group.  They are agents
- * that
+ *         to be assigned to a directory number hunting group.  They are agents that
  *         are not already assigned to any other directory number hunting group.
  *         The response is either
- *         GroupDirectoryNumberHuntingGetAvailableUserListResponse or
- * ErrorResponse.
+ *         GroupDirectoryNumberHuntingGetAvailableUserListResponse or ErrorResponse.
  *
  * @see GroupDirectoryNumberHuntingGetAvailableUserListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d828aed6ac67f1483dca91862c6de1ed:47","type":"sequence"}]
  */
 class GroupDirectoryNumberHuntingGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class GroupDirectoryNumberHuntingGetAvailableUserListRequest extends \CWM\BroadW
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group d828aed6ac67f1483dca91862c6de1ed:47
      * @var string|null
      */
     private $serviceUserId = null;

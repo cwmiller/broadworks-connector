@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanDigitPlanCallMeNowGetRequest
  *
  * Request the Call Me Now call permissions for digit patterns for a user.
- *         The response is either a
- * UserOutgoingCallingPlanDigitPlanCallMeNowGetResponse or an ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanDigitPlanCallMeNowGetResponse or an ErrorResponse.
  *
  * @see UserOutgoingCallingPlanDigitPlanCallMeNowGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1182","type":"sequence"}]
  */
 class UserOutgoingCallingPlanDigitPlanCallMeNowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserOutgoingCallingPlanDigitPlanCallMeNowGetRequest extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1182
      * @var string|null
      */
     private $userId = null;

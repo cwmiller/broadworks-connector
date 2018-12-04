@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallCenterCallDispositionCodeGetAvailableListRequest
  *
- * Get the list of available Call Center Call Disposition Codes to be used by a
- * client.
- *         The response is either
- * UserCallCenterCallDispositionCodeGetAvailableListResponse or ErrorResponse.
+ * Get the list of available Call Center Call Disposition Codes to be used by a client.
+ *         The response is either UserCallCenterCallDispositionCodeGetAvailableListResponse or ErrorResponse.
  *
  * @see UserCallCenterCallDispositionCodeGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6018","type":"sequence"}]
  */
 class UserCallCenterCallDispositionCodeGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class UserCallCenterCallDispositionCodeGetAvailableListRequest extends \CWM\Broa
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6018
      * @var string|null
      */
     private $serviceUserId = null;

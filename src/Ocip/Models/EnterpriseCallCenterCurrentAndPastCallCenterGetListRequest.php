@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get all the current and past call centers for the enterprise.
  *         The searchCriteriaExactUserGroup does not apply to past call centers.
- *         The response is either
- * EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse or ErrorResponse.
+ *         The response is either EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse or ErrorResponse.
  *
  * @see EnterpriseCallCenterCurrentAndPastCallCenterGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:986","type":"sequence"}]
  */
 class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:986
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,8 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
     /**
      * @ElementName isPremiumOnly
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:986
      * @var bool|null
      */
     private $isPremiumOnly = null;
@@ -33,6 +36,8 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:986
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -40,6 +45,8 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
     /**
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -47,6 +54,8 @@ class EnterpriseCallCenterCurrentAndPastCallCenterGetListRequest extends \CWM\Br
     /**
      * @ElementName searchCriteriaCallCenterName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:986
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaCallCenterName|null
      */
     private $searchCriteriaCallCenterName = null;

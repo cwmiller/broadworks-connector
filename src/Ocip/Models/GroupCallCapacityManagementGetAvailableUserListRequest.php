@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCapacityManagementGetAvailableUserListRequest
  *
  * Get a list of users that can be assigned to a Call Capacity Management group.
- *         The available user list for a new Call Capacity Management group can be
- * obtained
+ *         The available user list for a new Call Capacity Management group can be obtained
  *         by not setting the name.
- *         The response is either
- * GroupCallCapacityManagementGetAvailableUserListResponse or ErrorResponse.
+ *         The response is either GroupCallCapacityManagementGetAvailableUserListResponse or ErrorResponse.
  *
  * @see GroupCallCapacityManagementGetAvailableUserListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ec414f584634edfc7ab45285fc8bb597:131","type":"sequence"}]
  */
 class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
     /**
      * @ElementName groupId
      * @Type string
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +36,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
     /**
      * @ElementName name
      * @Type string
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var string|null
      */
     private $name = null;
@@ -42,6 +45,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -50,6 +55,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -60,6 +67,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -69,6 +78,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -77,6 +88,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -87,6 +100,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -97,6 +112,8 @@ class GroupCallCapacityManagementGetAvailableUserListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group ec414f584634edfc7ab45285fc8bb597:131
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

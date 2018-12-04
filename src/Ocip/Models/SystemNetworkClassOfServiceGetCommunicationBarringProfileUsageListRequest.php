@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the list of Network Classes of Service that contain a specific
  *         Communication Barring Profile.
- *         The response is either a
- * SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse
+ *         The response is either a SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse
  *         or an ErrorResponse.
  *
  * @see SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10759","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class SystemNetworkClassOfServiceGetCommunicationBarringProfileUsageListRequest 
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10759
      * @var string|null
      */
     private $name = null;

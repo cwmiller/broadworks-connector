@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupFeatureAccessCodeModifyRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:8238","type":"sequence","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:8241","type":"choice"}]}]
  */
 class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8238
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,7 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8238
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +37,8 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
      * @ElementName featureAccessCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8241
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(
@@ -43,6 +48,8 @@ class GroupFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName restoreDefaultCodes
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8241
      * @var bool|null
      */
     private $restoreDefaultCodes = null;

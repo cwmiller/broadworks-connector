@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupOfficeZoneAssignListRequest
  *
  * Assign a list of Office Zones to a group.
- *         The Element defaultOfficeZone is required only for the first assignment,
- * for subsequent assignments it is optional.
- *         Office Zones can only be assigned if the Location-Based Calling
- * Restrictions has been authorized to the group otherwise the request will fail.
+ *         The Element defaultOfficeZone is required only for the first assignment, for subsequent assignments it is optional.
+ *         Office Zones can only be assigned if the Location-Based Calling Restrictions has been authorized to the group otherwise the request will fail.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5385","type":"sequence"}]
  */
 class GroupOfficeZoneAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupOfficeZoneAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5385
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupOfficeZoneAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5385
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +37,8 @@ class GroupOfficeZoneAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName officeZoneName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5385
      * @var string[]
      */
     private $officeZoneName = array(
@@ -45,6 +48,8 @@ class GroupOfficeZoneAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName defaultOfficeZoneName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5385
      * @var string|null
      */
     private $defaultOfficeZoneName = null;

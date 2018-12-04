@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPolycomPhoneServicesGetRequest
  *
  * Request the user's Polycom Phone Services attributes.
- *         The response is either a UserPolycomPhoneServicesGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserPolycomPhoneServicesGetResponse or an ErrorResponse.
  *
  * @see UserPolycomPhoneServicesGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ddf1151cc200dc2ff4c778831927e902:132","type":"sequence"}]
  */
 class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Group ddf1151cc200dc2ff4c778831927e902:132
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserPolycomPhoneServicesGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Group ddf1151cc200dc2ff4c778831927e902:132
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;

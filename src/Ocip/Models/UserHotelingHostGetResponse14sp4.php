@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserHotelingHostGetRequest14sp4.
  *
  * @see UserHotelingHostGetRequest14sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36100","type":"sequence"}]
  */
 class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,7 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enforceAssociationLimit
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var bool|null
      */
     private $enforceAssociationLimit = null;
@@ -29,6 +32,7 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName associationLimitHours
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -36,6 +40,7 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
     private $accessLevel = null;
@@ -43,6 +48,8 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName guestLastName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var string|null
      */
     private $guestLastName = null;
@@ -50,6 +57,8 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName guestFirstName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var string|null
      */
     private $guestFirstName = null;
@@ -57,6 +66,8 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName guestPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var string|null
      */
     private $guestPhoneNumber = null;
@@ -64,6 +75,8 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName guestExtension
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var string|null
      */
     private $guestExtension = null;
@@ -71,6 +84,8 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName guestLocationDialingCode
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var string|null
      */
     private $guestLocationDialingCode = null;
@@ -78,6 +93,8 @@ class UserHotelingHostGetResponse14sp4 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName guestAssociationDateTime
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36100
      * @var string|null
      */
     private $guestAssociationDateTime = null;

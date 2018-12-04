@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ResponsePagingControl
  *
- * Used in queries to restrict the set of result rows when making a request that
- * can result in
- *         a large dataset. The client specifies the starting row and the number of
- * rows requested. 
+ * Used in queries to restrict the set of result rows when making a request that can result in
+ *         a large dataset. The client specifies the starting row and the number of rows requested. 
  *         The server only provides those rows in results, if available.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3011","type":"sequence"}]
  */
 class ResponsePagingControl
 {
@@ -17,6 +17,7 @@ class ResponsePagingControl
     /**
      * @ElementName responseStartIndex
      * @Type int
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3011
      * @var int|null
      */
     private $responseStartIndex = null;
@@ -24,6 +25,7 @@ class ResponsePagingControl
     /**
      * @ElementName responsePageSize
      * @Type int
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3011
      * @var int|null
      */
     private $responsePageSize = null;

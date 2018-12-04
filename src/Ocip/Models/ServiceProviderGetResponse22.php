@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderGetResponse22
  *
  * Response to the ServiceProviderGetRequest22.
- *         The response contains the service provider or enterprise's profile
- * information.
+ *         The response contains the service provider or enterprise's profile information.
  *         The following element is only used in Amplify data mode and not returned
  *         in AS and XS data mode: 
  *         servicePolicy, 
@@ -20,6 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderGetRequest22
  * @see ServiceProviderGetResponse22V2
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:504","type":"sequence","children":[{"id":"e9727a9f98db3fe2db7ad08079031b73:505","type":"choice"}]}]
  */
 class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,6 +27,7 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName isEnterprise
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:505
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -34,6 +35,7 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName useCustomRoutingProfile
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:505
      * @var bool|null
      */
     private $useCustomRoutingProfile = null;
@@ -41,6 +43,7 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName defaultDomain
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var string|null
      */
     private $defaultDomain = null;
@@ -48,6 +51,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderName
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var string|null
      */
     private $serviceProviderName = null;
@@ -55,6 +60,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName supportEmail
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var string|null
      */
     private $supportEmail = null;
@@ -62,6 +69,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -69,6 +78,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -76,6 +87,7 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName useServiceProviderLanguages
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var bool|null
      */
     private $useServiceProviderLanguages = null;
@@ -83,6 +95,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName servicePolicy
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var string|null
      */
     private $servicePolicy = null;
@@ -90,6 +104,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName callProcessingSliceId
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var string|null
      */
     private $callProcessingSliceId = null;
@@ -97,6 +113,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName provisioningSliceId
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var string|null
      */
     private $provisioningSliceId = null;
@@ -104,6 +122,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName subscriberPartition
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var string|null
      */
     private $subscriberPartition = null;
@@ -111,6 +131,8 @@ class ServiceProviderGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName preferredDataCenter
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:504
      * @var string|null
      */
     private $preferredDataCenter = null;

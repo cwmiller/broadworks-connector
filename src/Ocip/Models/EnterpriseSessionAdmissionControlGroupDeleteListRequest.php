@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseSessionAdmissionControlGroupDeleteListRequest
  *
- * Request to delete one or more session admission control groups for the
- * enterprise.
+ * Request to delete one or more session admission control groups for the enterprise.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:964","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:964
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class EnterpriseSessionAdmissionControlGroupDeleteListRequest extends \CWM\Broad
      * @ElementName name
      * @Type string
      * @Array
+     * @Group b561eca19800e0898f471e5e91eb3baa:964
      * @var string[]
      */
     private $name = array(

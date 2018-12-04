@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains the detail information for a Call Center Agent.
  *
  * @see UserCallCenterAgentDetailsGetRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5961","type":"sequence"}]
  */
 class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isCallCenterBasicAssigned
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5961
      * @var bool|null
      */
     private $isCallCenterBasicAssigned = null;
@@ -23,6 +25,7 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isCallCenterStandardAssigned
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5961
      * @var bool|null
      */
     private $isCallCenterStandardAssigned = null;
@@ -30,6 +33,7 @@ class UserCallCenterAgentDetailsGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isCallCenterPremiumAssigned
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5961
      * @var bool|null
      */
     private $isCallCenterPremiumAssigned = null;

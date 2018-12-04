@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * MusicOnHoldSourceModify22ExternalSource
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2385","type":"sequence"}]
  */
 class MusicOnHoldSourceModify22ExternalSource
 {
@@ -12,6 +14,7 @@ class MusicOnHoldSourceModify22ExternalSource
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify
      * @Nillable
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2385
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;

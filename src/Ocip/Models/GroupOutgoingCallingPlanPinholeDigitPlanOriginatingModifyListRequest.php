@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest
  *
- * Modify the originating permissions for Pinhole digit patterns for a group
- * default and its departments.
+ * Modify the originating permissions for Pinhole digit patterns for a group default and its departments.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:649","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:649
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest exten
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:649
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,8 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest exten
     /**
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:649
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingPermissions|null
      */
     private $groupPermissions = null;
@@ -40,6 +44,8 @@ class GroupOutgoingCallingPlanPinholeDigitPlanOriginatingModifyListRequest exten
      * @ElementName departmentPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify
      * @Array
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:649
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternOriginatingDepartmentPermissionsModify[]
      */
     private $departmentPermissions = array(

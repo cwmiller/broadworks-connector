@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The column headings are: "Service Code", and "Description".
  *
  * @see SystemServiceCodeGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14135","type":"sequence"}]
  */
 class SystemServiceCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class SystemServiceCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceCodeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14135
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceCodeTable = null;

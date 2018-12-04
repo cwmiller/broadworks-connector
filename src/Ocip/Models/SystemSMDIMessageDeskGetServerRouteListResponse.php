@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSMDIMessageDeskGetServerRouteListResponse
  *
  * Response to SystemSMDIMessageDeskGetServerRouteListRequest.
- *         The SMDI Server route table column headings are: "Destination" and "SMDI
- * Servers".
+ *         The SMDI Server route table column headings are: "Destination" and "SMDI Servers".
  *
  * @see SystemSMDIMessageDeskGetServerRouteListRequest
+ * @Groups [{"id":"cd03b563fec121b562411c9b734b5953:164","type":"sequence"}]
  */
 class SystemSMDIMessageDeskGetServerRouteListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemSMDIMessageDeskGetServerRouteListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName smdiServerRouteTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group cd03b563fec121b562411c9b734b5953:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $smdiServerRouteTable = null;

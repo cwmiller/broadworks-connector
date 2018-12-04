@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the group's profile information.
  *
  * @see GroupGetRequest14sp7
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:8422","type":"sequence"}]
  */
 class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName defaultDomain
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var string|null
      */
     private $defaultDomain = null;
@@ -23,6 +25,7 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName userLimit
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var int|null
      */
     private $userLimit = null;
@@ -30,6 +33,7 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName userCount
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var int|null
      */
     private $userCount = null;
@@ -37,6 +41,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName groupName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var string|null
      */
     private $groupName = null;
@@ -44,6 +50,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName callingLineIdName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -51,6 +59,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -58,6 +68,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName callingLineIdDisplayPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var string|null
      */
     private $callingLineIdDisplayPhoneNumber = null;
@@ -65,6 +77,7 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName timeZone
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var string|null
      */
     private $timeZone = null;
@@ -72,6 +85,7 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName timeZoneDisplayName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -79,6 +93,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName locationDialingCode
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -86,6 +102,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -93,6 +111,8 @@ class GroupGetResponse14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8422
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;

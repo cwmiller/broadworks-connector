@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterCurrentAndPastAgentGetListRequest
  *
  * Request to get all the current and past agents for the group.
- *         The response is either GroupCallCenterCurrentAndPastAgentGetListResponse
- * or ErrorResponse.
+ *         The response is either GroupCallCenterCurrentAndPastAgentGetListResponse or ErrorResponse.
  *
  * @see GroupCallCenterCurrentAndPastAgentGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2703","type":"sequence"}]
  */
 class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2703
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2703
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,8 @@ class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2703
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -40,6 +44,8 @@ class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2703
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -50,6 +56,8 @@ class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2703
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -60,6 +68,8 @@ class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2703
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -70,6 +80,8 @@ class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2703
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -80,6 +92,8 @@ class GroupCallCenterCurrentAndPastAgentGetListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2703
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

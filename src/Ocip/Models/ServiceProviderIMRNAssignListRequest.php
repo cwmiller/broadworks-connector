@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderIMRNAssignListRequest
  *
- * Assign a list of service provider DNs to the IMRN pool. It is possible to assign
- * either: a single DN,
+ * Assign a list of service provider DNs to the IMRN pool. It is possible to assign either: a single DN,
  *         or a list of DNs, or a range of DNs, or any combination thereof.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3681","type":"sequence"}]
  */
 class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3681
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,8 @@ class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName imrn
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3681
      * @var string[]
      */
     private $imrn = array(
@@ -37,6 +40,8 @@ class ServiceProviderIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName imrnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3681
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $imrnRange = array(

@@ -14,6 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see WarningResponse
+ * @Groups [{"id":"0951a6054c9016924c2aed90d0af404b:272","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +22,7 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
     /**
      * @ElementName receptionistUserId
      * @Type string
+     * @Group 0951a6054c9016924c2aed90d0af404b:272
      * @var string|null
      */
     private $receptionistUserId = null;
@@ -29,6 +31,7 @@ class UserBroadWorksReceptionistEnterpriseNoteModifyListRequest extends \CWM\Bro
      * @ElementName receptionistUserAndNote
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote
      * @Array
+     * @Group 0951a6054c9016924c2aed90d0af404b:272
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReceptionistContactUserAndNote[]
      */
     private $receptionistUserAndNote = array(

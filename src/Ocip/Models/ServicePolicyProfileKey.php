@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServicePolicyProfileKey
  *
  * The service policy profile key.
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17537","type":"sequence"}]
  */
 class ServicePolicyProfileKey
 {
@@ -13,6 +15,7 @@ class ServicePolicyProfileKey
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17537
      * @var string|null
      */
     private $name = null;
@@ -20,6 +23,7 @@ class ServicePolicyProfileKey
     /**
      * @ElementName category
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServicePolicyProfileCategory
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17537
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServicePolicyProfileCategory|null
      */
     private $category = null;

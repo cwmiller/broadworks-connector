@@ -5,33 +5,25 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceTypeGetAvailableListRequest22
  *
- * Requests a list of non-obsolete Identity/device profile types defined in the
- * system and resellers. It is possible
- *         to get either all conference device types or all non-conference types.
- * This command is similar
- *         to the SystemSIPDeviceTypeGetListRequest and
- * SystemMGCPDeviceTypeGetListRequest
+ * Requests a list of non-obsolete Identity/device profile types defined in the system and resellers. It is possible
+ *         to get either all conference device types or all non-conference types. This command is similar
+ *         to the SystemSIPDeviceTypeGetListRequest and SystemMGCPDeviceTypeGetListRequest
  *         but gets both SIP and MGCP types.    
- *         If excludeReseller is specified, only system level available device
- * types are returned.
- *         If resellerId is specified, all the system level available device types
- * and the device types in the given reseller are returned. 
- *         If reseller administrator sends the request, resellerId is not
- * specified, the administrator's resellerId is used.
- *         If neither excludeReseller nor resellerId is specified, all the system
- * level and reseller level available device types are returned.
+ *         If excludeReseller is specified, only system level available device types are returned.
+ *         If resellerId is specified, all the system level available device types and the device types in the given reseller are returned. 
+ *         If reseller administrator sends the request, resellerId is not specified, the administrator's resellerId is used.
+ *         If neither excludeReseller nor resellerId is specified, all the system level and reseller level available device types are returned.
  *         
- *         The following elements are only used in AS data mode and ignored in the
- * XS data mode:
+ *         The following elements are only used in AS data mode and ignored in the XS data mode:
  *           resellerId
  *
- *         The response is either SystemDeviceTypeGetAvailableListResponse22 or
- * ErrorResponse.
+ *         The response is either SystemDeviceTypeGetAvailableListResponse22 or ErrorResponse.
  *
  * @see SystemSIPDeviceTypeGetListRequest
  * @see SystemMGCPDeviceTypeGetListRequest
  * @see SystemDeviceTypeGetAvailableListResponse22
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7238","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:7244","type":"choice"}]}]
  */
 class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -39,6 +31,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowConference
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7238
      * @var bool|null
      */
     private $allowConference = null;
@@ -46,6 +39,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowMusicOnHold
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7238
      * @var bool|null
      */
     private $allowMusicOnHold = null;
@@ -53,6 +47,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyConference
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7238
      * @var bool|null
      */
     private $onlyConference = null;
@@ -60,6 +55,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7238
      * @var bool|null
      */
     private $onlyVideoCapable = null;
@@ -67,6 +63,7 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName onlyOptionalIpAddress
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7238
      * @var bool|null
      */
     private $onlyOptionalIpAddress = null;
@@ -74,6 +71,8 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName excludeReseller
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7244
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -81,6 +80,8 @@ class SystemDeviceTypeGetAvailableListRequest22 extends \CWM\BroadWorksConnector
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7244
      * @var string|null
      */
     private $resellerId = null;

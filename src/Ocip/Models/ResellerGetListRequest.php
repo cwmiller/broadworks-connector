@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ResellerGetListRequest
  *
  * Request a list of resellers in the system.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
  *         The response is either a ResellerGetListResponse or an ErrorResponse.
  *
  * @see ResellerGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7e8feb1c28b49a3b8755f86e716ebee7:210","type":"sequence"}]
  */
 class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,8 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:210
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -28,6 +30,8 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @ElementName searchCriteriaResellerId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
+     * @Optional
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:210
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(
@@ -38,6 +42,8 @@ class ResellerGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
      * @ElementName searchCriteriaResellerName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName
      * @Array
+     * @Optional
+     * @Group 7e8feb1c28b49a3b8755f86e716ebee7:210
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerName[]
      */
     private $searchCriteriaResellerName = array(

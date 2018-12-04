@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserCallCenterGetRequest.
  *         Contains the user's ACD state
- *         Indicates whether the agent is current available (logged in) to each
- * call center in the list.
- *         Contains a table with column headings: "Service User Id", "Phone
- * Number", "Extension", "Available", "Logoff Allowed".
+ *         Indicates whether the agent is current available (logged in) to each call center in the list.
+ *         Contains a table with column headings: "Service User Id", "Phone Number", "Extension", "Available", "Logoff Allowed".
  *
  * @see UserCallCenterGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32718","type":"sequence"}]
  */
 class UserCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +19,8 @@ class UserCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName agentACDState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDState
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32718
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     private $agentACDState = null;
@@ -27,6 +28,8 @@ class UserCallCenterGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32718
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

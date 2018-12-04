@@ -8,10 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * This is the configuration parameters for Call Notify service
  *         	
  *         	The criteria table's column headings are: "Is Active", 
- *         	"Criteria Name", "Time Schedule", "Calls From", "Blacklisted" ,"Holiday
- * Schedule"
+ *         	"Criteria Name", "Time Schedule", "Calls From", "Blacklisted" ,"Holiday Schedule"
  *         	
  *         	The "Calls From" column is a string containing call numbers
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3542","type":"sequence"}]
  */
 class ProfileAndServiceCallNotifyInfo
 {
@@ -19,6 +20,8 @@ class ProfileAndServiceCallNotifyInfo
     /**
      * @ElementName callNotifyEmailAddress
      * @Type string
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3542
      * @var string|null
      */
     private $callNotifyEmailAddress = null;
@@ -26,6 +29,7 @@ class ProfileAndServiceCallNotifyInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:3542
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

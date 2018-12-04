@@ -6,22 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGetListInSystemRequest
  *
  * Request the list of groups in the system.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         If reseller administrator sends the request, searchCriteriaResellerId is
- * ignored. All the groups 
- *         in the administrator's reseller meeting the search criteria are
- * returned.   
+ *         If reseller administrator sends the request, searchCriteriaResellerId is ignored. All the groups 
+ *         in the administrator's reseller meeting the search criteria are returned.   
  *         
- *         The response is either a GroupGetListInSystemResponse or an
- * ErrorResponse.
+ *         The response is either a GroupGetListInSystemResponse or an ErrorResponse.
  *         
  *         The following data elements are only used in AS data mode:
  *           searchCriteriaResellerId
  *
  * @see GroupGetListInSystemResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4916","type":"sequence"}]
  */
 class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,6 +26,8 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4916
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,6 +36,8 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4916
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -47,6 +48,8 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4916
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(
@@ -56,6 +59,8 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName searchCriteriaExactServiceProvider
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4916
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider|null
      */
     private $searchCriteriaExactServiceProvider = null;
@@ -64,6 +69,8 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName searchCriteriaServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4916
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -74,6 +81,8 @@ class GroupGetListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName searchCriteriaResellerId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4916
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(

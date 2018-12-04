@@ -5,16 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseDepartmentGetAvailableParentListRequest
  *
- * Get a list of enterprise level departments in an enterprise that could be the
- * parent of the
- *         specified department. The department itself and all its decendents are
- * not eligible to be
+ * Get a list of enterprise level departments in an enterprise that could be the parent of the
+ *         specified department. The department itself and all its decendents are not eligible to be
  *         the parent department.
- *         The response is either
- * EnterpriseDepartmentGetAvailableParentListResponse or ErrorResponse.
+ *         The response is either EnterpriseDepartmentGetAvailableParentListResponse or ErrorResponse.
  *
  * @see EnterpriseDepartmentGetAvailableParentListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:670","type":"sequence"}]
  */
 class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +20,7 @@ class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName enterpriseId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:670
      * @var string|null
      */
     private $enterpriseId = null;
@@ -29,6 +28,7 @@ class EnterpriseDepartmentGetAvailableParentListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName departmentName
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:670
      * @var string|null
      */
     private $departmentName = null;

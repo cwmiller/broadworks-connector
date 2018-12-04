@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCommPilotExpressGetRequest
  *
  * Get the user's commPilot express service setting.
- *         The response is either a UserCommPilotExpressGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserCommPilotExpressGetResponse or an ErrorResponse.
  *
  * @see UserCommPilotExpressGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"3634139a4e18662a8fde423f112abbbc:41","type":"sequence"}]
  */
 class UserCommPilotExpressGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserCommPilotExpressGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
+     * @Group 3634139a4e18662a8fde423f112abbbc:41
      * @var string|null
      */
     private $userId = null;

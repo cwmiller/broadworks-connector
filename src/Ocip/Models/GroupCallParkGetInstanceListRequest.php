@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallParkGetInstanceListRequest
  *
  * Request to get a list of Call Park group instances within a group.
- *         The response is either GroupCallParkGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupCallParkGetInstanceListResponse or ErrorResponse.
  *
  * @see GroupCallParkGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"06fc006748da1632379fc9603b619dca:170","type":"sequence"}]
  */
 class GroupCallParkGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallParkGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:170
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallParkGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:170
      * @var string|null
      */
     private $groupId = null;

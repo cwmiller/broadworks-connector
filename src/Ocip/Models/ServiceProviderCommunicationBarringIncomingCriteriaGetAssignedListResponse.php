@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListResponse
  *
- * Response to
- * ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListRequest.
- *         Contains a table of all Communication Barring Incoming Criteria assigned
- * to the
+ * Response to ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListRequest.
+ *         Contains a table of all Communication Barring Incoming Criteria assigned to the
  *         service provider. The column headings are: "Name" and "Description".
  *
  * @see ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1673","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListResponse
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1673
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

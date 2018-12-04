@@ -6,14 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDnGetActivationListResponse
  *
  * Response to the GroupDnGetActivationListRequest.
- *         The response contains a table with columns: "Phone Numbers", and
- * "Activated".  ".  Phone Numbers are only returned if assigned to a user.
- *         The "Phone Numbers" column contains either a single DN or a range of
- * DNs.
- *         The "Activated" column indicates if the phone number(s) are activated or
- * not.
+ *         The response contains a table with columns: "Phone Numbers", and "Activated".  ".  Phone Numbers are only returned if assigned to a user.
+ *         The "Phone Numbers" column contains either a single DN or a range of DNs.
+ *         The "Activated" column indicates if the phone number(s) are activated or not.
  *
  * @see GroupDnGetActivationListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4057","type":"sequence"}]
  */
 class GroupDnGetActivationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +19,7 @@ class GroupDnGetActivationListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4057
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;

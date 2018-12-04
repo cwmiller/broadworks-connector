@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         in the system. The column headings are "Name" and "Description"
  *
  * @see SystemOfficeZoneGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12191","type":"sequence"}]
  */
 class SystemOfficeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class SystemOfficeZoneGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName officeZoneTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12191
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $officeZoneTable = null;

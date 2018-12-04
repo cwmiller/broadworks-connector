@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringDigitPatternCriteriaGetRequest
  *
  * Get an existing Communication Barring Digit Pattern Criteria.
- *         The response is either a
- * SystemCommunicationBarringDigitPatternCriteriaGetResponse or an ErrorResponse.
+ *         The response is either a SystemCommunicationBarringDigitPatternCriteriaGetResponse or an ErrorResponse.
  *
  * @see SystemCommunicationBarringDigitPatternCriteriaGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5267","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemCommunicationBarringDigitPatternCriteriaGetRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5267
      * @var string|null
      */
     private $name = null;

@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeBusyOrNoAnswerGreetingMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1250","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeBusyOrNoAnswerGreetingMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeBusyOrNoAnsw
      * @ElementName recordNewGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1250
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewGreeting = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeBusyOrNoAnsw
      * @ElementName listenToCurrentGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1250
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentGreeting = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeBusyOrNoAnsw
      * @ElementName revertToSystemDefaultGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1250
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $revertToSystemDefaultGreeting = null;
@@ -35,6 +43,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeBusyOrNoAnsw
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1250
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -43,6 +53,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeBusyOrNoAnsw
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1250
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

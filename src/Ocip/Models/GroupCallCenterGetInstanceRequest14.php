@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetInstanceRequest14
  *
  * Request to get all the information of a Call Center instance.
- *         The response is either GroupCallCenterGetInstanceResponse14 or
- * ErrorResponse.
+ *         The response is either GroupCallCenterGetInstanceResponse14 or ErrorResponse.
  *         Replaced By: GroupCallCenterGetInstanceRequest14sp3
  *
  * @see GroupCallCenterGetInstanceResponse14
  * @see ErrorResponse
  * @see GroupCallCenterGetInstanceRequest14sp3
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:4203","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupCallCenterGetInstanceRequest14 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4203
      * @var string|null
      */
     private $serviceUserId = null;

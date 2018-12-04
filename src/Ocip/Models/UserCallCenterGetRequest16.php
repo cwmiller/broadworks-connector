@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallCenterGetRequest16
  *
- * Get the user's call center settings and the list of call centers the specified
- * user belongs to.
- *         The response is either a UserCallCenterGetResponse16 or an
- * ErrorResponse.
+ * Get the user's call center settings and the list of call centers the specified user belongs to.
+ *         The response is either a UserCallCenterGetResponse16 or an ErrorResponse.
  *         
  *         Replaced by: UserCallCenterGetRequest17
  *
  * @see UserCallCenterGetResponse16
  * @see ErrorResponse
  * @see UserCallCenterGetRequest17
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32664","type":"sequence"}]
  */
 class UserCallCenterGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class UserCallCenterGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32664
      * @var string|null
      */
     private $userId = null;

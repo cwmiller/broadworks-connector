@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"9a926a382673eb202a097f300e3bb0d3:189","type":"sequence"}]
  */
 class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
+     * @Group 9a926a382673eb202a097f300e3bb0d3:189
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName enableDirectoryPrivacy
      * @Type bool
+     * @Optional
+     * @Group 9a926a382673eb202a097f300e3bb0d3:189
      * @var bool|null
      */
     private $enableDirectoryPrivacy = null;
@@ -32,6 +36,8 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName enableAutoAttendantExtensionDialingPrivacy
      * @Type bool
+     * @Optional
+     * @Group 9a926a382673eb202a097f300e3bb0d3:189
      * @var bool|null
      */
     private $enableAutoAttendantExtensionDialingPrivacy = null;
@@ -39,6 +45,8 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName enableAutoAttendantNameDialingPrivacy
      * @Type bool
+     * @Optional
+     * @Group 9a926a382673eb202a097f300e3bb0d3:189
      * @var bool|null
      */
     private $enableAutoAttendantNameDialingPrivacy = null;
@@ -46,6 +54,8 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName enablePhoneStatusPrivacy
      * @Type bool
+     * @Optional
+     * @Group 9a926a382673eb202a097f300e3bb0d3:189
      * @var bool|null
      */
     private $enablePhoneStatusPrivacy = null;
@@ -54,6 +64,8 @@ class UserPrivacyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName permittedMonitorUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group 9a926a382673eb202a097f300e3bb0d3:189
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $permittedMonitorUserIdList = null;

@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify push notification system parameters.
  *         
- *         The following elements are only used in AS data mode and ignored in the
- * Amplify data mode:
+ *         The following elements are only used in AS data mode and ignored in the Amplify data mode:
  *           subscriptionEventsPerSecond
  *         
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13031","type":"sequence"}]
  */
 class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +22,8 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName enforceAllowedApplicationList
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
      * @var bool|null
      */
     private $enforceAllowedApplicationList = null;
@@ -29,6 +31,8 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName maximumRegistrationsPerUser
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
      * @var int|null
      */
     private $maximumRegistrationsPerUser = null;
@@ -36,6 +40,8 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName maximumRegistrationAgeDays
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
      * @var int|null
      */
     private $maximumRegistrationAgeDays = null;
@@ -43,6 +49,8 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName newCallTimeout
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
      * @var int|null
      */
     private $newCallTimeout = null;
@@ -50,6 +58,8 @@ class SystemPushNotificationParametersModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName subscriptionEventsPerSecond
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13031
      * @var int|null
      */
     private $subscriptionEventsPerSecond = null;

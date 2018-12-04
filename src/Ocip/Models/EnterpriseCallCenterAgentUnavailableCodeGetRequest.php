@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterAgentUnavailableCodeGetRequest
  *
  * Get a Call Center Agent Unavailable Code.
- *         The response is either
- * EnterpriseCallCenterAgentUnavailableCodeGetResponse or ErrorResponse.
+ *         The response is either EnterpriseCallCenterAgentUnavailableCodeGetResponse or ErrorResponse.
  *
  * @see EnterpriseCallCenterAgentUnavailableCodeGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:658","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class EnterpriseCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:658
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class EnterpriseCallCenterAgentUnavailableCodeGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName code
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:658
      * @var string|null
      */
     private $code = null;

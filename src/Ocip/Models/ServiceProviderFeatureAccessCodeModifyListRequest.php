@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify a list of feature access codes for a service provider or enterprise.
  *         The response is either a SuccessResponse or an ErrorResponse. 
- *         Replaced By : ServiceProviderFeatureAccessCodeModifyListRequest20 in AS
- * data mode
+ *         Replaced By : ServiceProviderFeatureAccessCodeModifyListRequest20 in AS data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderFeatureAccessCodeModifyListRequest20
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2733","type":"sequence"}]
  */
 class ServiceProviderFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class ServiceProviderFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2733
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,8 @@ class ServiceProviderFeatureAccessCodeModifyListRequest extends \CWM\BroadWorksC
      * @ElementName featureAccessCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2733
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

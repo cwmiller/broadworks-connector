@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1052","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToNone
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToNone = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToBusinessTrip
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToBusinessTrip = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToGoneForTheDay
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToGoneForTheDay = null;
@@ -32,6 +40,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToLunch
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToLunch = null;
@@ -39,6 +49,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToMeeting
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToMeeting = null;
@@ -46,6 +58,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToOutOfOffice
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToOutOfOffice = null;
@@ -53,6 +67,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToTemporarilyOut
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToTemporarilyOut = null;
@@ -60,6 +76,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToTraining
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToTraining = null;
@@ -67,6 +85,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToUnavailable
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToUnavailable = null;
@@ -74,6 +94,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName setPresenceToVacation
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $setPresenceToVacation = null;
@@ -81,6 +103,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -88,6 +111,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21PersonalAssistantMen
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1052
      * @var string|null
      */
     private $repeatMenu = null;

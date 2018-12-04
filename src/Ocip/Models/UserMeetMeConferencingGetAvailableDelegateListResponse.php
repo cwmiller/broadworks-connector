@@ -7,11 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserMeetMeConferencingGetAvailableDelegateListRequest.
  *         Contains all hosts assigned on a bridge.
- *         The table has column headings: "User Id", "Last Name", "First Name",
- * "Hiragana Last Name", "Hiragana First Name", "Phone Number", "Extension",
- * "Department" and "Email Address".
+ *         The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number", "Extension", "Department" and "Email Address".
  *
  * @see UserMeetMeConferencingGetAvailableDelegateListRequest
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:564","type":"sequence"}]
  */
 class UserMeetMeConferencingGetAvailableDelegateListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class UserMeetMeConferencingGetAvailableDelegateListResponse extends \CWM\BroadW
     /**
      * @ElementName conferenceDelegateUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group e51a0a16349851c3fad768a24a35838d:564
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceDelegateUserTable = null;

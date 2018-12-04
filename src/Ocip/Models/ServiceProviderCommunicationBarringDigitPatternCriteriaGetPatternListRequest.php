@@ -6,13 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRequest
  *
  * Get an existing Digit Pattern Criteria.
- *         The response is either a
- * ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse or
- * an ErrorResponse.
+ *         The response is either a ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse or an ErrorResponse.
  *
- * @see
- * ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse
+ * @see ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1549","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1549
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +26,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     /**
      * @ElementName name
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1549
      * @var string|null
      */
     private $name = null;
@@ -34,6 +34,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1549
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -42,6 +44,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetPatternListReque
      * @ElementName searchCriteriaDigitPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1549
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDigitPattern[]
      */
     private $searchCriteriaDigitPattern = array(

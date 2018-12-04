@@ -5,15 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDnGetAvailableRangesListRequest
  *
- * Get a list of group DNs that are not assigned to user, service instances or IMRN
- * pool.
- *         The Dns are returned in a list of DNs or DN ranges and formated in E164
- * format for display.
- *         The response is either a GroupDnGetAvailableRangesListResponse or an
- * ErrorResponse.
+ * Get a list of group DNs that are not assigned to user, service instances or IMRN pool.
+ *         The Dns are returned in a list of DNs or DN ranges and formated in E164 format for display.
+ *         The response is either a GroupDnGetAvailableRangesListResponse or an ErrorResponse.
  *
  * @see GroupDnGetAvailableRangesListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4164","type":"sequence"}]
  */
 class GroupDnGetAvailableRangesListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +19,7 @@ class GroupDnGetAvailableRangesListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4164
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +27,7 @@ class GroupDnGetAvailableRangesListRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4164
      * @var string|null
      */
     private $groupId = null;

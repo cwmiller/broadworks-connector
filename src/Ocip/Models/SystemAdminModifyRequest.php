@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAdminModifyRequest
  *
  * Modify a system or provisioning administrator.
- *         Since old password is not specified here, any password rule related to
- * old password
+ *         Since old password is not specified here, any password rule related to old password
  *         does not apply.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1729","type":"sequence"}]
  */
 class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1729
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +29,8 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName firstName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1729
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $firstName = null;
@@ -36,6 +39,8 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName lastName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1729
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $lastName = null;
@@ -43,6 +48,8 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName password
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1729
      * @var string|null
      */
     private $password = null;
@@ -50,6 +57,8 @@ class SystemAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1729
      * @var string|null
      */
     private $language = null;

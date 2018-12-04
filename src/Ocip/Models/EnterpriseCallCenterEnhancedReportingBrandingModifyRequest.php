@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1087","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1087
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,8 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
     /**
      * @ElementName brandingChoice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1087
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterEnhancedReportingBrandingChoice|null
      */
     private $brandingChoice = null;
@@ -31,6 +35,8 @@ class EnterpriseCallCenterEnhancedReportingBrandingModifyRequest extends \CWM\Br
     /**
      * @ElementName brandingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1087
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $brandingFile = null;

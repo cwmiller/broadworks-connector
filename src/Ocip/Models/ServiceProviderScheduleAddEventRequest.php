@@ -7,13 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add an event to service provider schedule. 
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         The startDate element is adjusted to the first occurrence of the
- * recurrent schedule that comes at or after the startDate.
- *         The endDate element is set to the sum of the adjusted starDate element
- * value and the event duration.
+ *         The startDate element is adjusted to the first occurrence of the recurrent schedule that comes at or after the startDate.
+ *         The endDate element is set to the sum of the adjusted starDate element value and the event duration.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4620","type":"sequence","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4625","type":"choice","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4627","type":"sequence"}]}]}]
  */
 class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4620
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4620
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
@@ -35,6 +36,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName eventName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4620
      * @var string|null
      */
     private $eventName = null;
@@ -42,6 +44,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName startDate
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4620
      * @var string|null
      */
     private $startDate = null;
@@ -49,6 +52,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName allDayEvent
      * @Type bool
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4625
      * @var bool|null
      */
     private $allDayEvent = null;
@@ -56,6 +60,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4627
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $startTime = null;
@@ -63,6 +68,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4627
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $endTime = null;
@@ -70,6 +76,7 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName endDate
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4620
      * @var string|null
      */
     private $endDate = null;
@@ -77,6 +84,8 @@ class ServiceProviderScheduleAddEventRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4620
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     private $recurrence = null;

@@ -9,11 +9,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *        
  *         Response to UserBusyLampFieldGetRequest.
  *         The table has column headings:
- *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
- * First Name".
+ *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name".
  *
  * @see UserBusyLampFieldGetResponse16sp2
  * @see UserBusyLampFieldGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32589","type":"sequence"}]
  */
 class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +21,8 @@ class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName listURI
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32589
      * @var string|null
      */
     private $listURI = null;
@@ -28,6 +30,7 @@ class UserBusyLampFieldGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32589
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;

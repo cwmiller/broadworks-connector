@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Deactivate number prefixes in a service provider.
  *         It is not an error to deactivate an already deactivated number prefix. 
- *         The command fails if executed when system level enterprise trunk number
- * prefix activation is disabled.
+ *         The command fails if executed when system level enterprise trunk number prefix activation is disabled.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:469","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest e
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:469
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberPrefixDeactivateListRequest e
      * @ElementName numberPrefix
      * @Type string
      * @Array
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:469
      * @var string[]
      */
     private $numberPrefix = array(

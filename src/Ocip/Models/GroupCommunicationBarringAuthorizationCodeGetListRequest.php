@@ -6,16 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCommunicationBarringAuthorizationCodeGetListRequest
  *
  * Get a list of Communication Barring Authorization Codes for a group.
- *         The response is either a
- * GroupCommunicationBarringAuthorizationCodeGetListResponse 
+ *         The response is either a GroupCommunicationBarringAuthorizationCodeGetListResponse 
  *         or an ErorResponse.
  *         
- *         Replaced by:
- * GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 in AS data mode
+ *         Replaced by: GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1 in AS data mode
  *
  * @see GroupCommunicationBarringAuthorizationCodeGetListResponse
  * @see ErorResponse
  * @see GroupCommunicationBarringAuthorizationCodeGetListRequest21sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:981","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +22,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:981
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +30,7 @@ class GroupCommunicationBarringAuthorizationCodeGetListRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:981
      * @var string|null
      */
     private $groupId = null;

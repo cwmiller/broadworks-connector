@@ -7,17 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserEnhancedCallLogsGetListRequest16.
  *         Total numbers of rows is:
- *         - the total number of retrievable logs of the call log type that was
- * specified in the UserEnhancedCallLogsGetListRequest16, 
+ *         - the total number of retrievable logs of the call log type that was specified in the UserEnhancedCallLogsGetListRequest16, 
  *           if a call log type was specified in the request.
- *         - the total number of retrievable logs, if no call log type was
- * specified in the request.
+ *         - the total number of retrievable logs, if no call log type was specified in the request.
  *         
  *         Replaced by UserEnhancedCallLogsGetListResponse17sp4
  *
  * @see UserEnhancedCallLogsGetListRequest16
  * @see UserEnhancedCallLogsGetListRequest16
  * @see UserEnhancedCallLogsGetListResponse17sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34643","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,6 +24,7 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName totalNumberOfRows
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34643
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -33,6 +33,8 @@ class UserEnhancedCallLogsGetListResponse16 extends \CWM\BroadWorksConnector\Oci
      * @ElementName callLog
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34643
      * @var \CWM\BroadWorksConnector\Ocip\Models\MixedCallLogsEntry[]
      */
     private $callLog = array(

@@ -7,13 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Contains a simple list of all system-level domain names.
  *         
- *         The following elements are only used in AS and XS data mode and not
- * returned in Amplify data mode:
+ *         The following elements are only used in AS and XS data mode and not returned in Amplify data mode:
  *           systemDefaultDomain
  *           
  *         Replaced by SystemDomainGetListResponse22 in AS data mode.
  *
  * @see SystemDomainGetListResponse22
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:833","type":"sequence"}]
  */
 class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +21,8 @@ class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName systemDefaultDomain
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:833
      * @var string|null
      */
     private $systemDefaultDomain = null;
@@ -29,6 +31,8 @@ class SystemDomainGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
      * @ElementName domain
      * @Type string
      * @Array
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:833
      * @var string[]
      */
     private $domain = array(

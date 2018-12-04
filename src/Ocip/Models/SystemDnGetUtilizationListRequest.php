@@ -5,21 +5,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDnGetUtilizationListRequest
  *
- * Request a list of DN utilizations by service providers. If resellerId is
- * specified, 
- *         the DNs assigned to the enterprises/service providers within the
- * reseller are returned.
- *         If reseller administrator sends the request and resellerId is not
- * specified, the administrator's resellerId is used.
+ * Request a list of DN utilizations by service providers. If resellerId is specified, 
+ *         the DNs assigned to the enterprises/service providers within the reseller are returned.
+ *         If reseller administrator sends the request and resellerId is not specified, the administrator's resellerId is used.
  *         
- *         The response is either SystemDnGetUtilizationListResponse or
- * ErrorResponse.
+ *         The response is either SystemDnGetUtilizationListResponse or ErrorResponse.
  *         
  *         The following data elements are only used in AS data mode:
  *           resellerId
  *
  * @see SystemDnGetUtilizationListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7801","type":"sequence"}]
  */
 class SystemDnGetUtilizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,6 +24,8 @@ class SystemDnGetUtilizationListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7801
      * @var string|null
      */
     private $resellerId = null;

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallingLineIDBlockingOverrideGetRequest
  *
  * Request the user level data associated with Calling Line ID Blocking Override.
- *         The response is either a UserCallingLineIDBlockingOverrideGetResponse or
- * an
+ *         The response is either a UserCallingLineIDBlockingOverrideGetResponse or an
  *         ErrorResponse.
  *
  * @see UserCallingLineIDBlockingOverrideGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"9534ca515e49b553aa36713311fa3dbc:44","type":"sequence"}]
  */
 class UserCallingLineIDBlockingOverrideGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserCallingLineIDBlockingOverrideGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
+     * @Group 9534ca515e49b553aa36713311fa3dbc:44
      * @var string|null
      */
     private $userId = null;

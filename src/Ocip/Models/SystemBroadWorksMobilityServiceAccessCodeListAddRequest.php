@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:962","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeListAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListAddRequest extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:962
      * @var string|null
      */
     private $name = null;

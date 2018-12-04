@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see UserInterceptUserModifyRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36208","type":"sequence"}]
  */
 class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36208
      * @var string|null
      */
     private $userId = null;
@@ -26,6 +28,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36208
      * @var bool|null
      */
     private $isActive = null;
@@ -33,6 +37,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36208
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -40,6 +46,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36208
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $audioFile = null;
@@ -47,6 +55,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36208
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $videoFile = null;
@@ -54,6 +64,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName playNewPhoneNumber
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36208
      * @var bool|null
      */
     private $playNewPhoneNumber = null;
@@ -62,6 +74,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName newPhoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36208
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $newPhoneNumber = null;
@@ -69,6 +83,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName transferOnZeroToPhoneNumber
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36208
      * @var bool|null
      */
     private $transferOnZeroToPhoneNumber = null;
@@ -77,6 +93,8 @@ class UserInterceptUserModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName transferPhoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36208
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;

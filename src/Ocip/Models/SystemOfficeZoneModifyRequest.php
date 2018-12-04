@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12278","type":"sequence"}]
  */
 class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName officeZoneName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12278
      * @var string|null
      */
     private $officeZoneName = null;
@@ -24,6 +26,8 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName newOfficeZoneName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12278
      * @var string|null
      */
     private $newOfficeZoneName = null;
@@ -32,6 +36,8 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12278
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -39,6 +45,8 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName replacementZoneList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12278
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementZoneList|null
      */
     private $replacementZoneList = null;
@@ -46,6 +54,8 @@ class SystemOfficeZoneModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName primaryZoneName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12278
      * @var string|null
      */
     private $primaryZoneName = null;

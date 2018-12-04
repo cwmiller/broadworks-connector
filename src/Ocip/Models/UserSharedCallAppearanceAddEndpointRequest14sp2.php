@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"aed5e8b28baf936d317b8fc1c8b5e92f:47","type":"sequence"}]
  */
 class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:47
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:47
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     private $accessDeviceEndpoint = null;
@@ -31,6 +34,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:47
      * @var bool|null
      */
     private $isActive = null;
@@ -38,6 +42,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName allowOrigination
      * @Type bool
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:47
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -45,6 +50,7 @@ class UserSharedCallAppearanceAddEndpointRequest14sp2 extends \CWM\BroadWorksCon
     /**
      * @ElementName allowTermination
      * @Type bool
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:47
      * @var bool|null
      */
     private $allowTermination = null;

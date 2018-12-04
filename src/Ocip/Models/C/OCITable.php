@@ -6,11 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  * OCITable
  *
  * The OCITable type is used in responses only, never in requests.
- *         The table consists of rows and columns of strings. Each column has a
- * column
+ *         The table consists of rows and columns of strings. Each column has a column
  *         heading. Clients should search the column headings to find a particular
  *         column. Clients should not assume any particular column order as future
  *         revisions of the protocol may move or add columns.
+ *
+ * @Groups [{"id":"5df1e3f9f11b14b45dd8cb0f82dc29a6:242","type":"sequence"}]
  */
 class OCITable
 {
@@ -19,6 +20,7 @@ class OCITable
      * @ElementName colHeading
      * @Type string
      * @Array
+     * @Group 5df1e3f9f11b14b45dd8cb0f82dc29a6:242
      * @var string[]
      */
     private $colHeading = array(
@@ -29,6 +31,8 @@ class OCITable
      * @ElementName row
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow
      * @Array
+     * @Optional
+     * @Group 5df1e3f9f11b14b45dd8cb0f82dc29a6:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITableRow[]
      */
     private $row = array(

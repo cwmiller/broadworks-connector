@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Communication Barring Profile defined as part of the Network Class
  *         Of Service. There can be only one primary profile within a Network
  *         Class Of Service.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2527","type":"sequence"}]
  */
 class NetworkClassOfServiceCommunicationBarringProfile
 {
@@ -15,6 +17,7 @@ class NetworkClassOfServiceCommunicationBarringProfile
     /**
      * @ElementName name
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2527
      * @var string|null
      */
     private $name = null;
@@ -22,6 +25,7 @@ class NetworkClassOfServiceCommunicationBarringProfile
     /**
      * @ElementName isPrimary
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2527
      * @var bool|null
      */
     private $isPrimary = null;

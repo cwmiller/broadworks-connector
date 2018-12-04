@@ -15,6 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupVirtualOnNetEnterpriseExtensionsGetUserListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"73530229e066070baac4c09dac256d69:139","type":"sequence"}]
  */
 class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +23,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:139
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +31,7 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:139
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +39,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:139
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -44,6 +49,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -54,6 +61,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -64,6 +73,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -74,6 +85,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -84,6 +97,8 @@ class GroupVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\Broad
      * @ElementName searchCriteriaExactVirtualOnNetCallTypeName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName[]
      */
     private $searchCriteriaExactVirtualOnNetCallTypeName = array(

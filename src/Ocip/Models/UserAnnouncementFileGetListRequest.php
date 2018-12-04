@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserAnnouncementFileGetListRequest
  *
- * Get the list of announcement names with associated media type and filesize for a
- * User and 
+ * Get the list of announcement names with associated media type and filesize for a User and 
  *         given Announcement Repository Type
- *         The response is either a UserAnnouncementFileGetListResponse or an
- * ErrorResponse.
+ *         The response is either a UserAnnouncementFileGetListResponse or an ErrorResponse.
  *
  * @see UserAnnouncementFileGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:484","type":"sequence"}]
  */
 class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:484
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +27,8 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName announcementFileType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:484
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileType|null
      */
     private $announcementFileType = null;
@@ -34,6 +36,7 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName includeAnnouncementTable
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:484
      * @var bool|null
      */
     private $includeAnnouncementTable = null;
@@ -41,6 +44,8 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:484
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -49,6 +54,8 @@ class UserAnnouncementFileGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName searchCriteriaAnnouncementFileName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:484
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaAnnouncementFileName[]
      */
     private $searchCriteriaAnnouncementFileName = array(

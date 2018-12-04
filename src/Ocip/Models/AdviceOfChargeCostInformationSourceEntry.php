@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AdviceOfChargeCostInformationSourceEntry
  *
  * The advice of charge cost information source entry.
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17305","type":"sequence"}]
  */
 class AdviceOfChargeCostInformationSourceEntry
 {
@@ -13,6 +15,7 @@ class AdviceOfChargeCostInformationSourceEntry
     /**
      * @ElementName peerIdentity
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17305
      * @var string|null
      */
     private $peerIdentity = null;
@@ -20,6 +23,7 @@ class AdviceOfChargeCostInformationSourceEntry
     /**
      * @ElementName priority
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17305
      * @var int|null
      */
     private $priority = null;

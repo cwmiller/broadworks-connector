@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PasswordModifyRequest
  *
  * Modify the password for a user/administrator.
- *         When oldPassword is specified, password rule applies. If oldPassword in
- * not specified,
+ *         When oldPassword is specified, password rule applies. If oldPassword in not specified,
  *         any password rule related to old password does not apply.        
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:374","type":"sequence"}]
  */
 class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName userId
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:374
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,8 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName oldPassword
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:374
      * @var string|null
      */
     private $oldPassword = null;
@@ -34,6 +37,7 @@ class PasswordModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName newPassword
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:374
      * @var string|null
      */
     private $newPassword = null;

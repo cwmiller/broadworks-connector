@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCallProcessingPolicyProfileGetRequest
  *
  * Request to get a call processing policy profile in system.
- *         The response is either a SystemCallProcessingPolicyProfileGetResponse or
- * an ErrorResponse.
+ *         The response is either a SystemCallProcessingPolicyProfileGetResponse or an ErrorResponse.
  *         
  *         Replaced by SystemCallProcessingPolicyProfileGetRequest20.
  *
  * @see SystemCallProcessingPolicyProfileGetResponse
  * @see ErrorResponse
  * @see SystemCallProcessingPolicyProfileGetRequest20
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:19695","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class SystemCallProcessingPolicyProfileGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName name
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:19695
      * @var string|null
      */
     private $name = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAnswerConfirmationGetRequest16
  *
  * Get a service provider or enterprise's answer confirmation settings.
- *         The response is either a ServiceProviderAnswerConfirmationGetResponse16
- * or an ErrorResponse.
+ *         The response is either a ServiceProviderAnswerConfirmationGetResponse16 or an ErrorResponse.
  *
  * @see ServiceProviderAnswerConfirmationGetResponse16
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1144","type":"sequence"}]
  */
 class ServiceProviderAnswerConfirmationGetRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderAnswerConfirmationGetRequest16 extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1144
      * @var string|null
      */
     private $serviceProviderId = null;

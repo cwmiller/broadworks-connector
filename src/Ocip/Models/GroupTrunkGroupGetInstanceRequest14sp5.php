@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetInstanceRequest14sp5
  *
  * Get a Trunk Group Instance's profile.
- *         The response is either a GroupTrunkGroupGetInstanceResponse14sp5 or an
- * ErrorResponse.
- *         The response contains a hosted user table with column headings: "User
- * Id", "Last Name",
+ *         The response is either a GroupTrunkGroupGetInstanceResponse14sp5 or an ErrorResponse.
+ *         The response contains a hosted user table with column headings: "User Id", "Last Name",
  *         "First Name", "Hiragana Last Name", "Hiragana First Name".
  *
  * @see GroupTrunkGroupGetInstanceResponse14sp5
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:12294","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceRequest14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupTrunkGroupGetInstanceRequest14sp5 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12294
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;

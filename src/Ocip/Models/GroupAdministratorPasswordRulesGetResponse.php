@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAdministratorPasswordRulesGetRequest.
  *
  * @see GroupAdministratorPasswordRulesGetRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1176","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1177","type":"choice","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1178","type":"sequence"},{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1182","type":"sequence"}]}]}]
  */
 class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName useExternalAuthentication
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1178
      * @var bool|null
      */
     private $useExternalAuthentication = null;
@@ -22,6 +24,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName allowWebAddExternalAuthenticationUsers
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1178
      * @var bool|null
      */
     private $allowWebAddExternalAuthenticationUsers = null;
@@ -29,6 +32,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName disallowUserId
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var bool|null
      */
     private $disallowUserId = null;
@@ -36,6 +40,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName disallowOldPassword
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var bool|null
      */
     private $disallowOldPassword = null;
@@ -43,6 +48,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName disallowReversedOldPassword
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
@@ -50,6 +56,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName restrictMinDigits
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var bool|null
      */
     private $restrictMinDigits = null;
@@ -57,6 +64,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName minDigits
      * @Type int
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var int|null
      */
     private $minDigits = null;
@@ -64,6 +72,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
@@ -71,6 +80,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName minUpperCaseLetters
      * @Type int
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -78,6 +88,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
@@ -85,6 +96,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName minLowerCaseLetters
      * @Type int
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -92,6 +104,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
@@ -99,6 +112,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName minNonAlphanumericCharacters
      * @Type int
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -106,6 +120,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName minLength
      * @Type int
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var int|null
      */
     private $minLength = null;
@@ -113,6 +128,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -120,6 +136,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName passwordExpiresDays
      * @Type int
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var int|null
      */
     private $passwordExpiresDays = null;
@@ -127,6 +144,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -134,6 +152,8 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -141,6 +161,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName disallowPreviousPasswords
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var bool|null
      */
     private $disallowPreviousPasswords = null;
@@ -148,6 +169,7 @@ class GroupAdministratorPasswordRulesGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName numberOfPreviousPasswords
      * @Type int
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1182
      * @var int|null
      */
     private $numberOfPreviousPasswords = null;

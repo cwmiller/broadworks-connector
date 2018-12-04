@@ -6,18 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemTrunkGroupUserCreationTaskGetListResponse
  *
  * Response to SystemTrunkGroupUserCreationTaskGetListRequest.
- *         Contains a table with a row for each user creation task and column
- * headings :
- *         "Service User Id", "Group Id", "Organization Id", "Organization Type",
- * "Name", "Status", "Users Created", "Total Users To Create", "Error Count".
- *         The "Organization Id" column is populated with either a service provider
- * Id or an enterprise Id.
- *         The "Organization Type" column is populated with one of the enumerated
- * strings defined in the
- *         OrganizationType OCI data type.  Please see OCISchemaDataTypes.xsd for
- * details on OrganizationType.
+ *         Contains a table with a row for each user creation task and column headings :
+ *         "Service User Id", "Group Id", "Organization Id", "Organization Type", "Name", "Status", "Users Created", "Total Users To Create", "Error Count".
+ *         The "Organization Id" column is populated with either a service provider Id or an enterprise Id.
+ *         The "Organization Type" column is populated with one of the enumerated strings defined in the
+ *         OrganizationType OCI data type.  Please see OCISchemaDataTypes.xsd for details on OrganizationType.
  *
  * @see SystemTrunkGroupUserCreationTaskGetListRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28966","type":"sequence"}]
  */
 class SystemTrunkGroupUserCreationTaskGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -25,6 +21,7 @@ class SystemTrunkGroupUserCreationTaskGetListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName taskTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28966
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $taskTable = null;

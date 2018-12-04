@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterEnhancedReportingReportTemplateGetListRequest
  *
  * Request to get enterprise level call center report template list.
- *         The response is either an
- * EnterpriseCallCenterEnhancedReportingReportTemplateGetListResponse or an
- * ErrorResponse.
+ *         The response is either an EnterpriseCallCenterEnhancedReportingReportTemplateGetListResponse or an ErrorResponse.
  *
  * @see EnterpriseCallCenterEnhancedReportingReportTemplateGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1247","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingReportTemplateGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class EnterpriseCallCenterEnhancedReportingReportTemplateGetListRequest extends 
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1247
      * @var string|null
      */
     private $serviceProviderId = null;

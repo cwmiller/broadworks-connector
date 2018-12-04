@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupFlexibleSeatingHostModifyActiveInstanceListRequest
  *
- * Request to set the active status of flexible seating host instances. Host cannot
- * be disabled when a flexible seating guest is associated.
+ * Request to set the active status of flexible seating host instances. Host cannot be disabled when a flexible seating guest is associated.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:279","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostModifyActiveInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,8 @@ class GroupFlexibleSeatingHostModifyActiveInstanceListRequest extends \CWM\Broad
      * @ElementName serviceActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:279
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceActivation[]
      */
     private $serviceActivation = array(

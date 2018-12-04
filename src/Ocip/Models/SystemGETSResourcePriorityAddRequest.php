@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9392","type":"sequence"}]
  */
 class SystemGETSResourcePriorityAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemGETSResourcePriorityAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName priorityValue
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9392
      * @var string|null
      */
     private $priorityValue = null;
@@ -24,6 +26,7 @@ class SystemGETSResourcePriorityAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName priorityLevel
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9392
      * @var int|null
      */
     private $priorityLevel = null;
@@ -31,6 +34,7 @@ class SystemGETSResourcePriorityAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName priorityClass
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSPriorityClass
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9392
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSPriorityClass|null
      */
     private $priorityClass = null;

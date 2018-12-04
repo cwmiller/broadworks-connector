@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add a Trunk Group instance to a group.
  *         The domain is required in the serviceUserId.
- *         The publicUserIdentity in the ServiceInstanceAddProfile is not allowed
- * for trunk groups.
+ *         The publicUserIdentity in the ServiceInstanceAddProfile is not allowed for trunk groups.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:11463","type":"sequence"}]
  */
 class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var string|null
      */
     private $serviceUserId = null;
@@ -41,6 +44,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileTrunkGroup
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfileTrunkGroup|null
      */
     private $serviceInstanceProfile = null;
@@ -48,6 +52,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointAdd|null
      */
     private $accessDeviceEndpoint = null;
@@ -55,6 +61,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxActiveCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -62,6 +69,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxIncomingCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $maxIncomingCalls = null;
@@ -69,6 +78,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxOutgoingCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $maxOutgoingCalls = null;
@@ -76,6 +87,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableBursting
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var bool|null
      */
     private $enableBursting = null;
@@ -83,6 +95,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName burstingMaxActiveCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $burstingMaxActiveCalls = null;
@@ -90,6 +104,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName burstingMaxIncomingCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $burstingMaxIncomingCalls = null;
@@ -97,6 +113,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName burstingMaxOutgoingCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $burstingMaxOutgoingCalls = null;
@@ -104,6 +122,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName capacityExceededAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     private $capacityExceededAction = null;
@@ -111,6 +131,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName capacityExceededForwardAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var string|null
      */
     private $capacityExceededForwardAddress = null;
@@ -118,6 +140,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName capacityExceededRerouteTrunkGroupId
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var string|null
      */
     private $capacityExceededRerouteTrunkGroupId = null;
@@ -125,6 +149,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -132,6 +157,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;
@@ -139,6 +165,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName unreachableDestinationAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     private $unreachableDestinationAction = null;
@@ -146,6 +174,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName unreachableDestinationForwardAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var string|null
      */
     private $unreachableDestinationForwardAddress = null;
@@ -153,6 +183,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName unreachableDestinationRerouteTrunkGroupId
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var string|null
      */
     private $unreachableDestinationRerouteTrunkGroupId = null;
@@ -160,6 +192,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName unreachableDestinationTrapInitialCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $unreachableDestinationTrapInitialCalls = null;
@@ -167,6 +200,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName unreachableDestinationTrapOffsetCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $unreachableDestinationTrapOffsetCalls = null;
@@ -174,6 +208,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName invitationTimeout
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var int|null
      */
     private $invitationTimeout = null;
@@ -181,6 +216,7 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName requireAuthentication
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var bool|null
      */
     private $requireAuthentication = null;
@@ -188,6 +224,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName sipAuthenticationUserName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -195,6 +233,8 @@ class GroupTrunkGroupAddInstanceRequest14sp1 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName sipAuthenticationPassword
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11463
      * @var string|null
      */
     private $sipAuthenticationPassword = null;

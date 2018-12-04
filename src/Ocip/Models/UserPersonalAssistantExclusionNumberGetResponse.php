@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPersonalAssistantExclusionNumberGetRequest
  *
  * @see UserPersonalAssistantExclusionNumberGetRequest
+ * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:266","type":"sequence"}]
  */
 class UserPersonalAssistantExclusionNumberGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class UserPersonalAssistantExclusionNumberGetResponse extends \CWM\BroadWorksCon
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:266
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

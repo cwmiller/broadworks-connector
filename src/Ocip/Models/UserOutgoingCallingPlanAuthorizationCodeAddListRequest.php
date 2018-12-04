@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1019","type":"sequence"}]
  */
 class UserOutgoingCallingPlanAuthorizationCodeAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserOutgoingCallingPlanAuthorizationCodeAddListRequest extends \CWM\BroadW
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1019
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,7 @@ class UserOutgoingCallingPlanAuthorizationCodeAddListRequest extends \CWM\BroadW
      * @ElementName codeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry
      * @Array
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1019
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
     private $codeEntry = array(

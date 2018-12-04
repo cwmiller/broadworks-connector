@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringIncomingCriteriaGetListResponse
  *
  * Response to the SystemCommunicationBarringIncomingCriteriaGetListRequest.
- *         The response contains a table of all Communication Barring Incoming
- * Criteria
+ *         The response contains a table of all Communication Barring Incoming Criteria
  *         in the system. The column headings are "Name" and "Description".
  *
  * @see SystemCommunicationBarringIncomingCriteriaGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5403","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class SystemCommunicationBarringIncomingCriteriaGetListResponse extends \CWM\Bro
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5403
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

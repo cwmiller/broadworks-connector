@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:651","type":"sequence"}]
  */
 class EnterpriseDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName enterpriseId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:651
      * @var string|null
      */
     private $enterpriseId = null;
@@ -24,6 +26,7 @@ class EnterpriseDepartmentDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName departmentName
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:651
      * @var string|null
      */
     private $departmentName = null;

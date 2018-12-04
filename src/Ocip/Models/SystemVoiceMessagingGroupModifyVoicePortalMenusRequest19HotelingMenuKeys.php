@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1350","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @ElementName checkHostStatus
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1350
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $checkHostStatus = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @ElementName associateWithHost
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1350
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $associateWithHost = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @ElementName disassociateFromHost
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1350
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromHost = null;
@@ -36,6 +44,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @ElementName disassociateFromRemoteHost
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1350
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromRemoteHost = null;
@@ -43,6 +53,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1350
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -51,6 +63,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19HotelingMenuKeys
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1350
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

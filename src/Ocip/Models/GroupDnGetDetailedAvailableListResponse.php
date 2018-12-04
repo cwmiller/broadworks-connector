@@ -6,16 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDnGetDetailedAvailableListResponse
  *
  * Response to the GroupDnGetDetailedAvailableListRequest.
- *         The response contains a table with columns: "Phone Number",
- * "Department".
+ *         The response contains a table with columns: "Phone Number", "Department".
  *         The "Phone Numbers" column contains a single DN.
- *         The "Department" column contains the department of the DN if the DN is
- * part of the department.
+ *         The "Department" column contains the department of the DN if the DN is part of the department.
  *         The "Activated" column indicates if the DN has been activated. 
  *         Only has a value if the DN(s) is assigned to a user or if "Group
  *         Enable Activation Mode" is enabled.
  *
  * @see GroupDnGetDetailedAvailableListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4223","type":"sequence"}]
  */
 class GroupDnGetDetailedAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,6 +22,7 @@ class GroupDnGetDetailedAvailableListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4223
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;

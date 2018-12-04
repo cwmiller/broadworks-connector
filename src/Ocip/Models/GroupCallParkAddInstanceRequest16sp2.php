@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"06fc006748da1632379fc9603b619dca:50","type":"sequence"}]
  */
 class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:50
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:50
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName name
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:50
      * @var string|null
      */
     private $name = null;
@@ -39,6 +43,8 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
      * @ElementName userId
      * @Type string
      * @Array
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:50
      * @var string[]
      */
     private $userId = array(
@@ -48,6 +54,8 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName recallAlternateUserId
      * @Type string
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:50
      * @var string|null
      */
     private $recallAlternateUserId = null;
@@ -55,6 +63,7 @@ class GroupCallParkAddInstanceRequest16sp2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName recallTo
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo
+     * @Group 06fc006748da1632379fc9603b619dca:50
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallParkRecallTo|null
      */
     private $recallTo = null;

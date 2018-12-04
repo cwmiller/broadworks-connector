@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Allows or disallows various types of incoming calls for a specified department.
  *         For use when modifing settings.
+ *
+ * @Groups [{"id":"b24f81403186e75b29216017d9340516:170","type":"sequence"}]
  */
 class IncomingCallingPlanDepartmentPermissionsModify
 {
@@ -14,6 +16,7 @@ class IncomingCallingPlanDepartmentPermissionsModify
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Group b24f81403186e75b29216017d9340516:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -21,6 +24,8 @@ class IncomingCallingPlanDepartmentPermissionsModify
     /**
      * @ElementName allowFromWithinGroup
      * @Type bool
+     * @Optional
+     * @Group b24f81403186e75b29216017d9340516:170
      * @var bool|null
      */
     private $allowFromWithinGroup = null;
@@ -28,6 +33,8 @@ class IncomingCallingPlanDepartmentPermissionsModify
     /**
      * @ElementName allowFromOutsideGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission
+     * @Optional
+     * @Group b24f81403186e75b29216017d9340516:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanOutsideCallPermission|null
      */
     private $allowFromOutsideGroup = null;
@@ -35,6 +42,8 @@ class IncomingCallingPlanDepartmentPermissionsModify
     /**
      * @ElementName allowCollectCalls
      * @Type bool
+     * @Optional
+     * @Group b24f81403186e75b29216017d9340516:170
      * @var bool|null
      */
     private $allowCollectCalls = null;
@@ -43,6 +52,8 @@ class IncomingCallingPlanDepartmentPermissionsModify
      * @ElementName digitPatternPermission
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission
      * @Array
+     * @Optional
+     * @Group b24f81403186e75b29216017d9340516:170
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallingPlanDigitPatternPermission[]
      */
     private $digitPatternPermission = array(

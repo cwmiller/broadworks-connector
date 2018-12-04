@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8a4618c2ca5bbd628e5c8e748d988b06:179","type":"sequence"}]
  */
 class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8a4618c2ca5bbd628e5c8e748d988b06:179
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName listURI
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8a4618c2ca5bbd628e5c8e748d988b06:179
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listURI = null;
@@ -33,6 +37,8 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName monitoredUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group 8a4618c2ca5bbd628e5c8e748d988b06:179
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $monitoredUserIdList = null;
@@ -40,6 +46,8 @@ class UserBusyLampFieldModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
+     * @Optional
+     * @Group 8a4618c2ca5bbd628e5c8e748d988b06:179
      * @var bool|null
      */
     private $enableCallParkNotification = null;

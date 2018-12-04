@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMeetMeConferencingGetInstanceListRequest
  *
  * Get a list of Meet-Me Conferencing instances within a group.
- *         The response is either GroupMeetMeConferencingGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupMeetMeConferencingGetInstanceListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupMeetMeConferencingGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:157","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:157
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:157
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupMeetMeConferencingGetInstanceListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName departmentName
      * @Type string
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:157
      * @var string|null
      */
     private $departmentName = null;

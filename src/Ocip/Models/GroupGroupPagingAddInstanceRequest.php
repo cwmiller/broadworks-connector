@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:62","type":"sequence"}]
  */
 class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:62
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:62
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +35,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:62
      * @var string|null
      */
     private $serviceUserId = null;
@@ -39,6 +43,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:62
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceAddProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -46,6 +51,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName confirmationToneTimeoutSeconds
      * @Type int
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:62
      * @var int|null
      */
     private $confirmationToneTimeoutSeconds = null;
@@ -53,6 +59,7 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deliverOriginatorCLIDInstead
      * @Type bool
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:62
      * @var bool|null
      */
     private $deliverOriginatorCLIDInstead = null;
@@ -60,6 +67,8 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName originatorCLIDPrefix
      * @Type string
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:62
      * @var string|null
      */
     private $originatorCLIDPrefix = null;
@@ -67,6 +76,8 @@ class GroupGroupPagingAddInstanceRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:62
      * @var string|null
      */
     private $networkClassOfService = null;

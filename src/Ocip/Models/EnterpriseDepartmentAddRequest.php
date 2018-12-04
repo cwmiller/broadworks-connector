@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:633","type":"sequence"}]
  */
 class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName enterpriseId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:633
      * @var string|null
      */
     private $enterpriseId = null;
@@ -24,6 +26,7 @@ class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName departmentName
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:633
      * @var string|null
      */
     private $departmentName = null;
@@ -31,6 +34,8 @@ class EnterpriseDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName parentDepartmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:633
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseDepartmentKey|null
      */
     private $parentDepartmentKey = null;

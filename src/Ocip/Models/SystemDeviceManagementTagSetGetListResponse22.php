@@ -14,6 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The system default tag set name is not part of this response.
  *
  * @see SystemDeviceManagementTagSetGetListRequest22
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7014","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetGetListResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +22,7 @@ class SystemDeviceManagementTagSetGetListResponse22 extends \CWM\BroadWorksConne
     /**
      * @ElementName tagSetTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7014
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $tagSetTable = null;

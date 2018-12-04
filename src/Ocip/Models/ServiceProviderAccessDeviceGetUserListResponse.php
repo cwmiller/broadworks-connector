@@ -6,24 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceGetUserListResponse
  *
  * Response to ServiceProviderAccessDeviceGetUserListRequest.
- *         The column headings for the deviceUserTable are: "Line/Port", "Last
- * Name",
+ *         The column headings for the deviceUserTable are: "Line/Port", "Last Name",
  *         "First Name", "Phone Number", "Group Id", "User Id",
- *         "User Type", "Endpoint Type", "Primary Line/Port", "Order", "Extension",
- * "Department", "Email Address", "Private Identity".
- *         In IMS mode, the table will contain a row for each TEL-URI in the Phone
- * Number column.
+ *         "User Type", "Endpoint Type", "Primary Line/Port", "Order", "Extension", "Department", "Email Address", "Private Identity".
+ *         In IMS mode, the table will contain a row for each TEL-URI in the Phone Number column.
  *         In standalone mode, rows for the alternate numbers are not included.
  *         The User Type column contains one of the enumerated UserType values.
- *         The Endpoint Type column contains one of the enumerated EndpointType
- * values.
+ *         The Endpoint Type column contains one of the enumerated EndpointType values.
  *         The Private Identity column is empty is AS mode.
  *         
- *         Replaced by: ServiceProviderAccessDeviceGetUserListResponse21sp1 in AS
- * data mode.
+ *         Replaced by: ServiceProviderAccessDeviceGetUserListResponse21sp1 in AS data mode.
  *
  * @see ServiceProviderAccessDeviceGetUserListRequest
  * @see ServiceProviderAccessDeviceGetUserListResponse21sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2344","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -31,6 +27,7 @@ class ServiceProviderAccessDeviceGetUserListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName deviceUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2344
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceUserTable = null;

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemGETSModifyRequest
  *
  * Modify GETS system settings.
- *         The following elements are only used in AS data mode and ignored in the
- * Amplify data mode:
+ *         The following elements are only used in AS data mode and ignored in the Amplify data mode:
  *           callIdentifierMode
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9210","type":"sequence"}]
  */
 class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName enabled
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
      * @var bool|null
      */
     private $enabled = null;
@@ -27,6 +29,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName enableRequireResourcePriority
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
      * @var bool|null
      */
     private $enableRequireResourcePriority = null;
@@ -34,6 +38,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName sendAccessResourcePriority
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
      * @var bool|null
      */
     private $sendAccessResourcePriority = null;
@@ -41,6 +47,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName callIdentifierMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
      * @var \CWM\BroadWorksConnector\Ocip\Models\GETSCallIdentifierMode|null
      */
     private $callIdentifierMode = null;
@@ -48,6 +56,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName defaultPriorityAVP
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
      * @var int|null
      */
     private $defaultPriorityAVP = null;
@@ -55,6 +65,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName signalingDSCP
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
      * @var int|null
      */
     private $signalingDSCP = null;
@@ -62,6 +74,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName defaultRValue
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
      * @var string|null
      */
     private $defaultRValue = null;
@@ -69,6 +83,8 @@ class SystemGETSModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCI
     /**
      * @ElementName bypassRoRelease
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9210
      * @var bool|null
      */
     private $bypassRoRelease = null;

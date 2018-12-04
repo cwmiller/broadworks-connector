@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1994","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice
 {
@@ -11,6 +13,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1994
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -18,6 +21,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1994
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -25,6 +29,7 @@ class GroupAccessDeviceGetAvailableDetailListResponse14AvailableAccessDevice
     /**
      * @ElementName useDomain
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1994
      * @var bool|null
      */
     private $useDomain = null;

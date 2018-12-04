@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommunicationBarringRedirectingRule
  *
  * Communication Barring Redirecting Rule
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1164","type":"sequence"}]
  */
 class CommunicationBarringRedirectingRule
 {
@@ -13,6 +15,7 @@ class CommunicationBarringRedirectingRule
     /**
      * @ElementName criteria
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1164
      * @var string|null
      */
     private $criteria = null;
@@ -20,6 +23,7 @@ class CommunicationBarringRedirectingRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1164
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $action = null;
@@ -28,6 +32,8 @@ class CommunicationBarringRedirectingRule
      * @ElementName callTimeoutSeconds
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1164
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callTimeoutSeconds = null;

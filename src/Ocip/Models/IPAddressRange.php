@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * IPAddressRange
  *
  * IP Address Range.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2136","type":"sequence"}]
  */
 class IPAddressRange
 {
@@ -13,6 +15,7 @@ class IPAddressRange
     /**
      * @ElementName minIpAddress
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2136
      * @var string|null
      */
     private $minIpAddress = null;
@@ -20,6 +23,7 @@ class IPAddressRange
     /**
      * @ElementName maxIpAddress
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2136
      * @var string|null
      */
     private $maxIpAddress = null;

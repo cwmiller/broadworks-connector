@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserScheduleGetListResponse17sp1
  *
  * Response to UserScheduleGetListRequest17sp1.
- *         The response contains a list of schedules viewable by the user. It
- * contains the schedules 
- *         defined for the user and the group the user belongs to. If the user
- * belongs to an enterprise, 
+ *         The response contains a list of schedules viewable by the user. It contains the schedules 
+ *         defined for the user and the group the user belongs to. If the user belongs to an enterprise, 
  *         the list also contains the schedules defined for the enterprise.
  *
  * @see UserScheduleGetListRequest17sp1
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3099","type":"sequence"}]
  */
 class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +20,8 @@ class UserScheduleGetListResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName scheduleGlobalKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3099
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleGlobalKey[]
      */
     private $scheduleGlobalKey = array(

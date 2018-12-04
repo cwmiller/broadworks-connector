@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGetResponse20
  * @see ErrorResponse
  * @see UserGetRequest21
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:35076","type":"sequence"}]
  */
 class UserGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class UserGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:35076
      * @var string|null
      */
     private $userId = null;

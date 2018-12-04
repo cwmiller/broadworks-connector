@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Mail parameters.
  *
  * @see SystemMailParametersGetListRequest22
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9932","type":"sequence"}]
  */
 class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName primaryServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9932
      * @var string|null
      */
     private $primaryServerNetAddress = null;
@@ -23,6 +26,8 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName secondaryServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9932
      * @var string|null
      */
     private $secondaryServerNetAddress = null;
@@ -30,6 +35,7 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName defaultFromAddress
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9932
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -37,6 +43,8 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName defaultSubject
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9932
      * @var string|null
      */
     private $defaultSubject = null;
@@ -44,6 +52,7 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName supportDNSSRVForMailServerAccess
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9932
      * @var bool|null
      */
     private $supportDNSSRVForMailServerAccess = null;
@@ -51,6 +60,7 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName secureMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9932
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode|null
      */
     private $secureMode = null;
@@ -58,6 +68,8 @@ class SystemMailParametersGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName port
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9932
      * @var int|null
      */
     private $port = null;

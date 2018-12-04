@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
  *
  * Service Provider Communication Barring Hierarchical Call Me Now Rule
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3319","type":"sequence","children":[{"id":"18b369af88e42ffdb4166615c670ce2c:3320","type":"choice"}]}]
  */
 class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
 {
@@ -13,6 +15,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName criteria
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3320
      * @var string|null
      */
     private $criteria = null;
@@ -20,6 +23,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName digitPatternCriteria
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3320
      * @var string|null
      */
     private $digitPatternCriteria = null;
@@ -27,6 +31,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3319
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $action = null;
@@ -34,6 +39,8 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName callTimeoutSeconds
      * @Type int
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3319
      * @var int|null
      */
     private $callTimeoutSeconds = null;
@@ -41,6 +48,8 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName timeSchedule
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3319
      * @var string|null
      */
     private $timeSchedule = null;
@@ -48,6 +57,8 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName holidaySchedule
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3319
      * @var string|null
      */
     private $holidaySchedule = null;
@@ -55,6 +66,7 @@ class ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
     /**
      * @ElementName priority
      * @Type float
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3319
      * @var float|null
      */
     private $priority = null;

@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the user Personal Assistant information".
  *
  * @see UserPersonalAssistantGetRequest
+ * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:316","type":"sequence"}]
  */
 class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName presence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:316
      * @var \CWM\BroadWorksConnector\Ocip\Models\PersonalAssistantPresence|null
      */
     private $presence = null;
@@ -23,6 +25,7 @@ class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableTransferToAttendant
      * @Type bool
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:316
      * @var bool|null
      */
     private $enableTransferToAttendant = null;
@@ -30,6 +33,8 @@ class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName attendantNumber
      * @Type string
+     * @Optional
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:316
      * @var string|null
      */
     private $attendantNumber = null;
@@ -37,6 +42,7 @@ class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableRingSplash
      * @Type bool
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:316
      * @var bool|null
      */
     private $enableRingSplash = null;
@@ -44,6 +50,7 @@ class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName enableExpirationTime
      * @Type bool
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:316
      * @var bool|null
      */
     private $enableExpirationTime = null;
@@ -51,6 +58,8 @@ class UserPersonalAssistantGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName expirationTime
      * @Type string
+     * @Optional
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:316
      * @var string|null
      */
     private $expirationTime = null;

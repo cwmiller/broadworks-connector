@@ -5,33 +5,23 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListResponse
  *
- * Response to
- * EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRequest. 
- *         Contains a table with column headings: "Name", "Description" and
- * "Level", "Is Agent Required", 
- *         "Is Call Center Required", "Is Call Center Dnis Required", "Is Real Time
- * Report", "Is Sampling Period Required", 
- *         "Call Completion Threshold Parameter", "Short Duration Threshold
- * Parameter", 
- *         "Service Level Threshold Parameter", "Service Level Inclusions
- * Parameter", "Service Level Objective Threshold Parameter",
- *         "Abandoned Call Threshold Parameter", "Service Level Threshold Parameter
- * Number", 
+ * Response to EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRequest. 
+ *         Contains a table with column headings: "Name", "Description" and "Level", "Is Agent Required", 
+ *         "Is Call Center Required", "Is Call Center Dnis Required", "Is Real Time Report", "Is Sampling Period Required", 
+ *         "Call Completion Threshold Parameter", "Short Duration Threshold Parameter", 
+ *         "Service Level Threshold Parameter", "Service Level Inclusions Parameter", "Service Level Objective Threshold Parameter",
+ *         "Abandoned Call Threshold Parameter", "Service Level Threshold Parameter Number", 
  *         "Abandoned Call Threshold Parameter Number" and "Scope".
  *         The possible values for "Level" are "System" and "Enterprise".
- *         The possible values for "Is Agent Required", "Is Call Center Required",
- * "Is Call Center Dnis Required", "Is Real Time Report" and
+ *         The possible values for "Is Agent Required", "Is Call Center Required", "Is Call Center Dnis Required", "Is Real Time Report" and
  *         "Is Sampling Period Required" are "true" and "false".
- *         The possible values for "Call Completion Threshold Parameter", "Short
- * Duration Threshold Parameter", 
- *         "Service Level Threshold Parameter", "Service Level Inclusions
- * Parameter", "Service Level Objective Threshold Parameter"
- *         and "Abandoned Call Threshold Parameter" are "Required", "Hidden" and
- * "Does Not Apply".
- *         The possible values for "Scope" are "Supervisor Only" and "Supervisor
- * and Agent".
+ *         The possible values for "Call Completion Threshold Parameter", "Short Duration Threshold Parameter", 
+ *         "Service Level Threshold Parameter", "Service Level Inclusions Parameter", "Service Level Objective Threshold Parameter"
+ *         and "Abandoned Call Threshold Parameter" are "Required", "Hidden" and "Does Not Apply".
+ *         The possible values for "Scope" are "Supervisor Only" and "Supervisor and Agent".
  *
  * @see EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1133","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -39,6 +29,7 @@ class EnterpriseCallCenterEnhancedReportingGetAvailableReportTemplateListRespons
     /**
      * @ElementName reportTemplateTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1133
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $reportTemplateTable = null;

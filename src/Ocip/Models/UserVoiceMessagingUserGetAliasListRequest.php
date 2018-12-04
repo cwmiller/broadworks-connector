@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetAliasListRequest
  *
  * Get the voice mail aliases for a users voice message.
- *         The response is either a UserVoiceMessagingUserGetAliasListResponse or
- * an ErrorResponse.
+ *         The response is either a UserVoiceMessagingUserGetAliasListResponse or an ErrorResponse.
  *
  * @see UserVoiceMessagingUserGetAliasListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1680","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetAliasListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserVoiceMessagingUserGetAliasListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1680
      * @var string|null
      */
     private $userId = null;

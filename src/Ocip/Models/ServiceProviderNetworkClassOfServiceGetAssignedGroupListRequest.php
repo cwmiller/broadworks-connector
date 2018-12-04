@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of groups within a service provider that have a given
  *         Network Class of Service assigned.
- *         The response is either a
- * ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse 
+ *         The response is either a ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse 
  *         or an ErorResponse.
  *
  * @see ServiceProviderNetworkClassOfServiceGetAssignedGroupListResponse
  * @see ErorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3974","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3974
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3974
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -34,6 +36,8 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3974
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -42,6 +46,8 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3974
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -52,6 +58,8 @@ class ServiceProviderNetworkClassOfServiceGetAssignedGroupListRequest extends \C
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3974
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

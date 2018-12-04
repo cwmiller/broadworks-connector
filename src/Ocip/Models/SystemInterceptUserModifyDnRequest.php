@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"bf05ea6ea4a301f45f76ff5756023e2d:235","type":"sequence"}]
  */
 class SystemInterceptUserModifyDnRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemInterceptUserModifyDnRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:235
      * @var string|null
      */
     private $phoneNumber = null;
@@ -25,6 +27,8 @@ class SystemInterceptUserModifyDnRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group bf05ea6ea4a301f45f76ff5756023e2d:235
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

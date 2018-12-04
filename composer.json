@@ -23,6 +23,7 @@
         "php": ">=5.4.0",
         "ext-xml": "*",
         "ext-dom": "*",
+        "ext-json": "*",
         "myclabs/php-enum": "^1.6"
     },
     "require-dev": {

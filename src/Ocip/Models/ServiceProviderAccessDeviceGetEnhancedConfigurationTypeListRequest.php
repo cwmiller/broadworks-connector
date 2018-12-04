@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Requests the list of configurable device types of devices that have already been
  *         added to the service provider.
- *         The response is either
- * ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse
+ *         The response is either ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse
  *         or ErrorResponse.
  *
  * @see ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:477","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class ServiceProviderAccessDeviceGetEnhancedConfigurationTypeListRequest extends
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:477
      * @var string|null
      */
     private $serviceProviderId = null;

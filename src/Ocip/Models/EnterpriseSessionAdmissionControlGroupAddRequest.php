@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1602","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var string|null
      */
     private $name = null;
@@ -31,6 +34,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName maxSession
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var int|null
      */
     private $maxSession = null;
@@ -38,6 +42,8 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName maxUserOriginatingSessions
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var int|null
      */
     private $maxUserOriginatingSessions = null;
@@ -45,6 +51,8 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName maxUserTerminatingSessions
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var int|null
      */
     private $maxUserTerminatingSessions = null;
@@ -52,6 +60,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName reservedSession
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var int|null
      */
     private $reservedSession = null;
@@ -59,6 +68,8 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName reservedUserOriginatingSessions
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var int|null
      */
     private $reservedUserOriginatingSessions = null;
@@ -66,6 +77,8 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName reservedUserTerminatingSessions
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var int|null
      */
     private $reservedUserTerminatingSessions = null;
@@ -73,6 +86,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName becomeDefaultGroup
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var bool|null
      */
     private $becomeDefaultGroup = null;
@@ -80,6 +94,7 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName countIntraSACGroupSessions
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var bool|null
      */
     private $countIntraSACGroupSessions = null;
@@ -88,6 +103,8 @@ class EnterpriseSessionAdmissionControlGroupAddRequest extends \CWM\BroadWorksCo
      * @ElementName devices
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1602
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseAccessDevice[]
      */
     private $devices = array(

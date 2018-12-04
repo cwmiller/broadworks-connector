@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupPreferredCarrierNameModify
  *
- * Group can either use it's service provider/enterprise's preferred carrier or use
- * it's own.
- *         You can use the Service Provider preferred carrier without clearing the
- * group
+ * Group can either use it's service provider/enterprise's preferred carrier or use it's own.
+ *         You can use the Service Provider preferred carrier without clearing the group
  *         carrier name -- in this case, the group carrier name is retained.
+ *
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:609","type":"sequence"}]
  */
 class GroupPreferredCarrierNameModify
 {
@@ -17,6 +17,7 @@ class GroupPreferredCarrierNameModify
     /**
      * @ElementName useServiceProviderPreferredCarrier
      * @Type bool
+     * @Group 1384777ce7bd407156102bad44751987:609
      * @var bool|null
      */
     private $useServiceProviderPreferredCarrier = null;
@@ -25,6 +26,8 @@ class GroupPreferredCarrierNameModify
      * @ElementName carrier
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:609
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $carrier = null;

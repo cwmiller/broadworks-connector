@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6286","type":"sequence"}]
  */
 class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6286
      * @var string|null
      */
     private $deviceType = null;
@@ -25,6 +27,8 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
     /**
      * @ElementName fileRepositoryName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6286
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -33,6 +37,8 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * @ElementName cpeFileDirectory
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6286
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $cpeFileDirectory = null;
@@ -41,6 +47,8 @@ class SystemCPEConfigModifyFileServerRequest14sp6 extends \CWM\BroadWorksConnect
      * @ElementName extendedCaptureFileRepositoryName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6286
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extendedCaptureFileRepositoryName = null;

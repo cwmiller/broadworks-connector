@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7525","type":"sequence"}]
  */
 class SystemDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName accessCode
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7525
      * @var string|null
      */
     private $accessCode = null;
@@ -24,6 +26,7 @@ class SystemDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName includeCodeForNetworkTranslationsAndRouting
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7525
      * @var bool|null
      */
     private $includeCodeForNetworkTranslationsAndRouting = null;
@@ -31,6 +34,7 @@ class SystemDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName includeCodeForScreeningServices
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7525
      * @var bool|null
      */
     private $includeCodeForScreeningServices = null;
@@ -38,6 +42,7 @@ class SystemDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName enableSecondaryDialTone
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7525
      * @var bool|null
      */
     private $enableSecondaryDialTone = null;
@@ -45,6 +50,8 @@ class SystemDialPlanPolicyAddAccessCodeRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7525
      * @var string|null
      */
     private $description = null;

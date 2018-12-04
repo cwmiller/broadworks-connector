@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the EnterpriseBroadWorksMobileManagerGetRequest
  *
  * @see EnterpriseBroadWorksMobileManagerGetRequest
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:324","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName mobileManagerId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var string|null
      */
     private $mobileManagerId = null;
@@ -22,6 +24,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName name
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var string|null
      */
     private $name = null;
@@ -29,6 +32,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var bool|null
      */
     private $isActive = null;
@@ -36,6 +40,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName localToCarrier
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var bool|null
      */
     private $localToCarrier = null;
@@ -43,6 +48,8 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName deactivationReason
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var string|null
      */
     private $deactivationReason = null;
@@ -50,6 +57,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName maxTxPerSecondEnabled
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var bool|null
      */
     private $maxTxPerSecondEnabled = null;
@@ -57,6 +65,8 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName maxTxPerSecond
      * @Type int
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var int|null
      */
     private $maxTxPerSecond = null;
@@ -64,6 +74,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName tldnEnabled
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var bool|null
      */
     private $tldnEnabled = null;
@@ -71,6 +82,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName genericNumberEnabled
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var bool|null
      */
     private $genericNumberEnabled = null;
@@ -78,6 +90,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName mobileStateCheckEnabled
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var bool|null
      */
     private $mobileStateCheckEnabled = null;
@@ -85,6 +98,7 @@ class EnterpriseBroadWorksMobileManagerGetResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName locationBasedServicesEnabled
      * @Type bool
+     * @Group b561eca19800e0898f471e5e91eb3baa:324
      * @var bool|null
      */
     private $locationBasedServicesEnabled = null;

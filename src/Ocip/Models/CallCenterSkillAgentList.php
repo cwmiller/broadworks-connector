@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterSkillAgentList
  *
  * A list of agents for a particular skill Level.
+ *
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6937","type":"sequence"}]
  */
 class CallCenterSkillAgentList
 {
@@ -13,6 +15,7 @@ class CallCenterSkillAgentList
     /**
      * @ElementName skillLevel
      * @Type int
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6937
      * @var int|null
      */
     private $skillLevel = null;
@@ -21,6 +24,8 @@ class CallCenterSkillAgentList
      * @ElementName agent
      * @Type string
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6937
      * @var string[]
      */
     private $agent = array(

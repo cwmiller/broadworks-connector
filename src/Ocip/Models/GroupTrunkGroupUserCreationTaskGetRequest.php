@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupUserCreationTaskGetRequest
  *
  * Request the details of a specified user creation task for a trunk group.
- *         The response is either GroupTrunkGroupUserCreationTaskGetResponse or
- * ErrorResponse.
+ *         The response is either GroupTrunkGroupUserCreationTaskGetResponse or ErrorResponse.
  *
  * @see GroupTrunkGroupUserCreationTaskGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14096","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14096
      * @var string|null
      */
     private $serviceUserId = null;
@@ -25,6 +26,7 @@ class GroupTrunkGroupUserCreationTaskGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName taskName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14096
      * @var string|null
      */
     private $taskName = null;

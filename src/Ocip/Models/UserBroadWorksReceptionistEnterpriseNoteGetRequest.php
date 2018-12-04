@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserBroadWorksReceptionistEnterpriseNoteGetRequest
  *
- * Request the Receptionist notes for the specified Receptionist and Contact User
- * IDs.  
- *         The response is either a
- * UserBroadWorksReceptionistEnterpriseNoteGetResponse or an
+ * Request the Receptionist notes for the specified Receptionist and Contact User IDs.  
+ *         The response is either a UserBroadWorksReceptionistEnterpriseNoteGetResponse or an
  *         ErrorResponse.
  *
  * @see UserBroadWorksReceptionistEnterpriseNoteGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"0951a6054c9016924c2aed90d0af404b:234","type":"sequence","children":[{"id":"0951a6054c9016924c2aed90d0af404b:236","type":"choice"}]}]
  */
 class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName receptionistUserId
      * @Type string
+     * @Group 0951a6054c9016924c2aed90d0af404b:234
      * @var string|null
      */
     private $receptionistUserId = null;
@@ -27,6 +27,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName contactUserId
      * @Type string
+     * @Group 0951a6054c9016924c2aed90d0af404b:236
      * @var string|null
      */
     private $contactUserId = null;
@@ -34,6 +35,7 @@ class UserBroadWorksReceptionistEnterpriseNoteGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName vonUser
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey
+     * @Group 0951a6054c9016924c2aed90d0af404b:236
      * @var \CWM\BroadWorksConnector\Ocip\Models\VirtualOnNetUserKey|null
      */
     private $vonUser = null;

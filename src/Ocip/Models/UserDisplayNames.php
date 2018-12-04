@@ -5,9 +5,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserDisplayNames
  *
- * The parts of a user's display name that a client can display in whatever way is
- * appropriate
+ * The parts of a user's display name that a client can display in whatever way is appropriate
  *         for the client application.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3937","type":"sequence"}]
  */
 class UserDisplayNames
 {
@@ -15,6 +16,7 @@ class UserDisplayNames
     /**
      * @ElementName lastName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3937
      * @var string|null
      */
     private $lastName = null;
@@ -22,6 +24,7 @@ class UserDisplayNames
     /**
      * @ElementName firstName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3937
      * @var string|null
      */
     private $firstName = null;
@@ -29,6 +32,8 @@ class UserDisplayNames
     /**
      * @ElementName hiraganaLastName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3937
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -36,6 +41,8 @@ class UserDisplayNames
     /**
      * @ElementName hiraganaFirstName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3937
      * @var string|null
      */
     private $hiraganaFirstName = null;

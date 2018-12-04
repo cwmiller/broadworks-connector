@@ -6,16 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SearchCriteriaUserName
  *
  * Criteria for searching for a user's full name.
- *         This search criterion will be compared against multiple combinations of
- * first name and last name:
+ *         This search criterion will be compared against multiple combinations of first name and last name:
  *         
  *         First Name + ' ' + Last Name
  *         Last Name + ' ' + First Name
  *         Last Name + ', ' + First Name
  *         Hiragana Last Name + Hiragana First Name
  *
- *         Note that when specific conditions are met, VON users will be included
- * in the search results.
+ *         Note that when specific conditions are met, VON users will be included in the search results.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:2050","type":"sequence"}]
  */
 class SearchCriteriaUserName extends SearchCriteria
 {
@@ -23,6 +23,7 @@ class SearchCriteriaUserName extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
+     * @Group d37849f5e289836ccd316323a7a3799a:2050
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -30,6 +31,7 @@ class SearchCriteriaUserName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
+     * @Group d37849f5e289836ccd316323a7a3799a:2050
      * @var string|null
      */
     private $value = null;
@@ -37,6 +39,7 @@ class SearchCriteriaUserName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
+     * @Group d37849f5e289836ccd316323a7a3799a:2050
      * @var bool|null
      */
     private $isCaseInsensitive = null;

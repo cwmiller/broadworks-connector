@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"6692e70a4ddc3776956b67ac9efa1c1a:153","type":"sequence","children":[{"id":"6692e70a4ddc3776956b67ac9efa1c1a:159","type":"sequence"},{"id":"6692e70a4ddc3776956b67ac9efa1c1a:168","type":"sequence"}]}]
  */
 class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:153
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:153
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +35,8 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @ElementName homeZoneIpAddressList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList
      * @Array
+     * @Optional
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressList[]
      */
     private $homeZoneIpAddressList = array(
@@ -42,6 +47,8 @@ class GroupEmergencyZonesModifyHomeZoneListRequest extends \CWM\BroadWorksConnec
      * @ElementName homeZoneIpAddressRangeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList
      * @Array
+     * @Optional
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:153
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupEmergencyZonesModifyHomeZoneListRequestHomeZoneIpAddressRangeList[]
      */
     private $homeZoneIpAddressRangeList = array(

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDepartmentAdminGetListRequest
  *
  * Get a list of department administrators for the department.
- *         The response is either a GroupDepartmentAdminGetListResponse or an
- * ErrorResponse.
+ *         The response is either a GroupDepartmentAdminGetListResponse or an ErrorResponse.
  *
  * @see GroupDepartmentAdminGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2818","type":"sequence"}]
  */
 class GroupDepartmentAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupDepartmentAdminGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2818
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupDepartmentKey|null
      */
     private $departmentKey = null;

@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserExecutiveGetAvailableAssistantListResponse
  *
  * Response to the UserExecutiveGetAvailableAssistantListResponse.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", 
- *         "Hiragana First Name", "Phone Number", "Extension", "Department" and
- * "Email Address".
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", 
+ *         "Hiragana First Name", "Phone Number", "Extension", "Department" and "Email Address".
  *
  * @see UserExecutiveGetAvailableAssistantListResponse
+ * @Groups [{"id":"f5d58d7e1c3de827d7f1ff867a413cdd:203","type":"sequence"}]
  */
 class UserExecutiveGetAvailableAssistantListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class UserExecutiveGetAvailableAssistantListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:203
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

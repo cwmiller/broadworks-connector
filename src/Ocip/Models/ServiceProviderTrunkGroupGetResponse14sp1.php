@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderTrunkGroupGetResponse14sp1
  *
  * Response to the ServiceProviderTrunkGroupGetRequest14sp1.
- *         The response contains the maximum and bursting maximum permissible
- * active trunk group calls for the service provider.
+ *         The response contains the maximum and bursting maximum permissible active trunk group calls for the service provider.
  *
  * @see ServiceProviderTrunkGroupGetRequest14sp1
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1517","type":"sequence"}]
  */
 class ServiceProviderTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class ServiceProviderTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector
     /**
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1517
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxActiveCalls = null;
@@ -24,6 +25,7 @@ class ServiceProviderTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector
     /**
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1517
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxActiveCalls = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupSeriesCompletionGetInstanceListRequest
  *
  * Request to get a list of Series Completion instances within a group.
- *         The response is either GroupSeriesCompletionGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupSeriesCompletionGetInstanceListResponse or ErrorResponse.
  *
  * @see GroupSeriesCompletionGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"32aa045fae08b992230059afdb58d2a9:128","type":"sequence"}]
  */
 class GroupSeriesCompletionGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupSeriesCompletionGetInstanceListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 32aa045fae08b992230059afdb58d2a9:128
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupSeriesCompletionGetInstanceListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 32aa045fae08b992230059afdb58d2a9:128
      * @var string|null
      */
     private $groupId = null;

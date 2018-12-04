@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemThirdPartyVoiceMailSupportGetDnListRequest
  *
- * Request to get a list of ThirdPartyVoiceMailSupport User DN's defined in the
- * system.
- *        The response is either a
- * SystemThirdPartyVoiceMailSupportGetDnListResponse or an ErrorResponse.
+ * Request to get a list of ThirdPartyVoiceMailSupport User DN's defined in the system.
+ *        The response is either a SystemThirdPartyVoiceMailSupportGetDnListResponse or an ErrorResponse.
  *        The search can be done using multiple criterion.
  *
  * @see SystemThirdPartyVoiceMailSupportGetDnListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"a84192748d1a3645bcd397d847a21d07:139","type":"sequence"}]
  */
 class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,8 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group a84192748d1a3645bcd397d847a21d07:139
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -28,6 +29,8 @@ class SystemThirdPartyVoiceMailSupportGetDnListRequest extends \CWM\BroadWorksCo
      * @ElementName searchCriteriaSystemServiceDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn
      * @Array
+     * @Optional
+     * @Group a84192748d1a3645bcd397d847a21d07:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaSystemServiceDn[]
      */
     private $searchCriteriaSystemServiceDn = array(

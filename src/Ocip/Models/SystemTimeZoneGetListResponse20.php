@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemTimeZoneGetListResponse20
  *
  * Response to SystemTimeZoneGetListRequest20.
- *         Contains the configured time zone of the server processing the request
- * and
- *         contains a 2 column table with column headings 'Key' and 'Display Name'
- * and a row
+ *         Contains the configured time zone of the server processing the request and
+ *         contains a 2 column table with column headings 'Key' and 'Display Name' and a row
  *         for each time zone.
  *
  * @see SystemTimeZoneGetListRequest20
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:16372","type":"sequence"}]
  */
 class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +19,7 @@ class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serverTimeZone
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16372
      * @var string|null
      */
     private $serverTimeZone = null;
@@ -27,6 +27,7 @@ class SystemTimeZoneGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName timeZoneTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16372
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $timeZoneTable = null;

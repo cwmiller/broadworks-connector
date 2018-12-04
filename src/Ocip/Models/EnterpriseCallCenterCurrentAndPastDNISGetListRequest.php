@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseCallCenterCurrentAndPastDNISGetListRequest
  *
- * Request to get all the past and current DNIS for the Call Center for the
- * enterprise.
- *         The response is either
- * EnterpriseCallCenterCurrentAndPastDNISGetListResponse or ErrorResponse.
+ * Request to get all the past and current DNIS for the Call Center for the enterprise.
+ *         The response is either EnterpriseCallCenterCurrentAndPastDNISGetListResponse or ErrorResponse.
  *
  * @see EnterpriseCallCenterCurrentAndPastDNISGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1022","type":"sequence"}]
  */
 class EnterpriseCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1022
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1022
      * @var string|null
      */
     private $serviceUserId = null;

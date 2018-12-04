@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:245","type":"sequence"}]
  */
 class SystemBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableTransferNotification
      * @Type bool
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:245
      * @var bool|null
      */
     private $enableTransferNotification = null;

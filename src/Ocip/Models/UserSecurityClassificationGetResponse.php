@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSecurityClassificationGetRequest.
  *
  * @see UserSecurityClassificationGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36769","type":"sequence"}]
  */
 class UserSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class UserSecurityClassificationGetResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName securityClassification
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36769
      * @var string|null
      */
     private $securityClassification = null;

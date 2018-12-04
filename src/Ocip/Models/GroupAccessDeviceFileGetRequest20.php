@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceFileGetRequest20
  *
  * Request to get a group device profile file.
- *         The response is either GroupAccessDeviceFileGetResponse20 or
- * ErrorResponse.
+ *         The response is either GroupAccessDeviceFileGetResponse20 or ErrorResponse.
  *
  * @see GroupAccessDeviceFileGetResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:487","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:487
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:487
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:487
      * @var string|null
      */
     private $deviceName = null;
@@ -39,6 +42,7 @@ class GroupAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName fileFormat
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:487
      * @var string|null
      */
     private $fileFormat = null;

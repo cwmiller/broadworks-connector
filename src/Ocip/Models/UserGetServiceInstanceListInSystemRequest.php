@@ -6,22 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGetServiceInstanceListInSystemRequest
  *
  * Request the list of Service Instances in the system.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         If reseller administrator sends the request, searchCriteriaResellerId is
- * ignored. All the service 
- *         instances in the administrator's reseller meeting the search criteria
- * are returned.        
+ *         If reseller administrator sends the request, searchCriteriaResellerId is ignored. All the service 
+ *         instances in the administrator's reseller meeting the search criteria are returned.        
  *         
- *         The response is either a UserGetServiceInstanceListInSystemResponse or
- * an ErrorResponse.
+ *         The response is either a UserGetServiceInstanceListInSystemResponse or an ErrorResponse.
  *         
  *         The following data elements are only used in AS data mode:
  *           searchCriteriaResellerId
  *
  * @see UserGetServiceInstanceListInSystemResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1800","type":"sequence"}]
  */
 class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,6 +26,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -36,6 +35,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName searchCriteriaExactServiceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceType
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceType|null
      */
     private $searchCriteriaExactServiceType = null;
@@ -44,6 +45,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -54,6 +57,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -64,6 +69,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -74,6 +81,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -84,6 +93,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -93,6 +104,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName searchCriteriaExactServiceProvider
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactServiceProvider|null
      */
     private $searchCriteriaExactServiceProvider = null;
@@ -101,6 +114,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -111,6 +126,8 @@ class UserGetServiceInstanceListInSystemRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaResellerId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1800
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(

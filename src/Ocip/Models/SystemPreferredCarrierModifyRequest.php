@@ -7,18 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the attributes of a carrier.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         An ErrorResponse is returned if countryCode modification is attempted
- * while the carrier is assigned to a service provider.
- *         An ErrorResponse is returned if an attempt to set isIntraLata to false
- * is made while the carrier is used as an intra-LATA carrier.
- *         An ErrorResponse is returned if an attempt to set isInternational to
- * false is made while the carrier is used as an international carrier.
+ *         An ErrorResponse is returned if countryCode modification is attempted while the carrier is assigned to a service provider.
+ *         An ErrorResponse is returned if an attempt to set isIntraLata to false is made while the carrier is used as an intra-LATA carrier.
+ *         An ErrorResponse is returned if an attempt to set isInternational to false is made while the carrier is used as an international carrier.
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:516","type":"sequence"}]
  */
 class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,6 +24,7 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName carrier
      * @Type string
+     * @Group 1384777ce7bd407156102bad44751987:516
      * @var string|null
      */
     private $carrier = null;
@@ -33,6 +32,8 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName cic
      * @Type string
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:516
      * @var string|null
      */
     private $cic = null;
@@ -40,6 +41,8 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName countryCode
      * @Type string
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:516
      * @var string|null
      */
     private $countryCode = null;
@@ -47,6 +50,8 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isIntraLata
      * @Type bool
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:516
      * @var bool|null
      */
     private $isIntraLata = null;
@@ -54,6 +59,8 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isInterLata
      * @Type bool
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:516
      * @var bool|null
      */
     private $isInterLata = null;
@@ -61,6 +68,8 @@ class SystemPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isInternational
      * @Type bool
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:516
      * @var bool|null
      */
     private $isInternational = null;

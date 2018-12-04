@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
+ *
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:7006","type":"sequence"}]
  */
 class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
 {
@@ -11,6 +13,7 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
     /**
      * @ElementName name
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7006
      * @var string|null
      */
     private $name = null;
@@ -18,6 +21,7 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7006
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -25,6 +29,7 @@ class GroupTrunkGroupGetAvailableDetailListResponseTrunkGroup
     /**
      * @ElementName useDomain
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:7006
      * @var bool|null
      */
     private $useDomain = null;

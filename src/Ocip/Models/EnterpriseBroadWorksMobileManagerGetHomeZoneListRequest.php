@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseBroadWorksMobileManagerGetHomeZoneListRequest
  *
  * Get the list of home zones of the BroadWorks Mobile Manager.
- *         The response is either
- * EnterpriseBroadWorksMobileManagerGetHomeZoneListResponse or ErrorResponse.
+ *         The response is either EnterpriseBroadWorksMobileManagerGetHomeZoneListResponse or ErrorResponse.
  *
  * @see EnterpriseBroadWorksMobileManagerGetHomeZoneListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:238","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerGetHomeZoneListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class EnterpriseBroadWorksMobileManagerGetHomeZoneListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:238
      * @var string|null
      */
     private $serviceProviderId = null;

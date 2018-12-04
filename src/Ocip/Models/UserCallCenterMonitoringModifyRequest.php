@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"f3a4f75940c27d31c6bcb7a5310067ab:74","type":"sequence"}]
  */
 class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
+     * @Group f3a4f75940c27d31c6bcb7a5310067ab:74
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserCallCenterMonitoringModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName playToneToAgentForSilentMonitoring
      * @Type bool
+     * @Optional
+     * @Group f3a4f75940c27d31c6bcb7a5310067ab:74
      * @var bool|null
      */
     private $playToneToAgentForSilentMonitoring = null;

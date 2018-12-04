@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemServiceCodeGetListRequest
  *
  * Request to get all service codes that have been defined in the system.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either SystemServiceCodeGetListResponse or
- * ErrorResponse.
+ *         The response is either SystemServiceCodeGetListResponse or ErrorResponse.
  *
  * @see SystemServiceCodeGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14116","type":"sequence"}]
  */
 class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,8 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14116
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -29,6 +30,8 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName searchCriteriaServiceCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14116
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCode[]
      */
     private $searchCriteriaServiceCode = array(
@@ -39,6 +42,8 @@ class SystemServiceCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName searchCriteriaServiceCodeDescription
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14116
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceCodeDescription[]
      */
     private $searchCriteriaServiceCodeDescription = array(

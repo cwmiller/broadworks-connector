@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:260","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:260
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class ServiceProviderAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:260
      * @var string|null
      */
     private $deviceName = null;
@@ -31,6 +34,7 @@ class ServiceProviderAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName tagName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:260
      * @var string|null
      */
     private $tagName = null;
@@ -38,6 +42,8 @@ class ServiceProviderAccessDeviceCustomTagAddRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName tagValue
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:260
      * @var string|null
      */
     private $tagValue = null;

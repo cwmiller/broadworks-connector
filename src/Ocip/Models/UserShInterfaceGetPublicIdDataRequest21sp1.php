@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserShInterfaceGetPublicIdDataRequest21sp1
  *
- * Returns the Sh non-transparent data stored against a Public User Identity (a SIP
- * URI
+ * Returns the Sh non-transparent data stored against a Public User Identity (a SIP URI
  *         or TEL URI).
- *         The response is either a UserShInterfaceGetPublicIdDataResponse21sp1 or
- * an ErrorResponse.
+ *         The response is either a UserShInterfaceGetPublicIdDataResponse21sp1 or an ErrorResponse.
  *
  * @see UserShInterfaceGetPublicIdDataResponse21sp1
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3271","type":"sequence"}]
  */
 class UserShInterfaceGetPublicIdDataRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class UserShInterfaceGetPublicIdDataRequest21sp1 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
+     * @Group 489b2153267470be8e945bf6b778e0d0:3271
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;

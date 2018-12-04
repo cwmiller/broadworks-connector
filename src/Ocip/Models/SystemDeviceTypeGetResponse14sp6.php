@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemDeviceTypeGetRequest14sp6
  * @see SystemDeviceTypeGetResponse16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21869","type":"sequence"}]
  */
 class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isObsolete
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21869
      * @var bool|null
      */
     private $isObsolete = null;
@@ -24,6 +26,7 @@ class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21869
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;
@@ -31,6 +34,8 @@ class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName webBasedConfigURL
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21869
      * @var string|null
      */
     private $webBasedConfigURL = null;
@@ -38,6 +43,7 @@ class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21869
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -45,6 +51,8 @@ class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName cpeDeviceOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21869
      * @var \CWM\BroadWorksConnector\Ocip\Models\CPEDeviceOptionsRead|null
      */
     private $cpeDeviceOptions = null;
@@ -53,6 +61,7 @@ class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName protocolChoice
      * @Type string
      * @Array
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21869
      * @var string[]
      */
     private $protocolChoice = array(
@@ -62,6 +71,7 @@ class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isIpAddressOptional
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21869
      * @var bool|null
      */
     private $isIpAddressOptional = null;
@@ -69,6 +79,7 @@ class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName useDomain
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21869
      * @var bool|null
      */
     private $useDomain = null;
@@ -76,6 +87,7 @@ class SystemDeviceTypeGetResponse14sp6 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isMobilityManagerDevice
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21869
      * @var bool|null
      */
     private $isMobilityManagerDevice = null;

@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAwayGreetingMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1262","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAwayGreetingMenuKeys
 {
@@ -12,6 +14,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @ElementName activateExtendedAwayGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1262
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $activateExtendedAwayGreeting = null;
@@ -20,6 +24,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @ElementName deactivateExtendedAwayGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1262
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deactivateExtendedAwayGreeting = null;
@@ -28,6 +34,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @ElementName recordNewGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1262
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewGreeting = null;
@@ -36,6 +44,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @ElementName listenToCurrentGreeting
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1262
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentGreeting = null;
@@ -44,6 +54,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @ElementName enableMessageDeposit
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1262
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enableMessageDeposit = null;
@@ -52,6 +64,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @ElementName disableMessageDeposit
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1262
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disableMessageDeposit = null;
@@ -59,6 +73,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1262
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -67,6 +83,8 @@ class SystemVoiceMessagingGroupModifyVoicePortalMenusRequest19ChangeExtendedAway
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1262
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

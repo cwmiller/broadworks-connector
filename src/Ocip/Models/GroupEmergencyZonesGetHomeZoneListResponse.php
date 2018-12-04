@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupEmergencyZonesGetHomeZoneListRequest.
  *
  * @see GroupEmergencyZonesGetHomeZoneListRequest
+ * @Groups [{"id":"6692e70a4ddc3776956b67ac9efa1c1a:101","type":"sequence"}]
  */
 class GroupEmergencyZonesGetHomeZoneListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class GroupEmergencyZonesGetHomeZoneListResponse extends \CWM\BroadWorksConnecto
      * @ElementName homeZoneIpAddress
      * @Type string
      * @Array
+     * @Optional
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:101
      * @var string[]
      */
     private $homeZoneIpAddress = array(
@@ -26,6 +29,8 @@ class GroupEmergencyZonesGetHomeZoneListResponse extends \CWM\BroadWorksConnecto
      * @ElementName homeZoneIpAddressRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange
      * @Array
+     * @Optional
+     * @Group 6692e70a4ddc3776956b67ac9efa1c1a:101
      * @var \CWM\BroadWorksConnector\Ocip\Models\IPAddressRange[]
      */
     private $homeZoneIpAddressRange = array(

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceFileGetRequest20
  *
  * Request to get a device profile file.
- *         The response is either SystemAccessDeviceFileGetResponse20 or
- * ErrorResponse.
+ *         The response is either SystemAccessDeviceFileGetResponse20 or ErrorResponse.
  *
  * @see SystemAccessDeviceFileGetResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:811","type":"sequence"}]
  */
 class SystemAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:811
      * @var string|null
      */
     private $deviceName = null;
@@ -25,6 +26,7 @@ class SystemAccessDeviceFileGetRequest20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName fileFormat
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:811
      * @var string|null
      */
     private $fileFormat = null;

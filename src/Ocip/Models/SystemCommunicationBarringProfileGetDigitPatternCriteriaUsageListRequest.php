@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the list of Profiles that use a specific Digit Pattern Criteria.
  *         The response is either a
- *        
- * SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
+ *         SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
  *         or an ErrorResponse.
  *
  * @see SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5588","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class SystemCommunicationBarringProfileGetDigitPatternCriteriaUsageListRequest e
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5588
      * @var string|null
      */
     private $name = null;

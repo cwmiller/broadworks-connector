@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AnnouncementMenuKeysReadEntry
  *
  * The voice portal announcement menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2199","type":"sequence"}]
  */
 class AnnouncementMenuKeysReadEntry
 {
@@ -13,6 +15,8 @@ class AnnouncementMenuKeysReadEntry
     /**
      * @ElementName recordAudio
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2199
      * @var string|null
      */
     private $recordAudio = null;
@@ -20,6 +24,8 @@ class AnnouncementMenuKeysReadEntry
     /**
      * @ElementName recordAudioVideo
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2199
      * @var string|null
      */
     private $recordAudioVideo = null;
@@ -27,6 +33,7 @@ class AnnouncementMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2199
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -34,6 +41,8 @@ class AnnouncementMenuKeysReadEntry
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2199
      * @var string|null
      */
     private $repeatMenu = null;

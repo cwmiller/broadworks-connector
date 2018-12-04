@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupHuntGroupGetAvailableUserListResponse
  *
  * Response to the GroupHuntGroupGetAvailableUserListRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", "Hiragana First Name",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupHuntGroupGetAvailableUserListRequest
+ * @Groups [{"id":"1136ac7348c14565d0ad74d10c47409a:268","type":"sequence"}]
  */
 class GroupHuntGroupGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class GroupHuntGroupGetAvailableUserListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1136ac7348c14565d0ad74d10c47409a:268
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

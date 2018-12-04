@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemOutgoingCallingPlanCallTypeGetMappingListRequest
  *
  * Get a list of system outgoing calling plan call type mappings.
- *         The response is either
- * SystemOutgoingCallingPlanCallTypeGetMappingListResponse or ErrorResponse.
+ *         The response is either SystemOutgoingCallingPlanCallTypeGetMappingListResponse or ErrorResponse.
  *
  * @see SystemOutgoingCallingPlanCallTypeGetMappingListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:940","type":"sequence"}]
  */
 class SystemOutgoingCallingPlanCallTypeGetMappingListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,8 @@ class SystemOutgoingCallingPlanCallTypeGetMappingListRequest extends \CWM\BroadW
     /**
      * @ElementName countryCode
      * @Type string
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:940
      * @var string|null
      */
     private $countryCode = null;

@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSimultaneousRingFamilyGetRequest
  *
  * Get the user's simultaneous ring service family setting.
- *         The response is either a UserSimultaneousRingFamilyGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserSimultaneousRingFamilyGetResponse or an ErrorResponse.
  *         Replaced By: UserSimultaneousRingFamilyGetRequest14sp4
  *
  * @see UserSimultaneousRingFamilyGetResponse
  * @see ErrorResponse
  * @see UserSimultaneousRingFamilyGetRequest14sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:37211","type":"sequence"}]
  */
 class UserSimultaneousRingFamilyGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserSimultaneousRingFamilyGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37211
      * @var string|null
      */
     private $userId = null;

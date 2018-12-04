@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupAdviceOfChargeGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d7a3faa291b985d963cf43a21af19b28:51","type":"sequence"}]
  */
 class GroupAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group d7a3faa291b985d963cf43a21af19b28:51
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupAdviceOfChargeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName groupId
      * @Type string
+     * @Group d7a3faa291b985d963cf43a21af19b28:51
      * @var string|null
      */
     private $groupId = null;

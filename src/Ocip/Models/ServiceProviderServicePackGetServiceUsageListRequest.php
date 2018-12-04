@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackGetServiceUsageListRequest
  *
  * Request to get the list of service packs containing a specified service.
- *         The response is either
- * ServiceProviderServicePackGetServiceUsageListResponse or ErrorResponse.
+ *         The response is either ServiceProviderServicePackGetServiceUsageListResponse or ErrorResponse.
  *
  * @see ServiceProviderServicePackGetServiceUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5150","type":"sequence"}]
  */
 class ServiceProviderServicePackGetServiceUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderServicePackGetServiceUsageListRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5150
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class ServiceProviderServicePackGetServiceUsageListRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5150
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $serviceName = null;

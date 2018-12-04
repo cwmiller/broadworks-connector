@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4137","type":"sequence"}]
  */
 class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4137
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,8 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName enableNumberPortabilityQueryForOutgoingCalls
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4137
      * @var bool|null
      */
     private $enableNumberPortabilityQueryForOutgoingCalls = null;
@@ -31,6 +35,8 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName enableNumberPortabilityQueryForIncomingCalls
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4137
      * @var bool|null
      */
     private $enableNumberPortabilityQueryForIncomingCalls = null;
@@ -38,6 +44,8 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName enableNumberPortabilityQueryForNetworkCallsOnly
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4137
      * @var bool|null
      */
     private $enableNumberPortabilityQueryForNetworkCallsOnly = null;
@@ -46,6 +54,8 @@ class ServiceProviderNumberPortabilityQueryModifyRequest extends \CWM\BroadWorks
      * @ElementName deleteDigitPattern
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4137
      * @var string[]
      */
     private $deleteDigitPattern = array(

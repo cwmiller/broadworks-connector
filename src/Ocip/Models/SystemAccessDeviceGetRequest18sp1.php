@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemAccessDeviceGetRequest18sp1
  *
  * Requests the configuration of a specified system access device.
- *         The response is either SystemAccessDeviceGetResponse18sp1 or
- * ErrorResponse.
+ *         The response is either SystemAccessDeviceGetResponse18sp1 or ErrorResponse.
  *
  * @see SystemAccessDeviceGetResponse18sp1
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:962","type":"sequence"}]
  */
 class SystemAccessDeviceGetRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemAccessDeviceGetRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:962
      * @var string|null
      */
     private $deviceName = null;

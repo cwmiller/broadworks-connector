@@ -7,10 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the Integrated IMP service attributes for the service provider.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         If the service provider is within a reseller, useSystemServiceDomain
- * means using reseller level service 
- *         domain setting. And useSystemMessagingServer means using the reseller
- * level messaging server setting.
+ *         If the service provider is within a reseller, useSystemServiceDomain means using reseller level service 
+ *         domain setting. And useSystemMessagingServer means using the reseller level messaging server setting.
  *         
  *         The following elements are only used in AS data mode:
  *           servicePort
@@ -22,6 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8351e8f51540f77c264b2f9bdf7fada4:216","type":"sequence"}]
  */
 class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,6 +28,7 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:216
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +36,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName useSystemServiceDomain
      * @Type bool
+     * @Optional
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:216
      * @var bool|null
      */
     private $useSystemServiceDomain = null;
@@ -44,6 +46,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceDomain
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:216
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceDomain = null;
@@ -52,6 +56,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName servicePort
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:216
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $servicePort = null;
@@ -59,6 +65,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName useSystemMessagingServer
      * @Type bool
+     * @Optional
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:216
      * @var bool|null
      */
     private $useSystemMessagingServer = null;
@@ -67,6 +75,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName provisioningUrl
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:216
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUrl = null;
@@ -75,6 +85,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName provisioningUserId
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:216
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningUserId = null;
@@ -83,6 +95,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName provisioningPassword
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:216
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $provisioningPassword = null;
@@ -91,6 +105,8 @@ class ServiceProviderIntegratedIMPModifyRequest extends \CWM\BroadWorksConnector
      * @ElementName boshURL
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8351e8f51540f77c264b2f9bdf7fada4:216
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $boshURL = null;

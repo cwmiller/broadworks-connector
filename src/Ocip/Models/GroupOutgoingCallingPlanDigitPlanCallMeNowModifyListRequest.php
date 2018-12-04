@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest
  *
- * Modify the Call Me Now call permissions for digit patterns for a group default
- * and it's departments.
+ * Modify the Call Me Now call permissions for digit patterns for a group default and it's departments.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:300","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\B
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:300
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\B
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:300
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,8 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\B
     /**
      * @ElementName groupPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:300
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowPermissions|null
      */
     private $groupPermissions = null;
@@ -40,6 +44,8 @@ class GroupOutgoingCallingPlanDigitPlanCallMeNowModifyListRequest extends \CWM\B
      * @ElementName departmentPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissionsModify
      * @Array
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:300
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternCallMeNowDepartmentPermissionsModify[]
      */
     private $departmentPermissions = array(

@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeGetInstanceListRequest
  *
  * Get a list of collaborate bridges within a group.
- *         The response is either GroupCollaborateBridgeGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupCollaborateBridgeGetInstanceListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupCollaborateBridgeGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:243","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:243
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:243
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupCollaborateBridgeGetInstanceListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName departmentName
      * @Type string
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:243
      * @var string|null
      */
     private $departmentName = null;

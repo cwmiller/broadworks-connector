@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The response to a SystemCommunicationBarringDigitPatternCriteriaGetRequest.
  *
  * @see SystemCommunicationBarringDigitPatternCriteriaGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5282","type":"sequence"}]
  */
 class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5282
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -24,6 +27,8 @@ class SystemCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\Bro
      * @ElementName digitPattern
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5282
      * @var string[]
      */
     private $digitPattern = array(

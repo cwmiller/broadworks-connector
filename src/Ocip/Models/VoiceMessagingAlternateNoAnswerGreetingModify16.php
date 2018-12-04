@@ -10,6 +10,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         It is used when modifying a user's voice
  *         messaging
  *         greeting.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:4039","type":"sequence"}]
  */
 class VoiceMessagingAlternateNoAnswerGreetingModify16
 {
@@ -18,6 +20,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
      * @ElementName name
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4039
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $name = null;
@@ -25,6 +29,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
     /**
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4039
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $audioFile = null;
@@ -32,6 +38,8 @@ class VoiceMessagingAlternateNoAnswerGreetingModify16
     /**
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:4039
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $videoFile = null;

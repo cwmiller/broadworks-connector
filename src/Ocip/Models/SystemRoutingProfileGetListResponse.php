@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Returns a list of routing profiles defined in the system.
  *
  * @see SystemRoutingProfileGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13669","type":"sequence"}]
  */
 class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,8 @@ class SystemRoutingProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName routingProfile
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13669
      * @var string[]
      */
     private $routingProfile = array(

@@ -6,21 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderGetListRequest
  *
  * Request a list of service providers and/or enterprises in the system.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         If reseller administrator sends the request, searchCriteriaResellerId is
- * ignored. Service providers/enterprise 
- *         within the administrator's reseller meeting the search criteria are
- * returned.        
- *         The response is either a ServiceProviderGetListResponse or an
- * ErrorResponse.
+ *         If reseller administrator sends the request, searchCriteriaResellerId is ignored. Service providers/enterprise 
+ *         within the administrator's reseller meeting the search criteria are returned.        
+ *         The response is either a ServiceProviderGetListResponse or an ErrorResponse.
  *         
  *         The following data elements are only used in AS data mode:
  *           searchCriteriaResellerId
  *
  * @see ServiceProviderGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3531","type":"sequence"}]
  */
 class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -28,6 +25,8 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isEnterprise
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3531
      * @var bool|null
      */
     private $isEnterprise = null;
@@ -35,6 +34,8 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3531
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -43,6 +44,8 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName searchCriteriaServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -53,6 +56,8 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName searchCriteriaServiceProviderName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderName[]
      */
     private $searchCriteriaServiceProviderName = array(
@@ -63,6 +68,8 @@ class ServiceProviderGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName searchCriteriaResellerId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3531
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(

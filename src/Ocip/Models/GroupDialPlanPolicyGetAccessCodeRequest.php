@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDialPlanPolicyGetAccessCodeRequest
  *
- * Request access code data associated with Group level Dial Plan Policy access
- * codes.
- *         The response is either a GroupDialPlanPolicyGetAccessCodeResponse or an
- * ErrorResponse.
+ * Request access code data associated with Group level Dial Plan Policy access codes.
+ *         The response is either a GroupDialPlanPolicyGetAccessCodeResponse or an ErrorResponse.
  *
  * @see GroupDialPlanPolicyGetAccessCodeResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3794","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3794
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3794
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +34,7 @@ class GroupDialPlanPolicyGetAccessCodeRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName accessCode
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3794
      * @var string|null
      */
     private $accessCode = null;

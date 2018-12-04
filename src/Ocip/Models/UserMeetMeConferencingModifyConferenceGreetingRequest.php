@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36406","type":"sequence"}]
  */
 class UserMeetMeConferencingModifyConferenceGreetingRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest extends \CWM\BroadWo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36406
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,7 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest extends \CWM\BroadWo
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36406
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     private $conferenceKey = null;
@@ -32,6 +35,8 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest extends \CWM\BroadWo
     /**
      * @ElementName playEntranceGreeting
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36406
      * @var bool|null
      */
     private $playEntranceGreeting = null;
@@ -39,6 +44,8 @@ class UserMeetMeConferencingModifyConferenceGreetingRequest extends \CWM\BroadWo
     /**
      * @ElementName entranceGreetingFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36406
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $entranceGreetingFile = null;

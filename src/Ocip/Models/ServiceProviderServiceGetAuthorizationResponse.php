@@ -6,15 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServiceGetAuthorizationResponse
  *
  * Response to ServiceProviderServiceGetAuthorizationRequest.
- *         If the feature was never licensed, then "authorized" is false and the
- * remaining elements are not returned.
+ *         If the feature was never licensed, then "authorized" is false and the remaining elements are not returned.
  *         If the service pack is available for use, "authorized" is true.
- *         "authorizedQuantity" can be unlimited or a quantity. In the case of a
- * service pack, "authorizedQuantity" is the service pack's quantity.
- *         "authorizable" is applicable for user services and group services; it is
- * not returned for service packs.
+ *         "authorizedQuantity" can be unlimited or a quantity. In the case of a service pack, "authorizedQuantity" is the service pack's quantity.
+ *         "authorizable" is applicable for user services and group services; it is not returned for service packs.
  *
  * @see ServiceProviderServiceGetAuthorizationRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4954","type":"sequence"}]
  */
 class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +20,7 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName authorized
      * @Type bool
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4954
      * @var bool|null
      */
     private $authorized = null;
@@ -29,6 +28,8 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4954
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $authorizedQuantity = null;
@@ -36,6 +37,8 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName usedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4954
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $usedQuantity = null;
@@ -43,6 +46,8 @@ class ServiceProviderServiceGetAuthorizationResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName authorizable
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4954
      * @var bool|null
      */
     private $authorizable = null;

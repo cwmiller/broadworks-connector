@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupGetResponse14sp1
  *
  * Response to the GroupTrunkGroupGetRequest14sp1.
- *         The response contains the maximum and bursting maximum permissible
- * active trunk group calls for the group.
+ *         The response contains the maximum and bursting maximum permissible active trunk group calls for the group.
  *
  * @see GroupTrunkGroupGetRequest14sp1
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:13642","type":"sequence"}]
  */
 class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName maxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13642
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxActiveCalls = null;
@@ -24,6 +25,7 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName maxAvailableActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13642
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $maxAvailableActiveCalls = null;
@@ -31,6 +33,7 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName burstingMaxActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13642
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxActiveCalls = null;
@@ -38,6 +41,7 @@ class GroupTrunkGroupGetResponse14sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName burstingMaxAvailableActiveCalls
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13642
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedNonNegativeInt|null
      */
     private $burstingMaxAvailableActiveCalls = null;

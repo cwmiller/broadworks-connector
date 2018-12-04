@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to ServiceProviderAccessDeviceGetListRequest.
  *         Contains a table of devices configured in the service provider.
- *         The column headings are: "Device Name", "Device Type", "Available
- * Ports",
+ *         The column headings are: "Device Name", "Device Type", "Available Ports",
  *         "Net Address", "MAC Address", "Status", and "Version".
  *
  * @see ServiceProviderAccessDeviceGetListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:568","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class ServiceProviderAccessDeviceGetListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName accessDeviceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:568
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $accessDeviceTable = null;

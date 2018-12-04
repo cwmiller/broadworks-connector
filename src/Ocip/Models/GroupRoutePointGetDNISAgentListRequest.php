@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointGetDNISAgentListRequest
  *
  * Get a list of agent who selected the DNIS as the outgoing call.
- *         The response is either GroupRoutePointGetDNISAgentListResponse or
- * ErrorResponse.
+ *         The response is either GroupRoutePointGetDNISAgentListResponse or ErrorResponse.
  *
  * @see GroupRoutePointGetDNISAgentListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:381","type":"sequence"}]
  */
 class GroupRoutePointGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointGetDNISAgentListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName dnisKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISKey
+     * @Group 307cc214f72f448b9a7e28f218444528:381
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISKey|null
      */
     private $dnisKey = null;

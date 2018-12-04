@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemDeviceTypeGetRequest
  * @see SystemMGCPDeviceTypeGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10539","type":"sequence"}]
  */
 class SystemMGCPDeviceTypeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class SystemMGCPDeviceTypeGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10539
      * @var string|null
      */
     private $deviceType = null;

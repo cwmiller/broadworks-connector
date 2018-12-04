@@ -6,15 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDnGetUtilizationListResponse
  *
  * Response to SystemDnUtilizationGetListRequest.
- *         The table columns are: "Service Provider Id", "Phone Numbers", "Assigned
- * to Groups",
- *         "Percentage Assigned", "Is Enterprise", "Activated on Groups", "Reseller
- * Id".
+ *         The table columns are: "Service Provider Id", "Phone Numbers", "Assigned to Groups",
+ *         "Percentage Assigned", "Is Enterprise", "Activated on Groups", "Reseller Id".
  *
  * 	    The following columns are only returned in AS data mode:       
  *           "Reseller Id"
  *
  * @see SystemDnUtilizationGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7821","type":"sequence"}]
  */
 class SystemDnGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +21,7 @@ class SystemDnGetUtilizationListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName dnUtilizationTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7821
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnUtilizationTable = null;

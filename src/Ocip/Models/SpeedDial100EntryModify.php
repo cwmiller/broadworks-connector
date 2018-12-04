@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3527","type":"sequence"}]
  */
 class SpeedDial100EntryModify
 {
@@ -17,6 +18,7 @@ class SpeedDial100EntryModify
     /**
      * @ElementName speedCode
      * @Type int
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3527
      * @var int|null
      */
     private $speedCode = null;
@@ -24,6 +26,8 @@ class SpeedDial100EntryModify
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3527
      * @var string|null
      */
     private $phoneNumber = null;
@@ -32,6 +36,8 @@ class SpeedDial100EntryModify
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3527
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOptionsMenuKeys
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:798","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOptionsMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOption
     /**
      * @ElementName activateCallForwarding
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:798
      * @var string|null
      */
     private $activateCallForwarding = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOption
     /**
      * @ElementName deactivateCallForwarding
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:798
      * @var string|null
      */
     private $deactivateCallForwarding = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOption
     /**
      * @ElementName changeCallForwardingDestination
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:798
      * @var string|null
      */
     private $changeCallForwardingDestination = null;
@@ -32,6 +40,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOption
     /**
      * @ElementName listenToCallForwardingStatus
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:798
      * @var string|null
      */
     private $listenToCallForwardingStatus = null;
@@ -39,6 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOption
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:798
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -46,6 +57,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse21CallForwardingOption
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:798
      * @var string|null
      */
     private $repeatMenu = null;

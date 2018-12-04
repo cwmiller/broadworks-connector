@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14151","type":"sequence"}]
  */
 class SystemServiceCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemServiceCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceCode
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14151
      * @var string|null
      */
     private $serviceCode = null;
@@ -24,6 +26,8 @@ class SystemServiceCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14151
      * @var string|null
      */
     private $description = null;

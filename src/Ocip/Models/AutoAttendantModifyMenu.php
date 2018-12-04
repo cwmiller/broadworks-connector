@@ -8,6 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * The configuration of the automated receptionist greeting
  *         prompt and dialing menu to be used during business hours.
  *         It is used when modifying an Auto Attendant group.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38296","type":"sequence"}]
  */
 class AutoAttendantModifyMenu
 {
@@ -15,6 +17,8 @@ class AutoAttendantModifyMenu
     /**
      * @ElementName announcementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38296
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $announcementSelection = null;
@@ -22,6 +26,8 @@ class AutoAttendantModifyMenu
     /**
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38296
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $audioFile = null;
@@ -29,6 +35,8 @@ class AutoAttendantModifyMenu
     /**
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38296
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileResource|null
      */
     private $videoFile = null;
@@ -36,6 +44,8 @@ class AutoAttendantModifyMenu
     /**
      * @ElementName enableFirstMenuLevelExtensionDialing
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38296
      * @var bool|null
      */
     private $enableFirstMenuLevelExtensionDialing = null;
@@ -44,6 +54,8 @@ class AutoAttendantModifyMenu
      * @ElementName keyConfiguration
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38296
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyModifyConfiguration[]
      */
     private $keyConfiguration = array(

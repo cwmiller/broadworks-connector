@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserDeleteRequest
  *
- * Request to delete a user.  The response is either SuccessResponse or
- * ErrorResponse.
+ * Request to delete a user.  The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1200","type":"sequence"}]
  */
 class UserDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +17,7 @@ class UserDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIReques
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:1200
      * @var string|null
      */
     private $userId = null;

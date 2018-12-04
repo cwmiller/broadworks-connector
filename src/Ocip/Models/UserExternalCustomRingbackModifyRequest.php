@@ -6,20 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserExternalCustomRingbackModifyRequest
  *
  * Modify the user level data associated with External Custom Ringback.  
- *         The user SIP URI, when selected, it replaces the SP address, port and
- * prefix.  
- *         The user SIP URI, if selected, is the Request URI of the SIP INVITE sent
- *
- *         to the external server.  When the service provider data is used instead,
- *
- *         the Request URI is constructed using the prefix, address, port and the
- * user DN.  
- *         The timeout value is the only SP configuration used when the user SIP
- * URI is selected.
+ *         The user SIP URI, when selected, it replaces the SP address, port and prefix.  
+ *         The user SIP URI, if selected, is the Request URI of the SIP INVITE sent 
+ *         to the external server.  When the service provider data is used instead, 
+ *         the Request URI is constructed using the prefix, address, port and the user DN.  
+ *         The timeout value is the only SP configuration used when the user SIP URI is selected.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"fe688087ec2e31030f7ebdcdf92555d1:139","type":"sequence"}]
  */
 class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,6 +23,7 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:139
      * @var string|null
      */
     private $userId = null;
@@ -34,6 +31,8 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:139
      * @var bool|null
      */
     private $isActive = null;
@@ -41,6 +40,8 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel
+     * @Optional
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:139
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExternalCustomRingbackSettingLevel|null
      */
     private $useSettingLevel = null;
@@ -49,6 +50,8 @@ class UserExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName sipRequestURI
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:139
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipRequestURI = null;

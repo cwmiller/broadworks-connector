@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterpriseEnterpriseTrunkGetRequest21.
  *
  * @see EnterpriseEnterpriseTrunkGetRequest21
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:329","type":"sequence","children":[{"id":"5472d4b45ad0ad56e4f82361e2a66a53:333","type":"choice","children":[{"id":"5472d4b45ad0ad56e4f82361e2a66a53:337","type":"sequence"},{"id":"5472d4b45ad0ad56e4f82361e2a66a53:346","type":"sequence"}]}]}]
  */
 class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:329
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
@@ -22,6 +24,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:329
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
@@ -29,6 +32,8 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName routeExhaustionForwardAddress
      * @Type string
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:329
      * @var string|null
      */
     private $routeExhaustionForwardAddress = null;
@@ -36,6 +41,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse21OrderedRouting
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:333
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse21OrderedRouting|null
      */
     private $orderedRouting = null;
@@ -43,6 +49,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse21PriorityWeightedRouting
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:333
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponse21PriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;
@@ -50,6 +57,7 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName enableCapacityManagement
      * @Type bool
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:329
      * @var bool|null
      */
     private $enableCapacityManagement = null;
@@ -57,6 +65,8 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName maxActiveCalls
      * @Type int
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:329
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -64,6 +74,8 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:329
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -71,6 +83,8 @@ class EnterpriseEnterpriseTrunkGetResponse21 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:329
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;

@@ -6,18 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserFlexibleSeatingGuestModifyRequest
  *
  * Modify the user level data associated with flexible seating guest.
- * 		accessDeviceEndpoint can only be configured by group or a higher level
- * administrator.
- * 		The request fails if isActive is set to false and the guest is associated to a
- * host.
- * 		The request fails when enableAssociationLimit, associationLimitHours,
- * unlockPhonePINCode are changed when the guest is associated to a host.
- * 		The request fails when accessDeviceEndpoint is set in the request when the
- * guest is associated to a host.
+ * 		accessDeviceEndpoint can only be configured by group or a higher level administrator.
+ * 		The request fails if isActive is set to false and the guest is associated to a host.
+ * 		The request fails when enableAssociationLimit, associationLimitHours, unlockPhonePINCode are changed when the guest is associated to a host.
+ * 		The request fails when accessDeviceEndpoint is set in the request when the guest is associated to a host.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:450","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,6 +22,7 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:450
      * @var string|null
      */
     private $userId = null;
@@ -32,6 +30,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:450
      * @var bool|null
      */
     private $isActive = null;
@@ -39,6 +39,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName enableAssociationLimit
      * @Type bool
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:450
      * @var bool|null
      */
     private $enableAssociationLimit = null;
@@ -46,6 +48,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName associationLimitHours
      * @Type int
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:450
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -54,6 +58,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName unlockPhonePINCode
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:450
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $unlockPhonePINCode = null;
@@ -62,6 +68,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify
      * @Nillable
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:450
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessDeviceEndpoint = null;
@@ -70,6 +78,8 @@ class UserFlexibleSeatingGuestModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName hostUserId
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:450
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hostUserId = null;

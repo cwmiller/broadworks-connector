@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ProfileAndServiceThirdPartyVoiceMailInfo
  *
  * This is the configuration parameters for Third Party Voice Mail service
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3798","type":"sequence"}]
  */
 class ProfileAndServiceThirdPartyVoiceMailInfo
 {
@@ -13,6 +15,7 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var bool|null
      */
     private $isActive = null;
@@ -20,6 +23,7 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName busyRedirectToVoiceMail
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var bool|null
      */
     private $busyRedirectToVoiceMail = null;
@@ -27,6 +31,7 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName noAnswerRedirectToVoiceMail
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var bool|null
      */
     private $noAnswerRedirectToVoiceMail = null;
@@ -34,6 +39,7 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName serverSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportServerSelection|null
      */
     private $serverSelection = null;
@@ -41,6 +47,8 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName userServer
      * @Type string
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var string|null
      */
     private $userServer = null;
@@ -48,6 +56,7 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName mailboxIdType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportMailboxIdType|null
      */
     private $mailboxIdType = null;
@@ -55,6 +64,8 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName mailboxURL
      * @Type string
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var string|null
      */
     private $mailboxURL = null;
@@ -62,6 +73,7 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var \CWM\BroadWorksConnector\Ocip\Models\ThirdPartyVoiceMailSupportNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
@@ -69,6 +81,7 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName alwaysRedirectToVoiceMail
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var bool|null
      */
     private $alwaysRedirectToVoiceMail = null;
@@ -76,6 +89,7 @@ class ProfileAndServiceThirdPartyVoiceMailInfo
     /**
      * @ElementName outOfPrimaryZoneRedirectToVoiceMail
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3798
      * @var bool|null
      */
     private $outOfPrimaryZoneRedirectToVoiceMail = null;

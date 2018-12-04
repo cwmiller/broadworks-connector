@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"cd03b563fec121b562411c9b734b5953:104","type":"sequence"}]
  */
 class SystemSMDIMessageDeskDeleteServerRouteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemSMDIMessageDeskDeleteServerRouteRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName routeDestination
      * @Type string
+     * @Group cd03b563fec121b562411c9b734b5953:104
      * @var string|null
      */
     private $routeDestination = null;

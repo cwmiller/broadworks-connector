@@ -7,9 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Busy Lamp Field service
  *         	The monitoredUserTable has column headings:
- *         	"User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
- * First Name",
+ *         	"User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         	"Phone Number", "Extension", "Department", "Email Address", "IMP Id".
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3456","type":"sequence"}]
  */
 class ProfileAndServiceBusyLampFieldInfo
 {
@@ -17,6 +18,8 @@ class ProfileAndServiceBusyLampFieldInfo
     /**
      * @ElementName listURI
      * @Type string
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3456
      * @var string|null
      */
     private $listURI = null;
@@ -24,6 +27,7 @@ class ProfileAndServiceBusyLampFieldInfo
     /**
      * @ElementName enableCallParkNotification
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3456
      * @var bool|null
      */
     private $enableCallParkNotification = null;
@@ -31,6 +35,7 @@ class ProfileAndServiceBusyLampFieldInfo
     /**
      * @ElementName monitoredUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:3456
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $monitoredUserTable = null;

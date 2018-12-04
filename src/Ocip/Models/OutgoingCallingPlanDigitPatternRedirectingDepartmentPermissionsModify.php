@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * OutgoingCallingPlanDigitPatternRedirectingDepartmentPermissionsModify
  *
- * Modify outgoing Calling Plan redirecting call permissions for specified digit
- * patterns.
+ * Modify outgoing Calling Plan redirecting call permissions for specified digit patterns.
+ *
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1969","type":"sequence"}]
  */
 class OutgoingCallingPlanDigitPatternRedirectingDepartmentPermissionsModify
 {
@@ -14,6 +15,7 @@ class OutgoingCallingPlanDigitPatternRedirectingDepartmentPermissionsModify
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1969
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -21,6 +23,7 @@ class OutgoingCallingPlanDigitPatternRedirectingDepartmentPermissionsModify
     /**
      * @ElementName digitPatternPermissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermissions
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1969
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanDigitPatternRedirectingPermissions|null
      */
     private $digitPatternPermissions = null;

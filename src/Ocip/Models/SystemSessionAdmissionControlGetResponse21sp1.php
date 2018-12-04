@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSessionAdmissionControlGetResponse21sp1
  *
  * Response to the SystemSessionAdmissionControlGetRequest21sp1.
- *         The response contains the session admission control settings for the
- * system.
+ *         The response contains the session admission control settings for the system.
  *         
  *         Replaced by: SystemSessionAdmissionControlGetResponse22.
  *
  * @see SystemSessionAdmissionControlGetRequest21sp1
  * @see SystemSessionAdmissionControlGetResponse22
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:24262","type":"sequence"}]
  */
 class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +20,7 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName countLongConnectionsToMediaServer
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24262
      * @var bool|null
      */
     private $countLongConnectionsToMediaServer = null;
@@ -27,6 +28,7 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName sacHandlingForMoH
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24262
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlForMusicOnHoldType|null
      */
     private $sacHandlingForMoH = null;
@@ -34,6 +36,7 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName blockVMDepositDueToSACLimits
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24262
      * @var bool|null
      */
     private $blockVMDepositDueToSACLimits = null;
@@ -41,6 +44,7 @@ class SystemSessionAdmissionControlGetResponse21sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName sacCodecSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24262
      * @var \CWM\BroadWorksConnector\Ocip\Models\SessionAdmissionControlCodecSelectionPolicyType|null
      */
     private $sacCodecSelectionPolicy = null;

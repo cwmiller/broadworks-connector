@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest
  *
- * Unassign a list of service provider number prefixes from a group. The number
- * prefixes then become available for assignment to other groups.
+ * Unassign a list of service provider number prefixes from a group. The number prefixes then become available for assignment to other groups.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:303","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:303
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:303
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupRouteListEnterpriseTrunkNumberPrefixUnassignListRequest extends \CWM\
      * @ElementName numberPrefix
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:303
      * @var string[]
      */
     private $numberPrefix = array(

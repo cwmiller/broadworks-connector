@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserFlexibleSeatingGuestGetRequest.
  *
  * @see UserFlexibleSeatingGuestGetRequest
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:420","type":"sequence"}]
  */
 class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName enableAssociationLimit
      * @Type bool
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var bool|null
      */
     private $enableAssociationLimit = null;
@@ -29,6 +32,7 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName associationLimitHours
      * @Type int
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -36,6 +40,8 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName unlockPhonePINCode
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var string|null
      */
     private $unlockPhonePINCode = null;
@@ -43,6 +49,8 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead20
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceMultipleContactEndpointRead20|null
      */
     private $accessDeviceEndpoint = null;
@@ -50,6 +58,8 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName hostUserId
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var string|null
      */
     private $hostUserId = null;
@@ -57,6 +67,8 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName hostLastName
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var string|null
      */
     private $hostLastName = null;
@@ -64,6 +76,8 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName hostFirstName
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var string|null
      */
     private $hostFirstName = null;
@@ -71,6 +85,8 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName hostAssociationDateTime
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var string|null
      */
     private $hostAssociationDateTime = null;
@@ -78,6 +94,8 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName hostEnforcesAssociationLimit
      * @Type bool
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var bool|null
      */
     private $hostEnforcesAssociationLimit = null;
@@ -85,6 +103,8 @@ class UserFlexibleSeatingGuestGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName hostAssociationLimitHours
      * @Type int
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:420
      * @var int|null
      */
     private $hostAssociationLimitHours = null;

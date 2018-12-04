@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:1124","type":"sequence"}]
  */
 class GroupRoutePointQueueCallDispositionCodeModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupRoutePointQueueCallDispositionCodeModifyRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:1124
      * @var string|null
      */
     private $serviceUserId = null;
@@ -24,6 +26,7 @@ class GroupRoutePointQueueCallDispositionCodeModifyRequest extends \CWM\BroadWor
     /**
      * @ElementName code
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:1124
      * @var string|null
      */
     private $code = null;
@@ -31,6 +34,8 @@ class GroupRoutePointQueueCallDispositionCodeModifyRequest extends \CWM\BroadWor
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:1124
      * @var bool|null
      */
     private $isActive = null;
@@ -39,6 +44,8 @@ class GroupRoutePointQueueCallDispositionCodeModifyRequest extends \CWM\BroadWor
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:1124
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

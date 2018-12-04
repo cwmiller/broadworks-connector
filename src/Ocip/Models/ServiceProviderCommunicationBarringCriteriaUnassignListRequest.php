@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1464","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringCriteriaUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderCommunicationBarringCriteriaUnassignListRequest extends \CW
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1464
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,8 @@ class ServiceProviderCommunicationBarringCriteriaUnassignListRequest extends \CW
      * @ElementName criteriaName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1464
      * @var string[]
      */
     private $criteriaName = array(

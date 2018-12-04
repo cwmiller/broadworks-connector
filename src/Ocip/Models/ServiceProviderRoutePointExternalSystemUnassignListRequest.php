@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4553","type":"sequence"}]
  */
 class ServiceProviderRoutePointExternalSystemUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderRoutePointExternalSystemUnassignListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4553
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,8 @@ class ServiceProviderRoutePointExternalSystemUnassignListRequest extends \CWM\Br
      * @ElementName routePointExternalSystem
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4553
      * @var string[]
      */
     private $routePointExternalSystem = array(

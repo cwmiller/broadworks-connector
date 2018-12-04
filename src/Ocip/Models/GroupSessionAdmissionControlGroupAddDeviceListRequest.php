@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupSessionAdmissionControlGroupAddDeviceListRequest
  *
- * Request to add one ore more devices to a group level session admission control
- * group.
+ * Request to add one ore more devices to a group level session admission control group.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6729","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6729
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6729
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWo
     /**
      * @ElementName name
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6729
      * @var string|null
      */
     private $name = null;
@@ -40,6 +43,7 @@ class GroupSessionAdmissionControlGroupAddDeviceListRequest extends \CWM\BroadWo
      * @ElementName devices
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
      * @Array
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6729
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice[]
      */
     private $devices = array(

@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserCallCenterGetRequest16.
  *         Contains the user's call center settings.
- *         Indicates whether the agent is current available (logged in) to each
- * call center in the list.
- *         Contains a table with column headings: "Service User Id", "Phone
- * Number", "Extension", "Available", "Logoff Allowed", "Type", and "Priority".
+ *         Indicates whether the agent is current available (logged in) to each call center in the list.
+ *         Contains a table with column headings: "Service User Id", "Phone Number", "Extension", "Available", "Logoff Allowed", "Type", and "Priority".
  *
  * @see UserCallCenterGetRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32737","type":"sequence"}]
  */
 class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +19,8 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName agentACDState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AgentACDState
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var \CWM\BroadWorksConnector\Ocip\Models\AgentACDState|null
      */
     private $agentACDState = null;
@@ -27,6 +28,7 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName useDefaultGuardTimer
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var bool|null
      */
     private $useDefaultGuardTimer = null;
@@ -34,6 +36,7 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName enableGuardTimer
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -41,6 +44,7 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName guardTimerSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -48,6 +52,8 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName useSystemDefaultUnavailableSettings
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var bool|null
      */
     private $useSystemDefaultUnavailableSettings = null;
@@ -55,6 +61,8 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -62,6 +70,8 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName forceUnavailableOnPersonalCalls
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var bool|null
      */
     private $forceUnavailableOnPersonalCalls = null;
@@ -69,6 +79,8 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -76,6 +88,8 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
@@ -83,6 +97,7 @@ class UserCallCenterGetResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32737
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:261","type":"sequence"}]
  */
 class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:261
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:261
      * @var string|null
      */
     private $phoneNumber = null;
@@ -31,6 +34,8 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:261
      * @var string|null
      */
     private $description = null;
@@ -38,6 +43,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:261
      * @var bool|null
      */
     private $isActive = null;
@@ -45,6 +51,8 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName outboundAlternateNumber
      * @Type string
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:261
      * @var string|null
      */
     private $outboundAlternateNumber = null;
@@ -52,6 +60,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName broadworksCallControl
      * @Type bool
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:261
      * @var bool|null
      */
     private $broadworksCallControl = null;
@@ -59,6 +68,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName useDiversionInhibitor
      * @Type bool
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:261
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
@@ -66,6 +76,7 @@ class UserBroadWorksAnywhereAddPhoneNumberRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:261
      * @var bool|null
      */
     private $answerConfirmationRequired = null;

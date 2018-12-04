@@ -8,10 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPrivacyGetAvailableMonitorsUserListRequest.
  *         Returns a 10 column table with column headings:
  *         "User Id", "Last Name", "First Name", "Hiragana Last Name",
- *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email
- * Address", "IMP Id".
+ *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email Address", "IMP Id".
  *
  * @see UserPrivacyGetAvailableMonitorsUserListRequest
+ * @Groups [{"id":"9a926a382673eb202a097f300e3bb0d3:127","type":"sequence"}]
  */
 class UserPrivacyGetAvailableMonitorsUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class UserPrivacyGetAvailableMonitorsUserListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName availableMonitorsTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 9a926a382673eb202a097f300e3bb0d3:127
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableMonitorsTable = null;

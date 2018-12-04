@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemZoneCallingRestrictionsNetAddressGetListResponse
  * @see SystemZoneNetAddressGetListRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32117","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName zoneName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32117
      * @var string|null
      */
     private $zoneName = null;
@@ -25,6 +27,8 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32117
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -33,6 +37,8 @@ class SystemZoneCallingRestrictionsNetAddressGetListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaZoneIPAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32117
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaZoneIPAddress[]
      */
     private $searchCriteriaZoneIPAddress = array(

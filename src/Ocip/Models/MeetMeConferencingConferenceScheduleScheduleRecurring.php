@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * MeetMeConferencingConferenceScheduleScheduleRecurring
+ *
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:942","type":"sequence"}]
  */
 class MeetMeConferencingConferenceScheduleScheduleRecurring
 {
@@ -11,6 +13,7 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
     /**
      * @ElementName startTime
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:942
      * @var string|null
      */
     private $startTime = null;
@@ -18,6 +21,7 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
     /**
      * @ElementName duration
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration
+     * @Group e51a0a16349851c3fad768a24a35838d:942
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceDuration|null
      */
     private $duration = null;
@@ -25,6 +29,7 @@ class MeetMeConferencingConferenceScheduleScheduleRecurring
     /**
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
+     * @Group e51a0a16349851c3fad768a24a35838d:942
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     private $recurrence = null;

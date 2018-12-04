@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCollaborateDeleteRoomRequest
  *
- * Request to delete a collaborate room.  The request only applies to project rooms
- * and instant rooms.
+ * Request to delete a collaborate room.  The request only applies to project rooms and instant rooms.
  *         The request fails when deleting a collaborate My Room.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:450","type":"sequence"}]
  */
 class UserCollaborateDeleteRoomRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserCollaborateDeleteRoomRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:450
      * @var string|null
      */
     private $userId = null;
@@ -26,6 +27,7 @@ class UserCollaborateDeleteRoomRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName roomId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:450
      * @var string|null
      */
     private $roomId = null;

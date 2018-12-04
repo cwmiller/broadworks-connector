@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemFileRepositoryDeviceUserGetRequest
  *
  * Request a user of a file repository in the system.
- *         The response is either a SystemFileRepositoryDeviceUserGetResponse or an
- * ErrorResponse.
+ *         The response is either a SystemFileRepositoryDeviceUserGetResponse or an ErrorResponse.
  *
  * @see SystemFileRepositoryDeviceUserGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8856","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName fileRepositoryName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8856
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -25,6 +26,7 @@ class SystemFileRepositoryDeviceUserGetRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8856
      * @var string|null
      */
     private $userName = null;

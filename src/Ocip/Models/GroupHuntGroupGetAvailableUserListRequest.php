@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupHuntGroupGetAvailableUserListRequest
  *
  * Get a list of users that can be assigned to a Hunt Group group.
- *         Searching for users by group only makes sense when the hunt group is
- * part of an Enterprise.
- *         The response is either GroupHuntGroupGetAvailableUserListResponse or
- * ErrorResponse.
+ *         Searching for users by group only makes sense when the hunt group is part of an Enterprise.
+ *         The response is either GroupHuntGroupGetAvailableUserListResponse or ErrorResponse.
  *
  * @see GroupHuntGroupGetAvailableUserListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1136ac7348c14565d0ad74d10c47409a:242","type":"sequence"}]
  */
 class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +27,7 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +35,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -42,6 +45,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -52,6 +57,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -61,6 +68,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -68,6 +77,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -76,6 +87,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -86,6 +99,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -96,6 +111,8 @@ class GroupHuntGroupGetAvailableUserListRequest extends \CWM\BroadWorksConnector
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 1136ac7348c14565d0ad74d10c47409a:242
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

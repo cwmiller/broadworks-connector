@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupExchangeIntegrationGetRequest
  *
  * Request the group level configuration for Exchange Integration.
- *         The response is either a GroupExchangeIntegrationGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupExchangeIntegrationGetResponse or an ErrorResponse.
  *
  * @see GroupExchangeIntegrationGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4515","type":"sequence"}]
  */
 class GroupExchangeIntegrationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupExchangeIntegrationGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4515
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupExchangeIntegrationGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4515
      * @var string|null
      */
     private $groupId = null;

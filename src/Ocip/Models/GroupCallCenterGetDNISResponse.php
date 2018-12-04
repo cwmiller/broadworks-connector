@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupCallCenterGetDNISResponse.
  *
  * @see GroupCallCenterGetDNISResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3987","type":"sequence"}]
  */
 class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName dnisPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3987
      * @var string|null
      */
     private $dnisPhoneNumber = null;
@@ -22,6 +25,8 @@ class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName extension
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3987
      * @var string|null
      */
     private $extension = null;
@@ -29,6 +34,7 @@ class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useCustomCLIDSettings
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3987
      * @var bool|null
      */
     private $useCustomCLIDSettings = null;
@@ -36,6 +42,8 @@ class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3987
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -43,6 +51,8 @@ class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName callingLineIdLastName
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3987
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -50,6 +60,8 @@ class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3987
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -57,6 +69,7 @@ class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName useCustomDnisAnnouncementSettings
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3987
      * @var bool|null
      */
     private $useCustomDnisAnnouncementSettings = null;
@@ -64,6 +77,7 @@ class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName priority
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNISPriority
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3987
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNISPriority|null
      */
     private $priority = null;
@@ -71,6 +85,7 @@ class GroupCallCenterGetDNISResponse extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName allowOutgoingACDCall
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3987
      * @var bool|null
      */
     private $allowOutgoingACDCall = null;

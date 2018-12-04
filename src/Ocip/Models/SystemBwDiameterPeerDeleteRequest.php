@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemBwDiameterPeerDeleteRequest
  *
- * Remove a Diameter peer.  A peer cannot be removed if is referenced by a Realm
- * Routing Table entry.
+ * Remove a Diameter peer.  A peer cannot be removed if is referenced by a Realm Routing Table entry.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2242","type":"sequence"}]
  */
 class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName instance
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2242
      * @var \CWM\BroadWorksConnector\Ocip\Models\BwDiameterPeerInstance|null
      */
     private $instance = null;
@@ -25,6 +26,7 @@ class SystemBwDiameterPeerDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName identity
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2242
      * @var string|null
      */
     private $identity = null;

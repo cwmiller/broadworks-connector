@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderLanguageGetListRequest
  *
  * Request the defined languages for a service provider.
- *         The response is either a ServiceProviderLanguageGetListResponse or an
- * ErrorResponse.
+ *         The response is either a ServiceProviderLanguageGetListResponse or an ErrorResponse.
  *
  * @see ServiceProviderLanguageGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3818","type":"sequence"}]
  */
 class ServiceProviderLanguageGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderLanguageGetListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3818
      * @var string|null
      */
     private $serviceProviderId = null;

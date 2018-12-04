@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * DeviceManagementAutoRebuildConfigEntry
  *
  * Contains one automatic rebuild configuration list entry.
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17354","type":"sequence"}]
  */
 class DeviceManagementAutoRebuildConfigEntry
 {
@@ -13,6 +15,7 @@ class DeviceManagementAutoRebuildConfigEntry
     /**
      * @ElementName ociRequestPrefix
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17354
      * @var string|null
      */
     private $ociRequestPrefix = null;
@@ -20,6 +23,8 @@ class DeviceManagementAutoRebuildConfigEntry
     /**
      * @ElementName autoRebuildEnabled
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17354
      * @var bool|null
      */
     private $autoRebuildEnabled = null;

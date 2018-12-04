@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6462","type":"sequence"}]
  */
 class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6462
      * @var string|null
      */
     private $deviceType = null;
@@ -24,6 +26,7 @@ class SystemCPEConfigSetConfigFileRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName configFile
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6462
      * @var string|null
      */
     private $configFile = null;

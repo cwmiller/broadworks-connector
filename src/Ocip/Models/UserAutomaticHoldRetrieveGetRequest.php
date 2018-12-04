@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAutomaticHoldRetrieveGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"cc9fbb7c8a5ecbfd033bac031b72a6af:44","type":"sequence"}]
  */
 class UserAutomaticHoldRetrieveGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserAutomaticHoldRetrieveGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group cc9fbb7c8a5ecbfd033bac031b72a6af:44
      * @var string|null
      */
     private $userId = null;

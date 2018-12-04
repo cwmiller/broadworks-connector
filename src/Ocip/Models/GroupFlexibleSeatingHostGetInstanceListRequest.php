@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFlexibleSeatingHostGetInstanceListRequest
  *
  * Get a list of flexible seating host instances within a group.
- *         The response is either GroupFlexibleSeatingHostGetInstanceListResponse
- * or ErrorResponse.
+ *         The response is either GroupFlexibleSeatingHostGetInstanceListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupFlexibleSeatingHostGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:141","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:141
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:141
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:141
      * @var string|null
      */
     private $groupDepartmentName = null;
@@ -40,6 +44,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:141
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -47,6 +53,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -55,6 +63,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaServiceInstanceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceInstanceName
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceInstanceName[]
      */
     private $searchCriteriaServiceInstanceName = array(
@@ -65,6 +75,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -75,6 +87,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -85,6 +99,8 @@ class GroupFlexibleSeatingHostGetInstanceListRequest extends \CWM\BroadWorksConn
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:141
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

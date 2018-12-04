@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProfileMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31337","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProfileMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProf
     /**
      * @ElementName activateAvailableInOfficeProfile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31337
      * @var string|null
      */
     private $activateAvailableInOfficeProfile = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProf
     /**
      * @ElementName activateAvailableOutOfOfficeProfile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31337
      * @var string|null
      */
     private $activateAvailableOutOfOfficeProfile = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProf
     /**
      * @ElementName activateBusyProfile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31337
      * @var string|null
      */
     private $activateBusyProfile = null;
@@ -32,6 +40,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProf
     /**
      * @ElementName activateUnavailableProfile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31337
      * @var string|null
      */
     private $activateUnavailableProfile = null;
@@ -39,6 +49,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProf
     /**
      * @ElementName noProfile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31337
      * @var string|null
      */
     private $noProfile = null;
@@ -46,6 +58,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProf
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31337
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -53,6 +66,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20CommPilotExpressProf
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31337
      * @var string|null
      */
     private $repeatMenu = null;

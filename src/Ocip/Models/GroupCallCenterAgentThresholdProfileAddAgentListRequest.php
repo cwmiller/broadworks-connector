@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterAgentThresholdProfileAddAgentListRequest
  *
  * Add agent(s) to a Agent Threshold Profile.
- *         When an agent is assigned (added )to a profile, it is automatically
- * unassigned (deleted) from the previous profile it was assigned to.
+ *         When an agent is assigned (added )to a profile, it is automatically unassigned (deleted) from the previous profile it was assigned to.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1945","type":"sequence"}]
  */
 class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1945
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1945
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
     /**
      * @ElementName profileName
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1945
      * @var string|null
      */
     private $profileName = null;
@@ -41,6 +44,7 @@ class GroupCallCenterAgentThresholdProfileAddAgentListRequest extends \CWM\Broad
      * @ElementName agentUserId
      * @Type string
      * @Array
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1945
      * @var string[]
      */
     private $agentUserId = array(

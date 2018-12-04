@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:107","type":"sequence"}]
  */
 class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:107
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
     /**
      * @ElementName homeZoneDomainName
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:107
      * @var string|null
      */
     private $homeZoneDomainName = null;
@@ -31,6 +34,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
     /**
      * @ElementName mobileCountryCode
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:107
      * @var string|null
      */
     private $mobileCountryCode = null;
@@ -38,6 +42,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
     /**
      * @ElementName mobileNetworkCode
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:107
      * @var string|null
      */
     private $mobileNetworkCode = null;
@@ -45,6 +50,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
     /**
      * @ElementName locationAreaCode
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:107
      * @var string|null
      */
     private $locationAreaCode = null;
@@ -52,6 +58,7 @@ class EnterpriseBroadWorksMobileManagerAddHomeZoneRequest extends \CWM\BroadWork
     /**
      * @ElementName cellIdentity
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:107
      * @var string|null
      */
     private $cellIdentity = null;

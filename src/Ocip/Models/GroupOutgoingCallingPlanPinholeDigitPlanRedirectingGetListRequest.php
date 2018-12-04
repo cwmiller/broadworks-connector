@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest
  *
- * Request the redirecting permissions for Pinhole digit patterns for a group
- * default and its departments.
- *         The response is either a
- * GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListResponse or an
- * ErrorResponse.
+ * Request the redirecting permissions for Pinhole digit patterns for a group default and its departments.
+ *         The response is either a GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListResponse or an ErrorResponse.
  *
  * @see GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:668","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest extends 
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:668
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +26,7 @@ class GroupOutgoingCallingPlanPinholeDigitPlanRedirectingGetListRequest extends 
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:668
      * @var string|null
      */
     private $groupId = null;

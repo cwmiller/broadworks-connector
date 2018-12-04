@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointOverflowGetRequest
  *
  * Get a route point's overflow settings.
- *         The response is either a GroupRoutePointOverflowGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupRoutePointOverflowGetResponse or an ErrorResponse.
  *
  * @see GroupRoutePointOverflowGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:10920","type":"sequence"}]
  */
 class GroupRoutePointOverflowGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointOverflowGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10920
      * @var string|null
      */
     private $serviceUserId = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCommunicationBarringAuthorizationCodeGetRequest
  *
  * Request the group Communication Barring Authorization Code setting.
- *         The response is either a
- * GroupCommunicationBarringAuthorizationCodeGetResponse or an ErrorResponse.
+ *         The response is either a GroupCommunicationBarringAuthorizationCodeGetResponse or an ErrorResponse.
  *
  * @see GroupCommunicationBarringAuthorizationCodeGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2245","type":"sequence"}]
  */
 class GroupCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2245
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWor
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2245
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupCommunicationBarringAuthorizationCodeGetRequest extends \CWM\BroadWor
     /**
      * @ElementName code
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2245
      * @var string|null
      */
     private $code = null;

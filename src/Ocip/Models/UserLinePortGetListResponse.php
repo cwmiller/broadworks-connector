@@ -7,13 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to UserLinePortGetListRequest.
  *           Contains a table of line ports configured for a user
- *           The column headings are: "Line Port", "Line Port Type", "In Trunk
- * Group",
- *           "Contact", "Contact2", "Contact3", "Contact4", "Contact5", "
- * Authentication Mode ",
+ *           The column headings are: "Line Port", "Line Port Type", "In Trunk Group",
+ *           "Contact", "Contact2", "Contact3", "Contact4", "Contact5", " Authentication Mode ",
  *           and "Auto-Config Soft Client".
  *
  * @see UserLinePortGetListRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1999","type":"sequence"}]
  */
 class UserLinePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +20,7 @@ class UserLinePortGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName linePortTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:1999
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $linePortTable = null;

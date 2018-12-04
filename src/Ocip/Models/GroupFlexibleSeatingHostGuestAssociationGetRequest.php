@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupFlexibleSeatingHostGuestAssociationGetRequest
  *
  * Request the flexible seating host guest association details.
- *         The response is either a
- * GroupFlexibleSeatingHostGuestAssociationGetResponse or an ErrorResponse.
+ *         The response is either a GroupFlexibleSeatingHostGuestAssociationGetResponse or an ErrorResponse.
  * accessLevel is always set to Group for a Service Provider
  *
  * @see GroupFlexibleSeatingHostGuestAssociationGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:219","type":"sequence"}]
  */
 class GroupFlexibleSeatingHostGuestAssociationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupFlexibleSeatingHostGuestAssociationGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:219
      * @var string|null
      */
     private $serviceUserId = null;

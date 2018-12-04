@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the user's voice messaging greeting.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         Engineering Note: This command can only be executed from the Execution
- * Server
+ *         Engineering Note: This command can only be executed from the Execution Server
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"0dfc97518f5c669220a4d4a59ad5be5c:107","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName userId
      * @Type string
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var string|null
      */
     private $userId = null;
@@ -26,6 +27,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName busyAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementSelection|null
      */
     private $busyAnnouncementSelection = null;
@@ -33,6 +36,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName busyPersonalAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $busyPersonalAudioFile = null;
@@ -40,6 +45,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName busyPersonalVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $busyPersonalVideoFile = null;
@@ -47,6 +54,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName noAnswerAnnouncementSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNoAnswerGreetingSelection|null
      */
     private $noAnswerAnnouncementSelection = null;
@@ -54,6 +63,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName noAnswerPersonalAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $noAnswerPersonalAudioFile = null;
@@ -61,6 +72,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName noAnswerPersonalVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $noAnswerPersonalVideoFile = null;
@@ -68,6 +81,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingNumberOfRings|null
      */
     private $noAnswerNumberOfRings = null;
@@ -75,6 +90,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName extendedAwayEnabled
      * @Type bool
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var bool|null
      */
     private $extendedAwayEnabled = null;
@@ -82,6 +99,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName extendedAwayDisableMessageDeposit
      * @Type bool
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var bool|null
      */
     private $extendedAwayDisableMessageDeposit = null;
@@ -89,6 +108,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName extendedAwayAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $extendedAwayAudioFile = null;
@@ -96,6 +117,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName extendedAwayVideoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledFileNameResource|null
      */
     private $extendedAwayVideoFile = null;
@@ -103,6 +126,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName disableMessageDeposit
      * @Type bool
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var bool|null
      */
     private $disableMessageDeposit = null;
@@ -110,6 +135,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
     /**
      * @ElementName disableMessageDepositAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingDisableMessageDepositSelection|null
      */
     private $disableMessageDepositAction = null;
@@ -118,6 +145,8 @@ class UserVoiceMessagingUserModifyGreetingExecutionServerRequest extends \CWM\Br
      * @ElementName greetingOnlyForwardDestination
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 0dfc97518f5c669220a4d4a59ad5be5c:107
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $greetingOnlyForwardDestination = null;

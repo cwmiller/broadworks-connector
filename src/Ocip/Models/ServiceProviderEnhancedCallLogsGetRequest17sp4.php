@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderEnhancedCallLogsGetRequest17sp4
  *
  * Get the service provider's enhanced call log settings.
- *         The response is either a ServiceProviderEnhancedCallLogsGetResponse17sp4
- * or an ErrorResponse.
- *         This command will return an ErrorResponse if DBS is used as the call log
- * server.
+ *         The response is either a ServiceProviderEnhancedCallLogsGetResponse17sp4 or an ErrorResponse.
+ *         This command will return an ErrorResponse if DBS is used as the call log server.
  *
  * @see ServiceProviderEnhancedCallLogsGetResponse17sp4
  * @see ErrorResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b1edb32782550c1a52523b734e3143d:102","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsGetRequest17sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class ServiceProviderEnhancedCallLogsGetRequest17sp4 extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b1edb32782550c1a52523b734e3143d:102
      * @var string|null
      */
     private $serviceProviderId = null;

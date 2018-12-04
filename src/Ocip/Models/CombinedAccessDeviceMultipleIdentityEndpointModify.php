@@ -6,24 +6,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CombinedAccessDeviceMultipleIdentityEndpointModify
  *
  * Access device end point used in the context of modify.
- *       The endpoint is identified by its linePort (public Identity) and possibly
- * a private Identity.
- *       Only Static Registration capable devices may have more than one contact
- * defined.
+ *       The endpoint is identified by its linePort (public Identity) and possibly a private Identity.
+ *       Only Static Registration capable devices may have more than one contact defined.
  *       Port numbers are only used by devices with static line ordering.
  *       
- *       In the case an access device referenced by accessDevice does not exist,
- * the device will be added.
- *       When the device needs to be added, if the linePort is not specified, the
- * request will fail
+ *       In the case an access device referenced by accessDevice does not exist, the device will be added.
+ *       When the device needs to be added, if the linePort is not specified, the request will fail
  *       
- *       The device attributes deviceType, protocol, netAddress, port,
- * outboundProxyServerNetAddress, 
- *       stunServerNetAddress, macAddress, serialNumber, description,
- * physicalLocation, transportProtocol,
- *       useCustomUserNamePassword and accessDeviceCredentials will be ignored if
- * the access device already
+ *       The device attributes deviceType, protocol, netAddress, port, outboundProxyServerNetAddress, 
+ *       stunServerNetAddress, macAddress, serialNumber, description, physicalLocation, transportProtocol,
+ *       useCustomUserNamePassword and accessDeviceCredentials will be ignored if the access device already
  *       exists.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:887","type":"sequence"}]
  */
 class CombinedAccessDeviceMultipleIdentityEndpointModify
 {
@@ -31,6 +26,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -38,6 +35,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName linePort
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $linePort = null;
@@ -46,6 +45,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
      * @ElementName privateIdentity
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateIdentity = null;
@@ -54,6 +55,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
      * @ElementName contact
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contact = null;
@@ -61,6 +64,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName portNumber
      * @Type int
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var int|null
      */
     private $portNumber = null;
@@ -68,6 +73,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName deviceType
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $deviceType = null;
@@ -75,6 +82,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName protocol
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $protocol = null;
@@ -82,6 +91,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName netAddress
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $netAddress = null;
@@ -89,6 +100,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName port
      * @Type int
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var int|null
      */
     private $port = null;
@@ -96,6 +109,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName outboundProxyServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $outboundProxyServerNetAddress = null;
@@ -103,6 +118,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName stunServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $stunServerNetAddress = null;
@@ -110,6 +127,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName macAddress
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $macAddress = null;
@@ -117,6 +136,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName serialNumber
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $serialNumber = null;
@@ -124,6 +145,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $description = null;
@@ -131,6 +154,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName physicalLocation
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var string|null
      */
     private $physicalLocation = null;
@@ -138,6 +163,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName transportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $transportProtocol = null;
@@ -145,6 +172,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName useCustomUserNamePassword
      * @Type bool
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var bool|null
      */
     private $useCustomUserNamePassword = null;
@@ -152,6 +181,8 @@ class CombinedAccessDeviceMultipleIdentityEndpointModify
     /**
      * @ElementName accessDeviceCredentials
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:887
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementUserNamePassword16|null
      */
     private $accessDeviceCredentials = null;

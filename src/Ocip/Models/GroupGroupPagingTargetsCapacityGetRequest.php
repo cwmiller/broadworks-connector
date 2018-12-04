@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupGroupPagingTargetsCapacityGetRequest
  *
- * Request the maximum number of target users per paging group configured for a
- * group.
+ * Request the maximum number of target users per paging group configured for a group.
  *         The response is either a GroupGroupPagingTargetsCapacityGetResponse
  *         or an ErrorResponse.
  *
  * @see GroupGroupPagingTargetsCapacityGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:469","type":"sequence"}]
  */
 class GroupGroupPagingTargetsCapacityGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupGroupPagingTargetsCapacityGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:469
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupGroupPagingTargetsCapacityGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:469
      * @var string|null
      */
     private $groupId = null;

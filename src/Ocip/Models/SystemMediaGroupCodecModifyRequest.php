@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10127","type":"sequence"}]
  */
 class SystemMediaGroupCodecModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemMediaGroupCodecModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10127
      * @var string|null
      */
     private $name = null;
@@ -24,6 +26,7 @@ class SystemMediaGroupCodecModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName codecName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10127
      * @var string|null
      */
     private $codecName = null;
@@ -31,6 +34,8 @@ class SystemMediaGroupCodecModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName codecWeight
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10127
      * @var int|null
      */
     private $codecWeight = null;

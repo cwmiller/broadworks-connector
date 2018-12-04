@@ -5,15 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCommunicationBarringModifyRequest
  *
- * Modify the Communication Barring settings for a user. If
- * useDefaultServiceProviderProfile is set to false, a profile name must be
- * present. 
+ * Modify the Communication Barring settings for a user. If useDefaultServiceProviderProfile is set to false, a profile name must be present. 
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         This command only applies to groups in an Enterprise. This command will
- * fail for groups in a Service Provider.
+ *         This command only applies to groups in an Enterprise. This command will fail for groups in a Service Provider.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1054","type":"sequence"}]
  */
 class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +19,7 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:1054
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +27,8 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName useGroupSetting
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1054
      * @var bool|null
      */
     private $useGroupSetting = null;
@@ -36,6 +37,8 @@ class UserCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName profileName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1054
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $profileName = null;

@@ -8,12 +8,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemPushNotificationParametersGetRequest.
  *         
  *         The following elements are only used in AS data mode:
- *           subscriptionEventsPerSecond, value "100" is returned in Amplify data
- * mode.
+ *           subscriptionEventsPerSecond, value "100" is returned in Amplify data mode.
  *           
  *         Contains a list of system push notification parameters.
  *
  * @see SystemPushNotificationParametersGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13007","type":"sequence"}]
  */
 class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +21,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName enforceAllowedApplicationList
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
      * @var bool|null
      */
     private $enforceAllowedApplicationList = null;
@@ -28,6 +29,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName maximumRegistrationsPerUser
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
      * @var int|null
      */
     private $maximumRegistrationsPerUser = null;
@@ -35,6 +37,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName maximumRegistrationAgeDays
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
      * @var int|null
      */
     private $maximumRegistrationAgeDays = null;
@@ -42,6 +45,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName newCallTimeout
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
      * @var int|null
      */
     private $newCallTimeout = null;
@@ -49,6 +53,7 @@ class SystemPushNotificationParametersGetResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName subscriptionEventsPerSecond
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13007
      * @var int|null
      */
     private $subscriptionEventsPerSecond = null;

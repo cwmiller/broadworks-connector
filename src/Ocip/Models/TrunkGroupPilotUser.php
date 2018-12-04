@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkGroupPilotUser
  *
  * Trunk Group pilot user information used when adding a Trunk Group.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3875","type":"sequence"}]
  */
 class TrunkGroupPilotUser
 {
@@ -13,6 +15,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName userId
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $userId = null;
@@ -20,6 +23,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName lastName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $lastName = null;
@@ -27,6 +31,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName firstName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $firstName = null;
@@ -34,6 +39,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName callingLineIdLastName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -41,6 +47,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -48,6 +55,8 @@ class TrunkGroupPilotUser
     /**
      * @ElementName hiraganaLastName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -55,6 +64,8 @@ class TrunkGroupPilotUser
     /**
      * @ElementName hiraganaFirstName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -62,6 +73,8 @@ class TrunkGroupPilotUser
     /**
      * @ElementName password
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $password = null;
@@ -69,6 +82,8 @@ class TrunkGroupPilotUser
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -76,6 +91,8 @@ class TrunkGroupPilotUser
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $language = null;
@@ -83,6 +100,8 @@ class TrunkGroupPilotUser
     /**
      * @ElementName timeZone
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $timeZone = null;
@@ -90,6 +109,7 @@ class TrunkGroupPilotUser
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $linePort = null;
@@ -97,6 +117,8 @@ class TrunkGroupPilotUser
     /**
      * @ElementName contact
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3875
      * @var string|null
      */
     private $contact = null;

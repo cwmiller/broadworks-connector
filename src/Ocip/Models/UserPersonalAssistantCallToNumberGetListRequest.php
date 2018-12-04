@@ -5,12 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserPersonalAssistantCallToNumberGetListRequest
  *
- * Request to get the user assigned Call to Number List information. The response
- * is either a UserPersonalAssistantCallToNumberGetListResponse or an
- * ErrorResponse.
+ * Request to get the user assigned Call to Number List information. The response is either a UserPersonalAssistantCallToNumberGetListResponse or an ErrorResponse.
  *
  * @see UserPersonalAssistantCallToNumberGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:128","type":"sequence"}]
  */
 class UserPersonalAssistantCallToNumberGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +17,7 @@ class UserPersonalAssistantCallToNumberGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:128
      * @var string|null
      */
     private $userId = null;

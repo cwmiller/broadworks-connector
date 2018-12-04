@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request a list of available DNs not yet assigned to any group.
  *         Dns assigned to the IMRN pool are not listed in the response.
- *         The response is either ServiceProviderDnGetAvailableListResponse or
- * ErrorResponse.
+ *         The response is either ServiceProviderDnGetAvailableListResponse or ErrorResponse.
  *
  * @see ServiceProviderDnGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3112","type":"sequence"}]
  */
 class ServiceProviderDnGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class ServiceProviderDnGetAvailableListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3112
      * @var string|null
      */
     private $serviceProviderId = null;

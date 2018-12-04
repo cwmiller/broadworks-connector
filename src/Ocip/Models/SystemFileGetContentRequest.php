@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemFileGetContentRequest
  *
- * Requests the contents of a file.  This transaction is only allowed to get
- * content for files under 
+ * Requests the contents of a file.  This transaction is only allowed to get content for files under 
  *         /var/broadworks/userfiles/AuditLogs/ or /var/broadworks/IpDeviceConfig/.
- *         The response is either a SystemFileGetContentResponse or an
- * ErrorResponse.
+ *         The response is either a SystemFileGetContentResponse or an ErrorResponse.
  *
  * @see SystemFileGetContentResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8629","type":"sequence"}]
  */
 class SystemFileGetContentRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class SystemFileGetContentRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName fileName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8629
      * @var string|null
      */
     private $fileName = null;

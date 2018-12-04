@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         Contains a list of system Application Server Registration parameters.
  *
  * @see SystemASRParametersGetRequest14sp5
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17318","type":"sequence"}]
  */
 class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName maxTransmissions
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17318
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -23,6 +25,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17318
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -30,6 +33,7 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName listeningPort
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17318
      * @var int|null
      */
     private $listeningPort = null;
@@ -37,6 +41,8 @@ class SystemASRParametersGetResponse14sp5 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName sourceAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17318
      * @var string|null
      */
     private $sourceAddress = null;

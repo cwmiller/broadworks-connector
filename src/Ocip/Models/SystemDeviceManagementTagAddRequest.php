@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemDeviceManagementTagAddRequest21sp2
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:21488","type":"sequence","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:21489","type":"choice"}]}]
  */
 class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName systemDefaultTagSet
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21489
      * @var bool|null
      */
     private $systemDefaultTagSet = null;
@@ -26,6 +28,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName tagSetName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21489
      * @var string|null
      */
     private $tagSetName = null;
@@ -33,6 +36,7 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName tagName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21488
      * @var string|null
      */
     private $tagName = null;
@@ -40,6 +44,8 @@ class SystemDeviceManagementTagAddRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName tagValue
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:21488
      * @var string|null
      */
     private $tagValue = null;

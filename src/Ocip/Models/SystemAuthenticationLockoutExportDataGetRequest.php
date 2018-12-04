@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemAuthenticationLockoutExportDataGetRequest
  *
- * Request to export system wide authentication lockout data to a file. All locked
- * out device profiles, sip endpoints, and sip trunk groups are returned.
+ * Request to export system wide authentication lockout data to a file. All locked out device profiles, sip endpoints, and sip trunk groups are returned.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1975","type":"sequence"}]
  */
 class SystemAuthenticationLockoutExportDataGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemAuthenticationLockoutExportDataGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName fileName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1975
      * @var string|null
      */
     private $fileName = null;

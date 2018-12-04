@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanCallMeNowGetListRequest
  *
- * Request the Call Me Now call permissions for a group default and it's
- * departments.
- *         The response is either a
- * GroupOutgoingCallingPlanCallMeNowGetListResponse or an ErrorResponse.
+ * Request the Call Me Now call permissions for a group default and it's departments.
+ *         The response is either a GroupOutgoingCallingPlanCallMeNowGetListResponse or an ErrorResponse.
  *
  * @see GroupOutgoingCallingPlanCallMeNowGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:141","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanCallMeNowGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupOutgoingCallingPlanCallMeNowGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:141
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupOutgoingCallingPlanCallMeNowGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:141
      * @var string|null
      */
     private $groupId = null;

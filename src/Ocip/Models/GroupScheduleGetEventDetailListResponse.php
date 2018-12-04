@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupScheduleGetEventDetailListRequest.
  *         The response contains a list of ScheduleEvents.
- *         If the scheduleKey doesn't refer to an existing schedule on the AS, then
- * the response will be empty.
+ *         If the scheduleKey doesn't refer to an existing schedule on the AS, then the response will be empty.
  *
  * @see GroupScheduleGetEventDetailListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6193","type":"sequence"}]
  */
 class GroupScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,8 @@ class GroupScheduleGetEventDetailListResponse extends \CWM\BroadWorksConnector\O
      * @ElementName scheduleEventsList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6193
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleEvents[]
      */
     private $scheduleEventsList = array(

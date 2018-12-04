@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest
  *
- * Request a list of number prefixess that are assigned to a group and still
- * available for assignment to users within the group. 
- *         The response is either
- * GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse or
- * ErrorResponse.
+ * Request a list of number prefixess that are assigned to a group and still available for assignment to users within the group. 
+ *         The response is either GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse or ErrorResponse.
  *
  * @see GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:230","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest extends \
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:230
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +26,7 @@ class GroupRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest extends \
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:230
      * @var string|null
      */
     private $groupId = null;

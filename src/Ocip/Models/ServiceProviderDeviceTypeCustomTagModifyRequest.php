@@ -5,20 +5,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDeviceTypeCustomTagModifyRequest
  *
- * Request to modify a static configuration tag for an access device type used in a
- * service provider.
+ * Request to modify a static configuration tag for an access device type used in a service provider.
  *
- *         The tagValueToEncrypt element can only be used by a system
- * administrator.
+ *         The tagValueToEncrypt element can only be used by a system administrator.
  *         
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           tagValueToEncrypt
  *           
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2498","type":"sequence","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2502","type":"choice"}]}]
  */
 class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,6 +24,7 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2498
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -33,6 +32,7 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2498
      * @var string|null
      */
     private $deviceType = null;
@@ -40,6 +40,7 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName tagName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2498
      * @var string|null
      */
     private $tagName = null;
@@ -48,6 +49,8 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
      * @ElementName tagValue
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2502
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValue = null;
@@ -56,6 +59,8 @@ class ServiceProviderDeviceTypeCustomTagModifyRequest extends \CWM\BroadWorksCon
      * @ElementName tagValueToEncrypt
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2502
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValueToEncrypt = null;

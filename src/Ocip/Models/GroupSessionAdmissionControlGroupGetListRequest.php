@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupSessionAdmissionControlGroupGetListRequest
  *
  * Request to get the list of session admission control group for the group.
- *         The response is either a
- * GroupSessionAdmissionControlGroupGetListResponse or an ErrorResponse.
+ *         The response is either a GroupSessionAdmissionControlGroupGetListResponse or an ErrorResponse.
  *
  * @see GroupSessionAdmissionControlGroupGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6817","type":"sequence"}]
  */
 class GroupSessionAdmissionControlGroupGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupSessionAdmissionControlGroupGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6817
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupSessionAdmissionControlGroupGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6817
      * @var string|null
      */
     private $groupId = null;

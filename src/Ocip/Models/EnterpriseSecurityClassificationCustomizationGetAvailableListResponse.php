@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseSecurityClassificationCustomizationGetAvailableListResponse
  *
- * Response to
- * EnterpriseSecurityClassificationCustomizationGetAvailableListRequest.
+ * Response to EnterpriseSecurityClassificationCustomizationGetAvailableListRequest.
  *         Returns the available group security classifications.
  *         Contains a table with column headings:
  *         "SystemSecurityClassification", "CustomizedSecurityClassification"
  *
  * @see EnterpriseSecurityClassificationCustomizationGetAvailableListRequest
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:842","type":"sequence"}]
  */
 class EnterpriseSecurityClassificationCustomizationGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class EnterpriseSecurityClassificationCustomizationGetAvailableListResponse exte
     /**
      * @ElementName securityClassificationNameTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group b561eca19800e0898f471e5e91eb3baa:842
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $securityClassificationNameTable = null;

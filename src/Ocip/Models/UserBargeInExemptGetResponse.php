@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserBargeInExemptGetRequest.
  *
  * @see UserBargeInExemptGetRequest
+ * @Groups [{"id":"7791e65363a51bce3d1d264fa0ceee32:57","type":"sequence"}]
  */
 class UserBargeInExemptGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserBargeInExemptGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 7791e65363a51bce3d1d264fa0ceee32:57
      * @var bool|null
      */
     private $isActive = null;

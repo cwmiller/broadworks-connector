@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingNoAnswerGetRequest13mp16
  *
  * Request the user level data associated with Call Forwarding No Answer.
- *         The response is either a UserCallForwardingNoAnswerGetResponse13mp16 or
- * an
+ *         The response is either a UserCallForwardingNoAnswerGetResponse13mp16 or an
  *         ErrorResponse.
  *
  * @see UserCallForwardingNoAnswerGetResponse13mp16
  * @see ErrorResponse
+ * @Groups [{"id":"5736afcda3c4910ba5a628d12b43abcb:44","type":"sequence"}]
  */
 class UserCallForwardingNoAnswerGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserCallForwardingNoAnswerGetRequest13mp16 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName userId
      * @Type string
+     * @Group 5736afcda3c4910ba5a628d12b43abcb:44
      * @var string|null
      */
     private $userId = null;

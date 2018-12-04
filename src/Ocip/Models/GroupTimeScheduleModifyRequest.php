@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:11394","type":"sequence"}]
  */
 class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName timeScheduleName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var string|null
      */
     private $timeScheduleName = null;
@@ -38,6 +42,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName newTimeScheduleName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var string|null
      */
     private $newTimeScheduleName = null;
@@ -46,6 +52,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval01 = null;
@@ -54,6 +62,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval02 = null;
@@ -62,6 +72,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval03 = null;
@@ -70,6 +82,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval04
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval04 = null;
@@ -78,6 +92,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval05
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval05 = null;
@@ -86,6 +102,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval06
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval06 = null;
@@ -94,6 +112,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval07
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval07 = null;
@@ -102,6 +122,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval08
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval08 = null;
@@ -110,6 +132,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval09
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval09 = null;
@@ -118,6 +142,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval10
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval10 = null;
@@ -126,6 +152,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval11
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval11 = null;
@@ -134,6 +162,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval12
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval12 = null;
@@ -142,6 +172,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval13
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval13 = null;
@@ -150,6 +182,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval14
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval14 = null;
@@ -158,6 +192,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval15
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval15 = null;
@@ -166,6 +202,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval16
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval16 = null;
@@ -174,6 +212,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval17
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval17 = null;
@@ -182,6 +222,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval18
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval18 = null;
@@ -190,6 +232,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval19
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval19 = null;
@@ -198,6 +242,8 @@ class GroupTimeScheduleModifyRequest extends \CWM\BroadWorksConnector\Ocip\Model
      * @ElementName timeInterval20
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeInterval
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11394
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeInterval|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeInterval20 = null;

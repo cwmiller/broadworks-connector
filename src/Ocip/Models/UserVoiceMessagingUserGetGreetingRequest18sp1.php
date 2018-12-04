@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetGreetingRequest18sp1
  *
  * Get the user's voice messaging greeting information.
- *         The response is either a UserVoiceMessagingUserGetGreetingResponse18sp1
- * or an ErrorResponse.
+ *         The response is either a UserVoiceMessagingUserGetGreetingResponse18sp1 or an ErrorResponse.
  *         
  *         Replaced by: UserVoiceMessagingUserGetGreetingRequest20 in AS data mode
  *
  * @see UserVoiceMessagingUserGetGreetingResponse18sp1
  * @see ErrorResponse
  * @see UserVoiceMessagingUserGetGreetingRequest20
+ * @Groups [{"id":"f63b5273e12f283713f4aab9400bb342:417","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetGreetingRequest18sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class UserVoiceMessagingUserGetGreetingRequest18sp1 extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
+     * @Group f63b5273e12f283713f4aab9400bb342:417
      * @var string|null
      */
     private $userId = null;

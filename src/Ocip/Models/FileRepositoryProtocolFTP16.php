@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * FileRepositoryProtocolFTP16
  *
  * Attributes of the FTP protocol when the file repository interface is using FTP.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2026","type":"sequence"}]
  */
 class FileRepositoryProtocolFTP16
 {
@@ -13,6 +15,7 @@ class FileRepositoryProtocolFTP16
     /**
      * @ElementName ftpPassive
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2026
      * @var bool|null
      */
     private $ftpPassive = null;
@@ -20,6 +23,7 @@ class FileRepositoryProtocolFTP16
     /**
      * @ElementName netAddress
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2026
      * @var string|null
      */
     private $netAddress = null;
@@ -27,6 +31,7 @@ class FileRepositoryProtocolFTP16
     /**
      * @ElementName ftpRemoteVerification
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2026
      * @var bool|null
      */
     private $ftpRemoteVerification = null;

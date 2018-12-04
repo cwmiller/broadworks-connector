@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1622","type":"sequence"}]
  */
 class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName userId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1622
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName firstName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1622
      * @var string|null
      */
     private $firstName = null;
@@ -31,6 +35,8 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName lastName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1622
      * @var string|null
      */
     private $lastName = null;
@@ -38,6 +44,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName password
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1622
      * @var string|null
      */
     private $password = null;
@@ -45,6 +52,8 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1622
      * @var string|null
      */
     private $language = null;
@@ -52,6 +61,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName adminType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1622
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemAdminType|null
      */
     private $adminType = null;
@@ -59,6 +69,7 @@ class SystemAdminAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRe
     /**
      * @ElementName readOnly
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1622
      * @var bool|null
      */
     private $readOnly = null;

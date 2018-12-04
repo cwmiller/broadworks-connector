@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkGroupDeviceEndpointRead
  *
  * Trunk group device endpoint.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:39598","type":"sequence"}]
  */
 class TrunkGroupDeviceEndpointRead
 {
@@ -13,6 +15,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39598
      * @var string|null
      */
     private $serviceUserId = null;
@@ -20,6 +23,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName name
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39598
      * @var string|null
      */
     private $name = null;
@@ -27,6 +31,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39598
      * @var string|null
      */
     private $linePort = null;
@@ -34,6 +39,8 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName contact
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39598
      * @var string|null
      */
     private $contact = null;
@@ -41,6 +48,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39598
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -48,6 +56,7 @@ class TrunkGroupDeviceEndpointRead
     /**
      * @ElementName useDomain
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:39598
      * @var bool|null
      */
     private $useDomain = null;

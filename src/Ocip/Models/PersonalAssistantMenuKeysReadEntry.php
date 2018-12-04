@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PersonalAssistantMenuKeysReadEntry
  *
  * The voice portal personal assistant menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2729","type":"sequence"}]
  */
 class PersonalAssistantMenuKeysReadEntry
 {
@@ -13,6 +15,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToNone
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToNone = null;
@@ -20,6 +24,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToBusinessTrip
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToBusinessTrip = null;
@@ -27,6 +33,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToGoneForTheDay
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToGoneForTheDay = null;
@@ -34,6 +42,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToLunch
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToLunch = null;
@@ -41,6 +51,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToMeeting
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToMeeting = null;
@@ -48,6 +60,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToOutOfOffice
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToOutOfOffice = null;
@@ -55,6 +69,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToTemporarilyOut
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToTemporarilyOut = null;
@@ -62,6 +78,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToTraining
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToTraining = null;
@@ -69,6 +87,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToUnavailable
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToUnavailable = null;
@@ -76,6 +96,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName setPresenceToVacation
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $setPresenceToVacation = null;
@@ -83,6 +105,7 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -90,6 +113,8 @@ class PersonalAssistantMenuKeysReadEntry
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2729
      * @var string|null
      */
     private $repeatMenu = null;

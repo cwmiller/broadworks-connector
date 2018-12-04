@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserVoiceMessagingUserGetOutgoingSMDIMWIRequest
  *
- * Get the user's voice messaging outgoing SMDI message waiting indicator service
- * setting.
- *         The response is either a
- * UserVoiceMessagingUserGetOutgoingSMDIMWIResponse or an ErrorResponse.
+ * Get the user's voice messaging outgoing SMDI message waiting indicator service setting.
+ *         The response is either a UserVoiceMessagingUserGetOutgoingSMDIMWIResponse or an ErrorResponse.
  *
  * @see UserVoiceMessagingUserGetOutgoingSMDIMWIResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1802","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetOutgoingSMDIMWIRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class UserVoiceMessagingUserGetOutgoingSMDIMWIRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1802
      * @var string|null
      */
     private $userId = null;

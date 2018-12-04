@@ -7,13 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Add an event to group schedule. 
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         The startDate element is adjusted to the first occurrence of the
- * recurrent schedule that comes at or after the startDate.
- *         The endDate element is set to the sum of the adjusted starDate element
- * value and the event duration.
+ *         The startDate element is adjusted to the first occurrence of the recurrent schedule that comes at or after the startDate.
+ *         The endDate element is set to the sum of the adjusted starDate element value and the event duration.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6089","type":"sequence","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6095","type":"choice","children":[{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6097","type":"sequence"}]}]}]
  */
 class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6089
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6089
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +36,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6089
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
@@ -42,6 +44,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName eventName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6089
      * @var string|null
      */
     private $eventName = null;
@@ -49,6 +52,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName startDate
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6089
      * @var string|null
      */
     private $startDate = null;
@@ -56,6 +60,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName allDayEvent
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6095
      * @var bool|null
      */
     private $allDayEvent = null;
@@ -63,6 +68,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6097
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $startTime = null;
@@ -70,6 +76,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6097
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $endTime = null;
@@ -77,6 +84,7 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName endDate
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6089
      * @var string|null
      */
     private $endDate = null;
@@ -84,6 +92,8 @@ class GroupScheduleAddEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6089
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     private $recurrence = null;

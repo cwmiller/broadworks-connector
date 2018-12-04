@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest
  *
- * Add a list of authorization codes to the group's default or a department. When
- * department is not
+ * Add a list of authorization codes to the group's default or a department. When department is not
  *         specified, it is for the group default.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:194","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:194
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:194
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:194
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -41,6 +45,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeAddListRequest extends 
      * @ElementName codeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry
      * @Array
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:194
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
     private $codeEntry = array(

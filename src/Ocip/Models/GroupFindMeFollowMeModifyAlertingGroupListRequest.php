@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the priorities assigned to alerting groups
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         NOTE: The command fails if all the alerting groups defined for the user
- * are not provided.
+ *         NOTE: The command fails if all the alerting groups defined for the user are not provided.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:428","type":"sequence"}]
  */
 class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group d0d5b8a5908815c6ae522efe732e363a:428
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +28,8 @@ class GroupFindMeFollowMeModifyAlertingGroupListRequest extends \CWM\BroadWorksC
      * @ElementName alertingGroupName
      * @Type string
      * @Array
+     * @Optional
+     * @Group d0d5b8a5908815c6ae522efe732e363a:428
      * @var string[]
      */
     private $alertingGroupName = array(

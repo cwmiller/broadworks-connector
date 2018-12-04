@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemBCCTDeleteOCIInterfaceAddressRequest
  *
- * Delete an OCI entry in the Broadworks Common Communication Transport (BCCT)
- * protocol to interface mapping table.
+ * Delete an OCI entry in the Broadworks Common Communication Transport (BCCT) protocol to interface mapping table.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17499","type":"sequence"}]
  */
 class SystemBCCTDeleteOCIInterfaceAddressRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemBCCTDeleteOCIInterfaceAddressRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName interfaceNetAddress
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17499
      * @var string|null
      */
     private $interfaceNetAddress = null;

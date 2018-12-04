@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserNetworkConferencingGetRequest.
  *
  * @see UserNetworkConferencingGetRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2111","type":"sequence"}]
  */
 class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName conferenceURI
      * @Type string
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:2111
      * @var string|null
      */
     private $conferenceURI = null;
@@ -22,6 +25,7 @@ class UserNetworkConferencingGetResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxConferenceParties
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:2111
      * @var int|null
      */
     private $maxConferenceParties = null;

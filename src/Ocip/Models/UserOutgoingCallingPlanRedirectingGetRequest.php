@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserOutgoingCallingPlanRedirectingGetRequest
  *
  * Request the initiating call forwards/transfer permissions for a user.
- *         The response is either a UserOutgoingCallingPlanRedirectingGetResponse
- * or an ErrorResponse.
+ *         The response is either a UserOutgoingCallingPlanRedirectingGetResponse or an ErrorResponse.
  *
  * @see UserOutgoingCallingPlanRedirectingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:1582","type":"sequence"}]
  */
 class UserOutgoingCallingPlanRedirectingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserOutgoingCallingPlanRedirectingGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:1582
      * @var string|null
      */
     private $userId = null;

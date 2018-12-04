@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemBroadWorksMobilityGetIMRNListRequest
  *
- * Request to get the list of BroadWorks Mobility IMRN numbers defined in the
- * system.
+ * Request to get the list of BroadWorks Mobility IMRN numbers defined in the system.
  *         The response is either a SystemBroadWorksMobilityGetIMRNListResponse
  *         or an ErrorResponse.
  *
  * @see SystemBroadWorksMobilityGetIMRNListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:587","type":"sequence"}]
  */
 class SystemBroadWorksMobilityGetIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,8 @@ class SystemBroadWorksMobilityGetIMRNListRequest extends \CWM\BroadWorksConnecto
      * @ElementName searchCriteriaIMRN
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN
      * @Array
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:587
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaIMRN[]
      */
     private $searchCriteriaIMRN = array(

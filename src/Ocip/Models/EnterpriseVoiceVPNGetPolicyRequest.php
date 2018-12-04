@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseVoiceVPNGetPolicyRequest
  *
  * Request the enterprise level data associated with Voice VPN location code.
- *         The response is either a EnterpriseVoiceVPNGetPolicyResponse or an
- * ErrorResponse.
+ *         The response is either a EnterpriseVoiceVPNGetPolicyResponse or an ErrorResponse.
  *
  * @see EnterpriseVoiceVPNGetPolicyResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1441","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1441
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class EnterpriseVoiceVPNGetPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName locationDialingCode
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1441
      * @var string|null
      */
     private $locationDialingCode = null;

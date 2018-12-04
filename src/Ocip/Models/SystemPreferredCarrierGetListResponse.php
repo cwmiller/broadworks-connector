@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemPreferredCarrierGetListResponse
  *
- * Response to a SystemPreferredCarrierGetListRequest. Contains a table with one
- * row per carrier.
- *         The table columns are: "Carrier", "Country Code", "CIC", "Is
- * Intra-Lata", "Is Inter-Lata", "Is International".
- *         The value in the "Is Intra-Lata", "Is Inter-Lata", and "Is
- * International" columns is one of "true" or "false".
+ * Response to a SystemPreferredCarrierGetListRequest. Contains a table with one row per carrier.
+ *         The table columns are: "Carrier", "Country Code", "CIC", "Is Intra-Lata", "Is Inter-Lata", "Is International".
+ *         The value in the "Is Intra-Lata", "Is Inter-Lata", and "Is International" columns is one of "true" or "false".
  *
  * @see SystemPreferredCarrierGetListRequest
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:417","type":"sequence"}]
  */
 class SystemPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +18,7 @@ class SystemPreferredCarrierGetListResponse extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName systemCarrierTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1384777ce7bd407156102bad44751987:417
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $systemCarrierTable = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSecurityClassificationGetRequest22
  *
  * Get a user's Security Classifications configuration.
- *         The response is either UserSecurityClassificationGetResponse22 or
- * ErrorResponse.
+ *         The response is either UserSecurityClassificationGetResponse22 or ErrorResponse.
  *
  * @see UserSecurityClassificationGetResponse22
  * @see ErrorResponse
+ * @Groups [{"id":"b91fcb7aba1afd62c15b3e7e36708d08:312","type":"sequence"}]
  */
 class UserSecurityClassificationGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserSecurityClassificationGetRequest22 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:312
      * @var string|null
      */
     private $userId = null;

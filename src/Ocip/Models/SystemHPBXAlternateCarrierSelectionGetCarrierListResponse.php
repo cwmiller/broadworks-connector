@@ -8,10 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemHPBXAlternateCarrierSelectionGetCarrierListRequest.
  *         Contains a table with column headings: 
  *          "Carrier Name", "Carrier Prefix", "Carrier Domain", "Carrier Type"
- *         The possible values for Carrier Type are "Local And Distant" and
- * "Distant".
+ *         The possible values for Carrier Type are "Local And Distant" and "Distant".
  *
  * @see SystemHPBXAlternateCarrierSelectionGetCarrierListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9664","type":"sequence"}]
  */
 class SystemHPBXAlternateCarrierSelectionGetCarrierListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class SystemHPBXAlternateCarrierSelectionGetCarrierListResponse extends \CWM\Bro
     /**
      * @ElementName HPBXAlternateCarriersTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9664
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $HPBXAlternateCarriersTable = null;

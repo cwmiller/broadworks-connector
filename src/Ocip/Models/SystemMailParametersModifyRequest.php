@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9954","type":"sequence"}]
  */
 class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName primaryServerNetAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9954
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $primaryServerNetAddress = null;
@@ -26,6 +29,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName secondaryServerNetAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9954
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $secondaryServerNetAddress = null;
@@ -33,6 +38,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName defaultFromAddress
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9954
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -41,6 +48,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName defaultSubject
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9954
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultSubject = null;
@@ -48,6 +57,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName supportDNSSRVForMailServerAccess
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9954
      * @var bool|null
      */
     private $supportDNSSRVForMailServerAccess = null;
@@ -55,6 +66,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName secureMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9954
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMTPSecureMode|null
      */
     private $secureMode = null;
@@ -63,6 +76,8 @@ class SystemMailParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName port
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9954
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;

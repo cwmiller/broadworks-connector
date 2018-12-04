@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceGetAvailableDetailListRequest19
  *
  * Requests the list of available access devices for assignment to a user
- *         within a group. The list includes devices created at the system, service
- * provider, and group levels.
- *         The response is either GroupAccessDeviceGetAvailableDetailListResponse19
- * or
+ *         within a group. The list includes devices created at the system, service provider, and group levels.
+ *         The response is either GroupAccessDeviceGetAvailableDetailListResponse19 or
  *         ErrorResponse.
  *
  * @see GroupAccessDeviceGetAvailableDetailListResponse19
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:551","type":"sequence"}]
  */
 class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:551
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:551
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +36,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName isMusicOnHold
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:551
      * @var bool|null
      */
     private $isMusicOnHold = null;
@@ -42,6 +44,7 @@ class GroupAccessDeviceGetAvailableDetailListRequest19 extends \CWM\BroadWorksCo
     /**
      * @ElementName onlyVideoCapable
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:551
      * @var bool|null
      */
     private $onlyVideoCapable = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * HotelingMenuKeysModifyEntry
  *
  * The voice portal hoteling menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2621","type":"sequence"}]
  */
 class HotelingMenuKeysModifyEntry
 {
@@ -14,6 +16,8 @@ class HotelingMenuKeysModifyEntry
      * @ElementName checkHostStatus
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2621
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $checkHostStatus = null;
@@ -22,6 +26,8 @@ class HotelingMenuKeysModifyEntry
      * @ElementName associateWithHost
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2621
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $associateWithHost = null;
@@ -30,6 +36,8 @@ class HotelingMenuKeysModifyEntry
      * @ElementName disassociateFromHost
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2621
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromHost = null;
@@ -38,6 +46,8 @@ class HotelingMenuKeysModifyEntry
      * @ElementName disassociateFromRemoteHost
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2621
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $disassociateFromRemoteHost = null;
@@ -45,6 +55,8 @@ class HotelingMenuKeysModifyEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2621
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -53,6 +65,8 @@ class HotelingMenuKeysModifyEntry
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2621
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupCallCenterGetInstanceRequest14sp3
  * @see GroupCallCenterGetInstanceResponse14sp9
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:4377","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +21,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -27,6 +29,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName policy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var \CWM\BroadWorksConnector\Ocip\Models\HuntPolicy|null
      */
     private $policy = null;
@@ -34,6 +37,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName huntAfterNoAnswer
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $huntAfterNoAnswer = null;
@@ -41,6 +45,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName noAnswerNumberOfRings
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var int|null
      */
     private $noAnswerNumberOfRings = null;
@@ -48,6 +53,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName forwardAfterTimeout
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $forwardAfterTimeout = null;
@@ -55,6 +61,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName forwardTimeoutSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var int|null
      */
     private $forwardTimeoutSeconds = null;
@@ -62,6 +69,8 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName forwardToPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -69,6 +78,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableVideo
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $enableVideo = null;
@@ -76,6 +86,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName queueLength
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var int|null
      */
     private $queueLength = null;
@@ -83,6 +94,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowAgentLogoff
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $allowAgentLogoff = null;
@@ -90,6 +102,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName playMusicOnHold
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $playMusicOnHold = null;
@@ -97,6 +110,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName playComfortMessage
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $playComfortMessage = null;
@@ -104,6 +118,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName timeBetweenComfortMessagesSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var int|null
      */
     private $timeBetweenComfortMessagesSeconds = null;
@@ -111,6 +126,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableGuardTimer
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $enableGuardTimer = null;
@@ -118,6 +134,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName guardTimerSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var int|null
      */
     private $guardTimerSeconds = null;
@@ -125,6 +142,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName agentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentUserTable = null;
@@ -132,6 +150,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowCallWaitingForAgents
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $allowCallWaitingForAgents = null;
@@ -139,6 +158,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allowCallsToAgentsInWrapUp
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $allowCallsToAgentsInWrapUp = null;
@@ -146,6 +166,7 @@ class GroupCallCenterGetInstanceResponse14sp3 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableCallQueueWhenNoAgentsAvailable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4377
      * @var bool|null
      */
     private $enableCallQueueWhenNoAgentsAvailable = null;

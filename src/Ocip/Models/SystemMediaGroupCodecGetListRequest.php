@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemMediaGroupCodecGetListRequest
  *
  * Request to get the list of media under a media group.
- *         The response is either SystemMediaGroupCodecGetListResponse or
- * ErrorResponse.
+ *         The response is either SystemMediaGroupCodecGetListResponse or ErrorResponse.
  *
  * @see SystemMediaGroupCodecGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10094","type":"sequence"}]
  */
 class SystemMediaGroupCodecGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemMediaGroupCodecGetListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10094
      * @var string|null
      */
     private $name = null;

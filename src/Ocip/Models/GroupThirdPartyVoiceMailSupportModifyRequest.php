@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"a84192748d1a3645bcd397d847a21d07:86","type":"sequence"}]
  */
 class GroupThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group a84192748d1a3645bcd397d847a21d07:86
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName groupId
      * @Type string
+     * @Group a84192748d1a3645bcd397d847a21d07:86
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,8 @@ class GroupThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group a84192748d1a3645bcd397d847a21d07:86
      * @var bool|null
      */
     private $isActive = null;
@@ -39,6 +44,8 @@ class GroupThirdPartyVoiceMailSupportModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName groupServer
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group a84192748d1a3645bcd397d847a21d07:86
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $groupServer = null;

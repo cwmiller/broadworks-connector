@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupTrunkGroupGetInstanceRequest15.
  *             Returns the profile information for the Trunk Group.
- *             Contains a hosted user table with column headings: "User Id", "Last
- * Name",
+ *             Contains a hosted user table with column headings: "User Id", "Last Name",
  *             "First Name", "Hiragana Last Name", "Hiragana First Name".
  *
  * @see GroupTrunkGroupGetInstanceRequest15
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:12811","type":"sequence"}]
  */
 class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName pilotUserId
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var string|null
      */
     private $pilotUserId = null;
@@ -26,6 +28,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -33,6 +37,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -40,6 +46,7 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxActiveCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var int|null
      */
     private $maxActiveCalls = null;
@@ -47,6 +54,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxIncomingCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var int|null
      */
     private $maxIncomingCalls = null;
@@ -54,6 +63,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maxOutgoingCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var int|null
      */
     private $maxOutgoingCalls = null;
@@ -61,6 +72,7 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName enableBursting
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var bool|null
      */
     private $enableBursting = null;
@@ -68,6 +80,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName burstingMaxActiveCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var int|null
      */
     private $burstingMaxActiveCalls = null;
@@ -75,6 +89,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName burstingMaxIncomingCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var int|null
      */
     private $burstingMaxIncomingCalls = null;
@@ -82,6 +98,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName burstingMaxOutgoingCalls
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var int|null
      */
     private $burstingMaxOutgoingCalls = null;
@@ -89,6 +107,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName capacityExceededAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupCapacityExceededAction|null
      */
     private $capacityExceededAction = null;
@@ -96,6 +116,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName capacityExceededForwardAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var string|null
      */
     private $capacityExceededForwardAddress = null;
@@ -103,6 +125,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName capacityExceededRerouteTrunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $capacityExceededRerouteTrunkGroupKey = null;
@@ -110,6 +134,7 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName capacityExceededTrapInitialCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var int|null
      */
     private $capacityExceededTrapInitialCalls = null;
@@ -117,6 +142,7 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName capacityExceededTrapOffsetCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var int|null
      */
     private $capacityExceededTrapOffsetCalls = null;
@@ -124,6 +150,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName unreachableDestinationAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupUnreachableDestinationAction|null
      */
     private $unreachableDestinationAction = null;
@@ -131,6 +159,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName unreachableDestinationForwardAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var string|null
      */
     private $unreachableDestinationForwardAddress = null;
@@ -138,6 +168,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName unreachableDestinationRerouteTrunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $unreachableDestinationRerouteTrunkGroupKey = null;
@@ -145,6 +177,7 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName invitationTimeout
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var int|null
      */
     private $invitationTimeout = null;
@@ -152,6 +185,7 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName requireAuthentication
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var bool|null
      */
     private $requireAuthentication = null;
@@ -159,6 +193,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName sipAuthenticationUserName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -166,6 +202,8 @@ class GroupTrunkGroupGetInstanceResponse15 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName hostedUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:12811
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $hostedUserTable = null;

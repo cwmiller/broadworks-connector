@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemNumberPortabilityQueryDigitPatternDeleteListRequest
  *
- * Request to delete a list of System Number Portability Status Digit Pattern
- * mappings.
+ * Request to delete a list of System Number Portability Status Digit Pattern mappings.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11303","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryDigitPatternDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class SystemNumberPortabilityQueryDigitPatternDeleteListRequest extends \CWM\Bro
      * @ElementName digitPattern
      * @Type string
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11303
      * @var string[]
      */
     private $digitPattern = array(

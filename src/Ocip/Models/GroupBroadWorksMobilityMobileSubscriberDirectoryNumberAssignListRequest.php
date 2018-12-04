@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Assign Mobile Subscriber Directory Numbers to a group. It is possible to
  *         add a single DN,or a list of DNs.
- * .       This command is applicable only for group in a service provider and will
- * fail for a group in an enterprise.
+ * .       This command is applicable only for group in a service provider and will fail for a group in an enterprise.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:206","type":"sequence"}]
  */
 class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest ex
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:206
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest ex
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:206
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +37,8 @@ class GroupBroadWorksMobilityMobileSubscriberDirectoryNumberAssignListRequest ex
      * @ElementName mobileSubscriberDirectoryNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:206
      * @var string[]
      */
     private $mobileSubscriberDirectoryNumber = array(

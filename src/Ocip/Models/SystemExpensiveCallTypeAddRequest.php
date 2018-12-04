@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemExpensiveCallTypeAddRequest
  *
- * Add an alternate call indicator to the list of expensive alternate call
- * indicators.
+ * Add an alternate call indicator to the list of expensive alternate call indicators.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8256","type":"sequence"}]
  */
 class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateCallIndicator
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8256
      * @var string|null
      */
     private $alternateCallIndicator = null;
@@ -25,6 +26,8 @@ class SystemExpensiveCallTypeAddRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName treatmentAudioFile
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8256
      * @var string|null
      */
     private $treatmentAudioFile = null;

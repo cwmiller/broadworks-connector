@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupSpeedDial100GetRequest17sp1
  *
  * Get the speed dial 100 service settings for a group.
- *         The response is either a GroupSpeedDial100GetResponse17sp1 or an
- * ErrorResponse.
+ *         The response is either a GroupSpeedDial100GetResponse17sp1 or an ErrorResponse.
  *
  * @see GroupSpeedDial100GetResponse17sp1
  * @see ErrorResponse
+ * @Groups [{"id":"36d45d852a06f31a5078c9ad46622b49:48","type":"sequence"}]
  */
 class GroupSpeedDial100GetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupSpeedDial100GetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 36d45d852a06f31a5078c9ad46622b49:48
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupSpeedDial100GetRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 36d45d852a06f31a5078c9ad46622b49:48
      * @var string|null
      */
     private $groupId = null;

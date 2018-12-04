@@ -5,16 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest
  *
- * Request to get all the call center reporting scheduled report in the system that
- * uses a 
+ * Request to get all the call center reporting scheduled report in the system that uses a 
  *         given system level report template. 
- *         The response is either a
- * SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
+ *         The response is either a SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
  *         or an ErrorResponse.
  *
- * @see
- * SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
+ * @see SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5753","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +20,7 @@ class SystemCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageList
     /**
      * @ElementName name
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5753
      * @var string|null
      */
     private $name = null;

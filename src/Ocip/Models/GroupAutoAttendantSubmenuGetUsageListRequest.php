@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupAutoAttendantSubmenuGetUsageListRequest
  *
- * Get a list of Auto Attendant Business Hours Menu,After Hours Menu,Holiday Menu
- * and Submenus that use this submenu.
- *         The response is either GroupAutoAttendantSubmenuGetUsageListResponse or
- * ErrorResponse. 
+ * Get a list of Auto Attendant Business Hours Menu,After Hours Menu,Holiday Menu and Submenus that use this submenu.
+ *         The response is either GroupAutoAttendantSubmenuGetUsageListResponse or ErrorResponse. 
  *         This request is only valid for Standard auto attendants.
  *
  * @see GroupAutoAttendantSubmenuGetUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"991f3e2b8774e7414716848f9b5935fc:488","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 991f3e2b8774e7414716848f9b5935fc:488
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +27,7 @@ class GroupAutoAttendantSubmenuGetUsageListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName submenuId
      * @Type string
+     * @Group 991f3e2b8774e7414716848f9b5935fc:488
      * @var string|null
      */
     private $submenuId = null;

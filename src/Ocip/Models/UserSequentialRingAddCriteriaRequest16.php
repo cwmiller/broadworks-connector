@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"579a0a0fbfa9c619aa147d6b41841eff:45","type":"sequence"}]
  */
 class UserSequentialRingAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserSequentialRingAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:45
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,7 @@ class UserSequentialRingAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:45
      * @var string|null
      */
     private $criteriaName = null;
@@ -31,6 +34,8 @@ class UserSequentialRingAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -38,6 +43,8 @@ class UserSequentialRingAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -45,6 +52,7 @@ class UserSequentialRingAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:45
      * @var bool|null
      */
     private $blacklisted = null;
@@ -52,6 +60,7 @@ class UserSequentialRingAddCriteriaRequest16 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:45
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderNumberPortabilityQueryGetRequest
  *
- * Request to get the Service Provider Number Portability Query Digit Pattern
- * Trigger List information.
- *         The response is either a
- * ServiceProviderNumberPortabilityQueryGetResponse or an ErrorResponse.
+ * Request to get the Service Provider Number Portability Query Digit Pattern Trigger List information.
+ *         The response is either a ServiceProviderNumberPortabilityQueryGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderNumberPortabilityQueryGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4099","type":"sequence"}]
  */
 class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4099
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName includeDigitPatterns
      * @Type bool
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4099
      * @var bool|null
      */
     private $includeDigitPatterns = null;
@@ -34,6 +35,8 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4099
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderNumberPortabilityQueryDigitPattern[]
      */
     private $searchCriteriaServiceProviderNumberPortabilityQueryDigitPattern = array(
@@ -43,6 +46,8 @@ class ServiceProviderNumberPortabilityQueryGetRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4099
      * @var int|null
      */
     private $responseSizeLimit = null;

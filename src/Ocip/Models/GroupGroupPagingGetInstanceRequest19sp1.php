@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingGetInstanceRequest19sp1
  *
  * Request to get all the information of a Group Paging instance.
- *         The response is either GroupGroupPagingGetInstanceResponse19sp1 or
- * ErrorResponse.
+ *         The response is either GroupGroupPagingGetInstanceResponse19sp1 or ErrorResponse.
  *
  * @see GroupGroupPagingGetInstanceResponse19sp1
  * @see ErrorResponse
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:291","type":"sequence"}]
  */
 class GroupGroupPagingGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupGroupPagingGetInstanceRequest19sp1 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:291
      * @var string|null
      */
     private $serviceUserId = null;

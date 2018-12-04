@@ -9,13 +9,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following elements are only used in AS data mode:
  *           callToNumberList
  *           
- *         For the callToNumbers in the callToNumberList, the extension element is
- * not used and the number element is only used when the type is BroadWorks
- * Mobility.
+ *         For the callToNumbers in the callToNumberList, the extension element is not used and the number element is only used when the type is BroadWorks Mobility.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5e18575f19e96a95702b7106029484b0:197","type":"sequence"}]
  */
 class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +22,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
+     * @Group 5e18575f19e96a95702b7106029484b0:197
      * @var string|null
      */
     private $userId = null;
@@ -30,6 +30,7 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 5e18575f19e96a95702b7106029484b0:197
      * @var string|null
      */
     private $criteriaName = null;
@@ -37,6 +38,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
     /**
      * @ElementName newCriteriaName
      * @Type string
+     * @Optional
+     * @Group 5e18575f19e96a95702b7106029484b0:197
      * @var string|null
      */
     private $newCriteriaName = null;
@@ -45,6 +48,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
+     * @Optional
+     * @Group 5e18575f19e96a95702b7106029484b0:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
@@ -52,6 +57,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeModify
+     * @Optional
+     * @Group 5e18575f19e96a95702b7106029484b0:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeModify|null
      */
     private $fromDnCriteria = null;
@@ -60,6 +67,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
+     * @Optional
+     * @Group 5e18575f19e96a95702b7106029484b0:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -67,6 +76,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Optional
+     * @Group 5e18575f19e96a95702b7106029484b0:197
      * @var bool|null
      */
     private $blacklisted = null;
@@ -75,6 +86,8 @@ class UserSelectiveCallRejectionModifyCriteriaRequest16 extends \CWM\BroadWorksC
      * @ElementName callToNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
+     * @Optional
+     * @Group 5e18575f19e96a95702b7106029484b0:197
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;

@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupIMRNAssignListRequest
  *
- * Assign a list of group DNs to the IMRN pool. It is possible to assign either: a
- * single DN,
+ * Assign a list of group DNs to the IMRN pool. It is possible to assign either: a single DN,
  *         or a list of DNs, or a range of DNs, or any combination thereof.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5061","type":"sequence"}]
  */
 class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5061
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5061
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,8 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName imrn
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5061
      * @var string[]
      */
     private $imrn = array(
@@ -44,6 +48,8 @@ class GroupIMRNAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
      * @ElementName imrnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5061
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $imrnRange = array(

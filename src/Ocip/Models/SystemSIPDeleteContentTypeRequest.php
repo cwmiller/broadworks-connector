@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14759","type":"sequence"}]
  */
 class SystemSIPDeleteContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemSIPDeleteContentTypeRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName contentType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14759
      * @var string|null
      */
     private $contentType = null;

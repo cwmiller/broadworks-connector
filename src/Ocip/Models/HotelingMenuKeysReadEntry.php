@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * HotelingMenuKeysReadEntry
  *
  * The voice portal hoteling menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2637","type":"sequence"}]
  */
 class HotelingMenuKeysReadEntry
 {
@@ -13,6 +15,8 @@ class HotelingMenuKeysReadEntry
     /**
      * @ElementName checkHostStatus
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2637
      * @var string|null
      */
     private $checkHostStatus = null;
@@ -20,6 +24,8 @@ class HotelingMenuKeysReadEntry
     /**
      * @ElementName associateWithHost
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2637
      * @var string|null
      */
     private $associateWithHost = null;
@@ -27,6 +33,8 @@ class HotelingMenuKeysReadEntry
     /**
      * @ElementName disassociateFromHost
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2637
      * @var string|null
      */
     private $disassociateFromHost = null;
@@ -34,6 +42,8 @@ class HotelingMenuKeysReadEntry
     /**
      * @ElementName disassociateFromRemoteHost
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2637
      * @var string|null
      */
     private $disassociateFromRemoteHost = null;
@@ -41,6 +51,7 @@ class HotelingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2637
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -48,6 +59,8 @@ class HotelingMenuKeysReadEntry
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2637
      * @var string|null
      */
     private $repeatMenu = null;

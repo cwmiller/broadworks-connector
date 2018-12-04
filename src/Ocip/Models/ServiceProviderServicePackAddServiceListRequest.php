@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderServicePackAddServiceListRequest
  *
- * Request to add services to a service pack if the pack has not been authorized to
- * a group.
+ * Request to add services to a service pack if the pack has not been authorized to a group.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5044","type":"sequence"}]
  */
 class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5044
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName servicePackName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5044
      * @var string|null
      */
     private $servicePackName = null;
@@ -33,6 +35,7 @@ class ServiceProviderServicePackAddServiceListRequest extends \CWM\BroadWorksCon
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5044
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(

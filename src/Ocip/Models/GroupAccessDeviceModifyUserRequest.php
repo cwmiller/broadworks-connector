@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupAccessDeviceModifyUserRequest
  *
- * Request to modify attributes for line/ports assigned on the group device
- * profile.
+ * Request to modify attributes for line/ports assigned on the group device profile.
  *         The response is either SuccessResponse or ErrorResponse.
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:856","type":"sequence"}]
  */
 class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:856
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:856
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +36,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:856
      * @var string|null
      */
     private $deviceName = null;
@@ -42,6 +44,7 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:856
      * @var string|null
      */
     private $linePort = null;
@@ -49,6 +52,8 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName privateIdentity
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:856
      * @var string|null
      */
     private $privateIdentity = null;
@@ -56,6 +61,8 @@ class GroupAccessDeviceModifyUserRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName isPrimaryLinePort
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:856
      * @var bool|null
      */
     private $isPrimaryLinePort = null;

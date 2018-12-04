@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserBroadWorksAnywhereModifyRequest
  *
- * Request to modify the user-level settings for the BroadWorks Anywhere service
- * for a specified user.
+ * Request to modify the user-level settings for the BroadWorks Anywhere service for a specified user.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:528","type":"sequence"}]
  */
 class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:528
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,8 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName alertAllLocationsForClickToDialCalls
      * @Type bool
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:528
      * @var bool|null
      */
     private $alertAllLocationsForClickToDialCalls = null;
@@ -32,6 +35,8 @@ class UserBroadWorksAnywhereModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName alertAllLocationsForGroupPagingCalls
      * @Type bool
+     * @Optional
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:528
      * @var bool|null
      */
     private $alertAllLocationsForGroupPagingCalls = null;

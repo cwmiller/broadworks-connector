@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * VirtualOnNetUser
  *
  * Virtual On-Net User.
+ *
+ * @Groups [{"id":"73530229e066070baac4c09dac256d69:335","type":"sequence"}]
  */
 class VirtualOnNetUser
 {
@@ -13,6 +15,7 @@ class VirtualOnNetUser
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:335
      * @var string|null
      */
     private $phoneNumber = null;
@@ -20,6 +23,7 @@ class VirtualOnNetUser
     /**
      * @ElementName extension
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:335
      * @var string|null
      */
     private $extension = null;
@@ -27,6 +31,7 @@ class VirtualOnNetUser
     /**
      * @ElementName firstName
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:335
      * @var string|null
      */
     private $firstName = null;
@@ -34,6 +39,7 @@ class VirtualOnNetUser
     /**
      * @ElementName lastName
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:335
      * @var string|null
      */
     private $lastName = null;
@@ -41,6 +47,7 @@ class VirtualOnNetUser
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:335
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -48,6 +55,7 @@ class VirtualOnNetUser
     /**
      * @ElementName callingLineIdLastName
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:335
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -55,6 +63,7 @@ class VirtualOnNetUser
     /**
      * @ElementName virtualOnNetCallTypeName
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:335
      * @var string|null
      */
     private $virtualOnNetCallTypeName = null;

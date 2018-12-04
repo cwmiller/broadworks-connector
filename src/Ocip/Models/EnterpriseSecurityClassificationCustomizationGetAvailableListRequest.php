@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseSecurityClassificationCustomizationGetAvailableListRequest
  *
- * Get the enterprise security classification list. If it is not customized, it
- * returns the system default list.
- *         The response is either an
- * EnterpriseSecurityClassificationCustomizationGetAvailableListResponse or an
- * ErrorResponse.
+ * Get the enterprise security classification list. If it is not customized, it returns the system default list.
+ *         The response is either an EnterpriseSecurityClassificationCustomizationGetAvailableListResponse or an ErrorResponse.
  *
  * @see EnterpriseSecurityClassificationCustomizationGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:824","type":"sequence"}]
  */
 class EnterpriseSecurityClassificationCustomizationGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class EnterpriseSecurityClassificationCustomizationGetAvailableListRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:824
      * @var string|null
      */
     private $serviceProviderId = null;

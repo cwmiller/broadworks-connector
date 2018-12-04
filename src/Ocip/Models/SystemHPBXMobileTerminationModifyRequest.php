@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9730","type":"sequence"}]
  */
 class SystemHPBXMobileTerminationModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,8 @@ class SystemHPBXMobileTerminationModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName routingPrefix
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9730
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $routingPrefix = null;

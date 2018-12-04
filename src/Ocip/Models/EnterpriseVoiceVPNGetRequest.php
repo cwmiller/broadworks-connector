@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseVoiceVPNGetRequest
  *
  * Request the enterprise level data associated with Voice VPN.
- *         The response is either a EnterpriseVoiceVPNGetResponse or an
- * ErrorResponse.
+ *         The response is either a EnterpriseVoiceVPNGetResponse or an ErrorResponse.
  *         Replaced By: EnterpriseVoiceVPNGetRequest14sp3
  *
  * @see EnterpriseVoiceVPNGetResponse
  * @see ErrorResponse
  * @see EnterpriseVoiceVPNGetRequest14sp3
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1759","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class EnterpriseVoiceVPNGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1759
      * @var string|null
      */
     private $serviceProviderId = null;

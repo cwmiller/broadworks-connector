@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupFindMeFollowMeGetInstanceListRequest.
  *         Contains a table with column headings:
- *         "Service User Id", "Name", "Phone Number", "Extension", "Department",
- * "Is Active".
+ *         "Service User Id", "Name", "Phone Number", "Extension", "Department", "Is Active".
  *         The column value for "Is Active" can either be true, or false.
  *
  * @see GroupFindMeFollowMeGetInstanceListRequest
+ * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:362","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class GroupFindMeFollowMeGetInstanceListResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName findMeFollowMeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group d0d5b8a5908815c6ae522efe732e363a:362
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $findMeFollowMeTable = null;

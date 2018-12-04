@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest
  *
  * Request to get an enterprise level call center reporting scheduled report.
- *         The response is either an
- * EnterpriseCallCenterEnhancedReportingScheduledReportGetResponse or an
- * ErrorResponse.
+ *         The response is either an EnterpriseCallCenterEnhancedReportingScheduledReportGetResponse or an ErrorResponse.
  *
  * @see EnterpriseCallCenterEnhancedReportingScheduledReportGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1564","type":"sequence"}]
  */
 class EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest extends \CW
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1564
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class EnterpriseCallCenterEnhancedReportingScheduledReportGetRequest extends \CW
     /**
      * @ElementName name
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1564
      * @var string|null
      */
     private $name = null;

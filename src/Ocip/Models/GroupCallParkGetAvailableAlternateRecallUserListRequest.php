@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallParkGetAvailableAlternateRecallUserListRequest
  *
- * Get a list of hunt groups that are available to select as an alternate recall
- * user.
- *         The response is either
- * GroupCallParkGetAvailableAlternateRecallUserListResponse or ErrorResponse.
+ * Get a list of hunt groups that are available to select as an alternate recall user.
+ *         The response is either GroupCallParkGetAvailableAlternateRecallUserListResponse or ErrorResponse.
  *
  * @see GroupCallParkGetAvailableAlternateRecallUserListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"06fc006748da1632379fc9603b619dca:89","type":"sequence"}]
  */
 class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:89
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:89
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +34,8 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:89
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -41,6 +44,8 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:89
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -51,6 +56,8 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:89
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -60,6 +67,8 @@ class GroupCallParkGetAvailableAlternateRecallUserListRequest extends \CWM\Broad
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 06fc006748da1632379fc9603b619dca:89
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;

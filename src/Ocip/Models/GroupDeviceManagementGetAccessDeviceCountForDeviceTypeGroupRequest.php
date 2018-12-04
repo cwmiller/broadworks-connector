@@ -6,20 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest
  *
  * Request the number of access device of a particular device type and group.
- *         If countOnlyResetSupportedDevice is true, count only access devices if
- * the device type supports reset.        
- *         By default unmanaged device types are not allowed and devices are
- * counted only if their device type supports Device Management.
- *         An error is returned if deviceType is specified but does not support
- * device management.
- *         When allowUnmanagedDeviceType is true, unmanaged device type will be
- * counted and a successful response is returned.
- *         The response is either
- * GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse or
- * ErrorResponse.
+ *         If countOnlyResetSupportedDevice is true, count only access devices if the device type supports reset.        
+ *         By default unmanaged device types are not allowed and devices are counted only if their device type supports Device Management.
+ *         An error is returned if deviceType is specified but does not support device management.
+ *         When allowUnmanagedDeviceType is true, unmanaged device type will be counted and a successful response is returned.
+ *         The response is either GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse or ErrorResponse.
  *
  * @see GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3231","type":"sequence"}]
  */
 class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,6 +22,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3231
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -34,6 +30,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3231
      * @var string|null
      */
     private $groupId = null;
@@ -41,6 +38,7 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3231
      * @var string|null
      */
     private $deviceType = null;
@@ -48,6 +46,8 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName countOnlyResetSupportedDevice
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3231
      * @var bool|null
      */
     private $countOnlyResetSupportedDevice = null;
@@ -55,6 +55,8 @@ class GroupDeviceManagementGetAccessDeviceCountForDeviceTypeGroupRequest extends
     /**
      * @ElementName allowUnmanagedDeviceType
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3231
      * @var bool|null
      */
     private $allowUnmanagedDeviceType = null;

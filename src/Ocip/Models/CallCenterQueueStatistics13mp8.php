@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterQueueStatistics13mp8
  *
  * Contains Call Center Queue statistics.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38530","type":"sequence"}]
  */
 class CallCenterQueueStatistics13mp8
 {
@@ -13,6 +15,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName numberOfIncomingCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38530
      * @var int|null
      */
     private $numberOfIncomingCalls = null;
@@ -20,6 +23,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName numberOfCallsQueued
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38530
      * @var int|null
      */
     private $numberOfCallsQueued = null;
@@ -27,6 +31,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName numberOfBusyOverflows
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38530
      * @var int|null
      */
     private $numberOfBusyOverflows = null;
@@ -34,6 +39,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName numberOfCallsAnswered
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38530
      * @var int|null
      */
     private $numberOfCallsAnswered = null;
@@ -41,6 +47,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageTimeWithAgentSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38530
      * @var int|null
      */
     private $averageTimeWithAgentSeconds = null;
@@ -48,6 +55,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageTimeInQueueSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38530
      * @var int|null
      */
     private $averageTimeInQueueSeconds = null;
@@ -55,6 +63,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageNumberOfAgentsBusy
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38530
      * @var string|null
      */
     private $averageNumberOfAgentsBusy = null;
@@ -62,6 +71,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageNumberOfAgentsLoggedOff
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38530
      * @var string|null
      */
     private $averageNumberOfAgentsLoggedOff = null;
@@ -69,6 +79,7 @@ class CallCenterQueueStatistics13mp8
     /**
      * @ElementName averageHoldTimeBeforeCallLossSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38530
      * @var int|null
      */
     private $averageHoldTimeBeforeCallLossSeconds = null;

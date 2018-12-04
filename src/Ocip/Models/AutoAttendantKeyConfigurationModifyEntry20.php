@@ -13,6 +13,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The following data elements are only valid for Standard Auto
  *         Attendants:
  *           submenuId
+ *
+ * @Groups [{"id":"991f3e2b8774e7414716848f9b5935fc:616","type":"sequence"}]
  */
 class AutoAttendantKeyConfigurationModifyEntry20
 {
@@ -21,6 +23,8 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:616
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -28,6 +32,7 @@ class AutoAttendantKeyConfigurationModifyEntry20
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction
+     * @Group 991f3e2b8774e7414716848f9b5935fc:616
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantKeyAction|null
      */
     private $action = null;
@@ -36,6 +41,8 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @ElementName phoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:616
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -44,6 +51,8 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:616
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $audioFile = null;
@@ -52,6 +61,8 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
      * @Nillable
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:616
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $videoFile = null;
@@ -60,6 +71,8 @@ class AutoAttendantKeyConfigurationModifyEntry20
      * @ElementName submenuId
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:616
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $submenuId = null;

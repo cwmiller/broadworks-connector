@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupGetRequest22.
  *         The response contains the group's profile information.
- *         The following element is only used in Amplify data mode and not returned
- *
+ *         The following element is only used in Amplify data mode and not returned 
  *         in AS and XS data mode: 
  *         servicePolicy, 
  *         callProcessingSliceId, 
@@ -20,6 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see GroupGetRequest22
  * @see GroupGetResponse22V2
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:322","type":"sequence"}]
  */
 class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,6 +27,7 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName defaultDomain
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $defaultDomain = null;
@@ -34,6 +35,7 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName userLimit
      * @Type int
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var int|null
      */
     private $userLimit = null;
@@ -41,6 +43,7 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName userCount
      * @Type int
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var int|null
      */
     private $userCount = null;
@@ -48,6 +51,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName groupName
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $groupName = null;
@@ -55,6 +60,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName callingLineIdName
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -62,6 +69,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;
@@ -69,6 +78,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName callingLineIdDisplayPhoneNumber
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $callingLineIdDisplayPhoneNumber = null;
@@ -76,6 +87,7 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName timeZone
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $timeZone = null;
@@ -83,6 +95,7 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName timeZoneDisplayName
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $timeZoneDisplayName = null;
@@ -90,6 +103,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName locationDialingCode
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -97,6 +112,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName contact
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Contact
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var \CWM\BroadWorksConnector\Ocip\Models\Contact|null
      */
     private $contact = null;
@@ -104,6 +121,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName address
      * @Type \CWM\BroadWorksConnector\Ocip\Models\StreetAddress
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var \CWM\BroadWorksConnector\Ocip\Models\StreetAddress|null
      */
     private $address = null;
@@ -111,6 +130,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName servicePolicy
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $servicePolicy = null;
@@ -118,6 +139,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName callProcessingSliceId
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $callProcessingSliceId = null;
@@ -125,6 +148,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName provisioningSliceId
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $provisioningSliceId = null;
@@ -132,6 +157,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName subscriberPartition
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $subscriberPartition = null;
@@ -139,6 +166,8 @@ class GroupGetResponse22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataR
     /**
      * @ElementName preferredDataCenter
      * @Type string
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:322
      * @var string|null
      */
     private $preferredDataCenter = null;

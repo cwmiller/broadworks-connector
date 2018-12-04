@@ -6,14 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnhancedCallLogsRedirectedCallSelection21
  *
  * Redirected call selection.
- *       When " redirectedCall " is set to true, all call logs with redirected call
- * are returned. When it
+ *       When " redirectedCall " is set to true, all call logs with redirected call are returned. When it
  *       set to false, all call logs without redirected call are returned.
- *       The redirected call can be defined by including a subset of Service
- * Invocation Disposition here. 
- *       If none included, any call has a ServiceInvocationDisposition value
- * defined in ServiceInvocationDisposition21
+ *       The redirected call can be defined by including a subset of Service Invocation Disposition here. 
+ *       If none included, any call has a ServiceInvocationDisposition value defined in ServiceInvocationDisposition21
  *       is considered as a redirected call.
+ *
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5789","type":"sequence"}]
  */
 class EnhancedCallLogsRedirectedCallSelection21
 {
@@ -21,6 +20,7 @@ class EnhancedCallLogsRedirectedCallSelection21
     /**
      * @ElementName redirectedCall
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5789
      * @var bool|null
      */
     private $redirectedCall = null;
@@ -29,6 +29,8 @@ class EnhancedCallLogsRedirectedCallSelection21
      * @ElementName redirectType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5789
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInvocationDisposition21[]
      */
     private $redirectType = array(

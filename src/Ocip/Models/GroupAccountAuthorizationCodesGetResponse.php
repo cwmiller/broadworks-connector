@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupAccountAuthorizationCodesGetRequest.
  *         The tables has the following column headings:
- *         "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
- * First Name",
+ *         "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupAccountAuthorizationCodesGetRequest
+ * @Groups [{"id":"ab77d49abc146ee44a9626534896ad51:176","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType
+     * @Group ab77d49abc146ee44a9626534896ad51:176
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     private $type = null;
@@ -26,6 +27,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName numberOfDigits
      * @Type int
+     * @Group ab77d49abc146ee44a9626534896ad51:176
      * @var int|null
      */
     private $numberOfDigits = null;
@@ -33,6 +35,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName allowLocalAndTollFreeCalls
      * @Type bool
+     * @Group ab77d49abc146ee44a9626534896ad51:176
      * @var bool|null
      */
     private $allowLocalAndTollFreeCalls = null;
@@ -40,6 +43,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName mandatoryUsageUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group ab77d49abc146ee44a9626534896ad51:176
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mandatoryUsageUserTable = null;
@@ -47,6 +51,7 @@ class GroupAccountAuthorizationCodesGetResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName optionalUsageUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group ab77d49abc146ee44a9626534896ad51:176
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $optionalUsageUserTable = null;

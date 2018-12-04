@@ -7,18 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupDnGetSummaryListRequest.
  *         The response contains a table with columns: "Phone Numbers", "Assigned".
- *         The "Phone Numbers" column contains either a single DN or a range of
- * DNs.
- *         The "Assigned" column contains a boolean flag indicating if the DN(s)
- * are
+ *         The "Phone Numbers" column contains either a single DN or a range of DNs.
+ *         The "Assigned" column contains a boolean flag indicating if the DN(s) are
  *         currently assigned to a user or service instance.
- *         The "Activated" column indicates if the DN or DN range has been
- * activated.  
- *         Only has a value if the DN(s) is assigned to a user or if "Group Enable
- * Activation
+ *         The "Activated" column indicates if the DN or DN range has been activated.  
+ *         Only has a value if the DN(s) is assigned to a user or if "Group Enable Activation
  *         Mode" is enabled.
  *
  * @see GroupDnGetSummaryListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4297","type":"sequence"}]
  */
 class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -26,6 +23,7 @@ class GroupDnGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4297
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;

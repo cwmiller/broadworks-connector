@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterpriseEnterpriseTrunkGetRequest
  * @see EnterpriseEnterpriseTrunkGetResponse21
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1396","type":"sequence","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:1400","type":"choice","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:1404","type":"sequence"},{"id":"1a79c7896cb04feac6eff47a5321756e:1413","type":"sequence"}]}]}]
  */
 class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName maximumRerouteAttempts
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1396
      * @var int|null
      */
     private $maximumRerouteAttempts = null;
@@ -24,6 +26,7 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName routeExhaustionAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1396
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseTrunkRouteExhaustionAction|null
      */
     private $routeExhaustionAction = null;
@@ -31,6 +34,8 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName routeExhaustionForwardAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1396
      * @var string|null
      */
     private $routeExhaustionForwardAddress = null;
@@ -38,6 +43,7 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName orderedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponseOrderedRouting
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1400
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponseOrderedRouting|null
      */
     private $orderedRouting = null;
@@ -45,6 +51,7 @@ class EnterpriseEnterpriseTrunkGetResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName priorityWeightedRouting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponsePriorityWeightedRouting
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1400
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseEnterpriseTrunkGetResponsePriorityWeightedRouting|null
      */
     private $priorityWeightedRouting = null;

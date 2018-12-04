@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserFeatureAccessCodeGetListRequest20
  * @see UserFeatureAccessCodeGetListResponse21
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34907","type":"sequence"}]
  */
 class UserFeatureAccessCodeGetListResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +21,8 @@ class UserFeatureAccessCodeGetListResponse20 extends \CWM\BroadWorksConnector\Oc
      * @ElementName featureAccessCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34907
      * @var \CWM\BroadWorksConnector\Ocip\Models\FeatureAccessCodeEntry[]
      */
     private $featureAccessCode = array(

@@ -6,14 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGroupCommonPhoneListGetPagedSortedListRequest
  *
  * Get a user's group's common phone list.
- * 				The response is either a UserGroupCommonPhoneListGetPagedSortedListResponse
- * or an
+ * 				The response is either a UserGroupCommonPhoneListGetPagedSortedListResponse or an
  * 				ErrorResponse.
  * 				The search can be done using multiple criterion.
  * 				If the searchCriteriaModeOr is present, any result matching any one
  * 				criteria is included in the results.
- * 				Otherwise, only results matching all the search criterion are included in
- * the
+ * 				Otherwise, only results matching all the search criterion are included in the
  * 				results.
  * 				If no search criteria is specified, all results are returned.
  * 				Specifying searchCriteriaModeOr without any search criteria results
@@ -23,6 +21,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see UserGroupCommonPhoneListGetPagedSortedListResponse
  * @see ErrorResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1854","type":"sequence","children":[{"id":"489b2153267470be8e945bf6b778e0d0:1857","type":"choice"}]}]
  */
 class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -30,6 +29,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:1854
      * @var string|null
      */
     private $userId = null;
@@ -37,6 +37,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
+     * @Group 489b2153267470be8e945bf6b778e0d0:1854
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -44,6 +45,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByGroupCommonPhoneListNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber
+     * @Group 489b2153267470be8e945bf6b778e0d0:1857
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListNumber|null
      */
     private $sortByGroupCommonPhoneListNumber = null;
@@ -51,6 +53,7 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName sortByGroupCommonPhoneListName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName
+     * @Group 489b2153267470be8e945bf6b778e0d0:1857
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupCommonPhoneListName|null
      */
     private $sortByGroupCommonPhoneListName = null;
@@ -58,6 +61,8 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName searchCriteriaModeOr
      * @Type bool
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1854
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -66,6 +71,8 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaGroupCommonPhoneListName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1854
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListName[]
      */
     private $searchCriteriaGroupCommonPhoneListName = array(
@@ -76,6 +83,8 @@ class UserGroupCommonPhoneListGetPagedSortedListRequest extends \CWM\BroadWorksC
      * @ElementName searchCriteriaGroupCommonPhoneListNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:1854
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupCommonPhoneListNumber[]
      */
     private $searchCriteriaGroupCommonPhoneListNumber = array(

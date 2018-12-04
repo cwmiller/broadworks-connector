@@ -7,15 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest.
  *         Returns a 12 column table with column headings:
- *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
- * First Name", 
- *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address",
- * "Department", "IMP Id", "Title",
- *           "Receptionist Note".  The Receptionist Note column is only populated,
- * if the user sending 
+ *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", 
+ *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address", "Department", "IMP Id", "Title",
+ *           "Receptionist Note".  The Receptionist Note column is only populated, if the user sending 
  *           the request is the owner of the Receptionist Note and a Note exists.
  *
  * @see UserBroadWorksReceptionistEnterpriseGetAvailableUserListRequest
+ * @Groups [{"id":"0951a6054c9016924c2aed90d0af404b:163","type":"sequence"}]
  */
 class UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,6 +21,7 @@ class UserBroadWorksReceptionistEnterpriseGetAvailableUserListResponse extends \
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 0951a6054c9016924c2aed90d0af404b:163
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

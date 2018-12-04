@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31200","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName voiceMessaging
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $voiceMessaging = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName commPilotExpressProfile
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $commPilotExpressProfile = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName greetings
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $greetings = null;
@@ -32,6 +40,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName callForwardingOptions
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $callForwardingOptions = null;
@@ -39,6 +49,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName voicePortalCalling
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $voicePortalCalling = null;
@@ -46,6 +58,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName hoteling
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $hoteling = null;
@@ -53,6 +67,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName passcode
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $passcode = null;
@@ -60,6 +76,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName exitVoicePortal
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $exitVoicePortal = null;
@@ -67,6 +85,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $repeatMenu = null;
@@ -74,6 +94,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName externalRouting
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $externalRouting = null;
@@ -81,6 +103,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20VoicePortalMainMenuK
     /**
      * @ElementName announcement
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31200
      * @var string|null
      */
     private $announcement = null;

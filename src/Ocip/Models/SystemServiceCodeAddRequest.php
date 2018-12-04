@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemServiceCodeAddRequest
  *
- * Request to add a service code for the purpose of providing free format routable
- * strings for dialing
+ * Request to add a service code for the purpose of providing free format routable strings for dialing
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14081","type":"sequence"}]
  */
 class SystemServiceCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemServiceCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName serviceCode
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14081
      * @var string|null
      */
     private $serviceCode = null;
@@ -25,6 +26,7 @@ class SystemServiceCodeAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName description
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14081
      * @var string|null
      */
     private $description = null;

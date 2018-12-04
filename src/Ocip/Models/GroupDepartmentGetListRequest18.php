@@ -9,11 +9,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         list of departments defined at the group-level, or you may request
  *         the list of all departments in the group including all the departments
  *         defined within the enterprise the group belongs to.
- *         The response is either GroupDepartmentGetListResponse18 or
- * ErrorResponse.
+ *         The response is either GroupDepartmentGetListResponse18 or ErrorResponse.
  *
  * @see GroupDepartmentGetListResponse18
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2968","type":"sequence"}]
  */
 class GroupDepartmentGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class GroupDepartmentGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2968
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class GroupDepartmentGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2968
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +37,7 @@ class GroupDepartmentGetListRequest18 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName includeEnterpriseDepartments
      * @Type bool
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2968
      * @var bool|null
      */
     private $includeEnterpriseDepartments = null;

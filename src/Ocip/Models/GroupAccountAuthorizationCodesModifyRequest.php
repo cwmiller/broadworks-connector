@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ab77d49abc146ee44a9626534896ad51:196","type":"sequence"}]
  */
 class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group ab77d49abc146ee44a9626534896ad51:196
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
+     * @Group ab77d49abc146ee44a9626534896ad51:196
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,8 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName codeType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType
+     * @Optional
+     * @Group ab77d49abc146ee44a9626534896ad51:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccountAuthorizationCodeType|null
      */
     private $codeType = null;
@@ -38,6 +43,8 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName numberOfDigits
      * @Type int
+     * @Optional
+     * @Group ab77d49abc146ee44a9626534896ad51:196
      * @var int|null
      */
     private $numberOfDigits = null;
@@ -45,6 +52,8 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName allowLocalAndTollFreeCalls
      * @Type bool
+     * @Optional
+     * @Group ab77d49abc146ee44a9626534896ad51:196
      * @var bool|null
      */
     private $allowLocalAndTollFreeCalls = null;
@@ -53,6 +62,8 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName mandatoryUsageUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group ab77d49abc146ee44a9626534896ad51:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mandatoryUsageUserIdList = null;
@@ -61,6 +72,8 @@ class GroupAccountAuthorizationCodesModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName optionalUsageUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group ab77d49abc146ee44a9626534896ad51:196
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $optionalUsageUserIdList = null;

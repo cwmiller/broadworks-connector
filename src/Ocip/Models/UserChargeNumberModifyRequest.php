@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"90740443ad13cd13b6013286b20750fc:74","type":"sequence"}]
  */
 class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
+     * @Group 90740443ad13cd13b6013286b20750fc:74
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName phoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 90740443ad13cd13b6013286b20750fc:74
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -32,6 +36,8 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName useChargeNumberForEnhancedTranslations
      * @Type bool
+     * @Optional
+     * @Group 90740443ad13cd13b6013286b20750fc:74
      * @var bool|null
      */
     private $useChargeNumberForEnhancedTranslations = null;
@@ -39,6 +45,8 @@ class UserChargeNumberModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName sendChargeNumberToNetwork
      * @Type bool
+     * @Optional
+     * @Group 90740443ad13cd13b6013286b20750fc:74
      * @var bool|null
      */
     private $sendChargeNumberToNetwork = null;

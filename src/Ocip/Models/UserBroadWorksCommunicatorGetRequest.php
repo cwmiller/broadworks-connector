@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserBroadWorksCommunicatorGetRequest
  *
  * Request to get the Configuration Server for a specified user.
- *         The response is either a UserBroadWorksCommunicatorGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserBroadWorksCommunicatorGetResponse or an ErrorResponse.
  *
  * @see UserBroadWorksCommunicatorGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e067ceae06d86c702b5874526f56fad3:89","type":"sequence"}]
  */
 class UserBroadWorksCommunicatorGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserBroadWorksCommunicatorGetRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
+     * @Group e067ceae06d86c702b5874526f56fad3:89
      * @var string|null
      */
     private $userId = null;

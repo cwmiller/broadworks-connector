@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest
  *
- * Modify the system settings for the call center enhanced reporting scheduling
- * tasks.
+ * Modify the system settings for the call center enhanced reporting scheduling tasks.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5820","type":"sequence"}]
  */
 class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,8 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
     /**
      * @ElementName scheduledReportSearchIntervalMinutes
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5820
      * @var int|null
      */
     private $scheduledReportSearchIntervalMinutes = null;
@@ -25,6 +27,8 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
     /**
      * @ElementName maximumScheduledReportsPerInterval
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5820
      * @var int|null
      */
     private $maximumScheduledReportsPerInterval = null;
@@ -32,6 +36,8 @@ class SystemCallCenterEnhancedReportingScheduledTaskParametersModifyRequest exte
     /**
      * @ElementName deleteScheduledReportDaysAfterCompletion
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5820
      * @var int|null
      */
     private $deleteScheduledReportDaysAfterCompletion = null;

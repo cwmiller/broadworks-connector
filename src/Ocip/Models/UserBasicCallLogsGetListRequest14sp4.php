@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request user's call logs.
  *           If the callLogType is not specified, all types of calls are returned.
- *           The response is either a UserBasicCallLogsGetListResponse14sp4 or an
- * ErrorResponse.
+ *           The response is either a UserBasicCallLogsGetListResponse14sp4 or an ErrorResponse.
  *
  * @see UserBasicCallLogsGetListResponse14sp4
  * @see ErrorResponse
+ * @Groups [{"id":"0b8ba9234c5d86ac729990639ab7b678:41","type":"sequence"}]
  */
 class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName userId
      * @Type string
+     * @Group 0b8ba9234c5d86ac729990639ab7b678:41
      * @var string|null
      */
     private $userId = null;
@@ -26,6 +27,8 @@ class UserBasicCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
+     * @Optional
+     * @Group 0b8ba9234c5d86ac729990639ab7b678:41
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;

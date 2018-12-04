@@ -5,15 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallCenterGetAvailableAgentListRequest
  *
- * Get a list of users that can be assigned as agents to a given type of Call
- * Center.
- *         Searching for users by group only makes sense when the call center is
- * part of an Enterprise.
- *         The response is either GroupCallCenterGetAvailableAgentListResponse or
- * ErrorResponse.
+ * Get a list of users that can be assigned as agents to a given type of Call Center.
+ *         Searching for users by group only makes sense when the call center is part of an Enterprise.
+ *         The response is either GroupCallCenterGetAvailableAgentListResponse or ErrorResponse.
  *
  * @see GroupCallCenterGetAvailableAgentListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3722","type":"sequence"}]
  */
 class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +19,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +27,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +35,7 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName callCenterType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterType
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterType|null
      */
     private $callCenterType = null;
@@ -42,6 +43,8 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -50,6 +53,8 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -60,6 +65,8 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -69,6 +76,8 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -76,6 +85,8 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -84,6 +95,8 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -94,6 +107,8 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -104,6 +119,8 @@ class GroupCallCenterGetAvailableAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3722
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

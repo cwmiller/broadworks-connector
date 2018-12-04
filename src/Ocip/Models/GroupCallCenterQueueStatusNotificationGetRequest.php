@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterQueueStatusNotificationGetRequest
  *
  * Get the status configuration for a given call center.
- *         The response is either a
- * GroupCallCenterQueueStatusNotificationGetResponse or an ErrorResponse.
+ *         The response is either a GroupCallCenterQueueStatusNotificationGetResponse or an ErrorResponse.
  *
  * @see GroupCallCenterQueueStatusNotificationGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5086","type":"sequence"}]
  */
 class GroupCallCenterQueueStatusNotificationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterQueueStatusNotificationGetRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5086
      * @var string|null
      */
     private $serviceUserId = null;

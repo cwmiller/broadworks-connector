@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see ServiceProviderVoiceMessagingGroupGetPasscodeRulesRequest
  * @see ServiceProviderPortalPasscodeRulesGetResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:16734","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName disallowRepeatedDigits
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var bool|null
      */
     private $disallowRepeatedDigits = null;
@@ -25,6 +27,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName disallowUserNumber
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var bool|null
      */
     private $disallowUserNumber = null;
@@ -32,6 +35,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName disallowReversedUserNumber
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var bool|null
      */
     private $disallowReversedUserNumber = null;
@@ -39,6 +43,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName disallowOldPasscode
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var bool|null
      */
     private $disallowOldPasscode = null;
@@ -46,6 +51,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName disallowReversedOldPasscode
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var bool|null
      */
     private $disallowReversedOldPasscode = null;
@@ -53,6 +59,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName minCodeLength
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var int|null
      */
     private $minCodeLength = null;
@@ -60,6 +67,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName maxCodeLength
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var int|null
      */
     private $maxCodeLength = null;
@@ -67,6 +75,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var bool|null
      */
     private $disableLoginAfterMaxFailedLoginAttempts = null;
@@ -74,6 +83,8 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -81,6 +92,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName expirePassword
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var bool|null
      */
     private $expirePassword = null;
@@ -88,6 +100,8 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName passcodeExpiresDays
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var int|null
      */
     private $passcodeExpiresDays = null;
@@ -95,6 +109,7 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -102,6 +117,8 @@ class ServiceProviderVoiceMessagingGroupGetPasscodeRulesResponse extends \CWM\Br
     /**
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16734
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;

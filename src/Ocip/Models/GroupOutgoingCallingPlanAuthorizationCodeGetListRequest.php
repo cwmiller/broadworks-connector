@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanAuthorizationCodeGetListRequest
  *
- * Request the list of authorization codes for a group default and it's
- * departments.
- *         The response is either a
- * GroupOutgoingCallingPlanAuthorizationCodeGetListResponse or an ErrorResponse.
+ * Request the list of authorization codes for a group default and it's departments.
+ *         The response is either a GroupOutgoingCallingPlanAuthorizationCodeGetListResponse or an ErrorResponse.
  *
  * @see GroupOutgoingCallingPlanAuthorizationCodeGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:108","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanAuthorizationCodeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupOutgoingCallingPlanAuthorizationCodeGetListRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:108
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupOutgoingCallingPlanAuthorizationCodeGetListRequest extends \CWM\Broad
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:108
      * @var string|null
      */
     private $groupId = null;

@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileCollaborateProfileGetRequest22
  *
- * Request to get the configuration for a call processing policy profile
- * Collaborate subscriber type profile.
- *         The response is either a
- * SystemCallProcessingPolicyProfileCollaborateProfileGetResponse22 or an
+ * Request to get the configuration for a call processing policy profile Collaborate subscriber type profile.
+ *         The response is either a SystemCallProcessingPolicyProfileCollaborateProfileGetResponse22 or an
  *         ErrorResponse.
  *
  * @see SystemCallProcessingPolicyProfileCollaborateProfileGetResponse22
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2998","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileCollaborateProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class SystemCallProcessingPolicyProfileCollaborateProfileGetRequest22 extends \C
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2998
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the ServiceProviderCommunicationBarringProfileGetListRequest.
  *         The response contains a table of all Communication Barring Profiles
- *         for the service provider. The column headings are "Default" , "Name" and
- * "Description"
+ *         for the service provider. The column headings are "Default" , "Name" and "Description"
  *
  * @see ServiceProviderCommunicationBarringProfileGetListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1923","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class ServiceProviderCommunicationBarringProfileGetListResponse extends \CWM\Bro
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1923
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profileTable = null;

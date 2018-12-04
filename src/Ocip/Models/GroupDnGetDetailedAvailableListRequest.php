@@ -9,11 +9,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         assignment to users within the group with the department name, if the DN
  *         is assigned to the department.
  *         Dns assigned to the IMRN pool are not listed in the response.
- *         The response is either a GroupDnGetDetailedAvailableListResponse or an
- * ErrorResponse.
+ *         The response is either a GroupDnGetDetailedAvailableListResponse or an ErrorResponse.
  *
  * @see GroupDnGetDetailedAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4201","type":"sequence"}]
  */
 class GroupDnGetDetailedAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class GroupDnGetDetailedAvailableListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4201
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,7 @@ class GroupDnGetDetailedAvailableListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4201
      * @var string|null
      */
     private $groupId = null;

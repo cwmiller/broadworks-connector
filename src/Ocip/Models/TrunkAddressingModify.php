@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * TrunkAddressingModify
  *
  * Trunk group endpoint.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3654","type":"sequence"}]
  */
 class TrunkAddressingModify
 {
@@ -14,6 +16,8 @@ class TrunkAddressingModify
      * @ElementName trunkGroupDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3654
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupDeviceEndpointModify|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $trunkGroupDeviceEndpoint = null;
@@ -22,6 +26,8 @@ class TrunkAddressingModify
      * @ElementName enterpriseTrunkName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3654
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $enterpriseTrunkName = null;
@@ -30,6 +36,8 @@ class TrunkAddressingModify
      * @ElementName alternateTrunkIdentity
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3654
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $alternateTrunkIdentity = null;

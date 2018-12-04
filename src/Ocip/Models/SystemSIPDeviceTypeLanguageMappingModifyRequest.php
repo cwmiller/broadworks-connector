@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemSIPDeviceTypeLanguageMappingModifyRequest
  *
- * Request to modify the device language name that is mapped to a BroadWorks
- * language name. The request can be used to map many languages.
+ * Request to modify the device language name that is mapped to a BroadWorks language name. The request can be used to map many languages.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15275","type":"sequence"}]
  */
 class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15275
      * @var string|null
      */
     private $deviceType = null;
@@ -26,6 +27,8 @@ class SystemSIPDeviceTypeLanguageMappingModifyRequest extends \CWM\BroadWorksCon
      * @ElementName languageMapping
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15275
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementLanguageMapping[]
      */
     private $languageMapping = array(

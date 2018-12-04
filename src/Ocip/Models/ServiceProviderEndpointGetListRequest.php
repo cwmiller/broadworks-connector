@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderEndpointGetListRequest
  *
  * Request to search endpoints in the service provider/enterprise.
- *         The response is either ServiceProviderEndpointGetListResponse or
- * ErrorResponse.
+ *         The response is either ServiceProviderEndpointGetListResponse or ErrorResponse.
  *
  * @see ServiceProviderEndpointGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3288","type":"sequence"}]
  */
 class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -33,6 +36,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -43,6 +48,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaLinePortUserPart
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortUserPart[]
      */
     private $searchCriteriaLinePortUserPart = array(
@@ -53,6 +60,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaLinePortDomain
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaLinePortDomain[]
      */
     private $searchCriteriaLinePortDomain = array(
@@ -63,6 +72,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -73,6 +84,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -83,6 +96,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -93,6 +108,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -103,6 +120,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -113,6 +132,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[]
      */
     private $searchCriteriaDeviceType = array(
@@ -123,6 +144,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaDeviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceName[]
      */
     private $searchCriteriaDeviceName = array(
@@ -133,6 +156,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaDeviceMACAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceMACAddress[]
      */
     private $searchCriteriaDeviceMACAddress = array(
@@ -143,6 +168,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaDeviceNetAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceNetAddress[]
      */
     private $searchCriteriaDeviceNetAddress = array(
@@ -153,6 +180,8 @@ class ServiceProviderEndpointGetListRequest extends \CWM\BroadWorksConnector\Oci
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3288
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment[]
      */
     private $searchCriteriaExactUserDepartment = array(

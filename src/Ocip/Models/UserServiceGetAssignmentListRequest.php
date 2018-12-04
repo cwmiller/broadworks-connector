@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserServiceGetAssignmentListRequest
  *
  * Requests the user's service and service pack assignment list with status.
- *         The response is either UserServiceGetAssignmentListResponse or
- * ErrorResponse.
+ *         The response is either UserServiceGetAssignmentListResponse or ErrorResponse.
  *
  * @see UserServiceGetAssignmentListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3182","type":"sequence"}]
  */
 class UserServiceGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserServiceGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:3182
      * @var string|null
      */
     private $userId = null;

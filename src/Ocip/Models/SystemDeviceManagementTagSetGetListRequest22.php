@@ -5,21 +5,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceManagementTagSetGetListRequest22
  *
- * Request to get the list of custom configuration tag sets managed by the Device
- * Management System. 
+ * Request to get the list of custom configuration tag sets managed by the Device Management System. 
  *         If excludeReseller is set, only system level tag sets are returned. 
- *         If resellerId is specified, all system level tag sets and the tag sets
- * in the reseller are returned. 
- *         If reseller administrator sends the request, resellerId is not
- * specified, the administrator's resellerId is used. 
- *         If neither excludeReseller nor resellerId is specified, all system level
- * and reseller level tag sets are returned. 
+ *         If resellerId is specified, all system level tag sets and the tag sets in the reseller are returned. 
+ *         If reseller administrator sends the request, resellerId is not specified, the administrator's resellerId is used. 
+ *         If neither excludeReseller nor resellerId is specified, all system level and reseller level tag sets are returned. 
  *         
- *         The response is either SystemDeviceManagementTagSetGetListResponse22 or
- * ErrorResponse.
+ *         The response is either SystemDeviceManagementTagSetGetListResponse22 or ErrorResponse.
  *
  * @see SystemDeviceManagementTagSetGetListResponse22
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6990","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:6991","type":"choice"}]}]
  */
 class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,6 +23,8 @@ class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName excludeReseller
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6991
      * @var bool|null
      */
     private $excludeReseller = null;
@@ -34,6 +32,8 @@ class SystemDeviceManagementTagSetGetListRequest22 extends \CWM\BroadWorksConnec
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6991
      * @var string|null
      */
     private $resellerId = null;

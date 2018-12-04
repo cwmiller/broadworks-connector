@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderFileRepositoryDeviceUserGetListRequest
  *
  * Request the list of service provider users for a file repository in the system.
- *         The response is either a
- * ServiceProviderFileRepositoryDeviceUserGetListResponse or an ErrorResponse.
+ *         The response is either a ServiceProviderFileRepositoryDeviceUserGetListResponse or an ErrorResponse.
  *
  * @see ServiceProviderFileRepositoryDeviceUserGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3434","type":"sequence"}]
  */
 class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3434
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class ServiceProviderFileRepositoryDeviceUserGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName fileRepositoryName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3434
      * @var string|null
      */
     private $fileRepositoryName = null;

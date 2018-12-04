@@ -6,17 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDnGetAssignmentListRequest
  *
  * Get the list of assigned and unassigned DNs in a group. Each DN can be assigned
- *         to a user and/or department. Ranges of DNs with identical assignment and
- * activation properties
+ *         to a user and/or department. Ranges of DNs with identical assignment and activation properties
  *         are coalesced to a single table row entry.
- *         The response is either a GroupDnGetAssignmentListResponse or an
- * ErrorResponse.
+ *         The response is either a GroupDnGetAssignmentListResponse or an ErrorResponse.
  *   
  *         Replaced by: GroupDnGetAssignmentListRequest18
  *
  * @see GroupDnGetAssignmentListResponse
  * @see ErrorResponse
  * @see GroupDnGetAssignmentListRequest18
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7967","type":"sequence"}]
  */
 class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +23,7 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7967
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -31,6 +31,7 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7967
      * @var string|null
      */
     private $groupId = null;
@@ -38,6 +39,8 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7967
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -46,6 +49,8 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -56,6 +61,8 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -66,6 +73,8 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -75,6 +84,8 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName searchCriteriaExactDnDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnDepartment
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnDepartment|null
      */
     private $searchCriteriaExactDnDepartment = null;
@@ -82,6 +93,8 @@ class GroupDnGetAssignmentListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName searchCriteriaExactDnActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7967
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactDnActivation|null
      */
     private $searchCriteriaExactDnActivation = null;

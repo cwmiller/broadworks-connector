@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CollaborateGracePeriodDuration
  *
  * Collaborate grace period duration.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:774","type":"sequence"}]
  */
 class CollaborateGracePeriodDuration
 {
@@ -13,6 +15,7 @@ class CollaborateGracePeriodDuration
     /**
      * @ElementName hours
      * @Type int
+     * @Group 18b369af88e42ffdb4166615c670ce2c:774
      * @var int|null
      */
     private $hours = null;
@@ -20,6 +23,7 @@ class CollaborateGracePeriodDuration
     /**
      * @ElementName minutes
      * @Type int
+     * @Group 18b369af88e42ffdb4166615c670ce2c:774
      * @var int|null
      */
     private $minutes = null;

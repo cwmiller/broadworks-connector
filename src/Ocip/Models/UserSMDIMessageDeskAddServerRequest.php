@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"cd03b563fec121b562411c9b734b5953:224","type":"sequence"}]
  */
 class UserSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group cd03b563fec121b562411c9b734b5953:224
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,7 @@ class UserSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group cd03b563fec121b562411c9b734b5953:224
      * @var string|null
      */
     private $deviceName = null;
@@ -31,6 +34,7 @@ class UserSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName netAddress
      * @Type string
+     * @Group cd03b563fec121b562411c9b734b5953:224
      * @var string|null
      */
     private $netAddress = null;
@@ -38,6 +42,7 @@ class UserSMDIMessageDeskAddServerRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName port
      * @Type int
+     * @Group cd03b563fec121b562411c9b734b5953:224
      * @var int|null
      */
     private $port = null;

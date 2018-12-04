@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemZoneAddRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32153","type":"sequence"}]
  */
 class SystemZoneCallingRestrictionsZoneAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class SystemZoneCallingRestrictionsZoneAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName zoneName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32153
      * @var string|null
      */
     private $zoneName = null;
@@ -26,6 +28,8 @@ class SystemZoneCallingRestrictionsZoneAddRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName physicalLocation
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32153
      * @var string|null
      */
     private $physicalLocation = null;

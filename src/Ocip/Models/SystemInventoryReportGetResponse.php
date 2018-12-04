@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemInventoryReportGetRequest.
  *
  * @see SystemInventoryReportGetRequest
+ * @Groups [{"id":"2878f00c36207d82fdd6133ab70c3d87:94","type":"sequence"}]
  */
 class SystemInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class SystemInventoryReportGetResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName defaultFromAddress
      * @Type string
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:94
      * @var string|null
      */
     private $defaultFromAddress = null;

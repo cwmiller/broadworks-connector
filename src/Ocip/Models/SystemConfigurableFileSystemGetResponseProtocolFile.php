@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemConfigurableFileSystemGetResponseProtocolFile
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5872","type":"sequence"}]
  */
 class SystemConfigurableFileSystemGetResponseProtocolFile
 {
@@ -11,6 +13,7 @@ class SystemConfigurableFileSystemGetResponseProtocolFile
     /**
      * @ElementName replicated
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5872
      * @var bool|null
      */
     private $replicated = null;

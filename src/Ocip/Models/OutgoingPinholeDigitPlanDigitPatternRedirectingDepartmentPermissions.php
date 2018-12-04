@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissions
  *
- * Outgoing Pinhole Digit Plan initiating call forwards/transfer permissions for a
- * department.
+ * Outgoing Pinhole Digit Plan initiating call forwards/transfer permissions for a department.
+ *
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:2330","type":"sequence"}]
  */
 class OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissions
 {
@@ -14,6 +15,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissions
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2330
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -21,6 +23,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissions
     /**
      * @ElementName departmentName
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2330
      * @var string|null
      */
     private $departmentName = null;
@@ -28,6 +31,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingDepartmentPermissions
     /**
      * @ElementName permissions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2330
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanDigitPatternRedirectingPermissions|null
      */
     private $permissions = null;

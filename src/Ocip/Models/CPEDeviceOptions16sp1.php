@@ -7,18 +7,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CPE device's options.
  *     
- *     The field configType is optional to allow the use of field enableMonitoring
- * for all device types being managed or not
- *     ie. device configuration option equals to DeviceManagement, or Legacy, or
- * Not Supported).
+ *     The field configType is optional to allow the use of field enableMonitoring for all device types being managed or not
+ *     ie. device configuration option equals to DeviceManagement, or Legacy, or Not Supported).
  *     
- *     If the device configuration option is set to "Not Supported", the value of
- * configType is forced set to "None" regardless 
+ *     If the device configuration option is set to "Not Supported", the value of configType is forced set to "None" regardless 
  *     of its current value.
  *     
- *     It is not allowed to add a device type with device configuration option set
- * to Device Management or Legacy when the configType
+ *     It is not allowed to add a device type with device configuration option set to Device Management or Legacy when the configType
  *     is not set.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38666","type":"sequence"}]
  */
 class CPEDeviceOptions16sp1
 {
@@ -26,6 +24,7 @@ class CPEDeviceOptions16sp1
     /**
      * @ElementName enableMonitoring
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38666
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -33,6 +32,8 @@ class CPEDeviceOptions16sp1
     /**
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38666
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
@@ -40,6 +41,8 @@ class CPEDeviceOptions16sp1
     /**
      * @ElementName systemFileName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38666
      * @var string|null
      */
     private $systemFileName = null;
@@ -47,6 +50,8 @@ class CPEDeviceOptions16sp1
     /**
      * @ElementName deviceFileFormat
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38666
      * @var string|null
      */
     private $deviceFileFormat = null;
@@ -54,6 +59,8 @@ class CPEDeviceOptions16sp1
     /**
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38666
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptions16|null
      */
     private $deviceManagementDeviceTypeOptions = null;

@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDialPlanPolicyDeleteAccessCodeRequest
  *
- * Request to delete a Service Provider level Dial Plan Access Code and its all
- * attribues.
+ * Request to delete a Service Provider level Dial Plan Access Code and its all attribues.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2857","type":"sequence"}]
  */
 class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2857
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class ServiceProviderDialPlanPolicyDeleteAccessCodeRequest extends \CWM\BroadWor
     /**
      * @ElementName accessCode
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2857
      * @var string|null
      */
     private $accessCode = null;

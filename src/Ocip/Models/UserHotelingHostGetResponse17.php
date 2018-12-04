@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserHotelingHostGetRequest17.
  *
  * @see UserHotelingHostGetRequest17
+ * @Groups [{"id":"99b73f5d86cc88ac063524c419981701:56","type":"sequence"}]
  */
 class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName enforceAssociationLimit
      * @Type bool
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var bool|null
      */
     private $enforceAssociationLimit = null;
@@ -29,6 +32,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName associationLimitHours
      * @Type int
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var int|null
      */
     private $associationLimitHours = null;
@@ -36,6 +40,7 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName accessLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\HotelingHostAccessLevel|null
      */
     private $accessLevel = null;
@@ -43,6 +48,8 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName guestLastName
      * @Type string
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var string|null
      */
     private $guestLastName = null;
@@ -50,6 +57,8 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName guestFirstName
      * @Type string
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var string|null
      */
     private $guestFirstName = null;
@@ -57,6 +66,8 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName guestPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var string|null
      */
     private $guestPhoneNumber = null;
@@ -64,6 +75,8 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName guestExtension
      * @Type string
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var string|null
      */
     private $guestExtension = null;
@@ -71,6 +84,8 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName guestLocationDialingCode
      * @Type string
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var string|null
      */
     private $guestLocationDialingCode = null;
@@ -78,6 +93,8 @@ class UserHotelingHostGetResponse17 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName guestAssociationDateTime
      * @Type string
+     * @Optional
+     * @Group 99b73f5d86cc88ac063524c419981701:56
      * @var string|null
      */
     private $guestAssociationDateTime = null;

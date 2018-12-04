@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemLanguageModifyRequest
  *
  * Request to modify a language properties in the system.
- *         If the becomeDefaultLanguage element is present, the language in this
- * request becomes
+ *         If the becomeDefaultLanguage element is present, the language in this request becomes
  *         the default language for the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9813","type":"sequence"}]
  */
 class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName language
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9813
      * @var string|null
      */
     private $language = null;
@@ -27,6 +28,8 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName becomeDefaultLanguage
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9813
      * @var bool|null
      */
     private $becomeDefaultLanguage = null;
@@ -34,6 +37,8 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName locale
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9813
      * @var string|null
      */
     private $locale = null;
@@ -41,6 +46,8 @@ class SystemLanguageModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName encoding
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9813
      * @var string|null
      */
     private $encoding = null;

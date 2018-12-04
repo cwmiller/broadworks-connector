@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ReplacementMediaNameList
  *
  * A list of media that replaces a previously configured list.
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17491","type":"sequence"}]
  */
 class ReplacementMediaNameList
 {
@@ -14,6 +16,7 @@ class ReplacementMediaNameList
      * @ElementName mediaName
      * @Type string
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17491
      * @var string[]
      */
     private $mediaName = array(

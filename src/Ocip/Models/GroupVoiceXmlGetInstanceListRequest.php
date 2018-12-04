@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupVoiceXmlGetInstanceListRequest
  *
  * Get a list of VoiceXML instances within a group.
- *         The response is either GroupVoiceXmlGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupVoiceXmlGetInstanceListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupVoiceXmlGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"75fc596c21103d0c2b08c717c36f4ff1:86","type":"sequence"}]
  */
 class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:86
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:86
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupVoiceXmlGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Optional
+     * @Group 75fc596c21103d0c2b08c717c36f4ff1:86
      * @var string|null
      */
     private $groupDepartmentName = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupHuntGroupGetInstanceRequest20
  *
  * Request to get all the information of a Hunt Group instance.
- *         The response is either GroupHuntGroupGetInstanceResponse20 or
- * ErrorResponse.
+ *         The response is either GroupHuntGroupGetInstanceResponse20 or ErrorResponse.
  *
  * @see GroupHuntGroupGetInstanceResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"1136ac7348c14565d0ad74d10c47409a:322","type":"sequence"}]
  */
 class GroupHuntGroupGetInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupHuntGroupGetInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1136ac7348c14565d0ad74d10c47409a:322
      * @var string|null
      */
     private $serviceUserId = null;

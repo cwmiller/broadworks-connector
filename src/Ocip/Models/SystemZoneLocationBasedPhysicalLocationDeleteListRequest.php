@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:17180","type":"sequence"}]
  */
 class SystemZoneLocationBasedPhysicalLocationDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemZoneLocationBasedPhysicalLocationDeleteListRequest extends \CWM\Broa
     /**
      * @ElementName zoneName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17180
      * @var string|null
      */
     private $zoneName = null;
@@ -25,6 +27,8 @@ class SystemZoneLocationBasedPhysicalLocationDeleteListRequest extends \CWM\Broa
      * @ElementName physicalLocation
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:17180
      * @var string[]
      */
     private $physicalLocation = array(

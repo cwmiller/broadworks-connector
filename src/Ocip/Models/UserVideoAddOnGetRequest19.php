@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVideoAddOnGetRequest19
  *
  * Get the user's Video Add-On service setting.
- *         The response is either a UserVideoAddOnGetResponse19 or an
- * ErrorResponse.
+ *         The response is either a UserVideoAddOnGetResponse19 or an ErrorResponse.
  *
  * @see UserVideoAddOnGetResponse19
  * @see ErrorResponse
+ * @Groups [{"id":"6bf4f72aac7e65e943bfe17abe76c88f:41","type":"sequence"}]
  */
 class UserVideoAddOnGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserVideoAddOnGetRequest19 extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 6bf4f72aac7e65e943bfe17abe76c88f:41
      * @var string|null
      */
     private $userId = null;

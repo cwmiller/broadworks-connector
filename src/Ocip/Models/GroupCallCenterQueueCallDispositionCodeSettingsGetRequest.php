@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallCenterQueueCallDispositionCodeSettingsGetRequest
  *
- * Request the user level data associated with Call Center Call Disposition Code
- * Settings.
- *         The response is either a
- * GroupCallCenterQueueCallDispositionCodeSettingsGetResponse or an
+ * Request the user level data associated with Call Center Call Disposition Code Settings.
+ *         The response is either a GroupCallCenterQueueCallDispositionCodeSettingsGetResponse or an
  *         ErrorResponse.
  *
  * @see GroupCallCenterQueueCallDispositionCodeSettingsGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5031","type":"sequence"}]
  */
 class GroupCallCenterQueueCallDispositionCodeSettingsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class GroupCallCenterQueueCallDispositionCodeSettingsGetRequest extends \CWM\Bro
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5031
      * @var string|null
      */
     private $serviceUserId = null;

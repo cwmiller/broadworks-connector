@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringProfileModifyDefaultRequest
  *
- * Modifies the default Communication Barring Profile of a Service Provider.  If a
- * default has been previously selected, this command will swap the default profile
- * with the profile provided.  Selecting a nil profile will cause the service
- * provider to not have a default Communicaton Barring Profile.
+ * Modifies the default Communication Barring Profile of a Service Provider.  If a default has been previously selected, this command will swap the default profile with the profile provided.  Selecting a nil profile will cause the service provider to not have a default Communicaton Barring Profile.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1995","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileModifyDefaultRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class ServiceProviderCommunicationBarringProfileModifyDefaultRequest extends \CW
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1995
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +27,7 @@ class ServiceProviderCommunicationBarringProfileModifyDefaultRequest extends \CW
      * @ElementName name
      * @Type string
      * @Nillable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1995
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $name = null;

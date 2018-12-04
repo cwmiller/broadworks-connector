@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCPEConfigReorderDeviceLinePortsRequest
  *
- * Reorder the lines of a Service Provider device. You can not add or delete line
- * ports, only
- *         re-ordering the list is allowed. The ordered list of line ports can be
- * obtained
+ * Reorder the lines of a Service Provider device. You can not add or delete line ports, only
+ *         re-ordering the list is allowed. The ordered list of line ports can be obtained
  *         with the ServiceProviderAccessDeviceGetRequest command.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see ServiceProviderAccessDeviceGetRequest
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2091","type":"sequence"}]
  */
 class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2091
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +29,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2091
      * @var string|null
      */
     private $deviceName = null;
@@ -37,6 +38,7 @@ class ServiceProviderCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWo
      * @ElementName orderedLinePortList
      * @Type string
      * @Array
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2091
      * @var string[]
      */
     private $orderedLinePortList = array(

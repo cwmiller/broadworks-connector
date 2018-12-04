@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterCallDispositionCodeGetListResponse
  *
  * Response to the EnterpriseCallCenterCallDispositionCodeGetListRequest.
- *         Contains a table with column headings: "Is Active", "Code",
- * "Description".
+ *         Contains a table with column headings: "Is Active", "Code", "Description".
  *
  * @see EnterpriseCallCenterCallDispositionCodeGetListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:824","type":"sequence"}]
  */
 class EnterpriseCallCenterCallDispositionCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class EnterpriseCallCenterCallDispositionCodeGetListResponse extends \CWM\BroadW
     /**
      * @ElementName dispositionCodesTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:824
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dispositionCodesTable = null;

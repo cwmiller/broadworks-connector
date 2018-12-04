@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderEnhancedCallLogsGetRequest
  *
  * Get the service provider's enhanced call log settings.
- *         The response is either a ServiceProviderEnhancedCallLogsGetResponse or
- * an ErrorResponse.
+ *         The response is either a ServiceProviderEnhancedCallLogsGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderEnhancedCallLogsGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:16305","type":"sequence"}]
  */
 class ServiceProviderEnhancedCallLogsGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderEnhancedCallLogsGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16305
      * @var string|null
      */
     private $serviceProviderId = null;

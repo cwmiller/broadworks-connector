@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanDigitPlanOriginatingGetListRequest
  *
- * Request the originating permissions for digit patterns for a group default and
- * it's departments.
- *         The response is either a
- * GroupOutgoingCallingPlanDigitPlanOriginatingGetListResponse or an ErrorResponse.
+ * Request the originating permissions for digit patterns for a group default and it's departments.
+ *         The response is either a GroupOutgoingCallingPlanDigitPlanOriginatingGetListResponse or an ErrorResponse.
  *
  * @see GroupOutgoingCallingPlanDigitPlanOriginatingGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:319","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDigitPlanOriginatingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupOutgoingCallingPlanDigitPlanOriginatingGetListRequest extends \CWM\Br
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:319
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupOutgoingCallingPlanDigitPlanOriginatingGetListRequest extends \CWM\Br
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:319
      * @var string|null
      */
     private $groupId = null;

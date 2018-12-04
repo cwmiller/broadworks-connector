@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilotExpressProfileMenuKeysReadEntry
  *
  * The voice portal commPilot express profile menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2396","type":"sequence"}]
  */
 class CommPilotExpressProfileMenuKeysReadEntry
 {
@@ -13,6 +15,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
     /**
      * @ElementName activateAvailableInOfficeProfile
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2396
      * @var string|null
      */
     private $activateAvailableInOfficeProfile = null;
@@ -20,6 +24,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
     /**
      * @ElementName activateAvailableOutOfOfficeProfile
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2396
      * @var string|null
      */
     private $activateAvailableOutOfOfficeProfile = null;
@@ -27,6 +33,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
     /**
      * @ElementName activateBusyProfile
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2396
      * @var string|null
      */
     private $activateBusyProfile = null;
@@ -34,6 +42,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
     /**
      * @ElementName activateUnavailableProfile
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2396
      * @var string|null
      */
     private $activateUnavailableProfile = null;
@@ -41,6 +51,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
     /**
      * @ElementName noProfile
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2396
      * @var string|null
      */
     private $noProfile = null;
@@ -48,6 +60,7 @@ class CommPilotExpressProfileMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2396
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -55,6 +68,8 @@ class CommPilotExpressProfileMenuKeysReadEntry
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2396
      * @var string|null
      */
     private $repeatMenu = null;

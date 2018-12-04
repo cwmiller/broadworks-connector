@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommunicationBarringOriginatingRule15sp2
  *
  * Communication Barring Originating Rule
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38549","type":"sequence"}]
  */
 class CommunicationBarringOriginatingRule15sp2
 {
@@ -13,6 +15,7 @@ class CommunicationBarringOriginatingRule15sp2
     /**
      * @ElementName criteria
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38549
      * @var string|null
      */
     private $criteria = null;
@@ -20,6 +23,7 @@ class CommunicationBarringOriginatingRule15sp2
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38549
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction15sp2|null
      */
     private $action = null;
@@ -28,6 +32,8 @@ class CommunicationBarringOriginatingRule15sp2
      * @ElementName treatmentId
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38549
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $treatmentId = null;
@@ -36,6 +42,8 @@ class CommunicationBarringOriginatingRule15sp2
      * @ElementName transferNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38549
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferNumber = null;

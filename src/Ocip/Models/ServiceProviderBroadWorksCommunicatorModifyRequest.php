@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderBroadWorksCommunicatorModifyRequest
  *
- * Request to modify the Configuration URL. The response is either a
- * SuccessResponse or an ErrorResponse.
+ * Request to modify the Configuration URL. The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e067ceae06d86c702b5874526f56fad3:72","type":"sequence"}]
  */
 class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +17,8 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Optional
+     * @Group e067ceae06d86c702b5874526f56fad3:72
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,8 @@ class ServiceProviderBroadWorksCommunicatorModifyRequest extends \CWM\BroadWorks
      * @ElementName configurationServerURL
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group e067ceae06d86c702b5874526f56fad3:72
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $configurationServerURL = null;

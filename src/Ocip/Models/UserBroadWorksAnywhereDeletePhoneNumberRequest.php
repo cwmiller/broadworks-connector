@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserBroadWorksAnywhereDeletePhoneNumberRequest
  *
- * Delete a broadworks anywhere phone number. Also deletes all the selective
- * criteria for the phone number.
+ * Delete a broadworks anywhere phone number. Also deletes all the selective criteria for the phone number.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"ce478a57dacaeb5f25b35de0633a14fa:311","type":"sequence"}]
  */
 class UserBroadWorksAnywhereDeletePhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserBroadWorksAnywhereDeletePhoneNumberRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName userId
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:311
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserBroadWorksAnywhereDeletePhoneNumberRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group ce478a57dacaeb5f25b35de0633a14fa:311
      * @var string|null
      */
     private $phoneNumber = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3416","type":"sequence"}]
  */
 class ServiceProviderFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWor
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3416
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class ServiceProviderFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWor
     /**
      * @ElementName fileRepositoryName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3416
      * @var string|null
      */
     private $fileRepositoryName = null;
@@ -31,6 +34,7 @@ class ServiceProviderFileRepositoryDeviceUserDeleteRequest extends \CWM\BroadWor
     /**
      * @ElementName userName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3416
      * @var string|null
      */
     private $userName = null;

@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemBroadWorksMobilityAddIMRNListRequest
  *
- * Adds BroadWorks Mobility IMRN numbers to the system. It is possible to add
- * either: 
- *         a single number, a list of numbers, or a range of numbers, or any
- * combination thereof.
+ * Adds BroadWorks Mobility IMRN numbers to the system. It is possible to add either: 
+ *         a single number, a list of numbers, or a range of numbers, or any combination thereof.
  *         The response is either a SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:517","type":"sequence"}]
  */
 class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,8 @@ class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnecto
      * @ElementName imrnNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:517
      * @var string[]
      */
     private $imrnNumber = array(
@@ -31,6 +32,8 @@ class SystemBroadWorksMobilityAddIMRNListRequest extends \CWM\BroadWorksConnecto
      * @ElementName numberRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:517
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $numberRange = array(

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceInstanceAddProfileFlexibleSeatingHost
  *
  * Service Profile Information for a flexible seating host.
+ *
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:477","type":"sequence"}]
  */
 class ServiceInstanceAddProfileFlexibleSeatingHost
 {
@@ -13,6 +15,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName name
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $name = null;
@@ -20,6 +23,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName callingLineIdLastName
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -27,6 +31,7 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -34,6 +39,8 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName hiraganaLastName
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -41,6 +48,8 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName hiraganaFirstName
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -48,6 +57,8 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $phoneNumber = null;
@@ -55,6 +66,8 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName extension
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $extension = null;
@@ -62,6 +75,8 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName password
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $password = null;
@@ -69,6 +84,8 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -76,6 +93,8 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $language = null;
@@ -83,6 +102,8 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName timeZone
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $timeZone = null;
@@ -90,6 +111,8 @@ class ServiceInstanceAddProfileFlexibleSeatingHost
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:477
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterStatisticsRange
  *
  * Statistics Range
+ *
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6949","type":"sequence"}]
  */
 class CallCenterStatisticsRange
 {
@@ -13,6 +15,7 @@ class CallCenterStatisticsRange
     /**
      * @ElementName start
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6949
      * @var string|null
      */
     private $start = null;
@@ -20,6 +23,8 @@ class CallCenterStatisticsRange
     /**
      * @ElementName end
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6949
      * @var string|null
      */
     private $end = null;

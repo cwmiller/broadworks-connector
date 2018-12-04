@@ -5,9 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemBwDiameterRoutingRealmGetListResponse
  *
- * Contains a 4 column table with column headings 'Instance', 'Realm',
- * 'ApplicationID', and 'Default'.  One row is present for each Diameter routing
- * realm.
+ * Contains a 4 column table with column headings 'Instance', 'Realm', 'ApplicationID', and 'Default'.  One row is present for each Diameter routing realm.
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:2447","type":"sequence"}]
  */
 class SystemBwDiameterRoutingRealmGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +15,7 @@ class SystemBwDiameterRoutingRealmGetListResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName routingRealmTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:2447
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routingRealmTable = null;

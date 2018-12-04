@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:929","type":"sequence"}]
  */
 class GroupAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:929
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:929
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:929
      * @var string|null
      */
     private $deviceName = null;
@@ -39,6 +43,8 @@ class GroupAccessDeviceTagSetModifyRequest extends \CWM\BroadWorksConnector\Ocip
      * @ElementName tagSetName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:929
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagSetName = null;

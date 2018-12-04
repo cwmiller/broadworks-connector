@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGroupNightForwardingGetRequest
  *
  * Request to get the Group Night Forwarding user parameters.
- *         The response is either UserGroupNightForwardingGetResponse or
- * ErrorResponse.
+ *         The response is either UserGroupNightForwardingGetResponse or ErrorResponse.
  *
  * @see UserGroupNightForwardingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1e611fe2e9c068beaf5994d1c997a350:148","type":"sequence"}]
  */
 class UserGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserGroupNightForwardingGetRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1e611fe2e9c068beaf5994d1c997a350:148
      * @var string|null
      */
     private $userId = null;

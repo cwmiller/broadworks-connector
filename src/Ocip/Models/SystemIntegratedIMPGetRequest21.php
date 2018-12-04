@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemIntegratedIMPGetRequest21
  *
  * Get the system Integrated IMP service attributes.
- *         The response is either SystemIntegratedIMPGetResponse19 or
- * ErrorResponse.
+ *         The response is either SystemIntegratedIMPGetResponse19 or ErrorResponse.
  *
  * @see SystemIntegratedIMPGetResponse19
  * @see ErrorResponse

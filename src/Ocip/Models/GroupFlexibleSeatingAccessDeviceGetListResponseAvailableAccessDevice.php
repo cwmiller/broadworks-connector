@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
+ *
+ * @Groups [{"id":"26a62df68b13c020e844e2a188f1e6e1:80","type":"sequence"}]
  */
 class GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
 {
@@ -11,6 +13,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:80
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -18,6 +21,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
     /**
      * @ElementName staticRegistrationCapable
      * @Type bool
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:80
      * @var bool|null
      */
     private $staticRegistrationCapable = null;
@@ -25,6 +29,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
     /**
      * @ElementName useDomain
      * @Type bool
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:80
      * @var bool|null
      */
     private $useDomain = null;
@@ -32,6 +37,7 @@ class GroupFlexibleSeatingAccessDeviceGetListResponseAvailableAccessDevice
     /**
      * @ElementName staticLineOrdering
      * @Type bool
+     * @Group 26a62df68b13c020e844e2a188f1e6e1:80
      * @var bool|null
      */
     private $staticLineOrdering = null;

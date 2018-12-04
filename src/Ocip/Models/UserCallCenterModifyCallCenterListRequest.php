@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6466","type":"sequence"}]
  */
 class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName agentUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6466
      * @var string|null
      */
     private $agentUserId = null;
@@ -25,6 +27,8 @@ class UserCallCenterModifyCallCenterListRequest extends \CWM\BroadWorksConnector
      * @ElementName serviceUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6466
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceUserIdList = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallCenterEnhancedReportingScheduledReportGetRequest
  *
  * Request to get a call center reporting scheduled report created by supervisor.
- *         The response is either a
- * UserCallCenterEnhancedReportingScheduledReportGetResponse or an ErrorResponse.
+ *         The response is either a UserCallCenterEnhancedReportingScheduledReportGetResponse or an ErrorResponse.
  *
  * @see UserCallCenterEnhancedReportingScheduledReportGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6132","type":"sequence"}]
  */
 class UserCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\Broa
     /**
      * @ElementName supervisorUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6132
      * @var string|null
      */
     private $supervisorUserId = null;
@@ -25,6 +26,7 @@ class UserCallCenterEnhancedReportingScheduledReportGetRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6132
      * @var string|null
      */
     private $name = null;

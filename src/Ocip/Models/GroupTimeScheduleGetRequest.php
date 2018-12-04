@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTimeScheduleGetRequest
  *
  * Request to get a group time schedule.
- *         The response is either a GroupTimeScheduleGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupTimeScheduleGetResponse or an ErrorResponse.
  *
  * @see GroupTimeScheduleGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:11340","type":"sequence"}]
  */
 class GroupTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11340
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11340
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupTimeScheduleGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName timeScheduleName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11340
      * @var string|null
      */
     private $timeScheduleName = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:55","type":"sequence"}]
  */
 class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:55
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:55
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
     /**
      * @ElementName language
      * @Type string
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:55
      * @var string|null
      */
     private $language = null;
@@ -38,6 +42,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateType|null
      */
     private $type = null;
@@ -45,6 +50,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
     /**
      * @ElementName isEnabled
      * @Type bool
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:55
      * @var bool|null
      */
     private $isEnabled = null;
@@ -52,6 +58,7 @@ class GroupMWIDeliveryToMobileEndpointCustomTemplateAddRequest extends \CWM\Broa
     /**
      * @ElementName templateBody
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateBody|null
      */
     private $templateBody = null;

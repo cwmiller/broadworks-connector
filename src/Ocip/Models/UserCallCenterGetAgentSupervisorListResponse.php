@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 		"Location Code".
  *
  * @see UserCallCenterGetAgentSupervisorListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6246","type":"sequence"}]
  */
 class UserCallCenterGetAgentSupervisorListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +20,7 @@ class UserCallCenterGetAgentSupervisorListResponse extends \CWM\BroadWorksConnec
     /**
      * @ElementName supervisorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6246
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $supervisorTable = null;

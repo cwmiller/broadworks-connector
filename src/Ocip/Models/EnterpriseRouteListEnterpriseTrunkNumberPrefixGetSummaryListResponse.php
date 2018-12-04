@@ -6,20 +6,16 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse
  *
  * Response to EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest.
- *         The response contains a table with columns: "Number Prefix", "Group Id",
- * "User Id", 
- *         "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
- * "Phone Number", "Extension", "Department", 
+ *         The response contains a table with columns: "Number Prefix", "Group Id", "User Id", 
+ *         "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number", "Extension", "Department", 
  *         "Email Address", "Enterprise Trunk" and "Is Active".
- *         The "User Id", "Last Name", "First Name", "Hiragana Last Name",
- * "Hiragana First Name", "Phone Number", 
- *         "Extension", "Department" and "Email Address" columns contains the
- * corresponding attributes of the user possessing the number range. 
- *         The "Enterprise Trunk" column contains the enterprise trunk the user
- * possessing the number range belongs to. 
+ *         The "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number", 
+ *         "Extension", "Department" and "Email Address" columns contains the corresponding attributes of the user possessing the number range. 
+ *         The "Enterprise Trunk" column contains the enterprise trunk the user possessing the number range belongs to. 
  *         The "Is Active" column indicates if the number range has been activated.
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListRequest
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:124","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,6 +23,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetSummaryListResponse exten
     /**
      * @ElementName prefixSummaryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:124
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $prefixSummaryTable = null;

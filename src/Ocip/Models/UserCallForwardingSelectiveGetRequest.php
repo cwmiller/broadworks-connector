@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingSelectiveGetRequest
  *
  * Get the user's call forwarding selective service setting.        
- *          The response is either a UserCallForwardingSelectiveGetResponse or an
- * ErrorResponse.
+ *          The response is either a UserCallForwardingSelectiveGetResponse or an ErrorResponse.
  *
  * @see UserCallForwardingSelectiveGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:32972","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserCallForwardingSelectiveGetRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:32972
      * @var string|null
      */
     private $userId = null;

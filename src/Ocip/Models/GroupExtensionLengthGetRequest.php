@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupExtensionLengthGetRequest
  *
  * Request the group's extension length.
- *         The response is either a GroupExtensionLengthGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupExtensionLengthGetResponse or an ErrorResponse.
  *
  * @see GroupExtensionLengthGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:8111","type":"sequence"}]
  */
 class GroupExtensionLengthGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupExtensionLengthGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8111
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupExtensionLengthGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:8111
      * @var string|null
      */
     private $groupId = null;

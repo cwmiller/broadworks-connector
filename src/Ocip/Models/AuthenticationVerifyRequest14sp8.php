@@ -5,10 +5,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AuthenticationVerifyRequest14sp8
  *
- * AuthenticationVerifyRequest14sp8 is used to authenticate a user either by
- * userId/password, userId/sip username/sip password,
- *         dn/passcode or a token previously authorized with the
- * ExternalAuthenticationAuthorizeTokenRequest. 
+ * AuthenticationVerifyRequest14sp8 is used to authenticate a user either by userId/password, userId/sip username/sip password,
+ *         dn/passcode or a token previously authorized with the ExternalAuthenticationAuthorizeTokenRequest. 
  *         The phone number may be any DN associated with a user.
  *           
  *         The response is a AuthenticationVerifyResponse14sp8 or an ErrorResponse
@@ -20,6 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see AuthenticationVerifyResponse14sp8
  * @see ErrorResponse
  * @see AuthenticationVerifyRequest22
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:235","type":"choice","children":[{"id":"e9727a9f98db3fe2db7ad08079031b73:236","type":"sequence"},{"id":"e9727a9f98db3fe2db7ad08079031b73:240","type":"sequence"},{"id":"e9727a9f98db3fe2db7ad08079031b73:244","type":"sequence"},{"id":"e9727a9f98db3fe2db7ad08079031b73:247","type":"sequence"}]}]
  */
 class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,6 +26,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:247
      * @var string|null
      */
     private $userId = null;
@@ -34,6 +34,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName password
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:236
      * @var string|null
      */
     private $password = null;
@@ -41,6 +42,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:240
      * @var string|null
      */
     private $phoneNumber = null;
@@ -48,6 +50,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName passcode
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:240
      * @var string|null
      */
     private $passcode = null;
@@ -55,6 +58,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName loginToken
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:244
      * @var string|null
      */
     private $loginToken = null;
@@ -62,6 +66,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName sipAuthenticationUserName
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:247
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -69,6 +74,7 @@ class AuthenticationVerifyRequest14sp8 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName sipAuthenticationPassword
      * @Type string
+     * @Group e9727a9f98db3fe2db7ad08079031b73:247
      * @var string|null
      */
     private $sipAuthenticationPassword = null;

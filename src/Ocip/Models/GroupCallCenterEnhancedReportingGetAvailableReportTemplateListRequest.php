@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest
  *
  * Request to get all enabled call center report template for a group.
- *         The response is either a
- * GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse or an
- * ErrorResponse.
+ *         The response is either a GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse or an ErrorResponse.
  *
  * @see GroupCallCenterEnhancedReportingGetAvailableReportTemplateListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:2986","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest exte
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2986
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupCallCenterEnhancedReportingGetAvailableReportTemplateListRequest exte
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:2986
      * @var string|null
      */
     private $groupId = null;

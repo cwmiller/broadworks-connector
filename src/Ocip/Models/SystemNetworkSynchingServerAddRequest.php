@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11141","type":"sequence"}]
  */
 class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName netAddress
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11141
      * @var string|null
      */
     private $netAddress = null;
@@ -24,6 +26,8 @@ class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName port
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11141
      * @var int|null
      */
     private $port = null;
@@ -31,6 +35,8 @@ class SystemNetworkSynchingServerAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11141
      * @var string|null
      */
     private $description = null;

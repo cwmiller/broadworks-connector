@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse
  *
  * Response to the ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest.
- *         Replaced By:
- * ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16
+ *         Replaced By: ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16
  *
  * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingRequest
  * @see ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:16779","type":"sequence"}]
  */
 class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
     /**
      * @ElementName voicePortalGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16779
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voicePortalGreetingSelection = null;
@@ -25,6 +26,8 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
     /**
      * @ElementName voicePortalGreetingFileDescription
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16779
      * @var string|null
      */
     private $voicePortalGreetingFileDescription = null;
@@ -32,6 +35,7 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
     /**
      * @ElementName voiceMessagingGreetingSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16779
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingBrandingSelection|null
      */
     private $voiceMessagingGreetingSelection = null;
@@ -39,6 +43,8 @@ class ServiceProviderVoiceMessagingGroupGetVoicePortalBrandingResponse extends \
     /**
      * @ElementName voiceMessagingGreetingFileDescription
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16779
      * @var string|null
      */
     private $voiceMessagingGreetingFileDescription = null;

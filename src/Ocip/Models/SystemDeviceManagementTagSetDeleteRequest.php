@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6969","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemDeviceManagementTagSetDeleteRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName tagSetName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6969
      * @var string|null
      */
     private $tagSetName = null;

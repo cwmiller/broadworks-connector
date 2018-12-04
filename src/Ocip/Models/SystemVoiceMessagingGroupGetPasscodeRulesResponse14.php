@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemVoiceMessagingGroupGetPasscodeRulesRequest14
  * @see SystemPortalPasscodeRulesGetResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28998","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName disallowRepeatedDigits
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var bool|null
      */
     private $disallowRepeatedDigits = null;
@@ -25,6 +27,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName disallowUserNumber
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var bool|null
      */
     private $disallowUserNumber = null;
@@ -32,6 +35,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName disallowReversedUserNumber
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var bool|null
      */
     private $disallowReversedUserNumber = null;
@@ -39,6 +43,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName disallowOldPasscode
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var bool|null
      */
     private $disallowOldPasscode = null;
@@ -46,6 +51,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName disallowReversedOldPasscode
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var bool|null
      */
     private $disallowReversedOldPasscode = null;
@@ -53,6 +59,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName minCodeLength
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var int|null
      */
     private $minCodeLength = null;
@@ -60,6 +67,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName maxCodeLength
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var int|null
      */
     private $maxCodeLength = null;
@@ -67,6 +75,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName disableLoginAfterMaxFailedLoginAttempts
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var bool|null
      */
     private $disableLoginAfterMaxFailedLoginAttempts = null;
@@ -74,6 +83,8 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -81,6 +92,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName expirePassword
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var bool|null
      */
     private $expirePassword = null;
@@ -88,6 +100,8 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName passcodeExpiresDays
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var int|null
      */
     private $passcodeExpiresDays = null;
@@ -95,6 +109,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName sendLoginDisabledNotifyEmail
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var bool|null
      */
     private $sendLoginDisabledNotifyEmail = null;
@@ -102,6 +117,8 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName loginDisabledNotifyEmailAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var string|null
      */
     private $loginDisabledNotifyEmailAddress = null;
@@ -109,6 +126,7 @@ class SystemVoiceMessagingGroupGetPasscodeRulesResponse14 extends \CWM\BroadWork
     /**
      * @ElementName defaultPassword
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28998
      * @var string|null
      */
     private $defaultPassword = null;

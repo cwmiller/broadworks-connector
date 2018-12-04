@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"579a0a0fbfa9c619aa147d6b41841eff:159","type":"sequence"}]
  */
 class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:159
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,7 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:159
      * @var string|null
      */
     private $criteriaName = null;
@@ -31,6 +34,8 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName newCriteriaName
      * @Type string
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:159
      * @var string|null
      */
     private $newCriteriaName = null;
@@ -39,6 +44,8 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:159
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
@@ -46,6 +53,8 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:159
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDnModify|null
      */
     private $fromDnCriteria = null;
@@ -54,6 +63,8 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:159
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -61,6 +72,8 @@ class UserSequentialRingModifyCriteriaRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Optional
+     * @Group 579a0a0fbfa9c619aa147d6b41841eff:159
      * @var bool|null
      */
     private $blacklisted = null;

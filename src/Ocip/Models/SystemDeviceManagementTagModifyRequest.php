@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a static configuration tag.
  *         
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           tagValueToEncrypt
  *
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6922","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:6923","type":"choice"},{"id":"610f84d3e188f0477c3ae1a82ee036da:6928","type":"choice"}]}]
  */
 class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +22,7 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName systemDefaultTagSet
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6923
      * @var bool|null
      */
     private $systemDefaultTagSet = null;
@@ -29,6 +30,7 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName tagSetName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6923
      * @var string|null
      */
     private $tagSetName = null;
@@ -36,6 +38,7 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName tagName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6922
      * @var string|null
      */
     private $tagName = null;
@@ -44,6 +47,8 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName tagValue
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6928
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValue = null;
@@ -52,6 +57,8 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName tagValueToEncrypt
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6928
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValueToEncrypt = null;
@@ -59,6 +66,8 @@ class SystemDeviceManagementTagModifyRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName isTagValueOverridable
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6922
      * @var bool|null
      */
     private $isTagValueOverridable = null;

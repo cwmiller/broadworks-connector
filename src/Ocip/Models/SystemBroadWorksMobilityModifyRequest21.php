@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:870","type":"sequence"}]
  */
 class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableLocationServices
      * @Type bool
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:870
      * @var bool|null
      */
     private $enableLocationServices = null;
@@ -24,6 +27,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableMSRNLookup
      * @Type bool
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:870
      * @var bool|null
      */
     private $enableMSRNLookup = null;
@@ -31,6 +36,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableMobileStateChecking
      * @Type bool
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:870
      * @var bool|null
      */
     private $enableMobileStateChecking = null;
@@ -38,6 +45,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName denyCallOriginations
      * @Type bool
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:870
      * @var bool|null
      */
     private $denyCallOriginations = null;
@@ -45,6 +54,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName denyCallTerminations
      * @Type bool
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:870
      * @var bool|null
      */
     private $denyCallTerminations = null;
@@ -52,6 +63,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName imrnTimeoutMilliseconds
      * @Type int
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:870
      * @var int|null
      */
     private $imrnTimeoutMilliseconds = null;
@@ -59,6 +72,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName enableInternalCLIDDelivery
      * @Type bool
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:870
      * @var bool|null
      */
     private $enableInternalCLIDDelivery = null;
@@ -66,6 +81,8 @@ class SystemBroadWorksMobilityModifyRequest21 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName includeRedirectForMobilityTermination
      * @Type bool
+     * @Optional
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:870
      * @var bool|null
      */
     private $includeRedirectForMobilityTermination = null;

@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserAutomaticCallbackGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"531ef68c70e2768c02c1d0afcfe979ab:167","type":"sequence"}]
  */
 class UserAutomaticCallbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserAutomaticCallbackGetRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
+     * @Group 531ef68c70e2768c02c1d0afcfe979ab:167
      * @var string|null
      */
     private $userId = null;

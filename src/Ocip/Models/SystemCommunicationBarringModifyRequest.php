@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCommunicationBarringModifyRequest
  *
  * Modify the system level data associated with Communication Barring.
- *         The following elements are only used in AS data mode and ignored in XS
- * data mode:
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
  *          vmCallbackScreening
  *         
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5479","type":"sequence"}]
  */
 class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,8 @@ class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName directTransferScreening
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5479
      * @var bool|null
      */
     private $directTransferScreening = null;
@@ -28,6 +30,8 @@ class SystemCommunicationBarringModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName vmCallbackScreening
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5479
      * @var bool|null
      */
     private $vmCallbackScreening = null;

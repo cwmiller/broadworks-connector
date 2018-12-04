@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemNumberPortabilityQueryDigitPatternGetRequest
  *
  * Request to get a System Number Portability Status Digit Pattern mapping.
- *         The response is either a
- * SystemNumberPortabilityQueryDigitPatternGetResponse or an ErrorResponse.
+ *         The response is either a SystemNumberPortabilityQueryDigitPatternGetResponse or an ErrorResponse.
  *
  * @see SystemNumberPortabilityQueryDigitPatternGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11354","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryDigitPatternGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemNumberPortabilityQueryDigitPatternGetRequest extends \CWM\BroadWorks
     /**
      * @ElementName digitPattern
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11354
      * @var string|null
      */
     private $digitPattern = null;

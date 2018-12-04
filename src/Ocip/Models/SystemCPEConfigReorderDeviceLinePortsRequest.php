@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemCPEConfigReorderDeviceLinePortsRequest
  *
  * Reorder the lines of a System device. You can not add or delete line ports, only
- *         re-ordering the list is allowed. The ordered list of line ports can be
- * obtained
+ *         re-ordering the list is allowed. The ordered list of line ports can be obtained
  *         with the SystemAccessDeviceGetRequest16 command.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SystemAccessDeviceGetRequest16
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6412","type":"sequence"}]
  */
 class SystemCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class SystemCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6412
      * @var string|null
      */
     private $deviceName = null;
@@ -29,6 +30,7 @@ class SystemCPEConfigReorderDeviceLinePortsRequest extends \CWM\BroadWorksConnec
      * @ElementName orderedLinePortList
      * @Type string
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6412
      * @var string[]
      */
     private $orderedLinePortList = array(

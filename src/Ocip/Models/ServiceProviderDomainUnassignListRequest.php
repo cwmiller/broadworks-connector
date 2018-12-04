@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3271","type":"sequence"}]
  */
 class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3271
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,7 @@ class ServiceProviderDomainUnassignListRequest extends \CWM\BroadWorksConnector\
      * @ElementName domain
      * @Type string
      * @Array
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3271
      * @var string[]
      */
     private $domain = array(

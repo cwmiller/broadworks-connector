@@ -5,16 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AccessDeviceMultipleIdentityAndContactEndpointModify
  *
- * Access device end point used in the context of modify that can have more than
- * one contact defined.
- *         The endpoint is identified by its linePort (public Identity) and
- * possibly a private Identity.
- *         Only Static Registration capabable devices may have more than one
- * contact defined.
+ * Access device end point used in the context of modify that can have more than one contact defined.
+ *         The endpoint is identified by its linePort (public Identity) and possibly a private Identity.
+ *         Only Static Registration capabable devices may have more than one contact defined.
  *         Port numbers are only used by devices with static line ordering.
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           privateIdentity
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:201","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointModify
 {
@@ -22,6 +20,8 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -29,6 +29,8 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
     /**
      * @ElementName linePort
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:201
      * @var string|null
      */
     private $linePort = null;
@@ -37,6 +39,8 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @ElementName privateIdentity
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:201
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateIdentity = null;
@@ -45,6 +49,8 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
      * @ElementName contactList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList
      * @Nillable
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:201
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementContactList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $contactList = null;
@@ -52,6 +58,8 @@ class AccessDeviceMultipleIdentityAndContactEndpointModify
     /**
      * @ElementName portNumber
      * @Type int
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:201
      * @var int|null
      */
     private $portNumber = null;

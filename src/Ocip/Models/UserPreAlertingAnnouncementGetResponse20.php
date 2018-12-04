@@ -6,28 +6,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPreAlertingAnnouncementGetResponse20
  *
  * Response to a UserPreAlertingAnnouncementGetRequest20.
- *          The criteria table's column headings are: "Is Active", "Criteria Name",
- * "Blacklisted", "Calls From", "Calls To Type", "Calls To Number" and "Calls To
- * Extension".
- *        The possible values for the "Calls To Type" column are the following or a
- * combination of them separated by comma:
+ *          The criteria table's column headings are: "Is Active", "Criteria Name", "Blacklisted", "Calls From", "Calls To Type", "Calls To Number" and "Calls To Extension".
+ *        The possible values for the "Calls To Type" column are the following or a combination of them separated by comma:
  *           - Primary
  *           - Alternate X (where x is a number between 1 and 10)
  *           - Mobility        
- *         The possible values for the "Calls To Number" column are the following
- * or a combination of them separated by comma:
- *           - The value of the phone number for the corresponding Calls To Type,
- * when the number is available. i.e. Alternate 1 may have extension, but no
- * number.
+ *         The possible values for the "Calls To Number" column are the following or a combination of them separated by comma:
+ *           - The value of the phone number for the corresponding Calls To Type, when the number is available. i.e. Alternate 1 may have extension, but no number.
  *           - When no number is available a blank space is provided instead.
- *         The possible values for the "Calls To Extension" column are the
- * following or a combination of them separated by comma:
- *           - The value of the extension for the corresponding Calls To Type, when
- * the extension is available. i.e. Primary may have number, but no extension.
+ *         The possible values for the "Calls To Extension" column are the following or a combination of them separated by comma:
+ *           - The value of the extension for the corresponding Calls To Type, when the extension is available. i.e. Primary may have number, but no extension.
  *           - For Mobility Calls To Type, this is always blank.
  *           - When no extension is available a blank space is provided instead.
  *
  * @see UserPreAlertingAnnouncementGetRequest20
+ * @Groups [{"id":"05c6a69cc12c52fede8d3d09ca9155dc:282","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -35,6 +28,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:282
      * @var bool|null
      */
     private $isActive = null;
@@ -42,6 +36,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName audioSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioSelection = null;
@@ -49,6 +44,8 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName audioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $audioFile = null;
@@ -56,6 +53,8 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName audioFileUrl
      * @Type string
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:282
      * @var string|null
      */
     private $audioFileUrl = null;
@@ -63,6 +62,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName videoSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoSelection = null;
@@ -70,6 +70,8 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName videoFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $videoFile = null;
@@ -77,6 +79,8 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName videoFileUrl
      * @Type string
+     * @Optional
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:282
      * @var string|null
      */
     private $videoFileUrl = null;
@@ -84,6 +88,7 @@ class UserPreAlertingAnnouncementGetResponse20 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 05c6a69cc12c52fede8d3d09ca9155dc:282
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

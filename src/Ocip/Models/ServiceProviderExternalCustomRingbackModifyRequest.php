@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"fe688087ec2e31030f7ebdcdf92555d1:80","type":"sequence"}]
  */
 class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:80
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,8 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @ElementName prefixDigits
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $prefixDigits = null;
@@ -33,6 +37,8 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @ElementName serverNetAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:80
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverNetAddress = null;
@@ -41,6 +47,8 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
      * @ElementName serverPort
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:80
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverPort = null;
@@ -48,6 +56,8 @@ class ServiceProviderExternalCustomRingbackModifyRequest extends \CWM\BroadWorks
     /**
      * @ElementName timeoutSeconds
      * @Type int
+     * @Optional
+     * @Group fe688087ec2e31030f7ebdcdf92555d1:80
      * @var int|null
      */
     private $timeoutSeconds = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:569","type":"sequence"}]
  */
 class SystemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest extends \CWM\Br
     /**
      * @ElementName mobileNetworkName
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:569
      * @var string|null
      */
     private $mobileNetworkName = null;
@@ -25,6 +27,7 @@ class SystemBroadWorksMobilityDeleteMobileNetworkIMRNListRequest extends \CWM\Br
      * @ElementName imrnNumber
      * @Type string
      * @Array
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:569
      * @var string[]
      */
     private $imrnNumber = array(

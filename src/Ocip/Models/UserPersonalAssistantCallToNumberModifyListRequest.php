@@ -8,11 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify the user assigned Call to Number List information.
  *         The response is either a SuccessResponse or an ErrorResponse. 
  *         For the callToNumbers in the callToNumberList, the extension element 
- *         is not used and the number element is only used when the type is
- * BroadWorks Mobility.
+ *         is not used and the number element is only used when the type is BroadWorks Mobility.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c6760dd4e8dfb4aeba3a11bfab1c6524:162","type":"sequence"}]
  */
 class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
     /**
      * @ElementName userId
      * @Type string
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:162
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +29,8 @@ class UserPersonalAssistantCallToNumberModifyListRequest extends \CWM\BroadWorks
      * @ElementName callToNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList
      * @Nillable
+     * @Optional
+     * @Group c6760dd4e8dfb4aeba3a11bfab1c6524:162
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementCallToNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callToNumberList = null;

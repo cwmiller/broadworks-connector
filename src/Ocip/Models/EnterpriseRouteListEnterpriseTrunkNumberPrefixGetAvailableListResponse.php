@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse
  *
- * Response to
- * EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest.
- *         Contains a list of number prefixes that are assigned to an enterprise
- * and still available for assignment to users within the enterprise.
+ * Response to EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest.
+ *         Contains a list of number prefixes that are assigned to an enterprise and still available for assignment to users within the enterprise.
  *         The column headings are "Number Prefix" and "Is Active".
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListRequest
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:86","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberPrefixGetAvailableListResponse ext
     /**
      * @ElementName availableNumberPrefixTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:86
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $availableNumberPrefixTable = null;

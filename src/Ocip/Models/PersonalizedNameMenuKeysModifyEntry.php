@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PersonalizedNameMenuKeysModifyEntry
  *
  * The voice portal personalized name menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2751","type":"sequence"}]
  */
 class PersonalizedNameMenuKeysModifyEntry
 {
@@ -14,6 +16,8 @@ class PersonalizedNameMenuKeysModifyEntry
      * @ElementName recordNewPersonalizedName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2751
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordNewPersonalizedName = null;
@@ -22,6 +26,8 @@ class PersonalizedNameMenuKeysModifyEntry
      * @ElementName listenToCurrentPersonalizedName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2751
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentPersonalizedName = null;
@@ -30,6 +36,8 @@ class PersonalizedNameMenuKeysModifyEntry
      * @ElementName deletePersonalizedName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2751
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deletePersonalizedName = null;
@@ -37,6 +45,8 @@ class PersonalizedNameMenuKeysModifyEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2751
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -45,6 +55,8 @@ class PersonalizedNameMenuKeysModifyEntry
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2751
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

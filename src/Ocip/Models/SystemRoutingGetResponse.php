@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemRoutingGetRequest.
  *
  * @see SystemRoutingGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13479","type":"sequence"}]
  */
 class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName isRouteRoundRobin
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13479
      * @var bool|null
      */
     private $isRouteRoundRobin = null;
@@ -22,6 +24,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName routeTimerSeconds
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13479
      * @var int|null
      */
     private $routeTimerSeconds = null;
@@ -29,6 +32,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName dnsResolvedAddressSelectionPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13479
      * @var \CWM\BroadWorksConnector\Ocip\Models\RoutingDNSResolvedAddressSelectionPolicy|null
      */
     private $dnsResolvedAddressSelectionPolicy = null;
@@ -36,6 +40,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName statefulExpirationMinutes
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13479
      * @var int|null
      */
     private $statefulExpirationMinutes = null;
@@ -43,6 +48,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName maxAddressesPerHostname
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13479
      * @var int|null
      */
     private $maxAddressesPerHostname = null;
@@ -50,6 +56,7 @@ class SystemRoutingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName maxAddressesDuringSetup
      * @Type int
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13479
      * @var int|null
      */
     private $maxAddressesDuringSetup = null;

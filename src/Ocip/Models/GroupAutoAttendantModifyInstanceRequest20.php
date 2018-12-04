@@ -17,6 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"991f3e2b8774e7414716848f9b5935fc:345","type":"sequence"}]
  */
 class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +25,7 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var string|null
      */
     private $serviceUserId = null;
@@ -31,6 +33,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -38,6 +42,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName firstDigitTimeoutSeconds
      * @Type int
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var int|null
      */
     private $firstDigitTimeoutSeconds = null;
@@ -45,6 +51,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName enableVideo
      * @Type bool
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var bool|null
      */
     private $enableVideo = null;
@@ -53,6 +61,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
      * @ElementName businessHours
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $businessHours = null;
@@ -61,6 +71,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
      * @Nillable
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -68,6 +80,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName extensionDialingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     private $extensionDialingScope = null;
@@ -75,6 +89,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName nameDialingScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantDialingScope|null
      */
     private $nameDialingScope = null;
@@ -82,6 +98,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName nameDialingEntries
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantNameDialingEntry|null
      */
     private $nameDialingEntries = null;
@@ -89,6 +107,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName businessHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20|null
      */
     private $businessHoursMenu = null;
@@ -96,6 +116,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName afterHoursMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20|null
      */
     private $afterHoursMenu = null;
@@ -103,6 +125,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName holidayMenu
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var \CWM\BroadWorksConnector\Ocip\Models\AutoAttendantModifyMenu20|null
      */
     private $holidayMenu = null;
@@ -110,6 +134,8 @@ class GroupAutoAttendantModifyInstanceRequest20 extends \CWM\BroadWorksConnector
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 991f3e2b8774e7414716848f9b5935fc:345
      * @var string|null
      */
     private $networkClassOfService = null;

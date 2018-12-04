@@ -7,29 +7,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupFindMeFollowMeGetAlertingGroupRequest.
  *         Contains the alerting group information.
- * 	      The user table’s column headings are: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name" and "Hiragana First Name", "Phone Number",
- * "Extension", "Department", "Email Address".
- *         The criteria table's column headings are: "Is Active", "Criteria Name",
- * "Time Schedule", "Calls From", "Blacklisted", "Holiday Schedule"", "Calls To
- * Type", "Calls To Number" and "Calls To Extension".
- *         The possible values for the "Calls To Type" column are the following or
- * a combination of them separated by comma:
+ * 	      The user table’s column headings are: "User Id", "Last Name", "First Name", "Hiragana Last Name" and "Hiragana First Name", "Phone Number", "Extension", "Department", "Email Address".
+ *         The criteria table's column headings are: "Is Active", "Criteria Name", "Time Schedule", "Calls From", "Blacklisted", "Holiday Schedule"", "Calls To Type", "Calls To Number" and "Calls To Extension".
+ *         The possible values for the "Calls To Type" column are the following or a combination of them separated by comma:
  *           - Primary
  *           - Alternate X (where x is a number between 1 and 10)
- *           The possible values for the "Calls To Number" column are the following
- * or a combination of them separated by comma:
- *           - The value of the phone number for the corresponding Calls To Type,
- * when the number is available. i.e. Alternate 1 may have extension, but no
- * number.
+ *           The possible values for the "Calls To Number" column are the following or a combination of them separated by comma:
+ *           - The value of the phone number for the corresponding Calls To Type, when the number is available. i.e. Alternate 1 may have extension, but no number.
  *           - When no number is available a blank space is provided instead.
- *         The possible values for the "Calls To Extension" column are the
- * following or a combination of them separated by comma:
- *           - The value of the extension for the corresponding Calls To Type, when
- * the extension is available. i.e. Primary may have number, but no extension.
+ *         The possible values for the "Calls To Extension" column are the following or a combination of them separated by comma:
+ *           - The value of the extension for the corresponding Calls To Type, when the extension is available. i.e. Primary may have number, but no extension.
  *           - When no extension is available a blank space is provided instead.
  *
  * @see GroupFindMeFollowMeGetAlertingGroupRequest
+ * @Groups [{"id":"d0d5b8a5908815c6ae522efe732e363a:281","type":"sequence"}]
  */
 class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -37,6 +28,8 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName alertingGroupDescription
      * @Type string
+     * @Optional
+     * @Group d0d5b8a5908815c6ae522efe732e363a:281
      * @var string|null
      */
     private $alertingGroupDescription = null;
@@ -44,6 +37,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName useDiversionInhibitor
      * @Type bool
+     * @Group d0d5b8a5908815c6ae522efe732e363a:281
      * @var bool|null
      */
     private $useDiversionInhibitor = null;
@@ -51,6 +45,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
+     * @Group d0d5b8a5908815c6ae522efe732e363a:281
      * @var bool|null
      */
     private $answerConfirmationRequired = null;
@@ -58,6 +53,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName numberOfRings
      * @Type int
+     * @Group d0d5b8a5908815c6ae522efe732e363a:281
      * @var int|null
      */
     private $numberOfRings = null;
@@ -66,6 +62,8 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group d0d5b8a5908815c6ae522efe732e363a:281
      * @var string[]
      */
     private $phoneNumber = array(
@@ -75,6 +73,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group d0d5b8a5908815c6ae522efe732e363a:281
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;
@@ -82,6 +81,7 @@ class GroupFindMeFollowMeGetAlertingGroupResponse extends \CWM\BroadWorksConnect
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group d0d5b8a5908815c6ae522efe732e363a:281
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

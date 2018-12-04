@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDiversionReasonGetResponse
  *
  * Response to SystemSIPDiversionReasonGetRequest.
- *         Contains a table containing a list of diversion reasons and associated
- * cause values.
+ *         Contains a table containing a list of diversion reasons and associated cause values.
  *         The column headings are: "Diversion Reaon", "Cause Value".
  *
  * @see SystemSIPDiversionReasonGetRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15449","type":"sequence"}]
  */
 class SystemSIPDiversionReasonGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class SystemSIPDiversionReasonGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName diversionReasonTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15449
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $diversionReasonTable = null;

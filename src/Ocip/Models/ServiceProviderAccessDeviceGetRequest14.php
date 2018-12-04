@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAccessDeviceGetRequest14
  *
  * Requests the configuration of a specified service provider access device.
- *         The response is either ServiceProviderAccessDeviceGetResponse14 or
- * ErrorResponse.
+ *         The response is either ServiceProviderAccessDeviceGetResponse14 or ErrorResponse.
  *         Replaced By: ServiceProviderAccessDeviceGetRequest14sp3
  *
  * @see ServiceProviderAccessDeviceGetResponse14
  * @see ErrorResponse
  * @see ServiceProviderAccessDeviceGetRequest14sp3
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14608","type":"sequence"}]
  */
 class ServiceProviderAccessDeviceGetRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class ServiceProviderAccessDeviceGetRequest14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14608
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class ServiceProviderAccessDeviceGetRequest14 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14608
      * @var string|null
      */
     private $deviceName = null;

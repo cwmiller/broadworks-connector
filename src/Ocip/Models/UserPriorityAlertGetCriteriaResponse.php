@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserPriorityAlertGetCriteriaRequest.
  *
  * @see UserPriorityAlertGetCriteriaRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:36668","type":"sequence"}]
  */
 class UserPriorityAlertGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class UserPriorityAlertGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36668
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -22,6 +25,7 @@ class UserPriorityAlertGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn
+     * @Group 1a79c7896cb04feac6eff47a5321756e:36668
      * @var \CWM\BroadWorksConnector\Ocip\Models\PriorityAlertCriteriaFromDn|null
      */
     private $fromDnCriteria = null;

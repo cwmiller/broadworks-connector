@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemShInterfaceParametersModifyRequest17
  *
- * Modifies the Sh Interface system parameters.  This request must be submitted on
- * both nodes in the redundant Application Server cluster in order for the changes
- * to take effect on each node without requiring a restart.
+ * Modifies the Sh Interface system parameters.  This request must be submitted on both nodes in the redundant Application Server cluster in order for the changes to take effect on each node without requiring a restart.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14416","type":"sequence"}]
  */
 class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,8 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
      * @ElementName hssRealm
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14416
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hssRealm = null;
@@ -27,6 +28,8 @@ class SystemShInterfaceParametersModifyRequest17 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName publicIdentityRefreshDelaySeconds
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14416
      * @var int|null
      */
     private $publicIdentityRefreshDelaySeconds = null;

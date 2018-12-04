@@ -6,22 +6,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeGetListRequest
  *
  * Request to get the list of sip device types in the system.  
- *         If includeSystemLevel is specified, all system level device types and
- * the reseller device types matching search criteria 
+ *         If includeSystemLevel is specified, all system level device types and the reseller device types matching search criteria 
  *         are returned even when searchCriteriaResellerId is specified.        
- *         If reseller administrator sends the request, searchCriteriaResellerId is
- * ignored. All system level device 
- *         types and the device types in the administrator's reseller meeting the
- * search criteria are returned.
- *         See Also: SystemDeviceTypeGetAvailableListRequest22 in AS data mode,
- * SystemDeviceTypeGetAvailableListRequest19 in XS data mode.
- *         The response is either SystemSIPDeviceTypeGetListResponse or
- * ErrorResponse.
+ *         If reseller administrator sends the request, searchCriteriaResellerId is ignored. All system level device 
+ *         types and the device types in the administrator's reseller meeting the search criteria are returned.
+ *         See Also: SystemDeviceTypeGetAvailableListRequest22 in AS data mode, SystemDeviceTypeGetAvailableListRequest19 in XS data mode.
+ *         The response is either SystemSIPDeviceTypeGetListResponse or ErrorResponse.
  *
  * @see SystemDeviceTypeGetAvailableListRequest22
  * @see SystemDeviceTypeGetAvailableListRequest19
  * @see SystemSIPDeviceTypeGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15102","type":"sequence"}]
  */
 class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,6 +25,8 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,6 +35,8 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName searchCriteriaDeviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDeviceType[]
      */
     private $searchCriteriaDeviceType = array(
@@ -46,6 +46,8 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName searchCriteriaExactSignalingAddressType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactSignalingAddressType|null
      */
     private $searchCriteriaExactSignalingAddressType = null;
@@ -54,6 +56,8 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName searchCriteriaResellerId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaResellerId[]
      */
     private $searchCriteriaResellerId = array(
@@ -63,6 +67,8 @@ class SystemSIPDeviceTypeGetListRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName includeSystemLevel
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15102
      * @var bool|null
      */
     private $includeSystemLevel = null;

@@ -5,21 +5,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderPreferredCarrierModifyRequest
  *
- * Modify the country code preferred carriers for a service provider or enterprise.
- * For each
- *         combination of service provider and country code, you can assign an
- * intra-lata, inter-lata,
+ * Modify the country code preferred carriers for a service provider or enterprise. For each
+ *         combination of service provider and country code, you can assign an intra-lata, inter-lata,
  *         and international carrier. Each of the 3 types of carriers is optional.
  *         If an optional carrier is not specified, the assignment will not change.
  *         To clear a preferred carrier, set the value to an empty string.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         Note: At the system level, more than one carrier may be assigned to each
- * country code.
- *         At the service provider level, you must choose from the carriers
- * assigned at the system level.
+ *         Note: At the system level, more than one carrier may be assigned to each country code.
+ *         At the service provider level, you must choose from the carriers assigned at the system level.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1384777ce7bd407156102bad44751987:299","type":"sequence"}]
  */
 class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,6 +24,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1384777ce7bd407156102bad44751987:299
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -34,6 +32,7 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName countryCode
      * @Type string
+     * @Group 1384777ce7bd407156102bad44751987:299
      * @var string|null
      */
     private $countryCode = null;
@@ -42,6 +41,8 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName intraLataCarrier
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:299
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $intraLataCarrier = null;
@@ -50,6 +51,8 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName interLataCarrier
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:299
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $interLataCarrier = null;
@@ -58,6 +61,8 @@ class ServiceProviderPreferredCarrierModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName internationalCarrier
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1384777ce7bd407156102bad44751987:299
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $internationalCarrier = null;

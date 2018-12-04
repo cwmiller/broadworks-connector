@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserRemoteOfficeGetRequest
  *
  * Request the user level data associated with Remote Office.
- *         The response is either a UserRemoteOfficeGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserRemoteOfficeGetResponse or an ErrorResponse.
  *
  * @see UserRemoteOfficeGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"9a0df5ea0fb65033f8d0568fd6c7ce2b:41","type":"sequence"}]
  */
 class UserRemoteOfficeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserRemoteOfficeGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 9a0df5ea0fb65033f8d0568fd6c7ce2b:41
      * @var string|null
      */
     private $userId = null;

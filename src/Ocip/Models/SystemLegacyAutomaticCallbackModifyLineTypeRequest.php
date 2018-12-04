@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"a7cf2420de189d76c278c486b4b2b0c3:119","type":"sequence"}]
  */
 class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
     /**
      * @ElementName lineType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineType
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:119
      * @var \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineType|null
      */
     private $lineType = null;
@@ -24,6 +26,8 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
     /**
      * @ElementName matchAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:119
      * @var \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null
      */
     private $matchAction = null;
@@ -31,6 +35,8 @@ class SystemLegacyAutomaticCallbackModifyLineTypeRequest extends \CWM\BroadWorks
     /**
      * @ElementName noMatchAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction
+     * @Optional
+     * @Group a7cf2420de189d76c278c486b4b2b0c3:119
      * @var \CWM\BroadWorksConnector\Ocip\Models\LegacyAutomaticCallbackLineMatchAction|null
      */
     private $noMatchAction = null;

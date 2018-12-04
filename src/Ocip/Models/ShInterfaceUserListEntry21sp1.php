@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ShInterfaceUserListEntry21sp1
  *
  * ShInterface User List Entry.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3460","type":"sequence"}]
  */
 class ShInterfaceUserListEntry21sp1
 {
@@ -13,6 +15,7 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName userId
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3460
      * @var string|null
      */
     private $userId = null;
@@ -20,6 +23,7 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3460
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
@@ -27,6 +31,7 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3460
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;
@@ -34,6 +39,7 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3460
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType21sp1|null
      */
     private $endpointType = null;
@@ -41,6 +47,8 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName SCSCFName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3460
      * @var string|null
      */
     private $SCSCFName = null;
@@ -48,6 +56,7 @@ class ShInterfaceUserListEntry21sp1
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3460
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;

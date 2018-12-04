@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMusicOnHoldGetDepartmentListRequest
  *
  * Returns a list of all departments that have a Music On Hold instance.
- *         The response is either GroupMusicOnHoldGetDepartmentListResponse or
- * ErrorResponse.
+ *         The response is either GroupMusicOnHoldGetDepartmentListResponse or ErrorResponse.
  *         It is possible to get the instances within a specified department.
  *
  * @see GroupMusicOnHoldGetDepartmentListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5f16cf9ee64e260667cb51201cb18cef:93","type":"sequence"}]
  */
 class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 5f16cf9ee64e260667cb51201cb18cef:93
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 5f16cf9ee64e260667cb51201cb18cef:93
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupMusicOnHoldGetDepartmentListRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupDepartmentName
      * @Type string
+     * @Optional
+     * @Group 5f16cf9ee64e260667cb51201cb18cef:93
      * @var string|null
      */
     private $groupDepartmentName = null;

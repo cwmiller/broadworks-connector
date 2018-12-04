@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ForwardOrComposeMessageMenuKeysModifyEntry
  *
  * The voice portal forward or compose message menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2533","type":"sequence"}]
  */
 class ForwardOrComposeMessageMenuKeysModifyEntry
 {
@@ -14,6 +16,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @ElementName sendToPerson
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2533
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToPerson = null;
@@ -22,6 +26,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @ElementName sendToAllGroupMembers
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2533
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToAllGroupMembers = null;
@@ -30,6 +36,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @ElementName sendToDistributionList
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2533
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sendToDistributionList = null;
@@ -38,6 +46,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @ElementName changeCurrentIntroductionOrMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2533
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $changeCurrentIntroductionOrMessage = null;
@@ -46,6 +56,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @ElementName listenToCurrentIntroductionOrMessage
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2533
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $listenToCurrentIntroductionOrMessage = null;
@@ -54,6 +66,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @ElementName setOrClearUrgentIndicator
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2533
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearUrgentIndicator = null;
@@ -62,6 +76,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2533
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $setOrClearConfidentialIndicator = null;
@@ -69,6 +85,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2533
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -77,6 +95,8 @@ class ForwardOrComposeMessageMenuKeysModifyEntry
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2533
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

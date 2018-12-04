@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CPEDeviceOptionsRead21sp1
  *
  * CPE device's options.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1455","type":"sequence"}]
  */
 class CPEDeviceOptionsRead21sp1
 {
@@ -13,6 +15,7 @@ class CPEDeviceOptionsRead21sp1
     /**
      * @ElementName enableMonitoring
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1455
      * @var bool|null
      */
     private $enableMonitoring = null;
@@ -20,6 +23,8 @@ class CPEDeviceOptionsRead21sp1
     /**
      * @ElementName configType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1455
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationType14|null
      */
     private $configType = null;
@@ -27,6 +32,8 @@ class CPEDeviceOptionsRead21sp1
     /**
      * @ElementName systemFileName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1455
      * @var string|null
      */
     private $systemFileName = null;
@@ -34,6 +41,8 @@ class CPEDeviceOptionsRead21sp1
     /**
      * @ElementName deviceFileFormat
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1455
      * @var string|null
      */
     private $deviceFileFormat = null;
@@ -41,6 +50,8 @@ class CPEDeviceOptionsRead21sp1
     /**
      * @ElementName deviceManagementDeviceTypeOptions
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead21sp1
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1455
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementDeviceTypeOptionsRead21sp1|null
      */
     private $deviceManagementDeviceTypeOptions = null;

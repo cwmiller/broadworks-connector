@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserAlternateNumbersGetRequest21.
  *
  * @see UserAlternateNumbersGetRequest21
+ * @Groups [{"id":"4b8a84ac73e6a880d87ab5dbc96cf192:56","type":"sequence"}]
  */
 class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName distinctiveRing
      * @Type bool
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var bool|null
      */
     private $distinctiveRing = null;
@@ -22,6 +24,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry01
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry01 = null;
@@ -29,6 +33,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry02
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry02 = null;
@@ -36,6 +42,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry03
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry03 = null;
@@ -43,6 +51,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry04
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry04 = null;
@@ -50,6 +60,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry05
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry05 = null;
@@ -57,6 +69,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry06
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry06 = null;
@@ -64,6 +78,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry07
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry07 = null;
@@ -71,6 +87,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry08
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry08 = null;
@@ -78,6 +96,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry09
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry09 = null;
@@ -85,6 +105,8 @@ class UserAlternateNumbersGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName alternateEntry10
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21
+     * @Optional
+     * @Group 4b8a84ac73e6a880d87ab5dbc96cf192:56
      * @var \CWM\BroadWorksConnector\Ocip\Models\AlternateNumberEntry21|null
      */
     private $alternateEntry10 = null;

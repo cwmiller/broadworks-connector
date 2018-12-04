@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3054","type":"sequence"}]
  */
 class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3054
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +27,8 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName accessCode
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3054
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $accessCode = null;
@@ -33,6 +37,8 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName publicDigitMap
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3054
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $publicDigitMap = null;
@@ -41,6 +47,8 @@ class ServiceProviderDigitCollectionModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName privateDigitMap
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3054
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $privateDigitMap = null;

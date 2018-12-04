@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupTrunkGroupGetRequest14sp1
  *
- * Get the maximum and bursting maximum permissible active trunk group calls for
- * the group.
- *         The response is either a GroupTrunkGroupGetResponse14sp1 or an
- * ErrorResponse.
+ * Get the maximum and bursting maximum permissible active trunk group calls for the group.
+ *         The response is either a GroupTrunkGroupGetResponse14sp1 or an ErrorResponse.
  *
  * @see GroupTrunkGroupGetResponse14sp1
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:13608","type":"sequence"}]
  */
 class GroupTrunkGroupGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupTrunkGroupGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13608
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupTrunkGroupGetRequest14sp1 extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:13608
      * @var string|null
      */
     private $groupId = null;

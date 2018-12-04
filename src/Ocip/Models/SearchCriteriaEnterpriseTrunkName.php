@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SearchCriteriaEnterpriseTrunkName
  *
  * Criteria for searching for an Enterprise Trunk name.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:552","type":"sequence"}]
  */
 class SearchCriteriaEnterpriseTrunkName extends SearchCriteria
 {
@@ -13,6 +15,7 @@ class SearchCriteriaEnterpriseTrunkName extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
+     * @Group d37849f5e289836ccd316323a7a3799a:552
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -20,6 +23,7 @@ class SearchCriteriaEnterpriseTrunkName extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
+     * @Group d37849f5e289836ccd316323a7a3799a:552
      * @var string|null
      */
     private $value = null;
@@ -27,6 +31,7 @@ class SearchCriteriaEnterpriseTrunkName extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
+     * @Group d37849f5e289836ccd316323a7a3799a:552
      * @var bool|null
      */
     private $isCaseInsensitive = null;

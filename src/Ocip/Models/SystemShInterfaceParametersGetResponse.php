@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemShInterfaceParametersGetResponse
  *
- * Response to SystemShInterfaceParametersGetRequest.  Contains the Sh Interface
- * system parameters.
+ * Response to SystemShInterfaceParametersGetRequest.  Contains the Sh Interface system parameters.
  *         
  *         Replaced by: SystemShInterfaceParametersGetResponse17
  *
  * @see SystemShInterfaceParametersGetRequest
  * @see SystemShInterfaceParametersGetResponse17
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:24393","type":"sequence"}]
  */
 class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,8 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName hssRealm
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24393
      * @var string|null
      */
     private $hssRealm = null;
@@ -26,6 +28,7 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName requestTimeoutSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24393
      * @var int|null
      */
     private $requestTimeoutSeconds = null;
@@ -33,6 +36,7 @@ class SystemShInterfaceParametersGetResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName publicIdentityRefreshDelaySeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24393
      * @var int|null
      */
     private $publicIdentityRefreshDelaySeconds = null;

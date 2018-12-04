@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         are "Name" and "Description".
  *
  * @see SystemCallProcessingPolicyProfileGetAssignedNCOSListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:3375","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileGetAssignedNCOSListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +20,7 @@ class SystemCallProcessingPolicyProfileGetAssignedNCOSListResponse extends \CWM\
     /**
      * @ElementName networkClassOfServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3375
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $networkClassOfServiceTable = null;

@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallParkGetRequest
  *
- * Identifies which Call Park group the user belongs to if any and the list of
- * users in the group.
+ * Identifies which Call Park group the user belongs to if any and the list of users in the group.
  *         The response is either UserCallParkGetResponse or ErrorResponse.
  *
  * @see UserCallParkGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"06fc006748da1632379fc9603b619dca:326","type":"sequence"}]
  */
 class UserCallParkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserCallParkGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIR
     /**
      * @ElementName userId
      * @Type string
+     * @Group 06fc006748da1632379fc9603b619dca:326
      * @var string|null
      */
     private $userId = null;

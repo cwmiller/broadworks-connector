@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:862","type":"sequence"}]
  */
 class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:862
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:862
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +34,8 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName firstName
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:862
      * @var string|null
      */
     private $firstName = null;
@@ -38,6 +43,8 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName lastName
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:862
      * @var string|null
      */
     private $lastName = null;
@@ -45,6 +52,8 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName password
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:862
      * @var string|null
      */
     private $password = null;
@@ -52,6 +61,8 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:862
      * @var string|null
      */
     private $language = null;
@@ -59,6 +70,7 @@ class ServiceProviderAdminAddRequest14 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName administratorType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:862
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     private $administratorType = null;

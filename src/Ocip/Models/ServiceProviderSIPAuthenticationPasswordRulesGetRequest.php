@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderSIPAuthenticationPasswordRulesGetRequest
  *
- * Request to get the service provider level SIP authentication password rule
- * settings.
- *         The response is either a
- * ServiceProviderSIPAuthenticationPasswordRulesGetResponse or an ErrorResponse.
+ * Request to get the service provider level SIP authentication password rule settings.
+ *         The response is either a ServiceProviderSIPAuthenticationPasswordRulesGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderSIPAuthenticationPasswordRulesGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5719","type":"sequence"}]
  */
 class ServiceProviderSIPAuthenticationPasswordRulesGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderSIPAuthenticationPasswordRulesGetRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5719
      * @var string|null
      */
     private $serviceProviderId = null;

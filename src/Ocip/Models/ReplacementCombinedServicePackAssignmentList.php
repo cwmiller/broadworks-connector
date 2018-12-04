@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ReplacementCombinedServicePackAssignmentList
  *
- * A list of service packs that replaces existing service packs assgined to the
- * user.
+ * A list of service packs that replaces existing service packs assgined to the user.
  *       
- *       If a service pack is already assigned to the user, the service quantitiy
- * will be updated if included.
+ *       If a service pack is already assigned to the user, the service quantitiy will be updated if included.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2754","type":"sequence"}]
  */
 class ReplacementCombinedServicePackAssignmentList
 {
@@ -18,6 +18,7 @@ class ReplacementCombinedServicePackAssignmentList
      * @ElementName servicePack
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CombinedServicePackAssignment
      * @Array
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2754
      * @var \CWM\BroadWorksConnector\Ocip\Models\CombinedServicePackAssignment[]
      */
     private $servicePack = array(

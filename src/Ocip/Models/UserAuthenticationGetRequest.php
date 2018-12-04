@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAuthenticationGetRequest
  *
  * Get the user's authentication service information.
- *         The response is either a UserAuthenticationGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserAuthenticationGetResponse or an ErrorResponse.
  *
  * @see UserAuthenticationGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"543ae3e2b01b690007f70e12d0e8b897:41","type":"sequence"}]
  */
 class UserAuthenticationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserAuthenticationGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 543ae3e2b01b690007f70e12d0e8b897:41
      * @var string|null
      */
     private $userId = null;

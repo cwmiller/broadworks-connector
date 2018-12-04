@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest
  *
- * Request a list of number ranges that are assigned to an enterprise and still
- * available for assignment to users within the enterprise. 
- *         The response is either
- * EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse or
- * ErrorResponse.
+ * Request a list of number ranges that are assigned to an enterprise and still available for assignment to users within the enterprise. 
+ *         The response is either EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse or ErrorResponse.
  *
  * @see EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:140","type":"sequence"}]
  */
 class EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class EnterpriseRouteListEnterpriseTrunkNumberRangeGetAvailableListRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:140
      * @var string|null
      */
     private $serviceProviderId = null;

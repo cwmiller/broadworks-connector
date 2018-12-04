@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetInstanceStatisticsRequest14sp9
  *
  * Get Call Center queue and agent statistics.
- *         The response is either GroupCallCenterGetInstanceStatisticsResponse14sp9
- * or ErrorResponse.
+ *         The response is either GroupCallCenterGetInstanceStatisticsResponse14sp9 or ErrorResponse.
  *
  * @see GroupCallCenterGetInstanceStatisticsResponse14sp9
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4174","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4174
      * @var string|null
      */
     private $serviceUserId = null;
@@ -25,6 +26,7 @@ class GroupCallCenterGetInstanceStatisticsRequest14sp9 extends \CWM\BroadWorksCo
     /**
      * @ElementName statisticsRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4174
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsRange|null
      */
     private $statisticsRange = null;

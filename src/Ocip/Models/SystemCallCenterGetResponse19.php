@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemCallCenterGetRequest19
  * @see SystemCallCenterGetRequest21
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:18131","type":"sequence"}]
  */
 class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultFromAddress
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var string|null
      */
     private $defaultFromAddress = null;
@@ -24,6 +26,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName statisticsSamplingPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSamplingPeriodMinutes|null
      */
     private $statisticsSamplingPeriodMinutes = null;
@@ -31,6 +34,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultEnableGuardTimer
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var bool|null
      */
     private $defaultEnableGuardTimer = null;
@@ -38,6 +42,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultGuardTimerSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var int|null
      */
     private $defaultGuardTimerSeconds = null;
@@ -45,6 +50,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnDNDActivation
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var bool|null
      */
     private $forceAgentUnavailableOnDNDActivation = null;
@@ -52,6 +58,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnPersonalCalls
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var bool|null
      */
     private $forceAgentUnavailableOnPersonalCalls = null;
@@ -59,6 +66,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnBouncedCallLimit
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var bool|null
      */
     private $forceAgentUnavailableOnBouncedCallLimit = null;
@@ -66,6 +74,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName numberConsecutiveBouncedCallsToForceAgentUnavailable
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var int|null
      */
     private $numberConsecutiveBouncedCallsToForceAgentUnavailable = null;
@@ -73,6 +82,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName forceAgentUnavailableOnNotReachable
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var bool|null
      */
     private $forceAgentUnavailableOnNotReachable = null;
@@ -80,6 +90,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName defaultPlayRingWhenOfferCall
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var bool|null
      */
     private $defaultPlayRingWhenOfferCall = null;
@@ -87,6 +98,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName uniformCallDistributionPolicyScope
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterUniformCallDistributionPolicyScope|null
      */
     private $uniformCallDistributionPolicyScope = null;
@@ -94,6 +106,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName callHandlingSamplingPeriodMinutes
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var int|null
      */
     private $callHandlingSamplingPeriodMinutes = null;
@@ -101,6 +114,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName callHandlingMinimumSamplingSize
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var int|null
      */
     private $callHandlingMinimumSamplingSize = null;
@@ -108,6 +122,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName playToneToAgentForEmergencyCall
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var bool|null
      */
     private $playToneToAgentForEmergencyCall = null;
@@ -115,6 +130,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName emergencyCallCLIDPrefix
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var string|null
      */
     private $emergencyCallCLIDPrefix = null;
@@ -122,6 +138,7 @@ class SystemCallCenterGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName thresholdCrossingNotificationEmailGuardTimerSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18131
      * @var int|null
      */
     private $thresholdCrossingNotificationEmailGuardTimerSeconds = null;

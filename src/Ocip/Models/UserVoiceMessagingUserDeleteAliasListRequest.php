@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1621","type":"sequence"}]
  */
 class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1621
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,7 @@ class UserVoiceMessagingUserDeleteAliasListRequest extends \CWM\BroadWorksConnec
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1621
      * @var string[]
      */
     private $phoneNumber = array(

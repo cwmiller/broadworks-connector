@@ -6,15 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemSIPDeviceTypeGetListResponse
  *
  * Response to SystemSIPDeviceTypeGetListRequest.
- *         Contains a table of identity/ device profile types configured in the
- * system.
- *         The column headings are: "Device Type", "Profile", "Is Obsolete" and
- * "Reseller Id".
+ *         Contains a table of identity/ device profile types configured in the system.
+ *         The column headings are: "Device Type", "Profile", "Is Obsolete" and "Reseller Id".
  *
  *         The following columns are only returned in AS data mode:       
  *           "Reseller Id"
  *
  * @see SystemSIPDeviceTypeGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15126","type":"sequence"}]
  */
 class SystemSIPDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +21,7 @@ class SystemSIPDeviceTypeGetListResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName deviceTypeTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15126
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceTypeTable = null;

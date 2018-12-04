@@ -9,11 +9,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response includes an array of tag set names defined in the system.
  *         The system default tag set name is not part of this response.
  *         
- *         Replaced by SystemDeviceManagementTagSetGetListResponse22 in AS data
- * mode
+ *         Replaced by SystemDeviceManagementTagSetGetListResponse22 in AS data mode
  *
  * @see SystemDeviceManagementTagSetGetListRequest
  * @see SystemDeviceManagementTagSetGetListResponse22
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:692","type":"sequence"}]
  */
 class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +22,8 @@ class SystemDeviceManagementTagSetGetListResponse extends \CWM\BroadWorksConnect
      * @ElementName tagSetName
      * @Type string
      * @Array
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:692
      * @var string[]
      */
     private $tagSetName = array(

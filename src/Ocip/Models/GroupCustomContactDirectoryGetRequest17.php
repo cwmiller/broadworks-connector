@@ -9,24 +9,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either GroupCustomContactDirectoryGetResponse17 or 
  *         ErrorResponse.
  *         The search can be done using multiple criterion.
- *         If the searchCriteriaModeOr is present, any result matching any one
- * criteria is included in the results. 
- *         Otherwise, only results matching all the search criterion are included
- * in the results. 
+ *         If the searchCriteriaModeOr is present, any result matching any one criteria is included in the results. 
+ *         Otherwise, only results matching all the search criterion are included in the results. 
  *         If no search criteria is specified, all results are returned.
- *         Specifying searchCriteriaModeOr without any search criteria results in
- * an ErrorResponse.
- *         In all cases, if a responseSizeLimit is specified and the number of
- * matching results is more than this limit, then an
- *         ErrorResponse is returned. The Receptionist Note column is only
- * populated in AS mode; and populated only if the user 
- *         sending the request is a the owner of this Receptionist Note and a Note
- * exists.
+ *         Specifying searchCriteriaModeOr without any search criteria results in an ErrorResponse.
+ *         In all cases, if a responseSizeLimit is specified and the number of matching results is more than this limit, then an
+ *         ErrorResponse is returned. The Receptionist Note column is only populated in AS mode; and populated only if the user 
+ *         sending the request is a the owner of this Receptionist Note and a Note exists.
  *
  * @see GroupCustomContactDirectoryGetResponse17
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2658","type":"sequence"}]
  */
 class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -34,6 +29,7 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -41,6 +37,7 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var string|null
      */
     private $groupId = null;
@@ -48,6 +45,7 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName name
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var string|null
      */
     private $name = null;
@@ -55,6 +53,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -62,6 +62,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName searchCriteriaModeOr
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -70,6 +72,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -80,6 +84,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -90,6 +96,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -100,6 +108,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -110,6 +120,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaMobilePhoneNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaMobilePhoneNumber[]
      */
     private $searchCriteriaMobilePhoneNumber = array(
@@ -120,6 +132,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -129,6 +143,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -137,6 +153,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaImpId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(
@@ -147,6 +165,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaTitle
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTitle[]
      */
     private $searchCriteriaTitle = array(
@@ -157,6 +177,8 @@ class GroupCustomContactDirectoryGetRequest17 extends \CWM\BroadWorksConnector\O
      * @ElementName searchCriteriaReceptionistNote
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2658
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaReceptionistNote[]
      */
     private $searchCriteriaReceptionistNote = array(

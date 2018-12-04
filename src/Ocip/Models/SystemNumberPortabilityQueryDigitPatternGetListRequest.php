@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemNumberPortabilityQueryDigitPatternGetListRequest
  *
- * Request to get the System Number Portability Query Digit Pattern List
- * information.
- *         The response is either a
- * SystemNumberPortabilityQueryDigitPatternGetListResponse or an ErrorResponse.
+ * Request to get the System Number Portability Query Digit Pattern List information.
+ *         The response is either a SystemNumberPortabilityQueryDigitPatternGetListResponse or an ErrorResponse.
  *
  * @see SystemNumberPortabilityQueryDigitPatternGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11319","type":"sequence"}]
  */
 class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,8 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaNumberPortabilityQueryDigitPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityQueryDigitPattern
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11319
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityQueryDigitPattern[]
      */
     private $searchCriteriaNumberPortabilityQueryDigitPattern = array(
@@ -30,6 +31,8 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
      * @ElementName searchCriteriaNumberPortabilityStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityStatus
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11319
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaNumberPortabilityStatus[]
      */
     private $searchCriteriaNumberPortabilityStatus = array(
@@ -39,6 +42,8 @@ class SystemNumberPortabilityQueryDigitPatternGetListRequest extends \CWM\BroadW
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11319
      * @var int|null
      */
     private $responseSizeLimit = null;

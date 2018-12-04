@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDialPlanPolicyGetRequest17
  *
  * Request the Group level data associated with Dial Plan Policy.
- *         The response is either a GroupDialPlanPolicyGetResponse17 or an
- * ErrorResponse.
+ *         The response is either a GroupDialPlanPolicyGetResponse17 or an ErrorResponse.
  *
  * @see GroupDialPlanPolicyGetResponse17
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3830","type":"sequence"}]
  */
 class GroupDialPlanPolicyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupDialPlanPolicyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3830
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupDialPlanPolicyGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3830
      * @var string|null
      */
     private $groupId = null;

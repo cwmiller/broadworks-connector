@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AuthenticationVerifyRequest
  *
- * AuthenticationVerifyRequest is used to authenticate a user using the user Id and
- * password. The response is a AuthenticationVerifyResponse or an ErrorResponse
+ * AuthenticationVerifyRequest is used to authenticate a user using the user Id and password. The response is a AuthenticationVerifyResponse or an ErrorResponse
  *         Replaced By: AuthenticationVerifyRequest14sp8
  *
  * @see AuthenticationVerifyRequest
  * @see AuthenticationVerifyResponse
  * @see ErrorResponse
  * @see AuthenticationVerifyRequest14sp8
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:852","type":"sequence"}]
  */
 class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:852
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,7 @@ class AuthenticationVerifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C
     /**
      * @ElementName password
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:852
      * @var string|null
      */
     private $password = null;

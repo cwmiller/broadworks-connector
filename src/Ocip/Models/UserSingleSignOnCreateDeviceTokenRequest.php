@@ -17,6 +17,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see UserSingleSignOnCreateDeviceTokenResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:593","type":"sequence"}]
  */
 class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -24,6 +25,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userId
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:593
      * @var string|null
      */
     private $userId = null;
@@ -31,6 +33,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel
+     * @Group d83be92ebac098705e715f24f025a9a9:593
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceLevel|null
      */
     private $deviceLevel = null;
@@ -38,6 +41,7 @@ class UserSingleSignOnCreateDeviceTokenRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:593
      * @var string|null
      */
     private $deviceName = null;

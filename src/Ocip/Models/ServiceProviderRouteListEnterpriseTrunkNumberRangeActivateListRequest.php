@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Activate number ranges in a service provider.
  *         It is not an error to activate an already activated number range. 
- *         The command fails if executed when system level enterprise trunk number
- * range activation is disabled.
+ *         The command fails if executed when system level enterprise trunk number range activation is disabled.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:570","type":"sequence"}]
  */
 class ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest exte
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:570
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +29,8 @@ class ServiceProviderRouteListEnterpriseTrunkNumberRangeActivateListRequest exte
      * @ElementName numberRangeStart
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:570
      * @var string[]
      */
     private $numberRangeStart = array(

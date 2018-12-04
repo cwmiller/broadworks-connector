@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Modify the system call processing configuration for all subscribers.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         The following elements are only used in AS data mode and ignored in the
- * XS data mode:
+ *         The following elements are only used in AS data mode and ignored in the XS data mode:
  *           userCallingLineIdSelection
  *           isExtendedCallingLineIdActive
  *           isRingTimeOutActive
@@ -20,6 +19,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemSubscriberModifyCallProcessingParametersRequest14sp7
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28489","type":"sequence"}]
  */
 class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -27,6 +27,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
     /**
      * @ElementName userCallingLineIdSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28489
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     private $userCallingLineIdSelection = null;
@@ -34,6 +36,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28489
      * @var bool|null
      */
     private $isExtendedCallingLineIdActive = null;
@@ -41,6 +45,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28489
      * @var bool|null
      */
     private $isRingTimeOutActive = null;
@@ -48,6 +54,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28489
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
@@ -55,6 +63,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28489
      * @var bool|null
      */
     private $allowEmergencyRemoteOfficeOriginations = null;
@@ -62,6 +72,8 @@ class SystemSubscriberModifyCallProcessingParametersRequest extends \CWM\BroadWo
     /**
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28489
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;

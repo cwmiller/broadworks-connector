@@ -7,8 +7,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to get a sip device type.
  *         See Also: SystemDeviceTypeGetRequest
- *         The response is either SystemSIPDeviceTypeGetResponse21sp1V2 or
- * ErrorResponse.
+ *         The response is either SystemSIPDeviceTypeGetResponse21sp1V2 or ErrorResponse.
  *         
  *         Replaced by: SystemSIPDeviceTypeGetRequest22 in AS data mode.
  *
@@ -16,6 +15,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SystemSIPDeviceTypeGetResponse21sp1V2
  * @see ErrorResponse
  * @see SystemSIPDeviceTypeGetRequest22
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:26522","type":"sequence"}]
  */
 class SystemSIPDeviceTypeGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +23,7 @@ class SystemSIPDeviceTypeGetRequest21sp1V2 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:26522
      * @var string|null
      */
     private $deviceType = null;

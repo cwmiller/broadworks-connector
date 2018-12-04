@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the system Third-Party IMP service attributes.
  *
  * @see SystemThirdPartyIMPGetRequest19
+ * @Groups [{"id":"1750031558e0dc42a0a00f232dbf5d41:53","type":"sequence"}]
  */
 class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceNetAddress
      * @Type string
+     * @Optional
+     * @Group 1750031558e0dc42a0a00f232dbf5d41:53
      * @var string|null
      */
     private $serviceNetAddress = null;
@@ -23,6 +26,8 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName servicePort
      * @Type int
+     * @Optional
+     * @Group 1750031558e0dc42a0a00f232dbf5d41:53
      * @var int|null
      */
     private $servicePort = null;
@@ -30,6 +35,8 @@ class SystemThirdPartyIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName boshURL
      * @Type string
+     * @Optional
+     * @Group 1750031558e0dc42a0a00f232dbf5d41:53
      * @var string|null
      */
     private $boshURL = null;

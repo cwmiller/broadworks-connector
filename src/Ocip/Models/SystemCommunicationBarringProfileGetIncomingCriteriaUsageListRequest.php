@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get the list of Communication Barring Proifles that uses a specific
  *         Communication Barring Incoming criteria.
- *         The response is either a
- * SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
+ *         The response is either a SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
  *         or an ErrorResponse.
  *
  * @see SystemCommunicationBarringProfileGetIncomingCriteriaUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5622","type":"sequence"}]
  */
 class SystemCommunicationBarringProfileGetIncomingCriteriaUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class SystemCommunicationBarringProfileGetIncomingCriteriaUsageListRequest exten
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5622
      * @var string|null
      */
     private $name = null;

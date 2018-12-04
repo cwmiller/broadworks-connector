@@ -5,17 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CombinedServicePackAssignment
  *
- * Assign a service pack to user. If the service pack has not been authorized to
- * service provider or 
+ * Assign a service pack to user. If the service pack has not been authorized to service provider or 
  *       group, it will be authorized.
  *             
- *       If the service pack needs to be authorized at group/service provider
- * levels, the authorizedQuantity
- *       will be used. Otherwise, it will be ignored. If the authorizedQuantity is
- * not included, the
- *       quantity will come from the group template for the service pack. If a
- * template does 
+ *       If the service pack needs to be authorized at group/service provider levels, the authorizedQuantity
+ *       will be used. Otherwise, it will be ignored. If the authorizedQuantity is not included, the
+ *       quantity will come from the group template for the service pack. If a template does 
  *       not exist, the service quantity will be set to unlimited.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:965","type":"sequence"}]
  */
 class CombinedServicePackAssignment
 {
@@ -23,6 +21,7 @@ class CombinedServicePackAssignment
     /**
      * @ElementName servicePackName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:965
      * @var string|null
      */
     private $servicePackName = null;
@@ -30,6 +29,8 @@ class CombinedServicePackAssignment
     /**
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:965
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $authorizedQuantity = null;

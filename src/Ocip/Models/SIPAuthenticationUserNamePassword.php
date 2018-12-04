@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SIPAuthenticationUserNamePassword
  *
  * User's authentication service information.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3500","type":"sequence"}]
  */
 class SIPAuthenticationUserNamePassword
 {
@@ -13,6 +15,7 @@ class SIPAuthenticationUserNamePassword
     /**
      * @ElementName sipAuthenticationUserName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3500
      * @var string|null
      */
     private $sipAuthenticationUserName = null;
@@ -20,6 +23,7 @@ class SIPAuthenticationUserNamePassword
     /**
      * @ElementName sipAuthenticationPassword
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3500
      * @var string|null
      */
     private $sipAuthenticationPassword = null;

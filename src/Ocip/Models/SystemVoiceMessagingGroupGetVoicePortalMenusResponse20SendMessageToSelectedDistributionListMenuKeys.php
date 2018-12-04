@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendMessageToSelectedDistributionListMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31526","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendMessageToSelectedDistributionListMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendMessageToSelecte
     /**
      * @ElementName confirmSendingToDistributionList
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31526
      * @var string|null
      */
     private $confirmSendingToDistributionList = null;
@@ -18,6 +22,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20SendMessageToSelecte
     /**
      * @ElementName cancelSendingToDistributionList
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31526
      * @var string|null
      */
     private $cancelSendingToDistributionList = null;

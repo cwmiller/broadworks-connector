@@ -14,6 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2760","type":"sequence"}]
  */
 class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +22,7 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2760
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +30,7 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2760
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +38,7 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName departmentName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2760
      * @var string|null
      */
     private $departmentName = null;
@@ -42,6 +46,8 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName parentDepartmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2760
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $parentDepartmentKey = null;
@@ -49,6 +55,8 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName callingLineIdName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2760
      * @var string|null
      */
     private $callingLineIdName = null;
@@ -56,6 +64,8 @@ class GroupDepartmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\O
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2760
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

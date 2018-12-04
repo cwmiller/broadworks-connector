@@ -7,15 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupCallCenterGetInstanceListRequest.
  *         Contains a table with column headings:
- *         "Service User Id", "Name", "Video", "Phone Number", "Extension",
- * "Department", "Is Active", "Policy", "Type".
- *         The column values for "Video" and "Is Active" can either be true, or
- * false.
+ *         "Service User Id", "Name", "Video", "Phone Number", "Extension", "Department", "Is Active", "Policy", "Type".
+ *         The column values for "Video" and "Is Active" can either be true, or false.
  *         The column values for "Type" can be "Basic", "Standard" or "Premium".
- *         NOTE: prior to release 14, the policy column did not match the
- * HuntPolicy enumerated type.
+ *         NOTE: prior to release 14, the policy column did not match the HuntPolicy enumerated type.
  *
  * @see GroupCallCenterGetInstanceListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4034","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,6 +21,7 @@ class GroupCallCenterGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4034
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;

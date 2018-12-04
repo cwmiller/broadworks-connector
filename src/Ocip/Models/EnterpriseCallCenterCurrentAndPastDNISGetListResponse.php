@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the EnterpriseCallCenterCurrentAndPastDNISGetListRequest.
  *
  * @see EnterpriseCallCenterCurrentAndPastDNISGetListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:1038","type":"sequence"}]
  */
 class EnterpriseCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWo
      * @ElementName name
      * @Type string
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1038
      * @var string[]
      */
     private $name = array(
@@ -26,6 +29,8 @@ class EnterpriseCallCenterCurrentAndPastDNISGetListResponse extends \CWM\BroadWo
      * @ElementName deletedName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:1038
      * @var string[]
      */
     private $deletedName = array(

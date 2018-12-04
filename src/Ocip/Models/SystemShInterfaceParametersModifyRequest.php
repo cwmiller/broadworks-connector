@@ -5,9 +5,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemShInterfaceParametersModifyRequest
  *
- * Modifies the Sh Interface system parameters.  This request must be submitted on
- * both nodes in the redundant Application Server cluster in order for the changes
- * to take effect on each node without requiring a restart.
+ * Modifies the Sh Interface system parameters.  This request must be submitted on both nodes in the redundant Application Server cluster in order for the changes to take effect on each node without requiring a restart.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *       
  *         Replaced by: SystemShInterfaceParametersModifyRequest17
@@ -15,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemShInterfaceParametersModifyRequest17
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:24413","type":"sequence"}]
  */
 class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +22,8 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName hssRealm
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24413
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $hssRealm = null;
@@ -30,6 +31,8 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName requestTimeoutSeconds
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24413
      * @var int|null
      */
     private $requestTimeoutSeconds = null;
@@ -37,6 +40,8 @@ class SystemShInterfaceParametersModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName publicIdentityRefreshDelaySeconds
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:24413
      * @var int|null
      */
     private $publicIdentityRefreshDelaySeconds = null;

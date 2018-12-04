@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallNotifyGetCriteriaRequest16
  *
  * Get a criteria for the user's call notify service.
- *         The response is either a UserCallNotifyGetCriteriaResponse16 or an
- * ErrorResponse.
+ *         The response is either a UserCallNotifyGetCriteriaResponse16 or an ErrorResponse.
  *         Replaced by: UserCallNotifyGetCriteriaRequest21 in AS data mode
  *
  * @see UserCallNotifyGetCriteriaResponse16
  * @see ErrorResponse
  * @see UserCallNotifyGetCriteriaRequest21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:4727","type":"sequence"}]
  */
 class UserCallNotifyGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserCallNotifyGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4727
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,7 @@ class UserCallNotifyGetCriteriaRequest16 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4727
      * @var string|null
      */
     private $criteriaName = null;

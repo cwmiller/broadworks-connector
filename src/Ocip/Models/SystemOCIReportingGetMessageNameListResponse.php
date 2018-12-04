@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemOCIReportingGetMessageNameListRequest.
  *
  * @see SystemOCIReportingGetMessageNameListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:12018","type":"sequence"}]
  */
 class SystemOCIReportingGetMessageNameListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class SystemOCIReportingGetMessageNameListResponse extends \CWM\BroadWorksConnec
      * @ElementName messageNameStartsWith
      * @Type string
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:12018
      * @var string[]
      */
     private $messageNameStartsWith = array(

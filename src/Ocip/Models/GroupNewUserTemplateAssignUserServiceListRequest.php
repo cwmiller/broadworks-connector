@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupNewUserTemplateAssignUserServiceListRequest
  *
- * Request to assign the user services and service packs to all new users created
- * within the group
+ * Request to assign the user services and service packs to all new users created within the group
  *         after the completion of this request.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5344","type":"sequence"}]
  */
 class GroupNewUserTemplateAssignUserServiceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupNewUserTemplateAssignUserServiceListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5344
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupNewUserTemplateAssignUserServiceListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5344
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,8 @@ class GroupNewUserTemplateAssignUserServiceListRequest extends \CWM\BroadWorksCo
      * @ElementName serviceName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5344
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService[]
      */
     private $serviceName = array(
@@ -44,6 +48,8 @@ class GroupNewUserTemplateAssignUserServiceListRequest extends \CWM\BroadWorksCo
      * @ElementName servicePackName
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5344
      * @var string[]
      */
     private $servicePackName = array(

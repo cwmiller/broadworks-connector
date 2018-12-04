@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringDigitPatternCriteriaGetResponse
  *
- * Response to the
- * ServiceProviderCommunicationBarringDigitPatternCriteriaGetRequest.
+ * Response to the ServiceProviderCommunicationBarringDigitPatternCriteriaGetRequest.
  *         The response contains the Digit Pattern Criteria information.
  *
  * @see ServiceProviderCommunicationBarringDigitPatternCriteriaGetRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1601","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaGetResponse extends
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1601
      * @var string|null
      */
     private $description = null;

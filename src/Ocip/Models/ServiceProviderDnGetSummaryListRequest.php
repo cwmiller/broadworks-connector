@@ -7,17 +7,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request a summary table of all DNs in a service provider.
  *         Dns assigned to the IMRN pool are not listed in the response.
- *         The search can be done using multiple criteria. Only results matching
- * all the search criteria are included in the results.
- *         The response is either ServiceProviderDnGetSummaryListResponse or
- * ErrorResponse.
+ *         The search can be done using multiple criteria. Only results matching all the search criteria are included in the results.
+ *         The response is either ServiceProviderDnGetSummaryListResponse or ErrorResponse.
  *         
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           searchCriteriaDn, searchCriteriaGroupId
  *
  * @see ServiceProviderDnGetSummaryListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3149","type":"sequence"}]
  */
 class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,6 +23,7 @@ class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3149
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -33,6 +32,8 @@ class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3149
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -43,6 +44,8 @@ class ServiceProviderDnGetSummaryListRequest extends \CWM\BroadWorksConnector\Oc
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3149
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(

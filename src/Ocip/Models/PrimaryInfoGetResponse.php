@@ -6,9 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * PrimaryInfoGetResponse
  *
  * Information about the primary server in the high-availablity cluster.
- *         For optimization, we only get the hostname and addresses for primary if
- * they are
+ *         For optimization, we only get the hostname and addresses for primary if they are
  *         explicitly requested or if the current server is not the primary.
+ *
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:424","type":"sequence"}]
  */
 class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName isPrimary
      * @Type bool
+     * @Group d83be92ebac098705e715f24f025a9a9:424
      * @var bool|null
      */
     private $isPrimary = null;
@@ -23,6 +25,8 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
     /**
      * @ElementName hostnameForPrimary
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:424
      * @var string|null
      */
     private $hostnameForPrimary = null;
@@ -31,6 +35,8 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName addressForPrimary
      * @Type string
      * @Array
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:424
      * @var string[]
      */
     private $addressForPrimary = array(
@@ -41,6 +47,8 @@ class PrimaryInfoGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCID
      * @ElementName privateAddressForPrimary
      * @Type string
      * @Array
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:424
      * @var string[]
      */
     private $privateAddressForPrimary = array(

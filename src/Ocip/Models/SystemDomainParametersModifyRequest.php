@@ -8,16 +8,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Request to modify system Domain parameters.
  *         The response is either SuccessResponse or ErrorResponse.
  *         
- *         The following elements are only used in AS data mode and ignored in XS
- * data mode:
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           useAliasForDomain
  *           
- *         The following elements are only used in AS and XS data mode and ignored
- * in Amplify data mode:
+ *         The following elements are only used in AS and XS data mode and ignored in Amplify data mode:
  *           defaultDomain
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8037","type":"sequence"}]
  */
 class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,6 +24,8 @@ class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useAliasForDomain
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8037
      * @var bool|null
      */
     private $useAliasForDomain = null;
@@ -32,6 +33,8 @@ class SystemDomainParametersModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName defaultDomain
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8037
      * @var string|null
      */
     private $defaultDomain = null;

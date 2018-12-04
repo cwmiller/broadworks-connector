@@ -8,10 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserCommunicationBarringUserControlGetRequest.
  *         Identifies the profiles available to the user and which one if any
  *         is active as well as the lockout status.
- *         Contains a table with column headings: "Name", "Code", "Activated" and
- * "Primary".
+ *         Contains a table with column headings: "Name", "Code", "Activated" and "Primary".
  *
  * @see UserCommunicationBarringUserControlGetRequest
+ * @Groups [{"id":"4d373d11d8022fd17bc1bdfe8e07cc37:114","type":"sequence"}]
  */
 class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName lockoutStatus
      * @Type bool
+     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:114
      * @var bool|null
      */
     private $lockoutStatus = null;
@@ -26,6 +27,7 @@ class UserCommunicationBarringUserControlGetResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 4d373d11d8022fd17bc1bdfe8e07cc37:114
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profileTable = null;

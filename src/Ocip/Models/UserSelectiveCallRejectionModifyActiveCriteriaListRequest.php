@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5e18575f19e96a95702b7106029484b0:176","type":"sequence"}]
  */
 class UserSelectiveCallRejectionModifyActiveCriteriaListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserSelectiveCallRejectionModifyActiveCriteriaListRequest extends \CWM\Bro
     /**
      * @ElementName userId
      * @Type string
+     * @Group 5e18575f19e96a95702b7106029484b0:176
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserSelectiveCallRejectionModifyActiveCriteriaListRequest extends \CWM\Bro
      * @ElementName criteriaActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
+     * @Optional
+     * @Group 5e18575f19e96a95702b7106029484b0:176
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(

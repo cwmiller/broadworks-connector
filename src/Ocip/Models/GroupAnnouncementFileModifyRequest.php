@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:1403","type":"sequence"}]
  */
 class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1403
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1403
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1403
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $announcementFileKey = null;
@@ -38,6 +42,8 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName newAnnouncementFileName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1403
      * @var string|null
      */
     private $newAnnouncementFileName = null;
@@ -45,6 +51,8 @@ class GroupAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName announcementFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:1403
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $announcementFile = null;

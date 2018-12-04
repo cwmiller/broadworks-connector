@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest
  *
  * Delete agent(s) from a Agent Threshold Profile.
- *         Agents cannot be unassigned (deleted) directly from the default profile,
- * they need to be assigned (added) to a different profile.
+ *         Agents cannot be unassigned (deleted) directly from the default profile, they need to be assigned (added) to a different profile.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:388","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest extends \C
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:388
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest extends \C
     /**
      * @ElementName profileName
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:388
      * @var string|null
      */
     private $profileName = null;
@@ -34,6 +36,7 @@ class EnterpriseCallCenterAgentThresholdProfileDeleteAgentListRequest extends \C
      * @ElementName agentUserId
      * @Type string
      * @Array
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:388
      * @var string[]
      */
     private $agentUserId = array(

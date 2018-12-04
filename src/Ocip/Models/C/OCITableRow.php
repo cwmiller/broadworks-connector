@@ -8,9 +8,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
  * The OCITableRow type is used in responses only, never in requests. It occurs
  *         inside the OCITable type. The OCITableRow consists columns of strings.
  *         Clients should not assume any particular column order as future
- *         revisions of the protocol may move or add columns. See the OCITable data
- * type
+ *         revisions of the protocol may move or add columns. See the OCITable data type
  *         for more information.
+ *
+ * @Groups [{"id":"5df1e3f9f11b14b45dd8cb0f82dc29a6:261","type":"sequence"}]
  */
 class OCITableRow
 {
@@ -19,6 +20,7 @@ class OCITableRow
      * @ElementName col
      * @Type string
      * @Array
+     * @Group 5df1e3f9f11b14b45dd8cb0f82dc29a6:261
      * @var string[]
      */
     private $col = array(

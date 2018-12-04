@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPrimaryEndpointAdvancedSettingGetRequest
  *
  * Get the Users Primary Endpoint setting.
- *         The response is either a UserPrimaryEndpointAdvancedSettingGetResponse
- * or an ErrorResponse.
+ *         The response is either a UserPrimaryEndpointAdvancedSettingGetResponse or an ErrorResponse.
  *
  * @see UserPrimaryEndpointAdvancedSettingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2774","type":"sequence"}]
  */
 class UserPrimaryEndpointAdvancedSettingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserPrimaryEndpointAdvancedSettingGetRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:2774
      * @var string|null
      */
     private $userId = null;

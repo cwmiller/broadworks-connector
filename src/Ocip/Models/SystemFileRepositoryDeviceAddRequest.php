@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemFileRepositoryDeviceAddRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22346","type":"sequence","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:22350","type":"choice"}]}]
  */
 class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,7 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName name
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22346
      * @var string|null
      */
     private $name = null;
@@ -27,6 +29,8 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName rootDirectory
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22346
      * @var string|null
      */
     private $rootDirectory = null;
@@ -34,6 +38,8 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName port
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22346
      * @var int|null
      */
     private $port = null;
@@ -41,6 +47,7 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22350
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV|null
      */
     private $protocolWebDAV = null;
@@ -48,6 +55,7 @@ class SystemFileRepositoryDeviceAddRequest extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName protocolFTP
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22350
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP|null
      */
     private $protocolFTP = null;

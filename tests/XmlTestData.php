@@ -8,7 +8,7 @@ use CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingDepartment
 use CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanRedirectingPermissionsModify;
 use DOMDocument;
 
-class TestData
+class XmlTestData
 {
     /**
      * @return DOMDocument

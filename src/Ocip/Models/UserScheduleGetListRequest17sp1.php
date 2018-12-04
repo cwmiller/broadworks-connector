@@ -5,15 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserScheduleGetListRequest17sp1
  *
- * Get the list of schedules viewable by a User. The list can be filtered by
- * schedule type.
- *         The response is either a UserScheduleGetListResponse17sp1 or an
- * ErrorResponse.
- *         This command is authorized to user who is Executive-Assistant of the
- * Executive.
+ * Get the list of schedules viewable by a User. The list can be filtered by schedule type.
+ *         The response is either a UserScheduleGetListResponse17sp1 or an ErrorResponse.
+ *         This command is authorized to user who is Executive-Assistant of the Executive.
  *
  * @see UserScheduleGetListResponse17sp1
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3080","type":"sequence"}]
  */
 class UserScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +19,7 @@ class UserScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:3080
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +27,8 @@ class UserScheduleGetListRequest17sp1 extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName scheduleType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3080
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $scheduleType = null;

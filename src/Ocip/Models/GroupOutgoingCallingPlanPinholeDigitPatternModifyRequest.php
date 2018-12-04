@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest
  *
- * Modify a calling plan Pinhole digit string. The name is a key; it cannot be
- * changed.
+ * Modify a calling plan Pinhole digit string. The name is a key; it cannot be changed.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:545","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:545
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:545
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:545
      * @var string|null
      */
     private $name = null;
@@ -39,6 +42,8 @@ class GroupOutgoingCallingPlanPinholeDigitPatternModifyRequest extends \CWM\Broa
     /**
      * @ElementName digitPattern
      * @Type string
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:545
      * @var string|null
      */
     private $digitPattern = null;

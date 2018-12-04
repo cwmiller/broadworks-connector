@@ -7,15 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a Network Server in the system.
  *         The response is either a SuccessResponse or an ErrorResponse.
- *         The following elements are only used in AS data mode and ignored in XS
- * data mode:
+ *         The following elements are only used in AS data mode and ignored in XS data mode:
  *           becomePreferred
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           order
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:11214","type":"sequence"}]
  */
 class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +22,7 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName netAddress
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
      * @var string|null
      */
     private $netAddress = null;
@@ -31,6 +31,8 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName port
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $port = null;
@@ -39,6 +41,8 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -46,6 +50,8 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName becomePreferred
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
      * @var bool|null
      */
     private $becomePreferred = null;
@@ -53,6 +59,8 @@ class SystemNetworkSynchingServerModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName order
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:11214
      * @var int|null
      */
     private $order = null;

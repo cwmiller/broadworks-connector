@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15981","type":"sequence"}]
  */
 class SystemSubscriberModifyLoginParametersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemSubscriberModifyLoginParametersRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName maxFailedLoginAttempts
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15981
      * @var int|null
      */
     private $maxFailedLoginAttempts = null;
@@ -24,6 +27,8 @@ class SystemSubscriberModifyLoginParametersRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName minLoginIdLength
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15981
      * @var int|null
      */
     private $minLoginIdLength = null;

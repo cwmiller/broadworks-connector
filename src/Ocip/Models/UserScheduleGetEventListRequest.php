@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserScheduleGetEventListRequest
  *
  * Get the list of events of a user schedule.
- *         The response is either a UserScheduleGetEventListResponse or an
- * ErrorResponse.
+ *         The response is either a UserScheduleGetEventListResponse or an ErrorResponse.
  *
  * @see UserScheduleGetEventListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3003","type":"sequence"}]
  */
 class UserScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:3003
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserScheduleGetEventListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
+     * @Group 489b2153267470be8e945bf6b778e0d0:3003
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;

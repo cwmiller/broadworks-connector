@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to GroupDepartmentGetListRequest18.
  *         Contains a table of department attributes.
- *         The column headings are: "Is Enterprise Department", "Department Name",
- * "Full Path Name", "Calling Line Id Name", and "Calling Line Id Phone Number"
+ *         The column headings are: "Is Enterprise Department", "Department Name", "Full Path Name", "Calling Line Id Name", and "Calling Line Id Phone Number"
  *
  * @see GroupDepartmentGetListRequest18
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2987","type":"sequence"}]
  */
 class GroupDepartmentGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class GroupDepartmentGetListResponse18 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName departmentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2987
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $departmentTable = null;

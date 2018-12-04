@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSubscriberGetCallProcessingParametersRequest15.
  *
  * @see SystemSubscriberGetCallProcessingParametersRequest15
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28377","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
     /**
      * @ElementName userCallingLineIdSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28377
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemUserCallingLineIdSelection|null
      */
     private $userCallingLineIdSelection = null;
@@ -22,6 +24,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28377
      * @var bool|null
      */
     private $isExtendedCallingLineIdActive = null;
@@ -29,6 +32,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28377
      * @var bool|null
      */
     private $isRingTimeOutActive = null;
@@ -36,6 +40,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28377
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
@@ -43,6 +48,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28377
      * @var bool|null
      */
     private $allowEmergencyRemoteOfficeOriginations = null;
@@ -50,6 +56,7 @@ class SystemSubscriberGetCallProcessingParametersResponse15 extends \CWM\BroadWo
     /**
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28377
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;

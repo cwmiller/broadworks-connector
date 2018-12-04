@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SelectiveCallRejectionCriteriaCallType
  *
  * The call type criteria used within an add/get request.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3080","type":"sequence"}]
  */
 class SelectiveCallRejectionCriteriaCallType
 {
@@ -13,6 +15,7 @@ class SelectiveCallRejectionCriteriaCallType
     /**
      * @ElementName fromDnCriteriaSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3080
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallTypeSelection|null
      */
     private $fromDnCriteriaSelection = null;
@@ -20,6 +23,7 @@ class SelectiveCallRejectionCriteriaCallType
     /**
      * @ElementName includeAnonymousCallers
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3080
      * @var bool|null
      */
     private $includeAnonymousCallers = null;
@@ -27,6 +31,7 @@ class SelectiveCallRejectionCriteriaCallType
     /**
      * @ElementName includeUnavailableCallers
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3080
      * @var bool|null
      */
     private $includeUnavailableCallers = null;
@@ -35,6 +40,8 @@ class SelectiveCallRejectionCriteriaCallType
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3080
      * @var string[]
      */
     private $phoneNumber = array(

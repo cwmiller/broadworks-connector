@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to a UserBroadWorksMobilityGetRequest21.
  *
  * @see UserBroadWorksMobilityGetRequest21
+ * @Groups [{"id":"e9727a9f98db3fe2db7ad08079031b73:1470","type":"sequence"}]
  */
 class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1470
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName useMobileIdentityCallAnchoring
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1470
      * @var bool|null
      */
     private $useMobileIdentityCallAnchoring = null;
@@ -29,6 +32,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName preventCallsToOwnMobiles
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1470
      * @var bool|null
      */
     private $preventCallsToOwnMobiles = null;
@@ -37,6 +41,8 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName mobileIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityEntry
      * @Array
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1470
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityUserMobileIdentityEntry[]
      */
     private $mobileIdentity = array(
@@ -46,6 +52,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName profileIdentityDevicesToRing
      * @Type \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1470
      * @var \CWM\BroadWorksConnector\Ocip\Models\BroadWorksMobilityPhoneToRing|null
      */
     private $profileIdentityDevicesToRing = null;
@@ -53,6 +60,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName profileIdentityIncludeSharedCallAppearance
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1470
      * @var bool|null
      */
     private $profileIdentityIncludeSharedCallAppearance = null;
@@ -60,6 +68,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName profileIdentityIncludeBroadworksAnywhere
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1470
      * @var bool|null
      */
     private $profileIdentityIncludeBroadworksAnywhere = null;
@@ -67,6 +76,7 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName profileIdentityIncludeExecutiveAssistant
      * @Type bool
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1470
      * @var bool|null
      */
     private $profileIdentityIncludeExecutiveAssistant = null;
@@ -75,6 +85,8 @@ class UserBroadWorksMobilityGetResponse21 extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName profileIdentityMobileNumberAlerted
      * @Type string
      * @Array
+     * @Optional
+     * @Group e9727a9f98db3fe2db7ad08079031b73:1470
      * @var string[]
      */
     private $profileIdentityMobileNumberAlerted = array(

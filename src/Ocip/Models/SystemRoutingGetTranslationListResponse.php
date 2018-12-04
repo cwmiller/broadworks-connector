@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemRoutingGetTranslationListResponse
  *
- * Response to SystemRoutingGetTranslationListRequest. The column headings are
- * "Routing Digits"
+ * Response to SystemRoutingGetTranslationListRequest. The column headings are "Routing Digits"
  *         and "Route".
  *
  * @see SystemRoutingGetTranslationListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13575","type":"sequence"}]
  */
 class SystemRoutingGetTranslationListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemRoutingGetTranslationListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName routingTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13575
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routingTable = null;

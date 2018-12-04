@@ -5,15 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest
  *
- * Request to get all the call center reporting scheduled report in a group that
- * uses a given group level report template.
- *         The response is either a
- * GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
- * or an ErrorResponse.
+ * Request to get all the call center reporting scheduled report in a group that uses a given group level report template.
+ *         The response is either a GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse or an ErrorResponse.
  *
- * @see
- * GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
+ * @see GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3422","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +18,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListR
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3422
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +26,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListR
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3422
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +34,7 @@ class GroupCallCenterEnhancedReportingScheduledReportGetReportTemplateUsageListR
     /**
      * @ElementName name
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3422
      * @var string|null
      */
     private $name = null;

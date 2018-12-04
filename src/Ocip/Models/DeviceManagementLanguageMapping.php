@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * DeviceManagementLanguageMapping
  *
  * Maps a BroadWorks language to a device-equivalent language.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1755","type":"sequence"}]
  */
 class DeviceManagementLanguageMapping
 {
@@ -13,6 +15,7 @@ class DeviceManagementLanguageMapping
     /**
      * @ElementName broadWorksLanguage
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1755
      * @var string|null
      */
     private $broadWorksLanguage = null;
@@ -21,6 +24,7 @@ class DeviceManagementLanguageMapping
      * @ElementName deviceLanguage
      * @Type string
      * @Nillable
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1755
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $deviceLanguage = null;

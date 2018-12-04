@@ -6,19 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SearchCriteriaForwardedToNumber
  *
  * Criteria for searching for a forwarded to number.
- *         This search criteria data type is only intended to be used by the
- * commands 
+ *         This search criteria data type is only intended to be used by the commands 
  *         introduced by BW-2301. 
  *         The commands are EnterpriseUserCallForwardingSettingsGetListRequest 
  *         and GroupUserCallForwardingSettingsGetListRequest.
  *         The following Call Forwarding services are compatible for this search:
- *         Call Forwarding Always, Call Forwarding Always Secondary, Call
- * Forwarding Busy,
- *         Call Forwarding No Answer, Call Forwarding Not Reachable, Call
- * Forwarding Selective.
+ *         Call Forwarding Always, Call Forwarding Always Secondary, Call Forwarding Busy,
+ *         Call Forwarding No Answer, Call Forwarding Not Reachable, Call Forwarding Selective.
  *
  * @see EnterpriseUserCallForwardingSettingsGetListRequest
  * @see GroupUserCallForwardingSettingsGetListRequest
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:1250","type":"sequence"}]
  */
 class SearchCriteriaForwardedToNumber extends SearchCriteria
 {
@@ -26,6 +24,7 @@ class SearchCriteriaForwardedToNumber extends SearchCriteria
     /**
      * @ElementName mode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchMode
+     * @Group d37849f5e289836ccd316323a7a3799a:1250
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchMode|null
      */
     private $mode = null;
@@ -33,6 +32,7 @@ class SearchCriteriaForwardedToNumber extends SearchCriteria
     /**
      * @ElementName value
      * @Type string
+     * @Group d37849f5e289836ccd316323a7a3799a:1250
      * @var string|null
      */
     private $value = null;
@@ -40,6 +40,7 @@ class SearchCriteriaForwardedToNumber extends SearchCriteria
     /**
      * @ElementName isCaseInsensitive
      * @Type bool
+     * @Group d37849f5e289836ccd316323a7a3799a:1250
      * @var bool|null
      */
     private $isCaseInsensitive = null;

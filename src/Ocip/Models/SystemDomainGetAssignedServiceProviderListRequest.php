@@ -6,19 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemDomainGetAssignedServiceProviderListRequest
  *
  * Request a list of service providers that have a given domain assigned.
- *         If resellerId is specified, only the service providers within the
- * reseller should be returned.
- *         If reseller administrator sends the request and resellerId is not
- * specified, the administrator's resellerId is used.
+ *         If resellerId is specified, only the service providers within the reseller should be returned.
+ *         If reseller administrator sends the request and resellerId is not specified, the administrator's resellerId is used.
  *         
- *         The response is either
- * SystemDomainGetAssignedServiceProviderListResponse or ErrorResponse.
+ *         The response is either SystemDomainGetAssignedServiceProviderListResponse or ErrorResponse.
  *         
  *         The following elements are only used in AS data mode:
  *           resellerId
  *
  * @see SystemDomainGetAssignedServiceProviderListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:7915","type":"sequence"}]
  */
 class SystemDomainGetAssignedServiceProviderListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,6 +24,7 @@ class SystemDomainGetAssignedServiceProviderListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName domain
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7915
      * @var string|null
      */
     private $domain = null;
@@ -33,6 +32,8 @@ class SystemDomainGetAssignedServiceProviderListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName resellerId
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:7915
      * @var string|null
      */
     private $resellerId = null;

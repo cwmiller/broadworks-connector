@@ -6,8 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceInstanceAddProfileTrunkGroup
  *
  * Service Profile Information for a trunk group.
- *         The publicUserIdentity element is not part of
- * ServiceInstanceAddProfileTrunkGroup.
+ *         The publicUserIdentity element is not part of ServiceInstanceAddProfileTrunkGroup.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:3162","type":"sequence"}]
  */
 class ServiceInstanceAddProfileTrunkGroup
 {
@@ -15,6 +16,7 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName name
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $name = null;
@@ -22,6 +24,7 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName callingLineIdLastName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $callingLineIdLastName = null;
@@ -29,6 +32,7 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName callingLineIdFirstName
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $callingLineIdFirstName = null;
@@ -36,6 +40,8 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName hiraganaLastName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $hiraganaLastName = null;
@@ -43,6 +49,8 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName hiraganaFirstName
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $hiraganaFirstName = null;
@@ -50,6 +58,8 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $phoneNumber = null;
@@ -57,6 +67,8 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName extension
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $extension = null;
@@ -64,6 +76,8 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName password
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $password = null;
@@ -71,6 +85,8 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -78,6 +94,8 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $language = null;
@@ -85,6 +103,8 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName timeZone
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $timeZone = null;
@@ -93,6 +113,8 @@ class ServiceInstanceAddProfileTrunkGroup
      * @ElementName alias
      * @Type string
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string[]
      */
     private $alias = array(
@@ -102,6 +124,8 @@ class ServiceInstanceAddProfileTrunkGroup
     /**
      * @ElementName callingLineIdPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:3162
      * @var string|null
      */
     private $callingLineIdPhoneNumber = null;

@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAutoAttendantSubmenuGetRequest
  *
  * Request to get an Auto Attendant submenu instance.
- *         The response is either GroupAutoAttendantSubmenuGetResponse or
- * ErrorResponse.
+ *         The response is either GroupAutoAttendantSubmenuGetResponse or ErrorResponse.
  *         This request is only valid for Standard auto attendants.
  *         
  *         Replaced by: GroupAutoAttendantSubmenuGetRequest20 in AS data mode
@@ -15,6 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see GroupAutoAttendantSubmenuGetResponse
  * @see ErrorResponse
  * @see GroupAutoAttendantSubmenuGetRequest20
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:608","type":"sequence"}]
  */
 class GroupAutoAttendantSubmenuGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +22,7 @@ class GroupAutoAttendantSubmenuGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:608
      * @var string|null
      */
     private $serviceUserId = null;
@@ -29,6 +30,7 @@ class GroupAutoAttendantSubmenuGetRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName submenuId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:608
      * @var string|null
      */
     private $submenuId = null;

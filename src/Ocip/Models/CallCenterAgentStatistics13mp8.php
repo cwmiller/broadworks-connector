@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterAgentStatistics13mp8
  *
  * Contains Call Center statistics for a specified agent.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38376","type":"sequence"}]
  */
 class CallCenterAgentStatistics13mp8
 {
@@ -13,6 +15,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName agentUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38376
      * @var string|null
      */
     private $agentUserId = null;
@@ -20,6 +23,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName agentDisplayNames
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38376
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserDisplayNames|null
      */
     private $agentDisplayNames = null;
@@ -27,6 +31,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName available
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38376
      * @var bool|null
      */
     private $available = null;
@@ -34,6 +39,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName statisticsYesterday
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38376
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
      */
     private $statisticsYesterday = null;
@@ -41,6 +47,7 @@ class CallCenterAgentStatistics13mp8
     /**
      * @ElementName statisticsToday
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38376
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentDailyStatistics13mp8|null
      */
     private $statisticsToday = null;

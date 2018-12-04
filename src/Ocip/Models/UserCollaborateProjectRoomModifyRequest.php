@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCollaborateProjectRoomModifyRequest
  *
  * Request to modify collaborate room settings for a project room.
- *         The request fails when modifying collaborate room settings for instant
- * rooms or My Room.
+ *         The request fails when modifying collaborate room settings for instant rooms or My Room.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:722","type":"sequence"}]
  */
 class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:722
      * @var string|null
      */
     private $userId = null;
@@ -26,6 +27,7 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName roomId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:722
      * @var string|null
      */
     private $roomId = null;
@@ -33,6 +35,8 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName roomName
      * @Type string
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:722
      * @var string|null
      */
     private $roomName = null;
@@ -40,6 +44,8 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName attendeeNotification
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomAttendeeNotification|null
      */
     private $attendeeNotification = null;
@@ -47,6 +53,8 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName endCollaborateRoomSessionOnOwnerExit
      * @Type bool
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:722
      * @var bool|null
      */
     private $endCollaborateRoomSessionOnOwnerExit = null;
@@ -54,6 +62,8 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName ownerRequired
      * @Type bool
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:722
      * @var bool|null
      */
     private $ownerRequired = null;
@@ -61,6 +71,8 @@ class UserCollaborateProjectRoomModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName roomSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:722
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateRoomSchedule|null
      */
     private $roomSchedule = null;

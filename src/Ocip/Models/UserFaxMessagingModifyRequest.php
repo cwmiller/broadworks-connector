@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"f8afbebe4cfa9217154be81d124aa18a:75","type":"sequence"}]
  */
 class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
+     * @Group f8afbebe4cfa9217154be81d124aa18a:75
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group f8afbebe4cfa9217154be81d124aa18a:75
      * @var bool|null
      */
     private $isActive = null;
@@ -32,6 +36,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName phoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group f8afbebe4cfa9217154be81d124aa18a:75
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumber = null;
@@ -40,6 +46,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName extension
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group f8afbebe4cfa9217154be81d124aa18a:75
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $extension = null;
@@ -48,6 +56,8 @@ class UserFaxMessagingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName sipAliasList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList
      * @Nillable
+     * @Optional
+     * @Group f8afbebe4cfa9217154be81d124aa18a:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementSIPAliasList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $sipAliasList = null;

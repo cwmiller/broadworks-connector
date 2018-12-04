@@ -6,8 +6,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ReplacementOutgoingDNorSIPURIList
  *
  * A list of phone numbers or sipuris that replaces a previously configured list.
- *         By convention, an element of this type may be set nill to clear the
- * list.
+ *         By convention, an element of this type may be set nill to clear the list.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2937","type":"sequence"}]
  */
 class ReplacementOutgoingDNorSIPURIList
 {
@@ -16,6 +17,7 @@ class ReplacementOutgoingDNorSIPURIList
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2937
      * @var string[]
      */
     private $phoneNumber = array(

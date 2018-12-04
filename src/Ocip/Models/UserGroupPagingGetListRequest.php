@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserGroupPagingGetListRequest
  *
  * Get the list of all the Paging Groups a user was assigned as an originator.
- *         The response is either a UserGroupPagingGetListResponse or an
- * ErrorResponse.
+ *         The response is either a UserGroupPagingGetListResponse or an ErrorResponse.
  *
  * @see UserGroupPagingGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:569","type":"sequence"}]
  */
 class UserGroupPagingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserGroupPagingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName userId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:569
      * @var string|null
      */
     private $userId = null;

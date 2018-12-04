@@ -7,13 +7,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Device Management System device type options.
  *
- *         Note: For the elements listed below, when device configuration is set to
- * deviceManagement, those elements apply to the creation of the Polycom Phone
- * Services directory file only.
- *               For all other files, they are not used. Those elements are instead
- * configured on a per-file basis at the Device Type File level.
- *               When device configuration is set to legacy, those elements apply
- * to all configuration files.
+ *         Note: For the elements listed below, when device configuration is set to deviceManagement, those elements apply to the creation of the Polycom Phone Services directory file only.
+ *               For all other files, they are not used. Those elements are instead configured on a per-file basis at the Device Type File level.
+ *               When device configuration is set to legacy, those elements apply to all configuration files.
  *         
  *               useHttpDigestAuthentication
  *               macBasedFileAuthentication
@@ -24,6 +20,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see macInNonRequest
  * @see macFormatInNonRequest
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1685","type":"sequence"}]
  */
 class DeviceManagementDeviceTypeOptionsRead21sp1
 {
@@ -31,6 +28,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName deviceAccessProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceAccessProtocol16|null
      */
     private $deviceAccessProtocol = null;
@@ -38,6 +36,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName tagMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var \CWM\BroadWorksConnector\Ocip\Models\DeviceManagementTagMode|null
      */
     private $tagMode = null;
@@ -45,6 +44,8 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName tagSet
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var string|null
      */
     private $tagSet = null;
@@ -52,6 +53,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName allowDeviceProfileCustomTagSet
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var bool|null
      */
     private $allowDeviceProfileCustomTagSet = null;
@@ -59,6 +61,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName allowGroupCustomTagSet
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var bool|null
      */
     private $allowGroupCustomTagSet = null;
@@ -66,6 +69,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName sendEmailUponResetFailure
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var bool|null
      */
     private $sendEmailUponResetFailure = null;
@@ -73,6 +77,8 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName deviceAccessNetAddress
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var string|null
      */
     private $deviceAccessNetAddress = null;
@@ -80,6 +86,8 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName deviceAccessPort
      * @Type int
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var int|null
      */
     private $deviceAccessPort = null;
@@ -87,6 +95,8 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName deviceAccessContext
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var string|null
      */
     private $deviceAccessContext = null;
@@ -94,6 +104,8 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName deviceAccessURI
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var string|null
      */
     private $deviceAccessURI = null;
@@ -101,6 +113,8 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName defaultDeviceLanguage
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var string|null
      */
     private $defaultDeviceLanguage = null;
@@ -108,6 +122,8 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName defaultDeviceEncoding
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var string|null
      */
     private $defaultDeviceEncoding = null;
@@ -115,6 +131,8 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName accessDeviceCredentials
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var string|null
      */
     private $accessDeviceCredentials = null;
@@ -122,6 +140,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName useHttpDigestAuthentication
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var bool|null
      */
     private $useHttpDigestAuthentication = null;
@@ -129,6 +148,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName macBasedFileAuthentication
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var bool|null
      */
     private $macBasedFileAuthentication = null;
@@ -136,6 +156,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName userNamePasswordFileAuthentication
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var bool|null
      */
     private $userNamePasswordFileAuthentication = null;
@@ -143,6 +164,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName macInNonRequestURI
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var bool|null
      */
     private $macInNonRequestURI = null;
@@ -150,6 +172,7 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName macInCert
      * @Type bool
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var bool|null
      */
     private $macInCert = null;
@@ -157,6 +180,8 @@ class DeviceManagementDeviceTypeOptionsRead21sp1
     /**
      * @ElementName macFormatInNonRequestURI
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1685
      * @var string|null
      */
     private $macFormatInNonRequestURI = null;

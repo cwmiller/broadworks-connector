@@ -5,23 +5,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDeviceTypeCustomTagAddRequest
  *
- * Request to add a static configuration tag for an access device type used in a
- * service provider.
+ * Request to add a static configuration tag for an access device type used in a service provider.
  *         
  *         The following elements are only used in XS data mode:
  *           isTagValueEncrypted, use value "false" in AS data mode
  *           
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           tagValueToEncrypt      
  *
- *         The tagValueToEncrypt element can only be used by a system
- * administrator.
+ *         The tagValueToEncrypt element can only be used by a system administrator.
  *         
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2413","type":"sequence","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2418","type":"choice"}]}]
  */
 class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,6 +27,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2413
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +35,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2413
      * @var string|null
      */
     private $deviceType = null;
@@ -43,6 +43,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName tagName
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2413
      * @var string|null
      */
     private $tagName = null;
@@ -50,6 +51,7 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName isTagValueEncrypted
      * @Type bool
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2413
      * @var bool|null
      */
     private $isTagValueEncrypted = null;
@@ -57,6 +59,8 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName tagValue
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2418
      * @var string|null
      */
     private $tagValue = null;
@@ -64,6 +68,8 @@ class ServiceProviderDeviceTypeCustomTagAddRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName tagValueToEncrypt
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2418
      * @var string|null
      */
     private $tagValueToEncrypt = null;

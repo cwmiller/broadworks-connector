@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallForwardingSelectiveGetCriteriaResponse16
  *
  * Response to the UserCallForwardingSelectiveGetCriteriaRequest16.
- *         Replaced by: UserCallForwardingSelectiveGetCriteriaResponse21 in AS data
- * mode
+ *         Replaced by: UserCallForwardingSelectiveGetCriteriaResponse21 in AS data mode
  *
  * @see UserCallForwardingSelectiveGetCriteriaRequest16
  * @see UserCallForwardingSelectiveGetCriteriaResponse21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:4706","type":"sequence"}]
  */
 class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,8 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4706
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -25,6 +27,8 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4706
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -32,6 +36,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
     /**
      * @ElementName forwardToNumberSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4706
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallForwardingSelectiveNumberSelection16|null
      */
     private $forwardToNumberSelection = null;
@@ -39,6 +44,8 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
     /**
      * @ElementName forwardToPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4706
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -46,6 +53,7 @@ class UserCallForwardingSelectiveGetCriteriaResponse16 extends \CWM\BroadWorksCo
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4706
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

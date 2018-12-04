@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListRequest
  *
- * Get a list of Communication Barring Incoming Criteria assigned to a service
- * provider.
- *         The response is either a
- * ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListResponse 
+ * Get a list of Communication Barring Incoming Criteria assigned to a service provider.
+ *         The response is either a ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListResponse 
  *         or an ErrorResponse.
  *
  * @see ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1656","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class ServiceProviderCommunicationBarringIncomingCriteriaGetAssignedListRequest 
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1656
      * @var string|null
      */
     private $serviceProviderId = null;

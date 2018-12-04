@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:16570","type":"sequence"}]
  */
 class SystemTreatmentMappingInternalReleaseCauseDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemTreatmentMappingInternalReleaseCauseDeleteRequest extends \CWM\Broad
     /**
      * @ElementName internalReleaseCause
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:16570
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     private $internalReleaseCause = null;

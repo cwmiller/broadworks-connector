@@ -7,10 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This is the configuration parameters for Simultaneous Ring Personal  service
  *         	
- *         	Contains a criteria table with column heading: "Is Active", "Criteria
- * Name", "Time Schedule", "Holiday Schedule", "Calls From" and "Blacklisted".
+ *         	Contains a criteria table with column heading: "Is Active", "Criteria Name", "Time Schedule", "Holiday Schedule", "Calls From" and "Blacklisted".
  *         	
  *         	The "Calls From" column is a string containing call numbers
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3761","type":"sequence"}]
  */
 class ProfileAndServiceSimultaneousRingPersonalInfo
 {
@@ -18,6 +19,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3761
      * @var bool|null
      */
     private $isActive = null;
@@ -25,6 +27,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     /**
      * @ElementName doNotRingIfOnCall
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3761
      * @var bool|null
      */
     private $doNotRingIfOnCall = null;
@@ -33,6 +36,8 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
      * @ElementName simultaneousRingNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber
      * @Array
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3761
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingNumber[]
      */
     private $simultaneousRingNumber = array(
@@ -42,6 +47,7 @@ class ProfileAndServiceSimultaneousRingPersonalInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:3761
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupCustomContactDirectoryModifyRequest17
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7587","type":"sequence"}]
  */
 class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7587
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7587
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +36,7 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName name
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7587
      * @var string|null
      */
     private $name = null;
@@ -40,6 +44,8 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName newName
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7587
      * @var string|null
      */
     private $newName = null;
@@ -48,6 +54,8 @@ class GroupCustomContactDirectoryModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName userIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7587
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $userIdList = null;

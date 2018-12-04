@@ -11,6 +11,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 			"Time Schedule", "Calls From", "Blacklisted", "Holiday Schedule".
  * 			
  * 			The "Calls From" column is a string containing call numbers
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3601","type":"sequence"}]
  */
 class ProfileAndServiceCustomRingbackInfo
 {
@@ -18,6 +20,7 @@ class ProfileAndServiceCustomRingbackInfo
     /**
      * @ElementName criteriaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:3601
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $criteriaTable = null;

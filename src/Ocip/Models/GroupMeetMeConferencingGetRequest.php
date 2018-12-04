@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupMeetMeConferencingGetRequest
  *
  * Request the group level data associated with Meet-Me Conferencing functions.
- *         The response is either a GroupMeetMeConferencingGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupMeetMeConferencingGetResponse or an ErrorResponse.
  *
  * @see GroupMeetMeConferencingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:237","type":"sequence"}]
  */
 class GroupMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:237
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupMeetMeConferencingGetRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:237
      * @var string|null
      */
     private $groupId = null;

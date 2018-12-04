@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetingMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:30820","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetingMenuKeys
 {
@@ -11,6 +13,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
     /**
      * @ElementName activateConfGreeting
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30820
      * @var string|null
      */
     private $activateConfGreeting = null;
@@ -18,6 +22,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
     /**
      * @ElementName deactivateConfGreeting
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30820
      * @var string|null
      */
     private $deactivateConfGreeting = null;
@@ -25,6 +31,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
     /**
      * @ElementName recordNewConfGreeting
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30820
      * @var string|null
      */
     private $recordNewConfGreeting = null;
@@ -32,6 +40,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
     /**
      * @ElementName listenToCurrentConfGreeting
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30820
      * @var string|null
      */
     private $listenToCurrentConfGreeting = null;
@@ -39,6 +49,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30820
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -46,6 +57,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse19sp1ConferenceGreetin
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:30820
      * @var string|null
      */
     private $repeatMenu = null;

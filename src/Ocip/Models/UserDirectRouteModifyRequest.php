@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserDirectRouteModifyRequest
  *
- * Modify the direct route setting and the list of DTGs/Trunk Identities assigned
- * to a user.
+ * Modify the direct route setting and the list of DTGs/Trunk Identities assigned to a user.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"a78f4eda2a1b6844d5a0639c6940a98f:75","type":"sequence"}]
  */
 class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName userId
      * @Type string
+     * @Group a78f4eda2a1b6844d5a0639c6940a98f:75
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,8 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName outgoingDTGPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy
+     * @Optional
+     * @Group a78f4eda2a1b6844d5a0639c6940a98f:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingDTGPolicy|null
      */
     private $outgoingDTGPolicy = null;
@@ -32,6 +35,8 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName outgoingTrunkIdentityPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy
+     * @Optional
+     * @Group a78f4eda2a1b6844d5a0639c6940a98f:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteOutgoingTrunkIdentityPolicy|null
      */
     private $outgoingTrunkIdentityPolicy = null;
@@ -40,6 +45,8 @@ class UserDirectRouteModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName directRouteIdentityList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList
      * @Nillable
+     * @Optional
+     * @Group a78f4eda2a1b6844d5a0639c6940a98f:75
      * @var \CWM\BroadWorksConnector\Ocip\Models\DirectRouteReplacementIdentityList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $directRouteIdentityList = null;

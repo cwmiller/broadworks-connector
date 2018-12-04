@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPreAlertingAnnouncementGetCriteriaResponse
  *
  * Response to the UserPreAlertingAnnouncementGetCriteriaRequest.
- *         Replaced by: UserPreAlertingAnnouncementGetCriteriaResponse21 in AS data
- * mode
+ *         Replaced by: UserPreAlertingAnnouncementGetCriteriaResponse21 in AS data mode
  *
  * @see UserPreAlertingAnnouncementGetCriteriaRequest
  * @see UserPreAlertingAnnouncementGetCriteriaResponse21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5335","type":"sequence"}]
  */
 class UserPreAlertingAnnouncementGetCriteriaResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,8 @@ class UserPreAlertingAnnouncementGetCriteriaResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5335
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -25,6 +27,8 @@ class UserPreAlertingAnnouncementGetCriteriaResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5335
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -32,6 +36,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5335
      * @var bool|null
      */
     private $blacklisted = null;
@@ -39,6 +44,7 @@ class UserPreAlertingAnnouncementGetCriteriaResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5335
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;

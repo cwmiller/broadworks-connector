@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest
  *
- * Modify the enterprise level data associated with Call Center Agents Unavailable
- * Code Settings.
+ * Modify the enterprise level data associated with Call Center Agents Unavailable Code Settings.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:748","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:748
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,8 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
     /**
      * @ElementName enableAgentUnavailableCodes
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:748
      * @var bool|null
      */
     private $enableAgentUnavailableCodes = null;
@@ -33,6 +36,8 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @ElementName defaultAgentUnavailableCodeOnDND
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:748
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCodeOnDND = null;
@@ -41,6 +46,8 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @ElementName defaultAgentUnavailableCodeOnPersonalCalls
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:748
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCodeOnPersonalCalls = null;
@@ -49,6 +56,8 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @ElementName defaultAgentUnavailableCodeOnConsecutiveBounces
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:748
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCodeOnConsecutiveBounces = null;
@@ -57,6 +66,8 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @ElementName defaultAgentUnavailableCodeOnNotReachable
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:748
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCodeOnNotReachable = null;
@@ -64,6 +75,8 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
     /**
      * @ElementName forceUseOfAgentUnavailableCodes
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:748
      * @var bool|null
      */
     private $forceUseOfAgentUnavailableCodes = null;
@@ -72,6 +85,8 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @ElementName defaultAgentUnavailableCode
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:748
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $defaultAgentUnavailableCode = null;
@@ -80,6 +95,8 @@ class EnterpriseCallCenterAgentUnavailableCodeSettingsModifyRequest extends \CWM
      * @ElementName codeStateList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentUnavailableCodeStateModify
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:748
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAgentUnavailableCodeStateModify[]
      */
     private $codeStateList = array(

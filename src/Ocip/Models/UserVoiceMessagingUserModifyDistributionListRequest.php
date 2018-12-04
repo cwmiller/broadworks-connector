@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1941","type":"sequence"}]
  */
 class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1941
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,7 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
     /**
      * @ElementName listId
      * @Type int
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1941
      * @var int|null
      */
     private $listId = null;
@@ -32,6 +35,8 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1941
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -40,6 +45,8 @@ class UserVoiceMessagingUserModifyDistributionListRequest extends \CWM\BroadWork
      * @ElementName phoneNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1941
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementOutgoingDNorSIPURIList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $phoneNumberList = null;

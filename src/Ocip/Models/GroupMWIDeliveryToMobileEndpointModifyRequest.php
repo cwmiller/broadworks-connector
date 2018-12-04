@@ -8,11 +8,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Modify the group level MWI custom notifications settings.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         
- *         If the request is executed by a group administrator and modifies the
- * useSettingLevel, the request is rejected.
+ *         If the request is executed by a group administrator and modifies the useSettingLevel, the request is rejected.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:191","type":"sequence"}]
  */
 class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:191
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName groupId
      * @Type string
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:191
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,8 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName useSettingLevel
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel
+     * @Optional
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointGroupSettingLevel|null
      */
     private $useSettingLevel = null;
@@ -42,6 +46,8 @@ class GroupMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConne
      * @ElementName templateActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation
      * @Array
+     * @Optional
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:191
      * @var \CWM\BroadWorksConnector\Ocip\Models\MWIDeliveryToMobileEndpointTemplateActivation[]
      */
     private $templateActivation = array(

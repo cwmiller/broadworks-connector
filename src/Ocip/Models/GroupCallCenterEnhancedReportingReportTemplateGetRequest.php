@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterEnhancedReportingReportTemplateGetRequest
  *
  * Request to get a group level call center report template.
- *         The response is either a
- * GroupCallCenterEnhancedReportingReportTemplateGetResponse or an ErrorResponse.
+ *         The response is either a GroupCallCenterEnhancedReportingReportTemplateGetResponse or an ErrorResponse.
  *
  * @see GroupCallCenterEnhancedReportingReportTemplateGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:3165","type":"sequence"}]
  */
 class GroupCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\Broa
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3165
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\Broa
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3165
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupCallCenterEnhancedReportingReportTemplateGetRequest extends \CWM\Broa
     /**
      * @ElementName name
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:3165
      * @var string|null
      */
     private $name = null;

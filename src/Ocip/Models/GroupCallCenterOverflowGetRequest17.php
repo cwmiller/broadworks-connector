@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterOverflowGetRequest17
  *
  * Get a call center's overflow settings.
- *         The response is either a GroupCallCenterOverflowGetResponse17 or an
- * ErrorResponse.
+ *         The response is either a GroupCallCenterOverflowGetResponse17 or an ErrorResponse.
  *
  * @see GroupCallCenterOverflowGetResponse17
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:5574","type":"sequence"}]
  */
 class GroupCallCenterOverflowGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallCenterOverflowGetRequest17 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:5574
      * @var string|null
      */
     private $serviceUserId = null;

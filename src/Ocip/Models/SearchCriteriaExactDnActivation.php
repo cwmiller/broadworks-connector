@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SearchCriteriaExactDnActivation
  *
  * Criteria for searching for a particular Dn activation state.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:797","type":"sequence"}]
  */
 class SearchCriteriaExactDnActivation extends SearchCriteria
 {
@@ -13,6 +15,7 @@ class SearchCriteriaExactDnActivation extends SearchCriteria
     /**
      * @ElementName activated
      * @Type bool
+     * @Group d37849f5e289836ccd316323a7a3799a:797
      * @var bool|null
      */
     private $activated = null;

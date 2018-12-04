@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemCallingNameRetrievalModifyRequest16sp1
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:18303","type":"sequence"}]
  */
 class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName queryTimerMilliSeconds
      * @Type int
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18303
      * @var int|null
      */
     private $queryTimerMilliSeconds = null;
@@ -28,6 +31,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serverNetAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18303
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverNetAddress = null;
@@ -36,6 +41,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
      * @ElementName serverPort
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18303
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serverPort = null;
@@ -43,6 +50,8 @@ class SystemCallingNameRetrievalModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serverTransportProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:18303
      * @var \CWM\BroadWorksConnector\Ocip\Models\TransportProtocol|null
      */
     private $serverTransportProtocol = null;

@@ -7,6 +7,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * CommPilot Express SR type to transfer to voice mail or forward to a number
  *         with certain exceptions used in the context of a modify.
+ *
+ * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:203","type":"sequence"}]
  */
 class CommPilotExpressSRRedirectionWithExceptionModify
 {
@@ -14,6 +16,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
     /**
      * @ElementName sendCallsToVoiceMailExceptExcludedNumbers
      * @Type bool
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:203
      * @var bool|null
      */
     private $sendCallsToVoiceMailExceptExcludedNumbers = null;
@@ -22,6 +26,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * @ElementName excludedPhoneNumber01
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:203
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber01 = null;
@@ -30,6 +36,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * @ElementName excludedPhoneNumber02
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:203
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber02 = null;
@@ -38,6 +46,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * @ElementName excludedPhoneNumber03
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:203
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $excludedPhoneNumber03 = null;
@@ -46,6 +56,8 @@ class CommPilotExpressSRRedirectionWithExceptionModify
      * @ElementName forwardExcludedNumbersTo
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 0a20cd20692e84aeff051c5071901f47:203
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardExcludedNumbersTo = null;

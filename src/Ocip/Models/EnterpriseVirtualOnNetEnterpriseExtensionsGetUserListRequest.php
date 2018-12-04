@@ -6,15 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest
  *
  * Request the list of Virtual On-Net users in an Enterprise.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a 
- * EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListResponse or 
+ *         The response is either a  EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListResponse or 
  *         an ErrorResponse.
  *
  * @see EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"73530229e066070baac4c09dac256d69:55","type":"sequence"}]
  */
 class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 73530229e066070baac4c09dac256d69:55
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +29,8 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:55
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -37,6 +39,8 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -47,6 +51,8 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -57,6 +63,8 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -67,6 +75,8 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @ElementName searchCriteriaGroupLocationCode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupLocationCode[]
      */
     private $searchCriteriaGroupLocationCode = array(
@@ -77,6 +87,8 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -87,6 +99,8 @@ class EnterpriseVirtualOnNetEnterpriseExtensionsGetUserListRequest extends \CWM\
      * @ElementName searchCriteriaExactVirtualOnNetCallTypeName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName
      * @Array
+     * @Optional
+     * @Group 73530229e066070baac4c09dac256d69:55
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactVirtualOnNetCallTypeName[]
      */
     private $searchCriteriaExactVirtualOnNetCallTypeName = array(

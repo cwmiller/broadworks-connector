@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallCenterGetInstanceStatisticsReportingResponse16
  *
  * Contains Call Center statistics reporting settings.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:4684","type":"sequence"}]
  */
 class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -13,6 +15,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     /**
      * @ElementName generateDailyReport
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4684
      * @var bool|null
      */
     private $generateDailyReport = null;
@@ -20,6 +23,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     /**
      * @ElementName collectionPeriodMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4684
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsCollectionPeriodMinutes|null
      */
     private $collectionPeriodMinutes = null;
@@ -27,6 +31,8 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     /**
      * @ElementName reportingEmailAddress1
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4684
      * @var string|null
      */
     private $reportingEmailAddress1 = null;
@@ -34,6 +40,8 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     /**
      * @ElementName reportingEmailAddress2
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4684
      * @var string|null
      */
     private $reportingEmailAddress2 = null;
@@ -41,6 +49,7 @@ class GroupCallCenterGetInstanceStatisticsReportingResponse16 extends \CWM\Broad
     /**
      * @ElementName statisticsSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource
+     * @Group 1a79c7896cb04feac6eff47a5321756e:4684
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterStatisticsSource|null
      */
     private $statisticsSource = null;

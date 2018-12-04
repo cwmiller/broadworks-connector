@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingGetAvailableTargetListResponse
  *
  * Response to the GroupGroupPagingGetAvailableTargetListRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name" and "Hiragana First Name",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name" and "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupGroupPagingGetAvailableTargetListRequest
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:238","type":"sequence"}]
  */
 class GroupGroupPagingGetAvailableTargetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class GroupGroupPagingGetAvailableTargetListResponse extends \CWM\BroadWorksConn
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:238
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

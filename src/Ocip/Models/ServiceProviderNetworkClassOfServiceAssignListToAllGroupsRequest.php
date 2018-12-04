@@ -6,8 +6,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest
  *
  * Assign a list of Network Classes of Service to all groups with in a 
- *         service provider. If it is the first assigned Network Class of Service
- * in 
+ *         service provider. If it is the first assigned Network Class of Service in 
  *         the group, it will be set as the default one.
  *         The Network Classes of Service must be currently
  *         assigned to the service provider. The response is either a 
@@ -15,6 +14,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3932","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +22,7 @@ class ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest extends \
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3932
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +31,7 @@ class ServiceProviderNetworkClassOfServiceAssignListToAllGroupsRequest extends \
      * @ElementName networkClassOfService
      * @Type string
      * @Array
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3932
      * @var string[]
      */
     private $networkClassOfService = array(

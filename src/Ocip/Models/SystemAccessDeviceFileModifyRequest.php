@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see SystemAccessDeviceFileModifyRequest14sp8
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:16995","type":"sequence"}]
  */
 class SystemAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class SystemAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16995
      * @var string|null
      */
     private $deviceName = null;
@@ -26,6 +28,7 @@ class SystemAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileType
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16995
      * @var string|null
      */
     private $fileType = null;
@@ -33,6 +36,8 @@ class SystemAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16995
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -40,6 +45,8 @@ class SystemAccessDeviceFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName uploadFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileResource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:16995
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileResource|null
      */
     private $uploadFile = null;

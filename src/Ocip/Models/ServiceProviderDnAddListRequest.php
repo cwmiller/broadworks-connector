@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3074","type":"sequence"}]
  */
 class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3074
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,8 @@ class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3074
      * @var string[]
      */
     private $phoneNumber = array(
@@ -36,6 +40,8 @@ class ServiceProviderDnAddListRequest extends \CWM\BroadWorksConnector\Ocip\Mode
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3074
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

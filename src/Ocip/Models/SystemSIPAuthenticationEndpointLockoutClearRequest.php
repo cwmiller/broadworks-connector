@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14527","type":"sequence"}]
  */
 class SystemSIPAuthenticationEndpointLockoutClearRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class SystemSIPAuthenticationEndpointLockoutClearRequest extends \CWM\BroadWorks
      * @ElementName userEndpointKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey
      * @Array
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14527
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserEndpointKey[]
      */
     private $userEndpointKey = array(

@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserSelectiveCallRejectionGetCriteriaRequest16sp1.
  *         Private Phone Numbers are omitted from the fromDnCriteria.
- *         Replaced by: UserSelectiveCallRejectionGetCriteriaResponse21 in AS data
- * mode
+ *         Replaced by: UserSelectiveCallRejectionGetCriteriaResponse21 in AS data mode
  *
  * @see UserSelectiveCallRejectionGetCriteriaRequest16sp1
  * @see UserSelectiveCallRejectionGetCriteriaResponse21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5557","type":"sequence"}]
  */
 class UserSelectiveCallRejectionGetCriteriaResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,8 @@ class UserSelectiveCallRejectionGetCriteriaResponse16sp1 extends \CWM\BroadWorks
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5557
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -26,6 +28,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16sp1 extends \CWM\BroadWorks
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5557
      * @var \CWM\BroadWorksConnector\Ocip\Models\SelectiveCallRejectionCriteriaCallType|null
      */
     private $fromDnCriteria = null;
@@ -33,6 +36,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16sp1 extends \CWM\BroadWorks
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5557
      * @var bool|null
      */
     private $blacklisted = null;
@@ -40,6 +44,8 @@ class UserSelectiveCallRejectionGetCriteriaResponse16sp1 extends \CWM\BroadWorks
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5557
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -47,6 +53,7 @@ class UserSelectiveCallRejectionGetCriteriaResponse16sp1 extends \CWM\BroadWorks
     /**
      * @ElementName private
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5557
      * @var bool|null
      */
     private $private = null;

@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1326","type":"sequence","children":[{"id":"b561eca19800e0898f471e5e91eb3baa:1334","type":"choice"}]}]
  */
 class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1326
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName locationDialingCode
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1326
      * @var string|null
      */
     private $locationDialingCode = null;
@@ -31,6 +34,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName minExtensionLength
      * @Type int
+     * @Group b561eca19800e0898f471e5e91eb3baa:1326
      * @var int|null
      */
     private $minExtensionLength = null;
@@ -38,6 +42,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName maxExtensionLength
      * @Type int
+     * @Group b561eca19800e0898f471e5e91eb3baa:1326
      * @var int|null
      */
     private $maxExtensionLength = null;
@@ -45,6 +50,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1326
      * @var string|null
      */
     private $description = null;
@@ -52,6 +59,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName routeGroupId
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1326
      * @var string|null
      */
     private $routeGroupId = null;
@@ -59,6 +68,7 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName policySelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection
+     * @Group b561eca19800e0898f471e5e91eb3baa:1326
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNPolicySelection|null
      */
     private $policySelection = null;
@@ -67,6 +77,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName digitManipulation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1334
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulation[]
      */
     private $digitManipulation = array(
@@ -76,6 +88,8 @@ class EnterpriseVoiceVPNAddPolicyRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName treatmentId
      * @Type string
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1334
      * @var string|null
      */
     private $treatmentId = null;

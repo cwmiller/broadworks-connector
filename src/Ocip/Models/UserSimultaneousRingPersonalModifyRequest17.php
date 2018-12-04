@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"05b901badf29b93ba4e1e92151c34396:177","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
+     * @Group 05b901badf29b93ba4e1e92151c34396:177
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,8 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 05b901badf29b93ba4e1e92151c34396:177
      * @var bool|null
      */
     private $isActive = null;
@@ -31,6 +35,8 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
     /**
      * @ElementName doNotRingIfOnCall
      * @Type bool
+     * @Optional
+     * @Group 05b901badf29b93ba4e1e92151c34396:177
      * @var bool|null
      */
     private $doNotRingIfOnCall = null;
@@ -39,6 +45,8 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @ElementName simultaneousRingNumberList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList
      * @Nillable
+     * @Optional
+     * @Group 05b901badf29b93ba4e1e92151c34396:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\SimultaneousRingReplacementNumberList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $simultaneousRingNumberList = null;
@@ -47,6 +55,8 @@ class UserSimultaneousRingPersonalModifyRequest17 extends \CWM\BroadWorksConnect
      * @ElementName criteriaActivation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation
      * @Array
+     * @Optional
+     * @Group 05b901badf29b93ba4e1e92151c34396:177
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaActivation[]
      */
     private $criteriaActivation = array(

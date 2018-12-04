@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCallPickupGetInstanceListRequest
  *
  * Request to get a list of Call Pickup instances within a group.
- *         The response is either GroupCallPickupGetInstanceListResponse or
- * ErrorResponse.
+ *         The response is either GroupCallPickupGetInstanceListResponse or ErrorResponse.
  *
  * @see GroupCallPickupGetInstanceListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1d2c67d4a97adca57d9953b2182b4b0d:128","type":"sequence"}]
  */
 class GroupCallPickupGetInstanceListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupCallPickupGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:128
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupCallPickupGetInstanceListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1d2c67d4a97adca57d9953b2182b4b0d:128
      * @var string|null
      */
     private $groupId = null;

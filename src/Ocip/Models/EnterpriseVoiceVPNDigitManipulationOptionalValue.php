@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseVoiceVPNDigitManipulationOptionalValue
  *
  * Enterprise Voice VPN Digit Manipulation Entry that optionally has a value.
+ *
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1604","type":"sequence"}]
  */
 class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVPNDigitManipulation
 {
@@ -13,6 +15,7 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
     /**
      * @ElementName operation
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue
+     * @Group b561eca19800e0898f471e5e91eb3baa:1604
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseVoiceVPNDigitManipulationOperationOptionalValue|null
      */
     private $operation = null;
@@ -21,6 +24,8 @@ class EnterpriseVoiceVPNDigitManipulationOptionalValue extends EnterpriseVoiceVP
      * @ElementName value
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1604
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $value = null;

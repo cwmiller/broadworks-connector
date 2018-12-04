@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseCallCenterCurrentAndPastAgentGetListResponse
  *
  * Response to the EnterpriseCallCenterCurrentAndPastAgentGetListRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", "Hiragana First Name",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see EnterpriseCallCenterCurrentAndPastAgentGetListRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:968","type":"sequence"}]
  */
 class EnterpriseCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class EnterpriseCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadW
     /**
      * @ElementName agentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentUserTable = null;
@@ -25,6 +26,7 @@ class EnterpriseCallCenterCurrentAndPastAgentGetListResponse extends \CWM\BroadW
     /**
      * @ElementName deletedAgentUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:968
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deletedAgentUserTable = null;

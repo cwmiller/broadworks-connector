@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SearchCriteriaExactServiceType
  *
  * Criteria for searching for a particular fully specified service type.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:1052","type":"sequence"}]
  */
 class SearchCriteriaExactServiceType extends SearchCriteria
 {
@@ -13,6 +15,7 @@ class SearchCriteriaExactServiceType extends SearchCriteria
     /**
      * @ElementName serviceType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceType
+     * @Group d37849f5e289836ccd316323a7a3799a:1052
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceType|null
      */
     private $serviceType = null;

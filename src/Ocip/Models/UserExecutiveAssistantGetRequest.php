@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserExecutiveAssistantGetRequest
  *
  * Get the setting of an executive assistant.
- *         The response is either UserExecutiveAssistantGetResponse or
- * ErrorResponse.
+ *         The response is either UserExecutiveAssistantGetResponse or ErrorResponse.
  *
  * @see UserExecutiveAssistantGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"970d474b574fc7b8f11edd02aa83e017:42","type":"sequence"}]
  */
 class UserExecutiveAssistantGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserExecutiveAssistantGetRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
+     * @Group 970d474b574fc7b8f11edd02aa83e017:42
      * @var string|null
      */
     private $userId = null;

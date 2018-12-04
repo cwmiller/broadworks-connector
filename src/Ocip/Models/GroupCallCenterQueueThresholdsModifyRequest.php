@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5186","type":"sequence"}]
  */
 class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var string|null
      */
     private $serviceUserId = null;
@@ -24,6 +26,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var bool|null
      */
     private $isActive = null;
@@ -32,6 +36,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdCurrentCallsInQueueYellow
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentCallsInQueueYellow = null;
@@ -40,6 +46,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdCurrentCallsInQueueRed
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentCallsInQueueRed = null;
@@ -48,6 +56,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdCurrentLongestWaitingCallYellow
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentLongestWaitingCallYellow = null;
@@ -56,6 +66,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdCurrentLongestWaitingCallRed
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdCurrentLongestWaitingCallRed = null;
@@ -64,6 +76,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdAverageEstimatedWaitTimeYellow
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageEstimatedWaitTimeYellow = null;
@@ -72,6 +86,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdAverageEstimatedWaitTimeRed
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageEstimatedWaitTimeRed = null;
@@ -80,6 +96,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdAverageHandlingTimeYellow
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageHandlingTimeYellow = null;
@@ -88,6 +106,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdAverageHandlingTimeRed
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageHandlingTimeRed = null;
@@ -96,6 +116,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdAverageSpeedOfAnswerYellow
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageSpeedOfAnswerYellow = null;
@@ -104,6 +126,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName thresholdAverageSpeedOfAnswerRed
      * @Type int
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var int|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $thresholdAverageSpeedOfAnswerRed = null;
@@ -111,6 +135,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName enableNotificationEmail
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var bool|null
      */
     private $enableNotificationEmail = null;
@@ -119,6 +145,8 @@ class GroupCallCenterQueueThresholdsModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName notificationEmailAddressList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList
      * @Nillable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5186
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterQueueThresholdReplacementNotificationEmailList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $notificationEmailAddressList = null;

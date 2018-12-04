@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDnGetAvailableRangesListResponse
  *
  * Response to the GroupDnGetAvailableRangesListRequest.
- *         The response contains the list of group DNs that are not assigned to
- * user, service instances or IMRN pool.
- *         The Dns are returned in a list of DNs or DN ranges and formated in E164
- * format for display.
+ *         The response contains the list of group DNs that are not assigned to user, service instances or IMRN pool.
+ *         The Dns are returned in a list of DNs or DN ranges and formated in E164 format for display.
  *
  * @see GroupDnGetAvailableRangesListRequest
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:4182","type":"sequence"}]
  */
 class GroupDnGetAvailableRangesListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +19,8 @@ class GroupDnGetAvailableRangesListResponse extends \CWM\BroadWorksConnector\Oci
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:4182
      * @var string[]
      */
     private $phoneNumber = array(

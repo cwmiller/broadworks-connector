@@ -6,32 +6,21 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeConsolidatedModifyInstanceRequest
  *
  * Request to modify a Collaborate bridge.
- *         The request fails when the collaborateOwnerUserIdList is included in the
- * request for the default collaborate bridge.
- *         The request fails when the supportOutdial is included in the request and
- * the system-level collaborate supportOutdial setting is disabled.
- *         When phone numbers are un-assigned from the user, the unused numbers may
- * be un-assigned from the group and service provider. If UnassignPhoneNumbersLevel
- * is set to 'Group', the user's primary phone number, fax number and any alternate
- * numbers, will be un-assigned from the group if the command is executed by a
- * service provider administrator or above.
- *         When set to 'Service Provider', they will be un-assigned from the group
- * and service provider if the command is executed by a provisioning administrator
- * or above.
+ *         The request fails when the collaborateOwnerUserIdList is included in the request for the default collaborate bridge.
+ *         The request fails when the supportOutdial is included in the request and the system-level collaborate supportOutdial setting is disabled.
+ *         When phone numbers are un-assigned from the user, the unused numbers may be un-assigned from the group and service provider. If UnassignPhoneNumbersLevel is set to 'Group', the user's primary phone number, fax number and any alternate numbers, will be un-assigned from the group if the command is executed by a service provider administrator or above.
+ *         When set to 'Service Provider', they will be un-assigned from the group and service provider if the command is executed by a provisioning administrator or above.
  *         When omitted, the number(s) will be left assigned to the group.
- *         An ErrorResponse will be returned if any number cannot be unassigned
- * because of insufficient privilege.
+ *         An ErrorResponse will be returned if any number cannot be unassigned because of insufficient privilege.
  *         
- *         If the phoneNumber has not been assigned to the group and
- * addPhoneNumberToGroup is set to true, it will be added to group if needed if the
- * command is executed by a service provider administrator and above. The command
- * will fail otherwise.
+ *         If the phoneNumber has not been assigned to the group and addPhoneNumberToGroup is set to true, it will be added to group if needed if the command is executed by a service provider administrator and above. The command will fail otherwise.
  *         
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see ErrorResponse
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:157","type":"sequence"}]
  */
 class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -39,6 +28,7 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var string|null
      */
     private $serviceUserId = null;
@@ -46,6 +36,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
     /**
      * @ElementName unassignPhoneNumbers
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnassignPhoneNumbersLevel|null
      */
     private $unassignPhoneNumbers = null;
@@ -53,6 +45,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
     /**
      * @ElementName addPhoneNumberToGroup
      * @Type bool
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var bool|null
      */
     private $addPhoneNumberToGroup = null;
@@ -60,6 +54,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceModifyProfile|null
      */
     private $serviceInstanceProfile = null;
@@ -67,6 +63,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
     /**
      * @ElementName maximumBridgeParticipants
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     private $maximumBridgeParticipants = null;
@@ -74,6 +72,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -81,6 +81,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -88,6 +90,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
     /**
      * @ElementName supportOutdial
      * @Type bool
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var bool|null
      */
     private $supportOutdial = null;
@@ -96,6 +100,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * @ElementName collaborateOwnerUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateOwnerUserIdList = null;
@@ -104,6 +110,8 @@ class GroupCollaborateBridgeConsolidatedModifyInstanceRequest extends \CWM\Broad
      * @ElementName serviceList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList
      * @Nillable
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:157
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementConsolidatedUserServiceAssignmentList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $serviceList = null;

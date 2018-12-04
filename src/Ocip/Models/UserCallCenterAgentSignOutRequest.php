@@ -5,25 +5,19 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallCenterAgentSignOutRequest
  *
- * This request signs-out a call center agent. Administrator, supervisor and agent
- * itself can sign-out an agent. 
- *         An empty OCI table in OCI-P response indicates success and the agent has
- * been signed out. This sign-out 
- *         command will fail if the agent is the last signed-in agent of any
- * standard or premium call center to 
- *         which she is currently joined. If the sign-out fails, the OCI-P response
- * will contain a list of 
+ * This request signs-out a call center agent. Administrator, supervisor and agent itself can sign-out an agent. 
+ *         An empty OCI table in OCI-P response indicates success and the agent has been signed out. This sign-out 
+ *         command will fail if the agent is the last signed-in agent of any standard or premium call center to 
+ *         which she is currently joined. If the sign-out fails, the OCI-P response will contain a list of 
  *         Call Centers for which the agent is the last signed-in agent. 
- *         If this special logic is not needed, UserCallCenterModifyRequest19 can
- * still be used to change 
- *         the agents ACD state without checking if the agent is the last signed-in
- * agent.
- *         The response is either a UserCallCenterAgentSignOutResponse or
- * ErrorResponse.
+ *         If this special logic is not needed, UserCallCenterModifyRequest19 can still be used to change 
+ *         the agents ACD state without checking if the agent is the last signed-in agent.
+ *         The response is either a UserCallCenterAgentSignOutResponse or ErrorResponse.
  *
  * @see UserCallCenterModifyRequest19
  * @see UserCallCenterAgentSignOutResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:5985","type":"sequence"}]
  */
 class UserCallCenterAgentSignOutRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -31,6 +25,7 @@ class UserCallCenterAgentSignOutRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName agentUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:5985
      * @var string|null
      */
     private $agentUserId = null;

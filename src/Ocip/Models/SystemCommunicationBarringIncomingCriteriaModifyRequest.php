@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5455","type":"sequence"}]
  */
 class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5455
      * @var string|null
      */
     private $name = null;
@@ -24,6 +26,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
     /**
      * @ElementName newName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5455
      * @var string|null
      */
     private $newName = null;
@@ -32,6 +36,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5455
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -40,6 +46,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @ElementName timeSchedule
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5455
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $timeSchedule = null;
@@ -48,6 +56,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @ElementName holidaySchedule
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5455
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $holidaySchedule = null;
@@ -56,6 +66,8 @@ class SystemCommunicationBarringIncomingCriteriaModifyRequest extends \CWM\Broad
      * @ElementName matchNumberPortabilityStatus
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5455
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementNumberPortabilityStatusList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $matchNumberPortabilityStatus = null;

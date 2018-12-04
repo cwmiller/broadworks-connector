@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserCallMeNowAddCriteriaRequest
  *
- * Add a criterion to the user's call me now service.  The criterion added is
- * automatically active.
+ * Add a criterion to the user's call me now service.  The criterion added is automatically active.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"4b461d8be4f7bfba1e05db8efbd896b6:94","type":"sequence"}]
  */
 class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName userId
      * @Type string
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:94
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName criteriaName
      * @Type string
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:94
      * @var string|null
      */
     private $criteriaName = null;
@@ -32,6 +34,8 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -39,6 +43,8 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -46,6 +52,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName rejectCall
      * @Type bool
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:94
      * @var bool|null
      */
     private $rejectCall = null;
@@ -53,6 +60,7 @@ class UserCallMeNowAddCriteriaRequest extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName toDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria
+     * @Group 4b461d8be4f7bfba1e05db8efbd896b6:94
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallMeNowToDnCriteria|null
      */
     private $toDnCriteria = null;

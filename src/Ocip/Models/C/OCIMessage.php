@@ -5,9 +5,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models\C;
 /**
  * OCIMessage
  *
- * A message contains a list of requests or responses. The server processes all the
- * requests
+ * A message contains a list of requests or responses. The server processes all the requests
  *         and returns a message with a corresponding list of responses.
+ *
+ * @Groups [{"id":"5df1e3f9f11b14b45dd8cb0f82dc29a6:42","type":"sequence","children":[{"id":"5df1e3f9f11b14b45dd8cb0f82dc29a6:43","type":"choice"}]}]
  */
 class OCIMessage
 {
@@ -15,6 +16,7 @@ class OCIMessage
     /**
      * @ElementName sessionId
      * @Type string
+     * @Group 5df1e3f9f11b14b45dd8cb0f82dc29a6:43
      * @var string|null
      */
     private $sessionId = null;
@@ -22,6 +24,7 @@ class OCIMessage
     /**
      * @ElementName userId
      * @Type string
+     * @Group 5df1e3f9f11b14b45dd8cb0f82dc29a6:43
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +32,7 @@ class OCIMessage
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group 5df1e3f9f11b14b45dd8cb0f82dc29a6:43
      * @var string|null
      */
     private $phoneNumber = null;
@@ -37,6 +41,7 @@ class OCIMessage
      * @ElementName command
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand
      * @Array
+     * @Group 5df1e3f9f11b14b45dd8cb0f82dc29a6:42
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCICommand[]
      */
     private $command = array(

@@ -6,16 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserMeetMeConferencingGetConferenceListResponse
  *
  * Response to the UserMeetMeConferencingGetConferenceListRequest.
- *         Contains a table with column headings: "Bridge Id", "Conference Id",
- * "Title", "Bridge Name", "Status", "Type", "Start Time", "Last Name", "First
- * Name" and "Host Id".
+ *         Contains a table with column headings: "Bridge Id", "Conference Id", "Title", "Bridge Name", "Status", "Type", "Start Time", "Last Name", "First Name" and "Host Id".
  *         The column values for "Status" can be Active, Inactive, or Expired.
- *         The column values for "Type" can be Reservationless, One Time, Recurring
- * Daily, Recurring Weekly, Recurring Monthly, or Recurring Yearly.
- *         Start Time is in the format "yyyy-MM-dd'T'HH:mm:ss:SSSZ". Example:
- * 2010-10-01T09:30:00:000-0400.
+ *         The column values for "Type" can be Reservationless, One Time, Recurring Daily, Recurring Weekly, Recurring Monthly, or Recurring Yearly.
+ *         Start Time is in the format "yyyy-MM-dd'T'HH:mm:ss:SSSZ". Example: 2010-10-01T09:30:00:000-0400.
  *
  * @see UserMeetMeConferencingGetConferenceListRequest
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:701","type":"sequence"}]
  */
 class UserMeetMeConferencingGetConferenceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -23,6 +20,7 @@ class UserMeetMeConferencingGetConferenceListResponse extends \CWM\BroadWorksCon
     /**
      * @ElementName conferenceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group e51a0a16349851c3fad768a24a35838d:701
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $conferenceTable = null;

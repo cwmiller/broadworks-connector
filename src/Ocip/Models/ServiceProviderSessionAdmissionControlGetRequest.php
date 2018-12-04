@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderSessionAdmissionControlGetRequest
  *
  * Get the session admission control capacity for the service provider.
- *         The response is either a
- * ServiceProviderSessionAdmissionControlGetResponse or an ErrorResponse.
+ *         The response is either a ServiceProviderSessionAdmissionControlGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderSessionAdmissionControlGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5609","type":"sequence"}]
  */
 class ServiceProviderSessionAdmissionControlGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderSessionAdmissionControlGetRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5609
      * @var string|null
      */
     private $serviceProviderId = null;

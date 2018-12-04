@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:494","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:494
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:494
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +35,7 @@ class GroupOutgoingCallingPlanPinholeDigitPatternDeleteListRequest extends \CWM\
      * @ElementName name
      * @Type string
      * @Array
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:494
      * @var string[]
      */
     private $name = array(

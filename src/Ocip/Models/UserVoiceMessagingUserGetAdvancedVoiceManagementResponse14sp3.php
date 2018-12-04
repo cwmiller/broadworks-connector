@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3.
  *
  * @see UserVoiceMessagingUserGetAdvancedVoiceManagementRequest14sp3
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1653","type":"sequence","children":[{"id":"1624846b7d87d3ab55e907c443fca9d6:1657","type":"choice"}]}]
  */
 class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName mailServerSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1653
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingUserMailServerSelection|null
      */
     private $mailServerSelection = null;
@@ -22,6 +24,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName groupMailServerEmailAddress
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1653
      * @var string|null
      */
     private $groupMailServerEmailAddress = null;
@@ -29,6 +33,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName groupMailServerUserId
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1653
      * @var string|null
      */
     private $groupMailServerUserId = null;
@@ -36,6 +42,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName useGroupDefaultMailServerFullMailboxLimit
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1657
      * @var bool|null
      */
     private $useGroupDefaultMailServerFullMailboxLimit = null;
@@ -43,6 +50,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName groupMailServerFullMailboxLimit
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1657
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailboxLengthMinutes|null
      */
     private $groupMailServerFullMailboxLimit = null;
@@ -50,6 +58,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName personalMailServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1653
      * @var string|null
      */
     private $personalMailServerNetAddress = null;
@@ -57,6 +67,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName personalMailServerProtocol
      * @Type \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1653
      * @var \CWM\BroadWorksConnector\Ocip\Models\VoiceMessagingMailServerProtocol|null
      */
     private $personalMailServerProtocol = null;
@@ -64,6 +75,7 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName personalMailServerRealDeleteForImap
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1653
      * @var bool|null
      */
     private $personalMailServerRealDeleteForImap = null;
@@ -71,6 +83,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName personalMailServerEmailAddress
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1653
      * @var string|null
      */
     private $personalMailServerEmailAddress = null;
@@ -78,6 +92,8 @@ class UserVoiceMessagingUserGetAdvancedVoiceManagementResponse14sp3 extends \CWM
     /**
      * @ElementName personalMailServerUserId
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1653
      * @var string|null
      */
     private $personalMailServerUserId = null;

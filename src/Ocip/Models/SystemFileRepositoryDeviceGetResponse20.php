@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemFileRepositoryDeviceGetRequest20.
  *
  * @see SystemFileRepositoryDeviceGetRequest20
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8742","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:8745","type":"choice"}]}]
  */
 class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName rootDirectory
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8742
      * @var string|null
      */
     private $rootDirectory = null;
@@ -22,6 +25,8 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName port
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8742
      * @var int|null
      */
     private $port = null;
@@ -29,6 +34,7 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8745
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolWebDAV20|null
      */
     private $protocolWebDAV = null;
@@ -36,6 +42,7 @@ class SystemFileRepositoryDeviceGetResponse20 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName protocolFTP
      * @Type \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8745
      * @var \CWM\BroadWorksConnector\Ocip\Models\FileRepositoryProtocolFTP16|null
      */
     private $protocolFTP = null;

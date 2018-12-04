@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:31483","type":"sequence"}]
  */
 class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
 {
@@ -11,6 +13,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
     /**
      * @ElementName sendReplyToCaller
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31483
      * @var string|null
      */
     private $sendReplyToCaller = null;
@@ -18,6 +21,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
     /**
      * @ElementName changeCurrentReply
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31483
      * @var string|null
      */
     private $changeCurrentReply = null;
@@ -25,6 +30,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
     /**
      * @ElementName listenToCurrentReply
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31483
      * @var string|null
      */
     private $listenToCurrentReply = null;
@@ -32,6 +39,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
     /**
      * @ElementName setOrClearUrgentIndicator
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31483
      * @var string|null
      */
     private $setOrClearUrgentIndicator = null;
@@ -39,6 +48,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
     /**
      * @ElementName setOrClearConfidentialIndicator
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31483
      * @var string|null
      */
     private $setOrClearConfidentialIndicator = null;
@@ -46,6 +57,7 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31483
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -53,6 +65,8 @@ class SystemVoiceMessagingGroupGetVoicePortalMenusResponse20ReplyMessageMenuKeys
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:31483
      * @var string|null
      */
     private $repeatMenu = null;

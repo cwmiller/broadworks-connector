@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserShInterfaceModifyRequest
  *
- * Modifies the Sh Interface non-transparent data associated with a Public User
- * Identity.
+ * Modifies the Sh Interface non-transparent data associated with a Public User Identity.
  *         The response is a SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3343","type":"sequence"}]
  */
 class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName publicUserIdentity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity
+     * @Group 489b2153267470be8e945bf6b778e0d0:3343
      * @var \CWM\BroadWorksConnector\Ocip\Models\PublicUserIdentity|null
      */
     private $publicUserIdentity = null;
@@ -26,6 +27,8 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName SCSCFName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3343
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $SCSCFName = null;
@@ -33,6 +36,8 @@ class UserShInterfaceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:3343
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;

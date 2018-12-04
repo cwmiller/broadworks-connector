@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ProfileAndServiceInternalCallingLineIDDeliveryInfo
  *
- * This is the configuration parameters for Internal Calling Line ID Delivery
- * service
+ * This is the configuration parameters for Internal Calling Line ID Delivery service
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3662","type":"sequence"}]
  */
 class ProfileAndServiceInternalCallingLineIDDeliveryInfo
 {
@@ -14,6 +15,7 @@ class ProfileAndServiceInternalCallingLineIDDeliveryInfo
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3662
      * @var bool|null
      */
     private $isActive = null;

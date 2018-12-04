@@ -7,13 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserExecutiveGetAssistantsRequest.
  *         Contains the assistant setting and a table of assigned assistants.
- *         The table has column headings: "User Id", "Last Name", "First Name",
- * "Hiragana Last Name", 
- *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email
- * Address" and "Opt-in".
+ *         The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", 
+ *         "Hiragana First Name", "Phone Number", "Extension", "Department", "Email Address" and "Opt-in".
  *         The possible values for "Opt-in" column are "true" and "false".
  *
  * @see UserExecutiveGetAssistantsRequest
+ * @Groups [{"id":"f5d58d7e1c3de827d7f1ff867a413cdd:160","type":"sequence"}]
  */
 class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +20,7 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName allowOptInOut
      * @Type bool
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:160
      * @var bool|null
      */
     private $allowOptInOut = null;
@@ -28,6 +28,7 @@ class UserExecutiveGetAssistantResponse extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName assistantUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:160
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $assistantUserTable = null;

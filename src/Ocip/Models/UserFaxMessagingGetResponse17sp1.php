@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserFaxMessagingGetRequest17sp1.
  *
  * @see UserFaxMessagingGetRequest17sp1
+ * @Groups [{"id":"f8afbebe4cfa9217154be81d124aa18a:56","type":"sequence"}]
  */
 class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group f8afbebe4cfa9217154be81d124aa18a:56
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,8 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Optional
+     * @Group f8afbebe4cfa9217154be81d124aa18a:56
      * @var string|null
      */
     private $phoneNumber = null;
@@ -29,6 +33,8 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName extension
      * @Type string
+     * @Optional
+     * @Group f8afbebe4cfa9217154be81d124aa18a:56
      * @var string|null
      */
     private $extension = null;
@@ -37,6 +43,8 @@ class UserFaxMessagingGetResponse17sp1 extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName alias
      * @Type string
      * @Array
+     * @Optional
+     * @Group f8afbebe4cfa9217154be81d124aa18a:56
      * @var string[]
      */
     private $alias = array(

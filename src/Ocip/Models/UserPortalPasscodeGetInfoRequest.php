@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserPortalPasscodeGetInfoRequest
  *
  * Request the user's portal passcode information.
- *         The response is either a UserPortalPasscodeGetInfoResponse or an
- * ErrorResponse.
+ *         The response is either a UserPortalPasscodeGetInfoResponse or an ErrorResponse.
  *
  * @see UserPortalPasscodeGetInfoResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:2665","type":"sequence"}]
  */
 class UserPortalPasscodeGetInfoRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserPortalPasscodeGetInfoRequest extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:2665
      * @var string|null
      */
     private $userId = null;

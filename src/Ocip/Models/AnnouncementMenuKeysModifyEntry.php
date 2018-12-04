@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AnnouncementMenuKeysModifyEntry
  *
  * The voice portal announcement menu keys modify entry.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2185","type":"sequence"}]
  */
 class AnnouncementMenuKeysModifyEntry
 {
@@ -14,6 +16,8 @@ class AnnouncementMenuKeysModifyEntry
      * @ElementName recordAudio
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2185
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordAudio = null;
@@ -22,6 +26,8 @@ class AnnouncementMenuKeysModifyEntry
      * @ElementName recordAudioVideo
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2185
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $recordAudioVideo = null;
@@ -29,6 +35,8 @@ class AnnouncementMenuKeysModifyEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2185
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -37,6 +45,8 @@ class AnnouncementMenuKeysModifyEntry
      * @ElementName repeatMenu
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2185
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $repeatMenu = null;

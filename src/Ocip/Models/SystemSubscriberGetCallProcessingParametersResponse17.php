@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the SystemSubscriberGetCallProcessingParametersRequest17.
  *
  * @see SystemSubscriberGetCallProcessingParametersRequest17
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28417","type":"sequence"}]
  */
 class SystemSubscriberGetCallProcessingParametersResponse17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17 extends \CWM\BroadWo
     /**
      * @ElementName isExtendedCallingLineIdActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28417
      * @var bool|null
      */
     private $isExtendedCallingLineIdActive = null;
@@ -22,6 +24,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17 extends \CWM\BroadWo
     /**
      * @ElementName isRingTimeOutActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28417
      * @var bool|null
      */
     private $isRingTimeOutActive = null;
@@ -29,6 +32,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17 extends \CWM\BroadWo
     /**
      * @ElementName ringTimeoutSeconds
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28417
      * @var int|null
      */
     private $ringTimeoutSeconds = null;
@@ -36,6 +40,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17 extends \CWM\BroadWo
     /**
      * @ElementName allowEmergencyRemoteOfficeOriginations
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28417
      * @var bool|null
      */
     private $allowEmergencyRemoteOfficeOriginations = null;
@@ -43,6 +48,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17 extends \CWM\BroadWo
     /**
      * @ElementName maxNoAnswerNumberOfRings
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28417
      * @var int|null
      */
     private $maxNoAnswerNumberOfRings = null;
@@ -50,6 +56,7 @@ class SystemSubscriberGetCallProcessingParametersResponse17 extends \CWM\BroadWo
     /**
      * @ElementName incomingCallToUserAliasMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28417
      * @var \CWM\BroadWorksConnector\Ocip\Models\IncomingCallToUserAliasMode|null
      */
     private $incomingCallToUserAliasMode = null;

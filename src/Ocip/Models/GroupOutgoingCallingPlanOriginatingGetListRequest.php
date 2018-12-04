@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupOutgoingCallingPlanOriginatingGetListRequest
  *
  * Request the originating permissions for a group default and it's departments.
- *         The response is either a
- * GroupOutgoingCallingPlanOriginatingGetListResponse or an ErrorResponse.
+ *         The response is either a GroupOutgoingCallingPlanOriginatingGetListResponse or an ErrorResponse.
  *
  * @see GroupOutgoingCallingPlanOriginatingGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:423","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanOriginatingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupOutgoingCallingPlanOriginatingGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:423
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupOutgoingCallingPlanOriginatingGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:423
      * @var string|null
      */
     private $groupId = null;

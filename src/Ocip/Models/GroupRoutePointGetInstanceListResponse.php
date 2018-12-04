@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the GroupRoutePointGetInstanceListRequest.
  *         Contains a table with column headings:
- *         "Service User Id", "Name", "Video", "Phone Number", "Extension",
- * "Department", "Is Active".
- *         The column values for "Video" and "Is Active" can either be true, or
- * false.
+ *         "Service User Id", "Name", "Video", "Phone Number", "Extension", "Department", "Is Active".
+ *         The column values for "Video" and "Is Active" can either be true, or false.
  *
  * @see GroupRoutePointGetInstanceListRequest
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:580","type":"sequence"}]
  */
 class GroupRoutePointGetInstanceListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +19,7 @@ class GroupRoutePointGetInstanceListResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName routePointTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 307cc214f72f448b9a7e28f218444528:580
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $routePointTable = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointGetFailoverPolicyRequest
  *
  * Get the route point failover policy. 
- *         The response is either a GroupRoutePointGetFailoverPolicyResponse or an
- * ErrorResponse.
+ *         The response is either a GroupRoutePointGetFailoverPolicyResponse or an ErrorResponse.
  *
  * @see GroupRoutePointGetFailoverPolicyResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:518","type":"sequence"}]
  */
 class GroupRoutePointGetFailoverPolicyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointGetFailoverPolicyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:518
      * @var string|null
      */
     private $serviceUserId = null;

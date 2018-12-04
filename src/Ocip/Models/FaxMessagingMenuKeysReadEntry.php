@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * FaxMessagingMenuKeysReadEntry
  *
  * The voice portal fax messaging menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2516","type":"sequence"}]
  */
 class FaxMessagingMenuKeysReadEntry
 {
@@ -13,6 +15,8 @@ class FaxMessagingMenuKeysReadEntry
     /**
      * @ElementName saveFaxMessageAndSkipToNext
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2516
      * @var string|null
      */
     private $saveFaxMessageAndSkipToNext = null;
@@ -20,6 +24,8 @@ class FaxMessagingMenuKeysReadEntry
     /**
      * @ElementName previousFaxMessage
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2516
      * @var string|null
      */
     private $previousFaxMessage = null;
@@ -27,6 +33,8 @@ class FaxMessagingMenuKeysReadEntry
     /**
      * @ElementName playEnvelope
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2516
      * @var string|null
      */
     private $playEnvelope = null;
@@ -34,6 +42,8 @@ class FaxMessagingMenuKeysReadEntry
     /**
      * @ElementName nextFaxMessage
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2516
      * @var string|null
      */
     private $nextFaxMessage = null;
@@ -41,6 +51,8 @@ class FaxMessagingMenuKeysReadEntry
     /**
      * @ElementName deleteFaxMessage
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2516
      * @var string|null
      */
     private $deleteFaxMessage = null;
@@ -48,6 +60,8 @@ class FaxMessagingMenuKeysReadEntry
     /**
      * @ElementName printFaxMessage
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2516
      * @var string|null
      */
     private $printFaxMessage = null;
@@ -55,6 +69,8 @@ class FaxMessagingMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2516
      * @var string|null
      */
     private $returnToPreviousMenu = null;

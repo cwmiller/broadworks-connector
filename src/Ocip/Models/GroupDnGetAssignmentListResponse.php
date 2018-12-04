@@ -6,21 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDnGetAssignmentListResponse
  *
  * Response to the GroupDnGetAssignmentListRequest.
- *         The response contains a table with columns: "Phone Numbers", "Assigned
- * To", "Department", "Activated".
- *         The "Phone Numbers" column contains either a single DN or a range of
- * DNs.
- *         The "Assigned To" column contains the user name or service instance name
- * possessing the DN(s).
- *         The "Department" column contains the department of the DN, not the
- * department of the user or service instance.
- *         The "Activated" column indicates if the DN or DN range has been
- * activated.  Only has a value if the DN(s) is assigned to a user.
+ *         The response contains a table with columns: "Phone Numbers", "Assigned To", "Department", "Activated".
+ *         The "Phone Numbers" column contains either a single DN or a range of DNs.
+ *         The "Assigned To" column contains the user name or service instance name possessing the DN(s).
+ *         The "Department" column contains the department of the DN, not the department of the user or service instance.
+ *         The "Activated" column indicates if the DN or DN range has been activated.  Only has a value if the DN(s) is assigned to a user.
  *         
  *         Replaced by: GroupDnGetAssignmentListResponse18
  *
  * @see GroupDnGetAssignmentListRequest
  * @see GroupDnGetAssignmentListResponse18
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:7996","type":"sequence"}]
  */
 class GroupDnGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -28,6 +24,7 @@ class GroupDnGetAssignmentListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName dnTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1a79c7896cb04feac6eff47a5321756e:7996
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $dnTable = null;

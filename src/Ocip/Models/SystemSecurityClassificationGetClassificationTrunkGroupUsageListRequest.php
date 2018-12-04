@@ -5,14 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest
  *
- * Get a list of users that currently have the specified Security Classification
- * assigned.
- *         The response is either
- * SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse or
- * ErrorResponse.
+ * Get a list of users that currently have the specified Security Classification assigned.
+ *         The response is either SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse or ErrorResponse.
  *
  * @see SystemSecurityClassificationGetClassificationTrunkGroupUsageListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b91fcb7aba1afd62c15b3e7e36708d08:167","type":"sequence"}]
  */
 class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +18,7 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
     /**
      * @ElementName securityClassification
      * @Type string
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:167
      * @var string|null
      */
     private $securityClassification = null;
@@ -27,6 +26,8 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:167
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -35,6 +36,8 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @ElementName searchCriteriaTrunkGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName
      * @Array
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaTrunkGroupName[]
      */
     private $searchCriteriaTrunkGroupName = array(
@@ -45,6 +48,8 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -55,6 +60,8 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
      * @ElementName searchCriteriaServiceProviderId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId
      * @Array
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaServiceProviderId[]
      */
     private $searchCriteriaServiceProviderId = array(
@@ -64,6 +71,8 @@ class SystemSecurityClassificationGetClassificationTrunkGroupUsageListRequest ex
     /**
      * @ElementName searchCriteriaExactOrganizationType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType
+     * @Optional
+     * @Group b91fcb7aba1afd62c15b3e7e36708d08:167
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactOrganizationType|null
      */
     private $searchCriteriaExactOrganizationType = null;

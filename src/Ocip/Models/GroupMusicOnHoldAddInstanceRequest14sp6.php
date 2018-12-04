@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * @see SuccessResponse
  * @see ErrorResponse
  * @see GroupMusicOnHoldAddInstanceRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:9623","type":"sequence"}]
  */
 class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +20,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9623
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +28,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9623
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +36,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName department
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9623
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $department = null;
@@ -40,6 +44,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActiveDuringCallHold
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9623
      * @var bool|null
      */
     private $isActiveDuringCallHold = null;
@@ -47,6 +52,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActiveDuringCallPark
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9623
      * @var bool|null
      */
     private $isActiveDuringCallPark = null;
@@ -54,6 +60,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName isActiveDuringBusyCampOn
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9623
      * @var bool|null
      */
     private $isActiveDuringBusyCampOn = null;
@@ -61,6 +68,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName source
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9623
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd|null
      */
     private $source = null;
@@ -68,6 +76,7 @@ class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName useAlternateSourceForInternalCalls
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9623
      * @var bool|null
      */
     private $useAlternateSourceForInternalCalls = null;
@@ -75,6 +84,8 @@ class GroupMusicOnHoldAddInstanceRequest14sp6 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName internalSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:9623
      * @var \CWM\BroadWorksConnector\Ocip\Models\MusicOnHoldSourceAdd|null
      */
     private $internalSource = null;

@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupDeviceTypeFileGetRequest16sp1.
  *
  * @see GroupDeviceTypeFileGetRequest16sp1
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3446","type":"sequence"}]
  */
 class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3446
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -22,6 +25,8 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName configurationFileName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3446
      * @var string|null
      */
     private $configurationFileName = null;
@@ -29,6 +34,7 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName accessUrl
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3446
      * @var string|null
      */
     private $accessUrl = null;
@@ -36,6 +42,8 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName repositoryUrl
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3446
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -43,6 +51,8 @@ class GroupDeviceTypeFileGetResponse16sp1 extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName templateUrl
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3446
      * @var string|null
      */
     private $templateUrl = null;

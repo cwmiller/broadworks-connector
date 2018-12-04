@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserEnterpriseCommonPhoneListGetPagedSortedListResponse
  *
- * Response to the UserEnterpriseCommonPhoneListGetPagedSortedListRequest. The
- * response
+ * Response to the UserEnterpriseCommonPhoneListGetPagedSortedListRequest. The response
  * 				contains the enterprise's common phone list. The response contains a
  * 				table with column headings: "Name" and "Phone Number".
  *
  * @see UserEnterpriseCommonPhoneListGetPagedSortedListRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:1388","type":"sequence"}]
  */
 class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\Broad
     /**
      * @ElementName totalNumberOfRows
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:1388
      * @var int|null
      */
     private $totalNumberOfRows = null;
@@ -25,6 +26,7 @@ class UserEnterpriseCommonPhoneListGetPagedSortedListResponse extends \CWM\Broad
     /**
      * @ElementName enterpriseCommonPhoneListTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:1388
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $enterpriseCommonPhoneListTable = null;

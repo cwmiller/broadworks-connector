@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to ServiceProviderDeviceTypeGetRequest.
  *
  * @see ServiceProviderDeviceTypeGetRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2628","type":"sequence"}]
  */
 class ServiceProviderDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class ServiceProviderDeviceTypeTagSetGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName tagSetName
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2628
      * @var string|null
      */
     private $tagSetName = null;

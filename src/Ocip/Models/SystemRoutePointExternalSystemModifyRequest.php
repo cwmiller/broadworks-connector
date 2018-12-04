@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13345","type":"sequence"}]
  */
 class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13345
      * @var string|null
      */
     private $name = null;
@@ -24,6 +26,8 @@ class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName newName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13345
      * @var string|null
      */
     private $newName = null;
@@ -32,6 +36,8 @@ class SystemRoutePointExternalSystemModifyRequest extends \CWM\BroadWorksConnect
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13345
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;

@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * AdditionalMessageOptionsMenuKeysReadEntry
  *
  * The voice portal additional message options menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2164","type":"sequence"}]
  */
 class AdditionalMessageOptionsMenuKeysReadEntry
 {
@@ -13,6 +15,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName saveMessage
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $saveMessage = null;
@@ -20,6 +24,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName deleteMessage
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $deleteMessage = null;
@@ -27,6 +33,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName playEnvelope
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $playEnvelope = null;
@@ -34,6 +42,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName callbackCaller
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $callbackCaller = null;
@@ -41,6 +51,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName composeMessage
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $composeMessage = null;
@@ -48,6 +60,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName replyMessage
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $replyMessage = null;
@@ -55,6 +69,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName forwardMessage
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $forwardMessage = null;
@@ -62,6 +78,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName personalizedName
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $personalizedName = null;
@@ -69,6 +87,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName passcode
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $passcode = null;
@@ -76,6 +96,7 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName returnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $returnToPreviousMenu = null;
@@ -83,6 +104,8 @@ class AdditionalMessageOptionsMenuKeysReadEntry
     /**
      * @ElementName repeatMenu
      * @Type string
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2164
      * @var string|null
      */
     private $repeatMenu = null;

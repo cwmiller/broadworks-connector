@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserVoiceMessagingUserGetDistributionListRequest
  *
  * Get a voice mail distribution list for a users voice message.
- *         The response is either UserVoiceMessagingUserGetDistributionListResponse
- * or ErrorResponse.
+ *         The response is either UserVoiceMessagingUserGetDistributionListResponse or ErrorResponse.
  *
  * @see UserVoiceMessagingUserGetDistributionListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1711","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1711
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserVoiceMessagingUserGetDistributionListRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName listId
      * @Type int
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1711
      * @var int|null
      */
     private $listId = null;

@@ -5,14 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22
  *
- * Request to get the configuration for a call processing policy profile Meet-Me
- * Conferencing subscriber type profile.
- *         The response is either a
- * SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse22 or an
+ * Request to get the configuration for a call processing policy profile Meet-Me Conferencing subscriber type profile.
+ *         The response is either a SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse22 or an
  *         ErrorResponse.
  *
  * @see SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetResponse22
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:3774","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileGetRequest22 ext
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3774
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;

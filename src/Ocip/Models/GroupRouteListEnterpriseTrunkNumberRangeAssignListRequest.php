@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest
  *
  * Assign a list of service provider number ranges to a group.
- *         The number ranges must have previously been added to the service
- * provider.
+ *         The number ranges must have previously been added to the service provider.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b22a3a92e05eea2e752345aa4faa131:322","type":"sequence"}]
  */
 class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:322
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\Bro
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:322
      * @var string|null
      */
     private $groupId = null;
@@ -34,6 +36,8 @@ class GroupRouteListEnterpriseTrunkNumberRangeAssignListRequest extends \CWM\Bro
      * @ElementName numberRangeStart
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1b22a3a92e05eea2e752345aa4faa131:322
      * @var string[]
      */
     private $numberRangeStart = array(

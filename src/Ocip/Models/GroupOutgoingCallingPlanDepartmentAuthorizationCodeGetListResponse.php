@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest.
  *
  * @see GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListRequest
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:251","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeGetListResponse extends
      * @ElementName codeEntry
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry
      * @Array
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:251
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingCallingPlanAuthorizationCodeEntry[]
      */
     private $codeEntry = array(

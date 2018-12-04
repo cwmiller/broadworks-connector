@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to ServiceProviderNetworkClassOfServiceGetAssignedListRequest.
  *         Contains a table of all Network Classes of Service assigned to the
- *         service provider. The column headings are: "Name", "Description" and
- * "Default".
+ *         service provider. The column headings are: "Name", "Description" and "Default".
  *
  * @see ServiceProviderNetworkClassOfServiceGetAssignedListRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4029","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceGetAssignedListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class ServiceProviderNetworkClassOfServiceGetAssignedListResponse extends \CWM\B
     /**
      * @ElementName networkClassOfServiceTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4029
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $networkClassOfServiceTable = null;

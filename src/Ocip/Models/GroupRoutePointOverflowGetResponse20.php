@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointOverflowGetRequest20.
  *
  * @see GroupRoutePointOverflowGetRequest20
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:969","type":"sequence"}]
  */
 class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterOverflowProcessingAction|null
      */
     private $action = null;
@@ -22,6 +24,8 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName transferPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var string|null
      */
     private $transferPhoneNumber = null;
@@ -29,6 +33,7 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName overflowAfterTimeout
      * @Type bool
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var bool|null
      */
     private $overflowAfterTimeout = null;
@@ -36,6 +41,7 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName timeoutSeconds
      * @Type int
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var int|null
      */
     private $timeoutSeconds = null;
@@ -43,6 +49,7 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName playAnnouncementBeforeOverflowProcessing
      * @Type bool
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var bool|null
      */
     private $playAnnouncementBeforeOverflowProcessing = null;
@@ -50,6 +57,7 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -57,6 +65,8 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $audioUrlList = null;
@@ -64,6 +74,8 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $audioFileList = null;
@@ -71,6 +83,8 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -78,6 +92,8 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $videoUrlList = null;
@@ -85,6 +101,8 @@ class GroupRoutePointOverflowGetResponse20 extends \CWM\BroadWorksConnector\Ocip
     /**
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:969
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListRead20|null
      */
     private $videoFileList = null;

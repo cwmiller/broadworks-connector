@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallCenterAgentSignOutResponse
  *
  * Response to the UserCallCenterAgentSignOutRequest. 
- *         It contains a list of call centers for which the agent is the last
- * signed-in agent.
- *         Contains a table with column headings: "Service User Id" and "Call
- * Center Name".
+ *         It contains a list of call centers for which the agent is the last signed-in agent.
+ *         Contains a table with column headings: "Service User Id" and "Call Center Name".
  *
  * @see UserCallCenterAgentSignOutRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6002","type":"sequence"}]
  */
 class UserCallCenterAgentSignOutResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class UserCallCenterAgentSignOutResponse extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName callCenterTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6002
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $callCenterTable = null;

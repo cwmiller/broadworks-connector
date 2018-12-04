@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServiceGetAuthorizationListRequest
  *
  * Requests the service provider's service authorization status.
- *         The response is either
- * ServiceProviderServiceGetAuthorizationListResponse or ErrorResponse.
+ *         The response is either ServiceProviderServiceGetAuthorizationListResponse or ErrorResponse.
  *
  * @see ServiceProviderServiceGetAuthorizationListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4893","type":"sequence"}]
  */
 class ServiceProviderServiceGetAuthorizationListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderServiceGetAuthorizationListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4893
      * @var string|null
      */
     private $serviceProviderId = null;

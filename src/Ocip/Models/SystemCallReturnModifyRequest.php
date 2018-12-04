@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"f0b69aab0e3059e8adfb4276d12a6a71:76","type":"sequence"}]
  */
 class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName twoLevelActivation
      * @Type bool
+     * @Optional
+     * @Group f0b69aab0e3059e8adfb4276d12a6a71:76
      * @var bool|null
      */
     private $twoLevelActivation = null;
@@ -24,6 +27,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName provideDate
      * @Type bool
+     * @Optional
+     * @Group f0b69aab0e3059e8adfb4276d12a6a71:76
      * @var bool|null
      */
     private $provideDate = null;
@@ -31,6 +36,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName lastUnansweredCallOnly
      * @Type bool
+     * @Optional
+     * @Group f0b69aab0e3059e8adfb4276d12a6a71:76
      * @var bool|null
      */
     private $lastUnansweredCallOnly = null;
@@ -39,6 +46,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
      * @ElementName confirmationKey
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group f0b69aab0e3059e8adfb4276d12a6a71:76
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $confirmationKey = null;
@@ -46,6 +55,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName allowRestrictedNumber
      * @Type bool
+     * @Optional
+     * @Group f0b69aab0e3059e8adfb4276d12a6a71:76
      * @var bool|null
      */
     private $allowRestrictedNumber = null;
@@ -53,6 +64,8 @@ class SystemCallReturnModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName deleteNumberAfterAnsweredCallReturn
      * @Type bool
+     * @Optional
+     * @Group f0b69aab0e3059e8adfb4276d12a6a71:76
      * @var bool|null
      */
     private $deleteNumberAfterAnsweredCallReturn = null;

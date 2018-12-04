@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemBCCTGetOCIInterfaceAddressListRequest.
  *
  * @see SystemBCCTGetOCIInterfaceAddressListRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:17528","type":"sequence"}]
  */
 class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class SystemBCCTGetOCIInterfaceAddressListResponse extends \CWM\BroadWorksConnec
      * @ElementName interfaceNetAddress
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:17528
      * @var string[]
      */
     private $interfaceNetAddress = array(

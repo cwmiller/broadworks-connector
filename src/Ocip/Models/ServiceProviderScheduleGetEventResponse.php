@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the event of the service provider schedule.
  *
  * @see ServiceProviderScheduleGetEventRequest
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4786","type":"sequence","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4788","type":"choice","children":[{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4790","type":"sequence"}]}]}]
  */
 class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName startDate
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4786
      * @var string|null
      */
     private $startDate = null;
@@ -23,6 +25,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName allDayEvent
      * @Type bool
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4788
      * @var bool|null
      */
     private $allDayEvent = null;
@@ -30,6 +33,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName startTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4790
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $startTime = null;
@@ -37,6 +41,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName endTime
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HourMinute
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4790
      * @var \CWM\BroadWorksConnector\Ocip\Models\HourMinute|null
      */
     private $endTime = null;
@@ -44,6 +49,7 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName endDate
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4786
      * @var string|null
      */
     private $endDate = null;
@@ -51,6 +57,8 @@ class ServiceProviderScheduleGetEventResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName recurrence
      * @Type \CWM\BroadWorksConnector\Ocip\Models\Recurrence
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4786
      * @var \CWM\BroadWorksConnector\Ocip\Models\Recurrence|null
      */
     private $recurrence = null;

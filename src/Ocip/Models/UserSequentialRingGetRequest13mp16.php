@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserSequentialRingGetRequest13mp16
  *
  * Get the user's sequential ring service setting.
- *         The response is either a UserSequentialRingGetResponse13mp16 or an
- * ErrorResponse.
+ *         The response is either a UserSequentialRingGetResponse13mp16 or an ErrorResponse.
  *         Replaced By: UserSequentialRingGetRequest14sp4
  *
  * @see UserSequentialRingGetResponse13mp16
  * @see ErrorResponse
  * @see UserSequentialRingGetRequest14sp4
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:37001","type":"sequence"}]
  */
 class UserSequentialRingGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class UserSequentialRingGetRequest13mp16 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37001
      * @var string|null
      */
     private $userId = null;

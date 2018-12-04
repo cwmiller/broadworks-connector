@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:267","type":"sequence"}]
  */
 class GroupRoutePointDistinctiveRingingModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class GroupRoutePointDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:267
      * @var string|null
      */
     private $serviceUserId = null;
@@ -25,6 +27,8 @@ class GroupRoutePointDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName enableDistinctiveRinging
      * @Type bool
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:267
      * @var bool|null
      */
     private $enableDistinctiveRinging = null;
@@ -32,6 +36,8 @@ class GroupRoutePointDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName distinctiveRingingRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:267
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingRingPattern = null;
@@ -39,6 +45,8 @@ class GroupRoutePointDistinctiveRingingModifyRequest extends \CWM\BroadWorksConn
     /**
      * @ElementName distinctiveRingingForceDeliveryRingPattern
      * @Type \CWM\BroadWorksConnector\Ocip\Models\RingPattern
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:267
      * @var \CWM\BroadWorksConnector\Ocip\Models\RingPattern|null
      */
     private $distinctiveRingingForceDeliveryRingPattern = null;

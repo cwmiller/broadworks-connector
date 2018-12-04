@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"cae6d0030771dca635e76f4f2a530c69:75","type":"sequence"}]
  */
 class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group cae6d0030771dca635e76f4f2a530c69:75
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group cae6d0030771dca635e76f4f2a530c69:75
      * @var bool|null
      */
     private $isActive = null;
@@ -33,6 +37,8 @@ class UserCallForwardingBusyModifyRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName forwardToPhoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group cae6d0030771dca635e76f4f2a530c69:75
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $forwardToPhoneNumber = null;

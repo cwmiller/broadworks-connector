@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupOutgoingCallingPlanTransferNumbersGetListRequest
  *
  * Request the list of transfer numbers for a group default and it's departments.
- *         The response is either a
- * GroupOutgoingCallingPlanTransferNumbersGetListResponse or an ErrorResponse.
+ *         The response is either a GroupOutgoingCallingPlanTransferNumbersGetListResponse or an ErrorResponse.
  *
  * @see GroupOutgoingCallingPlanTransferNumbersGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:824","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanTransferNumbersGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupOutgoingCallingPlanTransferNumbersGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:824
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupOutgoingCallingPlanTransferNumbersGetListRequest extends \CWM\BroadWo
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:824
      * @var string|null
      */
     private $groupId = null;

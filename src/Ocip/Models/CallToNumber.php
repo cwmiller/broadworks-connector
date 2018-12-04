@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallToNumber
  *
  * Call to Number.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:741","type":"sequence"}]
  */
 class CallToNumber
 {
@@ -13,6 +15,7 @@ class CallToNumber
     /**
      * @ElementName type
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumberType
+     * @Group 18b369af88e42ffdb4166615c670ce2c:741
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumberType|null
      */
     private $type = null;
@@ -20,6 +23,8 @@ class CallToNumber
     /**
      * @ElementName number
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:741
      * @var string|null
      */
     private $number = null;
@@ -27,6 +32,8 @@ class CallToNumber
     /**
      * @ElementName extension
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:741
      * @var string|null
      */
     private $extension = null;

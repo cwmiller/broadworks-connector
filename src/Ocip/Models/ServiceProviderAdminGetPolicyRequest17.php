@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAdminGetPolicyRequest17
  *
  * Requests the service provider administrator's policy settings.
- *         The response is either ServiceProviderAdminGetPolicyResponse17 or
- * ErrorResponse.
+ *         The response is either ServiceProviderAdminGetPolicyResponse17 or ErrorResponse.
  *
  * @see ServiceProviderAdminGetPolicyResponse17
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:14860","type":"sequence"}]
  */
 class ServiceProviderAdminGetPolicyRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderAdminGetPolicyRequest17 extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:14860
      * @var string|null
      */
     private $userId = null;

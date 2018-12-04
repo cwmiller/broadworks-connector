@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserCallingLineIDDeliveryBlockingGetRequest
  *
  * Request the user level data associated with Calling Line ID Delivery Blocking.
- *         The response is either a UserCallingLineIDDeliveryBlockingGetResponse or
- * an
+ *         The response is either a UserCallingLineIDDeliveryBlockingGetResponse or an
  *         ErrorResponse.
  *
  * @see UserCallingLineIDDeliveryBlockingGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c7e1e3b76f28550991db52aad50eeec3:44","type":"sequence"}]
  */
 class UserCallingLineIDDeliveryBlockingGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserCallingLineIDDeliveryBlockingGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
+     * @Group c7e1e3b76f28550991db52aad50eeec3:44
      * @var string|null
      */
     private $userId = null;

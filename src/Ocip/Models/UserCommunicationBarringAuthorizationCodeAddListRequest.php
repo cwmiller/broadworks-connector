@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:951","type":"sequence"}]
  */
 class UserCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broad
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:951
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,7 @@ class UserCommunicationBarringAuthorizationCodeAddListRequest extends \CWM\Broad
      * @ElementName code
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry
      * @Array
+     * @Group 489b2153267470be8e945bf6b778e0d0:951
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringAuthorizationCodeEntry[]
      */
     private $code = array(

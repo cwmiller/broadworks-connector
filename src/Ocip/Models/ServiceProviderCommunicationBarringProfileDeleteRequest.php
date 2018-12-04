@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderCommunicationBarringProfileDeleteRequest
  *
- * Deletes an existing Communication Barring Profile.  Optionally, a new default
- * profile can be chosen if the current default profile is being deleted.
+ * Deletes an existing Communication Barring Profile.  Optionally, a new default profile can be chosen if the current default profile is being deleted.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1746","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\Broad
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1746
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\Broad
     /**
      * @ElementName name
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1746
      * @var string|null
      */
     private $name = null;
@@ -32,6 +34,8 @@ class ServiceProviderCommunicationBarringProfileDeleteRequest extends \CWM\Broad
     /**
      * @ElementName defaultProfile
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1746
      * @var string|null
      */
     private $defaultProfile = null;

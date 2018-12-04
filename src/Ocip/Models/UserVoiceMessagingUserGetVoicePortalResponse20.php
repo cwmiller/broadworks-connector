@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to UserVoiceMessagingUserGetVoicePortalRequest20.
  *
  * @see UserVoiceMessagingUserGetVoicePortalRequest20
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:1893","type":"sequence"}]
  */
 class UserVoiceMessagingUserGetVoicePortalResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse20 extends \CWM\BroadWorksConn
     /**
      * @ElementName usePersonalizedName
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1893
      * @var bool|null
      */
     private $usePersonalizedName = null;
@@ -22,6 +24,7 @@ class UserVoiceMessagingUserGetVoicePortalResponse20 extends \CWM\BroadWorksConn
     /**
      * @ElementName voicePortalAutoLogin
      * @Type bool
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1893
      * @var bool|null
      */
     private $voicePortalAutoLogin = null;
@@ -29,6 +32,8 @@ class UserVoiceMessagingUserGetVoicePortalResponse20 extends \CWM\BroadWorksConn
     /**
      * @ElementName personalizedNameAudioFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey
+     * @Optional
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:1893
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileLevelKey|null
      */
     private $personalizedNameAudioFile = null;

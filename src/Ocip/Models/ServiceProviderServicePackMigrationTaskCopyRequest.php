@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderServicePackMigrationTaskCopyRequest
  *
  * Makes a copy of one or more existing service pack migration tasks. A copied task
- *         can be edited with other commands and scheduled for future execution.
- * The
+ *         can be edited with other commands and scheduled for future execution. The
  *         name of the new task is chosen automatically. The name will
  *         be "Copy (number) of taskName".
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:5247","type":"sequence"}]
  */
 class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5247
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -29,6 +30,7 @@ class ServiceProviderServicePackMigrationTaskCopyRequest extends \CWM\BroadWorks
      * @ElementName taskName
      * @Type string
      * @Array
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:5247
      * @var string[]
      */
     private $taskName = array(

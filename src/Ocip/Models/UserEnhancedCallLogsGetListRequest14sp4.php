@@ -5,19 +5,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserEnhancedCallLogsGetListRequest14sp4
  *
- * Request user's call logs. It is possible to get a subset of the total list of
- * calls
+ * Request user's call logs. It is possible to get a subset of the total list of calls
  *             by specifying a starting offset and the number of calls to get.
- *             If the callLogType is not specified, all types of calls are
- * returned.
- *             The response is either a UserEnhancedCallLogsGetListResponse14sp4 or
- * an ErrorResponse.
+ *             If the callLogType is not specified, all types of calls are returned.
+ *             The response is either a UserEnhancedCallLogsGetListResponse14sp4 or an ErrorResponse.
  *             Replaced by: 
  *             UserEnhancedCallLogsGetListRequest16
  *
  * @see UserEnhancedCallLogsGetListResponse14sp4
  * @see ErrorResponse
  * @see UserEnhancedCallLogsGetListRequest16
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34460","type":"sequence"}]
  */
 class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -25,6 +23,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34460
      * @var string|null
      */
     private $userId = null;
@@ -32,6 +31,8 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName callLogType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallLogsType
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34460
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallLogsType|null
      */
     private $callLogType = null;
@@ -39,6 +40,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName startingOffset
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34460
      * @var int|null
      */
     private $startingOffset = null;
@@ -46,6 +48,7 @@ class UserEnhancedCallLogsGetListRequest14sp4 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName numCalls
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34460
      * @var int|null
      */
     private $numCalls = null;

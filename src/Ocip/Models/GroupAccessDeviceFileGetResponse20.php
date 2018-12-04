@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to GroupAccessDeviceFileGetRequest20.
  *
  * @see GroupAccessDeviceFileGetRequest20
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:505","type":"sequence"}]
  */
 class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName fileSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:505
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEnhancedConfigurationMode|null
      */
     private $fileSource = null;
@@ -22,6 +24,8 @@ class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName configurationFileName
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:505
      * @var string|null
      */
     private $configurationFileName = null;
@@ -29,6 +33,7 @@ class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName accessUrl
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:505
      * @var string|null
      */
     private $accessUrl = null;
@@ -36,6 +41,8 @@ class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName repositoryUrl
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:505
      * @var string|null
      */
     private $repositoryUrl = null;
@@ -43,6 +50,8 @@ class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName templateUrl
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:505
      * @var string|null
      */
     private $templateUrl = null;
@@ -50,6 +59,8 @@ class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName extendedCaptureEnabled
      * @Type bool
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:505
      * @var bool|null
      */
     private $extendedCaptureEnabled = null;
@@ -57,6 +68,8 @@ class GroupAccessDeviceFileGetResponse20 extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName extendedCaptureURL
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:505
      * @var string|null
      */
     private $extendedCaptureURL = null;

@@ -7,10 +7,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to EnterpriseVoiceVPNGetListResponse.
  *         Returns a 4 column table with column headings:
- *           "Location Code", "Min Extension Length", "Max Extension Length",
- * "Location Selection".
+ *           "Location Code", "Min Extension Length", "Max Extension Length", "Location Selection".
  *
  * @see EnterpriseVoiceVPNGetListResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1425","type":"sequence"}]
  */
 class EnterpriseVoiceVPNGetPolicyListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class EnterpriseVoiceVPNGetPolicyListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName locationList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group b561eca19800e0898f471e5e91eb3baa:1425
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $locationList = null;

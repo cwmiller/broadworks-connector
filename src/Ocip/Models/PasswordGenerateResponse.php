@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains the requested passwords.
  *
  * @see PasswordGenerateRequest
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:349","type":"sequence"}]
  */
 class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -16,6 +17,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName systemAdministratorPassword
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:349
      * @var string|null
      */
     private $systemAdministratorPassword = null;
@@ -23,6 +26,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName serviceProviderAdministratorPassword
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:349
      * @var string|null
      */
     private $serviceProviderAdministratorPassword = null;
@@ -30,6 +35,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName groupAdministratorPassword
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:349
      * @var string|null
      */
     private $groupAdministratorPassword = null;
@@ -37,6 +44,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userPassword
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:349
      * @var string|null
      */
     private $userPassword = null;
@@ -44,6 +53,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userPasscode
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:349
      * @var string|null
      */
     private $userPasscode = null;
@@ -51,6 +62,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName userSIPAuthenticationPassword
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:349
      * @var string|null
      */
     private $userSIPAuthenticationPassword = null;
@@ -58,6 +71,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName accessDeviceAuthenticationPassword
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:349
      * @var string|null
      */
     private $accessDeviceAuthenticationPassword = null;
@@ -65,6 +80,8 @@ class PasswordGenerateResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName trunkGroupAuthenticationPassword
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:349
      * @var string|null
      */
     private $trunkGroupAuthenticationPassword = null;

@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address";
  *
  * @see EnterpriseCallCenterAgentThresholdDefaultProfileGetRequest
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:303","type":"sequence"}]
  */
 class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +20,7 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName profileName
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var string|null
      */
     private $profileName = null;
@@ -26,6 +28,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName profileDescription
      * @Type string
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var string|null
      */
     private $profileDescription = null;
@@ -33,6 +37,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdCurrentCallStateIdleTimeYellow = null;
@@ -40,6 +46,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdCurrentCallStateIdleTimeRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdCurrentCallStateIdleTimeRed = null;
@@ -47,6 +55,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdCurrentCallStateOnCallTimeYellow = null;
@@ -54,6 +64,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdCurrentCallStateOnCallTimeRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdCurrentCallStateOnCallTimeRed = null;
@@ -61,6 +73,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdCurrentAgentStateUnavailableTimeYellow = null;
@@ -68,6 +82,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdCurrentAgentStateUnavailableTimeRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdCurrentAgentStateUnavailableTimeRed = null;
@@ -75,6 +91,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdAverageBusyInTimeYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdAverageBusyInTimeYellow = null;
@@ -82,6 +100,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdAverageBusyInTimeRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdAverageBusyInTimeRed = null;
@@ -89,6 +109,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdAverageBusyOutTimeYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdAverageBusyOutTimeYellow = null;
@@ -96,6 +118,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdAverageBusyOutTimeRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdAverageBusyOutTimeRed = null;
@@ -103,6 +127,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdAverageWrapUpTimeYellow
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdAverageWrapUpTimeYellow = null;
@@ -110,6 +136,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName thresholdAverageWrapUpTimeRed
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var int|null
      */
     private $thresholdAverageWrapUpTimeRed = null;
@@ -117,6 +145,7 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName enableNotificationEmail
      * @Type bool
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var bool|null
      */
     private $enableNotificationEmail = null;
@@ -125,6 +154,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
      * @ElementName notificationEmailAddress
      * @Type string
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var string[]
      */
     private $notificationEmailAddress = array(
@@ -134,6 +165,8 @@ class EnterpriseCallCenterAgentThresholdDefaultProfileGetResponse extends \CWM\B
     /**
      * @ElementName agentTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:303
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $agentTable = null;

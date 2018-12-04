@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:1271","type":"sequence"}]
  */
 class UserRoutePointSupervisorModifyListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserRoutePointSupervisorModifyListRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName userId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:1271
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +27,8 @@ class UserRoutePointSupervisorModifyListRequest extends \CWM\BroadWorksConnector
      * @ElementName supervisorUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:1271
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $supervisorUserIdList = null;

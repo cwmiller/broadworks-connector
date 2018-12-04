@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupThirdPartyVoiceMailSupportGetRequest
  *
  * Request the group level data associated with Third-Party Voice Mail Support.
- *         The response is either a GroupThirdPartyVoiceMailSupportGetResponse or
- * an
+ *         The response is either a GroupThirdPartyVoiceMailSupportGetResponse or an
  *         ErrorResponse.
  *
  * @see GroupThirdPartyVoiceMailSupportGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"a84192748d1a3645bcd397d847a21d07:53","type":"sequence"}]
  */
 class GroupThirdPartyVoiceMailSupportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupThirdPartyVoiceMailSupportGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group a84192748d1a3645bcd397d847a21d07:53
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupThirdPartyVoiceMailSupportGetRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName groupId
      * @Type string
+     * @Group a84192748d1a3645bcd397d847a21d07:53
      * @var string|null
      */
     private $groupId = null;

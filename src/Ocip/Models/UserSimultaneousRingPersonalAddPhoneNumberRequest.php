@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:37335","type":"sequence"}]
  */
 class UserSimultaneousRingPersonalAddPhoneNumberRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class UserSimultaneousRingPersonalAddPhoneNumberRequest extends \CWM\BroadWorksC
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37335
      * @var string|null
      */
     private $userId = null;
@@ -24,6 +26,7 @@ class UserSimultaneousRingPersonalAddPhoneNumberRequest extends \CWM\BroadWorksC
     /**
      * @ElementName phoneNumber
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37335
      * @var string|null
      */
     private $phoneNumber = null;
@@ -31,6 +34,7 @@ class UserSimultaneousRingPersonalAddPhoneNumberRequest extends \CWM\BroadWorksC
     /**
      * @ElementName answerConfirmationRequired
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:37335
      * @var bool|null
      */
     private $answerConfirmationRequired = null;

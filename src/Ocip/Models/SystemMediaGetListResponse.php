@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemMediaGetListResponse
  *
  * Response to SystemMediaGetListRequest. The column headings are
- *         "Media Name", "Codec", "Media Type", "Bandwidth Enforcement Type" and
- * "Bandwidth".
+ *         "Media Name", "Codec", "Media Type", "Bandwidth Enforcement Type" and "Bandwidth".
  *
  * @see SystemMediaGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10027","type":"sequence"}]
  */
 class SystemMediaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemMediaGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName mediaTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10027
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $mediaTable = null;

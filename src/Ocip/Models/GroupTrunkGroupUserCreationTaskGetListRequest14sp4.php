@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupTrunkGroupUserCreationTaskGetListRequest14sp4
  *
  * Get the list of user creation tasks for a trunk group.
- *         The response is either
- * GroupTrunkGroupUserCreationTaskGetListResponse14sp4 or ErrorResponse.
+ *         The response is either GroupTrunkGroupUserCreationTaskGetListResponse14sp4 or ErrorResponse.
  *
  * @see GroupTrunkGroupUserCreationTaskGetListResponse14sp4
  * @see ErrorResponse
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1420","type":"sequence"}]
  */
 class GroupTrunkGroupUserCreationTaskGetListRequest14sp4 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupTrunkGroupUserCreationTaskGetListRequest14sp4 extends \CWM\BroadWorks
     /**
      * @ElementName trunkGroupKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1420
      * @var \CWM\BroadWorksConnector\Ocip\Models\TrunkGroupKey|null
      */
     private $trunkGroupKey = null;

@@ -4,6 +4,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 
 /**
  * SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest
+ *
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:3836","type":"sequence"}]
  */
 class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -11,6 +13,7 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName callProcessingPolicyProfileName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var string|null
      */
     private $callProcessingPolicyProfileName = null;
@@ -18,6 +21,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useCLIDPolicy
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useCLIDPolicy = null;
@@ -25,6 +30,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName clidPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $clidPolicy = null;
@@ -32,6 +39,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName emergencyClidPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var \CWM\BroadWorksConnector\Ocip\Models\GroupCLIDPolicy|null
      */
     private $emergencyClidPolicy = null;
@@ -39,6 +48,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName allowAlternateNumbersForRedirectingIdentity
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $allowAlternateNumbersForRedirectingIdentity = null;
@@ -46,6 +57,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useGroupName
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useGroupName = null;
@@ -53,6 +66,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName blockCallingNameForExternalCalls
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $blockCallingNameForExternalCalls = null;
@@ -60,6 +75,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName allowConfigurableCLIDForRedirectingIdentity
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $allowConfigurableCLIDForRedirectingIdentity = null;
@@ -67,6 +84,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName allowDepartmentCLIDNameOverride
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $allowDepartmentCLIDNameOverride = null;
@@ -74,6 +93,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName enterpriseCallsCLIDPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     private $enterpriseCallsCLIDPolicy = null;
@@ -81,6 +102,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName enterpriseGroupCallsCLIDPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var \CWM\BroadWorksConnector\Ocip\Models\EnterpriseInternalCallsCLIDPolicy|null
      */
     private $enterpriseGroupCallsCLIDPolicy = null;
@@ -88,6 +111,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName serviceProviderGroupCallsCLIDPolicy
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInternalCallsCLIDPolicy
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderInternalCallsCLIDPolicy|null
      */
     private $serviceProviderGroupCallsCLIDPolicy = null;
@@ -95,6 +120,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useCallLimitsPolicy
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useCallLimitsPolicy = null;
@@ -102,6 +129,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useMaxSimultaneousCalls
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useMaxSimultaneousCalls = null;
@@ -109,6 +138,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName maxSimultaneousCalls
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var int|null
      */
     private $maxSimultaneousCalls = null;
@@ -116,6 +147,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useMaxSimultaneousVideoCalls
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useMaxSimultaneousVideoCalls = null;
@@ -123,6 +156,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName maxSimultaneousVideoCalls
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var int|null
      */
     private $maxSimultaneousVideoCalls = null;
@@ -130,6 +165,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useMaxCallTimeForAnsweredCalls
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useMaxCallTimeForAnsweredCalls = null;
@@ -137,6 +174,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName maxCallTimeForAnsweredCallsMinutes
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var int|null
      */
     private $maxCallTimeForAnsweredCallsMinutes = null;
@@ -144,6 +183,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useMaxCallTimeForUnansweredCalls
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useMaxCallTimeForUnansweredCalls = null;
@@ -151,6 +192,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName maxCallTimeForUnansweredCallsMinutes
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var int|null
      */
     private $maxCallTimeForUnansweredCallsMinutes = null;
@@ -158,6 +201,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useMaxConcurrentRedirectedCalls
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useMaxConcurrentRedirectedCalls = null;
@@ -165,6 +210,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName maxConcurrentRedirectedCalls
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var int|null
      */
     private $maxConcurrentRedirectedCalls = null;
@@ -172,6 +219,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName maxRedirectionDepth
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var int|null
      */
     private $maxRedirectionDepth = null;
@@ -179,6 +228,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useTranslationRoutingPolicy
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useTranslationRoutingPolicy = null;
@@ -186,6 +237,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName networkUsageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkUsageSelection|null
      */
     private $networkUsageSelection = null;
@@ -193,6 +246,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName enableEnterpriseExtensionDialing
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $enableEnterpriseExtensionDialing = null;
@@ -200,6 +255,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName enforceGroupCallingLineIdentityRestriction
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $enforceGroupCallingLineIdentityRestriction = null;
@@ -207,6 +264,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName enforceEnterpriseCallingLineIdentityRestriction
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $enforceEnterpriseCallingLineIdentityRestriction = null;
@@ -214,6 +273,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName allowEnterpriseGroupCallTypingForPrivateDialingPlan
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $allowEnterpriseGroupCallTypingForPrivateDialingPlan = null;
@@ -221,6 +282,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName allowEnterpriseGroupCallTypingForPublicDialingPlan
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $allowEnterpriseGroupCallTypingForPublicDialingPlan = null;
@@ -228,6 +291,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName overrideCLIDRestrictionForPrivateCallCategory
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $overrideCLIDRestrictionForPrivateCallCategory = null;
@@ -235,6 +300,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useEnterpriseCLIDForPrivateCallCategory
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useEnterpriseCLIDForPrivateCallCategory = null;
@@ -242,6 +309,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useIncomingCLIDPolicy
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useIncomingCLIDPolicy = null;
@@ -249,6 +318,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName enableDialableCallerID
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $enableDialableCallerID = null;
@@ -256,6 +327,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName includeRedirectionsInMaximumNumberOfConcurrentCalls
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $includeRedirectionsInMaximumNumberOfConcurrentCalls = null;
@@ -263,6 +336,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useUserPhoneNumberForGroupCallsWhenInternalCLIDUnavailable = null;
@@ -270,6 +345,8 @@ class SystemCallProcessingPolicyProfileMeetMeConferencingProfileModifyRequest ex
     /**
      * @ElementName useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:3836
      * @var bool|null
      */
     private $useUserPhoneNumberForEnterpriseCallsWhenInternalCLIDUnavailable = null;

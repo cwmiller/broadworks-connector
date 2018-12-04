@@ -6,12 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemServicePhoneNumberLookupResponse
  *
  * Response to the SystemServicePhoneNumberLookupRequest.
- *         The column headings for the userTable are: "Service Provider Id", "Is
- * Enterprise", "Group Id", "User Id",
- *         "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
- * "Phone Number" and "Extension".
+ *         The column headings for the userTable are: "Service Provider Id", "Is Enterprise", "Group Id", "User Id",
+ *         "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", "Phone Number" and "Extension".
  *
  * @see SystemServicePhoneNumberLookupRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:14232","type":"sequence"}]
  */
 class SystemServicePhoneNumberLookupResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +18,7 @@ class SystemServicePhoneNumberLookupResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:14232
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

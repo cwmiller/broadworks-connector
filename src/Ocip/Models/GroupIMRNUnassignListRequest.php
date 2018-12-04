@@ -5,14 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupIMRNUnassignListRequest
  *
- * Unassign a list of group DNs from the group IMRN pool. The DNs then become
- * available for
+ * Unassign a list of group DNs from the group IMRN pool. The DNs then become available for
  *         assignment to users. It is possible to delete either: a single DN,
  *         or a list of DNs, or a range of DNs, or any combination thereof.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:5114","type":"sequence"}]
  */
 class GroupIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5114
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -27,6 +28,7 @@ class GroupIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5114
      * @var string|null
      */
     private $groupId = null;
@@ -35,6 +37,8 @@ class GroupIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName imrn
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5114
      * @var string[]
      */
     private $imrn = array(
@@ -45,6 +49,8 @@ class GroupIMRNUnassignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
      * @ElementName imrnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:5114
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $imrnRange = array(

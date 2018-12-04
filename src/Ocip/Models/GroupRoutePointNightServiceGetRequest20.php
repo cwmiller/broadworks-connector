@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupRoutePointNightServiceGetRequest20
  *
  * Get a route point's night service settings.
- *         The response is either a GroupRoutePointNightServiceGetResponse20 or an
- * ErrorResponse.
+ *         The response is either a GroupRoutePointNightServiceGetResponse20 or an ErrorResponse.
  *
  * @see GroupRoutePointNightServiceGetResponse20
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:871","type":"sequence"}]
  */
 class GroupRoutePointNightServiceGetRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupRoutePointNightServiceGetRequest20 extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:871
      * @var string|null
      */
     private $serviceUserId = null;

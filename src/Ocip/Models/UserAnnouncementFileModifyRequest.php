@@ -5,16 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserAnnouncementFileModifyRequest
  *
- * This command is used to change the name of the file or upload a new announcement
- * file for 
+ * This command is used to change the name of the file or upload a new announcement file for 
  *         an existing announcement in the user repository.
- *         When modifying the file type the command will fail if the media type of
- * the new file changes 
+ *         When modifying the file type the command will fail if the media type of the new file changes 
  *         the announcement from audio to video (or vice versa).
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:577","type":"sequence"}]
  */
 class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +21,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:577
      * @var string|null
      */
     private $userId = null;
@@ -29,6 +29,7 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName announcementFileKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey
+     * @Group 489b2153267470be8e945bf6b778e0d0:577
      * @var \CWM\BroadWorksConnector\Ocip\Models\AnnouncementFileKey|null
      */
     private $announcementFileKey = null;
@@ -36,6 +37,8 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName newAnnouncementFileName
      * @Type string
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:577
      * @var string|null
      */
     private $newAnnouncementFileName = null;
@@ -43,6 +46,8 @@ class UserAnnouncementFileModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName announcementFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:577
      * @var \CWM\BroadWorksConnector\Ocip\Models\LabeledMediaFileResource|null
      */
     private $announcementFile = null;

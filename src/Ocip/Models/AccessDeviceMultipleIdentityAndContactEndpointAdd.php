@@ -5,16 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * AccessDeviceMultipleIdentityAndContactEndpointAdd
  *
- * Access device end point used in the context of add that can have more than one
- * contact defined.
- *           The endpoint is identified by its linePort (public Identity) and
- * possibly a private Identity.
- *           Only Static Registration capabable devices may have more than one
- * contact defined.
+ * Access device end point used in the context of add that can have more than one contact defined.
+ *           The endpoint is identified by its linePort (public Identity) and possibly a private Identity.
+ *           Only Static Registration capabable devices may have more than one contact defined.
  *           Port numbers are only used by devices with static line ordering.
- *           The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *           The following elements are only used in XS data mode and ignored in AS data mode:
  *             privateIdentity
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:181","type":"sequence"}]
  */
 class AccessDeviceMultipleIdentityAndContactEndpointAdd
 {
@@ -22,6 +20,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
     /**
      * @ElementName accessDevice
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDevice
+     * @Group 18b369af88e42ffdb4166615c670ce2c:181
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDevice|null
      */
     private $accessDevice = null;
@@ -29,6 +28,7 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
     /**
      * @ElementName linePort
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:181
      * @var string|null
      */
     private $linePort = null;
@@ -36,6 +36,8 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
     /**
      * @ElementName privateIdentity
      * @Type string
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:181
      * @var string|null
      */
     private $privateIdentity = null;
@@ -44,6 +46,8 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
      * @ElementName contact
      * @Type string
      * @Array
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:181
      * @var string[]
      */
     private $contact = array(
@@ -53,6 +57,8 @@ class AccessDeviceMultipleIdentityAndContactEndpointAdd
     /**
      * @ElementName portNumber
      * @Type int
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:181
      * @var int|null
      */
     private $portNumber = null;

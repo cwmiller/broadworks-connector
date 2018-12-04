@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:9251","type":"sequence"}]
  */
 class SystemGETSNumberDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemGETSNumberDeleteRequest extends \CWM\BroadWorksConnector\Ocip\Models
     /**
      * @ElementName number
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:9251
      * @var string|null
      */
     private $number = null;

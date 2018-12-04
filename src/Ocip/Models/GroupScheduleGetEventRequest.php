@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupScheduleGetEventRequest
  *
  * Get an event from a group schedule.
- *         The response is either a GroupScheduleGetEventResponse or an
- * ErrorResponse.
+ *         The response is either a GroupScheduleGetEventResponse or an ErrorResponse.
  *
  * @see GroupScheduleGetEventResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:6243","type":"sequence"}]
  */
 class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6243
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6243
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName scheduleKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6243
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleKey|null
      */
     private $scheduleKey = null;
@@ -39,6 +42,7 @@ class GroupScheduleGetEventRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName eventName
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:6243
      * @var string|null
      */
     private $eventName = null;

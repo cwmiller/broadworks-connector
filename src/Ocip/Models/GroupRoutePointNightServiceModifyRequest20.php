@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:920","type":"sequence"}]
  */
 class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +19,7 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var string|null
      */
     private $serviceUserId = null;
@@ -25,6 +27,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName action
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterScheduledServiceAction|null
      */
     private $action = null;
@@ -33,6 +37,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName businessHours
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
      * @Nillable
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $businessHours = null;
@@ -40,6 +46,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName forceNightService
      * @Type bool
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var bool|null
      */
     private $forceNightService = null;
@@ -48,6 +56,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
      * @ElementName transferPhoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $transferPhoneNumber = null;
@@ -55,6 +65,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName playAnnouncementBeforeAction
      * @Type bool
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var bool|null
      */
     private $playAnnouncementBeforeAction = null;
@@ -62,6 +74,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -69,6 +83,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $audioUrlList = null;
@@ -76,6 +92,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $audioFileList = null;
@@ -83,6 +101,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -90,6 +110,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $videoUrlList = null;
@@ -97,6 +119,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $videoFileList = null;
@@ -104,6 +128,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName manualAnnouncementMode
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterManualNightServiceAnnouncementMode|null
      */
     private $manualAnnouncementMode = null;
@@ -111,6 +137,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName manualAudioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $manualAudioMessageSelection = null;
@@ -118,6 +146,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName manualAudioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $manualAudioUrlList = null;
@@ -125,6 +155,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName manualAudioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $manualAudioFileList = null;
@@ -132,6 +164,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName manualVideoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $manualVideoMessageSelection = null;
@@ -139,6 +173,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName manualVideoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLListModify|null
      */
     private $manualVideoUrlList = null;
@@ -146,6 +182,8 @@ class GroupRoutePointNightServiceModifyRequest20 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName manualVideoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20
+     * @Optional
+     * @Group 307cc214f72f448b9a7e28f218444528:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementFileListModify20|null
      */
     private $manualVideoFileList = null;

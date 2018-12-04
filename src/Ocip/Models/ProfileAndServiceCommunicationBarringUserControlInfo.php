@@ -5,11 +5,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ProfileAndServiceCommunicationBarringUserControlInfo
  *
- * This is the configuration parameters for Communication Barring User Control
- * service
+ * This is the configuration parameters for Communication Barring User Control service
  *         	
- *         	profileTable has column headings: "Name", "Code", "Activated" and
- * "Primary".
+ *         	profileTable has column headings: "Name", "Code", "Activated" and "Primary".
+ *
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:3584","type":"sequence"}]
  */
 class ProfileAndServiceCommunicationBarringUserControlInfo
 {
@@ -17,6 +17,7 @@ class ProfileAndServiceCommunicationBarringUserControlInfo
     /**
      * @ElementName lockoutStatus
      * @Type bool
+     * @Group 489b2153267470be8e945bf6b778e0d0:3584
      * @var bool|null
      */
     private $lockoutStatus = null;
@@ -24,6 +25,7 @@ class ProfileAndServiceCommunicationBarringUserControlInfo
     /**
      * @ElementName profileTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:3584
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $profileTable = null;

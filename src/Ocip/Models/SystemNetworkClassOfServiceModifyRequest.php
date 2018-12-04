@@ -13,6 +13,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:10873","type":"sequence"}]
  */
 class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +21,7 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName name
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var string|null
      */
     private $name = null;
@@ -27,6 +29,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName newName
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var string|null
      */
     private $newName = null;
@@ -35,6 +39,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName description
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $description = null;
@@ -43,6 +49,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile0
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile0 = null;
@@ -51,6 +59,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile1
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile1 = null;
@@ -59,6 +69,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile2
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile2 = null;
@@ -67,6 +79,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile3
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile3 = null;
@@ -75,6 +89,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile4
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile4 = null;
@@ -83,6 +99,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile5
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile5 = null;
@@ -91,6 +109,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile6
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile6 = null;
@@ -99,6 +119,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile7
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile7 = null;
@@ -107,6 +129,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile8
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile8 = null;
@@ -115,6 +139,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName communicationBarringProfile9
      * @Type \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var \CWM\BroadWorksConnector\Ocip\Models\NetworkClassOfServiceCommunicationBarringProfile|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $communicationBarringProfile9 = null;
@@ -123,6 +149,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName networkTranslationIndex
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $networkTranslationIndex = null;
@@ -131,6 +159,8 @@ class SystemNetworkClassOfServiceModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName callProcessingPolicyProfileName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:10873
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $callProcessingPolicyProfileName = null;

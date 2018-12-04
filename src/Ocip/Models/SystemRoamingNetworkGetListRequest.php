@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemRoamingNetworkGetListRequest
  *
  * Get the list of all Roaming Networks.
- *         The response is either a SystemRoamingNetworkGetListResponse or an
- * ErrorResponse.
+ *         The response is either a SystemRoamingNetworkGetListResponse or an ErrorResponse.
  *
  * @see SystemRoamingNetworkGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13132","type":"sequence"}]
  */
 class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,8 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13132
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -26,6 +28,8 @@ class SystemRoamingNetworkGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
      * @ElementName searchCriteriaRoamingMscAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress
      * @Array
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13132
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaRoamingMscAddress[]
      */
     private $searchCriteriaRoamingMscAddress = array(

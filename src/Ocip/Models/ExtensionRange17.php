@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ExtensionRange17
  *
  * Extension range. The minimum and maximum values are inclusive.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1977","type":"sequence"}]
  */
 class ExtensionRange17
 {
@@ -13,6 +15,7 @@ class ExtensionRange17
     /**
      * @ElementName minExtension
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1977
      * @var string|null
      */
     private $minExtension = null;
@@ -20,6 +23,7 @@ class ExtensionRange17
     /**
      * @ElementName maxExtension
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1977
      * @var string|null
      */
     private $maxExtension = null;

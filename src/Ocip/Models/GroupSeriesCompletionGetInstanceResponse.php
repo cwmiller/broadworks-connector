@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupSeriesCompletionGetInstanceResponse
  *
  * Response to the GroupSeriesCompletionGetInstanceRequest.
- *         Contains a table with column headings: "User Id", "Last Name", "First
- * Name", "Hiragana Last Name", "Hiragana First Name",
+ *         Contains a table with column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name",
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupSeriesCompletionGetInstanceRequest
+ * @Groups [{"id":"32aa045fae08b992230059afdb58d2a9:179","type":"sequence"}]
  */
 class GroupSeriesCompletionGetInstanceResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,7 @@ class GroupSeriesCompletionGetInstanceResponse extends \CWM\BroadWorksConnector\
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 32aa045fae08b992230059afdb58d2a9:179
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

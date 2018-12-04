@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderAdminGetResponse14
  *
  * Response to the ServiceProviderAdminGetRequest14.
- *         The response contains the service provider administrators profile
- * information.
+ *         The response contains the service provider administrators profile information.
  *         Replaced by ServiceProviderAdminGetResponse21sp1.
  *
  * @see ServiceProviderAdminGetRequest14
  * @see ServiceProviderAdminGetResponse21sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2433","type":"sequence"}]
  */
 class ServiceProviderAdminGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +19,7 @@ class ServiceProviderAdminGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2433
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,8 @@ class ServiceProviderAdminGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName firstName
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2433
      * @var string|null
      */
     private $firstName = null;
@@ -33,6 +36,8 @@ class ServiceProviderAdminGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName lastName
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2433
      * @var string|null
      */
     private $lastName = null;
@@ -40,6 +45,7 @@ class ServiceProviderAdminGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName language
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2433
      * @var string|null
      */
     private $language = null;
@@ -47,6 +53,7 @@ class ServiceProviderAdminGetResponse14 extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName administratorType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2433
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderAdminType|null
      */
     private $administratorType = null;

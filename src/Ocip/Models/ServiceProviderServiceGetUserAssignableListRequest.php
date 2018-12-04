@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderServiceGetUserAssignableListRequest
  *
- * Requests the list of all user services assignable to users in the specified
- * service provider.
- *         The response is either
- * ServiceProviderServiceGetUserAssignableListResponse or ErrorResponse.
+ * Requests the list of all user services assignable to users in the specified service provider.
+ *         The response is either ServiceProviderServiceGetUserAssignableListResponse or ErrorResponse.
  *
  * @see ServiceProviderServiceGetUserAssignableListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4973","type":"sequence"}]
  */
 class ServiceProviderServiceGetUserAssignableListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderServiceGetUserAssignableListRequest extends \CWM\BroadWorks
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4973
      * @var string|null
      */
     private $serviceProviderId = null;

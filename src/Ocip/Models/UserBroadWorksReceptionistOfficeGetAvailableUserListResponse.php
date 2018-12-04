@@ -7,12 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the UserBroadWorksReceptionistOfficeGetAvailableUserListRequest.
  *         Returns a 12 column table with column headings:
- *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana
- * First Name", 
- *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address",
- * "Department", "IMP Id", "Title".
+ *           "User Id", "Last Name", "First Name", "Hiragana Last Name", "Hiragana First Name", 
+ *           "Group Id", "Phone Number", "Extension", "Mobile", "Email Address", "Department", "IMP Id", "Title".
  *
  * @see UserBroadWorksReceptionistOfficeGetAvailableUserListRequest
+ * @Groups [{"id":"91327bdd60f4ee8651b3afa2eb6868ee:69","type":"sequence"}]
  */
 class UserBroadWorksReceptionistOfficeGetAvailableUserListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -20,6 +19,7 @@ class UserBroadWorksReceptionistOfficeGetAvailableUserListResponse extends \CWM\
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 91327bdd60f4ee8651b3afa2eb6868ee:69
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

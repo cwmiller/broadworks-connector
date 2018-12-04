@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemFileRepositoryDeviceGetListResponse
  *
  * Response to SystemFileRepositoryDeviceGetListRequest.
- *         Contains a table with column headings : "Name","Protocol", "Root
- * Directory", "Extended File Capture Support" in a row for each file repository.
+ *         Contains a table with column headings : "Name","Protocol", "Root Directory", "Extended File Capture Support" in a row for each file repository.
  *
  * @see SystemFileRepositoryDeviceGetListRequest
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:8712","type":"sequence"}]
  */
 class SystemFileRepositoryDeviceGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +17,7 @@ class SystemFileRepositoryDeviceGetListResponse extends \CWM\BroadWorksConnector
     /**
      * @ElementName fileRepositoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:8712
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $fileRepositoryTable = null;

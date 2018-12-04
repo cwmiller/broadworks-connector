@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:1481","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1481
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
     /**
      * @ElementName name
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1481
      * @var string|null
      */
     private $name = null;
@@ -31,6 +34,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1481
      * @var string|null
      */
     private $description = null;
@@ -39,6 +44,8 @@ class ServiceProviderCommunicationBarringDigitPatternCriteriaAddRequest extends 
      * @ElementName matchDigitPattern
      * @Type string
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:1481
      * @var string[]
      */
     private $matchDigitPattern = array(

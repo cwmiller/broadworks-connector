@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAlternateNumbersGetRequest17
  *
  * Request the user level data associated with Alternate Numbers.
- *         The response is either a UserAlternateNumbersGetResponse17 or an
- * ErrorResponse.
+ *         The response is either a UserAlternateNumbersGetResponse17 or an ErrorResponse.
  *         
  *         Replaced by: UserAlternateNumbersGetRequest21 in AS data mode
  *
  * @see UserAlternateNumbersGetResponse17
  * @see ErrorResponse
  * @see UserAlternateNumbersGetRequest21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:4607","type":"sequence"}]
  */
 class UserAlternateNumbersGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +21,7 @@ class UserAlternateNumbersGetRequest17 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName userId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:4607
      * @var string|null
      */
     private $userId = null;

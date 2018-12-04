@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanRedirectingGetListRequest
  *
- * Request the initiating call forwards/transfer permissions for a group default
- * and it's departments.
- *         The response is either a
- * GroupOutgoingCallingPlanRedirectingGetListResponse or an ErrorResponse.
+ * Request the initiating call forwards/transfer permissions for a group default and it's departments.
+ *         The response is either a GroupOutgoingCallingPlanRedirectingGetListResponse or an ErrorResponse.
  *
  * @see GroupOutgoingCallingPlanRedirectingGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:772","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanRedirectingGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class GroupOutgoingCallingPlanRedirectingGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:772
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,7 @@ class GroupOutgoingCallingPlanRedirectingGetListRequest extends \CWM\BroadWorksC
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:772
      * @var string|null
      */
     private $groupId = null;

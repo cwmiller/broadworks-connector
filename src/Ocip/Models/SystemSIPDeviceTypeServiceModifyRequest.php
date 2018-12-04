@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemSIPDeviceTypeServiceModifyRequest
  *
- * Request to set the level of integration that a device type has in relation to
- * BroadWorks services.
+ * Request to set the level of integration that a device type has in relation to BroadWorks services.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:15417","type":"sequence"}]
  */
 class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName deviceType
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15417
      * @var string|null
      */
     private $deviceType = null;
@@ -25,6 +26,8 @@ class SystemSIPDeviceTypeServiceModifyRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName supportsPolycomPhoneServices
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:15417
      * @var bool|null
      */
     private $supportsPolycomPhoneServices = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemScheduleGetListRequest
  *
  * Get the list of a system schedules. The list can be filtered by schedule type.
- *         The response is either a SystemScheduleGetListResponse or an
- * ErrorResponse.
+ *         The response is either a SystemScheduleGetListResponse or an ErrorResponse.
  *
  * @see SystemScheduleGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:13838","type":"sequence"}]
  */
 class SystemScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,8 @@ class SystemScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\
     /**
      * @ElementName scheduleType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:13838
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $scheduleType = null;

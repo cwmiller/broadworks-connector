@@ -6,22 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAnnouncementFileGetResponse
  *
  * Response to UserAnnouncementFileGetRequest.
- *         The response contains the file size (KB), uploaded timestamp,
- * description and usage for 
+ *         The response contains the file size (KB), uploaded timestamp, description and usage for 
  *         an announcement file in the user announcement repository.
  *         The usage table has columns "Service Name", "Criteria Name"
- *         The "Service Name"" values correspond to string values of the
- * UserService data types.
- *         With the exception of the string "Voice Portal" which is returned when
- * the announcement is being used by Voice Portal Personalized Name. 
- *         For Call Center and Route Point users the "Instance Name" column
- * contains the instance id and 
- *         when the announcement is being used by a DNIS, "Intance Name" column
- * contans the instance id and the DNIS id.
- *         For Auto Attendants with submenus and the announcement is used by a
- * submenu the "Instance Name" column will contain the submenu name
+ *         The "Service Name"" values correspond to string values of the UserService data types.
+ *         With the exception of the string "Voice Portal" which is returned when the announcement is being used by Voice Portal Personalized Name. 
+ *         For Call Center and Route Point users the "Instance Name" column contains the instance id and 
+ *         when the announcement is being used by a DNIS, "Intance Name" column contans the instance id and the DNIS id.
+ *         For Auto Attendants with submenus and the announcement is used by a submenu the "Instance Name" column will contain the submenu name
  *
  * @see UserAnnouncementFileGetRequest
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:555","type":"sequence"}]
  */
 class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -29,6 +24,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName description
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:555
      * @var string|null
      */
     private $description = null;
@@ -36,6 +32,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName filesize
      * @Type int
+     * @Group 489b2153267470be8e945bf6b778e0d0:555
      * @var int|null
      */
     private $filesize = null;
@@ -43,6 +40,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName lastUploaded
      * @Type string
+     * @Group 489b2153267470be8e945bf6b778e0d0:555
      * @var string|null
      */
     private $lastUploaded = null;
@@ -50,6 +48,7 @@ class UserAnnouncementFileGetResponse extends \CWM\BroadWorksConnector\Ocip\Mode
     /**
      * @ElementName usageTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 489b2153267470be8e945bf6b778e0d0:555
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $usageTable = null;

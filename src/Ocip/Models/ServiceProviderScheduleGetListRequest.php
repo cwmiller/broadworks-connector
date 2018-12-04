@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderScheduleGetListRequest
  *
- * Get the list of a service provider schedules. The list can be filtered by
- * schedule type.
- *         The response is either a ServiceProviderScheduleGetListResponse or an
- * ErrorResponse.
+ * Get the list of a service provider schedules. The list can be filtered by schedule type.
+ *         The response is either a ServiceProviderScheduleGetListResponse or an ErrorResponse.
  *
  * @see ServiceProviderScheduleGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4811","type":"sequence"}]
  */
 class ServiceProviderScheduleGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderScheduleGetListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4811
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,8 @@ class ServiceProviderScheduleGetListRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName scheduleType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ScheduleType
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4811
      * @var \CWM\BroadWorksConnector\Ocip\Models\ScheduleType|null
      */
     private $scheduleType = null;

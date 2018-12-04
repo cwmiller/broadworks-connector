@@ -6,13 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupGroupPagingGetAvailableTargetListRequest
  *
  * Get a list of users that can be assigned as targets to a given paging group.
- *         Searching for users by group only makes sense when the paging group is
- * part of an Enterprise.
- *         The response is either GroupGroupPagingGetAvailableTargetListResponse or
- * ErrorResponse.
+ *         Searching for users by group only makes sense when the paging group is part of an Enterprise.
+ *         The response is either GroupGroupPagingGetAvailableTargetListResponse or ErrorResponse.
  *
  * @see GroupGroupPagingGetAvailableTargetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"76de8409eddf3e150e3b79f9c41e6cc0:213","type":"sequence"}]
  */
 class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +19,7 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:213
      * @var string|null
      */
     private $serviceUserId = null;
@@ -27,6 +27,8 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:213
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -35,6 +37,8 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -45,6 +49,8 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -54,6 +60,8 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -61,6 +69,8 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName searchCriteriaExactUserGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserGroup|null
      */
     private $searchCriteriaExactUserGroup = null;
@@ -69,6 +79,8 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -79,6 +91,8 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -89,6 +103,8 @@ class GroupGroupPagingGetAvailableTargetListRequest extends \CWM\BroadWorksConne
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 76de8409eddf3e150e3b79f9c41e6cc0:213
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(

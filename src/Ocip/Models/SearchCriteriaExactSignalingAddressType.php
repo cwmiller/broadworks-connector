@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SearchCriteriaExactSignalingAddressType
  *
  * Criteria for searching for a particular fully specified SignalingAddressType.
+ *
+ * @Groups [{"id":"d37849f5e289836ccd316323a7a3799a:1067","type":"sequence"}]
  */
 class SearchCriteriaExactSignalingAddressType extends SearchCriteria
 {
@@ -13,6 +15,7 @@ class SearchCriteriaExactSignalingAddressType extends SearchCriteria
     /**
      * @ElementName profile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType
+     * @Group d37849f5e289836ccd316323a7a3799a:1067
      * @var \CWM\BroadWorksConnector\Ocip\Models\SignalingAddressType|null
      */
     private $profile = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupInventoryReportGetRequest
  *
  * Request the group's inventory report.
- *         The response is either a GroupInventoryReportGetResponse or an
- * ErrorResponse.
+ *         The response is either a GroupInventoryReportGetResponse or an ErrorResponse.
  *
  * @see GroupInventoryReportGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"2878f00c36207d82fdd6133ab70c3d87:42","type":"sequence"}]
  */
 class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:42
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:42
      * @var string|null
      */
     private $groupId = null;
@@ -32,6 +34,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeUsers
      * @Type bool
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:42
      * @var bool|null
      */
     private $includeUsers = null;
@@ -39,6 +42,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeServices
      * @Type bool
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:42
      * @var bool|null
      */
     private $includeServices = null;
@@ -46,6 +50,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeDns
      * @Type bool
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:42
      * @var bool|null
      */
     private $includeDns = null;
@@ -53,6 +58,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeAccessDevices
      * @Type bool
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:42
      * @var bool|null
      */
     private $includeAccessDevices = null;
@@ -60,6 +66,7 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName includeDepartments
      * @Type bool
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:42
      * @var bool|null
      */
     private $includeDepartments = null;
@@ -67,6 +74,8 @@ class GroupInventoryReportGetRequest extends \CWM\BroadWorksConnector\Ocip\Model
     /**
      * @ElementName reportDeliveryEmailAddress
      * @Type string
+     * @Optional
+     * @Group 2878f00c36207d82fdd6133ab70c3d87:42
      * @var string|null
      */
     private $reportDeliveryEmailAddress = null;

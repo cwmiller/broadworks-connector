@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserAssignedServicesGetListRequest
  *
  * Get the list of assigned User and Group Services for the specified user.
- *         The response is either an UserAssignedServicesGetListResponse or an
- * ErrorResponse.
+ *         The response is either an UserAssignedServicesGetListResponse or an ErrorResponse.
  *
  * @see UserAssignedServicesGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"489b2153267470be8e945bf6b778e0d0:632","type":"sequence"}]
  */
 class UserAssignedServicesGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,8 @@ class UserAssignedServicesGetListRequest extends \CWM\BroadWorksConnector\Ocip\M
     /**
      * @ElementName userId
      * @Type string
+     * @Optional
+     * @Group 489b2153267470be8e945bf6b778e0d0:632
      * @var string|null
      */
     private $userId = null;

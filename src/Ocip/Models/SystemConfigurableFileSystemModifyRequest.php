@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5903","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:5905","type":"choice","optional":true,"children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:5909","type":"sequence"},{"id":"610f84d3e188f0477c3ae1a82ee036da:5917","type":"sequence"}]}]}]
  */
 class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName mediaDirectory
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5903
      * @var string|null
      */
     private $mediaDirectory = null;
@@ -24,6 +27,7 @@ class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName protocolFile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolFile
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5905
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolFile|null
      */
     private $protocolFile = null;
@@ -31,6 +35,7 @@ class SystemConfigurableFileSystemModifyRequest extends \CWM\BroadWorksConnector
     /**
      * @ElementName protocolWebDAV
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolWebDAV
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5905
      * @var \CWM\BroadWorksConnector\Ocip\Models\SystemConfigurableFileSystemModifyRequestProtocolWebDAV|null
      */
     private $protocolWebDAV = null;

@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SystemLocationBasedCallingRestrictionsGetRequest
  * @see SystemLocationBasedCallingRestrictionsGetResponse17sp3
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:22841","type":"sequence"}]
  */
 class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName physicalLocationIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22841
      * @var \CWM\BroadWorksConnector\Ocip\Models\PhysicalLocationIndicator|null
      */
     private $physicalLocationIndicator = null;
@@ -25,6 +27,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enforceMscValidation
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22841
      * @var bool|null
      */
     private $enforceMscValidation = null;
@@ -32,6 +35,7 @@ class SystemLocationBasedCallingRestrictionsGetResponse extends \CWM\BroadWorksC
     /**
      * @ElementName enableOfficeZoneAnnouncement
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:22841
      * @var bool|null
      */
     private $enableOfficeZoneAnnouncement = null;

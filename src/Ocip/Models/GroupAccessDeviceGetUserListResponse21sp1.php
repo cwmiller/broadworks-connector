@@ -6,22 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupAccessDeviceGetUserListResponse21sp1
  *
  * Response to GroupAccessDeviceGetUserListRequest21sp1.
- *         The column headings for the deviceUserTable are: "Line/Port", "Last
- * Name",
- *         "First Name", "Phone Number", "User Id", "User Type", "Endpoint Type",
- * "Order", "Primary Line/Port", "Extension", "Department", "Email Address",
- * "Private Identity".
- *         In IMS mode, the table will contain a row for each TEL-URI in the Phone
- * Number column.
+ *         The column headings for the deviceUserTable are: "Line/Port", "Last Name",
+ *         "First Name", "Phone Number", "User Id", "User Type", "Endpoint Type", "Order", "Primary Line/Port", "Extension", "Department", "Email Address", "Private Identity".
+ *         In IMS mode, the table will contain a row for each TEL-URI in the Phone Number column.
  *         In Standalone mode, rows for the alternate numbers are not included.
  *         The User Type column contains one of the enumerated UserType values.
- *         The Endpoint Type column contains one of the enumerated
- * EndpointType21sp1 values.
- *         The value Mobility in Endpoint Type column is only applicable in AS data
- * mode.
+ *         The Endpoint Type column contains one of the enumerated EndpointType21sp1 values.
+ *         The value Mobility in Endpoint Type column is only applicable in AS data mode.
  *         The Private Identity column is empty is AS mode.
  *
  * @see GroupAccessDeviceGetUserListRequest21sp1
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:801","type":"sequence"}]
  */
 class GroupAccessDeviceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -29,6 +24,7 @@ class GroupAccessDeviceGetUserListResponse21sp1 extends \CWM\BroadWorksConnector
     /**
      * @ElementName deviceUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:801
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $deviceUserTable = null;

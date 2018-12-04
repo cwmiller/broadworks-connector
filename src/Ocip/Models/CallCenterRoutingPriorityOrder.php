@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterRoutingPriorityOrder
  *
  * Call center routing order
+ *
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6792","type":"sequence"}]
  */
 class CallCenterRoutingPriorityOrder
 {
@@ -13,6 +15,7 @@ class CallCenterRoutingPriorityOrder
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6792
      * @var string|null
      */
     private $serviceUserId = null;
@@ -20,6 +23,7 @@ class CallCenterRoutingPriorityOrder
     /**
      * @ElementName priority
      * @Type float
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6792
      * @var float|null
      */
     private $priority = null;

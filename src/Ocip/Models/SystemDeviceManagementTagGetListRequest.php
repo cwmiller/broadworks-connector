@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * SystemDeviceManagementTagGetListRequest
  *
- * Request to get the list of custom configuration tags managed by the Device
- * Management System.
- *         The response is either SystemDeviceManagementTagGetListResponse or
- * ErrorResponse.
+ * Request to get the list of custom configuration tags managed by the Device Management System.
+ *         The response is either SystemDeviceManagementTagGetListResponse or ErrorResponse.
  *
  * @see SystemDeviceManagementTagGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:6881","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:6882","type":"choice"}]}]
  */
 class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName systemDefaultTagSet
      * @Type bool
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6882
      * @var bool|null
      */
     private $systemDefaultTagSet = null;
@@ -26,6 +26,7 @@ class SystemDeviceManagementTagGetListRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName tagSetName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:6882
      * @var string|null
      */
     private $tagSetName = null;

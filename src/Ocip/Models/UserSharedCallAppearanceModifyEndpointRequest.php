@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserSharedCallAppearanceModifyEndpointRequest
  *
- * Associate/Disassociate an access device instance to the user's Shared Call
- * Appearance.
+ * Associate/Disassociate an access device instance to the user's Shared Call Appearance.
  *          The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"aed5e8b28baf936d317b8fc1c8b5e92f:164","type":"sequence"}]
  */
 class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:164
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,7 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName accessDeviceEndpoint
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:164
      * @var \CWM\BroadWorksConnector\Ocip\Models\AccessDeviceEndpointKey|null
      */
     private $accessDeviceEndpoint = null;
@@ -32,6 +34,8 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:164
      * @var bool|null
      */
     private $isActive = null;
@@ -39,6 +43,8 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName allowOrigination
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:164
      * @var bool|null
      */
     private $allowOrigination = null;
@@ -46,6 +52,8 @@ class UserSharedCallAppearanceModifyEndpointRequest extends \CWM\BroadWorksConne
     /**
      * @ElementName allowTermination
      * @Type bool
+     * @Optional
+     * @Group aed5e8b28baf936d317b8fc1c8b5e92f:164
      * @var bool|null
      */
     private $allowTermination = null;

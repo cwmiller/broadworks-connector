@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Request to modify a static configuration tag for a system access device.
  *
- *         The following elements are only used in XS data mode and ignored in AS
- * data mode:
+ *         The following elements are only used in XS data mode and ignored in AS data mode:
  *           tagValueToEncrypt
  *           
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:741","type":"sequence","children":[{"id":"610f84d3e188f0477c3ae1a82ee036da:744","type":"choice"}]}]
  */
 class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -22,6 +22,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName deviceName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:741
      * @var string|null
      */
     private $deviceName = null;
@@ -29,6 +30,7 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
     /**
      * @ElementName tagName
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:741
      * @var string|null
      */
     private $tagName = null;
@@ -37,6 +39,8 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName tagValue
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:744
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValue = null;
@@ -45,6 +49,8 @@ class SystemAccessDeviceCustomTagModifyRequest extends \CWM\BroadWorksConnector\
      * @ElementName tagValueToEncrypt
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:744
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $tagValueToEncrypt = null;

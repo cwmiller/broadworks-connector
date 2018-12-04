@@ -6,19 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseUserCallingPlanSettingsGetListRequest
  *
  * Get a list of users and the default or custom calling plan setting.
- *         The response is either EnterpriseUserCallingPlanSettingsGetListResponse
- * or ErrorResponse.
- *         By default, virtual users and non-virtual users that match the selected
- * search criteria are included in the response when "includeVirtualUsers" is
- * present; otherwise, if "includeVirtualUsers" is absent, then only non-virtual
- * users are returned. 
- *         The search can be performed using multiple criteria. If search criteria
- * is specified, only the users matching all of the specified search criteria are
- * included in the response. If no search criteria is specified, all results are
- * returned.
+ *         The response is either EnterpriseUserCallingPlanSettingsGetListResponse or ErrorResponse.
+ *         By default, virtual users and non-virtual users that match the selected search criteria are included in the response when "includeVirtualUsers" is present; otherwise, if "includeVirtualUsers" is absent, then only non-virtual users are returned. 
+ *         The search can be performed using multiple criteria. If search criteria is specified, only the users matching all of the specified search criteria are included in the response. If no search criteria is specified, all results are returned.
  *
  * @see EnterpriseUserCallingPlanSettingsGetListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"b561eca19800e0898f471e5e91eb3baa:1154","type":"sequence","children":[{"id":"b561eca19800e0898f471e5e91eb3baa:1158","type":"choice"}]}]
  */
 class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -26,6 +20,7 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -33,6 +28,7 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName callingPlanService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallingPlanService
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallingPlanService|null
      */
     private $callingPlanService = null;
@@ -40,6 +36,7 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName responsePagingControl
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\ResponsePagingControl|null
      */
     private $responsePagingControl = null;
@@ -47,6 +44,7 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName
+     * @Group b561eca19800e0898f471e5e91eb3baa:1158
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserLastName|null
      */
     private $sortByUserLastName = null;
@@ -54,6 +52,7 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName
+     * @Group b561eca19800e0898f471e5e91eb3baa:1158
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserFirstName|null
      */
     private $sortByUserFirstName = null;
@@ -61,6 +60,7 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment
+     * @Group b561eca19800e0898f471e5e91eb3baa:1158
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByUserDepartment|null
      */
     private $sortByUserDepartment = null;
@@ -68,6 +68,7 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByDn
+     * @Group b561eca19800e0898f471e5e91eb3baa:1158
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByDn|null
      */
     private $sortByDn = null;
@@ -75,6 +76,7 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByExtension
+     * @Group b561eca19800e0898f471e5e91eb3baa:1158
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByExtension|null
      */
     private $sortByExtension = null;
@@ -82,6 +84,7 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName sortByGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SortByGroupId
+     * @Group b561eca19800e0898f471e5e91eb3baa:1158
      * @var \CWM\BroadWorksConnector\Ocip\Models\SortByGroupId|null
      */
     private $sortByGroupId = null;
@@ -89,6 +92,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName includeVirtualUsers
      * @Type bool
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var bool|null
      */
     private $includeVirtualUsers = null;
@@ -97,6 +102,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -107,6 +114,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -117,6 +126,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -127,6 +138,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -137,6 +150,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -147,6 +162,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
      * @ElementName searchCriteriaEmailAddress
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress
      * @Array
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaEmailAddress[]
      */
     private $searchCriteriaEmailAddress = array(
@@ -156,6 +173,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -163,6 +182,8 @@ class EnterpriseUserCallingPlanSettingsGetListRequest extends \CWM\BroadWorksCon
     /**
      * @ElementName searchCriteriaExactUserInTrunkGroup
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup
+     * @Optional
+     * @Group b561eca19800e0898f471e5e91eb3baa:1154
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserInTrunkGroup|null
      */
     private $searchCriteriaExactUserInTrunkGroup = null;

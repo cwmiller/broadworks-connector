@@ -6,14 +6,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserShInterfaceGetPublicIdDataResponse
  *
  * Response to the UserShInterfaceGetPublicIdDataRequest.
- *         The response contains the Sh non-transparent data for the specified
- * Public User Identity.
+ *         The response contains the Sh non-transparent data for the specified Public User Identity.
  *         The data also includes a userId, userType, and endpointType.
  *         
  *         Replaced by: UserShInterfaceGetPublicIdDataResponse21sp1.
  *
  * @see UserShInterfaceGetPublicIdDataRequest
  * @see UserShInterfaceGetPublicIdDataResponse21sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:5652","type":"sequence"}]
  */
 class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +21,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +29,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName userType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserType
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserType|null
      */
     private $userType = null;
@@ -35,6 +37,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName endpointType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\EndpointType
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
      * @var \CWM\BroadWorksConnector\Ocip\Models\EndpointType|null
      */
     private $endpointType = null;
@@ -42,6 +45,8 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName SCSCFName
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
      * @var string|null
      */
     private $SCSCFName = null;
@@ -49,6 +54,7 @@ class UserShInterfaceGetPublicIdDataResponse extends \CWM\BroadWorksConnector\Oc
     /**
      * @ElementName IMSUserState
      * @Type \CWM\BroadWorksConnector\Ocip\Models\IMSUserState
+     * @Group 499b56264fbe226bfef3c338c8d4750d:5652
      * @var \CWM\BroadWorksConnector\Ocip\Models\IMSUserState|null
      */
     private $IMSUserState = null;

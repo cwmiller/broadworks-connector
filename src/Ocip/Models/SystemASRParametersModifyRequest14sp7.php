@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:1957","type":"sequence"}]
  */
 class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,8 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName maxTransmissions
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1957
      * @var int|null
      */
     private $maxTransmissions = null;
@@ -24,6 +27,8 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName retransmissionDelayMilliSeconds
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1957
      * @var int|null
      */
     private $retransmissionDelayMilliSeconds = null;
@@ -31,6 +36,8 @@ class SystemASRParametersModifyRequest14sp7 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName listeningPort
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:1957
      * @var int|null
      */
     private $listeningPort = null;

@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the GroupRoutePointForcedForwardingGetRequest.
  *
  * @see GroupRoutePointForcedForwardingGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:10346","type":"sequence"}]
  */
 class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,7 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName isActive
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var bool|null
      */
     private $isActive = null;
@@ -22,6 +24,8 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName forwardToPhoneNumber
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var string|null
      */
     private $forwardToPhoneNumber = null;
@@ -29,6 +33,7 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName playAnnouncementBeforeForwarding
      * @Type bool
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var bool|null
      */
     private $playAnnouncementBeforeForwarding = null;
@@ -36,6 +41,7 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $audioMessageSelection = null;
@@ -43,6 +49,8 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $audioUrlList = null;
@@ -50,6 +58,8 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     private $audioFileList = null;
@@ -57,6 +67,8 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName audioMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     private $audioMediaTypeList = null;
@@ -64,6 +76,7 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoMessageSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var \CWM\BroadWorksConnector\Ocip\Models\ExtendedFileResourceSelection|null
      */
     private $videoMessageSelection = null;
@@ -71,6 +84,8 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoUrlList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementURLList|null
      */
     private $videoUrlList = null;
@@ -78,6 +93,8 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoFileList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementDescriptionList|null
      */
     private $videoFileList = null;
@@ -85,6 +102,8 @@ class GroupRoutePointForcedForwardingGetResponse extends \CWM\BroadWorksConnecto
     /**
      * @ElementName videoMediaTypeList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:10346
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementMediaFileTypeList|null
      */
     private $videoMediaTypeList = null;

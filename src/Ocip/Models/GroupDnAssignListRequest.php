@@ -5,15 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupDnAssignListRequest
  *
- * Assign a list of service provider DNs to a group. It is possible to assign
- * either: a single DN,
+ * Assign a list of service provider DNs to a group. It is possible to assign either: a single DN,
  *         or a list of DNs, or a range of DNs, or any combination thereof.
- *         The DNs must have previously been added to the service provider or
- * enterprise.
+ *         The DNs must have previously been added to the service provider or enterprise.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:3992","type":"sequence"}]
  */
 class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -21,6 +20,7 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3992
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -28,6 +28,7 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3992
      * @var string|null
      */
     private $groupId = null;
@@ -36,6 +37,8 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName phoneNumber
      * @Type string
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3992
      * @var string[]
      */
     private $phoneNumber = array(
@@ -46,6 +49,8 @@ class GroupDnAssignListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OC
      * @ElementName dnRange
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DNRange
      * @Array
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:3992
      * @var \CWM\BroadWorksConnector\Ocip\Models\DNRange[]
      */
     private $dnRange = array(

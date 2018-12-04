@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to PublicClusterGetFullyQualifiedDomainNameRequest.
  *
  * @see PublicClusterGetFullyQualifiedDomainNameRequest
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:473","type":"sequence"}]
  */
 class PublicClusterGetFullyQualifiedDomainNameResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class PublicClusterGetFullyQualifiedDomainNameResponse extends \CWM\BroadWorksCo
     /**
      * @ElementName publicClusterFQDN
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:473
      * @var string|null
      */
     private $publicClusterFQDN = null;

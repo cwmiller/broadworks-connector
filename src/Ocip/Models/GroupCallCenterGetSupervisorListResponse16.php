@@ -11,6 +11,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         "Phone Number", "Extension", "Department", "Email Address".
  *
  * @see GroupCallCenterGetSupervisorListRequest16
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:4304","type":"sequence"}]
  */
 class GroupCallCenterGetSupervisorListResponse16 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +19,7 @@ class GroupCallCenterGetSupervisorListResponse16 extends \CWM\BroadWorksConnecto
     /**
      * @ElementName supervisorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:4304
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $supervisorTable = null;

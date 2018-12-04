@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CallCenterMusicOnHoldSourceRead
  *
  * Contains the music on hold source configuration.
+ *
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:38509","type":"sequence","children":[{"id":"1a79c7896cb04feac6eff47a5321756e:38515","type":"sequence"}]}]
  */
 class CallCenterMusicOnHoldSourceRead
 {
@@ -13,6 +15,7 @@ class CallCenterMusicOnHoldSourceRead
     /**
      * @ElementName audioFilePreferredCodec
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38509
      * @var \CWM\BroadWorksConnector\Ocip\Models\AudioFileCodec|null
      */
     private $audioFilePreferredCodec = null;
@@ -20,6 +23,7 @@ class CallCenterMusicOnHoldSourceRead
     /**
      * @ElementName messageSourceSelection
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38509
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterAnnouncementSelection|null
      */
     private $messageSourceSelection = null;
@@ -27,6 +31,8 @@ class CallCenterMusicOnHoldSourceRead
     /**
      * @ElementName customSource
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceReadCustomSource
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:38509
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallCenterMusicOnHoldSourceReadCustomSource|null
      */
     private $customSource = null;

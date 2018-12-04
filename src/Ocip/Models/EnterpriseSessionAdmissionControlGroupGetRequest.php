@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * EnterpriseSessionAdmissionControlGroupGetRequest
  *
  * Request to get a session admission control group for the enterprise.
- *         The response is either an
- * EnterpriseSessionAdmissionControlGroupGetResponse or an ErrorResponse.
+ *         The response is either an EnterpriseSessionAdmissionControlGroupGetResponse or an ErrorResponse.
  *
  * @see EnterpriseSessionAdmissionControlGroupGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1628","type":"sequence"}]
  */
 class EnterpriseSessionAdmissionControlGroupGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class EnterpriseSessionAdmissionControlGroupGetRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1628
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -25,6 +26,7 @@ class EnterpriseSessionAdmissionControlGroupGetRequest extends \CWM\BroadWorksCo
     /**
      * @ElementName name
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1628
      * @var string|null
      */
     private $name = null;

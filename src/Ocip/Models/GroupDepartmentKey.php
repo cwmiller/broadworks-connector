@@ -6,9 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDepartmentKey
  *
  * Uniquely identifies a department defined within a group.
- *         To uniquely identify a group department, we must know the department
- * name and which
+ *         To uniquely identify a group department, we must know the department name and which
  *         group contains the department.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:2070","type":"sequence"}]
  */
 class GroupDepartmentKey extends DepartmentKey
 {
@@ -16,6 +17,7 @@ class GroupDepartmentKey extends DepartmentKey
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2070
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -23,6 +25,7 @@ class GroupDepartmentKey extends DepartmentKey
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2070
      * @var string|null
      */
     private $groupId = null;
@@ -30,6 +33,7 @@ class GroupDepartmentKey extends DepartmentKey
     /**
      * @ElementName name
      * @Type string
+     * @Group 18b369af88e42ffdb4166615c670ce2c:2070
      * @var string|null
      */
     private $name = null;

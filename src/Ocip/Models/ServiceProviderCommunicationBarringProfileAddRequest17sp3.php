@@ -6,22 +6,20 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringProfileAddRequest17sp3
  *
  * Add a new Communication Barring Profile.
- *         The priorities for OriginatingRules, RedirectingRules, CallMeNowRules
- * and IncomingRules are requantized to consecutive integers as part of the add.
+ *         The priorities for OriginatingRules, RedirectingRules, CallMeNowRules and IncomingRules are requantized to consecutive integers as part of the add.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *         The following elements are only used in AS data mode:
  *            callMeNowDefaultAction, use value "Block" in XS data mode
- *         The following elements are only used in AS data mode and ignored in XS
- * data mode
+ *         The following elements are only used in AS data mode and ignored in XS data mode
  *            callMeNowDefaultCallTimeout
  *            callMeNowRule    
  *            
- *         Replaced By : ServiceProviderCommunicationBarringProfileAddRequest19sp1
- * in AS data mode
+ *         Replaced By : ServiceProviderCommunicationBarringProfileAddRequest19sp1 in AS data mode
  *
  * @see SuccessResponse
  * @see ErrorResponse
  * @see ServiceProviderCommunicationBarringProfileAddRequest19sp1
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2544","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -29,6 +27,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -36,6 +35,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName name
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var string|null
      */
     private $name = null;
@@ -43,6 +43,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var string|null
      */
     private $description = null;
@@ -50,6 +52,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName originatingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringOriginatingAction|null
      */
     private $originatingDefaultAction = null;
@@ -57,6 +60,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName originatingDefaultTreatmentId
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var string|null
      */
     private $originatingDefaultTreatmentId = null;
@@ -64,6 +69,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName originatingDefaultTransferNumber
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var string|null
      */
     private $originatingDefaultTransferNumber = null;
@@ -71,6 +78,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName originatingDefaultCallTimeout
      * @Type int
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var int|null
      */
     private $originatingDefaultCallTimeout = null;
@@ -79,6 +88,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @ElementName originatingRule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalOriginatingRule
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalOriginatingRule[]
      */
     private $originatingRule = array(
@@ -88,6 +99,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName redirectingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringRedirectingAction|null
      */
     private $redirectingDefaultAction = null;
@@ -95,6 +107,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName redirectingDefaultCallTimeout
      * @Type int
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var int|null
      */
     private $redirectingDefaultCallTimeout = null;
@@ -103,6 +117,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @ElementName redirectingRule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalRedirectingRule[]
      */
     private $redirectingRule = array(
@@ -112,6 +128,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName callMeNowDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringCallMeNowAction|null
      */
     private $callMeNowDefaultAction = null;
@@ -119,6 +136,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName callMeNowDefaultCallTimeout
      * @Type int
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var int|null
      */
     private $callMeNowDefaultCallTimeout = null;
@@ -127,6 +146,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @ElementName callMeNowRule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceProviderCommunicationBarringHierarchicalCallMeNowRule[]
      */
     private $callMeNowRule = array(
@@ -136,6 +157,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName incomingDefaultAction
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingAction|null
      */
     private $incomingDefaultAction = null;
@@ -143,6 +165,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName incomingDefaultCallTimeout
      * @Type int
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var int|null
      */
     private $incomingDefaultCallTimeout = null;
@@ -151,6 +175,8 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
      * @ElementName incomingRule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule
      * @Array
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommunicationBarringIncomingRule[]
      */
     private $incomingRule = array(
@@ -160,6 +186,7 @@ class ServiceProviderCommunicationBarringProfileAddRequest17sp3 extends \CWM\Bro
     /**
      * @ElementName becomeDefault
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2544
      * @var bool|null
      */
     private $becomeDefault = null;

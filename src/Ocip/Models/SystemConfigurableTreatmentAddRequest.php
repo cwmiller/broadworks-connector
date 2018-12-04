@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"610f84d3e188f0477c3ae1a82ee036da:5940","type":"sequence"}]
  */
 class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName treatmentId
      * @Type string
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $treatmentId = null;
@@ -24,6 +26,7 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName chargeIndicator
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var \CWM\BroadWorksConnector\Ocip\Models\ChargeIndicator|null
      */
     private $chargeIndicator = null;
@@ -31,6 +34,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName description
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $description = null;
@@ -38,6 +43,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName accessSIPStatusCode
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var int|null
      */
     private $accessSIPStatusCode = null;
@@ -45,6 +52,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName accessSIPStatusMessage
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $accessSIPStatusMessage = null;
@@ -52,6 +61,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName networkSIPStatusCode
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var int|null
      */
     private $networkSIPStatusCode = null;
@@ -59,6 +70,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName networkSIPStatusMessage
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $networkSIPStatusMessage = null;
@@ -66,6 +79,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName q850CauseValue
      * @Type int
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var int|null
      */
     private $q850CauseValue = null;
@@ -73,6 +88,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName q850Text
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $q850Text = null;
@@ -80,6 +97,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName accessTreatmentAudioFile
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $accessTreatmentAudioFile = null;
@@ -87,6 +106,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName accessTreatmentVideoFile
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $accessTreatmentVideoFile = null;
@@ -94,6 +115,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName networkTreatmentAudioFile
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $networkTreatmentAudioFile = null;
@@ -101,6 +124,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName networkTreatmentVideoFile
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $networkTreatmentVideoFile = null;
@@ -108,6 +133,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName cdrTerminationCause
      * @Type string
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var string|null
      */
     private $cdrTerminationCause = null;
@@ -115,6 +142,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName routeAdvance
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var bool|null
      */
     private $routeAdvance = null;
@@ -122,6 +151,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName internalReleaseCause
      * @Type \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var \CWM\BroadWorksConnector\Ocip\Models\InternalReleaseCause16|null
      */
     private $internalReleaseCause = null;
@@ -129,6 +160,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName accessSendReasonHeader
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var bool|null
      */
     private $accessSendReasonHeader = null;
@@ -136,6 +169,8 @@ class SystemConfigurableTreatmentAddRequest extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName networkSendReasonHeader
      * @Type bool
+     * @Optional
+     * @Group 610f84d3e188f0477c3ae1a82ee036da:5940
      * @var bool|null
      */
     private $networkSendReasonHeader = null;

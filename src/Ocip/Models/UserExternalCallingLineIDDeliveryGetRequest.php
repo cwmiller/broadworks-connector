@@ -6,12 +6,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserExternalCallingLineIDDeliveryGetRequest
  *
  * Request the user level data associated with External Calling Line ID Delivery.
- *         The response is either a UserExternalCallingLineIDDeliveryGetResponse or
- * an
+ *         The response is either a UserExternalCallingLineIDDeliveryGetResponse or an
  *         ErrorResponse.
  *
  * @see UserExternalCallingLineIDDeliveryGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1b6889487c7dce40fa2a5591582e1b34:44","type":"sequence"}]
  */
 class UserExternalCallingLineIDDeliveryGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserExternalCallingLineIDDeliveryGetRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1b6889487c7dce40fa2a5591582e1b34:44
      * @var string|null
      */
     private $userId = null;

@@ -5,13 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest
  *
- * Request to modify the service provider level device profile authentication
- * password rule settings. The useServiceProviderSettings element can only be
- * modified by a system administrator or a provisioning administrator.
+ * Request to modify the service provider level device profile authentication password rule settings. The useServiceProviderSettings element can only be modified by a system administrator or a provisioning administrator.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:2368","type":"sequence"}]
  */
 class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +18,7 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +26,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName useServiceProviderSettings
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var bool|null
      */
     private $useServiceProviderSettings = null;
@@ -33,6 +35,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName disallowAuthenticationName
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var bool|null
      */
     private $disallowAuthenticationName = null;
@@ -40,6 +44,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName disallowOldPassword
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var bool|null
      */
     private $disallowOldPassword = null;
@@ -47,6 +53,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName disallowReversedOldPassword
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var bool|null
      */
     private $disallowReversedOldPassword = null;
@@ -54,6 +62,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName restrictMinDigits
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var bool|null
      */
     private $restrictMinDigits = null;
@@ -61,6 +71,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName minDigits
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var int|null
      */
     private $minDigits = null;
@@ -68,6 +80,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName restrictMinUpperCaseLetters
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var bool|null
      */
     private $restrictMinUpperCaseLetters = null;
@@ -75,6 +89,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName minUpperCaseLetters
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var int|null
      */
     private $minUpperCaseLetters = null;
@@ -82,6 +98,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName restrictMinLowerCaseLetters
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var bool|null
      */
     private $restrictMinLowerCaseLetters = null;
@@ -89,6 +107,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName minLowerCaseLetters
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var int|null
      */
     private $minLowerCaseLetters = null;
@@ -96,6 +116,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName restrictMinNonAlphanumericCharacters
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var bool|null
      */
     private $restrictMinNonAlphanumericCharacters = null;
@@ -103,6 +125,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName minNonAlphanumericCharacters
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var int|null
      */
     private $minNonAlphanumericCharacters = null;
@@ -110,6 +134,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName minLength
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var int|null
      */
     private $minLength = null;
@@ -117,6 +143,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName sendPermanentLockoutNotification
      * @Type bool
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var bool|null
      */
     private $sendPermanentLockoutNotification = null;
@@ -125,6 +153,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
      * @ElementName permanentLockoutNotifyEmailAddress
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $permanentLockoutNotifyEmailAddress = null;
@@ -132,6 +162,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName deviceProfileAuthenticationLockoutType
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutType|null
      */
     private $deviceProfileAuthenticationLockoutType = null;
@@ -139,6 +171,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName deviceProfileTemporaryLockoutThreshold
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var int|null
      */
     private $deviceProfileTemporaryLockoutThreshold = null;
@@ -146,6 +180,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName deviceProfileWaitAlgorithm
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutWaitAlgorithmType|null
      */
     private $deviceProfileWaitAlgorithm = null;
@@ -153,6 +189,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName deviceProfileLockoutFixedMinutes
      * @Type \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var \CWM\BroadWorksConnector\Ocip\Models\AuthenticationLockoutFixedWaitTimeMinutes|null
      */
     private $deviceProfileLockoutFixedMinutes = null;
@@ -160,6 +198,8 @@ class ServiceProviderDeviceProfileAuthenticationPasswordRulesModifyRequest exten
     /**
      * @ElementName deviceProfilePermanentLockoutThreshold
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:2368
      * @var int|null
      */
     private $deviceProfilePermanentLockoutThreshold = null;

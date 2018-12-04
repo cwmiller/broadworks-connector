@@ -5,13 +5,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest
  *
- * Delete a list of authorization codes from the group's default or a department.
- * When department is not
+ * Delete a list of authorization codes from the group's default or a department. When department is not
  *         specified, it is for the group default.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:214","type":"sequence"}]
  */
 class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:214
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -26,6 +27,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:214
      * @var string|null
      */
     private $groupId = null;
@@ -33,6 +35,8 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
     /**
      * @ElementName departmentKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey
+     * @Optional
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:214
      * @var \CWM\BroadWorksConnector\Ocip\Models\DepartmentKey|null
      */
     private $departmentKey = null;
@@ -41,6 +45,7 @@ class GroupOutgoingCallingPlanDepartmentAuthorizationCodeDeleteListRequest exten
      * @ElementName code
      * @Type string
      * @Array
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:214
      * @var string[]
      */
     private $code = array(

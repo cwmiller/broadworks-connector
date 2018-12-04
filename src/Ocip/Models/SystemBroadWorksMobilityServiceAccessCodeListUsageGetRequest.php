@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest
  *
  * Get all the Mobile Networks using a given Service Access Code list.
- *         The response is either
- * SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse or ErrorResponse.
+ *         The response is either SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse or ErrorResponse.
  *
  * @see SystemBroadWorksMobilityServiceAccessCodeListUsageGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"5d94cb4fd2bf88ffe6e6d2193917a6ff:1040","type":"sequence"}]
  */
 class SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class SystemBroadWorksMobilityServiceAccessCodeListUsageGetRequest extends \CWM\
     /**
      * @ElementName serviceAccessCodeListName
      * @Type string
+     * @Group 5d94cb4fd2bf88ffe6e6d2193917a6ff:1040
      * @var string|null
      */
     private $serviceAccessCodeListName = null;

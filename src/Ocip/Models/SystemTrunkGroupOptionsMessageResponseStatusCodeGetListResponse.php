@@ -6,10 +6,10 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse
  *
  * Response to the SystemTrunkGroupOptionsMessageResponseStatusCodeGetListRequest.
- *         The response contains of the list of system level successful SIP OPTIONS
- * message respoonse status codes.
+ *         The response contains of the list of system level successful SIP OPTIONS message respoonse status codes.
  *
  * @see SystemTrunkGroupOptionsMessageResponseStatusCodeGetListRequest
+ * @Groups [{"id":"5472d4b45ad0ad56e4f82361e2a66a53:1680","type":"sequence"}]
  */
 class SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -18,6 +18,8 @@ class SystemTrunkGroupOptionsMessageResponseStatusCodeGetListResponse extends \C
      * @ElementName statusCode
      * @Type string
      * @Array
+     * @Optional
+     * @Group 5472d4b45ad0ad56e4f82361e2a66a53:1680
      * @var string[]
      */
     private $statusCode = array(

@@ -17,7 +17,6 @@ use CWM\BroadWorksConnector\Ocip\LoginException;
 use CWM\BroadWorksConnector\Ocip\Models\LoginRequest22V2;
 use CWM\BroadWorksConnector\Ocip\Models\LoginResponse14sp4;
 use CWM\BroadWorksConnector\Ocip\Models\LoginResponse22V2;
-use CWM\BroadWorksConnector\Ocip\Models\LogoutRequest;
 use CWM\BroadWorksConnector\Ocip\Options;
 use CWM\BroadWorksConnector\Ocip\SoapTransport;
 use CWM\BroadWorksConnector\Ocip\TcpTransport;
@@ -152,6 +151,8 @@ use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaSystem;
 use CWM\BroadWorksConnector\Ocip\Traits\OCISchemaUser;
 use CWM\BroadWorksConnector\Ocip\Traits\XSOCI;
 use CWM\BroadWorksConnector\Ocip\UserDetails;
+use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
+use CWM\BroadWorksConnector\Ocip\Validation\Validator;
 use DOMDocument;
 use DOMElement;
 use ReflectionClass;
@@ -483,6 +484,8 @@ class OcipClient
      */
     private function executeCommands(array $commands)
     {
+        $this->validate($commands);
+
         $xml = $this->buildCommandXml($commands);
 
         $response = $this->transport->send($xml->saveXML());
@@ -550,5 +553,18 @@ class OcipClient
         }
 
         return $document;
+    }
+
+    /**
+     * @param $commands
+     * @throws \InvalidArgumentException
+     * @throws \ReflectionException
+     * @throws ValidationException
+     */
+    private function validate($commands)
+    {
+        foreach ($commands as $command) {
+            Validator::validate($command);
+        }
     }
 }

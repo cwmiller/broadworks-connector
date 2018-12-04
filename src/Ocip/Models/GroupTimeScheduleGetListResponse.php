@@ -9,6 +9,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response contains all the group's time schedule name.
  *
  * @see GroupTimeScheduleGetListRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:11324","type":"sequence"}]
  */
 class GroupTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -17,6 +18,8 @@ class GroupTimeScheduleGetListResponse extends \CWM\BroadWorksConnector\Ocip\Mod
      * @ElementName timeSchedule
      * @Type string
      * @Array
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:11324
      * @var string[]
      */
     private $timeSchedule = array(

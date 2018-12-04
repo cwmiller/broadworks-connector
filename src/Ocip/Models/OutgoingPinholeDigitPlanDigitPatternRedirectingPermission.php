@@ -5,8 +5,9 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
  *
- * Indicates whether redirecting calls using specified Pinhole digit patterns are
- * permitted.
+ * Indicates whether redirecting calls using specified Pinhole digit patterns are permitted.
+ *
+ * @Groups [{"id":"8366f5f5d1fbfb9742236aba282c1dab:2355","type":"sequence"}]
  */
 class OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
 {
@@ -14,6 +15,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
     /**
      * @ElementName digitPatternName
      * @Type string
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2355
      * @var string|null
      */
     private $digitPatternName = null;
@@ -21,6 +23,7 @@ class OutgoingPinholeDigitPlanDigitPatternRedirectingPermission
     /**
      * @ElementName permission
      * @Type \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanRedirectingPermission
+     * @Group 8366f5f5d1fbfb9742236aba282c1dab:2355
      * @var \CWM\BroadWorksConnector\Ocip\Models\OutgoingPinholeDigitPlanRedirectingPermission|null
      */
     private $permission = null;

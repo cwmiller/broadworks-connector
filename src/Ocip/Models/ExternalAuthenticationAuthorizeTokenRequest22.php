@@ -7,12 +7,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * This command is part of the Portal API.
  *         Sent when a Web or CLI user logs in using external authentication.
- *         The hashed password value in the request is supported only when the
- * request is sent from the CommPilot web portal.
+ *         The hashed password value in the request is supported only when the request is sent from the CommPilot web portal.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"d83be92ebac098705e715f24f025a9a9:218","type":"sequence"}]
  */
 class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
     /**
      * @ElementName userId
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:218
      * @var string|null
      */
     private $userId = null;
@@ -27,6 +28,8 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
     /**
      * @ElementName password
      * @Type string
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:218
      * @var string|null
      */
     private $password = null;
@@ -34,6 +37,8 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
     /**
      * @ElementName isPasswordHashed
      * @Type bool
+     * @Optional
+     * @Group d83be92ebac098705e715f24f025a9a9:218
      * @var bool|null
      */
     private $isPasswordHashed = null;
@@ -41,6 +46,7 @@ class ExternalAuthenticationAuthorizeTokenRequest22 extends \CWM\BroadWorksConne
     /**
      * @ElementName loginToken
      * @Type string
+     * @Group d83be92ebac098705e715f24f025a9a9:218
      * @var string|null
      */
     private $loginToken = null;

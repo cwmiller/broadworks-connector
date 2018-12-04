@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * CommPilotExpressSRAvailableInOffice
  *
  * CommPilot Express SR Available In Office Settings used in the context of a get.
+ *
+ * @Groups [{"id":"0a20cd20692e84aeff051c5071901f47:34","type":"sequence"}]
  */
 class CommPilotExpressSRAvailableInOffice
 {
@@ -13,6 +15,7 @@ class CommPilotExpressSRAvailableInOffice
     /**
      * @ElementName busySetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection
+     * @Group 0a20cd20692e84aeff051c5071901f47:34
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRRedirection|null
      */
     private $busySetting = null;
@@ -20,6 +23,7 @@ class CommPilotExpressSRAvailableInOffice
     /**
      * @ElementName noAnswerSetting
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer
+     * @Group 0a20cd20692e84aeff051c5071901f47:34
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSRNoAnswer|null
      */
     private $noAnswerSetting = null;
@@ -27,6 +31,7 @@ class CommPilotExpressSRAvailableInOffice
     /**
      * @ElementName incomingCallNotify
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify
+     * @Group 0a20cd20692e84aeff051c5071901f47:34
      * @var \CWM\BroadWorksConnector\Ocip\Models\CommPilotExpressSREmailNotify|null
      */
     private $incomingCallNotify = null;

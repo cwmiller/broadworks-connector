@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to the UserSelectiveCallAcceptanceGetCriteriaRequest21.
  *
  * @see UserSelectiveCallAcceptanceGetCriteriaRequest21
+ * @Groups [{"id":"96f8ef6c412295109568d733c1596c87:154","type":"sequence"}]
  */
 class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName timeSchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule
+     * @Optional
+     * @Group 96f8ef6c412295109568d733c1596c87:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\TimeSchedule|null
      */
     private $timeSchedule = null;
@@ -22,6 +25,8 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName holidaySchedule
      * @Type \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule
+     * @Optional
+     * @Group 96f8ef6c412295109568d733c1596c87:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\HolidaySchedule|null
      */
     private $holidaySchedule = null;
@@ -29,6 +34,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName blacklisted
      * @Type bool
+     * @Group 96f8ef6c412295109568d733c1596c87:154
      * @var bool|null
      */
     private $blacklisted = null;
@@ -36,6 +42,7 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
     /**
      * @ElementName fromDnCriteria
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn
+     * @Group 96f8ef6c412295109568d733c1596c87:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\CriteriaFromDn|null
      */
     private $fromDnCriteria = null;
@@ -44,6 +51,8 @@ class UserSelectiveCallAcceptanceGetCriteriaResponse21 extends \CWM\BroadWorksCo
      * @ElementName callToNumber
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CallToNumber
      * @Array
+     * @Optional
+     * @Group 96f8ef6c412295109568d733c1596c87:154
      * @var \CWM\BroadWorksConnector\Ocip\Models\CallToNumber[]
      */
     private $callToNumber = array(

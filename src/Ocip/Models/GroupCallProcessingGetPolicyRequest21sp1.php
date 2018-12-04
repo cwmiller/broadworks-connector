@@ -9,33 +9,22 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a GroupCallProcessingGetPolicyResponse21sp1 or an
  *         ErrorResponse.
  *         The useGroupCLIDSetting attribute controls the CLID settings 
- *         (clidPolicy,enterpriseCallsCLIDPolicy, groupCallsCLIDPolicy,
- * emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName,
- * allowDepartmentCLIDNameOverride)
+ *         (clidPolicy,enterpriseCallsCLIDPolicy, groupCallsCLIDPolicy, emergencyClidPolicy, allowAlternateNumbersForRedirectingIdentity, useGroupName, allowDepartmentCLIDNameOverride)
  *         The useGroupMediaSetting attribute controls the Media settings 
  *         (medisPolicySelection, supportedMediaSetName)
- *         The useGroupCallLimitsSetting attribute controls the Call Limits
- * settings 
+ *         The useGroupCallLimitsSetting attribute controls the Call Limits settings 
  *         (useMaxSimultaneousCalls, maxSimultaneousCalls, 
- *         useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls,
- * useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes,
- * useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes,
- * useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth,
- * useMaxConcurrentFindMeFollowMeInvocations,
- * maxConcurrentFindMeFollowMeInvocations)
- *         The useGroupTranslationRoutingSetting attribute controls the routing and
- * translation settings 
+ *         useMaxSimultaneousVideoCalls, maxSimultaneousVideoCalls, useMaxCallTimeForAnsweredCalls, maxCallTimeForAnsweredCallsMinutes, useMaxCallTimeForUnansweredCalls, maxCallTimeForUnansweredCallsMinutes, useMaxConcurrentRedirectedCalls, useMaxFindMeFollowMeDepth, maxRedirectionDepth, useMaxConcurrentFindMeFollowMeInvocations, maxConcurrentFindMeFollowMeInvocations)
+ *         The useGroupTranslationRoutingSetting attribute controls the routing and translation settings 
  *         (networkUsageSelection, enforceGroupCallingLineIdentityRestriction, 
- *         allowEnterpriseGroupCallTypingForPrivateDialingPlan,
- * allowEnterpriseGroupCallTypingForPublicDialingPlan,
- * overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan,
- * enableEnterpriseExtensionDialing)
+ *         allowEnterpriseGroupCallTypingForPrivateDialingPlan, allowEnterpriseGroupCallTypingForPublicDialingPlan, overrideCLIDRestrictionForExternalCallsViaPrivateDialingPlan, enableEnterpriseExtensionDialing)
  *          
  *         Replaced by: GroupCallProcessingGetPolicyRequest21sp2
  *
  * @see GroupCallProcessingGetPolicyResponse21sp1
  * @see ErrorResponse
  * @see GroupCallProcessingGetPolicyRequest21sp2
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:6500","type":"sequence"}]
  */
 class GroupCallProcessingGetPolicyRequest21sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -43,6 +32,7 @@ class GroupCallProcessingGetPolicyRequest21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:6500
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -50,6 +40,7 @@ class GroupCallProcessingGetPolicyRequest21sp1 extends \CWM\BroadWorksConnector\
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:6500
      * @var string|null
      */
     private $groupId = null;

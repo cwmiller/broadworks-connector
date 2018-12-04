@@ -5,17 +5,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest
  *
- * Requests a list of groups within a service provider that have a given external
- * system assigned.
- *         It is possible to search by various criteria to restrict the number of
- * rows returned.
+ * Requests a list of groups within a service provider that have a given external system assigned.
+ *         It is possible to search by various criteria to restrict the number of rows returned.
  *         Multiple search criteria are logically ANDed together.
- *         The response is either a
- * ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse or an
- * ErrorResponse.
+ *         The response is either a ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse or an ErrorResponse.
  *
  * @see ServiceProviderRoutePointExternalSystemGetAssignedGroupListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4483","type":"sequence"}]
  */
 class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +20,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +28,7 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
     /**
      * @ElementName externalSystem
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
      * @var string|null
      */
     private $externalSystem = null;
@@ -37,6 +36,8 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -45,6 +46,8 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
      * @ElementName searchCriteriaGroupId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupId[]
      */
     private $searchCriteriaGroupId = array(
@@ -55,6 +58,8 @@ class ServiceProviderRoutePointExternalSystemGetAssignedGroupListRequest extends
      * @ElementName searchCriteriaGroupName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName
      * @Array
+     * @Optional
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4483
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaGroupName[]
      */
     private $searchCriteriaGroupName = array(

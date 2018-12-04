@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderRoutingProfileGetRequest
  *
  * Request the routing profile for the service provider/enterprise.
- *         The response is either a ServiceProviderRoutingProfileGetResponse or an
- * ErrorResponse.
+ *         The response is either a ServiceProviderRoutingProfileGetResponse or an ErrorResponse.
  *
  * @see ServiceProviderRoutingProfileGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:4570","type":"sequence"}]
  */
 class ServiceProviderRoutingProfileGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class ServiceProviderRoutingProfileGetRequest extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:4570
      * @var string|null
      */
     private $serviceProviderId = null;

@@ -6,11 +6,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * UserChargeNumberGetRequest
  *
  * Request the user level data associated with Charge Number.
- *         The response is either a UserChargeNumberGetResponse or an
- * ErrorResponse.
+ *         The response is either a UserChargeNumberGetResponse or an ErrorResponse.
  *
  * @see UserChargeNumberGetResponse
  * @see ErrorResponse
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:34022","type":"sequence"}]
  */
 class UserChargeNumberGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserChargeNumberGetRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\
     /**
      * @ElementName userId
      * @Type string
+     * @Group 1a79c7896cb04feac6eff47a5321756e:34022
      * @var string|null
      */
     private $userId = null;

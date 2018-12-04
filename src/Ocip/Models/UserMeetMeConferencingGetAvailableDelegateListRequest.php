@@ -7,11 +7,11 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Get a list of users that can be assigned as a delegate to a Meet-Me Conference.
  *         Searching for users, who are host on a Meet-Me Conferencing bridge.
- *         The response is either
- * UserMeetMeConferencingGetAvailableDelegateListResponse or ErrorResponse.
+ *         The response is either UserMeetMeConferencingGetAvailableDelegateListResponse or ErrorResponse.
  *
  * @see UserMeetMeConferencingGetAvailableDelegateListResponse
  * @see ErrorResponse
+ * @Groups [{"id":"e51a0a16349851c3fad768a24a35838d:539","type":"sequence"}]
  */
 class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -19,6 +19,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
     /**
      * @ElementName userId
      * @Type string
+     * @Group e51a0a16349851c3fad768a24a35838d:539
      * @var string|null
      */
     private $userId = null;
@@ -26,6 +27,7 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
     /**
      * @ElementName conferenceKey
      * @Type \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey
+     * @Group e51a0a16349851c3fad768a24a35838d:539
      * @var \CWM\BroadWorksConnector\Ocip\Models\MeetMeConferencingConferenceKey|null
      */
     private $conferenceKey = null;
@@ -33,6 +35,8 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:539
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -41,6 +45,8 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:539
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -51,6 +57,8 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:539
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -61,6 +69,8 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:539
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -71,6 +81,8 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:539
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -81,6 +93,8 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:539
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -90,6 +104,8 @@ class UserMeetMeConferencingGetAvailableDelegateListRequest extends \CWM\BroadWo
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group e51a0a16349851c3fad768a24a35838d:539
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;

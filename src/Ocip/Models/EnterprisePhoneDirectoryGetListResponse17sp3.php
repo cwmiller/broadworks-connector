@@ -8,10 +8,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to EnterprisePhoneDirectoryGetListRequest17sp3.
  *         Contains a table with  a row for each phone number and column headings :
  *         "Name", "Number", "Extension", "Mobile", "Email Address", 
- *         "Department", "Hiragana Name", "Group Id", "Yahoo Id", "IMP Id", "Is
- * Virtual On-Net User".
- *         If extended directory information is requested, the following columns
- * are also included:
+ *         "Department", "Hiragana Name", "Group Id", "Yahoo Id", "IMP Id", "Is Virtual On-Net User".
+ *         If extended directory information is requested, the following columns are also included:
  *         "First Name", "Last Name", "User Id", "Pager", "Title", "Time Zone", 
  *         "Location", "Address Line 1", "Address Line 2",
  *         "City", "State", "Zip", "Country".
@@ -20,6 +18,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see EnterprisePhoneDirectoryGetListRequest17sp3
  * @see EnterprisePhoneDirectoryGetListResponse18
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:1586","type":"sequence"}]
  */
 class EnterprisePhoneDirectoryGetListResponse17sp3 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -27,6 +26,7 @@ class EnterprisePhoneDirectoryGetListResponse17sp3 extends \CWM\BroadWorksConnec
     /**
      * @ElementName directoryTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1a79c7896cb04feac6eff47a5321756e:1586
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $directoryTable = null;

@@ -16,6 +16,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:3955","type":"sequence"}]
  */
 class ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +24,7 @@ class ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\B
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3955
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +32,7 @@ class ServiceProviderNetworkClassOfServiceAssignToAllUsersRequest extends \CWM\B
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:3955
      * @var string|null
      */
     private $networkClassOfService = null;

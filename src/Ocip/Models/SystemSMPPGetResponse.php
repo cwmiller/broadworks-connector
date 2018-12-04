@@ -8,6 +8,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * Response to SystemSMPPGetRequest.
  *
  * @see SystemSMPPGetRequest
+ * @Groups [{"id":"1a79c7896cb04feac6eff47a5321756e:28146","type":"sequence"}]
  */
 class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -15,6 +16,8 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName primarySMPPServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28146
      * @var string|null
      */
     private $primarySMPPServerNetAddress = null;
@@ -22,6 +25,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName primarySMPPPort
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28146
      * @var int|null
      */
     private $primarySMPPPort = null;
@@ -29,6 +33,8 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName secondarySMPPServerNetAddress
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28146
      * @var string|null
      */
     private $secondarySMPPServerNetAddress = null;
@@ -36,6 +42,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName secondarySMPPPort
      * @Type int
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28146
      * @var int|null
      */
     private $secondarySMPPPort = null;
@@ -43,6 +50,8 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName systemId
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28146
      * @var string|null
      */
     private $systemId = null;
@@ -50,6 +59,8 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName password
      * @Type string
+     * @Optional
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28146
      * @var string|null
      */
     private $password = null;
@@ -57,6 +68,7 @@ class SystemSMPPGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDa
     /**
      * @ElementName version
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion
+     * @Group 1a79c7896cb04feac6eff47a5321756e:28146
      * @var \CWM\BroadWorksConnector\Ocip\Models\SMPPVersion|null
      */
     private $version = null;

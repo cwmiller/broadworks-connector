@@ -6,17 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * SystemMaliciousCallTraceGetResponse
  *
  * Response to the SystemMaliciousCallTraceGetRequest.
- *         The response contains the Malicious Call Trace system parameters and the
- * list of users
+ *         The response contains the Malicious Call Trace system parameters and the list of users
  *         that use the Malicious Call Trace feature.
  *
  *         The column headings are "Service Provider Id",
- *         "Group Id", "User Id", "Last Name", "First Name", "Phone Number", "Trace
- * Type", "Status",
- *         "Hiragana Last Name" and "Hiragana First Name", "Extension",
- * "Department", "Email Address".
+ *         "Group Id", "User Id", "Last Name", "First Name", "Phone Number", "Trace Type", "Status",
+ *         "Hiragana Last Name" and "Hiragana First Name", "Extension", "Department", "Email Address".
  *
  * @see SystemMaliciousCallTraceGetRequest
+ * @Groups [{"id":"1dd735379d6024e13a98599c2b534f6d:119","type":"sequence"}]
  */
 class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -24,6 +22,7 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName playMCTWarningAnnouncement
      * @Type bool
+     * @Group 1dd735379d6024e13a98599c2b534f6d:119
      * @var bool|null
      */
     private $playMCTWarningAnnouncement = null;
@@ -31,6 +30,7 @@ class SystemMaliciousCallTraceGetResponse extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 1dd735379d6024e13a98599c2b534f6d:119
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $userTable = null;

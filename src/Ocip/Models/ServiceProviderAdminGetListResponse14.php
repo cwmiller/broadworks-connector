@@ -7,13 +7,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to ServiceProviderAdminGetListRequest14.
  *         Contains a 7 column table with column headings "Administrator ID",
- *         "Last Name", "First Name", "Administrator Type", "Language", "Locale"
- * and "Encoding".
+ *         "Last Name", "First Name", "Administrator Type", "Language", "Locale" and "Encoding".
  *         
  *         The following columns are only returned in AS data mode:
  *           "Locale" and "Encoding"
  *
  * @see ServiceProviderAdminGetListRequest14
+ * @Groups [{"id":"8f3ed38751e86ebcc639b5bc5cdef0ec:920","type":"sequence"}]
  */
 class ServiceProviderAdminGetListResponse14 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -21,6 +21,7 @@ class ServiceProviderAdminGetListResponse14 extends \CWM\BroadWorksConnector\Oci
     /**
      * @ElementName serviceProviderAdminTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 8f3ed38751e86ebcc639b5bc5cdef0ec:920
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $serviceProviderAdminTable = null;

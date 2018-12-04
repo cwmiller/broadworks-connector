@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserExecutiveModifyAssistantRequest
  *
- * Request to modify the assistant setting and the list of assistants assigned to
- * an executive user.
+ * Request to modify the assistant setting and the list of assistants assigned to an executive user.
  *         The response is either SuccessResponse or ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"f5d58d7e1c3de827d7f1ff867a413cdd:354","type":"sequence"}]
  */
 class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName userId
      * @Type string
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:354
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,8 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
     /**
      * @ElementName allowOptInOut
      * @Type bool
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:354
      * @var bool|null
      */
     private $allowOptInOut = null;
@@ -33,6 +36,8 @@ class UserExecutiveModifyAssistantRequest extends \CWM\BroadWorksConnector\Ocip\
      * @ElementName assistantUserIdList
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList
      * @Nillable
+     * @Optional
+     * @Group f5d58d7e1c3de827d7f1ff867a413cdd:354
      * @var \CWM\BroadWorksConnector\Ocip\Models\ReplacementUserIdList|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $assistantUserIdList = null;

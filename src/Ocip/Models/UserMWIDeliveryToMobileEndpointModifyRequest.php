@@ -5,12 +5,12 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * UserMWIDeliveryToMobileEndpointModifyRequest
  *
- * Request to modify the user level data associated with MWI Delivery to Mobile
- * Endpoint service.
+ * Request to modify the user level data associated with MWI Delivery to Mobile Endpoint service.
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"c2306c3f9cea4bfa8682bbf7a2c099a0:384","type":"sequence"}]
  */
 class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -18,6 +18,7 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName userId
      * @Type string
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:384
      * @var string|null
      */
     private $userId = null;
@@ -25,6 +26,8 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
     /**
      * @ElementName isActive
      * @Type bool
+     * @Optional
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:384
      * @var bool|null
      */
     private $isActive = null;
@@ -33,6 +36,8 @@ class UserMWIDeliveryToMobileEndpointModifyRequest extends \CWM\BroadWorksConnec
      * @ElementName mobilePhoneNumber
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group c2306c3f9cea4bfa8682bbf7a2c099a0:384
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $mobilePhoneNumber = null;

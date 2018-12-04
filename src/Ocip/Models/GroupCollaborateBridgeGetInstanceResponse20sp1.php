@@ -6,22 +6,17 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupCollaborateBridgeGetInstanceResponse20sp1
  *
  * Response to GroupCollaborateBridgeGetInstanceRequest20sp1.
- *         The system-level collaborate supportOutdial setting is returned in the
- * response when the system-level collaborate 
+ *         The system-level collaborate supportOutdial setting is returned in the response when the system-level collaborate 
  *         supportOutdial setting is disabled. 
  *         Contains the service profile information and a table of assigned owners.
- *         The table has column headings: "User Id", "Last Name", "First Name",
- * "Hiragana Last Name", 
- *         "Hiragana First Name", Phone Number", "Extension", "Department", "Email
- * Address",
- *         "Is Phone Number Activated", "Country Code", "National Prefix",
- * "Department Name",
- *         "Department Type", "Parent Department", "Parent Department Type", "Group
- * Id", "Group Name".
- *         Collaborate bridge maximum participant’s choices unlimited or a
- * quantified number of participants.
+ *         The table has column headings: "User Id", "Last Name", "First Name", "Hiragana Last Name", 
+ *         "Hiragana First Name", Phone Number", "Extension", "Department", "Email Address",
+ *         "Is Phone Number Activated", "Country Code", "National Prefix", "Department Name",
+ *         "Department Type", "Parent Department", "Parent Department Type", "Group Id", "Group Name".
+ *         Collaborate bridge maximum participant’s choices unlimited or a quantified number of participants.
  *
  * @see GroupCollaborateBridgeGetInstanceRequest20sp1
+ * @Groups [{"id":"2f13ead3f217ca6eb3f52b517fb04a6f:301","type":"sequence"}]
  */
 class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -29,6 +24,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName serviceInstanceProfile
      * @Type \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\ServiceInstanceReadProfile19sp1|null
      */
     private $serviceInstanceProfile = null;
@@ -36,6 +32,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName maximumBridgeParticipants
      * @Type \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\CollaborateBridgeMaximumParticipants|null
      */
     private $maximumBridgeParticipants = null;
@@ -43,6 +40,8 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName networkClassOfService
      * @Type string
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:301
      * @var string|null
      */
     private $networkClassOfService = null;
@@ -50,6 +49,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName isDefault
      * @Type bool
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:301
      * @var bool|null
      */
     private $isDefault = null;
@@ -57,6 +57,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName maxCollaborateRoomParticipants
      * @Type int
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:301
      * @var int|null
      */
     private $maxCollaborateRoomParticipants = null;
@@ -64,6 +65,7 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
     /**
      * @ElementName supportOutdial
      * @Type bool
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:301
      * @var bool|null
      */
     private $supportOutdial = null;
@@ -72,6 +74,8 @@ class GroupCollaborateBridgeGetInstanceResponse20sp1 extends \CWM\BroadWorksConn
      * @ElementName collaborateOwnerUserTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
      * @Nillable
+     * @Optional
+     * @Group 2f13ead3f217ca6eb3f52b517fb04a6f:301
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $collaborateOwnerUserTable = null;

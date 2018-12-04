@@ -12,6 +12,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * 		"Location Code".
  *
  * @see UserRoutePointSupervisorGetListRequest
+ * @Groups [{"id":"307cc214f72f448b9a7e28f218444528:1255","type":"sequence"}]
  */
 class UserRoutePointSupervisorGetListResponse extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -19,6 +20,7 @@ class UserRoutePointSupervisorGetListResponse extends \CWM\BroadWorksConnector\O
     /**
      * @ElementName supervisorTable
      * @Type \CWM\BroadWorksConnector\Ocip\Models\C\OCITable
+     * @Group 307cc214f72f448b9a7e28f218444528:1255
      * @var \CWM\BroadWorksConnector\Ocip\Models\C\OCITable|null
      */
     private $supervisorTable = null;

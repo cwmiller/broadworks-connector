@@ -5,17 +5,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
 /**
  * CombinedUserServiceAssignment
  *
- * Assign a service user. If the service has not been authorized to service
- * provider or group, it will
+ * Assign a service user. If the service has not been authorized to service provider or group, it will
  *       be authorized.
  *       
- *       If the service needs to be authorized at group/service provider levels,
- * the authorizedQuantity
- *       will be used. Otherwise, it will be ignored. If the authorizedQuantity is
- * not included, the
- *       quantity will come from the group template for the service. If a template
- * does 
+ *       If the service needs to be authorized at group/service provider levels, the authorizedQuantity
+ *       will be used. Otherwise, it will be ignored. If the authorizedQuantity is not included, the
+ *       quantity will come from the group template for the service. If a template does 
  *       not exist, the service quantity will be set to unlimited.
+ *
+ * @Groups [{"id":"18b369af88e42ffdb4166615c670ce2c:1040","type":"sequence"}]
  */
 class CombinedUserServiceAssignment
 {
@@ -23,6 +21,7 @@ class CombinedUserServiceAssignment
     /**
      * @ElementName userService
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UserService
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1040
      * @var \CWM\BroadWorksConnector\Ocip\Models\UserService|null
      */
     private $userService = null;
@@ -30,6 +29,8 @@ class CombinedUserServiceAssignment
     /**
      * @ElementName authorizedQuantity
      * @Type \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt
+     * @Optional
+     * @Group 18b369af88e42ffdb4166615c670ce2c:1040
      * @var \CWM\BroadWorksConnector\Ocip\Models\UnboundedPositiveInt|null
      */
     private $authorizedQuantity = null;

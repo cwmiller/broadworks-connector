@@ -6,6 +6,8 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ReviewSelectedDistributionListMenuKeysReadEntry
  *
  * The voice portal review selected distribution list menu keys.
+ *
+ * @Groups [{"id":"1624846b7d87d3ab55e907c443fca9d6:2958","type":"sequence"}]
  */
 class ReviewSelectedDistributionListMenuKeysReadEntry
 {
@@ -13,6 +15,7 @@ class ReviewSelectedDistributionListMenuKeysReadEntry
     /**
      * @ElementName interruptPlaybackAndReturnToPreviousMenu
      * @Type string
+     * @Group 1624846b7d87d3ab55e907c443fca9d6:2958
      * @var string|null
      */
     private $interruptPlaybackAndReturnToPreviousMenu = null;

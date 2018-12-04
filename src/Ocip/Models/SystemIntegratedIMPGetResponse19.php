@@ -7,14 +7,14 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * Response to the SystemIntegratedIMPGetRequest19.
  *         The response contains the system Integrated IMP service attributes.
- *         The following elements are only used in AS data mode and not returned in
- * XS data mode:
+ *         The following elements are only used in AS data mode and not returned in XS data mode:
  *           boshURL
  *           
  *         Replaced by: SystemIntegratedIMPGetResponse21 in AS data mode
  *
  * @see SystemIntegratedIMPGetRequest19
  * @see SystemIntegratedIMPGetResponse21
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:3567","type":"sequence"}]
  */
 class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIDataResponse
 {
@@ -22,6 +22,8 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName serviceDomain
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:3567
      * @var string|null
      */
     private $serviceDomain = null;
@@ -29,6 +31,8 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName servicePort
      * @Type int
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:3567
      * @var int|null
      */
     private $servicePort = null;
@@ -36,6 +40,7 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName addServiceProviderInIMPUserId
      * @Type bool
+     * @Group 499b56264fbe226bfef3c338c8d4750d:3567
      * @var bool|null
      */
     private $addServiceProviderInIMPUserId = null;
@@ -43,6 +48,8 @@ class SystemIntegratedIMPGetResponse19 extends \CWM\BroadWorksConnector\Ocip\Mod
     /**
      * @ElementName boshURL
      * @Type string
+     * @Optional
+     * @Group 499b56264fbe226bfef3c338c8d4750d:3567
      * @var string|null
      */
     private $boshURL = null;

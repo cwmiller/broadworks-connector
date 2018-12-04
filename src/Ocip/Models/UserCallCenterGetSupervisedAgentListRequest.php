@@ -10,20 +10,18 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *         The response is either a UserCallCenterGetSupervisedAgentListResponse
  *        or an ErrorResponse.
  *        The search can be done using multiple criterias.
- *        If the searchCriteriaModeOr is present, any result matching any one
- * criteria is included in the results. Otherwise, only
+ *        If the searchCriteriaModeOr is present, any result matching any one criteria is included in the results. Otherwise, only
  *        results matching all the search criterias are included in the results. 
  *        If no search criteria is specified, all results are returned.
- *        In all cases, if a responseSizeLimit is specified and the number of
- * matching results is more than this limit, then an
+ *        In all cases, if a responseSizeLimit is specified and the number of matching results is more than this limit, then an
  *        ErrorResponse is returned.
- *        Specifying searchCriteriaModeOr without any search criteria results in an
- * ErrorResponse.
+ *        Specifying searchCriteriaModeOr without any search criteria results in an ErrorResponse.
  *
  * @see UserCallCenterGetSupervisedAgentListResponse
  * @see ErrorResponse
  * @see ErrorResponse
  * @see ErrorResponse
+ * @Groups [{"id":"69c2aeb1186dc97a4f4c36d9609ddb49:6388","type":"sequence"}]
  */
 class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -31,6 +29,7 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName supervisorUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var string|null
      */
     private $supervisorUserId = null;
@@ -38,6 +37,7 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName serviceUserId
      * @Type string
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var string|null
      */
     private $serviceUserId = null;
@@ -45,6 +45,8 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName responseSizeLimit
      * @Type int
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var int|null
      */
     private $responseSizeLimit = null;
@@ -52,6 +54,8 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName searchCriteriaModeOr
      * @Type bool
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var bool|null
      */
     private $searchCriteriaModeOr = null;
@@ -60,6 +64,8 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaUserLastName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserLastName[]
      */
     private $searchCriteriaUserLastName = array(
@@ -70,6 +76,8 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaUserFirstName
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserFirstName[]
      */
     private $searchCriteriaUserFirstName = array(
@@ -80,6 +88,8 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaDn
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaDn[]
      */
     private $searchCriteriaDn = array(
@@ -90,6 +100,8 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaExtension
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExtension[]
      */
     private $searchCriteriaExtension = array(
@@ -100,6 +112,8 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaUserId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaUserId[]
      */
     private $searchCriteriaUserId = array(
@@ -109,6 +123,8 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
     /**
      * @ElementName searchCriteriaExactUserDepartment
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaExactUserDepartment|null
      */
     private $searchCriteriaExactUserDepartment = null;
@@ -117,6 +133,8 @@ class UserCallCenterGetSupervisedAgentListRequest extends \CWM\BroadWorksConnect
      * @ElementName searchCriteriaImpId
      * @Type \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId
      * @Array
+     * @Optional
+     * @Group 69c2aeb1186dc97a4f4c36d9609ddb49:6388
      * @var \CWM\BroadWorksConnector\Ocip\Models\SearchCriteriaImpId[]
      */
     private $searchCriteriaImpId = array(

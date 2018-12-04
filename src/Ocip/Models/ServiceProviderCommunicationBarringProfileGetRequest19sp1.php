@@ -6,16 +6,15 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * ServiceProviderCommunicationBarringProfileGetRequest19sp1
  *
  * Get an existing Communication Barring Profile.
- *         The response is either a
- * ServiceProviderCommunicationBarringProfileGetResponse19sp1
+ *         The response is either a ServiceProviderCommunicationBarringProfileGetResponse19sp1
  *         or an ErrorResponse.
  *         
- *         Replaced By :
- * ServiceProviderCommunicationBarringProfileGetRequest19sp1V2 in AS data mode
+ *         Replaced By : ServiceProviderCommunicationBarringProfileGetRequest19sp1V2 in AS data mode
  *
  * @see ServiceProviderCommunicationBarringProfileGetResponse19sp1
  * @see ErrorResponse
  * @see ServiceProviderCommunicationBarringProfileGetRequest19sp1V2
+ * @Groups [{"id":"499b56264fbe226bfef3c338c8d4750d:2600","type":"sequence"}]
  */
 class ServiceProviderCommunicationBarringProfileGetRequest19sp1 extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -23,6 +22,7 @@ class ServiceProviderCommunicationBarringProfileGetRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2600
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -30,6 +30,7 @@ class ServiceProviderCommunicationBarringProfileGetRequest19sp1 extends \CWM\Bro
     /**
      * @ElementName name
      * @Type string
+     * @Group 499b56264fbe226bfef3c338c8d4750d:2600
      * @var string|null
      */
     private $name = null;

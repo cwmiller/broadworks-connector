@@ -10,6 +10,7 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"32aa045fae08b992230059afdb58d2a9:66","type":"sequence"}]
  */
 class GroupSeriesCompletionDeleteInstanceRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -17,6 +18,7 @@ class GroupSeriesCompletionDeleteInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName serviceProviderId
      * @Type string
+     * @Group 32aa045fae08b992230059afdb58d2a9:66
      * @var string|null
      */
     private $serviceProviderId = null;
@@ -24,6 +26,7 @@ class GroupSeriesCompletionDeleteInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName groupId
      * @Type string
+     * @Group 32aa045fae08b992230059afdb58d2a9:66
      * @var string|null
      */
     private $groupId = null;
@@ -31,6 +34,7 @@ class GroupSeriesCompletionDeleteInstanceRequest extends \CWM\BroadWorksConnecto
     /**
      * @ElementName name
      * @Type string
+     * @Group 32aa045fae08b992230059afdb58d2a9:66
      * @var string|null
      */
     private $name = null;

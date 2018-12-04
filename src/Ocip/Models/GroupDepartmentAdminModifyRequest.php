@@ -6,13 +6,13 @@ namespace CWM\BroadWorksConnector\Ocip\Models;
  * GroupDepartmentAdminModifyRequest
  *
  * Modify a group department administrator.
- *         Since old password is not specified here, any password rule related to
- * old password
+ *         Since old password is not specified here, any password rule related to old password
  *         does not apply.        
  *         The response is either a SuccessResponse or an ErrorResponse.
  *
  * @see SuccessResponse
  * @see ErrorResponse
+ * @Groups [{"id":"7a7d0e1e7f776baf61f0645bc15cbe16:2889","type":"sequence"}]
  */
 class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Models\C\OCIRequest
 {
@@ -20,6 +20,7 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName userId
      * @Type string
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2889
      * @var string|null
      */
     private $userId = null;
@@ -28,6 +29,8 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName firstName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2889
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $firstName = null;
@@ -36,6 +39,8 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName lastName
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2889
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $lastName = null;
@@ -44,6 +49,8 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
      * @ElementName password
      * @Type string
      * @Nillable
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2889
      * @var string|null|\CWM\BroadWorksConnector\Ocip\Nil
      */
     private $password = null;
@@ -51,6 +58,8 @@ class GroupDepartmentAdminModifyRequest extends \CWM\BroadWorksConnector\Ocip\Mo
     /**
      * @ElementName language
      * @Type string
+     * @Optional
+     * @Group 7a7d0e1e7f776baf61f0645bc15cbe16:2889
      * @var string|null
      */
     private $language = null;

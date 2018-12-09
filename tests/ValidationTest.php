@@ -18,9 +18,9 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
     {
         // setExpectedException is gone from phpunit 5
         if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\ValidationException');
+            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
         } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\ValidationException');
+            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\FieldNotSetException');
         }
 
         $instance = new LoginRequest14sp4();
@@ -39,9 +39,9 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
     {
         // setExpectedException is gone from phpunit 5
         if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\ValidationException');
+            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
         } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\ValidationException');
+            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\ChoiceNotSetException');
         }
 
         $instance = new UserModifyRequest16Endpoint();
@@ -53,9 +53,9 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
     {
         // setExpectedException is gone from phpunit 5
         if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\ValidationException');
+            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
         } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\ValidationException');
+            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
         }
 
         $instance = (new SystemGetRegistrationContactListRequest())
@@ -77,9 +77,9 @@ class ValidationTest extends \PHPUnit\Framework\TestCase
     {
         // setExpectedException is gone from phpunit 5
         if (method_exists($this, 'expectException')) {
-            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\ValidationException');
+            $this->expectException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
         } else {
-            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\ValidationException');
+            $this->setExpectedException('CWM\BroadWorksConnector\Ocip\Validation\InvalidChoiceException');
         }
 
         $instance = (new SystemGetRegistrationContactListRequest())

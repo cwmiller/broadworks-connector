@@ -34,7 +34,7 @@ class Sequence extends Group
             $value = $property->getValue($instance);
 
             if ($value === null) {
-                throw new ValidationException(sprintf('Field "%s" is required.', $requiredPropertyName), ValidationException::REQUIREMENT_NOT_MET);
+                throw new FieldNotSetException($instance, $requiredPropertyName);
             }
         }
 

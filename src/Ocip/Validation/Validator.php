@@ -47,7 +47,7 @@ class Validator
         $annotations = ReflectionUtils::getAnnotations($instance);
 
         if (!isset($annotations['Groups'])) {
-            throw new ValidationException('No @Groups annotation found on object.', ValidationException::INVALID_CONFIGURATION);
+            throw new ConfigurationNotFoundException('No @Groups annotation found on object.');
         }
 
         return self::fromJson($annotations['Groups']);

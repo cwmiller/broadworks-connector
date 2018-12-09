@@ -54,16 +54,21 @@ class Choice extends Group
             return $child instanceof Sequence;
         }));
 
-        $setMembers = array_filter(array_merge($fields, $sequences), function($member) {
+        $members = array_merge($fields, $sequences);
+
+        $setMembers = array_filter($members, function($member) {
             return $member['set'];
         });
 
         if ((count($setMembers) === 0) && !$this->isOptional()) {
-            throw new ValidationException('Choice not made in group ' . $this->getId(), ValidationException::CHOICE_NOT_MET);
+            $options = $this->memberNames($instance, $members);
+            throw new ChoiceNotSetException($instance, $options);
         }
 
         if (count($setMembers) > 1) {
-            throw new ValidationException('Multiple choices made in group ' . $this->getId(), ValidationException::CHOICE_NOT_MET);
+            $options = $this->memberNames($instance, $members);
+            throw new InvalidChoiceException($instance, $options);
+
         }
 
         return true;
@@ -104,5 +109,24 @@ class Choice extends Group
         }
 
         return $set;
+    }
+
+    /**
+     * @param $instance
+     * @param array $members
+     * @return array
+     */
+    private function memberNames($instance, $members)
+    {
+        return array_map(function($member) use ($instance) {
+            if ($member['type'] === 'field') {
+                return $member['name'];
+            } else {
+                /** @var Sequence $sequence */
+                $sequence = $member['sequence'];
+                return ReflectionUtils::getPropertyNamesInGroup($instance, $sequence->getId());
+            }
+
+        }, $members);
     }
 }

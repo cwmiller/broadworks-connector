@@ -155,7 +155,6 @@ use CWM\BroadWorksConnector\Ocip\Validation\ValidationException;
 use CWM\BroadWorksConnector\Ocip\Validation\Validator;
 use DOMDocument;
 use DOMElement;
-use ReflectionClass;
 
 /**
  * Client for BroadWorks OCI-P API
@@ -357,9 +356,9 @@ class OcipClient
     /**
      * @param OCICommand $command
      * @return OCIResponse
-     * @throws BadResponseException
-     * @throws ErrorResponseException
-     * @throws XmlException
+     * @throws \InvalidArgumentException
+     * @throws \ReflectionException
+     * @throws ValidationException
      */
     public function call(OCICommand $command)
     {
@@ -373,9 +372,9 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return OCIResponse[]
-     * @throws BadResponseException
-     * @throws ErrorResponseException
-     * @throws XmlException
+     * @throws \InvalidArgumentException
+     * @throws \ReflectionException
+     * @throws ValidationException
      */
     public function callAll(array $commands)
     {
@@ -404,8 +403,9 @@ class OcipClient
 
     /**
      * @return UserDetails
-     * @throws LoginException
-     * @throws XmlException
+     * @throws \InvalidArgumentException
+     * @throws \ReflectionException
+     * @throws ValidationException
      */
     public function login()
     {
@@ -478,9 +478,9 @@ class OcipClient
     /**
      * @param OCICommand[] $commands
      * @return OCIResponse[]
-     * @throws BadResponseException
-     * @throws ErrorResponseException
-     * @throws XmlException
+     * @throws \InvalidArgumentException
+     * @throws \ReflectionException
+     * @throws ValidationException
      */
     private function executeCommands(array $commands)
     {
